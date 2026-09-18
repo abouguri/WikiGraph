@@ -20,7 +20,8 @@ The real corpus and the authored offline sample are explicitly distinguished.
 | 2:02 | Verified engineering and remaining evaluation limits |
 
 [Desktop evidence screenshot](media/real-evidence.png) ·
-[Mobile screenshot](media/mobile.png) · [Caption transcript](media/chapters.json)
+[Mobile screenshot](media/mobile.png) · [Dense fixture](media/dense-graph.png) ·
+[Caption transcript](media/chapters.json)
 
 To regenerate, install the README's Python and frontend development dependencies,
 Playwright Chromium, and `ffmpeg` on your PATH. Run from the repository root:

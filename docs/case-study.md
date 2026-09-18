@@ -49,7 +49,7 @@ See [query behavior](decisions/004-bounded-query-behavior.md).
 **Browser consistency:** paginated entity loading and delayed responses can
 otherwise make shared selections disappear or overwrite a newly chosen dataset.
 The explorer loads all pages up to its explicit cap and rejects stale dataset,
-search, and evidence responses. Six Chromium flows cover these and the flagship
+search, and evidence responses. Chromium regression flows cover these and the flagship
 search → evidence → path → share workflow.
 
 **Extraction:** conservative linked-target rules are explainable and inexpensive,
@@ -74,7 +74,7 @@ generally. See the [comparison and limitations](neo4j.md).
 | Neighbors p95 | 9.94 ms | Same benchmark configuration |
 | Path p95 | 35.59 ms | One fixed bounded path workload |
 | Server peak RSS | 288,940 KiB | Benchmark process |
-| Automated checks | 48 Python tests, six Chromium flows | Local release verification |
+| Automated checks | 49 Python tests, 15 Chromium tests | Local release verification |
 
 Hardware, cold-query values, distributions, and exact dataset hash are in the
 [benchmark report](../reports/benchmark.json). The

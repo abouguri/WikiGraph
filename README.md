@@ -7,7 +7,7 @@ queries through a typed API, and provides an interactive graph and accessible li
 ![WikiGraph showing Java's real source evidence for James Gosling](docs/media/real-evidence.png)
 
 [Watch the 2:20 walkthrough](docs/media/demo.webm) · [Technical case study](docs/case-study.md) ·
-[Release notes](docs/release-notes.md)
+[Release notes](docs/release-notes.md) · [Visual verification](docs/visual-verification.md)
 
 ## Try it
 
@@ -46,8 +46,9 @@ Alternatively, run `docker compose up --build -d`.
   from factual predicates.
 - Typed search, paginated neighbors, bounded shortest paths, evidence lookup,
   request IDs, metrics, and a per-process request quota.
-- TypeScript/SVG explorer with filters, an evidence panel, shareable selections,
-  keyboard-accessible controls, mobile layout, and an offline sample.
+- Compact TypeScript/SVG workspace with stable graph layout, collision-aware
+  labels, progressive expansion, directional edges, zoom/pan, ranked search,
+  accessible evidence sheets, shareable selections and an offline sample.
 - Python CI and Chromium browser checks, reproducible exports, evaluation tooling,
   and a measured local HTTP benchmark.
 

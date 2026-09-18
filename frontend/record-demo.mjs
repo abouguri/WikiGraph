@@ -71,7 +71,7 @@ try {
         right: "20px",
         bottom: "15px",
         zIndex: "9999",
-        background: "#133f34",
+        background: "#182333",
         color: "#fff",
         padding: "18px 25px",
         borderRadius: "10px",
@@ -94,6 +94,7 @@ try {
     "WikiGraph: explore a real 300-page Wikipedia corpus. Each connection retains its source revision.",
     14,
   );
+  await page.getByRole("tab", { name: "Connections", exact: true }).click();
   await page
     .locator("#connections button")
     .filter({ hasText: "Inspect evidence" })
@@ -123,6 +124,7 @@ try {
   await page.waitForFunction(() =>
     document.querySelector("#status")?.textContent?.startsWith("1 connections"),
   );
+  await page.getByRole("tab", { name: "Connections", exact: true }).click();
   await page
     .locator("#connections button")
     .filter({ hasText: "Inspect evidence" })
@@ -131,6 +133,7 @@ try {
   await page.waitForFunction(() =>
     document.querySelector("#evidence")?.textContent?.includes("James Gosling"),
   );
+  await page.getByRole("tab", { name: "Graph", exact: true }).click();
   await page.evaluate(() => {
     document.getElementById("demo-caption")?.remove();
     window.scrollTo(0, 0);
@@ -144,12 +147,15 @@ try {
     "Java → designed by → James Gosling. The panel shows the actual sentence, source revision, and extraction method.",
     18,
   );
+  await page.locator(".evidence-details summary").click();
   await caption(
     "Factual evidence uses exact offsets into a stored snapshot. Open source revision links back to Wikipedia.",
     14,
   );
+  await page.locator(".evidence-details summary").click();
   await page.locator("#predicate").selectOption("all");
   await page.locator("#direction").selectOption("out");
+  await page.getByRole("button", { name: "Find a path", exact: true }).click();
   await page.locator("#target").selectOption("enwiki-51792");
   await page.locator("#find-path").click();
   await page.waitForFunction(() =>
@@ -182,6 +188,7 @@ try {
   await page.waitForFunction(() =>
     document.querySelector("#status")?.textContent?.startsWith("1 connections"),
   );
+  await page.getByRole("tab", { name: "Connections", exact: true }).click();
   await page
     .locator("#connections button")
     .filter({ hasText: "Inspect evidence" })
@@ -191,8 +198,13 @@ try {
     "Offline teaching examples are synthetic and clearly labeled. They are never presented as Wikipedia evidence.",
     16,
   );
+  await page.keyboard.press("Escape");
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.locator("#connections").scrollIntoViewIfNeeded();
+  await page.getByRole("tab", { name: "Connections", exact: true }).click();
+  await page
+    .getByRole("button", { name: "Inspect evidence", exact: true })
+    .first()
+    .click();
   await page.evaluate(() => document.getElementById("demo-caption")?.remove());
   await page.screenshot({
     path: path.join(output, "mobile.png"),
@@ -202,7 +214,9 @@ try {
     "The connection list provides keyboard actions. The same exploration works on a narrow screen.",
     16,
   );
+  await page.keyboard.press("Escape");
   await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.getByRole("tab", { name: "Graph", exact: true }).click();
   await page.locator(".workspace").scrollIntoViewIfNeeded();
   await caption(
     "Verified engineering: byte-identical rebuilds, bounded queries, typed APIs, and measured latency. Real extraction coverage and independent annotation remain open.",

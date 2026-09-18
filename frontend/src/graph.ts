@@ -157,7 +157,13 @@ export class GraphView {
         this.positions,
         selected,
       );
-    this.svg.dataset.layoutMs = String(performance.now() - started);
+    if (changed) {
+      const elapsed = performance.now() - started;
+      this.svg.dataset.layoutMs = String(elapsed);
+      this.svg.dataset.peakLayoutMs = String(
+        Math.max(elapsed, Number(this.svg.dataset.peakLayoutMs || 0)),
+      );
+    }
     if (reset || !this.svg.childElementCount) this.fit();
     else this.draw();
   }
@@ -228,6 +234,7 @@ export class GraphView {
       const key = [e.subject, e.object].sort().join("|");
       pairs.set(key, [...(pairs.get(key) || []), e]);
     }
+    const edgeLabelRects: Rect[] = [];
     for (const edge of this.edges) {
       const a = coords.get(edge.subject),
         b = coords.get(edge.object);
@@ -295,8 +302,60 @@ export class GraphView {
       title.textContent = `${nodeById.get(edge.subject)?.label} → ${edge.predicate} → ${nodeById.get(edge.object)?.label}`;
       group.append(path, hit, title);
       this.svg.append(group);
+      if (
+        (this.edges.length <= 8 &&
+          (edge.predicate !== "linksTo" || this.pathMode)) ||
+        isActive
+      ) {
+        const relation: Record<string, string> = {
+          linksTo: "links to",
+          designedBy: "designed by",
+          developedBy: "developed by",
+          influencedBy: "influenced by",
+        };
+        const name = relation[edge.predicate] || edge.predicate;
+        const width = this.measure.measureText(name).width + 20;
+        const rect = { x: cx - width / 2, y: cy - 30, width, height: 25 };
+        const clear = [...coords.values()].every(
+          (p) =>
+            !overlaps(rect, {
+              x: p.x - 27,
+              y: p.y - 27,
+              width: 54,
+              height: 54,
+            }),
+        );
+        if (
+          clear &&
+          rect.x > 12 &&
+          rect.y > 62 &&
+          rect.x + width < this.width - 12 &&
+          rect.y + 25 < this.height - 57 &&
+          !edgeLabelRects.some((old) => overlaps(rect, old))
+        ) {
+          edgeLabelRects.push(rect);
+          const label = el("g", { "pointer-events": "none" });
+          label.append(
+            el("rect", {
+              ...rect,
+              rx: 5,
+              fill: isActive ? "#edf2ff" : "#e5f3ee",
+            }),
+          );
+          const text = el("text", {
+            x: cx,
+            y: rect.y + 17,
+            "text-anchor": "middle",
+          });
+          text.style.fontSize = "12px";
+          text.style.fill = isActive ? "#2856d8" : "#07685d";
+          text.textContent = name;
+          label.append(text);
+          this.svg.append(label);
+        }
+      }
     }
-    const labelRects: Rect[] = [];
+    const labelRects: Rect[] = [...edgeLabelRects];
     const obstacles = [...coords].map(([id, p]) => ({
       x: p.x - 20,
       y: p.y - 20,

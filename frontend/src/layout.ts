@@ -13,6 +13,13 @@ export function layout(
   previous: Map<string, Point>,
   anchor: string,
 ): Map<string, Point> {
+  if (ids.length === 2 && previous.size === 0) {
+    const source =
+      links.find((edge) => edge.subject !== edge.object)?.subject || ids[0];
+    return new Map(
+      ids.map((id) => [id, { x: id === source ? -150 : 150, y: 0 }]),
+    );
+  }
   const result = new Map<string, Point>();
   const pinned = new Set(previous.keys());
   const origin = previous.get(anchor) || { x: 0, y: 0 };

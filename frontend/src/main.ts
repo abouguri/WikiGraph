@@ -156,6 +156,7 @@ async function neighbors(id: string, offset = 0): Promise<Neighbors> {
   };
 }
 async function expand(id: string, reset = false) {
+  evidenceGeneration++;
   const current = ++generation;
   message("Loading connections…");
   const offset = reset ? 0 : pages.get(id)?.offset || 0;
@@ -242,7 +243,9 @@ function showEntity(open = false) {
   if (open) openInspector();
 }
 function render(reset = false) {
-  $("selection").textContent = nodeLabel(selected);
+  $("selection").textContent = selected
+    ? nodeLabel(selected)
+    : "Loading your workspace…";
   $("counts").textContent = `${nodes.size} entities · ${edges.size} edges`;
   graphView.update(
     [...nodes.values()],
@@ -508,8 +511,13 @@ async function load() {
   closeInspector();
   activeAssertion = "";
   pathView = false;
+  nodes.clear();
+  edges.clear();
+  selected = "";
+  render(true);
   message("Loading dataset…");
-  $("evidence").textContent = "Select a connection to inspect its evidence.";
+  $("evidence").textContent =
+    "Loading the dataset. Source evidence will appear here.";
   const params = new URLSearchParams(location.search);
   let loaded: Entity[] = [];
   let note = "";
@@ -532,6 +540,16 @@ async function load() {
     } while (loaded.length < total && loaded.length < 1000);
     const health = await get<{ source_kinds: string[] }>("/health");
     if (current !== datasetGeneration) return;
+    const apiOption = mode.querySelector<HTMLOptionElement>(
+      'option[value="api"]',
+    )!;
+    apiOption.textContent =
+      health.source_kinds.every((kind) => kind === "wikipedia") &&
+      health.source_kinds.length
+        ? "Wikipedia corpus"
+        : health.source_kinds.every((kind) => kind === "synthetic")
+          ? "Synthetic server"
+          : "Server dataset";
     note = `Server dataset · ${health.source_kinds.join(", ")} · ${loaded.length} entities`;
     if (total > loaded.length) note += " (destination list limited to 1,000)";
   }
@@ -612,11 +630,14 @@ $("path-toggle").onclick = () => {
 $("close-inspector").onclick = closeInspector;
 $("inspector-backdrop").onclick = closeInspector;
 window.addEventListener("resize", () => {
-  if (
-    !matchMedia("(max-width: 1199px)").matches &&
-    $("inspector").hasAttribute("aria-modal")
+  const compact = matchMedia("(max-width: 1199px)").matches;
+  if (!compact && $("inspector").hasAttribute("aria-modal")) closeInspector();
+  else if (
+    compact &&
+    $("inspector").classList.contains("is-open") &&
+    !$("inspector").hasAttribute("aria-modal")
   )
-    closeInspector();
+    openInspector();
 });
 document.addEventListener("click", (event) => {
   if (!(event.target as Element).closest(".search-wrap"))

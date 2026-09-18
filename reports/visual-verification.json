@@ -1,0 +1,113 @@
+{
+  "measured_at": "2026-09-18T22:42:24.373Z",
+  "platform": "Linux-6.12.88+deb13-amd64-x86_64-with-glibc2.41",
+  "browser_tests": {
+    "startTime": "2026-09-18T22:42:24.373Z",
+    "duration": 11507.830999999998,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "python_tests": 49,
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "captured_states": [
+    "loading",
+    "default",
+    "evidence",
+    "path",
+    "no-results",
+    "error"
+  ],
+  "visual_captures": 24,
+  "dense_fixtures": [
+    {
+      "nodes": 40,
+      "edges": 54
+    },
+    {
+      "nodes": 40,
+      "edges": 120
+    }
+  ],
+  "timings_ms": {
+    "layout_ms": 9.4,
+    "selection_feedback_ms": 5.3,
+    "peak_layout_ms": 11.3
+  },
+  "timing_scope": "Single local Chromium run; layout CPU duration and synchronous selection handler, not end-to-end input-to-paint or hosted latency.",
+  "palette_contrast": [
+    {
+      "element": "Body text",
+      "foreground": "#182333",
+      "background": "#f4f6f9",
+      "ratio": 14.62,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "element": "Muted text",
+      "foreground": "#526176",
+      "background": "#ffffff",
+      "ratio": 6.31,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "element": "Action button",
+      "foreground": "#ffffff",
+      "background": "#2856d8",
+      "ratio": 6.15,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "element": "Factual badge",
+      "foreground": "#08685e",
+      "background": "#edf5f3",
+      "ratio": 6.01,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "element": "Synthetic badge",
+      "foreground": "#805b15",
+      "background": "#fff3da",
+      "ratio": 5.57,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "element": "Reference edge",
+      "foreground": "#64748b",
+      "background": "#fafbfd",
+      "ratio": 4.6,
+      "target": 3,
+      "passed": true
+    }
+  ],
+  "javascript_sha256": "6d277623ead89a2bf1c2f8e44d7ec4b0cb1e72a8c05584ec3e990f2fa6f5c9c8",
+  "limitations": [
+    "Representative screenshot review; no approved pixel-diff baseline",
+    "Palette samples only; not a full accessibility conformance audit",
+    "Three-person usability review pending",
+    "Hosted deployment verification awaits public URL"
+  ]
+}
