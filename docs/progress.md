@@ -1,0 +1,13 @@
+# Implementation progress
+
+This file records verified implementation, not the aspirational targets in the plan.
+
+- [x] Product scope and delivery sequence documented.
+- [ ] Reliable ingestion and offline replay.
+- [ ] Canonical graph and evidence validation.
+- [ ] Factual extraction and evaluation tooling.
+- [ ] Bounded query API.
+- [ ] Accessible explorer.
+- [ ] Reproducible release and measured benchmarks.
+- [ ] Real held-out corpus annotation and independent review.
+- [ ] Hosted demo and three-person usability review.
