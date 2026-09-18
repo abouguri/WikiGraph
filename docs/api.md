@@ -30,3 +30,6 @@ The RDF graph is validated and indexed on startup. A fixed SPARQL template loads
 entities; immutable adjacency indexes serve repeated bounded traversal queries.
 Public callers cannot submit arbitrary SPARQL. Changes require a new export and
 server restart. Keep ingestion separate from this read-only service.
+
+`WIKIGRAPH_RATE_LIMIT` overrides the per-process request quota (positive integer).
+Keep the default for normal use; benchmark runs explicitly record their override.

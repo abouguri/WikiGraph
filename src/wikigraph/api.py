@@ -193,8 +193,13 @@ class QueryStore:
         )
 
 
-def create_app(graph_path: Path | None = None, *, rate_limit: int = 180) -> FastAPI:
+def create_app(graph_path: Path | None = None, *, rate_limit: int | None = None) -> FastAPI:
     graph_path = graph_path or Path(os.environ.get("WIKIGRAPH_GRAPH", "artifacts/demo.ttl"))
+    rate_limit = (
+        rate_limit if rate_limit is not None else int(os.environ.get("WIKIGRAPH_RATE_LIMIT", "180"))
+    )
+    if rate_limit < 1:
+        raise ValueError("Rate limit must be positive")
     store = QueryStore(Graph().parse(graph_path, format="turtle"))
     app = FastAPI(
         title="WikiGraph", version="0.2.0", description="Evidence-backed, bounded graph queries"

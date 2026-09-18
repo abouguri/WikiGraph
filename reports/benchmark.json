@@ -1,0 +1,51 @@
+{
+  "dataset": "data/wikipedia/graph.ttl",
+  "sha256": "03c4679e66d6e3d36592916d72a6b0f509269159590c369e48e0ee2432c1b6b5",
+  "dataset_counts": {
+    "status": "ok",
+    "entities": 100,
+    "assertions": 815,
+    "triples": 34400,
+    "source_kinds": [
+      "wikipedia"
+    ]
+  },
+  "platform": "Linux-6.12.88+deb13-amd64-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "cpu": "",
+  "logical_cpus": 8,
+  "concurrency": 5,
+  "requests_per_workload": 100,
+  "startup_seconds": 2.8778486429946497,
+  "transport": "HTTP over loopback; fresh connection per request",
+  "cache_note": "Application-cold first query; OS disk cache not cleared",
+  "rate_limit": "Raised to 100000/minute only for benchmark",
+  "workloads": {
+    "search": {
+      "first_query_ms": 4.248437006026506,
+      "p50_ms": 7.461524975951761,
+      "p95_ms": 11.35525299469009,
+      "p99_ms": 16.599041991867125,
+      "max_ms": 17.50562700908631,
+      "throughput_requests_per_second": 572.3562202337715
+    },
+    "neighbors": {
+      "first_query_ms": 3.0305729887913913,
+      "p50_ms": 13.111965992720798,
+      "p95_ms": 31.47588999127038,
+      "p99_ms": 33.64285998395644,
+      "max_ms": 37.79172801296227,
+      "throughput_requests_per_second": 308.6064560455636
+    },
+    "path": {
+      "first_query_ms": 3.2702280150260776,
+      "p50_ms": 7.906376995379105,
+      "p95_ms": 11.760261986637488,
+      "p99_ms": 12.485334009397775,
+      "max_ms": 13.657909992616624,
+      "throughput_requests_per_second": 554.4338711434524
+    }
+  },
+  "server_peak_rss_kib": 139544,
+  "limitations": "One local run on a 100-page graph, not the planned 300-page release gate; no WAN or sustained-load claim."
+}
