@@ -109,3 +109,26 @@ def test_depth_boundary_ignores_ineligible_edges(graph_path):
     result = store.path("fixture-1", "fixture-3", "designedBy", "out", 1, 20)
     assert not result.found
     assert not result.truncated  # Only the incoming edge remains at B.
+
+
+def test_search_ranks_exact_and_alias_matches_before_substrings(tmp_path):
+    pages = [
+        WikipediaPage(
+            title,
+            f"https://example.org/{i}",
+            "",
+            "",
+            page_id=i,
+            revision_id=i,
+            source_kind="synthetic",
+        )
+        for i, title in enumerate(["ABC", "C++", "C", "C language"], 1)
+    ]
+    path = tmp_path / "search.ttl"
+    export_graph(build_dataset(pages), path)
+    app = create_app(path)
+    app.state.store.entities["fixture-4"].aliases.append("cee")
+    with TestClient(app) as client:
+        results = client.get("/entities", params={"q": " c "}).json()["items"]
+        assert [e["label"] for e in results] == ["C", "C language", "C++", "ABC"]
+        assert client.get("/entities?q=cee").json()["items"][0]["label"] == "C language"

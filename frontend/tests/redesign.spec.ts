@@ -131,3 +131,72 @@ test("workspace has no horizontal overflow and preserves mobile evidence access"
   await page.getByRole("button", { name: "Close evidence" }).click();
   await expect(page.locator("#inspector")).not.toBeVisible();
 });
+
+test("mobile evidence sheet restores focus and destination search uses exact matches", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/?mode=offline");
+  await expect(page.locator("#status")).toContainText("connections around");
+  await expect(
+    page.getByRole("tab", { name: "Connections", exact: true }),
+  ).toHaveAttribute("aria-selected", "true");
+  await page
+    .getByRole("button", { name: "Inspect evidence", exact: true })
+    .first()
+    .click();
+  await expect(page.locator("#inspector")).toHaveAttribute(
+    "aria-modal",
+    "true",
+  );
+  await expect(page.locator("#inspector")).toBeFocused();
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#inspector")).not.toBeVisible();
+  await expect(
+    page.getByRole("button", { name: "Inspect evidence", exact: true }).first(),
+  ).toBeFocused();
+  await page.getByRole("button", { name: "Find a path", exact: true }).click();
+  await page.getByLabel("Search destinations").fill("Guido");
+  await expect(page.locator("#target option")).toHaveCount(2);
+  await page
+    .getByLabel("Destination", { exact: true })
+    .selectOption("fixture-2");
+  await page.getByRole("button", { name: "Find shortest path" }).click();
+  await expect(page.locator("#status")).toContainText("Shortest path");
+  await expect(page.locator(".step-number").first()).toHaveText("Step 1");
+  await page.getByRole("button", { name: "Back to neighborhood" }).click();
+  await expect(page.locator("#status")).toContainText(
+    "Returned to your neighborhood",
+  );
+});
+
+test("search keyboard navigation and retry recover from a failed refresh", async ({
+  page,
+}) => {
+  await page.goto("/?mode=offline");
+  await expect(page.locator("#status")).toContainText("connections around");
+  await page.getByLabel("Search entities").fill("Java");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  await expect(page.locator("#results button").first()).toHaveText(
+    "Java (programming language)",
+  );
+  await page.getByLabel("Search entities").press("ArrowDown");
+  await page.keyboard.press("Enter");
+  await expect(page.locator("#selection")).toHaveText(
+    "Java (programming language)",
+  );
+  let failed = true;
+  await page.route("**/entities?limit=100&offset=0", async (route) => {
+    if (failed) {
+      failed = false;
+      await route.fulfill({ status: 503, json: { error: "Unavailable" } });
+    } else await route.continue();
+  });
+  await page.getByLabel("Dataset").selectOption("api");
+  await expect(page.locator("#status")).toContainText("Unable to load");
+  await page.getByRole("button", { name: "Retry", exact: true }).click();
+  await expect(page.locator("#status")).toContainText("connections around");
+  await expect(
+    page.getByRole("button", { name: "Retry", exact: true }),
+  ).not.toBeVisible();
+});

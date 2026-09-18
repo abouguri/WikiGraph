@@ -270,7 +270,14 @@ export class GraphView {
               : "#64748b",
         "stroke-width": isActive ? 2.8 : kind === "fact" ? 2 : 1.2,
         "marker-end": `url(#arrow-${kind})`,
-        opacity: this.active && !isActive ? 0.3 : 1,
+        opacity:
+          this.active && !isActive
+            ? 0.25
+            : !this.pathMode &&
+                edge.subject !== this.selected &&
+                edge.object !== this.selected
+              ? 0.22
+              : 1,
       });
       if (edge.predicate === "linksTo")
         path.setAttribute("stroke-dasharray", "5 5");
@@ -388,7 +395,16 @@ export class GraphView {
         // Keep the selected name readable even when every nearby placement is occupied.
         const fallback = { x: 16, y: 66, width, height };
         rect = fallback;
-        this.svg.append(el("path", { d: `M${p.x} ${p.y} L${rect.x + rect.width / 2} ${rect.y + rect.height}`, stroke: "#2856d8", "stroke-width": 1, "stroke-dasharray": "3 4", fill: "none", "pointer-events": "none" }));
+        this.svg.append(
+          el("path", {
+            d: `M${p.x} ${p.y} L${rect.x + rect.width / 2} ${rect.y + rect.height}`,
+            stroke: "#2856d8",
+            "stroke-width": 1,
+            "stroke-dasharray": "3 4",
+            fill: "none",
+            "pointer-events": "none",
+          }),
+        );
       }
       if (!rect) continue;
       labelRects.push(rect);

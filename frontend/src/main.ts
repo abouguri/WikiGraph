@@ -1,4 +1,5 @@
 import { GraphView } from "./graph";
+import { rankEntities } from "./search";
 type Entity = { id: string; label: string; aliases: string[] };
 type Edge = { id: string; subject: string; predicate: string; object: string };
 type Assertion = Edge & {
@@ -35,6 +36,12 @@ let sample: Dataset,
   datasetGeneration = 0,
   searchGeneration = 0,
   evidenceGeneration = 0;
+let returnFocus: HTMLElement | SVGElement | null = null;
+let retryAction: (() => Promise<void>) | undefined;
+const navigation: string[] = [];
+let neighborhood:
+  | { nodes: Map<string, Entity>; edges: Map<string, Edge>; selected: string }
+  | undefined;
 let activeAssertion = "",
   pathView = false;
 const pages = new Map<string, { offset: number; total: number }>();
@@ -62,11 +69,51 @@ function button(text: string, action: () => void) {
   return b;
 }
 function safeRun(action: () => Promise<void>) {
-  void action().catch((e) =>
+  $("retry").hidden = true;
+  void action().catch((e) => {
+    retryAction = action;
+    $("retry").hidden = false;
     message(
-      `Unable to load: ${e.message}. Try again or switch to the offline sample.`,
-    ),
-  );
+      `Unable to load: ${e.message}. Retry, or choose the teaching sample.`,
+    );
+  });
+}
+function openInspector(trigger = document.activeElement as HTMLElement) {
+  if (!$("inspector").classList.contains("is-open")) returnFocus = trigger;
+  $("inspector").classList.add("is-open");
+  if (matchMedia("(max-width: 1199px)").matches) {
+    document.body.classList.add("inspector-open");
+    for (const e of document.querySelectorAll<HTMLElement>(
+      ".appbar,.contextbar,.graph-panel,footer",
+    ))
+      e.inert = true;
+    $("inspector-backdrop").hidden = false;
+    $("inspector").setAttribute("role", "dialog");
+    $("inspector").setAttribute("aria-modal", "true");
+    $("inspector").focus({ preventScroll: true });
+  }
+}
+function closeInspector() {
+  const wasOpen = $("inspector").classList.contains("is-open");
+  document.body.classList.remove("inspector-open");
+  for (const e of document.querySelectorAll<HTMLElement>(
+    ".appbar,.contextbar,.graph-panel,footer",
+  ))
+    e.inert = false;
+  $("inspector-backdrop").hidden = true;
+  $("inspector").classList.remove("is-open");
+  $("inspector").removeAttribute("role");
+  $("inspector").removeAttribute("aria-modal");
+  if (!wasOpen) return;
+  if (returnFocus?.isConnected && returnFocus !== document.body)
+    returnFocus.focus({ preventScroll: true });
+  else if (activeAssertion)
+    document
+      .querySelector<HTMLElement>(
+        `#connections [data-edge="${CSS.escape(activeAssertion)}"] button`,
+      )
+      ?.focus({ preventScroll: true });
+  else $("list-tab").focus({ preventScroll: true });
 }
 async function get<T>(url: string): Promise<T> {
   const r = await fetch(url);
@@ -126,6 +173,7 @@ async function expand(id: string, reset = false) {
     return;
   }
   selected = id;
+  $("return-view").hidden = true;
   activeAssertion = "";
   pathView = false;
   evidenceGeneration++;
@@ -151,6 +199,8 @@ async function expand(id: string, reset = false) {
 function selectNode(id: string) {
   generation++;
   evidenceGeneration++;
+  if (selected && selected !== id) navigation.push(selected);
+  $<HTMLButtonElement>("back").disabled = !navigation.length;
   selected = id;
   activeAssertion = "";
   render();
@@ -189,7 +239,7 @@ function showEntity(open = false) {
   hint.textContent =
     "Select a line or a connection row to inspect its source. Page references are not extracted facts.";
   panel.append(badge, title, note, actions, hint);
-  if (open) $("inspector").classList.add("is-open");
+  if (open) openInspector();
 }
 function render(reset = false) {
   $("selection").textContent = nodeLabel(selected);
@@ -210,21 +260,47 @@ function render(reset = false) {
       "No connections match this view. Try another relationship or entity.";
     list.append(li);
   }
-  for (const e of edges.values()) {
+  const sort = $<HTMLSelectElement>("connection-sort").value;
+  const ordered = [...edges.values()].sort((a, b) => {
+    if (pathView) return 0;
+    const key = (e: Edge) =>
+      sort === "relation"
+        ? labels[e.predicate]
+        : nodeLabel(sort === "destination" ? e.object : e.subject);
+    return key(a).localeCompare(key(b)) || a.id.localeCompare(b.id);
+  });
+  for (const [index, e] of ordered.entries()) {
     const li = document.createElement("li");
     li.dataset.edge = e.id;
     if (e.id === activeAssertion) li.className = "active";
     const text = document.createElement("div");
-    text.textContent = `${nodeLabel(e.subject)} → ${labels[e.predicate] || e.predicate} → ${nodeLabel(e.object)}`;
+    text.className = "connection-route";
+    const source = document.createElement("strong"),
+      relation = document.createElement("span"),
+      destination = document.createElement("strong");
+    source.textContent = nodeLabel(e.subject);
+    relation.textContent = labels[e.predicate] || e.predicate;
+    destination.textContent = nodeLabel(e.object);
+    relation.className =
+      e.predicate === "linksTo" ? "reference-label" : "fact-label";
+    text.append(source, relation, destination);
+    if (pathView) {
+      const step = document.createElement("span");
+      step.className = "step-number";
+      step.textContent = `Step ${index + 1}`;
+      li.append(step);
+    }
     li.append(
       text,
       button("Inspect evidence", () => safeRun(() => inspect(e.id))),
+      button(`Select ${nodeLabel(e.subject)}`, () => selectNode(e.subject)),
       button(`Select ${nodeLabel(e.object)}`, () => selectNode(e.object)),
     );
     list.append(li);
   }
 }
 async function inspect(id: string) {
+  const trigger = document.activeElement as HTMLElement;
   const current = ++evidenceGeneration;
   const dataset = datasetGeneration;
   const atMode = mode.value;
@@ -243,13 +319,16 @@ async function inspect(id: string) {
   render();
   const panel = $("evidence");
   panel.replaceChildren();
-  $("inspector").classList.add("is-open");
+  openInspector(trigger);
   const badge = document.createElement("span");
   badge.className = "badge";
   badge.textContent =
     a.source_kind === "synthetic"
       ? "Synthetic teaching example"
-      : "Wikipedia revision";
+      : a.predicate === "linksTo"
+        ? "Wikipedia · Page reference"
+        : "Wikipedia · Extracted relation";
+  if (a.source_kind === "synthetic") badge.classList.add("synthetic");
   const heading = document.createElement("h3");
   heading.textContent = `${nodeLabel(a.subject)} ${labels[a.predicate]} ${nodeLabel(a.object)}`;
   const quote = document.createElement("blockquote");
@@ -270,7 +349,18 @@ async function inspect(id: string) {
     wrap.append(dt, dd);
     dl.append(wrap);
   }
-  panel.append(badge, heading, quote, dl);
+  const explanation = document.createElement("p");
+  explanation.className = "muted";
+  explanation.textContent =
+    a.predicate === "linksTo"
+      ? "This page links to another topic. The reference does not establish a factual relationship."
+      : "This sentence supports the extracted relationship. Check the source in context.";
+  panel.append(badge, heading, explanation, quote);
+  const details = document.createElement("details");
+  details.className = "evidence-details";
+  const summary = document.createElement("summary");
+  summary.textContent = "Extraction details";
+  details.append(summary, dl);
   if (a.source_kind === "wikipedia") {
     const u = new URL(a.source_url);
     if (u.protocol === "https:" && u.hostname === "en.wikipedia.org") {
@@ -289,19 +379,14 @@ async function inspect(id: string) {
       "Authored example, not Wikipedia evidence. Fictional revision ID.";
     panel.append(note);
   }
+  panel.append(details);
 }
 async function search() {
   const current = ++searchGeneration;
   const dataset = datasetGeneration;
   const results =
     mode.value === "offline"
-      ? sample.entities
-          .filter((n) =>
-            [n.label, ...n.aliases].some((s) =>
-              s.toLowerCase().includes(query.value.toLowerCase()),
-            ),
-          )
-          .slice(0, 20)
+      ? rankEntities(sample.entities, query.value).slice(0, 20)
       : (
           await get<{ items: Entity[] }>(
             `/entities?${new URLSearchParams({ q: query.value })}`,
@@ -313,12 +398,16 @@ async function search() {
   list.hidden = false;
   for (const n of results) {
     const li = document.createElement("li");
-    li.append(
-      button(n.label, () => {
-        list.hidden = true;
-        safeRun(() => expand(n.id, true));
-      }),
-    );
+    const result = button(n.label, () => {
+      if (selected && selected !== n.id) navigation.push(selected);
+      $<HTMLButtonElement>("back").disabled = !navigation.length;
+      list.hidden = true;
+      clearTimeout(searchTimer);
+      searchGeneration++;
+      safeRun(() => expand(n.id, true));
+    });
+    result.setAttribute("aria-current", String(n.id === selected));
+    li.append(result);
     list.append(li);
   }
   if (!results.length) {
@@ -385,6 +474,9 @@ async function findPath() {
   }
   if (current !== generation) return;
   if (data.found) {
+    if (!pathView)
+      neighborhood = { nodes: new Map(nodes), edges: new Map(edges), selected };
+    $("return-view").hidden = false;
     nodes = new Map(data.nodes.map((n) => [n.id, n]));
     edges = new Map(data.edges.map((e) => [e.id, e]));
     pathView = true;
@@ -409,6 +501,11 @@ async function load() {
   searchGeneration++;
   evidenceGeneration++;
   pages.clear();
+  navigation.length = 0;
+  $<HTMLButtonElement>("back").disabled = true;
+  $("return-view").hidden = true;
+  $<HTMLInputElement>("destination-query").value = "";
+  closeInspector();
   activeAssertion = "";
   pathView = false;
   message("Loading dataset…");
@@ -461,6 +558,7 @@ async function load() {
 }
 $("search-form").onsubmit = (e) => {
   e.preventDefault();
+  clearTimeout(searchTimer);
   safeRun(search);
 };
 mode.onchange = () => safeRun(load);
@@ -511,7 +609,15 @@ $("path-toggle").onclick = () => {
   panel.hidden = !panel.hidden;
   $("path-toggle").setAttribute("aria-expanded", String(!panel.hidden));
 };
-$("close-inspector").onclick = () => $("inspector").classList.remove("is-open");
+$("close-inspector").onclick = closeInspector;
+$("inspector-backdrop").onclick = closeInspector;
+window.addEventListener("resize", () => {
+  if (
+    !matchMedia("(max-width: 1199px)").matches &&
+    $("inspector").hasAttribute("aria-modal")
+  )
+    closeInspector();
+});
 document.addEventListener("click", (event) => {
   if (!(event.target as Element).closest(".search-wrap"))
     $("results").hidden = true;
@@ -519,6 +625,107 @@ document.addEventListener("click", (event) => {
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     $("results").hidden = true;
-    $("inspector").classList.remove("is-open");
+    if ($("inspector").classList.contains("is-open")) closeInspector();
+    $("path-controls").hidden = true;
+    $("path-toggle").setAttribute("aria-expanded", "false");
   }
 });
+
+$("retry").onclick = () => {
+  if (retryAction) safeRun(retryAction);
+};
+$("back").onclick = () => {
+  const id = navigation.pop();
+  $<HTMLButtonElement>("back").disabled = !navigation.length;
+  if (id) safeRun(() => expand(id, true));
+};
+$("return-view").onclick = () => {
+  if (!neighborhood) return;
+  generation++;
+  evidenceGeneration++;
+  nodes = neighborhood.nodes;
+  edges = neighborhood.edges;
+  selected = neighborhood.selected;
+  pathView = false;
+  activeAssertion = "";
+  $("return-view").hidden = true;
+  render(true);
+  showEntity();
+  saveURL();
+  message("Returned to your neighborhood.");
+};
+const destinationQuery = $<HTMLInputElement>("destination-query");
+destinationQuery.disabled = false;
+destinationQuery.oninput = () => {
+  const current = target.value;
+  const ranked = rankEntities(entities, destinationQuery.value);
+  target.replaceChildren(
+    new Option(
+      ranked.length ? "Choose an entity" : "No matching destinations",
+      "",
+    ),
+  );
+  for (const e of ranked) target.add(new Option(e.label, e.id));
+  if (ranked.some((e) => e.id === current)) target.value = current;
+  saveURL();
+};
+$<HTMLSelectElement>("connection-sort").disabled = false;
+$("connection-sort").onchange = () => render();
+let searchTimer: ReturnType<typeof setTimeout>;
+query.oninput = () => {
+  searchGeneration++;
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => safeRun(search), 200);
+};
+query.onkeydown = (event) => {
+  if (event.key === "ArrowDown") {
+    event.preventDefault();
+    $("results").hidden = false;
+    $("results").querySelector<HTMLButtonElement>("button")?.focus();
+  }
+};
+$("results").onkeydown = (event) => {
+  const buttons = [
+    ...$("results").querySelectorAll<HTMLButtonElement>("button"),
+  ];
+  const index = buttons.indexOf(document.activeElement as HTMLButtonElement);
+  if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+    event.preventDefault();
+    buttons[
+      (index + (event.key === "ArrowDown" ? 1 : buttons.length - 1)) %
+        buttons.length
+    ]?.focus();
+  }
+  if (event.key === "Escape") query.focus();
+};
+for (const name of ["graph", "list"]) {
+  $(`${name}-tab`).onkeydown = (event) => {
+    if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+      event.preventDefault();
+      const next = name === "graph" ? "list" : "graph";
+      setView(next);
+      $(`${next}-tab`).focus();
+    }
+  };
+}
+$("inspector").onkeydown = (event) => {
+  if (event.key !== "Tab" || !matchMedia("(max-width: 1199px)").matches) return;
+  const focusable = [
+    ...$("inspector").querySelectorAll<HTMLElement>(
+      "button:not(:disabled),a[href],summary,[tabindex='0']",
+    ),
+  ].filter((e) => e.getClientRects().length);
+  const first = focusable[0],
+    last = focusable[focusable.length - 1];
+  if (
+    event.shiftKey &&
+    (document.activeElement === first ||
+      document.activeElement === $("inspector"))
+  ) {
+    event.preventDefault();
+    last?.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first?.focus();
+  }
+};

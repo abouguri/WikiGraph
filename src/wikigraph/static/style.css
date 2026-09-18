@@ -860,5 +860,117 @@ footer a {
   }
 }
 
-.search-wrap{min-width:0}
-@media(min-width:768px) and (max-width:950px){.appbar{padding:0 20px;gap:12px}.appbar .brand-mark{display:none}.appbar .brand{font-size:20px}.appbar #share{padding:8px;font-size:12px}.dataset-label select{max-width:140px}}
+.search-wrap {
+  min-width: 0;
+}
+@media (min-width: 768px) and (max-width: 950px) {
+  .appbar {
+    padding: 0 20px;
+    gap: 12px;
+  }
+  .appbar .brand-mark {
+    display: none;
+  }
+  .appbar .brand {
+    font-size: 20px;
+  }
+  .appbar #share {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .dataset-label select {
+    max-width: 140px;
+  }
+}
+.connection-route {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 140px minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+.connection-route strong {
+  font-size: 14px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.connection-route > span {
+  font-size: 12px;
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+.reference-label {
+  color: #526176;
+  background: #f0f3f7;
+}
+.fact-label {
+  color: #07685d;
+  background: #e5f3ee;
+}
+.connections li.active {
+  background: #f3f6ff;
+  box-shadow: inset 3px 0 #2856d8;
+  padding-left: 14px;
+}
+.step-number {
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+#inspector-backdrop {
+  position: fixed;
+  inset: 0;
+  background: #18233344;
+  z-index: 35;
+  backdrop-filter: blur(2px);
+}
+body.inspector-open {
+  overflow: hidden;
+}
+.statusbar {
+  flex-wrap: wrap;
+}
+.statusbar p {
+  min-width: 200px;
+}
+.inspector-foot {
+  padding-top: 16px;
+}
+.connections li > button:not(:first-of-type) {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--line);
+}
+@media (max-width: 767px) {
+  .connection-route {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .connection-route > span {
+    text-align: left;
+    justify-self: start;
+  }
+  .connection-route > strong:last-child {
+    padding-left: 16px;
+    border-left: 2px solid var(--line);
+  }
+  .connections li > button {
+    font-size: 11px;
+    max-width: 100%;
+    white-space: normal;
+    text-align: left;
+  }
+  .statusbar p {
+    order: -1;
+    flex-basis: 100%;
+  }
+  .statusbar button {
+    min-height: 36px;
+  }
+  .inspector-foot {
+    margin-top: 12px;
+  }
+}

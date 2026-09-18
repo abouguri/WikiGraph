@@ -124,7 +124,6 @@
               <label for="destination-query">Search destinations</label
               ><input
                 id="destination-query"
-                disabled
                 placeholder="Filter destinations…"
                 autocomplete="off"
               />
@@ -181,7 +180,7 @@
               <h2>Visible connections</h2>
               <label
                 ><span class="sr-only">Sort connections</span
-                ><select id="connection-sort" disabled>
+                ><select id="connection-sort">
                   <option value="source">Source A–Z</option>
                   <option value="relation">Relationship</option>
                   <option value="destination">Destination A–Z</option>
@@ -191,11 +190,16 @@
             <ul id="connections" class="connections"></ul>
           </div>
           <div class="statusbar">
+            <button id="back" class="text-button" disabled>Back</button
+            ><button id="return-view" class="text-button" hidden>
+              Back to neighborhood
+            </button>
             <p id="status" role="status" aria-live="polite">Loading graph…</p>
             <button id="retry" class="text-button" hidden>Retry</button
             ><button id="reset" class="text-button">Focus here</button>
           </div>
         </section>
+        <div id="inspector-backdrop" hidden></div>
         <aside
           id="inspector"
           class="evidence-panel"

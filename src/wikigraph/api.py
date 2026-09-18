@@ -276,13 +276,22 @@ def create_app(graph_path: Path | None = None, *, rate_limit: int | None = None)
         limit: int = Query(20, ge=1, le=100),
         offset: int = Query(0, ge=0, le=10000),
     ) -> EntityResults:
+        query = q.strip().casefold()
+
+        def rank(entity: EntityView) -> tuple[int, str, str]:
+            names = [name.casefold() for name in [entity.label, *entity.aliases]]
+            priority = min(
+                0 if name == query else 1 if name.startswith(query) else 2 for name in names
+            )
+            return priority, entity.label.casefold(), entity.id
+
         matches = sorted(
             (
                 e
                 for e in store.entities.values()
-                if any(q.casefold() in s.casefold() for s in [e.label, *e.aliases])
+                if any(query in s.casefold() for s in [e.label, *e.aliases])
             ),
-            key=lambda e: (e.label.casefold(), e.id),
+            key=rank,
         )
         return EntityResults(
             items=matches[offset : offset + limit], total=len(matches), offset=offset, limit=limit
