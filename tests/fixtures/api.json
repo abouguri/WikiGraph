@@ -1,0 +1,10 @@
+{
+  "normal": {"query":{"pages":[{"pageid":23862,"title":"Python (programming language)","revisions":[{"revid":123}]}]}},
+  "redirect": {"query":{"redirects":[{"from":"Python language","to":"Python (programming language)"}],"pages":[{"pageid":23862,"title":"Python (programming language)","revisions":[{"revid":123}]}]}},
+  "parsed": {"parse":{"pageid":23862,"revid":123,"title":"Python (programming language)","text":"<p>Python was designed by <a>Guido van Rossum</a>.</p>","links":[{"ns":0,"title":"Guido van Rossum"},{"ns":0,"title":"Programming language"},{"ns":14,"title":"Category:Programming"}]}},
+  "missing": {"query":{"pages":[{"title":"Absent","missing":true}]}},
+  "error": {"error":{"code":"badvalue","info":"Invalid title"}},
+  "rate_limit": {"error":{"code":"ratelimited","info":"Wait"}},
+  "disambiguation": {"query":{"pages":[{"pageid":1,"title":"Python","pageprops":{"disambiguation":""},"revisions":[{"revid":123}]}]}},
+  "malformed": {"query":{"pages":[]}}
+}

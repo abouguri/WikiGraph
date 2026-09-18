@@ -3,7 +3,7 @@
 This file records verified implementation, not the aspirational targets in the plan.
 
 - [x] Product scope and delivery sequence documented.
-- [ ] Reliable ingestion and offline replay.
+- [x] Reliable ingestion and offline replay (25-page synthetic fixture, retry/resume tests).
 - [ ] Canonical graph and evidence validation.
 - [ ] Factual extraction and evaluation tooling.
 - [ ] Bounded query API.

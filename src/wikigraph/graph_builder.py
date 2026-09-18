@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from rdflib import Graph, Literal, Namespace, RDF, URIRef
+from rdflib import RDF, Graph, Literal, Namespace, URIRef
 
 from .models import Entity, Relationship, WikipediaPage
 

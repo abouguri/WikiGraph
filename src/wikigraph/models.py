@@ -10,6 +10,12 @@ class WikipediaPage:
     summary: str
     text: str
     links: list[str] = field(default_factory=list)
+    page_id: int = 0
+    revision_id: int = 0
+    retrieved_at: str = ""
+    aliases: list[str] = field(default_factory=list)
+    disambiguation: bool = False
+    source_kind: str = "wikipedia"
 
 
 @dataclass(slots=True, frozen=True)
