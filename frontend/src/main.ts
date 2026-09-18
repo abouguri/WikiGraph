@@ -1,3 +1,4 @@
+import { GraphView } from "./graph";
 type Entity = { id: string; label: string; aliases: string[] };
 type Edge = { id: string; subject: string; predicate: string; object: string };
 type Assertion = Edge & {
@@ -34,6 +35,14 @@ let sample: Dataset,
   datasetGeneration = 0,
   searchGeneration = 0,
   evidenceGeneration = 0;
+let activeAssertion = "",
+  pathView = false;
+const pages = new Map<string, { offset: number; total: number }>();
+const graphView = new GraphView(
+  document.getElementById("graph") as unknown as SVGSVGElement,
+  selectNode,
+  (id) => safeRun(() => inspect(id)),
+);
 const labels: Record<string, string> = {
   linksTo: "links to",
   designedBy: "was designed by",
@@ -82,31 +91,33 @@ function saveURL() {
   if (target.value) params.set("target", target.value);
   history.replaceState(null, "", `?${params}`);
 }
-async function neighbors(id: string): Promise<Neighbors> {
+async function neighbors(id: string, offset = 0): Promise<Neighbors> {
   if (mode.value === "api")
     return get(
-      `/entities/${encodeURIComponent(id)}/neighbors?${new URLSearchParams({ predicate: predicate.value, direction: direction.value, limit: "30" })}`,
+      `/entities/${encodeURIComponent(id)}/neighbors?${new URLSearchParams({ predicate: predicate.value, direction: direction.value, limit: "12", offset: String(offset) })}`,
     );
   const all = sample.assertions.filter(
     (e) => (e.subject === id || e.object === id) && matching(e, id),
   );
-  const slice = all.slice(0, 30);
+  const slice = all.slice(offset, offset + 12);
   const ids = new Set([id, ...slice.flatMap((e) => [e.subject, e.object])]);
   return {
     nodes: sample.entities.filter((n) => ids.has(n.id)),
     edges: slice,
     total: all.length,
-    truncated: all.length > 30,
+    truncated: offset + 12 < all.length,
   };
 }
 async function expand(id: string, reset = false) {
   const current = ++generation;
   message("Loading connections…");
-  const data = await neighbors(id);
+  const offset = reset ? 0 : pages.get(id)?.offset || 0;
+  const data = await neighbors(id, offset);
   if (current !== generation) return;
   if (reset) {
     nodes.clear();
     edges.clear();
+    pages.clear();
   }
   if (!nodes.has(id) && nodes.size >= 40) {
     message(
@@ -115,6 +126,10 @@ async function expand(id: string, reset = false) {
     return;
   }
   selected = id;
+  activeAssertion = "";
+  pathView = false;
+  evidenceGeneration++;
+  pages.set(id, { offset: offset + data.edges.length, total: data.total });
   const center = data.nodes.find((node) => node.id === id);
   if (center) nodes.set(id, center);
   for (const n of data.nodes)
@@ -126,83 +141,67 @@ async function expand(id: string, reset = false) {
       (edges.size < 120 || edges.has(e.id))
     )
       edges.set(e.id, e);
-  render();
+  render(reset);
+  showEntity();
   saveURL();
   message(
-    data.truncated || nodes.size >= 40 || edges.size >= 120
-      ? "View limited to 40 entities / 120 connections, with 30 per expansion. Narrow the filter to explore more."
-      : `${data.total} connections around ${nodeLabel(id)}. Select a connection to inspect evidence.`,
+    `${data.total} connections around ${nodeLabel(id)}. ${edges.size} visible in this view · ${offset + data.edges.length} fetched of ${data.total}.${nodes.size >= 40 || edges.size >= 120 ? " View limit reached; focus here to explore another neighborhood." : ""}`,
   );
 }
-function render() {
+function selectNode(id: string) {
+  generation++;
+  evidenceGeneration++;
+  selected = id;
+  activeAssertion = "";
+  render();
+  showEntity(true);
+  saveURL();
+}
+function showEntity(open = false) {
+  const panel = $("evidence");
+  panel.replaceChildren();
+  const badge = document.createElement("span");
+  badge.className = "badge";
+  badge.textContent = "Selected entity";
+  const title = document.createElement("h2");
+  title.textContent = nodeLabel(selected);
+  const note = document.createElement("p");
+  note.className = "muted";
+  const page = pages.get(selected);
+  const shown = [...edges.values()].filter(
+    (e) => e.subject === selected || e.object === selected,
+  ).length;
+  note.textContent = `${shown} connections visible for this entity. ${page ? `${page.offset} of ${page.total} matching connections fetched.` : "Expand to load its neighborhood."}`;
+  const actions = document.createElement("div");
+  actions.className = "entity-actions";
+  const more = button(
+    page?.offset ? "Show more connections" : "Expand connections",
+    () => safeRun(() => expand(selected)),
+  );
+  more.disabled = (!!page && page.offset >= page.total) || edges.size >= 120;
+  const focus = button("Focus here", () =>
+    safeRun(() => expand(selected, true)),
+  );
+  focus.className = "secondary";
+  actions.append(more, focus);
+  const hint = document.createElement("p");
+  hint.className = "hint";
+  hint.textContent =
+    "Select a line or a connection row to inspect its source. Page references are not extracted facts.";
+  panel.append(badge, title, note, actions, hint);
+  if (open) $("inspector").classList.add("is-open");
+}
+function render(reset = false) {
   $("selection").textContent = nodeLabel(selected);
   $("counts").textContent = `${nodes.size} entities · ${edges.size} edges`;
-  const svg = document.getElementById("graph") as unknown as SVGSVGElement;
-  svg.replaceChildren();
-  const ns = "http://www.w3.org/2000/svg";
-  const positions = new Map<string, [number, number]>();
-  const others = [...nodes.keys()].filter((id) => id !== selected);
-  positions.set(selected, [360, 230]);
-  others.forEach((id, i) => {
-    const a = (i / Math.max(others.length, 1)) * 2 * Math.PI;
-    positions.set(id, [360 + 265 * Math.cos(a), 230 + 175 * Math.sin(a)]);
-  });
-  for (const edge of edges.values()) {
-    const a = positions.get(edge.subject),
-      b = positions.get(edge.object);
-    if (!a || !b) continue;
-    const line = document.createElementNS(ns, "line");
-    for (const [k, v] of Object.entries({
-      x1: a[0],
-      y1: a[1],
-      x2: b[0],
-      y2: b[1],
-    }))
-      line.setAttribute(k, String(v));
-    line.setAttribute(
-      "stroke",
-      edge.predicate === "linksTo" ? "#b9c6aa" : "#32644c",
-    );
-    line.setAttribute(
-      "stroke-width",
-      edge.predicate === "linksTo" ? "1.5" : "3",
-    );
-    if (edge.predicate === "linksTo")
-      line.setAttribute("stroke-dasharray", "5 4");
-    line.style.cursor = "pointer";
-    line.onclick = () => safeRun(() => inspect(edge.id));
-    svg.append(line);
-  }
-  for (const [id, [x, y]] of positions) {
-    const group = document.createElementNS(ns, "g");
-    const circle = document.createElementNS(ns, "circle");
-    circle.setAttribute("cx", String(x));
-    circle.setAttribute("cy", String(y));
-    circle.setAttribute("r", id === selected ? "25" : "14");
-    circle.setAttribute("fill", id === selected ? "#195749" : "#d9e8bd");
-    circle.setAttribute("stroke", "#fffefa");
-    circle.setAttribute("stroke-width", "3");
-    group.setAttribute("tabindex", "0");
-    group.setAttribute("role", "button");
-    group.setAttribute("aria-label", `Expand ${nodeLabel(id)}`);
-    group.onclick = () => safeRun(() => expand(id));
-    group.onkeydown = (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        safeRun(() => expand(id));
-      }
-    };
-    const text = document.createElementNS(ns, "text");
-    text.setAttribute("x", String(x));
-    text.setAttribute("y", String(y + (id === selected ? 43 : 30)));
-    text.setAttribute("text-anchor", "middle");
-    const label = nodeLabel(id);
-    text.textContent = label.length > 26 ? label.slice(0, 24) + "…" : label;
-    const title = document.createElementNS(ns, "title");
-    title.textContent = label;
-    group.append(circle, text, title);
-    svg.append(group);
-  }
+  graphView.update(
+    [...nodes.values()],
+    [...edges.values()],
+    selected,
+    activeAssertion,
+    reset,
+    pathView,
+  );
   const list = $("connections");
   list.replaceChildren();
   if (!edges.size) {
@@ -213,14 +212,14 @@ function render() {
   }
   for (const e of edges.values()) {
     const li = document.createElement("li");
+    li.dataset.edge = e.id;
+    if (e.id === activeAssertion) li.className = "active";
     const text = document.createElement("div");
     text.textContent = `${nodeLabel(e.subject)} → ${labels[e.predicate] || e.predicate} → ${nodeLabel(e.object)}`;
     li.append(
       text,
       button("Inspect evidence", () => safeRun(() => inspect(e.id))),
-      button(`Expand ${nodeLabel(e.object)}`, () =>
-        safeRun(() => expand(e.object)),
-      ),
+      button(`Select ${nodeLabel(e.object)}`, () => selectNode(e.object)),
     );
     list.append(li);
   }
@@ -240,6 +239,8 @@ async function inspect(id: string) {
     dataset !== datasetGeneration
   )
     return;
+  activeAssertion = id;
+  render();
   const panel = $("evidence");
   panel.replaceChildren();
   $("inspector").classList.add("is-open");
@@ -386,7 +387,11 @@ async function findPath() {
   if (data.found) {
     nodes = new Map(data.nodes.map((n) => [n.id, n]));
     edges = new Map(data.edges.map((e) => [e.id, e]));
-    render();
+    pathView = true;
+    activeAssertion = "";
+    evidenceGeneration++;
+    render(true);
+    showEntity();
     message(
       `Shortest path: ${data.edges.length} connections. Direction: ${direction.value}.`,
     );
@@ -403,6 +408,9 @@ async function load() {
   generation++;
   searchGeneration++;
   evidenceGeneration++;
+  pages.clear();
+  activeAssertion = "";
+  pathView = false;
   message("Loading dataset…");
   $("evidence").textContent = "Select a connection to inspect its evidence.";
   const params = new URLSearchParams(location.search);

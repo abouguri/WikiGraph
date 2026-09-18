@@ -859,3 +859,6 @@ footer a {
     scroll-behavior: auto !important;
   }
 }
+
+.search-wrap{min-width:0}
+@media(min-width:768px) and (max-width:950px){.appbar{padding:0 20px;gap:12px}.appbar .brand-mark{display:none}.appbar .brand{font-size:20px}.appbar #share{padding:8px;font-size:12px}.dataset-label select{max-width:140px}}
