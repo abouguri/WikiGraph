@@ -98,3 +98,8 @@ def test_http_rate_limit_and_invalid_json():
     session.get.return_value = invalid
     with pytest.raises(FetchError, match="Invalid API"):
         WikipediaFetcher(session).fetch_page("Python")
+
+
+def test_malformed_api_error_is_reported():
+    with pytest.raises(FetchError, match="Malformed API error"):
+        WikipediaFetcher(session_for({"error": "not an object"})).fetch_page("Python")

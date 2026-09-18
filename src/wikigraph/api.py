@@ -165,9 +165,6 @@ class QueryStore:
                     truncated=False,
                     visited=len(visited),
                 )
-            if len(edges) >= depth:
-                truncated = truncated or bool(self.adjacency[current])
-                continue
             for edge in self.adjacency[current]:
                 if time.perf_counter() >= deadline:
                     return PathResults(
@@ -182,10 +179,9 @@ class QueryStore:
                 neighbor = edge.object if edge.subject == current else edge.subject
                 if neighbor in visited:
                     continue
-                if len(visited) >= max_visited:
-                    return PathResults(
-                        nodes=[], edges=[], found=False, truncated=True, visited=len(visited)
-                    )
+                if len(edges) >= depth or len(visited) >= max_visited:
+                    truncated = True
+                    continue
                 visited.add(neighbor)
                 queue.append((neighbor, [*nodes, neighbor], [*edges, edge]))
         return PathResults(

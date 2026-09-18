@@ -80,6 +80,8 @@ class WikipediaFetcher:
                     raise FetchError("API response must be an object")
                 if "error" in data:
                     error = data["error"]
+                    if not isinstance(error, dict):
+                        raise FetchError("Malformed API error payload")
                     if error.get("code") in {"maxlag", "ratelimited", "readonly"}:
                         raise requests.ConnectionError(str(error))
                     raise FetchError(f"API error: {error}")

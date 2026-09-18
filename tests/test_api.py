@@ -88,3 +88,24 @@ def test_rate_limit(graph_path):
         assert client.get("/entities").status_code == 200
         assert client.get("/entities").status_code == 429
         assert client.get("/health").status_code == 200
+
+
+def test_path_does_not_discard_an_already_discovered_target(graph_path):
+    from wikigraph.api import EdgeView
+
+    app = create_app(graph_path)
+    store = app.state.store
+    first = EdgeView(id="first", subject="fixture-1", predicate="linksTo", object="fixture-2")
+    second = EdgeView(id="second", subject="fixture-1", predicate="linksTo", object="fixture-3")
+    store.adjacency["fixture-1"] = [first, second]
+    # The target fits in the two-node budget; a later edge must not discard it.
+    result = store.path("fixture-1", "fixture-2", "all", "out", 4, 2)
+    assert result.found
+    assert result.visited == 2
+
+
+def test_depth_boundary_ignores_ineligible_edges(graph_path):
+    store = create_app(graph_path).state.store
+    result = store.path("fixture-1", "fixture-3", "designedBy", "out", 1, 20)
+    assert not result.found
+    assert not result.truncated  # Only the incoming edge remains at B.
