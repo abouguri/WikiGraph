@@ -8,7 +8,7 @@ This file records verified implementation, not the aspirational targets in the p
 - [x] Canonical graph and evidence validation (SHACL, aliases, Unicode, orphan-edge checks).
 - [x] Factual extraction and evaluation tooling (180 synthetic records; real accuracy gate remains open).
 - [x] Bounded query API (integration tests, documented contracts, process-local limits).
-- [x] Accessible explorer (3 Chromium flows: evidence/path/share, keyboard/mobile, empty/no-path).
+- [x] Accessible explorer (6 Chromium flows, including full-corpus pagination and stale-response handling).
 - [x] Version-locked dependencies, container build/smoke test, and a measured 100-page HTTP baseline.
 - [x] 300-page, five-client HTTP latency gate and byte-identical offline rebuild.
 - [ ] Complete release gates: demo video and independent reproducibility review.

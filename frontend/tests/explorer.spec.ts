@@ -78,3 +78,62 @@ test("hosted landing view selects the server dataset by default", async ({
   await expect(page.locator("#mode")).toHaveValue("api");
   await expect(page.locator("#dataset-note")).toContainText("Server dataset");
 });
+
+test("all entity pages are available for shared selection and paths", async ({
+  page,
+}) => {
+  const entities = Array.from({ length: 250 }, (_, i) => ({
+    id: `fixture-${i + 1}`,
+    label: `Topic ${i + 1}`,
+    aliases: [],
+  }));
+  entities[200].label = "Python (programming language)";
+  await page.route("**/entities?**", (route) => {
+    const params = new URL(route.request().url()).searchParams;
+    const offset = Number(params.get("offset") || 0);
+    const limit = Number(params.get("limit") || 20);
+    return route.fulfill({
+      json: {
+        items: entities.slice(offset, offset + limit),
+        total: entities.length,
+      },
+    });
+  });
+  await page.route("**/entities/fixture-201/neighbors?**", (route) =>
+    route.fulfill({
+      json: { nodes: [entities[200]], edges: [], total: 0, truncated: false },
+    }),
+  );
+  await page.goto("/?mode=api&entity=fixture-201&target=fixture-250");
+  await expect(page.locator("#selection")).toHaveText(
+    "Python (programming language)",
+  );
+  await expect(page.locator("#target option")).toHaveCount(251);
+  await expect(page.locator("#target")).toHaveValue("fixture-250");
+});
+
+test("late server load cannot overwrite the chosen offline dataset", async ({
+  page,
+}) => {
+  let release: () => void = () => {};
+  const blocked = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  await page.route("**/entities?limit=100&offset=0", async (route) => {
+    await blocked;
+    await route.fulfill({
+      json: {
+        items: [{ id: "late", label: "Late response", aliases: [] }],
+        total: 1,
+      },
+    });
+  });
+  await page.goto("/?mode=api");
+  await page.getByLabel("Dataset").selectOption("offline");
+  await expect(page.locator("#selection")).toHaveText(
+    "Python (programming language)",
+  );
+  release();
+  await expect(page.locator("#dataset-note")).toContainText("Authored sample");
+  await expect(page.locator("#mode")).toHaveValue("offline");
+});

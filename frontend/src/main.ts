@@ -30,7 +30,10 @@ let sample: Dataset,
   entities: Entity[] = [],
   nodes = new Map<string, Entity>(),
   edges = new Map<string, Edge>(),
-  generation = 0;
+  generation = 0,
+  datasetGeneration = 0,
+  searchGeneration = 0,
+  evidenceGeneration = 0;
 const labels: Record<string, string> = {
   linksTo: "links to",
   designedBy: "was designed by",
@@ -105,16 +108,29 @@ async function expand(id: string, reset = false) {
     nodes.clear();
     edges.clear();
   }
+  if (!nodes.has(id) && nodes.size >= 40) {
+    message(
+      "The view already has 40 entities. Collapse to the selection before expanding another entity.",
+    );
+    return;
+  }
   selected = id;
+  const center = data.nodes.find((node) => node.id === id);
+  if (center) nodes.set(id, center);
   for (const n of data.nodes)
     if (nodes.size < 40 || nodes.has(n.id)) nodes.set(n.id, n);
   for (const e of data.edges)
-    if (nodes.has(e.subject) && nodes.has(e.object)) edges.set(e.id, e);
+    if (
+      nodes.has(e.subject) &&
+      nodes.has(e.object) &&
+      (edges.size < 120 || edges.has(e.id))
+    )
+      edges.set(e.id, e);
   render();
   saveURL();
   message(
-    data.truncated || nodes.size >= 40
-      ? "View limited to 40 entities / 30 connections per expansion. Narrow the filter to explore more."
+    data.truncated || nodes.size >= 40 || edges.size >= 120
+      ? "View limited to 40 entities / 120 connections, with 30 per expansion. Narrow the filter to explore more."
       : `${data.total} connections around ${nodeLabel(id)}. Select a connection to inspect evidence.`,
   );
 }
@@ -210,12 +226,20 @@ function render() {
   }
 }
 async function inspect(id: string) {
+  const current = ++evidenceGeneration;
+  const dataset = datasetGeneration;
   const atMode = mode.value;
   const a =
     atMode === "offline"
       ? sample.assertions.find((e) => e.id === id)
       : await get<Assertion>(`/assertions/${id}`);
-  if (!a || atMode !== mode.value) return;
+  if (
+    !a ||
+    atMode !== mode.value ||
+    current !== evidenceGeneration ||
+    dataset !== datasetGeneration
+  )
+    return;
   const panel = $("evidence");
   panel.replaceChildren();
   const badge = document.createElement("span");
@@ -265,6 +289,8 @@ async function inspect(id: string) {
   }
 }
 async function search() {
+  const current = ++searchGeneration;
+  const dataset = datasetGeneration;
   const results =
     mode.value === "offline"
       ? sample.entities
@@ -279,6 +305,7 @@ async function search() {
             `/entities?${new URLSearchParams({ q: query.value })}`,
           )
         ).items;
+  if (current !== searchGeneration || dataset !== datasetGeneration) return;
   const list = $("results");
   list.replaceChildren();
   for (const n of results) {
@@ -365,21 +392,39 @@ async function findPath() {
   saveURL();
 }
 async function load() {
+  const current = ++datasetGeneration;
   generation++;
+  searchGeneration++;
+  evidenceGeneration++;
   message("Loading dataset…");
   $("evidence").textContent = "Select a connection to inspect its evidence.";
   const params = new URLSearchParams(location.search);
+  let loaded: Entity[] = [];
+  let note = "";
   if (mode.value === "offline") {
-    sample = sample || (await get<Dataset>("/sample.json"));
-    entities = sample.entities;
-    $("dataset-note").textContent =
-      "Authored sample · synthetic revisions · works offline";
+    const data = sample || (await get<Dataset>("/sample.json"));
+    if (current !== datasetGeneration) return;
+    sample = data;
+    loaded = sample.entities;
+    note = "Authored sample · synthetic revisions · works offline";
   } else {
-    entities = (await get<{ items: Entity[] }>("/entities?limit=100")).items;
+    let total = 0;
+    do {
+      const batch = await get<{ items: Entity[]; total: number }>(
+        `/entities?limit=100&offset=${loaded.length}`,
+      );
+      if (current !== datasetGeneration) return;
+      loaded.push(...batch.items);
+      total = batch.total;
+      if (!batch.items.length) break;
+    } while (loaded.length < total && loaded.length < 1000);
     const health = await get<{ source_kinds: string[] }>("/health");
-    $("dataset-note").textContent =
-      `Server dataset · ${health.source_kinds.join(", ")} · first 100 entities in destination list`;
+    if (current !== datasetGeneration) return;
+    note = `Server dataset · ${health.source_kinds.join(", ")} · ${loaded.length} entities`;
+    if (total > loaded.length) note += " (destination list limited to 1,000)";
   }
+  entities = loaded;
+  $("dataset-note").textContent = note;
   target.replaceChildren(new Option("Choose an entity", ""));
   for (const e of entities) target.add(new Option(e.label, e.id));
   target.value = params.get("target") || "";
@@ -389,6 +434,7 @@ async function load() {
     entities.find((e) => e.label === "Python (programming language)") ||
     entities[0];
   await search();
+  if (current !== datasetGeneration) return;
   if (start) await expand(start.id, true);
   else {
     nodes.clear();
