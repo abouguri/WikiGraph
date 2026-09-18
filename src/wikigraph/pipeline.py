@@ -12,10 +12,10 @@ from typing import Any
 
 from rdflib import Graph
 
-from .extractor import extract_entities, extract_relationships
 from .fetcher import FetchError, WikipediaFetcher, atomic_json
-from .graph_builder import build_graph
+from .graph_builder import build_dataset
 from .models import WikipediaPage
+from .validation import validate_graph
 
 
 def export_graph(graph: Graph, path: Path) -> str:
@@ -96,9 +96,8 @@ def ingest(
             for (raw,) in db.execute("SELECT page FROM jobs WHERE status='done' ORDER BY title")
             for p in [WikipediaPage(**json.loads(raw))]
         }
-        graph = Graph()
-        for page in pages.values():
-            graph += build_graph(page, extract_entities(page), extract_relationships(page))
+        graph = build_dataset(list(pages.values()))
+        validate_graph(graph)
         digest = export_graph(graph, output)
         manifest = {
             "schema_version": 1,

@@ -30,3 +30,6 @@ class Relationship:
     predicate: str
     object: str
     source: str = "heuristic"
+    evidence: str = ""
+    start: int = -1
+    end: int = -1

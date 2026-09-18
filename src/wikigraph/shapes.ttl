@@ -1,0 +1,20 @@
+@prefix wg: <https://example.org/wikigraph/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+wg:EntityShape a sh:NodeShape ; sh:targetClass wg:Entity ;
+ sh:property [ sh:path wg:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path wg:pageId ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ] .
+wg:SnapshotShape a sh:NodeShape ; sh:targetClass wg:Snapshot ;
+ sh:property [ sh:path wg:page ; sh:minCount 1 ; sh:maxCount 1 ; sh:class wg:Entity ] ;
+ sh:property [ sh:path wg:revisionId ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ] ;
+ sh:property [ sh:path wg:text ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path wg:sourceKind ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("wikipedia" "synthetic") ] ;
+ sh:property [ sh:path wg:url ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] .
+wg:AssertionShape a sh:NodeShape ; sh:targetClass wg:Assertion ;
+ sh:property [ sh:path wg:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:class wg:Entity ] ;
+ sh:property [ sh:path wg:object ; sh:minCount 1 ; sh:maxCount 1 ; sh:class wg:Entity ] ;
+ sh:property [ sh:path wg:predicate ; sh:minCount 1 ; sh:maxCount 1 ; sh:in (wg:linksTo wg:designedBy wg:developedBy wg:influencedBy) ] ;
+ sh:property [ sh:path wg:snapshot ; sh:minCount 1 ; sh:maxCount 1 ; sh:class wg:Snapshot ] ;
+ sh:property [ sh:path wg:evidence ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+ sh:property [ sh:path wg:method ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path wg:extractorVersion ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] .

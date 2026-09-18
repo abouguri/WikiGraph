@@ -4,7 +4,7 @@ This file records verified implementation, not the aspirational targets in the p
 
 - [x] Product scope and delivery sequence documented.
 - [x] Reliable ingestion and offline replay (25-page synthetic fixture, retry/resume tests).
-- [ ] Canonical graph and evidence validation.
+- [x] Canonical graph and evidence validation (SHACL, aliases, Unicode, orphan-edge checks).
 - [ ] Factual extraction and evaluation tooling.
 - [ ] Bounded query API.
 - [ ] Accessible explorer.

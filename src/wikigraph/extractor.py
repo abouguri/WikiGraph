@@ -16,5 +16,5 @@ def extract_entities(page: WikipediaPage) -> list[Entity]:
 def extract_relationships(page: WikipediaPage) -> list[Relationship]:
     relationships: list[Relationship] = []
     for link in page.links:
-        relationships.append(Relationship(subject=page.title, predicate="mentions", object=link))
+        relationships.append(Relationship(subject=page.title, predicate="linksTo", object=link))
     return relationships

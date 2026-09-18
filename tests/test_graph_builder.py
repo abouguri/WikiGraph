@@ -9,6 +9,8 @@ def test_build_graph_adds_page_and_entities() -> None:
         url="https://en.wikipedia.org/wiki/Python_(programming_language)",
         summary="Python is a programming language.",
         text="Python is a programming language. It is used by Guido van Rossum.",
+        page_id=1,
+        revision_id=1,
         links=["Guido van Rossum", "Programming language"],
     )
 
