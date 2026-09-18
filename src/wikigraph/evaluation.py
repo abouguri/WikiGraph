@@ -2,12 +2,14 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import math
 from pathlib import Path
 from typing import Any
 
 from .extractor import PREDICATES, extract_relationships
+from .graph_builder import EntityIndex
 from .models import WikipediaPage
 
 
@@ -35,13 +37,22 @@ def metrics(tp: int, fp: int, fn: int) -> dict[str, Any]:
     }
 
 
-def evaluate(path: Path, split: str = "test", baseline: bool = False) -> dict[str, Any]:
+def evaluate(
+    path: Path, split: str = "test", baseline: bool = False, corpus: Path | None = None
+) -> dict[str, Any]:
     records = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
     pages: dict[str, str] = {}
     ids: set[str] = set()
     for row in records:
         if row["source_kind"] == "wikipedia" and row.get("reviewed") is not True:
             raise ValueError("Wikipedia evaluation requires reviewed annotations")
+        if row["source_kind"] == "wikipedia":
+            reviewers = {
+                str(r).strip().casefold() for r in row.get("reviewers", []) if str(r).strip()
+            }
+            if len(reviewers) < 2:
+                raise ValueError("Wikipedia evaluation requires two distinct reviewers")
+        row["page_id"] = str(row["page_id"])
         if row["id"] in ids:
             raise ValueError("Duplicate evaluation ID")
         ids.add(row["id"])
@@ -55,7 +66,21 @@ def evaluate(path: Path, split: str = "test", baseline: bool = False) -> dict[st
     selected = [r for r in records if r["split"] == split]
     if not selected:
         raise ValueError("Selected evaluation split is empty")
+    index = (
+        EntityIndex([WikipediaPage(**r) for r in json.loads(corpus.read_text())])
+        if corpus
+        else None
+    )
+    linked_correct = linked_total = linked_resolved = 0
     for row in selected:
+        for gold in row.get("entity_links", []):
+            if index is None:
+                raise ValueError("Entity-link evaluation requires a corpus snapshot")
+            resolved = index.resolve(gold["mention"])
+            predicted_id = int(str(resolved).rsplit("/", 1)[-1]) if resolved is not None else None
+            linked_total += 1
+            linked_resolved += int(predicted_id is not None)
+            linked_correct += int(predicted_id == gold["page_id"])
         page = WikipediaPage(
             row["title"], "", "", row["text"], row["links"], aliases=row.get("aliases", [])
         )
@@ -88,14 +113,20 @@ def evaluate(path: Path, split: str = "test", baseline: bool = False) -> dict[st
     totals = [sum(c[i] for c in counts.values()) for i in range(3)]
     return {
         "dataset": path.name,
+        "dataset_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
         "split": split,
         "sentences": len(selected),
         "source_kinds": sorted({r["source_kind"] for r in selected}),
         "method": "link-only-baseline" if baseline else "rules-v2",
         "micro": metrics(*totals),
         "per_predicate": {p: metrics(*c) for p, c in counts.items()},
-        "entity_linking_accuracy": None,
+        "entity_linking_accuracy": linked_correct / linked_total if linked_total else None,
+        "entity_linking": {
+            "support": linked_total,
+            "correct": linked_correct,
+            "resolved": linked_resolved,
+        },
         "limitations": "Synthetic fixtures measure regression behavior, not real-corpus accuracy. "
-        "Entity-linking accuracy requires separately reviewed canonical IDs.",
+        "Entity-linking accuracy, when present, scores separately reviewed mention-to-page-ID cases including abstentions.",
         "errors": errors,
     }

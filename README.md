@@ -56,7 +56,7 @@ coverage is deliberately limited; no real-corpus precision claim has been made.
 
 The synthetic regression split produced 30 true positives, zero false positives,
 and ten false negatives. Those known templates do **not** establish Wikipedia
-accuracy. The 200 real annotation candidates remain unreviewed, and evaluation
+accuracy. The 199 frozen real annotation candidates remain unreviewed, and evaluation
 refuses to score them until review is recorded.
 
 A local five-client HTTP benchmark measured p95 latency of 20.97 ms for search,

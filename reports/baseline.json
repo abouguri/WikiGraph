@@ -1,5 +1,6 @@
 {
   "dataset": "synthetic.jsonl",
+  "dataset_sha256": "24265dc292b241b93fc92d4c0640d208d19553bfc2d645f33a511e0cc7bf94d5",
   "split": "test",
   "sentences": 60,
   "source_kinds": [
@@ -49,7 +50,12 @@
     }
   },
   "entity_linking_accuracy": null,
-  "limitations": "Synthetic fixtures measure regression behavior, not real-corpus accuracy. Entity-linking accuracy requires separately reviewed canonical IDs.",
+  "entity_linking": {
+    "support": 0,
+    "correct": 0,
+    "resolved": 0
+  },
+  "limitations": "Synthetic fixtures measure regression behavior, not real-corpus accuracy. Entity-linking accuracy, when present, scores separately reviewed mention-to-page-ID cases including abstentions.",
   "errors": [
     {
       "id": "synthetic-20-0",

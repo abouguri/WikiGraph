@@ -12,7 +12,8 @@ This file records verified implementation, not the aspirational targets in the p
 - [x] Version-locked dependencies, container build/smoke test, and a measured 100-page HTTP baseline.
 - [x] 300-page, five-client HTTP latency gate and byte-identical offline rebuild.
 - [ ] Complete release gates: demo video and independent reproducibility review.
-- [ ] Real held-out corpus annotation and independent review.
+- [x] Frozen real dev/test candidates, two-reviewer exchange/merge tooling, and canonical entity-link metrics.
+- [ ] Real held-out gold annotation and independent review (199 candidates await human labels).
 - [x] Managed-host deployment configuration (Render free-plan blueprint, provider port, server-first landing view).
 - [ ] Hosted demo: Render account connection and successful public deployment pending.
 - [ ] Three-person usability review.

@@ -82,12 +82,13 @@ def evaluate(
     output: Path = Path("reports/evaluation.json"),
     split: str = "test",
     baseline: bool = False,
+    corpus: Path | None = None,
 ) -> None:
     """Evaluate labeled sentences; synthetic scores are not real-corpus accuracy."""
     from .evaluation import evaluate as run_evaluation
     from .fetcher import atomic_json
 
-    report = run_evaluation(dataset, split, baseline)
+    report = run_evaluation(dataset, split, baseline, corpus)
     atomic_json(output, report)
     typer.echo(json.dumps(report["micro"], indent=2))
 
