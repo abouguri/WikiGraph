@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dart (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Dart_%28programming_language%29",
+    "summary": "Programming language This article is about a programming language. For the advertising application formerly named Google Dart, see DoubleClick for Publishers by Google . For other uses, see Dart . Dart Paradigm Multi-paradigm : functional , imperative , object-oriented , reflective Designed by Lars Bak , Kasper Lund Developer Google First appeared October 10, 2011 ; 14 years ago ( 2011-10-10 ) Stable release 3.13.4 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Typing discipline 1.x: Optional 2.x: Inferred ( static , strong ) Platform Cross-platform OS Cross-platform License BSD Filename extensions .dart Website dart .dev Major implementations Dart VM, dart2native, dart2js, DDC, Flutter Influenced by C , C++ , C# , Erlang , Java , JavaScript , Ruby , Swift , Smalltalk , Strongtalk , TypeScript Dart is a programming language designed by Lars Bak and Kasper Lund and developed by Google . It can be used to develop web and mobile apps as well as server and desktop applications . Dart is an object-oriented , class-based , garbage-collected language with C -style syntax . It can compile to machine code , JavaScript , or WebAssembly . It supports interfaces , mixins , abstract classes , reified generics and type inference . The latest version of Dart is 3.13.4 . ^ Kopec, David (30 June 2014). Dart for Absolute Beginners . Apress. p. 56. ISBN 9781430264828 . Retrieved 24 November 2015 . ^ Bak, Lars (10 October 2011). \"Dart: a language for structured web programming\" . Google Code Blog . Retrieved 31 January 2016 . ^ a b \"Release 3.13.4\" . 15 September 2026 . Retrieved 15 September 2026 . ^ a b \"The Dart type system\" . dart.dev . ^ \"Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013\" . YouTube . 16 May 2013 . Retrieved 22 December 2013 . ^ \"The Dart Team Welcomes TypeScript\" . 10 September 2019 . Retrieved 22 February 2020 . ^ \"Dart SDK Tags\" . GitHub . ^ \"A Bit About Dart - Learn Dart: First Step to Flutter\" . Educative: Interactive Courses for Software Developers . Retrieved 2023-06-20 . ^ \"A Tour of the Dart Language\" . dart.dev . Retrieved 2018-08-09 .",
+    "text": "Programming language This article is about a programming language. For the advertising application formerly named Google Dart, see DoubleClick for Publishers by Google . For other uses, see Dart . Dart Paradigm Multi-paradigm : functional , imperative , object-oriented , reflective Designed by Lars Bak , Kasper Lund Developer Google First appeared October 10, 2011 ; 14 years ago ( 2011-10-10 ) Stable release 3.13.4 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Typing discipline 1.x: Optional 2.x: Inferred ( static , strong ) Platform Cross-platform OS Cross-platform License BSD Filename extensions .dart Website dart .dev Major implementations Dart VM, dart2native, dart2js, DDC, Flutter Influenced by C , C++ , C# , Erlang , Java , JavaScript , Ruby , Swift , Smalltalk , Strongtalk , TypeScript Dart is a programming language designed by Lars Bak and Kasper Lund and developed by Google . It can be used to develop web and mobile apps as well as server and desktop applications . Dart is an object-oriented , class-based , garbage-collected language with C -style syntax . It can compile to machine code , JavaScript , or WebAssembly . It supports interfaces , mixins , abstract classes , reified generics and type inference . The latest version of Dart is 3.13.4 . ^ Kopec, David (30 June 2014). Dart for Absolute Beginners . Apress. p. 56. ISBN 9781430264828 . Retrieved 24 November 2015 . ^ Bak, Lars (10 October 2011). \"Dart: a language for structured web programming\" . Google Code Blog . Retrieved 31 January 2016 . ^ a b \"Release 3.13.4\" . 15 September 2026 . Retrieved 15 September 2026 . ^ a b \"The Dart type system\" . dart.dev . ^ \"Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013\" . YouTube . 16 May 2013 . Retrieved 22 December 2013 . ^ \"The Dart Team Welcomes TypeScript\" . 10 September 2019 . Retrieved 22 February 2020 . ^ \"Dart SDK Tags\" . GitHub . ^ \"A Bit About Dart - Learn Dart: First Step to Flutter\" . Educative: Interactive Courses for Software Developers . Retrieved 2023-06-20 . ^ \"A Tour of the Dart Language\" . dart.dev . Retrieved 2018-08-09 .",
+    "links": [
+      "Abstract class",
+      "Application software",
+      "BSD licenses",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "Class-based programming",
+      "Compiler",
+      "Computing platform",
+      "Cross-platform",
+      "Dart (disambiguation)",
+      "DoubleClick for Publishers by Google",
+      "Erlang (programming language)",
+      "Filename extension",
+      "Flutter (software)",
+      "Functional programming",
+      "Garbage collection (computer science)",
+      "Generic programming",
+      "GitHub",
+      "Google",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Interface (object-oriented programming)",
+      "Java (programming language)",
+      "JavaScript",
+      "Lars Bak (computer programmer)",
+      "Machine code",
+      "Mixin",
+      "Mobile app",
+      "Multi-paradigm",
+      "Object-oriented programming",
+      "Operating system",
+      "Optional typing",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Reflective programming",
+      "Reification (computer science)",
+      "Ruby (programming language)",
+      "Server (computing)",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Static typing",
+      "Strong typing",
+      "Strongtalk",
+      "Swift (programming language)",
+      "Syntax (programming languages)",
+      "Type inference",
+      "Type system",
+      "TypeScript",
+      "Web application",
+      "WebAssembly",
+      "YouTube"
+    ],
+    "page_id": 33033735,
+    "revision_id": 1368937580,
+    "retrieved_at": "2026-09-18T18:08:50.110091+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260805193351|1367882204",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 33033735,
+            "ns": 0,
+            "title": "Dart (programming language)",
+            "revisions": [
+              {
+                "revid": 1368937580,
+                "parentid": 1367882204
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming language",
+              "wikibase_item": "Q406009"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Dart (programming language)",
+        "pageid": 33033735,
+        "revid": 1368937580,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about a programming language. For the advertising application formerly named Google Dart, see <a href=\"/wiki/DoubleClick_for_Publishers_by_Google\" class=\"mw-redirect\" title=\"DoubleClick for Publishers by Google\">DoubleClick for Publishers by Google</a>. For other uses, see <a href=\"/wiki/Dart_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"Dart (disambiguation)\">Dart</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Dart</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Dart_programming_language_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Dart_programming_language_logo.svg/250px-Dart_programming_language_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"38\" class=\"mw-file-element\" data-file-width=\"512\" data-file-height=\"160\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Lars_Bak_(computer_programmer)\" title=\"Lars Bak (computer programmer)\">Lars Bak</a>, Kasper Lund</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Google\" title=\"Google\">Google</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">October&#160;10, 2011<span class=\"noprint\">&#59;&#32;14 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2011-10-10</span>)</span><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">3.13.4<sup id=\"cite&#95;ref-wikidata-7be2151ae17625b7edb2483864a1d230d834e3f9-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-7be2151ae17625b7edb2483864a1d230d834e3f9-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q406009?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 15 September 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">15 September 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\">1.x: <a href=\"/wiki/Optional_typing\" class=\"mw-redirect\" title=\"Optional typing\">Optional</a><br />2.x: <a href=\"/wiki/Type_inference\" title=\"Type inference\">Inferred</a><sup id=\"cite&#95;ref-The&#95;Dart&#95;type&#95;system&#95;4-0\" class=\"reference\"><a href=\"#cite_note-The_Dart_type_system-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> (<a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a>, <a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">strong</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/BSD_licenses\" title=\"BSD licenses\">BSD</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.dart</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://dart.dev\" href=\"https://dart.dev\">dart<wbr />.dev</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">Dart VM, dart2native, dart2js, DDC, <a href=\"/wiki/Flutter_(software)\" title=\"Flutter (software)\">Flutter</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>, <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a>, <a href=\"/wiki/Strongtalk\" title=\"Strongtalk\">Strongtalk</a>,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/TypeScript\" title=\"TypeScript\">TypeScript</a><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table>\n<p><b>Dart</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> designed by <a href=\"/wiki/Lars_Bak_(computer_programmer)\" title=\"Lars Bak (computer programmer)\">Lars Bak</a> and Kasper Lund and developed by <a href=\"/wiki/Google\" title=\"Google\">Google</a>.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> It can be used to develop <a href=\"/wiki/Web_application\" title=\"Web application\">web</a> and <a href=\"/wiki/Mobile_app\" title=\"Mobile app\">mobile apps</a> as well as <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">server</a> and <a href=\"/wiki/Application_software\" title=\"Application software\">desktop applications</a>.\n</p><p>Dart is an <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Class-based_programming\" class=\"mw-redirect\" title=\"Class-based programming\">class-based</a>, <a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">garbage-collected</a> language with <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>-style <a href=\"/wiki/Syntax_(programming_languages)\" title=\"Syntax (programming languages)\">syntax</a>.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> It can <a href=\"/wiki/Compiler\" title=\"Compiler\">compile</a> to <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, or <a href=\"/wiki/WebAssembly\" title=\"WebAssembly\">WebAssembly</a>. It supports <a href=\"/wiki/Interface_(object-oriented_programming)\" title=\"Interface (object-oriented programming)\">interfaces</a>, <a href=\"/wiki/Mixin\" title=\"Mixin\">mixins</a>, <a href=\"/wiki/Abstract_class\" class=\"mw-redirect\" title=\"Abstract class\">abstract classes</a>, <a href=\"/wiki/Reification_(computer_science)\" title=\"Reification (computer science)\">reified</a> <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generics</a> and <a href=\"/wiki/Type_inference\" title=\"Type inference\">type inference</a>.<sup id=\"cite&#95;ref-The&#95;Dart&#95;type&#95;system&#95;4-1\" class=\"reference\"><a href=\"#cite_note-The_Dart_type_system-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> The latest version of Dart is 3.13.4<sup id=\"cite&#95;ref-wikidata-7be2151ae17625b7edb2483864a1d230d834e3f9-v20&#95;3-1\" class=\"reference\"><a href=\"#cite_note-wikidata-7be2151ae17625b7edb2483864a1d230d834e3f9-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q406009?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFKopec2014\" class=\"citation book cs1\">Kopec, David (30 June 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=EcvjAwAAQBAJ&amp;q=dart%20multi-paradigm&amp;pg=PA56\"><i>Dart for Absolute Beginners</i></a>. Apress. p.&#160;56. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/9781430264828\" title=\"Special:BookSources/9781430264828\"><bdi>9781430264828</bdi></a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 November</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Dart+for+Absolute+Beginners&amp;rft.pages=56&amp;rft.pub=Apress&amp;rft.date=2014-06-30&amp;rft.isbn=9781430264828&amp;rft.aulast=Kopec&amp;rft.aufirst=David&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DEcvjAwAAQBAJ%26q%3Ddart%2520multi-paradigm%26pg%3DPA56&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBak2011\" class=\"citation web cs1\">Bak, Lars (10 October 2011). <a rel=\"nofollow\" class=\"external text\" href=\"http://googlecode.blogspot.com/2011/10/dart-language-for-structured-web.html\">\"Dart: a language for structured web programming\"</a>. <i>Google Code Blog</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">31 January</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Google+Code+Blog&amp;rft.atitle=Dart%3A+a+language+for+structured+web+programming&amp;rft.date=2011-10-10&amp;rft.aulast=Bak&amp;rft.aufirst=Lars&amp;rft&#95;id=http%3A%2F%2Fgooglecode.blogspot.com%2F2011%2F10%2Fdart-language-for-structured-web.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-7be2151ae17625b7edb2483864a1d230d834e3f9-v20-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-wikidata-7be2151ae17625b7edb2483864a1d230d834e3f9-v20_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-wikidata-7be2151ae17625b7edb2483864a1d230d834e3f9-v20_3-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dart-lang/sdk/releases/tag/3.13.4\">\"Release 3.13.4\"</a>. 15 September 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+3.13.4&amp;rft.date=2026-09-15&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fdart-lang%2Fsdk%2Freleases%2Ftag%2F3.13.4&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-The&#95;Dart&#95;type&#95;system-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-The_Dart_type_system_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-The_Dart_type_system_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://dart.dev/guides/language/sound-dart\">\"The Dart type system\"</a>. <i>dart.dev</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=dart.dev&amp;rft.atitle=The+Dart+type+system&amp;rft&#95;id=https%3A%2F%2Fdart.dev%2Fguides%2Flanguage%2Fsound-dart&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=huawCRlo9H4&amp;t=30m10s\">\"Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013\"</a>. <i><a href=\"/wiki/YouTube\" title=\"YouTube\">YouTube</a></i>. 16 May 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 December</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=Web+Languages+and+VMs%3A+Fast+Code+is+Always+in+Fashion.+%28V8%2C+Dart%29+-+Google+I%2FO+2013&amp;rft.date=2013-05-16&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhuawCRlo9H4%26t%3D30m10s&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://news.dartlang.org/2012/10/the-dart-team-welcomes-typescript.html\">\"The Dart Team Welcomes TypeScript\"</a>. 10 September 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 February</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Dart+Team+Welcomes+TypeScript&amp;rft.date=2019-09-10&amp;rft&#95;id=https%3A%2F%2Fnews.dartlang.org%2F2012%2F10%2Fthe-dart-team-welcomes-typescript.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-auto-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-auto_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dart-lang/sdk/tags\">\"Dart SDK Tags\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Dart+SDK+Tags&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fdart-lang%2Fsdk%2Ftags&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.educative.io/courses/learn-dart-first-step-to-flutter/g7kmn5r74ok\">\"A Bit About Dart - Learn Dart: First Step to Flutter\"</a>. <i>Educative: Interactive Courses for Software Developers</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-06-20</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Educative%3A+Interactive+Courses+for+Software+Developers&amp;rft.atitle=A+Bit+About+Dart+-+Learn+Dart%3A+First+Step+to+Flutter&amp;rft&#95;id=https%3A%2F%2Fwww.educative.io%2Fcourses%2Flearn-dart-first-step-to-flutter%2Fg7kmn5r74ok&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://dart.dev/guides/language/language-tour#important-concepts\">\"A Tour of the Dart Language\"</a>. <i>dart.dev</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2018-08-09</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=dart.dev&amp;rft.atitle=A+Tour+of+the+Dart+Language&amp;rft&#95;id=https%3A%2F%2Fdart.dev%2Fguides%2Flanguage%2Flanguage-tour%23important-concepts&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADart+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐qf7jk\nCached time: 20260918180915\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.537 seconds\nReal time usage: 0.676 seconds\nPreprocessor visited node count: 1535/1000000\nRevision size: 4308/2097152 bytes\nPost‐expand include size: 31791/2097152 bytes\nTemplate argument size: 3910/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 29423/5000000 bytes\nLua time usage: 0.404/10.000 seconds\nLua memory usage: 12045212/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  640.789      1 -total\n 70.43%  451.324      2 Template:Infobox\n 62.91%  403.152      1 Template:Infobox_programming_language\n 48.89%  313.295      1 Template:Infobox_software/simple\n 46.71%  299.296      3 Template:Wikidata\n 18.04%  115.595      1 Template:Short_description\n 11.33%   72.621      3 Template:Start_date_and_age\n 11.14%   71.404      2 Template:Pagetype\n  6.68%   42.796      1 Template:About\n  3.87%   24.772      4 Template:Main_other\n-->\n\n<!-- Render ID 0ec863a2-b38c-11f1-b917-6bae10c01b08 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "DoubleClick for Publishers by Google",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dart (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract class",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class-based programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erlang (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flutter (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interface (object-oriented programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lars Bak (computer programmer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mixin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mobile app",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Optional typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reification (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strongtalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TypeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebAssembly",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web application",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YouTube",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language",
+          "wikibase_item": "Q406009"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Linux distribution",
+    "url": "https://en.wikipedia.org/wiki/Linux_distribution",
+    "summary": "Operating system based on the Linux kernel Ubuntu , one of the most popular desktop Linux distributions A Linux distribution , often abbreviated as distro , is an operating system that includes the Linux kernel for its kernel functions. Although the term does not imply product distribution per se, a distro, if distributed on its own, is often obtained via a website intended specifically for the purpose. Distros have been designed for a wide variety of systems ranging from personal computers (for example, Linux Mint ) to servers (for example, Red Hat Enterprise Linux ) and from embedded devices (for example, OpenWrt ) to supercomputers (for example, Rocks Cluster Distribution ). A distro typically includes a Linux kernel and many other components. Commonly, it includes a package manager , an init system (such as systemd , OpenRC , SysVinit , or runit ), GNU tools and libraries , documentation, Internet Protocol (IP) network configuration utility software (utilities), the getty TTY setup program, and many more. Programs used to provide a desktop experience (most commonly the Mesa userspace graphics drivers), a display server (the most common being the X.org Server , or, more recently, a Wayland compositor such as Sway , KDE 's KWin , or GNOME 's Mutter ), a desktop environment (most commonly GNOME, KDE Plasma , Cinnamon or Xfce ), a sound server (usually either PulseAudio or more recently PipeWire ), and other related programs may be included or installed by the user. Typically, most of the included software is free and open-source software – made available both as binary for convenience and as source code to allow for modifying it. A distro may also include proprietary software that is not available in source code form, such as a device driver binary . A distro may be described as a specific assortment of application and utility software (various GNU tools and libraries, for example), packaged with the Linux kernel in such a way that its capabilities meet users' needs. The software is usually adapted to the distribution and then combined into software packages by the distribution's maintainers. The software packages are available online in repositories , which are storage locations usually distributed around the world. Beside \"glue\" components, such as the distribution installers (for example, Debian-Installer and Anaconda ) and the package management systems, very few packages are actually written by a distribution's maintainers. Distributions have been designed for a wide range of computing environments, including desktops , servers , laptops , netbooks , mobile devices (phones and tablets), and embedded systems . There are commercially backed distributions, such as Red Hat Enterprise Linux ( Red Hat ), openSUSE ( SUSE ) and Ubuntu ( Canonical ), and entirely community-driven distributions, such as Debian , Slackware , Gentoo and Arch Linux . Most distributions come ready-to-use and prebuilt for a specific instruction set , while some (such as Gentoo) are distributed mostly in source code form and must be built before installation. Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ). ^ \"Explaining Why We Don't Endorse Other Systems\" . gnu.org . June 30, 2014. Archived from the original on April 24, 2011 . Retrieved January 5, 2015 . ^ \"Linux Operating Systems: Distributions\" . swift.siphos.be . November 27, 2014. Archived from the original on October 3, 2018 . Retrieved January 8, 2015 . ^ Chris Hoffman (June 27, 2012). \"HTG Explains: How Software Installation & Package Managers Work On Linux\" . howtogeek.com . Archived from the original on February 10, 2015 . Retrieved January 15, 2015 . ^ \"The status of CentOS mirrors\" . centos.org . January 15, 2015. Archived from the original on December 31, 2014 . Retrieved January 15, 2015 . ^ Jim Martin. \"How to install Ubuntu Touch on your Android phone or tablet\" . PC Advisor . Archived from the original on October 27, 2015 . Retrieved October 29, 2015 . ^ David Hayward. \"Install Linux on your x86 tablet: five distros to choose from\" . TechRadar . Archived from the original on April 13, 2019 . Retrieved October 29, 2015 . ^ Brian Proffitt (February 3, 2010). \"The Top 7 Best Linux Distributions for You\" . linux.com . Archived from the original on January 5, 2015 . Retrieved January 11, 2015 . ^ Eric Brown (November 4, 2014). \"Mobile Linux Distros Keep on Morphing\" . linux.com . Archived from the original on February 13, 2015 . Retrieved January 11, 2015 . ^ \"Debian and Other Distros\" . debian.org . December 7, 2013. Archived from the original on January 14, 2015 . Retrieved January 5, 2015 .",
+    "text": "Operating system based on the Linux kernel Ubuntu , one of the most popular desktop Linux distributions A Linux distribution , often abbreviated as distro , is an operating system that includes the Linux kernel for its kernel functions. Although the term does not imply product distribution per se, a distro, if distributed on its own, is often obtained via a website intended specifically for the purpose. Distros have been designed for a wide variety of systems ranging from personal computers (for example, Linux Mint ) to servers (for example, Red Hat Enterprise Linux ) and from embedded devices (for example, OpenWrt ) to supercomputers (for example, Rocks Cluster Distribution ). A distro typically includes a Linux kernel and many other components. Commonly, it includes a package manager , an init system (such as systemd , OpenRC , SysVinit , or runit ), GNU tools and libraries , documentation, Internet Protocol (IP) network configuration utility software (utilities), the getty TTY setup program, and many more. Programs used to provide a desktop experience (most commonly the Mesa userspace graphics drivers), a display server (the most common being the X.org Server , or, more recently, a Wayland compositor such as Sway , KDE 's KWin , or GNOME 's Mutter ), a desktop environment (most commonly GNOME, KDE Plasma , Cinnamon or Xfce ), a sound server (usually either PulseAudio or more recently PipeWire ), and other related programs may be included or installed by the user. Typically, most of the included software is free and open-source software – made available both as binary for convenience and as source code to allow for modifying it. A distro may also include proprietary software that is not available in source code form, such as a device driver binary . A distro may be described as a specific assortment of application and utility software (various GNU tools and libraries, for example), packaged with the Linux kernel in such a way that its capabilities meet users' needs. The software is usually adapted to the distribution and then combined into software packages by the distribution's maintainers. The software packages are available online in repositories , which are storage locations usually distributed around the world. Beside \"glue\" components, such as the distribution installers (for example, Debian-Installer and Anaconda ) and the package management systems, very few packages are actually written by a distribution's maintainers. Distributions have been designed for a wide range of computing environments, including desktops , servers , laptops , netbooks , mobile devices (phones and tablets), and embedded systems . There are commercially backed distributions, such as Red Hat Enterprise Linux ( Red Hat ), openSUSE ( SUSE ) and Ubuntu ( Canonical ), and entirely community-driven distributions, such as Debian , Slackware , Gentoo and Arch Linux . Most distributions come ready-to-use and prebuilt for a specific instruction set , while some (such as Gentoo) are distributed mostly in source code form and must be built before installation. Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ). ^ \"Explaining Why We Don't Endorse Other Systems\" . gnu.org . June 30, 2014. Archived from the original on April 24, 2011 . Retrieved January 5, 2015 . ^ \"Linux Operating Systems: Distributions\" . swift.siphos.be . November 27, 2014. Archived from the original on October 3, 2018 . Retrieved January 8, 2015 . ^ Chris Hoffman (June 27, 2012). \"HTG Explains: How Software Installation & Package Managers Work On Linux\" . howtogeek.com . Archived from the original on February 10, 2015 . Retrieved January 15, 2015 . ^ \"The status of CentOS mirrors\" . centos.org . January 15, 2015. Archived from the original on December 31, 2014 . Retrieved January 15, 2015 . ^ Jim Martin. \"How to install Ubuntu Touch on your Android phone or tablet\" . PC Advisor . Archived from the original on October 27, 2015 . Retrieved October 29, 2015 . ^ David Hayward. \"Install Linux on your x86 tablet: five distros to choose from\" . TechRadar . Archived from the original on April 13, 2019 . Retrieved October 29, 2015 . ^ Brian Proffitt (February 3, 2010). \"The Top 7 Best Linux Distributions for You\" . linux.com . Archived from the original on January 5, 2015 . Retrieved January 11, 2015 . ^ Eric Brown (November 4, 2014). \"Mobile Linux Distros Keep on Morphing\" . linux.com . Archived from the original on February 13, 2015 . Retrieved January 11, 2015 . ^ \"Debian and Other Distros\" . debian.org . December 7, 2013. Archived from the original on January 14, 2015 . Retrieved January 5, 2015 .",
+    "links": [
+      "Anaconda (installer)",
+      "Arch Linux",
+      "Binary blob",
+      "Canonical (company)",
+      "Cinnamon (desktop environment)",
+      "Debian",
+      "Debian-Installer",
+      "Desktop computer",
+      "Desktop environment",
+      "Device driver",
+      "Distribution (marketing)",
+      "Embedded device",
+      "Embedded systems",
+      "Executable",
+      "Free and open-source software",
+      "GNOME",
+      "GNU",
+      "Gentoo Linux",
+      "Getty (Unix)",
+      "Init",
+      "Instruction set",
+      "Internet Protocol",
+      "KDE",
+      "KDE Plasma",
+      "KWin",
+      "Kernel (operating system)",
+      "Laptop",
+      "Library (computing)",
+      "Linux Mint",
+      "Linux kernel",
+      "Mesa (computer graphics)",
+      "Mobile device",
+      "Mutter (software)",
+      "Netbook",
+      "OpenRC",
+      "OpenSUSE",
+      "OpenWrt",
+      "Operating system",
+      "Package manager",
+      "Personal computer",
+      "PipeWire",
+      "Proprietary software",
+      "PulseAudio",
+      "Red Hat",
+      "Red Hat Enterprise Linux",
+      "Rocks Cluster Distribution",
+      "Runit",
+      "SUSE S.A.",
+      "Server (computing)",
+      "Slackware",
+      "Software build",
+      "Software repository",
+      "Sound server",
+      "Source code",
+      "Supercomputer",
+      "Sway (window manager)",
+      "SysVinit",
+      "Systemd",
+      "Ubuntu",
+      "Utility software",
+      "Wayland (display server protocol)",
+      "Website",
+      "Windowing system",
+      "X.org Server",
+      "Xfce"
+    ],
+    "page_id": 18212,
+    "revision_id": 1374533766,
+    "retrieved_at": "2026-09-18T18:09:43.525574+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260910061424|1374166289",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 18212,
+            "ns": 0,
+            "title": "Linux distribution",
+            "revisions": [
+              {
+                "revid": 1374533766,
+                "parentid": 1374166289
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Linux Distribution",
+              "page_image_free": "Ubuntu_26.04_LTS_desktop.png",
+              "wikibase-shortdesc": "Operating system based on the Linux kernel",
+              "wikibase_item": "Q131669"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Linux distribution",
+        "pageid": 18212,
+        "revid": 1374533766,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Operating system based on the Linux kernel</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Ubuntu_26.04_LTS_desktop.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ubuntu_26.04_LTS_desktop.png/500px-Ubuntu_26.04_LTS_desktop.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"380\" height=\"214\" style=\"--mw-file-upright: 1.5\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ubuntu_26.04_LTS_desktop.png/960px-Ubuntu_26.04_LTS_desktop.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1920\" data-file-height=\"1080\" /></a><figcaption><a href=\"/wiki/Ubuntu\" title=\"Ubuntu\">Ubuntu</a>, one of the most popular desktop Linux distributions</figcaption></figure>\n<p>A <b>Linux distribution</b>,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> often abbreviated as <b>distro</b>, is an <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> that includes the <a href=\"/wiki/Linux_kernel\" title=\"Linux kernel\">Linux kernel</a> for its <a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">kernel</a> functions. Although the term does not imply <a href=\"/wiki/Distribution_(marketing)\" title=\"Distribution (marketing)\">product distribution</a> per se, a distro, if distributed on its own, is often obtained via a <a href=\"/wiki/Website\" title=\"Website\">website</a> intended specifically for the purpose. Distros have been designed for a wide variety of systems ranging from <a href=\"/wiki/Personal_computer\" title=\"Personal computer\">personal computers</a> (for example, <a href=\"/wiki/Linux_Mint\" title=\"Linux Mint\">Linux Mint</a>) to <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">servers</a> (for example, <a href=\"/wiki/Red_Hat_Enterprise_Linux\" title=\"Red Hat Enterprise Linux\">Red Hat Enterprise Linux</a>) and from <a href=\"/wiki/Embedded_device\" class=\"mw-redirect\" title=\"Embedded device\">embedded devices</a> (for example, <a href=\"/wiki/OpenWrt\" title=\"OpenWrt\">OpenWrt</a>) to <a href=\"/wiki/Supercomputer\" title=\"Supercomputer\">supercomputers</a> (for example, <a href=\"/wiki/Rocks_Cluster_Distribution\" title=\"Rocks Cluster Distribution\">Rocks Cluster Distribution</a>).\n</p><p>A distro typically includes a Linux kernel and many other components. Commonly, it includes a <a href=\"/wiki/Package_manager\" title=\"Package manager\">package manager</a>, an <a href=\"/wiki/Init\" title=\"Init\">init</a> system (such as <a href=\"/wiki/Systemd\" title=\"Systemd\">systemd</a>, <a href=\"/wiki/OpenRC\" title=\"OpenRC\">OpenRC</a>, <a href=\"/wiki/SysVinit\" class=\"mw-redirect\" title=\"SysVinit\">SysVinit</a>, or <a href=\"/wiki/Runit\" title=\"Runit\">runit</a>), <a href=\"/wiki/GNU\" title=\"GNU\">GNU</a> tools and <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">libraries</a>, documentation, <a href=\"/wiki/Internet_Protocol\" title=\"Internet Protocol\">Internet Protocol</a> (IP) network configuration <a href=\"/wiki/Utility_software\" title=\"Utility software\">utility software</a> (utilities), the <a href=\"/wiki/Getty_(Unix)\" class=\"mw-redirect\" title=\"Getty (Unix)\">getty</a> TTY setup program, and many more. Programs used to provide a desktop experience (most commonly the <a href=\"/wiki/Mesa_(computer_graphics)\" title=\"Mesa (computer graphics)\">Mesa</a> userspace graphics drivers), a <a href=\"/wiki/Windowing_system\" title=\"Windowing system\">display server</a> (the most common being the <a href=\"/wiki/X.org_Server\" class=\"mw-redirect\" title=\"X.org Server\">X.org Server</a>, or, more recently, a <a href=\"/wiki/Wayland_(display_server_protocol)\" class=\"mw-redirect\" title=\"Wayland (display server protocol)\">Wayland</a> compositor such as <a href=\"/wiki/Sway_(window_manager)\" title=\"Sway (window manager)\">Sway</a>, <a href=\"/wiki/KDE\" title=\"KDE\">KDE</a>'s <a href=\"/wiki/KWin\" title=\"KWin\">KWin</a>, or <a href=\"/wiki/GNOME\" title=\"GNOME\">GNOME</a>'s <a href=\"/wiki/Mutter_(software)\" title=\"Mutter (software)\">Mutter</a>), a <a href=\"/wiki/Desktop_environment\" title=\"Desktop environment\">desktop environment</a> (most commonly GNOME, <a href=\"/wiki/KDE_Plasma\" title=\"KDE Plasma\">KDE Plasma</a>, <a href=\"/wiki/Cinnamon_(desktop_environment)\" title=\"Cinnamon (desktop environment)\">Cinnamon</a> or <a href=\"/wiki/Xfce\" title=\"Xfce\">Xfce</a>), a <a href=\"/wiki/Sound_server\" title=\"Sound server\">sound server</a> (usually either <a href=\"/wiki/PulseAudio\" title=\"PulseAudio\">PulseAudio</a> or more recently <a href=\"/wiki/PipeWire\" title=\"PipeWire\">PipeWire</a>), and other related programs may be included or installed by the user.\n</p><p>Typically, most of the included software is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> – made available both as <a href=\"/wiki/Executable\" title=\"Executable\">binary</a> for convenience and as <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> to allow for modifying it. A distro may also include <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a> that is not available in source code form, such as a <a href=\"/wiki/Device_driver\" title=\"Device driver\">device driver</a> <a href=\"/wiki/Binary_blob\" title=\"Binary blob\">binary</a>.<sup id=\"cite&#95;ref-x3fEd&#95;2-0\" class=\"reference\"><a href=\"#cite_note-x3fEd-2\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>A distro may be described as a specific assortment of application and utility software (various GNU tools and libraries, for example), packaged with the Linux kernel in such a way that its capabilities meet users' needs.<sup id=\"cite&#95;ref-Rn9ZU&#95;3-0\" class=\"reference\"><a href=\"#cite_note-Rn9ZU-3\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> The software is usually adapted to the distribution and then combined into software packages by the distribution's maintainers. The software packages are available online in <a href=\"/wiki/Software_repository\" title=\"Software repository\">repositories</a>, which are storage locations usually distributed around the world.<sup id=\"cite&#95;ref-IpPUW&#95;4-0\" class=\"reference\"><a href=\"#cite_note-IpPUW-4\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Eg74B&#95;5-0\" class=\"reference\"><a href=\"#cite_note-Eg74B-5\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Beside \"glue\" components, such as the distribution installers (for example, <a href=\"/wiki/Debian-Installer\" title=\"Debian-Installer\">Debian-Installer</a> and <a href=\"/wiki/Anaconda_(installer)\" title=\"Anaconda (installer)\">Anaconda</a>) and the package management systems, very few packages are actually written by a distribution's maintainers.\n</p><p>Distributions have been designed for a wide range of computing environments, including <a href=\"/wiki/Desktop_computer\" title=\"Desktop computer\">desktops</a>, <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">servers</a>, <a href=\"/wiki/Laptop\" title=\"Laptop\">laptops</a>, <a href=\"/wiki/Netbook\" title=\"Netbook\">netbooks</a>, <a href=\"/wiki/Mobile_device\" title=\"Mobile device\">mobile devices</a> (phones and tablets),<sup id=\"cite&#95;ref-mOuND&#95;6-0\" class=\"reference\"><a href=\"#cite_note-mOuND-6\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3PAkr&#95;7-0\" class=\"reference\"><a href=\"#cite_note-3PAkr-7\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Embedded_systems\" class=\"mw-redirect\" title=\"Embedded systems\">embedded systems</a>.<sup id=\"cite&#95;ref-huumN&#95;8-0\" class=\"reference\"><a href=\"#cite_note-huumN-8\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-wrjjJ&#95;9-0\" class=\"reference\"><a href=\"#cite_note-wrjjJ-9\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> There are commercially backed distributions, such as <a href=\"/wiki/Red_Hat_Enterprise_Linux\" title=\"Red Hat Enterprise Linux\">Red Hat Enterprise Linux</a> (<a href=\"/wiki/Red_Hat\" title=\"Red Hat\">Red Hat</a>), <a href=\"/wiki/OpenSUSE\" title=\"OpenSUSE\">openSUSE</a> (<a href=\"/wiki/SUSE_S.A.\" title=\"SUSE S.A.\">SUSE</a>) and <a href=\"/wiki/Ubuntu\" title=\"Ubuntu\">Ubuntu</a> (<a href=\"/wiki/Canonical_(company)\" title=\"Canonical (company)\">Canonical</a>), and entirely community-driven distributions, such as <a href=\"/wiki/Debian\" title=\"Debian\">Debian</a>, <a href=\"/wiki/Slackware\" title=\"Slackware\">Slackware</a>, <a href=\"/wiki/Gentoo_Linux\" title=\"Gentoo Linux\">Gentoo</a> and <a href=\"/wiki/Arch_Linux\" title=\"Arch Linux\">Arch Linux</a>. Most distributions come ready-to-use and prebuilt for a specific <a href=\"/wiki/Instruction_set\" class=\"mw-redirect\" title=\"Instruction set\">instruction set</a>, while some (such as Gentoo) are distributed mostly in <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> form and must be <a href=\"/wiki/Software_build\" title=\"Software build\">built</a> before installation.<sup id=\"cite&#95;ref-HSFsG&#95;10-0\" class=\"reference\"><a href=\"#cite_note-HSFsG-10\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p><div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-x3fEd-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-x3fEd_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/distros/common-distros.html\">\"Explaining Why We Don't Endorse Other Systems\"</a>. <i>gnu.org</i>. June 30, 2014. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110424061731/http://www.gnu.org/distros/common-distros.html\">Archived</a> from the original on April 24, 2011<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 5,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=gnu.org&amp;rft.atitle=Explaining+Why+We+Don%27t+Endorse+Other+Systems&amp;rft.date=2014-06-30&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fdistros%2Fcommon-distros.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Rn9ZU-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Rn9ZU_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181003201630/http://swift.siphos.be/linux_sea/whatislinux.html#idm3571768989216\">\"Linux Operating Systems: Distributions\"</a>. <i>swift.siphos.be</i>. November 27, 2014. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://swift.siphos.be/linux_sea/whatislinux.html#idm3571768989216\">the original</a> on October 3, 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 8,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=swift.siphos.be&amp;rft.atitle=Linux+Operating+Systems%3A+Distributions&amp;rft.date=2014-11-27&amp;rft&#95;id=http%3A%2F%2Fswift.siphos.be%2Flinux&#95;sea%2Fwhatislinux.html%23idm3571768989216&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-IpPUW-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-IpPUW_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFChris&#95;Hoffman2012\" class=\"citation web cs1\">Chris Hoffman (June 27, 2012). <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.howtogeek.com/117579/htg-explains-how-software-installation-package-managers-work-on-linux/\" href=\"https://www.howtogeek.com/117579/htg-explains-how-software-installation-package-managers-work-on-linux/\">\"HTG Explains: How Software Installation &amp; Package Managers Work On Linux\"</a>. <i>howtogeek.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150210001733/http://www.howtogeek.com/117579/htg-explains-how-software-installation-package-managers-work-on-linux/\">Archived</a> from the original on February 10, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 15,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=howtogeek.com&amp;rft.atitle=HTG+Explains%3A+How+Software+Installation+%26+Package+Managers+Work+On+Linux&amp;rft.date=2012-06-27&amp;rft.au=Chris+Hoffman&amp;rft&#95;id=http%3A%2F%2Fwww.howtogeek.com%2F117579%2Fhtg-explains-how-software-installation-package-managers-work-on-linux%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Eg74B-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Eg74B_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://mirror-status.centos.org/\">\"The status of CentOS mirrors\"</a>. <i>centos.org</i>. January 15, 2015. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20141231161218/http://mirror-status.centos.org/\">Archived</a> from the original on December 31, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 15,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=centos.org&amp;rft.atitle=The+status+of+CentOS+mirrors&amp;rft.date=2015-01-15&amp;rft&#95;id=http%3A%2F%2Fmirror-status.centos.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-mOuND-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-mOuND_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJim&#95;Martin\" class=\"citation web cs1\">Jim Martin. <a rel=\"nofollow\" class=\"external text\" href=\"http://www.pcadvisor.co.uk/how-to/linux/how-install-ubuntu-touch-image-3531970/\">\"How to install Ubuntu Touch on your Android phone or tablet\"</a>. <i>PC Advisor</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20151027012940/http://www.pcadvisor.co.uk/how-to/linux/how-install-ubuntu-touch-image-3531970/\">Archived</a> from the original on October 27, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 29,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=PC+Advisor&amp;rft.atitle=How+to+install+Ubuntu+Touch+on+your+Android+phone+or+tablet&amp;rft.au=Jim+Martin&amp;rft&#95;id=http%3A%2F%2Fwww.pcadvisor.co.uk%2Fhow-to%2Flinux%2Fhow-install-ubuntu-touch-image-3531970%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3PAkr-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3PAkr_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDavid&#95;Hayward\" class=\"citation web cs1\">David Hayward. <a rel=\"nofollow\" class=\"external text\" href=\"http://www.techradar.com/news/software/operating-systems/install-linux-on-your-x86-tablet-five-distros-to-choose-from-1162825\">\"Install Linux on your x86 tablet: five distros to choose from\"</a>. <i>TechRadar</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190413074905/https://www.techradar.com/news/software/operating-systems/install-linux-on-your-x86-tablet-five-distros-to-choose-from-1162825\">Archived</a> from the original on April 13, 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 29,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TechRadar&amp;rft.atitle=Install+Linux+on+your+x86+tablet%3A+five+distros+to+choose+from&amp;rft.au=David+Hayward&amp;rft&#95;id=http%3A%2F%2Fwww.techradar.com%2Fnews%2Fsoftware%2Foperating-systems%2Finstall-linux-on-your-x86-tablet-five-distros-to-choose-from-1162825&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-huumN-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-huumN_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBrian&#95;Proffitt2010\" class=\"citation web cs1\">Brian Proffitt (February 3, 2010). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150105063710/http://www.linux.com/learn/docs/ldp/282996-choosing-the-best-linux-distributions-for-you\">\"The Top 7 Best Linux Distributions for You\"</a>. <i>linux.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.linux.com/learn/docs/ldp/282996-choosing-the-best-linux-distributions-for-you\">the original</a> on January 5, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 11,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=linux.com&amp;rft.atitle=The+Top+7+Best+Linux+Distributions+for+You&amp;rft.date=2010-02-03&amp;rft.au=Brian+Proffitt&amp;rft&#95;id=http%3A%2F%2Fwww.linux.com%2Flearn%2Fdocs%2Fldp%2F282996-choosing-the-best-linux-distributions-for-you&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wrjjJ-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wrjjJ_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEric&#95;Brown2014\" class=\"citation web cs1\">Eric Brown (November 4, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150213124237/http://www.linux.com/news/embedded-mobile/mobile-linux/794261-mobile-linux-distros-keep-on-morphing\">\"Mobile Linux Distros Keep on Morphing\"</a>. <i>linux.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.linux.com/news/embedded-mobile/mobile-linux/794261-mobile-linux-distros-keep-on-morphing\">the original</a> on February 13, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 11,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=linux.com&amp;rft.atitle=Mobile+Linux+Distros+Keep+on+Morphing&amp;rft.date=2014-11-04&amp;rft.au=Eric+Brown&amp;rft&#95;id=http%3A%2F%2Fwww.linux.com%2Fnews%2Fembedded-mobile%2Fmobile-linux%2F794261-mobile-linux-distros-keep-on-morphing&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-HSFsG-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-HSFsG_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.debian.org/DebianAndOtherDistros\">\"Debian and Other Distros\"</a>. <i>debian.org</i>. December 7, 2013. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150114082247/https://wiki.debian.org/DebianAndOtherDistros\">Archived</a> from the original on January 14, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 5,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=debian.org&amp;rft.atitle=Debian+and+Other+Distros&amp;rft.date=2013-12-07&amp;rft&#95;id=https%3A%2F%2Fwiki.debian.org%2FDebianAndOtherDistros&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+distribution\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐rkjnc\nCached time: 20260918181008\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.125 seconds\nReal time usage: 0.199 seconds\nPreprocessor visited node count: 738/1000000\nRevision size: 7900/2097152 bytes\nPost‐expand include size: 23025/2097152 bytes\nTemplate argument size: 2826/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 21568/5000000 bytes\nLua time usage: 0.069/10.000 seconds\nLua memory usage: 5536408/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  176.297      1 -total\n 34.74%   61.251      9 Template:Cite_web\n 28.48%   50.205      1 Template:Short_description\n 17.69%   31.190      2 Template:Pagetype\n  8.58%   15.119      2 Template:Broken_ref\n  7.21%   12.716      1 Template:Pp-move\n  6.15%   10.850      3 Template:Main_other\n  5.60%    9.867      1 Template:Use_mdy_dates\n  5.46%    9.624      1 Template:SDcat\n  4.39%    7.735      2 Template:DMCA\n-->\n\n<!-- Render ID 2ef8225a-b38c-11f1-bec6-5d2a30ac433c -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Anaconda (installer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arch Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Binary blob",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Canonical (company)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cinnamon (desktop environment)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian-Installer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Desktop computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Desktop environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Device driver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Distribution (marketing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded device",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNOME",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gentoo Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Getty (Unix)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Init",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Internet Protocol",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KDE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KDE Plasma",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KWin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Laptop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux Mint",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mesa (computer graphics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mobile device",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mutter (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netbook",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenRC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenSUSE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenWrt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Package manager",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Personal computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PipeWire",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PulseAudio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Red Hat",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Red Hat Enterprise Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rocks Cluster Distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SUSE S.A.",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Slackware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software build",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software repository",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sound server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Supercomputer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sway (window manager)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SysVinit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Systemd",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ubuntu",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Utility software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayland (display server protocol)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Website",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windowing system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X.org Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xfce",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Operating system based on the Linux kernel",
+          "page_image_free": "Ubuntu_26.04_LTS_desktop.png",
+          "wikibase_item": "Q131669"
+        }
+      }
+    }
+  ]
+}

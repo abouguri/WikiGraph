@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Mono (software)",
+    "url": "https://en.wikipedia.org/wiki/Mono_%28software%29",
+    "summary": "Computer software project Mono Diagram of Mono architecture Original author Ximian Developer WineHQ Release June 30, 2004 ; 22 years ago ( 2004-06-30 ) Stable release 6.12.0.206 / February 13, 2024 ; 2 years ago ( 2024-02-13 ) Written in C , C# , XML Operating system Windows , macOS , Linux , IBM AIX , IBM i Platform IA-32 , x64 , IA-64 , ARM , MIPS , RISC-V , PowerPC , SPARC , S390 Type Software framework License MIT License Website www .mono-project .com Repository gitlab .winehq .org /mono /mono Mono is a free and open-source software framework that aims to run software made for the .NET Framework on Linux and other operating systems. Originally by Ximian which was acquired by Novell , it was later developed by Xamarin which was acquired by Microsoft . In August 2024, Microsoft transferred ownership of Mono to WineHQ . ^ \"Mono Releases\" . Mono . ^ Introducing Mono on AIX and IBM i ^ \"FAQ: Licensing\" . Retrieved 3 July 2020 . ^ \"Microsoft to acquire Xamarin and empower more developers to build apps on any device\" . Official Microsoft Blog . 24 February 2016 . Retrieved 2016-02-24 . ^ Sourav, Rudra (2024-09-02). \"Microsoft's Unexpected Move to Hand Over an Open-Source Project to the Wine Team: A Generous Shift?\" . It's FOSS News . Retrieved 2024-09-08 .",
+    "text": "Computer software project Mono Diagram of Mono architecture Original author Ximian Developer WineHQ Release June 30, 2004 ; 22 years ago ( 2004-06-30 ) Stable release 6.12.0.206 / February 13, 2024 ; 2 years ago ( 2024-02-13 ) Written in C , C# , XML Operating system Windows , macOS , Linux , IBM AIX , IBM i Platform IA-32 , x64 , IA-64 , ARM , MIPS , RISC-V , PowerPC , SPARC , S390 Type Software framework License MIT License Website www .mono-project .com Repository gitlab .winehq .org /mono /mono Mono is a free and open-source software framework that aims to run software made for the .NET Framework on Linux and other operating systems. Originally by Ximian which was acquired by Novell , it was later developed by Xamarin which was acquired by Microsoft . In August 2024, Microsoft transferred ownership of Mono to WineHQ . ^ \"Mono Releases\" . Mono . ^ Introducing Mono on AIX and IBM i ^ \"FAQ: Licensing\" . Retrieved 3 July 2020 . ^ \"Microsoft to acquire Xamarin and empower more developers to build apps on any device\" . Official Microsoft Blog . 24 February 2016 . Retrieved 2016-02-24 . ^ Sourav, Rudra (2024-09-02). \"Microsoft's Unexpected Move to Hand Over an Open-Source Project to the Wine Team: A Generous Shift?\" . It's FOSS News . Retrieved 2024-09-08 .",
+    "links": [
+      ".NET Framework",
+      "ARM architecture",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "Computing platform",
+      "ESA/390",
+      "Free and open-source",
+      "IA-32",
+      "IA-64",
+      "IBM AIX",
+      "IBM i",
+      "Linux",
+      "MIPS architecture",
+      "MIT License",
+      "MacOS",
+      "Microsoft",
+      "Novell",
+      "Operating system",
+      "PowerPC",
+      "Programmer",
+      "RISC-V",
+      "Repository (version control)",
+      "SPARC",
+      "Software categories",
+      "Software framework",
+      "Software license",
+      "Software release life cycle",
+      "Windows",
+      "Wine (software)",
+      "X64",
+      "XML",
+      "Xamarin",
+      "Ximian"
+    ],
+    "page_id": 33719757,
+    "revision_id": 1374826307,
+    "retrieved_at": "2026-09-18T18:09:50.689910+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260728010510|1366435621",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 33719757,
+            "ns": 0,
+            "title": "Mono (software)",
+            "revisions": [
+              {
+                "revid": 1374826307,
+                "parentid": 1366435621
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Mono (software)",
+              "page_image_free": "Mono_architecture.svg",
+              "wikibase-shortdesc": "Computer software project",
+              "wikibase_item": "Q722656"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Mono (software)",
+        "pageid": 33719757,
+        "revid": 1374826307,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Computer software project</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Mono</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Mono_project_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Mono_project_logo.svg/120px-Mono_project_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"119\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Mono_project_logo.svg/250px-Mono_project_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"267\" data-file-height=\"318\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Mono_architecture.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Mono_architecture.svg/250px-Mono_architecture.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"158\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Mono_architecture.svg/500px-Mono_architecture.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"570\" data-file-height=\"360\" /></a></span><div class=\"infobox-caption\">Diagram of Mono architecture</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\"><a href=\"/wiki/Ximian\" title=\"Ximian\">Ximian</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Wine_(software)\" title=\"Wine (software)\">WineHQ</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">June&#160;30, 2004<span class=\"noprint\">&#59;&#32;22 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2004-06-30</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">6.12.0.206\n   / February&#160;13, 2024<span class=\"noprint\">&#59;&#32;2 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2024-02-13</span>)</span><sup id=\"cite&#95;ref-tags&#95;1-0\" class=\"reference\"><a href=\"#cite_note-tags-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/XML\" title=\"XML\">XML</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/IBM_AIX\" title=\"IBM AIX\">IBM AIX</a>, <a href=\"/wiki/IBM_i\" title=\"IBM i\">IBM i</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X64\" class=\"mw-redirect\" title=\"X64\">x64</a>, <a href=\"/wiki/IA-64\" title=\"IA-64\">IA-64</a>, <a href=\"/wiki/ARM_architecture\" class=\"mw-redirect\" title=\"ARM architecture\">ARM</a>, <a href=\"/wiki/MIPS_architecture\" title=\"MIPS architecture\">MIPS</a>, <a href=\"/wiki/RISC-V\" title=\"RISC-V\">RISC-V</a>, <a href=\"/wiki/PowerPC\" title=\"PowerPC\">PowerPC</a>, <a href=\"/wiki/SPARC\" title=\"SPARC\">SPARC</a>, <a href=\"/wiki/ESA/390\" class=\"mw-redirect\" title=\"ESA/390\">S390</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Software_framework\" title=\"Software framework\">Software framework</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT License</a><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.mono-project.com\">www<wbr />.mono-project<wbr />.com</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gitlab.winehq.org/mono/mono\">gitlab<wbr />.winehq<wbr />.org<wbr />/mono<wbr />/mono</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q722656#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>Mono</b> is a <a href=\"/wiki/Free_and_open-source\" class=\"mw-redirect\" title=\"Free and open-source\">free and open-source</a> <a href=\"/wiki/Software_framework\" title=\"Software framework\">software framework</a> that aims to run software made for the <a href=\"/wiki/.NET_Framework\" title=\".NET Framework\">.NET Framework</a> on <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> and other operating systems. Originally by <a href=\"/wiki/Ximian\" title=\"Ximian\">Ximian</a> which was acquired by <a href=\"/wiki/Novell\" title=\"Novell\">Novell</a>, it was later developed by <a href=\"/wiki/Xamarin\" title=\"Xamarin\">Xamarin</a> which was acquired by <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> In August 2024, Microsoft transferred ownership of Mono to <a href=\"/wiki/Wine_(software)\" title=\"Wine (software)\">WineHQ</a>.<sup id=\"cite&#95;ref-foss-wine&#95;5-0\" class=\"reference\"><a href=\"#cite_note-foss-wine-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-tags-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-tags_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.mono-project.com/docs/about-mono/releases/\">\"Mono Releases\"</a>. <i>Mono</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Mono&amp;rft.atitle=Mono+Releases&amp;rft&#95;id=https%3A%2F%2Fwww.mono-project.com%2Fdocs%2Fabout-mono%2Freleases%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMono+%28software%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.mono-project.com/news/2018/05/29/mono-on-aix-and-ibm-i/\">Introducing Mono on AIX and IBM i</a></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.mono-project.com/FAQ:_Licensing\">\"FAQ: Licensing\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 July</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FAQ%3A+Licensing&amp;rft&#95;id=https%3A%2F%2Fwww.mono-project.com%2FFAQ%3A&#95;Licensing&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMono+%28software%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://blogs.microsoft.com/blog/2016/02/24/microsoft-to-acquire-xamarin-and-empower-more-developers-to-build-apps-on-any-device/\">\"Microsoft to acquire Xamarin and empower more developers to build apps on any device\"</a>. <i>Official Microsoft Blog</i>. 24 February 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-02-24</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Official+Microsoft+Blog&amp;rft.atitle=Microsoft+to+acquire+Xamarin+and+empower+more+developers+to+build+apps+on+any+device&amp;rft.date=2016-02-24&amp;rft&#95;id=http%3A%2F%2Fblogs.microsoft.com%2Fblog%2F2016%2F02%2F24%2Fmicrosoft-to-acquire-xamarin-and-empower-more-developers-to-build-apps-on-any-device%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMono+%28software%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-foss-wine-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-foss-wine_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSourav2024\" class=\"citation web cs1\">Sourav, Rudra (2024-09-02). <a rel=\"nofollow\" class=\"external text\" href=\"https://news.itsfoss.com/microsoft-donates-mono-project/\">\"Microsoft's Unexpected Move to Hand Over an Open-Source Project to the Wine Team: A Generous Shift?\"</a>. <i>It's FOSS News</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-09-08</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=It%27s+FOSS+News&amp;rft.atitle=Microsoft%27s+Unexpected+Move+to+Hand+Over+an+Open-Source+Project+to+the+Wine+Team%3A+A+Generous+Shift%3F&amp;rft.date=2024-09-02&amp;rft.aulast=Sourav&amp;rft.aufirst=Rudra&amp;rft&#95;id=https%3A%2F%2Fnews.itsfoss.com%2Fmicrosoft-donates-mono-project%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMono+%28software%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐cd59p\nCached time: 20260918181016\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.398 seconds\nReal time usage: 0.559 seconds\nPreprocessor visited node count: 1575/1000000\nRevision size: 2252/2097152 bytes\nPost‐expand include size: 25831/2097152 bytes\nTemplate argument size: 3506/2097152 bytes\nHighest expansion depth: 29/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 12802/5000000 bytes\nLua time usage: 0.242/10.000 seconds\nLua memory usage: 5991332/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  524.206      1 -total\n 61.10%  320.289      2 Template:Infobox\n 54.02%  283.185      1 Template:Infobox_software\n 23.62%  123.826      4 Template:Cite_web\n 20.19%  105.838      1 Template:Short_description\n 12.74%   66.790      2 Template:Pagetype\n 12.09%   63.357      1 Template:Infobox_software/simple\n  8.97%   46.995      2 Template:Wikidata\n  7.71%   40.408      1 Template:Plainlist\n  7.20%   37.736      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID 332446d3-b38c-11f1-9d96-e59d09901f23 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": ".NET Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ESA/390",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM AIX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM i",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIPS architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Novell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PowerPC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RISC-V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wine (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xamarin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ximian",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Computer software project",
+          "page_image_free": "Mono_architecture.svg",
+          "wikibase_item": "Q722656"
+        }
+      }
+    }
+  ]
+}

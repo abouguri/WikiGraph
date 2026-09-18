@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Computer architecture",
+    "url": "https://en.wikipedia.org/wiki/Computer_architecture",
+    "summary": "Set of rules describing computer system Block diagram of a basic computer with uniprocessor CPU. Black lines indicate the flow of control signals, whereas red lines indicate the flow of processor instructions and data. Arrows indicate the direction of flow. In computer science and computer engineering , a computer architecture is the conceptual design and operational structure of a computer system that define how component parts are organized and interact to execute programs efficiently. It is often a general description that ignores precise implementation details. It covers the instruction set architecture , CPU microarchitecture , memory , and input/output systems . Computer architecture also considers tradeoffs between performance , cost, power, reliability, and security. ^ Dragoni, Nicole (n.d.). \"Introduction to peer to peer computing\" (PDF) . DTU Compute – Department of Applied Mathematics and Computer Science . Lyngby, Denmark. ^ Clements, Alan. Principles of Computer Hardware (Fourth ed.). p. 1. Architecture describes the internal organization of a computer in an abstract way; that is, it defines the capabilities of the computer and its programming model. You can have two computers that have been constructed in different ways with different technologies but with the same architecture.",
+    "text": "Set of rules describing computer system Block diagram of a basic computer with uniprocessor CPU. Black lines indicate the flow of control signals, whereas red lines indicate the flow of processor instructions and data. Arrows indicate the direction of flow. In computer science and computer engineering , a computer architecture is the conceptual design and operational structure of a computer system that define how component parts are organized and interact to execute programs efficiently. It is often a general description that ignores precise implementation details. It covers the instruction set architecture , CPU microarchitecture , memory , and input/output systems . Computer architecture also considers tradeoffs between performance , cost, power, reliability, and security. ^ Dragoni, Nicole (n.d.). \"Introduction to peer to peer computing\" (PDF) . DTU Compute – Department of Applied Mathematics and Computer Science . Lyngby, Denmark. ^ Clements, Alan. Principles of Computer Hardware (Fourth ed.). p. 1. Architecture describes the internal organization of a computer in an abstract way; that is, it defines the capabilities of the computer and its programming model. You can have two computers that have been constructed in different ways with different technologies but with the same architecture.",
+    "links": [
+      "Computer",
+      "Computer engineering",
+      "Computer memory",
+      "Computer performance",
+      "Computer program",
+      "Computer science",
+      "Input/output",
+      "Instruction set architecture",
+      "Microarchitecture"
+    ],
+    "page_id": 25652303,
+    "revision_id": 1374904863,
+    "retrieved_at": "2026-09-18T18:08:06.118728+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260910103626|1374185857",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 25652303,
+            "ns": 0,
+            "title": "Computer architecture",
+            "revisions": [
+              {
+                "revid": 1374904863,
+                "parentid": 1374185857
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Computer Architecture",
+              "page_image_free": "Computer_architecture_block_diagram.png",
+              "wikibase-shortdesc": "Set of rules describing computer system",
+              "wikibase_item": "Q173212"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Computer architecture",
+        "pageid": 25652303,
+        "revid": 1374904863,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Set of rules describing computer system</div>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Computer_architecture_block_diagram.png\" class=\"mw-file-description\"><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Computer_architecture_block_diagram.png/500px-Computer_architecture_block_diagram.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"350\" height=\"315\" style=\"--mw-file-upright: 1.4\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Computer_architecture_block_diagram.png/960px-Computer_architecture_block_diagram.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"5052\" data-file-height=\"4540\" /></a><figcaption>Block diagram of a basic computer with uniprocessor CPU. Black lines indicate the flow of control signals, whereas red lines indicate the flow of processor instructions and data. Arrows indicate the direction of flow.</figcaption></figure>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a> and <a href=\"/wiki/Computer_engineering\" title=\"Computer engineering\">computer engineering</a>, a <b>computer architecture</b> is the conceptual design and operational structure of a <a href=\"/wiki/Computer\" title=\"Computer\">computer</a> system that define how component parts are organized and interact to execute <a href=\"/wiki/Computer_program\" title=\"Computer program\">programs</a> efficiently.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> It is often a general description that ignores precise implementation details.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> It covers the <a href=\"/wiki/Instruction_set_architecture\" title=\"Instruction set architecture\">instruction set architecture</a>, <a href=\"/wiki/Microarchitecture\" title=\"Microarchitecture\">CPU microarchitecture</a>, <a href=\"/wiki/Computer_memory\" title=\"Computer memory\">memory</a>, and <a href=\"/wiki/Input/output\" title=\"Input/output\">input/output systems</a>.\n</p><p>Computer architecture also considers tradeoffs between <a href=\"/wiki/Computer_performance\" title=\"Computer performance\">performance</a>, cost, power, reliability, and security.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFDragonin.d.\" class=\"citation web cs1\">Dragoni, Nicole (n.d.). <a rel=\"nofollow\" class=\"external text\" href=\"http://www2.imm.dtu.dk/courses/02220/2017/L6/P2P.pdf\">\"Introduction to peer to peer computing\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>DTU Compute – Department of Applied Mathematics and Computer Science</i>. Lyngby, Denmark.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=DTU+Compute+%E2%80%93+Department+of+Applied+Mathematics+and+Computer+Science&amp;rft.atitle=Introduction+to+peer+to+peer+computing&amp;rft.aulast=Dragoni&amp;rft.aufirst=Nicole&amp;rft&#95;id=http%3A%2F%2Fwww2.imm.dtu.dk%2Fcourses%2F02220%2F2017%2FL6%2FP2P.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AComputer+architecture\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFClements\" class=\"citation book cs1\">Clements, Alan. <i>Principles of Computer Hardware</i> (Fourth&#160;ed.). p.&#160;1. <q>Architecture describes the internal organization of a computer in an abstract way; that is, it defines the capabilities of the computer and its programming model. You can have two computers that have been constructed in different ways with different technologies but with the same architecture.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Principles+of+Computer+Hardware&amp;rft.pages=1&amp;rft.edition=Fourth&amp;rft.aulast=Clements&amp;rft.aufirst=Alan&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AComputer+architecture\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐q84gk\nCached time: 20260918180831\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.169 seconds\nReal time usage: 0.263 seconds\nPreprocessor visited node count: 195/1000000\nRevision size: 1678/2097152 bytes\nPost‐expand include size: 4163/2097152 bytes\nTemplate argument size: 465/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 4722/5000000 bytes\nLua time usage: 0.120/10.000 seconds\nLua memory usage: 3467121/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  239.075      1 -total\n 46.72%  111.688      1 Template:Short_description\n 45.46%  108.687      1 Template:Cite_web\n 25.81%   61.713      2 Template:Pagetype\n 12.63%   30.192      2 Template:Main_other\n  9.99%   23.887      1 Template:SDcat\n  3.90%    9.329      1 Template:Cite_book\n  1.81%    4.326      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID f48e8646-b38b-11f1-b7e0-1902e457f2f9 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer performance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microarchitecture",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Set of rules describing computer system",
+          "page_image_free": "Computer_architecture_block_diagram.png",
+          "wikibase_item": "Q173212"
+        }
+      }
+    }
+  ]
+}

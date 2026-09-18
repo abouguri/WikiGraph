@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Simula",
+    "url": "https://en.wikipedia.org/wiki/Simula",
+    "summary": "Early object-oriented programming language This article is about the programming language. For the village in Estonia, see Simula, Estonia . Not to be confused with Simulia . Simula Paradigms Multi-paradigm : procedural , imperative , structured , object-oriented Family ALGOL Designed by Ole-Johan Dahl Developer Kristen Nygaard First appeared 1962 ; 64 years ago ( 1962 ) Stable release Simula 67, Simula I Typing discipline Static , nominative Scope Lexical Implementation language ALGOL 60 (mostly) SIMSCRIPT (some parts) OS Unix-like , Windows , z/OS , TOPS-10 , MVS Website www .simula67 .info Influenced by ALGOL 60 , SIMSCRIPT Influenced BETA , CLU , Eiffel , Emerald , Pascal , Smalltalk , C++ , and many other object-oriented programming languages Simula is the name of two simulation programming languages , Simula I and Simula 67, developed in the 1960s at the Norwegian Computing Center in Oslo , by Ole-Johan Dahl and Kristen Nygaard . Syntactically , it is an approximate superset of ALGOL 60 , and was also influenced by the design of SIMSCRIPT . Simula 67 introduced objects , classes , inheritance and subclasses , virtual procedures , coroutines , and discrete event simulation , and featured garbage collection . Other forms of subtyping (besides inheriting subclasses) were introduced in Simula derivatives. [ citation needed ] Simula is considered the first object-oriented programming language . As its name suggests, the first Simula version by 1962 was designed for doing simulations ; Simula 67 though was designed to be a general-purpose programming language and provided the framework for many of the features of object-oriented languages today. Simula has been used in a wide range of applications such as simulating very-large-scale integration (VLSI) designs, process modeling , communication protocols , algorithms , and other applications such as typesetting , computer graphics , and education . Computer scientists such as Bjarne Stroustrup , creator of C++, and James Gosling , creator of Java, have acknowledged Simula as a major influence. Simula-type objects are reimplemented in C++ , Object Pascal , Java , C# , and many other languages. ^ a b c d e f g h Dahl, Ole-Johan ; Myhrhaug, Bjørn; Nygaard, Kristen (1970). Common Base Language (PDF) (Report). Norwegian Computing Center. Archived from the original on 2024-09-19 . Retrieved 20 August 2025 . ^ Nygaard, Kristen (1978). \"The Development of the Simula Languages\" (PDF) . The development of .. SIMULA I and SIMULA 67... were influenced by the design of SIMSCRIPT ... ^ Dahl, Ole-Johan ; Myhrhaug, Bjørn; Nygaard, Kristen (1970). Simula: A language for programming and description of discrete event systems introduction and user's manual (PDF) (Report). Norwegian Computing Center. Archived from the original on 2025-08-23 . Retrieved 29 October 2025 . ^ Kristen Nygaard and Ole-Johan Dahl. 1978. The development of the SIMULA languages. History of programming languages. Association for Computing Machinery, New York, NY, USA, 439–480. DOI: https://doi.org/10.1145/800025.1198392 ^ Wong, William. \"Before C, What Did You Use?\" . Electronic Design . Retrieved 22 May 2017 .",
+    "text": "Early object-oriented programming language This article is about the programming language. For the village in Estonia, see Simula, Estonia . Not to be confused with Simulia . Simula Paradigms Multi-paradigm : procedural , imperative , structured , object-oriented Family ALGOL Designed by Ole-Johan Dahl Developer Kristen Nygaard First appeared 1962 ; 64 years ago ( 1962 ) Stable release Simula 67, Simula I Typing discipline Static , nominative Scope Lexical Implementation language ALGOL 60 (mostly) SIMSCRIPT (some parts) OS Unix-like , Windows , z/OS , TOPS-10 , MVS Website www .simula67 .info Influenced by ALGOL 60 , SIMSCRIPT Influenced BETA , CLU , Eiffel , Emerald , Pascal , Smalltalk , C++ , and many other object-oriented programming languages Simula is the name of two simulation programming languages , Simula I and Simula 67, developed in the 1960s at the Norwegian Computing Center in Oslo , by Ole-Johan Dahl and Kristen Nygaard . Syntactically , it is an approximate superset of ALGOL 60 , and was also influenced by the design of SIMSCRIPT . Simula 67 introduced objects , classes , inheritance and subclasses , virtual procedures , coroutines , and discrete event simulation , and featured garbage collection . Other forms of subtyping (besides inheriting subclasses) were introduced in Simula derivatives. [ citation needed ] Simula is considered the first object-oriented programming language . As its name suggests, the first Simula version by 1962 was designed for doing simulations ; Simula 67 though was designed to be a general-purpose programming language and provided the framework for many of the features of object-oriented languages today. Simula has been used in a wide range of applications such as simulating very-large-scale integration (VLSI) designs, process modeling , communication protocols , algorithms , and other applications such as typesetting , computer graphics , and education . Computer scientists such as Bjarne Stroustrup , creator of C++, and James Gosling , creator of Java, have acknowledged Simula as a major influence. Simula-type objects are reimplemented in C++ , Object Pascal , Java , C# , and many other languages. ^ a b c d e f g h Dahl, Ole-Johan ; Myhrhaug, Bjørn; Nygaard, Kristen (1970). Common Base Language (PDF) (Report). Norwegian Computing Center. Archived from the original on 2024-09-19 . Retrieved 20 August 2025 . ^ Nygaard, Kristen (1978). \"The Development of the Simula Languages\" (PDF) . The development of .. SIMULA I and SIMULA 67... were influenced by the design of SIMSCRIPT ... ^ Dahl, Ole-Johan ; Myhrhaug, Bjørn; Nygaard, Kristen (1970). Simula: A language for programming and description of discrete event systems introduction and user's manual (PDF) (Report). Norwegian Computing Center. Archived from the original on 2025-08-23 . Retrieved 29 October 2025 . ^ Kristen Nygaard and Ole-Johan Dahl. 1978. The development of the SIMULA languages. History of programming languages. Association for Computing Machinery, New York, NY, USA, 439–480. DOI: https://doi.org/10.1145/800025.1198392 ^ Wong, William. \"Before C, What Did You Use?\" . Electronic Design . Retrieved 22 May 2017 .",
+    "links": [
+      "ALGOL",
+      "ALGOL 60",
+      "Algorithm",
+      "BETA (programming language)",
+      "Bjarne Stroustrup",
+      "C Sharp (programming language)",
+      "C++",
+      "CLU (programming language)",
+      "Class (programming)",
+      "Communication protocol",
+      "Computer graphics",
+      "Coroutine",
+      "Discrete event simulation",
+      "Education",
+      "Eiffel (programming language)",
+      "Emerald (programming language)",
+      "Garbage collection (computer science)",
+      "Imperative programming",
+      "Inheritance (object-oriented programming)",
+      "James Gosling",
+      "Java (programming language)",
+      "Kristen Nygaard",
+      "List of object-oriented programming languages",
+      "MVS",
+      "Multi-paradigm programming language",
+      "Nominal type system",
+      "Norwegian Computing Center",
+      "Object (computer science)",
+      "Object Pascal",
+      "Object-oriented programming",
+      "Ole-Johan Dahl",
+      "Operating system",
+      "Oslo",
+      "Pascal (programming language)",
+      "Procedural programming",
+      "Process modeling",
+      "Programming language",
+      "Programming paradigm",
+      "SIMSCRIPT",
+      "Scope (computer science)",
+      "Simula, Estonia",
+      "Simulation",
+      "Simulation language",
+      "Simulia (company)",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software release life cycle",
+      "Static type",
+      "Structured programming",
+      "Subclass (computer science)",
+      "Subset",
+      "Subtyping",
+      "Syntax (programming languages)",
+      "TOPS-10",
+      "Type system",
+      "Typesetting",
+      "Unix-like",
+      "Very-large-scale integration",
+      "Virtual function",
+      "Windows",
+      "Z/OS"
+    ],
+    "page_id": 29513,
+    "revision_id": 1328974922,
+    "retrieved_at": "2026-09-18T18:08:35.368146+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20251222221007|1328973981",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 29513,
+            "ns": 0,
+            "title": "Simula",
+            "revisions": [
+              {
+                "revid": 1328974922,
+                "parentid": 1328973981
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Simula_-_logo.svg",
+              "wikibase-shortdesc": "Early object-oriented programming language",
+              "wikibase_item": "Q212569"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Simula",
+        "pageid": 29513,
+        "revid": 1328974922,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Early object-oriented programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For the village in Estonia, see <a href=\"/wiki/Simula,_Estonia\" title=\"Simula, Estonia\">Simula, Estonia</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Simulia_(company)\" title=\"Simulia (company)\">Simulia</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Simula</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Simula_-_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Simula_-_logo.svg/250px-Simula_-_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"59\" class=\"mw-file-element\" data-file-width=\"512\" data-file-height=\"248\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ALGOL\" title=\"ALGOL\">ALGOL</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Ole-Johan_Dahl\" title=\"Ole-Johan Dahl\">Ole-Johan Dahl</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Kristen_Nygaard\" title=\"Kristen Nygaard\">Kristen Nygaard</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1962<span class=\"noprint\">&#59;&#32;64&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1962</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Simula 67, Simula I\n   </div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_type\" class=\"mw-redirect\" title=\"Static type\">Static</a>, <a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominative</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Lexical</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\"><a href=\"/wiki/ALGOL_60\" title=\"ALGOL 60\">ALGOL 60</a> (mostly)<br /><a href=\"/wiki/SIMSCRIPT\" title=\"SIMSCRIPT\">SIMSCRIPT</a> (some parts)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a>, <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/Z/OS\" title=\"Z/OS\">z/OS</a>, <a href=\"/wiki/TOPS-10\" title=\"TOPS-10\">TOPS-10</a>, <a href=\"/wiki/MVS\" title=\"MVS\">MVS</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.simula67.info\">www<wbr />.simula67<wbr />.info</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ALGOL_60\" title=\"ALGOL 60\">ALGOL 60</a>, <a href=\"/wiki/SIMSCRIPT\" title=\"SIMSCRIPT\">SIMSCRIPT</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/BETA_(programming_language)\" title=\"BETA (programming language)\">BETA</a>, <a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a>, <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>, <a href=\"/wiki/Emerald_(programming_language)\" title=\"Emerald (programming language)\">Emerald</a>, <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>, <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, and many other <a href=\"/wiki/List_of_object-oriented_programming_languages\" title=\"List of object-oriented programming languages\">object-oriented programming languages</a></td></tr></tbody></table>\n<p><b>Simula</b> is the name of two <a href=\"/wiki/Simulation_language\" title=\"Simulation language\">simulation programming languages</a>, Simula I and Simula 67, developed in the 1960s at the <a href=\"/wiki/Norwegian_Computing_Center\" title=\"Norwegian Computing Center\">Norwegian Computing Center</a> in <a href=\"/wiki/Oslo\" title=\"Oslo\">Oslo</a>, by <a href=\"/wiki/Ole-Johan_Dahl\" title=\"Ole-Johan Dahl\">Ole-Johan Dahl</a> and <a href=\"/wiki/Kristen_Nygaard\" title=\"Kristen Nygaard\">Kristen Nygaard</a>. <a href=\"/wiki/Syntax_(programming_languages)\" title=\"Syntax (programming languages)\">Syntactically</a>, it is an approximate <a href=\"/wiki/Subset\" title=\"Subset\">superset</a> of <a href=\"/wiki/ALGOL_60\" title=\"ALGOL 60\">ALGOL 60</a>,\n<sup id=\"cite&#95;ref-CommonBase&#95;1-0\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 1.3.1\">&#58;&#8202;1.3.1&#8202;</span></sup>\nand was also influenced by the design of <a href=\"/wiki/SIMSCRIPT\" title=\"SIMSCRIPT\">SIMSCRIPT</a>.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-CommonBaseTwo&#95;3-0\" class=\"reference\"><a href=\"#cite_note-CommonBaseTwo-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Simula 67 introduced <a href=\"/wiki/Object_(computer_science)\" title=\"Object (computer science)\">objects</a>,<sup id=\"cite&#95;ref-CommonBase&#95;1-1\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 2, 5.3\">&#58;&#8202;2,&#8202;5.3&#8202;</span></sup> <a href=\"/wiki/Class_(programming)\" title=\"Class (programming)\">classes</a>,<sup id=\"cite&#95;ref-CommonBase&#95;1-2\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 1.3.3, 2\">&#58;&#8202;1.3.3,&#8202;2&#8202;</span></sup> <a href=\"/wiki/Inheritance_(object-oriented_programming)\" title=\"Inheritance (object-oriented programming)\">inheritance</a> and <a href=\"/wiki/Subclass_(computer_science)\" class=\"mw-redirect\" title=\"Subclass (computer science)\">subclasses</a>,<sup id=\"cite&#95;ref-CommonBase&#95;1-3\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 2.2.1\">&#58;&#8202;2.2.1&#8202;</span></sup> <a href=\"/wiki/Virtual_function\" title=\"Virtual function\">virtual procedures</a>,<sup id=\"cite&#95;ref-CommonBase&#95;1-4\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 2.2.3\">&#58;&#8202;2.2.3&#8202;</span></sup> <a href=\"/wiki/Coroutine\" title=\"Coroutine\">coroutines</a>,<sup id=\"cite&#95;ref-CommonBase&#95;1-5\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 9.2\">&#58;&#8202;9.2&#8202;</span></sup> and <a href=\"/wiki/Discrete_event_simulation\" class=\"mw-redirect\" title=\"Discrete event simulation\">discrete event simulation</a>,<sup id=\"cite&#95;ref-CommonBase&#95;1-6\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 14.2\">&#58;&#8202;14.2&#8202;</span></sup> and featured <a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">garbage collection</a>.<sup id=\"cite&#95;ref-CommonBase&#95;1-7\" class=\"reference\"><a href=\"#cite_note-CommonBase-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 9.1\">&#58;&#8202;9.1&#8202;</span></sup> Other forms of <a href=\"/wiki/Subtyping\" title=\"Subtyping\">subtyping</a> (besides inheriting subclasses) were introduced in Simula derivatives.<sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (December 2013)\">citation needed</span></a></i>&#93;</sup>\n</p><p>Simula is considered the <a href=\"/wiki/Object-oriented_programming#History\" title=\"Object-oriented programming\">first object-oriented programming language</a>. As its name suggests, the first Simula version by 1962 was designed for doing <a href=\"/wiki/Simulation\" title=\"Simulation\">simulations</a>; Simula 67 though was designed to be a general-purpose <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> and provided the framework for many of the features of object-oriented languages today.\n</p><p>Simula has been used in a wide range of applications such as simulating <a href=\"/wiki/Very-large-scale_integration\" title=\"Very-large-scale integration\">very-large-scale integration</a> (VLSI) designs, <a href=\"/wiki/Process_modeling\" title=\"Process modeling\">process modeling</a>, <a href=\"/wiki/Communication_protocol\" title=\"Communication protocol\">communication protocols</a>, <a href=\"/wiki/Algorithm\" title=\"Algorithm\">algorithms</a>, and other applications such as <a href=\"/wiki/Typesetting\" title=\"Typesetting\">typesetting</a>, <a href=\"/wiki/Computer_graphics\" title=\"Computer graphics\">computer graphics</a>, and <a href=\"/wiki/Education\" title=\"Education\">education</a>.\n</p><p>Computer scientists such as <a href=\"/wiki/Bjarne_Stroustrup\" title=\"Bjarne Stroustrup\">Bjarne Stroustrup</a>, creator of C++, and <a href=\"/wiki/James_Gosling\" title=\"James Gosling\">James Gosling</a>, creator of Java, have acknowledged Simula as a major influence.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> Simula-type objects are reimplemented in <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Object_Pascal\" title=\"Object Pascal\">Object Pascal</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, and many other languages.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-CommonBase-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-CommonBase_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-CommonBase_1-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-CommonBase_1-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-CommonBase_1-3\"><sup><i><b>d</b></i></sup></a> <a href=\"#cite_ref-CommonBase_1-4\"><sup><i><b>e</b></i></sup></a> <a href=\"#cite_ref-CommonBase_1-5\"><sup><i><b>f</b></i></sup></a> <a href=\"#cite_ref-CommonBase_1-6\"><sup><i><b>g</b></i></sup></a> <a href=\"#cite_ref-CommonBase_1-7\"><sup><i><b>h</b></i></sup></a></span> <span class=\"reference-text\">\n<style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFDahlMyhrhaugNygaard1970\" class=\"citation report cs1 cs1-prop-unfit\"><a href=\"/wiki/Ole-Johan_Dahl\" title=\"Ole-Johan Dahl\">Dahl, Ole-Johan</a>; Myhrhaug, Bjørn; <a href=\"/wiki/Kristen_Nygaard\" title=\"Kristen Nygaard\">Nygaard, Kristen</a> (1970). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20240919044713/https://www.softwarepreservation.org/projects/ALGOL/manual/Simula-CommonBaseLanguage.pdf\">Common Base Language</a> <span class=\"cs1-format\">(PDF)</span> (Report). Norwegian Computing Center. Archived from the original on 2024-09-19<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">20 August</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=Common+Base+Language&amp;rft.pub=Norwegian+Computing+Center&amp;rft.date=1970&amp;rft.aulast=Dahl&amp;rft.aufirst=Ole-Johan&amp;rft.au=Myhrhaug%2C+Bj%C3%B8rn&amp;rft.au=Nygaard%2C+Kristen&amp;rft&#95;id=http%3A%2F%2Fwww.edelweb.fr%2FSimula%2F%237&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASimula\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFNygaard1978\" class=\"citation web cs1\"><a href=\"/wiki/Kristen_Nygaard\" title=\"Kristen Nygaard\">Nygaard, Kristen</a> (1978). <a rel=\"nofollow\" class=\"external text\" href=\"https://hannemyr.com/cache/knojd_acm78.pdf\">\"The Development of the Simula Languages\"</a> <span class=\"cs1-format\">(PDF)</span>. <q>The development of .. SIMULA I and SIMULA 67... were influenced by the design of SIMSCRIPT ...</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Development+of+the+Simula+Languages&amp;rft.date=1978&amp;rft.aulast=Nygaard&amp;rft.aufirst=Kristen&amp;rft&#95;id=https%3A%2F%2Fhannemyr.com%2Fcache%2Fknojd&#95;acm78.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASimula\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-CommonBaseTwo-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-CommonBaseTwo_3-0\">^</a></b></span> <span class=\"reference-text\">\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDahlMyhrhaugNygaard1970\" class=\"citation report cs1 cs1-prop-unfit\"><a href=\"/wiki/Ole-Johan_Dahl\" title=\"Ole-Johan Dahl\">Dahl, Ole-Johan</a>; Myhrhaug, Bjørn; <a href=\"/wiki/Kristen_Nygaard\" title=\"Kristen Nygaard\">Nygaard, Kristen</a> (1970). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250823170044/https://www.mn.uio.no/tjenester/it/hjelp/programvare/simula/versions/simula-i/simula-i-v5.pdf\">Simula: A language for programming and description of discrete event systems introduction and user's manual</a> <span class=\"cs1-format\">(PDF)</span> (Report). Norwegian Computing Center. Archived from the original on 2025-08-23<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 October</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=Simula%3A+A+language+for+programming+and+description+of+discrete+event+systems+introduction+and+user%27s+manual&amp;rft.pub=Norwegian+Computing+Center&amp;rft.date=1970&amp;rft.aulast=Dahl&amp;rft.aufirst=Ole-Johan&amp;rft.au=Myhrhaug%2C+Bj%C3%B8rn&amp;rft.au=Nygaard%2C+Kristen&amp;rft&#95;id=https%3A%2F%2Fwww.mn.uio.no%2Ftjenester%2Fit%2Fhjelp%2Fprogramvare%2Fsimula%2Fversions%2Fsimula-i%2Fsimula-i-v5.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASimula\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\">Kristen Nygaard and Ole-Johan Dahl. 1978. The development of the SIMULA languages. History of programming languages. Association for Computing Machinery, New York, NY, USA, 439–480. DOI:<a rel=\"nofollow\" class=\"external free\" href=\"https://doi.org/10.1145/800025.1198392\">https://doi.org/10.1145/800025.1198392</a></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWong\" class=\"citation web cs1\">Wong, William. <a rel=\"nofollow\" class=\"external text\" href=\"http://www.electronicdesign.com/embedded-revolution/c-what-did-you-use\">\"Before C, What Did You Use?\"</a>. <i>Electronic Design</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 May</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Electronic+Design&amp;rft.atitle=Before+C%2C+What+Did+You+Use%3F&amp;rft.aulast=Wong&amp;rft.aufirst=William&amp;rft&#95;id=http%3A%2F%2Fwww.electronicdesign.com%2Fembedded-revolution%2Fc-what-did-you-use&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASimula\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐vr2s9\nCached time: 20260918180900\nCache expiry: 1057861\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.217 seconds\nReal time usage: 0.296 seconds\nPreprocessor visited node count: 3117/1000000\nRevision size: 5744/2097152 bytes\nPost‐expand include size: 28542/2097152 bytes\nTemplate argument size: 3949/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 14610/5000000 bytes\nLua time usage: 0.123/10.000 seconds\nLua memory usage: 5694715/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  272.083      1 -total\n 22.56%   61.369      2 Template:Cite_report\n 21.82%   59.358      2 Template:Infobox\n 20.83%   56.673      1 Template:Short_description\n 16.49%   44.861      1 Template:Infobox_programming_language\n 15.42%   41.958      8 Template:Rp\n 13.78%   37.484      8 Template:R/superscript\n 10.90%   29.654      2 Template:Pagetype\n 10.24%   27.868      1 Template:Citation_needed\n  8.69%   23.655      1 Template:Fix\n-->\n\n<!-- Render ID 05d794be-b38c-11f1-9b7f-d9ab23b0ccd7 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Simula, Estonia",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 60",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BETA (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bjarne Stroustrup",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Communication protocol",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer graphics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Coroutine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Discrete event simulation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Education",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Emerald (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inheritance (object-oriented programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "James Gosling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kristen Nygaard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of object-oriented programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MVS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Norwegian Computing Center",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object Pascal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ole-Johan Dahl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oslo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process modeling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SIMSCRIPT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simulation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simulation language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simulia (company)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Subclass (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Subset",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Subtyping",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TOPS-10",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Typesetting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Very-large-scale integration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Z/OS",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citation needed",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Early object-oriented programming language",
+          "page_image_free": "Simula_-_logo.svg",
+          "wikibase_item": "Q212569"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "APL (programming language)",
+    "url": "https://en.wikipedia.org/wiki/APL_%28programming_language%29",
+    "summary": "Functional programming language for arrays Not to be confused with Address programming language . APL Paradigm Array , functional , structured , modular Family APL Designed by Kenneth E. Iverson Developer Larry Breed , Dick Lathwell , Roger Moore , others First appeared November 27, 1966 ; 59 years ago ( 1966-11-27 ) Stable release ISO/IEC 13751:2001 / February 1, 2001 ; 25 years ago ( 2001-02-01 ) Typing discipline Dynamic Platform Cross-platform License Proprietary , open source Website aplwiki .com Major implementations APL\\360 APL\\1130 APL*Plus Sharp APL APL2 Dyalog APL NARS2000 APLX GNU APL Influenced by Mathematical notation Influenced A and A+ C++ FP J K MATLAB Nial PPL Python q (kdb) S Snap ! Speakeasy Wolfram Language This article contains APL source code . Without proper rendering support , you may see question marks, boxes, or other symbols instead of APL symbols . APL (named after the book A Programming Language ) is a programming language developed in the 1960s by Kenneth E. Iverson . Its central datatype is the multidimensional array . It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets , functional programming , and computer math packages. It has also inspired several other programming languages. ^ Cite error: The named reference Birthdate was invoked but never defined (see the help page ). ^ \"std::iota\" . cppreference.com . ^ Kenneth E. Iverson (1962). A Programming Language (PDF) . Wiley . ISBN 978-0-471-43014-8 . LCCN 62015180 . OL 26792153M . Wikidata Q133329895 . Retrieved 2023-08-06 . {{ cite book }} : ISBN / Date incompatibility ( help ) ^ McIntyre, Donald B. (1991). \"Language as an Intellectual Tool: From Hieroglyphics to APL\" . IBM Systems Journal . 30 (4): 554– 581. doi : 10.1147/sj.304.0554 . Archived from the original on March 4, 2016 . Retrieved January 9, 2015 . ^ \"ACM Award Citation – John Backus\" . Awards.acm.org. 1977. Archived from the original on February 12, 2008 . Retrieved February 3, 2010 . ^ Cite error: The named reference mworks was invoked but never defined (see the help page ). ^ Cite error: The named reference jinsp was invoked but never defined (see the help page ). ^ Cite error: The named reference kinsp was invoked but never defined (see the help page ).",
+    "text": "Functional programming language for arrays Not to be confused with Address programming language . APL Paradigm Array , functional , structured , modular Family APL Designed by Kenneth E. Iverson Developer Larry Breed , Dick Lathwell , Roger Moore , others First appeared November 27, 1966 ; 59 years ago ( 1966-11-27 ) Stable release ISO/IEC 13751:2001 / February 1, 2001 ; 25 years ago ( 2001-02-01 ) Typing discipline Dynamic Platform Cross-platform License Proprietary , open source Website aplwiki .com Major implementations APL\\360 APL\\1130 APL*Plus Sharp APL APL2 Dyalog APL NARS2000 APLX GNU APL Influenced by Mathematical notation Influenced A and A+ C++ FP J K MATLAB Nial PPL Python q (kdb) S Snap ! Speakeasy Wolfram Language This article contains APL source code . Without proper rendering support , you may see question marks, boxes, or other symbols instead of APL symbols . APL (named after the book A Programming Language ) is a programming language developed in the 1960s by Kenneth E. Iverson . Its central datatype is the multidimensional array . It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets , functional programming , and computer math packages. It has also inspired several other programming languages. ^ Cite error: The named reference Birthdate was invoked but never defined (see the help page ). ^ \"std::iota\" . cppreference.com . ^ Kenneth E. Iverson (1962). A Programming Language (PDF) . Wiley . ISBN 978-0-471-43014-8 . LCCN 62015180 . OL 26792153M . Wikidata Q133329895 . Retrieved 2023-08-06 . {{ cite book }} : ISBN / Date incompatibility ( help ) ^ McIntyre, Donald B. (1991). \"Language as an Intellectual Tool: From Hieroglyphics to APL\" . IBM Systems Journal . 30 (4): 554– 581. doi : 10.1147/sj.304.0554 . Archived from the original on March 4, 2016 . Retrieved January 9, 2015 . ^ \"ACM Award Citation – John Backus\" . Awards.acm.org. 1977. Archived from the original on February 12, 2008 . Retrieved February 3, 2010 . ^ Cite error: The named reference mworks was invoked but never defined (see the help page ). ^ Cite error: The named reference jinsp was invoked but never defined (see the help page ). ^ Cite error: The named reference kinsp was invoked but never defined (see the help page ).",
+    "links": [
+      "A+ (programming language)",
+      "APL syntax and symbols",
+      "Address programming language",
+      "Array data type",
+      "Array programming",
+      "C++",
+      "Computing platform",
+      "Cross-platform software",
+      "Doi (identifier)",
+      "FP (programming language)",
+      "Functional programming",
+      "ISBN (identifier)",
+      "J (programming language)",
+      "K (programming language)",
+      "Kenneth E. Iverson",
+      "LCCN (identifier)",
+      "Lawrence M. Breed",
+      "MATLAB",
+      "Mathematical notation",
+      "Modular programming",
+      "Nial",
+      "OL (identifier)",
+      "Open-source software",
+      "Polymorphic Programming Language",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Proprietary software",
+      "Python (programming language)",
+      "Q (programming language from Kx Systems)",
+      "Richard H. Lathwell",
+      "Roger Moore (computer scientist)",
+      "S (programming language)",
+      "Snap! (programming language)",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Source code",
+      "Speakeasy (computational environment)",
+      "Specials (Unicode block)",
+      "Spreadsheet",
+      "Structured programming",
+      "Type system",
+      "WDQ (identifier)",
+      "Wiley (publisher)",
+      "Wolfram Language"
+    ],
+    "page_id": 1451,
+    "revision_id": 1374410077,
+    "retrieved_at": "2026-09-18T18:10:09.889258+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260911221654|1374408777",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1451,
+            "ns": 0,
+            "title": "APL (programming language)",
+            "revisions": [
+              {
+                "revid": 1374410077,
+                "parentid": 1374408777
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "APL_(programming_language)_logo.svg",
+              "wikibase-shortdesc": "Functional programming language for arrays",
+              "wikibase_item": "Q296187"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "APL (programming language)",
+        "pageid": 1451,
+        "revid": 1374410077,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Functional programming language for arrays</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Address_programming_language\" title=\"Address programming language\">Address programming language</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">APL</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:APL_(programming_language)_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/APL_%28programming_language%29_logo.svg/250px-APL_%28programming_language%29_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"130\" height=\"130\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/APL_%28programming_language%29_logo.svg/330px-APL_%28programming_language%29_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1890\" data-file-height=\"1890\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Array_programming\" title=\"Array programming\">Array</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\">APL</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Kenneth_E._Iverson\" title=\"Kenneth E. Iverson\">Kenneth E. Iverson</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Lawrence_M._Breed\" title=\"Lawrence M. Breed\">Larry Breed</a>, <a href=\"/wiki/Richard_H._Lathwell\" title=\"Richard H. Lathwell\">Dick Lathwell</a>, <a href=\"/wiki/Roger_Moore_(computer_scientist)\" title=\"Roger Moore (computer scientist)\">Roger Moore</a>, others</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">November&#160;27, 1966<span class=\"noprint\">&#59;&#32;59 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1966-11-27</span>)</span><sup id=\"cite&#95;ref-Birthdate&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Birthdate-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">ISO/IEC 13751:2001\n   / February&#160;1, 2001<span class=\"noprint\">&#59;&#32;25 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2001-02-01</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_system\" title=\"Type system\">Dynamic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">Proprietary</a>, <a href=\"/wiki/Open-source_software\" title=\"Open-source software\">open source</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://aplwiki.com/\">aplwiki<wbr />.com</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\">\n<ul><li>APL\\360</li>\n<li>APL\\1130</li>\n<li>APL*Plus</li>\n<li>Sharp APL</li>\n<li>APL2</li>\n<li>Dyalog APL</li>\n<li>NARS2000</li>\n<li>APLX</li>\n<li>GNU APL</li></ul>\n</div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Mathematical_notation\" title=\"Mathematical notation\">Mathematical notation</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/A%2B_(programming_language)\" title=\"A+ (programming language)\">A and A+</a></li>\n<li><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/FP_(programming_language)\" title=\"FP (programming language)\">FP</a></li>\n<li><a href=\"/wiki/J_(programming_language)\" title=\"J (programming language)\">J</a></li>\n<li><a href=\"/wiki/K_(programming_language)\" title=\"K (programming language)\">K</a></li>\n<li><a href=\"/wiki/MATLAB\" title=\"MATLAB\">MATLAB</a></li>\n<li><a href=\"/wiki/Nial\" title=\"Nial\">Nial</a></li>\n<li><a href=\"/wiki/Polymorphic_Programming_Language\" title=\"Polymorphic Programming Language\">PPL</a></li>\n<li><a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a></li>\n<li><a href=\"/wiki/Q_(programming_language_from_Kx_Systems)\" title=\"Q (programming language from Kx Systems)\">q (kdb)</a></li>\n<li><a href=\"/wiki/S_(programming_language)\" title=\"S (programming language)\">S</a></li>\n<li><a href=\"/wiki/Snap!_(programming_language)\" title=\"Snap! (programming language)\">Snap<i>!</i></a></li>\n<li><a href=\"/wiki/Speakeasy_(computational_environment)\" title=\"Speakeasy (computational environment)\">Speakeasy</a></li>\n<li><a href=\"/wiki/Wolfram_Language\" title=\"Wolfram Language\">Wolfram Language</a></li></ul>\n</div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1314755338\">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:var(--background-color-interactive-subtle,#f8f9fa);color:inherit;display:flow-root}.mw-parser-output .infobox .side-box{font-size:100%}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1;min-width:0}}@media(min-width:640px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><style data-mw-deduplicate=\"TemplateStyles:r1092331828\">@media(min-width:720px){.mw-parser-output .contains-special-characters{width:22em}}</style><div class=\"side-box metadata side-box-right contains-special-characters noprint selfref\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>\n<div class=\"side-box-flex\">\n<div class=\"side-box-image\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/APLgradeup.svg/40px-APLgradeup.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/APLgradeup.svg/120px-APLgradeup.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"20\" data-file-height=\"20\" /></span></span></div>\n<div class=\"side-box-text plainlist\"><b>This article contains <a class=\"mw-selflink selflink\">APL</a> <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a>.</b> Without proper <a href=\"/wiki/Help:Special_characters\" title=\"Help:Special characters\">rendering support</a>, you may see <a href=\"/wiki/Specials_(Unicode_block)#Replacement_character\" title=\"Specials (Unicode block)\">question marks, boxes, or other symbols</a>&#32;instead of <a href=\"/wiki/APL_syntax_and_symbols\" title=\"APL syntax and symbols\">APL symbols</a>.</div></div>\n</div>\n<p><b>APL</b> (named after the book <i>A Programming Language</i>)<sup id=\"cite&#95;ref-aplbook&#95;3-0\" class=\"reference\"><a href=\"#cite_note-aplbook-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> developed in the 1960s by <a href=\"/wiki/Kenneth_E._Iverson\" title=\"Kenneth E. Iverson\">Kenneth E. Iverson</a>. Its central datatype is the <a href=\"/wiki/Array_data_type#Multi-dimensional_arrays\" class=\"mw-redirect\" title=\"Array data type\">multidimensional array</a>. It uses a large range of <a href=\"/wiki/APL_syntax_and_symbols\" title=\"APL syntax and symbols\">special graphic symbols</a><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, <a href=\"/wiki/Spreadsheet\" title=\"Spreadsheet\">spreadsheets</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional programming</a>,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> and computer math packages.<sup id=\"cite&#95;ref-mworks&#95;6-0\" class=\"reference\"><a href=\"#cite_note-mworks-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> It has also inspired several other programming languages.<sup id=\"cite&#95;ref-jinsp&#95;7-0\" class=\"reference\"><a href=\"#cite_note-jinsp-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-kinsp&#95;8-0\" class=\"reference\"><a href=\"#cite_note-kinsp-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Birthdate-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Birthdate_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Birthdate</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://en.cppreference.com/w/cpp/algorithm/iota\">\"std::iota\"</a>. <i>cppreference.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=cppreference.com&amp;rft.atitle=std%3A%3Aiota&amp;rft&#95;id=https%3A%2F%2Fen.cppreference.com%2Fw%2Fcpp%2Falgorithm%2Fiota&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAPL+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-aplbook-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-aplbook_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKenneth&#95;E.&#95;Iverson1962\" class=\"citation book cs1\"><a href=\"/wiki/Kenneth_E._Iverson\" title=\"Kenneth E. Iverson\">Kenneth E. Iverson</a> (1962). <a rel=\"nofollow\" class=\"external text\" href=\"https://softwarepreservation.computerhistory.org/apl/book/APROGRAMMINGLANGUAGE.pdf\"><i>A Programming Language</i></a> <span class=\"cs1-format\">(PDF)</span>. <a href=\"/wiki/Wiley_(publisher)\" title=\"Wiley (publisher)\">Wiley</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-471-43014-8\" title=\"Special:BookSources/978-0-471-43014-8\"><bdi>978-0-471-43014-8</bdi></a>. <a href=\"/wiki/LCCN_(identifier)\" class=\"mw-redirect\" title=\"LCCN (identifier)\">LCCN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://lccn.loc.gov/62015180\">62015180</a>. <a href=\"/wiki/OL_(identifier)\" class=\"mw-redirect\" title=\"OL (identifier)\">OL</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://openlibrary.org/books/OL26792153M\">26792153M</a>. <a href=\"/wiki/WDQ_(identifier)\" class=\"mw-redirect\" title=\"WDQ (identifier)\">Wikidata</a>&#160;<a href=\"https://www.wikidata.org/wiki/Q133329895\" class=\"extiw\" title=\"d:Q133329895\">Q133329895</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-08-06</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Programming+Language&amp;rft.pub=Wiley&amp;rft.date=1962&amp;rft&#95;id=https%3A%2F%2Fopenlibrary.org%2Fbooks%2FOL26792153M%23id-name%3DOL&amp;rft&#95;id=info%3Alccn%2F62015180&amp;rft.isbn=978-0-471-43014-8&amp;rft.au=Kenneth+E.+Iverson&amp;rft&#95;id=https%3A%2F%2Fsoftwarepreservation.computerhistory.org%2Fapl%2Fbook%2FAPROGRAMMINGLANGUAGE.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAPL+%28programming+language%29\" class=\"Z3988\"></span> <span class=\"cs1-hidden-error citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_book\" title=\"Template:Cite book\">cite book</a>}}</code>: </span><span class=\"cs1-hidden-error citation-comment\">ISBN / Date incompatibility (<a href=\"/wiki/Help:CS1_errors#invalid_isbn_date\" title=\"Help:CS1 errors\">help</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMcIntyre1991\" class=\"citation journal cs1\">McIntyre, Donald B. (1991). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160304051735/http://domino.research.ibm.com/tchjr/journalindex.nsf/e90fc5d047e64ebf85256bc80066919c/9c834f5a16efa82085256bfa00685c72!OpenDocument\">\"Language as an Intellectual Tool: From Hieroglyphics to APL\"</a>. <i>IBM Systems Journal</i>. <b>30</b> (4): <span class=\"nowrap\">554–</span>581. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1147%2Fsj.304.0554\">10.1147/sj.304.0554</a>. Archived from <span class=\"id-lock-subscription\" title=\"Paid subscription required\"><a rel=\"nofollow\" class=\"external text\" href=\"http://domino.research.ibm.com/tchjr/journalindex.nsf/e90fc5d047e64ebf85256bc80066919c/9c834f5a16efa82085256bfa00685c72!OpenDocument\">the original</a></span> on March 4, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 9,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IBM+Systems+Journal&amp;rft.atitle=Language+as+an+Intellectual+Tool%3A+From+Hieroglyphics+to+APL&amp;rft.volume=30&amp;rft.issue=4&amp;rft.pages=554-581&amp;rft.date=1991&amp;rft&#95;id=info%3Adoi%2F10.1147%2Fsj.304.0554&amp;rft.aulast=McIntyre&amp;rft.aufirst=Donald+B.&amp;rft&#95;id=http%3A%2F%2Fdomino.research.ibm.com%2Ftchjr%2Fjournalindex.nsf%2Fe90fc5d047e64ebf85256bc80066919c%2F9c834f5a16efa82085256bfa00685c72%21OpenDocument&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAPL+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20080212043802/https://awards.acm.org/citation.cfm?id=0703524&amp;srt=all&amp;aw=140&amp;ao=AMTURING\">\"ACM Award Citation&#160;– John Backus\"</a>. Awards.acm.org. 1977. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://awards.acm.org/citation.cfm?id=0703524&amp;srt=all&amp;aw=140&amp;ao=AMTURING\">the original</a> on February 12, 2008<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 3,</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ACM+Award+Citation+%E2%80%93+John+Backus&amp;rft.pub=Awards.acm.org&amp;rft.date=1977&amp;rft&#95;id=http%3A%2F%2Fawards.acm.org%2Fcitation.cfm%3Fid%3D0703524%26srt%3Dall%26aw%3D140%26ao%3DAMTURING&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAPL+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-mworks-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-mworks_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>mworks</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-jinsp-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-jinsp_7-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>jinsp</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-kinsp-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-kinsp_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>kinsp</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐hrl4j\nCached time: 20260918181035\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.244 seconds\nReal time usage: 0.372 seconds\nPreprocessor visited node count: 1909/1000000\nRevision size: 3646/2097152 bytes\nPost‐expand include size: 36888/2097152 bytes\nTemplate argument size: 6987/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 19778/5000000 bytes\nLua time usage: 0.129/10.000 seconds\nLua memory usage: 5930214/52428800 bytes\nNumber of Wikibase entities loaded: 2/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  353.197      1 -total\n 22.03%   77.818      2 Template:Infobox\n 18.31%   64.653      1 Template:Infobox_programming_language\n 16.02%   56.585      1 Template:Cite_Q\n 14.97%   52.877      2 Template:Cite_web\n 13.53%   47.785      1 Template:Short_description\n  8.83%   31.170      2 Template:Pagetype\n  6.42%   22.667      8 Template:Broken_ref\n  5.03%   17.782      1 Template:Infobox_software/simple\n  4.86%   17.177      2 Template:Startflatlist\n-->\n\n<!-- Render ID 3e776680-b38c-11f1-8851-eb0cc5e6da30 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Address programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "A+ (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "APL syntax and symbols",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FP (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "J (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "K (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kenneth E. Iverson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LCCN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lawrence M. Breed",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MATLAB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical notation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nial",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OL (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Polymorphic Programming Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Q (programming language from Kx Systems)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Richard H. Lathwell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Roger Moore (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Snap! (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Speakeasy (computational environment)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Specials (Unicode block)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spreadsheet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WDQ (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wiley (publisher)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wolfram Language",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Cite book",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:CS1 errors",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Special characters",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Functional programming language for arrays",
+          "page_image_free": "APL_(programming_language)_logo.svg",
+          "wikibase_item": "Q296187"
+        }
+      }
+    }
+  ]
+}

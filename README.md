@@ -50,8 +50,8 @@ Alternatively, run `docker compose up --build -d`.
 
 ## Evidence and limits
 
-The real corpus contains **100 entities, 815 assertions, and 34,400 triples**.
-Of those assertions, 813 are page links and two are factual relations. Extraction
+The real corpus contains **300 entities, 5,113 assertions, and 105,268 triples**.
+Of those assertions, 5,111 are page links and two are factual relations. Extraction
 coverage is deliberately limited; no real-corpus precision claim has been made.
 
 The synthetic regression split produced 30 true positives, zero false positives,
@@ -59,9 +59,9 @@ and ten false negatives. Those known templates do **not** establish Wikipedia
 accuracy. The 200 real annotation candidates remain unreviewed, and evaluation
 refuses to score them until review is recorded.
 
-A local five-client HTTP benchmark measured p95 latency of 11.36 ms for search,
-31.48 ms for neighbors, and 11.76 ms for the tested path query. These are one-run,
-100-page results, not the separate 300-page release target or an internet SLA.
+A local five-client HTTP benchmark measured p95 latency of 20.97 ms for search,
+9.94 ms for neighbors, and 35.59 ms for the tested path query. These are one-run,
+300-page results; the specified local latency gate passed, but this is not an internet SLA.
 See [measured results](docs/benchmark.md) and [raw report](reports/benchmark.json).
 
 ## Reproduce and develop
@@ -95,7 +95,7 @@ or test the frontend.
 [Explorer](docs/explorer.md) · [Deployment](docs/deployment.md)
 
 Pending: independent real-corpus annotation, an untouched evaluation corpus,
-three-person usability review, the 300-page benchmark, and public hosting. The
+three-person usability review and public hosting. The
 Neo4j adapter remains an early prototype; it is not used by the validated API or
 demo and needs a faithful batched projection before production use.
 

@@ -1,7 +1,9 @@
-# Computing corpus v1
+# Computing corpus v2
 
-A curated set of 101 requested English Wikipedia titles, resolving to 100 distinct
-page IDs. The redirects are recorded, not treated as extra pages. `seeds.json`
+A computing seed corpus expanded to 300 distinct page IDs by deterministic
+outgoing-link overlap. `expansion-report.json` records the selection method, request
+budget usage, and skipped pages. The extra context pages are not all manually
+curated computing topics. The redirects are recorded, not treated as extra pages. `seeds.json`
 defines the requests. `cache/` stores normalized page data and raw API responses;
 `graph.pages.json` records the distinct snapshots used by `graph.ttl`.
 `graph.manifest.json` records revisions and the export hash.

@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Array programming",
+    "url": "https://en.wikipedia.org/wiki/Array_programming",
+    "summary": "Applying operations to whole sets of values simultaneously In computer science , array programming refers to solutions that allow the application of operations to an entire set of values at once. Such solutions are commonly used in scientific and engineering settings. Modern programming languages that support array programming (also known as vector or multidimensional languages) have been engineered specifically to generalize operations on scalars to apply transparently to vectors , matrices , and higher-dimensional arrays. These include APL , J , Fortran , MATLAB , Analytica , Octave , PL/I , R , Cilk Plus , Julia , Perl Data Language (PDL) and Raku . In these languages, an operation that operates on entire arrays can be called a vectorized operation, regardless of whether it is executed on a vector processor , which implements vector instructions. Array programming primitives concisely express broad ideas about data manipulation. The level of concision can be dramatic in certain cases: it is not uncommon [ example needed ] to find array programming language one-liners that require several pages of object-oriented code. ^ Stéfan van der Walt; S. Chris Colbert & Gaël Varoquaux (2011). \"The NumPy array: a structure for efficient numerical computation\". Computing in Science and Engineering . 13 (2). IEEE: 22– 30. arXiv : 1102.1523 . Bibcode : 2011CSE....13b..22V . doi : 10.1109/mcse.2011.37 . S2CID 16907816 .",
+    "text": "Applying operations to whole sets of values simultaneously In computer science , array programming refers to solutions that allow the application of operations to an entire set of values at once. Such solutions are commonly used in scientific and engineering settings. Modern programming languages that support array programming (also known as vector or multidimensional languages) have been engineered specifically to generalize operations on scalars to apply transparently to vectors , matrices , and higher-dimensional arrays. These include APL , J , Fortran , MATLAB , Analytica , Octave , PL/I , R , Cilk Plus , Julia , Perl Data Language (PDL) and Raku . In these languages, an operation that operates on entire arrays can be called a vectorized operation, regardless of whether it is executed on a vector processor , which implements vector instructions. Array programming primitives concisely express broad ideas about data manipulation. The level of concision can be dramatic in certain cases: it is not uncommon [ example needed ] to find array programming language one-liners that require several pages of object-oriented code. ^ Stéfan van der Walt; S. Chris Colbert & Gaël Varoquaux (2011). \"The NumPy array: a structure for efficient numerical computation\". Computing in Science and Engineering . 13 (2). IEEE: 22– 30. arXiv : 1102.1523 . Bibcode : 2011CSE....13b..22V . doi : 10.1109/mcse.2011.37 . S2CID 16907816 .",
+    "links": [
+      "APL (programming language)",
+      "Analytica (software)",
+      "ArXiv (identifier)",
+      "Bibcode (identifier)",
+      "Cilk Plus",
+      "Computational science",
+      "Computer science",
+      "Doi (identifier)",
+      "Fortran",
+      "GNU Octave",
+      "J (programming language)",
+      "Julia (programming language)",
+      "MATLAB",
+      "Matrix (mathematics)",
+      "Multidimensional analysis",
+      "One-liner program",
+      "PL/I",
+      "Perl Data Language",
+      "R (programming language)",
+      "Raku (programming language)",
+      "S2CID (identifier)",
+      "Scalar (computing)",
+      "Vector (data structure)",
+      "Vector (geometric)",
+      "Vector processor"
+    ],
+    "page_id": 890887,
+    "revision_id": 1346731840,
+    "retrieved_at": "2026-09-18T18:09:18.528338+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260402125947|1346718295",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 890887,
+            "ns": 0,
+            "title": "Array programming",
+            "revisions": [
+              {
+                "revid": 1346731840,
+                "parentid": 1346718295
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Applying operations to whole sets of values simultaneously",
+              "wikibase_item": "Q4307787"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Array programming",
+        "pageid": 890887,
+        "revid": 1346731840,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Applying operations to whole sets of values simultaneously</div>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, <b>array programming</b> refers to solutions that allow the application of operations to an entire set of values at once. Such solutions are commonly used in <a href=\"/wiki/Computational_science\" title=\"Computational science\">scientific</a> and engineering settings. \n</p><p>Modern programming languages that support array programming (also known as <a href=\"/wiki/Vector_(data_structure)\" class=\"mw-redirect\" title=\"Vector (data structure)\">vector</a> or <a href=\"/wiki/Multidimensional_analysis\" title=\"Multidimensional analysis\">multidimensional</a> languages) have been engineered specifically to generalize operations on <a href=\"/wiki/Scalar_(computing)\" class=\"mw-redirect\" title=\"Scalar (computing)\">scalars</a> to apply transparently to <a href=\"/wiki/Vector_(geometric)\" class=\"mw-redirect\" title=\"Vector (geometric)\">vectors</a>, <a href=\"/wiki/Matrix_(mathematics)\" title=\"Matrix (mathematics)\">matrices</a>, and higher-dimensional arrays. These include <a href=\"/wiki/APL_(programming_language)\" title=\"APL (programming language)\">APL</a>, <a href=\"/wiki/J_(programming_language)\" title=\"J (programming language)\">J</a>, <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>, <a href=\"/wiki/MATLAB\" title=\"MATLAB\">MATLAB</a>, <a href=\"/wiki/Analytica_(software)\" title=\"Analytica (software)\">Analytica</a>, <a href=\"/wiki/GNU_Octave\" title=\"GNU Octave\">Octave</a>, <a href=\"/wiki/PL/I\" title=\"PL/I\">PL/I</a>, <a href=\"/wiki/R_(programming_language)\" title=\"R (programming language)\">R</a>, <a href=\"/wiki/Cilk_Plus\" class=\"mw-redirect\" title=\"Cilk Plus\">Cilk Plus</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>, <a href=\"/wiki/Perl_Data_Language\" title=\"Perl Data Language\">Perl Data Language (PDL)</a> and <a href=\"/wiki/Raku_(programming_language)\" title=\"Raku (programming language)\">Raku</a>. In these languages, an operation that operates on entire arrays can be called a <i>vectorized</i> operation,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> regardless of whether it is executed on a <a href=\"/wiki/Vector_processor\" title=\"Vector processor\">vector processor</a>, which implements vector instructions. Array programming primitives concisely express broad ideas about data manipulation. The level of concision can be dramatic in certain cases: it is not uncommon<sup class=\"noprint Inline-Template\" style=\"margin-left:0.1em; white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:AUDIENCE\" class=\"mw-redirect\" title=\"Wikipedia:AUDIENCE\"><span title=\"An editor has requested that an example be provided. (September 2021)\">example needed</span></a></i>&#93;</sup> to find array programming language <a href=\"/wiki/One-liner_program\" title=\"One-liner program\">one-liners</a> that require several pages of object-oriented code.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFStéfan&#95;van&#95;der&#95;WaltS.&#95;Chris&#95;ColbertGaël&#95;Varoquaux2011\" class=\"citation journal cs1\">Stéfan van der Walt; S. Chris Colbert &amp; Gaël Varoquaux (2011). \"The NumPy array: a structure for efficient numerical computation\". <i>Computing in Science and Engineering</i>. <b>13</b> (2). IEEE: <span class=\"nowrap\">22–</span>30. <a href=\"/wiki/ArXiv_(identifier)\" class=\"mw-redirect\" title=\"ArXiv (identifier)\">arXiv</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://arxiv.org/abs/1102.1523\">1102.1523</a></span>. <a href=\"/wiki/Bibcode_(identifier)\" class=\"mw-redirect\" title=\"Bibcode (identifier)\">Bibcode</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://ui.adsabs.harvard.edu/abs/2011CSE....13b..22V\">2011CSE....13b..22V</a>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1109%2Fmcse.2011.37\">10.1109/mcse.2011.37</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:16907816\">16907816</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Computing+in+Science+and+Engineering&amp;rft.atitle=The+NumPy+array%3A+a+structure+for+efficient+numerical+computation&amp;rft.volume=13&amp;rft.issue=2&amp;rft.pages=22-30&amp;rft.date=2011&amp;rft&#95;id=info%3Aarxiv%2F1102.1523&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A16907816%23id-name%3DS2CID&amp;rft&#95;id=info%3Adoi%2F10.1109%2Fmcse.2011.37&amp;rft&#95;id=info%3Abibcode%2F2011CSE....13b..22V&amp;rft.au=St%C3%A9fan+van+der+Walt&amp;rft.au=S.+Chris+Colbert&amp;rft.au=Ga%C3%ABl+Varoquaux&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AArray+programming\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐c4q88\nCached time: 20260918180944\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.190 seconds\nReal time usage: 0.263 seconds\nPreprocessor visited node count: 329/1000000\nRevision size: 1990/2097152 bytes\nPost‐expand include size: 5789/2097152 bytes\nTemplate argument size: 1022/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 2361/5000000 bytes\nLua time usage: 0.135/10.000 seconds\nLua memory usage: 3817198/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  249.079      1 -total\n 41.74%  103.972      1 Template:Cite_journal\n 38.80%   96.653      1 Template:Short_description\n 22.44%   55.902      2 Template:Pagetype\n 18.33%   45.653      1 Template:Example_needed\n 16.35%   40.729      1 Template:Fix-span\n 11.93%   29.718      2 Template:Category_handler\n 11.03%   27.473      2 Template:Main_other\n 10.23%   25.478      1 Template:SDcat\n  2.20%    5.486      1 Template:Delink\n-->\n\n<!-- Render ID 2011653e-b38c-11f1-9318-5b1385bb8988 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "APL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Analytica (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ArXiv (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bibcode (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cilk Plus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Octave",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "J (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MATLAB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Matrix (mathematics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multidimensional analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "One-liner program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl Data Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "R (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raku (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scalar (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vector (data structure)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vector (geometric)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vector processor",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:AUDIENCE",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Applying operations to whole sets of values simultaneously",
+          "wikibase_item": "Q4307787"
+        }
+      }
+    }
+  ]
+}

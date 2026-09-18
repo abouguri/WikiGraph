@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Microsoft Visual C++",
+    "url": "https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B",
+    "summary": "Integrated development environment product Visual C++ Developer Microsoft Release February 1993 ; 33 years ago ( 1993-02 ) Stable release 14.51 (Build 36247) / June 15, 2026 ; 3 months ago ( 2026-06-15 ) Written in C++ Operating system Windows Platform IA-32 , x86-64 and ARM Available in English, Chinese (Simplified & Traditional), Czech, French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazilian), Russian, Spanish, Turkish Type Compiler License Trialware and freeware Website visualstudio .microsoft .com /vs /features /cplusplus / Microsoft Visual C++ ( MSVC ) is a compiler for the C , C++ , C++/CLI and C++/CX programming languages by Microsoft . MSVC is proprietary software ; it was originally a standalone product but later became a part of Visual Studio and made available in both trialware and freeware forms. It features tools for developing and debugging C++ code, especially code written for the Windows API , DirectX and .NET . Many applications require redistributable Visual C++ runtime library packages to function correctly. These packages are frequently installed separately from the applications they support, enabling multiple applications to use the package with only a single installation. These Visual C++ redistributable and runtime packages are mostly installed for standard libraries that many applications use. ^ \"Visual C++ adds Windows support\" . InfoWorld . February 22, 1993. p. 17. ^ \"Microsoft Visual C++ Redistributable latest supported downloads\" . Microsoft Learn . Retrieved June 15, 2026 . ^ Lextrait, Vincent (January 2010). \"The Programming Languages Beacon, v10.0\" . Retrieved 14 March 2010 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"Do I need these Microsoft Visual C++ redistributables?\" . Ask Leo!. Retrieved 2012-11-18.",
+    "text": "Integrated development environment product Visual C++ Developer Microsoft Release February 1993 ; 33 years ago ( 1993-02 ) Stable release 14.51 (Build 36247) / June 15, 2026 ; 3 months ago ( 2026-06-15 ) Written in C++ Operating system Windows Platform IA-32 , x86-64 and ARM Available in English, Chinese (Simplified & Traditional), Czech, French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazilian), Russian, Spanish, Turkish Type Compiler License Trialware and freeware Website visualstudio .microsoft .com /vs /features /cplusplus / Microsoft Visual C++ ( MSVC ) is a compiler for the C , C++ , C++/CLI and C++/CX programming languages by Microsoft . MSVC is proprietary software ; it was originally a standalone product but later became a part of Visual Studio and made available in both trialware and freeware forms. It features tools for developing and debugging C++ code, especially code written for the Windows API , DirectX and .NET . Many applications require redistributable Visual C++ runtime library packages to function correctly. These packages are frequently installed separately from the applications they support, enabling multiple applications to use the package with only a single installation. These Visual C++ redistributable and runtime packages are mostly installed for standard libraries that many applications use. ^ \"Visual C++ adds Windows support\" . InfoWorld . February 22, 1993. p. 17. ^ \"Microsoft Visual C++ Redistributable latest supported downloads\" . Microsoft Learn . Retrieved June 15, 2026 . ^ Lextrait, Vincent (January 2010). \"The Programming Languages Beacon, v10.0\" . Retrieved 14 March 2010 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"Do I need these Microsoft Visual C++ redistributables?\" . Ask Leo!. Retrieved 2012-11-18.",
+    "links": [
+      ".NET Framework",
+      "ARM architecture",
+      "Application software",
+      "C (programming language)",
+      "C++",
+      "C++/CLI",
+      "C++/CX",
+      "Compiler",
+      "Computing platform",
+      "Debugging",
+      "DirectX",
+      "Freeware",
+      "IA-32",
+      "Library (computing)",
+      "Microsoft",
+      "Microsoft Visual Studio",
+      "Operating system",
+      "Programmer",
+      "Programming language",
+      "Proprietary software",
+      "Redistributable",
+      "Software categories",
+      "Software development",
+      "Software license",
+      "Software release life cycle",
+      "Trialware",
+      "Windows",
+      "Windows API",
+      "X86-64"
+    ],
+    "page_id": 166204,
+    "revision_id": 1359570789,
+    "retrieved_at": "2026-09-18T18:09:03.745589+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260525192012|1356101436",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 166204,
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "revisions": [
+              {
+                "revid": 1359570789,
+                "parentid": 1356101436
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Integrated development environment product",
+              "wikibase_item": "Q847296"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Microsoft Visual C++",
+        "pageid": 166204,
+        "revid": 1359570789,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Integrated development environment product</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Visual C++</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:VS2026_C%2B%2B_icon.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/VS2026_C%2B%2B_icon.svg/120px-VS2026_C%2B%2B_icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"100\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/VS2026_C%2B%2B_icon.svg/250px-VS2026_C%2B%2B_icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"24\" data-file-height=\"24\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">February&#160;1993<span class=\"noprint\">&#59;&#32;33&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1993-02</span>)</span><sup id=\"cite&#95;ref-Visual&#95;C++&#95;adds&#95;Windows&#95;support&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Visual_C++_adds_Windows_support-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">14.51 (Build 36247)\n   / June&#160;15, 2026<span class=\"noprint\">&#59;&#32;3 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-06-15</span>)</span><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a> and <a href=\"/wiki/ARM_architecture\" class=\"mw-redirect\" title=\"ARM architecture\">ARM</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">English, Chinese (Simplified &amp; Traditional), Czech, French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazilian), Russian, Spanish, Turkish</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Trialware\" class=\"mw-redirect\" title=\"Trialware\">Trialware</a> and <a href=\"/wiki/Freeware\" title=\"Freeware\">freeware</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://visualstudio.microsoft.com/vs/features/cplusplus/\">visualstudio<wbr />.microsoft<wbr />.com<wbr />/vs<wbr />/features<wbr />/cplusplus<wbr />/</a></span></td></tr></tbody></table> \n<p><b>Microsoft Visual C++</b> (<b>MSVC</b>) is a compiler for the <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/C%2B%2B/CLI\" title=\"C++/CLI\">C++/CLI</a> and <a href=\"/wiki/C%2B%2B/CX\" title=\"C++/CX\">C++/CX</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a> by <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>. MSVC is <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a>; it was originally a standalone product but later became a part of <a href=\"/wiki/Microsoft_Visual_Studio\" class=\"mw-redirect\" title=\"Microsoft Visual Studio\">Visual Studio</a> and made available in both <a href=\"/wiki/Trialware\" class=\"mw-redirect\" title=\"Trialware\">trialware</a> and <a href=\"/wiki/Freeware\" title=\"Freeware\">freeware</a> forms. It features tools for <a href=\"/wiki/Software_development\" title=\"Software development\">developing</a> and <a href=\"/wiki/Debugging\" title=\"Debugging\">debugging</a> C++ code, especially code written for the <a href=\"/wiki/Windows_API\" title=\"Windows API\">Windows API</a>, <a href=\"/wiki/DirectX\" title=\"DirectX\">DirectX</a> and <a href=\"/wiki/.NET_Framework\" title=\".NET Framework\">.NET</a>.\n</p><p>Many <a href=\"/wiki/Application_software\" title=\"Application software\">applications</a> require <a href=\"/wiki/Redistributable\" class=\"mw-redirect\" title=\"Redistributable\">redistributable</a> Visual C++ runtime library packages to function correctly. These packages are frequently installed separately from the applications they support, enabling multiple applications to use the package with only a single installation. These Visual C++ redistributable and runtime packages are mostly installed for standard <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">libraries</a> that many applications use.<sup id=\"cite&#95;ref-askleo&#95;4-0\" class=\"reference\"><a href=\"#cite_note-askleo-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Visual&#95;C++&#95;adds&#95;Windows&#95;support-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Visual_C++_adds_Windows_support_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation news cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=vjsEAAAAMBAJ\">\"Visual C++ adds Windows support\"</a>. <i>InfoWorld</i>. February 22, 1993. p.&#160;17.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=InfoWorld&amp;rft.atitle=Visual+C%2B%2B+adds+Windows+support&amp;rft.pages=17&amp;rft.date=1993-02-22&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DvjsEAAAAMBAJ&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Visual+C%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist\">\"Microsoft Visual C++ Redistributable latest supported downloads\"</a>. <i>Microsoft Learn</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 15,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=Microsoft+Visual+C%2B%2B+Redistributable+latest+supported+downloads&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fcpp%2Fwindows%2Flatest-supported-vc-redist&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Visual+C%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLextrait2010\" class=\"citation web cs1\">Lextrait, Vincent (January 2010). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.lextrait.com/Vincent/implementations.html\">\"The Programming Languages Beacon, v10.0\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 March</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Programming+Languages+Beacon%2C+v10.0&amp;rft.date=2010-01&amp;rft.aulast=Lextrait&amp;rft.aufirst=Vincent&amp;rft&#95;id=http%3A%2F%2Fwww.lextrait.com%2FVincent%2Fimplementations.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Visual+C%2B%2B\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>:  CS1 maint: deprecated archival service (<a href=\"/wiki/Category:CS1_maint:_deprecated_archival_service\" title=\"Category:CS1 maint: deprecated archival service\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-askleo-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-askleo_4-0\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"http://ask-leo.com/do_i_need_these_microsoft_visual_c_redistributables.html\">\"Do I need these Microsoft Visual C++ redistributables?\"</a>. Ask Leo!. Retrieved 2012-11-18.</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐c87zf\nCached time: 20260918180929\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.330 seconds\nReal time usage: 0.418 seconds\nPreprocessor visited node count: 1370/1000000\nRevision size: 2768/2097152 bytes\nPost‐expand include size: 20090/2097152 bytes\nTemplate argument size: 3005/2097152 bytes\nHighest expansion depth: 29/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 10194/5000000 bytes\nLua time usage: 0.192/10.000 seconds\nLua memory usage: 4367975/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  401.194      1 -total\n 57.63%  231.200      2 Template:Infobox\n 46.78%  187.677      1 Template:Infobox_software\n 26.15%  104.898      1 Template:Cite_news\n 22.38%   89.788      1 Template:Short_description\n 18.01%   72.264      1 Template:Infobox_software/simple\n 13.55%   54.380      2 Template:Pagetype\n  9.93%   39.848     18 Template:If_empty\n  9.01%   36.141      2 Template:Sda\n  6.42%   25.768      6 Template:Main_other\n-->\n\n<!-- Render ID 1720a5d4-b38c-11f1-9992-97a399ee11e8 -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Cite web",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".NET Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++/CLI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++/CX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debugging",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DirectX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Freeware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Redistributable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Trialware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows API",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: deprecated archival service",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Integrated development environment product",
+          "wikibase_item": "Q847296"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Artificial intelligence",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "summary": "Intelligence of machines \"AI\" redirects here. For other uses, see AI (disambiguation) and Artificial intelligence (disambiguation) . Part of a series on Artificial intelligence (AI) Major goals Artificial general intelligence superintelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety Approaches Machine learning Data mining Symbolic Deep learning Bayesian networks Evolutionary algorithms Neuro-symbolic AI Systems integration Open-source Open weights AI data centers Applications Art Music Bioinformatics Deepfake Earth sciences Finance Generative AI Audio Images Government Healthcare Industry Software development Translation Military Physics Projects Philosophy AI alignment Artificial consciousness The bitter lesson Chinese room Friendly AI Ethics Existential risk Turing test Uncanny valley Human–AI interaction History Timeline Progress AI winter AI boom AI build-out financing AI bubble Controversies Deepfake pornography Taylor Swift deepfake pornography controversy Grok sexual deepfake scandal Google Gemini image generation controversy It's the Most Terrible Time of the Year Navier–Stokes priority controversy Pause Giant AI Experiments Project Panama Removal of Sam Altman from OpenAI Statement on AI Risk Tay (chatbot) Théâtre D'opéra Spatial Voiceverse NFT plagiarism scandal Glossary v t e Artificial intelligence ( AI ) is the capability of computational systems to perform tasks typically associated with human intelligence , such as learning , reasoning , problem-solving , perception , and decision-making . It is a field of research in engineering , mathematics , and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximise their chances of achieving defined goals. High-profile applications of AI include advanced web search engines , chatbots , virtual assistants , autonomous vehicles , play and analysis in strategy games (e.g., chess and Go ), and content generation (e.g. images, audio, and videos). The traditional goals of AI research include learning, reasoning , knowledge representation , planning , natural language processing , and perception , as well as support for robotics . To reach these goals, AI researchers use techniques including state space search and mathematical optimisation , formal logic , artificial neural networks , and methods based on statistics , operations research , and economics . AI also draws upon psychology , linguistics , philosophy , neuroscience , and other fields. Some companies, such as OpenAI , Google DeepMind , and Meta , aim to create artificial general intelligence (AGI)—AI that can complete nearly any cognitive task at least as well as a human. Artificial intelligence was founded as an academic discipline in 1956. The field went through multiple cycles of optimism throughout its history , followed by periods of disappointment and loss of funding, known as AI winters . Funding and interest increased substantially after 2012, when graphics processing units (GPUs) started being used to accelerate neural networks, and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture . In the 2020s, an AI boom coincided with advances in generative AI , which became widespread and allowed for the creation and modification of media. In addition to AI safety and unintended consequences and harms from the use of AI, ethical concerns , AI's long-term effects , environmental effects , and potential existential risks have prompted discussions of AI regulation . ^ Russell & Norvig (2021) , pp. 1–4. ^ Russell & Norvig (2021 , §1.2). ^ \"Tech companies want to build artificial general intelligence. But who decides when AGI is attained?\" . AP News . 4 April 2024 . Retrieved 20 May 2025 . ^ Cite error: The named reference Dartmouth workshop was invoked but never defined (see the help page ). ^ Cite error: The named reference Succ1 was invoked but never defined (see the help page ). ^ Cite error: The named reference Fund01 was invoked but never defined (see the help page ). ^ Cite error: The named reference First AI Winter was invoked but never defined (see the help page ). ^ Cite error: The named reference Second AI Winter was invoked but never defined (see the help page ). ^ Cite error: The named reference Deep learning revolution was invoked but never defined (see the help page ). ^ Toews (2023) . ^ Cite error: The named reference UN was invoked but never defined (see the help page ). Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Intelligence of machines \"AI\" redirects here. For other uses, see AI (disambiguation) and Artificial intelligence (disambiguation) . Part of a series on Artificial intelligence (AI) Major goals Artificial general intelligence superintelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety Approaches Machine learning Data mining Symbolic Deep learning Bayesian networks Evolutionary algorithms Neuro-symbolic AI Systems integration Open-source Open weights AI data centers Applications Art Music Bioinformatics Deepfake Earth sciences Finance Generative AI Audio Images Government Healthcare Industry Software development Translation Military Physics Projects Philosophy AI alignment Artificial consciousness The bitter lesson Chinese room Friendly AI Ethics Existential risk Turing test Uncanny valley Human–AI interaction History Timeline Progress AI winter AI boom AI build-out financing AI bubble Controversies Deepfake pornography Taylor Swift deepfake pornography controversy Grok sexual deepfake scandal Google Gemini image generation controversy It's the Most Terrible Time of the Year Navier–Stokes priority controversy Pause Giant AI Experiments Project Panama Removal of Sam Altman from OpenAI Statement on AI Risk Tay (chatbot) Théâtre D'opéra Spatial Voiceverse NFT plagiarism scandal Glossary v t e Artificial intelligence ( AI ) is the capability of computational systems to perform tasks typically associated with human intelligence , such as learning , reasoning , problem-solving , perception , and decision-making . It is a field of research in engineering , mathematics , and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximise their chances of achieving defined goals. High-profile applications of AI include advanced web search engines , chatbots , virtual assistants , autonomous vehicles , play and analysis in strategy games (e.g., chess and Go ), and content generation (e.g. images, audio, and videos). The traditional goals of AI research include learning, reasoning , knowledge representation , planning , natural language processing , and perception , as well as support for robotics . To reach these goals, AI researchers use techniques including state space search and mathematical optimisation , formal logic , artificial neural networks , and methods based on statistics , operations research , and economics . AI also draws upon psychology , linguistics , philosophy , neuroscience , and other fields. Some companies, such as OpenAI , Google DeepMind , and Meta , aim to create artificial general intelligence (AGI)—AI that can complete nearly any cognitive task at least as well as a human. Artificial intelligence was founded as an academic discipline in 1956. The field went through multiple cycles of optimism throughout its history , followed by periods of disappointment and loss of funding, known as AI winters . Funding and interest increased substantially after 2012, when graphics processing units (GPUs) started being used to accelerate neural networks, and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture . In the 2020s, an AI boom coincided with advances in generative AI , which became widespread and allowed for the creation and modification of media. In addition to AI safety and unintended consequences and harms from the use of AI, ethical concerns , AI's long-term effects , environmental effects , and potential existential risks have prompted discussions of AI regulation . ^ Russell & Norvig (2021) , pp. 1–4. ^ Russell & Norvig (2021 , §1.2). ^ \"Tech companies want to build artificial general intelligence. But who decides when AGI is attained?\" . AP News . 4 April 2024 . Retrieved 20 May 2025 . ^ Cite error: The named reference Dartmouth workshop was invoked but never defined (see the help page ). ^ Cite error: The named reference Succ1 was invoked but never defined (see the help page ). ^ Cite error: The named reference Fund01 was invoked but never defined (see the help page ). ^ Cite error: The named reference First AI Winter was invoked but never defined (see the help page ). ^ Cite error: The named reference Second AI Winter was invoked but never defined (see the help page ). ^ Cite error: The named reference Deep learning revolution was invoked but never defined (see the help page ). ^ Toews (2023) . ^ Cite error: The named reference UN was invoked but never defined (see the help page ). Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "AI (disambiguation)",
+      "AI aftermath scenarios",
+      "AI alignment",
+      "AI art",
+      "AI boom",
+      "AI bubble",
+      "AI build-out financing",
+      "AI data center",
+      "AI image",
+      "AI safety",
+      "AI winter",
+      "AI-assisted software development",
+      "AP News",
+      "Academic discipline",
+      "Applications of artificial intelligence",
+      "Artificial consciousness",
+      "Artificial general intelligence",
+      "Artificial intelligence (disambiguation)",
+      "Artificial intelligence arms race",
+      "Artificial intelligence controversies",
+      "Artificial intelligence in government",
+      "Artificial intelligence in healthcare",
+      "Artificial intelligence in industry",
+      "Artificial intelligence in music",
+      "Artificial intelligence systems integration",
+      "Artificial neural network",
+      "Artificial superintelligence",
+      "Automated planning and scheduling",
+      "Automated reasoning",
+      "Autonomous vehicles",
+      "Bayesian network",
+      "Bitter lesson",
+      "Chatbot",
+      "Chess",
+      "Chinese room",
+      "Cognition",
+      "Computer",
+      "Computer science",
+      "Computer vision",
+      "Data mining",
+      "Decision-making",
+      "Deep learning",
+      "Deepfake",
+      "Deepfake pornography",
+      "Economics",
+      "Engineering",
+      "Environmental impacts of artificial intelligence",
+      "Ethics of artificial intelligence",
+      "Evolutionary algorithm",
+      "Existential risk from artificial general intelligence",
+      "Existential risk from artificial intelligence",
+      "Formal logic",
+      "Friendly artificial intelligence",
+      "General game playing",
+      "Generative AI",
+      "Generative audio",
+      "Glossary of artificial intelligence",
+      "Go (game)",
+      "Google DeepMind",
+      "Google Gemini image generation controversy",
+      "Graphics processing unit",
+      "Grok sexual deepfake scandal",
+      "History of artificial intelligence",
+      "Human intelligence",
+      "Human–AI interaction",
+      "Intelligence",
+      "Intelligent agent",
+      "It's the Most Terrible Time of the Year",
+      "Knowledge representation",
+      "Knowledge representation and reasoning",
+      "Learning",
+      "Linguistics",
+      "List of artificial intelligence projects",
+      "Machine learning",
+      "Machine learning in bioinformatics",
+      "Machine learning in earth sciences",
+      "Machine learning in physics",
+      "Machine perception",
+      "Machine translation",
+      "Mathematical optimization",
+      "Mathematics",
+      "Meta Platforms",
+      "Natural language processing",
+      "Navier–Stokes priority controversy",
+      "Neuro-symbolic AI",
+      "Neuroscience",
+      "Open weights",
+      "Open-source artificial intelligence",
+      "OpenAI",
+      "Operations research",
+      "Pause Giant AI Experiments: An Open Letter",
+      "Perception",
+      "Philosophy of artificial intelligence",
+      "Problem-solving",
+      "Progress in artificial intelligence",
+      "Project Panama",
+      "Psychology",
+      "Reason",
+      "Recursive self-improvement",
+      "Regulation of artificial intelligence",
+      "Removal of Sam Altman from OpenAI",
+      "Robotics",
+      "Software",
+      "State space search",
+      "Statement on AI Risk",
+      "Statistics",
+      "Strategy game",
+      "Symbolic artificial intelligence",
+      "Tay (chatbot)",
+      "Taylor Swift deepfake pornography controversy",
+      "Théâtre D'opéra Spatial",
+      "Timeline of artificial intelligence",
+      "Transformer architecture",
+      "Turing test",
+      "Uncanny valley",
+      "Virtual assistant",
+      "Voiceverse NFT plagiarism scandal",
+      "Web search engine"
+    ],
+    "page_id": 1164,
+    "revision_id": 1375342429,
+    "retrieved_at": "2026-09-18T18:08:18.544620+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260917061033|1375342173",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1164,
+            "ns": 0,
+            "title": "Artificial intelligence",
+            "revisions": [
+              {
+                "revid": 1375342429,
+                "parentid": 1375342173
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Intelligence of machines",
+              "wikibase_item": "Q11660"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Artificial intelligence",
+        "pageid": 1164,
+        "revid": 1375342429,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Intelligence of machines</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"AI\" redirects here. For other uses, see <a href=\"/wiki/AI_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"AI (disambiguation)\">AI (disambiguation)</a> and <a href=\"/wiki/Artificial_intelligence_(disambiguation)\" class=\"mw-disambig\" title=\"Artificial intelligence (disambiguation)\">Artificial intelligence (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar sidebar-collapse nomobile nowraplinks hlist\" role=\"navigation\"><tbody><tr><td class=\"sidebar-pretitle\">Part of <a href=\"/wiki/Category:Artificial_intelligence\" title=\"Category:Artificial intelligence\">a series</a> on</td></tr><tr><th class=\"sidebar-title-with-pretitle\"><a class=\"mw-selflink selflink\">Artificial intelligence (AI)</a></th></tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"text-align:center;background-color:#e0e0e0;;color: var(--color-base)\"><a class=\"mw-selflink-fragment\" href=\"#Goals\">Major goals</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Artificial_general_intelligence\" title=\"Artificial general intelligence\">Artificial general intelligence</a>\n<ul><li><a href=\"/wiki/Artificial_superintelligence\" class=\"mw-redirect\" title=\"Artificial superintelligence\">superintelligence</a></li></ul></li>\n<li><a href=\"/wiki/Intelligent_agent\" title=\"Intelligent agent\">Intelligent agent</a></li>\n<li><a href=\"/wiki/Recursive_self-improvement\" title=\"Recursive self-improvement\">Recursive self-improvement</a></li>\n<li><a href=\"/wiki/Automated_planning_and_scheduling\" title=\"Automated planning and scheduling\">Planning</a></li>\n<li><a href=\"/wiki/Computer_vision\" title=\"Computer vision\">Computer vision</a></li>\n<li><a href=\"/wiki/General_game_playing\" title=\"General game playing\">General game playing</a></li>\n<li><a href=\"/wiki/Knowledge_representation_and_reasoning\" title=\"Knowledge representation and reasoning\">Knowledge representation</a></li>\n<li><a href=\"/wiki/Natural_language_processing\" title=\"Natural language processing\">Natural language processing</a></li>\n<li><a href=\"/wiki/Robotics\" title=\"Robotics\">Robotics</a></li>\n<li><a href=\"/wiki/AI_safety\" title=\"AI safety\">AI safety</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Approaches</div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Machine_learning\" title=\"Machine learning\">Machine learning</a></li>\n<li><a href=\"/wiki/Data_mining\" title=\"Data mining\">Data mining</a></li>\n<li><a href=\"/wiki/Symbolic_artificial_intelligence\" title=\"Symbolic artificial intelligence\">Symbolic</a></li>\n<li><a href=\"/wiki/Deep_learning\" title=\"Deep learning\">Deep learning</a></li>\n<li><a href=\"/wiki/Bayesian_network\" title=\"Bayesian network\">Bayesian networks</a></li>\n<li><a href=\"/wiki/Evolutionary_algorithm\" title=\"Evolutionary algorithm\">Evolutionary algorithms</a></li>\n<li><a href=\"/wiki/Neuro-symbolic_AI\" title=\"Neuro-symbolic AI\">Neuro-symbolic AI</a></li>\n<li><a href=\"/wiki/Artificial_intelligence_systems_integration\" title=\"Artificial intelligence systems integration\">Systems integration</a></li>\n<li><a href=\"/wiki/Open-source_artificial_intelligence\" title=\"Open-source artificial intelligence\">Open-source</a></li>\n<li><a href=\"/wiki/Open_weights\" title=\"Open weights\">Open weights</a></li>\n<li><a href=\"/wiki/AI_data_center\" title=\"AI data center\">AI data centers</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"text-align:center;background-color:#e0e0e0;;color: var(--color-base)\"><a href=\"/wiki/Applications_of_artificial_intelligence\" title=\"Applications of artificial intelligence\">Applications</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/AI_art\" title=\"AI art\">Art</a>\n<ul><li><a href=\"/wiki/Artificial_intelligence_in_music\" title=\"Artificial intelligence in music\">Music</a></li></ul></li>\n<li><a href=\"/wiki/Machine_learning_in_bioinformatics\" title=\"Machine learning in bioinformatics\">Bioinformatics</a></li>\n<li><a href=\"/wiki/Deepfake\" title=\"Deepfake\">Deepfake</a></li>\n<li><a href=\"/wiki/Machine_learning_in_earth_sciences\" title=\"Machine learning in earth sciences\">Earth sciences</a></li>\n<li><a href=\"/wiki/Applications_of_artificial_intelligence#Finance\" title=\"Applications of artificial intelligence\"> Finance </a></li>\n<li><a href=\"/wiki/Generative_AI\" title=\"Generative AI\">Generative AI</a>\n<ul><li><a href=\"/wiki/Generative_audio\" title=\"Generative audio\">Audio</a></li>\n<li><a href=\"/wiki/AI_image\" class=\"mw-redirect\" title=\"AI image\">Images</a></li></ul></li>\n<li><a href=\"/wiki/Artificial_intelligence_in_government\" title=\"Artificial intelligence in government\">Government</a></li>\n<li><a href=\"/wiki/Artificial_intelligence_in_healthcare\" title=\"Artificial intelligence in healthcare\">Healthcare</a></li>\n<li><a href=\"/wiki/Artificial_intelligence_in_industry\" title=\"Artificial intelligence in industry\">Industry</a></li>\n<li><a href=\"/wiki/AI-assisted_software_development\" title=\"AI-assisted software development\">Software development</a></li>\n<li><a href=\"/wiki/Machine_translation\" title=\"Machine translation\">Translation</a></li>\n<li><a href=\"/wiki/Artificial_intelligence_arms_race\" title=\"Artificial intelligence arms race\"> Military </a></li>\n<li><a href=\"/wiki/Machine_learning_in_physics\" title=\"Machine learning in physics\">Physics</a></li>\n<li><a href=\"/wiki/List_of_artificial_intelligence_projects\" title=\"List of artificial intelligence projects\">Projects</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"text-align:center;background-color:#e0e0e0;;color: var(--color-base)\"><a href=\"/wiki/Philosophy_of_artificial_intelligence\" title=\"Philosophy of artificial intelligence\">Philosophy</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/AI_alignment\" title=\"AI alignment\">AI alignment</a></li>\n<li><a href=\"/wiki/Artificial_consciousness\" title=\"Artificial consciousness\">Artificial consciousness</a></li>\n<li><a href=\"/wiki/Bitter_lesson\" title=\"Bitter lesson\">The bitter lesson</a></li>\n<li><a href=\"/wiki/Chinese_room\" title=\"Chinese room\">Chinese room</a></li>\n<li><a href=\"/wiki/Friendly_artificial_intelligence\" title=\"Friendly artificial intelligence\">Friendly AI</a></li>\n<li><a href=\"/wiki/Ethics_of_artificial_intelligence\" title=\"Ethics of artificial intelligence\">Ethics</a></li>\n<li><a href=\"/wiki/Existential_risk_from_artificial_general_intelligence\" class=\"mw-redirect\" title=\"Existential risk from artificial general intelligence\">Existential risk</a></li>\n<li><a href=\"/wiki/Turing_test\" title=\"Turing test\">Turing test</a></li>\n<li><a href=\"/wiki/Uncanny_valley\" title=\"Uncanny valley\">Uncanny valley</a></li>\n<li><a href=\"/wiki/Human%E2%80%93AI_interaction\" title=\"Human–AI interaction\">Human–AI interaction</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"text-align:center;background-color:#e0e0e0;;color: var(--color-base)\"><a href=\"/wiki/History_of_artificial_intelligence\" title=\"History of artificial intelligence\">History</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Timeline_of_artificial_intelligence\" title=\"Timeline of artificial intelligence\">Timeline</a></li>\n<li><a href=\"/wiki/Progress_in_artificial_intelligence\" title=\"Progress in artificial intelligence\">Progress</a></li>\n<li><a href=\"/wiki/AI_winter\" title=\"AI winter\">AI winter</a></li>\n<li><a href=\"/wiki/AI_boom\" title=\"AI boom\">AI boom</a></li>\n<li><a href=\"/wiki/AI_build-out_financing\" title=\"AI build-out financing\">AI build-out financing</a></li>\n<li><a href=\"/wiki/AI_bubble\" title=\"AI bubble\">AI bubble</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"text-align:center;background-color:#e0e0e0;;color: var(--color-base)\"><a href=\"/wiki/Artificial_intelligence_controversies\" title=\"Artificial intelligence controversies\">Controversies</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Deepfake_pornography\" title=\"Deepfake pornography\">Deepfake pornography</a>\n<ul><li><a href=\"/wiki/Taylor_Swift_deepfake_pornography_controversy\" title=\"Taylor Swift deepfake pornography controversy\">Taylor Swift deepfake pornography controversy</a></li>\n<li><a href=\"/wiki/Grok_sexual_deepfake_scandal\" title=\"Grok sexual deepfake scandal\">Grok sexual deepfake scandal</a></li></ul></li>\n<li><a href=\"/wiki/Google_Gemini_image_generation_controversy\" class=\"mw-redirect\" title=\"Google Gemini image generation controversy\">Google Gemini image generation controversy</a></li>\n<li><i><a href=\"/wiki/It%27s_the_Most_Terrible_Time_of_the_Year\" title=\"It&#39;s the Most Terrible Time of the Year\">It's the Most Terrible Time of the Year</a></i></li>\n<li><a href=\"/wiki/Navier%E2%80%93Stokes_priority_controversy\" title=\"Navier–Stokes priority controversy\">Navier–Stokes priority controversy</a></li>\n<li><a href=\"/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter\" title=\"Pause Giant AI Experiments: An Open Letter\">Pause Giant AI Experiments</a></li>\n<li><a href=\"/wiki/Project_Panama\" title=\"Project Panama\">Project Panama</a></li>\n<li><a href=\"/wiki/Removal_of_Sam_Altman_from_OpenAI\" title=\"Removal of Sam Altman from OpenAI\">Removal of Sam Altman from OpenAI</a></li>\n<li><a href=\"/wiki/Statement_on_AI_Risk\" class=\"mw-redirect\" title=\"Statement on AI Risk\">Statement on AI Risk</a></li>\n<li><a href=\"/wiki/Tay_(chatbot)\" title=\"Tay (chatbot)\">Tay (chatbot)</a></li>\n<li><i><a href=\"/wiki/Th%C3%A9%C3%A2tre_D%27op%C3%A9ra_Spatial\" title=\"Théâtre D&#39;opéra Spatial\">Théâtre D'opéra Spatial</a></i></li>\n<li><a href=\"/wiki/Voiceverse_NFT_plagiarism_scandal\" title=\"Voiceverse NFT plagiarism scandal\">Voiceverse NFT plagiarism scandal</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-below\">\n<a href=\"/wiki/Glossary_of_artificial_intelligence\" title=\"Glossary of artificial intelligence\">Glossary</a></td></tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Artificial_intelligence\" title=\"Template:Artificial intelligence\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Artificial_intelligence\" title=\"Template talk:Artificial intelligence\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Artificial_intelligence\" title=\"Special:EditPage/Template:Artificial intelligence\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>Artificial intelligence</b> (<b>AI</b>) is the capability of <a href=\"/wiki/Computer\" title=\"Computer\">computational systems</a> to perform tasks typically associated with <a href=\"/wiki/Human_intelligence\" title=\"Human intelligence\">human intelligence</a>, such as <a href=\"/wiki/Learning\" title=\"Learning\">learning</a>, <a href=\"/wiki/Reason\" title=\"Reason\">reasoning</a>, <a href=\"/wiki/Problem-solving\" class=\"mw-redirect\" title=\"Problem-solving\">problem-solving</a>, <a href=\"/wiki/Perception\" title=\"Perception\">perception</a>, and <a href=\"/wiki/Decision-making\" title=\"Decision-making\">decision-making</a>. It is a field of research in <a href=\"/wiki/Engineering\" title=\"Engineering\">engineering</a>, <a href=\"/wiki/Mathematics\" title=\"Mathematics\">mathematics</a>, and <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a> that develops and studies methods and <a href=\"/wiki/Software\" title=\"Software\">software</a> that enable machines to perceive their environment and use <a href=\"/wiki/Machine_learning\" title=\"Machine learning\">learning</a> and <a href=\"/wiki/Intelligence\" title=\"Intelligence\">intelligence</a> to take actions that maximise their chances of achieving defined goals.<sup id=\"cite&#95;ref-FOOTNOTERussellNorvig20211–4&#95;1-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTERussellNorvig20211–4-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>High-profile <a href=\"/wiki/Applications_of_artificial_intelligence\" title=\"Applications of artificial intelligence\">applications of AI</a> include advanced <a href=\"/wiki/Web_search_engine\" class=\"mw-redirect\" title=\"Web search engine\">web search engines</a>, <a href=\"/wiki/Chatbot\" title=\"Chatbot\">chatbots</a>, <a href=\"/wiki/Virtual_assistant\" title=\"Virtual assistant\">virtual assistants</a>, <a href=\"/wiki/Autonomous_vehicles\" class=\"mw-redirect\" title=\"Autonomous vehicles\">autonomous vehicles</a>, play and analysis in <a href=\"/wiki/Strategy_game\" title=\"Strategy game\">strategy games</a> (e.g., <a href=\"/wiki/Chess\" title=\"Chess\">chess</a> and <a href=\"/wiki/Go_(game)\" title=\"Go (game)\">Go</a>), and <a href=\"/wiki/Generative_AI\" title=\"Generative AI\">content generation</a> (e.g. images, audio, and videos).\n</p><p>The traditional goals of AI research include learning, <a href=\"/wiki/Automated_reasoning\" title=\"Automated reasoning\">reasoning</a>, <a href=\"/wiki/Knowledge_representation\" class=\"mw-redirect\" title=\"Knowledge representation\">knowledge representation</a>, <a href=\"/wiki/Automated_planning_and_scheduling\" title=\"Automated planning and scheduling\">planning</a>, <a href=\"/wiki/Natural_language_processing\" title=\"Natural language processing\">natural language processing</a>, and <a href=\"/wiki/Machine_perception\" title=\"Machine perception\">perception</a>, as well as support for <a href=\"/wiki/Robotics\" title=\"Robotics\">robotics</a>.<sup id=\"cite&#95;ref-Problems&#95;of&#95;AI&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Problems_of_AI-2\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> To reach these goals, AI researchers use techniques including <a href=\"/wiki/State_space_search\" class=\"mw-redirect\" title=\"State space search\">state space search</a> and <a href=\"/wiki/Mathematical_optimization\" title=\"Mathematical optimization\">mathematical optimisation</a>, <a href=\"/wiki/Formal_logic\" class=\"mw-redirect\" title=\"Formal logic\">formal logic</a>, <a href=\"/wiki/Artificial_neural_network\" class=\"mw-redirect\" title=\"Artificial neural network\">artificial neural networks</a>, and methods based on <a href=\"/wiki/Statistics\" title=\"Statistics\">statistics</a>, <a href=\"/wiki/Operations_research\" title=\"Operations research\">operations research</a>, and <a href=\"/wiki/Economics\" title=\"Economics\">economics</a>.<sup id=\"cite&#95;ref-Tools&#95;of&#95;AI&#95;3-0\" class=\"reference\"><a href=\"#cite_note-Tools_of_AI-3\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup> AI also draws upon <a href=\"/wiki/Psychology\" title=\"Psychology\">psychology</a>, <a href=\"/wiki/Linguistics\" title=\"Linguistics\">linguistics</a>, <a href=\"/wiki/Philosophy_of_artificial_intelligence\" title=\"Philosophy of artificial intelligence\">philosophy</a>, <a href=\"/wiki/Neuroscience\" title=\"Neuroscience\">neuroscience</a>, and other fields.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> Some companies, such as <a href=\"/wiki/OpenAI\" title=\"OpenAI\">OpenAI</a>, <a href=\"/wiki/Google_DeepMind\" title=\"Google DeepMind\">Google DeepMind</a>, and <a href=\"/wiki/Meta_Platforms\" title=\"Meta Platforms\">Meta</a>, aim to create <a href=\"/wiki/Artificial_general_intelligence\" title=\"Artificial general intelligence\">artificial general intelligence</a> (AGI)—AI that can complete nearly any <a href=\"/wiki/Cognition\" title=\"Cognition\">cognitive</a> task at least as well as a human.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Artificial intelligence was founded as an <a href=\"/wiki/Academic_discipline\" title=\"Academic discipline\">academic discipline</a> in 1956.<sup id=\"cite&#95;ref-Dartmouth&#95;workshop&#95;6-0\" class=\"reference\"><a href=\"#cite_note-Dartmouth_workshop-6\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> The field went through multiple cycles of optimism throughout <a href=\"/wiki/History_of_artificial_intelligence\" title=\"History of artificial intelligence\">its history</a>,<sup id=\"cite&#95;ref-Succ1&#95;7-0\" class=\"reference\"><a href=\"#cite_note-Succ1-7\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Fund01&#95;8-0\" class=\"reference\"><a href=\"#cite_note-Fund01-8\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> followed by periods of disappointment and loss of funding, known as <a href=\"/wiki/AI_winter\" title=\"AI winter\">AI winters</a>.<sup id=\"cite&#95;ref-First&#95;AI&#95;Winter&#95;9-0\" class=\"reference\"><a href=\"#cite_note-First_AI_Winter-9\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Second&#95;AI&#95;Winter&#95;10-0\" class=\"reference\"><a href=\"#cite_note-Second_AI_Winter-10\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> Funding and interest increased substantially after 2012, when <a href=\"/wiki/Graphics_processing_unit\" title=\"Graphics processing unit\">graphics processing units</a> (GPUs) started being used to accelerate neural networks, and <a href=\"/wiki/Deep_learning\" title=\"Deep learning\">deep learning</a> outperformed previous AI techniques.<sup id=\"cite&#95;ref-Deep&#95;learning&#95;revolution&#95;11-0\" class=\"reference\"><a href=\"#cite_note-Deep_learning_revolution-11\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> This growth accelerated further after 2017 with the <a href=\"/wiki/Transformer_architecture\" class=\"mw-redirect\" title=\"Transformer architecture\">transformer architecture</a>.<sup id=\"cite&#95;ref-FOOTNOTEToews2023&#95;12-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEToews2023-12\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> In the 2020s, an <a href=\"/wiki/AI_boom\" title=\"AI boom\">AI boom</a> coincided with advances in <a href=\"/wiki/Generative_AI\" title=\"Generative AI\">generative AI</a>, which became widespread and allowed for the creation and modification of media. In addition to <a href=\"/wiki/AI_safety\" title=\"AI safety\">AI safety</a> and <a href=\"/wiki/Generative_AI#Concerns\" title=\"Generative AI\">unintended consequences and harms</a> from the use of AI, <a href=\"/wiki/Ethics_of_artificial_intelligence\" title=\"Ethics of artificial intelligence\">ethical concerns</a>, <a href=\"/wiki/AI_aftermath_scenarios\" title=\"AI aftermath scenarios\">AI's long-term effects</a>, <a href=\"/wiki/Environmental_impacts_of_artificial_intelligence\" class=\"mw-redirect\" title=\"Environmental impacts of artificial intelligence\">environmental effects</a>,<sup id=\"cite&#95;ref-UN&#95;13-0\" class=\"reference\"><a href=\"#cite_note-UN-13\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Existential_risk_from_artificial_intelligence\" title=\"Existential risk from artificial intelligence\">potential existential risks</a> have prompted discussions of <a href=\"/wiki/Regulation_of_artificial_intelligence\" title=\"Regulation of artificial intelligence\">AI regulation</a>.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-FOOTNOTERussellNorvig20211–4-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTERussellNorvig20211–4_1-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRussellNorvig2021\">Russell &amp; Norvig (2021)</a>, pp.&#160;1–4.</span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRussellNorvig2021\">Russell &amp; Norvig (2021</a>, §1.2).</span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://apnews.com/article/agi-artificial-general-intelligence-existential-risk-meta-openai-deepmind-science-ff5662a056d3cf3c5889a73e929e5a34\">\"Tech companies want to build artificial general intelligence. But who decides when AGI is attained?\"</a>. <i><a href=\"/wiki/AP_News\" class=\"mw-redirect\" title=\"AP News\">AP News</a></i>. 4 April 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">20 May</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=AP+News&amp;rft.atitle=Tech+companies+want+to+build+artificial+general+intelligence.+But+who+decides+when+AGI+is+attained%3F&amp;rft.date=2024-04-04&amp;rft&#95;id=https%3A%2F%2Fapnews.com%2Farticle%2Fagi-artificial-general-intelligence-existential-risk-meta-openai-deepmind-science-ff5662a056d3cf3c5889a73e929e5a34&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AArtificial+intelligence\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Dartmouth&#95;workshop-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Dartmouth_workshop_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Dartmouth workshop</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Succ1-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Succ1_7-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Succ1</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Fund01-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Fund01_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Fund01</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-First&#95;AI&#95;Winter-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-First_AI_Winter_9-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>First AI Winter</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Second&#95;AI&#95;Winter-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Second_AI_Winter_10-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Second AI Winter</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Deep&#95;learning&#95;revolution-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Deep_learning_revolution_11-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Deep learning revolution</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEToews2023-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEToews2023_12-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFToews2023\">Toews (2023)</a>.</span>\n</li>\n<li id=\"cite&#95;note-UN-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-UN_13-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>UN</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐mpxpb\nCached time: 20260918180843\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.294 seconds\nReal time usage: 0.517 seconds\nPreprocessor visited node count: 1507/1000000\nRevision size: 4438/2097152 bytes\nPost‐expand include size: 38040/2097152 bytes\nTemplate argument size: 7997/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 8/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 14484/5000000 bytes\nLua time usage: 0.174/10.000 seconds\nLua memory usage: 6711726/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  494.138      1 -total\n 15.99%   79.033      2 Template:Sfnp\n 13.60%   67.197      1 Template:Short_description\n 11.70%   57.821      1 Template:Artificial_intelligence\n 11.06%   54.656      1 Template:Sidebar_with_collapsible_lists\n  8.96%   44.288      1 Template:Cite_web\n  8.67%   42.833      2 Template:Pagetype\n  7.97%   39.371     16 Template:Broken_ref\n  5.86%   28.946      1 Template:Pp\n  3.36%   16.590      1 Template:Redirect\n-->\n\n<!-- Render ID fbb590f2-b38b-11f1-9fc4-07cee3f0a2cd -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI-assisted software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI aftermath scenarios",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI alignment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI art",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI boom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI bubble",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI build-out financing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI data center",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI image",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AI winter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AP News",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Academic discipline",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Applications of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial consciousness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial general intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence arms race",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence controversies",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence in government",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence in healthcare",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence in industry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence in music",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence systems integration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial neural network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial superintelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automated planning and scheduling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automated reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Autonomous vehicles",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bayesian network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bitter lesson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chatbot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chess",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chinese room",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cognition",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer vision",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data mining",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Decision-making",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deep learning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deepfake",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deepfake pornography",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Economics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Environmental impacts of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ethics of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Evolutionary algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Existential risk from artificial general intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Existential risk from artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Friendly artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General game playing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generative AI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generative audio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glossary of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (game)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google DeepMind",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Gemini image generation controversy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphics processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Grok sexual deepfake scandal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "History of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Human intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Human–AI interaction",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intelligent agent",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "It's the Most Terrible Time of the Year",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Knowledge representation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Knowledge representation and reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Learning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linguistics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of artificial intelligence projects",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine learning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine learning in bioinformatics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine learning in earth sciences",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine learning in physics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine perception",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine translation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical optimization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meta Platforms",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Natural language processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Navier–Stokes priority controversy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Neuro-symbolic AI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Neuroscience",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenAI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open weights",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operations research",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pause Giant AI Experiments: An Open Letter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perception",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Philosophy of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Problem-solving",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Progress in artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Project Panama",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Psychology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reason",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Recursive self-improvement",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Regulation of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Removal of Sam Altman from OpenAI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robotics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "State space search",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Statement on AI Risk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Statistics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strategy game",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Symbolic artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tay (chatbot)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Taylor Swift deepfake pornography controversy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Théâtre D'opéra Spatial",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Timeline of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Transformer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing test",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Uncanny valley",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual assistant",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Voiceverse NFT plagiarism scandal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web search engine",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:Artificial intelligence",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Intelligence of machines",
+          "wikibase_item": "Q11660"
+        }
+      }
+    }
+  ]
+}

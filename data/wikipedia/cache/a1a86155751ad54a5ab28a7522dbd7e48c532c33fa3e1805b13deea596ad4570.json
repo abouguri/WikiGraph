@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Compile time",
+    "url": "https://en.wikipedia.org/wiki/Compile_time",
+    "summary": "Time when a program is compiled This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Compile time\" – news · newspapers · books · scholar · JSTOR ( January 2023 ) ( Learn how and when to remove this message ) Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e In computing , compile time is the period of time when a compiler processes source code into other code that is more readily executable – typically object code or byte code . Compile time is a phase in the operational life cycle of a program as it transitions from development to execution . The length of time it takes to compile is usually referred to as compilation time although compile time might also be used. Compile time can be subdivided by the phases of a compiler. Most compilers have at least the following phases: syntax analysis , semantic analysis , and code generation . Many compilers include one or more optimization phases. For example, each constant expressions might be evaluated via compile-time execution to produce a value that results in improved runtime performance. Properties of a program that can be determined at compile time include range-checks (e.g., proving that an array index will not exceed the array bounds), deadlock freedom in concurrent languages , or timings (e.g., proving that a sequence of code takes no more than an allocated amount of time). For statically-typed languages such as C++ , Java or Rust , types are checked at compile time to ensure type safety . Compiling is typically part of a build process (at build time). A build may also include linking (at link time). Run time is the duration when the program is running. Often, compilation occurs as a separate step before running a program. But with dynamic compilation , transformation to machine language happens as part of the process of running it – intertwining run time and compile time. Often this is split into two distinct processes: a build-time process that converts source code to an intermediate representation (IR) and a run-time process that converts the IR to machine code. ^ \"A History of Computer Programming Languages\" . Retrieved 2022-12-25 . ^ Yongwei, Wu (October 7, 2024). \"C++ Compile-Time Programming\" . accu.org . Retrieved 2025-04-26 . ^ \"Compile Time Evaluation\" . C3 . Retrieved 2025-04-26 . ^ \"Data Types - The Rust Programming Language\" . doc.rust-lang.org . Retrieved 2025-04-26 .",
+    "text": "Time when a program is compiled This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Compile time\" – news · newspapers · books · scholar · JSTOR ( January 2023 ) ( Learn how and when to remove this message ) Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e In computing , compile time is the period of time when a compiler processes source code into other code that is more readily executable – typically object code or byte code . Compile time is a phase in the operational life cycle of a program as it transitions from development to execution . The length of time it takes to compile is usually referred to as compilation time although compile time might also be used. Compile time can be subdivided by the phases of a compiler. Most compilers have at least the following phases: syntax analysis , semantic analysis , and code generation . Many compilers include one or more optimization phases. For example, each constant expressions might be evaluated via compile-time execution to produce a value that results in improved runtime performance. Properties of a program that can be determined at compile time include range-checks (e.g., proving that an array index will not exceed the array bounds), deadlock freedom in concurrent languages , or timings (e.g., proving that a sequence of code takes no more than an allocated amount of time). For statically-typed languages such as C++ , Java or Rust , types are checked at compile time to ensure type safety . Compiling is typically part of a build process (at build time). A build may also include linking (at link time). Run time is the duration when the program is running. Often, compilation occurs as a separate step before running a program. But with dynamic compilation , transformation to machine language happens as part of the process of running it – intertwining run time and compile time. Often this is split into two distinct processes: a build-time process that converts source code to an intermediate representation (IR) and a run-time process that converts the IR to machine code. ^ \"A History of Computer Programming Languages\" . Retrieved 2022-12-25 . ^ Yongwei, Wu (October 7, 2024). \"C++ Compile-Time Programming\" . accu.org . Retrieved 2025-04-26 . ^ \"Compile Time Evaluation\" . C3 . Retrieved 2025-04-26 . ^ \"Data Types - The Rust Programming Language\" . doc.rust-lang.org . Retrieved 2025-04-26 .",
+    "links": [
+      "Ahead-of-time compilation",
+      "Android Runtime",
+      "BEAM (Erlang virtual machine)",
+      "Byte code",
+      "Bytecode",
+      "C (programming language)",
+      "C++",
+      "CPython",
+      "Clang",
+      "Code generation (compiler)",
+      "Common Language Runtime",
+      "Compile and go system",
+      "Compile-time function execution",
+      "Compiler",
+      "Computer program",
+      "Computing",
+      "Concurrent language",
+      "Crt0",
+      "Deadlock (computer science)",
+      "Dynamic compilation",
+      "Dynamic recompilation",
+      "Executable",
+      "Execution (computing)",
+      "GNU Compiler Collection",
+      "Glasgow Haskell Compiler",
+      "Intermediate representation",
+      "Interpreter (computing)",
+      "Java (programming language)",
+      "Java virtual machine",
+      "Just-in-time compilation",
+      "LLVM",
+      "Linker (computing)",
+      "LuaJIT",
+      "Machine code",
+      "Machine language",
+      "Meta-tracing",
+      "Microcode",
+      "Microsoft Visual C++",
+      "Mono (software)",
+      "Node.js",
+      "Object code",
+      "Objective-C",
+      "Optimizing compiler",
+      "Precompilation",
+      "Program lifecycle phase",
+      "PyPy",
+      "Range check",
+      "Runtime system",
+      "Rust (programming language)",
+      "Semantic analysis (computer science)",
+      "Software build",
+      "Software development",
+      "Source code",
+      "Source-to-source compiler",
+      "Swift (programming language)",
+      "Syntax analysis",
+      "Tracing just-in-time compilation",
+      "Translator (computing)",
+      "Type safety",
+      "V8 (JavaScript engine)",
+      "Virtual machine",
+      "Zend Engine"
+    ],
+    "page_id": 191766,
+    "revision_id": 1360810917,
+    "retrieved_at": "2026-09-18T18:10:32.825808+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260411204023|1348288026",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 191766,
+            "ns": 0,
+            "title": "Compile time",
+            "revisions": [
+              {
+                "revid": 1360810917,
+                "parentid": 1348288026
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Time when a program is compiled",
+              "wikibase_item": "Q333707"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Compile time",
+        "pageid": 191766,
+        "revid": 1360810917,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Time when a program is compiled</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Compile_time\" title=\"Special:EditPage/Compile time\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Compile+time%22\">\"Compile time\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Compile+time%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Compile+time%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Compile+time%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Compile+time%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Compile+time%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">January 2023</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">Program execution</a></th></tr><tr><th class=\"sidebar-heading\">\nGeneral concepts</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Computer_program\" title=\"Computer program\">Code</a></li>\n<li><a href=\"/wiki/Translator_(computing)\" title=\"Translator (computing)\">Translation</a>\n<ul><li><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></li>\n<li><a class=\"mw-selflink selflink\">Compile time</a></li>\n<li><a href=\"/wiki/Optimizing_compiler\" title=\"Optimizing compiler\">Optimizing compiler</a></li></ul></li>\n<li><a href=\"/wiki/Linker_(computing)\" title=\"Linker (computing)\"> Linking</a></li>\n<li><a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">Execution</a>\n<ul><li><a href=\"/wiki/Runtime_system\" title=\"Runtime system\">Runtime system</a></li>\n<li><a href=\"/wiki/Executable\" title=\"Executable\">Executable</a></li>\n<li><a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">Interpreter</a></li>\n<li><a href=\"/wiki/Virtual_machine\" title=\"Virtual machine\">Virtual machine</a></li></ul></li>\n<li><a href=\"/wiki/Intermediate_representation\" title=\"Intermediate representation\">Intermediate representation</a> (IR)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nTypes of code</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Source_code\" title=\"Source code\">Source code</a></li>\n<li><a href=\"/wiki/Object_code\" title=\"Object code\">Object code</a></li>\n<li><a href=\"/wiki/Bytecode\" title=\"Bytecode\">Bytecode</a></li>\n<li><a href=\"/wiki/Machine_code\" title=\"Machine code\">Machine code</a></li>\n<li><a href=\"/wiki/Microcode\" title=\"Microcode\">Microcode</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nCompilation strategies</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Ahead-of-time_compilation\" title=\"Ahead-of-time compilation\">Ahead-of-time</a> (AOT)</li>\n<li><a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">Just-in-time</a> (JIT)\n<ul><li><a href=\"/wiki/Tracing_just-in-time_compilation\" title=\"Tracing just-in-time compilation\">Tracing just-in-time</a></li>\n<li><a href=\"/wiki/Compile_and_go_system\" title=\"Compile and go system\">Compile and go system</a></li></ul></li>\n<li><a href=\"/wiki/Precompilation\" class=\"mw-redirect\" title=\"Precompilation\">Precompilation</a></li>\n<li><a href=\"/wiki/Source-to-source_compiler\" title=\"Source-to-source compiler\">Transcompilation</a></li>\n<li><a href=\"/wiki/Dynamic_recompilation\" title=\"Dynamic recompilation\">Recompilation</a></li>\n<li><a href=\"/wiki/Meta-tracing\" title=\"Meta-tracing\">Meta-tracing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable runtimes</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Android_Runtime\" title=\"Android Runtime\">Android Runtime</a> (ART)</li>\n<li><a href=\"/wiki/BEAM_(Erlang_virtual_machine)\" title=\"BEAM (Erlang virtual machine)\">BEAM</a> (Erlang)</li>\n<li><a href=\"/wiki/Common_Language_Runtime\" title=\"Common Language Runtime\">Common Language Runtime</a> (CLR) and&#160;<a href=\"/wiki/Mono_(software)#Code_Execution_Engine\" title=\"Mono (software)\">Mono</a></li>\n<li><a href=\"/wiki/CPython\" title=\"CPython\">CPython</a> and&#160;<a href=\"/wiki/PyPy\" title=\"PyPy\">PyPy</a></li>\n<li><a href=\"/wiki/Crt0\" title=\"Crt0\">crt0</a> (<a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> target-specific initializer)</li>\n<li><a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">Java virtual machine</a> (JVM)</li>\n<li><a href=\"/wiki/LuaJIT\" title=\"LuaJIT\">LuaJIT</a></li>\n<li><a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a> and&#160;<a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>'s</li>\n<li><a href=\"/wiki/V8_(JavaScript_engine)\" title=\"V8 (JavaScript engine)\">V8</a> and&#160;<a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a></li>\n<li><a href=\"/wiki/Zend_Engine\" title=\"Zend Engine\">Zend Engine</a> (PHP)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable compilers &amp; toolchains</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GNU Compiler Collection</a> (GCC)</li>\n<li><a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a> and&#160;<a href=\"/wiki/Clang\" title=\"Clang\">Clang</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">MSVC</a></li>\n<li><a href=\"/wiki/Glasgow_Haskell_Compiler\" title=\"Glasgow Haskell Compiler\">Glasgow Haskell Compiler</a> (GHC)</li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Program_execution\" title=\"Template:Program execution\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Program_execution\" title=\"Template talk:Program execution\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Program_execution\" title=\"Special:EditPage/Template:Program execution\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, <b>compile time</b> is the period of time when a <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> processes <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> into other code that is more readily executable – typically <a href=\"/wiki/Object_code\" title=\"Object code\">object code</a> or <a href=\"/wiki/Byte_code\" class=\"mw-redirect\" title=\"Byte code\">byte code</a>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Compile time is a <a href=\"/wiki/Program_lifecycle_phase\" title=\"Program lifecycle phase\">phase in the operational life cycle of a program</a> as it transitions from <a href=\"/wiki/Software_development\" title=\"Software development\">development</a> to <a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">execution</a>. The length of time it takes to compile is usually referred to as <i>compilation time</i> although <i>compile time</i> might also be used.\n</p><p>Compile time can be subdivided by the phases of a compiler. Most compilers have at least the following phases: <a href=\"/wiki/Syntax_analysis\" class=\"mw-redirect\" title=\"Syntax analysis\">syntax analysis</a>, <a href=\"/wiki/Semantic_analysis_(computer_science)\" class=\"mw-redirect\" title=\"Semantic analysis (computer science)\">semantic analysis</a>, and <a href=\"/wiki/Code_generation_(compiler)\" title=\"Code generation (compiler)\">code generation</a>. Many compilers include one or more optimization phases. For example, each constant expressions might be evaluated via <a href=\"/wiki/Compile-time_function_execution\" title=\"Compile-time function execution\">compile-time execution</a> to produce a value that results in improved runtime performance.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Properties of a program that can be determined at compile time include <a href=\"/wiki/Range_check\" class=\"mw-redirect\" title=\"Range check\">range-checks</a> (e.g., proving that an array index will not exceed the array bounds), <a href=\"/wiki/Deadlock_(computer_science)\" title=\"Deadlock (computer science)\">deadlock</a> freedom in <a href=\"/wiki/Concurrent_language\" class=\"mw-redirect\" title=\"Concurrent language\">concurrent languages</a>, or timings (e.g., proving that a sequence of code takes no more than an allocated amount of time). For statically-typed languages such as <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a> or <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>, types are checked at compile time to ensure <a href=\"/wiki/Type_safety\" title=\"Type safety\">type safety</a>.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Compiling is typically part of a <a href=\"/wiki/Software_build\" title=\"Software build\">build process</a> (at build time). A build may also include <a href=\"/wiki/Linker_(computing)\" title=\"Linker (computing)\">linking</a> (at link time). Run time is the duration when the program is running.\n</p><p>Often, compilation occurs as a separate step before running a program. But with <a href=\"/wiki/Dynamic_compilation\" title=\"Dynamic compilation\">dynamic compilation</a>, transformation to <a href=\"/wiki/Machine_language\" class=\"mw-redirect\" title=\"Machine language\">machine language</a> happens as part of the process of running it – intertwining run time and compile time. Often this is split into two distinct processes: a build-time process that converts source code to an <a href=\"/wiki/Intermediate_representation\" title=\"Intermediate representation\">intermediate representation</a> (IR) and a run-time process that converts the IR to machine code.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://cs.brown.edu/~adf/programming_languages.html\">\"A History of Computer Programming Languages\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2022-12-25</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=A+History+of+Computer+Programming+Languages&amp;rft&#95;id=https%3A%2F%2Fcs.brown.edu%2F~adf%2Fprogramming&#95;languages.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompile+time\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFYongwei2024\" class=\"citation web cs1\">Yongwei, Wu (October 7, 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://accu.org/journals/overload/32/183/wu/\">\"C++ Compile-Time Programming\"</a>. <i>accu.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-04-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=accu.org&amp;rft.atitle=C%2B%2B+Compile-Time+Programming&amp;rft.date=2024-10-07&amp;rft.aulast=Yongwei&amp;rft.aufirst=Wu&amp;rft&#95;id=https%3A%2F%2Faccu.org%2Fjournals%2Foverload%2F32%2F183%2Fwu%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompile+time\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://c3-lang.org/generic-programming/compiletime/\">\"Compile Time Evaluation\"</a>. <i>C3</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-04-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=C3&amp;rft.atitle=Compile+Time+Evaluation&amp;rft&#95;id=https%3A%2F%2Fc3-lang.org%2Fgeneric-programming%2Fcompiletime%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompile+time\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/stable/book/ch03-02-data-types.html\">\"Data Types - The Rust Programming Language\"</a>. <i>doc.rust-lang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-04-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=doc.rust-lang.org&amp;rft.atitle=Data+Types+-+The+Rust+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Fstable%2Fbook%2Fch03-02-data-types.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompile+time\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐qltrg\nCached time: 20260918181058\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.182 seconds\nReal time usage: 0.244 seconds\nPreprocessor visited node count: 347/1000000\nRevision size: 3065/2097152 bytes\nPost‐expand include size: 20336/2097152 bytes\nTemplate argument size: 404/2097152 bytes\nHighest expansion depth: 9/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 20365/5000000 bytes\nLua time usage: 0.136/10.000 seconds\nLua memory usage: 4694785/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  223.789      1 -total\n 30.64%   68.563      4 Template:Cite_web\n 23.38%   52.322      1 Template:Short_description\n 23.15%   51.813      1 Template:Program_execution\n 18.97%   42.446      1 Template:More_citations_needed\n 17.67%   39.534      1 Template:Ambox\n 13.81%   30.912      2 Template:Pagetype\n  5.69%   12.733      2 Template:Main_other\n  5.11%   11.427      1 Template:SDcat\n  4.36%    9.766      1 Template:Find_sources_mainspace\n-->\n\n<!-- Render ID 4c2cf766-b38c-11f1-a494-25af6dfb3ac0 -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Program execution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ahead-of-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BEAM (Erlang virtual machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Byte code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPython",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code generation (compiler)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Language Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile-time function execution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile and go system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crt0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deadlock (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic recompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glasgow Haskell Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intermediate representation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linker (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LuaJIT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meta-tracing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mono (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Optimizing compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Precompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Program lifecycle phase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PyPy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Range check",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Semantic analysis (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software build",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source-to-source compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tracing just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Translator (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V8 (JavaScript engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Engine",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Program execution",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Time when a program is compiled",
+          "wikibase_item": "Q333707"
+        }
+      }
+    }
+  ]
+}

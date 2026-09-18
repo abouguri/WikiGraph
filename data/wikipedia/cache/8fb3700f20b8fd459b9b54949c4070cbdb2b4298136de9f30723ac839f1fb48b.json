@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "AWK",
+    "url": "https://en.wikipedia.org/wiki/AWK",
+    "summary": "Text processing programming language This article is about the programming language. For other uses, see AWK (disambiguation) . AWK Usage of AWK in shell to check matching fields in two files Paradigm Scripting , procedural , data-driven Designed by Alfred Aho , Peter Weinberger , and Brian Kernighan First appeared 1977 ; 49 years ago ( 1977 ) Stable release IEEE Std 1003.1-2008 (POSIX) / 1985 Typing discipline none; can handle strings, integers and floating-point numbers; regular expressions OS Cross-platform Major implementations awk, GNU Awk, mawk, nawk, MKS AWK, Thompson AWK (compiler), Awka (compiler) Dialects old awk oawk 1977, new awk nawk 1985, GNU Awk gawk Influenced by C , sed , SNOBOL Influenced Tcl , AMPL , Perl , Korn Shell ( ksh93 , dtksh , tksh ), Lua AWK ( / ɔː k / ) is a scripting language designed for text processing and typically used as a data extraction and reporting tool. Like sed and grep , it is a filter , and it is a standard feature of most Unix-like operating systems . The shell command that runs the AWK processor is named awk . The AWK language is a data-driven scripting language consisting of a set of actions to be taken against streams of textual data – either run directly on files or used as part of a pipeline – for purposes of extracting or transforming text, such as producing formatted reports. The language extensively uses the string datatype , associative arrays (that is, arrays indexed by key strings), and regular expressions . While AWK has a limited intended application domain and was especially designed to support one-liner programs , the language is Turing-complete , and even the early Bell Labs users of AWK often wrote well-structured large AWK programs. AWK was created at Bell Labs in the 1970s, and its name is derived from the surnames of its authors: Alfred Aho (author of egrep ), Peter Weinberger (who worked on tiny relational databases), and Brian Kernighan . The acronym is pronounced the same as the name of the bird species auk , which is illustrated on the cover of The AWK Programming Language . ^ Stutz, Michael (September 19, 2006). \"Get started with GAWK: AWK language fundamentals\" (PDF) . developerWorks . IBM . Archived (PDF) from the original on 2015-04-27 . Retrieved 2015-01-29 . [AWK is] often called a data-driven language -- the program statements describe the input data to match and process rather than a sequence of program steps ^ Andreas J. Pilavakis (1989). UNIX Workshop . Macmillan International Higher Education. p. 196. ^ Arnold Robbins (2015). Effective Awk Programming: Universal Text Processing and Pattern Matching (4th ed.). O'Reilly Media. p. 560. ^ a b James W. Livingston (May 2, 1988). \"The Great awk Program is No Birdbrain\". Digital Review . p. 91. ^ Raymond, Eric S. \"Applying Minilanguages\" . The Art of Unix Programming . Case Study: awk. Archived from the original on July 30, 2008 . Retrieved May 11, 2010 . The awk action language is Turing-complete, and can read and write files. ^ Aho, Alfred V. ; Kernighan, Brian W. ; Weinberger, Peter J. (September 1, 1978). Awk — A Pattern Scanning and Processing Language (Second Edition) (Technical report). Unix Seventh Edition Manual, Volume 2. Bell Telephone Laboratories, Inc . Retrieved February 1, 2020 . {{ cite tech report }} : CS1 maint: miscellaneous url ( link ) ^ Cite error: The named reference AWK1 was invoked but never defined (see the help page ).",
+    "text": "Text processing programming language This article is about the programming language. For other uses, see AWK (disambiguation) . AWK Usage of AWK in shell to check matching fields in two files Paradigm Scripting , procedural , data-driven Designed by Alfred Aho , Peter Weinberger , and Brian Kernighan First appeared 1977 ; 49 years ago ( 1977 ) Stable release IEEE Std 1003.1-2008 (POSIX) / 1985 Typing discipline none; can handle strings, integers and floating-point numbers; regular expressions OS Cross-platform Major implementations awk, GNU Awk, mawk, nawk, MKS AWK, Thompson AWK (compiler), Awka (compiler) Dialects old awk oawk 1977, new awk nawk 1985, GNU Awk gawk Influenced by C , sed , SNOBOL Influenced Tcl , AMPL , Perl , Korn Shell ( ksh93 , dtksh , tksh ), Lua AWK ( / ɔː k / ) is a scripting language designed for text processing and typically used as a data extraction and reporting tool. Like sed and grep , it is a filter , and it is a standard feature of most Unix-like operating systems . The shell command that runs the AWK processor is named awk . The AWK language is a data-driven scripting language consisting of a set of actions to be taken against streams of textual data – either run directly on files or used as part of a pipeline – for purposes of extracting or transforming text, such as producing formatted reports. The language extensively uses the string datatype , associative arrays (that is, arrays indexed by key strings), and regular expressions . While AWK has a limited intended application domain and was especially designed to support one-liner programs , the language is Turing-complete , and even the early Bell Labs users of AWK often wrote well-structured large AWK programs. AWK was created at Bell Labs in the 1970s, and its name is derived from the surnames of its authors: Alfred Aho (author of egrep ), Peter Weinberger (who worked on tiny relational databases), and Brian Kernighan . The acronym is pronounced the same as the name of the bird species auk , which is illustrated on the cover of The AWK Programming Language . ^ Stutz, Michael (September 19, 2006). \"Get started with GAWK: AWK language fundamentals\" (PDF) . developerWorks . IBM . Archived (PDF) from the original on 2015-04-27 . Retrieved 2015-01-29 . [AWK is] often called a data-driven language -- the program statements describe the input data to match and process rather than a sequence of program steps ^ Andreas J. Pilavakis (1989). UNIX Workshop . Macmillan International Higher Education. p. 196. ^ Arnold Robbins (2015). Effective Awk Programming: Universal Text Processing and Pattern Matching (4th ed.). O'Reilly Media. p. 560. ^ a b James W. Livingston (May 2, 1988). \"The Great awk Program is No Birdbrain\". Digital Review . p. 91. ^ Raymond, Eric S. \"Applying Minilanguages\" . The Art of Unix Programming . Case Study: awk. Archived from the original on July 30, 2008 . Retrieved May 11, 2010 . The awk action language is Turing-complete, and can read and write files. ^ Aho, Alfred V. ; Kernighan, Brian W. ; Weinberger, Peter J. (September 1, 1978). Awk — A Pattern Scanning and Processing Language (Second Edition) (Technical report). Unix Seventh Edition Manual, Volume 2. Bell Telephone Laboratories, Inc . Retrieved February 1, 2020 . {{ cite tech report }} : CS1 maint: miscellaneous url ( link ) ^ Cite error: The named reference AWK1 was invoked but never defined (see the help page ).",
+    "links": [
+      "AMPL",
+      "AWK (disambiguation)",
+      "Alfred Aho",
+      "Associative array",
+      "Auk",
+      "Bell Labs",
+      "Brian Kernighan",
+      "C (programming language)",
+      "Command (computing)",
+      "Cross-platform",
+      "Data extraction",
+      "Data-driven programming",
+      "Datatype",
+      "Domain (software engineering)",
+      "Egrep",
+      "Eric S. Raymond",
+      "Execution (computing)",
+      "Filter (software)",
+      "Grep",
+      "IBM",
+      "Korn Shell",
+      "Lua",
+      "One-liner program",
+      "Operating system",
+      "Perl",
+      "Peter J. Weinberger",
+      "Pipeline (Unix)",
+      "Procedural programming",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Regular expression",
+      "SNOBOL",
+      "Scripting language",
+      "Sed",
+      "Shell (computing)",
+      "Software design",
+      "Software release life cycle",
+      "Stream (computing)",
+      "String (computer science)",
+      "Tcl (programming language)",
+      "The AWK Programming Language",
+      "Turing-complete",
+      "Type system",
+      "Unix-like"
+    ],
+    "page_id": 1456,
+    "revision_id": 1375305667,
+    "retrieved_at": "2026-09-18T18:08:41.365761+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260917005948|1375304273",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1456,
+            "ns": 0,
+            "title": "AWK",
+            "revisions": [
+              {
+                "revid": 1375305667,
+                "parentid": 1375304273
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Awk",
+              "page_image_free": "The-AWK-Programming-Language.svg",
+              "wikibase-shortdesc": "Text processing programming language",
+              "wikibase_item": "Q213970"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "AWK",
+        "pageid": 1456,
+        "revid": 1375305667,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Text processing programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For other uses, see <a href=\"/wiki/AWK_(disambiguation)\" class=\"mw-disambig\" title=\"AWK (disambiguation)\">AWK (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">AWK</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:The-AWK-Programming-Language.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/The-AWK-Programming-Language.svg/250px-The-AWK-Programming-Language.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"200\" height=\"100\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/The-AWK-Programming-Language.svg/500px-The-AWK-Programming-Language.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"638\" data-file-height=\"319\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Awk-example-usage-gimp.gif\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Awk-example-usage-gimp.gif/250px-Awk-example-usage-gimp.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"146\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Awk-example-usage-gimp.gif/500px-Awk-example-usage-gimp.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1040\" data-file-height=\"608\" /></a></span><div class=\"infobox-caption\">Usage of AWK in shell to check matching fields in two files</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scripting_language\" title=\"Scripting language\">Scripting</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Data-driven_programming\" title=\"Data-driven programming\">data-driven</a><sup id=\"cite&#95;ref-developerworks&#95;1-0\" class=\"reference\"><a href=\"#cite_note-developerworks-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Alfred_Aho\" title=\"Alfred Aho\">Alfred Aho</a>, <a href=\"/wiki/Peter_J._Weinberger\" title=\"Peter J. Weinberger\">Peter Weinberger</a>, and <a href=\"/wiki/Brian_Kernighan\" title=\"Brian Kernighan\">Brian Kernighan</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1977<span class=\"noprint\">&#59;&#32;49&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1977</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\"><a rel=\"nofollow\" class=\"external text\" href=\"http://pubs.opengroup.org/onlinepubs/9699919799/utilities/awk.html\">IEEE Std 1003.1-2008</a> (POSIX) / 1985\n   </div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\">none; can handle strings, integers and floating-point numbers; regular expressions</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">awk, GNU Awk, mawk, nawk, MKS AWK, Thompson AWK (compiler), Awka (compiler)</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><i>old awk</i> oawk 1977, <i>new awk</i> nawk 1985, <i>GNU Awk</i> gawk</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/Sed\" title=\"Sed\">sed</a>, <a href=\"/wiki/SNOBOL\" title=\"SNOBOL\">SNOBOL</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Tcl_(programming_language)\" title=\"Tcl (programming language)\">Tcl</a>, <a href=\"/wiki/AMPL\" title=\"AMPL\">AMPL</a>, <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>, <a href=\"/wiki/Korn_Shell\" class=\"mw-redirect\" title=\"Korn Shell\">Korn Shell</a> (<i>ksh93</i>, <i>dtksh</i>, <i>tksh</i>), <a href=\"/wiki/Lua\" title=\"Lua\">Lua</a></td></tr></tbody></table>\n<p><b>AWK</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ɔː/: &#39;au&#39; in &#39;fraud&#39;\">ɔː</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span></span>/</a></span></span><sup id=\"cite&#95;ref-awkLC.DR&#95;4-0\" class=\"reference\"><a href=\"#cite_note-awkLC.DR-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>) is a <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">scripting language</a> designed for text processing and typically used as a <a href=\"/wiki/Data_extraction\" title=\"Data extraction\">data extraction</a> and reporting tool. Like <a href=\"/wiki/Sed\" title=\"Sed\">sed</a> and <a href=\"/wiki/Grep\" title=\"Grep\">grep</a>, it is a <a href=\"/wiki/Filter_(software)\" title=\"Filter (software)\">filter</a>,<sup id=\"cite&#95;ref-awkLC.DR&#95;4-1\" class=\"reference\"><a href=\"#cite_note-awkLC.DR-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> and it is a standard feature of most <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like operating systems</a>. The <a href=\"/wiki/Shell_(computing)\" title=\"Shell (computing)\">shell</a> <a href=\"/wiki/Command_(computing)\" title=\"Command (computing)\">command</a> that <a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">runs</a> the AWK processor is named <code class=\"mw-highlight mw-highlight-lang-text mw-content-ltr\" style=\"\" dir=\"ltr\">awk</code>.\n</p><p>The AWK language is a <a href=\"/wiki/Data-driven_programming\" title=\"Data-driven programming\">data-driven</a> <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">scripting language</a> consisting of a set of actions to be taken against <a href=\"/wiki/Stream_(computing)\" title=\"Stream (computing)\">streams</a> of textual data – either run directly on files or used as part of a <a href=\"/wiki/Pipeline_(Unix)\" title=\"Pipeline (Unix)\">pipeline</a> – for purposes of extracting or transforming text, such as producing formatted reports. The language extensively uses the <a href=\"/wiki/String_(computer_science)\" title=\"String (computer science)\">string</a> <a href=\"/wiki/Datatype\" class=\"mw-redirect\" title=\"Datatype\">datatype</a>, <a href=\"/wiki/Associative_array\" title=\"Associative array\">associative arrays</a> (that is, arrays indexed by key strings), and <a href=\"/wiki/Regular_expression\" title=\"Regular expression\">regular expressions</a>. While AWK has a limited intended <a href=\"/wiki/Domain_(software_engineering)\" title=\"Domain (software engineering)\">application domain</a> and was especially designed to support <a href=\"/wiki/One-liner_program\" title=\"One-liner program\">one-liner programs</a>, the language is <a href=\"/wiki/Turing-complete\" class=\"mw-redirect\" title=\"Turing-complete\">Turing-complete</a>, and even the early Bell Labs users of AWK often wrote well-structured large AWK programs.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>AWK was created at <a href=\"/wiki/Bell_Labs\" title=\"Bell Labs\">Bell Labs</a> in the 1970s,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> and its name is derived from the surnames of its authors: <a href=\"/wiki/Alfred_Aho\" title=\"Alfred Aho\">Alfred Aho</a> (author of <a href=\"/wiki/Egrep\" class=\"mw-redirect\" title=\"Egrep\">egrep</a>), <a href=\"/wiki/Peter_J._Weinberger\" title=\"Peter J. Weinberger\">Peter Weinberger</a> (who worked on tiny relational databases), and <a href=\"/wiki/Brian_Kernighan\" title=\"Brian Kernighan\">Brian Kernighan</a>. The acronym is pronounced the same as the name of the bird species <a href=\"/wiki/Auk\" title=\"Auk\">auk</a>, which is illustrated on the cover of <i><a href=\"/wiki/The_AWK_Programming_Language\" title=\"The AWK Programming Language\">The AWK Programming Language</a></i>.<sup id=\"cite&#95;ref-AWK1&#95;7-0\" class=\"reference\"><a href=\"#cite_note-AWK1-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-developerworks-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-developerworks_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFStutz2006\" class=\"citation web cs1\">Stutz, Michael (September 19, 2006). <a rel=\"nofollow\" class=\"external text\" href=\"https://www6.software.ibm.com/developerworks/education/au-gawk/au-gawk-a4.pdf\">\"Get started with GAWK: AWK language fundamentals\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>developerWorks</i>. <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150427143548/https://www6.software.ibm.com/developerworks/education/au-gawk/au-gawk-a4.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 2015-04-27<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2015-01-29</span></span>. <q>[AWK is] often called a data-driven language -- the program statements describe the input data to match and process rather than a sequence of program steps</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=developerWorks&amp;rft.atitle=Get+started+with+GAWK%3A+AWK+language+fundamentals&amp;rft.date=2006-09-19&amp;rft.aulast=Stutz&amp;rft.aufirst=Michael&amp;rft&#95;id=https%3A%2F%2Fwww6.software.ibm.com%2Fdeveloperworks%2Feducation%2Fau-gawk%2Fau-gawk-a4.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAWK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAndreas&#95;J.&#95;Pilavakis1989\" class=\"citation book cs1\">Andreas J. Pilavakis (1989). <i>UNIX Workshop</i>. Macmillan International Higher Education. p.&#160;196.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=UNIX+Workshop&amp;rft.pages=196&amp;rft.pub=Macmillan+International+Higher+Education&amp;rft.date=1989&amp;rft.au=Andreas+J.+Pilavakis&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAWK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFArnold&#95;Robbins2015\" class=\"citation book cs1\">Arnold Robbins (2015). <i>Effective Awk Programming: Universal Text Processing and Pattern Matching</i> (4th&#160;ed.). O'Reilly Media. p.&#160;560.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Effective+Awk+Programming%3A+Universal+Text+Processing+and+Pattern+Matching&amp;rft.pages=560&amp;rft.edition=4th&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2015&amp;rft.au=Arnold+Robbins&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAWK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-awkLC.DR-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-awkLC.DR_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-awkLC.DR_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJames&#95;W.&#95;Livingston1988\" class=\"citation magazine cs1\">James W. Livingston (May 2, 1988). \"The Great awk Program is No Birdbrain\". <i>Digital Review</i>. p.&#160;91.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Digital+Review&amp;rft.atitle=The+Great+awk+Program+is+No+Birdbrain&amp;rft.pages=91&amp;rft.date=1988-05-02&amp;rft.au=James+W.+Livingston&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAWK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRaymond\" class=\"citation web cs1\"><a href=\"/wiki/Eric_S._Raymond\" title=\"Eric S. Raymond\">Raymond, Eric S.</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20080730063308/http://www.faqs.org/docs/artu/ch08s02.html#awk\">\"Applying Minilanguages\"</a>. <i>The Art of Unix Programming</i>. Case Study: awk. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.faqs.org/docs/artu/ch08s02.html#awk\">the original</a> on July 30, 2008<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 11,</span> 2010</span>. <q>The awk action language is Turing-complete, and can read and write files.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Art+of+Unix+Programming&amp;rft.atitle=Applying+Minilanguages&amp;rft.pages=Case+Study%3A+awk&amp;rft.aulast=Raymond&amp;rft.aufirst=Eric+S.&amp;rft&#95;id=http%3A%2F%2Fwww.faqs.org%2Fdocs%2Fartu%2Fch08s02.html%23awk&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAWK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAhoKernighanWeinberger1978\" class=\"citation techreport cs1\"><a href=\"/wiki/Alfred_Aho\" title=\"Alfred Aho\">Aho, Alfred V.</a>; <a href=\"/wiki/Brian_Kernighan\" title=\"Brian Kernighan\">Kernighan, Brian W.</a>; <a href=\"/wiki/Peter_J._Weinberger\" title=\"Peter J. Weinberger\">Weinberger, Peter J.</a> (September 1, 1978). <a rel=\"nofollow\" class=\"external text\" href=\"https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.1299\"><i>Awk — A Pattern Scanning and Processing Language (Second Edition)</i></a> (Technical report). Unix Seventh Edition Manual, Volume 2. Bell Telephone Laboratories, Inc<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 1,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=Awk+%E2%80%94+A+Pattern+Scanning+and+Processing+Language+%28Second+Edition%29&amp;rft.series=Unix+Seventh+Edition+Manual%2C+Volume+2&amp;rft.pub=Bell+Telephone+Laboratories%2C+Inc.&amp;rft.date=1978-09-01&amp;rft.aulast=Aho&amp;rft.aufirst=Alfred+V.&amp;rft.au=Kernighan%2C+Brian+W.&amp;rft.au=Weinberger%2C+Peter+J.&amp;rft&#95;id=https%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.31.1299&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAWK\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_tech_report\" title=\"Template:Cite tech report\">cite tech report</a>}}</code>:  CS1 maint: miscellaneous url (<a href=\"/wiki/Category:CS1_maint:_miscellaneous_url\" title=\"Category:CS1 maint: miscellaneous url\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-AWK1-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-AWK1_7-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>AWK1</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐sppzk\nCached time: 20260918180906\nCache expiry: 1057861\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.432 seconds\nReal time usage: 0.619 seconds\nPreprocessor visited node count: 1116/1000000\nRevision size: 5167/2097152 bytes\nPost‐expand include size: 25806/2097152 bytes\nTemplate argument size: 2982/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 17929/5000000 bytes\nLua time usage: 0.265/10.000 seconds\nLua memory usage: 5529041/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  572.682      1 -total\n 25.47%  145.856      2 Template:Cite_web\n 22.66%  129.792      1 Template:Short_description\n 21.12%  120.970      2 Template:Infobox\n 17.96%  102.868      1 Template:Infobox_programming_language\n 12.12%   69.424      2 Template:Pagetype\n  7.94%   45.479      1 Template:IPAc-en\n  7.59%   43.460      1 Template:About\n  6.17%   35.337      1 Template:Infobox_software/simple\n  5.05%   28.938      2 Template:Broken_ref\n-->\n\n<!-- Render ID 096b1ea3-b38c-11f1-b4ce-abb454e6722b -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "AWK (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AMPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alfred Aho",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Associative array",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Auk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bell Labs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Brian Kernighan",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data-driven programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data extraction",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Datatype",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Domain (software engineering)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Egrep",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eric S. Raymond",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filter (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Grep",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Korn Shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lua",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "One-liner program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Peter J. Weinberger",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pipeline (Unix)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Regular expression",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SNOBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scripting language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sed",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Shell (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stream (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "String (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tcl (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The AWK Programming Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing-complete",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Cite tech report",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: miscellaneous url",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Text processing programming language",
+          "page_image_free": "The-AWK-Programming-Language.svg",
+          "wikibase_item": "Q213970"
+        }
+      }
+    }
+  ]
+}

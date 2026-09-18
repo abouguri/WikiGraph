@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Software license",
+    "url": "https://en.wikipedia.org/wiki/Software_license",
+    "summary": "Legal instrument governing software Diagram of software under various licenses according to the FSF and their The Free Software Definition : on the left side \" free software \", on the right side \" proprietary software \". On both sides, and therefore mostly orthogonal , \"free download\" ( Freeware ). A software license is a legal instrument governing the use or redistribution of software. Since the 1970s, software copyright has been recognized in the United States. Despite the copyright being recognized, most companies prefer to sell licenses rather than copies of the software because it enables them to enforce stricter terms on redistribution. Very few purchasers read any part of the license, initially shrink-wrap contracts and now most commonly encountered as clickwrap or browsewrap . The enforceability of this kind of license is a matter of controversy and is limited in some jurisdictions. Service-level agreements are another type of software license where the vendor agrees to provide a level of service to the purchaser, often backed by financial penalties. Copyleft is a type of license that mandates derivative works to be licensed under the license's terms. Copyleft licenses are free and open source licenses. Attempts have been made to describe licenses which do not uphold the Four Freedoms, such as the Server Side Public License and others, as \"copyleft\", but this is widely rejected as an abuse of the term. The other types of free licenses lack this requirement: for permissive licenses , attribution is typically the only requirement, and public-domain-equivalent licenses have no restrictions. The proliferation of open-source licenses has compounded license compatibility issues, but all share some features: allowing redistribution and derivative works under the same license, unrestricted access to the source code , and nondiscrimination between different uses—in particular, allowing commercial use. Free and open Non-free Public domain and equivalent licenses Permissive license Copyleft Noncommercial license Proprietary license Trade secret Source Available Description Waives copyright protection Grants use rights, including right to relicense (allows proprietization , license compatibility ) Grants use rights, forbids proprietization Grants rights for noncommercial use only. Traditional use of copyright ; no rights need be granted No information made public Grants use rights, but restricts them to certain use cases, not free software or copyleft Notable software licenses PD, CC0 MIT , Apache , MPL , BSD GPL , AGPL JRL Proprietary software SSPL ^ \"Open Token Compensation License\" . Open Token Compensation License homepage . Retrieved 26 March 2025 . ^ O'Regan 2022 , p. 403. ^ a b \"Licenses\" . Open Source Initiative . 16 September 2022 . Retrieved 12 May 2024 . ^ a b Sen, Subramaniam & Nelson 2008 , p. 212. ^ Morin et al. 2012 , Free and Open Source Software (FOSS) Licensing. ^ O'Regan 2022 , p. 394. ^ O'Regan 2022 , p. 396. ^ Fagundes & Perzanowski 2020 , p. 524. ^ Davila 2015 , p. 6.",
+    "text": "Legal instrument governing software Diagram of software under various licenses according to the FSF and their The Free Software Definition : on the left side \" free software \", on the right side \" proprietary software \". On both sides, and therefore mostly orthogonal , \"free download\" ( Freeware ). A software license is a legal instrument governing the use or redistribution of software. Since the 1970s, software copyright has been recognized in the United States. Despite the copyright being recognized, most companies prefer to sell licenses rather than copies of the software because it enables them to enforce stricter terms on redistribution. Very few purchasers read any part of the license, initially shrink-wrap contracts and now most commonly encountered as clickwrap or browsewrap . The enforceability of this kind of license is a matter of controversy and is limited in some jurisdictions. Service-level agreements are another type of software license where the vendor agrees to provide a level of service to the purchaser, often backed by financial penalties. Copyleft is a type of license that mandates derivative works to be licensed under the license's terms. Copyleft licenses are free and open source licenses. Attempts have been made to describe licenses which do not uphold the Four Freedoms, such as the Server Side Public License and others, as \"copyleft\", but this is widely rejected as an abuse of the term. The other types of free licenses lack this requirement: for permissive licenses , attribution is typically the only requirement, and public-domain-equivalent licenses have no restrictions. The proliferation of open-source licenses has compounded license compatibility issues, but all share some features: allowing redistribution and derivative works under the same license, unrestricted access to the source code , and nondiscrimination between different uses—in particular, allowing commercial use. Free and open Non-free Public domain and equivalent licenses Permissive license Copyleft Noncommercial license Proprietary license Trade secret Source Available Description Waives copyright protection Grants use rights, including right to relicense (allows proprietization , license compatibility ) Grants use rights, forbids proprietization Grants rights for noncommercial use only. Traditional use of copyright ; no rights need be granted No information made public Grants use rights, but restricts them to certain use cases, not free software or copyleft Notable software licenses PD, CC0 MIT , Apache , MPL , BSD GPL , AGPL JRL Proprietary software SSPL ^ \"Open Token Compensation License\" . Open Token Compensation License homepage . Retrieved 26 March 2025 . ^ O'Regan 2022 , p. 403. ^ a b \"Licenses\" . Open Source Initiative . 16 September 2022 . Retrieved 12 May 2024 . ^ a b Sen, Subramaniam & Nelson 2008 , p. 212. ^ Morin et al. 2012 , Free and Open Source Software (FOSS) Licensing. ^ O'Regan 2022 , p. 394. ^ O'Regan 2022 , p. 396. ^ Fagundes & Perzanowski 2020 , p. 524. ^ Davila 2015 , p. 6.",
+    "links": [
+      "Apache license",
+      "BSD license",
+      "Browsewrap",
+      "CC0",
+      "Clickwrap",
+      "Copyleft",
+      "Copyright",
+      "Derivative work",
+      "Free Software Foundation",
+      "Free software",
+      "Freeware",
+      "GNU Affero General Public License",
+      "GPL",
+      "Java Research License",
+      "License compatibility",
+      "MIT license",
+      "Mozilla Public License",
+      "Non-commercial activity",
+      "Orthogonal",
+      "Permissive license",
+      "Proprietary license",
+      "Proprietary software",
+      "Proprietization",
+      "Public domain",
+      "Public-domain-equivalent license",
+      "Server Side Public License",
+      "Service-level agreement",
+      "Shrink-wrap contract",
+      "Software copyright",
+      "Source code",
+      "The Free Software Definition",
+      "Trade secret"
+    ],
+    "page_id": 803810,
+    "revision_id": 1350313709,
+    "retrieved_at": "2026-09-18T18:07:19.444520+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260410182057|1348103613",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 803810,
+            "ns": 0,
+            "title": "Software license",
+            "revisions": [
+              {
+                "revid": 1350313709,
+                "parentid": 1348103613
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Software License",
+              "page_image_free": "Software_Categories_expanded.svg",
+              "wikibase-shortdesc": "Legal instrument governing software",
+              "wikibase_item": "Q207621"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Software license",
+        "pageid": 803810,
+        "revid": 1350313709,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Legal instrument governing software</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Software_Categories_expanded.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Software_Categories_expanded.svg/330px-Software_Categories_expanded.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"240\" style=\"--mw-file-upright: 1.2\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Software_Categories_expanded.svg/960px-Software_Categories_expanded.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"410\" /></a><figcaption>Diagram of software under various licenses according to the <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">FSF</a> and their <a href=\"/wiki/The_Free_Software_Definition\" title=\"The Free Software Definition\">The Free Software Definition</a>: on the left side \"<a href=\"/wiki/Free_software\" title=\"Free software\">free software</a>\", on the right side \"<a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a>\". On both sides, and therefore mostly <a href=\"/wiki/Orthogonal\" class=\"mw-redirect\" title=\"Orthogonal\">orthogonal</a>, \"free download\" (<a href=\"/wiki/Freeware\" title=\"Freeware\">Freeware</a>).</figcaption></figure>\n<p>A <b>software license</b> is a legal instrument governing the use or redistribution of software. \n</p><p>Since the 1970s, <a href=\"/wiki/Software_copyright\" title=\"Software copyright\">software copyright</a> has been recognized in the United States. Despite the copyright being recognized, most companies prefer to sell licenses rather than copies of the software because it enables them to enforce stricter terms on redistribution. Very few purchasers read any part of the license, initially <a href=\"/wiki/Shrink-wrap_contract\" class=\"mw-redirect\" title=\"Shrink-wrap contract\">shrink-wrap contracts</a> and now most commonly encountered as <a href=\"/wiki/Clickwrap\" title=\"Clickwrap\">clickwrap</a> or <a href=\"/wiki/Browsewrap\" title=\"Browsewrap\">browsewrap</a>. The enforceability of this kind of license is a matter of controversy and is limited in some jurisdictions. <a href=\"/wiki/Service-level_agreement\" title=\"Service-level agreement\">Service-level agreements</a> are another type of software license where the vendor agrees to provide a level of service to the purchaser, often backed by financial penalties.\n</p><p><a href=\"/wiki/Copyleft\" title=\"Copyleft\">Copyleft</a> is a type of license that mandates <a href=\"/wiki/Derivative_work\" title=\"Derivative work\">derivative works</a> to be licensed under the license's terms. Copyleft licenses are free and open source licenses.  Attempts have been made to describe licenses which do not uphold the Four Freedoms, such as the <a href=\"/wiki/Server_Side_Public_License\" title=\"Server Side Public License\">Server Side Public License</a> and others,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> as \"copyleft\", but this is widely rejected as an abuse of the term. The other types of free licenses lack this requirement: for <a href=\"/wiki/Permissive_license\" class=\"mw-redirect\" title=\"Permissive license\">permissive licenses</a>, attribution is typically the only requirement, and <a href=\"/wiki/Public-domain-equivalent_license\" title=\"Public-domain-equivalent license\">public-domain-equivalent licenses</a> have no restrictions. The proliferation of open-source licenses has compounded <a href=\"/wiki/License_compatibility\" title=\"License compatibility\">license compatibility</a> issues, but all share some features: allowing redistribution and <a href=\"/wiki/Derivative_work\" title=\"Derivative work\">derivative works</a> under the same license, unrestricted access to the <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a>,  and nondiscrimination between different uses—in particular, allowing commercial use.\n</p>\n<table class=\"wikitable\">\n<tbody><tr>\n<th>\n</th>\n<th colspan=\"3\">Free and open\n</th>\n<th colspan=\"4\">Non-free\n</th></tr>\n<tr>\n<th></th>\n<th><a href=\"/wiki/Public_domain\" title=\"Public domain\">Public domain</a><sup id=\"cite&#95;ref-FOOTNOTEO&#39;Regan2022403&#95;2-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEO&#39;Regan2022403-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Public-domain-equivalent_license\" title=\"Public-domain-equivalent license\">equivalent licenses</a></th>\n<th><a href=\"/wiki/Permissive_license\" class=\"mw-redirect\" title=\"Permissive license\">Permissive license</a><sup id=\"cite&#95;ref-OSIlicenses&#95;3-0\" class=\"reference\"><a href=\"#cite_note-OSIlicenses-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-FOOTNOTESenSubramaniamNelson2008212&#95;4-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTESenSubramaniamNelson2008212-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></th>\n<th><a href=\"/wiki/Copyleft\" title=\"Copyleft\">Copyleft</a><sup id=\"cite&#95;ref-OSIlicenses&#95;3-1\" class=\"reference\"><a href=\"#cite_note-OSIlicenses-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-FOOTNOTESenSubramaniamNelson2008212&#95;4-1\" class=\"reference\"><a href=\"#cite_note-FOOTNOTESenSubramaniamNelson2008212-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></th>\n<th><a href=\"/wiki/Non-commercial_activity\" title=\"Non-commercial activity\">Noncommercial</a> license<sup id=\"cite&#95;ref-FOOTNOTEMorin&#95;&#39;&#39;et&#95;al.&#39;&#39;2012Free&#95;and&#95;Open&#95;Source&#95;Software&#95;(FOSS)&#95;Licensing&#95;5-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEMorin_&#39;&#39;et_al.&#39;&#39;2012Free_and_Open_Source_Software_(FOSS)_Licensing-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></th>\n<th><a href=\"/wiki/Proprietary_license\" class=\"mw-redirect\" title=\"Proprietary license\">Proprietary license</a><sup id=\"cite&#95;ref-FOOTNOTEO&#39;Regan2022394&#95;6-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEO&#39;Regan2022394-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></th>\n<th><a href=\"/wiki/Trade_secret\" title=\"Trade secret\">Trade secret</a><sup id=\"cite&#95;ref-FOOTNOTEO&#39;Regan2022396&#95;7-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEO&#39;Regan2022396-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></th>\n<th>Source Available\n</th></tr>\n<tr>\n<th scope=\"row\">Description\n</th>\n<td>Waives copyright protection</td>\n<td>Grants use rights, including right to relicense (allows <a href=\"/wiki/Proprietization\" class=\"mw-redirect\" title=\"Proprietization\">proprietization</a>, <a href=\"/wiki/License_compatibility\" title=\"License compatibility\">license compatibility</a>)</td>\n<td>Grants use rights, forbids <a href=\"/wiki/Proprietization\" class=\"mw-redirect\" title=\"Proprietization\">proprietization</a></td>\n<td>Grants rights for noncommercial use only.</td>\n<td>Traditional use of <a href=\"/wiki/Copyright\" title=\"Copyright\">copyright</a>; no rights need be granted</td>\n<td>No information made public</td>\n<td>Grants use rights, but restricts them to certain use cases, not free software or copyleft\n</td></tr>\n<tr>\n<th scope=\"row\">Notable software licenses\n</th>\n<td>PD, <a href=\"/wiki/CC0\" class=\"mw-redirect\" title=\"CC0\">CC0</a><sup id=\"cite&#95;ref-FOOTNOTEFagundesPerzanowski2020524&#95;8-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEFagundesPerzanowski2020524-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup></td>\n<td><a href=\"/wiki/MIT_license\" class=\"mw-redirect\" title=\"MIT license\">MIT</a>, <a href=\"/wiki/Apache_license\" class=\"mw-redirect\" title=\"Apache license\">Apache</a>, <a href=\"/wiki/Mozilla_Public_License\" title=\"Mozilla Public License\">MPL</a>, <a href=\"/wiki/BSD_license\" class=\"mw-redirect\" title=\"BSD license\">BSD</a></td>\n<td><a href=\"/wiki/GPL\" class=\"mw-redirect\" title=\"GPL\">GPL</a>, <a href=\"/wiki/GNU_Affero_General_Public_License\" title=\"GNU Affero General Public License\">AGPL</a></td>\n<td><a href=\"/wiki/Java_Research_License\" title=\"Java Research License\">JRL</a><sup id=\"cite&#95;ref-FOOTNOTEDavila20156&#95;9-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEDavila20156-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup></td>\n<td><a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">Proprietary software</a></td>\n<td></td>\n<td><a href=\"/wiki/Server_Side_Public_License\" title=\"Server Side Public License\">SSPL</a>\n</td></tr></tbody></table>\n<div style=\"clear:both;\" class=\"\"></div>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://license-token.com/\">\"Open Token Compensation License\"</a>. <i>Open Token Compensation License homepage</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 March</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Open+Token+Compensation+License+homepage&amp;rft.atitle=Open+Token+Compensation+License&amp;rft&#95;id=https%3A%2F%2Flicense-token.com%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASoftware+license\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEO&#39;Regan2022403-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEO&#39;Regan2022403_2-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFO&#39;Regan2022\">O'Regan 2022</a>, p.&#160;403.</span>\n</li>\n<li id=\"cite&#95;note-OSIlicenses-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-OSIlicenses_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-OSIlicenses_3-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://opensource.org/licenses\">\"Licenses\"</a>. <i>Open Source Initiative</i>. 16 September 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 May</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Open+Source+Initiative&amp;rft.atitle=Licenses&amp;rft.date=2022-09-16&amp;rft&#95;id=https%3A%2F%2Fopensource.org%2Flicenses&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASoftware+license\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTESenSubramaniamNelson2008212-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-FOOTNOTESenSubramaniamNelson2008212_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTESenSubramaniamNelson2008212_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><a href=\"#CITEREFSenSubramaniamNelson2008\">Sen, Subramaniam &amp; Nelson 2008</a>, p.&#160;212.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEMorin&#95;&#39;&#39;et&#95;al.&#39;&#39;2012Free&#95;and&#95;Open&#95;Source&#95;Software&#95;(FOSS)&#95;Licensing-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEMorin_&#39;&#39;et_al.&#39;&#39;2012Free_and_Open_Source_Software_(FOSS)_Licensing_5-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFMorin_et_al.2012\">Morin <i>et al.</i> 2012</a>, Free and Open Source Software (FOSS) Licensing.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEO&#39;Regan2022394-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEO&#39;Regan2022394_6-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFO&#39;Regan2022\">O'Regan 2022</a>, p.&#160;394.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEO&#39;Regan2022396-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEO&#39;Regan2022396_7-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFO&#39;Regan2022\">O'Regan 2022</a>, p.&#160;396.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEFagundesPerzanowski2020524-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEFagundesPerzanowski2020524_8-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFFagundesPerzanowski2020\">Fagundes &amp; Perzanowski 2020</a>, p.&#160;524.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEDavila20156-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEDavila20156_9-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFDavila2015\">Davila 2015</a>, p.&#160;6.</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐r5zt7\nCached time: 20260918180745\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.133 seconds\nReal time usage: 0.176 seconds\nPreprocessor visited node count: 837/1000000\nRevision size: 3970/2097152 bytes\nPost‐expand include size: 6995/2097152 bytes\nTemplate argument size: 1525/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 6869/5000000 bytes\nLua time usage: 0.089/10.000 seconds\nLua memory usage: 4836842/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  161.051      1 -total\n 33.70%   54.272      2 Template:Cite_web\n 31.68%   51.028      1 Template:Short_description\n 24.01%   38.664      8 Template:Sfn\n 20.35%   32.780      2 Template:Pagetype\n  7.64%   12.311     11 Template:Main_other\n  6.02%    9.698      1 Template:SDcat\n  5.31%    8.544      1 Template:Use_American_English\n  4.37%    7.036      2 Template:DMCA\n  3.30%    5.322      2 Template:Dated_maintenance_category\n-->\n\n<!-- Render ID d9237ca0-b38b-11f1-9bd6-0f8a07b70640 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Apache license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Browsewrap",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CC0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clickwrap",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Copyleft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Copyright",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Derivative work",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Freeware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Affero General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Research License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "License compatibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mozilla Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Non-commercial activity",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Orthogonal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Permissive license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Public-domain-equivalent license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Public domain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server Side Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Service-level agreement",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Shrink-wrap contract",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software copyright",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Free Software Definition",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Trade secret",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Legal instrument governing software",
+          "page_image_free": "Software_Categories_expanded.svg",
+          "wikibase_item": "Q207621"
+        }
+      }
+    }
+  ]
+}

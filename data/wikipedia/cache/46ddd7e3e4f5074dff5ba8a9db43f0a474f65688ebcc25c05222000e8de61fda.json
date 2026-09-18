@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Visual Studio Code",
+    "url": "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+    "summary": "Integrated development environment from Microsoft Not to be confused with Visual Studio . Visual Studio Code Logo used since May 2019 Visual Studio Code starting screen with dark theme Original author Erich Gamma Developer Microsoft Release April 29, 2015 ; 11 years ago ( 2015-04-29 ) Stable release 1.138.0 / 16 September 2026 ; 2 days ago ( 16 September 2026 ) Preview release 1.137.0-insiders / 2 September 2026 ; 16 days ago ( 2 September 2026 ) Written in C++ , TypeScript , JavaScript , HTML , CSS Operating system Windows 10 or later, macOS 12 or later, Linux Platform x86-64 , ARM32 , ARM64 Size Windows: 104–110 MB Linux: 108–145 MB macOS: 147–247 MB Available in 15 languages List of languages English, Simplified Chinese, Classical Chinese, French, German, Italian, Spanish, Japanese, Korean, Russian, Hungarian, Brazilian Portuguese, Turkish, Polish, Czech Type Integrated development environment License Proprietary freeware based on open-source project Website code .visualstudio .com Repository github .com /microsoft /vscode Visual Studio Code (commonly referred to as VS Code ) is an integrated development environment developed by Microsoft for Windows , Linux , macOS and web browsers . Features include support for debugging , syntax highlighting , intelligent code completion , snippets , code refactoring , and embedded version control with Git . Users can change the theme , keyboard shortcuts and preferences, as well as install extensions that add functionality, including to extend its capabilities to function as an IDE for other languages. Visual Studio Code is proprietary software released under the \"Microsoft Software License\", but based on the MIT licensed program named \"Visual Studio Code – Open Source\" (also known as \"Code – OSS\"), also created by Microsoft and available through GitHub . In the 2025 Stack Overflow Developer Survey, out of over 49,000 responses, 75.9% of respondents reported using Visual Studio Code, more than twice the percentage of respondents who reported using its nearest alternative, Visual Studio . ^ \"Release 1.138.0\" . Retrieved 16 September 2026 . ^ \"Visual Studio Code 1.138\" . Retrieved 17 September 2026 . ^ \"Visual Studio Code Insiders (Install) 1.137.0.20260902\" . Retrieved 4 September 2026 . ^ \"Visual Studio Code 1.124\" . Code.visualstudio.com . Retrieved June 11, 2026 . ^ GitHub repository microsoft/vscode , Microsoft, 2020-12-20, archived from the original on 2015-11-23 , retrieved 2020-12-20 ^ \"Display Language\" . Retrieved 25 February 2026 . ^ \"Download Visual Studio Code\" . Visual Studio Code . Microsoft. Archived from the original on 17 August 2016 . Retrieved 16 August 2016 . ^ a b \"Microsoft Software License Terms\" . Visual Studio Code . Microsoft . Archived from the original on 21 October 2017 . Retrieved 16 August 2016 . ^ \"LICENSE.txt\" . github.com/Microsoft/vscode . Microsoft . 17 November 2015. Archived from the original on 27 March 2021 . Retrieved 17 April 2021 . ^ \"The best parts of Visual Studio Code are proprietary\" . Underjord . Archived from the original on 2021-02-06 . Retrieved 2021-02-10 . ^ Stanton, Lee (2021-08-17). \"How to Run Code in VS Code\" . Alphr . Archived from the original on 2022-06-02 . Retrieved 2022-04-03 . ^ Lardinois, Frederic (April 29, 2015). \"Microsoft Launches Visual Studio Code, A Free Cross-Platform Code Editor For OS X, Linux And Windows\" . TechCrunch . Archived from the original on October 28, 2017 . Retrieved April 15, 2018 . ^ Devine, Richard (22 December 2022). \"How to use Visual Studio Code in a web browser\" . Windows Central . Archived from the original on 15 April 2024 . Retrieved 11 April 2024 . ^ Cite error: The named reference built on top of OSS was invoked but never defined (see the help page ). ^ Stack Overflow (2025). \"Technology | 2025 Stack Overflow Developer Survey\" . stackoverflow.com . Stack Overflow . Retrieved 2025-10-07 .",
+    "text": "Integrated development environment from Microsoft Not to be confused with Visual Studio . Visual Studio Code Logo used since May 2019 Visual Studio Code starting screen with dark theme Original author Erich Gamma Developer Microsoft Release April 29, 2015 ; 11 years ago ( 2015-04-29 ) Stable release 1.138.0 / 16 September 2026 ; 2 days ago ( 16 September 2026 ) Preview release 1.137.0-insiders / 2 September 2026 ; 16 days ago ( 2 September 2026 ) Written in C++ , TypeScript , JavaScript , HTML , CSS Operating system Windows 10 or later, macOS 12 or later, Linux Platform x86-64 , ARM32 , ARM64 Size Windows: 104–110 MB Linux: 108–145 MB macOS: 147–247 MB Available in 15 languages List of languages English, Simplified Chinese, Classical Chinese, French, German, Italian, Spanish, Japanese, Korean, Russian, Hungarian, Brazilian Portuguese, Turkish, Polish, Czech Type Integrated development environment License Proprietary freeware based on open-source project Website code .visualstudio .com Repository github .com /microsoft /vscode Visual Studio Code (commonly referred to as VS Code ) is an integrated development environment developed by Microsoft for Windows , Linux , macOS and web browsers . Features include support for debugging , syntax highlighting , intelligent code completion , snippets , code refactoring , and embedded version control with Git . Users can change the theme , keyboard shortcuts and preferences, as well as install extensions that add functionality, including to extend its capabilities to function as an IDE for other languages. Visual Studio Code is proprietary software released under the \"Microsoft Software License\", but based on the MIT licensed program named \"Visual Studio Code – Open Source\" (also known as \"Code – OSS\"), also created by Microsoft and available through GitHub . In the 2025 Stack Overflow Developer Survey, out of over 49,000 responses, 75.9% of respondents reported using Visual Studio Code, more than twice the percentage of respondents who reported using its nearest alternative, Visual Studio . ^ \"Release 1.138.0\" . Retrieved 16 September 2026 . ^ \"Visual Studio Code 1.138\" . Retrieved 17 September 2026 . ^ \"Visual Studio Code Insiders (Install) 1.137.0.20260902\" . Retrieved 4 September 2026 . ^ \"Visual Studio Code 1.124\" . Code.visualstudio.com . Retrieved June 11, 2026 . ^ GitHub repository microsoft/vscode , Microsoft, 2020-12-20, archived from the original on 2015-11-23 , retrieved 2020-12-20 ^ \"Display Language\" . Retrieved 25 February 2026 . ^ \"Download Visual Studio Code\" . Visual Studio Code . Microsoft. Archived from the original on 17 August 2016 . Retrieved 16 August 2016 . ^ a b \"Microsoft Software License Terms\" . Visual Studio Code . Microsoft . Archived from the original on 21 October 2017 . Retrieved 16 August 2016 . ^ \"LICENSE.txt\" . github.com/Microsoft/vscode . Microsoft . 17 November 2015. Archived from the original on 27 March 2021 . Retrieved 17 April 2021 . ^ \"The best parts of Visual Studio Code are proprietary\" . Underjord . Archived from the original on 2021-02-06 . Retrieved 2021-02-10 . ^ Stanton, Lee (2021-08-17). \"How to Run Code in VS Code\" . Alphr . Archived from the original on 2022-06-02 . Retrieved 2022-04-03 . ^ Lardinois, Frederic (April 29, 2015). \"Microsoft Launches Visual Studio Code, A Free Cross-Platform Code Editor For OS X, Linux And Windows\" . TechCrunch . Archived from the original on October 28, 2017 . Retrieved April 15, 2018 . ^ Devine, Richard (22 December 2022). \"How to use Visual Studio Code in a web browser\" . Windows Central . Archived from the original on 15 April 2024 . Retrieved 11 April 2024 . ^ Cite error: The named reference built on top of OSS was invoked but never defined (see the help page ). ^ Stack Overflow (2025). \"Technology | 2025 Stack Overflow Developer Survey\" . stackoverflow.com . Stack Overflow . Retrieved 2025-10-07 .",
+    "links": [
+      "ARM32",
+      "ARM64",
+      "C++",
+      "CSS",
+      "Code refactoring",
+      "Computing platform",
+      "Debugging",
+      "Erich Gamma",
+      "File size",
+      "Freeware",
+      "Git",
+      "GitHub",
+      "HTML",
+      "Integrated development environment",
+      "Intelligent code completion",
+      "JavaScript",
+      "Keyboard shortcut",
+      "Linux",
+      "MIT license",
+      "MacOS",
+      "MacOS 12",
+      "Microsoft",
+      "Microsoft Visual Studio",
+      "Open-source software",
+      "Operating system",
+      "Plug-in (computing)",
+      "Programmer",
+      "Proprietary software",
+      "Repository (version control)",
+      "Snippet (programming)",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Stack Overflow",
+      "Syntax highlighting",
+      "TechCrunch",
+      "Theme (computing)",
+      "TypeScript",
+      "Version control",
+      "Visual Studio",
+      "Web browser",
+      "Windows",
+      "Windows 10",
+      "X86-64"
+    ],
+    "page_id": 46561507,
+    "revision_id": 1374234091,
+    "retrieved_at": "2026-09-18T18:08:38.836944+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260910181959|1374234001",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 46561507,
+            "ns": 0,
+            "title": "Visual Studio Code",
+            "revisions": [
+              {
+                "revid": 1374234091,
+                "parentid": 1374234001
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Visual_Studio_Code_1.35_icon.svg",
+              "wikibase-shortdesc": "Integrated development environment from Microsoft",
+              "wikibase_item": "Q19841877"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Visual Studio Code",
+        "pageid": 46561507,
+        "revid": 1374234091,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Integrated development environment from Microsoft</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Microsoft_Visual_Studio\" class=\"mw-redirect\" title=\"Microsoft Visual Studio\">Visual Studio</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Visual Studio Code</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Visual_Studio_Code_1.35_icon.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/250px-Visual_Studio_Code_1.35_icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"140\" height=\"140\" style=\"--mw-file-upright: 0.55\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/330px-Visual_Studio_Code_1.35_icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\" /></a></span><div class=\"infobox-caption\">Logo used since May 2019</div></td></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:VS_Code_(Insiders).png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/VS_Code_%28Insiders%29.png/250px-VS_Code_%28Insiders%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"134\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/VS_Code_%28Insiders%29.png/500px-VS_Code_%28Insiders%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1919\" data-file-height=\"1027\" /></a></span><div class=\"infobox-caption\">Visual Studio Code starting screen with dark theme</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\"><a href=\"/wiki/Erich_Gamma\" title=\"Erich Gamma\">Erich Gamma</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">April&#160;29, 2015<span class=\"noprint\">&#59;&#32;11 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2015-04-29</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">1.138.0<sup id=\"cite&#95;ref-wikidata-7541ee750c735db3edc65cac63b4b406c2d030fd-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-7541ee750c735db3edc65cac63b4b406c2d030fd-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-wikidata-3dbd155f41e6e40255855031861486ed413e070b-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-3dbd155f41e6e40255855031861486ed413e070b-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19841877?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 16 September 2026<span class=\"noprint\">&#59;&#32;2 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">16 September 2026</span>)</span><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">1.137.0-insiders<sup id=\"cite&#95;ref-wikidata-f951fb4ed65692bd3b2cfb20f86e128d38f773ab-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-f951fb4ed65692bd3b2cfb20f86e128d38f773ab-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19841877?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 2 September 2026<span class=\"noprint\">&#59;&#32;16 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2 September 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/TypeScript\" title=\"TypeScript\">TypeScript</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/HTML\" title=\"HTML\">HTML</a>, <a href=\"/wiki/CSS\" title=\"CSS\">CSS</a><sup id=\"cite&#95;ref-github&#95;repo&#95;5-0\" class=\"reference\"><a href=\"#cite_note-github_repo-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a> or later, <a href=\"/wiki/MacOS_12\" class=\"mw-redirect\" title=\"MacOS 12\">macOS 12</a> or later, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/ARM32\" class=\"mw-redirect\" title=\"ARM32\">ARM32</a>, <a href=\"/wiki/ARM64\" class=\"mw-redirect\" title=\"ARM64\">ARM64</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/File_size\" title=\"File size\">Size</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\">\n<ul><li><b>Windows:</b> 104–110 MB</li>\n<li><b>Linux:</b> 108–145 MB</li>\n<li><b>macOS:</b> 147–247 MB</li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">15 languages<sup id=\"cite&#95;ref-wikidata-13d49be67905a25b6d220711a2f203f816e32243-v20&#95;6-0\" class=\"reference\"><a href=\"#cite_note-wikidata-13d49be67905a25b6d220711a2f203f816e32243-v20-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19841877?uselang=en#P407\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><style data-mw-deduplicate=\"TemplateStyles:r1214851843\">.mw-parser-output .hidden-begin{box-sizing:border-box;width:100%;padding:5px;border:none;font-size:95%}.mw-parser-output .hidden-title{font-weight:bold;line-height:1.6;text-align:left}.mw-parser-output .hidden-content{text-align:left}@media all and (max-width:500px){.mw-parser-output .hidden-begin{width:auto!important;clear:none!important;float:none!important}}</style><div class=\"hidden-begin mw-collapsible mw-collapsed\" style=\"\"><div class=\"hidden-title skin-nightmode-reset-color\" style=\"background-color: transparent; color:inherit;\">List of languages</div><div class=\"hidden-content mw-collapsible-content\" style=\"\">English, Simplified Chinese, Classical Chinese, French, German, Italian, Spanish, Japanese, Korean, Russian, Hungarian, Brazilian Portuguese, Turkish, Polish, Czech</div></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Integrated_development_environment\" title=\"Integrated development environment\">Integrated development environment</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">Proprietary</a> <a href=\"/wiki/Freeware\" title=\"Freeware\">freeware</a><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-official-download-license&#95;8-0\" class=\"reference\"><a href=\"#cite_note-official-download-license-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> based on <a href=\"/wiki/Open-source_software\" title=\"Open-source software\">open-source</a> project<sup id=\"cite&#95;ref-code-oss-license&#95;9-0\" class=\"reference\"><a href=\"#cite_note-code-oss-license-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.visualstudio.com\">code<wbr />.visualstudio<wbr />.com</a></span>&#160;<span class=\"penicon autoconfirmed-show\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19841877?uselang=en#P856\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/microsoft/vscode\">github<wbr />.com<wbr />/microsoft<wbr />/vscode</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19841877#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>Visual Studio Code</b> (commonly referred to as <b>VS Code</b>)<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> is an <a href=\"/wiki/Integrated_development_environment\" title=\"Integrated development environment\">integrated development environment</a> developed by <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a> for <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a> and <a href=\"/wiki/Web_browser\" title=\"Web browser\">web browsers</a>.<sup id=\"cite&#95;ref-TechCrunch&#95;12-0\" class=\"reference\"><a href=\"#cite_note-TechCrunch-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> Features include support for <a href=\"/wiki/Debugging\" title=\"Debugging\">debugging</a>, <a href=\"/wiki/Syntax_highlighting\" title=\"Syntax highlighting\">syntax highlighting</a>, <a href=\"/wiki/Intelligent_code_completion\" class=\"mw-redirect\" title=\"Intelligent code completion\">intelligent code completion</a>, <a href=\"/wiki/Snippet_(programming)\" title=\"Snippet (programming)\">snippets</a>, <a href=\"/wiki/Code_refactoring\" title=\"Code refactoring\">code refactoring</a>, and embedded <a href=\"/wiki/Version_control\" title=\"Version control\">version control</a> with <a href=\"/wiki/Git\" title=\"Git\">Git</a>. Users can change the <a href=\"/wiki/Theme_(computing)\" title=\"Theme (computing)\">theme</a>, <a href=\"/wiki/Keyboard_shortcut\" title=\"Keyboard shortcut\">keyboard shortcuts</a> and preferences, as well as install <a href=\"/wiki/Plug-in_(computing)\" title=\"Plug-in (computing)\">extensions</a> that add functionality, including to extend its capabilities to function as an IDE for other languages.\n</p><p>Visual Studio Code is <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a> released under the \"Microsoft Software License\",<sup id=\"cite&#95;ref-official-download-license&#95;8-1\" class=\"reference\"><a href=\"#cite_note-official-download-license-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> but based on the <a href=\"/wiki/MIT_license\" class=\"mw-redirect\" title=\"MIT license\">MIT licensed</a> program named \"Visual Studio Code&#160;&#8211;&#32;Open Source\" (also known as \"Code&#160;&#8211;&#32;OSS\"), also created by Microsoft and available through <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a>.<sup id=\"cite&#95;ref-built&#95;on&#95;top&#95;of&#95;OSS&#95;14-0\" class=\"reference\"><a href=\"#cite_note-built_on_top_of_OSS-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>In the 2025 <a href=\"/wiki/Stack_Overflow\" title=\"Stack Overflow\">Stack Overflow</a> Developer Survey, out of over 49,000 responses, 75.9% of respondents reported using Visual Studio Code, more than twice the percentage of respondents who reported using its nearest alternative, <a href=\"/wiki/Visual_Studio\" title=\"Visual Studio\">Visual Studio</a>.<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-7541ee750c735db3edc65cac63b4b406c2d030fd-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-7541ee750c735db3edc65cac63b4b406c2d030fd-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/microsoft/vscode/releases/tag/1.138.0\">\"Release 1.138.0\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+1.138.0&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fvscode%2Freleases%2Ftag%2F1.138.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-3dbd155f41e6e40255855031861486ed413e070b-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-3dbd155f41e6e40255855031861486ed413e070b-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.visualstudio.com/updates/v1_138\">\"Visual Studio Code 1.138\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Visual+Studio+Code+1.138&amp;rft&#95;id=https%3A%2F%2Fcode.visualstudio.com%2Fupdates%2Fv1&#95;138&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-f951fb4ed65692bd3b2cfb20f86e128d38f773ab-v20-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-f951fb4ed65692bd3b2cfb20f86e128d38f773ab-v20_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://community.chocolatey.org/packages/vscode-insiders.install/1.137.0.20260902\">\"Visual Studio Code Insiders (Install) 1.137.0.20260902\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Visual+Studio+Code+Insiders+%28Install%29+1.137.0.20260902&amp;rft&#95;id=https%3A%2F%2Fcommunity.chocolatey.org%2Fpackages%2Fvscode-insiders.install%2F1.137.0.20260902&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.visualstudio.com/updates/v1_124\">\"Visual Studio Code 1.124\"</a>. <i>Code.visualstudio.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 11,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Code.visualstudio.com&amp;rft.atitle=Visual+Studio+Code+1.124&amp;rft&#95;id=https%3A%2F%2Fcode.visualstudio.com%2Fupdates%2Fv1&#95;124&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-github&#95;repo-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-github_repo_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation cs2\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/microsoft/vscode\"><i>GitHub repository microsoft/vscode</i></a>, Microsoft, 2020-12-20, <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20151123164810/https://github.com/Microsoft/vscode\">archived</a> from the original on 2015-11-23<span class=\"reference-accessdate\">, retrieved <span class=\"nowrap\">2020-12-20</span></span></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=GitHub+repository+microsoft%2Fvscode&amp;rft.pub=Microsoft&amp;rft.date=2020-12-20&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fvscode&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-13d49be67905a25b6d220711a2f203f816e32243-v20-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-13d49be67905a25b6d220711a2f203f816e32243-v20_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.visualstudio.com/docs/configure/locales#_available-locales\">\"Display Language\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 February</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Display+Language&amp;rft&#95;id=https%3A%2F%2Fcode.visualstudio.com%2Fdocs%2Fconfigure%2Flocales%23&#95;available-locales&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.visualstudio.com/Download\">\"Download Visual Studio Code\"</a>. <i>Visual Studio Code</i>. Microsoft. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160817000302/http://code.visualstudio.com/Download\">Archived</a> from the original on 17 August 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 August</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Visual+Studio+Code&amp;rft.atitle=Download+Visual+Studio+Code&amp;rft&#95;id=https%3A%2F%2Fcode.visualstudio.com%2FDownload&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-official-download-license-8\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-official-download-license_8-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-official-download-license_8-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.visualstudio.com/license\">\"Microsoft Software License Terms\"</a>. <i>Visual Studio Code</i>. <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171021202400/https://code.visualstudio.com/License\">Archived</a> from the original on 21 October 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 August</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Visual+Studio+Code&amp;rft.atitle=Microsoft+Software+License+Terms&amp;rft&#95;id=https%3A%2F%2Fcode.visualstudio.com%2Flicense&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-code-oss-license-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-code-oss-license_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/Microsoft/vscode/blob/main/LICENSE.txt\">\"LICENSE.txt\"</a>. <i>github.com/Microsoft/vscode</i>. <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>. 17 November 2015. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210327164850/https://github.com/microsoft/vscode/blob/main/LICENSE.txt\">Archived</a> from the original on 27 March 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 April</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=github.com%2FMicrosoft%2Fvscode&amp;rft.atitle=LICENSE.txt&amp;rft.date=2015-11-17&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FMicrosoft%2Fvscode%2Fblob%2Fmain%2FLICENSE.txt&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://underjord.io/the-best-parts-of-visual-studio-code-are-proprietary.html\">\"The best parts of Visual Studio Code are proprietary\"</a>. <i>Underjord</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210206042655/https://underjord.io/the-best-parts-of-visual-studio-code-are-proprietary.html\">Archived</a> from the original on 2021-02-06<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2021-02-10</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Underjord&amp;rft.atitle=The+best+parts+of+Visual+Studio+Code+are+proprietary&amp;rft&#95;id=https%3A%2F%2Funderjord.io%2Fthe-best-parts-of-visual-studio-code-are-proprietary.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStanton2021\" class=\"citation web cs1\">Stanton, Lee (2021-08-17). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.alphr.com/vs-code-run-code/\">\"How to Run Code in VS Code\"</a>. <i>Alphr</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220602104804/https://www.alphr.com/vs-code-run-code/\">Archived</a> from the original on 2022-06-02<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2022-04-03</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Alphr&amp;rft.atitle=How+to+Run+Code+in+VS+Code&amp;rft.date=2021-08-17&amp;rft.aulast=Stanton&amp;rft.aufirst=Lee&amp;rft&#95;id=https%3A%2F%2Fwww.alphr.com%2Fvs-code-run-code%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-TechCrunch-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-TechCrunch_12-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLardinois2015\" class=\"citation news cs1\">Lardinois, Frederic (April 29, 2015). <a rel=\"nofollow\" class=\"external text\" href=\"https://techcrunch.com/2015/04/29/microsoft-shocks-the-world-with-visual-studio-code-a-free-code-editor-for-os-x-linux-and-windows\">\"Microsoft Launches Visual Studio Code, A Free Cross-Platform Code Editor For OS X, Linux And Windows\"</a>. <i><a href=\"/wiki/TechCrunch\" title=\"TechCrunch\">TechCrunch</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171028161004/https://techcrunch.com/2015/04/29/microsoft-shocks-the-world-with-visual-studio-code-a-free-code-editor-for-os-x-linux-and-windows/\">Archived</a> from the original on October 28, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">April 15,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=TechCrunch&amp;rft.atitle=Microsoft+Launches+Visual+Studio+Code%2C+A+Free+Cross-Platform+Code+Editor+For+OS+X%2C+Linux+And+Windows&amp;rft.date=2015-04-29&amp;rft.aulast=Lardinois&amp;rft.aufirst=Frederic&amp;rft&#95;id=https%3A%2F%2Ftechcrunch.com%2F2015%2F04%2F29%2Fmicrosoft-shocks-the-world-with-visual-studio-code-a-free-code-editor-for-os-x-linux-and-windows&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDevine2022\" class=\"citation web cs1\">Devine, Richard (22 December 2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.windowscentral.com/how-use-visual-studio-code-web-browser\">\"How to use Visual Studio Code in a web browser\"</a>. <i>Windows Central</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20240415101247/https://www.windowscentral.com/how-use-visual-studio-code-web-browser\">Archived</a> from the original on 15 April 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 April</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Windows+Central&amp;rft.atitle=How+to+use+Visual+Studio+Code+in+a+web+browser&amp;rft.date=2022-12-22&amp;rft.aulast=Devine&amp;rft.aufirst=Richard&amp;rft&#95;id=https%3A%2F%2Fwww.windowscentral.com%2Fhow-use-visual-studio-code-web-browser&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-built&#95;on&#95;top&#95;of&#95;OSS-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-built_on_top_of_OSS_14-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>built on top of OSS</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStack&#95;Overflow2025\" class=\"citation web cs1\">Stack Overflow (2025). <a rel=\"nofollow\" class=\"external text\" href=\"https://survey.stackoverflow.co/2025/technology/#1-dev-id-es\">\"Technology &#124; 2025 Stack Overflow Developer Survey\"</a>. <i>stackoverflow.com</i>. <a href=\"/wiki/Stack_Overflow\" title=\"Stack Overflow\">Stack Overflow</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-10-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=stackoverflow.com&amp;rft.atitle=Technology+%26%23124%3B+2025+Stack+Overflow+Developer+Survey&amp;rft.date=2025&amp;rft.au=Stack+Overflow&amp;rft&#95;id=https%3A%2F%2Fsurvey.stackoverflow.co%2F2025%2Ftechnology%2F%231-dev-id-es&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AVisual+Studio+Code\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐sq79x\nCached time: 20260918180904\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.916 seconds\nReal time usage: 1.093 seconds\nPreprocessor visited node count: 2200/1000000\nRevision size: 6489/2097152 bytes\nPost‐expand include size: 62178/2097152 bytes\nTemplate argument size: 8547/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 38468/5000000 bytes\nLua time usage: 0.725/10.000 seconds\nLua memory usage: 20677989/52428800 bytes\nNumber of Wikibase entities loaded: 2/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00% 1048.898      1 -total\n 85.23%  894.008      2 Template:Infobox\n 75.70%  794.011      1 Template:Infobox_software\n 52.61%  551.858     10 Template:Wikidata\n 41.75%  437.913     25 Template:If_empty\n 38.36%  402.381      1 Template:Infobox_software/simple\n  8.43%   88.387      3 Template:Start_date_and_age\n  8.03%   84.276      1 Template:Short_description\n  5.12%   53.728      2 Template:Plainlist\n  4.57%   47.945      2 Template:Pagetype\n-->\n\n<!-- Render ID 0839ea8b-b38c-11f1-800a-7771d3c1465a -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Microsoft Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code refactoring",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debugging",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erich Gamma",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "File size",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Freeware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Git",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated development environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intelligent code completion",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Keyboard shortcut",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS 12",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Plug-in (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Snippet (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stack Overflow",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax highlighting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TechCrunch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Theme (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TypeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Version control",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web browser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows 10",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Integrated development environment from Microsoft",
+          "page_image_free": "Visual_Studio_Code_1.35_icon.svg",
+          "wikibase_item": "Q19841877"
+        }
+      }
+    }
+  ]
+}

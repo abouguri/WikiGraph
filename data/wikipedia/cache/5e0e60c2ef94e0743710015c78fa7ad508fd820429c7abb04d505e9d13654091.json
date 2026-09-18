@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Berkeley Software Distribution",
+    "url": "https://en.wikipedia.org/wiki/Berkeley_Software_Distribution",
+    "summary": "Unix operating system \"BSD\" redirects here. For other uses, see BSD (disambiguation) . Operating system BSD 4.3 BSD UNIX (from the University of Wisconsin ) man page of lisp. Developer CSRG Written in C OS family Unix Working state Discontinued Source model Open-source Initial release March 9, 1978 ; 48 years ago ( 1978-03-09 ) Final release 4.4-Lite2 / June 1995 ; 31 years ago ( 1995-06 ) Available in English Supported platforms PDP-11 , VAX , Intel 80386 Kernel type Monolithic Userland BSD Influenced 386BSD , NetBSD , FreeBSD , OpenBSD , NeXTSTEP , Darwin , Arch Linux Influenced by Unix Default user interface Unix shell License BSD licenses The Berkeley Software Distribution , also known as BSD or Berkeley UNIX , is a Unix based operating system developed and distributed by the Computer Systems Research Group at the University of California, Berkeley . BSD released in 1978, it began as an improved derivative of AT&T 's original Unix developed at Bell Labs . Bill Joy and Ozalp Babaoglu led early development. The BSD project received funding from DARPA until 1988. During this period, BSD incorporated ARPANET support and later implemented the TCP/IP protocol suite. ^ \"Why you should use a BSD style license for your Open Source Project\" . The FreeBSD Project . BSD (Berkeley Standard Distribution) . Retrieved August 3, 2021 . ^ Levitt, Jason; Schuman, Evan (June 22, 1992). \"For BSD Unix, It's Sayonara\" . Open Systems Today . ^ Harding, Elizabeth U. (October 19, 1992). \"Unix pioneer ends BSD research\" . Software Magazine . ^ a b Harding, Elizabeth U. (October 19, 1992). \"Unix pioneer ends BSD research\" . Software Magazine . ^ \"A Brief History of Unix, BSD and FreeBSD\" . minnie.tuhs.org . Retrieved December 5, 2024 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Unix operating system \"BSD\" redirects here. For other uses, see BSD (disambiguation) . Operating system BSD 4.3 BSD UNIX (from the University of Wisconsin ) man page of lisp. Developer CSRG Written in C OS family Unix Working state Discontinued Source model Open-source Initial release March 9, 1978 ; 48 years ago ( 1978-03-09 ) Final release 4.4-Lite2 / June 1995 ; 31 years ago ( 1995-06 ) Available in English Supported platforms PDP-11 , VAX , Intel 80386 Kernel type Monolithic Userland BSD Influenced 386BSD , NetBSD , FreeBSD , OpenBSD , NeXTSTEP , Darwin , Arch Linux Influenced by Unix Default user interface Unix shell License BSD licenses The Berkeley Software Distribution , also known as BSD or Berkeley UNIX , is a Unix based operating system developed and distributed by the Computer Systems Research Group at the University of California, Berkeley . BSD released in 1978, it began as an improved derivative of AT&T 's original Unix developed at Bell Labs . Bill Joy and Ozalp Babaoglu led early development. The BSD project received funding from DARPA until 1988. During this period, BSD incorporated ARPANET support and later implemented the TCP/IP protocol suite. ^ \"Why you should use a BSD style license for your Open Source Project\" . The FreeBSD Project . BSD (Berkeley Standard Distribution) . Retrieved August 3, 2021 . ^ Levitt, Jason; Schuman, Evan (June 22, 1992). \"For BSD Unix, It's Sayonara\" . Open Systems Today . ^ Harding, Elizabeth U. (October 19, 1992). \"Unix pioneer ends BSD research\" . Software Magazine . ^ a b Harding, Elizabeth U. (October 19, 1992). \"Unix pioneer ends BSD research\" . Software Magazine . ^ \"A Brief History of Unix, BSD and FreeBSD\" . minnie.tuhs.org . Retrieved December 5, 2024 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "386BSD",
+      "ARPANET",
+      "AT&T",
+      "Arch Linux",
+      "BSD (disambiguation)",
+      "BSD licenses",
+      "Bell Labs",
+      "Bill Joy",
+      "C (programming language)",
+      "Computer Systems Research Group",
+      "DARPA",
+      "Darwin (operating system)",
+      "FreeBSD",
+      "Intel 80386",
+      "Kernel (operating system)",
+      "Monolithic kernel",
+      "NeXTSTEP",
+      "NetBSD",
+      "Open-source",
+      "OpenBSD",
+      "Operating system",
+      "PDP-11",
+      "Programmer",
+      "Programming language",
+      "Software license",
+      "Software release life cycle",
+      "TCP/IP",
+      "University of California, Berkeley",
+      "University of Wisconsin",
+      "Unix",
+      "Unix shell",
+      "User interface",
+      "User space and kernel space",
+      "VAX",
+      "Özalp Babaoğlu"
+    ],
+    "page_id": 18932622,
+    "revision_id": 1375426734,
+    "retrieved_at": "2026-09-18T18:10:20.459598+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260916194916|1375262759",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 18932622,
+            "ns": 0,
+            "title": "Berkeley Software Distribution",
+            "revisions": [
+              {
+                "revid": 1375426734,
+                "parentid": 1375262759
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "4.3_BSD_UWisc_VAX_Emulation_Lisp_Manual.png",
+              "wikibase-shortdesc": "Unix operating system",
+              "wikibase_item": "Q34264"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Berkeley Software Distribution",
+        "pageid": 18932622,
+        "revid": 1375426734,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Unix operating system</div><style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"BSD\" redirects here. For other uses, see <a href=\"/wiki/BSD_(disambiguation)\" class=\"mw-disambig\" title=\"BSD (disambiguation)\">BSD (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Operating system</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color: #e0e0e0; color: inherit;\">BSD</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:BSD_wordmark.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/BSD_wordmark.svg/250px-BSD_wordmark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"70\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/BSD_wordmark.svg/330px-BSD_wordmark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"150\" data-file-height=\"70\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:4.3_BSD_UWisc_VAX_Emulation_Lisp_Manual.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/4.3_BSD_UWisc_VAX_Emulation_Lisp_Manual.png/250px-4.3_BSD_UWisc_VAX_Emulation_Lisp_Manual.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"160\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/4.3_BSD_UWisc_VAX_Emulation_Lisp_Manual.png/500px-4.3_BSD_UWisc_VAX_Emulation_Lisp_Manual.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"652\" data-file-height=\"416\" /></a></span><div class=\"infobox-caption\">4.3 BSD UNIX (from the <a href=\"/wiki/University_of_Wisconsin\" class=\"mw-redirect\" title=\"University of Wisconsin\">University of Wisconsin</a>) man page of lisp.</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Computer_Systems_Research_Group\" title=\"Computer Systems Research Group\">CSRG</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programming_language\" title=\"Programming language\">Written in</a></th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">OS family</th><td class=\"infobox-data\"><a href=\"/wiki/Unix\" title=\"Unix\">Unix</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Working state</th><td class=\"infobox-data\">Discontinued</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Source model</th><td class=\"infobox-data\"><a href=\"/wiki/Open-source\" class=\"mw-redirect\" title=\"Open-source\">Open-source</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Initial release</th><td class=\"infobox-data\">March&#160;9, 1978<span class=\"noprint\">&#59;&#32;48 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1978-03-09</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Final release</a></th><td class=\"infobox-data\">4.4-Lite2 / June&#160;1995<span class=\"noprint\">&#59;&#32;31&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1995-06</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">English</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Supported platforms</th><td class=\"infobox-data\"><a href=\"/wiki/PDP-11\" title=\"PDP-11\">PDP-11</a>, <a href=\"/wiki/VAX\" title=\"VAX\">VAX</a>, <a href=\"/wiki/Intel_80386\" class=\"mw-redirect\" title=\"Intel 80386\">Intel 80386</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">Kernel</a> type</th><td class=\"infobox-data\"><a href=\"/wiki/Monolithic_kernel\" title=\"Monolithic kernel\">Monolithic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/User_space_and_kernel_space\" title=\"User space and kernel space\">Userland</a></th><td class=\"infobox-data\">BSD</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Influenced</th><td class=\"infobox-data\"><a href=\"/wiki/386BSD\" title=\"386BSD\">386BSD</a>, <a href=\"/wiki/NetBSD\" title=\"NetBSD\">NetBSD</a>, <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>, <a href=\"/wiki/OpenBSD\" title=\"OpenBSD\">OpenBSD</a>, <a href=\"/wiki/NeXTSTEP\" title=\"NeXTSTEP\">NeXTSTEP</a>, <a href=\"/wiki/Darwin_(operating_system)\" title=\"Darwin (operating system)\">Darwin</a>, <a href=\"/wiki/Arch_Linux\" title=\"Arch Linux\">Arch Linux</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Influenced by</th><td class=\"infobox-data\"><a href=\"/wiki/Unix\" title=\"Unix\">Unix</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/User_interface\" title=\"User interface\">Default<br />user interface</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unix_shell\" title=\"Unix shell\">Unix shell</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/BSD_licenses\" title=\"BSD licenses\">BSD licenses</a></td></tr></tbody></table>\n<p>The <b>Berkeley Software Distribution</b><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>, also known as <b>BSD</b> or <b>Berkeley UNIX</b>, is a <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a> based <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> developed and distributed by the <a href=\"/wiki/Computer_Systems_Research_Group\" title=\"Computer Systems Research Group\">Computer Systems Research Group</a> at the <a href=\"/wiki/University_of_California,_Berkeley\" title=\"University of California, Berkeley\">University of California, Berkeley</a>.<sup id=\"cite&#95;ref-:0&#95;3-0\" class=\"reference\"><a href=\"#cite_note-:0-3\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>BSD released in 1978, it began as an improved derivative of <a href=\"/wiki/AT%26T\" title=\"AT&amp;T\">AT&amp;T</a>'s original <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a> developed at <a href=\"/wiki/Bell_Labs\" title=\"Bell Labs\">Bell Labs</a>.<sup id=\"cite&#95;ref-:12&#95;4-0\" class=\"reference\"><a href=\"#cite_note-:12-4\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Bill_Joy\" title=\"Bill Joy\">Bill Joy</a> and <a href=\"/wiki/%C3%96zalp_Babao%C4%9Flu\" title=\"Özalp Babaoğlu\">Ozalp Babaoglu</a> led early development.<sup id=\"cite&#95;ref-:1&#95;5-0\" class=\"reference\"><a href=\"#cite_note-:1-5\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> The BSD project received funding from <a href=\"/wiki/DARPA\" title=\"DARPA\">DARPA</a> until 1988.<sup id=\"cite&#95;ref-:1&#95;5-1\" class=\"reference\"><a href=\"#cite_note-:1-5\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> During this period, BSD incorporated <a href=\"/wiki/ARPANET\" title=\"ARPANET\">ARPANET</a> support and later implemented the <a href=\"/wiki/TCP/IP\" class=\"mw-redirect\" title=\"TCP/IP\">TCP/IP</a> protocol suite.<sup id=\"cite&#95;ref-:2&#95;6-0\" class=\"reference\"><a href=\"#cite_note-:2-6\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.freebsd.org/en/articles/bsdl-gpl/\">\"Why you should use a BSD style license for your Open Source Project\"</a>. <i>The FreeBSD Project</i>. BSD (Berkeley Standard Distribution)<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 3,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+FreeBSD+Project&amp;rft.atitle=Why+you+should+use+a+BSD+style+license+for+your+Open+Source+Project&amp;rft.pages=BSD+%28Berkeley+Standard+Distribution%29&amp;rft&#95;id=https%3A%2F%2Fdocs.freebsd.org%2Fen%2Farticles%2Fbsdl-gpl%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ABerkeley+Software+Distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLevittSchuman1992\" class=\"citation magazine cs1\">Levitt, Jason; Schuman, Evan (June 22, 1992). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tech-insider.org/unix/research/1992/0622.html\">\"For BSD Unix, It's Sayonara\"</a>. <i>Open Systems Today</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Open+Systems+Today&amp;rft.atitle=For+BSD+Unix%2C+It%27s+Sayonara&amp;rft.date=1992-06-22&amp;rft.aulast=Levitt&amp;rft.aufirst=Jason&amp;rft.au=Schuman%2C+Evan&amp;rft&#95;id=https%3A%2F%2Fwww.tech-insider.org%2Funix%2Fresearch%2F1992%2F0622.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ABerkeley+Software+Distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:12-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:12_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHarding1992\" class=\"citation magazine cs1\">Harding, Elizabeth U. (October 19, 1992). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tech-insider.org/unix/research/1992/10.html\">\"Unix pioneer ends BSD research\"</a>. <i>Software Magazine</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Software+Magazine&amp;rft.atitle=Unix+pioneer+ends+BSD+research&amp;rft.date=1992-10-19&amp;rft.aulast=Harding&amp;rft.aufirst=Elizabeth+U.&amp;rft&#95;id=https%3A%2F%2Fwww.tech-insider.org%2Funix%2Fresearch%2F1992%2F10.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ABerkeley+Software+Distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:1-5\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-:1_5-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-:1_5-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHarding1992\" class=\"citation magazine cs1\">Harding, Elizabeth U. (October 19, 1992). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tech-insider.org/unix/research/1992/10.html\">\"Unix pioneer ends BSD research\"</a>. <i>Software Magazine</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Software+Magazine&amp;rft.atitle=Unix+pioneer+ends+BSD+research&amp;rft.date=1992-10-19&amp;rft.aulast=Harding&amp;rft.aufirst=Elizabeth+U.&amp;rft&#95;id=https%3A%2F%2Fwww.tech-insider.org%2Funix%2Fresearch%2F1992%2F10.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ABerkeley+Software+Distribution\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:2-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:2_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://minnie.tuhs.org/Seminars/Questnet/node2.html\">\"A Brief History of Unix, BSD and FreeBSD\"</a>. <i>minnie.tuhs.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 5,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=minnie.tuhs.org&amp;rft.atitle=A+Brief+History+of+Unix%2C+BSD+and+FreeBSD&amp;rft&#95;id=https%3A%2F%2Fminnie.tuhs.org%2FSeminars%2FQuestnet%2Fnode2.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ABerkeley+Software+Distribution\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐hfn2g\nCached time: 20260918181046\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.418 seconds\nReal time usage: 0.630 seconds\nPreprocessor visited node count: 1641/1000000\nRevision size: 2842/2097152 bytes\nPost‐expand include size: 29431/2097152 bytes\nTemplate argument size: 4186/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 13856/5000000 bytes\nLua time usage: 0.230/10.000 seconds\nLua memory usage: 5590463/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  598.235      1 -total\n 24.69%  147.725      1 Template:Infobox_OS\n 22.44%  134.248      2 Template:Short_description\n 20.09%  120.190      1 Template:Infobox\n 19.58%  117.132      2 Template:Cite_web\n 12.73%   76.159      4 Template:Pagetype\n  8.54%   51.118      7 Template:Main_other\n  7.58%   45.321      1 Template:Redirect\n  7.54%   45.090      1 Template:Use_mdy_dates\n  7.12%   42.612      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID 4505e33f-b38c-11f1-951d-9dab2202b1e7 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "BSD (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "386BSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARPANET",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AT&T",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arch Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bell Labs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bill Joy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer Systems Research Group",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DARPA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Darwin (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intel 80386",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NeXTSTEP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NetBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PDP-11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TCP/IP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of California, Berkeley",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Wisconsin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User space and kernel space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VAX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Özalp Babaoğlu",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Unix operating system",
+          "page_image_free": "4.3_BSD_UWisc_VAX_Emulation_Lisp_Manual.png",
+          "wikibase_item": "Q34264"
+        }
+      }
+    }
+  ]
+}

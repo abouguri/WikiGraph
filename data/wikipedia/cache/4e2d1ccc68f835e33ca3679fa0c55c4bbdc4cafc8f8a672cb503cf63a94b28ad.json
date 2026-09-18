@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Microsoft Windows",
+    "url": "https://en.wikipedia.org/wiki/Microsoft_Windows",
+    "summary": "Computer operating system \"Windows\" redirects here. For the architectural element, see Window . For other uses, see Windows (disambiguation) . Operating system Windows Developer Microsoft Source model Closed-source Source-available (through Shared Source Initiative ) Initial release November 20, 1985 ; 40 years ago ( 1985-11-20 ) Latest release Windows 11 26H1 (10.0.28000.2954) (September 8, 2026 ; 10 days ago ( 2026-09-08 ) ) [±] 25H2 (10.0.26200.9445) (September 8, 2026 ; 10 days ago ( 2026-09-08 ) ) [±] Latest preview Release Preview : 26H2 (10.0.26300.9278) (August 27, 2026 ; 22 days ago ( 2026-08-27 ) ) [±] Release Preview (26H1) : (10.0.28000.2954) (September 8, 2026 ; 10 days ago ( 2026-09-08 ) ) [±] Beta : 25H2 (10.0.26220.9223) (August 21, 2026 ; 28 days ago ( 2026-08-21 ) ) [±] Beta (26H1) : (10.0.28020.2818) (August 31, 2026 ; 18 days ago ( 2026-08-31 ) ) [±] Experimental : 26H2 (10.0.26340.9233) (August 21, 2026 ; 28 days ago ( 2026-08-21 ) ) [±] Experimental (26H1) : (10.0.28120.2824) (August 31, 2026 ; 18 days ago ( 2026-08-31 ) ) [±] Experimental (Future Platforms) : (10.0.29648.1000) (August 17, 2026 ; 32 days ago ( 2026-08-17 ) ) [±] Repository github .com /Microsoft Marketing target Personal computing Available in 110 languages Update method Windows Update Microsoft Store Windows Server Update Services (WSUS) Package manager Windows Installer (.msi, .msp), App Installer (.msix. msixbundle ), Microsoft Store ( .appx , .appxbundle), Windows Package Manager Supported platforms IA-32 , x86-64 , ARM , ARM64 Previously: 16-bit x86 , DEC Alpha , MIPS , PowerPC , Itanium Kernel type Windows NT family: Hybrid Windows Embedded Compact /Windows CE: Hybrid or Monolithic Windows 9x and earlier: Monolithic ( MS-DOS and VMM32 ) Default user interface Windows shell License Proprietary commercial software Official website windows .com Windows is a proprietary operating system developed by Microsoft . Windows is grouped into families that cater to particular sectors of the computing industry – Windows for personal computers , Windows Server for servers , and Windows IoT for embedded systems . Windows itself is further grouped into editions that cater to different users – Home for home users, Professional for advanced users, Education for schools, and Enterprise for corporations. Windows is sold both as a consumer retail product and to computer manufacturers , who bundle and distribute it with their systems. The first version of Windows, Windows 1.0 , was released on November 20, 1985 as a graphical operating system shell for MS-DOS in response to growing interest in graphical user interfaces (GUIs). The name Windows is a reference to the windowing system in GUIs. The 1990 release of Windows 3.0 catapulted its market success and led to the launch of various other product families, including the (now-defunct) Windows Mobile , Windows Phone , and Windows CE/Embedded Compact . Windows is the most popular desktop operating system in the world, with a 63% market share as of August 2026 [update] , and the second-most popular operating system overall, behind Android . As of August 2026, Windows 11 is the most used desktop version of Windows, with a market share of 69%. ^ \"September 8, 2026—KB5124012 (OS Build 28000.2954)\" . Microsoft Support . Microsoft . ^ \"September 8, 2026—KB5124008 (OS Builds 26200.9445 and 26100.9445)\" . Microsoft Support . Microsoft . ^ \"Windows 11 Insider Release Preview Build 26300.9278\" . Microsoft Learn . ^ \"September 8, 2026—KB5124012 (OS Build 28000.2954)\" . Microsoft Support . ^ \"Windows 11 Insider Beta Preview Build 26220.9223\" . Microsoft Learn . ^ \"Windows 11 Insider Beta (26H1) Preview Build 28020.2818\" . Microsoft Learn . ^ \"Windows 11 Insider Experimental Preview Build 26340.9233\" . Microsoft Learn . ^ \"Windows 11 Insider Experimental (26H1) Preview Build 28120.2824\" . Microsoft Learn . ^ \"Windows 11 Insider Experimental (Future Platforms) Preview Build 29648.1000\" . Microsoft Learn . ^ Su, Christy; Xu, Simonx (November 25, 2021). \"FAQ about the Windows Installer .msp files - Dynamics GP\" . Microsoft Learn . Archived from the original on July 8, 2023 . Retrieved September 13, 2023 . ^ dianmsft; Jenks, Alma; Coulter, David; Schofield, McLean; Vintzel, John; Satran, Michael; Donthini, Chaitanya; Kinsman, Mike (December 30, 2021). \"What is MSIX?\" . Microsoft Learn . Archived from the original on September 25, 2023 . Retrieved September 13, 2023 . ^ Jahiu, Dhurata; Jenks, Alma; v-chmccl; Power, Cory; Coulter, David; Schofield, McLean; Donthini, Chaitanya; Satran, Michael (April 13, 2022). \"How to bundle MSIX packages\" . Microsoft Learn . Archived from the original on October 4, 2023 . Retrieved September 13, 2023 . ^ Vera (June 26, 2023) [April 14, 2023]. \"How to Install MSIXBundle on Windows 10/11? 2 Ways to Try!\" . MiniTool . Archived from the original on August 21, 2023 . Retrieved September 13, 2023 . ^ \"App packages and deployment (Windows Store apps) (Windows)\" . Microsoft Learn . October 19, 2021 [October 6, 2015]. Archived from the original on March 30, 2014 . Retrieved April 5, 2014 . ^ Bellis, Mary (October 4, 2019). \"The Unusual History of Microsoft Windows\" . ThoughtCo . Archived from the original on March 14, 2020 . Retrieved January 13, 2023 . ^ Cite error: The named reference :1 was invoked but never defined (see the help page ). ^ \"Desktop Operating System Market Share Worldwide\" . StatCounter Global Stats . Archived from the original on October 2, 2023 . Retrieved May 4, 2026 . ^ Keizer, Gregg (July 14, 2014). \"Microsoft gets real, admits its device share is just 14%\" . Computerworld . IDG . Archived from the original on August 21, 2016. [Microsoft's chief operating officer] Turner's 14% came from a new forecast released last week by Gartner, which estimated Windows' share of the shipped device market last year was 14%, and would decrease slightly to 13.7% in 2014. Android will dominate, Gartner said, with a 48% share this year ^ \"Desktop Windows Version Market Share Worldwide\" . StatCounter Global Stats . Archived from the original on April 20, 2019 . Retrieved June 3, 2026 .",
+    "text": "Computer operating system \"Windows\" redirects here. For the architectural element, see Window . For other uses, see Windows (disambiguation) . Operating system Windows Developer Microsoft Source model Closed-source Source-available (through Shared Source Initiative ) Initial release November 20, 1985 ; 40 years ago ( 1985-11-20 ) Latest release Windows 11 26H1 (10.0.28000.2954) (September 8, 2026 ; 10 days ago ( 2026-09-08 ) ) [±] 25H2 (10.0.26200.9445) (September 8, 2026 ; 10 days ago ( 2026-09-08 ) ) [±] Latest preview Release Preview : 26H2 (10.0.26300.9278) (August 27, 2026 ; 22 days ago ( 2026-08-27 ) ) [±] Release Preview (26H1) : (10.0.28000.2954) (September 8, 2026 ; 10 days ago ( 2026-09-08 ) ) [±] Beta : 25H2 (10.0.26220.9223) (August 21, 2026 ; 28 days ago ( 2026-08-21 ) ) [±] Beta (26H1) : (10.0.28020.2818) (August 31, 2026 ; 18 days ago ( 2026-08-31 ) ) [±] Experimental : 26H2 (10.0.26340.9233) (August 21, 2026 ; 28 days ago ( 2026-08-21 ) ) [±] Experimental (26H1) : (10.0.28120.2824) (August 31, 2026 ; 18 days ago ( 2026-08-31 ) ) [±] Experimental (Future Platforms) : (10.0.29648.1000) (August 17, 2026 ; 32 days ago ( 2026-08-17 ) ) [±] Repository github .com /Microsoft Marketing target Personal computing Available in 110 languages Update method Windows Update Microsoft Store Windows Server Update Services (WSUS) Package manager Windows Installer (.msi, .msp), App Installer (.msix. msixbundle ), Microsoft Store ( .appx , .appxbundle), Windows Package Manager Supported platforms IA-32 , x86-64 , ARM , ARM64 Previously: 16-bit x86 , DEC Alpha , MIPS , PowerPC , Itanium Kernel type Windows NT family: Hybrid Windows Embedded Compact /Windows CE: Hybrid or Monolithic Windows 9x and earlier: Monolithic ( MS-DOS and VMM32 ) Default user interface Windows shell License Proprietary commercial software Official website windows .com Windows is a proprietary operating system developed by Microsoft . Windows is grouped into families that cater to particular sectors of the computing industry – Windows for personal computers , Windows Server for servers , and Windows IoT for embedded systems . Windows itself is further grouped into editions that cater to different users – Home for home users, Professional for advanced users, Education for schools, and Enterprise for corporations. Windows is sold both as a consumer retail product and to computer manufacturers , who bundle and distribute it with their systems. The first version of Windows, Windows 1.0 , was released on November 20, 1985 as a graphical operating system shell for MS-DOS in response to growing interest in graphical user interfaces (GUIs). The name Windows is a reference to the windowing system in GUIs. The 1990 release of Windows 3.0 catapulted its market success and led to the launch of various other product families, including the (now-defunct) Windows Mobile , Windows Phone , and Windows CE/Embedded Compact . Windows is the most popular desktop operating system in the world, with a 63% market share as of August 2026 [update] , and the second-most popular operating system overall, behind Android . As of August 2026, Windows 11 is the most used desktop version of Windows, with a market share of 69%. ^ \"September 8, 2026—KB5124012 (OS Build 28000.2954)\" . Microsoft Support . Microsoft . ^ \"September 8, 2026—KB5124008 (OS Builds 26200.9445 and 26100.9445)\" . Microsoft Support . Microsoft . ^ \"Windows 11 Insider Release Preview Build 26300.9278\" . Microsoft Learn . ^ \"September 8, 2026—KB5124012 (OS Build 28000.2954)\" . Microsoft Support . ^ \"Windows 11 Insider Beta Preview Build 26220.9223\" . Microsoft Learn . ^ \"Windows 11 Insider Beta (26H1) Preview Build 28020.2818\" . Microsoft Learn . ^ \"Windows 11 Insider Experimental Preview Build 26340.9233\" . Microsoft Learn . ^ \"Windows 11 Insider Experimental (26H1) Preview Build 28120.2824\" . Microsoft Learn . ^ \"Windows 11 Insider Experimental (Future Platforms) Preview Build 29648.1000\" . Microsoft Learn . ^ Su, Christy; Xu, Simonx (November 25, 2021). \"FAQ about the Windows Installer .msp files - Dynamics GP\" . Microsoft Learn . Archived from the original on July 8, 2023 . Retrieved September 13, 2023 . ^ dianmsft; Jenks, Alma; Coulter, David; Schofield, McLean; Vintzel, John; Satran, Michael; Donthini, Chaitanya; Kinsman, Mike (December 30, 2021). \"What is MSIX?\" . Microsoft Learn . Archived from the original on September 25, 2023 . Retrieved September 13, 2023 . ^ Jahiu, Dhurata; Jenks, Alma; v-chmccl; Power, Cory; Coulter, David; Schofield, McLean; Donthini, Chaitanya; Satran, Michael (April 13, 2022). \"How to bundle MSIX packages\" . Microsoft Learn . Archived from the original on October 4, 2023 . Retrieved September 13, 2023 . ^ Vera (June 26, 2023) [April 14, 2023]. \"How to Install MSIXBundle on Windows 10/11? 2 Ways to Try!\" . MiniTool . Archived from the original on August 21, 2023 . Retrieved September 13, 2023 . ^ \"App packages and deployment (Windows Store apps) (Windows)\" . Microsoft Learn . October 19, 2021 [October 6, 2015]. Archived from the original on March 30, 2014 . Retrieved April 5, 2014 . ^ Bellis, Mary (October 4, 2019). \"The Unusual History of Microsoft Windows\" . ThoughtCo . Archived from the original on March 14, 2020 . Retrieved January 13, 2023 . ^ Cite error: The named reference :1 was invoked but never defined (see the help page ). ^ \"Desktop Operating System Market Share Worldwide\" . StatCounter Global Stats . Archived from the original on October 2, 2023 . Retrieved May 4, 2026 . ^ Keizer, Gregg (July 14, 2014). \"Microsoft gets real, admits its device share is just 14%\" . Computerworld . IDG . Archived from the original on August 21, 2016. [Microsoft's chief operating officer] Turner's 14% came from a new forecast released last week by Gartner, which estimated Windows' share of the shipped device market last year was 14%, and would decrease slightly to 13.7% in 2014. Android will dominate, Gartner said, with a 48% share this year ^ \"Desktop Windows Version Market Share Worldwide\" . StatCounter Global Stats . Archived from the original on April 20, 2019 . Retrieved June 3, 2026 .",
+    "links": [
+      "APPX",
+      "ARM architecture family",
+      "ARM64",
+      "Android (operating system)",
+      "App Installer",
+      "Bundling of Microsoft Windows",
+      "Commercial software",
+      "Computerworld",
+      "DEC Alpha",
+      "Embedded system",
+      "Graphical user interface",
+      "Hybrid kernel",
+      "IA-32",
+      "IDG",
+      "Itanium",
+      "Kernel (operating system)",
+      "MIPS architecture",
+      "MS-DOS",
+      "Market share",
+      "Microsoft",
+      "Microsoft Store",
+      "Monolithic kernel",
+      "Operating system",
+      "Operating system shell",
+      "Original equipment manufacturer",
+      "Package manager",
+      "Personal computer",
+      "PowerPC",
+      "Programmer",
+      "Proprietary software",
+      "Repository (version control)",
+      "Retail",
+      "Server (computing)",
+      "Shared Source Initiative",
+      "Software license",
+      "Software release life cycle",
+      "Source-available software",
+      "Usage share of operating systems",
+      "User interface",
+      "VMM32",
+      "Window",
+      "Windowing system",
+      "Windows (disambiguation)",
+      "Windows 1.0",
+      "Windows 11",
+      "Windows 3.0",
+      "Windows 9x",
+      "Windows Embedded Compact",
+      "Windows Installer",
+      "Windows IoT",
+      "Windows Mobile",
+      "Windows NT",
+      "Windows Package Manager",
+      "Windows Phone",
+      "Windows Server",
+      "Windows Server Update Services",
+      "Windows Update",
+      "Windows editions",
+      "Windows shell",
+      "X86",
+      "X86-64"
+    ],
+    "page_id": 18890,
+    "revision_id": 1374906119,
+    "retrieved_at": "2026-09-18T18:08:02.701635+00:00",
+    "aliases": [
+      "Windows"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260914003000|1374766562",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Windows",
+            "to": "Microsoft Windows"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 18890,
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "revisions": [
+              {
+                "revid": 1374906119,
+                "parentid": 1374766562
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Computer operating system",
+              "wikibase_item": "Q1406"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Microsoft Windows",
+        "pageid": 18890,
+        "revid": 1374906119,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Computer operating system</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Windows\" redirects here. For the architectural element, see <a href=\"/wiki/Window\" title=\"Window\">Window</a>. For other uses, see <a href=\"/wiki/Windows_(disambiguation)\" class=\"mw-disambig\" title=\"Windows (disambiguation)\">Windows (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n\n</p>\n<div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Operating system</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color: #e0e0e0; color: inherit;\">Windows</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Windows_logo_and_wordmark_-_2021.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Windows_logo_and_wordmark_-_2021.svg/250px-Windows_logo_and_wordmark_-_2021.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"53\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Windows_logo_and_wordmark_-_2021.svg/500px-Windows_logo_and_wordmark_-_2021.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"872\" data-file-height=\"184\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Source model</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">Closed-source</a></li><li><a href=\"/wiki/Source-available_software\" title=\"Source-available software\">Source-available</a> (through <a href=\"/wiki/Shared_Source_Initiative\" title=\"Shared Source Initiative\">Shared Source Initiative</a>)</li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Initial release</th><td class=\"infobox-data\">November&#160;20, 1985<span class=\"noprint\">&#59;&#32;40 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1985-11-20</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Latest release</a></th><td class=\"infobox-data\"><a href=\"/wiki/Windows_11\" title=\"Windows 11\">Windows 11</a> 26H1 (10.0.28000.2954) (September&#160;8, 2026<span class=\"noprint\">&#59;&#32;10 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-09-08</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span><br />\n25H2 (10.0.26200.9445) (September&#160;8, 2026<span class=\"noprint\">&#59;&#32;10 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-09-08</span>)</span><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Latest preview</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul style=\"margin-left:1em;text-indent:-1em;\"><li><b>Release Preview</b>: 26H2 (10.0.26300.9278) (August&#160;27, 2026<span class=\"noprint\">&#59;&#32;22 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-08-27</span>)</span><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></li><li><b>Release Preview (26H1)</b>: (10.0.28000.2954) (September&#160;8, 2026<span class=\"noprint\">&#59;&#32;10 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-09-08</span>)</span><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></li><li><b>Beta</b>: 25H2 (10.0.26220.9223) (August&#160;21, 2026<span class=\"noprint\">&#59;&#32;28 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-08-21</span>)</span><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></li><li><b>Beta (26H1)</b>: (10.0.28020.2818) (August&#160;31, 2026<span class=\"noprint\">&#59;&#32;18 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-08-31</span>)</span><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></li><li><b>Experimental</b>: 26H2 (10.0.26340.9233) (August&#160;21, 2026<span class=\"noprint\">&#59;&#32;28 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-08-21</span>)</span><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></li><li><b>Experimental (26H1)</b>: (10.0.28120.2824) (August&#160;31, 2026<span class=\"noprint\">&#59;&#32;18 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-08-31</span>)</span><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></li><li><b>Experimental (Future Platforms)</b>: (10.0.29648.1000) (August&#160;17, 2026<span class=\"noprint\">&#59;&#32;32 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-08-17</span>)</span><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_preview_software_release/Windows_11&amp;action=edit\">&#91;±&#93;</a></span></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/Microsoft\">github<wbr />.com<wbr />/Microsoft</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1406#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Marketing target</th><td class=\"infobox-data\">Personal computing</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">110 languages</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Update method</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Windows_Update\" title=\"Windows Update\">Windows Update</a></li><li><a href=\"/wiki/Microsoft_Store\" title=\"Microsoft Store\">Microsoft Store</a></li><li><a href=\"/wiki/Windows_Server_Update_Services\" title=\"Windows Server Update Services\">Windows Server Update Services</a> (WSUS)</li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Package_manager\" title=\"Package manager\">Package manager</a></th><td class=\"infobox-data\"><a href=\"/wiki/Windows_Installer\" title=\"Windows Installer\">Windows Installer</a> (.msi, .msp),<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/App_Installer\" title=\"App Installer\">App Installer</a> (.msix.<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> msixbundle<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>), <a href=\"/wiki/Microsoft_Store\" title=\"Microsoft Store\">Microsoft Store</a> (<a href=\"/wiki/APPX\" class=\"mw-redirect\" title=\"APPX\">.appx</a>, .appxbundle),<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Windows_Package_Manager\" title=\"Windows Package Manager\">Windows Package Manager</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Supported platforms</th><td class=\"infobox-data\"><a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/ARM_architecture_family\" title=\"ARM architecture family\">ARM</a>, <a href=\"/wiki/ARM64\" class=\"mw-redirect\" title=\"ARM64\">ARM64</a><br />\nPreviously: <a href=\"/wiki/X86\" title=\"X86\">16-bit x86</a>, <a href=\"/wiki/DEC_Alpha\" title=\"DEC Alpha\">DEC Alpha</a>, <a href=\"/wiki/MIPS_architecture\" title=\"MIPS architecture\">MIPS</a>, <a href=\"/wiki/PowerPC\" title=\"PowerPC\">PowerPC</a>, <a href=\"/wiki/Itanium\" title=\"Itanium\">Itanium</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">Kernel</a> type</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Windows_NT\" title=\"Windows NT\">Windows NT</a> family: <a href=\"/wiki/Hybrid_kernel\" title=\"Hybrid kernel\">Hybrid</a></li>\n<li><a href=\"/wiki/Windows_Embedded_Compact\" class=\"mw-redirect\" title=\"Windows Embedded Compact\">Windows Embedded Compact</a>/Windows CE: Hybrid or Monolithic</li>\n<li><a href=\"/wiki/Windows_9x\" title=\"Windows 9x\">Windows 9x</a> and earlier: <a href=\"/wiki/Monolithic_kernel\" title=\"Monolithic kernel\">Monolithic</a> (<a href=\"/wiki/MS-DOS\" title=\"MS-DOS\">MS-DOS</a> and <a href=\"/wiki/VMM32\" class=\"mw-redirect\" title=\"VMM32\">VMM32</a>)</li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/User_interface\" title=\"User interface\">Default<br />user interface</a></th><td class=\"infobox-data\"><a href=\"/wiki/Windows_shell\" title=\"Windows shell\">Windows shell</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">Proprietary</a> <a href=\"/wiki/Commercial_software\" title=\"Commercial software\">commercial software</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Official website</th><td class=\"infobox-data\"><span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://windows.com\">windows<wbr />.com</a></span></span> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1406#P856\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr></tbody></table>\n<p><b>Windows</b> is a <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary</a> <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> developed by <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>. Windows is grouped into families that cater to particular sectors of the computing industry – Windows for <a href=\"/wiki/Personal_computer\" title=\"Personal computer\">personal computers</a>, <a href=\"/wiki/Windows_Server\" title=\"Windows Server\">Windows Server</a> for <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">servers</a>, and <a href=\"/wiki/Windows_IoT\" title=\"Windows IoT\">Windows IoT</a> for <a href=\"/wiki/Embedded_system\" title=\"Embedded system\">embedded systems</a>. Windows itself is further grouped into <a href=\"/wiki/Windows_editions\" class=\"mw-redirect\" title=\"Windows editions\">editions</a> that cater to different users – Home for home users, Professional for advanced users, Education for schools, and Enterprise for corporations. Windows is sold both as a <a href=\"/wiki/Retail\" title=\"Retail\">consumer retail</a> product and to <a href=\"/wiki/Original_equipment_manufacturer\" title=\"Original equipment manufacturer\">computer manufacturers</a>, who <a href=\"/wiki/Bundling_of_Microsoft_Windows\" title=\"Bundling of Microsoft Windows\">bundle and distribute it</a> with their systems.\n</p><p>The first version of Windows, <a href=\"/wiki/Windows_1.0\" title=\"Windows 1.0\">Windows 1.0</a>, was released on November 20, 1985 as a graphical <a href=\"/wiki/Operating_system_shell\" class=\"mw-redirect\" title=\"Operating system shell\">operating system shell</a> for <a href=\"/wiki/MS-DOS\" title=\"MS-DOS\">MS-DOS</a> in response to growing interest in <a href=\"/wiki/Graphical_user_interface\" title=\"Graphical user interface\">graphical user interfaces</a> (GUIs).<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> The name <i>Windows</i> is a reference to the <a href=\"/wiki/Windowing_system\" title=\"Windowing system\">windowing system</a> in GUIs.<sup id=\"cite&#95;ref-:1&#95;16-0\" class=\"reference\"><a href=\"#cite_note-:1-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> The 1990 release of <a href=\"/wiki/Windows_3.0\" title=\"Windows 3.0\">Windows 3.0</a> catapulted its market success and led to the launch of various other product families, including the (now-defunct) <a href=\"/wiki/Windows_Mobile\" title=\"Windows Mobile\">Windows Mobile</a>, <a href=\"/wiki/Windows_Phone\" title=\"Windows Phone\">Windows Phone</a>, and <a href=\"/wiki/Windows_Embedded_Compact\" class=\"mw-redirect\" title=\"Windows Embedded Compact\">Windows CE/Embedded Compact</a>.\n</p><p>Windows is the <a href=\"/wiki/Usage_share_of_operating_systems\" title=\"Usage share of operating systems\">most popular</a> desktop operating system in the world, with a 63% <a href=\"/wiki/Market_share\" title=\"Market share\">market share</a> as of August&#160;2026<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Microsoft_Windows&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Microsoft_Windows&amp;action=edit\">&#91;update&#93;</a></sup>,<sup id=\"cite&#95;ref-pc&#95;17-0\" class=\"reference\"><a href=\"#cite_note-pc-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup> and the second-most popular operating system overall, behind <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a>.<sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup> As of August 2026, <a href=\"/wiki/Windows_11\" title=\"Windows 11\">Windows 11</a> is the most used desktop version of Windows, with a market share of 69%.<sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://support.microsoft.com/help/5124012\">\"September 8, 2026—KB5124012 (OS Build 28000.2954)\"</a>. <i>Microsoft Support</i>. <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Support&amp;rft.atitle=September+8%2C+2026%E2%80%94KB5124012+%28OS+Build+28000.2954%29&amp;rft&#95;id=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5124012&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://support.microsoft.com/help/5124008\">\"September 8, 2026—KB5124008 (OS Builds 26200.9445 and 26100.9445)\"</a>. <i>Microsoft Support</i>. <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Support&amp;rft.atitle=September+8%2C+2026%E2%80%94KB5124008+%28OS+Builds+26200.9445+and+26100.9445%29&amp;rft&#95;id=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5124008&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/windows-insider/release-notes/release-preview-24h2-25h2/build-26300-9278\">\"Windows 11 Insider Release Preview Build 26300.9278\"</a>. <i>Microsoft Learn</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=Windows+11+Insider+Release+Preview+Build+26300.9278&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fwindows-insider%2Frelease-notes%2Frelease-preview-24h2-25h2%2Fbuild-26300-9278&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://support.microsoft.com/help/5124012\">\"September 8, 2026—KB5124012 (OS Build 28000.2954)\"</a>. <i>Microsoft Support</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Support&amp;rft.atitle=September+8%2C+2026%E2%80%94KB5124012+%28OS+Build+28000.2954%29&amp;rft&#95;id=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5124012&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/windows-insider/release-notes/beta/preview-build-26220-9223\">\"Windows 11 Insider Beta Preview Build 26220.9223\"</a>. <i>Microsoft Learn</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=Windows+11+Insider+Beta+Preview+Build+26220.9223&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fwindows-insider%2Frelease-notes%2Fbeta%2Fpreview-build-26220-9223&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/windows-insider/release-notes/beta-26h1/preview-build-28020-2818\">\"Windows 11 Insider Beta (26H1) Preview Build 28020.2818\"</a>. <i>Microsoft Learn</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=Windows+11+Insider+Beta+%2826H1%29+Preview+Build+28020.2818&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fwindows-insider%2Frelease-notes%2Fbeta-26h1%2Fpreview-build-28020-2818&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/windows-insider/release-notes/experimental/preview-build-26340-9233\">\"Windows 11 Insider Experimental Preview Build 26340.9233\"</a>. <i>Microsoft Learn</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=Windows+11+Insider+Experimental+Preview+Build+26340.9233&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fwindows-insider%2Frelease-notes%2Fexperimental%2Fpreview-build-26340-9233&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28120-2824\">\"Windows 11 Insider Experimental (26H1) Preview Build 28120.2824\"</a>. <i>Microsoft Learn</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=Windows+11+Insider+Experimental+%2826H1%29+Preview+Build+28120.2824&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fwindows-insider%2Frelease-notes%2Fexperimental-26-h1%2Fpreview-build-28120-2824&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29648-1000\">\"Windows 11 Insider Experimental (Future Platforms) Preview Build 29648.1000\"</a>. <i>Microsoft Learn</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=Windows+11+Insider+Experimental+%28Future+Platforms%29+Preview+Build+29648.1000&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fwindows-insider%2Frelease-notes%2Fexperimental-future-platforms%2Fpreview-build-29648-1000&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\">\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSuXu2021\" class=\"citation web cs1\">Su, Christy; Xu, Simonx (November 25, 2021). <a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/troubleshoot/dynamics/gp/faq-the-windows-installer-dot-msp-files\">\"FAQ about the Windows Installer .msp files - Dynamics GP\"</a>. <i>Microsoft Learn</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230708080729/https://learn.microsoft.com/en-us/troubleshoot/dynamics/gp/faq-the-windows-installer-dot-msp-files\">Archived</a> from the original on July 8, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 13,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=FAQ+about+the+Windows+Installer+.msp+files+-+Dynamics+GP&amp;rft.date=2021-11-25&amp;rft.aulast=Su&amp;rft.aufirst=Christy&amp;rft.au=Xu%2C+Simonx&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Ftroubleshoot%2Fdynamics%2Fgp%2Ffaq-the-windows-installer-dot-msp-files&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFdianmsftJenksCoulterSchofield2021\" class=\"citation web cs1\">dianmsft; Jenks, Alma; Coulter, David; Schofield, McLean; Vintzel, John; Satran, Michael; Donthini, Chaitanya; Kinsman, Mike (December 30, 2021). <a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/windows/msix/overview\">\"What is MSIX?\"</a>. <i>Microsoft Learn</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230925104716/https://learn.microsoft.com/en-us/windows/msix/overview\">Archived</a> from the original on September 25, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 13,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=What+is+MSIX%3F&amp;rft.date=2021-12-30&amp;rft.au=dianmsft&amp;rft.au=Jenks%2C+Alma&amp;rft.au=Coulter%2C+David&amp;rft.au=Schofield%2C+McLean&amp;rft.au=Vintzel%2C+John&amp;rft.au=Satran%2C+Michael&amp;rft.au=Donthini%2C+Chaitanya&amp;rft.au=Kinsman%2C+Mike&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fmsix%2Foverview&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJahiuJenksv-chmcclPower2022\" class=\"citation web cs1\">Jahiu, Dhurata; Jenks, Alma; v-chmccl; Power, Cory; Coulter, David; Schofield, McLean; Donthini, Chaitanya; Satran, Michael (April 13, 2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/windows/msix/packaging-tool/bundle-msix-packages\">\"How to bundle MSIX packages\"</a>. <i>Microsoft Learn</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20231004072503/https://learn.microsoft.com/en-us/windows/msix/packaging-tool/bundle-msix-packages\">Archived</a> from the original on October 4, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 13,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=How+to+bundle+MSIX+packages&amp;rft.date=2022-04-13&amp;rft.aulast=Jahiu&amp;rft.aufirst=Dhurata&amp;rft.au=Jenks%2C+Alma&amp;rft.au=v-chmccl&amp;rft.au=Power%2C+Cory&amp;rft.au=Coulter%2C+David&amp;rft.au=Schofield%2C+McLean&amp;rft.au=Donthini%2C+Chaitanya&amp;rft.au=Satran%2C+Michael&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fmsix%2Fpackaging-tool%2Fbundle-msix-packages&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFVera2023\" class=\"citation web cs1\">Vera (June 26, 2023) [April 14, 2023]. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.minitool.com/news/install-msixbundle-windows.html\">\"How to Install MSIXBundle on Windows 10/11? 2 Ways to Try!\"</a>. <i>MiniTool</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230821073637/https://www.minitool.com/news/install-msixbundle-windows.html\">Archived</a> from the original on August 21, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 13,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MiniTool&amp;rft.atitle=How+to+Install+MSIXBundle+on+Windows+10%2F11%3F+2+Ways+to+Try%21&amp;rft.date=2023-06-26&amp;rft.au=Vera&amp;rft&#95;id=https%3A%2F%2Fwww.minitool.com%2Fnews%2Finstall-msixbundle-windows.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/previous-versions/windows/apps/hh464929(v=win.10)?redirectedfrom=MSDN\">\"App packages and deployment (Windows Store apps) (Windows)\"</a>. <i>Microsoft Learn</i>. October 19, 2021 [October 6, 2015]. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140330050737/http://msdn.microsoft.com/en-us/library/windows/apps/hh464929.aspx\">Archived</a> from the original on March 30, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">April 5,</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Learn&amp;rft.atitle=App+packages+and+deployment+%28Windows+Store+apps%29+%28Windows%29&amp;rft.date=2021-10-19&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fprevious-versions%2Fwindows%2Fapps%2Fhh464929%28v%3Dwin.10%29%3Fredirectedfrom%3DMSDN&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBellis2019\" class=\"citation web cs1\">Bellis, Mary (October 4, 2019). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.thoughtco.com/unusual-history-of-microsoft-windows-1992140\">\"The Unusual History of Microsoft Windows\"</a>. <i>ThoughtCo</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200314052249/http://inventors.about.com/od/mstartinventions/a/Windows.htm?rd=1\">Archived</a> from the original on March 14, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 13,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ThoughtCo&amp;rft.atitle=The+Unusual+History+of+Microsoft+Windows&amp;rft.date=2019-10-04&amp;rft.aulast=Bellis&amp;rft.aufirst=Mary&amp;rft&#95;id=https%3A%2F%2Fwww.thoughtco.com%2Funusual-history-of-microsoft-windows-1992140&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:1-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:1_16-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>:1</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-pc-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-pc_17-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-202504-202604\">\"Desktop Operating System Market Share Worldwide\"</a>. <i>StatCounter Global Stats</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20231002223546/https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-202504-202604\">Archived</a> from the original on October 2, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 4,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=StatCounter+Global+Stats&amp;rft.atitle=Desktop+Operating+System+Market+Share+Worldwide&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2Fos-market-share%2Fdesktop%2Fworldwide%2F%23monthly-202504-202604&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKeizer2014\" class=\"citation web cs1\">Keizer, Gregg (July 14, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.computerworld.com/article/2490008/microsoft-gets-real--admits-its-device-share-is-just-14-.html\">\"Microsoft gets real, admits its device share is just 14%\"</a>. <i><a href=\"/wiki/Computerworld\" title=\"Computerworld\">Computerworld</a></i>. <a href=\"/wiki/IDG\" class=\"mw-redirect\" title=\"IDG\">IDG</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160821210826/http://www.computerworld.com/article/2490008/microsoft-windows/microsoft-gets-real--admits-its-device-share-is-just-14-.html\">Archived</a> from the original on August 21, 2016. <q>[Microsoft's chief operating officer] Turner's 14% came from a new forecast released last week by Gartner, which estimated Windows' share of the shipped device market last year was 14%, and would decrease slightly to 13.7% in 2014. Android will dominate, Gartner said, with a 48% share this year</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Computerworld&amp;rft.atitle=Microsoft+gets+real%2C+admits+its+device+share+is+just+14%25&amp;rft.date=2014-07-14&amp;rft.aulast=Keizer&amp;rft.aufirst=Gregg&amp;rft&#95;id=https%3A%2F%2Fwww.computerworld.com%2Farticle%2F2490008%2Fmicrosoft-gets-real--admits-its-device-share-is-just-14-.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-19\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/windows-version-market-share/desktop/worldwide/#monthly-202505-202605\">\"Desktop Windows Version Market Share Worldwide\"</a>. <i>StatCounter Global Stats</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190420180627/http://gs.statcounter.com/windows-version-market-share/desktop/worldwide#monthly-202505-202605\">Archived</a> from the original on April 20, 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 3,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=StatCounter+Global+Stats&amp;rft.atitle=Desktop+Windows+Version+Market+Share+Worldwide&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2Fwindows-version-market-share%2Fdesktop%2Fworldwide%2F%23monthly-202505-202605&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft+Windows\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐rx48g\nCached time: 20260918180828\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.675 seconds\nReal time usage: 0.894 seconds\nPreprocessor visited node count: 4812/1000000\nRevision size: 8646/2097152 bytes\nPost‐expand include size: 107680/2097152 bytes\nTemplate argument size: 18663/2097152 bytes\nHighest expansion depth: 28/100\nExpensive parser function count: 10/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 46098/5000000 bytes\nLua time usage: 0.380/10.000 seconds\nLua memory usage: 8960821/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  847.603      1 -total\n 38.07%  322.675      1 Template:Infobox_OS\n 34.88%  295.623      1 Template:Infobox\n 25.59%  216.943     18 Template:Cite_web\n 14.30%  121.244      2 Template:Short_description\n  9.51%   80.613      4 Template:Pagetype\n  9.32%   78.985     10 Template:Start_date_and_age\n  6.68%   56.591      1 Template:Latest_preview_software_release/Windows_11\n  6.33%   53.668      1 Template:Unbulleted_indent_list\n  5.83%   49.381      7 Template:LPR\n-->\n\n<!-- Render ID f2c4bed9-b38b-11f1-bf61-dd22b203f3b6 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Window",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "APPX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture family",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "App Installer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bundling of Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Commercial software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computerworld",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DEC Alpha",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphical user interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hybrid kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IDG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Itanium",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIPS architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MS-DOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Market share",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Store",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Original equipment manufacturer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Package manager",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Personal computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PowerPC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Retail",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Shared Source Initiative",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source-available software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Usage share of operating systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VMM32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windowing system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows 1.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows 11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows 3.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows 9x",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Embedded Compact",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Installer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows IoT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Mobile",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows NT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Package Manager",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Phone",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Server Update Services",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Update",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows editions",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Computer operating system",
+          "wikibase_item": "Q1406"
+        }
+      }
+    }
+  ]
+}

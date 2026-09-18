@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "PyPy",
+    "url": "https://en.wikipedia.org/wiki/PyPy",
+    "summary": "Alternative implementation of the Python programming language Not to be confused with PyPI , the Python official third-party software repository. PyPy Release Mid 2007 ; 19 years ago ( 2007 ) Stable release 7.3.23 (27 May 2026 ; 3 months ago ( 27 May 2026 ) ) Written in RPython Operating system Cross-platform Type Python interpreter and compiler toolchain License MIT Website pypy .org Repository github .com /pypy /pypy PyPy ( / ˈ p aɪ p aɪ / ) is an implementation of the Python programming language . PyPy frequently runs much faster than the standard implementation CPython because PyPy uses a just-in-time compiler . Most Python code runs well on PyPy except for code that depends on CPython extensions, which either does not work or incurs some overhead when run in PyPy. PyPy itself is built using a technique known as meta-tracing , which is a mostly automatic transformation that takes an interpreter as input and produces a tracing just-in-time compiler as output. Since interpreters are usually easier to write than compilers , but run slower, this technique can make it easier to produce efficient implementations of programming languages. PyPy's meta-tracing toolchain is called RPython . PyPy officially supports Python 2.7 and 3.11 and has a few differences in implementations compared to CPython. ^ \"PyPy v7.3.23 release\" . ^ \"Interview Maciej Fijalkowski PyPy\" . 29 November 2015. ^ \"PyPy Speed\" . speed.pypy.org . Retrieved 2019-12-01 . ^ \"PyPy\" . 30 December 2024. ^ \"Differences between PyPy and CPython — PyPy documentation\" . 30 December 2024.",
+    "text": "Alternative implementation of the Python programming language Not to be confused with PyPI , the Python official third-party software repository. PyPy Release Mid 2007 ; 19 years ago ( 2007 ) Stable release 7.3.23 (27 May 2026 ; 3 months ago ( 27 May 2026 ) ) Written in RPython Operating system Cross-platform Type Python interpreter and compiler toolchain License MIT Website pypy .org Repository github .com /pypy /pypy PyPy ( / ˈ p aɪ p aɪ / ) is an implementation of the Python programming language . PyPy frequently runs much faster than the standard implementation CPython because PyPy uses a just-in-time compiler . Most Python code runs well on PyPy except for code that depends on CPython extensions, which either does not work or incurs some overhead when run in PyPy. PyPy itself is built using a technique known as meta-tracing , which is a mostly automatic transformation that takes an interpreter as input and produces a tracing just-in-time compiler as output. Since interpreters are usually easier to write than compilers , but run slower, this technique can make it easier to produce efficient implementations of programming languages. PyPy's meta-tracing toolchain is called RPython . PyPy officially supports Python 2.7 and 3.11 and has a few differences in implementations compared to CPython. ^ \"PyPy v7.3.23 release\" . ^ \"Interview Maciej Fijalkowski PyPy\" . 29 November 2015. ^ \"PyPy Speed\" . speed.pypy.org . Retrieved 2019-12-01 . ^ \"PyPy\" . 30 December 2024. ^ \"Differences between PyPy and CPython — PyPy documentation\" . 30 December 2024.",
+    "links": [
+      "CPython",
+      "Compiler",
+      "Cross-platform",
+      "Implementation",
+      "Interpreter (computing)",
+      "Just-in-time compilation",
+      "MIT License",
+      "Meta-tracing",
+      "Operating system",
+      "Programming language",
+      "PyPI",
+      "Python (programming language)",
+      "Repository (version control)",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Toolchain",
+      "Tracing just-in-time compilation"
+    ],
+    "page_id": 2564605,
+    "revision_id": 1369320507,
+    "retrieved_at": "2026-09-18T18:09:58.144244+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260814071111|1369320432",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 2564605,
+            "ns": 0,
+            "title": "PyPy",
+            "revisions": [
+              {
+                "revid": 1369320507,
+                "parentid": 1369320432
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Pypy-logo_(2020).svg",
+              "wikibase-shortdesc": "Alternative implementation of the Python programming language",
+              "wikibase_item": "Q1143023"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "PyPy",
+        "pageid": 2564605,
+        "revid": 1369320507,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Alternative implementation of the Python programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/PyPI\" class=\"mw-redirect\" title=\"PyPI\">PyPI</a>, the Python official third-party software repository.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">PyPy</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Pypy-logo_(2020).svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pypy-logo_%282020%29.svg/250px-Pypy-logo_%282020%29.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"118\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pypy-logo_%282020%29.svg/500px-Pypy-logo_%282020%29.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"242\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">Mid 2007<span class=\"noprint\">&#59;&#32;19&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2007</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">7.3.23<sup id=\"cite&#95;ref-wikidata-f370bb16615a69bff5db7c21c77a463ae35cbabb-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-f370bb16615a69bff5db7c21c77a463ae35cbabb-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1143023?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span> (27 May 2026<span class=\"noprint\">&#59;&#32;3 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">27 May 2026</span>)</span>)\n   </div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\">RPython</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a> interpreter and compiler <a href=\"/wiki/Toolchain\" title=\"Toolchain\">toolchain</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://pypy.org/\">pypy<wbr />.org</a></span>&#160;<span class=\"penicon autoconfirmed-show\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1143023?uselang=en#P856\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/pypy/pypy\">github<wbr />.com<wbr />/pypy<wbr />/pypy</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1143023#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>PyPy</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;p&#39; in &#39;pie&#39;\">p</span><span title=\"/aɪ/: &#39;i&#39; in &#39;tide&#39;\">aɪ</span><span title=\"&#39;p&#39; in &#39;pie&#39;\">p</span><span title=\"/aɪ/: &#39;i&#39; in &#39;tide&#39;\">aɪ</span></span>/</a></span></span>) is an implementation of the <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a>.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> PyPy frequently runs much faster than the standard <a href=\"/wiki/Implementation\" title=\"Implementation\">implementation</a> <a href=\"/wiki/CPython\" title=\"CPython\">CPython</a> because PyPy uses a <a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">just-in-time compiler</a>.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> Most Python code runs well on PyPy except for code that depends on CPython extensions, which either does not work or incurs some overhead when run in PyPy.\n</p><p>PyPy itself is built using a technique known as <a href=\"/wiki/Meta-tracing\" title=\"Meta-tracing\">meta-tracing</a>, which is a mostly automatic transformation that takes an <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a> as input and produces a <a href=\"/wiki/Tracing_just-in-time_compilation\" title=\"Tracing just-in-time compilation\">tracing just-in-time compiler</a> as output. Since interpreters are usually easier to write than <a href=\"/wiki/Compiler\" title=\"Compiler\">compilers</a>, but run slower, this technique can make it easier to produce efficient implementations of programming languages. PyPy's meta-tracing <a href=\"/wiki/Toolchain\" title=\"Toolchain\">toolchain</a> is called <a href=\"#RPython\">RPython</a>.\n</p><p>PyPy officially supports Python 2.7 and 3.11<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> and has a few differences in implementations compared to CPython.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-f370bb16615a69bff5db7c21c77a463ae35cbabb-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-f370bb16615a69bff5db7c21c77a463ae35cbabb-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://pypy.org/posts/2026/05/pypy-v7322-release.html\">\"PyPy v7.3.23 release\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PyPy+v7.3.23+release&amp;rft&#95;id=https%3A%2F%2Fpypy.org%2Fposts%2F2026%2F05%2Fpypy-v7322-release.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APyPy\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://decisionstats.com/2015/11/29/interview-maciej-fijalkowski-pypy/\">\"Interview Maciej Fijalkowski PyPy\"</a>. 29 November 2015.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Interview+Maciej+Fijalkowski+PyPy&amp;rft.date=2015-11-29&amp;rft&#95;id=https%3A%2F%2Fdecisionstats.com%2F2015%2F11%2F29%2Finterview-maciej-fijalkowski-pypy%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APyPy\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://speed.pypy.org/\">\"PyPy Speed\"</a>. <i>speed.pypy.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-12-01</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=speed.pypy.org&amp;rft.atitle=PyPy+Speed&amp;rft&#95;id=https%3A%2F%2Fspeed.pypy.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APyPy\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://pypy.org/index.html\">\"PyPy\"</a>. 30 December 2024.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PyPy&amp;rft.date=2024-12-30&amp;rft&#95;id=https%3A%2F%2Fpypy.org%2Findex.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APyPy\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.pypy.org/en/latest/cpython_differences.html\">\"Differences between PyPy and CPython — PyPy documentation\"</a>. 30 December 2024.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Differences+between+PyPy+and+CPython+%E2%80%94+PyPy+documentation&amp;rft.date=2024-12-30&amp;rft&#95;id=https%3A%2F%2Fdoc.pypy.org%2Fen%2Flatest%2Fcpython&#95;differences.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APyPy\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐v4rcz\nCached time: 20260918181023\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.450 seconds\nReal time usage: 0.594 seconds\nPreprocessor visited node count: 1409/1000000\nRevision size: 2297/2097152 bytes\nPost‐expand include size: 28111/2097152 bytes\nTemplate argument size: 4773/2097152 bytes\nHighest expansion depth: 24/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 15489/5000000 bytes\nLua time usage: 0.314/10.000 seconds\nLua memory usage: 7812995/52428800 bytes\nNumber of Wikibase entities loaded: 2/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  564.632      1 -total\n 67.21%  379.510      2 Template:Infobox\n 64.24%  362.712      1 Template:Infobox_software\n 38.92%  219.744     19 Template:If_empty\n 35.67%  201.414      1 Template:Infobox_software/simple\n 28.86%  162.942      1 Template:LSR/wikidata\n 28.20%  159.217      1 Template:LSR\n 27.38%  154.574      5 Template:Wikidata\n 17.46%   98.593      1 Template:Short_description\n  9.72%   54.871      2 Template:Pagetype\n-->\n\n<!-- Render ID 37505fca-b38c-11f1-ab86-3565ea99533e -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "CPython",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meta-tracing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PyPI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Toolchain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tracing just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Alternative implementation of the Python programming language",
+          "page_image_free": "Pypy-logo_(2020).svg",
+          "wikibase_item": "Q1143023"
+        }
+      }
+    }
+  ]
+}

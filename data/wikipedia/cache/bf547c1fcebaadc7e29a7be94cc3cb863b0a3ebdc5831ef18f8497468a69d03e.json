@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "CLU (programming language)",
+    "url": "https://en.wikipedia.org/wiki/CLU_%28programming_language%29",
+    "summary": "Class-based programming language This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"CLU\" programming language – news · newspapers · books · scholar · JSTOR ( February 2013 ) ( Learn how and when to remove this message ) CLU Paradigm Multi-paradigm : class-based , procedural Designed by Barbara Liskov and her students Developer Massachusetts Institute of Technology First appeared 1975 ; 51 years ago ( 1975 ) Stable release Native CLU 1.5 ( SPARC , VAX ) / May 26, 1989 ; 37 years ago ( 1989-05-26 ) Portable CLU / November 6, 2009 ; 16 years ago ( 2009-11-06 ) Typing discipline Strong Website pmg .csail .mit .edu /CLU .html Major implementations PDP-10 CLU, Native CLU, Portable CLU, clu2c Influenced by ALGOL 60 , Lisp , Simula , Alphard Influenced Ada , Argus , C++ , Lua , Python , Ruby , Sather , Swift CLU is a class-based programming language created at the Massachusetts Institute of Technology (MIT) by Barbara Liskov and her students starting in 1973. While it did not find extensive use, it introduced many features that are used widely now, and is seen as a step in the development of object-oriented programming (OOP). Key contributions include abstract data types , call-by-sharing , iterators , multiple return values (a form of parallel assignment ), type-safe parameterized types , and type-safe variant types . It is also notable for its use of classes with constructors and methods, but without inheritance . ^ a b Curtis, Dorothy (2009-11-06). \"CLU home page\" . Programming Methodology Group, Computer Science and Artificial Intelligence Laboratory . Massachusetts Institute of Technology . Retrieved 2016-05-26 . ^ a b Curtis, Dorothy (2009-11-06). \"Index of /pub/pclu\" . Programming Methodology Group, Computer Science and Artificial Intelligence Laboratory . Massachusetts Institute of Technology. Archived from the original on 2021-06-21 . Retrieved 2016-05-26 . ^ \"CLU files, 1976–1989\" . Tapes of Tech Square (ToTS) collection, MC-0741 . Department of Distinctive Collections, Massachusetts Institute of Technology. swh:1:dir:5dc935d1c236b15a99b0750cf236b2d89ec951d0 . ^ Ushijima, Tetsu. \"clu2c\" . clu2c . woodsheep.jp . Retrieved 2016-05-26 . ^ Stroustrup, Bjarne (1996). A History of C++: 1979--1991 . New York, NY, USA: Association for Computing Machinery. pp. 699– 769. doi : 10.1145/234286.1057836 . Retrieved 25 March 2022 . ^ Lundh, Fredrik. \"Call By Object\" . effbot.org . Archived from the original on 23 November 2019 . Retrieved 21 November 2017 . replace \"CLU\" with \"Python\", \"record\" with \"instance\", and \"procedure\" with \"function or method\", and you get a pretty accurate description of Python's object model. ^ Lattner, Chris (2014-06-03). \"Chris Lattner's Homepage\" . Chris Lattner . Retrieved 2014-06-03 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ Liskov, Barbara (1992). \"A history of CLU\". The second ACM SIGPLAN conference on History of programming languages. ^ Liskov, Barbara ; Zilles, Stephen (1974). \"Programming with abstract data types\". Proceedings of the ACM SIGPLAN symposium on Very high level languages . pp. 50– 59. CiteSeerX 10.1.1.136.3043 . doi : 10.1145/800233.807045 . {{ cite conference }} : Cite uses deprecated parameter |citeseerx= ( help )",
+    "text": "Class-based programming language This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"CLU\" programming language – news · newspapers · books · scholar · JSTOR ( February 2013 ) ( Learn how and when to remove this message ) CLU Paradigm Multi-paradigm : class-based , procedural Designed by Barbara Liskov and her students Developer Massachusetts Institute of Technology First appeared 1975 ; 51 years ago ( 1975 ) Stable release Native CLU 1.5 ( SPARC , VAX ) / May 26, 1989 ; 37 years ago ( 1989-05-26 ) Portable CLU / November 6, 2009 ; 16 years ago ( 2009-11-06 ) Typing discipline Strong Website pmg .csail .mit .edu /CLU .html Major implementations PDP-10 CLU, Native CLU, Portable CLU, clu2c Influenced by ALGOL 60 , Lisp , Simula , Alphard Influenced Ada , Argus , C++ , Lua , Python , Ruby , Sather , Swift CLU is a class-based programming language created at the Massachusetts Institute of Technology (MIT) by Barbara Liskov and her students starting in 1973. While it did not find extensive use, it introduced many features that are used widely now, and is seen as a step in the development of object-oriented programming (OOP). Key contributions include abstract data types , call-by-sharing , iterators , multiple return values (a form of parallel assignment ), type-safe parameterized types , and type-safe variant types . It is also notable for its use of classes with constructors and methods, but without inheritance . ^ a b Curtis, Dorothy (2009-11-06). \"CLU home page\" . Programming Methodology Group, Computer Science and Artificial Intelligence Laboratory . Massachusetts Institute of Technology . Retrieved 2016-05-26 . ^ a b Curtis, Dorothy (2009-11-06). \"Index of /pub/pclu\" . Programming Methodology Group, Computer Science and Artificial Intelligence Laboratory . Massachusetts Institute of Technology. Archived from the original on 2021-06-21 . Retrieved 2016-05-26 . ^ \"CLU files, 1976–1989\" . Tapes of Tech Square (ToTS) collection, MC-0741 . Department of Distinctive Collections, Massachusetts Institute of Technology. swh:1:dir:5dc935d1c236b15a99b0750cf236b2d89ec951d0 . ^ Ushijima, Tetsu. \"clu2c\" . clu2c . woodsheep.jp . Retrieved 2016-05-26 . ^ Stroustrup, Bjarne (1996). A History of C++: 1979--1991 . New York, NY, USA: Association for Computing Machinery. pp. 699– 769. doi : 10.1145/234286.1057836 . Retrieved 25 March 2022 . ^ Lundh, Fredrik. \"Call By Object\" . effbot.org . Archived from the original on 23 November 2019 . Retrieved 21 November 2017 . replace \"CLU\" with \"Python\", \"record\" with \"instance\", and \"procedure\" with \"function or method\", and you get a pretty accurate description of Python's object model. ^ Lattner, Chris (2014-06-03). \"Chris Lattner's Homepage\" . Chris Lattner . Retrieved 2014-06-03 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ Liskov, Barbara (1992). \"A history of CLU\". The second ACM SIGPLAN conference on History of programming languages. ^ Liskov, Barbara ; Zilles, Stephen (1974). \"Programming with abstract data types\". Proceedings of the ACM SIGPLAN symposium on Very high level languages . pp. 50– 59. CiteSeerX 10.1.1.136.3043 . doi : 10.1145/800233.807045 . {{ cite conference }} : Cite uses deprecated parameter |citeseerx= ( help )",
+    "links": [
+      "ALGOL 60",
+      "Abstract data type",
+      "Ada (programming language)",
+      "Alphard (programming language)",
+      "Argus (programming language)",
+      "Barbara Liskov",
+      "C++",
+      "Call-by-sharing",
+      "CiteSeerX (identifier)",
+      "Class (programming)",
+      "Class-based programming",
+      "Constructor (object-oriented programming)",
+      "Doi (identifier)",
+      "Inheritance (object-oriented programming)",
+      "Iterator",
+      "Lisp (programming language)",
+      "Lua",
+      "Massachusetts Institute of Technology",
+      "Multi-paradigm programming language",
+      "Object-oriented programming",
+      "Parallel assignment",
+      "Parameterized type",
+      "Procedural programming",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Python (programming language)",
+      "Ruby (programming language)",
+      "SPARC",
+      "Sather",
+      "Simula",
+      "Software design",
+      "Software developer",
+      "Software release life cycle",
+      "Strong typing",
+      "Swift (programming language)",
+      "Type system",
+      "VAX",
+      "Variant type"
+    ],
+    "page_id": 7575,
+    "revision_id": 1359705090,
+    "retrieved_at": "2026-09-18T18:07:48.005866+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260608025111|1358340745",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 7575,
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "revisions": [
+              {
+                "revid": 1359705090,
+                "parentid": 1358340745
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Clu (programming language)",
+              "wikibase-shortdesc": "Class-based programming language",
+              "wikibase_item": "Q775159"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "CLU (programming language)",
+        "pageid": 7575,
+        "revid": 1359705090,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Class-based programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/CLU_(programming_language)\" title=\"Special:EditPage/CLU (programming language)\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22CLU%22+programming+language\">\"CLU\"&#160;programming language</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22CLU%22+programming+language+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22CLU%22+programming+language&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22CLU%22+programming+language+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22CLU%22+programming+language\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22CLU%22+programming+language&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">February 2013</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">CLU</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Class-based_programming\" class=\"mw-redirect\" title=\"Class-based programming\">class-based</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Barbara_Liskov\" title=\"Barbara Liskov\">Barbara Liskov</a> and her students</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Massachusetts_Institute_of_Technology\" title=\"Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1975<span class=\"noprint\">&#59;&#32;51&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1975</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Native CLU 1.5 (<a href=\"/wiki/SPARC\" title=\"SPARC\">SPARC</a>, <a href=\"/wiki/VAX\" title=\"VAX\">VAX</a>) / May&#160;26, 1989<span class=\"noprint\">&#59;&#32;37 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1989-05-26</span>)</span><sup id=\"cite&#95;ref-Native&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Native-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><br />\n<p>Portable CLU / November&#160;6, 2009<span class=\"noprint\">&#59;&#32;16 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2009-11-06</span>)</span><sup id=\"cite&#95;ref-Portable&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Portable-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n   </div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">Strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://pmg.csail.mit.edu/CLU.html\">pmg<wbr />.csail<wbr />.mit<wbr />.edu<wbr />/CLU<wbr />.html</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">PDP-10 CLU,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> Native CLU,<sup id=\"cite&#95;ref-Native&#95;1-1\" class=\"reference\"><a href=\"#cite_note-Native-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Portable CLU,<sup id=\"cite&#95;ref-Portable&#95;2-1\" class=\"reference\"><a href=\"#cite_note-Portable-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> clu2c<sup id=\"cite&#95;ref-clu2c&#95;4-0\" class=\"reference\"><a href=\"#cite_note-clu2c-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ALGOL_60\" title=\"ALGOL 60\">ALGOL 60</a>, <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>, <a href=\"/wiki/Simula\" title=\"Simula\">Simula</a>, <a href=\"/wiki/Alphard_(programming_language)\" title=\"Alphard (programming language)\">Alphard</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/Argus_(programming_language)\" title=\"Argus (programming language)\">Argus</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>,<sup id=\"cite&#95;ref-history-of-cpp&#95;5-0\" class=\"reference\"><a href=\"#cite_note-history-of-cpp-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Lua\" title=\"Lua\">Lua</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>,<sup id=\"cite&#95;ref-effbot-call-by-object&#95;6-0\" class=\"reference\"><a href=\"#cite_note-effbot-call-by-object-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/Sather\" title=\"Sather\">Sather</a>, <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a><sup id=\"cite&#95;ref-lattner2014&#95;7-0\" class=\"reference\"><a href=\"#cite_note-lattner2014-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table>\n<p><b>CLU</b> is a <a href=\"/wiki/Class-based_programming\" class=\"mw-redirect\" title=\"Class-based programming\">class-based</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> created at the <a href=\"/wiki/Massachusetts_Institute_of_Technology\" title=\"Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a> (MIT) by <a href=\"/wiki/Barbara_Liskov\" title=\"Barbara Liskov\">Barbara Liskov</a> and her students starting in 1973.<sup id=\"cite&#95;ref-History&#95;8-0\" class=\"reference\"><a href=\"#cite_note-History-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> While it did not find extensive use, it introduced many features that are used widely now, and is seen as a step in the development of <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a> (OOP).\n</p><p>Key contributions include <a href=\"/wiki/Abstract_data_type\" title=\"Abstract data type\">abstract data types</a>,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Call-by-sharing\" class=\"mw-redirect\" title=\"Call-by-sharing\">call-by-sharing</a>, <a href=\"/wiki/Iterator\" title=\"Iterator\">iterators</a>, multiple return values (a form of <a href=\"/wiki/Parallel_assignment\" class=\"mw-redirect\" title=\"Parallel assignment\">parallel assignment</a>), type-safe <a href=\"/wiki/Parameterized_type\" class=\"mw-redirect\" title=\"Parameterized type\">parameterized types</a>, and type-safe <a href=\"/wiki/Variant_type\" class=\"mw-redirect\" title=\"Variant type\">variant types</a>. It is also notable for its use of <a href=\"/wiki/Class_(programming)\" title=\"Class (programming)\">classes</a> with <a href=\"/wiki/Constructor_(object-oriented_programming)\" title=\"Constructor (object-oriented programming)\">constructors</a> and methods, but without <a href=\"/wiki/Inheritance_(object-oriented_programming)\" title=\"Inheritance (object-oriented programming)\">inheritance</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Native-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Native_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Native_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFCurtis2009\" class=\"citation web cs1\">Curtis, Dorothy (2009-11-06). <a rel=\"nofollow\" class=\"external text\" href=\"http://pmg.csail.mit.edu/~dcurtis/clu/\">\"CLU home page\"</a>. <i>Programming Methodology Group, Computer Science and Artificial Intelligence Laboratory</i>. Massachusetts Institute of Technology<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-05-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Programming+Methodology+Group%2C+Computer+Science+and+Artificial+Intelligence+Laboratory&amp;rft.atitle=CLU+home+page&amp;rft.date=2009-11-06&amp;rft.aulast=Curtis&amp;rft.aufirst=Dorothy&amp;rft&#95;id=http%3A%2F%2Fpmg.csail.mit.edu%2F~dcurtis%2Fclu%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Portable-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Portable_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Portable_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFCurtis2009\" class=\"citation web cs1\">Curtis, Dorothy (2009-11-06). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210621151848/ftp://ftp.lcs.mit.edu/pub/pclu\">\"Index of /pub/pclu\"</a>. <i>Programming Methodology Group, Computer Science and Artificial Intelligence Laboratory</i>. Massachusetts Institute of Technology. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"ftp://ftp.lcs.mit.edu/pub/pclu\">the original</a> on 2021-06-21<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-05-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Programming+Methodology+Group%2C+Computer+Science+and+Artificial+Intelligence+Laboratory&amp;rft.atitle=Index+of+%2Fpub%2Fpclu&amp;rft.date=2009-11-06&amp;rft.aulast=Curtis&amp;rft.aufirst=Dorothy&amp;rft&#95;id=ftp%3A%2F%2Fftp.lcs.mit.edu%2Fpub%2Fpclu&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/MITDDC/clu-1976-1989\">\"CLU files, 1976–1989\"</a>. <i>Tapes of Tech Square (ToTS) collection, MC-0741</i>. Department of Distinctive Collections, Massachusetts Institute of Technology. <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.softwareheritage.org/swh:1:dir:5dc935d1c236b15a99b0750cf236b2d89ec951d0\">swh:1:dir:5dc935d1c236b15a99b0750cf236b2d89ec951d0</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Tapes+of+Tech+Square+%28ToTS%29+collection%2C+MC-0741&amp;rft.atitle=CLU+files%2C+1976%E2%80%931989&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FMITDDC%2Fclu-1976-1989&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-clu2c-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-clu2c_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFUshijima\" class=\"citation web cs1\">Ushijima, Tetsu. <a rel=\"nofollow\" class=\"external text\" href=\"https://woodsheep.jp/clu2c.html\">\"clu2c\"</a>. <i>clu2c</i>. woodsheep.jp<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-05-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=clu2c&amp;rft.atitle=clu2c&amp;rft.aulast=Ushijima&amp;rft.aufirst=Tetsu&amp;rft&#95;id=https%3A%2F%2Fwoodsheep.jp%2Fclu2c.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-history-of-cpp-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-history-of-cpp_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrup1996\" class=\"citation book cs1\">Stroustrup, Bjarne (1996). <a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145/234286.1057836\"><i>A History of C++: 1979--1991</i></a>. New York, NY, USA: Association for Computing Machinery. pp.&#160;<span class=\"nowrap\">699–</span>769. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F234286.1057836\">10.1145/234286.1057836</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 March</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+History+of+C%2B%2B%3A+1979--1991&amp;rft.place=New+York%2C+NY%2C+USA&amp;rft.pages=699-769&amp;rft.pub=Association+for+Computing+Machinery&amp;rft.date=1996&amp;rft&#95;id=info%3Adoi%2F10.1145%2F234286.1057836&amp;rft.aulast=Stroustrup&amp;rft.aufirst=Bjarne&amp;rft&#95;id=https%3A%2F%2Fdoi.org%2F10.1145%2F234286.1057836&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-effbot-call-by-object-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-effbot-call-by-object_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLundh\" class=\"citation web cs1\">Lundh, Fredrik. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20191123043655/http://effbot.org/zone/call-by-object.htm\">\"Call By Object\"</a>. <i>effbot.org</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://effbot.org/zone/call-by-object.htm\">the original</a> on 23 November 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 November</span> 2017</span>. <q>replace \"CLU\" with \"Python\", \"record\" with \"instance\", and \"procedure\" with \"function or method\", and you get a pretty accurate description of Python's object model.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=effbot.org&amp;rft.atitle=Call+By+Object&amp;rft.aulast=Lundh&amp;rft.aufirst=Fredrik&amp;rft&#95;id=http%3A%2F%2Feffbot.org%2Fzone%2Fcall-by-object.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-lattner2014-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-lattner2014_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLattner2014\" class=\"citation web cs1\">Lattner, Chris (2014-06-03). <a rel=\"nofollow\" class=\"external text\" href=\"https://nondot.org/sabre/\">\"Chris Lattner's Homepage\"</a>. Chris Lattner<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-06-03</span></span>. <q>The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chris+Lattner%27s+Homepage&amp;rft.pub=Chris+Lattner&amp;rft.date=2014-06-03&amp;rft.aulast=Lattner&amp;rft.aufirst=Chris&amp;rft&#95;id=https%3A%2F%2Fnondot.org%2Fsabre%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-History-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-History_8-0\">^</a></b></span> <span class=\"reference-text\">Liskov, Barbara (1992). \"A history of CLU\". The second ACM SIGPLAN conference on History of programming languages.</span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLiskovZilles1974\" class=\"citation conference cs1\"><a href=\"/wiki/Barbara_Liskov\" title=\"Barbara Liskov\">Liskov, Barbara</a>; Zilles, Stephen (1974). \"Programming with abstract data types\". <i>Proceedings of the ACM SIGPLAN symposium on Very high level languages</i>. pp.&#160;<span class=\"nowrap\">50–</span>59. <a href=\"/wiki/CiteSeerX_(identifier)\" class=\"mw-redirect\" title=\"CiteSeerX (identifier)\">CiteSeerX</a>&#160;<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.136.3043\">10.1.1.136.3043</a></span>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F800233.807045\">10.1145/800233.807045</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=Programming+with+abstract+data+types&amp;rft.btitle=Proceedings+of+the+ACM+SIGPLAN+symposium+on+Very+high+level+languages&amp;rft.pages=50-59&amp;rft.date=1974&amp;rft&#95;id=https%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.136.3043%23id-name%3DCiteSeerX&amp;rft&#95;id=info%3Adoi%2F10.1145%2F800233.807045&amp;rft.aulast=Liskov&amp;rft.aufirst=Barbara&amp;rft.au=Zilles%2C+Stephen&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACLU+%28programming+language%29\" class=\"Z3988\"></span> <span class=\"cs1-visible-error citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_conference\" title=\"Template:Cite conference\">cite conference</a>}}</code>: </span><span class=\"cs1-visible-error citation-comment\">Cite uses deprecated parameter <code class=\"cs1-code\">&#124;citeseerx=</code> (<a href=\"/wiki/Help:CS1_errors#deprecated_params\" title=\"Help:CS1 errors\">help</a>)</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐dhp29\nCached time: 20260918180813\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.264 seconds\nReal time usage: 0.347 seconds\nPreprocessor visited node count: 1582/1000000\nRevision size: 5345/2097152 bytes\nPost‐expand include size: 42709/2097152 bytes\nTemplate argument size: 4629/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 23972/5000000 bytes\nLua time usage: 0.174/10.000 seconds\nLua memory usage: 6006713/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  325.930      1 -total\n 34.96%  113.934      6 Template:Cite_web\n 30.00%   97.769      2 Template:Infobox\n 24.37%   79.427      1 Template:Infobox_programming_language\n 18.33%   59.738      1 Template:Short_description\n 16.04%   52.289      1 Template:More_citations_needed\n 14.76%   48.123      1 Template:Ambox\n 14.32%   46.678      1 Template:Infobox_software/simple\n 10.30%   33.555      2 Template:Pagetype\n  7.67%   24.998      3 Template:Start_date_and_age\n-->\n\n<!-- Render ID e9d3e7f3-b38b-11f1-9bbd-e514bb25eaa0 -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Cite conference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 60",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alphard (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Argus (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Barbara Liskov",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Call-by-sharing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CiteSeerX (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class-based programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Constructor (object-oriented programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inheritance (object-oriented programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Iterator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lua",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Massachusetts Institute of Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel assignment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parameterized type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sather",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VAX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Variant type",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:CS1 errors",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Class-based programming language",
+          "wikibase_item": "Q775159"
+        }
+      }
+    }
+  ]
+}

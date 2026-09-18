@@ -1,51 +1,59 @@
 {
   "dataset": "data/wikipedia/graph.ttl",
-  "sha256": "03c4679e66d6e3d36592916d72a6b0f509269159590c369e48e0ee2432c1b6b5",
+  "sha256": "81eacdf54bc482510e00b55640309c8d4f92f34abddf0dc53ffb7ba0e8ce5d32",
   "dataset_counts": {
     "status": "ok",
-    "entities": 100,
-    "assertions": 815,
-    "triples": 34400,
+    "entities": 300,
+    "assertions": 5113,
+    "triples": 105268,
     "source_kinds": [
       "wikipedia"
     ]
   },
   "platform": "Linux-6.12.88+deb13-amd64-x86_64-with-glibc2.41",
   "python": "3.13.5",
-  "cpu": "",
+  "cpu": "11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz",
+  "measured_at": "2026-09-18T18:11:39.747191+00:00",
+  "benchmark_script_sha256": "5503be50f9af696b57c113dbd7c02be9ae8058fa40ef4accfa12137975012a24",
   "logical_cpus": 8,
   "concurrency": 5,
   "requests_per_workload": 100,
-  "startup_seconds": 2.8778486429946497,
+  "startup_seconds": 8.568883905012626,
   "transport": "HTTP over loopback; fresh connection per request",
   "cache_note": "Application-cold first query; OS disk cache not cleared",
   "rate_limit": "Raised to 100000/minute only for benchmark",
   "workloads": {
     "search": {
-      "first_query_ms": 4.248437006026506,
-      "p50_ms": 7.461524975951761,
-      "p95_ms": 11.35525299469009,
-      "p99_ms": 16.599041991867125,
-      "max_ms": 17.50562700908631,
-      "throughput_requests_per_second": 572.3562202337715
+      "first_query_ms": 4.5694160216953605,
+      "p50_ms": 12.143423984525725,
+      "p95_ms": 20.970788988051936,
+      "p99_ms": 25.136393000138924,
+      "max_ms": 25.909957010298967,
+      "throughput_requests_per_second": 356.02492109121584
     },
     "neighbors": {
-      "first_query_ms": 3.0305729887913913,
-      "p50_ms": 13.111965992720798,
-      "p95_ms": 31.47588999127038,
-      "p99_ms": 33.64285998395644,
-      "max_ms": 37.79172801296227,
-      "throughput_requests_per_second": 308.6064560455636
+      "first_query_ms": 2.790783008094877,
+      "p50_ms": 7.175638020271435,
+      "p95_ms": 9.93529098923318,
+      "p99_ms": 10.996013006661087,
+      "max_ms": 11.986469995463267,
+      "throughput_requests_per_second": 648.2750936836811
     },
     "path": {
-      "first_query_ms": 3.2702280150260776,
-      "p50_ms": 7.906376995379105,
-      "p95_ms": 11.760261986637488,
-      "p99_ms": 12.485334009397775,
-      "max_ms": 13.657909992616624,
-      "throughput_requests_per_second": 554.4338711434524
+      "first_query_ms": 4.820446978555992,
+      "p50_ms": 27.758846001233906,
+      "p95_ms": 35.59145997860469,
+      "p99_ms": 37.41205800906755,
+      "max_ms": 40.913748991442844,
+      "throughput_requests_per_second": 168.33172015880353
     }
   },
-  "server_peak_rss_kib": 139544,
-  "limitations": "One local run on a 100-page graph, not the planned 300-page release gate; no WAN or sustained-load claim."
+  "server_peak_rss_kib": 288940,
+  "limitations": "One local loopback run with a fixed workload; no WAN or sustained-load claim.",
+  "release_latency_gate": {
+    "required_pages": 300,
+    "required_concurrency": 5,
+    "target_p95_ms": 300,
+    "passed": true
+  }
 }

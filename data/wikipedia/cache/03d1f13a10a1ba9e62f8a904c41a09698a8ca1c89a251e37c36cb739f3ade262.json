@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Zig (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Zig_%28programming_language%29",
+    "summary": "General-purpose programming language This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Zig\" programming language – news · newspapers · books · scholar · JSTOR ( October 2025 ) ( Learn how and when to remove this message ) Some of this article's listed sources may not be reliable . Please help improve this article by looking for better, more reliable sources. Unreliable citations may be challenged and removed. ( September 2025 ) ( Learn how and when to remove this message ) This article contains promotional content . Please help improve it by removing promotional language and inappropriate external links , and by adding encyclopedic text written from a neutral point of view . See our advice if the article is about you and read our scam warning in case someone asks for money to edit this article. ( December 2025 ) ( Learn how and when to remove this message ) This article needs to be updated . The reason given is: info and examples are for older versions . Please help update this article to reflect recent events or newly available information. ( April 2026 ) ( Learn how and when to remove this message ) Zig Paradigms Multi-paradigm : imperative , concurrent , procedural , functional Designed by Andrew Kelley First appeared 8 February 2016 ; 10 years ago ( 2016-02-08 ) Stable release 0.16 ( Beta ) / 14 April 2026 ; 5 months ago ( 14 April 2026 ) Typing discipline Static , strong , inferred , nominal , generic Memory management Manual Implementation language Zig Platform x86-64 , ARM64 , WebAssembly Tier 2: ARM , IA-32 , RISC-V , MIPS64 , POWERPC64 , SPARC64 , some tier-2 platforms have tier-1 support for standalone programs OS Cross-platform : Linux , macOS , FreeBSD , Windows License MIT Filename extensions .zig, .zir, .zigr, .zon Website ziglang .org Influenced by C , C++ , LLVM IR , Go , Rust Zig is a system programming language designed to be a general-purpose improvement to the C programming language . It is free and open-source software , released under an MIT License on Codeberg , a source-code sharing platform. Differences with C relate to control flow , function calls , library imports, variable declaration and Unicode support. The language makes no use of macros or preprocessor instructions. Features adopted from modern languages include the addition of compile time generic data types , allowing functions to work on a variety of data, along with a small set of new compiler directives to allow access to the information about those types using reflection . Zig requires manual memory management . Features for low-level programming include packed structs , arbitrary-width integers and multiple pointer types. Zig was designed by Andrew Kelley and first announced in 2016. Development is funded by the Zig Software Foundation (ZSF) which receives corporate sponsorships as well as personal donations. ^ a b Kelley, Andrew (8 February 2016). \"Introduction to the Zig Programming Language\" . andrewkelley.me . Retrieved 8 November 2020 . ^ \"0.16.0 Released\" . 14 April 2026 . Retrieved 14 April 2026 . ^ \"Why Zig when There is Already C++, D, and Rust? ⚡ Zig Programming Language\" . ^ \"No surprises on any system: Q&A with Loris Cro of Zig - Stack Overflow\" . 2 October 2023. ^ \"What's Zig got that C, Rust and Go don't have? (With Loris Cro)\" . YouTube . 15 November 2023. ^ \"Overview ⚡ Zig Programming Language\" . ^ \"After a day of programming in Zig\" . 29 December 2023. Archived from the original on 11 February 2025 . Retrieved 31 December 2024 . ^ \"Taking the warts off C, with Andrew Kelley, creator of the Zig programming language\" . Sourcegraph . 19 October 2021. Archived from the original on 5 January 2025 . Retrieved 18 April 2024 . ^ \"ziglang/zig\" . Codeberg . Retrieved 11 February 2020 . ^ a b \"The Zig Programming Language\" . Ziglang.org . Retrieved 11 February 2020 . ^ Anderson, Tim (24 April 2020). \"Keen to go _ExtInt? LLVM Clang compiler adds support for custom width integers\" . www.theregister.co.uk . Retrieved 30 December 2024 . ^ \"Documentation\" . Ziglang.org . Retrieved 24 April 2020 . ^ \"Announcing the Zig Software Foundation\" . Ziglang.org . Retrieved 28 May 2021 . ^ \"Pledging Another $400,000 to the Zig Software Foundation\" . Mitchell Hashimoto . 21 June 2026 . Retrieved 7 July 2026 .",
+    "text": "General-purpose programming language This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Zig\" programming language – news · newspapers · books · scholar · JSTOR ( October 2025 ) ( Learn how and when to remove this message ) Some of this article's listed sources may not be reliable . Please help improve this article by looking for better, more reliable sources. Unreliable citations may be challenged and removed. ( September 2025 ) ( Learn how and when to remove this message ) This article contains promotional content . Please help improve it by removing promotional language and inappropriate external links , and by adding encyclopedic text written from a neutral point of view . See our advice if the article is about you and read our scam warning in case someone asks for money to edit this article. ( December 2025 ) ( Learn how and when to remove this message ) This article needs to be updated . The reason given is: info and examples are for older versions . Please help update this article to reflect recent events or newly available information. ( April 2026 ) ( Learn how and when to remove this message ) Zig Paradigms Multi-paradigm : imperative , concurrent , procedural , functional Designed by Andrew Kelley First appeared 8 February 2016 ; 10 years ago ( 2016-02-08 ) Stable release 0.16 ( Beta ) / 14 April 2026 ; 5 months ago ( 14 April 2026 ) Typing discipline Static , strong , inferred , nominal , generic Memory management Manual Implementation language Zig Platform x86-64 , ARM64 , WebAssembly Tier 2: ARM , IA-32 , RISC-V , MIPS64 , POWERPC64 , SPARC64 , some tier-2 platforms have tier-1 support for standalone programs OS Cross-platform : Linux , macOS , FreeBSD , Windows License MIT Filename extensions .zig, .zir, .zigr, .zon Website ziglang .org Influenced by C , C++ , LLVM IR , Go , Rust Zig is a system programming language designed to be a general-purpose improvement to the C programming language . It is free and open-source software , released under an MIT License on Codeberg , a source-code sharing platform. Differences with C relate to control flow , function calls , library imports, variable declaration and Unicode support. The language makes no use of macros or preprocessor instructions. Features adopted from modern languages include the addition of compile time generic data types , allowing functions to work on a variety of data, along with a small set of new compiler directives to allow access to the information about those types using reflection . Zig requires manual memory management . Features for low-level programming include packed structs , arbitrary-width integers and multiple pointer types. Zig was designed by Andrew Kelley and first announced in 2016. Development is funded by the Zig Software Foundation (ZSF) which receives corporate sponsorships as well as personal donations. ^ a b Kelley, Andrew (8 February 2016). \"Introduction to the Zig Programming Language\" . andrewkelley.me . Retrieved 8 November 2020 . ^ \"0.16.0 Released\" . 14 April 2026 . Retrieved 14 April 2026 . ^ \"Why Zig when There is Already C++, D, and Rust? ⚡ Zig Programming Language\" . ^ \"No surprises on any system: Q&A with Loris Cro of Zig - Stack Overflow\" . 2 October 2023. ^ \"What's Zig got that C, Rust and Go don't have? (With Loris Cro)\" . YouTube . 15 November 2023. ^ \"Overview ⚡ Zig Programming Language\" . ^ \"After a day of programming in Zig\" . 29 December 2023. Archived from the original on 11 February 2025 . Retrieved 31 December 2024 . ^ \"Taking the warts off C, with Andrew Kelley, creator of the Zig programming language\" . Sourcegraph . 19 October 2021. Archived from the original on 5 January 2025 . Retrieved 18 April 2024 . ^ \"ziglang/zig\" . Codeberg . Retrieved 11 February 2020 . ^ a b \"The Zig Programming Language\" . Ziglang.org . Retrieved 11 February 2020 . ^ Anderson, Tim (24 April 2020). \"Keen to go _ExtInt? LLVM Clang compiler adds support for custom width integers\" . www.theregister.co.uk . Retrieved 30 December 2024 . ^ \"Documentation\" . Ziglang.org . Retrieved 24 April 2020 . ^ \"Announcing the Zig Software Foundation\" . Ziglang.org . Retrieved 28 May 2021 . ^ \"Pledging Another $400,000 to the Zig Software Foundation\" . Mitchell Hashimoto . 21 June 2026 . Retrieved 7 July 2026 .",
+    "links": [
+      "AArch64",
+      "ARM architecture",
+      "Arbitrary-precision",
+      "Beta software",
+      "C (programming language)",
+      "C++",
+      "Codeberg",
+      "Compile time",
+      "Compiler",
+      "Computing platform",
+      "Concurrent computing",
+      "Control flow",
+      "Cross-platform software",
+      "Data type",
+      "Declaration (computer programming)",
+      "Filename extension",
+      "Free and open-source software",
+      "FreeBSD",
+      "Function (computer programming)",
+      "Functional programming",
+      "Generic programming",
+      "Go (programming language)",
+      "IA-32",
+      "Imperative programming",
+      "Integer (computer science)",
+      "LLVM IR",
+      "Library (computing)",
+      "Linux",
+      "Low-level programming language",
+      "MIPS architecture",
+      "MIT License",
+      "MacOS",
+      "Macro (computer science)",
+      "Manual memory management",
+      "Memory management",
+      "Microsoft Windows",
+      "Multi-paradigm",
+      "Nominal type system",
+      "Operating system",
+      "Pointer (computer programming)",
+      "Power ISA",
+      "Preprocessor",
+      "Procedural programming",
+      "Programming paradigm",
+      "RISC-V",
+      "Record (computer science)",
+      "Reflective programming",
+      "Rust (programming language)",
+      "SPARC",
+      "Software design",
+      "Software license",
+      "Software release life cycle",
+      "Source code",
+      "Standalone program",
+      "Static typing",
+      "Strong and weak typing",
+      "System programming language",
+      "Type inference",
+      "Type system",
+      "Unicode",
+      "WebAssembly",
+      "X86-64",
+      "YouTube"
+    ],
+    "page_id": 61049743,
+    "revision_id": 1375417623,
+    "retrieved_at": "2026-09-18T18:10:07.682849+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260917163911|1375412262",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 61049743,
+            "ns": 0,
+            "title": "Zig (programming language)",
+            "revisions": [
+              {
+                "revid": 1375417623,
+                "parentid": 1375412262
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Zig_logo_2020.svg",
+              "wikibase-shortdesc": "General-purpose programming language",
+              "wikibase_item": "Q51885456"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Zig (programming language)",
+        "pageid": 61049743,
+        "revid": 1375417623,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Zig_(programming_language)\" title=\"Special:EditPage/Zig (programming language)\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Zig_(programming_language)\" title=\"Talk:Zig (programming language)\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Zig%22+programming+language\">\"Zig\"&#160;programming language</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Zig%22+programming+language+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Zig%22+programming+language&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Zig%22+programming+language+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Zig%22+programming+language\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Zig%22+programming+language&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">October 2025</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n  <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Unreliable&#95;sources plainlinks metadata ambox ambox-content ambox-unreliable&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Text_document_with_red_question_mark.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/120px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">Some of this article's <a href=\"/wiki/Wikipedia:Citing_sources\" title=\"Wikipedia:Citing sources\">listed sources</a> <b>may not be <a href=\"/wiki/Wikipedia:Reliable_sources\" title=\"Wikipedia:Reliable sources\">reliable</a></b>.<span class=\"hide-when-compact\"> Please help improve this article by looking for better, more reliable sources. Unreliable citations may be challenged and removed.</span>  <span class=\"date-container\"><i>(<span class=\"date\">September 2025</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n  <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Promotional plainlinks metadata ambox ambox-content ambox-Advert\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>contains <a href=\"/wiki/Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_soapbox_or_means_of_promotion\" title=\"Wikipedia:What Wikipedia is not\">promotional content</a></b>.<span class=\"hide-when-compact\"> Please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Zig_(programming_language)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Zig_(programming_language)&amp;action=edit\">improve it</a> by removing <a href=\"/wiki/Wikipedia:Spam\" title=\"Wikipedia:Spam\">promotional language</a> and inappropriate <a href=\"/wiki/Wikipedia:External_links#Advertising_and_conflicts_of_interest\" title=\"Wikipedia:External links\">external links</a>, and by adding encyclopedic text written from a <a href=\"/wiki/Wikipedia:Neutral_point_of_view\" title=\"Wikipedia:Neutral point of view\">neutral point of view</a>.<div class=\"paragraphbreak\" style=\"margin-top:0.5em\"></div>See our <a href=\"/wiki/Wikipedia:About_you\" title=\"Wikipedia:About you\">advice if the article is about you</a> and read our <a href=\"/wiki/Wikipedia:Scam_warning\" title=\"Wikipedia:Scam warning\">scam warning</a> in case someone asks for money to edit this article.</span>  <span class=\"date-container\"><i>(<span class=\"date\">December 2025</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n  <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Update plainlinks metadata ambox ambox-content ambox-Update\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Ambox_current_red_Americas.svg/60px-Ambox_current_red_Americas.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"42\" height=\"34\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Ambox_current_red_Americas.svg/120px-Ambox_current_red_Americas.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"360\" data-file-height=\"290\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article needs to be <b>updated</b>. The reason given is: <b>info and examples are for older versions</b>.<span class=\"hide-when-compact\"> Please help update this article to reflect recent events or newly available information.</span>  <span class=\"date-container\"><i>(<span class=\"date\">April 2026</span>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Zig</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Zig_logo_2020.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Zig_logo_2020.svg/250px-Zig_logo_2020.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"200\" height=\"70\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Zig_logo_2020.svg/500px-Zig_logo_2020.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"179\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Concurrent_computing\" title=\"Concurrent computing\">concurrent</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\">Andrew Kelley</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">8&#160;February 2016<span class=\"noprint\">&#59;&#32;10 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2016-02-08</span>)</span><sup id=\"cite&#95;ref-ziginit&#95;1-0\" class=\"reference\"><a href=\"#cite_note-ziginit-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">0.16<sup id=\"cite&#95;ref-wikidata-a8c1dfcb47920a9114a6fd188eb29e13d2a608ad-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-a8c1dfcb47920a9114a6fd188eb29e13d2a608ad-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q51885456?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span> (<a href=\"/wiki/Beta_software\" class=\"mw-redirect\" title=\"Beta software\">Beta</a>)\n   / 14 April 2026<span class=\"noprint\">&#59;&#32;5 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">14 April 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">Static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a>, <a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominal</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Manual_memory_management\" title=\"Manual memory management\">Manual</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\">Zig</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/AArch64\" title=\"AArch64\">ARM64</a>, <a href=\"/wiki/WebAssembly\" title=\"WebAssembly\">WebAssembly</a><br />Tier 2: <a href=\"/wiki/ARM_architecture\" class=\"mw-redirect\" title=\"ARM architecture\">ARM</a>, <a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/RISC-V\" title=\"RISC-V\">RISC-V</a>, <a href=\"/wiki/MIPS_architecture\" title=\"MIPS architecture\">MIPS64</a>, <a href=\"/wiki/Power_ISA\" title=\"Power ISA\">POWERPC64</a>, <a href=\"/wiki/SPARC\" title=\"SPARC\">SPARC64</a>, some tier-2 platforms have tier-1 support for <i><a href=\"/wiki/Standalone_program\" title=\"Standalone program\">standalone programs</a></i></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a>: <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>, <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.zig, .zir, .zigr, .zon</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ziglang.org/\">ziglang<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/LLVM_IR\" class=\"mw-redirect\" title=\"LLVM IR\">LLVM IR</a>, <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a><br /><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table>\n<p><b>Zig</b> is a <a href=\"/wiki/System_programming_language\" title=\"System programming language\">system programming language</a> designed to be a general-purpose improvement to the <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C programming language</a>.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> It is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a>, released under an <a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT License</a> on <a href=\"/wiki/Codeberg\" title=\"Codeberg\">Codeberg</a>, a <a href=\"/wiki/Source_code\" title=\"Source code\">source-code</a> sharing platform.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Differences with C relate to <a href=\"/wiki/Control_flow\" title=\"Control flow\">control flow</a>, <a href=\"/wiki/Function_(computer_programming)\" title=\"Function (computer programming)\">function calls</a>, <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">library</a> imports, <a href=\"/wiki/Declaration_(computer_programming)\" title=\"Declaration (computer programming)\">variable declaration</a> and <a href=\"/wiki/Unicode\" title=\"Unicode\">Unicode</a> support. The language makes no use of <a href=\"/wiki/Macro_(computer_science)\" title=\"Macro (computer science)\">macros</a> or <a href=\"/wiki/Preprocessor\" title=\"Preprocessor\">preprocessor</a> instructions. Features adopted from modern languages include the addition of <a href=\"/wiki/Compile_time\" title=\"Compile time\">compile time</a> generic <a href=\"/wiki/Data_type\" title=\"Data type\">data types</a>, allowing functions to work on a variety of data, along with a small set of new <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> directives to allow access to the information about those types using <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflection</a>.<sup id=\"cite&#95;ref-zig&#95;10-0\" class=\"reference\"><a href=\"#cite_note-zig-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> Zig requires <a href=\"/wiki/Manual_memory_management\" title=\"Manual memory management\">manual memory management</a>.<sup id=\"cite&#95;ref-zig&#95;10-1\" class=\"reference\"><a href=\"#cite_note-zig-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> Features for <a href=\"/wiki/Low-level_programming_language\" title=\"Low-level programming language\">low-level programming</a> include packed <a href=\"/wiki/Record_(computer_science)\" title=\"Record (computer science)\">structs</a>, <a href=\"/wiki/Arbitrary-precision\" class=\"mw-redirect\" title=\"Arbitrary-precision\">arbitrary-width</a> <a href=\"/wiki/Integer_(computer_science)\" title=\"Integer (computer science)\">integers</a><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> and multiple <a href=\"/wiki/Pointer_(computer_programming)\" title=\"Pointer (computer programming)\">pointer</a> types.<sup id=\"cite&#95;ref-zigdocumentation&#95;12-0\" class=\"reference\"><a href=\"#cite_note-zigdocumentation-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Zig was designed by Andrew Kelley and first announced in 2016.<sup id=\"cite&#95;ref-ziginit&#95;1-1\" class=\"reference\"><a href=\"#cite_note-ziginit-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Development is funded by the Zig Software Foundation (ZSF) which receives corporate sponsorships as well as personal donations.<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-ziginit-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-ziginit_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-ziginit_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFKelley2016\" class=\"citation web cs1\">Kelley, Andrew (8 February 2016). <a rel=\"nofollow\" class=\"external text\" href=\"https://andrewkelley.me/post/intro-to-zig.html\">\"Introduction to the Zig Programming Language\"</a>. <i>andrewkelley.me</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 November</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=andrewkelley.me&amp;rft.atitle=Introduction+to+the+Zig+Programming+Language&amp;rft.date=2016-02-08&amp;rft.aulast=Kelley&amp;rft.aufirst=Andrew&amp;rft&#95;id=https%3A%2F%2Fandrewkelley.me%2Fpost%2Fintro-to-zig.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-a8c1dfcb47920a9114a6fd188eb29e13d2a608ad-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-a8c1dfcb47920a9114a6fd188eb29e13d2a608ad-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ziglang.org/news/0.16.0-released/\">\"0.16.0 Released\"</a>. 14 April 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 April</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=0.16.0+Released&amp;rft.date=2026-04-14&amp;rft&#95;id=https%3A%2F%2Fziglang.org%2Fnews%2F0.16.0-released%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ziglang.org/learn/why_zig_rust_d_cpp/\">\"Why Zig when There is Already C++, D, and Rust? ⚡ Zig Programming Language\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Why+Zig+when+There+is+Already+C%2B%2B%2C+D%2C+and+Rust%3F+%E2%9A%A1+Zig+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fziglang.org%2Flearn%2Fwhy&#95;zig&#95;rust&#95;d&#95;cpp%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://stackoverflow.blog/2023/10/02/no-surprises-on-any-system-q-and-a-with-loris-cro-of-zig/\">\"No surprises on any system: Q&amp;A with Loris Cro of Zig - Stack Overflow\"</a>. 2 October 2023.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=No+surprises+on+any+system%3A+Q%26A+with+Loris+Cro+of+Zig+-+Stack+Overflow&amp;rft.date=2023-10-02&amp;rft&#95;id=https%3A%2F%2Fstackoverflow.blog%2F2023%2F10%2F02%2Fno-surprises-on-any-system-q-and-a-with-loris-cro-of-zig%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=5_oqWE9otaE\">\"What's Zig got that C, Rust and Go don't have? (With Loris Cro)\"</a>. <i><a href=\"/wiki/YouTube\" title=\"YouTube\">YouTube</a></i>. 15 November 2023.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=What%27s+Zig+got+that+C%2C+Rust+and+Go+don%27t+have%3F+%28With+Loris+Cro%29&amp;rft.date=2023-11-15&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5&#95;oqWE9otaE&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ziglang.org/learn/overview/\">\"Overview ⚡ Zig Programming Language\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Overview+%E2%9A%A1+Zig+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fziglang.org%2Flearn%2Foverview%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250211191209/https://blog.lohr.dev/after-a-day-of-programming-in-zig\">\"After a day of programming in Zig\"</a>. 29 December 2023. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://blog.lohr.dev/after-a-day-of-programming-in-zig\">the original</a> on 11 February 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">31 December</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=After+a+day+of+programming+in+Zig&amp;rft.date=2023-12-29&amp;rft&#95;id=https%3A%2F%2Fblog.lohr.dev%2Fafter-a-day-of-programming-in-zig&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250105083326/https://sourcegraph.com/podcast/andrew-kelley\">\"Taking the warts off C, with Andrew Kelley, creator of the Zig programming language\"</a>. <i>Sourcegraph</i>. 19 October 2021. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://sourcegraph.com/podcast/andrew-kelley\">the original</a> on 5 January 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">18 April</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Sourcegraph&amp;rft.atitle=Taking+the+warts+off+C%2C+with+Andrew+Kelley%2C+creator+of+the+Zig+programming+language&amp;rft.date=2021-10-19&amp;rft&#95;id=https%3A%2F%2Fsourcegraph.com%2Fpodcast%2Fandrew-kelley&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://codeberg.org/ziglang/zig\">\"ziglang/zig\"</a>. <i>Codeberg</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 February</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Codeberg&amp;rft.atitle=ziglang%2Fzig&amp;rft&#95;id=https%3A%2F%2Fcodeberg.org%2Fziglang%2Fzig&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-zig-10\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-zig_10-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-zig_10-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ziglang.org/\">\"The Zig Programming Language\"</a>. <i>Ziglang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 February</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Ziglang.org&amp;rft.atitle=The+Zig+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fziglang.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAnderson2020\" class=\"citation web cs1\">Anderson, Tim (24 April 2020). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.theregister.co.uk/2020/04/24/llvm_project_adds_support_for/\">\"Keen to go _ExtInt? LLVM Clang compiler adds support for custom width integers\"</a>. <i>www.theregister.co.uk</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">30 December</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.theregister.co.uk&amp;rft.atitle=Keen+to+go+&#95;ExtInt%3F+LLVM+Clang+compiler+adds+support+for+custom+width+integers&amp;rft.date=2020-04-24&amp;rft.aulast=Anderson&amp;rft.aufirst=Tim&amp;rft&#95;id=https%3A%2F%2Fwww.theregister.co.uk%2F2020%2F04%2F24%2Fllvm&#95;project&#95;adds&#95;support&#95;for%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-zigdocumentation-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-zigdocumentation_12-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ziglang.org/documentation/master/\">\"Documentation\"</a>. <i>Ziglang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 April</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Ziglang.org&amp;rft.atitle=Documentation&amp;rft&#95;id=https%3A%2F%2Fziglang.org%2Fdocumentation%2Fmaster%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ziglang.org/news/announcing-zig-software-foundation/\">\"Announcing the Zig Software Foundation\"</a>. <i>Ziglang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">28 May</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Ziglang.org&amp;rft.atitle=Announcing+the+Zig+Software+Foundation&amp;rft&#95;id=https%3A%2F%2Fziglang.org%2Fnews%2Fannouncing-zig-software-foundation%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://mitchellh.com/writing/zig-donation-2026\">\"Pledging Another $400,000 to the Zig Software Foundation\"</a>. <i>Mitchell Hashimoto</i>. 21 June 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">7 July</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Mitchell+Hashimoto&amp;rft.atitle=Pledging+Another+%24400%2C000+to+the+Zig+Software+Foundation&amp;rft.date=2026-06-21&amp;rft&#95;id=https%3A%2F%2Fmitchellh.com%2Fwriting%2Fzig-donation-2026&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZig+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐pzt44\nCached time: 20260918181033\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.532 seconds\nReal time usage: 0.761 seconds\nPreprocessor visited node count: 1871/1000000\nRevision size: 6098/2097152 bytes\nPost‐expand include size: 89861/2097152 bytes\nTemplate argument size: 25465/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 8/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 45136/5000000 bytes\nLua time usage: 0.353/10.000 seconds\nLua memory usage: 8141767/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  699.127      1 -total\n 46.08%  322.177      2 Template:Infobox\n 41.00%  286.608      1 Template:Infobox_programming_language\n 29.59%  206.870      1 Template:Infobox_software/simple\n 23.85%  166.747      1 Template:Multiple_issues\n 23.32%  163.050      2 Template:Wikidata\n 19.45%  135.993      1 Template:Short_description\n 15.07%  105.357      4 Template:Ambox\n 11.82%   82.635      1 Template:Primary_sources\n 11.67%   81.603      2 Template:Pagetype\n-->\n\n<!-- Render ID 3d463793-b38c-11f1-a888-d9312bb385de -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "AArch64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arbitrary-precision",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Beta software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Codeberg",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Control flow",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declaration (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integer (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM IR",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Low-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIPS architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Macro (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manual memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pointer (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Power ISA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Preprocessor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RISC-V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Record (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standalone program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unicode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebAssembly",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YouTube",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:Zig (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:About you",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:External links",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Neutral point of view",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Reliable sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Scam warning",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Spam",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:What Wikipedia is not",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose programming language",
+          "page_image_free": "Zig_logo_2020.svg",
+          "wikibase_item": "Q51885456"
+        }
+      }
+    }
+  ]
+}

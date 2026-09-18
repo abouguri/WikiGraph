@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Geany",
+    "url": "https://en.wikipedia.org/wiki/Geany",
+    "summary": "Integrated Development Environment Geany Original author Enrico Tröger Developer Geany authors Release October 19, 2005 ; 20 years ago ( 2005-10-19 ) Stable release 2.1.0 / 6 July 2025 Written in C , C++ Operating system Linux macOS Windows Size 23 MB (Windows) 28 MB (MacOS) 32 MB (Linux) Type IDE License GPL-2.0-or-later Website www .geany .org Repository github .com /geany /geany Customized Geany IDE Geany ( / d ʒ iː n i / JEE - NEE ) is a free and open-source lightweight GUI text editor using Scintilla and GTK , including basic IDE features. It is designed to have short load times, with limited dependency on separate packages or external libraries on Linux. It has been ported to a wide range of operating systems, such as BSD , Linux , macOS , Solaris and Windows . The Windows port lacks an embedded terminal window. On Linux it does not have proper Wayland support as of August 2026 with basic features like the clipboard not working. It does not run as native Wayland app and instead uses XWayland . However there is discussion about porting the software to GTK4 eventually. Geany resembles Notepad++ somewhat, which also uses Scintilla. It is free software licensed under the terms of the GNU GPL version 2 or later. ^ \"Release Geany 2.1 · geany/geany\" . Retrieved 9 July 2025 . ^ \"geany/geany: A fast and lightweight IDE\" . GitHub . 11 July 2016 . Retrieved 2016-07-11 . ^ a b \"geany/README at master · geany/geany · GitHub\" . github.com/geany/geany. Archived from the original on 2021-06-22 . Retrieved 2021-06-22 . ^ \"Geany's FAQ: How do you pronounce Geany?\" . ^ \"Fast, powerful Geany editor offers IDE features\" . Linux.com. Archived from the original on 2009-02-08 . Retrieved 2014-02-03 . ^ \"geany.darwinports.com\" . geany.darwinports.com. Archived from the original on 2010-02-16 . Retrieved 2014-02-03 . ^ geany. \"can't paste from xwayland apps in wayland · Issue #2079 · geany/geany\" . GitHub . Retrieved 2026-08-03 . ^ geany. \"Geany 4.0, the GTK4 edition (and more) · geany geany · Discussion #3675\" . GitHub . Retrieved 2026-08-03 . ^ \"Notepad++ and Scintilla\" . Archived from the original on 2019-02-19 . Retrieved 2019-02-18 .",
+    "text": "Integrated Development Environment Geany Original author Enrico Tröger Developer Geany authors Release October 19, 2005 ; 20 years ago ( 2005-10-19 ) Stable release 2.1.0 / 6 July 2025 Written in C , C++ Operating system Linux macOS Windows Size 23 MB (Windows) 28 MB (MacOS) 32 MB (Linux) Type IDE License GPL-2.0-or-later Website www .geany .org Repository github .com /geany /geany Customized Geany IDE Geany ( / d ʒ iː n i / JEE - NEE ) is a free and open-source lightweight GUI text editor using Scintilla and GTK , including basic IDE features. It is designed to have short load times, with limited dependency on separate packages or external libraries on Linux. It has been ported to a wide range of operating systems, such as BSD , Linux , macOS , Solaris and Windows . The Windows port lacks an embedded terminal window. On Linux it does not have proper Wayland support as of August 2026 with basic features like the clipboard not working. It does not run as native Wayland app and instead uses XWayland . However there is discussion about porting the software to GTK4 eventually. Geany resembles Notepad++ somewhat, which also uses Scintilla. It is free software licensed under the terms of the GNU GPL version 2 or later. ^ \"Release Geany 2.1 · geany/geany\" . Retrieved 9 July 2025 . ^ \"geany/geany: A fast and lightweight IDE\" . GitHub . 11 July 2016 . Retrieved 2016-07-11 . ^ a b \"geany/README at master · geany/geany · GitHub\" . github.com/geany/geany. Archived from the original on 2021-06-22 . Retrieved 2021-06-22 . ^ \"Geany's FAQ: How do you pronounce Geany?\" . ^ \"Fast, powerful Geany editor offers IDE features\" . Linux.com. Archived from the original on 2009-02-08 . Retrieved 2014-02-03 . ^ \"geany.darwinports.com\" . geany.darwinports.com. Archived from the original on 2010-02-16 . Retrieved 2014-02-03 . ^ geany. \"can't paste from xwayland apps in wayland · Issue #2079 · geany/geany\" . GitHub . Retrieved 2026-08-03 . ^ geany. \"Geany 4.0, the GTK4 edition (and more) · geany geany · Discussion #3675\" . GitHub . Retrieved 2026-08-03 . ^ \"Notepad++ and Scintilla\" . Archived from the original on 2019-02-19 . Retrieved 2019-02-18 .",
+    "links": [
+      "BSD",
+      "C (programming language)",
+      "C++",
+      "File size",
+      "Free and open-source",
+      "Free software",
+      "GNU General Public License",
+      "GTK",
+      "GUI",
+      "Integrated Development Environment",
+      "Linux",
+      "MacOS",
+      "Microsoft Windows",
+      "Notepad++",
+      "Operating system",
+      "Package (package management system)",
+      "Programmer",
+      "Repository (version control)",
+      "Scintilla (editing component)",
+      "Software categories",
+      "Software library",
+      "Software license",
+      "Software release life cycle",
+      "Solaris (operating system)",
+      "Text editor",
+      "Wayland (protocol)",
+      "XWayland"
+    ],
+    "page_id": 14845564,
+    "revision_id": 1367577307,
+    "retrieved_at": "2026-09-18T18:09:31.384655+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260803225635|1367576378",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 14845564,
+            "ns": 0,
+            "title": "Geany",
+            "revisions": [
+              {
+                "revid": 1367577307,
+                "parentid": 1367576378
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Geany_logo.svg",
+              "wikibase-shortdesc": "Integrated Development Environment",
+              "wikibase_item": "Q1122464"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Geany",
+        "pageid": 14845564,
+        "revid": 1367577307,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Integrated Development Environment</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Geany</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Geany_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Geany_logo.svg/250px-Geany_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"140\" height=\"140\" style=\"--mw-file-upright: 0.55\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Geany_logo.svg/330px-Geany_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"256\" data-file-height=\"256\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Geany_2.0.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Geany_2.0.png/250px-Geany_2.0.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"192\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Geany_2.0.png/500px-Geany_2.0.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1185\" data-file-height=\"909\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\">Enrico Tröger</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a rel=\"nofollow\" class=\"external text\" href=\"https://raw.github.com/geany/geany/master/AUTHORS\">Geany authors</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">October&#160;19, 2005<span class=\"noprint\">&#59;&#32;20 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2005-10-19</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">2.1.0<sup id=\"cite&#95;ref-wikidata-c22d4266a1dd23c0ff85e7d440dcc0bc0d4a768c-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-c22d4266a1dd23c0ff85e7d440dcc0bc0d4a768c-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1122464?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 6 July 2025</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Linux\" title=\"Linux\">Linux</a><br /><a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a><br /><a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/File_size\" title=\"File size\">Size</a></th><td class=\"infobox-data\">23 MB (Windows)\n<p>28 MB (MacOS)\n</p>\n32 MB (Linux)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Integrated_Development_Environment\" class=\"mw-redirect\" title=\"Integrated Development Environment\">IDE</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GPL-2.0-or-later</a><sup id=\"cite&#95;ref-eefe&#95;3-0\" class=\"reference\"><a href=\"#cite_note-eefe-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.geany.org/\">www<wbr />.geany<wbr />.org</a></span></span> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1122464#P856\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/geany/geany\">github<wbr />.com<wbr />/geany<wbr />/geany</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1122464#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Customized_Geany_IDE.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Customized_Geany_IDE.png/250px-Customized_Geany_IDE.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"333\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Customized_Geany_IDE.png/500px-Customized_Geany_IDE.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1200\" data-file-height=\"1600\" /></a><figcaption>Customized Geany IDE</figcaption></figure>\n<p><b>Geany</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"&#39;d&#39; in &#39;dye&#39;\">d</span><span title=\"/ʒ/: &#39;s&#39; in &#39;pleasure&#39;\">ʒ</span><span title=\"/iː/: &#39;ee&#39; in &#39;fleece&#39;\">iː</span><span title=\"&#39;n&#39; in &#39;nigh&#39;\">n</span><span title=\"/i/: &#39;y&#39; in &#39;happy&#39;\">i</span></span>/</a></span></span><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>  <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\"><span style=\"font-size:90%\">JEE</span>-<span style=\"font-size:90%\">NEE</span></i></a>) is a <a href=\"/wiki/Free_and_open-source\" class=\"mw-redirect\" title=\"Free and open-source\">free and open-source</a> lightweight <a href=\"/wiki/GUI\" class=\"mw-redirect\" title=\"GUI\">GUI</a> <a href=\"/wiki/Text_editor\" title=\"Text editor\">text editor</a><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> using <a href=\"/wiki/Scintilla_(editing_component)\" class=\"mw-redirect\" title=\"Scintilla (editing component)\">Scintilla</a> and <a href=\"/wiki/GTK\" title=\"GTK\">GTK</a>, including basic <a href=\"/wiki/Integrated_Development_Environment\" class=\"mw-redirect\" title=\"Integrated Development Environment\">IDE</a> features. It is designed to have short load times, with limited dependency on separate <a href=\"/wiki/Package_(package_management_system)\" class=\"mw-redirect\" title=\"Package (package management system)\">packages</a> or external <a href=\"/wiki/Software_library\" class=\"mw-redirect\" title=\"Software library\">libraries</a> on Linux. It has been ported to a wide range of operating systems, such as <a href=\"/wiki/BSD\" class=\"mw-redirect\" title=\"BSD\">BSD</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Solaris_(operating_system)\" class=\"mw-redirect\" title=\"Solaris (operating system)\">Solaris</a> and <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a>. The Windows port lacks an embedded terminal window.\n</p><p>On Linux it does not have proper <a href=\"/wiki/Wayland_(protocol)\" title=\"Wayland (protocol)\">Wayland</a> support as of August 2026 with basic features like the clipboard not working. It does not run as native Wayland app and instead uses <a href=\"/wiki/XWayland\" class=\"mw-redirect\" title=\"XWayland\">XWayland</a>.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>However there is discussion about porting the software to GTK4 eventually.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Geany resembles <a href=\"/wiki/Notepad%2B%2B\" title=\"Notepad++\">Notepad++</a> somewhat, which also uses Scintilla.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>It is <a href=\"/wiki/Free_software\" title=\"Free software\">free software</a> licensed under the terms of the <a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU GPL</a> version 2 or later.<sup id=\"cite&#95;ref-eefe&#95;3-1\" class=\"reference\"><a href=\"#cite_note-eefe-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-c22d4266a1dd23c0ff85e7d440dcc0bc0d4a768c-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-c22d4266a1dd23c0ff85e7d440dcc0bc0d4a768c-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/geany/geany/releases/tag/2.1.0\">\"Release Geany 2.1 · geany/geany\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 July</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+Geany+2.1+%C2%B7+geany%2Fgeany&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgeany%2Fgeany%2Freleases%2Ftag%2F2.1.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/geany/geany\">\"geany/geany: A fast and lightweight IDE\"</a>. <i>GitHub</i>. 11 July 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-07-11</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=geany%2Fgeany%3A+A+fast+and+lightweight+IDE&amp;rft.date=2016-07-11&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgeany%2Fgeany&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-eefe-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-eefe_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-eefe_3-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/geany/geany/blob/master/README\">\"geany/README at master · geany/geany · GitHub\"</a>. github.com/geany/geany. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210622030300/https://github.com/geany/geany/blob/master/README\">Archived</a> from the original on 2021-06-22<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2021-06-22</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=geany%2FREADME+at+master+%C2%B7+geany%2Fgeany+%C2%B7+GitHub&amp;rft.pub=github.com%2Fgeany%2Fgeany&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgeany%2Fgeany%2Fblob%2Fmaster%2FREADME&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://geany.org/documentation/faq/#how-do-you-pronounce-geany\">\"Geany's FAQ: How do you pronounce Geany?\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Geany%27s+FAQ%3A+How+do+you+pronounce+Geany%3F&amp;rft&#95;id=https%3A%2F%2Fgeany.org%2Fdocumentation%2Ffaq%2F%23how-do-you-pronounce-geany&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090208180750/http://www.linux.com/feature/139882\">\"Fast, powerful Geany editor offers IDE features\"</a>. Linux.com. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.linux.com/feature/139882\">the original</a> on 2009-02-08<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-02-03</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Fast%2C+powerful+Geany+editor+offers+IDE+features&amp;rft.pub=Linux.com&amp;rft&#95;id=http%3A%2F%2Fwww.linux.com%2Ffeature%2F139882&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20100216182754/http://geany.darwinports.com/\">\"geany.darwinports.com\"</a>. geany.darwinports.com. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://geany.darwinports.com/\">the original</a> on 2010-02-16<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-02-03</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=geany.darwinports.com&amp;rft.pub=geany.darwinports.com&amp;rft&#95;id=http%3A%2F%2Fgeany.darwinports.com%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFgeany\" class=\"citation web cs1\">geany. <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/geany/geany/issues/2079\">\"can't paste from xwayland apps in wayland · Issue #2079 · geany/geany\"</a>. <i>GitHub</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-08-03</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=can%27t+paste+from+xwayland+apps+in+wayland+%C2%B7+Issue+%232079+%C2%B7+geany%2Fgeany&amp;rft.au=geany&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgeany%2Fgeany%2Fissues%2F2079&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFgeany\" class=\"citation web cs1\">geany. <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/geany/geany/discussions/3675\">\"Geany 4.0, the GTK4 edition (and more) · geany geany · Discussion #3675\"</a>. <i>GitHub</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-08-03</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Geany+4.0%2C+the+GTK4+edition+%28and+more%29+%C2%B7+geany+geany+%C2%B7+Discussion+%233675&amp;rft.au=geany&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgeany%2Fgeany%2Fdiscussions%2F3675&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190219072933/http://docs.notepad-plus-plus.org/index.php/Notepad%2B%2B_And_Scintilla\">\"Notepad++ and Scintilla\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://docs.notepad-plus-plus.org/index.php/Notepad%2B%2B_And_Scintilla\">the original</a> on 2019-02-19<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-02-18</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Notepad%2B%2B+and+Scintilla&amp;rft&#95;id=http%3A%2F%2Fdocs.notepad-plus-plus.org%2Findex.php%2FNotepad%252B%252B&#95;And&#95;Scintilla&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeany\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐l5m7l\nCached time: 20260918180956\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.473 seconds\nReal time usage: 0.654 seconds\nPreprocessor visited node count: 1495/1000000\nRevision size: 4134/2097152 bytes\nPost‐expand include size: 33105/2097152 bytes\nTemplate argument size: 4162/2097152 bytes\nHighest expansion depth: 20/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 24711/5000000 bytes\nLua time usage: 0.309/10.000 seconds\nLua memory usage: 9352023/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  620.049      1 -total\n 66.81%  414.267      2 Template:Infobox\n 62.54%  387.760      1 Template:Infobox_software\n 34.81%  215.849      1 Template:Infobox_software/simple\n 33.36%  206.871     23 Template:If_empty\n 30.61%  189.801      4 Template:Wikidata\n 19.45%  120.581      1 Template:Short_description\n 11.81%   73.257      2 Template:Pagetype\n  7.53%   46.686      1 Template:IPAc-en\n  5.47%   33.905      8 Template:Cite_web\n-->\n\n<!-- Render ID 27388434-b38c-11f1-b172-bd4dc702e1ef -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "BSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "File size",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GTK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GUI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated Development Environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Notepad++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Package (package management system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scintilla (editing component)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Solaris (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Text editor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayland (protocol)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XWayland",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Integrated Development Environment",
+          "page_image_free": "Geany_logo.svg",
+          "wikibase_item": "Q1122464"
+        }
+      }
+    }
+  ]
+}

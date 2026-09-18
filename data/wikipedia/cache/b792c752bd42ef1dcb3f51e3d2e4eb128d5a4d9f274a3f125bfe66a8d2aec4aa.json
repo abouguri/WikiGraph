@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "CoffeeScript",
+    "url": "https://en.wikipedia.org/wiki/CoffeeScript",
+    "summary": "Programming language which compiles to JavaScript CoffeeScript Paradigms Multi-paradigm : prototype-based , functional , imperative , scripting Family ECMAScript Designed by Jeremy Ashkenas Developer Same First appeared December 13, 2009 ; 16 years ago ( 2009-12-13 ) Stable release 2.7.0 / 24 April 2022 ; 4 years ago ( 24 April 2022 ) Typing discipline Dynamic , implicit Scope Lexical Implementation language CoffeeScript Platform x86-64 OS Cross-platform License MIT Filename extensions .coffee , .litcoffee [ citation needed ] Website coffeescript .org Influenced by Haskell , JavaScript , Perl , [ citation needed ] Python , Ruby , YAML Influenced MoonScript , LiveScript , JavaScript CoffeeScript is a programming language that compiles to JavaScript . It adds syntactic sugar inspired by Ruby , Python , and Haskell in an effort to enhance JavaScript's brevity and readability. Some added features include list comprehension and destructuring assignment . CoffeeScript support is included in Ruby on Rails version 3.1 and Play Framework . In 2011, Brendan Eich referenced CoffeeScript as an influence on his thoughts about the future of JavaScript. ^ \"2.7.0\" . 24 April 2022 . Retrieved 9 August 2022 . ^ https://coffeescript.org/ \"CoffeeScript borrows chained comparisons from Python\" ^ Heller, Martin (October 18, 2011). \"Turn up your nose at Dart and smell the CoffeeScript\" . InfoWorld . Retrieved 2020-07-15 . ^ MacCaw, Alex (28 February 2012). The Little Book on CoffeeScript: The JavaScript Developer's Guide to Building Better Web Apps (1st ed.). O'Reilly Media . ISBN 978-1-4493-2105-5 . ^ Thomas, Lucas (2017). The Little Book on CoffeeScript (1st ed.). CreateSpace Independent Publishing Platform. ISBN 978-1-5472-1072-5 . ^ Peek, Josh (April 13, 2011). \"Tweet by Rails Core Team Member\" . ^ \"AssetsCoffeeScript - 2.5.x\" . www.playframework.com . Retrieved 2016-10-31 . ^ Eich, Brendan. \" Harmony of My Dreams \" ^ Eich, Brendan. \" My JSConf.US Presentation \"",
+    "text": "Programming language which compiles to JavaScript CoffeeScript Paradigms Multi-paradigm : prototype-based , functional , imperative , scripting Family ECMAScript Designed by Jeremy Ashkenas Developer Same First appeared December 13, 2009 ; 16 years ago ( 2009-12-13 ) Stable release 2.7.0 / 24 April 2022 ; 4 years ago ( 24 April 2022 ) Typing discipline Dynamic , implicit Scope Lexical Implementation language CoffeeScript Platform x86-64 OS Cross-platform License MIT Filename extensions .coffee , .litcoffee [ citation needed ] Website coffeescript .org Influenced by Haskell , JavaScript , Perl , [ citation needed ] Python , Ruby , YAML Influenced MoonScript , LiveScript , JavaScript CoffeeScript is a programming language that compiles to JavaScript . It adds syntactic sugar inspired by Ruby , Python , and Haskell in an effort to enhance JavaScript's brevity and readability. Some added features include list comprehension and destructuring assignment . CoffeeScript support is included in Ruby on Rails version 3.1 and Play Framework . In 2011, Brendan Eich referenced CoffeeScript as an influence on his thoughts about the future of JavaScript. ^ \"2.7.0\" . 24 April 2022 . Retrieved 9 August 2022 . ^ https://coffeescript.org/ \"CoffeeScript borrows chained comparisons from Python\" ^ Heller, Martin (October 18, 2011). \"Turn up your nose at Dart and smell the CoffeeScript\" . InfoWorld . Retrieved 2020-07-15 . ^ MacCaw, Alex (28 February 2012). The Little Book on CoffeeScript: The JavaScript Developer's Guide to Building Better Web Apps (1st ed.). O'Reilly Media . ISBN 978-1-4493-2105-5 . ^ Thomas, Lucas (2017). The Little Book on CoffeeScript (1st ed.). CreateSpace Independent Publishing Platform. ISBN 978-1-5472-1072-5 . ^ Peek, Josh (April 13, 2011). \"Tweet by Rails Core Team Member\" . ^ \"AssetsCoffeeScript - 2.5.x\" . www.playframework.com . Retrieved 2016-10-31 . ^ Eich, Brendan. \" Harmony of My Dreams \" ^ Eich, Brendan. \" My JSConf.US Presentation \"",
+    "links": [
+      "Brendan Eich",
+      "Computing platform",
+      "Cross-platform software",
+      "Destructuring assignment",
+      "Dynamic typing",
+      "ECMAScript",
+      "Filename extension",
+      "Functional programming",
+      "Haskell",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "InfoWorld",
+      "JavaScript",
+      "Jeremy Ashkenas",
+      "Latent typing",
+      "List comprehension",
+      "LiveScript (programming language)",
+      "MIT License",
+      "MoonScript",
+      "Multi-paradigm",
+      "O'Reilly Media",
+      "Operating system",
+      "Perl",
+      "Play Framework",
+      "Programming language",
+      "Programming paradigm",
+      "Prototype-based programming",
+      "Python (programming language)",
+      "Ruby (programming language)",
+      "Ruby on Rails",
+      "Scope (computer science)",
+      "Scripting language",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Syntactic sugar",
+      "Type system",
+      "X86-64",
+      "YAML"
+    ],
+    "page_id": 27403236,
+    "revision_id": 1371234827,
+    "retrieved_at": "2026-09-18T18:08:46.783707+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260616191116|1359707334",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 27403236,
+            "ns": 0,
+            "title": "CoffeeScript",
+            "revisions": [
+              {
+                "revid": 1371234827,
+                "parentid": 1359707334
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming language which compiles to JavaScript",
+              "wikibase_item": "Q1106819"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "CoffeeScript",
+        "pageid": 27403236,
+        "revid": 1371234827,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language which compiles to JavaScript</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">CoffeeScript</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:CoffeeScript-logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/CoffeeScript-logo.svg/250px-CoffeeScript-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"21\" class=\"mw-file-element\" data-file-width=\"512\" data-file-height=\"90\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Prototype-based_programming\" title=\"Prototype-based programming\">prototype-based</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">scripting</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Jeremy_Ashkenas\" title=\"Jeremy Ashkenas\">Jeremy Ashkenas</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Same</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">December&#160;13, 2009<span class=\"noprint\">&#59;&#32;16 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2009-12-13</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">2.7.0<sup id=\"cite&#95;ref-wikidata-8a46862771c9073d71b5485985192cedb12b4b77-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-8a46862771c9073d71b5485985192cedb12b4b77-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1106819?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 24 April 2022<span class=\"noprint\">&#59;&#32;4 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">24 April 2022</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Latent_typing\" title=\"Latent typing\">implicit</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Lexical</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\">CoffeeScript</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.coffee</code>, <code>.litcoffee</code><sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (September 2020)\">citation needed</span></a></i>&#93;</sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://coffeescript.org/\">coffeescript<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>,<sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (January 2016)\">citation needed</span></a></i>&#93;</sup> <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>,<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/YAML\" title=\"YAML\">YAML</a><sup id=\"cite&#95;ref-smell&#95;3-0\" class=\"reference\"><a href=\"#cite_note-smell-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/MoonScript\" class=\"mw-redirect\" title=\"MoonScript\">MoonScript</a>, <a href=\"/wiki/LiveScript_(programming_language)\" title=\"LiveScript (programming language)\">LiveScript</a>, JavaScript</td></tr></tbody></table>\n<p><b>CoffeeScript</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> that compiles to <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>. It adds <a href=\"/wiki/Syntactic_sugar\" title=\"Syntactic sugar\">syntactic sugar</a> inspired by <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, and <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a> in an effort to enhance JavaScript's brevity and readability.<sup id=\"cite&#95;ref-LittleBookMacCaw&#95;4-0\" class=\"reference\"><a href=\"#cite_note-LittleBookMacCaw-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-LittleBookThomas&#95;5-0\" class=\"reference\"><a href=\"#cite_note-LittleBookThomas-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> Some added features include <a href=\"/wiki/List_comprehension\" title=\"List comprehension\">list comprehension</a> and <a href=\"/wiki/Destructuring_assignment\" class=\"mw-redirect\" title=\"Destructuring assignment\">destructuring assignment</a>.\n</p><p>CoffeeScript support is included in <a href=\"/wiki/Ruby_on_Rails\" title=\"Ruby on Rails\">Ruby on Rails</a> version 3.1<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Play_Framework\" title=\"Play Framework\">Play Framework</a>.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> In 2011, <a href=\"/wiki/Brendan_Eich\" title=\"Brendan Eich\">Brendan Eich</a> referenced CoffeeScript as an influence on his thoughts about the future of JavaScript.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-8a46862771c9073d71b5485985192cedb12b4b77-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-8a46862771c9073d71b5485985192cedb12b4b77-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/jashkenas/coffeescript/releases/tag/2.7.0\">\"2.7.0\"</a>. 24 April 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 August</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=2.7.0&amp;rft.date=2022-04-24&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fjashkenas%2Fcoffeescript%2Freleases%2Ftag%2F2.7.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACoffeeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external free\" href=\"https://coffeescript.org/\">https://coffeescript.org/</a> \"CoffeeScript borrows chained comparisons from Python\"</span>\n</li>\n<li id=\"cite&#95;note-smell-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-smell_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHeller2011\" class=\"citation news cs1\">Heller, Martin (October 18, 2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoworld.com/article/2078452/turn-up-your-nose-at-dart-and-smell-the-coffeescript.html\">\"Turn up your nose at Dart and smell the CoffeeScript\"</a>. <i><a href=\"/wiki/InfoWorld\" title=\"InfoWorld\">InfoWorld</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-07-15</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=InfoWorld&amp;rft.atitle=Turn+up+your+nose+at+Dart+and+smell+the+CoffeeScript&amp;rft.date=2011-10-18&amp;rft.aulast=Heller&amp;rft.aufirst=Martin&amp;rft&#95;id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F2078452%2Fturn-up-your-nose-at-dart-and-smell-the-coffeescript.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACoffeeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-LittleBookMacCaw-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-LittleBookMacCaw_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMacCaw2012\" class=\"citation book cs1\">MacCaw, Alex (28 February 2012). <i>The Little Book on CoffeeScript: The JavaScript Developer's Guide to Building Better Web Apps</i> (1st&#160;ed.). <a href=\"/wiki/O%27Reilly_Media\" title=\"O&#39;Reilly Media\">O'Reilly Media</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-4493-2105-5\" title=\"Special:BookSources/978-1-4493-2105-5\"><bdi>978-1-4493-2105-5</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Little+Book+on+CoffeeScript%3A+The+JavaScript+Developer%27s+Guide+to+Building+Better+Web+Apps&amp;rft.edition=1st&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2012-02-28&amp;rft.isbn=978-1-4493-2105-5&amp;rft.aulast=MacCaw&amp;rft.aufirst=Alex&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACoffeeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-LittleBookThomas-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-LittleBookThomas_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFThomas2017\" class=\"citation book cs1\">Thomas, Lucas (2017). <i>The Little Book on CoffeeScript</i> (1st&#160;ed.). CreateSpace Independent Publishing Platform. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-5472-1072-5\" title=\"Special:BookSources/978-1-5472-1072-5\"><bdi>978-1-5472-1072-5</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Little+Book+on+CoffeeScript&amp;rft.edition=1st&amp;rft.pub=CreateSpace+Independent+Publishing+Platform&amp;rft.date=2017&amp;rft.isbn=978-1-5472-1072-5&amp;rft.aulast=Thomas&amp;rft.aufirst=Lucas&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACoffeeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFPeek2011\" class=\"citation web cs1\">Peek, Josh (April 13, 2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://twitter.com/joshpeek/status/58184348742074368\">\"Tweet by Rails Core Team Member\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Tweet+by+Rails+Core+Team+Member&amp;rft.date=2011-04-13&amp;rft.aulast=Peek&amp;rft.aufirst=Josh&amp;rft&#95;id=https%3A%2F%2Ftwitter.com%2Fjoshpeek%2Fstatus%2F58184348742074368&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACoffeeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.playframework.com/documentation/2.5.x/AssetsCoffeeScript\">\"AssetsCoffeeScript - 2.5.x\"</a>. <i>www.playframework.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-10-31</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.playframework.com&amp;rft.atitle=AssetsCoffeeScript+-+2.5.x&amp;rft&#95;id=https%3A%2F%2Fwww.playframework.com%2Fdocumentation%2F2.5.x%2FAssetsCoffeeScript&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACoffeeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\">Eich, Brendan. \"<a rel=\"nofollow\" class=\"external text\" href=\"https://brendaneich.com/2011/01/harmony-of-my-dreams/\">Harmony of My Dreams</a>\"</span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\">Eich, Brendan. \"<a rel=\"nofollow\" class=\"external text\" href=\"https://brendaneich.com/2011/05/my-jsconf-us-presentation/\">My JSConf.US Presentation</a>\"</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐hrl4j\nCached time: 20260918180912\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.182 seconds\nReal time usage: 0.263 seconds\nPreprocessor visited node count: 1546/1000000\nRevision size: 3336/2097152 bytes\nPost‐expand include size: 31880/2097152 bytes\nTemplate argument size: 5972/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 17693/5000000 bytes\nLua time usage: 0.131/10.000 seconds\nLua memory usage: 10116213/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  249.036      1 -total\n 79.08%  196.929      2 Template:Infobox\n 71.85%  178.935      1 Template:Infobox_programming_language\n 46.21%  115.076      1 Template:Infobox_software/simple\n 39.62%   98.668      2 Template:Wikidata\n 20.69%   51.519      1 Template:Short_description\n 12.44%   30.985      2 Template:Pagetype\n 12.38%   30.830      2 Template:Citation_needed\n 10.70%   26.645      2 Template:Fix\n  8.44%   21.009      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID 0cfe9b00-b38c-11f1-8851-eb0cc5e6da30 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Brendan Eich",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Destructuring assignment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ECMAScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "InfoWorld",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jeremy Ashkenas",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Latent typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List comprehension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LiveScript (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MoonScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "O'Reilly Media",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Play Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prototype-based programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby on Rails",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scripting language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntactic sugar",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YAML",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citation needed",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language which compiles to JavaScript",
+          "wikibase_item": "Q1106819"
+        }
+      }
+    }
+  ]
+}

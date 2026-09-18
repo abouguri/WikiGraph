@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Memory management",
+    "url": "https://en.wikipedia.org/wiki/Memory_management",
+    "summary": "Computer memory management methodology \"Memory allocation\" redirects here. For memory allocation in the brain, see Neuronal memory allocation . This article is about memory management in an address space . For management of physical memory, see Memory management (operating systems) . This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( April 2014 ) ( Learn how and when to remove this message ) Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e Memory management (also dynamic memory management , dynamic storage allocation , or dynamic memory allocation ) is a form of resource management applied to computer memory . The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed. This is critical to any advanced computer system where more than a single process might be underway ( multitasking ) at any time. Several methods have been devised that increase the effectiveness of memory management. Virtual memory systems separate the memory addresses used by a process from actual physical addresses, allowing separation of processes and increasing the size of the virtual address space beyond the available amount of RAM using paging or swapping to secondary storage . The quality of the virtual memory manager can have an extensive effect on overall system performance . The system allows a computer to appear as if it may have more memory available than physically present, thereby allowing multiple processes to share it. In some operating systems , e.g. Burroughs/Unisys MCP , and OS/360 and successors , memory is managed by the operating system. In other operating systems, e.g. Unix-like operating systems, memory is managed at the application level. Memory management within an address space is generally categorized as either manual memory management or automatic memory management. ^ Cite error: The named reference :0 was invoked but never defined (see the help page ). ^ \"Unisys MCP Managing Memory\" . System Operations Guid . Unisys . ^ \"Main Storage Allocation\" (PDF) . IBM Operating System/360 Concepts and Facilities (PDF) . IBM Systems Reference Library (First ed.). IBM Corporation. 1965. p. 74 . Retrieved Apr 3, 2019 . Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "text": "Computer memory management methodology \"Memory allocation\" redirects here. For memory allocation in the brain, see Neuronal memory allocation . This article is about memory management in an address space . For management of physical memory, see Memory management (operating systems) . This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( April 2014 ) ( Learn how and when to remove this message ) Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e Memory management (also dynamic memory management , dynamic storage allocation , or dynamic memory allocation ) is a form of resource management applied to computer memory . The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed. This is critical to any advanced computer system where more than a single process might be underway ( multitasking ) at any time. Several methods have been devised that increase the effectiveness of memory management. Virtual memory systems separate the memory addresses used by a process from actual physical addresses, allowing separation of processes and increasing the size of the virtual address space beyond the available amount of RAM using paging or swapping to secondary storage . The quality of the virtual memory manager can have an extensive effect on overall system performance . The system allows a computer to appear as if it may have more memory available than physically present, thereby allowing multiple processes to share it. In some operating systems , e.g. Burroughs/Unisys MCP , and OS/360 and successors , memory is managed by the operating system. In other operating systems, e.g. Unix-like operating systems, memory is managed at the application level. Memory management within an address space is generally categorized as either manual memory management or automatic memory management. ^ Cite error: The named reference :0 was invoked but never defined (see the help page ). ^ \"Unisys MCP Managing Memory\" . System Operations Guid . Unisys . ^ \"Main Storage Allocation\" (PDF) . IBM Operating System/360 Concepts and Facilities (PDF) . IBM Systems Reference Library (First ed.). IBM Corporation. 1965. p. 74 . Retrieved Apr 3, 2019 . Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "links": [
+      "Application software",
+      "Burroughs MCP",
+      "Computer hardware",
+      "Computer memory",
+      "Computer multitasking",
+      "Computer network",
+      "Computer performance",
+      "Computer security",
+      "Device driver",
+      "File system",
+      "Input/output",
+      "Interrupt",
+      "Manual memory management",
+      "Memory address",
+      "Memory management (operating systems)",
+      "Neuronal memory allocation",
+      "OS/360 and successors",
+      "Operating system",
+      "Paging",
+      "Process (computing)",
+      "Process management (computing)",
+      "Random-access memory",
+      "Resource management (computing)",
+      "Secondary storage",
+      "Unisys",
+      "Unix-like",
+      "User (computing)",
+      "Virtual address space",
+      "Virtual memory"
+    ],
+    "page_id": 66924,
+    "revision_id": 1369222484,
+    "retrieved_at": "2026-09-18T18:08:12.090195+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260807022041|1368110420",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 66924,
+            "ns": 0,
+            "title": "Memory management",
+            "revisions": [
+              {
+                "revid": 1369222484,
+                "parentid": 1368110420
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Operating_system_placement.svg",
+              "wikibase-shortdesc": "Computer memory management methodology",
+              "wikibase_item": "Q2308807"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Memory management",
+        "pageid": 66924,
+        "revid": 1369222484,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Computer memory management methodology</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Memory allocation\" redirects here. For memory allocation in the brain, see <a href=\"/wiki/Neuronal_memory_allocation\" title=\"Neuronal memory allocation\">Neuronal memory allocation</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about memory management in an <a href=\"/wiki/Virtual_address_space\" title=\"Virtual address space\">address space</a>. For management of physical memory, see <a href=\"/wiki/Memory_management_(operating_systems)\" title=\"Memory management (operating systems)\">Memory management (operating systems)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;footnotes&#95;needed plainlinks metadata ambox ambox-style ambox-More&#95;footnotes&#95;needed\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/120px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article includes a list of <a href=\"/wiki/Wikipedia:Citing_sources#General_references\" title=\"Wikipedia:Citing sources\">general references</a> <b>but lacks sufficient corresponding <a href=\"/wiki/Wikipedia:Citing_sources#Inline_citations\" title=\"Wikipedia:Citing sources\">inline citations</a></b>.<span class=\"hide-when-compact\"> Please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Memory_management&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Memory_management&amp;action=edit\">improve this article</a> by <a href=\"/wiki/Wikipedia:When_to_cite\" title=\"Wikipedia:When to cite\">introducing</a> more precise citations.</span>  <span class=\"date-container\"><i>(<span class=\"date\">April 2014</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating systems</a></th></tr><tr><td class=\"sidebar-image\"><figure class=\"mw-halign-center noresize mw-ext-imagemap-desc-bottom-right\" typeof=\"mw:File\"><span><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/250px-Operating_system_placement.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"165\" height=\"244\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/330px-Operating_system_placement.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"250\" data-file-height=\"370\" usemap=\"#ImageMap_424993074d1faf41\" resource=\"/wiki/File:Operating_system_placement.svg\" /></span><map name=\"ImageMap_424993074d1faf41\"><area href=\"/wiki/User_(computing)\" coords=\"1,1,165,59\" alt=\"User\" title=\"User\" /><area href=\"/wiki/Application_software\" coords=\"1,60,165,119\" alt=\"Application\" title=\"Application\" /><area href=\"/wiki/Operating_system\" coords=\"1,119,165,178\" alt=\"Operating system\" title=\"Operating system\" /><area href=\"/wiki/Computer_hardware\" coords=\"1,179,165,237\" alt=\"Hardware\" title=\"Hardware\" /></map><figcaption></figcaption></figure></td></tr><tr><th class=\"sidebar-heading\" style=\"font-size:110%;\">\nCommon features</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Process_management_(computing)\" title=\"Process management (computing)\">Process management</a></li>\n<li><a href=\"/wiki/Interrupt\" title=\"Interrupt\">Interrupts</a></li>\n<li><a class=\"mw-selflink selflink\">Memory management</a></li>\n<li><a href=\"/wiki/File_system\" title=\"File system\">File system</a></li>\n<li><a href=\"/wiki/Device_driver\" title=\"Device driver\">Device drivers</a></li>\n<li><a href=\"/wiki/Computer_network\" title=\"Computer network\">Networking</a></li>\n<li><a href=\"/wiki/Computer_security\" title=\"Computer security\">Security</a></li>\n<li><a href=\"/wiki/Input/output\" title=\"Input/output\">Input/output</a></li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:OS\" title=\"Template:OS\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:OS\" title=\"Template talk:OS\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:OS\" title=\"Special:EditPage/Template:OS\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>Memory management</b> (also <b>dynamic memory management</b>, <b>dynamic storage allocation</b>, or <b>dynamic memory allocation</b>) is a form of <a href=\"/wiki/Resource_management_(computing)\" title=\"Resource management (computing)\">resource management</a> applied to <a href=\"/wiki/Computer_memory\" title=\"Computer memory\">computer memory</a>. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed. This is critical to any advanced computer system where more than a single <a href=\"/wiki/Process_(computing)\" title=\"Process (computing)\">process</a> might be underway (<a href=\"/wiki/Computer_multitasking\" title=\"Computer multitasking\">multitasking</a>) at any time.<sup id=\"cite&#95;ref-:0&#95;1-0\" class=\"reference\"><a href=\"#cite_note-:0-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> \n</p><p>Several methods have been devised that increase the effectiveness of memory management. <a href=\"/wiki/Virtual_memory\" title=\"Virtual memory\">Virtual memory</a> systems separate the <a href=\"/wiki/Memory_address\" title=\"Memory address\">memory addresses</a> used by a process from actual physical addresses, allowing separation of processes and increasing the size of the <a href=\"/wiki/Virtual_address_space\" title=\"Virtual address space\">virtual address space</a> beyond the available amount of <a href=\"/wiki/Random-access_memory\" title=\"Random-access memory\">RAM</a> using <a href=\"/wiki/Paging\" class=\"mw-redirect\" title=\"Paging\">paging</a> or swapping to <a href=\"/wiki/Secondary_storage\" class=\"mw-redirect\" title=\"Secondary storage\">secondary storage</a>. The quality of the virtual memory manager can have an extensive effect on overall system <a href=\"/wiki/Computer_performance\" title=\"Computer performance\">performance</a>. The system allows a computer to appear as if it may have more memory available than physically present, thereby allowing multiple processes to share it. \n</p><p>In some <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a>, e.g. <a href=\"/wiki/Burroughs_MCP\" title=\"Burroughs MCP\">Burroughs/Unisys MCP</a>,<sup id=\"cite&#95;ref-Unisys-MCP-Memory&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Unisys-MCP-Memory-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/OS/360_and_successors\" title=\"OS/360 and successors\">OS/360 and successors</a>,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> memory is managed by the operating system.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>note 1<span class=\"cite-bracket\">&#93;</span></a></sup> In other operating systems, e.g. <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> operating systems, memory is managed at the application level.\n</p><p>Memory management within an address space is generally categorized as either <a href=\"/wiki/Manual_memory_management\" title=\"Manual memory management\">manual memory management</a> or automatic memory management.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-:0-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>:0</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Unisys-MCP-Memory-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Unisys-MCP-Memory_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation book cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://public.support.unisys.com/aseries/docs/ClearPath-MCP-20.0/86000387-514/chapter-000002004.html\">\"Unisys MCP Managing Memory\"</a>. <i>System Operations Guid</i>. <a href=\"/wiki/Unisys\" title=\"Unisys\">Unisys</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Unisys+MCP+Managing+Memory&amp;rft.btitle=System+Operations+Guid&amp;rft.pub=Unisys&amp;rft&#95;id=https%3A%2F%2Fpublic.support.unisys.com%2Faseries%2Fdocs%2FClearPath-MCP-20.0%2F86000387-514%2Fchapter-000002004.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMemory+management\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation book cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://bitsavers.org/pdf/ibm/360/os/R01-08/C28-6535-0_OS360_Concepts_and_Facilities_1965.pdf#page=72\">\"Main Storage Allocation\"</a> <span class=\"cs1-format\">(PDF)</span>. <a rel=\"nofollow\" class=\"external text\" href=\"http://bitsavers.org/pdf/ibm/360/os/R01-08/C28-6535-0_OS360_Concepts_and_Facilities_1965.pdf\"><i>IBM Operating System/360 Concepts and Facilities</i></a> <span class=\"cs1-format\">(PDF)</span>. IBM Systems Reference Library (First&#160;ed.). IBM Corporation. 1965. p.&#160;74<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">Apr 3,</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Main+Storage+Allocation&amp;rft.btitle=IBM+Operating+System%2F360+Concepts+and+Facilities&amp;rft.series=IBM+Systems+Reference+Library&amp;rft.pages=74&amp;rft.edition=First&amp;rft.pub=IBM+Corporation&amp;rft.date=1965&amp;rft&#95;id=https%3A%2F%2Fbitsavers.org%2Fpdf%2Fibm%2F360%2Fos%2FR01-08%2FC28-6535-0&#95;OS360&#95;Concepts&#95;and&#95;Facilities&#95;1965.pdf%23page%3D72&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMemory+management\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;note&gt;</code> tags on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;note&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐cs4qr\nCached time: 20260918180837\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.175 seconds\nReal time usage: 0.277 seconds\nPreprocessor visited node count: 620/1000000\nRevision size: 2991/2097152 bytes\nPost‐expand include size: 17977/2097152 bytes\nTemplate argument size: 2625/2097152 bytes\nHighest expansion depth: 13/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 18070/5000000 bytes\nLua time usage: 0.115/10.000 seconds\nLua memory usage: 3994056/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  263.115      1 -total\n 23.53%   61.903      1 Template:OS\n 22.88%   60.197      1 Template:Sidebar\n 19.03%   50.058      2 Template:Cite_book\n 17.38%   45.721      1 Template:Short_description\n 11.25%   29.588      1 Template:More_footnotes\n 10.48%   27.566      2 Template:Pagetype\n  9.68%   25.472      1 Template:Ambox\n  7.82%   20.582      4 Template:Broken_ref\n  7.05%   18.559      1 Template:Redirect\n-->\n\n<!-- Render ID f82202ef-b38b-11f1-838e-e3cce24df7f2 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "User (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer hardware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Neuronal memory allocation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management (operating systems)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Burroughs MCP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer multitasking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer performance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer security",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Device driver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "File system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interrupt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manual memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory address",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OS/360 and successors",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Paging",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process management (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Random-access memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Resource management (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Secondary storage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unisys",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual address space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual memory",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:OS",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:When to cite",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:OS",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Computer memory management methodology",
+          "page_image_free": "Operating_system_placement.svg",
+          "wikibase_item": "Q2308807"
+        }
+      }
+    }
+  ]
+}

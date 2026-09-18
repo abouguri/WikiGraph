@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Scope (computer programming)",
+    "url": "https://en.wikipedia.org/wiki/Scope_%28computer_programming%29",
+    "summary": "Part of a computer program where a given name binding is valid This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Scope\" computer programming – news · newspapers · books · scholar · JSTOR ( December 2008 ) ( Learn how and when to remove this message ) This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( June 2025 ) ( Learn how and when to remove this message ) This article's style of writing may not reflect the encyclopedic tone used on Wikipedia . See Wikipedia's guide to writing better articles for suggestions. ( June 2025 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) In computer programming , the scope of a name binding (an association of a name to an entity, such as a variable ) is the part of a program in which the name binding is valid. In other words, a scope is where a name can be used to refer to an entity . In other parts of the program, the name may refer to a different entity (it may have a different binding), or to nothing at all (it may be unbound). Scope helps prevent name collisions by allowing the same name to refer to different objects – as long as the names have separate scopes. The scope of a name binding is also known as the visibility of an entity, particularly in older or more technical literature—this is in relation to the referenced entity, not the referencing name. The term \"scope\" is also used to refer to the set of all name bindings that are valid within a part of a program or at a given point in a program, which is more correctly referred to as context or environment . Strictly speaking and in practice for most programming languages , \"part of a program\" refers to a portion of source code (area of text), and is known as lexical scope . In some languages, however, \"part of a program\" refers to a portion of run time (period during execution ), and is known as dynamic scope . Both of these terms are somewhat misleading—they misuse technical terms, as discussed in the definition —but the distinction itself is accurate and precise, and these are the standard respective terms. Lexical scope is the main focus of this article, with dynamic scope understood by contrast with lexical scope. In most cases, name resolution based on lexical scope is relatively straightforward to use and to implement, as in use one can read backwards in the source code to determine to which entity a name refers, and in implementation one can maintain a list of names and contexts when compiling or interpreting a program. Difficulties arise in name masking , forward declarations , and hoisting , while considerably subtler ones arise with non-local variables , particularly in closures . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Part of a computer program where a given name binding is valid This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Scope\" computer programming – news · newspapers · books · scholar · JSTOR ( December 2008 ) ( Learn how and when to remove this message ) This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( June 2025 ) ( Learn how and when to remove this message ) This article's style of writing may not reflect the encyclopedic tone used on Wikipedia . See Wikipedia's guide to writing better articles for suggestions. ( June 2025 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) In computer programming , the scope of a name binding (an association of a name to an entity, such as a variable ) is the part of a program in which the name binding is valid. In other words, a scope is where a name can be used to refer to an entity . In other parts of the program, the name may refer to a different entity (it may have a different binding), or to nothing at all (it may be unbound). Scope helps prevent name collisions by allowing the same name to refer to different objects – as long as the names have separate scopes. The scope of a name binding is also known as the visibility of an entity, particularly in older or more technical literature—this is in relation to the referenced entity, not the referencing name. The term \"scope\" is also used to refer to the set of all name bindings that are valid within a part of a program or at a given point in a program, which is more correctly referred to as context or environment . Strictly speaking and in practice for most programming languages , \"part of a program\" refers to a portion of source code (area of text), and is known as lexical scope . In some languages, however, \"part of a program\" refers to a portion of run time (period during execution ), and is known as dynamic scope . Both of these terms are somewhat misleading—they misuse technical terms, as discussed in the definition —but the distinction itself is accurate and precise, and these are the standard respective terms. Lexical scope is the main focus of this article, with dynamic scope understood by contrast with lexical scope. In most cases, name resolution based on lexical scope is relatively straightforward to use and to implement, as in use one can read backwards in the source code to determine to which entity a name refers, and in implementation one can maintain a list of names and contexts when compiling or interpreting a program. Difficulties arise in name masking , forward declarations , and hoisting , while considerably subtler ones arise with non-local variables , particularly in closures . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "Closure (computer programming)",
+      "Compiling",
+      "Computer program",
+      "Computer programming",
+      "Entity",
+      "Execution (computing)",
+      "Forward declaration",
+      "Interpreter (computing)",
+      "Name binding",
+      "Name collision",
+      "Name masking",
+      "Non-local variable",
+      "Programming language",
+      "Programming language implementation",
+      "Runtime (program lifecycle phase)",
+      "Source code",
+      "Variable (programming)",
+      "Variable hoisting"
+    ],
+    "page_id": 62068,
+    "revision_id": 1373719712,
+    "retrieved_at": "2026-09-18T18:08:14.012727+00:00",
+    "aliases": [
+      "Scope (computer science)"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260603064424|1357541361",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Scope (computer science)",
+            "to": "Scope (computer programming)"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 62068,
+            "ns": 0,
+            "title": "Scope (computer programming)",
+            "revisions": [
+              {
+                "revid": 1373719712,
+                "parentid": 1357541361
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Scope (Programming)",
+              "wikibase-shortdesc": "Part of a computer program where a given name binding is valid",
+              "wikibase_item": "Q1034415"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Scope (computer programming)",
+        "pageid": 62068,
+        "revid": 1373719712,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Part of a computer program where a given name binding is valid</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Scope_(computer_programming)\" title=\"Special:EditPage/Scope (computer programming)\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Scope_(computer_programming)\" title=\"Talk:Scope (computer programming)\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Scope_(computer_programming)\" title=\"Special:EditPage/Scope (computer programming)\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Scope%22+computer+programming\">\"Scope\"&#160;computer programming</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Scope%22+computer+programming+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Scope%22+computer+programming&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Scope%22+computer+programming+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Scope%22+computer+programming\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Scope%22+computer+programming&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">December 2008</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Original&#95;research plainlinks metadata ambox ambox-content ambox-Original&#95;research\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may contain <a href=\"/wiki/Wikipedia:No_original_research\" title=\"Wikipedia:No original research\">original research</a></b>.<span class=\"hide-when-compact\"> Please <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Scope_(computer_programming)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Scope_(computer_programming)&amp;action=edit\">improve it</a> by <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">verifying</a> the claims made and adding <a href=\"/wiki/Wikipedia:Citing_sources#Inline_citations\" title=\"Wikipedia:Citing sources\">inline citations</a>. Statements consisting only of original research should be removed.</span>  <span class=\"date-container\"><i>(<span class=\"date\">June 2025</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Tone plainlinks metadata ambox ambox-style ambox-Tone\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/120px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article's style of writing <b>may not reflect the <a href=\"/wiki/Wikipedia:Writing_better_articles#Tone\" title=\"Wikipedia:Writing better articles\">encyclopedic tone</a> used on Wikipedia</b>.<span class=\"hide-when-compact\"> See Wikipedia's <a href=\"/wiki/Wikipedia:Writing_better_articles#Tone\" title=\"Wikipedia:Writing better articles\">guide to writing better articles</a> for suggestions.</span>  <span class=\"date-container\"><i>(<span class=\"date\">June 2025</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computer_programming\" title=\"Computer programming\">computer programming</a>, the <b>scope</b> of a <a href=\"/wiki/Name_binding\" title=\"Name binding\">name binding</a> (an association of a name to an entity, such as a <a href=\"/wiki/Variable_(programming)\" class=\"mw-redirect\" title=\"Variable (programming)\">variable</a>) is the part of a <a href=\"/wiki/Computer_program\" title=\"Computer program\">program</a> in which the name binding is valid. In other words, a scope is where a name can be used to refer to an <a href=\"/wiki/Entity\" title=\"Entity\">entity</a>. In other parts of the program, the name may refer to a different entity (it may have a different binding), or to nothing at all (it may be unbound). Scope helps prevent <a href=\"/wiki/Name_collision\" title=\"Name collision\">name collisions</a> by allowing the same name to refer to different objects – as long as the names have separate scopes. The scope of a name binding is also known as the <b>visibility</b> of an entity, particularly in older or more technical literature—this is in relation to the referenced entity, not the referencing name.\n</p><p>The term \"scope\" is also used to refer to the set of <i>all</i> name bindings that are valid within a part of a program or at a given point in a program, which is more correctly referred to as <i>context</i> or <i>environment</i>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Strictly speaking<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup> and in practice for most <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a>, \"part of a program\" refers to a portion of <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> (area of text), and is known as <b>lexical scope</b>. In some languages, however, \"part of a program\" refers to a portion of <a href=\"/wiki/Runtime_(program_lifecycle_phase)\" class=\"mw-redirect\" title=\"Runtime (program lifecycle phase)\">run time</a> (period during <a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">execution</a>), and is known as <b>dynamic scope</b>. Both of these terms are somewhat misleading—they misuse technical terms, as discussed in the <a href=\"#Definition\">definition</a>—but the distinction itself is accurate and precise, and these are the standard respective terms. Lexical scope is the main focus of this article, with dynamic scope understood by contrast with lexical scope.\n</p><p>In most cases, name resolution based on lexical scope is relatively straightforward to use and to implement, as in use one can read backwards in the source code to determine to which entity a name refers, and in <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementation</a> one can maintain a list of names and contexts when <a href=\"/wiki/Compiling\" class=\"mw-redirect\" title=\"Compiling\">compiling</a> or <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreting</a> a program. Difficulties arise in <a href=\"/wiki/Name_masking\" class=\"mw-redirect\" title=\"Name masking\">name masking</a>, <a href=\"/wiki/Forward_declaration\" title=\"Forward declaration\">forward declarations</a>, and <a href=\"/wiki/Variable_hoisting\" class=\"mw-redirect\" title=\"Variable hoisting\">hoisting</a>, while considerably subtler ones arise with <a href=\"/wiki/Non-local_variable\" title=\"Non-local variable\">non-local variables</a>, particularly in <a href=\"/wiki/Closure_(computer_programming)\" title=\"Closure (computer programming)\">closures</a>.\n<br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span>\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐jxjls\nCached time: 20260918180839\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.127 seconds\nReal time usage: 0.198 seconds\nPreprocessor visited node count: 607/1000000\nRevision size: 2787/2097152 bytes\nPost‐expand include size: 46718/2097152 bytes\nTemplate argument size: 18481/2097152 bytes\nHighest expansion depth: 17/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7463/5000000 bytes\nLua time usage: 0.066/10.000 seconds\nLua memory usage: 2802581/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  182.014      1 -total\n 38.45%   69.988      1 Template:Multiple_issues\n 37.03%   67.403      1 Template:Short_description\n 24.39%   44.400      2 Template:Pagetype\n 21.68%   39.465      3 Template:Ambox\n 20.74%   37.743      1 Template:More_citations_needed\n  8.43%   15.339      2 Template:Broken_ref\n  7.45%   13.564      3 Template:Main_other\n  6.61%   12.032      1 Template:SDcat\n  5.21%    9.479      1 Template:Tone\n-->\n\n<!-- Render ID f9533b7b-b38b-11f1-a86f-a111c24064ff -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Closure (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Entity",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Forward declaration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Name binding",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Name collision",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Name masking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Non-local variable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime (program lifecycle phase)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Variable (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Variable hoisting",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:Scope (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Writing better articles",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Part of a computer program where a given name binding is valid",
+          "wikibase_item": "Q1034415"
+        }
+      }
+    }
+  ]
+}

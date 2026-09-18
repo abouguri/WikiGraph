@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Apache License",
+    "url": "https://en.wikipedia.org/wiki/Apache_License",
+    "summary": "Free-software license Apache License The Apache Software Foundation logo Author The Apache Software Foundation Latest version 2.0 Publisher The Apache Software Foundation Published January 2004 ; 22 years ago ( 2004-01 ) SPDX identifier Apache-2.0 Apache-1.1 Apache-1.0 Debian FSG compatible Yes FSF approved Yes OSI approved Yes GPL compatible Yes (Version 2.0 only → GPLv3 only) Copyleft No Linking from code with a different license Yes Website apache.org/licenses The Apache License is a permissive free-software and free and open source software license written by the Apache Software Foundation (ASF). It allows users to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software under the terms of the license, without concern for royalties . The ASF and its projects release their software products under the Apache License. The license is also used by many non-ASF projects. ^ \"The Apache Software License (ASL)\" . The Big DFSG-compatible Licenses . Debian Project . Retrieved 6 July 2009 . ^ a b \"Apache License, Version 2.0\" . Various Licenses and Comments about Them . Free Software Foundation . Archived from the original on 16 July 2009 . Retrieved 6 July 2009 . ^ \"OSI-approved licenses by name David Gutierrez & David Louie Gutierrez\" . Open Source Initiative . Archived from the original on 28 April 2011 . Retrieved 31 March 2011 . ^ New Media Rights (12 September 2008). \"Open Source Licensing Guide\" . California Western School of Law . Retrieved 28 November 2015 . The 'BSD-like' licenses such as the BSD, MIT, and Apache licenses are extremely permissive, requiring little more than attributing the original portions of the licensed code to the original developers in your own code and/or documentation.",
+    "text": "Free-software license Apache License The Apache Software Foundation logo Author The Apache Software Foundation Latest version 2.0 Publisher The Apache Software Foundation Published January 2004 ; 22 years ago ( 2004-01 ) SPDX identifier Apache-2.0 Apache-1.1 Apache-1.0 Debian FSG compatible Yes FSF approved Yes OSI approved Yes GPL compatible Yes (Version 2.0 only → GPLv3 only) Copyleft No Linking from code with a different license Yes Website apache.org/licenses The Apache License is a permissive free-software and free and open source software license written by the Apache Software Foundation (ASF). It allows users to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software under the terms of the license, without concern for royalties . The ASF and its projects release their software products under the Apache License. The license is also used by many non-ASF projects. ^ \"The Apache Software License (ASL)\" . The Big DFSG-compatible Licenses . Debian Project . Retrieved 6 July 2009 . ^ a b \"Apache License, Version 2.0\" . Various Licenses and Comments about Them . Free Software Foundation . Archived from the original on 16 July 2009 . Retrieved 6 July 2009 . ^ \"OSI-approved licenses by name David Gutierrez & David Louie Gutierrez\" . Open Source Initiative . Archived from the original on 28 April 2011 . Retrieved 31 March 2011 . ^ New Media Rights (12 September 2008). \"Open Source Licensing Guide\" . California Western School of Law . Retrieved 28 November 2015 . The 'BSD-like' licenses such as the BSD, MIT, and Apache licenses are extremely permissive, requiring little more than attributing the original portions of the licensed code to the original developers in your own code and/or documentation.",
+    "links": [
+      "Apache Software Foundation",
+      "California Western School of Law",
+      "Comparison of free and open-source software licenses",
+      "Copyleft",
+      "Debian Free Software Guidelines",
+      "Debian Project",
+      "Free Software Foundation",
+      "Free and open source software",
+      "GPL compatible",
+      "GPL linking exception",
+      "GPLv3",
+      "Open Source Initiative",
+      "Permissive software license",
+      "Publishing",
+      "Royalties",
+      "Software Package Data Exchange",
+      "The Apache Software Foundation"
+    ],
+    "page_id": 145908,
+    "revision_id": 1372901532,
+    "retrieved_at": "2026-09-18T18:08:43.487150+00:00",
+    "aliases": [
+      "Apache License 2.0"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260902215018|1372900976",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Apache License 2.0",
+            "to": "Apache License",
+            "tofragment": "Apache License 2.0"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 145908,
+            "ns": 0,
+            "title": "Apache License",
+            "revisions": [
+              {
+                "revid": 1372901532,
+                "parentid": 1372900976
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "The_ASF_Logo_(2025).svg",
+              "wikibase-shortdesc": "Free-software license",
+              "wikibase_item": "Q616526"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Apache License",
+        "pageid": 145908,
+        "revid": 1372901532,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free-software license</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox\"><caption class=\"infobox-title\">Apache License</caption><tbody><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:The_ASF_Logo_(2025).svg\" class=\"mw-file-description\"><img alt=\"The Apache Software Foundation logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/88/The_ASF_Logo_%282025%29.svg/250px-The_ASF_Logo_%282025%29.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"131\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/88/The_ASF_Logo_%282025%29.svg/500px-The_ASF_Logo_%282025%29.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"269\" /></a></span><div class=\"infobox-caption\">The Apache Software Foundation logo</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\">Author</th><td class=\"infobox-data\" style=\"width:55%;\"><a href=\"/wiki/The_Apache_Software_Foundation\" title=\"The Apache Software Foundation\">The Apache Software Foundation</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\">Latest version</th><td class=\"infobox-data\" style=\"width:55%;\">2.0</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Publishing\" title=\"Publishing\">Publisher</a></th><td class=\"infobox-data\" style=\"width:55%;\">The Apache Software Foundation</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\">Published</th><td class=\"infobox-data\" style=\"width:55%;\">January&#160;2004<span class=\"noprint\">&#59;&#32;22&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2004-01</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Software_Package_Data_Exchange\" title=\"Software Package Data Exchange\">SPDX</a> identifier</th><td class=\"infobox-data\" style=\"width:55%;\">Apache-2.0<br />Apache-1.1<br />Apache-1.0</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Debian_Free_Software_Guidelines\" class=\"mw-redirect\" title=\"Debian Free Software Guidelines\">Debian FSG compatible</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<sup id=\"cite&#95;ref-dfsglist&#95;1-0\" class=\"reference\"><a href=\"#cite_note-dfsglist-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">FSF</a> <a href=\"/wiki/Comparison_of_free_and_open-source_software_licenses#Approvals\" title=\"Comparison of free and open-source software licenses\">approved</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<sup id=\"cite&#95;ref-fsflist&#95;2-0\" class=\"reference\"><a href=\"#cite_note-fsflist-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Open_Source_Initiative\" title=\"Open Source Initiative\">OSI</a> <a href=\"/wiki/Comparison_of_free_and_open-source_software_licenses#Approvals\" title=\"Comparison of free and open-source software licenses\">approved</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<sup id=\"cite&#95;ref-osi&#95;3-0\" class=\"reference\"><a href=\"#cite_note-osi-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/GPL_compatible\" class=\"mw-redirect\" title=\"GPL compatible\">GPL compatible</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<br />(Version 2.0 only<br />&#8594;<span class=\"nowrap\">&#160;</span><a href=\"/wiki/GPLv3\" class=\"mw-redirect\" title=\"GPLv3\">GPLv3</a> only)<sup id=\"cite&#95;ref-fsflist&#95;2-1\" class=\"reference\"><a href=\"#cite_note-fsflist-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Copyleft\" title=\"Copyleft\">Copyleft</a></th><td class=\"infobox-data\" style=\"width:55%;\">No</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/GPL_linking_exception\" title=\"GPL linking exception\">Linking from code with a different license</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\">Website</th><td class=\"infobox-data\" style=\"width:55%;\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.apache.org/licenses/\">apache.org/licenses</a></span></td></tr></tbody></table>\n<p>The <b>Apache License</b> is a <a href=\"/wiki/Permissive_software_license\" title=\"Permissive software license\">permissive</a> free-software and <a href=\"/wiki/Free_and_open_source_software\" class=\"mw-redirect\" title=\"Free and open source software\">free and open source software</a> license written by the <a href=\"/wiki/Apache_Software_Foundation\" class=\"mw-redirect\" title=\"Apache Software Foundation\">Apache Software Foundation</a> (ASF).<sup id=\"cite&#95;ref-nmr-permissive&#95;4-0\" class=\"reference\"><a href=\"#cite_note-nmr-permissive-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> It allows users to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software under the terms of the license, without concern for <a href=\"/wiki/Royalties\" class=\"mw-redirect\" title=\"Royalties\">royalties</a>. The ASF and its projects release their software products under the Apache License. The license is also used by many non-ASF projects.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-dfsglist-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-dfsglist_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.debian.org/DFSGLicenses#The_Apache_Software_License_.28ASL.29\">\"The Apache Software License (ASL)\"</a>. <i>The Big DFSG-compatible Licenses</i>. <a href=\"/wiki/Debian_Project\" class=\"mw-redirect\" title=\"Debian Project\">Debian Project</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 July</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Big+DFSG-compatible+Licenses&amp;rft.atitle=The+Apache+Software+License+%28ASL%29&amp;rft&#95;id=https%3A%2F%2Fwiki.debian.org%2FDFSGLicenses%23The&#95;Apache&#95;Software&#95;License&#95;.28ASL.29&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AApache+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-fsflist-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-fsflist_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-fsflist_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/licenses/license-list.html#apache2\">\"Apache License, Version 2.0\"</a>. <i>Various Licenses and Comments about Them</i>. <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">Free Software Foundation</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090716201618/https://www.gnu.org/licenses/license-list.html\">Archived</a> from the original on 16 July 2009<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 July</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Various+Licenses+and+Comments+about+Them&amp;rft.atitle=Apache+License%2C+Version+2.0&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Flicense-list.html%23apache2&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AApache+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-osi-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-osi_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.opensource.org/licenses/alphabetical\">\"OSI-approved licenses by name David Gutierrez &amp; David Louie Gutierrez\"</a>. <a href=\"/wiki/Open_Source_Initiative\" title=\"Open Source Initiative\">Open Source Initiative</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110428141712/http://opensource.org/licenses/alphabetical\">Archived</a> from the original on 28 April 2011<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">31 March</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=OSI-approved+licenses+by+name+David+Gutierrez+%26+David+Louie+Gutierrez&amp;rft.pub=Open+Source+Initiative&amp;rft&#95;id=https%3A%2F%2Fwww.opensource.org%2Flicenses%2Falphabetical&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AApache+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-nmr-permissive-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-nmr-permissive_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFNew&#95;Media&#95;Rights2008\" class=\"citation web cs1\">New Media Rights (12 September 2008). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.newmediarights.org/open_source/new_media_rights_open_source_licensing_guide\">\"Open Source Licensing Guide\"</a>. <a href=\"/wiki/California_Western_School_of_Law\" title=\"California Western School of Law\">California Western School of Law</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">28 November</span> 2015</span>. <q><i>The 'BSD-like' licenses such as the BSD, MIT, and Apache licenses are extremely permissive, requiring little more than attributing the original portions of the licensed code to the original developers in your own code and/or documentation.</i></q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Open+Source+Licensing+Guide&amp;rft.pub=California+Western+School+of+Law&amp;rft.date=2008-09-12&amp;rft.au=New+Media+Rights&amp;rft&#95;id=http%3A%2F%2Fwww.newmediarights.org%2Fopen&#95;source%2Fnew&#95;media&#95;rights&#95;open&#95;source&#95;licensing&#95;guide&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AApache+License\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐c4q88\nCached time: 20260918180909\nCache expiry: 1057861\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.290 seconds\nReal time usage: 0.458 seconds\nPreprocessor visited node count: 956/1000000\nRevision size: 2889/2097152 bytes\nPost‐expand include size: 19102/2097152 bytes\nTemplate argument size: 1809/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 11142/5000000 bytes\nLua time usage: 0.170/10.000 seconds\nLua memory usage: 4310326/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  429.740      1 -total\n 35.91%  154.319      1 Template:Infobox_software_license\n 34.88%  149.875      1 Template:Infobox\n 27.63%  118.739      4 Template:Cite_web\n 26.37%  113.304      1 Template:Short_description\n 16.14%   69.354      2 Template:Pagetype\n 11.74%   50.431      1 Template:URL\n  6.29%   27.018      5 Template:Main_other\n  5.95%   25.586      1 Template:Use_dmy_dates\n  5.24%   22.504      1 Template:SDcat\n-->\n\n<!-- Render ID 0b34d1bf-b38c-11f1-9318-5b1385bb8988 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Apache Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "California Western School of Law",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of free and open-source software licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Copyleft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian Free Software Guidelines",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL compatible",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL linking exception",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPLv3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open Source Initiative",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Permissive software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Publishing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Royalties",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software Package Data Exchange",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Apache Software Foundation",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free-software license",
+          "page_image_free": "The_ASF_Logo_(2025).svg",
+          "wikibase_item": "Q616526"
+        }
+      }
+    }
+  ]
+}

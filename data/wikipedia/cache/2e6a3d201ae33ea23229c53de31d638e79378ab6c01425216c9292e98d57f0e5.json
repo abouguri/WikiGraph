@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "ISBN",
+    "url": "https://en.wikipedia.org/wiki/ISBN",
+    "summary": "Unique numeric book identifier since 1970 Not to be confused with ISSN or ISDN . For the use of ISBNs on Wikipedia, see Wikipedia:ISBN . International Standard Book Number A 13-digit ISBN, 978-3-16-148410-0, as represented by an EAN-13 bar code Acronym ISBN Organisation International ISBN Agency Introduced 1970 ; 56 years ago ( 1970 ) No. of digits 13 (formerly 10) Check digit Weighted sum Example 978-3-16-148410-0 Website isbn-international .org The International Standard Book Number ( ISBN ) is a numeric commercial book identifier that is intended to be unique. Publishers purchase or receive ISBNs from an affiliate of the International ISBN Agency. An ISBN cannot be used as a generic identifier for a work or title. A different ISBN is assigned to each separate edition and variation of a publication, but not to a simple reprinting of an existing item. For example, an e-book , a paperback and a hardcover edition of the same book must each have a different ISBN, but an unchanged reprint of the hardcover edition keeps the same ISBN. The ISBN is ten digits long if assigned before 2007, and thirteen digits long if assigned on or after 1 January 2007. The method of assigning an ISBN is nation-specific and varies between countries, often depending on how large the publishing industry is within a country. The first version of the ISBN identification format was devised in 1967, based upon the 9-digit Standard Book Numbering ( SBN ) created in 1966. The 10-digit ISBN format was developed by the International Organization for Standardization (ISO) and was published in 1970 as international standard ISO 2108 (any 9-digit SBN can be converted to a 10-digit ISBN by prefixing it with a zero). Privately published books sometimes appear without an ISBN. The International ISBN Agency sometimes assigns ISBNs to such books on its own initiative. A separate identifier code of a similar kind, the International Standard Serial Number (ISSN), identifies periodical publications such as magazines and newspapers . The International Standard Music Number (ISMN) covers musical scores . ^ Cite error: The named reference history was invoked but never defined (see the help page ). ^ \"The International ISBN Agency\" . Archived from the original on 24 February 2018 . Retrieved 20 February 2018 . ^ Cite error: The named reference LAC FAQ was invoked but never defined (see the help page ). ^ Bradley, Philip (1992). \"Book numbering: The importance of the ISBN\" (PDF) . The Indexer . 18 (1): 25– 26. doi : 10.3828/indexer.1992.18.1.11 . S2CID 193442570 . Archived from the original (PDF [245KB]) on 21 February 2021 . Retrieved 4 September 2009 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Unique numeric book identifier since 1970 Not to be confused with ISSN or ISDN . For the use of ISBNs on Wikipedia, see Wikipedia:ISBN . International Standard Book Number A 13-digit ISBN, 978-3-16-148410-0, as represented by an EAN-13 bar code Acronym ISBN Organisation International ISBN Agency Introduced 1970 ; 56 years ago ( 1970 ) No. of digits 13 (formerly 10) Check digit Weighted sum Example 978-3-16-148410-0 Website isbn-international .org The International Standard Book Number ( ISBN ) is a numeric commercial book identifier that is intended to be unique. Publishers purchase or receive ISBNs from an affiliate of the International ISBN Agency. An ISBN cannot be used as a generic identifier for a work or title. A different ISBN is assigned to each separate edition and variation of a publication, but not to a simple reprinting of an existing item. For example, an e-book , a paperback and a hardcover edition of the same book must each have a different ISBN, but an unchanged reprint of the hardcover edition keeps the same ISBN. The ISBN is ten digits long if assigned before 2007, and thirteen digits long if assigned on or after 1 January 2007. The method of assigning an ISBN is nation-specific and varies between countries, often depending on how large the publishing industry is within a country. The first version of the ISBN identification format was devised in 1967, based upon the 9-digit Standard Book Numbering ( SBN ) created in 1966. The 10-digit ISBN format was developed by the International Organization for Standardization (ISO) and was published in 1970 as international standard ISO 2108 (any 9-digit SBN can be converted to a 10-digit ISBN by prefixing it with a zero). Privately published books sometimes appear without an ISBN. The International ISBN Agency sometimes assigns ISBNs to such books on its own initiative. A separate identifier code of a similar kind, the International Standard Serial Number (ISSN), identifies periodical publications such as magazines and newspapers . The International Standard Music Number (ISMN) covers musical scores . ^ Cite error: The named reference history was invoked but never defined (see the help page ). ^ \"The International ISBN Agency\" . Archived from the original on 24 February 2018 . Retrieved 20 February 2018 . ^ Cite error: The named reference LAC FAQ was invoked but never defined (see the help page ). ^ Bradley, Philip (1992). \"Book numbering: The importance of the ISBN\" (PDF) . The Indexer . 18 (1): 25– 26. doi : 10.3828/indexer.1992.18.1.11 . S2CID 193442570 . Archived from the original (PDF [245KB]) on 21 February 2021 . Retrieved 4 September 2009 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "Book",
+      "Check digit",
+      "Doi (identifier)",
+      "E-book",
+      "Hardcover",
+      "ISDN",
+      "ISSN",
+      "Identifier",
+      "International Article Number",
+      "International Organization for Standardization",
+      "International Standard Music Number",
+      "International Standard Serial Number",
+      "Magazine",
+      "Newspaper",
+      "Paperback",
+      "S2CID (identifier)",
+      "Sheet music"
+    ],
+    "page_id": 14919,
+    "revision_id": 1374549706,
+    "retrieved_at": "2026-09-18T18:07:14.106959+00:00",
+    "aliases": [
+      "ISBN (identifier)"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260726024007|1366068326",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN",
+            "revisions": [
+              {
+                "revid": 1374549706,
+                "parentid": 1366068326
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "EAN-13-ISBN-13.svg",
+              "wikibase-shortdesc": "Unique numeric book identifier since 1970",
+              "wikibase_item": "Q33057"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "ISBN",
+        "pageid": 14919,
+        "revid": 1374549706,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Unique numeric book identifier since 1970</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/ISSN\" title=\"ISSN\">ISSN</a> or <a href=\"/wiki/ISDN\" title=\"ISDN\">ISDN</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable selfref\">For the use of ISBNs on Wikipedia, see <a href=\"/wiki/Wikipedia:ISBN\" title=\"Wikipedia:ISBN\">Wikipedia:ISBN</a>.</div>\n<p class=\"mw-empty-elt\">\n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox\"><caption class=\"infobox-title\">International Standard Book Number</caption><tbody><tr><td colspan=\"2\" class=\"infobox-image notheme\" style=\"background-color: #f8f9fa;\"><span class=\"mw-default-size mw-image-border\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:EAN-13-ISBN-13.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/28/EAN-13-ISBN-13.svg/250px-EAN-13-ISBN-13.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"230\" height=\"146\" style=\"--mw-file-upright: 0.9\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/28/EAN-13-ISBN-13.svg/500px-EAN-13-ISBN-13.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"195\" data-file-height=\"124\" /></a></span><div class=\"infobox-caption\">A 13-digit ISBN, 978-3-16-148410-0, as represented by an <a href=\"/wiki/International_Article_Number\" title=\"International Article Number\">EAN-13 bar code</a></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:6.5em;\">Acronym</th><td class=\"infobox-data\">ISBN</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:6.5em;\">Organisation</th><td class=\"infobox-data\">International ISBN Agency</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:6.5em;\">Introduced</th><td class=\"infobox-data\">1970<span class=\"noprint\">&#59;&#32;56&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1970</span>)</span><sup id=\"cite&#95;ref-history&#95;1-0\" class=\"reference\"><a href=\"#cite_note-history-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:6.5em;\"><abbr title=\"Number\">No.</abbr>&#160;of&#160;digits</th><td class=\"infobox-data\">13 (formerly 10)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:6.5em;\"><a href=\"/wiki/Check_digit\" title=\"Check digit\">Check digit</a></th><td class=\"infobox-data\">Weighted sum</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:6.5em;\">Example</th><td class=\"infobox-data\">978-3-16-148410-0</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:6.5em;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://isbn-international.org/\">isbn-international<wbr />.org</a></span></td></tr></tbody></table>\n<p>The <b>International Standard Book Number</b> (<b>ISBN</b>) is a numeric commercial <a href=\"/wiki/Book\" title=\"Book\">book</a> <a href=\"/wiki/Identifier\" title=\"Identifier\">identifier</a> that is intended to be unique.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup> Publishers purchase or receive ISBNs from an affiliate of the International ISBN Agency.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>An ISBN cannot be used as a generic identifier for a work or title. A different ISBN is assigned to each separate edition and variation of a publication, but not to a simple reprinting of an existing item. For example, an <a href=\"/wiki/E-book\" class=\"mw-redirect\" title=\"E-book\">e-book</a>, a <a href=\"/wiki/Paperback\" title=\"Paperback\">paperback</a> and a <a href=\"/wiki/Hardcover\" title=\"Hardcover\">hardcover</a> edition of the same <a href=\"/wiki/Book\" title=\"Book\">book</a> must each have a different ISBN, but an unchanged reprint of the hardcover edition keeps the same ISBN. The ISBN is ten digits long if assigned before 2007, and thirteen digits long if assigned on or after 1 January 2007.<sup id=\"cite&#95;ref-conversion&#95;6-0\" class=\"reference\"><a href=\"#cite_note-conversion-6\"><span class=\"cite-bracket\">&#91;</span>c<span class=\"cite-bracket\">&#93;</span></a></sup> The method of assigning an ISBN is nation-specific and varies between countries, often depending on how large the publishing industry is within a country.\n</p><p>The first version of the ISBN identification format was devised in 1967, based upon the 9-digit <b>Standard Book Numbering</b> (<b>SBN</b>) created in 1966. The 10-digit ISBN format was developed by the <a href=\"/wiki/International_Organization_for_Standardization\" title=\"International Organization for Standardization\">International Organization for Standardization</a> (ISO) and was published in 1970 as international standard ISO 2108 (any 9-digit SBN can be converted to a 10-digit ISBN by prefixing it with a zero).\n</p><p>Privately published books sometimes appear without an ISBN. The International ISBN Agency sometimes assigns ISBNs to such books on its own initiative.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>A separate identifier code of a similar kind, the <a href=\"/wiki/International_Standard_Serial_Number\" class=\"mw-redirect\" title=\"International Standard Serial Number\">International Standard Serial Number</a> (ISSN), identifies periodical publications such as <a href=\"/wiki/Magazine\" title=\"Magazine\">magazines</a> and <a href=\"/wiki/Newspaper\" title=\"Newspaper\">newspapers</a>. The <a href=\"/wiki/International_Standard_Music_Number\" title=\"International Standard Music Number\">International Standard Music Number</a> (ISMN) covers <a href=\"/wiki/Sheet_music\" title=\"Sheet music\">musical scores</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-history-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-history_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>history</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.isbn-international.org/\">\"The International ISBN Agency\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180224032510/https://www.isbn-international.org/\">Archived</a> from the original on 24 February 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">20 February</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+International+&#73;SBN+Agency&amp;rft&#95;id=https%3A%2F%2Fwww.isbn-international.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3A&#73;SBN\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-LAC&#95;FAQ-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-LAC_FAQ_5-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>LAC FAQ</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBradley1992\" class=\"citation journal cs1\">Bradley, Philip (1992). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210221021131/https://www.theindexer.org/files/18-1/18-1_025.pdf\">\"Book numbering: The importance of the ISBN\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>The Indexer</i>. <b>18</b> (1): <span class=\"nowrap\">25–</span>26. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.3828%2Findexer.1992.18.1.11\">10.3828/indexer.1992.18.1.11</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:193442570\">193442570</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.theindexer.org/files/18-1/18-1_025.pdf\">the original</a> <span class=\"cs1-format\">(PDF [245KB])</span> on 21 February 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 September</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Indexer&amp;rft.atitle=Book+numbering%3A+The+importance+of+the+&#73;SBN&amp;rft.volume=18&amp;rft.issue=1&amp;rft.pages=25-26&amp;rft.date=1992&amp;rft&#95;id=info%3Adoi%2F10.3828%2Findexer.1992.18.1.11&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A193442570%23id-name%3DS2CID&amp;rft.aulast=Bradley&amp;rft.aufirst=Philip&amp;rft&#95;id=http%3A%2F%2Fwww.theindexer.org%2Ffiles%2F18-1%2F18-1&#95;025.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3A&#73;SBN\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐gmfpq\nCached time: 20260918180739\nCache expiry: 1057951\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.264 seconds\nReal time usage: 0.372 seconds\nPreprocessor visited node count: 1209/1000000\nRevision size: 4697/2097152 bytes\nPost‐expand include size: 20891/2097152 bytes\nTemplate argument size: 6159/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 9/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7641/5000000 bytes\nLua time usage: 0.163/10.000 seconds\nLua memory usage: 17397449/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  358.522      1 -total\n 21.60%   77.431      3 Template:Efn\n 20.78%   74.517      1 Template:Lang\n 15.74%   56.432      1 Template:Short_description\n 13.94%   49.979      1 Template:Cite_web\n 10.00%   35.844      2 Template:Pagetype\n  9.09%   32.587      1 Template:Infobox_identifier\n  8.67%   31.075      1 Template:Infobox\n  6.55%   23.497      6 Template:Broken_ref\n  5.61%   20.109      1 Template:Distinguish\n-->\n\n<!-- Render ID d58ff843-b38b-11f1-8b37-89bd347ed579 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:ISBN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISDN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Book",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Check digit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "E-book",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hardcover",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Identifier",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Article Number",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Organization for Standardization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Standard Music Number",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Standard Serial Number",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Magazine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Newspaper",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Paperback",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sheet music",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Unique numeric book identifier since 1970",
+          "page_image_free": "EAN-13-ISBN-13.svg",
+          "wikibase_item": "Q33057"
+        }
+      }
+    }
+  ]
+}

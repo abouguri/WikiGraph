@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "CUDA",
+    "url": "https://en.wikipedia.org/wiki/CUDA",
+    "summary": "Parallel computing platform and programming model For other uses, see CUDA (disambiguation) . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article contains instructions or advice . Wikipedia is not a guidebook; please help rewrite such content to be encyclopedic or move it to Wikiversity , Wikibooks , or Wikivoyage . ( February 2024 ) ( Learn how and when to remove this message ) This article contains a pro and con list . Please help rewrite it into consolidated sections based on topics. ( February 2024 ) ( Learn how and when to remove this message ) CUDA Original authors Ian Buck John Nickolls Developer Nvidia Release February 16, 2007 ; 19 years ago ( 2007-02-16 ) Stable release 13.4.1 / 9 September 2026 ; 9 days ago ( 9 September 2026 ) Written in C Operating system Windows , Linux Platform Supported GPUs Type GPGPU License Proprietary Website developer .nvidia .com /cuda-zone CUDA ( Compute Unified Device Architecture ) is a proprietary parallel computing platform and application programming interface (API) developed by Nvidia that allows software to use certain types of graphics processing units (GPUs) for accelerated general-purpose processing, significantly broadening their utility in artificial intelligence , scientific and high-performance computing . CUDA was created in 2004 and was officially released in 2007. When introduced, the name was an acronym for Compute Unified Device Architecture , but Nvidia later dropped the initial meaning of the acronym and now rarely expands it. CUDA is both a software layer that manages data, giving direct access to the GPU and CPU as necessary, and a library of APIs that enable parallel computation. In addition to drivers and runtime kernels , the CUDA platform includes compilers, libraries and developer tools to help programmers. CUDA is written in the C programming language, but is designed to work with other programming languages including C++ , Fortran , Python and Julia . This accessibility makes it easier for specialists in parallel programming to use GPU resources, in contrast to prior APIs like Direct3D and OpenGL , which require advanced skills in graphics programming. CUDA-powered GPUs support programming frameworks such as OpenMP , OpenACC and OpenCL . ^ \"NVIDIA® CUDA™ Unleashes Power of GPU Computing - Press Release\" . nvidia.com . Archived from the original on 29 March 2007 . Retrieved 26 January 2025 . ^ \"Index of /compute/cuda/redist\" . Retrieved 10 September 2026 . ^ Shah, Agam. \"Nvidia not totally against third parties making CUDA chips\" . www.theregister.com . Retrieved 2024-04-25 . ^ \"Nvidia CUDA Home Page\" . 18 July 2017. ^ Shimpi, Anand Lal; Wilson, Derek (November 8, 2006). \"Nvidia's GeForce 8800 (G80): GPUs Re-architected for DirectX 10\" . AnandTech. Archived from the original on April 24, 2010 . Retrieved May 16, 2015 . ^ \"Introduction – nsight-visual-studio-edition 12.6 documentation\" . docs.nvidia.com . Retrieved 2024-10-10 . ^ a b Abi-Chahla, Fedy (June 18, 2008). \"Nvidia's CUDA: The End of the CPU?\" . Tom's Hardware . Retrieved May 17, 2015 . ^ Jones, Stephen (2025-04-22). What is CUDA? (Video). Computerphile . Retrieved 2025-07-24 – via YouTube. ^ Zunitch, Peter (2018-01-24). \"CUDA vs. OpenCL vs. OpenGL\" . Videomaker . Retrieved 2018-09-16 . ^ \"OpenCL\" . NVIDIA Developer . 2013-04-24 . Retrieved 2019-11-04 .",
+    "text": "Parallel computing platform and programming model For other uses, see CUDA (disambiguation) . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article contains instructions or advice . Wikipedia is not a guidebook; please help rewrite such content to be encyclopedic or move it to Wikiversity , Wikibooks , or Wikivoyage . ( February 2024 ) ( Learn how and when to remove this message ) This article contains a pro and con list . Please help rewrite it into consolidated sections based on topics. ( February 2024 ) ( Learn how and when to remove this message ) CUDA Original authors Ian Buck John Nickolls Developer Nvidia Release February 16, 2007 ; 19 years ago ( 2007-02-16 ) Stable release 13.4.1 / 9 September 2026 ; 9 days ago ( 9 September 2026 ) Written in C Operating system Windows , Linux Platform Supported GPUs Type GPGPU License Proprietary Website developer .nvidia .com /cuda-zone CUDA ( Compute Unified Device Architecture ) is a proprietary parallel computing platform and application programming interface (API) developed by Nvidia that allows software to use certain types of graphics processing units (GPUs) for accelerated general-purpose processing, significantly broadening their utility in artificial intelligence , scientific and high-performance computing . CUDA was created in 2004 and was officially released in 2007. When introduced, the name was an acronym for Compute Unified Device Architecture , but Nvidia later dropped the initial meaning of the acronym and now rarely expands it. CUDA is both a software layer that manages data, giving direct access to the GPU and CPU as necessary, and a library of APIs that enable parallel computation. In addition to drivers and runtime kernels , the CUDA platform includes compilers, libraries and developer tools to help programmers. CUDA is written in the C programming language, but is designed to work with other programming languages including C++ , Fortran , Python and Julia . This accessibility makes it easier for specialists in parallel programming to use GPU resources, in contrast to prior APIs like Direct3D and OpenGL , which require advanced skills in graphics programming. CUDA-powered GPUs support programming frameworks such as OpenMP , OpenACC and OpenCL . ^ \"NVIDIA® CUDA™ Unleashes Power of GPU Computing - Press Release\" . nvidia.com . Archived from the original on 29 March 2007 . Retrieved 26 January 2025 . ^ \"Index of /compute/cuda/redist\" . Retrieved 10 September 2026 . ^ Shah, Agam. \"Nvidia not totally against third parties making CUDA chips\" . www.theregister.com . Retrieved 2024-04-25 . ^ \"Nvidia CUDA Home Page\" . 18 July 2017. ^ Shimpi, Anand Lal; Wilson, Derek (November 8, 2006). \"Nvidia's GeForce 8800 (G80): GPUs Re-architected for DirectX 10\" . AnandTech. Archived from the original on April 24, 2010 . Retrieved May 16, 2015 . ^ \"Introduction – nsight-visual-studio-edition 12.6 documentation\" . docs.nvidia.com . Retrieved 2024-10-10 . ^ a b Abi-Chahla, Fedy (June 18, 2008). \"Nvidia's CUDA: The End of the CPU?\" . Tom's Hardware . Retrieved May 17, 2015 . ^ Jones, Stephen (2025-04-22). What is CUDA? (Video). Computerphile . Retrieved 2025-07-24 – via YouTube. ^ Zunitch, Peter (2018-01-24). \"CUDA vs. OpenCL vs. OpenGL\" . Videomaker . Retrieved 2018-09-16 . ^ \"OpenCL\" . NVIDIA Developer . 2013-04-24 . Retrieved 2019-11-04 .",
+    "links": [
+      "Application programming interface",
+      "C (programming language)",
+      "C++",
+      "CUDA (disambiguation)",
+      "Central processing unit",
+      "Computing platform",
+      "Direct3D",
+      "Driver (computer)",
+      "Fortran",
+      "GPGPU",
+      "Graphics processing unit",
+      "High-performance computing",
+      "Julia (programming language)",
+      "Linux",
+      "Nvidia",
+      "OpenACC",
+      "OpenCL",
+      "OpenGL",
+      "OpenMP",
+      "Operating system",
+      "Orphan initialism",
+      "Parallel computing",
+      "Parallel programming",
+      "Programmer",
+      "Programming language",
+      "Proprietary software",
+      "Python (programming language)",
+      "Shader",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Windows",
+      "\\"
+    ],
+    "page_id": 7933386,
+    "revision_id": 1375005008,
+    "retrieved_at": "2026-09-18T18:10:25.298674+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260915091212|1375004762",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 7933386,
+            "ns": 0,
+            "title": "CUDA",
+            "revisions": [
+              {
+                "revid": 1375005008,
+                "parentid": 1375004762
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Cuda",
+              "forcetoc": "",
+              "page_image_free": "Nvidia_CUDA_Logo.jpg",
+              "wikibase-shortdesc": "Parallel computing platform and programming model",
+              "wikibase_item": "Q477690"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "CUDA",
+        "pageid": 7933386,
+        "revid": 1375005008,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Parallel computing platform and programming model</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other uses, see <a href=\"/wiki/CUDA_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"CUDA (disambiguation)\">CUDA (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/CUDA\" title=\"Special:EditPage/CUDA\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:CUDA\" title=\"Talk:CUDA\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Howto plainlinks metadata ambox ambox-content\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>contains <a href=\"/wiki/Wikipedia:What_Wikipedia_is_not#GUIDE\" title=\"Wikipedia:What Wikipedia is not\">instructions or advice</a></b>.<span class=\"hide-when-compact\"> Wikipedia is not a guidebook; please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=CUDA&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=CUDA&amp;action=edit\">rewrite such content</a> to be encyclopedic or move it to <a href=\"https://en.wikiversity.org/wiki/\" class=\"extiw\" title=\"v:\">Wikiversity</a>, <a href=\"https://en.wikibooks.org/wiki/\" class=\"extiw\" title=\"b:\">Wikibooks</a>, or <a href=\"https://en.wikivoyage.org/wiki/\" class=\"extiw\" title=\"voy:\">Wikivoyage</a>.</span>  <span class=\"date-container\"><i>(<span class=\"date\">February 2024</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Pro&#95;and&#95;con&#95;list plainlinks metadata ambox ambox-style\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/120px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>contains a <a href=\"/wiki/Wikipedia:Pro_and_con_lists\" title=\"Wikipedia:Pro and con lists\">pro and con list</a></b>.<span class=\"hide-when-compact\"> Please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=CUDA&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=CUDA&amp;action=edit\">rewrite it</a> into consolidated sections based on topics.</span>  <span class=\"date-container\"><i>(<span class=\"date\">February 2024</span>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">CUDA</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Nvidia_CUDA_Logo.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nvidia_CUDA_Logo.jpg/250px-Nvidia_CUDA_Logo.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"151\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"406\" data-file-height=\"246\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original authors</a></th><td class=\"infobox-data\">Ian Buck<br />John Nickolls</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Nvidia\" title=\"Nvidia\">Nvidia</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">February&#160;16, 2007<span class=\"noprint\">&#59;&#32;19 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2007-02-16</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">13.4.1<sup id=\"cite&#95;ref-wikidata-653ae07562cb9d402cf8d500154ed26fd8168380-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-653ae07562cb9d402cf8d500154ed26fd8168380-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><span style=\"float:right\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q477690?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span>\n   / 9 September 2026<span class=\"noprint\">&#59;&#32;9 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">9 September 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"#GPUs_supported\">Supported GPUs</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/GPGPU\" class=\"mw-redirect\" title=\"GPGPU\">GPGPU</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">Proprietary</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.nvidia.com/cuda-zone\">developer<wbr />.nvidia<wbr />.com<wbr />/cuda-zone</a></span></span> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q477690#P856\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr></tbody></table> \n<p><b>CUDA</b> (<b>Compute Unified Device Architecture</b>) is a proprietary<sup id=\"cite&#95;ref-:0&#95;3-0\" class=\"reference\"><a href=\"#cite_note-:0-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Parallel_computing\" title=\"Parallel computing\">parallel computing</a> platform and <a href=\"/wiki/Application_programming_interface\" class=\"mw-redirect\" title=\"Application programming interface\">application programming interface</a> (API) developed by <a href=\"/wiki/Nvidia\" title=\"Nvidia\">Nvidia</a> that allows software to use certain types of <a href=\"/wiki/Graphics_processing_unit\" title=\"Graphics processing unit\">graphics processing units</a> (GPUs) for accelerated general-purpose processing, significantly broadening their utility in <a href=\"/wiki/%5C\" class=\"mw-redirect\" title=\"\\\">artificial intelligence</a>, scientific and <a href=\"/wiki/High-performance_computing\" title=\"High-performance computing\">high-performance computing</a>. CUDA was created in 2004 and was officially released in 2007.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> When introduced, the name was an <a href=\"/wiki/Orphan_initialism\" class=\"mw-redirect\" title=\"Orphan initialism\">acronym</a> for <i>Compute Unified Device Architecture</i>,<sup id=\"cite&#95;ref-CUDA&#95;intro&#95;-&#95;AnandTech&#95;5-0\" class=\"reference\"><a href=\"#cite_note-CUDA_intro_-_AnandTech-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> but Nvidia later dropped the initial meaning of the acronym and now rarely expands it.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>CUDA is both a software layer that manages data, giving direct access to the GPU and <a href=\"/wiki/Central_processing_unit\" title=\"Central processing unit\">CPU</a> as necessary, and a library of APIs that enable parallel computation.<sup id=\"cite&#95;ref-CUDA&#95;intro&#95;-&#95;TomsHardware&#95;7-0\" class=\"reference\"><a href=\"#cite_note-CUDA_intro_-_TomsHardware-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> In addition to <a href=\"/wiki/Driver_(computer)\" class=\"mw-redirect\" title=\"Driver (computer)\">drivers</a> and runtime <a href=\"/wiki/Shader#Compute_kernels\" title=\"Shader\">kernels</a>, the CUDA platform includes compilers, libraries and developer tools to help programmers.\n</p><p>CUDA is written in the <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> programming language, but is designed to work with other <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a> including <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a> and <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>. This accessibility makes it easier for specialists in <a href=\"/wiki/Parallel_programming\" class=\"mw-redirect\" title=\"Parallel programming\">parallel programming</a> to use GPU resources, in contrast to prior APIs like <a href=\"/wiki/Direct3D\" title=\"Direct3D\">Direct3D</a> and <a href=\"/wiki/OpenGL\" title=\"OpenGL\">OpenGL</a>, which require advanced skills in graphics programming.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> CUDA-powered GPUs support programming frameworks such as <a href=\"/wiki/OpenMP\" title=\"OpenMP\">OpenMP</a>, <a href=\"/wiki/OpenACC\" title=\"OpenACC\">OpenACC</a> and <a href=\"/wiki/OpenCL\" title=\"OpenCL\">OpenCL</a>.<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-CUDA&#95;intro&#95;-&#95;TomsHardware&#95;7-1\" class=\"reference\"><a href=\"#cite_note-CUDA_intro_-_TomsHardware-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20070329144655/http://www.nvidia.com/object/IO_39918.html\">\"NVIDIA® CUDA™ Unleashes Power of GPU Computing - Press Release\"</a>. <i>nvidia.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.nvidia.com/object/IO_39918.html\">the original</a> on 29 March 2007<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 January</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=nvidia.com&amp;rft.atitle=NVIDIA%C2%AE+CUDA%E2%84%A2+Unleashes+Power+of+GPU+Computing+-+Press+Release&amp;rft&#95;id=http%3A%2F%2Fwww.nvidia.com%2Fobject%2FIO&#95;39918.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-653ae07562cb9d402cf8d500154ed26fd8168380-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-653ae07562cb9d402cf8d500154ed26fd8168380-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.download.nvidia.com/compute/cuda/redist/\">\"Index of /compute/cuda/redist\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">10 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Index+of+%2Fcompute%2Fcuda%2Fredist&amp;rft&#95;id=https%3A%2F%2Fdeveloper.download.nvidia.com%2Fcompute%2Fcuda%2Fredist%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFShah\" class=\"citation web cs1\">Shah, Agam. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.theregister.com/2021/11/10/nvidia_cuda_silicon/\">\"Nvidia not totally against third parties making CUDA chips\"</a>. <i>www.theregister.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-04-25</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.theregister.com&amp;rft.atitle=Nvidia+not+totally+against+third+parties+making+CUDA+chips&amp;rft.aulast=Shah&amp;rft.aufirst=Agam&amp;rft&#95;id=https%3A%2F%2Fwww.theregister.com%2F2021%2F11%2F10%2Fnvidia&#95;cuda&#95;silicon%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.nvidia.com/cuda-zone\">\"Nvidia CUDA Home Page\"</a>. 18 July 2017.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Nvidia+CUDA+Home+Page&amp;rft.date=2017-07-18&amp;rft&#95;id=https%3A%2F%2Fdeveloper.nvidia.com%2Fcuda-zone&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-CUDA&#95;intro&#95;-&#95;AnandTech-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-CUDA_intro_-_AnandTech_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFShimpiWilson2006\" class=\"citation web cs1\">Shimpi, Anand Lal; Wilson, Derek (November 8, 2006). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20100424015242/http://www.anandtech.com/show/2116/8\">\"Nvidia's GeForce 8800 (G80): GPUs Re-architected for DirectX&#160;10\"</a>. AnandTech. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.anandtech.com/show/2116/8\">the original</a> on April 24, 2010<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 16,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Nvidia%27s+GeForce+8800+%28G80%29%3A+GPUs+Re-architected+for+DirectX+10&amp;rft.pub=AnandTech&amp;rft.date=2006-11-08&amp;rft.aulast=Shimpi&amp;rft.aufirst=Anand+Lal&amp;rft.au=Wilson%2C+Derek&amp;rft&#95;id=https%3A%2F%2Fwww.anandtech.com%2Fshow%2F2116%2F8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.nvidia.com/nsight-visual-studio-edition/introduction/index.html#cuda-debugger\">\"Introduction – nsight-visual-studio-edition 12.6 documentation\"</a>. <i>docs.nvidia.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-10-10</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=docs.nvidia.com&amp;rft.atitle=Introduction+%E2%80%93+nsight-visual-studio-edition+12.6+documentation&amp;rft&#95;id=https%3A%2F%2Fdocs.nvidia.com%2Fnsight-visual-studio-edition%2Fintroduction%2Findex.html%23cuda-debugger&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-CUDA&#95;intro&#95;-&#95;TomsHardware-7\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-CUDA_intro_-_TomsHardware_7-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-CUDA_intro_-_TomsHardware_7-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAbi-Chahla2008\" class=\"citation web cs1\">Abi-Chahla, Fedy (June 18, 2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tomshardware.com/reviews/nvidia-cuda-gpu,1954.html\">\"Nvidia's CUDA: The End of the CPU?\"</a>. Tom's Hardware<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 17,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Nvidia%27s+CUDA%3A+The+End+of+the+CPU%3F&amp;rft.pub=Tom%27s+Hardware&amp;rft.date=2008-06-18&amp;rft.aulast=Abi-Chahla&amp;rft.aufirst=Fedy&amp;rft&#95;id=https%3A%2F%2Fwww.tomshardware.com%2Freviews%2Fnvidia-cuda-gpu%2C1954.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJones2025\" class=\"citation audio-visual cs1\">Jones, Stephen (2025-04-22). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=K9anz4aB0S0\"><i>What is CUDA?</i></a> (Video). Computerphile<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-07-24</span></span> &#8211; via YouTube.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=What+is+CUDA%3F&amp;rft.pub=Computerphile&amp;rft.date=2025-04-22&amp;rft.aulast=Jones&amp;rft.aufirst=Stephen&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DK9anz4aB0S0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFZunitch2018\" class=\"citation news cs1\">Zunitch, Peter (2018-01-24). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.videomaker.com/article/c15/19313-cuda-vs-opencl-vs-opengl\">\"CUDA vs. OpenCL vs. OpenGL\"</a>. <i>Videomaker</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2018-09-16</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Videomaker&amp;rft.atitle=CUDA+vs.+OpenCL+vs.+OpenGL&amp;rft.date=2018-01-24&amp;rft.aulast=Zunitch&amp;rft.aufirst=Peter&amp;rft&#95;id=https%3A%2F%2Fwww.videomaker.com%2Farticle%2Fc15%2F19313-cuda-vs-opencl-vs-opengl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.nvidia.com/opencl\">\"OpenCL\"</a>. <i>NVIDIA Developer</i>. 2013-04-24<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-11-04</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=NVIDIA+Developer&amp;rft.atitle=OpenCL&amp;rft.date=2013-04-24&amp;rft&#95;id=https%3A%2F%2Fdeveloper.nvidia.com%2Fopencl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACUDA\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐6hdqv\nCached time: 20260918181050\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.508 seconds\nReal time usage: 0.654 seconds\nPreprocessor visited node count: 1727/1000000\nRevision size: 4701/2097152 bytes\nPost‐expand include size: 52781/2097152 bytes\nTemplate argument size: 12188/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 32985/5000000 bytes\nLua time usage: 0.351/10.000 seconds\nLua memory usage: 8690432/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  616.746      1 -total\n 54.88%  338.452      2 Template:Infobox\n 51.53%  317.816      1 Template:Infobox_software\n 32.55%  200.725      1 Template:Infobox_software/simple\n 29.77%  183.575     18 Template:If_empty\n 25.78%  158.985      2 Template:Wikidata\n 17.74%  109.405      1 Template:Short_description\n 15.63%   96.405      1 Template:Multiple_issues\n 11.45%   70.632      2 Template:Pagetype\n  8.02%   49.459      1 Template:How-to\n-->\n\n<!-- Render ID 47683813-b38c-11f1-8432-01eb1072d4d6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "CUDA (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application programming interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Central processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Direct3D",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Driver (computer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPGPU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphics processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-performance computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nvidia",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenACC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenGL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenMP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Orphan initialism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Shader",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "\\",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:CUDA",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Pro and con lists",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:What Wikipedia is not",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Parallel computing platform and programming model",
+          "page_image_free": "Nvidia_CUDA_Logo.jpg",
+          "wikibase_item": "Q477690"
+        }
+      }
+    }
+  ]
+}

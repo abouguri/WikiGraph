@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Zend Engine",
+    "url": "https://en.wikipedia.org/wiki/Zend_Engine",
+    "summary": "PHP scripting engine Not to be confused with Laminas , formerly known as Zend Framework. This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Zend Engine\" – news · newspapers · books · scholar · JSTOR ( July 2016 ) ( Learn how and when to remove this message ) Zend Engine Original authors Andi Gutmans , Zeev Suraski Developers Zend Technologies , The PHP Development Team Release 1999 Stable release 3.4 (PHP 7.4) 4.0 (PHP 8.0) Written in C , PHP Type Scripting engine License Modified BSD License Website www .zend .com Repository github .com /php /php-src The Zend Engine is a compiler and runtime environment for the PHP scripting language and consists of the Zend Virtual Machine, which is composed of the Zend Compiler and the Zend Executor, that compiles and executes the PHP code. It was originally developed by Andi Gutmans and Zeev Suraski while they were students at the Technion – Israel Institute of Technology . They later founded a company called Zend Technologies in Ramat Gan , Israel . The name Zend is a combination of their forenames, Zeev and Andi. The first version of the Zend Engine appeared in 1999 in PHP version 4. It was written in C as a highly optimized modular back-end, which for the first time could be used in applications outside of PHP. The Zend Engine provides memory and resource management, and other standard services for the PHP language. Its performance, reliability and extensibility played a significant role in PHP's increasing popularity. This was followed by Zend Engine 2 at the heart of PHP 5 . This was followed by Zend Engine 3 , originally codenamed phpng , which was developed for PHP 7 and significantly improves performance. The newest version is Zend Engine 4 , which was developed for PHP 8 . The source code for the Zend Engine has been freely available under the Zend Engine License (although some parts are under the PHP License ) since 1999, as part of the official releases from php.net, as well as the official git repository or the GitHub mirror. Various volunteers contribute to the PHP/Zend Engine codebase. ^ \"php.internals: Changes to Git commit workflow\" . news-web.php.net . Retrieved 22 April 2021 . ^ \"Zend engine\" . PHP Internals Book . Retrieved 4 October 2021 . ^ \"Zend's History with PHP\" . Zend Technologies. ^ \"PHP: General Information - Manual\" . php.net . Retrieved 22 November 2019 . ^ Gutmans, Andi (14 July 1999). \"- License update · php/php-src@fec59d3\" . Retrieved 26 December 2021 .",
+    "text": "PHP scripting engine Not to be confused with Laminas , formerly known as Zend Framework. This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Zend Engine\" – news · newspapers · books · scholar · JSTOR ( July 2016 ) ( Learn how and when to remove this message ) Zend Engine Original authors Andi Gutmans , Zeev Suraski Developers Zend Technologies , The PHP Development Team Release 1999 Stable release 3.4 (PHP 7.4) 4.0 (PHP 8.0) Written in C , PHP Type Scripting engine License Modified BSD License Website www .zend .com Repository github .com /php /php-src The Zend Engine is a compiler and runtime environment for the PHP scripting language and consists of the Zend Virtual Machine, which is composed of the Zend Compiler and the Zend Executor, that compiles and executes the PHP code. It was originally developed by Andi Gutmans and Zeev Suraski while they were students at the Technion – Israel Institute of Technology . They later founded a company called Zend Technologies in Ramat Gan , Israel . The name Zend is a combination of their forenames, Zeev and Andi. The first version of the Zend Engine appeared in 1999 in PHP version 4. It was written in C as a highly optimized modular back-end, which for the first time could be used in applications outside of PHP. The Zend Engine provides memory and resource management, and other standard services for the PHP language. Its performance, reliability and extensibility played a significant role in PHP's increasing popularity. This was followed by Zend Engine 2 at the heart of PHP 5 . This was followed by Zend Engine 3 , originally codenamed phpng , which was developed for PHP 7 and significantly improves performance. The newest version is Zend Engine 4 , which was developed for PHP 8 . The source code for the Zend Engine has been freely available under the Zend Engine License (although some parts are under the PHP License ) since 1999, as part of the official releases from php.net, as well as the official git repository or the GitHub mirror. Various volunteers contribute to the PHP/Zend Engine codebase. ^ \"php.internals: Changes to Git commit workflow\" . news-web.php.net . Retrieved 22 April 2021 . ^ \"Zend engine\" . PHP Internals Book . Retrieved 4 October 2021 . ^ \"Zend's History with PHP\" . Zend Technologies. ^ \"PHP: General Information - Manual\" . php.net . Retrieved 22 November 2019 . ^ Gutmans, Andi (14 July 1999). \"- License update · php/php-src@fec59d3\" . Retrieved 26 December 2021 .",
+    "links": [
+      "Andi Gutmans",
+      "C (programming language)",
+      "Compiler",
+      "Extensibility",
+      "Git (software)",
+      "GitHub",
+      "Israel",
+      "Laminas",
+      "Modified BSD License",
+      "PHP",
+      "PHP 5",
+      "PHP 7",
+      "PHP 8",
+      "PHP License",
+      "Programmer",
+      "Ramat Gan",
+      "Repository (version control)",
+      "Runtime system",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Technion – Israel Institute of Technology",
+      "Zeev Suraski",
+      "Zend Engine License",
+      "Zend Technologies"
+    ],
+    "page_id": 206691,
+    "revision_id": 1351219573,
+    "retrieved_at": "2026-09-18T18:10:06.243879+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260223034048|1339951562",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 206691,
+            "ns": 0,
+            "title": "Zend Engine",
+            "revisions": [
+              {
+                "revid": 1351219573,
+                "parentid": 1339951562
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "PHP scripting engine",
+              "wikibase_item": "Q189473"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Zend Engine",
+        "pageid": 206691,
+        "revid": 1351219573,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">PHP scripting engine</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Laminas\" title=\"Laminas\">Laminas</a>, formerly known as Zend Framework.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Zend+Engine%22\">\"Zend Engine\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Zend+Engine%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Zend+Engine%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Zend+Engine%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Zend+Engine%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Zend+Engine%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">July 2016</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Zend Engine</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Zend_Engine_logo.png\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/commons/d/d2/Zend_Engine_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"47\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" data-file-width=\"250\" data-file-height=\"47\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original authors</a></th><td class=\"infobox-data\"><a href=\"/wiki/Andi_Gutmans\" title=\"Andi Gutmans\">Andi Gutmans</a>, <a href=\"/wiki/Zeev_Suraski\" title=\"Zeev Suraski\">Zeev Suraski</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developers</a></th><td class=\"infobox-data\"><a href=\"/wiki/Zend_Technologies\" class=\"mw-redirect\" title=\"Zend Technologies\">Zend Technologies</a>, The PHP Development Team</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">1999</td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">3.4 (PHP 7.4) <br /> 4.0 (PHP 8.0)\n   </div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\">Scripting engine</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Modified_BSD_License\" class=\"mw-redirect\" title=\"Modified BSD License\">Modified BSD License</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.zend.com/\">www<wbr />.zend<wbr />.com</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/php/php-src\">github<wbr />.com<wbr />/php<wbr />/php-src</a></span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table> \n<p>The <b>Zend Engine</b> is a <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> and <a href=\"/wiki/Runtime_system\" title=\"Runtime system\">runtime environment</a> for the <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a> scripting language and consists of the Zend Virtual Machine, which is composed of the Zend Compiler and the Zend Executor, that compiles and executes the PHP code.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> It was originally developed by <a href=\"/wiki/Andi_Gutmans\" title=\"Andi Gutmans\">Andi Gutmans</a> and <a href=\"/wiki/Zeev_Suraski\" title=\"Zeev Suraski\">Zeev Suraski</a> while they were students at the <a href=\"/wiki/Technion_%E2%80%93_Israel_Institute_of_Technology\" title=\"Technion – Israel Institute of Technology\">Technion – Israel Institute of Technology</a>.  They later founded a company called <a href=\"/wiki/Zend_Technologies\" class=\"mw-redirect\" title=\"Zend Technologies\">Zend Technologies</a> in <a href=\"/wiki/Ramat_Gan\" title=\"Ramat Gan\">Ramat Gan</a>, <a href=\"/wiki/Israel\" title=\"Israel\">Israel</a>. The name Zend is a combination of their forenames, Zeev and Andi.\n</p><p>The first version of the Zend Engine appeared in 1999 in PHP version 4.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> It was written in <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> as a highly optimized modular back-end, which for the first time could be used in applications outside of PHP. The Zend Engine provides memory and resource management, and other standard services for the PHP language. Its performance, reliability and <a href=\"/wiki/Extensibility\" title=\"Extensibility\">extensibility</a> played a significant role in PHP's increasing popularity.\n</p><p>This was followed by <i>Zend Engine 2</i> at the heart of <a href=\"/wiki/PHP_5\" class=\"mw-redirect\" title=\"PHP 5\">PHP 5</a>.\n</p><p>This was followed by <i>Zend Engine 3</i>, originally codenamed <i>phpng</i>, which was developed for <a href=\"/wiki/PHP_7\" class=\"mw-redirect\" title=\"PHP 7\">PHP 7</a> and significantly improves performance.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The newest version is <i>Zend Engine 4</i>, which was developed for <a href=\"/wiki/PHP_8\" class=\"mw-redirect\" title=\"PHP 8\">PHP 8</a>.\n</p><p>The source code for the Zend Engine has been freely available under the <a href=\"/wiki/Zend_Engine_License\" class=\"mw-redirect\" title=\"Zend Engine License\">Zend Engine License</a> (although some parts are under the <a href=\"/wiki/PHP_License\" title=\"PHP License\">PHP License</a>) since 1999,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> as part of the official releases from php.net, as well as the official <a href=\"/wiki/Git_(software)\" class=\"mw-redirect\" title=\"Git (software)\">git</a> repository or the <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a> mirror. Various volunteers contribute to the PHP/Zend Engine codebase.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://news-web.php.net/php.internals/113838\">\"php.internals: Changes to Git commit workflow\"</a>. <i>news-web.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 April</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=news-web.php.net&amp;rft.atitle=php.internals%3A+Changes+to+Git+commit+workflow&amp;rft&#95;id=https%3A%2F%2Fnews-web.php.net%2Fphp.internals%2F113838&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZend+Engine\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.phpinternalsbook.com/php7/zend_engine.html\">\"Zend engine\"</a>. <i>PHP Internals Book</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 October</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=PHP+Internals+Book&amp;rft.atitle=Zend+engine&amp;rft&#95;id=http%3A%2F%2Fwww.phpinternalsbook.com%2Fphp7%2Fzend&#95;engine.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZend+Engine\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.zend.com/en/community/php/\">\"Zend's History with PHP\"</a>. Zend Technologies.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Zend%27s+History+with+PHP&amp;rft.pub=Zend+Technologies&amp;rft&#95;id=http%3A%2F%2Fwww.zend.com%2Fen%2Fcommunity%2Fphp%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZend+Engine\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.php.net/manual/en/faq.general.php#faq.general.relation-versions\">\"PHP: General Information - Manual\"</a>. <i>php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 November</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=php.net&amp;rft.atitle=PHP%3A+General+Information+-+Manual&amp;rft&#95;id=https%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Ffaq.general.php%23faq.general.relation-versions&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZend+Engine\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGutmans1999\" class=\"citation web cs1\">Gutmans, Andi (14 July 1999). <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/php/php-src/commit/fec59d3b4da7fdc111dd0af19a4b0488dc817fc7\">\"- License update · php/php-src@fec59d3\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 December</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=-+License+update+%C2%B7+php%2Fphp-src%40fec59d3&amp;rft.date=1999-07-14&amp;rft.aulast=Gutmans&amp;rft.aufirst=Andi&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fphp%2Fphp-src%2Fcommit%2Ffec59d3b4da7fdc111dd0af19a4b0488dc817fc7&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AZend+Engine\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐mpxpb\nCached time: 20260918181031\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.150 seconds\nReal time usage: 0.279 seconds\nPreprocessor visited node count: 1414/1000000\nRevision size: 3563/2097152 bytes\nPost‐expand include size: 27544/2097152 bytes\nTemplate argument size: 2115/2097152 bytes\nHighest expansion depth: 20/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 16589/5000000 bytes\nLua time usage: 0.090/10.000 seconds\nLua memory usage: 5842937/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  267.883      1 -total\n 31.05%   83.170      1 Template:Infobox_software\n 28.92%   77.484      2 Template:Infobox\n 22.27%   59.653      1 Template:Short_description\n 19.48%   52.183      5 Template:Cite_web\n 13.96%   37.397      1 Template:Primary_sources\n 12.90%   34.546      1 Template:Ambox\n 12.37%   33.146      2 Template:Pagetype\n  7.41%   19.843      8 Template:Main_other\n  6.92%   18.527      1 Template:Infobox_software/simple\n-->\n\n<!-- Render ID 3c150ef2-b38c-11f1-9fc4-07cee3f0a2cd -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Andi Gutmans",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extensibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Git (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Israel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Laminas",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modified BSD License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP 5",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP 7",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP 8",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ramat Gan",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Technion – Israel Institute of Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zeev Suraski",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Engine License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Technologies",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "PHP scripting engine",
+          "wikibase_item": "Q189473"
+        }
+      }
+    }
+  ]
+}

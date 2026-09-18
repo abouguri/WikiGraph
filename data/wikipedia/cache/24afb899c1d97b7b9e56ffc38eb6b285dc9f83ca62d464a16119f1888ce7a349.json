@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Mathematics",
+    "url": "https://en.wikipedia.org/wiki/Mathematics",
+    "summary": "Field of knowledge \"Math\" and \"Maths\" redirect here. For other uses, see Mathematics (disambiguation) and Math (disambiguation) . Illuminated letter P at the beginning of Adelard of Bath 's translation of Euclid's Elements , which starts \" Punctum est illud cui pars non est \" ( ' A point is that which has no part ' ). Geometry is shown personified as a woman, following Martianus Capella 's De nuptiis Philologiae et Mercurii . Mathematics is a field of knowledge concerned with abstract concepts such as numbers, geometric shapes, sets, functions, and probabilities. It uses logical reasoning and proof to study and establish their properties, often expressed as theorems, formulas, and equations. Mathematics is widely used to model and solve problems in science, engineering, technology, economics, and everyday life. There are many areas of mathematics, including number theory (the study of integers and their properties), algebra (the study of operations and the structures they form), geometry (the study of shapes and spaces that contain them), analysis (the quantitative study of approximation and convergence), and set theory (presently used as a foundation for all mathematics). Mathematics involves the description and manipulation of abstract objects that are either abstractions from nature or purely abstract entities that are stipulated to have certain properties, called axioms . Mathematics uses pure reason to prove the properties of objects through proofs , which consist of a succession of applications of deductive rules to already established results. These results, called theorems , include previously proved theorems, axioms, and—in case of abstraction from nature—some basic properties that are considered true starting points of the theory under consideration. Mathematics is essential in science and engineering ; it is widely used in every field of knowledge and in everyday life, as soon as data are manipulated, shapes, patterns and structures are studied, and logical reasoning is needed. Although mathematics is widely used to model empirical phenomena, its results are established by deductive proof rather than by experiment. The relationship between mathematical truth, logic, and reality is a subject of philosophical debate . Some areas of mathematics, such as game theory , are developed in close correlation with their applications and are often grouped under applied mathematics . Other areas are developed independently from any application but often find practical applications later. Mathematical written records first appeared in Ancient Egypt and Mesopotamia , but the concept of proof and its associated mathematical rigor began in Ancient Greek mathematics , exemplified in Euclid 's Elements . Mathematics was primarily divided into geometry and arithmetic until the 16th and 17th centuries, when algebra and infinitesimal calculus evolved into new fields. Since then, the interaction between mathematical innovations and scientific discoveries has led to a correlated increase in the development of both. At the end of the 19th century, the foundational crisis of mathematics led to the systematic use of the axiomatic method , which heralded a dramatic increase in the number of mathematical areas and their fields of application. The contemporary Mathematics Subject Classification lists more than sixty first-level areas of mathematics. ^ Herbert M. Sauro . \"The Beginning\" . Euclid's Elements . ^ Frank J. Swetz (2019). Mathematical Treasure: Adelard’s Translation of Euclid’s Elements . ^ Hipólito, Inês Viegas (Aug 9–15, 2015). \"Abstract Cognition and the Nature of Mathematical Proof\". In Kanzian, Christian; Mitterer, Josef ; Neges, Katharina (eds.). Realismus – Relativismus – Konstruktivismus: Beiträge des 38. Internationalen Wittgenstein Symposiums [ Realism – Relativism – Constructivism: Contributions of the 38th International Wittgenstein Symposium ] (PDF) (in German and English). Vol. 23. Kirchberg am Wechsel, Austria: Austrian Ludwig Wittgenstein Society. pp. 132– 134. ISSN 1022-3398 . OCLC 236026294 . Archived (PDF) from the original on 2022-11-07 . Retrieved 2024-01-17 . ( at ResearchGate Archived November 5, 2022, at the Wayback Machine ) ^ Peterson 1988 , p. 12. ^ Cite error: The named reference wigner1960 was invoked but never defined (see the help page ). ^ Wise, David. \"Eudoxus' Influence on Euclid's Elements with a close look at The Method of Exhaustion\" . The University of Georgia . Archived from the original on 2019-06-01 . Retrieved 2024-01-18 . ^ Alexander, Amir (Sep 2011). \"The Skeleton in the Closet: Should Historians of Science Care about the History of Mathematics?\". Isis . 102 (3): 475– 480. doi : 10.1086/661620 . MR 2884913 . PMID 22073771 . ^ Kleiner, Israel (Dec 1991). \"Rigor and Proof in Mathematics: A Historical Perspective\". Mathematics Magazine . 64 (5). Taylor & Francis, Ltd.: 291– 314. doi : 10.1080/0025570X.1991.11977625 . eISSN 1930-0980 . ISSN 0025-570X . JSTOR 2690647 . LCCN 47003192 . MR 1141557 . OCLC 1756877 . ^ \"MSC2020-Mathematics Subject Classification System\" (PDF) . zbMath . Associate Editors of Mathematical Reviews and zbMATH. Archived (PDF) from the original on 2024-01-02 . Retrieved 2025-11-13 . ^ Dunne, Edward; Hulek, Klaus (Mar 2020). \"Mathematics Subject Classification 2020\" (PDF) . Notices of the American Mathematical Society . 67 (3): 410– 411. doi : 10.1090/noti2052 . eISSN 1088-9477 . ISSN 0002-9920 . LCCN sf77000404 . OCLC 1480366 . Archived (PDF) from the original on 2021-08-03 . Retrieved 2024-02-03 . The new MSC contains 63 two-digit classifications, 529 three-digit classifications, and 6,006 five-digit classifications. Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Field of knowledge \"Math\" and \"Maths\" redirect here. For other uses, see Mathematics (disambiguation) and Math (disambiguation) . Illuminated letter P at the beginning of Adelard of Bath 's translation of Euclid's Elements , which starts \" Punctum est illud cui pars non est \" ( ' A point is that which has no part ' ). Geometry is shown personified as a woman, following Martianus Capella 's De nuptiis Philologiae et Mercurii . Mathematics is a field of knowledge concerned with abstract concepts such as numbers, geometric shapes, sets, functions, and probabilities. It uses logical reasoning and proof to study and establish their properties, often expressed as theorems, formulas, and equations. Mathematics is widely used to model and solve problems in science, engineering, technology, economics, and everyday life. There are many areas of mathematics, including number theory (the study of integers and their properties), algebra (the study of operations and the structures they form), geometry (the study of shapes and spaces that contain them), analysis (the quantitative study of approximation and convergence), and set theory (presently used as a foundation for all mathematics). Mathematics involves the description and manipulation of abstract objects that are either abstractions from nature or purely abstract entities that are stipulated to have certain properties, called axioms . Mathematics uses pure reason to prove the properties of objects through proofs , which consist of a succession of applications of deductive rules to already established results. These results, called theorems , include previously proved theorems, axioms, and—in case of abstraction from nature—some basic properties that are considered true starting points of the theory under consideration. Mathematics is essential in science and engineering ; it is widely used in every field of knowledge and in everyday life, as soon as data are manipulated, shapes, patterns and structures are studied, and logical reasoning is needed. Although mathematics is widely used to model empirical phenomena, its results are established by deductive proof rather than by experiment. The relationship between mathematical truth, logic, and reality is a subject of philosophical debate . Some areas of mathematics, such as game theory , are developed in close correlation with their applications and are often grouped under applied mathematics . Other areas are developed independently from any application but often find practical applications later. Mathematical written records first appeared in Ancient Egypt and Mesopotamia , but the concept of proof and its associated mathematical rigor began in Ancient Greek mathematics , exemplified in Euclid 's Elements . Mathematics was primarily divided into geometry and arithmetic until the 16th and 17th centuries, when algebra and infinitesimal calculus evolved into new fields. Since then, the interaction between mathematical innovations and scientific discoveries has led to a correlated increase in the development of both. At the end of the 19th century, the foundational crisis of mathematics led to the systematic use of the axiomatic method , which heralded a dramatic increase in the number of mathematical areas and their fields of application. The contemporary Mathematics Subject Classification lists more than sixty first-level areas of mathematics. ^ Herbert M. Sauro . \"The Beginning\" . Euclid's Elements . ^ Frank J. Swetz (2019). Mathematical Treasure: Adelard’s Translation of Euclid’s Elements . ^ Hipólito, Inês Viegas (Aug 9–15, 2015). \"Abstract Cognition and the Nature of Mathematical Proof\". In Kanzian, Christian; Mitterer, Josef ; Neges, Katharina (eds.). Realismus – Relativismus – Konstruktivismus: Beiträge des 38. Internationalen Wittgenstein Symposiums [ Realism – Relativism – Constructivism: Contributions of the 38th International Wittgenstein Symposium ] (PDF) (in German and English). Vol. 23. Kirchberg am Wechsel, Austria: Austrian Ludwig Wittgenstein Society. pp. 132– 134. ISSN 1022-3398 . OCLC 236026294 . Archived (PDF) from the original on 2022-11-07 . Retrieved 2024-01-17 . ( at ResearchGate Archived November 5, 2022, at the Wayback Machine ) ^ Peterson 1988 , p. 12. ^ Cite error: The named reference wigner1960 was invoked but never defined (see the help page ). ^ Wise, David. \"Eudoxus' Influence on Euclid's Elements with a close look at The Method of Exhaustion\" . The University of Georgia . Archived from the original on 2019-06-01 . Retrieved 2024-01-18 . ^ Alexander, Amir (Sep 2011). \"The Skeleton in the Closet: Should Historians of Science Care about the History of Mathematics?\". Isis . 102 (3): 475– 480. doi : 10.1086/661620 . MR 2884913 . PMID 22073771 . ^ Kleiner, Israel (Dec 1991). \"Rigor and Proof in Mathematics: A Historical Perspective\". Mathematics Magazine . 64 (5). Taylor & Francis, Ltd.: 291– 314. doi : 10.1080/0025570X.1991.11977625 . eISSN 1930-0980 . ISSN 0025-570X . JSTOR 2690647 . LCCN 47003192 . MR 1141557 . OCLC 1756877 . ^ \"MSC2020-Mathematics Subject Classification System\" (PDF) . zbMath . Associate Editors of Mathematical Reviews and zbMATH. Archived (PDF) from the original on 2024-01-02 . Retrieved 2025-11-13 . ^ Dunne, Edward; Hulek, Klaus (Mar 2020). \"Mathematics Subject Classification 2020\" (PDF) . Notices of the American Mathematical Society . 67 (3): 410– 411. doi : 10.1090/noti2052 . eISSN 1088-9477 . ISSN 0002-9920 . LCCN sf77000404 . OCLC 1480366 . Archived (PDF) from the original on 2021-08-03 . Retrieved 2024-02-03 . The new MSC contains 63 two-digit classifications, 529 three-digit classifications, and 6,006 five-digit classifications. Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "Abstraction (mathematics)",
+      "Adelard of Bath",
+      "Algebra",
+      "Amir Alexander",
+      "Ancient Egyptian mathematics",
+      "Applied mathematics",
+      "Axiom",
+      "Axiomatic method",
+      "Babylonian mathematics",
+      "Doi (identifier)",
+      "EISSN (identifier)",
+      "Engineering",
+      "Euclid",
+      "Euclid's Elements",
+      "Foundational crisis of mathematics",
+      "Game theory",
+      "Geometry",
+      "Greek mathematics",
+      "Herbert M. Sauro",
+      "ISSN (identifier)",
+      "Illuminated manuscript",
+      "Inference rule",
+      "Infinitesimal calculus",
+      "Israel Kleiner (mathematician)",
+      "JSTOR (identifier)",
+      "Josef Mitterer",
+      "Klaus Hulek",
+      "LCCN (identifier)",
+      "MR (identifier)",
+      "Martianus Capella",
+      "Math (disambiguation)",
+      "Mathematical analysis",
+      "Mathematical object",
+      "Mathematical proof",
+      "Mathematical rigor",
+      "Mathematics (disambiguation)",
+      "Mathematics Subject Classification",
+      "Number theory",
+      "OCLC (identifier)",
+      "Open access",
+      "PMID (identifier)",
+      "Philosophy of mathematics",
+      "Reason",
+      "Science",
+      "Set theory",
+      "The University of Georgia",
+      "Theorem",
+      "Timeline of scientific discoveries",
+      "Wayback Machine"
+    ],
+    "page_id": 18831,
+    "revision_id": 1375350859,
+    "retrieved_at": "2026-09-18T18:09:02.743563+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260917074602|1375350292",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 18831,
+            "ns": 0,
+            "title": "Mathematics",
+            "revisions": [
+              {
+                "revid": 1375350859,
+                "parentid": 1375350292
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Woman_teaching_geometry.jpg",
+              "toc": "",
+              "wikibase-shortdesc": "Field of knowledge",
+              "wikibase_item": "Q395"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Mathematics",
+        "pageid": 18831,
+        "revid": 1375350859,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Field of knowledge</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Math\" and \"Maths\" redirect here. For other uses, see <a href=\"/wiki/Mathematics_(disambiguation)\" class=\"mw-disambig\" title=\"Mathematics (disambiguation)\">Mathematics (disambiguation)</a> and <a href=\"/wiki/Math_(disambiguation)\" class=\"mw-disambig\" title=\"Math (disambiguation)\">Math (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n\n\n</p>\n<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Woman_teaching_geometry.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Woman_teaching_geometry.jpg/250px-Woman_teaching_geometry.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"276\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Woman_teaching_geometry.jpg/500px-Woman_teaching_geometry.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1039\" data-file-height=\"1148\" /></a><figcaption> <a href=\"/wiki/Illuminated_manuscript\" title=\"Illuminated manuscript\">Illuminated</a> letter P at the beginning of <a href=\"/wiki/Adelard_of_Bath\" title=\"Adelard of Bath\">Adelard of Bath</a>'s translation of <a href=\"/wiki/Euclid%27s_Elements\" title=\"Euclid&#39;s Elements\">Euclid's <i>Elements</i></a>, which starts \"<span title=\"Latin-language text\"><i lang=\"la\">Punctum est illud cui pars non est</i></span>\" (<span class=\"gloss-quot\">'</span><span class=\"gloss-text\">A point is that which has no part</span><span class=\"gloss-quot\">'</span>).<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Geometry is shown personified as a woman, following <a href=\"/wiki/Martianus_Capella\" title=\"Martianus Capella\">Martianus Capella</a>'s <i><span title=\"Latin-language text\"><i lang=\"la\">De nuptiis Philologiae et Mercurii</i></span></i>.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></figcaption></figure>\n<p><b>Mathematics</b> is a field of knowledge concerned with abstract concepts such as numbers, geometric shapes, sets, functions, and probabilities. It uses logical reasoning and proof to study and establish their properties, often expressed as theorems, formulas, and equations. Mathematics is widely used to model and solve problems in science, engineering, technology, economics, and everyday life.\n</p><p>There are many areas of mathematics, including <a href=\"/wiki/Number_theory\" title=\"Number theory\">number theory</a> (the study of integers and their properties), <a href=\"/wiki/Algebra\" title=\"Algebra\">algebra</a> (the study of operations and the structures they form), <a href=\"/wiki/Geometry\" title=\"Geometry\">geometry</a> (the study of shapes and spaces that contain them), <a href=\"/wiki/Mathematical_analysis\" title=\"Mathematical analysis\">analysis</a> (the quantitative study of approximation and convergence), and <a href=\"/wiki/Set_theory\" title=\"Set theory\">set theory</a> (presently used as a foundation for all mathematics).\n</p><p>Mathematics involves the description and manipulation of <a href=\"/wiki/Mathematical_object\" title=\"Mathematical object\">abstract objects</a> that are either <a href=\"/wiki/Abstraction_(mathematics)\" title=\"Abstraction (mathematics)\">abstractions</a> from nature or purely abstract entities that are stipulated to have certain properties, called <i><a href=\"/wiki/Axiom\" title=\"Axiom\">axioms</a></i>. Mathematics uses pure <a href=\"/wiki/Reason\" title=\"Reason\">reason</a> to prove the properties of objects through <i><a href=\"/wiki/Mathematical_proof\" title=\"Mathematical proof\">proofs</a></i>, which consist of a succession of applications of <a href=\"/wiki/Inference_rule\" class=\"mw-redirect\" title=\"Inference rule\">deductive rules</a> to already established results. These results, called <i><a href=\"/wiki/Theorem\" title=\"Theorem\">theorems</a></i>, include previously proved theorems, axioms, and—in case of abstraction from nature—some basic properties that are considered true starting points of the theory under consideration.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Mathematics is essential in <a href=\"/wiki/Science\" title=\"Science\">science</a> and <a href=\"/wiki/Engineering\" title=\"Engineering\">engineering</a>; it is widely used in every field of knowledge and in everyday life, as soon as data are manipulated, shapes, patterns and structures are studied, and logical reasoning is needed. Although mathematics is widely used to model empirical phenomena, its results are established by deductive proof rather than by experiment. The relationship between mathematical truth, logic, and reality is  a <a href=\"/wiki/Philosophy_of_mathematics\" title=\"Philosophy of mathematics\">subject of philosophical debate</a>. Some areas of mathematics, such as <a href=\"/wiki/Game_theory\" title=\"Game theory\">game theory</a>, are developed in close correlation with their applications and are often grouped under <a href=\"/wiki/Applied_mathematics\" title=\"Applied mathematics\">applied mathematics</a>. Other areas are developed independently from any application but often find practical applications later.<sup id=\"cite&#95;ref-FOOTNOTEPeterson198812&#95;4-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEPeterson198812-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-wigner1960&#95;5-0\" class=\"reference\"><a href=\"#cite_note-wigner1960-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Mathematical written records first appeared in <a href=\"/wiki/Ancient_Egyptian_mathematics\" title=\"Ancient Egyptian mathematics\">Ancient Egypt</a> and <a href=\"/wiki/Babylonian_mathematics\" title=\"Babylonian mathematics\">Mesopotamia</a>, but the concept of proof and its associated <a href=\"/wiki/Mathematical_rigor\" class=\"mw-redirect\" title=\"Mathematical rigor\">mathematical rigor</a> began in <a href=\"/wiki/Greek_mathematics\" class=\"mw-redirect\" title=\"Greek mathematics\">Ancient Greek mathematics</a>, exemplified in <a href=\"/wiki/Euclid\" title=\"Euclid\">Euclid</a>'s <i><a href=\"/wiki/Euclid%27s_Elements\" title=\"Euclid&#39;s Elements\">Elements</a></i>.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> Mathematics was primarily divided into geometry and arithmetic until the 16th and 17th centuries, when algebra<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Infinitesimal_calculus\" class=\"mw-redirect\" title=\"Infinitesimal calculus\">infinitesimal calculus</a> evolved into new fields. Since then, the interaction between mathematical innovations and <a href=\"/wiki/Timeline_of_scientific_discoveries\" title=\"Timeline of scientific discoveries\">scientific discoveries</a> has led to a correlated increase in the development of both.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> At the end of the 19th century, the <a href=\"/wiki/Foundational_crisis_of_mathematics\" class=\"mw-redirect\" title=\"Foundational crisis of mathematics\">foundational crisis of mathematics</a> led to the systematic use of the <a href=\"/wiki/Axiomatic_method\" class=\"mw-redirect\" title=\"Axiomatic method\">axiomatic method</a>,<sup id=\"cite&#95;ref-Kleiner&#95;1991&#95;9-0\" class=\"reference\"><a href=\"#cite_note-Kleiner_1991-9\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> which heralded a dramatic increase in the number of mathematical areas and their fields of application. The contemporary <a href=\"/wiki/Mathematics_Subject_Classification\" title=\"Mathematics Subject Classification\">Mathematics Subject Classification</a> lists more than sixty first-level areas of mathematics.<sup id=\"cite&#95;ref-MSC&#95;10-0\" class=\"reference\"><a href=\"#cite_note-MSC-10\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-MSC2020&#95;11-0\" class=\"reference\"><a href=\"#cite_note-MSC2020-11\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r886046785\">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class=\"toclimit-3\"><meta property=\"mw:PageProp/toc\" /></div>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFHerbert&#95;M.&#95;Sauro\" class=\"citation cs1\"><a href=\"/wiki/Herbert_M._Sauro\" title=\"Herbert M. Sauro\">Herbert M. Sauro</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://euclid.analogmachine.org/early-history\">\"The Beginning\"</a>. <i>Euclid's Elements</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Euclid%27s+Elements&amp;rft.atitle=The+Beginning&amp;rft.au=Herbert+M.+Sauro&amp;rft&#95;id=https%3A%2F%2Feuclid.analogmachine.org%2Fearly-history&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFrank&#95;J.&#95;Swetz2019\" class=\"citation cs1\">Frank J. Swetz (2019). <a rel=\"nofollow\" class=\"external text\" href=\"https://old.maa.org/press/periodicals/convergence/mathematical-treasure-adelard-s-translation-of-euclid-s-elements#:~:text=Shown%20below%20is%20an%20early%2014th%20century,of%20Bath%20(ca.%201075%20%E2%80%93%20ca.%201160).\"><i>Mathematical Treasure: Adelard’s Translation of Euclid’s Elements</i></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Mathematical+Treasure%3A+Adelard%E2%80%99s+Translation+of+Euclid%E2%80%99s+Elements&amp;rft.date=2019&amp;rft.au=Frank+J.+Swetz&amp;rft&#95;id=https%3A%2F%2Fold.maa.org%2Fpress%2Fperiodicals%2Fconvergence%2Fmathematical-treasure-adelard-s-translation-of-euclid-s-elements%23%3A~%3Atext%3DShown%2520below%2520is%2520an%2520early%252014th%2520century%2Cof%2520Bath%2520%28ca.%25201075%2520%25E2%2580%2593%2520ca.%25201160%29.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHipólito2015\" class=\"citation book cs1 cs1-prop-foreign-lang-source\">Hipólito, Inês Viegas (Aug 9–15, 2015). \"Abstract Cognition and the Nature of Mathematical Proof\". In Kanzian, Christian; <a href=\"/wiki/Josef_Mitterer\" title=\"Josef Mitterer\">Mitterer, Josef</a>; Neges, Katharina (eds.). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.alws.at/alws/wp-content/uploads/2018/06/papers-2015.pdf#page=133\"><i>Realismus – Relativismus – Konstruktivismus: Beiträge des 38. Internationalen Wittgenstein Symposiums</i></a> &#91;<i>Realism – Relativism – Constructivism: Contributions of the 38th International Wittgenstein Symposium</i>&#93; <span class=\"cs1-format\">(PDF)</span> (in German and English). Vol.&#160;23. Kirchberg am Wechsel, Austria: Austrian Ludwig Wittgenstein Society. pp.&#160;<span class=\"nowrap\">132–</span>134. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1022-3398\">1022-3398</a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/236026294\">236026294</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20221107221937/https://www.alws.at/alws/wp-content/uploads/2018/06/papers-2015.pdf#page=133\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 2022-11-07<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-01-17</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Abstract+Cognition+and+the+Nature+of+Mathematical+Proof&amp;rft.btitle=Realismus+%E2%80%93+Relativismus+%E2%80%93+Konstruktivismus%3A+Beitr%C3%A4ge+des+38.+Internationalen+Wittgenstein+Symposiums&amp;rft.place=Kirchberg+am+Wechsel%2C+Austria&amp;rft.pages=132-134&amp;rft.pub=Austrian+Ludwig+Wittgenstein+Society&amp;rft.date=2015-08-09%2F2015-08-15&amp;rft&#95;id=info%3Aoclcnum%2F236026294&amp;rft.issn=1022-3398&amp;rft.aulast=Hip%C3%B3lito&amp;rft.aufirst=In%C3%AAs+Viegas&amp;rft&#95;id=https%3A%2F%2Fwww.alws.at%2Falws%2Fwp-content%2Fuploads%2F2018%2F06%2Fpapers-2015.pdf%23page%3D133&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.researchgate.net/publication/280654540_Abstract_Cognition_and_the_Nature_of_Mathematical_Proof\">at ResearchGate</a> <span style=\"position:relative; top: -2px;\"><span typeof=\"mw:File\"><a href=\"/wiki/Open_access\" title=\"open access publication – free to read\"><img alt=\"Open access icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Open_Access_logo_PLoS_transparent.svg/20px-Open_Access_logo_PLoS_transparent.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"9\" height=\"14\" class=\"mw-file-element\" data-file-width=\"640\" data-file-height=\"1000\" /></a></span></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20221105145638/https://www.researchgate.net/publication/280654540_Abstract_Cognition_and_the_Nature_of_Mathematical_Proof\">Archived</a> November 5, 2022, at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a>)</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEPeterson198812-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEPeterson198812_4-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFPeterson1988\">Peterson 1988</a>, p.&#160;12.</span>\n</li>\n<li id=\"cite&#95;note-wigner1960-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wigner1960_5-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>wigner1960</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWise\" class=\"citation web cs1\">Wise, David. <a rel=\"nofollow\" class=\"external text\" href=\"http://jwilson.coe.uga.edu/EMT668/EMAT6680.F99/Wise/essay7/essay7.htm\">\"Eudoxus' Influence on Euclid's Elements with a close look at The Method of Exhaustion\"</a>. <i><a href=\"/wiki/The_University_of_Georgia\" class=\"mw-redirect\" title=\"The University of Georgia\">The University of Georgia</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190601004355/http://jwilson.coe.uga.edu/emt668/EMAT6680.F99/Wise/essay7/essay7.htm\">Archived</a> from the original on 2019-06-01<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-01-18</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+University+of+Georgia&amp;rft.atitle=Eudoxus%27+Influence+on+Euclid%27s+Elements+with+a+close+look+at+The+Method+of+Exhaustion&amp;rft.aulast=Wise&amp;rft.aufirst=David&amp;rft&#95;id=http%3A%2F%2Fjwilson.coe.uga.edu%2FEMT668%2FEMAT6680.F99%2FWise%2Fessay7%2Fessay7.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAlexander2011\" class=\"citation journal cs1\"><a href=\"/wiki/Amir_Alexander\" title=\"Amir Alexander\">Alexander, Amir</a> (Sep 2011). \"The Skeleton in the Closet: Should Historians of Science Care about the History of Mathematics?\". <i>Isis</i>. <b>102</b> (3): <span class=\"nowrap\">475–</span>480. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1086%2F661620\">10.1086/661620</a>. <a href=\"/wiki/MR_(identifier)\" class=\"mw-redirect\" title=\"MR (identifier)\">MR</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://mathscinet.ams.org/mathscinet-getitem?mr=2884913\">2884913</a>. <a href=\"/wiki/PMID_(identifier)\" class=\"mw-redirect\" title=\"PMID (identifier)\">PMID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://pubmed.ncbi.nlm.nih.gov/22073771\">22073771</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Isis&amp;rft.atitle=The+Skeleton+in+the+Closet%3A+Should+Historians+of+Science+Care+about+the+History+of+Mathematics%3F&amp;rft.volume=102&amp;rft.issue=3&amp;rft.pages=475-480&amp;rft.date=2011-09&amp;rft&#95;id=https%3A%2F%2Fmathscinet.ams.org%2Fmathscinet-getitem%3Fmr%3D2884913%23id-name%3DMR&amp;rft&#95;id=info%3Apmid%2F22073771&amp;rft&#95;id=info%3Adoi%2F10.1086%2F661620&amp;rft.aulast=Alexander&amp;rft.aufirst=Amir&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Kleiner&#95;1991-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Kleiner_1991_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKleiner1991\" class=\"citation journal cs1\"><a href=\"/wiki/Israel_Kleiner_(mathematician)\" title=\"Israel Kleiner (mathematician)\">Kleiner, Israel</a> (Dec 1991). \"Rigor and Proof in Mathematics: A Historical Perspective\". <i>Mathematics Magazine</i>. <b>64</b> (5). Taylor &amp; Francis, Ltd.: <span class=\"nowrap\">291–</span>314. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1080%2F0025570X.1991.11977625\">10.1080/0025570X.1991.11977625</a>. <a href=\"/wiki/EISSN_(identifier)\" class=\"mw-redirect\" title=\"EISSN (identifier)\">eISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1930-0980\">1930-0980</a>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/0025-570X\">0025-570X</a>. <a href=\"/wiki/JSTOR_(identifier)\" class=\"mw-redirect\" title=\"JSTOR (identifier)\">JSTOR</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/stable/2690647\">2690647</a>. <a href=\"/wiki/LCCN_(identifier)\" class=\"mw-redirect\" title=\"LCCN (identifier)\">LCCN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://lccn.loc.gov/47003192\">47003192</a>. <a href=\"/wiki/MR_(identifier)\" class=\"mw-redirect\" title=\"MR (identifier)\">MR</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://mathscinet.ams.org/mathscinet-getitem?mr=1141557\">1141557</a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/1756877\">1756877</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Mathematics+Magazine&amp;rft.atitle=Rigor+and+Proof+in+Mathematics%3A+A+Historical+Perspective&amp;rft.volume=64&amp;rft.issue=5&amp;rft.pages=291-314&amp;rft.date=1991-12&amp;rft&#95;id=https%3A%2F%2Fmathscinet.ams.org%2Fmathscinet-getitem%3Fmr%3D1141557%23id-name%3DMR&amp;rft.eissn=1930-0980&amp;rft&#95;id=info%3Adoi%2F10.1080%2F0025570X.1991.11977625&amp;rft&#95;id=info%3Aoclcnum%2F1756877&amp;rft.issn=0025-570X&amp;rft&#95;id=info%3Alccn%2F47003192&amp;rft&#95;id=https%3A%2F%2Fwww.jstor.org%2Fstable%2F2690647%23id-name%3DJSTOR&amp;rft.aulast=Kleiner&amp;rft.aufirst=Israel&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-MSC-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-MSC_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://zbmath.org/static/msc2020.pdf\">\"MSC2020-Mathematics Subject Classification System\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>zbMath</i>. Associate Editors of Mathematical Reviews and zbMATH. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20240102023805/https://zbmath.org/static/msc2020.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 2024-01-02<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-11-13</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=zbMath&amp;rft.atitle=MSC2020-Mathematics+Subject+Classification+System&amp;rft&#95;id=https%3A%2F%2Fzbmath.org%2Fstatic%2Fmsc2020.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-MSC2020-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-MSC2020_11-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDunneHulek2020\" class=\"citation journal cs1\">Dunne, Edward; <a href=\"/wiki/Klaus_Hulek\" title=\"Klaus Hulek\">Hulek, Klaus</a> (Mar 2020). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.ams.org/journals/notices/202003/rnoti-p410.pdf\">\"Mathematics Subject Classification 2020\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>Notices of the American Mathematical Society</i>. <b>67</b> (3): <span class=\"nowrap\">410–</span>411. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1090%2Fnoti2052\">10.1090/noti2052</a></span>. <a href=\"/wiki/EISSN_(identifier)\" class=\"mw-redirect\" title=\"EISSN (identifier)\">eISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1088-9477\">1088-9477</a>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/0002-9920\">0002-9920</a>. <a href=\"/wiki/LCCN_(identifier)\" class=\"mw-redirect\" title=\"LCCN (identifier)\">LCCN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://lccn.loc.gov/sf77000404\">sf77000404</a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/1480366\">1480366</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210803203928/https://www.ams.org/journals/notices/202003/rnoti-p410.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 2021-08-03<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-02-03</span></span>. <q>The new MSC contains 63 two-digit classifications, 529 three-digit classifications, and 6,006 five-digit classifications.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Notices+of+the+American+Mathematical+Society&amp;rft.atitle=Mathematics+Subject+Classification+2020&amp;rft.volume=67&amp;rft.issue=3&amp;rft.pages=410-411&amp;rft.date=2020-03&amp;rft.eissn=1088-9477&amp;rft&#95;id=info%3Adoi%2F10.1090%2Fnoti2052&amp;rft&#95;id=info%3Aoclcnum%2F1480366&amp;rft&#95;id=info%3Alccn%2Fsf77000404&amp;rft.issn=0002-9920&amp;rft.aulast=Dunne&amp;rft.aufirst=Edward&amp;rft.au=Hulek%2C+Klaus&amp;rft&#95;id=https%3A%2F%2Fwww.ams.org%2Fjournals%2Fnotices%2F202003%2Frnoti-p410.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMathematics\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐jppt9\nCached time: 20260918180928\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.361 seconds\nReal time usage: 0.483 seconds\nPreprocessor visited node count: 1029/1000000\nRevision size: 9034/2097152 bytes\nPost‐expand include size: 30910/2097152 bytes\nTemplate argument size: 3399/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 10/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 20309/5000000 bytes\nLua time usage: 0.243/10.000 seconds\nLua memory usage: 14637972/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  459.055      1 -total\n 16.62%   76.281      1 Template:Sfn\n 14.39%   66.074      1 Template:Short_description\n 14.28%   65.560      2 Template:Citation\n 13.93%   63.928      2 Template:Lang\n  9.12%   41.865      2 Template:Pagetype\n  6.44%   29.585      4 Template:Broken_ref\n  4.96%   22.780      1 Template:Redirect2\n  4.73%   21.702      1 Template:Pp\n  3.19%   14.661      4 Template:Main_other\n-->\n\n<!-- Render ID 16880bea-b38c-11f1-87e2-136b1e9840f8 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open access",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Math (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstraction (mathematics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adelard of Bath",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algebra",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amir Alexander",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ancient Egyptian mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Applied mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Axiom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Axiomatic method",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Babylonian mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Euclid",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Euclid's Elements",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Foundational crisis of mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Game theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Geometry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Greek mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Herbert M. Sauro",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Illuminated manuscript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inference rule",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Infinitesimal calculus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Israel Kleiner (mathematician)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JSTOR (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Josef Mitterer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Klaus Hulek",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LCCN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MR (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Martianus Capella",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical object",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical proof",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical rigor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics Subject Classification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Number theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PMID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Philosophy of mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reason",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Set theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The University of Georgia",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Theorem",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Timeline of scientific discoveries",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayback Machine",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Field of knowledge",
+          "toc": "",
+          "page_image_free": "Woman_teaching_geometry.jpg",
+          "wikibase_item": "Q395"
+        }
+      }
+    }
+  ]
+}

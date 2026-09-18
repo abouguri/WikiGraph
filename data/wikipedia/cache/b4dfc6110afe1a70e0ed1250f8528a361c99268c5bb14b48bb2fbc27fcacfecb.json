@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "ARM architecture family",
+    "url": "https://en.wikipedia.org/wiki/ARM_architecture_family",
+    "summary": "Family of RISC-based computer architectures \"ARM architecture\" redirects here. For the Australian architectural firm, see ARM Architecture (company) . ARM Designer Sophie Wilson Steve Furber Acorn Computers / Arm Holdings Bits 32-bit , 64-bit Introduced 1985 ; 41 years ago ( 1985 ) Design RISC Type Load–store Branching Condition code , compare and branch Open No; proprietary ARM AArch64 (64/32-bit) Introduced 2011 ; 15 years ago ( 2011 ) Version ARMv8-R, ARMv8-A, ARMv8.1-A, ARMv8.2-A, ARMv8.3-A, ARMv8.4-A, ARMv8.5-A, ARMv8.6-A, ARMv8.7-A, ARMv8.8-A, ARMv8.9-A, ARMv9.0-A, ARMv9.1-A, ARMv9.2-A, ARMv9.3-A, ARMv9.4-A, ARMv9.5-A, ARMv9.6-A, ARMv9.7-A Encoding AArch64 /A64 and AArch32 /A32 use 32-bit instructions, AArch32/T32 (Thumb-2) uses mixed 16- and 32-bit instructions Endianness Bi (little as default) Extensions SVE , SVE2, SME , SME2, AES, SM3, SM4, SHA, CRC32, RNDR, TME; All mandatory: Thumb-2 , Neon , VFPv4-D16, VFPv4; obsolete: Thumb and Jazelle Registers General-purpose 31 × 64-bit integer registers Floating-point 32 × 128-bit registers for scalar 32- and 64-bit FP or SIMD FP or integer; or cryptography ARM AArch32 (32-bit) Version ARMv9-R, ARMv9-M, ARMv8-R, ARMv8-M, ARMv7-A, ARMv7-R, ARMv7E-M, ARMv7-M Encoding 32-bit, except Thumb-2 extensions use mixed 16- and 32-bit instructions. Endianness Bi (little as default) Extensions Thumb , Thumb-2 , SVE, SVE2, SME, SME2, Neon , Jazelle , AES, SM3, SM4, SHA, CRC32, RNDR, DSP, Saturated, FPv4-SP, FPv5, Helium; obsolete since ARMv8: Thumb and Jazelle Registers General-purpose 15 × 32-bit integer registers, including R14 (link register), but not R15 (PC) Floating-point Up to 32 × 64-bit registers, SIMD/floating-point (optional) ARM 32-bit (legacy) Version ARMv6, ARMv5, ARMv4T, ARMv3, ARMv2 Encoding 32-bit, except Thumb extension uses mixed 16- and 32-bit instructions. Endianness Bi (little as default) in ARMv3 and above Extensions Thumb , Jazelle Registers General-purpose 15 × 32-bit integer registers, including R14 (link register), but not R15 (PC, 26-bit addressing in older) Floating-point None ARM (stylised in lowercase as arm ) is a family of RISC instruction set architectures for computer processors . Arm Holdings develops the instruction set architecture and licenses it to other companies, who build the physical devices that use the instruction set. It also designs and licenses cores that implement these instruction set architectures. Due to their low costs, low power consumption, and low heat generation, ARM processors are useful for light, portable, battery-powered devices, including smartphones , laptops , and tablet computers , as well as embedded systems . However, ARM processors are also used for desktops and servers , including Fugaku , the world's fastest supercomputer from 2020 to 2022. With over 230 billion ARM chips produced, since at least 2003, and with its dominance increasing every year [update] , ARM is the most widely used family of instruction set architectures. There have been several generations of the ARM design. The original ARM1 used a 32-bit internal structure but had a 26-bit address space that limited it to 64 MB of main memory . This limitation was removed in the ARMv3 series, which has a 32-bit address space, and several additional generations up to ARMv7 remained 32-bit. Released in 2011, the ARMv8-A architecture added support for a 64-bit address space and 64-bit arithmetic with its new 32-bit fixed-length instruction set. Arm Holdings has also released a series of additional instruction sets for different roles: the \"Thumb\" extensions add both 32- and 16-bit instructions for improved code density , while Jazelle added instructions for directly handling Java bytecode . More recent changes include the addition of simultaneous multithreading (SMT) for improved performance or fault tolerance . ^ a b c Cite error: The named reference v8arch was invoked but never defined (see the help page ). ^ \"6.1.2.1 VFP register usage conventions\" . Procedure Call Standard for the ARM Architecture . Arm Holdings . 6 October 2023 . Retrieved 22 August 2024 . ^ Wilson, Roger (2 November 1988). \"Some facts about the Acorn RISC Machine\" . Newsgroup : comp.arch . Retrieved 25 May 2007 . ^ a b Hachman, Mark (14 October 2002). \"ARM Cores Climb into 3G Territory\" . ExtremeTech . Retrieved 24 May 2018 . ^ Turley, Jim (18 December 2022). \"The Two Percent Solution\" . Embedded . Retrieved 29 May 2026 . ^ \"Snapdragon vs Intel: Buyer's Guide to Next-Gen Processors\" . Geekom . 26 September 2025 . Retrieved 29 May 2026 . ^ Cutress, Ian (22 June 2020). \"New #1 Supercomputer: Fujitsu's Fugaku and A64FX take Arm to the Top with 415 PetaFLOPs\" . anandtech.com . Archived from the original on 12 June 2025 . Retrieved 25 January 2021 . ^ Segars, Simon (18 October 2021). \"Arm Partners Have Shipped 200 Billion Chips\" . Arm Newsroom . Retrieved 29 May 2026 . ^ \"Enabling Mass IoT connectivity as ARM partners ship 100 billion chips\" . community.arm.com . 27 February 2017 . Retrieved 8 April 2020 . the cumulative deployment of 100 billion chips, half of which shipped in the last four years. [..] why not a trillion or more? That is our target, seeing a trillion connected devices deployed over the next two decades. {{ cite web }} : CS1 maint: url-status ( link ) ^ \"MCU Market on Migration Path to 32-bit and ARM-based Devices: 32-bit tops in sales; 16-bit leads in unit shipments\" . IC Insights. 25 April 2013. Archived from the original on 7 July 2014 . Retrieved 29 May 2026 . ^ Turley, Jim (18 December 2002). \"The Two Percent Solution\" . embedded.com. Archived from the original on 15 February 2023. ^ Prickett Morgan, Timothy (1 February 2011). \"Arm Holdings eager for PC and server expansion\" . The Register . Retrieved 29 May 2026 . ^ McGuire-Balanza, Kerry (11 May 2010). \"ARM from zero to billions in 25 short years\" . Arm Holdings . Archived from the original on 29 November 2014 . Retrieved 8 November 2012 . ^ \"ARM Discloses Technical Details Of The Next Version Of The ARM Architecture\" . www.arm.com (Press release). 27 October 2011. Archived from the original on 1 January 2019 . Retrieved 29 May 2026 . ^ \"Announcing the ARM Neoverse N1 Platform\" . community.arm.com . 20 February 2019 . Retrieved 8 April 2020 . {{ cite web }} : CS1 maint: url-status ( link ) Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Family of RISC-based computer architectures \"ARM architecture\" redirects here. For the Australian architectural firm, see ARM Architecture (company) . ARM Designer Sophie Wilson Steve Furber Acorn Computers / Arm Holdings Bits 32-bit , 64-bit Introduced 1985 ; 41 years ago ( 1985 ) Design RISC Type Load–store Branching Condition code , compare and branch Open No; proprietary ARM AArch64 (64/32-bit) Introduced 2011 ; 15 years ago ( 2011 ) Version ARMv8-R, ARMv8-A, ARMv8.1-A, ARMv8.2-A, ARMv8.3-A, ARMv8.4-A, ARMv8.5-A, ARMv8.6-A, ARMv8.7-A, ARMv8.8-A, ARMv8.9-A, ARMv9.0-A, ARMv9.1-A, ARMv9.2-A, ARMv9.3-A, ARMv9.4-A, ARMv9.5-A, ARMv9.6-A, ARMv9.7-A Encoding AArch64 /A64 and AArch32 /A32 use 32-bit instructions, AArch32/T32 (Thumb-2) uses mixed 16- and 32-bit instructions Endianness Bi (little as default) Extensions SVE , SVE2, SME , SME2, AES, SM3, SM4, SHA, CRC32, RNDR, TME; All mandatory: Thumb-2 , Neon , VFPv4-D16, VFPv4; obsolete: Thumb and Jazelle Registers General-purpose 31 × 64-bit integer registers Floating-point 32 × 128-bit registers for scalar 32- and 64-bit FP or SIMD FP or integer; or cryptography ARM AArch32 (32-bit) Version ARMv9-R, ARMv9-M, ARMv8-R, ARMv8-M, ARMv7-A, ARMv7-R, ARMv7E-M, ARMv7-M Encoding 32-bit, except Thumb-2 extensions use mixed 16- and 32-bit instructions. Endianness Bi (little as default) Extensions Thumb , Thumb-2 , SVE, SVE2, SME, SME2, Neon , Jazelle , AES, SM3, SM4, SHA, CRC32, RNDR, DSP, Saturated, FPv4-SP, FPv5, Helium; obsolete since ARMv8: Thumb and Jazelle Registers General-purpose 15 × 32-bit integer registers, including R14 (link register), but not R15 (PC) Floating-point Up to 32 × 64-bit registers, SIMD/floating-point (optional) ARM 32-bit (legacy) Version ARMv6, ARMv5, ARMv4T, ARMv3, ARMv2 Encoding 32-bit, except Thumb extension uses mixed 16- and 32-bit instructions. Endianness Bi (little as default) in ARMv3 and above Extensions Thumb , Jazelle Registers General-purpose 15 × 32-bit integer registers, including R14 (link register), but not R15 (PC, 26-bit addressing in older) Floating-point None ARM (stylised in lowercase as arm ) is a family of RISC instruction set architectures for computer processors . Arm Holdings develops the instruction set architecture and licenses it to other companies, who build the physical devices that use the instruction set. It also designs and licenses cores that implement these instruction set architectures. Due to their low costs, low power consumption, and low heat generation, ARM processors are useful for light, portable, battery-powered devices, including smartphones , laptops , and tablet computers , as well as embedded systems . However, ARM processors are also used for desktops and servers , including Fugaku , the world's fastest supercomputer from 2020 to 2022. With over 230 billion ARM chips produced, since at least 2003, and with its dominance increasing every year [update] , ARM is the most widely used family of instruction set architectures. There have been several generations of the ARM design. The original ARM1 used a 32-bit internal structure but had a 26-bit address space that limited it to 64 MB of main memory . This limitation was removed in the ARMv3 series, which has a 32-bit address space, and several additional generations up to ARMv7 remained 32-bit. Released in 2011, the ARMv8-A architecture added support for a 64-bit address space and 64-bit arithmetic with its new 32-bit fixed-length instruction set. Arm Holdings has also released a series of additional instruction sets for different roles: the \"Thumb\" extensions add both 32- and 16-bit instructions for improved code density , while Jazelle added instructions for directly handling Java bytecode . More recent changes include the addition of simultaneous multithreading (SMT) for improved performance or fault tolerance . ^ a b c Cite error: The named reference v8arch was invoked but never defined (see the help page ). ^ \"6.1.2.1 VFP register usage conventions\" . Procedure Call Standard for the ARM Architecture . Arm Holdings . 6 October 2023 . Retrieved 22 August 2024 . ^ Wilson, Roger (2 November 1988). \"Some facts about the Acorn RISC Machine\" . Newsgroup : comp.arch . Retrieved 25 May 2007 . ^ a b Hachman, Mark (14 October 2002). \"ARM Cores Climb into 3G Territory\" . ExtremeTech . Retrieved 24 May 2018 . ^ Turley, Jim (18 December 2022). \"The Two Percent Solution\" . Embedded . Retrieved 29 May 2026 . ^ \"Snapdragon vs Intel: Buyer's Guide to Next-Gen Processors\" . Geekom . 26 September 2025 . Retrieved 29 May 2026 . ^ Cutress, Ian (22 June 2020). \"New #1 Supercomputer: Fujitsu's Fugaku and A64FX take Arm to the Top with 415 PetaFLOPs\" . anandtech.com . Archived from the original on 12 June 2025 . Retrieved 25 January 2021 . ^ Segars, Simon (18 October 2021). \"Arm Partners Have Shipped 200 Billion Chips\" . Arm Newsroom . Retrieved 29 May 2026 . ^ \"Enabling Mass IoT connectivity as ARM partners ship 100 billion chips\" . community.arm.com . 27 February 2017 . Retrieved 8 April 2020 . the cumulative deployment of 100 billion chips, half of which shipped in the last four years. [..] why not a trillion or more? That is our target, seeing a trillion connected devices deployed over the next two decades. {{ cite web }} : CS1 maint: url-status ( link ) ^ \"MCU Market on Migration Path to 32-bit and ARM-based Devices: 32-bit tops in sales; 16-bit leads in unit shipments\" . IC Insights. 25 April 2013. Archived from the original on 7 July 2014 . Retrieved 29 May 2026 . ^ Turley, Jim (18 December 2002). \"The Two Percent Solution\" . embedded.com. Archived from the original on 15 February 2023. ^ Prickett Morgan, Timothy (1 February 2011). \"Arm Holdings eager for PC and server expansion\" . The Register . Retrieved 29 May 2026 . ^ McGuire-Balanza, Kerry (11 May 2010). \"ARM from zero to billions in 25 short years\" . Arm Holdings . Archived from the original on 29 November 2014 . Retrieved 8 November 2012 . ^ \"ARM Discloses Technical Details Of The Next Version Of The ARM Architecture\" . www.arm.com (Press release). 27 October 2011. Archived from the original on 1 January 2019 . Retrieved 29 May 2026 . ^ \"Announcing the ARM Neoverse N1 Platform\" . community.arm.com . 20 February 2019 . Retrieved 8 April 2020 . {{ cite web }} : CS1 maint: url-status ( link ) Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "128-bit computing",
+      "32-bit computing",
+      "64-bit computing",
+      "AArch64",
+      "ARM Architecture (company)",
+      "ARM Thumb",
+      "Acorn Computers",
+      "Address space",
+      "Arm Holdings",
+      "Bi-endian",
+      "Branch (computer science)",
+      "Central processing unit",
+      "Code density",
+      "Computer architecture",
+      "Desktop computer",
+      "Embedded system",
+      "Endianness",
+      "Fault tolerance",
+      "Floating-point register",
+      "Fugaku (supercomputer)",
+      "General-purpose register",
+      "IEEE 754",
+      "Instruction set",
+      "Instruction set architecture",
+      "Java bytecode",
+      "Jazelle",
+      "Laptop",
+      "Load–store architecture",
+      "Main memory",
+      "Processor register",
+      "Reduced instruction set computer",
+      "Scalable Matrix Extension",
+      "Scalable Vector Extension",
+      "Semiconductor intellectual property core",
+      "Server (computing)",
+      "Simultaneous multithreading",
+      "Single instruction, multiple data",
+      "Smartphone",
+      "Sophie Wilson",
+      "Status register",
+      "Steve Furber",
+      "Supercomputer",
+      "Tablet computer",
+      "The Register",
+      "Usenet newsgroup"
+    ],
+    "page_id": 60558,
+    "revision_id": 1373070272,
+    "retrieved_at": "2026-09-18T18:09:17.797258+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260901141031|1372621544",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 60558,
+            "ns": 0,
+            "title": "ARM architecture family",
+            "revisions": [
+              {
+                "revid": 1373070272,
+                "parentid": 1372621544
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "AArch64_logo.svg",
+              "wikibase-shortdesc": "Family of RISC-based computer architectures",
+              "wikibase_item": "Q16980"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "ARM architecture family",
+        "pageid": 60558,
+        "revid": 1373070272,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Family of RISC-based computer architectures</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"ARM architecture\" redirects here. For the Australian architectural firm, see <a href=\"/wiki/ARM_Architecture_(company)\" title=\"ARM Architecture (company)\">ARM Architecture (company)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox\"><caption class=\"infobox-title\">ARM</caption><tbody><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Arm_logo_2025.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Arm_logo_2025.svg/250px-Arm_logo_2025.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"76\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Arm_logo_2025.svg/500px-Arm_logo_2025.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"4332\" data-file-height=\"1319\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Designer</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Sophie_Wilson\" title=\"Sophie Wilson\">Sophie Wilson</a></li>\n<li><a href=\"/wiki/Steve_Furber\" title=\"Steve Furber\">Steve Furber</a></li>\n<li><a href=\"/wiki/Acorn_Computers\" title=\"Acorn Computers\">Acorn Computers</a>/<a href=\"/wiki/Arm_Holdings\" title=\"Arm Holdings\">Arm Holdings</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Bits</th><td class=\"infobox-data\"><a href=\"/wiki/32-bit_computing\" title=\"32-bit computing\">32-bit</a>, <a href=\"/wiki/64-bit_computing\" title=\"64-bit computing\">64-bit</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Introduced</th><td class=\"infobox-data\">1985<span class=\"noprint\">&#59;&#32;41&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1985</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computer_architecture\" title=\"Computer architecture\">Design</a></th><td class=\"infobox-data\"><a href=\"/wiki/Reduced_instruction_set_computer\" title=\"Reduced instruction set computer\">RISC</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Type</th><td class=\"infobox-data\"><a href=\"/wiki/Load%E2%80%93store_architecture\" title=\"Load–store architecture\">Load–store</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Branch_(computer_science)\" title=\"Branch (computer science)\">Branching</a></th><td class=\"infobox-data\"><a href=\"/wiki/Status_register\" title=\"Status register\">Condition code</a>, compare and branch</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Open</th><td class=\"infobox-data\">No; proprietary</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><table class=\"infobox\"><caption class=\"infobox-title\">ARM <i>AArch64</i> (64/32-bit)</caption><tbody><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:AArch64_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/41/AArch64_logo.svg/250px-AArch64_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"213\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/41/AArch64_logo.svg/500px-AArch64_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"416\" data-file-height=\"355\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Introduced</th><td class=\"infobox-data\">2011<span class=\"noprint\">&#59;&#32;15&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2011</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Version</th><td class=\"infobox-data\">ARMv8-R, ARMv8-A, ARMv8.1-A, ARMv8.2-A, ARMv8.3-A, ARMv8.4-A, ARMv8.5-A, ARMv8.6-A, ARMv8.7-A, ARMv8.8-A, ARMv8.9-A, ARMv9.0-A, ARMv9.1-A, ARMv9.2-A, ARMv9.3-A, ARMv9.4-A, ARMv9.5-A, ARMv9.6-A, ARMv9.7-A</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Instruction_set\" class=\"mw-redirect\" title=\"Instruction set\">Encoding</a></th><td class=\"infobox-data\"><a href=\"/wiki/AArch64\" title=\"AArch64\">AArch64</a>/A64 and <a href=\"#AArch32\">AArch32</a>/A32 use 32-bit instructions, AArch32/T32 (Thumb-2) uses mixed 16- and 32-bit instructions<sup id=\"cite&#95;ref-v8arch&#95;1-0\" class=\"reference\"><a href=\"#cite_note-v8arch-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Endianness\" title=\"Endianness\">Endianness</a></th><td class=\"infobox-data\"><a href=\"/wiki/Endianness#Bi-endianness\" title=\"Endianness\">Bi</a> (little as default)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Extensions</th><td class=\"infobox-data\"><a href=\"/wiki/Scalable_Vector_Extension\" class=\"mw-redirect\" title=\"Scalable Vector Extension\">SVE</a>, SVE2, <a href=\"/wiki/Scalable_Matrix_Extension\" class=\"mw-redirect\" title=\"Scalable Matrix Extension\">SME</a>, SME2, AES, SM3, SM4, SHA, CRC32, RNDR, TME; All mandatory: <a href=\"#Thumb-2\">Thumb-2</a>, <a href=\"#Advanced_SIMD_(Neon)\">Neon</a>, VFPv4-D16, VFPv4; obsolete: <a href=\"#Thumb\">Thumb</a> and <a href=\"/wiki/Jazelle\" title=\"Jazelle\">Jazelle</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\"><a href=\"/wiki/Processor_register\" title=\"Processor register\">Registers</a></th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/General-purpose_register\" class=\"mw-redirect\" title=\"General-purpose register\">General-purpose</a></th><td class=\"infobox-data\">31 × 64-bit integer registers<sup id=\"cite&#95;ref-v8arch&#95;1-1\" class=\"reference\"><a href=\"#cite_note-v8arch-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Floating-point_register\" class=\"mw-redirect\" title=\"Floating-point register\">Floating-point</a></th><td class=\"infobox-data\">32 × <a href=\"/wiki/128-bit_computing\" title=\"128-bit computing\">128-bit</a> registers<sup id=\"cite&#95;ref-v8arch&#95;1-2\" class=\"reference\"><a href=\"#cite_note-v8arch-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> for scalar 32- and 64-bit <a href=\"/wiki/IEEE_754\" title=\"IEEE 754\">FP</a> or <a href=\"/wiki/Single_instruction,_multiple_data\" title=\"Single instruction, multiple data\">SIMD</a> FP or integer; or cryptography</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><table class=\"infobox\"><caption class=\"infobox-title\">ARM <i>AArch32</i> (32-bit)</caption><tbody><tr><th scope=\"row\" class=\"infobox-label\">Version</th><td class=\"infobox-data\">ARMv9-R, ARMv9-M, ARMv8-R, ARMv8-M, ARMv7-A, ARMv7-R, ARMv7E-M, ARMv7-M</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Instruction_set\" class=\"mw-redirect\" title=\"Instruction set\">Encoding</a></th><td class=\"infobox-data\">32-bit, except Thumb-2 extensions use mixed 16- and 32-bit instructions.</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Endianness\" title=\"Endianness\">Endianness</a></th><td class=\"infobox-data\"><a href=\"/wiki/Bi-endian\" class=\"mw-redirect\" title=\"Bi-endian\">Bi</a> (little as default)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Extensions</th><td class=\"infobox-data\"><a href=\"#Thumb\">Thumb</a>, <a href=\"#Thumb-2\">Thumb-2</a>, SVE, SVE2, SME, SME2, <a href=\"#Advanced_SIMD_(Neon)\">Neon</a>, <a href=\"/wiki/Jazelle\" title=\"Jazelle\">Jazelle</a>, AES, SM3, SM4, SHA, CRC32, RNDR, DSP, Saturated, FPv4-SP, FPv5, Helium; obsolete since ARMv8: <a href=\"#Thumb\">Thumb</a> and <a href=\"/wiki/Jazelle\" title=\"Jazelle\">Jazelle</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\"><a href=\"/wiki/Processor_register\" title=\"Processor register\">Registers</a></th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/General-purpose_register\" class=\"mw-redirect\" title=\"General-purpose register\">General-purpose</a></th><td class=\"infobox-data\">15 × 32-bit integer registers, including R14 (link register), but not R15 (PC)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Floating-point_register\" class=\"mw-redirect\" title=\"Floating-point register\">Floating-point</a></th><td class=\"infobox-data\">Up to 32 × 64-bit registers,<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> SIMD/floating-point (optional)</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><table class=\"infobox\"><caption class=\"infobox-title\">ARM 32-bit (legacy)</caption><tbody><tr><th scope=\"row\" class=\"infobox-label\">Version</th><td class=\"infobox-data\">ARMv6, ARMv5, ARMv4T, ARMv3, ARMv2</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Instruction_set\" class=\"mw-redirect\" title=\"Instruction set\">Encoding</a></th><td class=\"infobox-data\">32-bit, except Thumb extension uses mixed 16- and 32-bit instructions.</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Endianness\" title=\"Endianness\">Endianness</a></th><td class=\"infobox-data\"><a href=\"/wiki/Bi-endian\" class=\"mw-redirect\" title=\"Bi-endian\">Bi</a> (little as default) in ARMv3 and above</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Extensions</th><td class=\"infobox-data\"><a href=\"/wiki/ARM_Thumb\" class=\"mw-redirect\" title=\"ARM Thumb\">Thumb</a>, <a href=\"/wiki/Jazelle\" title=\"Jazelle\">Jazelle</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\"><a href=\"/wiki/Processor_register\" title=\"Processor register\">Registers</a></th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/General-purpose_register\" class=\"mw-redirect\" title=\"General-purpose register\">General-purpose</a></th><td class=\"infobox-data\">15 × 32-bit integer registers, including R14 (link register), but not R15 (PC, 26-bit addressing in older)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Floating-point_register\" class=\"mw-redirect\" title=\"Floating-point register\">Floating-point</a></th><td class=\"infobox-data\">None</td></tr></tbody></table>\n<p><b>ARM</b> (stylised in lowercase as <b>arm</b>)<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> is a family of <a href=\"/wiki/Reduced_instruction_set_computer\" title=\"Reduced instruction set computer\">RISC</a> <a href=\"/wiki/Instruction_set_architecture\" title=\"Instruction set architecture\">instruction set architectures</a> for <a href=\"/wiki/Central_processing_unit\" title=\"Central processing unit\">computer processors</a>. <a href=\"/wiki/Arm_Holdings\" title=\"Arm Holdings\">Arm Holdings</a> develops the instruction set architecture and licenses it to other companies, who build the physical devices that use the instruction set. It also designs and licenses <a href=\"/wiki/Semiconductor_intellectual_property_core\" title=\"Semiconductor intellectual property core\">cores</a> that implement these instruction set architectures.\n</p><p>Due to their low costs, low power consumption, and low heat generation, ARM processors are useful for light, portable, battery-powered devices, including <a href=\"/wiki/Smartphone\" title=\"Smartphone\">smartphones</a>, <a href=\"/wiki/Laptop\" title=\"Laptop\">laptops</a>, and <a href=\"/wiki/Tablet_computer\" title=\"Tablet computer\">tablet computers</a>, as well as <a href=\"/wiki/Embedded_system\" title=\"Embedded system\">embedded systems</a>.<sup id=\"cite&#95;ref-ARM1&#95;4-0\" class=\"reference\"><a href=\"#cite_note-ARM1-4\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-extremetech-3g-territory&#95;5-0\" class=\"reference\"><a href=\"#cite_note-extremetech-3g-territory-5\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> However, ARM processors are also used for <a href=\"/wiki/Desktop_computer\" title=\"Desktop computer\">desktops</a> and <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">servers</a>, including <a href=\"/wiki/Fugaku_(supercomputer)\" title=\"Fugaku (supercomputer)\">Fugaku</a>, the world's fastest <a href=\"/wiki/Supercomputer\" title=\"Supercomputer\">supercomputer</a> from 2020<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> to 2022. With over 230 billion ARM chips  produced,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> since at least 2003, and with its dominance increasing every year<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=ARM_architecture_family&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=ARM_architecture_family&amp;action=edit\">&#91;update&#93;</a></sup>, ARM is the most widely used family of instruction set architectures.<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-extremetech-3g-territory&#95;5-1\" class=\"reference\"><a href=\"#cite_note-extremetech-3g-territory-5\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>There have been several generations of the ARM design. The original ARM1 used a <a href=\"/wiki/32-bit_computing\" title=\"32-bit computing\">32-bit</a> internal structure but had a 26-bit <a href=\"/wiki/Address_space\" title=\"Address space\">address space</a> that limited it to 64&#160;MB of <a href=\"/wiki/Main_memory\" class=\"mw-redirect\" title=\"Main memory\">main memory</a>. This limitation was removed in the ARMv3 series, which has a 32-bit address space, and several additional generations up to ARMv7 remained 32-bit. Released in 2011, the ARMv8-A architecture added support for a <a href=\"/wiki/64-bit_computing\" title=\"64-bit computing\">64-bit</a> address space and 64-bit arithmetic with its new 32-bit fixed-length instruction set.<sup id=\"cite&#95;ref-arm64-press-release&#95;15-0\" class=\"reference\"><a href=\"#cite_note-arm64-press-release-15\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> Arm Holdings has also released a series of additional instruction sets for different roles: the \"Thumb\" extensions add both 32- and 16-bit instructions for improved <a href=\"/wiki/Code_density\" class=\"mw-redirect\" title=\"Code density\">code density</a>, while <a href=\"/wiki/Jazelle\" title=\"Jazelle\">Jazelle</a> added instructions for directly handling <a href=\"/wiki/Java_bytecode\" class=\"mw-redirect\" title=\"Java bytecode\">Java bytecode</a>. More recent changes include the addition of <a href=\"/wiki/Simultaneous_multithreading\" title=\"Simultaneous multithreading\">simultaneous multithreading</a> (SMT) for improved performance or <a href=\"/wiki/Fault_tolerance\" title=\"Fault tolerance\">fault tolerance</a>.<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-v8arch-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-v8arch_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-v8arch_1-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-v8arch_1-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>v8arch</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/ARM-software/abi-aa/blob/2a70c42d62e9c3eb5887fa50b71257f20daca6f9/aapcs32/aapcs32.rst#6121vfp-register-usage-conventions\">\"6.1.2.1 VFP register usage conventions\"</a>. <i>Procedure Call Standard for the ARM Architecture</i>. <a href=\"/wiki/Arm_Holdings\" title=\"Arm Holdings\">Arm Holdings</a>. 6 October 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 August</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Procedure+Call+Standard+for+the+ARM+Architecture&amp;rft.atitle=6.1.2.1+VFP+register+usage+conventions&amp;rft.date=2023-10-06&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FARM-software%2Fabi-aa%2Fblob%2F2a70c42d62e9c3eb5887fa50b71257f20daca6f9%2Faapcs32%2Faapcs32.rst%236121vfp-register-usage-conventions&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-ARM1-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-ARM1_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWilson1988\" class=\"citation newsgroup cs1\"><a href=\"/wiki/Sophie_Wilson\" title=\"Sophie Wilson\">Wilson, Roger</a> (2 November 1988). <a rel=\"nofollow\" class=\"external text\" href=\"https://groups.google.com/group/comp.arch/msg/269fe7defd51f29e\">\"Some facts about the Acorn RISC Machine\"</a>. <a href=\"/wiki/Usenet_newsgroup\" title=\"Usenet newsgroup\">Newsgroup</a>:&#160;<a rel=\"nofollow\" class=\"external text\" href=\"news:comp.arch\">comp.arch</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 May</span> 2007</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Some+facts+about+the+Acorn+RISC+Machine&amp;rft.pub=comp.arch&amp;rft.date=1988-11-02&amp;rft.aulast=Wilson&amp;rft.aufirst=Roger&amp;rft&#95;id=https%3A%2F%2Fgroups.google.com%2Fgroup%2Fcomp.arch%2Fmsg%2F269fe7defd51f29e&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-extremetech-3g-territory-5\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-extremetech-3g-territory_5-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-extremetech-3g-territory_5-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHachman2002\" class=\"citation news cs1\">Hachman, Mark (14 October 2002). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.extremetech.com/extreme/52180-arm-cores-climb-into-3g-territory\">\"ARM Cores Climb into 3G Territory\"</a>. <i>ExtremeTech</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 May</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ExtremeTech&amp;rft.atitle=ARM+Cores+Climb+into+3G+Territory&amp;rft.date=2002-10-14&amp;rft.aulast=Hachman&amp;rft.aufirst=Mark&amp;rft&#95;id=https%3A%2F%2Fwww.extremetech.com%2Fextreme%2F52180-arm-cores-climb-into-3g-territory&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFTurley2022\" class=\"citation news cs1\">Turley, Jim (18 December 2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.embedded.com/the-two-percent-solution/\">\"The Two Percent Solution\"</a>. <i>Embedded</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Embedded&amp;rft.atitle=The+Two+Percent+Solution&amp;rft.date=2022-12-18&amp;rft.aulast=Turley&amp;rft.aufirst=Jim&amp;rft&#95;id=https%3A%2F%2Fwww.embedded.com%2Fthe-two-percent-solution%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.geekompc.com/snapdragon-vs-intel-comparison-guide/\">\"Snapdragon vs Intel: Buyer's Guide to Next-Gen Processors\"</a>. <i>Geekom</i>. 26 September 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Geekom&amp;rft.atitle=Snapdragon+vs+Intel%3A+Buyer%27s+Guide+to+Next-Gen+Processors&amp;rft.date=2025-09-26&amp;rft&#95;id=https%3A%2F%2Fwww.geekompc.com%2Fsnapdragon-vs-intel-comparison-guide%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFCutress2020\" class=\"citation news cs1\">Cutress, Ian (22 June 2020). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250612190347/https://www.anandtech.com/show/15869/new-1-supercomputer-fujitsus-fugaku-and-a64fx-take-arm-to-the-top-with-415-petaflops\">\"New #1 Supercomputer: Fujitsu's Fugaku and A64FX take Arm to the Top with 415 PetaFLOPs\"</a>. <i>anandtech.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.anandtech.com/show/15869/new-1-supercomputer-fujitsus-fugaku-and-a64fx-take-arm-to-the-top-with-415-petaflops\">the original</a> on 12 June 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 January</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=anandtech.com&amp;rft.atitle=New+%231+Supercomputer%3A+Fujitsu%27s+Fugaku+and+A64FX+take+Arm+to+the+Top+with+415+PetaFLOPs&amp;rft.date=2020-06-22&amp;rft.aulast=Cutress&amp;rft.aufirst=Ian&amp;rft&#95;id=https%3A%2F%2Fwww.anandtech.com%2Fshow%2F15869%2Fnew-1-supercomputer-fujitsus-fugaku-and-a64fx-take-arm-to-the-top-with-415-petaflops&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSegars2021\" class=\"citation web cs1\">Segars, Simon (18 October 2021). <a rel=\"nofollow\" class=\"external text\" href=\"https://newsroom.arm.com/blog/200bn-arm-chips\">\"Arm Partners Have Shipped 200 Billion Chips\"</a>. <i>Arm Newsroom</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Arm+Newsroom&amp;rft.atitle=Arm+Partners+Have+Shipped+200+Billion+Chips&amp;rft.date=2021-10-18&amp;rft.aulast=Segars&amp;rft.aufirst=Simon&amp;rft&#95;id=https%3A%2F%2Fnewsroom.arm.com%2Fblog%2F200bn-arm-chips&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://community.arm.com/iot/b/internet-of-things/posts/enabling-mass-iot-connectivity-as-arm-partners-ship-100-billion-chips\">\"Enabling Mass IoT connectivity as ARM partners ship 100 billion chips\"</a>. <i>community.arm.com</i>. 27 February 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 April</span> 2020</span>. <q>the cumulative deployment of 100 billion chips, half of which shipped in the last four years. [..] why not a trillion or more? That is our target, seeing a trillion connected devices deployed over the next two decades.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=community.arm.com&amp;rft.atitle=Enabling+Mass+IoT+connectivity+as+ARM+partners+ship+100+billion+chips&amp;rft.date=2017-02-27&amp;rft&#95;id=https%3A%2F%2Fcommunity.arm.com%2Fiot%2Fb%2Finternet-of-things%2Fposts%2Fenabling-mass-iot-connectivity-as-arm-partners-ship-100-billion-chips&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>:  CS1 maint: url-status (<a href=\"/wiki/Category:CS1_maint:_url-status\" title=\"Category:CS1 maint: url-status\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.icinsights.com/news/bulletins/MCU-Market-On-Migration-Path-To-32bit-And-ARMbased-Devices/\">\"MCU Market on Migration Path to 32-bit and ARM-based Devices: 32-bit tops in sales; 16-bit leads in unit shipments\"</a>. IC Insights. 25 April 2013. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140707194444/http://www.icinsights.com/news/bulletins/MCU-Market-On-Migration-Path-To-32bit-And-ARMbased-Devices\">Archived</a> from the original on 7 July 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=MCU+Market+on+Migration+Path+to+32-bit+and+ARM-based+Devices%3A+32-bit+tops+in+sales%3B+16-bit+leads+in+unit+shipments&amp;rft.pub=IC+Insights&amp;rft.date=2013-04-25&amp;rft&#95;id=https%3A%2F%2Fwww.icinsights.com%2Fnews%2Fbulletins%2FMCU-Market-On-Migration-Path-To-32bit-And-ARMbased-Devices%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFTurley2002\" class=\"citation web cs1\">Turley, Jim (18 December 2002). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230215003436/https://www.embedded.com/the-two-percent-solution/\">\"The Two Percent Solution\"</a>. embedded.com. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.embedded.com/electronics-blogs/significant-bits/4024488/The-Two-Percent-Solution\">the original</a> on 15 February 2023.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Two+Percent+Solution&amp;rft.pub=embedded.com&amp;rft.date=2002-12-18&amp;rft.aulast=Turley&amp;rft.aufirst=Jim&amp;rft&#95;id=https%3A%2F%2Fwww.embedded.com%2Felectronics-blogs%2Fsignificant-bits%2F4024488%2FThe-Two-Percent-Solution&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFPrickett&#95;Morgan2011\" class=\"citation web cs1\">Prickett Morgan, Timothy (1 February 2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.theregister.co.uk/2011/02/01/arm_holdings_q4_2010_numbers/\">\"Arm Holdings eager for PC and server expansion\"</a>. <i><a href=\"/wiki/The_Register\" title=\"The Register\">The Register</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Register&amp;rft.atitle=Arm+Holdings+eager+for+PC+and+server+expansion&amp;rft.date=2011-02-01&amp;rft.aulast=Prickett+Morgan&amp;rft.aufirst=Timothy&amp;rft&#95;id=https%3A%2F%2Fwww.theregister.co.uk%2F2011%2F02%2F01%2Farm&#95;holdings&#95;q4&#95;2010&#95;numbers%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMcGuire-Balanza2010\" class=\"citation news cs1\">McGuire-Balanza, Kerry (11 May 2010). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20141129225529/https://community.arm.com/groups/internet-of-things/blog/2010/05/11/arm-from-zero-to-billions-in-25-short-years\">\"ARM from zero to billions in 25 short years\"</a>. <a href=\"/wiki/Arm_Holdings\" title=\"Arm Holdings\">Arm Holdings</a>. Archived from <span class=\"id-lock-registration\" title=\"Free registration required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://community.arm.com/groups/internet-of-things/blog/2010/05/11/arm-from-zero-to-billions-in-25-short-years\">the original</a></span> on 29 November 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 November</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=ARM+from+zero+to+billions+in+25+short+years&amp;rft.date=2010-05-11&amp;rft.aulast=McGuire-Balanza&amp;rft.aufirst=Kerry&amp;rft&#95;id=https%3A%2F%2Fcommunity.arm.com%2Fgroups%2Finternet-of-things%2Fblog%2F2010%2F05%2F11%2Farm-from-zero-to-billions-in-25-short-years&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-arm64-press-release-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-arm64-press-release_15-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation pressrelease cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190101024118/https://www.arm.com/about/newsroom/arm-discloses-technical-details-of-the-next-version-of-the-arm-architecture.php\">\"ARM Discloses Technical Details Of The Next Version Of The ARM Architecture\"</a>. <i>www.arm.com</i> (Press release). 27 October 2011. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.arm.com/about/newsroom/arm-discloses-technical-details-of-the-next-version-of-the-arm-architecture.php\">the original</a> on 1 January 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ARM+Discloses+Technical+Details+Of+The+Next+Version+Of+The+ARM+Architecture&amp;rft.date=2011-10-27&amp;rft&#95;id=https%3A%2F%2Fwww.arm.com%2Fabout%2Fnewsroom%2Farm-discloses-technical-details-of-the-next-version-of-the-arm-architecture.php&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/arm-neoverse-n1-platform-accelerating-the-transformation-to-a-scalable-cloud-to-edge-infrastructure\">\"Announcing the ARM Neoverse N1 Platform\"</a>. <i>community.arm.com</i>. 20 February 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 April</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=community.arm.com&amp;rft.atitle=Announcing+the+ARM+Neoverse+N1+Platform&amp;rft.date=2019-02-20&amp;rft&#95;id=https%3A%2F%2Fcommunity.arm.com%2Fdeveloper%2Fip-products%2Fprocessors%2Fb%2Fprocessors-ip-blog%2Fposts%2Farm-neoverse-n1-platform-accelerating-the-transformation-to-a-scalable-cloud-to-edge-infrastructure&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AARM+architecture+family\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>:  CS1 maint: url-status (<a href=\"/wiki/Category:CS1_maint:_url-status\" title=\"Category:CS1 maint: url-status\">link</a>)</span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐l5m7l\nCached time: 20260918180943\nCache expiry: 21600\nCache expiry source: Template:As_of (#time)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.538 seconds\nReal time usage: 0.797 seconds\nPreprocessor visited node count: 2318/1000000\nRevision size: 11561/2097152 bytes\nPost‐expand include size: 57667/2097152 bytes\nTemplate argument size: 7979/2097152 bytes\nHighest expansion depth: 15/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 40503/5000000 bytes\nLua time usage: 0.293/10.000 seconds\nLua memory usage: 6427086/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  746.930      1 -total\n 21.31%  159.203      1 Template:Short_description\n 20.38%  152.252      8 Template:Cite_web\n 14.21%  106.169      4 Template:Infobox_CPU_architecture\n 13.55%  101.185      2 Template:Pagetype\n 12.89%   96.275      4 Template:Infobox\n  8.18%   61.112      4 Template:Broken_ref\n  5.99%   44.752      1 Template:Redirect\n  4.89%   36.549      1 Template:Use_British_English\n  4.88%   36.477     10 Template:Main_other\n-->\n\n<!-- Render ID 1f78dfb3-b38c-11f1-b172-bd4dc702e1ef -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "ARM Architecture (company)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "128-bit computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "32-bit computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "64-bit computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AArch64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM Thumb",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Acorn Computers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Address space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arm Holdings",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bi-endian",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Branch (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Central processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code density",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Desktop computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Endianness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fault tolerance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Floating-point register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fugaku (supercomputer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IEEE 754",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jazelle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Laptop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Load–store architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Main memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Processor register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reduced instruction set computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scalable Matrix Extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scalable Vector Extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Semiconductor intellectual property core",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simultaneous multithreading",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Single instruction, multiple data",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smartphone",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sophie Wilson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Status register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Steve Furber",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Supercomputer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tablet computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Usenet newsgroup",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Cite web",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: url-status",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Family of RISC-based computer architectures",
+          "page_image_free": "AArch64_logo.svg",
+          "wikibase_item": "Q16980"
+        }
+      }
+    }
+  ]
+}

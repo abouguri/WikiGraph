@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "D (programming language)",
+    "url": "https://en.wikipedia.org/wiki/D_%28programming_language%29",
+    "summary": "Multi-paradigm system programming language For other programming languages named D, see D (disambiguation) § Computing . For other uses, see D (disambiguation) . This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( July 2026 ) ( Learn how and when to remove this message ) D Paradigm Multi-paradigm : functional , imperative , object-oriented Designed by Walter Bright , Andrei Alexandrescu (since 2007) Developer D Language Foundation First appeared 8 December 2001 ; 24 years ago ( 2001-12-08 ) Stable release 2.112.1 / 5 August 2026 ; 44 days ago ( 5 August 2026 ) Typing discipline Inferred , static , strong OS FreeBSD , Linux , macOS , Windows License Boost Filename extensions .d, .di, .dd Website dlang .org Major implementations DMD ( reference implementation ), GCC , GDC , LDC , SDC Influenced by BASIC , C , C++ , C# , Eiffel , Java , Python , Ruby Influenced Genie, MiniD (since renamed Croc), Qore , Swift , Vala , C++11 , C++14 , C++17 , C++20 , Go , C# , others D Programming at Wikibooks D , also known as dlang , is a multi-paradigm system programming language created by Walter Bright at Digital Mars and released in 2001. Andrei Alexandrescu joined the design and development effort in 2007. Though it originated as a re-engineering of C++ , D is now a very different language. As it has developed, it has drawn inspiration from other high-level programming languages . Notably, it has been influenced by Java , Python , Ruby , C# , and Eiffel . The D language reference describes it as follows: D is a general-purpose systems programming language with a C-like syntax that compiles to native code. It is statically typed and supports both automatic (garbage collected) and manual memory management. D programs are structured as modules that can be compiled separately and linked with external libraries to create native libraries or executables. ^ Cite error: The named reference D1 changelog1 was invoked but never defined (see the help page ). ^ \"Change Log: 2.112.1\" . 5 August 2026. ^ Cite error: The named reference D-frontend-license was invoked but never defined (see the help page ). ^ \"dmd Backend converted to Boost License\" . 7 April 2017 . Retrieved 9 April 2017 . ^ \"D 2.0 FAQ\" . Retrieved 11 August 2015 . ^ \"D Programming Language - Fileinfo.com\" . Retrieved 15 November 2020 . [ citation needed ] ^ \"D Programming Language - dlang.org\" . Retrieved 15 November 2020 . [ citation needed ] ^ \"On: Show HN: A nice C string API\" . Hacker News . 3 December 2022 . Retrieved 4 December 2022 . ^ Alexandrescu, Andrei (2010). The D programming language (First ed.). Upper Saddle River, New Jersey: Addison-Wesley. p. 314 . ISBN 978-0321635365 . ^ \"Building assert() in Swift, Part 2: __FILE__ and __LINE__\" . Archived from the original on 6 October 2014. ^ \"Introduction - D Programming Language\" . dlang.org . Retrieved 21 April 2024 . This article incorporates text from this free content work. Licensed under BSL-1.0 ( license statement/permission ).",
+    "text": "Multi-paradigm system programming language For other programming languages named D, see D (disambiguation) § Computing . For other uses, see D (disambiguation) . This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( July 2026 ) ( Learn how and when to remove this message ) D Paradigm Multi-paradigm : functional , imperative , object-oriented Designed by Walter Bright , Andrei Alexandrescu (since 2007) Developer D Language Foundation First appeared 8 December 2001 ; 24 years ago ( 2001-12-08 ) Stable release 2.112.1 / 5 August 2026 ; 44 days ago ( 5 August 2026 ) Typing discipline Inferred , static , strong OS FreeBSD , Linux , macOS , Windows License Boost Filename extensions .d, .di, .dd Website dlang .org Major implementations DMD ( reference implementation ), GCC , GDC , LDC , SDC Influenced by BASIC , C , C++ , C# , Eiffel , Java , Python , Ruby Influenced Genie, MiniD (since renamed Croc), Qore , Swift , Vala , C++11 , C++14 , C++17 , C++20 , Go , C# , others D Programming at Wikibooks D , also known as dlang , is a multi-paradigm system programming language created by Walter Bright at Digital Mars and released in 2001. Andrei Alexandrescu joined the design and development effort in 2007. Though it originated as a re-engineering of C++ , D is now a very different language. As it has developed, it has drawn inspiration from other high-level programming languages . Notably, it has been influenced by Java , Python , Ruby , C# , and Eiffel . The D language reference describes it as follows: D is a general-purpose systems programming language with a C-like syntax that compiles to native code. It is statically typed and supports both automatic (garbage collected) and manual memory management. D programs are structured as modules that can be compiled separately and linked with external libraries to create native libraries or executables. ^ Cite error: The named reference D1 changelog1 was invoked but never defined (see the help page ). ^ \"Change Log: 2.112.1\" . 5 August 2026. ^ Cite error: The named reference D-frontend-license was invoked but never defined (see the help page ). ^ \"dmd Backend converted to Boost License\" . 7 April 2017 . Retrieved 9 April 2017 . ^ \"D 2.0 FAQ\" . Retrieved 11 August 2015 . ^ \"D Programming Language - Fileinfo.com\" . Retrieved 15 November 2020 . [ citation needed ] ^ \"D Programming Language - dlang.org\" . Retrieved 15 November 2020 . [ citation needed ] ^ \"On: Show HN: A nice C string API\" . Hacker News . 3 December 2022 . Retrieved 4 December 2022 . ^ Alexandrescu, Andrei (2010). The D programming language (First ed.). Upper Saddle River, New Jersey: Addison-Wesley. p. 314 . ISBN 978-0321635365 . ^ \"Building assert() in Swift, Part 2: __FILE__ and __LINE__\" . Archived from the original on 6 October 2014. ^ \"Introduction - D Programming Language\" . dlang.org . Retrieved 21 April 2024 . This article incorporates text from this free content work. Licensed under BSL-1.0 ( license statement/permission ).",
+    "links": [
+      "Andrei Alexandrescu",
+      "BASIC",
+      "Boost Software License",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "C++11",
+      "C++14",
+      "C++17",
+      "C++20",
+      "D (disambiguation)",
+      "D Language Foundation",
+      "Digital Mars",
+      "Eiffel (programming language)",
+      "Filename extension",
+      "Free content",
+      "FreeBSD",
+      "Functional programming",
+      "Go (programming language)",
+      "Hacker News",
+      "High-level programming language",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Inferred typing",
+      "Java (programming language)",
+      "Linux",
+      "MacOS",
+      "Microsoft Windows",
+      "Multi-paradigm programming language",
+      "Object-oriented programming",
+      "Operating system",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Python (programming language)",
+      "Qore (programming language)",
+      "Reference implementation",
+      "Ruby (programming language)",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Static typing",
+      "Strong typing",
+      "Swift (programming language)",
+      "System programming language",
+      "Type system",
+      "Vala (programming language)",
+      "Walter Bright"
+    ],
+    "page_id": 243881,
+    "revision_id": 1367708251,
+    "retrieved_at": "2026-09-18T18:07:54.398561+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260804153934|1367687778",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 243881,
+            "ns": 0,
+            "title": "D (programming language)",
+            "revisions": [
+              {
+                "revid": 1367708251,
+                "parentid": 1367687778
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "D (programming language)",
+              "page_image_free": "D_Programming_Language_logo.svg",
+              "wikibase-shortdesc": "Multi-paradigm system programming language",
+              "wikibase_item": "Q319268"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "D (programming language)",
+        "pageid": 243881,
+        "revid": 1367708251,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Multi-paradigm system programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other programming languages  named D, see <a href=\"/wiki/D_(disambiguation)#Computing\" class=\"mw-disambig\" title=\"D (disambiguation)\">D (disambiguation) §&#160;Computing</a>. For other uses, see <a href=\"/wiki/D_(disambiguation)\" class=\"mw-disambig\" title=\"D (disambiguation)\">D (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;footnotes&#95;needed plainlinks metadata ambox ambox-style ambox-More&#95;footnotes&#95;needed\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/120px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article includes a list of <a href=\"/wiki/Wikipedia:Citing_sources#General_references\" title=\"Wikipedia:Citing sources\">general references</a> <b>but lacks sufficient corresponding <a href=\"/wiki/Wikipedia:Citing_sources#Inline_citations\" title=\"Wikipedia:Citing sources\">inline citations</a></b>.<span class=\"hide-when-compact\"> Please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=D_(programming_language)&amp;action=edit\">improve this article</a> by <a href=\"/wiki/Wikipedia:When_to_cite\" title=\"Wikipedia:When to cite\">introducing</a> more precise citations.</span>  <span class=\"date-container\"><i>(<span class=\"date\">July 2026</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">D</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:D_Programming_Language_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/24/D_Programming_Language_logo.svg/250px-D_Programming_Language_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"92\" class=\"mw-file-element\" data-file-width=\"124\" data-file-height=\"94\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Walter_Bright\" title=\"Walter Bright\">Walter Bright</a>, <a href=\"/wiki/Andrei_Alexandrescu\" title=\"Andrei Alexandrescu\">Andrei Alexandrescu</a> (since 2007)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/D_Language_Foundation\" title=\"D Language Foundation\">D Language Foundation</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">8&#160;December 2001<span class=\"noprint\">&#59;&#32;24 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2001-12-08</span>)</span><sup id=\"cite&#95;ref-D1&#95;changelog1&#95;1-0\" class=\"reference\"><a href=\"#cite_note-D1_changelog1-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">2.112.1<sup id=\"cite&#95;ref-wikidata-18687fade2c8e711c4ddb8eda50bda1a1a4bbefc-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-18687fade2c8e711c4ddb8eda50bda1a1a4bbefc-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q319268?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 5 August 2026<span class=\"noprint\">&#59;&#32;44 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">5 August 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Inferred_typing\" class=\"mw-redirect\" title=\"Inferred typing\">Inferred</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a>, <a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Boost_Software_License\" class=\"mw-redirect\" title=\"Boost Software License\">Boost</a><sup id=\"cite&#95;ref-D-frontend-license&#95;3-0\" class=\"reference\"><a href=\"#cite_note-D-frontend-license-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-boost-backend&#95;4-0\" class=\"reference\"><a href=\"#cite_note-boost-backend-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.d, .di, .dd<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://dlang.org\">dlang<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dlang/dmd\">DMD</a> (<a href=\"/wiki/Reference_implementation\" title=\"Reference implementation\">reference implementation</a>), <a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/\">GCC</a>, \n<p><a rel=\"nofollow\" class=\"external text\" href=\"https://gdcproject.org/\">GDC</a>, \n</p>\n<a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/ldc-developers/ldc\">LDC</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/SDC-Developers/SDC\">SDC</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/BASIC\" title=\"BASIC\">BASIC</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">Genie, MiniD (since renamed Croc), <a href=\"/wiki/Qore_(programming_language)\" title=\"Qore (programming language)\">Qore</a>, <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>,<sup id=\"cite&#95;ref-Swift&#95;-&#95;Getting&#95;the&#95;location&#95;of&#95;a&#95;caller&#95;10-0\" class=\"reference\"><a href=\"#cite_note-Swift_-_Getting_the_location_of_a_caller-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Vala_(programming_language)\" title=\"Vala (programming language)\">Vala</a>, <a href=\"/wiki/C%2B%2B11\" title=\"C++11\">C++11</a>, <a href=\"/wiki/C%2B%2B14\" title=\"C++14\">C++14</a>, <a href=\"/wiki/C%2B%2B17\" title=\"C++17\">C++17</a>, <a href=\"/wiki/C%2B%2B20\" title=\"C++20\">C++20</a>, <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, others</td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/D_Programming\" class=\"extiw\" title=\"wikibooks:D Programming\">D Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>D</b>, also known as <b>dlang</b>, is a <a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">multi-paradigm</a> <a href=\"/wiki/System_programming_language\" title=\"System programming language\">system</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> created by <a href=\"/wiki/Walter_Bright\" title=\"Walter Bright\">Walter Bright</a> at <a href=\"/wiki/Digital_Mars\" title=\"Digital Mars\">Digital Mars</a> and released in 2001. <a href=\"/wiki/Andrei_Alexandrescu\" title=\"Andrei Alexandrescu\">Andrei Alexandrescu</a> joined the design and development effort in 2007. Though it originated as a re-engineering of <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, D is now a very different language. As it has developed, it has drawn inspiration from other <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level programming languages</a>. Notably, it has been influenced by <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, and <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>.\n</p><p>The D language reference describes it as follows:\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1244412712\">.mw-parser-output .templatequote{overflow:hidden;margin:1em 0;padding:0 32px}.mw-parser-output .templatequotecite{line-height:1.5em;text-align:left;margin-top:0}@media(min-width:500px){.mw-parser-output .templatequotecite{padding-left:1.6em}}</style><blockquote class=\"templatequote\"><p>D is a general-purpose systems programming language with a C-like syntax that compiles to native code. It is statically typed and supports both automatic (garbage collected) and manual memory management. D programs are structured as modules that can be compiled separately and linked with external libraries to create native libraries or executables.<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup></p></blockquote>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-D1&#95;changelog1-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-D1_changelog1_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>D1 changelog1</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-18687fade2c8e711c4ddb8eda50bda1a1a4bbefc-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-18687fade2c8e711c4ddb8eda50bda1a1a4bbefc-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://dlang.org/changelog/2.112.1.html\">\"Change Log: 2.112.1\"</a>. 5 August 2026.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Change+Log%3A+2.112.1&amp;rft.date=2026-08-05&amp;rft&#95;id=https%3A%2F%2Fdlang.org%2Fchangelog%2F2.112.1.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-D-frontend-license-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-D-frontend-license_3-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>D-frontend-license</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-boost-backend-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-boost-backend_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://forum.dlang.org/post/oc8acc$1ei9$1@digitalmars.com\">\"dmd Backend converted to Boost License\"</a>. 7 April 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 April</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=dmd+Backend+converted+to+Boost+License&amp;rft.date=2017-04-07&amp;rft&#95;id=https%3A%2F%2Fforum.dlang.org%2Fpost%2Foc8acc%241ei9%241%40digitalmars.com&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://dlang.org/faq.html\">\"D 2.0 FAQ\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 August</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=D+2.0+FAQ&amp;rft&#95;id=http%3A%2F%2Fdlang.org%2Ffaq.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://fileinfo.com/extension/d\">\"D Programming Language - Fileinfo.com\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 November</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=D+Programming+Language+-+Fileinfo.com&amp;rft&#95;id=https%3A%2F%2Ffileinfo.com%2Fextension%2Fd&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span> <sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (September 2020)\">citation needed</span></a></i>&#93;</sup></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://dlang.org/dmd-windows.html\">\"D Programming Language - dlang.org\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 November</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=D+Programming+Language+-+dlang.org&amp;rft&#95;id=https%3A%2F%2Fdlang.org%2Fdmd-windows.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span><sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (September 2020)\">citation needed</span></a></i>&#93;</sup></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://news.ycombinator.com/item?id=33846139\">\"On: Show HN: A nice C string API\"</a>. <i><a href=\"/wiki/Hacker_News\" title=\"Hacker News\">Hacker News</a></i>. 3 December 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 December</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Hacker+News&amp;rft.atitle=On%3A+Show+HN%3A+A+nice+C+string+API&amp;rft.date=2022-12-03&amp;rft&#95;id=https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D33846139&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAlexandrescu2010\" class=\"citation book cs1\">Alexandrescu, Andrei (2010). <span class=\"id-lock-limited\" title=\"Free access subject to limited trial, subscription normally required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/dprogramminglang00alex\"><i>The D programming language</i></a></span> (First&#160;ed.). Upper Saddle River, New Jersey: Addison-Wesley. p.&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/dprogramminglang00alex/page/n341\">314</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0321635365\" title=\"Special:BookSources/978-0321635365\"><bdi>978-0321635365</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+D+programming+language&amp;rft.place=Upper+Saddle+River%2C+New+Jersey&amp;rft.pages=314&amp;rft.edition=First&amp;rft.pub=Addison-Wesley&amp;rft.date=2010&amp;rft.isbn=978-0321635365&amp;rft.aulast=Alexandrescu&amp;rft.aufirst=Andrei&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fdprogramminglang00alex&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Swift&#95;-&#95;Getting&#95;the&#95;location&#95;of&#95;a&#95;caller-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Swift_-_Getting_the_location_of_a_caller_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20141006000000/https://developer.apple.com/swift/blog/?id=15\">\"Building assert() in Swift, Part 2: __FILE__ and __LINE__\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://developer.apple.com/swift/blog/?id=15\">the original</a> on 6 October 2014.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Building+assert%28%29+in+Swift%2C+Part+2%3A+&#95;&#95;FILE&#95;&#95;+and+&#95;&#95;LINE&#95;&#95;&amp;rft&#95;id=https%3A%2F%2Fdeveloper.apple.com%2Fswift%2Fblog%2F%3Fid%3D15&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://dlang.org/spec/intro.html\">\"Introduction - D Programming Language\"</a>. <i>dlang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 April</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=dlang.org&amp;rft.atitle=Introduction+-+D+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fdlang.org%2Fspec%2Fintro.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AD+%28programming+language%29\" class=\"Z3988\"></span> <span class=\"noviewer\" typeof=\"mw:File\"><a href=\"/wiki/File:Definition_of_Free_Cultural_Works_logo_notext.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Definition_of_Free_Cultural_Works_logo_notext.svg/20px-Definition_of_Free_Cultural_Works_logo_notext.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"12\" height=\"12\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Definition_of_Free_Cultural_Works_logo_notext.svg/40px-Definition_of_Free_Cultural_Works_logo_notext.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"219\" data-file-height=\"218\" /></a></span>&#160;This article incorporates text from this <a href=\"/wiki/Free_content\" title=\"Free content\">free content</a> work.&#32;Licensed under BSL-1.0&#32;(<a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dlang/dlang.org/blob/master/LICENSE.txt\">license statement/permission</a>).</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐gpljv\nCached time: 20260918180819\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.326 seconds\nReal time usage: 0.437 seconds\nPreprocessor visited node count: 2406/1000000\nRevision size: 5732/2097152 bytes\nPost‐expand include size: 48559/2097152 bytes\nTemplate argument size: 8936/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 30003/5000000 bytes\nLua time usage: 0.196/10.000 seconds\nLua memory usage: 7769946/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  408.816      1 -total\n 45.50%  186.030      2 Template:Infobox\n 41.83%  171.026      1 Template:Infobox_programming_language\n 27.02%  110.444      1 Template:Infobox_software/simple\n 22.43%   91.706      2 Template:Wikidata\n 14.78%   60.421      1 Template:Short_description\n  9.54%   39.003      2 Template:Pagetype\n  8.24%   33.692      1 Template:Morefootnotes\n  7.11%   29.065      1 Template:Ambox\n  4.89%   19.995      1 Template:About\n-->\n\n<!-- Render ID ed676d8d-b38b-11f1-820a-abad3237f277 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "D (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Andrei Alexandrescu",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boost Software License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++14",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++17",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++20",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D Language Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital Mars",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free content",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hacker News",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inferred typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Qore (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reference implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Walter Bright",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citation needed",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:When to cite",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Multi-paradigm system programming language",
+          "page_image_free": "D_Programming_Language_logo.svg",
+          "wikibase_item": "Q319268"
+        }
+      }
+    }
+  ]
+}

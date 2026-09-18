@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Java virtual machine",
+    "url": "https://en.wikipedia.org/wiki/Java_virtual_machine",
+    "summary": "Virtual machine that runs Java programs \"JVM\" redirects here. For other uses, see JVM (disambiguation) . Java virtual machine Designer Sun Microsystems Bits 32-bit , 64-bit Introduced 1994 ; 32 years ago ( 1994 ) Version Java SE 26 Type Stack and register–register Encoding Variable Branching Compare and branch Endianness Big Open Yes Registers General-purpose Per-method operand stack (up to 65535 operands) plus per-method local variables (up to 65535) Overview of a Java virtual machine (JVM) architecture based on The Java Virtual Machine Specification Java SE 7 Edition A Java virtual machine ( JVM ) is a virtual machine that enables a computer to run Java programs as well as programs written in other languages, referred to as JVM languages , that are also compiled to Java bytecode . The JVM is detailed by a specification that formally describes what is required in a JVM implementation. Having a specification ensures interoperability of Java programs across different implementations so that program authors using the Java Development Kit (JDK) need not worry about idiosyncrasies of the underlying hardware platform. The JVM reference implementation is developed by the OpenJDK project as open source code and includes a JIT compiler called HotSpot . The commercially supported Java releases available from Oracle are based on the OpenJDK runtime. Eclipse OpenJ9 is another open source JVM for OpenJDK. ^ \"JEP 479: Remove the Windows 32-bit x86 Port\" . OpenJDK . ^ \"JEP 503: Remove the 32-bit x86 Port\" . OpenJDK . ^ \"JDK 26\" . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Virtual machine that runs Java programs \"JVM\" redirects here. For other uses, see JVM (disambiguation) . Java virtual machine Designer Sun Microsystems Bits 32-bit , 64-bit Introduced 1994 ; 32 years ago ( 1994 ) Version Java SE 26 Type Stack and register–register Encoding Variable Branching Compare and branch Endianness Big Open Yes Registers General-purpose Per-method operand stack (up to 65535 operands) plus per-method local variables (up to 65535) Overview of a Java virtual machine (JVM) architecture based on The Java Virtual Machine Specification Java SE 7 Edition A Java virtual machine ( JVM ) is a virtual machine that enables a computer to run Java programs as well as programs written in other languages, referred to as JVM languages , that are also compiled to Java bytecode . The JVM is detailed by a specification that formally describes what is required in a JVM implementation. Having a specification ensures interoperability of Java programs across different implementations so that program authors using the Java Development Kit (JDK) need not worry about idiosyncrasies of the underlying hardware platform. The JVM reference implementation is developed by the OpenJDK project as open source code and includes a JIT compiler called HotSpot . The commercially supported Java releases available from Oracle are based on the OpenJDK runtime. Eclipse OpenJ9 is another open source JVM for OpenJDK. ^ \"JEP 479: Remove the Windows 32-bit x86 Port\" . OpenJDK . ^ \"JEP 503: Remove the 32-bit x86 Port\" . OpenJDK . ^ \"JDK 26\" . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "32-bit computing",
+      "64-bit computing",
+      "Branch (computer science)",
+      "Endianness",
+      "General-purpose register",
+      "HotSpot",
+      "Instruction set",
+      "JIT compiler",
+      "JVM (disambiguation)",
+      "Java (software platform)",
+      "Java Development Kit",
+      "Java bytecode",
+      "List of JVM languages",
+      "Load–store architecture",
+      "Open-source software",
+      "OpenJ9",
+      "OpenJDK",
+      "Oracle Corporation",
+      "Processor register",
+      "Reference implementation",
+      "Specification (technical standard)",
+      "Stack machine",
+      "Sun Microsystems",
+      "Virtual machine"
+    ],
+    "page_id": 16389,
+    "revision_id": 1375173881,
+    "retrieved_at": "2026-09-18T18:07:56.985191+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260915155331|1375054897",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 16389,
+            "ns": 0,
+            "title": "Java virtual machine",
+            "revisions": [
+              {
+                "revid": 1375173881,
+                "parentid": 1375054897
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "JvmSpec7.png",
+              "wikibase-shortdesc": "Virtual machine that runs Java programs",
+              "wikibase_item": "Q193321"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Java virtual machine",
+        "pageid": 16389,
+        "revid": 1375173881,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Virtual machine that runs Java programs</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"JVM\" redirects here. For other uses, see <a href=\"/wiki/JVM_(disambiguation)\" class=\"mw-disambig\" title=\"JVM (disambiguation)\">JVM (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox\"><caption class=\"infobox-title\">Java virtual machine</caption><tbody><tr><th scope=\"row\" class=\"infobox-label\">Designer</th><td class=\"infobox-data\"><a href=\"/wiki/Sun_Microsystems\" title=\"Sun Microsystems\">Sun Microsystems</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Bits</th><td class=\"infobox-data\"><a href=\"/wiki/32-bit_computing\" title=\"32-bit computing\">32-bit</a>, <a href=\"/wiki/64-bit_computing\" title=\"64-bit computing\">64-bit</a><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Introduced</th><td class=\"infobox-data\">1994<span class=\"noprint\">&#59;&#32;32&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1994</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Version</th><td class=\"infobox-data\">Java SE 26<sup id=\"cite&#95;ref-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20&#95;4-0\" class=\"reference\"><a href=\"#cite_note-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20-4\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q251?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Type</th><td class=\"infobox-data\"><a href=\"/wiki/Stack_machine\" title=\"Stack machine\">Stack</a> and <a href=\"/wiki/Load%E2%80%93store_architecture\" title=\"Load–store architecture\">register–register</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Instruction_set\" class=\"mw-redirect\" title=\"Instruction set\">Encoding</a></th><td class=\"infobox-data\">Variable</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Branch_(computer_science)\" title=\"Branch (computer science)\">Branching</a></th><td class=\"infobox-data\">Compare and branch</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Endianness\" title=\"Endianness\">Endianness</a></th><td class=\"infobox-data\"><a href=\"/wiki/Endianness#Big-endian\" title=\"Endianness\">Big</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Open</th><td class=\"infobox-data\">Yes</td></tr><tr><th colspan=\"2\" class=\"infobox-header\"><a href=\"/wiki/Processor_register\" title=\"Processor register\">Registers</a></th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/General-purpose_register\" class=\"mw-redirect\" title=\"General-purpose register\">General-purpose</a></th><td class=\"infobox-data\">Per-method operand stack (up to 65535 operands) plus per-method local variables (up to 65535)</td></tr></tbody></table>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:JvmSpec7.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/JvmSpec7.png/250px-JvmSpec7.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"151\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/JvmSpec7.png/500px-JvmSpec7.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1152\" data-file-height=\"698\" /></a><figcaption>Overview of a Java virtual machine (JVM) architecture based on The Java Virtual Machine Specification Java SE 7 Edition</figcaption></figure>\n<p>A <b>Java virtual machine</b> (<b>JVM</b>) is a <a href=\"/wiki/Virtual_machine\" title=\"Virtual machine\">virtual machine</a> that enables a computer to run <a href=\"/wiki/Java_(software_platform)\" title=\"Java (software platform)\">Java</a> programs as well as programs written in other languages, referred to as <a href=\"/wiki/List_of_JVM_languages\" title=\"List of JVM languages\">JVM languages</a>, that are also compiled to <a href=\"/wiki/Java_bytecode\" class=\"mw-redirect\" title=\"Java bytecode\">Java bytecode</a>. The JVM is detailed by a <a href=\"/wiki/Specification_(technical_standard)\" title=\"Specification (technical standard)\">specification</a> that formally describes what is required in a JVM implementation. Having a specification ensures interoperability of Java programs across different implementations so that program authors using the <a href=\"/wiki/Java_Development_Kit\" title=\"Java Development Kit\">Java Development Kit</a> (JDK) need not worry about idiosyncrasies of the underlying hardware platform.\n</p><p>The JVM <a href=\"/wiki/Reference_implementation\" title=\"Reference implementation\">reference implementation</a> is developed by the <a href=\"/wiki/OpenJDK\" title=\"OpenJDK\">OpenJDK</a> project as <a href=\"/wiki/Open-source_software\" title=\"Open-source software\">open source</a> code and includes a <a href=\"/wiki/JIT_compiler\" class=\"mw-redirect\" title=\"JIT compiler\">JIT compiler</a> called <a href=\"/wiki/HotSpot\" title=\"HotSpot\">HotSpot</a>. The commercially supported Java releases available from <a href=\"/wiki/Oracle_Corporation\" title=\"Oracle Corporation\">Oracle</a> are based on the OpenJDK runtime. Eclipse <a href=\"/wiki/OpenJ9\" title=\"OpenJ9\">OpenJ9</a> is another open source JVM for OpenJDK.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://openjdk.org/jeps/479\">\"JEP 479: Remove the Windows 32-bit x86 Port\"</a>. <i>OpenJDK</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OpenJDK&amp;rft.atitle=JEP+479%3A+Remove+the+Windows+32-bit+x86+Port&amp;rft&#95;id=https%3A%2F%2Fopenjdk.org%2Fjeps%2F479&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+virtual+machine\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://openjdk.org/jeps/503\">\"JEP 503: Remove the 32-bit x86 Port\"</a>. <i>OpenJDK</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OpenJDK&amp;rft.atitle=JEP+503%3A+Remove+the+32-bit+x86+Port&amp;rft&#95;id=https%3A%2F%2Fopenjdk.org%2Fjeps%2F503&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+virtual+machine\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://openjdk.org/projects/jdk/26/\">\"JDK 26\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=JDK+26&amp;rft&#95;id=https%3A%2F%2Fopenjdk.org%2Fprojects%2Fjdk%2F26%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+virtual+machine\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐tzlqw\nCached time: 20260918180822\nCache expiry: 21600\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.135 seconds\nReal time usage: 0.297 seconds\nPreprocessor visited node count: 727/1000000\nRevision size: 2288/2097152 bytes\nPost‐expand include size: 14163/2097152 bytes\nTemplate argument size: 3317/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 8876/5000000 bytes\nLua time usage: 0.091/10.000 seconds\nLua memory usage: 5793492/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  279.311      1 -total\n 42.32%  118.215      1 Template:Infobox_CPU_architecture\n 41.12%  114.860      1 Template:Infobox\n 30.00%   83.802      1 Template:Wikidata\n 17.26%   48.202      1 Template:Short_description\n 10.18%   28.421      2 Template:Pagetype\n  8.29%   23.161      1 Template:Redirect\n  5.80%   16.208      2 Template:Broken_ref\n  4.57%   12.763      3 Template:Main_other\n  4.17%   11.636      1 Template:SDcat\n-->\n\n<!-- Render ID ef314259-b38b-11f1-b01d-83ddc3770b49 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "JVM (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "32-bit computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "64-bit computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Branch (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Endianness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HotSpot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JIT compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (software platform)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Development Kit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of JVM languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Load–store architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenJ9",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenJDK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Processor register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reference implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Specification (technical standard)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stack machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sun Microsystems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Virtual machine that runs Java programs",
+          "page_image_free": "JvmSpec7.png",
+          "wikibase_item": "Q193321"
+        }
+      }
+    }
+  ]
+}

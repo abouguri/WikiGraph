@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Distributed computing",
+    "url": "https://en.wikipedia.org/wiki/Distributed_computing",
+    "summary": "System with multiple networked computers Not to be confused with Decentralized computing . Distributed computing is a field of computer science that studies distributed systems , defined as computer systems whose inter-communicating components are located on different networked computers . The components of a distributed system communicate and coordinate their actions by passing messages to one another in order to achieve a common goal. Three challenges of distributed systems are: maintaining concurrency of components, overcoming the lack of a global clock , and managing the independent failure of components. When a component of one system fails, the entire system does not fail. Examples of distributed systems vary from SOA-based systems to microservices to massively multiplayer online games to peer-to-peer applications . Distributed systems cost more than monolithic architectures, primarily due to increased needs for additional hardware, servers, gateways, firewalls, new subnets, proxies, and so on. Distributed systems can also suffer from fallacies of distributed computing . Conversely, a well-designed distributed system is more scalable, more durable, more changeable, and more fine-tuned than a monolithic application deployed on a single machine. According to Marc Brooker: \"a system is scalable in the range where marginal cost of additional workload is nearly constant.\" Serverless technologies fit this definition but the total cost of ownership, and not just the infrastructure cost must be considered. A computer program that runs within a distributed system is called a distributed program , and distributed programming is the process of writing such programs. There are many types of implementations for the message-passing mechanism, including pure HTTP, RPC-like connectors, and message queues . Distributed computing also refers to the use of distributed systems to solve computational problems. In distributed computing , a problem is divided into many tasks, each of which is solved by one or more computers, which communicate with each other via message passing. ^ a b Tanenbaum, Andrew S.; Steen, Maarten van (2002). Distributed systems: principles and paradigms . Upper Saddle River, NJ: Pearson Prentice Hall. ISBN 0-13-088893-1 . Archived from the original on 2020-08-12 . Retrieved 2020-08-28 . ^ \"Distributed Programs\". Texts in Computer Science . London: Springer London. 2010. pp. 373– 406. doi : 10.1007/978-1-84882-745-5_11 . ISBN 978-1-84882-744-8 . ISSN 1868-0941 . Systems consist of a number of physically distributed components that work independently using their private storage, but also communicate from time to time by explicit message passing. Such systems are called distributed systems. ^ Dusseau & Dusseau 2016 , p. 1–2. ^ Ford, Neal (March 3, 2020). Fundamentals of Software Architecture: An Engineering Approach (1st ed.). O'Reilly Media. pp. 146– 147. ISBN 978-1-4920-4345-4 . ^ Monolith to Microservices Evolutionary Patterns to Transform Your Monolith . O'Reilly Media. ISBN 978-1-4920-4781-0 . ^ Building Serverless Applications on Knative . O'Reilly Media. ISBN 978-1-0981-4204-9 . ^ \"Distributed Programs\". Texts in Computer Science . London: Springer London. 2010. pp. 373– 406. doi : 10.1007/978-1-84882-745-5_11 . ISBN 978-1-84882-744-8 . ISSN 1868-0941 . Distributed programs are abstract descriptions of distributed systems. A distributed program consists of a collection of processes that work concurrently and communicate by explicit message passing. Each process can access a set of variables which are disjoint from the variables that can be changed by any other process. ^ Andrews (2000) . Dolev (2000) . Ghosh (2007) , p. 10. ^ Magnoni, L. (2015). \"Modern Messaging for Distributed Sytems (sic)\" . Journal of Physics: Conference Series . 608 (1) 012038. Bibcode : 2015JPhCS.608a2038M . doi : 10.1088/1742-6596/608/1/012038 . ISSN 1742-6596 . ^ Godfrey (2002) . ^ Andrews (2000) , p. 291–292. Dolev (2000) , p. 5.",
+    "text": "System with multiple networked computers Not to be confused with Decentralized computing . Distributed computing is a field of computer science that studies distributed systems , defined as computer systems whose inter-communicating components are located on different networked computers . The components of a distributed system communicate and coordinate their actions by passing messages to one another in order to achieve a common goal. Three challenges of distributed systems are: maintaining concurrency of components, overcoming the lack of a global clock , and managing the independent failure of components. When a component of one system fails, the entire system does not fail. Examples of distributed systems vary from SOA-based systems to microservices to massively multiplayer online games to peer-to-peer applications . Distributed systems cost more than monolithic architectures, primarily due to increased needs for additional hardware, servers, gateways, firewalls, new subnets, proxies, and so on. Distributed systems can also suffer from fallacies of distributed computing . Conversely, a well-designed distributed system is more scalable, more durable, more changeable, and more fine-tuned than a monolithic application deployed on a single machine. According to Marc Brooker: \"a system is scalable in the range where marginal cost of additional workload is nearly constant.\" Serverless technologies fit this definition but the total cost of ownership, and not just the infrastructure cost must be considered. A computer program that runs within a distributed system is called a distributed program , and distributed programming is the process of writing such programs. There are many types of implementations for the message-passing mechanism, including pure HTTP, RPC-like connectors, and message queues . Distributed computing also refers to the use of distributed systems to solve computational problems. In distributed computing , a problem is divided into many tasks, each of which is solved by one or more computers, which communicate with each other via message passing. ^ a b Tanenbaum, Andrew S.; Steen, Maarten van (2002). Distributed systems: principles and paradigms . Upper Saddle River, NJ: Pearson Prentice Hall. ISBN 0-13-088893-1 . Archived from the original on 2020-08-12 . Retrieved 2020-08-28 . ^ \"Distributed Programs\". Texts in Computer Science . London: Springer London. 2010. pp. 373– 406. doi : 10.1007/978-1-84882-745-5_11 . ISBN 978-1-84882-744-8 . ISSN 1868-0941 . Systems consist of a number of physically distributed components that work independently using their private storage, but also communicate from time to time by explicit message passing. Such systems are called distributed systems. ^ Dusseau & Dusseau 2016 , p. 1–2. ^ Ford, Neal (March 3, 2020). Fundamentals of Software Architecture: An Engineering Approach (1st ed.). O'Reilly Media. pp. 146– 147. ISBN 978-1-4920-4345-4 . ^ Monolith to Microservices Evolutionary Patterns to Transform Your Monolith . O'Reilly Media. ISBN 978-1-4920-4781-0 . ^ Building Serverless Applications on Knative . O'Reilly Media. ISBN 978-1-0981-4204-9 . ^ \"Distributed Programs\". Texts in Computer Science . London: Springer London. 2010. pp. 373– 406. doi : 10.1007/978-1-84882-745-5_11 . ISBN 978-1-84882-744-8 . ISSN 1868-0941 . Distributed programs are abstract descriptions of distributed systems. A distributed program consists of a collection of processes that work concurrently and communicate by explicit message passing. Each process can access a set of variables which are disjoint from the variables that can be changed by any other process. ^ Andrews (2000) . Dolev (2000) . Ghosh (2007) , p. 10. ^ Magnoni, L. (2015). \"Modern Messaging for Distributed Sytems (sic)\" . Journal of Physics: Conference Series . 608 (1) 012038. Bibcode : 2015JPhCS.608a2038M . doi : 10.1088/1742-6596/608/1/012038 . ISSN 1742-6596 . ^ Godfrey (2002) . ^ Andrews (2000) , p. 291–292. Dolev (2000) , p. 5.",
+    "links": [
+      "Bibcode (identifier)",
+      "Clock synchronization",
+      "Computer network",
+      "Computer program",
+      "Computer science",
+      "Computer system",
+      "Concurrency (computer science)",
+      "Decentralized computing",
+      "Doi (identifier)",
+      "Fallacies of distributed computing",
+      "ISBN (identifier)",
+      "ISSN (identifier)",
+      "Marginal cost",
+      "Massively multiplayer online game",
+      "Message passing",
+      "Message-oriented middleware",
+      "Microservices",
+      "Monolithic application",
+      "Peer-to-peer",
+      "Remote procedure call",
+      "Serverless computing",
+      "Service-oriented architecture"
+    ],
+    "page_id": 8501,
+    "revision_id": 1368905282,
+    "retrieved_at": "2026-09-18T18:09:25.163286+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260319064729|1344247039",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 8501,
+            "ns": 0,
+            "title": "Distributed computing",
+            "revisions": [
+              {
+                "revid": 1368905282,
+                "parentid": 1344247039
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Distributed Computing",
+              "wikibase-shortdesc": "System with multiple networked computers",
+              "wikibase_item": "Q180634"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Distributed computing",
+        "pageid": 8501,
+        "revid": 1368905282,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">System with multiple networked computers</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Decentralized_computing\" title=\"Decentralized computing\">Decentralized computing</a>.</div>\n<p><b>Distributed computing</b> is a field of <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a> that studies <b>distributed systems</b>, defined as <a href=\"/wiki/Computer_system\" class=\"mw-redirect\" title=\"Computer system\">computer systems</a> whose inter-communicating components are located on different <a href=\"/wiki/Computer_network\" title=\"Computer network\">networked computers</a>.<sup id=\"cite&#95;ref-tanenbaum&#95;1-0\" class=\"reference\"><a href=\"#cite_note-tanenbaum-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Distributed&#95;Programs&#95;2010&#95;pp.&#95;373–406&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Distributed_Programs_2010_pp._373–406-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> \n</p><p>The components of a distributed system communicate and coordinate their actions by <a href=\"/wiki/Message_passing\" title=\"Message passing\">passing messages</a> to one another in order to achieve a common goal. Three challenges of distributed systems are: maintaining <a href=\"/wiki/Concurrency_(computer_science)\" title=\"Concurrency (computer science)\">concurrency</a> of components, overcoming the <a href=\"/wiki/Clock_synchronization\" title=\"Clock synchronization\">lack of a global clock</a>, and managing the independent failure of components.<sup id=\"cite&#95;ref-tanenbaum&#95;1-1\" class=\"reference\"><a href=\"#cite_note-tanenbaum-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> When a component of one system fails, the entire system does not fail.<sup id=\"cite&#95;ref-FOOTNOTEDusseauDusseau20161–2&#95;3-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEDusseauDusseau20161–2-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> Examples of distributed systems vary from <a href=\"/wiki/Service-oriented_architecture\" title=\"Service-oriented architecture\">SOA-based systems</a> to <a href=\"/wiki/Microservices\" title=\"Microservices\">microservices</a> to <a href=\"/wiki/Massively_multiplayer_online_game\" title=\"Massively multiplayer online game\">massively multiplayer online games</a> to <a href=\"/wiki/Peer-to-peer\" title=\"Peer-to-peer\">peer-to-peer applications</a>. Distributed systems cost more than monolithic architectures, primarily due to increased needs for additional hardware, servers, gateways, firewalls, new subnets, proxies, and so on.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Distributed systems can also suffer from <a href=\"/wiki/Fallacies_of_distributed_computing\" title=\"Fallacies of distributed computing\">fallacies of distributed computing</a>. Conversely, a well-designed distributed system is more scalable, more durable, more changeable, and more fine-tuned than a <a href=\"/wiki/Monolithic_application\" title=\"Monolithic application\">monolithic application</a> deployed on a single machine.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> According to Marc Brooker: \"a system is scalable in the range where <a href=\"/wiki/Marginal_cost\" title=\"Marginal cost\">marginal cost</a> of additional workload is nearly constant.\" <a href=\"/wiki/Serverless_computing\" title=\"Serverless computing\">Serverless</a> technologies fit this definition but the total cost of ownership, and not just the infrastructure cost must be considered.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>A <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a> that runs within a distributed system is called a <b>distributed program</b>,<sup id=\"cite&#95;ref-Distributed&#95;Programs&#95;2010&#95;pp.&#95;373–406&#95;II&#95;7-0\" class=\"reference\"><a href=\"#cite_note-Distributed_Programs_2010_pp._373–406_II-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> and <i>distributed programming</i> is the process of writing such programs.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> There are many types of implementations for the message-passing mechanism, including pure HTTP, <a href=\"/wiki/Remote_procedure_call\" title=\"Remote procedure call\">RPC-like</a> connectors, and <a href=\"/wiki/Message-oriented_middleware\" title=\"Message-oriented middleware\">message queues</a>.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p><i>Distributed computing</i> also refers to the use of distributed systems to solve computational problems. In <i>distributed computing</i>, a problem is divided into many tasks, each of which is solved by one or more computers,<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> which communicate with each other via message passing.<sup id=\"cite&#95;ref-Andrews&#95;2000&#95;11-0\" class=\"reference\"><a href=\"#cite_note-Andrews_2000-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-tanenbaum-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-tanenbaum_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-tanenbaum_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFTanenbaum,&#95;Andrew&#95;S.Steen,&#95;Maarten&#95;van2002\" class=\"citation book cs1\">Tanenbaum, Andrew S.; Steen, Maarten van (2002). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.distributed-systems.net/index.php/books/ds3/\"><i>Distributed systems: principles and paradigms</i></a>. Upper Saddle River, NJ: Pearson Prentice Hall. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-13-088893-1\" title=\"Special:BookSources/0-13-088893-1\"><bdi>0-13-088893-1</bdi></a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200812174339/https://www.distributed-systems.net/index.php/books/ds3/\">Archived</a> from the original on 2020-08-12<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-08-28</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Distributed+systems%3A+principles+and+paradigms&amp;rft.place=Upper+Saddle+River%2C+NJ&amp;rft.pub=Pearson+Prentice+Hall&amp;rft.date=2002&amp;rft.isbn=0-13-088893-1&amp;rft.au=Tanenbaum%2C+Andrew+S.&amp;rft.au=Steen%2C+Maarten+van&amp;rft&#95;id=https%3A%2F%2Fwww.distributed-systems.net%2Findex.php%2Fbooks%2Fds3%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADistributed+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Distributed&#95;Programs&#95;2010&#95;pp.&#95;373–406-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Distributed_Programs_2010_pp._373–406_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation book cs1\">\"Distributed Programs\". <i>Texts in Computer Science</i>. London: Springer London. 2010. pp.&#160;<span class=\"nowrap\">373–</span>406. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2F978-1-84882-745-5_11\">10.1007/978-1-84882-745-5_11</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-84882-744-8\" title=\"Special:BookSources/978-1-84882-744-8\"><bdi>978-1-84882-744-8</bdi></a>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1868-0941\">1868-0941</a>. <q>Systems consist of a number of physically distributed components that work independently using their private storage, but also communicate from time to time by explicit message passing. Such systems are called distributed systems.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Distributed+Programs&amp;rft.btitle=Texts+in+Computer+Science&amp;rft.place=London&amp;rft.pages=373-406&amp;rft.pub=Springer+London&amp;rft.date=2010&amp;rft.issn=1868-0941&amp;rft&#95;id=info%3Adoi%2F10.1007%2F978-1-84882-745-5&#95;11&amp;rft.isbn=978-1-84882-744-8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADistributed+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEDusseauDusseau20161–2-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEDusseauDusseau20161–2_3-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFDusseauDusseau2016\">Dusseau &amp; Dusseau 2016</a>, p.&#160;1–2.</span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFord2020\" class=\"citation book cs1\">Ford, Neal (March 3, 2020). <i>Fundamentals of Software Architecture: An Engineering Approach</i> (1st&#160;ed.). O'Reilly Media. pp.&#160;<span class=\"nowrap\">146–</span>147. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-4920-4345-4\" title=\"Special:BookSources/978-1-4920-4345-4\"><bdi>978-1-4920-4345-4</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Fundamentals+of+Software+Architecture%3A+An+Engineering+Approach&amp;rft.pages=146-147&amp;rft.edition=1st&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2020-03-03&amp;rft.isbn=978-1-4920-4345-4&amp;rft.aulast=Ford&amp;rft.aufirst=Neal&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADistributed+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation book cs1\"><i>Monolith to Microservices Evolutionary Patterns to Transform Your Monolith</i>. O'Reilly Media. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-4920-4781-0\" title=\"Special:BookSources/978-1-4920-4781-0\"><bdi>978-1-4920-4781-0</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Monolith+to+Microservices+Evolutionary+Patterns+to+Transform+Your+Monolith&amp;rft.pub=O%27Reilly+Media&amp;rft.isbn=978-1-4920-4781-0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADistributed+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation book cs1\"><i>Building Serverless Applications on Knative</i>. O'Reilly Media. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-0981-4204-9\" title=\"Special:BookSources/978-1-0981-4204-9\"><bdi>978-1-0981-4204-9</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Building+Serverless+Applications+on+Knative&amp;rft.pub=O%27Reilly+Media&amp;rft.isbn=978-1-0981-4204-9&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADistributed+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Distributed&#95;Programs&#95;2010&#95;pp.&#95;373–406&#95;II-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Distributed_Programs_2010_pp._373–406_II_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation book cs1\">\"Distributed Programs\". <i>Texts in Computer Science</i>. London: Springer London. 2010. pp.&#160;<span class=\"nowrap\">373–</span>406. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2F978-1-84882-745-5_11\">10.1007/978-1-84882-745-5_11</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-84882-744-8\" title=\"Special:BookSources/978-1-84882-744-8\"><bdi>978-1-84882-744-8</bdi></a>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1868-0941\">1868-0941</a>. <q>Distributed programs are abstract descriptions of distributed systems. A distributed program consists of a collection of processes that work concurrently and communicate by explicit message passing. Each process can access a set of variables which are disjoint from the variables that can be changed by any other process.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Distributed+Programs&amp;rft.btitle=Texts+in+Computer+Science&amp;rft.place=London&amp;rft.pages=373-406&amp;rft.pub=Springer+London&amp;rft.date=2010&amp;rft.issn=1868-0941&amp;rft&#95;id=info%3Adoi%2F10.1007%2F978-1-84882-745-5&#95;11&amp;rft.isbn=978-1-84882-744-8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADistributed+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFAndrews2000\">Andrews (2000)</a>. <a href=\"#CITEREFDolev2000\">Dolev (2000)</a>. <a href=\"#CITEREFGhosh2007\">Ghosh (2007)</a>, p. 10.</span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMagnoni2015\" class=\"citation journal cs1\">Magnoni, L. (2015). <a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1088%2F1742-6596%2F608%2F1%2F012038\">\"Modern Messaging for Distributed Sytems (sic)\"</a>. <i>Journal of Physics: Conference Series</i>. <b>608</b> (1) 012038. <a href=\"/wiki/Bibcode_(identifier)\" class=\"mw-redirect\" title=\"Bibcode (identifier)\">Bibcode</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://ui.adsabs.harvard.edu/abs/2015JPhCS.608a2038M\">2015JPhCS.608a2038M</a>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1088%2F1742-6596%2F608%2F1%2F012038\">10.1088/1742-6596/608/1/012038</a></span>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1742-6596\">1742-6596</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Physics%3A+Conference+Series&amp;rft.atitle=Modern+Messaging+for+Distributed+Sytems+%28sic%29&amp;rft.volume=608&amp;rft.issue=1&amp;rft.artnum=012038&amp;rft.date=2015&amp;rft.issn=1742-6596&amp;rft&#95;id=info%3Adoi%2F10.1088%2F1742-6596%2F608%2F1%2F012038&amp;rft&#95;id=info%3Abibcode%2F2015JPhCS.608a2038M&amp;rft.aulast=Magnoni&amp;rft.aufirst=L.&amp;rft&#95;id=https%3A%2F%2Fdoi.org%2F10.1088%252F1742-6596%252F608%252F1%252F012038&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADistributed+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFGodfrey2002\">Godfrey (2002)</a>.</span>\n</li>\n<li id=\"cite&#95;note-Andrews&#95;2000-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Andrews_2000_11-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFAndrews2000\">Andrews (2000)</a>, p. 291–292. <a href=\"#CITEREFDolev2000\">Dolev (2000)</a>, p. 5.</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐kwndn\nCached time: 20260918180950\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.148 seconds\nReal time usage: 0.203 seconds\nPreprocessor visited node count: 617/1000000\nRevision size: 5154/2097152 bytes\nPost‐expand include size: 15542/2097152 bytes\nTemplate argument size: 554/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 18089/5000000 bytes\nLua time usage: 0.106/10.000 seconds\nLua memory usage: 5639264/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  188.850      1 -total\n 33.46%   63.186      6 Template:Cite_book\n 31.97%   60.372      1 Template:Short_description\n 17.40%   32.853      1 Template:Sfn\n 17.04%   32.173      2 Template:Pagetype\n  9.45%   17.844      1 Template:Distinguish\n  8.21%   15.508      3 Template:Main_other\n  7.45%   14.060      1 Template:SDcat\n  3.09%    5.837      6 Template:Harvtxt\n  2.03%    3.843      1 Template:Cite_journal\n-->\n\n<!-- Render ID 23a4ef30-b38c-11f1-9cf0-db3995059ccb -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Decentralized computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bibcode (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clock synchronization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrency (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fallacies of distributed computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Marginal cost",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Massively multiplayer online game",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Message-oriented middleware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Message passing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microservices",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic application",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Peer-to-peer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Remote procedure call",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Serverless computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Service-oriented architecture",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "System with multiple networked computers",
+          "wikibase_item": "Q180634"
+        }
+      }
+    }
+  ]
+}

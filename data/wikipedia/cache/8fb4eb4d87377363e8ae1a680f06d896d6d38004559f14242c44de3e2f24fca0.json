@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "C Sharp (programming language)",
+    "url": "https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29",
+    "summary": "General-purpose programming language The correct title of this article is C# . The substitution of the # is due to technical restrictions . For other uses, see C-sharp (disambiguation) . C# Paradigm Multi-paradigm : structured , imperative , object-oriented , event-driven , task-driven , functional , generic , reflective , concurrent Family C Designed by Anders Hejlsberg ( Microsoft ) Developer Mads Torgersen ( Microsoft ) First appeared July 2000 ; 26 years ago ( 2000-07 ) Stable release 14.0 / 11 November 2025 ; 10 months ago ( 11 November 2025 ) Typing discipline Static , dynamic , strong , safe , nominative , partly inferred Memory management Garbage-collected Platform Common Language Infrastructure License Roslyn compiler: MIT/X11 .NET Core CLR : MIT/X11 Mono compiler: dual GPLv3 and MIT/X11 DotGNU : dual GPL and LGPL Filename extensions .cs , .csx Website learn .microsoft .com /en-us /dotnet /csharp / Major implementations Visual C# , .NET , Mono , Universal Windows Platform Discontinued : .NET Framework , DotGNU Dialects Cω , Polyphonic C# , Enhanced C# Influenced by C++ , Cω , Eiffel , F# , Haskell , Scala , Icon , J# , J++ , Java , JavaScript , ML , Modula-3 , Object Pascal , Visual Basic (VB) Influenced Chapel , Clojure , Crystal , D , J# , Dart , F# , Hack , Java , Kotlin , Nemerle , Oxygene , Rust , Swift , Vala , TypeScript C Sharp Programming at Wikibooks C# ( / ˌ s iː ˈ ʃ ɑːr p / see SHARP ) is a general-purpose high-level programming language supporting multiple paradigms . C# encompasses static typing , strong typing , lexically scoped , imperative , declarative , functional , generic , object-oriented ( class -based), and component-oriented programming disciplines. The principal designers of the C# programming language were Anders Hejlsberg , Scott Wiltamuth, and Peter Golde from Microsoft . It was first widely distributed in July 2000 and was later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO / IEC (ISO/IEC 23270 and 20619 ) in 2003. Microsoft introduced C# along with .NET Framework and Microsoft Visual Studio , both of which are, technically speaking, closed-source . At the time, Microsoft had no open-source products. Four years later, in 2004, a free and open-source project called Mono began, providing a cross-platform compiler and runtime environment for the C# programming language. A decade later, Microsoft released Visual Studio Code (code editor), Roslyn (compiler), and the unified .NET platform (software framework), all of which support C# and are free, open-source, and cross-platform. Mono also joined Microsoft, but was not merged into .NET. As of November 2025, [update] the most recent stable version of the language is C# 14. ^ a b c d Cite error: The named reference ECMA-334 was invoked but never defined (see the help page ). ^ \"InfoQ eMag: A Preview of C# 7\" . Archived from the original on April 24, 2023 . Retrieved November 11, 2016 . ^ \"What's new in .NET 10\" . Retrieved November 13, 2025 . ^ Cite error: The named reference dynamic was invoked but never defined (see the help page ). ^ \"The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.: dotnet/roslyn\" . November 13, 2019. Archived from the original on February 22, 2021 . Retrieved February 13, 2015 – via GitHub. ^ \"CoreCLR is the runtime for .NET Core. It includes the garbage collector, JIT compiler, primitive data types and low-level classes.: dotnet/coreclr\" . November 13, 2019. Archived from the original on October 14, 2019 . Retrieved March 8, 2017 – via GitHub. ^ a b Cite error: The named reference influenced by CPP was invoked but never defined (see the help page ). ^ Cite error: The named reference influenced by op was invoked but never defined (see the help page ). ^ \"Chapel spec (Acknowledgments)\" (PDF) . Cray Inc. October 1, 2015. Archived from the original (PDF) on February 5, 2016 . Retrieved January 14, 2016 . ^ \"Rich Hickey Q&A by Michael Fogus\" . Archived from the original on January 11, 2017 . Retrieved January 11, 2017 . ^ Borenszweig, Ary (June 14, 2016). \"Crystal 0.18.0 released!\" . Archived from the original on December 25, 2018 . Retrieved August 7, 2017 . It's heavily inspired by Ruby, and other languages (like C#, Go and Python). ^ \"Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013\" . YouTube . May 16, 2013. Archived from the original on December 21, 2021 . Retrieved December 22, 2013 . ^ Java 5.0 added several new language features (the enhanced for loop , autoboxing , varargs and annotations ), after they were introduced in the similar (and competing) C# language [1] Archived March 19, 2011, at the Wayback Machine [2] Archived January 7, 2006, at the Wayback Machine ^ Cite error: The named reference influenced was invoked but never defined (see the help page ). ^ \"Influences - The Rust Reference\" . The Rust Reference . Archived from the original on January 26, 2019 . Retrieved April 18, 2023 . ^ Lattner, Chris (June 3, 2014). \"Chris Lattner's Homepage\" . Chris Lattner. Archived from the original on December 25, 2018 . Retrieved May 12, 2020 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ a b Skeet 2019 . ^ Wagner, Bill. \"What's new in C# 14\" . learn.microsoft.com . Retrieved September 13, 2025 . ^ Dollard, Kathleen (November 14, 2023). \"Announcing C# 12\" . .NET Blog . Archived from the original on November 18, 2023 . Retrieved November 18, 2023 . ^ Seth, Gaurav (November 14, 2023). \"Announcing .NET 8\" . .NET Blog . Archived from the original on November 19, 2023 . Retrieved November 18, 2023 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "General-purpose programming language The correct title of this article is C# . The substitution of the # is due to technical restrictions . For other uses, see C-sharp (disambiguation) . C# Paradigm Multi-paradigm : structured , imperative , object-oriented , event-driven , task-driven , functional , generic , reflective , concurrent Family C Designed by Anders Hejlsberg ( Microsoft ) Developer Mads Torgersen ( Microsoft ) First appeared July 2000 ; 26 years ago ( 2000-07 ) Stable release 14.0 / 11 November 2025 ; 10 months ago ( 11 November 2025 ) Typing discipline Static , dynamic , strong , safe , nominative , partly inferred Memory management Garbage-collected Platform Common Language Infrastructure License Roslyn compiler: MIT/X11 .NET Core CLR : MIT/X11 Mono compiler: dual GPLv3 and MIT/X11 DotGNU : dual GPL and LGPL Filename extensions .cs , .csx Website learn .microsoft .com /en-us /dotnet /csharp / Major implementations Visual C# , .NET , Mono , Universal Windows Platform Discontinued : .NET Framework , DotGNU Dialects Cω , Polyphonic C# , Enhanced C# Influenced by C++ , Cω , Eiffel , F# , Haskell , Scala , Icon , J# , J++ , Java , JavaScript , ML , Modula-3 , Object Pascal , Visual Basic (VB) Influenced Chapel , Clojure , Crystal , D , J# , Dart , F# , Hack , Java , Kotlin , Nemerle , Oxygene , Rust , Swift , Vala , TypeScript C Sharp Programming at Wikibooks C# ( / ˌ s iː ˈ ʃ ɑːr p / see SHARP ) is a general-purpose high-level programming language supporting multiple paradigms . C# encompasses static typing , strong typing , lexically scoped , imperative , declarative , functional , generic , object-oriented ( class -based), and component-oriented programming disciplines. The principal designers of the C# programming language were Anders Hejlsberg , Scott Wiltamuth, and Peter Golde from Microsoft . It was first widely distributed in July 2000 and was later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO / IEC (ISO/IEC 23270 and 20619 ) in 2003. Microsoft introduced C# along with .NET Framework and Microsoft Visual Studio , both of which are, technically speaking, closed-source . At the time, Microsoft had no open-source products. Four years later, in 2004, a free and open-source project called Mono began, providing a cross-platform compiler and runtime environment for the C# programming language. A decade later, Microsoft released Visual Studio Code (code editor), Roslyn (compiler), and the unified .NET platform (software framework), all of which support C# and are free, open-source, and cross-platform. Mono also joined Microsoft, but was not merged into .NET. As of November 2025, [update] the most recent stable version of the language is C# 14. ^ a b c d Cite error: The named reference ECMA-334 was invoked but never defined (see the help page ). ^ \"InfoQ eMag: A Preview of C# 7\" . Archived from the original on April 24, 2023 . Retrieved November 11, 2016 . ^ \"What's new in .NET 10\" . Retrieved November 13, 2025 . ^ Cite error: The named reference dynamic was invoked but never defined (see the help page ). ^ \"The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.: dotnet/roslyn\" . November 13, 2019. Archived from the original on February 22, 2021 . Retrieved February 13, 2015 – via GitHub. ^ \"CoreCLR is the runtime for .NET Core. It includes the garbage collector, JIT compiler, primitive data types and low-level classes.: dotnet/coreclr\" . November 13, 2019. Archived from the original on October 14, 2019 . Retrieved March 8, 2017 – via GitHub. ^ a b Cite error: The named reference influenced by CPP was invoked but never defined (see the help page ). ^ Cite error: The named reference influenced by op was invoked but never defined (see the help page ). ^ \"Chapel spec (Acknowledgments)\" (PDF) . Cray Inc. October 1, 2015. Archived from the original (PDF) on February 5, 2016 . Retrieved January 14, 2016 . ^ \"Rich Hickey Q&A by Michael Fogus\" . Archived from the original on January 11, 2017 . Retrieved January 11, 2017 . ^ Borenszweig, Ary (June 14, 2016). \"Crystal 0.18.0 released!\" . Archived from the original on December 25, 2018 . Retrieved August 7, 2017 . It's heavily inspired by Ruby, and other languages (like C#, Go and Python). ^ \"Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013\" . YouTube . May 16, 2013. Archived from the original on December 21, 2021 . Retrieved December 22, 2013 . ^ Java 5.0 added several new language features (the enhanced for loop , autoboxing , varargs and annotations ), after they were introduced in the similar (and competing) C# language [1] Archived March 19, 2011, at the Wayback Machine [2] Archived January 7, 2006, at the Wayback Machine ^ Cite error: The named reference influenced was invoked but never defined (see the help page ). ^ \"Influences - The Rust Reference\" . The Rust Reference . Archived from the original on January 26, 2019 . Retrieved April 18, 2023 . ^ Lattner, Chris (June 3, 2014). \"Chris Lattner's Homepage\" . Chris Lattner. Archived from the original on December 25, 2018 . Retrieved May 12, 2020 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ a b Skeet 2019 . ^ Wagner, Bill. \"What's new in C# 14\" . learn.microsoft.com . Retrieved September 13, 2025 . ^ Dollard, Kathleen (November 14, 2023). \"Announcing C# 12\" . .NET Blog . Archived from the original on November 18, 2023 . Retrieved November 18, 2023 . ^ Seth, Gaurav (November 14, 2023). \"Announcing .NET 8\" . .NET Blog . Archived from the original on November 19, 2023 . Retrieved November 18, 2023 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      ".NET",
+      ".NET Core",
+      ".NET Framework",
+      "Anders Hejlsberg",
+      "Boxing (computer programming)",
+      "C++",
+      "C-sharp (disambiguation)",
+      "Chapel (programming language)",
+      "Class (programming)",
+      "Clojure",
+      "Common Language Infrastructure",
+      "Compiler",
+      "Component-based software engineering",
+      "Computing platform",
+      "Concurrent computing",
+      "Cross-platform",
+      "Crystal (programming language)",
+      "Cω",
+      "D (programming language)",
+      "Dart (programming language)",
+      "Declarative programming",
+      "DotGNU",
+      "Dynamic typing",
+      "Ecma International",
+      "Eiffel (programming language)",
+      "Event-driven programming",
+      "F Sharp (programming language)",
+      "Filename extension",
+      "Foreach loop",
+      "Free and open-source",
+      "Functional programming",
+      "GPL",
+      "GPLv3",
+      "Garbage collection (computer science)",
+      "General-purpose programming language",
+      "Generic programming",
+      "Hack (programming language)",
+      "Haskell",
+      "High-level programming language",
+      "Icon (programming language)",
+      "Imperative programming",
+      "International Electrotechnical Commission",
+      "International Organization for Standardization",
+      "International standard",
+      "Java (programming language)",
+      "Java annotation",
+      "JavaScript",
+      "Kotlin",
+      "LGPL",
+      "Lexically scoped",
+      "List of C-family programming languages",
+      "MIT License",
+      "ML (programming language)",
+      "Memory management",
+      "Microsoft",
+      "Microsoft Visual C Sharp",
+      "Modula-3",
+      "Mono (software)",
+      "Multi-paradigm programming language",
+      "Nemerle",
+      "Nominative type system",
+      "Number sign",
+      "Object Pascal",
+      "Object-oriented programming",
+      "Oxygene (programming language)",
+      "Polyphonic C Sharp",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Proprietary software",
+      "Reflective programming",
+      "Roslyn (compiler)",
+      "Runtime environment",
+      "Rust (programming language)",
+      "Scala (programming language)",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Static typing",
+      "Strong and weak typing",
+      "Structured programming",
+      "Swift (programming language)",
+      "The Task-based Asynchronous Pattern",
+      "Type inference",
+      "Type system",
+      "TypeScript",
+      "Universal Windows Platform",
+      "Vala (programming language)",
+      "Variadic function",
+      "Visual Basic",
+      "Visual J Sharp",
+      "Visual J++",
+      "Visual Studio",
+      "Visual Studio Code",
+      "Wayback Machine",
+      "YouTube"
+    ],
+    "page_id": 2356196,
+    "revision_id": 1369765227,
+    "retrieved_at": "2026-09-18T18:07:25.117292+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260810041806|1368626757",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 2356196,
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "revisions": [
+              {
+                "revid": 1369765227,
+                "parentid": 1368626757
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "C_Sharp_Logo_2023.svg",
+              "wikibase-shortdesc": "General-purpose programming language",
+              "wikibase_item": "Q2370"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "C Sharp (programming language)",
+        "pageid": 2356196,
+        "revid": 1369765227,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable plainlinks selfreference noprint\">The correct title of this article is <b>C#</b>. The substitution of the <a href=\"/wiki/Number_sign\" title=\"Number sign\">#</a> is due to <a href=\"/wiki/Wikipedia:Naming_conventions_(technical_restrictions)#Clashes_with_wiki_markup/HTML_syntax\" title=\"Wikipedia:Naming conventions (technical restrictions)\">technical restrictions</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other uses, see <a href=\"/wiki/C-sharp_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"C-sharp (disambiguation)\">C-sharp (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">C#</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:C_Sharp_Logo_2023.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/250px-C_Sharp_Logo_2023.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"165\" height=\"165\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/330px-C_Sharp_Logo_2023.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"205\" data-file-height=\"205\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Event-driven_programming\" title=\"Event-driven programming\">event-driven</a>, <a href=\"/wiki/The_Task-based_Asynchronous_Pattern\" class=\"mw-redirect\" title=\"The Task-based Asynchronous Pattern\">task-driven</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a>, <a href=\"/wiki/Concurrent_computing\" title=\"Concurrent computing\">concurrent</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/List_of_C-family_programming_languages\" title=\"List of C-family programming languages\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Anders_Hejlsberg\" title=\"Anders Hejlsberg\">Anders Hejlsberg</a> (<a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Mads Torgersen (<a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">July&#160;2000<span class=\"noprint\">&#59;&#32;26&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2000-07</span>)</span><sup id=\"cite&#95;ref-ECMA-334&#95;1-0\" class=\"reference\"><a href=\"#cite_note-ECMA-334-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">14.0<sup id=\"cite&#95;ref-wikidata-54087fdf0a4b5158f71e75638b3f1ef090d09520-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-54087fdf0a4b5158f71e75638b3f1ef090d09520-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2370?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 11 November 2025<span class=\"noprint\">&#59;&#32;10 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">11 November 2025</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">Static</a>, <a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">dynamic</a>,<sup id=\"cite&#95;ref-dynamic&#95;4-0\" class=\"reference\"><a href=\"#cite_note-dynamic-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Type_system#Safely_and_unsafely_typed_systems\" title=\"Type system\">safe</a>, <a href=\"/wiki/Nominative_type_system\" class=\"mw-redirect\" title=\"Nominative type system\">nominative</a>, <a href=\"/wiki/Type_inference\" title=\"Type inference\">partly inferred</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">Garbage-collected</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/Common_Language_Infrastructure\" title=\"Common Language Infrastructure\">Common Language Infrastructure</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Roslyn_(compiler)\" title=\"Roslyn (compiler)\">Roslyn</a> compiler: <a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT/X11</a><sup id=\"cite&#95;ref-auto&#95;5-0\" class=\"reference\"><a href=\"#cite_note-auto-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/.NET_Core\" class=\"mw-redirect\" title=\".NET Core\">.NET Core CLR</a>: <a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT/X11</a><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Mono_(software)\" title=\"Mono (software)\">Mono</a> compiler: dual <a href=\"/wiki/GPLv3\" class=\"mw-redirect\" title=\"GPLv3\">GPLv3</a> and MIT/X11</li>\n<li><a href=\"/wiki/DotGNU\" title=\"DotGNU\">DotGNU</a>: dual <a href=\"/wiki/GPL\" class=\"mw-redirect\" title=\"GPL\">GPL</a> and <a href=\"/wiki/LGPL\" class=\"mw-redirect\" title=\"LGPL\">LGPL</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.cs</code>, <code>.csx</code></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/dotnet/csharp/\">learn<wbr />.microsoft<wbr />.com<wbr />/en-us<wbr />/dotnet<wbr />/csharp<wbr />/</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Microsoft_Visual_C_Sharp\" class=\"mw-redirect\" title=\"Microsoft Visual C Sharp\">Visual C#</a>, <a href=\"/wiki/.NET\" title=\".NET\">.NET</a>, <a href=\"/wiki/Mono_(software)\" title=\"Mono (software)\">Mono</a>, <a href=\"/wiki/Universal_Windows_Platform\" title=\"Universal Windows Platform\">Universal Windows Platform</a><br /><b>Discontinued</b>: <a href=\"/wiki/.NET_Framework\" title=\".NET Framework\">.NET Framework</a>, <a href=\"/wiki/DotGNU\" title=\"DotGNU\">DotGNU</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C%CF%89\" class=\"mw-redirect\" title=\"Cω\">Cω</a>, <a href=\"/wiki/Polyphonic_C_Sharp\" class=\"mw-redirect\" title=\"Polyphonic C Sharp\">Polyphonic C#</a>, <a rel=\"nofollow\" class=\"external text\" href=\"http://ecsharp.net\">Enhanced C#</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>,<sup id=\"cite&#95;ref-influenced&#95;by&#95;CPP&#95;7-0\" class=\"reference\"><a href=\"#cite_note-influenced_by_CPP-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C%CF%89\" class=\"mw-redirect\" title=\"Cω\">Cω</a>, <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>, <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>, <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>, <a href=\"/wiki/Icon_(programming_language)\" title=\"Icon (programming language)\">Icon</a>, <a href=\"/wiki/Visual_J_Sharp\" title=\"Visual J Sharp\">J#</a>, <a href=\"/wiki/Visual_J%2B%2B\" title=\"Visual J++\">J++</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>,<sup id=\"cite&#95;ref-influenced&#95;by&#95;CPP&#95;7-1\" class=\"reference\"><a href=\"#cite_note-influenced_by_CPP-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a>, <a href=\"/wiki/Modula-3\" title=\"Modula-3\">Modula-3</a>, <a href=\"/wiki/Object_Pascal\" title=\"Object Pascal\">Object Pascal</a>,<sup id=\"cite&#95;ref-influenced&#95;by&#95;op&#95;9-0\" class=\"reference\"><a href=\"#cite_note-influenced_by_op-9\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Visual_Basic\" title=\"Visual Basic\">Visual Basic</a> (VB)</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Chapel_(programming_language)\" title=\"Chapel (programming language)\">Chapel</a>,<sup id=\"cite&#95;ref-chplspec&#95;10-0\" class=\"reference\"><a href=\"#cite_note-chplspec-10\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Crystal_(programming_language)\" title=\"Crystal (programming language)\">Crystal</a>,<sup id=\"cite&#95;ref-rel&#95;0.18.0&#95;12-0\" class=\"reference\"><a href=\"#cite_note-rel_0.18.0-12\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>, <a href=\"/wiki/Visual_J_Sharp\" title=\"Visual J Sharp\">J#</a>, <a href=\"/wiki/Dart_(programming_language)\" title=\"Dart (programming language)\">Dart</a>,<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>, <a href=\"/wiki/Hack_(programming_language)\" title=\"Hack (programming language)\">Hack</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>,<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-influenced&#95;15-0\" class=\"reference\"><a href=\"#cite_note-influenced-15\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Kotlin\" title=\"Kotlin\">Kotlin</a>, <a href=\"/wiki/Nemerle\" title=\"Nemerle\">Nemerle</a>, <a href=\"/wiki/Oxygene_(programming_language)\" title=\"Oxygene (programming language)\">Oxygene</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>,<sup id=\"cite&#95;ref-lattner2014&#95;17-0\" class=\"reference\"><a href=\"#cite_note-lattner2014-17\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Vala_(programming_language)\" title=\"Vala (programming language)\">Vala</a>, <a href=\"/wiki/TypeScript\" title=\"TypeScript\">TypeScript</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/C_Sharp_Programming\" class=\"extiw\" title=\"wikibooks:C Sharp Programming\">C Sharp Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>C#</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˌ/: secondary stress follows\">ˌ</span><span title=\"&#39;s&#39; in &#39;sigh&#39;\">s</span><span title=\"/iː/: &#39;ee&#39; in &#39;fleece&#39;\">iː</span></span><span class=\"wrap\"> </span><span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"/ʃ/: &#39;sh&#39; in &#39;shy&#39;\">ʃ</span><span title=\"/ɑːr/: &#39;ar&#39; in &#39;far&#39;\">ɑːr</span><span title=\"&#39;p&#39; in &#39;pie&#39;\">p</span></span>/</a></span></span> <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\">see <span style=\"font-size:90%\">SHARP</span></i></a>)<sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a> <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> supporting multiple <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">paradigms</a>. C# encompasses <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static typing</a>,<sup id=\"cite&#95;ref-FOOTNOTESkeet2019&#95;19-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTESkeet2019-19\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 4\">&#58;&#8202;4&#8202;</span></sup> <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong typing</a>, <a href=\"/wiki/Lexically_scoped\" class=\"mw-redirect\" title=\"Lexically scoped\">lexically scoped</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a>,<sup id=\"cite&#95;ref-FOOTNOTESkeet2019&#95;19-1\" class=\"reference\"><a href=\"#cite_note-FOOTNOTESkeet2019-19\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: 22\">&#58;&#8202;22&#8202;</span></sup> <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> (<a href=\"/wiki/Class_(programming)\" title=\"Class (programming)\">class</a>-based), and <a href=\"/wiki/Component-based_software_engineering\" title=\"Component-based software engineering\">component-oriented</a> programming disciplines.<sup id=\"cite&#95;ref-ECMA-334&#95;1-1\" class=\"reference\"><a href=\"#cite_note-ECMA-334-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The principal designers of the C# programming language were <a href=\"/wiki/Anders_Hejlsberg\" title=\"Anders Hejlsberg\">Anders Hejlsberg</a>, Scott Wiltamuth, and Peter Golde from <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>.<sup id=\"cite&#95;ref-ECMA-334&#95;1-2\" class=\"reference\"><a href=\"#cite_note-ECMA-334-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> It was first widely distributed in July 2000<sup id=\"cite&#95;ref-ECMA-334&#95;1-3\" class=\"reference\"><a href=\"#cite_note-ECMA-334-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> and was later approved as an <a href=\"/wiki/International_standard\" title=\"International standard\">international standard</a> by <a href=\"/wiki/Ecma_International\" title=\"Ecma International\">Ecma</a> (ECMA-334) in 2002 and <a href=\"/wiki/International_Organization_for_Standardization\" title=\"International Organization for Standardization\">ISO</a>/<a href=\"/wiki/International_Electrotechnical_Commission\" title=\"International Electrotechnical Commission\">IEC</a> (ISO/IEC 23270 and 20619<sup id=\"cite&#95;ref-20\" class=\"reference\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">&#91;</span>c<span class=\"cite-bracket\">&#93;</span></a></sup>) in 2003. Microsoft introduced C# along with <a href=\"/wiki/.NET_Framework\" title=\".NET Framework\">.NET Framework</a> and Microsoft <a href=\"/wiki/Visual_Studio\" title=\"Visual Studio\">Visual Studio</a>, both of which are, technically speaking, <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">closed-source</a>. At the time, Microsoft had no open-source products. Four years later, in 2004, a <a href=\"/wiki/Free_and_open-source\" class=\"mw-redirect\" title=\"Free and open-source\">free and open-source</a> project called <a href=\"/wiki/Mono_(software)\" title=\"Mono (software)\">Mono</a> began, providing a <a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">cross-platform</a> <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> and <a href=\"/wiki/Runtime_environment\" class=\"mw-redirect\" title=\"Runtime environment\">runtime environment</a> for the C# programming language. A decade later, Microsoft released <a href=\"/wiki/Visual_Studio_Code\" title=\"Visual Studio Code\">Visual Studio Code</a> (code editor), <a href=\"/wiki/Roslyn_(compiler)\" title=\"Roslyn (compiler)\">Roslyn</a> (compiler), and <a href=\"/wiki/.NET\" title=\".NET\">the unified .NET platform</a> (software framework), all of which support C# and are free, open-source, and cross-platform. Mono also joined Microsoft, but was not merged into .NET.\n</p><p>As of November&#160;2025,<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=C_Sharp_(programming_language)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=C_Sharp_(programming_language)&amp;action=edit\">&#91;update&#93;</a></sup> the most recent stable version of the language is C# 14.<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-22\" class=\"reference\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-23\" class=\"reference\"><a href=\"#cite_note-23\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-ECMA-334-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-ECMA-334_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-ECMA-334_1-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-ECMA-334_1-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-ECMA-334_1-3\"><sup><i><b>d</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>ECMA-334</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoq.com/minibooks/emag-c-sharp-preview\">\"InfoQ eMag: A Preview of C# 7\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230424033239/https://www.infoq.com/minibooks/emag-c-sharp-preview/\">Archived</a> from the original on April 24, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 11,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=InfoQ+eMag%3A+A+Preview+of+C%23+7&amp;rft&#95;id=https%3A%2F%2Fwww.infoq.com%2Fminibooks%2Femag-c-sharp-preview&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-54087fdf0a4b5158f71e75638b3f1ef090d09520-v20-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-54087fdf0a4b5158f71e75638b3f1ef090d09520-v20_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview\">\"What's new in .NET 10\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 13,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=What%27s+new+in+.NET+10&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fdotnet%2Fcore%2Fwhats-new%2Fdotnet-10%2Foverview&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-dynamic-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-dynamic_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>dynamic</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-auto-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-auto_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dotnet/roslyn\">\"The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.: dotnet/roslyn\"</a>. November 13, 2019. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210222190922/https://github.com/dotnet/roslyn\">Archived</a> from the original on February 22, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 13,</span> 2015</span> &#8211; via GitHub.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Roslyn+.NET+compiler+provides+C%23+and+Visual+Basic+languages+with+rich+code+analysis+APIs.%3A+dotnet%2Froslyn&amp;rft.date=2019-11-13&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fdotnet%2Froslyn&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dotnet/coreclr\">\"CoreCLR is the runtime for .NET Core. It includes the garbage collector, JIT compiler, primitive data types and low-level classes.: dotnet/coreclr\"</a>. November 13, 2019. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20191014104939/https://github.com/dotnet/coreclr\">Archived</a> from the original on October 14, 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 8,</span> 2017</span> &#8211; via GitHub.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=CoreCLR+is+the+runtime+for+.NET+Core.+It+includes+the+garbage+collector%2C+JIT+compiler%2C+primitive+data+types+and+low-level+classes.%3A+dotnet%2Fcoreclr&amp;rft.date=2019-11-13&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fdotnet%2Fcoreclr&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-influenced&#95;by&#95;CPP-7\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-influenced_by_CPP_7-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-influenced_by_CPP_7-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>influenced by CPP</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-influenced&#95;by&#95;op-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-influenced_by_op_9-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>influenced by op</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-chplspec-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-chplspec_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160205114946/http://chapel.cray.com/spec/spec-0.98.pdf\">\"Chapel spec (Acknowledgments)\"</a> <span class=\"cs1-format\">(PDF)</span>. Cray Inc. October 1, 2015. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://chapel.cray.com/spec/spec-0.98.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on February 5, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 14,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chapel+spec+%28Acknowledgments%29&amp;rft.pub=Cray+Inc&amp;rft.date=2015-10-01&amp;rft&#95;id=http%3A%2F%2Fchapel.cray.com%2Fspec%2Fspec-0.98.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170111184835/http://www.codequarterly.com/2011/rich-hickey\">\"Rich Hickey Q&amp;A by Michael Fogus\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.codequarterly.com/2011/rich-hickey\">the original</a> on January 11, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 11,</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Rich+Hickey+Q%26A+by+Michael+Fogus&amp;rft&#95;id=http%3A%2F%2Fwww.codequarterly.com%2F2011%2Frich-hickey&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-rel&#95;0.18.0-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-rel_0.18.0_12-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBorenszweig2016\" class=\"citation web cs1\">Borenszweig, Ary (June 14, 2016). <a rel=\"nofollow\" class=\"external text\" href=\"http://crystal-lang.org/2016/06/14/crystal-0.18.0-released.html#comment-2732771703\">\"Crystal 0.18.0 released!\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181225175315/https://crystal-lang.org/2016/06/14/crystal-0.18.0-released.html#comment-2732771703\">Archived</a> from the original on December 25, 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 7,</span> 2017</span>. <q>It's heavily inspired by Ruby, and other languages (like C#, Go and Python).</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Crystal+0.18.0+released%21&amp;rft.date=2016-06-14&amp;rft.aulast=Borenszweig&amp;rft.aufirst=Ary&amp;rft&#95;id=http%3A%2F%2Fcrystal-lang.org%2F2016%2F06%2F14%2Fcrystal-0.18.0-released.html%23comment-2732771703&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=huawCRlo9H4&amp;t=30m10s\">\"Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013\"</a>. <i><a href=\"/wiki/YouTube\" title=\"YouTube\">YouTube</a></i>. May 16, 2013. <a rel=\"nofollow\" class=\"external text\" href=\"https://ghostarchive.org/varchive/youtube/20211221/huawCRlo9H4\">Archived</a> from the original on December 21, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 22,</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=Web+Languages+and+VMs%3A+Fast+Code+is+Always+in+Fashion.+%28V8%2C+Dart%29+-+Google+I%2FO+2013&amp;rft.date=2013-05-16&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhuawCRlo9H4%26t%3D30m10s&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\">Java 5.0 added several new language features (the <a href=\"/wiki/Foreach_loop\" class=\"mw-redirect\" title=\"Foreach loop\">enhanced for loop</a>, <a href=\"/wiki/Boxing_(computer_programming)#Autoboxing\" title=\"Boxing (computer programming)\">autoboxing</a>, <a href=\"/wiki/Variadic_function\" title=\"Variadic function\">varargs</a> and <a href=\"/wiki/Java_annotation\" title=\"Java annotation\">annotations</a>), after they were introduced in the similar (and competing) C# language <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.barrycornelius.com/papers/java5/\">[1]</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110319065438/http://www.barrycornelius.com/papers/java5/\">Archived</a> March 19, 2011, at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.levenez.com/lang/\">[2]</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20060107162045/http://www.levenez.com/lang/\">Archived</a> January 7, 2006, at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a></span>\n</li>\n<li id=\"cite&#95;note-influenced-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-influenced_15-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>influenced</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/reference/influences.html\">\"Influences - The Rust Reference\"</a>. <i>The Rust Reference</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190126051127/https://doc.rust-lang.org/reference/influences.html\">Archived</a> from the original on January 26, 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">April 18,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Rust+Reference&amp;rft.atitle=Influences+-+The+Rust+Reference&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Freference%2Finfluences.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-lattner2014-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-lattner2014_17-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLattner2014\" class=\"citation web cs1\">Lattner, Chris (June 3, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"http://nondot.org/sabre/\">\"Chris Lattner's Homepage\"</a>. Chris Lattner. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181225175312/http://nondot.org/sabre/\">Archived</a> from the original on December 25, 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 12,</span> 2020</span>. <q>The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chris+Lattner%27s+Homepage&amp;rft.pub=Chris+Lattner&amp;rft.date=2014-06-03&amp;rft.aulast=Lattner&amp;rft.aufirst=Chris&amp;rft&#95;id=http%3A%2F%2Fnondot.org%2Fsabre%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTESkeet2019-19\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-FOOTNOTESkeet2019_19-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTESkeet2019_19-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><a href=\"#CITEREFSkeet2019\">Skeet 2019</a>.</span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWagner\" class=\"citation web cs1\">Wagner, Bill. <a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14\">\"What's new in C# 14\"</a>. <i>learn.microsoft.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 13,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=learn.microsoft.com&amp;rft.atitle=What%27s+new+in+C%23+14&amp;rft.aulast=Wagner&amp;rft.aufirst=Bill&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fdotnet%2Fcsharp%2Fwhats-new%2Fcsharp-14&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-22\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDollard2023\" class=\"citation web cs1\">Dollard, Kathleen (November 14, 2023). <a rel=\"nofollow\" class=\"external text\" href=\"https://devblogs.microsoft.com/dotnet/announcing-csharp-12/\">\"Announcing C# 12\"</a>. <i>.NET Blog</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20231118121012/https://devblogs.microsoft.com/dotnet/announcing-csharp-12/\">Archived</a> from the original on November 18, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 18,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=.NET+Blog&amp;rft.atitle=Announcing+C%23+12&amp;rft.date=2023-11-14&amp;rft.aulast=Dollard&amp;rft.aufirst=Kathleen&amp;rft&#95;id=https%3A%2F%2Fdevblogs.microsoft.com%2Fdotnet%2Fannouncing-csharp-12%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-23\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSeth2023\" class=\"citation web cs1\">Seth, Gaurav (November 14, 2023). <a rel=\"nofollow\" class=\"external text\" href=\"https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/\">\"Announcing .NET 8\"</a>. <i>.NET Blog</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20231119051129/https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/\">Archived</a> from the original on November 19, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 18,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=.NET+Blog&amp;rft.atitle=Announcing+.NET+8&amp;rft.date=2023-11-14&amp;rft.aulast=Seth&amp;rft.aufirst=Gaurav&amp;rft&#95;id=https%3A%2F%2Fdevblogs.microsoft.com%2Fdotnet%2Fannouncing-dotnet-8%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+Sharp+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐8xbrd\nCached time: 20260918180750\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.337 seconds\nReal time usage: 0.559 seconds\nPreprocessor visited node count: 3506/1000000\nRevision size: 11451/2097152 bytes\nPost‐expand include size: 72850/2097152 bytes\nTemplate argument size: 15337/2097152 bytes\nHighest expansion depth: 22/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 40593/5000000 bytes\nLua time usage: 0.183/10.000 seconds\nLua memory usage: 11381268/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  527.474      1 -total\n 35.95%  189.627      2 Template:Infobox\n 31.45%  165.908      1 Template:Infobox_programming_language\n 19.11%  100.790      1 Template:Infobox_software/simple\n 13.75%   72.504      4 Template:Wikidata\n 10.19%   53.755      1 Template:Short_description\n  8.48%   44.743      2 Template:Sfn\n  6.87%   36.215      3 Template:Pagetype\n  5.69%   30.039      1 Template:Correct_title\n  4.86%   25.658      3 Template:Start_date_and_age\n-->\n\n<!-- Render ID dc1e6679-b38b-11f1-8019-b1372cebe6cb -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "C-sharp (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".NET",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".NET Core",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".NET Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Anders Hejlsberg",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boxing (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chapel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Language Infrastructure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Component-based software engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crystal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cω",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dart (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DotGNU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ecma International",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Event-driven programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Foreach loop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPLv3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hack (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Icon (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Electrotechnical Commission",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Organization for Standardization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International standard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java annotation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kotlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LGPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lexically scoped",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of C-family programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C Sharp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mono (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nemerle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominative type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Number sign",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object Pascal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oxygene (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Polyphonic C Sharp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Roslyn (compiler)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Task-based Asynchronous Pattern",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TypeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Universal Windows Platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Variadic function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Basic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual J++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual J Sharp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio Code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayback Machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YouTube",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Naming conventions (technical restrictions)",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose programming language",
+          "page_image_free": "C_Sharp_Logo_2023.svg",
+          "wikibase_item": "Q2370"
+        }
+      }
+    }
+  ]
+}

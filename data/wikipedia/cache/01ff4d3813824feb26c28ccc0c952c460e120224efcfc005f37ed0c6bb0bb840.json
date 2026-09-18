@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Generic programming",
+    "url": "https://en.wikipedia.org/wiki/Generic_programming",
+    "summary": "Style of computer programming Not to be confused with Genetic programming or Pseudocode . Generic programming is a style of computer programming in which algorithms are written in terms of data types to-be-specified-later that are then instantiated when needed for specific types provided as parameters . This approach, pioneered in the programming language ML in 1973, permits writing common functions or data types that differ only in the set of types on which they operate when used, thus reducing duplicate code . Generic programming was introduced to the mainstream with Ada in 1977. With templates in C++ , generic programming became part of the repertoire of professional library design. The techniques were further improved and parameterized types were introduced in the influential 1994 book Design Patterns . New techniques were introduced by Andrei Alexandrescu in his 2001 book Modern C++ Design : Generic Programming and Design Patterns Applied . Subsequently, D implemented the same ideas. Such software entities are known as generics in Ada , C# , Dart , Delphi , Eiffel , F# , Java , Mojo , Nim , Python , Go , Rust , Swift , TypeScript , and Visual Basic (.NET) . They are known as parametric polymorphism in ML , Scala , Julia , and Haskell . (Haskell terminology also uses the term generic for a related but somewhat different concept.) The term generic programming was originally coined by David Musser and Alexander Stepanov in a more specific sense than the above, to describe a programming paradigm in which fundamental requirements on data types are abstracted from across concrete examples of algorithms and data structures and formalized as concepts , with generic functions implemented in terms of these concepts, typically using language genericity mechanisms as described above. ^ Lee, Kent D. (15 December 2008). Programming Languages: An Active Learning Approach . Springer Science & Business Media. pp. 9– 10. ISBN 978-0-387-79422-8 . ^ Milner, R. ; Morris, L.; Newey, M. (1975). \"A Logic for Computable Functions with Reflexive and Polymorphic Types\". Proceedings of the Conference on Proving and Improving Programs . ^ Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns . Addison-Wesley. ISBN 0-201-63361-2 . ^ Musser & Stepanov 1989 .",
+    "text": "Style of computer programming Not to be confused with Genetic programming or Pseudocode . Generic programming is a style of computer programming in which algorithms are written in terms of data types to-be-specified-later that are then instantiated when needed for specific types provided as parameters . This approach, pioneered in the programming language ML in 1973, permits writing common functions or data types that differ only in the set of types on which they operate when used, thus reducing duplicate code . Generic programming was introduced to the mainstream with Ada in 1977. With templates in C++ , generic programming became part of the repertoire of professional library design. The techniques were further improved and parameterized types were introduced in the influential 1994 book Design Patterns . New techniques were introduced by Andrei Alexandrescu in his 2001 book Modern C++ Design : Generic Programming and Design Patterns Applied . Subsequently, D implemented the same ideas. Such software entities are known as generics in Ada , C# , Dart , Delphi , Eiffel , F# , Java , Mojo , Nim , Python , Go , Rust , Swift , TypeScript , and Visual Basic (.NET) . They are known as parametric polymorphism in ML , Scala , Julia , and Haskell . (Haskell terminology also uses the term generic for a related but somewhat different concept.) The term generic programming was originally coined by David Musser and Alexander Stepanov in a more specific sense than the above, to describe a programming paradigm in which fundamental requirements on data types are abstracted from across concrete examples of algorithms and data structures and formalized as concepts , with generic functions implemented in terms of these concepts, typically using language genericity mechanisms as described above. ^ Lee, Kent D. (15 December 2008). Programming Languages: An Active Learning Approach . Springer Science & Business Media. pp. 9– 10. ISBN 978-0-387-79422-8 . ^ Milner, R. ; Morris, L.; Newey, M. (1975). \"A Logic for Computable Functions with Reflexive and Polymorphic Types\". Proceedings of the Conference on Proving and Improving Programs . ^ Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns . Addison-Wesley. ISBN 0-201-63361-2 . ^ Musser & Stepanov 1989 .",
+    "links": [
+      "Ada (programming language)",
+      "Alexander Stepanov",
+      "Algorithm",
+      "Andrei Alexandrescu",
+      "C Sharp (programming language)",
+      "C++",
+      "Computer programming",
+      "Concept (generic programming)",
+      "D (programming language)",
+      "Dart (programming language)",
+      "Data structure",
+      "Data type",
+      "David Musser",
+      "Delphi (software)",
+      "Design Patterns",
+      "Duplicate code",
+      "Eiffel (programming language)",
+      "F Sharp (programming language)",
+      "Function (computer science)",
+      "Generic function",
+      "Genetic programming",
+      "Go (programming language)",
+      "Haskell",
+      "ISBN (identifier)",
+      "Java (programming language)",
+      "Julia (programming language)",
+      "Library (computing)",
+      "ML (programming language)",
+      "Modern C++ Design",
+      "Mojo (programming language)",
+      "Nim (programming language)",
+      "Parameter (computer programming)",
+      "Parametric polymorphism",
+      "Programming language",
+      "Pseudocode",
+      "Python (programming language)",
+      "Robin Milner",
+      "Rust (programming language)",
+      "Scala (programming language)",
+      "Set (mathematics)",
+      "Swift (programming language)",
+      "Template (C++)",
+      "TypeScript",
+      "Visual Basic (.NET)"
+    ],
+    "page_id": 105837,
+    "revision_id": 1371733676,
+    "retrieved_at": "2026-09-18T18:07:56.115301+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260823073256|1370825357",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 105837,
+            "ns": 0,
+            "title": "Generic programming",
+            "revisions": [
+              {
+                "revid": 1371733676,
+                "parentid": 1370825357
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Style of computer programming",
+              "wikibase_item": "Q1051282"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Generic programming",
+        "pageid": 105837,
+        "revid": 1371733676,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Style of computer programming</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Genetic_programming\" title=\"Genetic programming\">Genetic programming</a> or <a href=\"/wiki/Pseudocode\" title=\"Pseudocode\">Pseudocode</a>.</div>\n<p><b>Generic programming</b> is a style of <a href=\"/wiki/Computer_programming\" title=\"Computer programming\">computer programming</a> in which <a href=\"/wiki/Algorithm\" title=\"Algorithm\">algorithms</a> are written in terms of <a href=\"/wiki/Data_type\" title=\"Data type\">data types</a> <i>to-be-specified-later</i> that are then <i>instantiated</i> when needed for specific types provided as <a href=\"/wiki/Parameter_(computer_programming)\" title=\"Parameter (computer programming)\">parameters</a>. This approach, pioneered in the <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a> in 1973,<sup id=\"cite&#95;ref-Lee2008&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Lee2008-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> permits writing common <a href=\"/wiki/Function_(computer_science)\" class=\"mw-redirect\" title=\"Function (computer science)\">functions</a> or <a href=\"/wiki/Data_type\" title=\"Data type\">data types</a> that differ only in the <a href=\"/wiki/Set_(mathematics)\" title=\"Set (mathematics)\">set</a> of types on which they operate when used, thus reducing <a href=\"/wiki/Duplicate_code\" title=\"Duplicate code\">duplicate code</a>.\n</p><p>Generic programming was introduced to the mainstream with <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a> in 1977. With <a href=\"/wiki/Template_(C%2B%2B)\" title=\"Template (C++)\">templates</a> in <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, generic programming became part of the repertoire of professional <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">library</a> design. The techniques were further improved and <i>parameterized types</i> were introduced in the influential 1994 book <i><a href=\"/wiki/Design_Patterns\" title=\"Design Patterns\">Design Patterns</a></i>.<sup id=\"cite&#95;ref-GoF&#95;3-0\" class=\"reference\"><a href=\"#cite_note-GoF-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>New techniques were introduced by <a href=\"/wiki/Andrei_Alexandrescu\" title=\"Andrei Alexandrescu\">Andrei Alexandrescu</a> in his 2001 book <i><a href=\"/wiki/Modern_C%2B%2B_Design\" title=\"Modern C++ Design\">Modern C++ Design</a>: Generic Programming and Design Patterns Applied</i>. Subsequently, <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a> implemented the same ideas.\n</p><p>Such software entities are known as <i>generics</i> in <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/Dart_(programming_language)\" title=\"Dart (programming language)\">Dart</a>, <a href=\"/wiki/Delphi_(software)\" title=\"Delphi (software)\">Delphi</a>, <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>, <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/Mojo_(programming_language)\" title=\"Mojo (programming language)\">Mojo</a>, <a href=\"/wiki/Nim_(programming_language)\" title=\"Nim (programming language)\">Nim</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>, <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>, <a href=\"/wiki/TypeScript\" title=\"TypeScript\">TypeScript</a>, and <a href=\"/wiki/Visual_Basic_(.NET)\" title=\"Visual Basic (.NET)\">Visual Basic (.NET)</a>. They are known as <i><a href=\"/wiki/Parametric_polymorphism\" title=\"Parametric polymorphism\">parametric polymorphism</a></i> in <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a>, <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>, and <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>. (Haskell terminology also uses the term <i>generic</i> for a related but somewhat different concept.)\n</p><p>The term <i>generic programming</i> was originally coined by <a href=\"/wiki/David_Musser\" title=\"David Musser\">David Musser</a> and <a href=\"/wiki/Alexander_Stepanov\" title=\"Alexander Stepanov\">Alexander Stepanov</a><sup id=\"cite&#95;ref-FOOTNOTEMusserStepanov1989&#95;4-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEMusserStepanov1989-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> in a more specific sense than the above, to describe a programming paradigm in which fundamental requirements on data types are abstracted from across concrete examples of algorithms and <a href=\"/wiki/Data_structure\" title=\"Data structure\">data structures</a> and formalized as <a href=\"/wiki/Concept_(generic_programming)\" title=\"Concept (generic programming)\">concepts</a>, with <a href=\"/wiki/Generic_function\" title=\"Generic function\">generic functions</a> implemented in terms of these concepts, typically using language genericity mechanisms as described above.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Lee2008-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Lee2008_1-0\">^</a></b></span> <span class=\"reference-text\">\n<style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFLee2008\" class=\"citation book cs1\">Lee, Kent D. (15 December 2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=OuW5dC2O99AC&amp;pg=PA9\"><i>Programming Languages: An Active Learning Approach</i></a>. Springer Science &amp; Business Media. pp.&#160;<span class=\"nowrap\">9–</span>10. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-387-79422-8\" title=\"Special:BookSources/978-0-387-79422-8\"><bdi>978-0-387-79422-8</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Programming+Languages%3A+An+Active+Learning+Approach&amp;rft.pages=9-10&amp;rft.pub=Springer+Science+%26+Business+Media&amp;rft.date=2008-12-15&amp;rft.isbn=978-0-387-79422-8&amp;rft.aulast=Lee&amp;rft.aufirst=Kent+D.&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DOuW5dC2O99AC%26pg%3DPA9&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeneric+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMilnerMorrisNewey1975\" class=\"citation conference cs1\"><a href=\"/wiki/Robin_Milner\" title=\"Robin Milner\">Milner, R.</a>; Morris, L.; Newey, M. (1975). \"A Logic for Computable Functions with Reflexive and Polymorphic Types\". <i>Proceedings of the Conference on Proving and Improving Programs</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=A+Logic+for+Computable+Functions+with+Reflexive+and+Polymorphic+Types&amp;rft.btitle=Proceedings+of+the+Conference+on+Proving+and+Improving+Programs&amp;rft.date=1975&amp;rft.aulast=Milner&amp;rft.aufirst=R.&amp;rft.au=Morris%2C+L.&amp;rft.au=Newey%2C+M.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeneric+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-GoF-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-GoF_3-0\">^</a></b></span> <span class=\"reference-text\">\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGammaHelmJohnsonVlissides1994\" class=\"citation book cs1\">Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). <span class=\"id-lock-registration\" title=\"Free registration required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/designpatternsel00gamm\"><i>Design Patterns</i></a></span>. Addison-Wesley. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-201-63361-2\" title=\"Special:BookSources/0-201-63361-2\"><bdi>0-201-63361-2</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Design+Patterns&amp;rft.pub=Addison-Wesley&amp;rft.date=1994&amp;rft.isbn=0-201-63361-2&amp;rft.aulast=Gamma&amp;rft.aufirst=Erich&amp;rft.au=Helm%2C+Richard&amp;rft.au=Johnson%2C+Ralph&amp;rft.au=Vlissides%2C+John&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fdesignpatternsel00gamm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGeneric+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEMusserStepanov1989-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEMusserStepanov1989_4-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFMusserStepanov1989\">Musser &amp; Stepanov 1989</a>.</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐t4z9d\nCached time: 20260918180821\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.109 seconds\nReal time usage: 0.176 seconds\nPreprocessor visited node count: 415/1000000\nRevision size: 3659/2097152 bytes\nPost‐expand include size: 7397/2097152 bytes\nTemplate argument size: 679/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7743/5000000 bytes\nLua time usage: 0.081/10.000 seconds\nLua memory usage: 5109324/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  163.965      1 -total\n 35.31%   57.892      1 Template:Short_description\n 29.96%   49.132      2 Template:Cite_book\n 24.04%   39.414      2 Template:Pagetype\n 15.66%   25.680      1 Template:Sfn\n  9.99%   16.378      1 Template:Distinguish\n  6.53%   10.713      4 Template:Main_other\n  5.75%    9.430      1 Template:SDcat\n  5.24%    8.593      1 Template:Use_dmy_dates\n  3.41%    5.598      1 Template:DMCA\n-->\n\n<!-- Render ID ee989bbd-b38b-11f1-8dda-8774fe79b437 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Genetic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pseudocode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alexander Stepanov",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Andrei Alexandrescu",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concept (generic programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dart (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "David Musser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Delphi (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Design Patterns",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duplicate code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modern C++ Design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mojo (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nim (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parameter (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parametric polymorphism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robin Milner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Set (mathematics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Template (C++)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TypeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Basic (.NET)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Style of computer programming",
+          "wikibase_item": "Q1051282"
+        }
+      }
+    }
+  ]
+}

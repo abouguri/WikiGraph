@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Raku (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Raku_%28programming_language%29",
+    "summary": "Programming language derived from Perl This article is about the programming language. For other uses, see Raku (disambiguation) . Raku Camelia, the Raku mascot Paradigm Multi-paradigm Family Perl Designed by Larry Wall Developer Raku community First appeared 25 December 2015 ; 10 years ago ( 2015-12-25 ) Stable release 6.d 'Diwali' / 24 October 2020 ; 5 years ago ( 2020-10-24 ) Typing discipline Dynamic , gradual OS Cross-platform License GNU General Public or Artistic 2 Filename extensions .raku, .rakumod, .rakudoc, .rakutest, .nqp Website raku .org Major implementations Rakudo , Raku++ Influenced by Perl , Ruby , Smalltalk , Haskell , JavaScript Influenced Perl , Haskell , AntLang Raku is a member of the Perl family of programming languages . Formerly named Perl 6 , it was renamed in October 2019. Raku introduces elements of many modern and historical languages. Compatibility with Perl was not a goal, though a compatibility mode is part of the specification. The design process for Raku began in 2000. ^ Cite error: The named reference camelia was invoked but never defined (see the help page ). ^ \"Announce: Raku Perl 6 'Diwali' 6.d Language Specification Release\" . blogs.perl.org . Zoffix Znet. 5 November 2018 . Retrieved 19 August 2022 . ^ \"Filename extensions\" . Raku Documentation . ^ Andrew Shitov. \"Raku++, a Raku compiler in C++\" . ^ \"Glossary of Terms and Jargon\" . Perl Foundation Perl 6 Wiki . The Perl Foundation . 28 February 2011. Archived from the original on 21 January 2012 . Retrieved 8 February 2015 . ^ a b 唐鳳, a.k.a. Audrey Tang (21 April 2010). \"How to Implement Perl 6 in '10\" . Archived from the original on 25 April 2010. ^ \"About Perl\" . perl.org . Retrieved 11 June 2020 . \"Perl\" is a family of languages, \"Raku\" (formerly known as \"Perl 6\") is part of the family, but it is a separate language which has its own development team. Its existence has no significant impact on the continuing development of \"Perl\". ^ \"Perl 6 renamed to Raku\" . LWN.net . 15 October 2019 . Retrieved 16 October 2019 . ^ \"TPF response to Raku rename\" . 29 October 2019.",
+    "text": "Programming language derived from Perl This article is about the programming language. For other uses, see Raku (disambiguation) . Raku Camelia, the Raku mascot Paradigm Multi-paradigm Family Perl Designed by Larry Wall Developer Raku community First appeared 25 December 2015 ; 10 years ago ( 2015-12-25 ) Stable release 6.d 'Diwali' / 24 October 2020 ; 5 years ago ( 2020-10-24 ) Typing discipline Dynamic , gradual OS Cross-platform License GNU General Public or Artistic 2 Filename extensions .raku, .rakumod, .rakudoc, .rakutest, .nqp Website raku .org Major implementations Rakudo , Raku++ Influenced by Perl , Ruby , Smalltalk , Haskell , JavaScript Influenced Perl , Haskell , AntLang Raku is a member of the Perl family of programming languages . Formerly named Perl 6 , it was renamed in October 2019. Raku introduces elements of many modern and historical languages. Compatibility with Perl was not a goal, though a compatibility mode is part of the specification. The design process for Raku began in 2000. ^ Cite error: The named reference camelia was invoked but never defined (see the help page ). ^ \"Announce: Raku Perl 6 'Diwali' 6.d Language Specification Release\" . blogs.perl.org . Zoffix Znet. 5 November 2018 . Retrieved 19 August 2022 . ^ \"Filename extensions\" . Raku Documentation . ^ Andrew Shitov. \"Raku++, a Raku compiler in C++\" . ^ \"Glossary of Terms and Jargon\" . Perl Foundation Perl 6 Wiki . The Perl Foundation . 28 February 2011. Archived from the original on 21 January 2012 . Retrieved 8 February 2015 . ^ a b 唐鳳, a.k.a. Audrey Tang (21 April 2010). \"How to Implement Perl 6 in '10\" . Archived from the original on 25 April 2010. ^ \"About Perl\" . perl.org . Retrieved 11 June 2020 . \"Perl\" is a family of languages, \"Raku\" (formerly known as \"Perl 6\") is part of the family, but it is a separate language which has its own development team. Its existence has no significant impact on the continuing development of \"Perl\". ^ \"Perl 6 renamed to Raku\" . LWN.net . 15 October 2019 . Retrieved 16 October 2019 . ^ \"TPF response to Raku rename\" . 29 October 2019.",
+    "links": [
+      "Artistic License",
+      "Audrey Tang",
+      "Compatibility mode",
+      "Cross-platform",
+      "Dynamic typing",
+      "Filename extension",
+      "GNU General Public License",
+      "Gradual typing",
+      "Haskell",
+      "JavaScript",
+      "LWN.net",
+      "Larry Wall",
+      "Multi-paradigm",
+      "Operating system",
+      "Perl",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Raku (disambiguation)",
+      "Raku++",
+      "Rakudo",
+      "Ruby (programming language)",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "The Perl Foundation",
+      "Type system"
+    ],
+    "page_id": 1146638,
+    "revision_id": 1375143193,
+    "retrieved_at": "2026-09-18T18:08:13.223468+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260916021056|1375142996",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1146638,
+            "ns": 0,
+            "title": "Raku (programming language)",
+            "revisions": [
+              {
+                "revid": 1375143193,
+                "parentid": 1375142996
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Camelia.svg",
+              "wikibase-shortdesc": "Programming language derived from Perl",
+              "wikibase_item": "Q2052676"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Raku (programming language)",
+        "pageid": 1146638,
+        "revid": 1375143193,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language derived from Perl</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For other uses, see <a href=\"/wiki/Raku_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"Raku (disambiguation)\">Raku (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Raku</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Camelia.svg\" class=\"mw-file-description\"><img alt=\"Camelia, the Raku mascot\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Camelia.svg/250px-Camelia.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"175\" height=\"128\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Camelia.svg/500px-Camelia.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"948\" data-file-height=\"693\" /></a></span><div class=\"infobox-caption\">Camelia, the Raku mascot<sup id=\"cite&#95;ref-camelia&#95;1-0\" class=\"reference\"><a href=\"#cite_note-camelia-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Perl\" title=\"Perl\">Perl</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Larry_Wall\" title=\"Larry Wall\">Larry Wall</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Raku community</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">25&#160;December 2015<span class=\"noprint\">&#59;&#32;10 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2015-12-25</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">6.d 'Diwali'<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / 24&#160;October 2020<span class=\"noprint\">&#59;&#32;5 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2020-10-24</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">gradual</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU General Public</a> or <a href=\"/wiki/Artistic_License\" title=\"Artistic License\">Artistic 2</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.raku, .rakumod, .rakudoc, .rakutest, .nqp<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://raku.org/\">raku<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Rakudo\" title=\"Rakudo\">Rakudo</a>, <a href=\"/w/index.php?title=Raku%2B%2B&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Raku++ (page does not exist)\">Raku++</a><sup id=\"cite&#95;ref-rakupp&#95;4-0\" class=\"reference\"><a href=\"#cite_note-rakupp-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a>, <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>,<sup id=\"cite&#95;ref-Tang2010&#95;6-0\" class=\"reference\"><a href=\"#cite_note-Tang2010-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>,<sup id=\"cite&#95;ref-Tang2010&#95;6-1\" class=\"reference\"><a href=\"#cite_note-Tang2010-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> AntLang</td></tr></tbody></table>\n<p><b>Raku</b> is a member of the <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a> family of <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a>.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> Formerly named <b>Perl 6</b>, it was renamed in October 2019.<sup id=\"cite&#95;ref-renamed&#95;8-0\" class=\"reference\"><a href=\"#cite_note-renamed-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> Raku introduces elements of many modern and historical languages. Compatibility with Perl was not a goal, though a <a href=\"/wiki/Compatibility_mode\" title=\"Compatibility mode\">compatibility mode</a> is part of the specification. The design process for Raku began in 2000.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-camelia-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-camelia_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>camelia</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://blogs.perl.org/users/zoffix_znet/2018/11/announce-raku-perl-6-diwali-6d-language-specification-release.html\">\"Announce: Raku Perl 6 'Diwali' 6.d Language Specification Release\"</a>. <i>blogs.perl.org</i>. Zoffix Znet. 5 November 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">19 August</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=blogs.perl.org&amp;rft.atitle=Announce%3A+Raku+Perl+6+%27Diwali%27+6.d+Language+Specification+Release&amp;rft.date=2018-11-05&amp;rft&#95;id=http%3A%2F%2Fblogs.perl.org%2Fusers%2Fzoffix&#95;znet%2F2018%2F11%2Fannounce-raku-perl-6-diwali-6d-language-specification-release.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.raku.org/language/filename-extensions\">\"Filename extensions\"</a>. <i>Raku Documentation</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Raku+Documentation&amp;rft.atitle=Filename+extensions&amp;rft&#95;id=https%3A%2F%2Fdocs.raku.org%2Flanguage%2Ffilename-extensions&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-rakupp-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-rakupp_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAndrew&#95;Shitov\" class=\"citation web cs1\">Andrew Shitov. <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/ash/rakupp\">\"Raku++, a Raku compiler in C++\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Raku%2B%2B%2C+a+Raku+compiler+in+C%2B%2B&amp;rft.au=Andrew+Shitov&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fash%2Frakupp&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120121145808/http://www.perlfoundation.org/perl6/index.cgi?glossary_of_terms_and_jargon\">\"Glossary of Terms and Jargon\"</a>. <i>Perl Foundation Perl 6 Wiki</i>. <a href=\"/wiki/The_Perl_Foundation\" class=\"mw-redirect\" title=\"The Perl Foundation\">The Perl Foundation</a>. 28 February 2011. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.perlfoundation.org/perl6/index.cgi?glossary_of_terms_and_jargon\">the original</a> on 21 January 2012<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 February</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Perl+Foundation+Perl+6+Wiki&amp;rft.atitle=Glossary+of+Terms+and+Jargon&amp;rft.date=2011-02-28&amp;rft&#95;id=http%3A%2F%2Fwww.perlfoundation.org%2Fperl6%2Findex.cgi%3Fglossary&#95;of&#95;terms&#95;and&#95;jargon&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Tang2010-6\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Tang2010_6-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Tang2010_6-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREF唐鳳,&#95;a.k.a.&#95;Audrey&#95;Tang2010\" class=\"citation web cs1\">唐鳳, a.k.a. <a href=\"/wiki/Audrey_Tang\" title=\"Audrey Tang\">Audrey Tang</a> (21 April 2010). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20100425002903/http://pugs.blogs.com/pugs/2010/04/how-to-implement-perl-6-in-10.html\">\"How to Implement Perl 6 in '10\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://pugs.blogs.com/pugs/2010/04/how-to-implement-perl-6-in-10.html\">the original</a> on 25 April 2010.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=How+to+Implement+Perl+6+in+%2710&amp;rft.date=2010-04-21&amp;rft.au=%E5%94%90%E9%B3%B3%2C+a.k.a.+Audrey+Tang&amp;rft&#95;id=http%3A%2F%2Fpugs.blogs.com%2Fpugs%2F2010%2F04%2Fhow-to-implement-perl-6-in-10.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.perl.org/about.html\">\"About Perl\"</a>. perl.org<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 June</span> 2020</span>. <q><span class=\"cs1-kern-left\"></span>\"Perl\" is a family of languages, \"Raku\" (formerly known as \"Perl 6\") is part of the family, but it is a separate language which has its own development team. Its existence has no significant impact on the continuing development of \"Perl\".</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=About+Perl&amp;rft.pub=perl.org&amp;rft&#95;id=http%3A%2F%2Fwww.perl.org%2Fabout.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-renamed-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-renamed_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://lwn.net/Articles/802329/\">\"Perl 6 renamed to Raku\"</a>. <a href=\"/wiki/LWN.net\" title=\"LWN.net\">LWN.net</a>. 15 October 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 October</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Perl+6+renamed+to+Raku&amp;rft.pub=LWN.net&amp;rft.date=2019-10-15&amp;rft&#95;id=https%3A%2F%2Flwn.net%2FArticles%2F802329%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://news.perlfoundation.org/post/tpf-response-raku-rename\">\"TPF response to Raku rename\"</a>. 29 October 2019.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=TPF+response+to+Raku+rename&amp;rft.date=2019-10-29&amp;rft&#95;id=https%3A%2F%2Fnews.perlfoundation.org%2Fpost%2Ftpf-response-raku-rename&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARaku+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐68g2r\nCached time: 20260918180838\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.407 seconds\nReal time usage: 0.581 seconds\nPreprocessor visited node count: 1557/1000000\nRevision size: 3643/2097152 bytes\nPost‐expand include size: 29567/2097152 bytes\nTemplate argument size: 3692/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 22569/5000000 bytes\nLua time usage: 0.241/10.000 seconds\nLua memory usage: 5968050/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  546.758      1 -total\n 32.30%  176.628      2 Template:Infobox\n 27.91%  152.624      8 Template:Cite_web\n 25.27%  138.143      1 Template:Infobox_programming_language\n 17.63%   96.400      1 Template:Short_description\n 11.13%   60.869      2 Template:Pagetype\n  8.98%   49.088      1 Template:Infobox_software/simple\n  6.37%   34.825      1 Template:About\n  6.10%   33.338      2 Template:Broken_ref\n  5.66%   30.938      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID f8ba9e7c-b38b-11f1-9e5c-c3a0718621ed -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Raku (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artistic License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Audrey Tang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compatibility mode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LWN.net",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Larry Wall",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rakudo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Perl Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raku++",
+            "exists": false
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language derived from Perl",
+          "page_image_free": "Camelia.svg",
+          "wikibase_item": "Q2052676"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Metaprogramming",
+    "url": "https://en.wikipedia.org/wiki/Metaprogramming",
+    "summary": "Programming paradigm This article is about the computer programming technique. For the management technique, see Charles Simonyi . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Metaprogramming\" – news · newspapers · books · scholar · JSTOR ( August 2011 ) ( Learn how and when to remove this message ) This article's style of writing may not reflect the encyclopedic tone used on Wikipedia . See Wikipedia's guide to writing better articles for suggestions. ( February 2017 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Metaprogramming is a computer programming technique in which computer programs have the ability to treat other programs as their data . It means that a program can be designed to read, generate, analyse, or transform other programs, and even modify itself, while running. In some cases, this allows programmers to minimize the number of lines of code to express a solution, in turn reducing development time. It also allows programs more flexibility to efficiently handle new situations with no recompiling. Metaprogramming can be used to move computations from runtime to compile time , to generate code using compile time computations , and to enable self-modifying code . The ability of a programming language to be its own metalanguage allows reflective programming , and is termed reflection . Reflection is a valuable language feature to facilitate metaprogramming. Metaprogramming was popular in the 1970s and 1980s using list processing languages such as Lisp . Lisp machine hardware gained some notice in the 1980s, and enabled applications that could process code. They were often used for artificial intelligence applications. ^ Sondergaard, Harald (2013). \"Course on Program Analysis and Transformation\" . Retrieved 18 September 2014 . ^ Czarnecki, Krzysztof ; Eisenecker, Ulrich W. (2000). Generative Programming . Addison Wesley. ISBN 0-201-30977-7 . ^ Walker, Max. \"The Art of Metaprogrmming in Java\" . New Circle . Retrieved 28 January 2014 . ^ Krauss, Aaron. \"Programming Concepts: Type Introspection and Reflection\" . Archived from the original on 10 March 2016 . Retrieved 10 March 2016 .",
+    "text": "Programming paradigm This article is about the computer programming technique. For the management technique, see Charles Simonyi . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Metaprogramming\" – news · newspapers · books · scholar · JSTOR ( August 2011 ) ( Learn how and when to remove this message ) This article's style of writing may not reflect the encyclopedic tone used on Wikipedia . See Wikipedia's guide to writing better articles for suggestions. ( February 2017 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Metaprogramming is a computer programming technique in which computer programs have the ability to treat other programs as their data . It means that a program can be designed to read, generate, analyse, or transform other programs, and even modify itself, while running. In some cases, this allows programmers to minimize the number of lines of code to express a solution, in turn reducing development time. It also allows programs more flexibility to efficiently handle new situations with no recompiling. Metaprogramming can be used to move computations from runtime to compile time , to generate code using compile time computations , and to enable self-modifying code . The ability of a programming language to be its own metalanguage allows reflective programming , and is termed reflection . Reflection is a valuable language feature to facilitate metaprogramming. Metaprogramming was popular in the 1970s and 1980s using list processing languages such as Lisp . Lisp machine hardware gained some notice in the 1980s, and enabled applications that could process code. They were often used for artificial intelligence applications. ^ Sondergaard, Harald (2013). \"Course on Program Analysis and Transformation\" . Retrieved 18 September 2014 . ^ Czarnecki, Krzysztof ; Eisenecker, Ulrich W. (2000). Generative Programming . Addison Wesley. ISBN 0-201-30977-7 . ^ Walker, Max. \"The Art of Metaprogrmming in Java\" . New Circle . Retrieved 28 January 2014 . ^ Krauss, Aaron. \"Programming Concepts: Type Introspection and Reflection\" . Archived from the original on 10 March 2016 . Retrieved 10 March 2016 .",
+    "links": [
+      "Artificial intelligence",
+      "Charles Simonyi",
+      "Compile time",
+      "Compile-time function execution",
+      "Computer program",
+      "Computer programming",
+      "Data",
+      "ISBN (identifier)",
+      "Krzysztof Czarnecki",
+      "Lisp (programming language)",
+      "Lisp machine",
+      "Metalanguage",
+      "Programming language",
+      "Reflective programming",
+      "Runtime (program lifecycle phase)",
+      "Self-modifying code"
+    ],
+    "page_id": 393460,
+    "revision_id": 1374069173,
+    "retrieved_at": "2026-09-18T18:07:58.052972+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260829030532|1371886888",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 393460,
+            "ns": 0,
+            "title": "Metaprogramming",
+            "revisions": [
+              {
+                "revid": 1374069173,
+                "parentid": 1371886888
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming paradigm",
+              "wikibase_item": "Q661075"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Metaprogramming",
+        "pageid": 393460,
+        "revid": 1374069173,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming paradigm</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the computer programming technique. For the management technique, see <a href=\"/wiki/Charles_Simonyi\" title=\"Charles Simonyi\">Charles Simonyi</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Metaprogramming\" title=\"Special:EditPage/Metaprogramming\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Metaprogramming\" title=\"Talk:Metaprogramming\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Metaprogramming\" title=\"Special:EditPage/Metaprogramming\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Metaprogramming%22\">\"Metaprogramming\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Metaprogramming%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Metaprogramming%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Metaprogramming%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Metaprogramming%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Metaprogramming%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">August 2011</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Tone plainlinks metadata ambox ambox-style ambox-Tone\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/120px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article's style of writing <b>may not reflect the <a href=\"/wiki/Wikipedia:Writing_better_articles#Tone\" title=\"Wikipedia:Writing better articles\">encyclopedic tone</a> used on Wikipedia</b>.<span class=\"hide-when-compact\"> See Wikipedia's <a href=\"/wiki/Wikipedia:Writing_better_articles#Tone\" title=\"Wikipedia:Writing better articles\">guide to writing better articles</a> for suggestions.</span>  <span class=\"date-container\"><i>(<span class=\"date\">February 2017</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p><b>Metaprogramming</b> is a <a href=\"/wiki/Computer_programming\" title=\"Computer programming\">computer programming</a> technique in which <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer programs</a> have the ability to treat other programs as their <a href=\"/wiki/Data\" title=\"Data\">data</a>. It means that a program can be designed to read, generate, analyse, or transform other programs, and even modify itself, while running.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> In some cases, this allows programmers to minimize the number of lines of code to express a solution, in turn reducing development time.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> It also allows programs more flexibility to efficiently handle new situations with no recompiling.\n</p><p>Metaprogramming can be used to move computations from <a href=\"/wiki/Runtime_(program_lifecycle_phase)\" class=\"mw-redirect\" title=\"Runtime (program lifecycle phase)\">runtime</a> to <a href=\"/wiki/Compile_time\" title=\"Compile time\">compile time</a>, to generate code using <a href=\"/wiki/Compile-time_function_execution\" title=\"Compile-time function execution\">compile time computations</a>, and to enable <a href=\"/wiki/Self-modifying_code\" title=\"Self-modifying code\">self-modifying code</a>. The ability of a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> to be its own <a href=\"/wiki/Metalanguage\" title=\"Metalanguage\">metalanguage</a> allows <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective programming</a>, and is termed <i>reflection</i>.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Reflection is a valuable language feature to facilitate metaprogramming.\n</p><p>Metaprogramming was popular in the 1970s and 1980s using list processing languages such as <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>. <a href=\"/wiki/Lisp_machine\" title=\"Lisp machine\">Lisp machine</a> hardware gained some notice in the 1980s, and enabled applications that could process code. They were often used for <a href=\"/wiki/Artificial_intelligence\" title=\"Artificial intelligence\">artificial intelligence</a> applications.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFSondergaard2013\" class=\"citation web cs1\">Sondergaard, Harald (2013). <a rel=\"nofollow\" class=\"external text\" href=\"https://handbook.unimelb.edu.au/view/2013/COMP90053\">\"Course on Program Analysis and Transformation\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">18 September</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Course+on+Program+Analysis+and+Transformation&amp;rft.date=2013&amp;rft.aulast=Sondergaard&amp;rft.aufirst=Harald&amp;rft&#95;id=https%3A%2F%2Fhandbook.unimelb.edu.au%2Fview%2F2013%2FCOMP90053&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMetaprogramming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFCzarneckiEisenecker2000\" class=\"citation book cs1\"><a href=\"/wiki/Krzysztof_Czarnecki\" title=\"Krzysztof Czarnecki\">Czarnecki, Krzysztof</a>; Eisenecker, Ulrich W. (2000). <i>Generative Programming</i>. Addison Wesley. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-201-30977-7\" title=\"Special:BookSources/0-201-30977-7\"><bdi>0-201-30977-7</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Generative+Programming&amp;rft.pub=Addison+Wesley&amp;rft.date=2000&amp;rft.isbn=0-201-30977-7&amp;rft.aulast=Czarnecki&amp;rft.aufirst=Krzysztof&amp;rft.au=Eisenecker%2C+Ulrich+W.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMetaprogramming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWalker\" class=\"citation web cs1\">Walker, Max. <a rel=\"nofollow\" class=\"external text\" href=\"https://newcircle.com/s/post/1267/the_art_of_metaprogramming_in_java_video_jaxconf\">\"The Art of Metaprogrmming in Java\"</a>. <i>New Circle</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">28 January</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=New+Circle&amp;rft.atitle=The+Art+of+Metaprogrmming+in+Java&amp;rft.aulast=Walker&amp;rft.aufirst=Max&amp;rft&#95;id=https%3A%2F%2Fnewcircle.com%2Fs%2Fpost%2F1267%2Fthe&#95;art&#95;of&#95;metaprogramming&#95;in&#95;java&#95;video&#95;jaxconf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMetaprogramming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKrauss\" class=\"citation web cs1\">Krauss, Aaron. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160310192057/https://thesocietea.org/2016/02/programming-concepts-type-introspection-and-reflection/\">\"Programming Concepts: Type Introspection and Reflection\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://thesocietea.org/2016/02/programming-concepts-type-introspection-and-reflection/\">the original</a> on 10 March 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">10 March</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Programming+Concepts%3A+Type+Introspection+and+Reflection&amp;rft.aulast=Krauss&amp;rft.aufirst=Aaron&amp;rft&#95;id=https%3A%2F%2Fthesocietea.org%2F2016%2F02%2Fprogramming-concepts-type-introspection-and-reflection%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMetaprogramming\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐4hdgt\nCached time: 20260918180823\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.300 seconds\nReal time usage: 0.448 seconds\nPreprocessor visited node count: 533/1000000\nRevision size: 2558/2097152 bytes\nPost‐expand include size: 37587/2097152 bytes\nTemplate argument size: 11342/2097152 bytes\nHighest expansion depth: 17/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 15481/5000000 bytes\nLua time usage: 0.212/10.000 seconds\nLua memory usage: 5169034/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  425.321      1 -total\n 32.73%  139.228      1 Template:Multiple_issues\n 28.70%  122.072      3 Template:Cite_web\n 25.28%  107.534      1 Template:Short_description\n 18.84%   80.122      1 Template:More_citations_needed\n 18.61%   79.146      2 Template:Ambox\n 13.48%   57.327      2 Template:Pagetype\n  7.66%   32.588      3 Template:Main_other\n  7.45%   31.698      1 Template:About\n  6.85%   29.123      1 Template:SDcat\n-->\n\n<!-- Render ID efc9cc82-b38b-11f1-a5a4-65bc394de2a8 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Charles Simonyi",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile-time function execution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Krzysztof Czarnecki",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metalanguage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime (program lifecycle phase)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Self-modifying code",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:Metaprogramming",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Writing better articles",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming paradigm",
+          "wikibase_item": "Q661075"
+        }
+      }
+    }
+  ]
+}

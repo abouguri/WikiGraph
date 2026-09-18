@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Kernel (operating system)",
+    "url": "https://en.wikipedia.org/wiki/Kernel_%28operating_system%29",
+    "summary": "Core of a computer operating system \"Kernel (computer science)\" redirects here. For other computer related uses, see Kernel (disambiguation) § Computing . For other uses, see Kernel (disambiguation) . A simplification of how a kernel connects application software to the hardware of a computer A kernel is a computer program at the core of a computer 's operating system that always has complete control over everything in the system. The kernel is also responsible for preventing and mitigating conflicts between different processes. It is the portion of the operating system that is always resident in memory and facilitates interactions between hardware and software components. A full kernel controls all hardware resources (e.g. I/O , memory, cryptography) via device drivers , arbitrates conflicts between processes concerning such resources, and optimizes the use of common resources, such as CPU , cache , file systems, and network sockets. On most systems, the kernel is one of the first programs loaded on startup (after the bootloader ). It handles the rest of startup as well as memory, peripherals , and input/output (I/O) requests from software , translating them into data-processing instructions for the central processing unit . The critical code of the kernel is usually loaded into a separate area of memory, which is protected from access by application software or other less critical parts of the operating system. The kernel performs its tasks, such as scheduling processes, managing hardware devices such as the hard disk , and handling interrupts , in this protected kernel space . In contrast, application programs such as browsers, word processors, or audio or video players use a separate area of memory, user space . This prevents user data and kernel data from interfering with each other and causing instability and slowness, as well as preventing malfunctioning applications from affecting other applications or crashing the entire operating system. Even in systems where the kernel is included in application address spaces , memory protection is used to prevent unauthorized applications from modifying the kernel. The kernel's interface is a low-level abstraction layer . When a process requests a service from the kernel, it must invoke a system call , usually through a wrapper function . There are different kernel architecture designs. Monolithic kernels run entirely in a single address space with the CPU executing in supervisor mode , mainly for speed. Microkernels run most but not all of their services in user space, like user processes do, mainly for resilience and modularity . MINIX 3 is a notable example of microkernel design. Some kernels, such as the Linux kernel , are both monolithic and modular, since they can insert and remove loadable kernel modules at runtime. This central component of a computer system is responsible for executing programs. The kernel takes responsibility for deciding at any time which of the many running programs should be allocated to the processor or processors. ^ a b \"Kernel\" . Linfo . Bellevue Linux Users Group. Archived from the original on 8 December 2006 . Retrieved 15 September 2016 . ^ Randal E. Bryant; David R. O'Hallaron (2016). Computer Systems: A Programmer's Perspective (Third ed.). Pearson. p. 17. ISBN 978-0-13-409266-9 . ^ cf. Daemon (computing) ^ Roch 2004",
+    "text": "Core of a computer operating system \"Kernel (computer science)\" redirects here. For other computer related uses, see Kernel (disambiguation) § Computing . For other uses, see Kernel (disambiguation) . A simplification of how a kernel connects application software to the hardware of a computer A kernel is a computer program at the core of a computer 's operating system that always has complete control over everything in the system. The kernel is also responsible for preventing and mitigating conflicts between different processes. It is the portion of the operating system that is always resident in memory and facilitates interactions between hardware and software components. A full kernel controls all hardware resources (e.g. I/O , memory, cryptography) via device drivers , arbitrates conflicts between processes concerning such resources, and optimizes the use of common resources, such as CPU , cache , file systems, and network sockets. On most systems, the kernel is one of the first programs loaded on startup (after the bootloader ). It handles the rest of startup as well as memory, peripherals , and input/output (I/O) requests from software , translating them into data-processing instructions for the central processing unit . The critical code of the kernel is usually loaded into a separate area of memory, which is protected from access by application software or other less critical parts of the operating system. The kernel performs its tasks, such as scheduling processes, managing hardware devices such as the hard disk , and handling interrupts , in this protected kernel space . In contrast, application programs such as browsers, word processors, or audio or video players use a separate area of memory, user space . This prevents user data and kernel data from interfering with each other and causing instability and slowness, as well as preventing malfunctioning applications from affecting other applications or crashing the entire operating system. Even in systems where the kernel is included in application address spaces , memory protection is used to prevent unauthorized applications from modifying the kernel. The kernel's interface is a low-level abstraction layer . When a process requests a service from the kernel, it must invoke a system call , usually through a wrapper function . There are different kernel architecture designs. Monolithic kernels run entirely in a single address space with the CPU executing in supervisor mode , mainly for speed. Microkernels run most but not all of their services in user space, like user processes do, mainly for resilience and modularity . MINIX 3 is a notable example of microkernel design. Some kernels, such as the Linux kernel , are both monolithic and modular, since they can insert and remove loadable kernel modules at runtime. This central component of a computer system is responsible for executing programs. The kernel takes responsibility for deciding at any time which of the many running programs should be allocated to the processor or processors. ^ a b \"Kernel\" . Linfo . Bellevue Linux Users Group. Archived from the original on 8 December 2006 . Retrieved 15 September 2016 . ^ Randal E. Bryant; David R. O'Hallaron (2016). Computer Systems: A Programmer's Perspective (Third ed.). Pearson. p. 17. ISBN 978-0-13-409266-9 . ^ cf. Daemon (computing) ^ Roch 2004",
+    "links": [
+      "API",
+      "Abstraction layer",
+      "Address space",
+      "Application software",
+      "Booting",
+      "Bootloader",
+      "Cache (computing)",
+      "Central processing unit",
+      "Computer",
+      "Computer memory",
+      "Computer program",
+      "Daemon (computing)",
+      "Data processing",
+      "Device driver",
+      "Hard disk drive",
+      "High- and low-level",
+      "ISBN (identifier)",
+      "Input/output",
+      "Interrupt",
+      "Kernel (disambiguation)",
+      "Linux kernel",
+      "Loadable kernel module",
+      "MINIX 3",
+      "Memory protection",
+      "Microkernel",
+      "Modular programming",
+      "Monolithic kernel",
+      "Operating system",
+      "Peripheral",
+      "Process (computing)",
+      "Protection ring",
+      "Software",
+      "System call",
+      "User space and kernel space",
+      "Wrapper function"
+    ],
+    "page_id": 21346982,
+    "revision_id": 1375068885,
+    "retrieved_at": "2026-09-18T18:09:41.878460+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260904014354|1373100220",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 21346982,
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "revisions": [
+              {
+                "revid": 1375068885,
+                "parentid": 1373100220
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Kernel (Computing)",
+              "page_image_free": "Kernel_Layout.svg",
+              "wikibase-shortdesc": "Core of a computer operating system",
+              "wikibase_item": "Q9662"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Kernel (operating system)",
+        "pageid": 21346982,
+        "revid": 1375068885,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Core of a computer operating system</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Kernel (computer science)\" redirects here. For other computer related uses, see <a href=\"/wiki/Kernel_(disambiguation)#Computing\" class=\"mw-redirect mw-disambig\" title=\"Kernel (disambiguation)\">Kernel (disambiguation) §&#160;Computing</a>. For other uses, see <a href=\"/wiki/Kernel_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"Kernel (disambiguation)\">Kernel (disambiguation)</a>.</div>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Kernel_Layout.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/250px-Kernel_Layout.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"197\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/500px-Kernel_Layout.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"380\" data-file-height=\"300\" /></a><figcaption>A simplification of how a kernel connects <a href=\"/wiki/Application_software\" title=\"Application software\">application software</a> to the hardware of a computer</figcaption></figure>\n<p>A <b>kernel</b> is a <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a> at the core of a <a href=\"/wiki/Computer\" title=\"Computer\">computer</a>'s <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> that always has complete control over everything in the system. The kernel is also responsible for preventing and mitigating conflicts between different processes.<sup id=\"cite&#95;ref-Linfo&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Linfo-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> It is the portion of the operating system that is always resident in <a href=\"/wiki/Computer_memory\" title=\"Computer memory\">memory</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> and facilitates interactions between hardware and software components. A full kernel controls all hardware resources (e.g. <a href=\"/wiki/Input/output\" title=\"Input/output\">I/O</a>, memory, cryptography) via <a href=\"/wiki/Device_driver\" title=\"Device driver\">device drivers</a>, arbitrates conflicts between processes concerning such resources, and optimizes the use of common resources, such as <a href=\"/wiki/Central_processing_unit\" title=\"Central processing unit\">CPU</a>, <a href=\"/wiki/Cache_(computing)\" title=\"Cache (computing)\">cache</a>, file systems, and network sockets. On most systems, the kernel is one of the first programs loaded on <a href=\"/wiki/Booting\" title=\"Booting\">startup</a> (after the <a href=\"/wiki/Bootloader\" title=\"Bootloader\">bootloader</a>). It handles the rest of startup as well as memory, <a href=\"/wiki/Peripheral\" title=\"Peripheral\">peripherals</a>, and <a href=\"/wiki/Input/output\" title=\"Input/output\">input/output</a> (I/O) requests from <a href=\"/wiki/Software\" title=\"Software\">software</a>, translating them into <a href=\"/wiki/Data_processing\" title=\"Data processing\">data-processing</a> instructions for the <a href=\"/wiki/Central_processing_unit\" title=\"Central processing unit\">central processing unit</a>.\n</p><p>The critical code of the kernel is usually loaded into a separate area of memory, which is protected from access by <a href=\"/wiki/Application_software\" title=\"Application software\">application software</a> or other less critical parts of the operating system. The kernel performs its tasks, such as scheduling processes, managing hardware devices such as the <a href=\"/wiki/Hard_disk_drive\" title=\"Hard disk drive\">hard disk</a>, and handling <a href=\"/wiki/Interrupt\" title=\"Interrupt\">interrupts</a>, in this protected <a href=\"/wiki/User_space_and_kernel_space\" title=\"User space and kernel space\">kernel space</a>. In contrast, application programs such as browsers, word processors, or audio or video players use a separate area of memory, <a href=\"/wiki/User_space_and_kernel_space\" title=\"User space and kernel space\">user space</a>. This prevents user data and kernel data from interfering with each other and causing instability and slowness,<sup id=\"cite&#95;ref-Linfo&#95;1-1\" class=\"reference\"><a href=\"#cite_note-Linfo-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> as well as preventing malfunctioning applications from affecting other applications or crashing the entire operating system. Even in systems where the kernel is included in application <a href=\"/wiki/Address_space\" title=\"Address space\">address spaces</a>, <a href=\"/wiki/Memory_protection\" title=\"Memory protection\">memory protection</a> is used to prevent unauthorized applications from modifying the kernel.\n</p><p>The kernel's <a href=\"/wiki/API\" title=\"API\">interface</a> is a <a href=\"/wiki/High-_and_low-level\" title=\"High- and low-level\">low-level</a> <a href=\"/wiki/Abstraction_layer\" title=\"Abstraction layer\">abstraction layer</a>. When a <a href=\"/wiki/Process_(computing)\" title=\"Process (computing)\">process</a> requests a service from the kernel, it must invoke a <a href=\"/wiki/System_call\" title=\"System call\">system call</a>, usually through a <a href=\"/wiki/Wrapper_function\" title=\"Wrapper function\">wrapper function</a>.\n</p><p>There are different kernel architecture designs. <a href=\"/wiki/Monolithic_kernel\" title=\"Monolithic kernel\">Monolithic kernels</a> run entirely in a single <a href=\"/wiki/Address_space\" title=\"Address space\">address space</a> with the CPU executing in <a href=\"/wiki/Protection_ring\" title=\"Protection ring\">supervisor mode</a>, mainly for speed. <a href=\"/wiki/Microkernel\" title=\"Microkernel\">Microkernels</a> run most but not all of their services in user space,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> like user processes do, mainly for resilience and <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modularity</a>.<sup id=\"cite&#95;ref-mono-micro&#95;4-0\" class=\"reference\"><a href=\"#cite_note-mono-micro-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/MINIX_3\" class=\"mw-redirect\" title=\"MINIX 3\">MINIX 3</a> is a notable example of microkernel design. Some kernels, such as the <a href=\"/wiki/Linux_kernel\" title=\"Linux kernel\">Linux kernel</a>, are both monolithic and modular, since they can insert and remove <a href=\"/wiki/Loadable_kernel_module\" title=\"Loadable kernel module\">loadable kernel modules</a> at runtime.\n</p><p>This central component of a computer system is responsible for executing programs. The kernel takes responsibility for deciding at any time which of the many running programs should be allocated to the processor or processors.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Linfo-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Linfo_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Linfo_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.linfo.org/kernel.html\">\"Kernel\"</a>. <i>Linfo</i>. Bellevue Linux Users Group. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20061208185439/http://www.linfo.org/kernel.html\">Archived</a> from the original on 8 December 2006<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 September</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Linfo&amp;rft.atitle=Kernel&amp;rft&#95;id=http%3A%2F%2Fwww.linfo.org%2Fkernel.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AKernel+%28operating+system%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRandal&#95;E.&#95;BryantDavid&#95;R.&#95;O&#39;Hallaron2016\" class=\"citation book cs1\">Randal E. Bryant; David R. O'Hallaron (2016). <i>Computer Systems: A Programmer's Perspective</i> (Third&#160;ed.). Pearson. p.&#160;17. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-13-409266-9\" title=\"Special:BookSources/978-0-13-409266-9\"><bdi>978-0-13-409266-9</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Computer+Systems%3A+A+Programmer%27s+Perspective&amp;rft.pages=17&amp;rft.edition=Third&amp;rft.pub=Pearson&amp;rft.date=2016&amp;rft.isbn=978-0-13-409266-9&amp;rft.au=Randal+E.+Bryant&amp;rft.au=David+R.+O%27Hallaron&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AKernel+%28operating+system%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\">cf. <a href=\"/wiki/Daemon_(computing)\" title=\"Daemon (computing)\">Daemon (computing)</a></span>\n</li>\n<li id=\"cite&#95;note-mono-micro-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-mono-micro_4-0\">^</a></b></span> <span class=\"reference-text\">Roch 2004</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐9zmzm\nCached time: 20260918181007\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.198 seconds\nReal time usage: 0.286 seconds\nPreprocessor visited node count: 225/1000000\nRevision size: 4059/2097152 bytes\nPost‐expand include size: 4469/2097152 bytes\nTemplate argument size: 427/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5660/5000000 bytes\nLua time usage: 0.140/10.000 seconds\nLua memory usage: 3441037/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  260.773      1 -total\n 40.02%  104.364      1 Template:Short_description\n 39.43%  102.815      1 Template:Cite_web\n 22.24%   57.990      2 Template:Pagetype\n 14.44%   37.648      1 Template:Redirect\n  8.76%   22.835      2 Template:Main_other\n  7.17%   18.709      1 Template:SDcat\n  2.33%    6.088      1 Template:Cite_book\n  1.58%    4.126      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 2dc6efa1-b38c-11f1-8cea-9511e165b15d -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Kernel (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "API",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstraction layer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Address space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Booting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bootloader",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cache (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Central processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Daemon (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Device driver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hard disk drive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High- and low-level",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interrupt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Loadable kernel module",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MINIX 3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory protection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microkernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Peripheral",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Protection ring",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System call",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User space and kernel space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wrapper function",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Core of a computer operating system",
+          "page_image_free": "Kernel_Layout.svg",
+          "wikibase_item": "Q9662"
+        }
+      }
+    }
+  ]
+}

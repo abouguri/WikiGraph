@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Linker (computing)",
+    "url": "https://en.wikipedia.org/wiki/Linker_%28computing%29",
+    "summary": "Program that combines intermediate build files into an executable file An illustration of the linking process. Object files and static libraries are assembled into a new library or executable A linker or link editor is a computer program that combines intermediate software build files such as object and library files into a single executable file such as a program or library. A linker is often part of a toolchain that includes a compiler and/or assembler that generates intermediate files that the linker processes. The linker may be integrated with other toolchain tools such that the user does not interact with the linker directly. A simpler version that writes its output directly to memory is called the loader , though loading is typically considered a separate process. ^ Cite error: The named reference IBM_1972 was invoked but never defined (see the help page ). ^ Cite error: The named reference Barron_1978_Consolidator was invoked but never defined (see the help page ).",
+    "text": "Program that combines intermediate build files into an executable file An illustration of the linking process. Object files and static libraries are assembled into a new library or executable A linker or link editor is a computer program that combines intermediate software build files such as object and library files into a single executable file such as a program or library. A linker is often part of a toolchain that includes a compiler and/or assembler that generates intermediate files that the linker processes. The linker may be integrated with other toolchain tools such that the user does not interact with the linker directly. A simpler version that writes its output directly to memory is called the loader , though loading is typically considered a separate process. ^ Cite error: The named reference IBM_1972 was invoked but never defined (see the help page ). ^ Cite error: The named reference Barron_1978_Consolidator was invoked but never defined (see the help page ).",
+    "links": [
+      "Assembler (computing)",
+      "Compiler",
+      "Computer memory",
+      "Computer program",
+      "Development tool",
+      "Executable",
+      "Input/output",
+      "Library (computing)",
+      "Loader (computing)",
+      "Object file",
+      "Software build",
+      "Static library",
+      "Toolchain"
+    ],
+    "page_id": 18566,
+    "revision_id": 1375395635,
+    "retrieved_at": "2026-09-18T18:08:55.619185+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260703012250|1362298320",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 18566,
+            "ns": 0,
+            "title": "Linker (computing)",
+            "revisions": [
+              {
+                "revid": 1375395635,
+                "parentid": 1362298320
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Linker.svg",
+              "wikibase-shortdesc": "Program that combines intermediate build files into an executable file",
+              "wikibase_item": "Q523796"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Linker (computing)",
+        "pageid": 18566,
+        "revid": 1375395635,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Program that combines intermediate build files into an executable file</div>\n<p class=\"mw-empty-elt\">\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Linker.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Linker.svg/250px-Linker.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"305\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Linker.svg/500px-Linker.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"344\" data-file-height=\"420\" /></a><figcaption>An illustration of the linking process. Object files and <a href=\"/wiki/Static_library\" title=\"Static library\">static libraries</a> are assembled into a new library or executable</figcaption></figure>\n<p>A <b>linker</b> or <b>link editor</b> is a <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a> that combines intermediate <a href=\"/wiki/Software_build\" title=\"Software build\">software build</a> files such as <a href=\"/wiki/Object_file\" title=\"Object file\">object</a> and <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">library</a> files into a single <a href=\"/wiki/Executable\" title=\"Executable\">executable</a> file such as a program or library. A linker is often part of a <a href=\"/wiki/Toolchain\" title=\"Toolchain\">toolchain</a> that includes a <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> and/or <a href=\"/wiki/Assembler_(computing)\" class=\"mw-redirect\" title=\"Assembler (computing)\">assembler</a> that generates intermediate files that the linker processes. The linker may be integrated with other toolchain <a href=\"/wiki/Development_tool\" class=\"mw-redirect\" title=\"Development tool\">tools</a> such that the user does not interact with the linker directly.\n</p><p>A simpler version that writes its <a href=\"/wiki/Input/output\" title=\"Input/output\">output</a> directly to <a href=\"/wiki/Computer_memory\" title=\"Computer memory\">memory</a> is called the <i>loader</i>, though <a href=\"/wiki/Loader_(computing)\" title=\"Loader (computing)\">loading</a> is typically considered a separate process.<sup id=\"cite&#95;ref-IBM&#95;1972&#95;1-0\" class=\"reference\"><a href=\"#cite_note-IBM_1972-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Barron&#95;1978&#95;Consolidator&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Barron_1978_Consolidator-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-IBM&#95;1972-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-IBM_1972_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>IBM_1972</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Barron&#95;1978&#95;Consolidator-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Barron_1978_Consolidator_2-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Barron_1978_Consolidator</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐5bn5r\nCached time: 20260918180921\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.067 seconds\nReal time usage: 0.133 seconds\nPreprocessor visited node count: 443/1000000\nRevision size: 1139/2097152 bytes\nPost‐expand include size: 5313/2097152 bytes\nTemplate argument size: 2389/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 402/5000000 bytes\nLua time usage: 0.018/10.000 seconds\nLua memory usage: 1701318/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  121.117      1 -total\n 43.49%   52.675      1 Template:Short_description\n 23.91%   28.954      2 Template:Pagetype\n 17.52%   21.223      4 Template:Broken_ref\n 12.82%   15.524      3 Template:Main_other\n 11.95%   14.476      1 Template:SDcat\n  7.95%    9.624      1 Template:Use_dmy_dates\n  5.22%    6.327      1 Template:DMCA\n  3.95%    4.782      1 Template:Dated_maintenance_category\n  2.96%    3.580      1 Template:FULLROOTPAGENAME\n-->\n\n<!-- Render ID 125be0cf-b38c-11f1-b9e5-9b337166e97e -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Assembler (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Development tool",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Loader (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object file",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software build",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Toolchain",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Program that combines intermediate build files into an executable file",
+          "page_image_free": "Linker.svg",
+          "wikibase_item": "Q523796"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Computing platform",
+    "url": "https://en.wikipedia.org/wiki/Computing_platform",
+    "summary": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Computing platform\" – news · newspapers · books · scholar · JSTOR ( August 2024 ) ( Learn how and when to remove this message ) Environment in which a piece of software is executed A computing platform , digital platform , or software platform is the infrastructure on which software is executed. While the individual components of a computing platform may be obfuscated under layers of abstraction , the summation of the required components comprise the computing platform . Sometimes, the most relevant layer for a specific software is called a computing platform in itself to facilitate the communication, referring to the whole using only one of its attributes – i.e. using a metonymy . For example, in a single computer system, this would be the computer's architecture , operating system (OS), and runtime libraries . In the case of an application program or a computer video game , the most relevant layer is the operating system, so it can be called a platform itself (hence the term cross-platform for software that can be executed on multiple OSes, in this context). In a multi-computer system, such as in the case of offloading processing, it would encompass both the host computer's hardware , operating system (OS), and runtime libraries along with other computers utilized for processing that are accessed via application programming interfaces or a web browser . As long as it is a required component for the program code to execute, it is part of the computing platform. ^ \"What I Talk About When I Talk About Platforms\" . martinfowler.com . Retrieved 2018-03-18 . ^ \" platform \".",
+    "text": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Computing platform\" – news · newspapers · books · scholar · JSTOR ( August 2024 ) ( Learn how and when to remove this message ) Environment in which a piece of software is executed A computing platform , digital platform , or software platform is the infrastructure on which software is executed. While the individual components of a computing platform may be obfuscated under layers of abstraction , the summation of the required components comprise the computing platform . Sometimes, the most relevant layer for a specific software is called a computing platform in itself to facilitate the communication, referring to the whole using only one of its attributes – i.e. using a metonymy . For example, in a single computer system, this would be the computer's architecture , operating system (OS), and runtime libraries . In the case of an application program or a computer video game , the most relevant layer is the operating system, so it can be called a platform itself (hence the term cross-platform for software that can be executed on multiple OSes, in this context). In a multi-computer system, such as in the case of offloading processing, it would encompass both the host computer's hardware , operating system (OS), and runtime libraries along with other computers utilized for processing that are accessed via application programming interfaces or a web browser . As long as it is a required component for the program code to execute, it is part of the computing platform. ^ \"What I Talk About When I Talk About Platforms\" . martinfowler.com . Retrieved 2018-03-18 . ^ \" platform \".",
+    "links": [
+      "Abstraction (software engineering)",
+      "Application programming interface",
+      "Application software",
+      "Computer architecture",
+      "Computer hardware",
+      "Cross-platform software",
+      "Metonymy",
+      "Operating system",
+      "Process (computing)",
+      "Runtime library",
+      "Software",
+      "Video game",
+      "Web browser"
+    ],
+    "page_id": 81196,
+    "revision_id": 1371896952,
+    "retrieved_at": "2026-09-18T18:07:32.754621+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260721141313|1365296134",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 81196,
+            "ns": 0,
+            "title": "Computing platform",
+            "revisions": [
+              {
+                "revid": 1371896952,
+                "parentid": 1365296134
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Environment in which a piece of software is executed",
+              "wikibase_item": "Q241317"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Computing platform",
+        "pageid": 81196,
+        "revid": 1371896952,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Computing_platform\" title=\"Special:EditPage/Computing platform\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Computing+platform%22\">\"Computing platform\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Computing+platform%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Computing+platform%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Computing+platform%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Computing+platform%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Computing+platform%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">August 2024</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Environment in which a piece of software is executed</div>\n<p>A <b>computing platform</b>, <b>digital platform</b>,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> or <b>software platform</b> is the infrastructure on which <a href=\"/wiki/Software\" title=\"Software\">software</a> is executed. While the individual components of a computing platform  may be obfuscated under layers of <a href=\"/wiki/Abstraction_(software_engineering)\" class=\"mw-redirect\" title=\"Abstraction (software engineering)\">abstraction</a>, the <i>summation of the required components comprise the computing platform</i>. \n</p><p>Sometimes, the most relevant layer for a specific software is called a computing platform in itself to facilitate the communication, referring to the whole using only one of its attributes – i.e. using a <a href=\"/wiki/Metonymy\" title=\"Metonymy\">metonymy</a>. \n</p><p>For example, in a single computer system, this would be the computer's <a href=\"/wiki/Computer_architecture\" title=\"Computer architecture\">architecture</a>, <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> (OS), and <a href=\"/wiki/Runtime_library\" title=\"Runtime library\">runtime libraries</a>.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> In the case of an <a href=\"/wiki/Application_software\" title=\"Application software\">application program</a> or a computer <a href=\"/wiki/Video_game\" title=\"Video game\">video game</a>, the most relevant layer is the operating system, so it can be called a platform itself (hence the term <a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">cross-platform</a> for software that can be executed on multiple OSes, in this context). \nIn a multi-computer system, such as in the case of offloading processing, it would encompass both the host computer's <a href=\"/wiki/Computer_hardware\" title=\"Computer hardware\">hardware</a>, <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> (OS), and <a href=\"/wiki/Runtime_library\" title=\"Runtime library\">runtime libraries</a> along with other computers utilized for  <a href=\"/wiki/Process_(computing)\" title=\"Process (computing)\">processing</a> that are accessed via <a href=\"/wiki/Application_programming_interface\" class=\"mw-redirect\" title=\"Application programming interface\">application programming interfaces</a> or a <a href=\"/wiki/Web_browser\" title=\"Web browser\">web browser</a>. As long as it is a required component for the program code to execute, it is part of the computing platform.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation news cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://martinfowler.com/articles/talk-about-platforms.html\">\"What I Talk About When I Talk About Platforms\"</a>. <i>martinfowler.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2018-03-18</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=martinfowler.com&amp;rft.atitle=What+I+Talk+About+When+I+Talk+About+Platforms&amp;rft&#95;id=https%3A%2F%2Fmartinfowler.com%2Farticles%2Ftalk-about-platforms.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AComputing+platform\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\">\"<a href=\"https://foldoc.org/platform\" class=\"extiw\" title=\"foldoc:platform\">platform</a>\".</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐qv4jl\nCached time: 20260918180758\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.131 seconds\nReal time usage: 0.181 seconds\nPreprocessor visited node count: 229/1000000\nRevision size: 1905/2097152 bytes\nPost‐expand include size: 11784/2097152 bytes\nTemplate argument size: 567/2097152 bytes\nHighest expansion depth: 9/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 4041/5000000 bytes\nLua time usage: 0.096/10.000 seconds\nLua memory usage: 3763628/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  171.790      1 -total\n 36.69%   63.037      1 Template:Cite_news\n 35.54%   61.054      1 Template:More_citations_needed\n 29.09%   49.968      1 Template:Ambox\n 25.53%   43.857      1 Template:Short_description\n 12.69%   21.793      2 Template:Pagetype\n  7.52%   12.925      2 Template:Main_other\n  6.77%   11.633      1 Template:SDcat\n  5.76%    9.891      1 Template:Find_sources_mainspace\n  0.85%    1.463      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID e0e31f46-b38b-11f1-af35-5927e583bac6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Abstraction (software engineering)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application programming interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer hardware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metonymy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Video game",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web browser",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Environment in which a piece of software is executed",
+          "wikibase_item": "Q241317"
+        }
+      }
+    }
+  ]
+}

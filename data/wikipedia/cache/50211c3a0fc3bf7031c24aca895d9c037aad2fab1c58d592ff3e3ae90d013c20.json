@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Linux kernel",
+    "url": "https://en.wikipedia.org/wiki/Linux_kernel",
+    "summary": "Free Unix-like operating system kernel Linux Kernel Tux , mascot of Linux, created by Larry Ewing Linux kernel 6.1.0 kernel booting, under Debian Bookworm Original author Linus Torvalds Developers Community contributors Linus Torvalds Release 0.02 (5 October 1991 ; 34 years ago ( 1991-10-05 ) ) Stable release Regular : 7.2.6 / 14 September 2026 LTS : / Preview release 7.3-rc3 / 13 September 2026 Written in C , assembly , Rust and others Available in English License GPL-2.0-only with Linux-syscall-note Website kernel .org Repository git .kernel .org /pub /scm /linux /kernel /git /torvalds /linux .git The Linux kernel is a free and open-source Unix-like kernel that is used in many computer systems worldwide. The kernel was created by Linus Torvalds in 1991 and was soon adopted as the kernel for the GNU operating system (OS), which was created to be a free replacement for Unix . Since the late 1990s, it has been included in many operating system distributions , many of which are called Linux . One such Linux kernel operating system is Android , which is used in many mobile and embedded devices. Most of the kernel code is written in C as supported by the GNU Compiler Collection (GCC), which has extensions beyond standard C. The code also contains assembly code for architecture-specific logic such as optimizing memory use and task execution. The kernel has a modular design such that modules can be integrated as software components – including dynamically loaded. The kernel is monolithic in an architectural sense since the entire OS kernel runs in kernel space . Linux is provided under the GNU General Public License version 2, although it contains files under other compatible licenses . ^ \"Linux Logos and Mascots\" . Linux Online. 2008. Archived from the original on 15 August 2010 . Retrieved 19 September 2024 . ^ Greg Kroah-Hartman (14 September 2026). \"Linux 7.2.6\" . Retrieved 14 September 2026 . ^ Linus Torvalds (13 September 2026). \"Linux 7.3-rc3\" . Retrieved 14 September 2026 . ^ Russell, Paul Rusty . \"GNU Extensions\" . Unreliable Guide To Hacking The Linux Kernel . Retrieved 4 August 2025 . ^ MaskRay (12 May 2024). \"Exploring GNU extensions in the Linux kernel\" . MaskRay . Archived from the original on 29 July 2025 . Retrieved 4 August 2025 . ^ Bergmann, Arnd (3 March 2022). \"Kbuild: move to -std=gnu11\" . Linux kernel mailing list (Mailing list). Archived from the original on 16 July 2023 . Retrieved 19 October 2025 . ^ Leemhuis, Thorsten (10 December 2025). \"Linux Kernel: Rust Support Officially Approved\" . heise.de . Retrieved 12 December 2025 . ^ \"torvalds/linux: Linux kernel source tree\" . GitHub . Archived from the original on 4 June 2018 . Retrieved 6 May 2026 . ^ Cite error: The named reference COPYING_File was invoked but never defined (see the help page ). ^ \"GNU General Public License v2.0 only\" . spdx.org . Archived from the original on 16 July 2022 . Retrieved 2 September 2021 . ^ \"Linux Syscall Note\" . spdx.org . Archived from the original on 30 January 2023 . Retrieved 2 September 2021 . ^ \"GPL-2.0\" . git.kernel.org . Archived from the original on 16 July 2023 . Retrieved 2 September 2021 . ^ \"Linux-syscall-note\" . git.kernel.org . Archived from the original on 18 January 2023 . Retrieved 2 September 2021 . ^ a b \"Linux kernel licensing rules\" . The Linux Kernel documentation . Archived from the original on 7 March 2020 . Retrieved 6 January 2020 . ^ a b c Love, Robert (2010). Linux kernel development (3rd ed.). Upper Saddle River, NJ: Addison-Wesley . ISBN 978-0-672-32946-3 . LCCN 2010018961 . OCLC 268788260 . OL 25534863M . ^ \"Extensions to the C Language Family\" . gcc.gnu.org . Archived from the original on 20 November 2020 . Retrieved 13 November 2020 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Free Unix-like operating system kernel Linux Kernel Tux , mascot of Linux, created by Larry Ewing Linux kernel 6.1.0 kernel booting, under Debian Bookworm Original author Linus Torvalds Developers Community contributors Linus Torvalds Release 0.02 (5 October 1991 ; 34 years ago ( 1991-10-05 ) ) Stable release Regular : 7.2.6 / 14 September 2026 LTS : / Preview release 7.3-rc3 / 13 September 2026 Written in C , assembly , Rust and others Available in English License GPL-2.0-only with Linux-syscall-note Website kernel .org Repository git .kernel .org /pub /scm /linux /kernel /git /torvalds /linux .git The Linux kernel is a free and open-source Unix-like kernel that is used in many computer systems worldwide. The kernel was created by Linus Torvalds in 1991 and was soon adopted as the kernel for the GNU operating system (OS), which was created to be a free replacement for Unix . Since the late 1990s, it has been included in many operating system distributions , many of which are called Linux . One such Linux kernel operating system is Android , which is used in many mobile and embedded devices. Most of the kernel code is written in C as supported by the GNU Compiler Collection (GCC), which has extensions beyond standard C. The code also contains assembly code for architecture-specific logic such as optimizing memory use and task execution. The kernel has a modular design such that modules can be integrated as software components – including dynamically loaded. The kernel is monolithic in an architectural sense since the entire OS kernel runs in kernel space . Linux is provided under the GNU General Public License version 2, although it contains files under other compatible licenses . ^ \"Linux Logos and Mascots\" . Linux Online. 2008. Archived from the original on 15 August 2010 . Retrieved 19 September 2024 . ^ Greg Kroah-Hartman (14 September 2026). \"Linux 7.2.6\" . Retrieved 14 September 2026 . ^ Linus Torvalds (13 September 2026). \"Linux 7.3-rc3\" . Retrieved 14 September 2026 . ^ Russell, Paul Rusty . \"GNU Extensions\" . Unreliable Guide To Hacking The Linux Kernel . Retrieved 4 August 2025 . ^ MaskRay (12 May 2024). \"Exploring GNU extensions in the Linux kernel\" . MaskRay . Archived from the original on 29 July 2025 . Retrieved 4 August 2025 . ^ Bergmann, Arnd (3 March 2022). \"Kbuild: move to -std=gnu11\" . Linux kernel mailing list (Mailing list). Archived from the original on 16 July 2023 . Retrieved 19 October 2025 . ^ Leemhuis, Thorsten (10 December 2025). \"Linux Kernel: Rust Support Officially Approved\" . heise.de . Retrieved 12 December 2025 . ^ \"torvalds/linux: Linux kernel source tree\" . GitHub . Archived from the original on 4 June 2018 . Retrieved 6 May 2026 . ^ Cite error: The named reference COPYING_File was invoked but never defined (see the help page ). ^ \"GNU General Public License v2.0 only\" . spdx.org . Archived from the original on 16 July 2022 . Retrieved 2 September 2021 . ^ \"Linux Syscall Note\" . spdx.org . Archived from the original on 30 January 2023 . Retrieved 2 September 2021 . ^ \"GPL-2.0\" . git.kernel.org . Archived from the original on 16 July 2023 . Retrieved 2 September 2021 . ^ \"Linux-syscall-note\" . git.kernel.org . Archived from the original on 18 January 2023 . Retrieved 2 September 2021 . ^ a b \"Linux kernel licensing rules\" . The Linux Kernel documentation . Archived from the original on 7 March 2020 . Retrieved 6 January 2020 . ^ a b c Love, Robert (2010). Linux kernel development (3rd ed.). Upper Saddle River, NJ: Addison-Wesley . ISBN 978-0-672-32946-3 . LCCN 2010018961 . OCLC 268788260 . OL 25534863M . ^ \"Extensions to the C Language Family\" . gcc.gnu.org . Archived from the original on 20 November 2020 . Retrieved 13 November 2020 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "Addison-Wesley",
+      "Android (operating system)",
+      "Assembly language",
+      "C (programming language)",
+      "Computer system",
+      "Debian Bookworm",
+      "Free and open-source software",
+      "Free software",
+      "GNU",
+      "GNU Compiler Collection",
+      "GNU General Public License",
+      "GPL compatibility",
+      "Heise.de",
+      "ISBN (identifier)",
+      "Kernel (operating system)",
+      "Kernel space",
+      "LCCN (identifier)",
+      "Larry Ewing",
+      "Linus Torvalds",
+      "Linux",
+      "Linux distribution",
+      "Modular programming",
+      "Monolithic kernel",
+      "OCLC (identifier)",
+      "OL (identifier)",
+      "Operating system",
+      "Programmer",
+      "Repository (version control)",
+      "Robert Love",
+      "Rust (programming language)",
+      "Rusty Russell",
+      "Software component",
+      "Software license",
+      "Software release life cycle",
+      "Tux (mascot)",
+      "Unix",
+      "Unix-like"
+    ],
+    "page_id": 21347315,
+    "revision_id": 1375012025,
+    "retrieved_at": "2026-09-18T18:08:57.152565+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260831014848|1372260544",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 21347315,
+            "ns": 0,
+            "title": "Linux kernel",
+            "revisions": [
+              {
+                "revid": 1375012025,
+                "parentid": 1372260544
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Linux Kernel",
+              "page_image_free": "Tux.svg",
+              "wikibase-shortdesc": "Free Unix-like operating system kernel",
+              "wikibase_item": "Q14579"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Linux kernel",
+        "pageid": 21347315,
+        "revid": 1375012025,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free Unix-like operating system kernel</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Linux Kernel</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Tux.svg\" class=\"mw-file-description\" title=\"Tux\"><img alt=\"Tux\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/120px-Tux.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"142\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/250px-Tux.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"607\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/Tux_(mascot)\" title=\"Tux (mascot)\">Tux</a>, mascot of Linux, created by <a href=\"/wiki/Larry_Ewing\" title=\"Larry Ewing\">Larry Ewing</a><sup id=\"cite&#95;ref-HvDj4&#95;1-0\" class=\"reference\"><a href=\"#cite_note-HvDj4-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Linux_6.1.0-27_kernel_(running_on_Debian_Bookworm).png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Linux_6.1.0-27_kernel_%28running_on_Debian_Bookworm%29.png/250px-Linux_6.1.0-27_kernel_%28running_on_Debian_Bookworm%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"187\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Linux_6.1.0-27_kernel_%28running_on_Debian_Bookworm%29.png/500px-Linux_6.1.0-27_kernel_%28running_on_Debian_Bookworm%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1024\" data-file-height=\"766\" /></a></span><div class=\"infobox-caption\">Linux kernel 6.1.0 kernel booting, under <a href=\"/wiki/Debian_Bookworm\" class=\"mw-redirect\" title=\"Debian Bookworm\">Debian Bookworm</a></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\"><a href=\"/wiki/Linus_Torvalds\" title=\"Linus Torvalds\">Linus Torvalds</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developers</a></th><td class=\"infobox-data\">Community contributors <br /> <a href=\"/wiki/Linus_Torvalds\" title=\"Linus Torvalds\">Linus Torvalds</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">0.02 <small>(5&#160;October 1991<span class=\"noprint\">&#59;&#32;34 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1991-10-05</span>)</span>)</small></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\"><b>Regular</b>:  7.2.6 / 14 September 2026<sup id=\"cite&#95;ref-wikidata-bdf08379c5f44af3dec764457d10fdeef5864a79-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-bdf08379c5f44af3dec764457d10fdeef5864a79-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q14579?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span><br /><b>LTS</b>:    /\n   </div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">7.3-rc3<sup id=\"cite&#95;ref-wikidata-de6c69f71db812e1f2510efe2a65eaca5f2b217b-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-de6c69f71db812e1f2510efe2a65eaca5f2b217b-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q14579?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 13 September 2026</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup> and others<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">English</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GPL-2.0-only</a> with Linux-syscall-note<sup id=\"cite&#95;ref-COPYING&#95;File&#95;11-0\" class=\"reference\"><a href=\"#cite_note-COPYING_File-11\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-spdx.org&#95;GPL-2.0-only&#95;12-0\" class=\"reference\"><a href=\"#cite_note-spdx.org_GPL-2.0-only-12\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-spdx.org&#95;Linux-syscall-note&#95;13-0\" class=\"reference\"><a href=\"#cite_note-spdx.org_Linux-syscall-note-13\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>c<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://kernel.org\">kernel<wbr />.org</a></span>&#160;<span class=\"penicon autoconfirmed-show\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q14579?uselang=en#P856\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git\">git<wbr />.kernel<wbr />.org<wbr />/pub<wbr />/scm<wbr />/linux<wbr />/kernel<wbr />/git<wbr />/torvalds<wbr />/linux<wbr />.git</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q14579#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p>The <b>Linux kernel</b> is a <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source</a><sup id=\"cite&#95;ref-LoveRobert2010&#95;18-0\" class=\"reference\"><a href=\"#cite_note-LoveRobert2010-18\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page: 4\">&#58;&#8202;4&#8202;</span></sup> <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> <a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">kernel</a> that is used in many <a href=\"/wiki/Computer_system\" class=\"mw-redirect\" title=\"Computer system\">computer systems</a> worldwide. The kernel was created by <a href=\"/wiki/Linus_Torvalds\" title=\"Linus Torvalds\">Linus Torvalds</a> in 1991 and was soon adopted as the kernel for the <a href=\"/wiki/GNU\" title=\"GNU\">GNU</a> <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> (OS), which was created to be a <a href=\"/wiki/Free_software\" title=\"Free software\">free</a> replacement for <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a>. Since the late 1990s, it has been included in many <a href=\"/wiki/Linux_distribution\" title=\"Linux distribution\">operating system distributions</a>, many of which are called <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>. One such Linux kernel operating system is <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a>, which is used in many mobile and embedded devices.\n</p><p>Most of the kernel code is written in <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> as supported by the <a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GNU Compiler Collection</a> (GCC), which has extensions beyond standard C.<sup id=\"cite&#95;ref-LoveRobert2010&#95;18-1\" class=\"reference\"><a href=\"#cite_note-LoveRobert2010-18\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page: 18\">&#58;&#8202;18&#8202;</span></sup><sup id=\"cite&#95;ref-oounl&#95;19-0\" class=\"reference\"><a href=\"#cite_note-oounl-19\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> The code also contains <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly</a> code for architecture-specific logic such as optimizing memory use and task execution.<sup id=\"cite&#95;ref-LoveRobert2010&#95;18-2\" class=\"reference\"><a href=\"#cite_note-LoveRobert2010-18\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Pages: 379–380\">&#58;&#8202;379–380&#8202;</span></sup> The kernel has a <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a> design such that modules can be integrated as <a href=\"/wiki/Software_component\" title=\"Software component\">software components</a> – including dynamically loaded. The kernel is <a href=\"/wiki/Monolithic_kernel\" title=\"Monolithic kernel\">monolithic</a> in an architectural sense since the entire OS kernel runs in <a href=\"/wiki/Kernel_space\" class=\"mw-redirect\" title=\"Kernel space\">kernel space</a>.\n</p><p>Linux is provided under the <a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU General Public License</a> version 2, although it contains files under other <a href=\"/wiki/GPL_compatibility\" class=\"mw-redirect\" title=\"GPL compatibility\">compatible licenses</a>.<sup id=\"cite&#95;ref-Linux&#95;Licensing&#95;16-1\" class=\"reference\"><a href=\"#cite_note-Linux_Licensing-16\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-HvDj4-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-HvDj4_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20100815085106/http://www.linux.org/info/logos.html\">\"Linux Logos and Mascots\"</a>. Linux Online. 2008. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.linux.org/info/logos.html\">the original</a> on 15 August 2010<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">19 September</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Linux+Logos+and+Mascots&amp;rft.pub=Linux+Online&amp;rft.date=2008&amp;rft&#95;id=https%3A%2F%2Fwww.linux.org%2Finfo%2Flogos.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-bdf08379c5f44af3dec764457d10fdeef5864a79-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-bdf08379c5f44af3dec764457d10fdeef5864a79-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGreg&#95;Kroah-Hartman2026\" class=\"citation web cs1\">Greg Kroah-Hartman (14 September 2026). <a rel=\"nofollow\" class=\"external text\" href=\"https://lore.kernel.org/lkml/2026091427-finally-dove-794b@gregkh/\">\"Linux 7.2.6\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Linux+7.2.6&amp;rft.date=2026-09-14&amp;rft.au=Greg+Kroah-Hartman&amp;rft&#95;id=https%3A%2F%2Flore.kernel.org%2Flkml%2F2026091427-finally-dove-794b%40gregkh%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-de6c69f71db812e1f2510efe2a65eaca5f2b217b-v20-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-de6c69f71db812e1f2510efe2a65eaca5f2b217b-v20_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLinus&#95;Torvalds2026\" class=\"citation web cs1\">Linus Torvalds (13 September 2026). <a rel=\"nofollow\" class=\"external text\" href=\"https://lore.kernel.org/lkml/CAHk-=wgYVzcwHBPTjpe4Sh7Jd8iXJZthzqHNrwevdci5d7ChiA@mail.gmail.com/\">\"Linux 7.3-rc3\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Linux+7.3-rc3&amp;rft.date=2026-09-13&amp;rft.au=Linus+Torvalds&amp;rft&#95;id=https%3A%2F%2Flore.kernel.org%2Flkml%2FCAHk-%3DwgYVzcwHBPTjpe4Sh7Jd8iXJZthzqHNrwevdci5d7ChiA%40mail.gmail.com%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRussell\" class=\"citation book cs1\"><a href=\"/wiki/Rusty_Russell\" title=\"Rusty Russell\">Russell, Paul Rusty</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://people.netfilter.org/rusty/unreliable-guides/kernel-hacking/conventions-gnu-extns.html\">\"GNU Extensions\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://people.netfilter.org/rusty/unreliable-guides/kernel-hacking/lk-hacking-guide.html\"><i>Unreliable Guide To Hacking The Linux Kernel</i></a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 August</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=GNU+Extensions&amp;rft.btitle=Unreliable+Guide+To+Hacking+The+Linux+Kernel&amp;rft.aulast=Russell&amp;rft.aufirst=Paul+Rusty&amp;rft&#95;id=https%3A%2F%2Fpeople.netfilter.org%2Frusty%2Funreliable-guides%2Fkernel-hacking%2Fconventions-gnu-extns.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMaskRay2024\" class=\"citation web cs1\">MaskRay (12 May 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://maskray.me/blog/2024-05-12-exploring-gnu-extensions-in-linux-kernel\">\"Exploring GNU extensions in the Linux kernel\"</a>. <i>MaskRay</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250729112739/https://maskray.me/blog/2024-05-12-exploring-gnu-extensions-in-linux-kernel\">Archived</a> from the original on 29 July 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 August</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MaskRay&amp;rft.atitle=Exploring+GNU+extensions+in+the+Linux+kernel&amp;rft.date=2024-05-12&amp;rft.au=MaskRay&amp;rft&#95;id=https%3A%2F%2Fmaskray.me%2Fblog%2F2024-05-12-exploring-gnu-extensions-in-linux-kernel&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBergmann2022\" class=\"citation mailinglist cs1\">Bergmann, Arnd (3 March 2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230716094848/https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e8c07082a810f\">\"Kbuild: move to -std=gnu11\"</a>. <i>Linux kernel mailing list</i> (Mailing list). Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e8c07082a810f\">the original</a> on 16 July 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">19 October</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Kbuild%3A+move+to+-std%3Dgnu11&amp;rft.date=2022-03-03&amp;rft.aulast=Bergmann&amp;rft.aufirst=Arnd&amp;rft&#95;id=https%3A%2F%2Fgit.kernel.org%2Fpub%2Fscm%2Flinux%2Fkernel%2Fgit%2Ftorvalds%2Flinux.git%2Fcommit%2F%3Fid%3De8c07082a810f&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-heise-stable-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-heise-stable_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLeemhuis2025\" class=\"citation news cs1\">Leemhuis, Thorsten (10 December 2025). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.heise.de/en/news/Linux-Kernel-Rust-Support-Officially-Approved-11109808.html\">\"Linux Kernel: Rust Support Officially Approved\"</a>. <i><a href=\"/wiki/Heise.de\" class=\"mw-redirect\" title=\"Heise.de\">heise.de</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 December</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=heise.de&amp;rft.atitle=Linux+Kernel%3A+Rust+Support+Officially+Approved&amp;rft.date=2025-12-10&amp;rft.aulast=Leemhuis&amp;rft.aufirst=Thorsten&amp;rft&#95;id=https%3A%2F%2Fwww.heise.de%2Fen%2Fnews%2FLinux-Kernel-Rust-Support-Officially-Approved-11109808.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/torvalds/linux\">\"torvalds/linux: Linux kernel source tree\"</a>. <i>GitHub</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180604121742/https://github.com/torvalds/linux\">Archived</a> from the original on 4 June 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=torvalds%2Flinux%3A+Linux+kernel+source+tree&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Ftorvalds%2Flinux&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-COPYING&#95;File-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-COPYING_File_11-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>COPYING_File</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-spdx.org&#95;GPL-2.0-only-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-spdx.org_GPL-2.0-only_12-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://spdx.org/licenses/GPL-2.0-only.html\">\"GNU General Public License v2.0 only\"</a>. <i>spdx.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220716191925/https://spdx.org/licenses/GPL-2.0-only.html\">Archived</a> from the original on 16 July 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2 September</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=spdx.org&amp;rft.atitle=GNU+General+Public+License+v2.0+only&amp;rft&#95;id=https%3A%2F%2Fspdx.org%2Flicenses%2FGPL-2.0-only.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-spdx.org&#95;Linux-syscall-note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-spdx.org_Linux-syscall-note_13-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://spdx.org/licenses/Linux-syscall-note.html\">\"Linux Syscall Note\"</a>. <i>spdx.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230130173521/https://spdx.org/licenses/Linux-syscall-note.html\">Archived</a> from the original on 30 January 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2 September</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=spdx.org&amp;rft.atitle=Linux+Syscall+Note&amp;rft&#95;id=https%3A%2F%2Fspdx.org%2Flicenses%2FLinux-syscall-note.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-kernel.org&#95;GPL-2.0-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-kernel.org_GPL-2.0_14-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/LICENSES/preferred/GPL-2.0\">\"GPL-2.0\"</a>. <i>git.kernel.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230716101410/https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/LICENSES/preferred/GPL-2.0\">Archived</a> from the original on 16 July 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2 September</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=git.kernel.org&amp;rft.atitle=GPL-2.0&amp;rft&#95;id=https%3A%2F%2Fgit.kernel.org%2Fpub%2Fscm%2Flinux%2Fkernel%2Fgit%2Ftorvalds%2Flinux.git%2Ftree%2FLICENSES%2Fpreferred%2FGPL-2.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-kernel.org&#95;Linux-syscall-note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-kernel.org_Linux-syscall-note_15-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/LICENSES/exceptions/Linux-syscall-note\">\"Linux-syscall-note\"</a>. <i>git.kernel.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230118185814/https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/LICENSES/exceptions/Linux-syscall-note\">Archived</a> from the original on 18 January 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2 September</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=git.kernel.org&amp;rft.atitle=Linux-syscall-note&amp;rft&#95;id=https%3A%2F%2Fgit.kernel.org%2Fpub%2Fscm%2Flinux%2Fkernel%2Fgit%2Ftorvalds%2Flinux.git%2Ftree%2FLICENSES%2Fexceptions%2FLinux-syscall-note&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Linux&#95;Licensing-16\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Linux_Licensing_16-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Linux_Licensing_16-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.kernel.org/doc/html/latest/process/license-rules.html#kernel-licensing\">\"Linux kernel licensing rules\"</a>. <i>The Linux Kernel documentation</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200307065451/https://www.kernel.org/doc/html/latest/process/license-rules.html#kernel-licensing\">Archived</a> from the original on 7 March 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 January</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Linux+Kernel+documentation&amp;rft.atitle=Linux+kernel+licensing+rules&amp;rft&#95;id=https%3A%2F%2Fwww.kernel.org%2Fdoc%2Fhtml%2Flatest%2Fprocess%2Flicense-rules.html%23kernel-licensing&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-LoveRobert2010-18\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-LoveRobert2010_18-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-LoveRobert2010_18-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-LoveRobert2010_18-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLove2010\" class=\"citation book cs1\"><a href=\"/wiki/Robert_Love\" title=\"Robert Love\">Love, Robert</a> (2010). <i>Linux kernel development</i> (3rd&#160;ed.). Upper Saddle River, NJ: <a href=\"/wiki/Addison-Wesley\" title=\"Addison-Wesley\">Addison-Wesley</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-672-32946-3\" title=\"Special:BookSources/978-0-672-32946-3\"><bdi>978-0-672-32946-3</bdi></a>. <a href=\"/wiki/LCCN_(identifier)\" class=\"mw-redirect\" title=\"LCCN (identifier)\">LCCN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://lccn.loc.gov/2010018961\">2010018961</a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/268788260\">268788260</a>. <a href=\"/wiki/OL_(identifier)\" class=\"mw-redirect\" title=\"OL (identifier)\">OL</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://openlibrary.org/books/OL25534863M\">25534863M</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Linux+kernel+development&amp;rft.place=Upper+Saddle+River%2C+NJ&amp;rft.edition=3rd&amp;rft.pub=Addison-Wesley&amp;rft.date=2010&amp;rft&#95;id=info%3Aoclcnum%2F268788260&amp;rft&#95;id=info%3Alccn%2F2010018961&amp;rft&#95;id=https%3A%2F%2Fopenlibrary.org%2Fbooks%2FOL25534863M%23id-name%3DOL&amp;rft.isbn=978-0-672-32946-3&amp;rft.aulast=Love&amp;rft.aufirst=Robert&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-oounl-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-oounl_19-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/onlinedocs/gcc-10.2.0/gcc/C-Extensions.html#C-Extensions\">\"Extensions to the C Language Family\"</a>. <i>gcc.gnu.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201120064908/https://gcc.gnu.org/onlinedocs/gcc-10.2.0/gcc/C-Extensions.html#C-Extensions\">Archived</a> from the original on 20 November 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">13 November</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=gcc.gnu.org&amp;rft.atitle=Extensions+to+the+C+Language+Family&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Fonlinedocs%2Fgcc-10.2.0%2Fgcc%2FC-Extensions.html%23C-Extensions&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALinux+kernel\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐7pvdk\nCached time: 20260918180922\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.813 seconds\nReal time usage: 0.928 seconds\nPreprocessor visited node count: 2825/1000000\nRevision size: 8652/2097152 bytes\nPost‐expand include size: 60144/2097152 bytes\nTemplate argument size: 9049/2097152 bytes\nHighest expansion depth: 20/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 39173/5000000 bytes\nLua time usage: 0.696/10.000 seconds\nLua memory usage: 35191071/52428800 bytes\nNumber of Wikibase entities loaded: 2/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  906.579      1 -total\n 83.53%  757.288      2 Template:Infobox\n 80.08%  726.026      1 Template:Infobox_software\n 67.72%  613.925     11 Template:Wikidata\n 63.03%  571.389     21 Template:If_empty\n 61.72%  559.549      1 Template:Infobox_software/simple\n  6.89%   62.490      1 Template:Short_description\n  4.66%   42.240      2 Template:Pagetype\n  3.74%   33.902      1 Template:Plainlist\n  2.86%   25.971      1 Template:URL\n-->\n\n<!-- Render ID 12f4811e-b38c-11f1-97b1-ebfced6feee1 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Addison-Wesley",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian Bookworm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL compatibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Heise.de",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LCCN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Larry Ewing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linus Torvalds",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OL (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robert Love",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rusty Russell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software component",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tux (mascot)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free Unix-like operating system kernel",
+          "page_image_free": "Tux.svg",
+          "wikibase_item": "Q14579"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Dynamic programming language",
+    "url": "https://en.wikipedia.org/wiki/Dynamic_programming_language",
+    "summary": "Programming languages with runtime extensibility This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article's factual accuracy is disputed . Relevant discussion may be found on the talk page . Please help to ensure that disputed statements are reliably sourced . ( March 2012 ) ( Learn how and when to remove this message ) This article may be confusing or unclear to readers . Please help clarify the article . There might be a discussion about this on the talk page . ( October 2009 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) A dynamic programming language is a type of programming language that allows various operations to be determined and executed at runtime. This is different from the compilation phase. Key decisions about variables, method calls, or data types are made when the program is running, unlike in static languages , where the structure and types are fixed during compilation. Dynamic languages provide flexibility. This allows developers to write more adaptable and concise code. For instance, in a dynamic language, a variable can start as an integer. It can later be reassigned to hold a string without explicit type declarations. This feature of dynamic typing enables more fluid and less restrictive coding. Developers can focus on the logic and functionality rather than the constraints of the language.",
+    "text": "Programming languages with runtime extensibility This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article's factual accuracy is disputed . Relevant discussion may be found on the talk page . Please help to ensure that disputed statements are reliably sourced . ( March 2012 ) ( Learn how and when to remove this message ) This article may be confusing or unclear to readers . Please help clarify the article . There might be a discussion about this on the talk page . ( October 2009 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) A dynamic programming language is a type of programming language that allows various operations to be determined and executed at runtime. This is different from the compilation phase. Key decisions about variables, method calls, or data types are made when the program is running, unlike in static languages , where the structure and types are fixed during compilation. Dynamic languages provide flexibility. This allows developers to write more adaptable and concise code. For instance, in a dynamic language, a variable can start as an integer. It can later be reassigned to hold a string without explicit type declarations. This feature of dynamic typing enables more fluid and less restrictive coding. Developers can focus on the logic and functionality rather than the constraints of the language.",
+    "links": [
+      "Static program analysis"
+    ],
+    "page_id": 234079,
+    "revision_id": 1358844202,
+    "retrieved_at": "2026-09-18T18:09:26.562182+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260606102913|1358066409",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 234079,
+            "ns": 0,
+            "title": "Dynamic programming language",
+            "revisions": [
+              {
+                "revid": 1358844202,
+                "parentid": 1358066409
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Dynamic Programming Language",
+              "wikibase-shortdesc": "Programming languages with runtime extensibility",
+              "wikibase_item": "Q1268980"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Dynamic programming language",
+        "pageid": 234079,
+        "revid": 1358844202,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming languages with runtime extensibility</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Dynamic_programming_language\" title=\"Special:EditPage/Dynamic programming language\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Dynamic_programming_language\" title=\"Talk:Dynamic programming language\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Disputed plainlinks metadata ambox ambox-content ambox-disputed\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/17/System-search.svg/60px-System-search.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"45\" height=\"45\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/17/System-search.svg/120px-System-search.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article's <b>factual accuracy is <a href=\"/wiki/Wikipedia:Accuracy_dispute\" title=\"Wikipedia:Accuracy dispute\">disputed</a></b>.<span class=\"hide-when-compact\"> Relevant discussion may be found on the <a href=\"/wiki/Talk:Dynamic_programming_language#Disputed\" title=\"Talk:Dynamic programming language\">talk page</a>. Please help to ensure that disputed statements are <a href=\"/wiki/Wikipedia:Reliable_sources\" title=\"Wikipedia:Reliable sources\">reliably sourced</a>.</span>  <span class=\"date-container\"><i>(<span class=\"date\">March 2012</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Confusing plainlinks metadata ambox ambox-style ambox-confusing\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/120px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may be <a href=\"/wiki/Wikipedia:Vagueness\" title=\"Wikipedia:Vagueness\">confusing or unclear</a> to readers</b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Wikipedia:Please_clarify\" title=\"Wikipedia:Please clarify\">clarify the article</a>. There might be a discussion about this on <a href=\"/wiki/Talk:Dynamic_programming_language\" title=\"Talk:Dynamic programming language\">the talk page</a>.</span>  <span class=\"date-container\"><i>(<span class=\"date\">October 2009</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p>A <b>dynamic programming language</b> is a type of programming language that allows various operations to be determined and executed at runtime. This is different from the compilation phase. Key decisions about variables, method calls, or data types are made when the program is running, unlike in <a href=\"/wiki/Static_program_analysis\" title=\"Static program analysis\">static languages</a>, where the structure and types are fixed during compilation. Dynamic languages provide flexibility. This allows developers to write more adaptable and concise code.\n</p><p>For instance, in a dynamic language, a variable can start as an integer. It can later be reassigned to hold a string without explicit type declarations. This feature of dynamic typing enables more fluid and less restrictive coding. Developers can focus on the logic and functionality rather than the constraints of the language.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐k8r7k\nCached time: 20260918180952\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.149 seconds\nReal time usage: 0.242 seconds\nPreprocessor visited node count: 342/1000000\nRevision size: 990/2097152 bytes\nPost‐expand include size: 21810/2097152 bytes\nTemplate argument size: 8326/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5628/5000000 bytes\nLua time usage: 0.100/10.000 seconds\nLua memory usage: 1970259/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  225.656      1 -total\n 52.93%  119.429      1 Template:Short_description\n 47.02%  106.096      1 Template:Multiple_issues\n 28.13%   63.478      2 Template:Pagetype\n 25.78%   58.168      1 Template:Disputed\n 25.61%   57.788      2 Template:Ambox\n 16.46%   37.143      3 Template:Main_other\n 15.42%   34.786      1 Template:SDcat\n  4.02%    9.080      1 Template:Confusing\n  1.46%    3.284      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 24d61a95-b38c-11f1-b0f6-a7fb44d16ced -->\n</div>",
+        "links": [
+          {
+            "ns": 1,
+            "title": "Talk:Dynamic programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static program analysis",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Accuracy dispute",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Please clarify",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Reliable sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Vagueness",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming languages with runtime extensibility",
+          "wikibase_item": "Q1268980"
+        }
+      }
+    }
+  ]
+}

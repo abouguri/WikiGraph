@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "ALGOL 60",
+    "url": "https://en.wikipedia.org/wiki/ALGOL_60",
+    "summary": "Member of the ALGOL family of computer programming languages This article is about the programming language. For other uses, see Algol (disambiguation) . ALGOL 60 Paradigms Procedural , imperative , structured Family ALGOL Designed by Backus , Bauer , Green , Katz , McCarthy , Naur , Perlis , Rutishauser , Samelson , van Wijngaarden , Vauquois , Wegstein , Woodger First appeared 1960 ; 66 years ago ( 1960 ) Typing discipline Static , strong Scope Lexical Influenced by ALGOL 58 Influenced Most subsequent imperative languages (so-called ALGOL-like languages), e.g., PL/I , Simula , CPL , Pascal , Ada , C ALGOL 60 (short for Algorithmic Language 1960 ) is a member of the ALGOL family of computer programming languages . It followed on from ALGOL 58 which had introduced code blocks and the begin and end pairs for delimiting them, representing a key advance in the rise of structured programming . ALGOL 60 was one of the first languages implementing function definitions (that could be invoked recursively). ALGOL 60 function definitions could be nested within one another (a feature introduced by ALGOL 60) with lexical scope . It gave rise to many other languages, including CPL , PL/I , Simula , BCPL , B , Pascal , and C . Practically every computer of the era had a systems programming language based on ALGOL 60 concepts. Niklaus Wirth based his own ALGOL W on ALGOL 60 before moving to develop Pascal . Algol-W was intended to be the next generation ALGOL but the ALGOL 68 committee decided on a design that was more complex and advanced rather than a cleaned simplified ALGOL 60. The official ALGOL versions are named after the year they were first published. ALGOL 68 is substantially different from ALGOL 60 and was criticised partially for being so, so that in general \"ALGOL\" refers to dialects of ALGOL 60.",
+    "text": "Member of the ALGOL family of computer programming languages This article is about the programming language. For other uses, see Algol (disambiguation) . ALGOL 60 Paradigms Procedural , imperative , structured Family ALGOL Designed by Backus , Bauer , Green , Katz , McCarthy , Naur , Perlis , Rutishauser , Samelson , van Wijngaarden , Vauquois , Wegstein , Woodger First appeared 1960 ; 66 years ago ( 1960 ) Typing discipline Static , strong Scope Lexical Influenced by ALGOL 58 Influenced Most subsequent imperative languages (so-called ALGOL-like languages), e.g., PL/I , Simula , CPL , Pascal , Ada , C ALGOL 60 (short for Algorithmic Language 1960 ) is a member of the ALGOL family of computer programming languages . It followed on from ALGOL 58 which had introduced code blocks and the begin and end pairs for delimiting them, representing a key advance in the rise of structured programming . ALGOL 60 was one of the first languages implementing function definitions (that could be invoked recursively). ALGOL 60 function definitions could be nested within one another (a feature introduced by ALGOL 60) with lexical scope . It gave rise to many other languages, including CPL , PL/I , Simula , BCPL , B , Pascal , and C . Practically every computer of the era had a systems programming language based on ALGOL 60 concepts. Niklaus Wirth based his own ALGOL W on ALGOL 60 before moving to develop Pascal . Algol-W was intended to be the next generation ALGOL but the ALGOL 68 committee decided on a design that was more complex and advanced rather than a cleaned simplified ALGOL 60. The official ALGOL versions are named after the year they were first published. ALGOL 68 is substantially different from ALGOL 60 and was criticised partially for being so, so that in general \"ALGOL\" refers to dialects of ALGOL 60.",
+    "links": [
+      "ALGOL",
+      "ALGOL 58",
+      "ALGOL 68",
+      "ALGOL W",
+      "Ada (programming language)",
+      "Adriaan van Wijngaarden",
+      "Alan Jay Perlis",
+      "Algol (disambiguation)",
+      "B (programming language)",
+      "BCPL",
+      "Bernard Vauquois",
+      "Block (programming)",
+      "C (programming language)",
+      "CPL (programming language)",
+      "Charles Katz",
+      "Combined Programming Language",
+      "Friedrich Ludwig Bauer",
+      "Heinz Rutishauser",
+      "Imperative programming",
+      "John McCarthy (computer scientist)",
+      "John Warner Backus",
+      "Joseph Henry Wegstein",
+      "Julien Green (computer scientist)",
+      "Klaus Samelson",
+      "Lexical scope",
+      "Michael Woodger",
+      "Nested function",
+      "Niklaus Wirth",
+      "PL/I",
+      "Pascal (programming language)",
+      "Peter Naur",
+      "Procedural programming",
+      "Programming language",
+      "Programming paradigm",
+      "Scope (computer science)",
+      "Simula",
+      "Software design",
+      "Static type",
+      "Strong and weak typing",
+      "Structured programming",
+      "Systems programming language",
+      "Type system"
+    ],
+    "page_id": 692878,
+    "revision_id": 1357420478,
+    "retrieved_at": "2026-09-18T18:09:16.158019+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260526175019|1356258955",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 692878,
+            "ns": 0,
+            "title": "ALGOL 60",
+            "revisions": [
+              {
+                "revid": 1357420478,
+                "parentid": 1356258955
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Algol",
+              "wikibase-shortdesc": "Member of the ALGOL family of computer programming languages",
+              "wikibase_item": "Q1209759"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "ALGOL 60",
+        "pageid": 692878,
+        "revid": 1357420478,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Member of the ALGOL family of computer programming languages</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For other uses, see <a href=\"/wiki/Algol_(disambiguation)\" class=\"mw-disambig\" title=\"Algol (disambiguation)\">Algol (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">ALGOL 60</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">Procedural</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ALGOL\" title=\"ALGOL\">ALGOL</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/John_Warner_Backus\" class=\"mw-redirect\" title=\"John Warner Backus\">Backus</a>, <a href=\"/wiki/Friedrich_Ludwig_Bauer\" class=\"mw-redirect\" title=\"Friedrich Ludwig Bauer\">Bauer</a>, <a href=\"/w/index.php?title=Julien_Green_(computer_scientist)&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Julien Green (computer scientist) (page does not exist)\">Green</a>, <a href=\"/wiki/Charles_Katz\" title=\"Charles Katz\">Katz</a>, <a href=\"/wiki/John_McCarthy_(computer_scientist)\" title=\"John McCarthy (computer scientist)\">McCarthy</a>, <a href=\"/wiki/Peter_Naur\" title=\"Peter Naur\">Naur</a>, <a href=\"/wiki/Alan_Jay_Perlis\" class=\"mw-redirect\" title=\"Alan Jay Perlis\">Perlis</a>, <a href=\"/wiki/Heinz_Rutishauser\" title=\"Heinz Rutishauser\">Rutishauser</a>, <a href=\"/wiki/Klaus_Samelson\" title=\"Klaus Samelson\">Samelson</a>, <a href=\"/wiki/Adriaan_van_Wijngaarden\" title=\"Adriaan van Wijngaarden\">van Wijngaarden</a>, <a href=\"/wiki/Bernard_Vauquois\" title=\"Bernard Vauquois\">Vauquois</a>, <a href=\"/wiki/Joseph_Henry_Wegstein\" title=\"Joseph Henry Wegstein\">Wegstein</a>, <a href=\"/wiki/Michael_Woodger\" class=\"mw-redirect\" title=\"Michael Woodger\">Woodger</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1960<span class=\"noprint\">&#59;&#32;66&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1960</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_type\" class=\"mw-redirect\" title=\"Static type\">Static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Lexical</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ALGOL_58\" title=\"ALGOL 58\">ALGOL 58</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">Most subsequent imperative languages (so-called <i>ALGOL-like</i> languages), e.g., <a href=\"/wiki/PL/I\" title=\"PL/I\">PL/I</a>,  <a href=\"/wiki/Simula\" title=\"Simula\">Simula</a>, <a href=\"/wiki/Combined_Programming_Language\" class=\"mw-redirect\" title=\"Combined Programming Language\">CPL</a>, <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>, <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr></tbody></table>\n<p><b>ALGOL 60</b> (short for <i>Algorithmic Language 1960</i>) is a member of the <a href=\"/wiki/ALGOL\" title=\"ALGOL\">ALGOL</a> family of computer <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a>. It followed on from <a href=\"/wiki/ALGOL_58\" title=\"ALGOL 58\">ALGOL 58</a> which had introduced <a href=\"/wiki/Block_(programming)\" title=\"Block (programming)\">code blocks</a> and the <code>begin</code> and <code>end</code> pairs for delimiting them, representing a key advance in the rise of <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured programming</a>. ALGOL 60 was one of the first languages implementing function definitions (that could be invoked recursively). ALGOL 60 function definitions could be <a href=\"/wiki/Nested_function\" title=\"Nested function\">nested</a> within one another (a feature introduced by ALGOL 60) with <a href=\"/wiki/Lexical_scope\" class=\"mw-redirect\" title=\"Lexical scope\">lexical scope</a>. It gave rise to many other languages, including <a href=\"/wiki/CPL_(programming_language)\" title=\"CPL (programming language)\">CPL</a>, <a href=\"/wiki/PL/I\" title=\"PL/I\">PL/I</a>, <a href=\"/wiki/Simula\" title=\"Simula\">Simula</a>, <a href=\"/wiki/BCPL\" title=\"BCPL\">BCPL</a>, <a href=\"/wiki/B_(programming_language)\" title=\"B (programming language)\">B</a>, <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>, and <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>. Practically every computer of the era had a <a href=\"/wiki/Systems_programming_language\" class=\"mw-redirect\" title=\"Systems programming language\">systems programming language</a> based on ALGOL 60 concepts.\n</p><p><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Niklaus Wirth</a> based his own <a href=\"/wiki/ALGOL_W\" title=\"ALGOL W\">ALGOL W</a> on ALGOL 60 before moving to develop <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>. Algol-W was intended to be the next generation ALGOL but the <a href=\"/wiki/ALGOL_68\" title=\"ALGOL 68\">ALGOL 68</a> committee decided on a design that was more complex and advanced rather than a cleaned simplified ALGOL 60. The official ALGOL versions are named after the year they were first published. ALGOL 68 is substantially different from ALGOL 60 and was criticised partially for being so, so that in general \"ALGOL\" refers to dialects of ALGOL 60.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐tzlqw\nCached time: 20260918180941\nCache expiry: 1057831\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.063 seconds\nReal time usage: 0.131 seconds\nPreprocessor visited node count: 670/1000000\nRevision size: 2739/2097152 bytes\nPost‐expand include size: 8661/2097152 bytes\nTemplate argument size: 2196/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1834/5000000 bytes\nLua time usage: 0.031/10.000 seconds\nLua memory usage: 1679202/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  119.427      1 -total\n 43.05%   51.413      1 Template:Infobox_programming_language\n 42.58%   50.847      1 Template:Short_description\n 40.74%   48.659      1 Template:Infobox\n 26.32%   31.438      2 Template:Pagetype\n 14.27%   17.042      1 Template:About\n  9.98%   11.922      3 Template:Main_other\n  8.98%   10.720      1 Template:Start_date_and_age\n  8.68%   10.361      1 Template:SDcat\n  4.29%    5.119      1 Template:Infobox_software/simple\n-->\n\n<!-- Render ID 1e47b3db-b38c-11f1-b01d-83ddc3770b49 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Algol (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 58",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 68",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL W",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adriaan van Wijngaarden",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alan Jay Perlis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BCPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "B (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bernard Vauquois",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Block (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Charles Katz",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Combined Programming Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Friedrich Ludwig Bauer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Heinz Rutishauser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John McCarthy (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John Warner Backus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Joseph Henry Wegstein",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Klaus Samelson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lexical scope",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Michael Woodger",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nested function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Niklaus Wirth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Peter Naur",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Systems programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julien Green (computer scientist)",
+            "exists": false
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Member of the ALGOL family of computer programming languages",
+          "wikibase_item": "Q1209759"
+        }
+      }
+    }
+  ]
+}

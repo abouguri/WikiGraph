@@ -9,7 +9,8 @@ This file records verified implementation, not the aspirational targets in the p
 - [x] Bounded query API (integration tests, documented contracts, process-local limits).
 - [x] Accessible explorer (3 Chromium flows: evidence/path/share, keyboard/mobile, empty/no-path).
 - [x] Version-locked dependencies, container build/smoke test, and a measured 100-page HTTP baseline.
-- [ ] Complete release gates: 300-page benchmark, demo video, independent reproducibility review.
+- [x] 300-page, five-client HTTP latency gate and byte-identical offline rebuild.
+- [ ] Complete release gates: demo video and independent reproducibility review.
 - [ ] Real held-out corpus annotation and independent review.
 - [x] Managed-host deployment configuration (Render free-plan blueprint, provider port, server-first landing view).
 - [ ] Hosted demo: Render account connection and successful public deployment pending.

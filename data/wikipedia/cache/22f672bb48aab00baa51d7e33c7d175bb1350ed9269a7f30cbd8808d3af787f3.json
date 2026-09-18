@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Code::Blocks",
+    "url": "https://en.wikipedia.org/wiki/Code%3A%3ABlocks",
+    "summary": "Free, open-source, cross-platform IDE Not to be confused with the computer programming term Code block . This article may rely excessively on sources too closely associated with the subject , potentially preventing it from being verifiable and neutral . Please help improve this article by replacing such sources with more appropriate citations to reliable, independent sources . ( October 2017 ) ( Learn how and when to remove this message ) Code::Blocks Code::Blocks 16.01 Developer The Code::Blocks team Release 2005 ; 21 years ago ( 2005 ) Stable release 25.03 / 31 March 2025 ; 17 months ago ( 31 March 2025 ) Preview release svn 14003 / September 6, 2026 ; 12 days ago ( 2026-09-06 ) Written in C++ ( wxWidgets ) Operating system Cross-platform Type IDE License GPL-3.0-only Website www .codeblocks .org Repository sf .net /p /codeblocks /code / Code::Blocks is a free , open-source , cross-platform IDE that supports multiple compilers including GCC , Clang and Visual C++ . It is developed in C++ using wxWidgets as the GUI toolkit. Using a plugin architecture, its capabilities and features are defined by the provided plugins. Currently, Code::Blocks is oriented towards C , C++ , and Fortran . It has a custom build system and optional Make support. Code::Blocks is being developed for Windows and Linux and has been ported to FreeBSD , OpenBSD and Solaris . The latest binary provided for macOS version is 13.12 released on 2013/12/26 (compatible with Mac OS X 10.6 and later), but more recent versions can be compiled and MacPorts supplies version 17.12. ^ \"Code::Blocks 25.03 is here!\" . 31 March 2025 . Retrieved 4 July 2025 . ^ \"License\" . Retrieved 2014-07-21 . ^ Code::Blocks in FreeBSD's ports collection ^ \"Code::Blocks in OpenBSD's ports collection\" . Archived from the original on 2022-07-27 . Retrieved 2014-02-07 . ^ Directions to install Code::Blocks from source on Solaris",
+    "text": "Free, open-source, cross-platform IDE Not to be confused with the computer programming term Code block . This article may rely excessively on sources too closely associated with the subject , potentially preventing it from being verifiable and neutral . Please help improve this article by replacing such sources with more appropriate citations to reliable, independent sources . ( October 2017 ) ( Learn how and when to remove this message ) Code::Blocks Code::Blocks 16.01 Developer The Code::Blocks team Release 2005 ; 21 years ago ( 2005 ) Stable release 25.03 / 31 March 2025 ; 17 months ago ( 31 March 2025 ) Preview release svn 14003 / September 6, 2026 ; 12 days ago ( 2026-09-06 ) Written in C++ ( wxWidgets ) Operating system Cross-platform Type IDE License GPL-3.0-only Website www .codeblocks .org Repository sf .net /p /codeblocks /code / Code::Blocks is a free , open-source , cross-platform IDE that supports multiple compilers including GCC , Clang and Visual C++ . It is developed in C++ using wxWidgets as the GUI toolkit. Using a plugin architecture, its capabilities and features are defined by the provided plugins. Currently, Code::Blocks is oriented towards C , C++ , and Fortran . It has a custom build system and optional Make support. Code::Blocks is being developed for Windows and Linux and has been ported to FreeBSD , OpenBSD and Solaris . The latest binary provided for macOS version is 13.12 released on 2013/12/26 (compatible with Mac OS X 10.6 and later), but more recent versions can be compiled and MacPorts supplies version 17.12. ^ \"Code::Blocks 25.03 is here!\" . 31 March 2025 . Retrieved 4 July 2025 . ^ \"License\" . Retrieved 2014-07-21 . ^ Code::Blocks in FreeBSD's ports collection ^ \"Code::Blocks in OpenBSD's ports collection\" . Archived from the original on 2022-07-27 . Retrieved 2014-02-07 . ^ Directions to install Code::Blocks from source on Solaris",
+    "links": [
+      "Block (programming)",
+      "Build automation",
+      "C (programming language)",
+      "C++",
+      "Clang",
+      "Compilers",
+      "Cross-platform",
+      "Fortran",
+      "Free software",
+      "FreeBSD",
+      "GNU Compiler Collection",
+      "GNU General Public License",
+      "Graphical user interface",
+      "Integrated development environment",
+      "Linux",
+      "MacOS",
+      "Make (software)",
+      "Microsoft Visual C++",
+      "Microsoft Windows",
+      "Open-source software",
+      "OpenBSD",
+      "Operating system",
+      "Programmer",
+      "Repository (version control)",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Solaris (operating system)",
+      "WxWidgets"
+    ],
+    "page_id": 3102210,
+    "revision_id": 1375095139,
+    "retrieved_at": "2026-09-18T18:10:31.163013+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260914194121|1374906925",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 3102210,
+            "ns": 0,
+            "title": "Code::Blocks",
+            "revisions": [
+              {
+                "revid": 1375095139,
+                "parentid": 1374906925
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Codeblocks_logo.png",
+              "wikibase-shortdesc": "Free, open-source, cross-platform IDE",
+              "wikibase_item": "Q835824"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Code::Blocks",
+        "pageid": 3102210,
+        "revid": 1375095139,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free, open-source, cross-platform IDE</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with the computer programming term <a href=\"/wiki/Block_(programming)\" title=\"Block (programming)\">Code block</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Independent&#95;sources plainlinks metadata ambox ambox-content\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may rely excessively on sources <a href=\"/wiki/Wikipedia:NIS\" class=\"mw-redirect\" title=\"Wikipedia:NIS\">too closely associated with the subject</a></b>, potentially preventing it from being <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">verifiable</a> and <a href=\"/wiki/Wikipedia:Neutral_point_of_view\" title=\"Wikipedia:Neutral point of view\">neutral</a>.<span class=\"hide-when-compact\"> Please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Code::Blocks&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Code::Blocks&amp;action=edit\">improve this article</a> by replacing such sources with more appropriate <a href=\"/wiki/Wikipedia:Citing_sources\" title=\"Wikipedia:Citing sources\">citations</a> to <a href=\"/wiki/Wikipedia:Independent_sources\" title=\"Wikipedia:Independent sources\">reliable, independent sources</a>.</span>  <span class=\"date-container\"><i>(<span class=\"date\">October 2017</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Code::Blocks</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Codeblocks_logo.png\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/commons/4/4b/Codeblocks_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" style=\"--mw-file-upright: 0.55\" class=\"mw-file-element mw-file-upright\" data-file-width=\"64\" data-file-height=\"64\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Code_blocks_16.01.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Code_blocks_16.01.png/250px-Code_blocks_16.01.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"162\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Code_blocks_16.01.png/500px-Code_blocks_16.01.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1036\" data-file-height=\"672\" /></a></span><div class=\"infobox-caption\">Code::Blocks 16.01</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\">The Code::Blocks team</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">2005<span class=\"noprint\">&#59;&#32;21&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2005</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">25.03<sup id=\"cite&#95;ref-wikidata-5ba89ffcdd787784be8a5063a5d1519f1fef4141-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-5ba89ffcdd787784be8a5063a5d1519f1fef4141-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><span style=\"float:right\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q835824?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span>\n   / 31 March 2025<span class=\"noprint\">&#59;&#32;17 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">31 March 2025</span>)</span></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">svn 14003\n   / September&#160;6, 2026<span class=\"noprint\">&#59;&#32;12 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-09-06</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> (<a href=\"/wiki/WxWidgets\" title=\"WxWidgets\">wxWidgets</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Integrated_development_environment\" title=\"Integrated development environment\">IDE</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GPL-3.0-only</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.codeblocks.org/\">www<wbr />.codeblocks<wbr />.org</a></span>&#160;<span class=\"penicon autoconfirmed-show\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q835824?uselang=en#P856\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://sf.net/p/codeblocks/code/\">sf<wbr />.net<wbr />/p<wbr />/codeblocks<wbr />/code<wbr />/</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q835824#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>Code::Blocks</b> is a <a href=\"/wiki/Free_software\" title=\"Free software\">free</a>, <a href=\"/wiki/Open-source_software\" title=\"Open-source software\">open-source</a>, <a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">cross-platform</a> <a href=\"/wiki/Integrated_development_environment\" title=\"Integrated development environment\">IDE</a> that supports multiple <a href=\"/wiki/Compilers\" class=\"mw-redirect\" title=\"Compilers\">compilers</a> including <a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GCC</a>, <a href=\"/wiki/Clang\" title=\"Clang\">Clang</a> and <a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">Visual C++</a>. It is developed in <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> using <a href=\"/wiki/WxWidgets\" title=\"WxWidgets\">wxWidgets</a> as the <a href=\"/wiki/Graphical_user_interface\" title=\"Graphical user interface\">GUI</a> toolkit. Using a plugin architecture, its capabilities and features are defined by the provided plugins.\nCurrently, Code::Blocks is oriented towards <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, and <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>. It has a custom <a href=\"/wiki/Build_automation\" title=\"Build automation\">build system</a> and optional <a href=\"/wiki/Make_(software)\" title=\"Make (software)\">Make</a> support.\n</p><p>Code::Blocks is being developed for <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a> and <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> and has been ported to <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>,<sup id=\"cite&#95;ref-FreeBSD&#95;3-0\" class=\"reference\"><a href=\"#cite_note-FreeBSD-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/OpenBSD\" title=\"OpenBSD\">OpenBSD</a><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Solaris_(operating_system)\" class=\"mw-redirect\" title=\"Solaris (operating system)\">Solaris</a>.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> The latest binary provided for <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a> version is 13.12 released on 2013/12/26 (compatible with Mac OS X 10.6 and later), but more recent versions can be compiled and MacPorts supplies version 17.12.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-5ba89ffcdd787784be8a5063a5d1519f1fef4141-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-5ba89ffcdd787784be8a5063a5d1519f1fef4141-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.codeblocks.org/post/codeblocks-25.03-is-here/\">\"Code::Blocks 25.03 is here!\"</a>. 31 March 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 July</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Code%3A%3ABlocks+25.03+is+here%21&amp;rft.date=2025-03-31&amp;rft&#95;id=https%3A%2F%2Fwww.codeblocks.org%2Fpost%2Fcodeblocks-25.03-is-here%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACode%3A%3ABlocks\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.codeblocks.org/license\">\"License\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-07-21</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=License&amp;rft&#95;id=https%3A%2F%2Fwww.codeblocks.org%2Flicense&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACode%3A%3ABlocks\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FreeBSD-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FreeBSD_3-0\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.freshports.org/devel/codeblocks/\">Code::Blocks in FreeBSD's ports collection</a></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1 cs1-prop-unfit\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220727053826/https://openports.se/devel/codeblocks\">\"Code::Blocks in OpenBSD's ports collection\"</a>. Archived from the original on 2022-07-27<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-02-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Code%3A%3ABlocks+in+OpenBSD%27s+ports+collection&amp;rft&#95;id=http%3A%2F%2Fopenports.se%2Fdevel%2Fcodeblocks&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACode%3A%3ABlocks\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"http://wiki.codeblocks.org/index.php?title=Installing_Code::Blocks_from_source_on_Solaris\">Directions to install Code::Blocks from source on Solaris</a></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐zl8zq\nCached time: 20260918181056\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.201 seconds\nReal time usage: 0.311 seconds\nPreprocessor visited node count: 1755/1000000\nRevision size: 2685/2097152 bytes\nPost‐expand include size: 36929/2097152 bytes\nTemplate argument size: 5227/2097152 bytes\nHighest expansion depth: 29/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 12624/5000000 bytes\nLua time usage: 0.138/10.000 seconds\nLua memory usage: 8205772/52428800 bytes\nNumber of Wikibase entities loaded: 2/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  292.724      1 -total\n 76.97%  225.311      2 Template:Infobox\n 66.61%  194.979      1 Template:Infobox_software\n 41.29%  120.876     25 Template:If_empty\n 37.01%  108.332      1 Template:Infobox_software/simple\n 25.49%   74.611      5 Template:Wikidata\n 16.08%   47.068      1 Template:Short_description\n  9.32%   27.283      2 Template:Pagetype\n  8.69%   25.443      3 Template:Start_date_and_age\n  8.38%   24.527      1 Template:Third-party\n-->\n\n<!-- Render ID 4afbbf96-b38c-11f1-a086-751ab2e9685f -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Block (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Build automation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphical user interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated development environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Make (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Solaris (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WxWidgets",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Independent sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:NIS",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Neutral point of view",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free, open-source, cross-platform IDE",
+          "page_image_free": "Codeblocks_logo.png",
+          "wikibase_item": "Q835824"
+        }
+      }
+    }
+  ]
+}

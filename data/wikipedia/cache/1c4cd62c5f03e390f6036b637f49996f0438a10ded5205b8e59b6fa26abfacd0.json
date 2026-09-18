@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Embedded system",
+    "url": "https://en.wikipedia.org/wiki/Embedded_system",
+    "summary": "Computer system with a dedicated function An embedded system on a plug-in card with processor, memory, power supply, and external interfaces An embedded system is a specialized computer system —a combination of a computer processor , computer memory , and input/output peripheral devices —that has a dedicated function within a larger mechanical or electronic system. It is embedded as part of a complete device, often including electrical or electronic hardware and mechanical parts. Embedded systems control many devices in common use. In 2009 [update] , it was estimated that 98% of all microprocessors manufactured were used in embedded systems. [ needs update ] Because an embedded system typically controls physical operations of the machine that it is embedded within, it often has real-time computing constraints. Modern embedded systems are often based on microcontrollers (i.e., microprocessors with integrated memory and peripheral interfaces), but ordinary microprocessors (using external chips for memory and peripheral interface circuits) are also common, especially in more complex systems. In either case, the processor(s) used may be types ranging from general purpose to those specialized in a certain class of computations, or even custom designed for the application at hand. A common standard class of dedicated processors is the digital signal processor (DSP). Since the embedded system is dedicated to specific tasks, design engineers can optimize it to reduce the size and cost of the product and increase its reliability and performance. Some embedded systems are mass-produced, benefiting from economies of scale . Embedded systems range in size from portable personal devices such as digital watches and MP3 players to bigger machines like home appliances , industrial assembly lines , robots , transport vehicles, traffic light controllers , and medical imaging systems. Often they constitute subsystems of other machines like avionics in aircraft and astrionics in spacecraft . Large installations like factories , pipelines , and electrical grids rely on multiple embedded systems networked together. Generalized through software customization, embedded systems such as programmable logic controllers frequently comprise their functional units. ^ Michael Barr . \"Embedded Systems Glossary\" . Neutrino Technical Library . Retrieved 2007-04-21 . ^ Heath, Steve (2003). Embedded systems design . EDN series for design engineers (2 ed.). Newnes. p. 2 . ISBN 978-0-7506-5546-0 . An embedded system is a microprocessor based system that is built to control a function or a range of functions. ^ Michael Barr; Anthony J. Massa (2006). \"Introduction\" . Programming embedded systems: with C and GNU development tools . O'Reilly. pp. 1– 2. ISBN 978-0-596-00983-0 . ^ Barr, Michael (1 August 2009). \"Real men program in C\" . Embedded Systems Design . TechInsights (United Business Media). p. 2 . Retrieved 2009-12-23 .",
+    "text": "Computer system with a dedicated function An embedded system on a plug-in card with processor, memory, power supply, and external interfaces An embedded system is a specialized computer system —a combination of a computer processor , computer memory , and input/output peripheral devices —that has a dedicated function within a larger mechanical or electronic system. It is embedded as part of a complete device, often including electrical or electronic hardware and mechanical parts. Embedded systems control many devices in common use. In 2009 [update] , it was estimated that 98% of all microprocessors manufactured were used in embedded systems. [ needs update ] Because an embedded system typically controls physical operations of the machine that it is embedded within, it often has real-time computing constraints. Modern embedded systems are often based on microcontrollers (i.e., microprocessors with integrated memory and peripheral interfaces), but ordinary microprocessors (using external chips for memory and peripheral interface circuits) are also common, especially in more complex systems. In either case, the processor(s) used may be types ranging from general purpose to those specialized in a certain class of computations, or even custom designed for the application at hand. A common standard class of dedicated processors is the digital signal processor (DSP). Since the embedded system is dedicated to specific tasks, design engineers can optimize it to reduce the size and cost of the product and increase its reliability and performance. Some embedded systems are mass-produced, benefiting from economies of scale . Embedded systems range in size from portable personal devices such as digital watches and MP3 players to bigger machines like home appliances , industrial assembly lines , robots , transport vehicles, traffic light controllers , and medical imaging systems. Often they constitute subsystems of other machines like avionics in aircraft and astrionics in spacecraft . Large installations like factories , pipelines , and electrical grids rely on multiple embedded systems networked together. Generalized through software customization, embedded systems such as programmable logic controllers frequently comprise their functional units. ^ Michael Barr . \"Embedded Systems Glossary\" . Neutrino Technical Library . Retrieved 2007-04-21 . ^ Heath, Steve (2003). Embedded systems design . EDN series for design engineers (2 ed.). Newnes. p. 2 . ISBN 978-0-7506-5546-0 . An embedded system is a microprocessor based system that is built to control a function or a range of functions. ^ Michael Barr; Anthony J. Massa (2006). \"Introduction\" . Programming embedded systems: with C and GNU development tools . O'Reilly. pp. 1– 2. ISBN 978-0-596-00983-0 . ^ Barr, Michael (1 August 2009). \"Real men program in C\" . Embedded Systems Design . TechInsights (United Business Media). p. 2 . Retrieved 2009-12-23 .",
+    "links": [
+      "Aircraft",
+      "Assembly line",
+      "Astrionics",
+      "Avionics",
+      "Computer memory",
+      "Computer processor",
+      "Computer system",
+      "Design engineer",
+      "Digital signal processor",
+      "Digital watch",
+      "Economies of scale",
+      "Electrical grid",
+      "Electronics",
+      "Factories",
+      "Home appliance",
+      "ISBN (identifier)",
+      "Input/output",
+      "MP3 player",
+      "Medical imaging",
+      "Michael Barr (software engineer)",
+      "Microcontroller",
+      "Microprocessor",
+      "Peripheral device",
+      "Pipeline",
+      "Programmable logic controller",
+      "Real-time computing",
+      "Robot",
+      "Spacecraft",
+      "Traffic light controller"
+    ],
+    "page_id": 46630,
+    "revision_id": 1375575386,
+    "retrieved_at": "2026-09-18T18:08:24.761342+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260918132601|1375546937",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 46630,
+            "ns": 0,
+            "title": "Embedded system",
+            "revisions": [
+              {
+                "revid": 1375575386,
+                "parentid": 1375546937
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "DHCOM_Computer_On_Module_-_AM35x.jpg",
+              "wikibase-shortdesc": "Computer system with a dedicated function",
+              "wikibase_item": "Q193040"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Embedded system",
+        "pageid": 46630,
+        "revid": 1375575386,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Computer system with a dedicated function</div>\n<p class=\"mw-empty-elt\">\n</p>\n<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:DHCOM_Computer_On_Module_-_AM35x.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/DHCOM_Computer_On_Module_-_AM35x.jpg/250px-DHCOM_Computer_On_Module_-_AM35x.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"139\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/DHCOM_Computer_On_Module_-_AM35x.jpg/500px-DHCOM_Computer_On_Module_-_AM35x.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2126\" data-file-height=\"1185\" /></a><figcaption>An <i>embedded system</i> on a plug-in card with processor, memory, power supply, and external interfaces</figcaption></figure>\n<p>An <b>embedded system</b> is a specialized <a href=\"/wiki/Computer_system\" class=\"mw-redirect\" title=\"Computer system\">computer system</a>&#8212;a combination of a <a href=\"/wiki/Computer_processor\" class=\"mw-redirect\" title=\"Computer processor\">computer processor</a>, <a href=\"/wiki/Computer_memory\" title=\"Computer memory\">computer memory</a>, and <a href=\"/wiki/Input/output\" title=\"Input/output\">input/output</a> <a href=\"/wiki/Peripheral_device\" class=\"mw-redirect\" title=\"Peripheral device\">peripheral devices</a>&#8212;that has a dedicated function within a larger mechanical or <a href=\"/wiki/Electronics\" title=\"Electronics\">electronic</a> system.<sup id=\"cite&#95;ref-Barr-glossary&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Barr-glossary-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> It is embedded as part of a complete device, often including electrical or electronic hardware and mechanical parts.\n</p><p>Embedded systems control many devices in common use.<sup id=\"cite&#95;ref-:0&#95;3-0\" class=\"reference\"><a href=\"#cite_note-:0-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> In 2009<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Embedded_system&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Embedded_system&amp;action=edit\">&#91;update&#93;</a></sup>, it was estimated that 98% of all <a href=\"/wiki/Microprocessor\" title=\"Microprocessor\">microprocessors</a> manufactured were used in embedded systems.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"noprint Inline-Template\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items\" title=\"Wikipedia:Manual of Style/Dates and numbers\"><span title=\"Computing has changed a lot since 2009. (March 2022)\">needs update</span></a></i>&#93;</sup> Because an embedded system typically controls physical operations of the machine that it is embedded within, it often has <a href=\"/wiki/Real-time_computing\" title=\"Real-time computing\">real-time computing</a> constraints.\n</p><p>Modern embedded systems are often based on <a href=\"/wiki/Microcontroller\" title=\"Microcontroller\">microcontrollers</a> (i.e., microprocessors with integrated memory and peripheral interfaces), but ordinary microprocessors (using external chips for memory and peripheral interface circuits) are also common, especially in more complex systems. In either case, the processor(s) used may be types ranging from general purpose to those specialized in a certain class of computations, or even custom designed for the application at hand. A common standard class of dedicated processors is the <a href=\"/wiki/Digital_signal_processor\" title=\"Digital signal processor\">digital signal processor</a> (DSP). Since the embedded system is dedicated to specific tasks, <a href=\"/wiki/Design_engineer\" title=\"Design engineer\">design engineers</a> can optimize it to reduce the size and cost of the product and increase its reliability and performance. Some embedded systems are mass-produced, benefiting from <a href=\"/wiki/Economies_of_scale\" title=\"Economies of scale\">economies of scale</a>.\n</p><p>Embedded systems range in size from portable personal devices such as <a href=\"/wiki/Digital_watch\" class=\"mw-redirect\" title=\"Digital watch\">digital watches</a> and <a href=\"/wiki/MP3_player\" class=\"mw-redirect\" title=\"MP3 player\">MP3 players</a> to bigger machines like <a href=\"/wiki/Home_appliance\" title=\"Home appliance\">home appliances</a>, industrial <a href=\"/wiki/Assembly_line\" title=\"Assembly line\">assembly lines</a>, <a href=\"/wiki/Robot\" title=\"Robot\">robots</a>, transport vehicles, <a href=\"/wiki/Traffic_light_controller\" class=\"mw-redirect\" title=\"Traffic light controller\">traffic light controllers</a>, and <a href=\"/wiki/Medical_imaging\" title=\"Medical imaging\">medical imaging</a> systems. Often they constitute subsystems of other machines like <a href=\"/wiki/Avionics\" title=\"Avionics\">avionics</a> in <a href=\"/wiki/Aircraft\" title=\"Aircraft\">aircraft</a> and <a href=\"/wiki/Astrionics\" title=\"Astrionics\">astrionics</a> in <a href=\"/wiki/Spacecraft\" title=\"Spacecraft\">spacecraft</a>. Large installations like <a href=\"/wiki/Factories\" class=\"mw-redirect\" title=\"Factories\">factories</a>, <a href=\"/wiki/Pipeline\" title=\"Pipeline\">pipelines</a>, and <a href=\"/wiki/Electrical_grid\" title=\"Electrical grid\">electrical grids</a> rely on multiple embedded systems networked together. Generalized through software customization, embedded systems such as <a href=\"/wiki/Programmable_logic_controller\" title=\"Programmable logic controller\">programmable logic controllers</a> frequently comprise their functional units.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Barr-glossary-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Barr-glossary_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFMichael&#95;Barr\" class=\"citation web cs1\"><a href=\"/wiki/Michael_Barr_(software_engineer)\" title=\"Michael Barr (software engineer)\">Michael Barr</a>. <a rel=\"nofollow\" class=\"external text\" href=\"http://www.netrino.com/Embedded-Systems/Glossary\">\"Embedded Systems Glossary\"</a>. <i>Neutrino Technical Library</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2007-04-21</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Neutrino+Technical+Library&amp;rft.atitle=Embedded+Systems+Glossary&amp;rft.au=Michael+Barr&amp;rft&#95;id=http%3A%2F%2Fwww.netrino.com%2FEmbedded-Systems%2FGlossary&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmbedded+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHeath2003\" class=\"citation book cs1\">Heath, Steve (2003). <span class=\"id-lock-registration\" title=\"Free registration required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/embeddedsystemsd0000heat\"><i>Embedded systems design</i></a></span>. EDN series for design engineers (2&#160;ed.). Newnes. p.&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/embeddedsystemsd0000heat/page/2\">2</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-7506-5546-0\" title=\"Special:BookSources/978-0-7506-5546-0\"><bdi>978-0-7506-5546-0</bdi></a>. <q>An embedded system is a <a href=\"/wiki/Microprocessor\" title=\"Microprocessor\">microprocessor</a> based system that is built to control a function or a range of functions.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Embedded+systems+design&amp;rft.series=EDN+series+for+design+engineers&amp;rft.pages=2&amp;rft.edition=2&amp;rft.pub=Newnes&amp;rft.date=2003&amp;rft.isbn=978-0-7506-5546-0&amp;rft.aulast=Heath&amp;rft.aufirst=Steve&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fembeddedsystemsd0000heat&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmbedded+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMichael&#95;BarrAnthony&#95;J.&#95;Massa2006\" class=\"citation book cs1\">Michael Barr; Anthony J. Massa (2006). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=nPZaPJrw_L0C&amp;pg=PA1\">\"Introduction\"</a>. <i>Programming embedded systems: with C and GNU development tools</i>. O'Reilly. pp.&#160;<span class=\"nowrap\">1–</span>2. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-596-00983-0\" title=\"Special:BookSources/978-0-596-00983-0\"><bdi>978-0-596-00983-0</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Introduction&amp;rft.btitle=Programming+embedded+systems%3A+with+C+and+GNU+development+tools&amp;rft.pages=1-2&amp;rft.pub=O%27Reilly&amp;rft.date=2006&amp;rft.isbn=978-0-596-00983-0&amp;rft.au=Michael+Barr&amp;rft.au=Anthony+J.+Massa&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DnPZaPJrw&#95;L0C%26pg%3DPA1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmbedded+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBarr2009\" class=\"citation web cs1\">Barr, Michael (1 August 2009). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.embedded.com/electronics-blogs/barr-code/4027479/Real-men-program-in-C\">\"Real men program in C\"</a>. <i>Embedded Systems Design</i>. TechInsights (United Business Media). p.&#160;2<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2009-12-23</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Embedded+Systems+Design&amp;rft.atitle=Real+men+program+in+C&amp;rft.pages=2&amp;rft.date=2009-08-01&amp;rft.aulast=Barr&amp;rft.aufirst=Michael&amp;rft&#95;id=http%3A%2F%2Fwww.embedded.com%2Felectronics-blogs%2Fbarr-code%2F4027479%2FReal-men-program-in-C&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmbedded+system\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐m6vvd\nCached time: 20260918180850\nCache expiry: 21600\nCache expiry source: Template:As_of (#time)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.201 seconds\nReal time usage: 0.311 seconds\nPreprocessor visited node count: 701/1000000\nRevision size: 3924/2097152 bytes\nPost‐expand include size: 12974/2097152 bytes\nTemplate argument size: 1733/2097152 bytes\nHighest expansion depth: 15/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 9490/5000000 bytes\nLua time usage: 0.132/10.000 seconds\nLua memory usage: 4067649/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  289.019      1 -total\n 42.98%  124.209      2 Template:Cite_web\n 25.85%   74.705      1 Template:Short_description\n 15.40%   44.498      2 Template:Pagetype\n 14.94%   43.174      1 Template:Update_inline\n 13.53%   39.115      1 Template:Fix\n  6.97%   20.142      1 Template:Use_American_English\n  5.78%   16.692      2 Template:DMCA\n  5.48%   15.827      3 Template:Dated_maintenance_category\n  5.33%   15.415      3 Template:Main_other\n-->\n\n<!-- Render ID ffe1b3ee-b38b-11f1-911d-e3c609cad041 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Aircraft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly line",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Astrionics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Avionics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer processor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Design engineer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital signal processor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital watch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Economies of scale",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Electrical grid",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Electronics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Factories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Home appliance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MP3 player",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Medical imaging",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Michael Barr (software engineer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcontroller",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microprocessor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Peripheral device",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pipeline",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmable logic controller",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Real-time computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spacecraft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Traffic light controller",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Manual of Style/Dates and numbers",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Computer system with a dedicated function",
+          "page_image_free": "DHCOM_Computer_On_Module_-_AM35x.jpg",
+          "wikibase_item": "Q193040"
+        }
+      }
+    }
+  ]
+}

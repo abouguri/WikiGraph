@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "BASIC interpreter",
+    "url": "https://en.wikipedia.org/wiki/BASIC_interpreter",
+    "summary": "Interpreter that enables users to enter and run programs in the BASIC language An example of typing a popular program into a BASIC interpreter (in this case, HAMURABI ) A BASIC interpreter is interpreter software that enables users to enter and run programs in the BASIC language and was, for the first part of the microcomputer era, the default application that computers would launch. Users were expected to use the BASIC interpreter to type in programs or to load programs from storage (initially cassette tapes then floppy disks ). BASIC interpreters are of historical importance. Microsoft 's first product for sale was a BASIC interpreter ( Altair BASIC ), which paved the way for the company's success. Before Altair BASIC, microcomputers were sold as kits that needed to be programmed in machine code (for instance, the Apple I ). During the Altair period, BASIC interpreters were sold separately, becoming the first software sold to individuals rather than to organizations; Apple BASIC was Apple's first software product. After the MITS Altair 8800 , microcomputers were expected to ship bundled with BASIC interpreters of their own (e.g., the Apple II , which had multiple implementations of BASIC). A backlash against the price of Microsoft's Altair BASIC also led to early collaborative software development, for Tiny BASIC implementations in general and Palo Alto Tiny BASIC specifically. BASIC interpreters fell from use as computers grew in power and their associated programs grew too long for typing them in to be a reasonable distribution format. Software increasingly came pre-compiled and transmitted on floppy disk or via bulletin board systems , making the need for source listings less important. Additionally, increasingly sophisticated command shells like MS-DOS and the Mac GUI became the primary user interface , and the need for BASIC to act as the shell disappeared. The use of BASIC interpreters as the primary language and interface to systems had largely disappeared by the mid-1980s.",
+    "text": "Interpreter that enables users to enter and run programs in the BASIC language An example of typing a popular program into a BASIC interpreter (in this case, HAMURABI ) A BASIC interpreter is interpreter software that enables users to enter and run programs in the BASIC language and was, for the first part of the microcomputer era, the default application that computers would launch. Users were expected to use the BASIC interpreter to type in programs or to load programs from storage (initially cassette tapes then floppy disks ). BASIC interpreters are of historical importance. Microsoft 's first product for sale was a BASIC interpreter ( Altair BASIC ), which paved the way for the company's success. Before Altair BASIC, microcomputers were sold as kits that needed to be programmed in machine code (for instance, the Apple I ). During the Altair period, BASIC interpreters were sold separately, becoming the first software sold to individuals rather than to organizations; Apple BASIC was Apple's first software product. After the MITS Altair 8800 , microcomputers were expected to ship bundled with BASIC interpreters of their own (e.g., the Apple II , which had multiple implementations of BASIC). A backlash against the price of Microsoft's Altair BASIC also led to early collaborative software development, for Tiny BASIC implementations in general and Palo Alto Tiny BASIC specifically. BASIC interpreters fell from use as computers grew in power and their associated programs grew too long for typing them in to be a reasonable distribution format. Software increasingly came pre-compiled and transmitted on floppy disk or via bulletin board systems , making the need for source listings less important. Additionally, increasingly sophisticated command shells like MS-DOS and the Mac GUI became the primary user interface , and the need for BASIC to act as the shell disappeared. The use of BASIC interpreters as the primary language and interface to systems had largely disappeared by the mid-1980s.",
+    "links": [
+      "Altair 8800",
+      "Altair BASIC",
+      "Apple I",
+      "Apple II",
+      "Application software",
+      "BASIC",
+      "Bulletin board system",
+      "Cassette tape",
+      "Command shell",
+      "Floppy disk",
+      "Hamurabi (video game)",
+      "Interpreter (computing)",
+      "MS-DOS",
+      "Mac (computer)",
+      "Machine code",
+      "Microcomputer",
+      "Microsoft",
+      "Programming language",
+      "Tiny BASIC",
+      "Type-in programs",
+      "User interface"
+    ],
+    "page_id": 64701882,
+    "revision_id": 1365977333,
+    "retrieved_at": "2026-09-18T18:10:19.212577+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260316021306|1343735813",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 64701882,
+            "ns": 0,
+            "title": "BASIC interpreter",
+            "revisions": [
+              {
+                "revid": 1365977333,
+                "parentid": 1343735813
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Hamurabi-type-in.png",
+              "wikibase-shortdesc": "Interpreter that enables users to enter and run programs in the BASIC language",
+              "wikibase_item": "Q98099116"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "BASIC interpreter",
+        "pageid": 64701882,
+        "revid": 1365977333,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Interpreter that enables users to enter and run programs in the BASIC language</div>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Hamurabi-type-in.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Hamurabi-type-in.png/250px-Hamurabi-type-in.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"177\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/f/fd/Hamurabi-type-in.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"468\" data-file-height=\"331\" /></a><figcaption>An example of typing a popular program into a BASIC interpreter (in this case, <a href=\"/wiki/Hamurabi_(video_game)\" title=\"Hamurabi (video game)\">HAMURABI</a>)</figcaption></figure>\n<p>A <b>BASIC interpreter</b> is  <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a> software that enables users to enter and run programs in the <a href=\"/wiki/BASIC\" title=\"BASIC\">BASIC</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">language</a> and was, for the first part of the <a href=\"/wiki/Microcomputer\" title=\"Microcomputer\">microcomputer</a> era, the default <a href=\"/wiki/Application_software\" title=\"Application software\">application</a> that computers would launch. Users were expected to use the BASIC interpreter to <a href=\"/wiki/Type-in_programs\" class=\"mw-redirect\" title=\"Type-in programs\">type in programs</a> or to load programs from storage (initially <a href=\"/wiki/Cassette_tape\" title=\"Cassette tape\">cassette tapes</a> then <a href=\"/wiki/Floppy_disk\" title=\"Floppy disk\">floppy disks</a>).\n</p><p>BASIC interpreters are of historical importance. <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>'s first product for sale was a BASIC interpreter (<a href=\"/wiki/Altair_BASIC\" title=\"Altair BASIC\">Altair BASIC</a>), which paved the way for the company's success. Before Altair BASIC, microcomputers were sold as kits that needed to be programmed in <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a> (for instance, the <a href=\"/wiki/Apple_I\" title=\"Apple I\">Apple I</a>). During the Altair period, BASIC interpreters were sold separately, becoming the first software sold to individuals rather than to organizations; Apple BASIC was Apple's first software product. After the <a href=\"/wiki/Altair_8800\" title=\"Altair 8800\">MITS Altair 8800</a>, microcomputers were expected to ship bundled with BASIC interpreters of their own (e.g., the <a href=\"/wiki/Apple_II\" title=\"Apple II\">Apple II</a>, which had multiple implementations of BASIC). A backlash against the price of Microsoft's Altair BASIC also led to early collaborative software development, for <a href=\"/wiki/Tiny_BASIC\" title=\"Tiny BASIC\">Tiny BASIC</a> implementations in general and Palo Alto Tiny BASIC specifically.\n</p><p>BASIC interpreters fell from use as computers grew in power and their associated programs grew too long for typing them in to be a reasonable distribution format. Software increasingly came pre-compiled and transmitted on <a href=\"/wiki/Floppy_disk\" title=\"Floppy disk\">floppy disk</a> or via <a href=\"/wiki/Bulletin_board_system\" title=\"Bulletin board system\">bulletin board systems</a>, making the need for source listings less important. Additionally, increasingly sophisticated <a href=\"/wiki/Command_shell\" class=\"mw-redirect\" title=\"Command shell\">command shells</a> like <a href=\"/wiki/MS-DOS\" title=\"MS-DOS\">MS-DOS</a> and the <a href=\"/wiki/Mac_(computer)\" title=\"Mac (computer)\">Mac</a> GUI became the primary <a href=\"/wiki/User_interface\" title=\"User interface\">user interface</a>, and the need for BASIC to act as the shell disappeared. The use of BASIC interpreters as the primary language and interface to systems had largely disappeared by the mid-1980s.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐pjznp\nCached time: 20260918181044\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.043 seconds\nReal time usage: 0.073 seconds\nPreprocessor visited node count: 138/1000000\nRevision size: 2294/2097152 bytes\nPost‐expand include size: 1132/2097152 bytes\nTemplate argument size: 773/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 0/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\nLua time usage: 0.023/10.000 seconds\nLua memory usage: 1758896/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   56.792      1 Template:Short_description\n100.00%   56.792      1 -total\n 64.16%   36.436      2 Template:Pagetype\n 20.29%   11.522      2 Template:Main_other\n 17.87%   10.149      1 Template:SDcat\n  2.32%    1.320      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 43d4b1e6-b38c-11f1-a758-3fd8fcbf4960 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Altair 8800",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Altair BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apple I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apple II",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bulletin board system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cassette tape",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Floppy disk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hamurabi (video game)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MS-DOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mac (computer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcomputer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tiny BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type-in programs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Interpreter that enables users to enter and run programs in the BASIC language",
+          "page_image_free": "Hamurabi-type-in.png",
+          "wikibase_item": "Q98099116"
+        }
+      }
+    }
+  ]
+}

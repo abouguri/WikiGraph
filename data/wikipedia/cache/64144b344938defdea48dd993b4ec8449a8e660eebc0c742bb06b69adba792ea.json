@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Unix",
+    "url": "https://en.wikipedia.org/wiki/Unix",
+    "summary": "Family of computer operating systems Operating system Unix UNIX System III running on a PDP-11 simulator Developer Ken Thompson , Dennis Ritchie , Brian Kernighan , Douglas McIlroy , and Joe Ossanna at Bell Labs Written in C and assembly language OS family Unix Source model Historically proprietary software , while some Unix projects (including BSD family and Illumos ) are open-source and historical Unix source code is archived. Initial release Development started in 1969 First manual published internally in November 1971 ( 1971-11 ) Announced outside Bell Labs in October 1973 ( 1973-10 ) Available in English Kernel type Varies; monolithic , microkernel , hybrid Influenced by CTSS , Multics Default user interface Command-line interface and Graphical ( Wayland and X Window System ; Android SurfaceFlinger ; macOS Quartz ) License Varies; some versions are proprietary , others are free/libre or open-source software Official website www .opengroup .org /unix-systems Unix ( / ˈ j uː n ɪ k s / ⓘ , YOO -niks ; trademarked as UNIX ) is a family of multitasking , multi-user computer operating systems that derive from the original AT&T Unix, the development of which started in 1969 at the Bell Labs research center by Ken Thompson , Dennis Ritchie , and others. Initially intended for use inside the Bell System , AT&T licensed Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including Berkeley Software Distribution (BSD), Microsoft ( Xenix ), Sun Microsystems ( SunOS / Solaris ), HP ( HP-UX ), and IBM ( AIX ). The early versions of Unix, which are retrospectively referred to as \" Research Unix \", ran on computers such as the PDP-11 and VAX ; Unix was commonly used on minicomputers and mainframes from the 1970s onwards. It distinguished itself from its predecessors as the first portable operating system: almost the entire operating system is written in the C programming language (in 1973), which allows Unix to operate on numerous platforms. Unix systems are characterized by a modular design that is sometimes called the \" Unix philosophy \". According to this philosophy, the operating system should provide a set of simple tools, each of which performs a limited, well-defined function. A unified and inode -based filesystem and an inter-process communication mechanism known as \" pipes \" serve as the main means of communication, and a shell scripting and command language (the Unix shell ) is used to combine the tools to perform complex workflows. Version 7 in 1979 was the final widely released Research Unix, after which AT&T sold UNIX System III , based on Version 7, commercially in 1982; to avoid confusion between the Unix variants, AT&T combined various versions developed by others and released it as UNIX System V in 1983. However, as these were closed-source, the University of California, Berkeley continued developing BSD as an alternative. Other vendors that were beginning to create commercialized versions of Unix would base their version on either System V (like Silicon Graphics 's IRIX ) or BSD (like Mac OS X). Amid the \" Unix wars \" of standardization, AT&T alongside Sun merged System V, BSD, SunOS and Xenix , solidifying their features into one package as UNIX System V Release 4 (SVR4) in 1989, and it was commercialized by Unix System Laboratories , an AT&T spinoff. A rival Unix by other vendors was released as OSF/1 , however most commercial Unix vendors eventually changed their distributions to be based on SVR4 with BSD features added on top. AT&T sold Unix to Novell in 1992, who later sold the UNIX trademark to a new industry consortium called The Open Group in 1993, allowing the use of the mark for certified operating systems that comply with the Single UNIX Specification (SUS). Since the 1990s, Unix systems have appeared on home computers : BSD/OS was the first to be commercialized for i386 computers and since then free Unix-like clones of existing systems have been developed, such as FreeBSD and the combination of Linux and GNU , the latter of which have since eclipsed Unix in popularity. Unix was, until 2005, the most widely used server operating system. However, in the present day, Unix distributions like IBM AIX , Oracle Solaris and OpenServer continue to be widely used in certain fields. ^ a b McIlroy, M. D. (1987). A Research Unix reader: annotated excerpts from the Programmer's Manual, 1971–1986 (PDF) (Technical report). CSTR. Bell Labs. 139. Archived (PDF) from the original on 11 November 2017. ^ Ritchie, D. M. ; Thompson, K. (1978). \"The UNIX Time-Sharing System\" (PDF) . The Bell System Technical Journal . 57 (6, part 2) (published July–August 1978). doi : 10.1145/361011.361061 . S2CID 53235982 . ^ Ritchie, Dennis M. (1977). The Unix Time-sharing System: A retrospective (PDF) . Tenth Hawaii International Conference on the System Sciences . Retrieved October 23, 2025 . a good case can be made that [UNIX] is in essence a modern implementation of MIT's CTSS system ^ a b Ritchie, D.M. ; Thompson, K. (July 1978). \"The UNIX Time-Sharing System\" . Bell System Tech. J . 57 (6): 1905– 1929. Bibcode : 1978BSTJ...57.1905R . doi : 10.1002/j.1538-7305.1978.tb02136.x . Retrieved December 9, 2012 . ^ Schwartz, John (June 11, 2000). \"Microsoft's Next Trials\" . The Washington Post . Archived from the original on December 13, 2024 . Retrieved December 17, 2024 . ^ Ritchie, Dennis M. (January 1993). \"The Development of the C Language\" (PDF) . Retrieved 23 October 2025 . ^ Raymond, Eric (19 September 2003). The Art of Unix Programming . Addison-Wesley. ISBN 978-0-13-142901-7 . Archived from the original on 12 February 2009 . Retrieved 9 February 2009 . ^ a b Anthes, Gary (June 4, 2009). \"Timeline: 40 Years Of Unix\" . Computerworld . Retrieved December 4, 2024 . ^ Lewis, Peter H. (June 12, 1988). \"Is Unix's Time Finally at hand?\" . The New York Times . Archived from the original on February 5, 2011 . Retrieved December 17, 2024 . ^ Chuck Karish. \"The name UNIX is now the property of X/Open – comp.std.unix | Google Groups\" . Retrieved June 1, 2026 . ^ Bangeman, Eric (February 22, 2006). \"Windows passes Unix in server sales\" . Ars Technica . Retrieved December 5, 2024 . ^ Garvin, Skip (September 19, 2019). \"Top IBM Power Systems myths: \"IBM AIX is dead and Unix isn't relevant in today's market\" (part 2)\" . IBM Blog . Retrieved December 5, 2024 . ^ \"Unix is dead. Long live Unix!\" .",
+    "text": "Family of computer operating systems Operating system Unix UNIX System III running on a PDP-11 simulator Developer Ken Thompson , Dennis Ritchie , Brian Kernighan , Douglas McIlroy , and Joe Ossanna at Bell Labs Written in C and assembly language OS family Unix Source model Historically proprietary software , while some Unix projects (including BSD family and Illumos ) are open-source and historical Unix source code is archived. Initial release Development started in 1969 First manual published internally in November 1971 ( 1971-11 ) Announced outside Bell Labs in October 1973 ( 1973-10 ) Available in English Kernel type Varies; monolithic , microkernel , hybrid Influenced by CTSS , Multics Default user interface Command-line interface and Graphical ( Wayland and X Window System ; Android SurfaceFlinger ; macOS Quartz ) License Varies; some versions are proprietary , others are free/libre or open-source software Official website www .opengroup .org /unix-systems Unix ( / ˈ j uː n ɪ k s / ⓘ , YOO -niks ; trademarked as UNIX ) is a family of multitasking , multi-user computer operating systems that derive from the original AT&T Unix, the development of which started in 1969 at the Bell Labs research center by Ken Thompson , Dennis Ritchie , and others. Initially intended for use inside the Bell System , AT&T licensed Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including Berkeley Software Distribution (BSD), Microsoft ( Xenix ), Sun Microsystems ( SunOS / Solaris ), HP ( HP-UX ), and IBM ( AIX ). The early versions of Unix, which are retrospectively referred to as \" Research Unix \", ran on computers such as the PDP-11 and VAX ; Unix was commonly used on minicomputers and mainframes from the 1970s onwards. It distinguished itself from its predecessors as the first portable operating system: almost the entire operating system is written in the C programming language (in 1973), which allows Unix to operate on numerous platforms. Unix systems are characterized by a modular design that is sometimes called the \" Unix philosophy \". According to this philosophy, the operating system should provide a set of simple tools, each of which performs a limited, well-defined function. A unified and inode -based filesystem and an inter-process communication mechanism known as \" pipes \" serve as the main means of communication, and a shell scripting and command language (the Unix shell ) is used to combine the tools to perform complex workflows. Version 7 in 1979 was the final widely released Research Unix, after which AT&T sold UNIX System III , based on Version 7, commercially in 1982; to avoid confusion between the Unix variants, AT&T combined various versions developed by others and released it as UNIX System V in 1983. However, as these were closed-source, the University of California, Berkeley continued developing BSD as an alternative. Other vendors that were beginning to create commercialized versions of Unix would base their version on either System V (like Silicon Graphics 's IRIX ) or BSD (like Mac OS X). Amid the \" Unix wars \" of standardization, AT&T alongside Sun merged System V, BSD, SunOS and Xenix , solidifying their features into one package as UNIX System V Release 4 (SVR4) in 1989, and it was commercialized by Unix System Laboratories , an AT&T spinoff. A rival Unix by other vendors was released as OSF/1 , however most commercial Unix vendors eventually changed their distributions to be based on SVR4 with BSD features added on top. AT&T sold Unix to Novell in 1992, who later sold the UNIX trademark to a new industry consortium called The Open Group in 1993, allowing the use of the mark for certified operating systems that comply with the Single UNIX Specification (SUS). Since the 1990s, Unix systems have appeared on home computers : BSD/OS was the first to be commercialized for i386 computers and since then free Unix-like clones of existing systems have been developed, such as FreeBSD and the combination of Linux and GNU , the latter of which have since eclipsed Unix in popularity. Unix was, until 2005, the most widely used server operating system. However, in the present day, Unix distributions like IBM AIX , Oracle Solaris and OpenServer continue to be widely used in certain fields. ^ a b McIlroy, M. D. (1987). A Research Unix reader: annotated excerpts from the Programmer's Manual, 1971–1986 (PDF) (Technical report). CSTR. Bell Labs. 139. Archived (PDF) from the original on 11 November 2017. ^ Ritchie, D. M. ; Thompson, K. (1978). \"The UNIX Time-Sharing System\" (PDF) . The Bell System Technical Journal . 57 (6, part 2) (published July–August 1978). doi : 10.1145/361011.361061 . S2CID 53235982 . ^ Ritchie, Dennis M. (1977). The Unix Time-sharing System: A retrospective (PDF) . Tenth Hawaii International Conference on the System Sciences . Retrieved October 23, 2025 . a good case can be made that [UNIX] is in essence a modern implementation of MIT's CTSS system ^ a b Ritchie, D.M. ; Thompson, K. (July 1978). \"The UNIX Time-Sharing System\" . Bell System Tech. J . 57 (6): 1905– 1929. Bibcode : 1978BSTJ...57.1905R . doi : 10.1002/j.1538-7305.1978.tb02136.x . Retrieved December 9, 2012 . ^ Schwartz, John (June 11, 2000). \"Microsoft's Next Trials\" . The Washington Post . Archived from the original on December 13, 2024 . Retrieved December 17, 2024 . ^ Ritchie, Dennis M. (January 1993). \"The Development of the C Language\" (PDF) . Retrieved 23 October 2025 . ^ Raymond, Eric (19 September 2003). The Art of Unix Programming . Addison-Wesley. ISBN 978-0-13-142901-7 . Archived from the original on 12 February 2009 . Retrieved 9 February 2009 . ^ a b Anthes, Gary (June 4, 2009). \"Timeline: 40 Years Of Unix\" . Computerworld . Retrieved December 4, 2024 . ^ Lewis, Peter H. (June 12, 1988). \"Is Unix's Time Finally at hand?\" . The New York Times . Archived from the original on February 5, 2011 . Retrieved December 17, 2024 . ^ Chuck Karish. \"The name UNIX is now the property of X/Open – comp.std.unix | Google Groups\" . Retrieved June 1, 2026 . ^ Bangeman, Eric (February 22, 2006). \"Windows passes Unix in server sales\" . Ars Technica . Retrieved December 5, 2024 . ^ Garvin, Skip (September 19, 2019). \"Top IBM Power Systems myths: \"IBM AIX is dead and Unix isn't relevant in today's market\" (part 2)\" . IBM Blog . Retrieved December 5, 2024 . ^ \"Unix is dead. Long live Unix!\" .",
+    "links": [
+      "AT&T Corporation",
+      "Android (operating system)",
+      "Assembly language",
+      "BSD/OS",
+      "Bell Labs",
+      "Bell System",
+      "Berkeley Software Distribution",
+      "Bibcode (identifier)",
+      "Brian Kernighan",
+      "C (programming language)",
+      "Command-line interface",
+      "Compatible Time-Sharing System",
+      "Computer multitasking",
+      "Computerworld",
+      "Dennis Ritchie",
+      "Doi (identifier)",
+      "Doug McIlroy",
+      "Douglas McIlroy",
+      "Eric S. Raymond",
+      "Free software",
+      "FreeBSD",
+      "GNU",
+      "Graphical user interface",
+      "HP-UX",
+      "Hewlett-Packard",
+      "Home computers",
+      "Hybrid kernel",
+      "I386",
+      "IBM",
+      "IBM AIX",
+      "IRIX",
+      "ISBN (identifier)",
+      "Illumos",
+      "Inode",
+      "Inter-process communication",
+      "Joe Ossanna",
+      "Ken Thompson",
+      "Kernel (operating system)",
+      "License",
+      "Linux",
+      "MacOS",
+      "Mainframe computer",
+      "Microkernel",
+      "Microsoft",
+      "Minicomputers",
+      "Modular design",
+      "Monolithic kernel",
+      "Multi-user software",
+      "Multics",
+      "Novell",
+      "OSF/1",
+      "Open-source software",
+      "OpenServer",
+      "Operating system",
+      "Oracle Solaris",
+      "PDP-11",
+      "Pipeline (Unix)",
+      "Programmer",
+      "Programming language",
+      "Proprietary software",
+      "Quartz (graphics layer)",
+      "Research Unix",
+      "S2CID (identifier)",
+      "Server (computing)",
+      "Shell (computing)",
+      "Silicon Graphics",
+      "Single UNIX Specification",
+      "Software license",
+      "Software portability",
+      "Solaris (operating system)",
+      "Sun Microsystems",
+      "SunOS",
+      "SurfaceFlinger",
+      "The New York Times",
+      "The Open Group",
+      "The Washington Post",
+      "UNIX System III",
+      "UNIX System V",
+      "UNIX System V Release 4",
+      "Unix System Laboratories",
+      "Unix filesystem",
+      "Unix philosophy",
+      "Unix shell",
+      "Unix wars",
+      "Unix-like",
+      "User interface",
+      "VAX",
+      "Version 7 Unix",
+      "Wayland (protocol)",
+      "X Window System",
+      "Xenix"
+    ],
+    "page_id": 21347364,
+    "revision_id": 1373785117,
+    "retrieved_at": "2026-09-18T18:08:00.574279+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260907223320|1373782857",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 21347364,
+            "ns": 0,
+            "title": "Unix",
+            "revisions": [
+              {
+                "revid": 1373785117,
+                "parentid": 1373782857
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Simh-pdp11-unix-sysiii.png",
+              "wikibase-shortdesc": "Family of computer operating systems",
+              "wikibase_item": "Q11368"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Unix",
+        "pageid": 21347364,
+        "revid": 1373785117,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Family of computer operating systems</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Operating system</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color: #e0e0e0; color: inherit;\">Unix</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:UNIX_logo.svg\" class=\"mw-file-description\"><img alt=\"Unix logo with text: UNIX® An Open Group Standard\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/UNIX_logo.svg/250px-UNIX_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"220\" height=\"90\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/UNIX_logo.svg/500px-UNIX_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"122\" data-file-height=\"50\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Simh-pdp11-unix-sysiii.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Simh-pdp11-unix-sysiii.png/250px-Simh-pdp11-unix-sysiii.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"176\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Simh-pdp11-unix-sysiii.png/500px-Simh-pdp11-unix-sysiii.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"772\" data-file-height=\"544\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/UNIX_System_III\" title=\"UNIX System III\">UNIX System III</a> running on a <a href=\"/wiki/PDP-11\" title=\"PDP-11\">PDP-11</a> simulator</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Ken_Thompson\" title=\"Ken Thompson\">Ken Thompson</a>, <a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Dennis Ritchie</a>, <a href=\"/wiki/Brian_Kernighan\" title=\"Brian Kernighan\">Brian Kernighan</a>, <a href=\"/wiki/Douglas_McIlroy\" title=\"Douglas McIlroy\">Douglas McIlroy</a>, and <a href=\"/wiki/Joe_Ossanna\" title=\"Joe Ossanna\">Joe Ossanna</a> at <a href=\"/wiki/Bell_Labs\" title=\"Bell Labs\">Bell Labs</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programming_language\" title=\"Programming language\">Written in</a></th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> and <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly language</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">OS family</th><td class=\"infobox-data\">Unix</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Source model</th><td class=\"infobox-data\">Historically <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a>, while some Unix projects (including <a href=\"/wiki/Berkeley_Software_Distribution\" title=\"Berkeley Software Distribution\">BSD</a> family and <a href=\"/wiki/Illumos\" title=\"Illumos\">Illumos</a>) are <a href=\"/wiki/Open-source_software\" title=\"Open-source software\">open-source</a> and historical Unix source code is archived.</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Initial release</th><td class=\"infobox-data\">Development started in 1969<br />First manual published <a href=\"/wiki/Research_Unix\" title=\"Research Unix\">internally</a> in November&#160;1971<span style=\"display: none;\">&#160;(<span class=\"bday dtstart published updated itvstart\">1971-11</span>)</span><sup id=\"cite&#95;ref-reader&#95;1-0\" class=\"reference\"><a href=\"#cite_note-reader-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><br />Announced outside Bell Labs in October&#160;1973<span style=\"display: none;\">&#160;(<span class=\"bday dtstart published updated itvstart\">1973-10</span>)</span><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">English</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">Kernel</a> type</th><td class=\"infobox-data\">Varies; <a href=\"/wiki/Monolithic_kernel\" title=\"Monolithic kernel\">monolithic</a>, <a href=\"/wiki/Microkernel\" title=\"Microkernel\">microkernel</a>, <a href=\"/wiki/Hybrid_kernel\" title=\"Hybrid kernel\">hybrid</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Influenced by</th><td class=\"infobox-data\"><a href=\"/wiki/Compatible_Time-Sharing_System\" title=\"Compatible Time-Sharing System\">CTSS</a>,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Multics\" title=\"Multics\">Multics</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/User_interface\" title=\"User interface\">Default<br />user interface</a></th><td class=\"infobox-data\"><a href=\"/wiki/Command-line_interface\" title=\"Command-line interface\">Command-line interface</a> and <a href=\"/wiki/Graphical_user_interface\" title=\"Graphical user interface\">Graphical</a> (<a href=\"/wiki/Wayland_(protocol)\" title=\"Wayland (protocol)\">Wayland</a> and <a href=\"/wiki/X_Window_System\" title=\"X Window System\">X Window System</a>; <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a> <a href=\"/wiki/SurfaceFlinger\" class=\"mw-redirect\" title=\"SurfaceFlinger\">SurfaceFlinger</a>; <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a> <a href=\"/wiki/Quartz_(graphics_layer)\" title=\"Quartz (graphics layer)\">Quartz</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\">Varies; some versions are <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary</a>, others are <a href=\"/wiki/Free_software\" title=\"Free software\">free/libre</a> or <a href=\"/wiki/Open-source_software\" title=\"Open-source software\">open-source software</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Official website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.opengroup.org/unix-systems\">www<wbr />.opengroup<wbr />.org<wbr />/unix-systems</a></span></td></tr></tbody></table>\n<p><b>Unix</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"/j/: &#39;y&#39; in &#39;yes&#39;\">j</span><span title=\"/uː/: &#39;oo&#39; in &#39;goose&#39;\">uː</span><span title=\"&#39;n&#39; in &#39;nigh&#39;\">n</span><span title=\"/ɪ/: &#39;i&#39; in &#39;kit&#39;\">ɪ</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"&#39;s&#39; in &#39;sigh&#39;\">s</span></span>/</a></span>&#32;<span class=\"ext-phonos\"><span data-nosnippet=\"\" id=\"ooui-php-1\" class=\"noexcerpt ext-phonos-PhonosButton ext-phonos-PhonosButton-emptylabel oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-buttonElement-size-medium oo-ui-iconElement oo-ui-buttonWidget\" data-ooui=\"{&quot;_&quot;:&quot;mw.Phonos.PhonosButton&quot;,&quot;href&quot;:&quot;\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/transcoded\\/c\\/c8\\/En-us-Unix.oga\\/En-us-Unix.oga.mp3&quot;,&quot;rel&quot;:[&quot;nofollow&quot;],&quot;framed&quot;:false,&quot;icon&quot;:&quot;volumeUp&quot;,&quot;data&quot;:{&quot;ipa&quot;:&quot;&quot;,&quot;text&quot;:&quot;&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;wikibase&quot;:&quot;&quot;,&quot;file&quot;:&quot;En-us-Unix.oga&quot;},&quot;classes&quot;:[&quot;noexcerpt&quot;,&quot;ext-phonos-PhonosButton&quot;,&quot;ext-phonos-PhonosButton-emptylabel&quot;]}\"><a role=\"button\" tabindex=\"0\" href=\"//upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/En-us-Unix.oga/En-us-Unix.oga.mp3\" rel=\"nofollow\" aria-label=\"Play audio\" title=\"Play audio\" class=\"oo-ui-buttonElement-button\"><span class=\"oo-ui-iconElement-icon oo-ui-icon-volumeUp\"></span><span class=\"oo-ui-labelElement-label\"></span><span class=\"oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator\"></span></a></span><sup class=\"ext-phonos-attribution noexcerpt navigation-not-searchable\"><a href=\"/wiki/File:En-us-Unix.oga\" title=\"File:En-us-Unix.oga\">ⓘ</a></sup></span></span>, <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\"><span style=\"font-size:90%\">YOO</span>-niks</i></a>; trademarked as <b>UNIX</b>) is a family of <a href=\"/wiki/Computer_multitasking\" title=\"Computer multitasking\">multitasking</a>, <a href=\"/wiki/Multi-user_software\" title=\"Multi-user software\">multi-user</a> computer <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a> that derive from the original <a href=\"/wiki/AT%26T_Corporation\" title=\"AT&amp;T Corporation\">AT&amp;T</a> Unix, the development of which started in 1969<sup id=\"cite&#95;ref-reader&#95;1-1\" class=\"reference\"><a href=\"#cite_note-reader-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> at the <a href=\"/wiki/Bell_Labs\" title=\"Bell Labs\">Bell Labs</a> research center by <a href=\"/wiki/Ken_Thompson\" title=\"Ken Thompson\">Ken Thompson</a>, <a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Dennis Ritchie</a>, and others.<sup id=\"cite&#95;ref-Ritchie&#95;4-0\" class=\"reference\"><a href=\"#cite_note-Ritchie-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Initially intended for use inside the <a href=\"/wiki/Bell_System\" title=\"Bell System\">Bell System</a>, AT&amp;T <a href=\"/wiki/License\" title=\"License\">licensed</a> Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including <a href=\"/wiki/Berkeley_Software_Distribution\" title=\"Berkeley Software Distribution\">Berkeley Software Distribution</a> (BSD), <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a> (<a href=\"/wiki/Xenix\" title=\"Xenix\">Xenix</a>), <a href=\"/wiki/Sun_Microsystems\" title=\"Sun Microsystems\">Sun Microsystems</a> (<a href=\"/wiki/SunOS\" title=\"SunOS\">SunOS</a>/<a href=\"/wiki/Solaris_(operating_system)\" class=\"mw-redirect\" title=\"Solaris (operating system)\">Solaris</a>), <a href=\"/wiki/Hewlett-Packard\" title=\"Hewlett-Packard\">HP</a> (<a href=\"/wiki/HP-UX\" title=\"HP-UX\">HP-UX</a>), and <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a> (<a href=\"/wiki/IBM_AIX\" title=\"IBM AIX\">AIX</a>).\n</p><p>The early versions of Unix, which are retrospectively referred to as \"<a href=\"/wiki/Research_Unix\" title=\"Research Unix\">Research Unix</a>\", ran on computers such as the <a href=\"/wiki/PDP-11\" title=\"PDP-11\">PDP-11</a> and <a href=\"/wiki/VAX\" title=\"VAX\">VAX</a>; Unix was commonly used on <a href=\"/wiki/Minicomputers\" class=\"mw-redirect\" title=\"Minicomputers\">minicomputers</a> and <a href=\"/wiki/Mainframe_computer\" title=\"Mainframe computer\">mainframes</a> from the 1970s onwards.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> It distinguished itself from its predecessors as the first <a href=\"/wiki/Software_portability\" title=\"Software portability\">portable</a> operating system: almost the entire operating system is written in the <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C programming language</a> (in 1973), which allows Unix to operate on numerous platforms.<sup id=\"cite&#95;ref-dottcl&#95;6-0\" class=\"reference\"><a href=\"#cite_note-dottcl-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> Unix systems are characterized by a <a href=\"/wiki/Modular_design\" title=\"Modular design\">modular design</a> that is sometimes called the \"<a href=\"/wiki/Unix_philosophy\" title=\"Unix philosophy\">Unix philosophy</a>\". According to this philosophy, the operating system should provide a set of simple tools, each of which performs a limited, well-defined function.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> A unified and <a href=\"/wiki/Inode\" title=\"Inode\">inode</a>-based <a href=\"/wiki/Unix_filesystem\" title=\"Unix filesystem\">filesystem</a> and an <a href=\"/wiki/Inter-process_communication\" title=\"Inter-process communication\">inter-process communication</a> mechanism known as \"<a href=\"/wiki/Pipeline_(Unix)\" title=\"Pipeline (Unix)\">pipes</a>\" serve as the main means of communication,<sup id=\"cite&#95;ref-Ritchie&#95;4-1\" class=\"reference\"><a href=\"#cite_note-Ritchie-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> and a <a href=\"/wiki/Shell_(computing)\" title=\"Shell (computing)\">shell</a> scripting and command language (the <a href=\"/wiki/Unix_shell\" title=\"Unix shell\">Unix shell</a>) is used to combine the tools to perform complex workflows.\n</p><p><a href=\"/wiki/Version_7_Unix\" title=\"Version 7 Unix\">Version 7</a> in 1979 was the final widely released Research Unix, after which AT&amp;T sold <a href=\"/wiki/UNIX_System_III\" title=\"UNIX System III\">UNIX System III</a>, based on Version 7, commercially in 1982; to avoid confusion between the Unix variants, AT&amp;T combined various versions developed by others and released it as <a href=\"/wiki/UNIX_System_V\" title=\"UNIX System V\">UNIX System V</a> in 1983. However, as these were closed-source, the University of California, Berkeley continued developing BSD as an alternative. Other vendors that were beginning to create commercialized versions of Unix would base their version on either System V (like <a href=\"/wiki/Silicon_Graphics\" title=\"Silicon Graphics\">Silicon Graphics</a>'s <a href=\"/wiki/IRIX\" title=\"IRIX\">IRIX</a>) or BSD (like Mac OS X). Amid the \"<a href=\"/wiki/Unix_wars\" title=\"Unix wars\">Unix wars</a>\" of standardization, AT&amp;T alongside Sun merged System V, BSD, <a href=\"/wiki/SunOS\" title=\"SunOS\">SunOS</a> and <a href=\"/wiki/Xenix\" title=\"Xenix\">Xenix</a>, solidifying their features into one package as <a href=\"/wiki/UNIX_System_V_Release_4\" class=\"mw-redirect\" title=\"UNIX System V Release 4\">UNIX System V Release 4</a> (SVR4) in 1989, and it was commercialized by <a href=\"/wiki/Unix_System_Laboratories\" title=\"Unix System Laboratories\">Unix System Laboratories</a>, an AT&amp;T spinoff.<sup id=\"cite&#95;ref-timeline-40-years&#95;8-0\" class=\"reference\"><a href=\"#cite_note-timeline-40-years-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> A rival Unix by other vendors was released as <a href=\"/wiki/OSF/1\" title=\"OSF/1\">OSF/1</a>, however most commercial Unix vendors eventually changed their distributions to be based on SVR4 with BSD features added on top.\n</p><p>AT&amp;T sold Unix to <a href=\"/wiki/Novell\" title=\"Novell\">Novell</a> in 1992, who later sold the UNIX trademark to a new industry consortium called <a href=\"/wiki/The_Open_Group\" title=\"The Open Group\">The Open Group</a> in 1993,<sup id=\"cite&#95;ref-comp-std-unix&#95;10-0\" class=\"reference\"><a href=\"#cite_note-comp-std-unix-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> allowing the use of the mark for certified operating systems that comply with the <a href=\"/wiki/Single_UNIX_Specification\" title=\"Single UNIX Specification\">Single UNIX Specification</a> (SUS).<sup id=\"cite&#95;ref-timeline-40-years&#95;8-1\" class=\"reference\"><a href=\"#cite_note-timeline-40-years-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> Since the 1990s, Unix systems have appeared on <a href=\"/wiki/Home_computers\" class=\"mw-redirect\" title=\"Home computers\">home computers</a>: <a href=\"/wiki/BSD/OS\" title=\"BSD/OS\">BSD/OS</a> was the first to be commercialized for <a href=\"/wiki/I386\" title=\"I386\">i386</a> computers and since then free <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> clones of existing systems have been developed, such as <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a> and the combination of <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> and <a href=\"/wiki/GNU\" title=\"GNU\">GNU</a>, the latter of which have since eclipsed Unix in popularity. Unix was, until 2005, the most widely used <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">server</a> operating system.<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> However, in the present day, Unix distributions like <a href=\"/wiki/IBM_AIX\" title=\"IBM AIX\">IBM AIX</a>, <a href=\"/wiki/Oracle_Solaris\" title=\"Oracle Solaris\">Oracle Solaris</a> and <a href=\"/wiki/OpenServer\" title=\"OpenServer\">OpenServer</a> continue to be widely used in certain fields.<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-reader-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-reader_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-reader_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFMcIlroy1987\" class=\"citation techreport cs1\"><a href=\"/wiki/Doug_McIlroy\" class=\"mw-redirect\" title=\"Doug McIlroy\">McIlroy, M. D.</a> (1987). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cs.dartmouth.edu/~doug/reader.pdf\"><i>A Research Unix reader: annotated excerpts from the Programmer's Manual, 1971–1986</i></a> <span class=\"cs1-format\">(PDF)</span> (Technical report). CSTR. Bell Labs. 139. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171111151817/http://www.cs.dartmouth.edu/~doug/reader.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 11 November 2017.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=A+Research+Unix+reader%3A+annotated+excerpts+from+the+Programmer%27s+Manual%2C+1971%E2%80%931986&amp;rft.series=CSTR&amp;rft.pub=Bell+Labs&amp;rft.date=1987&amp;rft.aulast=McIlroy&amp;rft.aufirst=M.+D.&amp;rft&#95;id=http%3A%2F%2Fwww.cs.dartmouth.edu%2F~doug%2Freader.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\">\n  <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRitchieThompson1978\" class=\"citation journal cs1\"><a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Ritchie, D. M.</a>; <a href=\"/wiki/Ken_Thompson\" title=\"Ken Thompson\">Thompson, K.</a> (1978). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cacm.pdf\">\"The UNIX Time-Sharing System\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>The Bell System Technical Journal</i>. <b>57</b> (6, part 2) (published July–August 1978). <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F361011.361061\">10.1145/361011.361061</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:53235982\">53235982</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Bell+System+Technical+Journal&amp;rft.atitle=The+UNIX+Time-Sharing+System&amp;rft.volume=57&amp;rft.issue=6%2C+part+2&amp;rft.date=1978&amp;rft&#95;id=info%3Adoi%2F10.1145%2F361011.361061&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A53235982%23id-name%3DS2CID&amp;rft.aulast=Ritchie&amp;rft.aufirst=D.+M.&amp;rft.au=Thompson%2C+K.&amp;rft&#95;id=https%3A%2F%2Fwww.nokia.com%2Fbell-labs%2Fabout%2Fdennis-m-ritchie%2Fcacm.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRitchie1977\" class=\"citation conference cs1\"><a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Ritchie, Dennis M.</a> (1977). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nokia.com/bell-labs/about/dennis-m-ritchie/retro.pdf\"><i>The Unix Time-sharing System: A retrospective</i></a> <span class=\"cs1-format\">(PDF)</span>. Tenth Hawaii International Conference on the System Sciences<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 23,</span> 2025</span>. <q>a good case can be made that [UNIX] is in essence a modern implementation of MIT's CTSS system</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.btitle=The+Unix+Time-sharing+System%3A+A+retrospective&amp;rft.date=1977&amp;rft.aulast=Ritchie&amp;rft.aufirst=Dennis+M.&amp;rft&#95;id=https%3A%2F%2Fwww.nokia.com%2Fbell-labs%2Fabout%2Fdennis-m-ritchie%2Fretro.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Ritchie-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Ritchie_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Ritchie_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRitchieThompson,&#95;K.1978\" class=\"citation journal cs1\"><a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Ritchie, D.M.</a>; <a href=\"/wiki/Ken_Thompson\" title=\"Ken Thompson\">Thompson, K.</a> (July 1978). <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/bstj57-6-1905\">\"The UNIX Time-Sharing System\"</a>. <i>Bell System Tech. J</i>. <b>57</b> (6): <span class=\"nowrap\">1905–</span>1929. <a href=\"/wiki/Bibcode_(identifier)\" class=\"mw-redirect\" title=\"Bibcode (identifier)\">Bibcode</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://ui.adsabs.harvard.edu/abs/1978BSTJ...57.1905R\">1978BSTJ...57.1905R</a>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1002%2Fj.1538-7305.1978.tb02136.x\">10.1002/j.1538-7305.1978.tb02136.x</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 9,</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Bell+System+Tech.+J.&amp;rft.atitle=The+UNIX+Time-Sharing+System&amp;rft.volume=57&amp;rft.issue=6&amp;rft.pages=1905-1929&amp;rft.date=1978-07&amp;rft&#95;id=info%3Adoi%2F10.1002%2Fj.1538-7305.1978.tb02136.x&amp;rft&#95;id=info%3Abibcode%2F1978BSTJ...57.1905R&amp;rft.aulast=Ritchie&amp;rft.aufirst=D.M.&amp;rft.au=Thompson%2C+K.&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fbstj57-6-1905&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSchwartz2000\" class=\"citation news cs1\">Schwartz, John (June 11, 2000). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20241213184850/https://www.washingtonpost.com/archive/business/2000/06/11/microsofts-next-trials/4087113f-05e9-4ce2-bb3d-3ea0ee2faf9b/\">\"Microsoft's Next Trials\"</a>. <i><a href=\"/wiki/The_Washington_Post\" title=\"The Washington Post\">The Washington Post</a></i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.washingtonpost.com/archive/business/2000/06/11/microsofts-next-trials/4087113f-05e9-4ce2-bb3d-3ea0ee2faf9b/\">the original</a> on December 13, 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 17,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Washington+Post&amp;rft.atitle=Microsoft%27s+Next+Trials&amp;rft.date=2000-06-11&amp;rft.aulast=Schwartz&amp;rft.aufirst=John&amp;rft&#95;id=https%3A%2F%2Fwww.washingtonpost.com%2Farchive%2Fbusiness%2F2000%2F06%2F11%2Fmicrosofts-next-trials%2F4087113f-05e9-4ce2-bb3d-3ea0ee2faf9b%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-dottcl-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-dottcl_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRitchie1993\" class=\"citation web cs1\"><a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Ritchie, Dennis M.</a> (January 1993). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.pdf\">\"The Development of the C Language\"</a> <span class=\"cs1-format\">(PDF)</span><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">23 October</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Development+of+the+C+Language&amp;rft.date=1993-01&amp;rft.aulast=Ritchie&amp;rft.aufirst=Dennis+M.&amp;rft&#95;id=https%3A%2F%2Fwww.nokia.com%2Fbell-labs%2Fabout%2Fdennis-m-ritchie%2Fchist.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRaymond2003\" class=\"citation book cs1\"><a href=\"/wiki/Eric_S._Raymond\" title=\"Eric S. Raymond\">Raymond, Eric</a> (19 September 2003). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.catb.org/~esr/writings/taoup/html/\"><i>The Art of Unix Programming</i></a>. Addison-Wesley. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-13-142901-7\" title=\"Special:BookSources/978-0-13-142901-7\"><bdi>978-0-13-142901-7</bdi></a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090212183726/http://www.catb.org/~esr/writings/taoup/html/\">Archived</a> from the original on 12 February 2009<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Art+of+Unix+Programming&amp;rft.pub=Addison-Wesley&amp;rft.date=2003-09-19&amp;rft.isbn=978-0-13-142901-7&amp;rft.aulast=Raymond&amp;rft.aufirst=Eric&amp;rft&#95;id=http%3A%2F%2Fwww.catb.org%2F~esr%2Fwritings%2Ftaoup%2Fhtml%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-timeline-40-years-8\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-timeline-40-years_8-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-timeline-40-years_8-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAnthes2009\" class=\"citation web cs1\">Anthes, Gary (June 4, 2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.computerworld.com/article/1554222/timeline-40-years-of-unix-3.html\">\"Timeline: 40 Years Of Unix\"</a>. <i><a href=\"/wiki/Computerworld\" title=\"Computerworld\">Computerworld</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 4,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Computerworld&amp;rft.atitle=Timeline%3A+40+Years+Of+Unix&amp;rft.date=2009-06-04&amp;rft.aulast=Anthes&amp;rft.aufirst=Gary&amp;rft&#95;id=https%3A%2F%2Fwww.computerworld.com%2Farticle%2F1554222%2Ftimeline-40-years-of-unix-3.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLewis1988\" class=\"citation news cs1\">Lewis, Peter H. (June 12, 1988). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110205124224/https://www.nytimes.com/1988/06/12/business/the-executive-computer-is-unix-s-time-finally-at-hand.html\">\"Is Unix's Time Finally at hand?\"</a>. <i><a href=\"/wiki/The_New_York_Times\" title=\"The New York Times\">The New York Times</a></i>. Archived from <span class=\"id-lock-subscription\" title=\"Paid subscription required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nytimes.com/1988/06/12/business/the-executive-computer-is-unix-s-time-finally-at-hand.html\">the original</a></span> on February 5, 2011<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 17,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+New+York+Times&amp;rft.atitle=Is+Unix%27s+Time+Finally+at+hand%3F&amp;rft.date=1988-06-12&amp;rft.aulast=Lewis&amp;rft.aufirst=Peter+H.&amp;rft&#95;id=https%3A%2F%2Fwww.nytimes.com%2F1988%2F06%2F12%2Fbusiness%2Fthe-executive-computer-is-unix-s-time-finally-at-hand.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-comp-std-unix-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-comp-std-unix_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFChuck&#95;Karish\" class=\"citation web cs1\">Chuck Karish. <a rel=\"nofollow\" class=\"external text\" href=\"https://groups.google.com/group/comp.std.unix/msg/c9974cf0022884f8\">\"The name UNIX is now the property of X/Open – comp.std.unix &#124; Google Groups\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 1,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+name+UNIX+is+now+the+property+of+X%2FOpen+%E2%80%93+comp.std.unix+%26%23124%3B+Google+Groups&amp;rft.au=Chuck+Karish&amp;rft&#95;id=https%3A%2F%2Fgroups.google.com%2Fgroup%2Fcomp.std.unix%2Fmsg%2Fc9974cf0022884f8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBangeman2006\" class=\"citation web cs1\">Bangeman, Eric (February 22, 2006). <a rel=\"nofollow\" class=\"external text\" href=\"https://arstechnica.com/uncategorized/2006/02/6236/\">\"Windows passes Unix in server sales\"</a>. <i>Ars Technica</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 5,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Ars+Technica&amp;rft.atitle=Windows+passes+Unix+in+server+sales&amp;rft.date=2006-02-22&amp;rft.aulast=Bangeman&amp;rft.aufirst=Eric&amp;rft&#95;id=https%3A%2F%2Farstechnica.com%2Funcategorized%2F2006%2F02%2F6236%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGarvin2019\" class=\"citation web cs1\">Garvin, Skip (September 19, 2019). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.ibm.com/blog/top-ibm-power-systems-myths-ibm-aix-is-dead-and-unix-isnt-relevant-in-todays-market-part-2/\">\"Top IBM Power Systems myths: \"IBM AIX is dead and Unix isn't relevant in today's market\" (part 2)\"</a>. <i>IBM Blog</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 5,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=IBM+Blog&amp;rft.atitle=Top+IBM+Power+Systems+myths%3A+%22IBM+AIX+is+dead+and+Unix+isn%27t+relevant+in+today%27s+market%22+%28part+2%29&amp;rft.date=2019-09-19&amp;rft.aulast=Garvin&amp;rft.aufirst=Skip&amp;rft&#95;id=https%3A%2F%2Fwww.ibm.com%2Fblog%2Ftop-ibm-power-systems-myths-ibm-aix-is-dead-and-unix-isnt-relevant-in-todays-market-part-2%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation news cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.theregister.com/2023/01/17/unix_is_dead/\">\"Unix is dead. Long live Unix!\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Unix+is+dead.+Long+live+Unix%21&amp;rft&#95;id=https%3A%2F%2Fwww.theregister.com%2F2023%2F01%2F17%2Funix&#95;is&#95;dead%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AUnix\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐9msz4\nCached time: 20260918180826\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.177 seconds\nReal time usage: 0.272 seconds\nPreprocessor visited node count: 1543/1000000\nRevision size: 10797/2097152 bytes\nPost‐expand include size: 45717/2097152 bytes\nTemplate argument size: 3270/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 34068/5000000 bytes\nLua time usage: 0.108/10.000 seconds\nLua memory usage: 7615055/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  243.375      1 -total\n 21.53%   52.390      2 Template:Short_description\n 19.97%   48.590      1 Template:Infobox_OS\n 17.84%   43.420      1 Template:Cite_tech_report\n 16.44%   40.019      1 Template:Infobox\n 12.83%   31.219      4 Template:Pagetype\n 11.43%   27.814      1 Template:IPAc-en\n  7.68%   18.683     10 Template:Main_other\n  5.48%   13.334      5 Template:Cite_web\n  4.55%   11.063      2 Template:Cite_journal\n-->\n\n<!-- Render ID f193907c-b38b-11f1-945f-9da59d393704 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "AT&T Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD/OS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bell Labs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bell System",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Berkeley Software Distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bibcode (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Brian Kernighan",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command-line interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compatible Time-Sharing System",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer multitasking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computerworld",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dennis Ritchie",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doug McIlroy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Douglas McIlroy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eric S. Raymond",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphical user interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HP-UX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hewlett-Packard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Home computers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hybrid kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "I386",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM AIX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IRIX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Illumos",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inter-process communication",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Joe Ossanna",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ken Thompson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mainframe computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microkernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Minicomputers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-user software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Novell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OSF/1",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenServer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Solaris",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PDP-11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pipeline (Unix)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quartz (graphics layer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Research Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Shell (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Silicon Graphics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Single UNIX Specification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software portability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Solaris (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SunOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sun Microsystems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SurfaceFlinger",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The New York Times",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Open Group",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Washington Post",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UNIX System III",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UNIX System V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UNIX System V Release 4",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix System Laboratories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix filesystem",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix philosophy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix wars",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VAX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Version 7 Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayland (protocol)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X Window System",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xenix",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Family of computer operating systems",
+          "page_image_free": "Simh-pdp11-unix-sysiii.png",
+          "wikibase_item": "Q11368"
+        }
+      }
+    }
+  ]
+}

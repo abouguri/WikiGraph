@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Macro (computer science)",
+    "url": "https://en.wikipedia.org/wiki/Macro_%28computer_science%29",
+    "summary": "Rule for substituting a set input with a set output \"Macro language\" redirects here. For ISO macrolanguages, see ISO 639 macrolanguage . jEdit 's macro editor In computer programming , a macro (short for \" macro instruction \"; from Greek μακρο - ' long, large ' ) is a rule or pattern that specifies how a certain input should be mapped to a replacement output. Applying a macro to an input is known as macro expansion . The input and output may be a sequence of lexical tokens or characters , or a syntax tree . Character macros are supported in software applications to make it easy to invoke common command sequences. Token and tree macros are supported in some programming languages to enable code reuse or to extend the language, sometimes for domain-specific languages . Macros are used to make a sequence of computing instructions available to the programmer as a single program statement , making the programming task less tedious and less error-prone. Thus, they are called \"macros\" because a \"big\" block of code can be expanded from a \"small\" sequence of characters. Macros often allow positional or keyword parameters that dictate what the conditional assembler program generates and have been used to create entire programs or program suites according to such variables as operating system , platform or other factors. The term derives from \"macro instruction\", and such expansions were originally used in generating assembly language code. ^ Oxford English Dictionary , s.v. macro , macro-instruction , and macro- ^ Greenwald, Irwin D.; Kane, Maureen (April 1959). \"The Share 709 System: Programming and Modification\" . Journal of the ACM . 6 (2). New York, NY, USA: ACM: 128– 133. doi : 10.1145/320964.320967 . S2CID 27424222 . One of the important uses of programmer macros is to save time and clerical-type errors in writing sequence of instructions which are often repeated in the course of a program. ^ Strachey, Christopher (October 1965). \"A General Purpose Macrogenerator\" . Computer Journal . 8 (3): 225– 241. doi : 10.1093/comjnl/8.3.225 .",
+    "text": "Rule for substituting a set input with a set output \"Macro language\" redirects here. For ISO macrolanguages, see ISO 639 macrolanguage . jEdit 's macro editor In computer programming , a macro (short for \" macro instruction \"; from Greek μακρο - ' long, large ' ) is a rule or pattern that specifies how a certain input should be mapped to a replacement output. Applying a macro to an input is known as macro expansion . The input and output may be a sequence of lexical tokens or characters , or a syntax tree . Character macros are supported in software applications to make it easy to invoke common command sequences. Token and tree macros are supported in some programming languages to enable code reuse or to extend the language, sometimes for domain-specific languages . Macros are used to make a sequence of computing instructions available to the programmer as a single program statement , making the programming task less tedious and less error-prone. Thus, they are called \"macros\" because a \"big\" block of code can be expanded from a \"small\" sequence of characters. Macros often allow positional or keyword parameters that dictate what the conditional assembler program generates and have been used to create entire programs or program suites according to such variables as operating system , platform or other factors. The term derives from \"macro instruction\", and such expansions were originally used in generating assembly language code. ^ Oxford English Dictionary , s.v. macro , macro-instruction , and macro- ^ Greenwald, Irwin D.; Kane, Maureen (April 1959). \"The Share 709 System: Programming and Modification\" . Journal of the ACM . 6 (2). New York, NY, USA: ACM: 128– 133. doi : 10.1145/320964.320967 . S2CID 27424222 . One of the important uses of programmer macros is to save time and clerical-type errors in writing sequence of instructions which are often repeated in the course of a program. ^ Strachey, Christopher (October 1965). \"A General Purpose Macrogenerator\" . Computer Journal . 8 (3): 225– 241. doi : 10.1093/comjnl/8.3.225 .",
+    "links": [
+      "Abstract syntax tree",
+      "Assembly language",
+      "Block (programming)",
+      "Character (computing)",
+      "Christopher Strachey",
+      "Code reuse",
+      "Command (computing)",
+      "Computer program",
+      "Computer programming",
+      "Computing platform",
+      "Conditional assembly language",
+      "Doi (identifier)",
+      "Domain-specific languages",
+      "Greek language",
+      "ISO 639 macrolanguage",
+      "JEdit",
+      "Lexical token",
+      "Map (mathematics)",
+      "Operating system",
+      "Oxford English Dictionary",
+      "Pattern",
+      "Program statement",
+      "Programming language",
+      "S2CID (identifier)",
+      "Software application"
+    ],
+    "page_id": 20560,
+    "revision_id": 1370176745,
+    "retrieved_at": "2026-09-18T18:09:01.726664+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260819025246|1370098772",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 20560,
+            "ns": 0,
+            "title": "Macro (computer science)",
+            "revisions": [
+              {
+                "revid": 1370176745,
+                "parentid": 1370098772
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Jedit_macro_recorder.png",
+              "wikibase-shortdesc": "Rule for substituting a set input with a set output",
+              "wikibase_item": "Q629579"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Macro (computer science)",
+        "pageid": 20560,
+        "revid": 1370176745,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Rule for substituting a set input with a set output</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Macro language\" redirects here. For ISO macrolanguages, see <a href=\"/wiki/ISO_639_macrolanguage\" title=\"ISO 639 macrolanguage\">ISO 639 macrolanguage</a>.</div>\n<figure typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Jedit_macro_recorder.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jedit_macro_recorder.png/250px-Jedit_macro_recorder.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"210\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jedit_macro_recorder.png/500px-Jedit_macro_recorder.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"680\" data-file-height=\"570\" /></a><figcaption><a href=\"/wiki/JEdit\" title=\"JEdit\">jEdit</a>'s macro editor</figcaption></figure>\n<p>In <a href=\"/wiki/Computer_programming\" title=\"Computer programming\">computer programming</a>, a <b>macro</b> (short for \"<b>macro instruction</b>\"; from&#32;<a href=\"/wiki/Greek_language\" title=\"Greek language\">Greek</a>&#32;<i> </i>μακρο<i>-</i>&#160;<span class=\"gloss-quot\">'</span><span class=\"gloss-text\">long, large</span><span class=\"gloss-quot\">'</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>) is a rule or <a href=\"/wiki/Pattern\" title=\"Pattern\">pattern</a> that specifies how a certain input should be <a href=\"/wiki/Map_(mathematics)\" title=\"Map (mathematics)\">mapped</a> to a replacement output. Applying a macro to an input is known as <b>macro expansion</b>. \n</p><p>The input and output may be a sequence of <a href=\"/wiki/Lexical_token\" class=\"mw-redirect\" title=\"Lexical token\">lexical tokens</a> or <a href=\"/wiki/Character_(computing)\" title=\"Character (computing)\">characters</a>, or a <a href=\"/wiki/Abstract_syntax_tree\" title=\"Abstract syntax tree\">syntax tree</a>. Character macros are supported in <a href=\"/wiki/Software_application\" class=\"mw-redirect\" title=\"Software application\">software applications</a> to make it easy to invoke common <a href=\"/wiki/Command_(computing)\" title=\"Command (computing)\">command</a> sequences. Token and tree macros are supported in some <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a> to enable <a href=\"/wiki/Code_reuse\" title=\"Code reuse\">code reuse</a> or to extend the language, sometimes for <a href=\"/wiki/Domain-specific_languages\" class=\"mw-redirect\" title=\"Domain-specific languages\">domain-specific languages</a>.\n</p><p>Macros are used to make a sequence of computing instructions available to the programmer as a single <a href=\"/wiki/Program_statement\" class=\"mw-redirect\" title=\"Program statement\">program statement</a>, making the programming task less tedious and less error-prone.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> Thus, they are called \"macros\" because a \"big\" <a href=\"/wiki/Block_(programming)\" title=\"Block (programming)\">block of code</a> can be expanded from a \"small\" sequence of characters. Macros often allow positional or keyword parameters that dictate what the <a href=\"/wiki/Conditional_assembly_language\" class=\"mw-redirect\" title=\"Conditional assembly language\">conditional assembler</a> program generates and have been used to create entire <a href=\"/wiki/Computer_program\" title=\"Computer program\">programs</a> or program suites according to such variables as <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a>, <a href=\"/wiki/Computing_platform\" title=\"Computing platform\">platform</a> or other factors. The term derives from \"macro instruction\", and such expansions were originally used in generating <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly language</a> code.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><i><a href=\"/wiki/Oxford_English_Dictionary\" title=\"Oxford English Dictionary\">Oxford English Dictionary</a></i>, <i>s.v.</i> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.oed.com/view/Entry/111926\">macro</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.oed.com/view/Entry/233194\">macro-instruction</a>, and <a rel=\"nofollow\" class=\"external text\" href=\"https://www.oed.com/view/Entry/111927\">macro-</a></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFGreenwaldKane1959\" class=\"citation journal cs1\">Greenwald, Irwin D.; Kane, Maureen (April 1959). <a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F320964.320967\">\"The Share 709 System: Programming and Modification\"</a>. <i>Journal of the ACM</i>. <b>6</b> (2). New York, NY, USA: ACM: <span class=\"nowrap\">128–</span>133. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F320964.320967\">10.1145/320964.320967</a></span>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:27424222\">27424222</a>. <q>One of the important uses of programmer macros is to save time and clerical-type errors in writing sequence of instructions which are often repeated in the course of a program.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+the+ACM&amp;rft.atitle=The+Share+709+System%3A+Programming+and+Modification&amp;rft.volume=6&amp;rft.issue=2&amp;rft.pages=128-133&amp;rft.date=1959-04&amp;rft&#95;id=info%3Adoi%2F10.1145%2F320964.320967&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A27424222%23id-name%3DS2CID&amp;rft.aulast=Greenwald&amp;rft.aufirst=Irwin+D.&amp;rft.au=Kane%2C+Maureen&amp;rft&#95;id=https%3A%2F%2Fdoi.org%2F10.1145%252F320964.320967&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMacro+%28computer+science%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStrachey1965\" class=\"citation journal cs1\"><a href=\"/wiki/Christopher_Strachey\" title=\"Christopher Strachey\">Strachey, Christopher</a> (October 1965). <a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1093%2Fcomjnl%2F8.3.225\">\"A General Purpose Macrogenerator\"</a>. <i>Computer Journal</i>. <b>8</b> (3): <span class=\"nowrap\">225–</span>241. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1093%2Fcomjnl%2F8.3.225\">10.1093/comjnl/8.3.225</a></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Computer+Journal&amp;rft.atitle=A+General+Purpose+Macrogenerator&amp;rft.volume=8&amp;rft.issue=3&amp;rft.pages=225-241&amp;rft.date=1965-10&amp;rft&#95;id=info%3Adoi%2F10.1093%2Fcomjnl%2F8.3.225&amp;rft.aulast=Strachey&amp;rft.aufirst=Christopher&amp;rft&#95;id=https%3A%2F%2Fdoi.org%2F10.1093%252Fcomjnl%252F8.3.225&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMacro+%28computer+science%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐tzlqw\nCached time: 20260918180927\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.093 seconds\nReal time usage: 0.189 seconds\nPreprocessor visited node count: 337/1000000\nRevision size: 2770/2097152 bytes\nPost‐expand include size: 7523/2097152 bytes\nTemplate argument size: 600/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5414/5000000 bytes\nLua time usage: 0.064/10.000 seconds\nLua memory usage: 3880090/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  171.940      1 -total\n 37.35%   64.219      1 Template:Short_description\n 31.69%   54.494      2 Template:Cite_journal\n 23.65%   40.671      2 Template:Pagetype\n 14.97%   25.741      1 Template:Ety\n 12.59%   21.639      1 Template:Redirect\n 11.30%   19.421      1 Template:Etymology/lang\n  7.33%   12.599      2 Template:Main_other\n  6.05%   10.408      1 Template:SDcat\n  2.21%    3.802      2 Template:P2\n-->\n\n<!-- Render ID 15ef78d9-b38c-11f1-b01d-83ddc3770b49 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "ISO 639 macrolanguage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract syntax tree",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Block (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Character (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Christopher Strachey",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code reuse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Conditional assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Domain-specific languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Greek language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JEdit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lexical token",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Map (mathematics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oxford English Dictionary",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pattern",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Program statement",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software application",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Rule for substituting a set input with a set output",
+          "page_image_free": "Jedit_macro_recorder.png",
+          "wikibase_item": "Q629579"
+        }
+      }
+    }
+  ]
+}

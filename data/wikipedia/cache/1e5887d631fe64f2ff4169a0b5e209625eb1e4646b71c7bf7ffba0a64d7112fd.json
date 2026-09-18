@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Datalog",
+    "url": "https://en.wikipedia.org/wiki/Datalog",
+    "summary": "Declarative logic programming language Datalog Paradigm Logic , Declarative Family Prolog First appeared 1977 ; 49 years ago ( 1977 ) Typing discipline Weak Dialects Datomic , .QL , Soufflé , XTDB, etc. Influenced by Prolog Influenced SQL Datalog Filename extension .dl Internet media type text/vnd.datalog Website datalog-specs .info Datalog is a declarative logic programming language. While it is syntactically a subset of Prolog , Datalog generally uses a bottom-up rather than top-down evaluation model. This difference yields significantly different behavior and properties from Prolog . It is often used as a query language for deductive databases . Datalog has been applied to problems in data integration , networking , program analysis , and more.",
+    "text": "Declarative logic programming language Datalog Paradigm Logic , Declarative Family Prolog First appeared 1977 ; 49 years ago ( 1977 ) Typing discipline Weak Dialects Datomic , .QL , Soufflé , XTDB, etc. Influenced by Prolog Influenced SQL Datalog Filename extension .dl Internet media type text/vnd.datalog Website datalog-specs .info Datalog is a declarative logic programming language. While it is syntactically a subset of Prolog , Datalog generally uses a bottom-up rather than top-down evaluation model. This difference yields significantly different behavior and properties from Prolog . It is often used as a query language for deductive databases . Datalog has been applied to problems in data integration , networking , program analysis , and more.",
+    "links": [
+      ".QL",
+      "Computer network",
+      "Data integration",
+      "Datomic",
+      "Declarative programming",
+      "Deductive database",
+      "Filename extension",
+      "Logic programming",
+      "Media type",
+      "Program analysis",
+      "Programming language",
+      "Programming paradigm",
+      "Prolog",
+      "Query language",
+      "SQL",
+      "Soufflé (programming language)",
+      "Type system",
+      "Weak typing"
+    ],
+    "page_id": 968357,
+    "revision_id": 1374720427,
+    "retrieved_at": "2026-09-18T18:09:24.407785+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260913185053|1374718658",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 968357,
+            "ns": 0,
+            "title": "Datalog",
+            "revisions": [
+              {
+                "revid": 1374720427,
+                "parentid": 1374718658
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Declarative logic programming language",
+              "wikibase_item": "Q1172264"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Datalog",
+        "pageid": 968357,
+        "revid": 1374720427,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Declarative logic programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Datalog</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Logic_programming\" title=\"Logic programming\">Logic</a>, <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">Declarative</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1977<span class=\"noprint\">&#59;&#32;49&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1977</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Weak_typing\" class=\"mw-redirect\" title=\"Weak typing\">Weak</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Datomic\" title=\"Datomic\">Datomic</a>, <a href=\"/wiki/.QL\" title=\".QL\">.QL</a>, <a href=\"/wiki/Souffl%C3%A9_(programming_language)\" title=\"Soufflé (programming language)\">Soufflé</a>, XTDB, etc.</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/SQL\" title=\"SQL\">SQL</a></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><table class=\"infobox\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"padding-bottom: 0.15em;background-color:#e0e0e0;color:inherit;\">Datalog</th></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extension</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><style data-mw-deduplicate=\"TemplateStyles:r886049734\">.mw-parser-output .monospaced{font-family:monospace,monospace}</style><div class=\"monospaced\">\n.dl</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Media_type\" title=\"Media type\">Internet media&#160;type</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r886049734\" /><div class=\"monospaced\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://www.iana.org/assignments/media-types/application/vnd.datalog\">text/vnd.datalog</a></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Website</th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://datalog-specs.info\">datalog-specs<wbr />.info</a></span></td></tr></tbody></table>\n<p><b>Datalog</b> is a <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative</a> <a href=\"/wiki/Logic_programming\" title=\"Logic programming\">logic programming</a> language.  While it is syntactically a subset of <a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a>, Datalog generally uses a bottom-up rather than top-down evaluation model.  This difference yields significantly different behavior and properties from <a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a>.  It is often used as a <a href=\"/wiki/Query_language\" title=\"Query language\">query language</a> for <a href=\"/wiki/Deductive_database\" title=\"Deductive database\">deductive databases</a>. Datalog has been applied to problems in <a href=\"/wiki/Data_integration\" title=\"Data integration\">data integration</a>, <a href=\"/wiki/Computer_network\" title=\"Computer network\">networking</a>, <a href=\"/wiki/Program_analysis\" title=\"Program analysis\">program analysis</a>, and more.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐6hdqv\nCached time: 20260918180950\nCache expiry: 1057816\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.161 seconds\nReal time usage: 0.236 seconds\nPreprocessor visited node count: 1016/1000000\nRevision size: 1186/2097152 bytes\nPost‐expand include size: 10933/2097152 bytes\nTemplate argument size: 1665/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 3184/5000000 bytes\nLua time usage: 0.079/10.000 seconds\nLua memory usage: 2059004/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  221.309      1 -total\n 51.52%  114.029      1 Template:Short_description\n 42.69%   94.480      2 Template:Infobox\n 35.34%   78.216      1 Template:Infobox_programming_language\n 29.80%   65.958      2 Template:Pagetype\n 14.89%   32.958      5 Template:Main_other\n 13.08%   28.937      1 Template:SDcat\n 13.02%   28.820      1 Template:Infobox_file_format\n  4.80%   10.633      1 Template:Start_date_and_age\n  3.08%    6.819      2 Template:Monodiv\n-->\n\n<!-- Render ID 23a4f213-b38c-11f1-8432-01eb1072d4d6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": ".QL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data integration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Datomic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deductive database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Media type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Program analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Query language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Soufflé (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Weak typing",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Declarative logic programming language",
+          "wikibase_item": "Q1172264"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "High-level programming language",
+    "url": "https://en.wikipedia.org/wiki/High-level_programming_language",
+    "summary": "Programming language with hardware abstraction A high-level programming language is a programming language with strong abstraction from the details of the computer . In contrast to low-level programming languages , it may use natural language elements, be easier to use, or may automate (or even hide entirely) significant areas of computing systems (e.g. memory management ), making the process of developing a program simpler and more understandable than when using a lower-level language. The amount of abstraction provided defines how \"high-level\" a programming language is. High-level refers to a level of abstraction from the hardware details of a processor inherent in machine and assembly code. Rather than dealing with registers, memory addresses, and call stacks, high-level languages deal with variables, arrays, objects , arithmetic and Boolean expressions , functions , loops, threads , locks, and other computer science abstractions, intended to facilitate correctness and maintainability . Unlike low-level assembly languages , high-level languages have few, if any, language elements that translate directly to a machine's native opcodes . Other features, such as string handling, object-oriented programming features, and file input/output, may also be provided. A high-level language allows for source code that is detached and separated from the machine details. That is, unlike low-level languages like assembly and machine code, high-level language code may result in data movements without the programmer's knowledge. Some control of what instructions to execute is handed to the compiler. Niklaus Wirth , who designed Pascal , wrote in 2008 that high-level language was “a poorly understood buzzword” and contrasted C with high-level programming languages. High-level programming languages were also referred to by the later buzzword third generation programming languages (3GLs) from around 1966. ^ \"HThreads - RD Glossary\" . Archived from the original on 26 August 2007. ^ Wirth, Niklaus (25 February 2008). \"A Brief History of Software Engineering\" (PDF) . ^ Wirth, Niklaus (2008). \"A Brief History of Software Engineering\" (PDF) . IEEE Annals of the History of Computing . IEEE Computer Society.",
+    "text": "Programming language with hardware abstraction A high-level programming language is a programming language with strong abstraction from the details of the computer . In contrast to low-level programming languages , it may use natural language elements, be easier to use, or may automate (or even hide entirely) significant areas of computing systems (e.g. memory management ), making the process of developing a program simpler and more understandable than when using a lower-level language. The amount of abstraction provided defines how \"high-level\" a programming language is. High-level refers to a level of abstraction from the hardware details of a processor inherent in machine and assembly code. Rather than dealing with registers, memory addresses, and call stacks, high-level languages deal with variables, arrays, objects , arithmetic and Boolean expressions , functions , loops, threads , locks, and other computer science abstractions, intended to facilitate correctness and maintainability . Unlike low-level assembly languages , high-level languages have few, if any, language elements that translate directly to a machine's native opcodes . Other features, such as string handling, object-oriented programming features, and file input/output, may also be provided. A high-level language allows for source code that is detached and separated from the machine details. That is, unlike low-level languages like assembly and machine code, high-level language code may result in data movements without the programmer's knowledge. Some control of what instructions to execute is handed to the compiler. Niklaus Wirth , who designed Pascal , wrote in 2008 that high-level language was “a poorly understood buzzword” and contrasted C with high-level programming languages. High-level programming languages were also referred to by the later buzzword third generation programming languages (3GLs) from around 1966. ^ \"HThreads - RD Glossary\" . Archived from the original on 26 August 2007. ^ Wirth, Niklaus (25 February 2008). \"A Brief History of Software Engineering\" (PDF) . ^ Wirth, Niklaus (2008). \"A Brief History of Software Engineering\" (PDF) . IEEE Annals of the History of Computing . IEEE Computer Society.",
+    "links": [
+      "Abstraction (computer science)",
+      "Assembly language",
+      "Boolean expression",
+      "C (programming language)",
+      "CPU",
+      "Computer",
+      "Correctness (computer science)",
+      "Function (computer programming)",
+      "Low-level programming language",
+      "Machine code",
+      "Memory management",
+      "Natural language",
+      "Niklaus Wirth",
+      "Object (computer science)",
+      "Object-oriented programming",
+      "Opcode",
+      "Pascal (programming language)",
+      "Programming language",
+      "Programming language generations",
+      "Software maintenance",
+      "Thread (computer science)"
+    ],
+    "page_id": 189842,
+    "revision_id": 1374671408,
+    "retrieved_at": "2026-09-18T18:07:18.738661+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260904083742|1373152600",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 189842,
+            "ns": 0,
+            "title": "High-level programming language",
+            "revisions": [
+              {
+                "revid": 1374671408,
+                "parentid": 1373152600
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "High-Level Programming Language",
+              "wikibase-shortdesc": "Programming language with hardware abstraction",
+              "wikibase_item": "Q211496"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "High-level programming language",
+        "pageid": 189842,
+        "revid": 1374671408,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language with hardware abstraction</div>\n<p class=\"mw-empty-elt\">\n\n</p><p>A <b>high-level programming language</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> with strong <a href=\"/wiki/Abstraction_(computer_science)\" title=\"Abstraction (computer science)\">abstraction</a> from the details of the <a href=\"/wiki/Computer\" title=\"Computer\">computer</a>. In contrast to <a href=\"/wiki/Low-level_programming_language\" title=\"Low-level programming language\">low-level programming languages</a>, it may use <a href=\"/wiki/Natural_language\" title=\"Natural language\">natural language</a> elements, be easier to use, or may automate (or even hide entirely) significant areas of computing systems (e.g. <a href=\"/wiki/Memory_management\" title=\"Memory management\">memory management</a>), making the process of developing a program simpler and more understandable than when using a lower-level language. The amount of abstraction provided defines how \"high-level\" a programming language is.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p><i>High-level</i> refers to a level of abstraction from the hardware details of a <a href=\"/wiki/CPU\" class=\"mw-redirect\" title=\"CPU\">processor</a> inherent in <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine</a> and <a href=\"/wiki/Assembly_language\" title=\"Assembly language\"> assembly</a> code. Rather than dealing with registers, memory addresses, and call stacks, high-level languages deal with variables, arrays, <a href=\"/wiki/Object_(computer_science)\" title=\"Object (computer science)\">objects</a>, arithmetic and <a href=\"/wiki/Boolean_expression\" title=\"Boolean expression\">Boolean expressions</a>, <a href=\"/wiki/Function_(computer_programming)\" title=\"Function (computer programming)\">functions</a>, loops, <a href=\"/wiki/Thread_(computer_science)\" class=\"mw-redirect\" title=\"Thread (computer science)\">threads</a>, locks, and other computer science abstractions, intended to facilitate <a href=\"/wiki/Correctness_(computer_science)\" title=\"Correctness (computer science)\">correctness</a> and <a href=\"/wiki/Software_maintenance\" title=\"Software maintenance\">maintainability</a>. Unlike low-level <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly languages</a>, high-level languages have few, if any, language elements that translate directly to a machine's native <a href=\"/wiki/Opcode\" title=\"Opcode\">opcodes</a>. Other features, such as string handling, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a> features, and file input/output, may also be provided. A high-level language allows for source code that is detached and separated from the machine details. That is, unlike low-level languages like assembly and machine code, high-level language code may result in data movements without the programmer's knowledge. Some control of what instructions to execute is handed to the compiler.\n</p><p><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Niklaus Wirth</a>, who designed <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>, wrote in 2008 that <i>high-level language</i> was “a poorly understood buzzword” and contrasted <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> with high-level programming languages.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> High-level programming languages were also referred to by the later buzzword <a href=\"/wiki/Programming_language_generations\" title=\"Programming language generations\">third generation programming languages (3GLs)</a> from around 1966.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20070826224349/http://www.ittc.ku.edu/hybridthreads/glossary/index.php\">\"HThreads - RD Glossary\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.ittc.ku.edu/hybridthreads/glossary/index.php\">the original</a> on 26 August 2007.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=HThreads+-+RD+Glossary&amp;rft&#95;id=http%3A%2F%2Fwww.ittc.ku.edu%2Fhybridthreads%2Fglossary%2Findex.php&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHigh-level+programming+language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWirth2008\" class=\"citation web cs1\">Wirth, Niklaus (25 February 2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://people.inf.ethz.ch/wirth/Miscellaneous/IEEE-Annals.pdf\">\"A Brief History of Software Engineering\"</a> <span class=\"cs1-format\">(PDF)</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=A+Brief+History+of+Software+Engineering&amp;rft.date=2008-02-25&amp;rft.aulast=Wirth&amp;rft.aufirst=Niklaus&amp;rft&#95;id=https%3A%2F%2Fpeople.inf.ethz.ch%2Fwirth%2FMiscellaneous%2FIEEE-Annals.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHigh-level+programming+language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWirth2008\" class=\"citation journal cs1\">Wirth, Niklaus (2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://mediaweb.saintleo.edu/Courses/COM430/M1Readings/A%20Brief%20History%20of%20Software%20Engineering.pdf\">\"A Brief History of Software Engineering\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>IEEE Annals of the History of Computing</i>. IEEE Computer Society.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Annals+of+the+History+of+Computing&amp;rft.atitle=A+Brief+History+of+Software+Engineering&amp;rft.date=2008&amp;rft.aulast=Wirth&amp;rft.aufirst=Niklaus&amp;rft&#95;id=https%3A%2F%2Fmediaweb.saintleo.edu%2FCourses%2FCOM430%2FM1Readings%2FA%2520Brief%2520History%2520of%2520Software%2520Engineering.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHigh-level+programming+language\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐6cjzf\nCached time: 20260918180744\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.094 seconds\nReal time usage: 0.138 seconds\nPreprocessor visited node count: 400/1000000\nRevision size: 3196/2097152 bytes\nPost‐expand include size: 7248/2097152 bytes\nTemplate argument size: 1020/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7083/5000000 bytes\nLua time usage: 0.062/10.000 seconds\nLua memory usage: 4287632/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  127.596      1 -total\n 42.70%   54.483      1 Template:Short_description\n 41.83%   53.368      2 Template:Cite_web\n 24.28%   30.978      2 Template:Pagetype\n 10.73%   13.697      3 Template:Main_other\n  9.32%   11.887      1 Template:SDcat\n  8.19%   10.448      1 Template:Use_dmy_dates\n  6.08%    7.760      2 Template:DMCA\n  4.94%    6.307      2 Template:Dated_maintenance_category\n  3.83%    4.890      1 Template:Cite_journal\n-->\n\n<!-- Render ID d88adf7d-b38b-11f1-9069-b9e775f5f09b -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Abstraction (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boolean expression",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Correctness (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Low-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Natural language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Niklaus Wirth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Opcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language generations",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software maintenance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thread (computer science)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language with hardware abstraction",
+          "wikibase_item": "Q211496"
+        }
+      }
+    }
+  ]
+}

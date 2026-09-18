@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Browser engine",
+    "url": "https://en.wikipedia.org/wiki/Browser_engine",
+    "summary": "Core software component of every major web browser Not to be confused with JavaScript engine . A browser engine (also known as a layout engine or rendering engine ) is a core software component of every major web browser . The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user 's device.",
+    "text": "Core software component of every major web browser Not to be confused with JavaScript engine . A browser engine (also known as a layout engine or rendering engine ) is a core software component of every major web browser . The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user 's device.",
+    "links": [
+      "HTML",
+      "JavaScript engine",
+      "User (computing)",
+      "Web browser",
+      "Web page"
+    ],
+    "page_id": 46001,
+    "revision_id": 1374526332,
+    "retrieved_at": "2026-09-18T18:10:22.692431+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260912162537|1374525614",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 46001,
+            "ns": 0,
+            "title": "Browser engine",
+            "revisions": [
+              {
+                "revid": 1374526332,
+                "parentid": 1374525614
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Core software component of every major web browser",
+              "wikibase_item": "Q373442"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Browser engine",
+        "pageid": 46001,
+        "revid": 1374526332,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Core software component of every major web browser</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/JavaScript_engine\" class=\"mw-redirect\" title=\"JavaScript engine\">JavaScript engine</a>.</div>\n<p class=\"mw-empty-elt\">\n</p><p>A <b>browser engine</b> (also known as a <b>layout engine</b> or <b>rendering engine</b>) is a core software component of every major <a href=\"/wiki/Web_browser\" title=\"Web browser\">web browser</a>. The primary job of a browser engine is to transform <a href=\"/wiki/HTML\" title=\"HTML\">HTML</a> documents and other resources of a <a href=\"/wiki/Web_page\" title=\"Web page\">web page</a> into an interactive visual representation on a <a href=\"/wiki/User_(computing)\" title=\"User (computing)\">user</a>'s device.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐ggdbc\nCached time: 20260918181048\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.098 seconds\nReal time usage: 0.152 seconds\nPreprocessor visited node count: 248/1000000\nRevision size: 484/2097152 bytes\nPost‐expand include size: 2014/2097152 bytes\nTemplate argument size: 748/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 409/5000000 bytes\nLua time usage: 0.053/10.000 seconds\nLua memory usage: 1675116/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  144.419      1 -total\n 61.41%   88.684      1 Template:Short_description\n 35.94%   51.898      2 Template:Pagetype\n 22.23%   32.107      1 Template:Distinguish\n 16.13%   23.299      1 Template:Use_dmy_dates\n 14.37%   20.750      3 Template:Main_other\n 12.54%   18.111      1 Template:SDcat\n  9.81%   14.174      1 Template:DMCA\n  7.72%   11.143      1 Template:Dated_maintenance_category\n  5.86%    8.460      1 Template:FULLROOTPAGENAME\n-->\n\n<!-- Render ID 46371503-b38c-11f1-bc7d-dfd4d828e0a7 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "JavaScript engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web browser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web page",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Core software component of every major web browser",
+          "wikibase_item": "Q373442"
+        }
+      }
+    }
+  ]
+}

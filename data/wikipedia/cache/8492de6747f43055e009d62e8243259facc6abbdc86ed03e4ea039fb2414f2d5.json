@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Software categories",
+    "url": "https://en.wikipedia.org/wiki/Software_categories",
+    "summary": "Groups of software IBM PC DOS 1.00 Software categories are groups of software . They allow software to be understood in terms of those categories, instead of the particularities of each package. Different classification schemes consider different aspects of software.",
+    "text": "Groups of software IBM PC DOS 1.00 Software categories are groups of software . They allow software to be understood in terms of those categories, instead of the particularities of each package. Different classification schemes consider different aspects of software.",
+    "links": [
+      "Software"
+    ],
+    "page_id": 30888839,
+    "revision_id": 1360849147,
+    "retrieved_at": "2026-09-18T18:08:14.569992+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260624003656|1360848922",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 30888839,
+            "ns": 0,
+            "title": "Software categories",
+            "revisions": [
+              {
+                "revid": 1360849147,
+                "parentid": 1360848922
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "IBM_PC_DOS_1.0_screenshot.png",
+              "wikibase-shortdesc": "Groups of software",
+              "wikibase_item": "Q17155032"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Software categories",
+        "pageid": 30888839,
+        "revid": 1360849147,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Groups of software</div>\n<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:IBM_PC_DOS_1.0_screenshot.png\" class=\"mw-file-description\"><img alt=\"Screenshot of IBM PC DOS 1.00, an operating system\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/IBM_PC_DOS_1.0_screenshot.png/250px-IBM_PC_DOS_1.0_screenshot.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"139\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/IBM_PC_DOS_1.0_screenshot.png/500px-IBM_PC_DOS_1.0_screenshot.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"400\" /></a><figcaption>IBM PC DOS 1.00</figcaption></figure>\n<p><b>Software categories</b> are groups of <a href=\"/wiki/Software\" title=\"Software\">software</a>. They allow software to be understood in terms of those categories, instead of the particularities of each package. Different classification schemes consider different aspects of software.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐49jh9\nCached time: 20260918180840\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.031 seconds\nReal time usage: 0.066 seconds\nPreprocessor visited node count: 138/1000000\nRevision size: 404/2097152 bytes\nPost‐expand include size: 958/2097152 bytes\nTemplate argument size: 295/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 0/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\nLua time usage: 0.015/10.000 seconds\nLua memory usage: 1180031/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   54.231      1 Template:Short_description\n100.00%   54.231      1 -total\n 49.04%   26.594      2 Template:Pagetype\n 36.93%   20.029      2 Template:Main_other\n 35.02%   18.994      1 Template:SDcat\n  2.24%    1.213      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID f9ebce9b-b38b-11f1-938d-f1abe949f128 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Groups of software",
+          "page_image_free": "IBM_PC_DOS_1.0_screenshot.png",
+          "wikibase_item": "Q17155032"
+        }
+      }
+    }
+  ]
+}

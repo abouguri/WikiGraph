@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "B (programming language)",
+    "url": "https://en.wikipedia.org/wiki/B_%28programming_language%29",
+    "summary": "Procedural programming language This article is about the language developed at Bell Labs. For the predecessor of the ABC language, see ABC (programming language) . B Designed by Ken Thompson Developer Ken Thompson, Dennis Ritchie First appeared 1969 ; 57 years ago ( 1969 ) Typing discipline typeless (everything is a word ) Filename extensions .b Major implementations BLang LLVM-based B Compiler , B by Alexey Kutepov (incomplete) , BCause, A Modern B Compiler Influenced by Fortran , BCPL , PL/I , TMG Influenced C B is a programming language developed at Bell Labs circa 1969 by Ken Thompson and Dennis Ritchie . B was designed for recursive, non-numeric, machine-independent applications, such as system and language software. It was a typeless language, with the only data type being the underlying machine's natural memory word format, whatever that might be. Depending on the context, the word was treated either as an integer or a memory address . As machines with ASCII processing became common, notably the DEC PDP-11 that arrived at Bell Labs, support for character data stuffed in memory words became important. The typeless nature of the language was seen as a disadvantage, which led Thompson and Ritchie to develop an expanded version of the language supporting new internal and user-defined types, which became the ubiquitous C programming language . ^ \"B - computer programming language\" . Encyclopedia Britannica . ^ Thompson, Ken (7 January 1972). \"Users' Reference to B\" (PDF) . Bell Laboratories. Archived from the original (PDF) on 17 March 2015 . Retrieved 21 March 2014 .",
+    "text": "Procedural programming language This article is about the language developed at Bell Labs. For the predecessor of the ABC language, see ABC (programming language) . B Designed by Ken Thompson Developer Ken Thompson, Dennis Ritchie First appeared 1969 ; 57 years ago ( 1969 ) Typing discipline typeless (everything is a word ) Filename extensions .b Major implementations BLang LLVM-based B Compiler , B by Alexey Kutepov (incomplete) , BCause, A Modern B Compiler Influenced by Fortran , BCPL , PL/I , TMG Influenced C B is a programming language developed at Bell Labs circa 1969 by Ken Thompson and Dennis Ritchie . B was designed for recursive, non-numeric, machine-independent applications, such as system and language software. It was a typeless language, with the only data type being the underlying machine's natural memory word format, whatever that might be. Depending on the context, the word was treated either as an integer or a memory address . As machines with ASCII processing became common, notably the DEC PDP-11 that arrived at Bell Labs, support for character data stuffed in memory words became important. The typeless nature of the language was seen as a disadvantage, which led Thompson and Ritchie to develop an expanded version of the language supporting new internal and user-defined types, which became the ubiquitous C programming language . ^ \"B - computer programming language\" . Encyclopedia Britannica . ^ Thompson, Ken (7 January 1972). \"Users' Reference to B\" (PDF) . Bell Laboratories. Archived from the original (PDF) on 17 March 2015 . Retrieved 21 March 2014 .",
+    "links": [
+      "ABC (programming language)",
+      "ASCII",
+      "BCPL",
+      "Bell Labs",
+      "C (programming language)",
+      "DEC PDP-11",
+      "Dennis Ritchie",
+      "Filename extension",
+      "Fortran",
+      "Integer",
+      "Ken Thompson (computer programmer)",
+      "Memory address",
+      "Memory word",
+      "PL/I",
+      "Programming language",
+      "Programming language implementation",
+      "Software design",
+      "Software developer",
+      "TMG (programming language)",
+      "Type system",
+      "Word (computer architecture)"
+    ],
+    "page_id": 4475,
+    "revision_id": 1375235954,
+    "retrieved_at": "2026-09-18T18:08:44.132795+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260828054341|1371744130",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 4475,
+            "ns": 0,
+            "title": "B (programming language)",
+            "revisions": [
+              {
+                "revid": 1375235954,
+                "parentid": 1371744130
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Procedural programming language",
+              "wikibase_item": "Q797302"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "B (programming language)",
+        "pageid": 4475,
+        "revid": 1375235954,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Procedural programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the language developed at Bell Labs. For the predecessor of the ABC language, see <a href=\"/wiki/ABC_(programming_language)\" title=\"ABC (programming language)\">ABC (programming language)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">B</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Ken_Thompson_(computer_programmer)\" class=\"mw-redirect\" title=\"Ken Thompson (computer programmer)\">Ken Thompson</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Ken Thompson, <a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Dennis Ritchie</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1969<span class=\"noprint\">&#59;&#32;57&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1969</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\">typeless (everything is a <a href=\"/wiki/Word_(computer_architecture)\" title=\"Word (computer architecture)\">word</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.b</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/wgibbs-rs/blang\">BLang LLVM-based B Compiler</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tsoding/b\">B by Alexey Kutepov (incomplete)</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/Spydr06/BCause\">BCause, A Modern B Compiler</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>, <a href=\"/wiki/BCPL\" title=\"BCPL\">BCPL</a>, <a href=\"/wiki/PL/I\" title=\"PL/I\">PL/I</a>, <a href=\"/wiki/TMG_(programming_language)\" class=\"mw-redirect\" title=\"TMG (programming language)\">TMG</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr></tbody></table>\n<p><b>B</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> developed at <a href=\"/wiki/Bell_Labs\" title=\"Bell Labs\">Bell Labs</a> circa 1969 by <a href=\"/wiki/Ken_Thompson_(computer_programmer)\" class=\"mw-redirect\" title=\"Ken Thompson (computer programmer)\">Ken Thompson</a> and <a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Dennis Ritchie</a>.\n</p><p>B was designed for recursive, non-numeric, machine-independent applications, such as system and language software.<sup id=\"cite&#95;ref-bur&#95;2-0\" class=\"reference\"><a href=\"#cite_note-bur-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> It was a typeless language, with the only data type being the underlying machine's natural <a href=\"/wiki/Memory_word\" class=\"mw-redirect\" title=\"Memory word\">memory word</a> format, whatever that might be. Depending on the context, the word was treated either as an <a href=\"/wiki/Integer\" title=\"Integer\">integer</a> or a <a href=\"/wiki/Memory_address\" title=\"Memory address\">memory address</a>.\n</p><p>As machines with <a href=\"/wiki/ASCII\" title=\"ASCII\">ASCII</a> processing became common, notably the <a href=\"/wiki/DEC_PDP-11\" class=\"mw-redirect\" title=\"DEC PDP-11\">DEC PDP-11</a> that arrived at Bell Labs, support for character data stuffed in memory words became important. The typeless nature of the language was seen as a disadvantage, which led Thompson and Ritchie to develop an expanded version of the language supporting new internal and user-defined types, which became the ubiquitous <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C programming language</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation encyclopaedia cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.britannica.com/EBchecked/topic/1663863/B\">\"B - computer programming language\"</a>. <i>Encyclopedia Britannica</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=B+-+computer+programming+language&amp;rft.btitle=Encyclopedia+Britannica&amp;rft&#95;id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F1663863%2FB&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AB+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-bur-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-bur_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFThompson1972\" class=\"citation web cs1\"><a href=\"/wiki/Ken_Thompson_(computer_programmer)\" class=\"mw-redirect\" title=\"Ken Thompson (computer programmer)\">Thompson, Ken</a> (7 January 1972). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150317033259/https://www.bell-labs.com/usr/dmr/www/kbman.pdf\">\"Users' Reference to B\"</a> <span class=\"cs1-format\">(PDF)</span>. Bell Laboratories. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.bell-labs.com/usr/dmr/www/kbman.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on 17 March 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 March</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Users%27+Reference+to+B&amp;rft.pub=Bell+Laboratories&amp;rft.date=1972-01-07&amp;rft.aulast=Thompson&amp;rft.aufirst=Ken&amp;rft&#95;id=https%3A%2F%2Fwww.bell-labs.com%2Fusr%2Fdmr%2Fwww%2Fkbman.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AB+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐tzlqw\nCached time: 20260918180909\nCache expiry: 1057861\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.095 seconds\nReal time usage: 0.174 seconds\nPreprocessor visited node count: 748/1000000\nRevision size: 2579/2097152 bytes\nPost‐expand include size: 10790/2097152 bytes\nTemplate argument size: 1401/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 6570/5000000 bytes\nLua time usage: 0.064/10.000 seconds\nLua memory usage: 3620362/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  164.700      1 -total\n 37.77%   62.214      1 Template:Short_description\n 27.45%   45.217      1 Template:Cite_encyclopedia\n 22.95%   37.799      2 Template:Pagetype\n 20.98%   34.547      1 Template:Infobox_programming_language\n 19.46%   32.045      1 Template:Infobox\n 10.30%   16.970      1 Template:About\n 10.22%   16.832      3 Template:Main_other\n  8.94%   14.725      1 Template:SDcat\n  3.13%    5.148      1 Template:Start_date_and_age\n-->\n\n<!-- Render ID 0b34e3de-b38c-11f1-b01d-83ddc3770b49 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "ABC (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ASCII",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BCPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bell Labs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DEC PDP-11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dennis Ritchie",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ken Thompson (computer programmer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory address",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory word",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TMG (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Word (computer architecture)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Procedural programming language",
+          "wikibase_item": "Q797302"
+        }
+      }
+    }
+  ]
+}

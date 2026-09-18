@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Caml",
+    "url": "https://en.wikipedia.org/wiki/Caml",
+    "summary": "Programming language This article is about the programming language. For other uses, see CAML (disambiguation) . Caml Paradigm Multi-paradigm : functional , imperative Family ML Designed by Gérard Huet , Guy Cousineau, Ascánder Suárez, Pierre Weis, Michel Mauny (Heavy Caml), Xavier Leroy (Caml Light) Developer INRIA , ENS First appeared 1985 ; 41 years ago ( 1985 ) Stable release 0.75 / January 26, 2002 ; 24 years ago ( 2002-01-26 ) Typing discipline inferred , static , strong Memory management automatic OS Cross-platform : Unix , Linux , macOS ; Windows License QPL 1, LGPL 2 (Caml Light) Website caml .inria .fr Influenced by ML Influenced OCaml Caml (originally an acronym for Categorical Abstract Machine Language ) is a multi-paradigm , general-purpose , high-level , functional programming language which is a dialect of the ML programming language family. Caml was developed in France at French Institute for Research in Computer Science and Automation (INRIA) and École normale supérieure (Paris) (ENS). Caml is statically typed , strictly evaluated , and uses automatic memory management . OCaml , the main descendant of Caml, adds many features to the language, including an object-oriented programming (object) layer. ^ \"Latest Caml Light release\" . Retrieved 22 February 2020 .",
+    "text": "Programming language This article is about the programming language. For other uses, see CAML (disambiguation) . Caml Paradigm Multi-paradigm : functional , imperative Family ML Designed by Gérard Huet , Guy Cousineau, Ascánder Suárez, Pierre Weis, Michel Mauny (Heavy Caml), Xavier Leroy (Caml Light) Developer INRIA , ENS First appeared 1985 ; 41 years ago ( 1985 ) Stable release 0.75 / January 26, 2002 ; 24 years ago ( 2002-01-26 ) Typing discipline inferred , static , strong Memory management automatic OS Cross-platform : Unix , Linux , macOS ; Windows License QPL 1, LGPL 2 (Caml Light) Website caml .inria .fr Influenced by ML Influenced OCaml Caml (originally an acronym for Categorical Abstract Machine Language ) is a multi-paradigm , general-purpose , high-level , functional programming language which is a dialect of the ML programming language family. Caml was developed in France at French Institute for Research in Computer Science and Automation (INRIA) and École normale supérieure (Paris) (ENS). Caml is statically typed , strictly evaluated , and uses automatic memory management . OCaml , the main descendant of Caml, adds many features to the language, including an object-oriented programming (object) layer. ^ \"Latest Caml Light release\" . Retrieved 22 February 2020 .",
+    "links": [
+      "CAML (disambiguation)",
+      "Categorical abstract machine",
+      "Cross-platform software",
+      "Dialect (computing)",
+      "French Institute for Research in Computer Science and Automation",
+      "Functional programming",
+      "GNU Lesser General Public License",
+      "Garbage collection (computer science)",
+      "General-purpose programming language",
+      "Gérard Huet",
+      "High-level programming language",
+      "Imperative programming",
+      "Linux",
+      "ML (programming language)",
+      "MacOS",
+      "Memory management",
+      "Microsoft Windows",
+      "Multi-paradigm programming language",
+      "OCaml",
+      "Object-oriented programming",
+      "Operating system",
+      "Programming language",
+      "Programming paradigm",
+      "Q Public License",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Static typing",
+      "Strict evaluation",
+      "Strong and weak typing",
+      "Type inference",
+      "Type system",
+      "Unix",
+      "Xavier Leroy",
+      "École normale supérieure (Paris)"
+    ],
+    "page_id": 2362118,
+    "revision_id": 1371533685,
+    "retrieved_at": "2026-09-18T18:10:26.203315+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260722053920|1365407418",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 2362118,
+            "ns": 0,
+            "title": "Caml",
+            "revisions": [
+              {
+                "revid": 1371533685,
+                "parentid": 1365407418
+              }
+            ],
+            "pageprops": {
+              "page_image": "Caml.gif",
+              "wikibase-shortdesc": "Programming language",
+              "wikibase_item": "Q1118153"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Caml",
+        "pageid": 2362118,
+        "revid": 1371533685,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For other uses, see <a href=\"/wiki/CAML_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"CAML (disambiguation)\">CAML (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Caml</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Caml.gif\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/en/4/4a/Caml.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"55\" class=\"mw-file-element\" data-file-width=\"128\" data-file-height=\"58\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/G%C3%A9rard_Huet\" title=\"Gérard Huet\">Gérard Huet</a>, Guy Cousineau, Ascánder Suárez, Pierre Weis, Michel Mauny (Heavy Caml), <a href=\"/wiki/Xavier_Leroy\" title=\"Xavier Leroy\">Xavier Leroy</a> (Caml Light)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation\" title=\"French Institute for Research in Computer Science and Automation\">INRIA</a>, <a href=\"/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)\" title=\"École normale supérieure (Paris)\">ENS</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1985<span class=\"noprint\">&#59;&#32;41&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1985</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">0.75<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / January&#160;26, 2002<span class=\"noprint\">&#59;&#32;24 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2002-01-26</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">automatic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a>: <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>; <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Q_Public_License\" title=\"Q Public License\">QPL</a> 1, <a href=\"/wiki/GNU_Lesser_General_Public_License\" title=\"GNU Lesser General Public License\">LGPL</a> 2 (Caml Light)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://caml.inria.fr\">caml<wbr />.inria<wbr />.fr</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/OCaml\" title=\"OCaml\">OCaml</a></td></tr></tbody></table>\n<p><b>Caml</b> (originally an acronym for <b><a href=\"/wiki/Categorical_abstract_machine\" title=\"Categorical abstract machine\">Categorical Abstract Machine</a> Language</b>) is a <a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">multi-paradigm</a>, <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a>, <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> which is a <a href=\"/wiki/Dialect_(computing)\" class=\"mw-redirect\" title=\"Dialect (computing)\">dialect</a> of the <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML programming language</a> family. Caml was developed in France at <a href=\"/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation\" title=\"French Institute for Research in Computer Science and Automation\">French Institute for Research in Computer Science and Automation</a> (INRIA) and <a href=\"/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)\" title=\"École normale supérieure (Paris)\">École normale supérieure (Paris)</a> (ENS).\n</p><p>Caml is statically <a href=\"/wiki/Type_system\" title=\"Type system\">typed</a>, <a href=\"/wiki/Strict_evaluation\" class=\"mw-redirect\" title=\"Strict evaluation\">strictly evaluated</a>, and uses <a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">automatic memory management</a>. <a href=\"/wiki/OCaml\" title=\"OCaml\">OCaml</a>, the main descendant of Caml, adds many features to the language, including an <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a> (object) layer.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://caml.inria.fr/caml-light/release.en.html\">\"Latest Caml Light release\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 February</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Latest+Caml+Light+release&amp;rft&#95;id=https%3A%2F%2Fcaml.inria.fr%2Fcaml-light%2Frelease.en.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACaml\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐6hdqv\nCached time: 20260918181051\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.258 seconds\nReal time usage: 0.348 seconds\nPreprocessor visited node count: 1163/1000000\nRevision size: 2425/2097152 bytes\nPost‐expand include size: 16896/2097152 bytes\nTemplate argument size: 2647/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5620/5000000 bytes\nLua time usage: 0.158/10.000 seconds\nLua memory usage: 3493087/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  329.934      1 -total\n 42.36%  139.754      2 Template:Infobox\n 29.10%   96.003      1 Template:Short_description\n 28.96%   95.539      1 Template:Infobox_programming_language\n 25.34%   83.613      1 Template:Cite_web\n 17.61%   58.096      2 Template:Pagetype\n 16.51%   54.483      1 Template:Infobox_software/simple\n  8.60%   28.365      1 Template:About\n  8.36%   27.583      2 Template:Start_date_and_age\n  7.22%   23.813      5 Template:Main_other\n-->\n\n<!-- Render ID 4800ce92-b38c-11f1-8432-01eb1072d4d6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "CAML (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Categorical abstract machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dialect (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "French Institute for Research in Computer Science and Automation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Lesser General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gérard Huet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCaml",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Q Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strict evaluation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xavier Leroy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "École normale supérieure (Paris)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language",
+          "page_image": "Caml.gif",
+          "wikibase_item": "Q1118153"
+        }
+      }
+    }
+  ]
+}

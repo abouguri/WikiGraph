@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Computer hardware",
+    "url": "https://en.wikipedia.org/wiki/Computer_hardware",
+    "summary": "Physical components of a computer PDP-11 CPU board Computer hardware , commonly shortened to hardware , includes the physical parts of a computer , such as the central processing unit (CPU), random-access memory (RAM), motherboard , computer data storage , graphics card , sound card , and computer case . It includes external devices such as a monitor , mouse , keyboard , and speakers . By contrast, software is a set of written instructions that can be stored and run by hardware. Hardware derived its name from the fact that it is hard or rigid with respect to changes, whereas software is soft because it is easy to change. Hardware is typically directed by the software to execute any command or instruction . A combination of hardware and software forms a usable computing system, although other systems exist with only hardware. ^ \"Parts of computer\" . Microsoft. Archived from the original on 27 November 2013 . Retrieved 5 December 2013 . ^ Gilster, Ron (2001). PC hardware : a beginner's guide . Internet Archive. New York; London : McGraw-Hill. ISBN 978-0-07-212990-8 .",
+    "text": "Physical components of a computer PDP-11 CPU board Computer hardware , commonly shortened to hardware , includes the physical parts of a computer , such as the central processing unit (CPU), random-access memory (RAM), motherboard , computer data storage , graphics card , sound card , and computer case . It includes external devices such as a monitor , mouse , keyboard , and speakers . By contrast, software is a set of written instructions that can be stored and run by hardware. Hardware derived its name from the fact that it is hard or rigid with respect to changes, whereas software is soft because it is easy to change. Hardware is typically directed by the software to execute any command or instruction . A combination of hardware and software forms a usable computing system, although other systems exist with only hardware. ^ \"Parts of computer\" . Microsoft. Archived from the original on 27 November 2013 . Retrieved 5 December 2013 . ^ Gilster, Ron (2001). PC hardware : a beginner's guide . Internet Archive. New York; London : McGraw-Hill. ISBN 978-0-07-212990-8 .",
+    "links": [
+      "Central processing unit",
+      "Computer",
+      "Computer case",
+      "Computer data storage",
+      "Computer keyboard",
+      "Computer monitor",
+      "Computer mouse",
+      "Computer speakers",
+      "Computing",
+      "Digital electronics",
+      "Graphics card",
+      "Hardness",
+      "ISBN (identifier)",
+      "Instruction (computing)",
+      "Motherboard",
+      "PDP-11",
+      "Random-access memory",
+      "Software",
+      "Sound card"
+    ],
+    "page_id": 21808348,
+    "revision_id": 1374883474,
+    "retrieved_at": "2026-09-18T18:09:22.506677+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260911165031|1374371723",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 21808348,
+            "ns": 0,
+            "title": "Computer hardware",
+            "revisions": [
+              {
+                "revid": 1374883474,
+                "parentid": 1374371723
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "PDP-11-M7270.jpg",
+              "wikibase-shortdesc": "Physical components of a computer",
+              "wikibase_item": "Q3966"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Computer hardware",
+        "pageid": 21808348,
+        "revid": 1374883474,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Physical components of a computer</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:PDP-11-M7270.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/88/PDP-11-M7270.jpg/250px-PDP-11-M7270.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"190\" height=\"206\" style=\"--mw-file-upright: 0.75\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/88/PDP-11-M7270.jpg/500px-PDP-11-M7270.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1767\" data-file-height=\"1920\" /></a><figcaption><a href=\"/wiki/PDP-11\" title=\"PDP-11\">PDP-11</a> CPU board</figcaption></figure>\n<p><b>Computer hardware</b>, commonly shortened to <b>hardware</b>, includes the physical parts of a <a href=\"/wiki/Computer\" title=\"Computer\">computer</a>, such as the <a href=\"/wiki/Central_processing_unit\" title=\"Central processing unit\">central processing unit</a> (CPU), <a href=\"/wiki/Random-access_memory\" title=\"Random-access memory\">random-access memory</a> (RAM), <a href=\"/wiki/Motherboard\" title=\"Motherboard\">motherboard</a>, <a href=\"/wiki/Computer_data_storage\" title=\"Computer data storage\">computer data storage</a>, <a href=\"/wiki/Graphics_card\" title=\"Graphics card\">graphics card</a>, <a href=\"/wiki/Sound_card\" title=\"Sound card\">sound card</a>, and <a href=\"/wiki/Computer_case\" title=\"Computer case\">computer case</a>. It includes external devices such as a <a href=\"/wiki/Computer_monitor\" title=\"Computer monitor\">monitor</a>, <a href=\"/wiki/Computer_mouse\" title=\"Computer mouse\">mouse</a>, <a href=\"/wiki/Computer_keyboard\" title=\"Computer keyboard\">keyboard</a>, and <a href=\"/wiki/Computer_speakers\" title=\"Computer speakers\">speakers</a>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>By contrast, <a href=\"/wiki/Software\" title=\"Software\">software</a> is a set of written instructions that can be stored and run by hardware. Hardware derived its name from the fact that it is <i><a href=\"/wiki/Hardness\" title=\"Hardness\">hard</a></i> or rigid with respect to changes, whereas software is <i>soft</i> because it is easy to change.\n</p><p>Hardware is typically directed by the software to execute any command or <a href=\"/wiki/Instruction_(computing)\" class=\"mw-redirect\" title=\"Instruction (computing)\">instruction</a>. A combination of hardware and software forms a usable <a href=\"/wiki/Computing\" title=\"Computing\">computing</a> system, although <a href=\"/wiki/Digital_electronics\" title=\"Digital electronics\">other systems</a> exist with only hardware.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://windows.microsoft.com/en-us/windows-vista/parts-of-a-computer\">\"Parts of computer\"</a>. Microsoft. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20131127145607/http://windows.microsoft.com/en-US/windows-vista/Parts-of-a-computer\">Archived</a> from the original on 27 November 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">5 December</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Parts+of+computer&amp;rft.pub=Microsoft&amp;rft&#95;id=http%3A%2F%2Fwindows.microsoft.com%2Fen-us%2Fwindows-vista%2Fparts-of-a-computer&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AComputer+hardware\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGilster2001\" class=\"citation book cs1\">Gilster, Ron (2001). <a rel=\"nofollow\" class=\"external text\" href=\"http://archive.org/details/pchardwarebeginn00gils\"><i>PC hardware&#160;: a beginner's guide</i></a>. Internet Archive. New York; London&#160;: McGraw-Hill. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-07-212990-8\" title=\"Special:BookSources/978-0-07-212990-8\"><bdi>978-0-07-212990-8</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=PC+hardware+%3A+a+beginner%27s+guide&amp;rft.pub=New+York%3B+London+%3A+McGraw-Hill&amp;rft.date=2001&amp;rft.isbn=978-0-07-212990-8&amp;rft.aulast=Gilster&amp;rft.aufirst=Ron&amp;rft&#95;id=http%3A%2F%2Farchive.org%2Fdetails%2Fpchardwarebeginn00gils&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AComputer+hardware\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐lx6qf\nCached time: 20260918180948\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.085 seconds\nReal time usage: 0.132 seconds\nPreprocessor visited node count: 383/1000000\nRevision size: 1784/2097152 bytes\nPost‐expand include size: 5741/2097152 bytes\nTemplate argument size: 893/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 4722/5000000 bytes\nLua time usage: 0.054/10.000 seconds\nLua memory usage: 3870909/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  118.456      1 -total\n 42.27%   50.073      1 Template:Cite_web\n 41.29%   48.914      1 Template:Short_description\n 24.64%   29.186      2 Template:Pagetype\n 10.01%   11.852      3 Template:Main_other\n  8.91%   10.558      1 Template:SDcat\n  8.44%    9.998      1 Template:Use_dmy_dates\n  6.48%    7.673      2 Template:DMCA\n  5.25%    6.223      2 Template:Dated_maintenance_category\n  3.52%    4.168      2 Template:FULLROOTPAGENAME\n-->\n\n<!-- Render ID 2273c2be-b38c-11f1-af34-3f4462bc006e -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Central processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer case",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer data storage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer keyboard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer monitor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer mouse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer speakers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital electronics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphics card",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hardness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Motherboard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PDP-11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Random-access memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sound card",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Physical components of a computer",
+          "page_image_free": "PDP-11-M7270.jpg",
+          "wikibase_item": "Q3966"
+        }
+      }
+    }
+  ]
+}

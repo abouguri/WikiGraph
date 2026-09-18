@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Glasgow Haskell Compiler",
+    "url": "https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler",
+    "summary": "Compiler for Haskell programming language Glasgow Haskell Compiler Original author Kevin Hammond Developers Simon Marlow , Simon Peyton Jones , The Glasgow Haskell Team Release December 1992 ; 33 years ago ( 1992-12 ) Stable release 9.14.1 / 19 December 2025 ; 8 months ago ( 19 December 2025 ) Written in Haskell , C Operating system Linux , macOS 10.7 and later, Windows Vista and later, FreeBSD Platform x86 (linux only), x86-64 , AArch64 Available in English Type Compiler License BSD 3-clause (new) Website www .haskell .org /ghc Repository gitlab .haskell .org /ghc /ghc .git The Glasgow Haskell Compiler ( GHC ) is a native or machine code compiler for the functional programming language Haskell . It provides a cross-platform software environment for writing and testing Haskell code and supports many extensions, libraries , and optimisations that streamline the process of generating and executing code. GHC is the most commonly used Haskell compiler. It is free and open-source software released under a BSD license . ^ Cite error: The named reference contribs was invoked but never defined (see the help page ). ^ Cite error: The named reference history was invoked but never defined (see the help page ). ^ \"Download – The Glasgow Haskell Compiler\" . Haskell.org . Archived from the original on 28 February 2021 . Retrieved 11 February 2021 . ^ a b \"Download Version 9.12.2 (released 14th Mar 2025)\" . GHC Team. ^ \"Deprecation of 32-bit Darwin and Windows platforms\" . GHC Team. ^ \"The Glorious Glasgow Haskell Compilation System User's Guide\" . Haskell.org . Retrieved 27 July 2014 . ^ \"2017 state of Haskell survey results\" . taylor.fausak.me . 15 November 2017 . Retrieved 11 December 2017 .",
+    "text": "Compiler for Haskell programming language Glasgow Haskell Compiler Original author Kevin Hammond Developers Simon Marlow , Simon Peyton Jones , The Glasgow Haskell Team Release December 1992 ; 33 years ago ( 1992-12 ) Stable release 9.14.1 / 19 December 2025 ; 8 months ago ( 19 December 2025 ) Written in Haskell , C Operating system Linux , macOS 10.7 and later, Windows Vista and later, FreeBSD Platform x86 (linux only), x86-64 , AArch64 Available in English Type Compiler License BSD 3-clause (new) Website www .haskell .org /ghc Repository gitlab .haskell .org /ghc /ghc .git The Glasgow Haskell Compiler ( GHC ) is a native or machine code compiler for the functional programming language Haskell . It provides a cross-platform software environment for writing and testing Haskell code and supports many extensions, libraries , and optimisations that streamline the process of generating and executing code. GHC is the most commonly used Haskell compiler. It is free and open-source software released under a BSD license . ^ Cite error: The named reference contribs was invoked but never defined (see the help page ). ^ Cite error: The named reference history was invoked but never defined (see the help page ). ^ \"Download – The Glasgow Haskell Compiler\" . Haskell.org . Archived from the original on 28 February 2021 . Retrieved 11 February 2021 . ^ a b \"Download Version 9.12.2 (released 14th Mar 2025)\" . GHC Team. ^ \"Deprecation of 32-bit Darwin and Windows platforms\" . GHC Team. ^ \"The Glorious Glasgow Haskell Compilation System User's Guide\" . Haskell.org . Retrieved 27 July 2014 . ^ \"2017 state of Haskell survey results\" . taylor.fausak.me . 15 November 2017 . Retrieved 11 December 2017 .",
+    "links": [
+      "AArch64",
+      "BSD licenses",
+      "C (programming language)",
+      "Compiler",
+      "Computing platform",
+      "Cross-platform software",
+      "Free and open-source software",
+      "FreeBSD",
+      "Functional programming",
+      "Haskell",
+      "Library (computing)",
+      "Linux",
+      "MacOS 10.7",
+      "Machine code",
+      "Operating system",
+      "Programmer",
+      "Programming language",
+      "Repository (version control)",
+      "Simon Marlow",
+      "Simon Peyton Jones",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Windows Vista",
+      "X86",
+      "X86-64"
+    ],
+    "page_id": 562879,
+    "revision_id": 1373070928,
+    "retrieved_at": "2026-09-18T18:09:32.749083+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260810083024|1368652013",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 562879,
+            "ns": 0,
+            "title": "Glasgow Haskell Compiler",
+            "revisions": [
+              {
+                "revid": 1373070928,
+                "parentid": 1368652013
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Ghc",
+              "wikibase-shortdesc": "Compiler for Haskell programming language",
+              "wikibase_item": "Q2318908"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Glasgow Haskell Compiler",
+        "pageid": 562879,
+        "revid": 1373070928,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Compiler for Haskell programming language</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Glasgow Haskell Compiler</th></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\">Kevin Hammond</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developers</a></th><td class=\"infobox-data\"><a href=\"/wiki/Simon_Marlow\" title=\"Simon Marlow\">Simon Marlow</a>, <a href=\"/wiki/Simon_Peyton_Jones\" title=\"Simon Peyton Jones\">Simon Peyton Jones</a>, The Glasgow Haskell Team<sup id=\"cite&#95;ref-contribs&#95;1-0\" class=\"reference\"><a href=\"#cite_note-contribs-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">December&#160;1992<span class=\"noprint\">&#59;&#32;33&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1992-12</span>)</span><sup id=\"cite&#95;ref-history&#95;2-0\" class=\"reference\"><a href=\"#cite_note-history-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">9.14.1&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2318908?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 19 December 2025<span class=\"noprint\">&#59;&#32;8 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">19 December 2025</span>)</span><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS_10.7\" class=\"mw-redirect\" title=\"MacOS 10.7\">macOS 10.7</a> and later, <a href=\"/wiki/Windows_Vista\" title=\"Windows Vista\">Windows Vista</a> and later, <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a><sup id=\"cite&#95;ref-requirements&#95;4-0\" class=\"reference\"><a href=\"#cite_note-requirements-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/X86\" title=\"X86\">x86</a> (linux only),<sup id=\"cite&#95;ref-requirements&#95;4-1\" class=\"reference\"><a href=\"#cite_note-requirements-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>,<sup id=\"cite&#95;ref-deprecate32bit&#95;5-0\" class=\"reference\"><a href=\"#cite_note-deprecate32bit-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/AArch64\" title=\"AArch64\">AArch64</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">English</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/BSD_licenses#3-clause\" title=\"BSD licenses\">BSD 3-clause</a> (new)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.haskell.org/ghc\">www<wbr />.haskell<wbr />.org<wbr />/ghc</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gitlab.haskell.org/ghc/ghc.git\">gitlab<wbr />.haskell<wbr />.org<wbr />/ghc<wbr />/ghc<wbr />.git</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2318908#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p>The <b>Glasgow Haskell Compiler</b> (<b>GHC</b>) is a native or <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a> <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> for the <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>.<sup id=\"cite&#95;ref-manual&#95;6-0\" class=\"reference\"><a href=\"#cite_note-manual-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> It provides a <a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">cross-platform software</a> environment for writing and testing Haskell code and supports many extensions, <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">libraries</a>, and optimisations that streamline the process of generating and executing code. GHC is the most commonly used Haskell compiler.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> It is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> released under a <a href=\"/wiki/BSD_licenses\" title=\"BSD licenses\">BSD license</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-contribs-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-contribs_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>contribs</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-history-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-history_2-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>history</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210228153257/https://www.haskell.org/ghc/download.html\">\"Download – The Glasgow Haskell Compiler\"</a>. <i>Haskell.org</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.haskell.org/ghc/download.html\">the original</a> on 28 February 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 February</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Haskell.org&amp;rft.atitle=Download+%E2%80%93+The+Glasgow+Haskell+Compiler&amp;rft&#95;id=https%3A%2F%2Fwww.haskell.org%2Fghc%2Fdownload.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGlasgow+Haskell+Compiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-requirements-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-requirements_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-requirements_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.haskell.org/ghc/download_ghc_9_12_2.html#windows64\">\"Download Version 9.12.2 (released 14th Mar 2025)\"</a>. GHC Team.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Download+Version+9.12.2+%28released+14th+Mar+2025%29&amp;rft.pub=GHC+Team&amp;rft&#95;id=https%3A%2F%2Fwww.haskell.org%2Fghc%2Fdownload&#95;ghc&#95;9&#95;12&#95;2.html%23windows64&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGlasgow+Haskell+Compiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-deprecate32bit-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-deprecate32bit_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.haskell.org/ghc/blog/20240613-32-bit-darwin-and-windows-deprecation.html\">\"Deprecation of 32-bit Darwin and Windows platforms\"</a>. GHC Team.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Deprecation+of+32-bit+Darwin+and+Windows+platforms&amp;rft.pub=GHC+Team&amp;rft&#95;id=https%3A%2F%2Fwww.haskell.org%2Fghc%2Fblog%2F20240613-32-bit-darwin-and-windows-deprecation.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGlasgow+Haskell+Compiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-manual-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-manual_6-0\">^</a></b></span> <span class=\"reference-text\">\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/index.html\">\"The Glorious Glasgow Haskell Compilation System User's Guide\"</a>. <i>Haskell.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">27 July</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Haskell.org&amp;rft.atitle=The+Glorious+Glasgow+Haskell+Compilation+System+User%27s+Guide&amp;rft&#95;id=https%3A%2F%2Fdownloads.haskell.org%2F~ghc%2Flatest%2Fdocs%2Fhtml%2Fusers&#95;guide%2Findex.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGlasgow+Haskell+Compiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\">\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://taylor.fausak.me/2017/11/15/2017-state-of-haskell-survey-results/#question-14\">\"2017 state of Haskell survey results\"</a>. <i>taylor.fausak.me</i>. 15 November 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 December</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=taylor.fausak.me&amp;rft.atitle=2017+state+of+Haskell+survey+results&amp;rft.date=2017-11-15&amp;rft&#95;id=http%3A%2F%2Ftaylor.fausak.me%2F2017%2F11%2F15%2F2017-state-of-haskell-survey-results%2F%23question-14&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGlasgow+Haskell+Compiler\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐gjsmg\nCached time: 20260918180958\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.432 seconds\nReal time usage: 0.600 seconds\nPreprocessor visited node count: 1726/1000000\nRevision size: 2931/2097152 bytes\nPost‐expand include size: 34223/2097152 bytes\nTemplate argument size: 6495/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 15597/5000000 bytes\nLua time usage: 0.225/10.000 seconds\nLua memory usage: 6066842/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  578.660      1 -total\n 44.02%  254.723      2 Template:Infobox\n 37.59%  217.506      1 Template:Infobox_software\n 19.48%  112.716      5 Template:Cite_web\n 17.50%  101.243      1 Template:Short_description\n 16.65%   96.339      1 Template:Infobox_software/simple\n 12.04%   69.671     13 Template:If_empty\n  9.90%   57.261      2 Template:Pagetype\n  8.31%   48.077      4 Template:Wikidata\n  6.99%   40.467      4 Template:Broken_ref\n-->\n\n<!-- Render ID 2869b1de-b38c-11f1-b10e-eb9b3af0b3f6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "AArch64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS 10.7",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simon Marlow",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simon Peyton Jones",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Vista",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Compiler for Haskell programming language",
+          "wikibase_item": "Q2318908"
+        }
+      }
+    }
+  ]
+}

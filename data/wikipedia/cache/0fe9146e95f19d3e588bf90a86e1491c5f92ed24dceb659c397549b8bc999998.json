@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Instruction set architecture",
+    "url": "https://en.wikipedia.org/wiki/Instruction_set_architecture",
+    "summary": "Model that describes the programmable interface of a computer processor For broader coverage of this topic, see Computer architecture . For the internal bus of some old computers, see Industry Standard Architecture . Not to be confused with Digital architecture . An instruction set architecture ( ISA ) is an abstract model that defines the programmable interface of the CPU of a computer, defining how software interacts with hardware. A device (i.e. CPU) that interprets instructions described by an ISA is an implementation of that ISA. Generally, the same ISA is used for a family of related CPU devices. In general, an ISA defines the instructions , data types , registers , and the programming interface for managing main memory such as addressing modes , virtual memory , and memory consistency mechanisms. The ISA also includes the input/output model of the programmable interface. An ISA specifies the behavior implied by machine code running on an implementation of that ISA in a fashion that does not depend on the characteristics of that implementation, providing binary compatibility between implementations. This enables multiple implementations of an ISA that differ in characteristics such as performance , physical size, and monetary cost (among other things), but that are capable of running the same machine code, so that a lower-performance, lower-cost machine can be replaced with a higher-cost, higher-performance machine without having to replace software. It also enables the evolution of the microarchitectures of the implementations of that ISA, so that a newer, higher-performance implementation of an ISA can run software that runs on previous generations of implementations. If an operating system maintains a standard and compatible application binary interface (ABI) for a particular ISA, machine code will run on future implementations of that ISA and operating system. However, if an ISA supports running multiple operating systems, it does not guarantee that machine code for one operating system will run on another operating system, unless the first operating system supports running machine code built for the other operating system. An ISA can be extended by adding instructions or other capabilities, or adding support for larger addresses and data values; an implementation of the extended ISA will still be able to execute machine code for versions of the ISA without those extensions. Machine code using those extensions will only run on implementations that support those extensions. The binary compatibility that they provide makes ISAs one of the most fundamental abstractions in computing . ^ \"GLOSSARY: Instruction Set Architecture (ISA)\" . arm.com . Archived from the original on 2023-11-11 . Retrieved 2024-02-03 .",
+    "text": "Model that describes the programmable interface of a computer processor For broader coverage of this topic, see Computer architecture . For the internal bus of some old computers, see Industry Standard Architecture . Not to be confused with Digital architecture . An instruction set architecture ( ISA ) is an abstract model that defines the programmable interface of the CPU of a computer, defining how software interacts with hardware. A device (i.e. CPU) that interprets instructions described by an ISA is an implementation of that ISA. Generally, the same ISA is used for a family of related CPU devices. In general, an ISA defines the instructions , data types , registers , and the programming interface for managing main memory such as addressing modes , virtual memory , and memory consistency mechanisms. The ISA also includes the input/output model of the programmable interface. An ISA specifies the behavior implied by machine code running on an implementation of that ISA in a fashion that does not depend on the characteristics of that implementation, providing binary compatibility between implementations. This enables multiple implementations of an ISA that differ in characteristics such as performance , physical size, and monetary cost (among other things), but that are capable of running the same machine code, so that a lower-performance, lower-cost machine can be replaced with a higher-cost, higher-performance machine without having to replace software. It also enables the evolution of the microarchitectures of the implementations of that ISA, so that a newer, higher-performance implementation of an ISA can run software that runs on previous generations of implementations. If an operating system maintains a standard and compatible application binary interface (ABI) for a particular ISA, machine code will run on future implementations of that ISA and operating system. However, if an ISA supports running multiple operating systems, it does not guarantee that machine code for one operating system will run on another operating system, unless the first operating system supports running machine code built for the other operating system. An ISA can be extended by adding instructions or other capabilities, or adding support for larger addresses and data values; an implementation of the extended ISA will still be able to execute machine code for versions of the ISA without those extensions. Machine code using those extensions will only run on implementations that support those extensions. The binary compatibility that they provide makes ISAs one of the most fundamental abstractions in computing . ^ \"GLOSSARY: Instruction Set Architecture (ISA)\" . arm.com . Archived from the original on 2023-11-11 . Retrieved 2024-02-03 .",
+    "links": [
+      "Abstract model",
+      "Addressing mode",
+      "Application binary interface",
+      "Binary compatibility",
+      "CPU",
+      "Computer architecture",
+      "Computer memory",
+      "Computer performance",
+      "Computing",
+      "Data type",
+      "Digital architecture",
+      "Implementation",
+      "Industry Standard Architecture",
+      "Input/output",
+      "Interface (computing)",
+      "Machine code",
+      "Memory consistency",
+      "Microarchitecture",
+      "Operating system",
+      "Register (computer)",
+      "Software",
+      "Virtual memory"
+    ],
+    "page_id": 47772,
+    "revision_id": 1371949879,
+    "retrieved_at": "2026-09-18T18:08:55.010510+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260829143626|1371947305",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 47772,
+            "ns": 0,
+            "title": "Instruction set architecture",
+            "revisions": [
+              {
+                "revid": 1371949879,
+                "parentid": 1371947305
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Model that describes the programmable interface of a computer processor",
+              "wikibase_item": "Q272683"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Instruction set architecture",
+        "pageid": 47772,
+        "revid": 1371949879,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Model that describes the programmable interface of a computer processor</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\"><span>For broader coverage of this topic, see <a href=\"/wiki/Computer_architecture\" title=\"Computer architecture\">Computer architecture</a>.</span> <span>For the internal bus of some old computers, see <a href=\"/wiki/Industry_Standard_Architecture\" title=\"Industry Standard Architecture\">Industry Standard Architecture</a>.</span> <span>Not to be confused with <a href=\"/wiki/Digital_architecture\" title=\"Digital architecture\">Digital architecture</a>.</span></div>\n<p>An <b>instruction set architecture</b> (<b>ISA</b>) is an <a href=\"/wiki/Abstract_model\" class=\"mw-redirect\" title=\"Abstract model\">abstract model</a> that defines the programmable <a href=\"/wiki/Interface_(computing)\" title=\"Interface (computing)\">interface</a> of the <a href=\"/wiki/CPU\" class=\"mw-redirect\" title=\"CPU\">CPU</a> of a computer, defining how <a href=\"/wiki/Software\" title=\"Software\">software</a> interacts with hardware.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> A device (i.e. CPU) that interprets instructions described by an ISA is an <a href=\"/wiki/Implementation\" title=\"Implementation\">implementation</a> of that ISA. Generally, the same ISA is used for a family of related CPU devices.\n</p><p>In general, an ISA defines the <a href=\"/wiki/Machine_code\" title=\"Machine code\">instructions</a>, <a href=\"/wiki/Data_type\" title=\"Data type\">data types</a>, <a href=\"/wiki/Register_(computer)\" class=\"mw-redirect\" title=\"Register (computer)\">registers</a>, and the programming interface for managing <a href=\"/wiki/Computer_memory\" title=\"Computer memory\">main memory</a> such as <a href=\"/wiki/Addressing_mode\" title=\"Addressing mode\">addressing modes</a>, <a href=\"/wiki/Virtual_memory\" title=\"Virtual memory\">virtual memory</a>, and <a href=\"/wiki/Memory_consistency\" class=\"mw-redirect\" title=\"Memory consistency\">memory consistency</a> mechanisms. The ISA also includes the <a href=\"/wiki/Input/output\" title=\"Input/output\">input/output</a> model of the programmable interface.\n</p><p>An ISA specifies the behavior implied by <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a> running on an implementation of that ISA in a fashion that does not depend on the characteristics of that implementation, providing <a href=\"/wiki/Binary_compatibility\" class=\"mw-redirect\" title=\"Binary compatibility\">binary compatibility</a> between implementations. This enables multiple implementations of an ISA that differ in characteristics such as <a href=\"/wiki/Computer_performance\" title=\"Computer performance\">performance</a>, physical size, and monetary cost (among other things), but that are capable of running the same machine code, so that a lower-performance, lower-cost machine can be replaced with a higher-cost, higher-performance machine without having to replace software. It also enables the evolution of the <a href=\"/wiki/Microarchitecture\" title=\"Microarchitecture\">microarchitectures</a> of the implementations of that ISA, so that a newer, higher-performance implementation of an ISA can run software that runs on previous generations of implementations.\n</p><p>If an <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> maintains a standard and compatible <a href=\"/wiki/Application_binary_interface\" title=\"Application binary interface\">application binary interface</a> (ABI) for a particular ISA, machine code will run on future implementations of that ISA and operating system. However, if an ISA supports running multiple operating systems, it does not guarantee that machine code for one operating system will run on another operating system, unless the first operating system supports running machine code built for the other operating system.\n</p><p>An ISA can be extended by adding instructions or other capabilities, or adding support for larger addresses and data values; an implementation of the extended ISA will still be able to execute <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a> for versions of the ISA without those extensions. Machine code using those extensions will only run on implementations that support those extensions.\n</p><p>The binary compatibility that they provide makes ISAs one of the most fundamental abstractions in <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20231111175250/https://www.arm.com/glossary/isa\">\"GLOSSARY: Instruction Set Architecture (ISA)\"</a>. <i>arm.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.arm.com/glossary/isa\">the original</a> on 2023-11-11<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-02-03</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=arm.com&amp;rft.atitle=GLOSSARY%3A+Instruction+Set+Architecture+%28ISA%29&amp;rft&#95;id=https%3A%2F%2Fwww.arm.com%2Fglossary%2Fisa&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInstruction+set+architecture\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐r7m76\nCached time: 20260918180920\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.291 seconds\nReal time usage: 0.399 seconds\nPreprocessor visited node count: 231/1000000\nRevision size: 3106/2097152 bytes\nPost‐expand include size: 7393/2097152 bytes\nTemplate argument size: 728/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 2770/5000000 bytes\nLua time usage: 0.230/10.000 seconds\nLua memory usage: 3930895/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  384.565      1 -total\n 44.76%  172.118      1 Template:Hatnote_group\n 28.58%  109.892      1 Template:Machine_code\n 27.88%  107.222      1 Template:Short_description\n 26.58%  102.206      1 Template:Cite_web\n 16.80%   64.591      2 Template:Pagetype\n  8.81%   33.871      1 Template:Broader\n  6.20%   23.839      2 Template:Main_other\n  5.48%   21.067      1 Template:SDcat\n  2.36%    9.059      1 Template:Distinguish\n-->\n\n<!-- Render ID 11c35968-b38c-11f1-b564-a9df16fd8287 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Computer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Industry Standard Architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Addressing mode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application binary interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Binary compatibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer performance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interface (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory consistency",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microarchitecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Register (computer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual memory",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Model that describes the programmable interface of a computer processor",
+          "wikibase_item": "Q272683"
+        }
+      }
+    }
+  ]
+}

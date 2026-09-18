@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Software release life cycle",
+    "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle",
+    "summary": "Stages in development and support of computer software This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Software release life cycle\" – news · newspapers · books · scholar · JSTOR ( February 2025 ) ( Learn how and when to remove this message ) An example of a basic software release life cycle The software release life cycle is the process of developing , testing , and distributing a software product (e.g., an operating system ). It typically consists of several stages, such as pre-alpha, alpha, beta, and release candidate, before the final version, or \"gold\", is released to the public. Pre-alpha refers to the early stages of development, when the software is still being designed and built. Alpha testing is the first phase of formal testing, during which the software is tested internally using white-box techniques . Beta testing is the next phase, in which the software is tested by a larger group of users, typically outside the organization that developed it. The beta phase is focused on reducing impacts on users and may include usability testing. After beta testing, the software may go through one or more release candidate phases, in which it is refined and tested further, before the final version is released. Some software, particularly in the internet and technology industries, is released in a perpetual beta state, meaning that it is continuously being updated and improved, and is never considered to be a fully completed product. This approach allows for a more agile development process and enables the software to be released and used by users earlier in the development cycle.",
+    "text": "Stages in development and support of computer software This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Software release life cycle\" – news · newspapers · books · scholar · JSTOR ( February 2025 ) ( Learn how and when to remove this message ) An example of a basic software release life cycle The software release life cycle is the process of developing , testing , and distributing a software product (e.g., an operating system ). It typically consists of several stages, such as pre-alpha, alpha, beta, and release candidate, before the final version, or \"gold\", is released to the public. Pre-alpha refers to the early stages of development, when the software is still being designed and built. Alpha testing is the first phase of formal testing, during which the software is tested internally using white-box techniques . Beta testing is the next phase, in which the software is tested by a larger group of users, typically outside the organization that developed it. The beta phase is focused on reducing impacts on users and may include usability testing. After beta testing, the software may go through one or more release candidate phases, in which it is refined and tested further, before the final version is released. Some software, particularly in the internet and technology industries, is released in a perpetual beta state, meaning that it is continuously being updated and improved, and is never considered to be a fully completed product. This approach allows for a more agile development process and enables the software to be released and used by users earlier in the development cycle.",
+    "links": [
+      "Operating system",
+      "Software",
+      "Software development",
+      "Software distribution",
+      "Software testing",
+      "White-box testing"
+    ],
+    "page_id": 220901,
+    "revision_id": 1375072061,
+    "retrieved_at": "2026-09-18T18:07:14.832111+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260915180218|1375072024",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 220901,
+            "ns": 0,
+            "title": "Software release life cycle",
+            "revisions": [
+              {
+                "revid": 1375072061,
+                "parentid": 1375072024
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Software_dev2.svg",
+              "wikibase-shortdesc": "Stages in development and support of computer software",
+              "wikibase_item": "Q1211457"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Software release life cycle",
+        "pageid": 220901,
+        "revid": 1375072061,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Stages in development and support of computer software</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Software_release_life_cycle\" title=\"Special:EditPage/Software release life cycle\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Software+release+life+cycle%22\">\"Software release life cycle\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Software+release+life+cycle%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Software+release+life+cycle%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Software+release+life+cycle%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Software+release+life+cycle%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Software+release+life+cycle%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">February 2025</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Software_dev2.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/250px-Software_dev2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"190\" height=\"402\" style=\"--mw-file-upright: 0.75\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/500px-Software_dev2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"635\" /></a><figcaption>An example of a basic software release life cycle</figcaption></figure>\n<p>The <b>software release life cycle</b> is the process of <a href=\"/wiki/Software_development\" title=\"Software development\">developing</a>, <a href=\"/wiki/Software_testing\" title=\"Software testing\">testing</a>, and <a href=\"/wiki/Software_distribution\" title=\"Software distribution\">distributing</a> a <a href=\"/wiki/Software\" title=\"Software\">software</a> product (e.g., an <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a>). It typically consists of several stages, such as pre-alpha, alpha, beta, and release candidate, before the final version, or \"gold\", is released to the public.\n</p><p>Pre-alpha refers to the early stages of development, when the software is still being designed and built. Alpha testing is the first phase of formal testing, during which the software is tested internally using <a href=\"/wiki/White-box_testing\" title=\"White-box testing\">white-box techniques</a>. Beta testing is the next phase, in which the software is tested by a larger group of users, typically outside the organization that developed it. The beta phase is focused on reducing impacts on users and may include usability testing.\n</p><p>After beta testing, the software may go through one or more release candidate phases, in which it is refined and tested further, before the final version is released.\n</p><p>Some software, particularly in the internet and technology industries, is released in a perpetual beta state, meaning that it is continuously being updated and improved, and is never considered to be a fully completed product. This approach allows for a more agile development process and enables the software to be released and used by users earlier in the development cycle.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐75jhk\nCached time: 20260918180740\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.152 seconds\nReal time usage: 0.248 seconds\nPreprocessor visited node count: 305/1000000\nRevision size: 1684/2097152 bytes\nPost‐expand include size: 11941/2097152 bytes\nTemplate argument size: 829/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1525/5000000 bytes\nLua time usage: 0.091/10.000 seconds\nLua memory usage: 1913740/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  221.474      1 -total\n 54.84%  121.454      1 Template:Short_description\n 37.62%   83.320      1 Template:More_citations_needed\n 34.74%   76.949      1 Template:Ambox\n 27.73%   61.418      2 Template:Pagetype\n 16.96%   37.569      3 Template:Main_other\n 14.69%   32.532      1 Template:SDcat\n  8.29%   18.349      1 Template:Find_sources_mainspace\n  7.39%   16.377      1 Template:Use_dmy_dates\n  5.79%   12.827      1 Template:DMCA\n-->\n\n<!-- Render ID d628842e-b38b-11f1-8785-99b6b07a8ef3 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software testing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "White-box testing",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Stages in development and support of computer software",
+          "page_image_free": "Software_dev2.svg",
+          "wikibase_item": "Q1211457"
+        }
+      }
+    }
+  ]
+}

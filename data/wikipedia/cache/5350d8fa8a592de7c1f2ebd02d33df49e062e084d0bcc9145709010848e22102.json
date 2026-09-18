@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Low-level programming language",
+    "url": "https://en.wikipedia.org/wiki/Low-level_programming_language",
+    "summary": "Programming language close to hardware This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( March 2017 ) ( Learn how and when to remove this message ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Low-level programming language\" – news · newspapers · books · scholar · JSTOR ( July 2015 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture , memory or underlying physical hardware; commands or functions in the language are structurally similar to a processor's instructions. [ vague ] [ citation needed ] These languages provide the programmer with full control over program memory and the underlying machine code instructions. Because of the low level of abstraction (hence the term \"low-level\") between the language and machine language, low-level languages are sometimes described as being \"close to the hardware\".",
+    "text": "Programming language close to hardware This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( March 2017 ) ( Learn how and when to remove this message ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Low-level programming language\" – news · newspapers · books · scholar · JSTOR ( July 2015 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture , memory or underlying physical hardware; commands or functions in the language are structurally similar to a processor's instructions. [ vague ] [ citation needed ] These languages provide the programmer with full control over program memory and the underlying machine code instructions. Because of the low level of abstraction (hence the term \"low-level\") between the language and machine language, low-level languages are sometimes described as being \"close to the hardware\".",
+    "links": [
+      "Abstraction (computer science)",
+      "Instruction set architecture",
+      "Programming language"
+    ],
+    "page_id": 189845,
+    "revision_id": 1358200621,
+    "retrieved_at": "2026-09-18T18:08:59.136780+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260605201504|1357973848",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 189845,
+            "ns": 0,
+            "title": "Low-level programming language",
+            "revisions": [
+              {
+                "revid": 1358200621,
+                "parentid": 1357973848
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming language close to hardware",
+              "wikibase_item": "Q558937"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Low-level programming language",
+        "pageid": 189845,
+        "revid": 1358200621,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language close to hardware</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Low-level_programming_language\" title=\"Special:EditPage/Low-level programming language\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Low-level_programming_language\" title=\"Talk:Low-level programming language\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Original&#95;research plainlinks metadata ambox ambox-content ambox-Original&#95;research\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may contain <a href=\"/wiki/Wikipedia:No_original_research\" title=\"Wikipedia:No original research\">original research</a></b>.<span class=\"hide-when-compact\"> Please <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Low-level_programming_language&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Low-level_programming_language&amp;action=edit\">improve it</a> by <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">verifying</a> the claims made and adding <a href=\"/wiki/Wikipedia:Citing_sources#Inline_citations\" title=\"Wikipedia:Citing sources\">inline citations</a>. Statements consisting only of original research should be removed.</span>  <span class=\"date-container\"><i>(<span class=\"date\">March 2017</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Low-level_programming_language\" title=\"Special:EditPage/Low-level programming language\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Low-level+programming+language%22\">\"Low-level programming language\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Low-level+programming+language%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Low-level+programming+language%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Low-level+programming+language%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Low-level+programming+language%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Low-level+programming+language%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">July 2015</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p>A <b>low-level programming language</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> that provides little or no <a href=\"/wiki/Abstraction_(computer_science)\" title=\"Abstraction (computer science)\">abstraction</a> from a computer's <a href=\"/wiki/Instruction_set_architecture\" title=\"Instruction set architecture\">instruction set architecture</a>, memory or underlying physical hardware; commands or functions in the language are structurally similar to a processor's instructions.<sup class=\"noprint Inline-Template\" style=\"margin-left:0.1em; white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Vagueness\" title=\"Wikipedia:Vagueness\"><span title=\"This information is too vague. (January 2026)\">vague</span></a></i>&#93;</sup><sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (January 2026)\">citation needed</span></a></i>&#93;</sup> These languages provide the programmer with full control over program memory and the underlying machine code instructions. Because of the low level of abstraction (hence the term \"low-level\") between the language and machine language, low-level languages are sometimes described as being \"close to the hardware\".\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐75jhk\nCached time: 20260918180924\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.215 seconds\nReal time usage: 0.344 seconds\nPreprocessor visited node count: 641/1000000\nRevision size: 855/2097152 bytes\nPost‐expand include size: 37788/2097152 bytes\nTemplate argument size: 13381/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5628/5000000 bytes\nLua time usage: 0.136/10.000 seconds\nLua memory usage: 2801779/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  323.979      1 -total\n 48.98%  158.690      1 Template:Multiple_issues\n 37.12%  120.251      1 Template:Short_description\n 31.53%  102.156      2 Template:Ambox\n 25.18%   81.586      1 Template:Original_research\n 21.09%   68.327      2 Template:Pagetype\n 10.99%   35.606      4 Template:Main_other\n  9.99%   32.376      1 Template:SDcat\n  9.26%   29.996      1 Template:More_citations_needed\n  8.08%   26.185      1 Template:Cn\n-->\n\n<!-- Render ID 1425a832-b38c-11f1-8785-99b6b07a8ef3 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Abstraction (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:Low-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citation needed",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Vagueness",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language close to hardware",
+          "wikibase_item": "Q558937"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "BCPL",
+    "url": "https://en.wikipedia.org/wiki/BCPL",
+    "summary": "Multi-paradigm computer programming language Not to be confused with BASIC . This article is about the programming language. For other uses, see BCPL (disambiguation) . BCPL Paradigm procedural , imperative , structured Designed by Martin Richards First appeared 1967 ; 59 years ago ( 1967 ) Typing discipline typeless (everything is a word ) Influenced by CPL Influenced B , C BCPL ( Basic Combined Programming Language ) is a procedural , imperative , and structured programming language . Originally intended for writing compilers for other languages, BCPL is no longer in common use. However, its influence is still felt because a stripped down and syntactically changed version of BCPL, called B , was the language on which the C programming language was based. BCPL introduced several features of many modern programming languages, including using curly braces to delimit code blocks. BCPL was first implemented by Martin Richards of the University of Cambridge in 1967. ^ a b \"Martin Richards (2003 Computer Pioneer Award)\" . IEEE Computer Society . Retrieved 24 November 2017 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ https://www.cl.cam.ac.uk/~mr10/bcplman.pdf The BCPL Cintsys and Cintpos User Guide, 2.1.4 Section brackets",
+    "text": "Multi-paradigm computer programming language Not to be confused with BASIC . This article is about the programming language. For other uses, see BCPL (disambiguation) . BCPL Paradigm procedural , imperative , structured Designed by Martin Richards First appeared 1967 ; 59 years ago ( 1967 ) Typing discipline typeless (everything is a word ) Influenced by CPL Influenced B , C BCPL ( Basic Combined Programming Language ) is a procedural , imperative , and structured programming language . Originally intended for writing compilers for other languages, BCPL is no longer in common use. However, its influence is still felt because a stripped down and syntactically changed version of BCPL, called B , was the language on which the C programming language was based. BCPL introduced several features of many modern programming languages, including using curly braces to delimit code blocks. BCPL was first implemented by Martin Richards of the University of Cambridge in 1967. ^ a b \"Martin Richards (2003 Computer Pioneer Award)\" . IEEE Computer Society . Retrieved 24 November 2017 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ https://www.cl.cam.ac.uk/~mr10/bcplman.pdf The BCPL Cintsys and Cintpos User Guide, 2.1.4 Section brackets",
+    "links": [
+      "B (programming language)",
+      "BASIC",
+      "BCPL (disambiguation)",
+      "Brace programming language",
+      "C (programming language)",
+      "CPL (programming language)",
+      "Compiler",
+      "Imperative programming",
+      "Martin Richards (computer scientist)",
+      "Procedural programming",
+      "Programming language",
+      "Programming paradigm",
+      "Software design",
+      "Structured programming",
+      "Type system",
+      "University of Cambridge",
+      "Word (computer architecture)"
+    ],
+    "page_id": 4052,
+    "revision_id": 1362508263,
+    "retrieved_at": "2026-09-18T18:08:44.719135+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260604185808|1357796788",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 4052,
+            "ns": 0,
+            "title": "BCPL",
+            "revisions": [
+              {
+                "revid": 1362508263,
+                "parentid": 1357796788
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Bcpl",
+              "wikibase-shortdesc": "Multi-paradigm computer programming language",
+              "wikibase_item": "Q810009"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "BCPL",
+        "pageid": 4052,
+        "revid": 1362508263,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Multi-paradigm computer programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/BASIC\" title=\"BASIC\">BASIC</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For other uses, see <a href=\"/wiki/BCPL_(disambiguation)\" class=\"mw-disambig\" title=\"BCPL (disambiguation)\">BCPL (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">BCPL</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Martin_Richards_(computer_scientist)\" title=\"Martin Richards (computer scientist)\">Martin Richards</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1967<span class=\"noprint\">&#59;&#32;59&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1967</span>)</span><sup id=\"cite&#95;ref-IEEE&#95;CPA&#95;MRichards&#95;1-0\" class=\"reference\"><a href=\"#cite_note-IEEE_CPA_MRichards-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\">typeless (everything is a <a href=\"/wiki/Word_(computer_architecture)\" title=\"Word (computer architecture)\">word</a>)</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/CPL_(programming_language)\" title=\"CPL (programming language)\">CPL</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/B_(programming_language)\" title=\"B (programming language)\">B</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr></tbody></table>\n<p><b>BCPL</b> (<b>Basic Combined Programming Language</b>) is a <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, and <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a>.  Originally intended for writing <a href=\"/wiki/Compiler\" title=\"Compiler\">compilers</a> for other languages, BCPL is no longer in common use. However, its influence is still felt because a stripped down and syntactically changed version of BCPL, called <a href=\"/wiki/B_(programming_language)\" title=\"B (programming language)\">B</a>, was the language on which the <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C programming language</a> was based.  BCPL introduced several features of many modern programming languages, including using <a href=\"/wiki/Brace_programming_language\" class=\"mw-redirect\" title=\"Brace programming language\">curly braces</a> to delimit code blocks.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> BCPL was first implemented by <a href=\"/wiki/Martin_Richards_(computer_scientist)\" title=\"Martin Richards (computer scientist)\">Martin Richards</a> of the <a href=\"/wiki/University_of_Cambridge\" title=\"University of Cambridge\">University of Cambridge</a> in 1967.<sup id=\"cite&#95;ref-IEEE&#95;CPA&#95;MRichards&#95;1-1\" class=\"reference\"><a href=\"#cite_note-IEEE_CPA_MRichards-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-IEEE&#95;CPA&#95;MRichards-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-IEEE_CPA_MRichards_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-IEEE_CPA_MRichards_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.computer.org/web/awards/pioneer-martin-richards\">\"Martin Richards (2003 Computer Pioneer Award)\"</a>. IEEE Computer Society<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 November</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Martin+Richards+%282003+Computer+Pioneer+Award%29&amp;rft.pub=IEEE+Computer+Society&amp;rft&#95;id=https%3A%2F%2Fwww.computer.org%2Fweb%2Fawards%2Fpioneer-martin-richards&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ABCPL\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>:  CS1 maint: deprecated archival service (<a href=\"/wiki/Category:CS1_maint:_deprecated_archival_service\" title=\"Category:CS1 maint: deprecated archival service\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external free\" href=\"https://www.cl.cam.ac.uk/~mr10/bcplman.pdf\">https://www.cl.cam.ac.uk/~mr10/bcplman.pdf</a> The BCPL Cintsys and Cintpos User Guide, 2.1.4 Section brackets</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐54vpn\nCached time: 20260918180910\nCache expiry: 1057861\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.108 seconds\nReal time usage: 0.194 seconds\nPreprocessor visited node count: 837/1000000\nRevision size: 2507/2097152 bytes\nPost‐expand include size: 9082/2097152 bytes\nTemplate argument size: 1399/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5018/5000000 bytes\nLua time usage: 0.065/10.000 seconds\nLua memory usage: 3712582/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  185.984      1 -total\n 33.14%   61.643      1 Template:Short_description\n 24.23%   45.071      1 Template:Cite_web\n 21.83%   40.594      1 Template:Infobox_programming_language\n 20.57%   38.249      1 Template:Infobox\n 14.36%   26.700      2 Template:Pagetype\n 13.20%   24.558      4 Template:Main_other\n 12.11%   22.517      1 Template:SDcat\n  9.38%   17.443      1 Template:Distinguish\n  6.29%   11.703      1 Template:Use_dmy_dates\n-->\n\n<!-- Render ID 0bcd79e9-b38c-11f1-80e8-9f0a932881d9 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "BCPL (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "B (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Brace programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Martin Richards (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Cambridge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Word (computer architecture)",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Cite web",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: deprecated archival service",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Multi-paradigm computer programming language",
+          "wikibase_item": "Q810009"
+        }
+      }
+    }
+  ]
+}

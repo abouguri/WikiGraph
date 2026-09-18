@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Standard library",
+    "url": "https://en.wikipedia.org/wiki/Standard_library",
+    "summary": "Library provided with a programming language to provide common services This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Standard library\" – news · newspapers · books · scholar · JSTOR ( May 2019 ) ( Learn how and when to remove this message ) In computer programming , a standard library is the library made available across implementations of a programming language . Often, a standard library is specified by its associated programming language specification , however, some are set in part or whole by more informal practices of a language community. Some languages define a core part of the standard library that must be made available in all implementations while allowing other parts to be implemented optionally. In many languages, the standard library often has its own namespace. For example, C++ , D , and Rust use std::* as the standard library namespace. C# uses System.* , while Java uses java.* , javax.* and jdk.* . However, in some like Python and Go , there is no \"standard library namespace\" or common prefix for modules belonging to the standard library. As defined with the core language aspects, the line between the core language and its standard library is relatively subtle. A programmer may confuse the two aspects even though the language designers intentionally separate the two. The line between the core language and its standard library is further blurred in some languages by defining core language constructs in terms of its standard library. For example, Java defines a string literal as an instance of the java.lang.String class. Smalltalk defines an anonymous function expression (a \"block\") as an instance of its library's BlockContext class. Scheme does not specify which portions must be implemented as core language vs. standard library.",
+    "text": "Library provided with a programming language to provide common services This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Standard library\" – news · newspapers · books · scholar · JSTOR ( May 2019 ) ( Learn how and when to remove this message ) In computer programming , a standard library is the library made available across implementations of a programming language . Often, a standard library is specified by its associated programming language specification , however, some are set in part or whole by more informal practices of a language community. Some languages define a core part of the standard library that must be made available in all implementations while allowing other parts to be implemented optionally. In many languages, the standard library often has its own namespace. For example, C++ , D , and Rust use std::* as the standard library namespace. C# uses System.* , while Java uses java.* , javax.* and jdk.* . However, in some like Python and Go , there is no \"standard library namespace\" or common prefix for modules belonging to the standard library. As defined with the core language aspects, the line between the core language and its standard library is relatively subtle. A programmer may confuse the two aspects even though the language designers intentionally separate the two. The line between the core language and its standard library is further blurred in some languages by defining core language constructs in terms of its standard library. For example, Java defines a string literal as an instance of the java.lang.String class. Smalltalk defines an anonymous function expression (a \"block\") as an instance of its library's BlockContext class. Scheme does not specify which portions must be implemented as core language vs. standard library.",
+    "links": [
+      "C Sharp (programming language)",
+      "C++",
+      "Computer programming",
+      "D (programming language)",
+      "Go (programming language)",
+      "Java (programming language)",
+      "Library (computing)",
+      "Programmer",
+      "Programming language",
+      "Programming language implementation",
+      "Programming language specification",
+      "Python (programming language)",
+      "Rust (programming language)",
+      "Scheme (programming language)",
+      "Smalltalk",
+      "String literal"
+    ],
+    "page_id": 374669,
+    "revision_id": 1358700006,
+    "retrieved_at": "2026-09-18T18:10:02.862118+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260430121300|1351832264",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 374669,
+            "ns": 0,
+            "title": "Standard library",
+            "revisions": [
+              {
+                "revid": 1358700006,
+                "parentid": 1351832264
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Library provided with a programming language to provide common services",
+              "wikibase_item": "Q1199356"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Standard library",
+        "pageid": 374669,
+        "revid": 1358700006,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Library provided with a programming language to provide common services</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Standard_library\" title=\"Special:EditPage/Standard library\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Standard+library%22\">\"Standard library\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Standard+library%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Standard+library%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Standard+library%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Standard+library%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Standard+library%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">May 2019</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computer_programming\" title=\"Computer programming\">computer programming</a>, a <b>standard library</b> is the <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">library</a> made available across <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a> of a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a>. Often, a standard library is specified by its associated <a href=\"/wiki/Programming_language_specification\" title=\"Programming language specification\">programming language specification</a>, however, some are set in part or whole by more informal practices of a language community.\n</p><p>Some languages define a core part of the standard library that must be made available in all implementations while allowing other parts to be implemented optionally. \n</p><p>In many languages, the standard library often has its own namespace. For example, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>, and <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a> use <code>std::*</code> as the standard library namespace. <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a> uses <code>System.*</code>, while <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a> uses <code>java.*</code>, <code>javax.*</code> and <code>jdk.*</code>. However, in some like <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a> and <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>, there is no \"standard library namespace\" or common prefix for modules belonging to the standard library.\n</p><p>As defined with the core language aspects, the line between the core language and its standard library is relatively subtle. A <a href=\"/wiki/Programmer\" title=\"Programmer\">programmer</a> may confuse the two aspects even though the language designers intentionally separate the two.\n</p><p>The line between the core language and its standard library is further blurred in some languages by defining core language constructs in terms of its standard library. For example, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a> defines a <a href=\"/wiki/String_literal\" title=\"String literal\">string literal</a> as an instance of the <code>java.lang.String</code> class. <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a> defines an anonymous function expression (a \"block\") as an instance of its library's <code>BlockContext</code> class. <a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a> does not specify which portions must be implemented as core language vs. standard library.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐fcqh5\nCached time: 20260918181028\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.054 seconds\nReal time usage: 0.103 seconds\nPreprocessor visited node count: 201/1000000\nRevision size: 2100/2097152 bytes\nPost‐expand include size: 10440/2097152 bytes\nTemplate argument size: 724/2097152 bytes\nHighest expansion depth: 9/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1525/5000000 bytes\nLua time usage: 0.032/10.000 seconds\nLua memory usage: 1810528/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   92.390      1 -total\n 55.32%   51.109      1 Template:Short_description\n 44.61%   41.215      1 Template:Refimprove\n 40.36%   37.290      1 Template:Ambox\n 28.18%   26.031      2 Template:Pagetype\n 18.84%   17.410      2 Template:Main_other\n 17.48%   16.150      1 Template:SDcat\n  9.64%    8.910      1 Template:Find_sources_mainspace\n  1.34%    1.240      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 3a4b4d44-b38c-11f1-9221-3b4ba3dae401 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language specification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "String literal",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Library provided with a programming language to provide common services",
+          "wikibase_item": "Q1199356"
+        }
+      }
+    }
+  ]
+}

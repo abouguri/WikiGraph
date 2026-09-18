@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Nominal type system",
+    "url": "https://en.wikipedia.org/wiki/Nominal_type_system",
+    "summary": "Major class of type system in computer science Type systems General concepts Type safety Strong vs. weak typing Major categories Static vs. dynamic Manifest vs. inferred Nominal vs. structural Duck typing Minor categories Abstract Dependent Flow-sensitive Gradual Intersection Latent Refinement Substructural Unique Session v t e In computer science , a type system is nominal (also called nominative or name-based ) if compatibility and equivalence of data types is determined by explicit declarations and/or the name of the types. Nominal systems are used to determine whether types are equivalent, as well as whether a type is a subtype of another. Nominal type systems contrast with structural systems , where comparisons are based on the structure of the types in question and do not require explicit declarations.",
+    "text": "Major class of type system in computer science Type systems General concepts Type safety Strong vs. weak typing Major categories Static vs. dynamic Manifest vs. inferred Nominal vs. structural Duck typing Minor categories Abstract Dependent Flow-sensitive Gradual Intersection Latent Refinement Substructural Unique Session v t e In computer science , a type system is nominal (also called nominative or name-based ) if compatibility and equivalence of data types is determined by explicit declarations and/or the name of the types. Nominal systems are used to determine whether types are equivalent, as well as whether a type is a subtype of another. Nominal type systems contrast with structural systems , where comparisons are based on the structure of the types in question and do not require explicit declarations.",
+    "links": [
+      "Abstract type",
+      "Computer science",
+      "Data type",
+      "Dependent type",
+      "Duck typing",
+      "Flow-sensitive typing",
+      "Gradual typing",
+      "Intersection type",
+      "Latent typing",
+      "Manifest typing",
+      "Refinement type",
+      "Session type",
+      "Strong and weak typing",
+      "Structural type system",
+      "Substructural type system",
+      "Type inference",
+      "Type safety",
+      "Type system",
+      "Uniqueness type"
+    ],
+    "page_id": 4471382,
+    "revision_id": 1362459053,
+    "retrieved_at": "2026-09-18T18:09:07.461156+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20250319211730|1281351682",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 4471382,
+            "ns": 0,
+            "title": "Nominal type system",
+            "revisions": [
+              {
+                "revid": 1362459053,
+                "parentid": 1281351682
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Nominative Type System",
+              "wikibase-shortdesc": "Major class of type system in computer science",
+              "wikibase_item": "Q3509459"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Nominal type system",
+        "pageid": 4471382,
+        "revid": 1362459053,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Major class of type system in computer science</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\" style=\"margin-top: 0.5em;\"><tbody><tr><th class=\"sidebar-title\"><a href=\"/wiki/Type_system\" title=\"Type system\">Type systems</a></th></tr><tr><th class=\"sidebar-heading\">\nGeneral concepts</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a href=\"/wiki/Type_safety\" title=\"Type safety\">Type safety</a></li>\n<li><a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">Strong vs. weak typing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nMajor categories</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a href=\"/wiki/Type_system#Static_type_checking\" title=\"Type system\">Static</a> vs. <a href=\"/wiki/Type_system#Dynamic_type_checking_and_runtime_type_information\" title=\"Type system\">dynamic</a></li>\n<li><a href=\"/wiki/Manifest_typing\" title=\"Manifest typing\">Manifest</a> vs. <a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a></li>\n<li><a class=\"mw-selflink selflink\">Nominal</a> vs. <a href=\"/wiki/Structural_type_system\" title=\"Structural type system\">structural</a></li>\n<li><a href=\"/wiki/Duck_typing\" title=\"Duck typing\">Duck typing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nMinor categories</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a href=\"/wiki/Abstract_type\" title=\"Abstract type\">Abstract</a></li>\n<li><a href=\"/wiki/Dependent_type\" title=\"Dependent type\">Dependent</a></li>\n<li><a href=\"/wiki/Flow-sensitive_typing\" title=\"Flow-sensitive typing\">Flow-sensitive</a></li>\n<li><a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">Gradual</a></li>\n<li><a href=\"/wiki/Intersection_type\" title=\"Intersection type\">Intersection</a></li>\n<li><a href=\"/wiki/Latent_typing\" title=\"Latent typing\">Latent</a></li>\n<li><a href=\"/wiki/Refinement_type\" title=\"Refinement type\">Refinement</a></li>\n<li><a href=\"/wiki/Substructural_type_system\" title=\"Substructural type system\">Substructural</a></li>\n<li><a href=\"/wiki/Uniqueness_type\" title=\"Uniqueness type\">Unique</a></li>\n<li><a href=\"/wiki/Session_type\" title=\"Session type\">Session</a></li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Type_systems\" title=\"Template:Type systems\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Type_systems\" title=\"Template talk:Type systems\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Type_systems\" title=\"Special:EditPage/Template:Type systems\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, a <a href=\"/wiki/Type_system\" title=\"Type system\">type system</a> is <b>nominal</b> (also called <b>nominative</b> or <b>name-based</b>) if compatibility and equivalence of <a href=\"/wiki/Data_type\" title=\"Data type\">data types</a> is determined by explicit declarations and/or the name of the types. Nominal systems are used to determine whether types are equivalent, as well as whether a type is a subtype of another. Nominal type systems contrast with <a href=\"/wiki/Structural_type_system\" title=\"Structural type system\"><i>structural systems</i></a>, where comparisons are based on the structure of the types in question and do not require explicit declarations.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐9l7rw\nCached time: 20260918180933\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.068 seconds\nReal time usage: 0.106 seconds\nPreprocessor visited node count: 176/1000000\nRevision size: 633/2097152 bytes\nPost‐expand include size: 6424/2097152 bytes\nTemplate argument size: 519/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 0/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 9396/5000000 bytes\nLua time usage: 0.051/10.000 seconds\nLua memory usage: 1559339/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   97.449      1 -total\n 50.33%   49.045      1 Template:Type_systems\n 49.59%   48.329      1 Template:Short_description\n 48.96%   47.710      1 Template:Sidebar\n 27.18%   26.484      2 Template:Pagetype\n 14.94%   14.555      2 Template:Main_other\n 13.91%   13.551      1 Template:SDcat\n  1.23%    1.200      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 1982f4c8-b38c-11f1-a12d-d11920f602d2 -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Type systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dependent type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duck typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flow-sensitive typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intersection type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Latent typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manifest typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Refinement type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Session type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Substructural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Uniqueness type",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Type systems",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Major class of type system in computer science",
+          "wikibase_item": "Q3509459"
+        }
+      }
+    }
+  ]
+}

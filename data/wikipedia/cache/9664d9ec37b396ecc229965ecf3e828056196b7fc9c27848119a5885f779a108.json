@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Wolfram Language",
+    "url": "https://en.wikipedia.org/wiki/Wolfram_Language",
+    "summary": "Programming language and environment developed by Wolfram Research This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article may have been created or edited in return for undisclosed payments , a violation of Wikipedia's terms of use . It may require cleanup to comply with Wikipedia's content policies , particularly neutral point of view . See our advice if the article is about you and read our scam warning in case someone asks for money to edit this article. ( March 2021 ) This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Wolfram Language\" – news · newspapers · books · scholar · JSTOR ( March 2021 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Wolfram Language Paradigm Multi-paradigm : term-rewriting , functional , procedural , array Designed by Stephen Wolfram Developer Wolfram Research First appeared 1988 ; 38 years ago ( 1988 ) Stable release 15.0.0 / June 16, 2026 ; 3 months ago ( 2026-06-16 ) Typing discipline Dynamic , strong OS Cross-platform License Proprietary Filename extensions .nb, .m, .wl Website www .wolfram .com /language / Major implementations Mathematica , Mathics , Expreduce , MockMMA Influenced by APL C C++ FORTRAN Lisp Pascal Prolog Schoonschip Simula Smalltalk SMP Influenced Jupyter Clojure Julia The Wolfram Language ( / ˈ w ʊ l f r əm / WUUL -frəm ) is a proprietary, high-level multi-paradigm programming language developed by Wolfram Research . It emphasizes symbolic computation , functional programming , and rule-based programming and can employ arbitrary structures and data. It is the programming language of the mathematical symbolic computation program Mathematica . ^ \"Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality\" . Stephen Wolfram Writings . 2026-06-16 . Retrieved 2026-06-16 . ^ Wolfram, Stephen. \"Tini Veltman (1931–2021): From Assembly Language to a Nobel Prize—Stephen Wolfram Writings\" . stephenwolfram.comwritings . Retrieved 22 January 2021 . ^ Maeder, Roman E. (1994). The Mathematica® Programmer . Academic Press, Inc. p. 6. ISBN 978-1-48321-415-3 . ^ \"Wolfram Language Q&A\" . Wolfram Research . Retrieved 2016-12-05 . ^ Somers, James. \"The Scientific Paper Is Obsolete\" . The Atlantic . Retrieved 2018-04-10 . ^ Hickey, Rich. \"Clojure Bookshelf\" . Amazon.com . Archived from the original on 2017-10-03 . Retrieved 2020-05-06 . ^ \"Wolfram Open Code, Open Source, Open Data, Open Resources\" . www.wolfram.com . Retrieved 2023-02-03 . ^ \"Notes for Programming Language Experts about Wolfram Language\" . Wolfram.com . Retrieved 2015-11-05 . ^ a b \"What Should We Call the Language of Mathematica?—Stephen Wolfram Blog\" . Blog.stephenwolfram.com. 2013-02-12 . Retrieved 2015-11-05 . ^ \"Celebrating Mathematica's First Quarter Century—Wolfram Blog\" . Blog.wolfram.com. 23 June 2013 . Retrieved 2015-11-05 .",
+    "text": "Programming language and environment developed by Wolfram Research This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article may have been created or edited in return for undisclosed payments , a violation of Wikipedia's terms of use . It may require cleanup to comply with Wikipedia's content policies , particularly neutral point of view . See our advice if the article is about you and read our scam warning in case someone asks for money to edit this article. ( March 2021 ) This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Wolfram Language\" – news · newspapers · books · scholar · JSTOR ( March 2021 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Wolfram Language Paradigm Multi-paradigm : term-rewriting , functional , procedural , array Designed by Stephen Wolfram Developer Wolfram Research First appeared 1988 ; 38 years ago ( 1988 ) Stable release 15.0.0 / June 16, 2026 ; 3 months ago ( 2026-06-16 ) Typing discipline Dynamic , strong OS Cross-platform License Proprietary Filename extensions .nb, .m, .wl Website www .wolfram .com /language / Major implementations Mathematica , Mathics , Expreduce , MockMMA Influenced by APL C C++ FORTRAN Lisp Pascal Prolog Schoonschip Simula Smalltalk SMP Influenced Jupyter Clojure Julia The Wolfram Language ( / ˈ w ʊ l f r əm / WUUL -frəm ) is a proprietary, high-level multi-paradigm programming language developed by Wolfram Research . It emphasizes symbolic computation , functional programming , and rule-based programming and can employ arbitrary structures and data. It is the programming language of the mathematical symbolic computation program Mathematica . ^ \"Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality\" . Stephen Wolfram Writings . 2026-06-16 . Retrieved 2026-06-16 . ^ Wolfram, Stephen. \"Tini Veltman (1931–2021): From Assembly Language to a Nobel Prize—Stephen Wolfram Writings\" . stephenwolfram.comwritings . Retrieved 22 January 2021 . ^ Maeder, Roman E. (1994). The Mathematica® Programmer . Academic Press, Inc. p. 6. ISBN 978-1-48321-415-3 . ^ \"Wolfram Language Q&A\" . Wolfram Research . Retrieved 2016-12-05 . ^ Somers, James. \"The Scientific Paper Is Obsolete\" . The Atlantic . Retrieved 2018-04-10 . ^ Hickey, Rich. \"Clojure Bookshelf\" . Amazon.com . Archived from the original on 2017-10-03 . Retrieved 2020-05-06 . ^ \"Wolfram Open Code, Open Source, Open Data, Open Resources\" . www.wolfram.com . Retrieved 2023-02-03 . ^ \"Notes for Programming Language Experts about Wolfram Language\" . Wolfram.com . Retrieved 2015-11-05 . ^ a b \"What Should We Call the Language of Mathematica?—Stephen Wolfram Blog\" . Blog.stephenwolfram.com. 2013-02-12 . Retrieved 2015-11-05 . ^ \"Celebrating Mathematica's First Quarter Century—Wolfram Blog\" . Blog.wolfram.com. 23 June 2013 . Retrieved 2015-11-05 .",
+    "links": [
+      "APL (programming language)",
+      "Array programming",
+      "C (programming language)",
+      "C++",
+      "Clojure",
+      "Cross-platform",
+      "Data structure",
+      "Dynamic typing",
+      "FORTRAN",
+      "Filename extension",
+      "Functional programming",
+      "High-level programming language",
+      "ISBN (identifier)",
+      "Julia (programming language)",
+      "Jupyter",
+      "Lisp (programming language)",
+      "Mathematica",
+      "Multi-paradigm programming language",
+      "Operating system",
+      "Pascal (programming language)",
+      "Procedural programming",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Prolog",
+      "Proprietary license",
+      "Rule-based programming",
+      "Schoonschip",
+      "Simula",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Stephen Wolfram",
+      "Strong typing",
+      "Symbolic Manipulation Program",
+      "Symbolic computation",
+      "Term-rewriting",
+      "Type system",
+      "Wolfram Mathematica",
+      "Wolfram Research"
+    ],
+    "page_id": 40205956,
+    "revision_id": 1373281960,
+    "retrieved_at": "2026-09-18T18:09:14.586012+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260616191741|1359708239",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 40205956,
+            "ns": 0,
+            "title": "Wolfram Language",
+            "revisions": [
+              {
+                "revid": 1373281960,
+                "parentid": 1359708239
+              }
+            ],
+            "pageprops": {
+              "page_image": "Wolfram_Language_Logo_2016.svg",
+              "wikibase-shortdesc": "Programming language and environment developed by Wolfram Research",
+              "wikibase_item": "Q15241057"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Wolfram Language",
+        "pageid": 40205956,
+        "revid": 1373281960,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language and environment developed by Wolfram Research</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-delete ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/1/15/Ambox_warning_pn.svg/40px-Ambox_warning_pn.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"35\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/1/15/Ambox_warning_pn.svg/120px-Ambox_warning_pn.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"445\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Wolfram_Language\" title=\"Special:EditPage/Wolfram Language\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Wolfram_Language\" title=\"Talk:Wolfram Language\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Undisclosed&#95;paid plainlinks metadata ambox ambox-delete\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Coin_Icon.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Coin_Icon.svg/60px-Coin_Icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"30\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Coin_Icon.svg/120px-Coin_Icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"125\" data-file-height=\"75\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may have been created or edited in return for undisclosed payments</b>, a violation of Wikipedia's <a href=\"https://foundation.wikimedia.org/wiki/Terms_of_Use/en#paid-contrib-disclosure\" class=\"extiw\" title=\"wmf:Terms of Use/en\">terms of use</a>. It may require cleanup to comply with Wikipedia's <a href=\"/wiki/Wikipedia:List_of_policies#Content\" title=\"Wikipedia:List of policies\">content policies</a>, particularly <a href=\"/wiki/Wikipedia:Neutral_point_of_view\" title=\"Wikipedia:Neutral point of view\">neutral point of view</a>.<div class=\"paragraphbreak\" style=\"margin-top:0.5em\"></div>See our <a href=\"/wiki/Wikipedia:About_you\" title=\"Wikipedia:About you\">advice if the article is about you</a> and read our <a href=\"/wiki/Wikipedia:Scam_warning\" title=\"Wikipedia:Scam warning\">scam warning</a> in case someone asks for money to edit this article.  <span class=\"date-container\"><i>(<span class=\"date\">March 2021</span>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Wolfram+Language%22\">\"Wolfram Language\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Wolfram+Language%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Wolfram+Language%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Wolfram+Language%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Wolfram+Language%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Wolfram+Language%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">March 2021</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Wolfram Language</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Wolfram_Language_Logo_2016.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/en/thumb/1/17/Wolfram_Language_Logo_2016.svg/250px-Wolfram_Language_Logo_2016.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"121\" class=\"mw-file-element\" data-file-width=\"198\" data-file-height=\"198\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Programming_paradigm#Multi-paradigm_programming_language\" title=\"Programming paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Term-rewriting\" class=\"mw-redirect\" title=\"Term-rewriting\">term-rewriting</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Array_programming\" title=\"Array programming\">array</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Stephen_Wolfram\" title=\"Stephen Wolfram\">Stephen Wolfram</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Wolfram_Research\" title=\"Wolfram Research\">Wolfram Research</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1988<span class=\"noprint\">&#59;&#32;38&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1988</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">15.0.0<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / June&#160;16, 2026<span class=\"noprint\">&#59;&#32;3 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-06-16</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Proprietary_license\" class=\"mw-redirect\" title=\"Proprietary license\">Proprietary</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.nb, .m, .wl</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wolfram.com/language/\">www<wbr />.wolfram<wbr />.com<wbr />/language<wbr />/</a></span></span> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q15241057#P856\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Wolfram_Mathematica\" title=\"Wolfram Mathematica\">Mathematica</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/Mathics3/mathics-core\">Mathics</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/corywalker/expreduce\">Expreduce</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160119224638/http://www.cs.berkeley.edu/~fateman/lisp/mma4max/\">MockMMA</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\">\n<ul><li><a href=\"/wiki/APL_(programming_language)\" title=\"APL (programming language)\">APL</a></li>\n<li><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></li>\n<li><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a></li>\n<li><a href=\"/wiki/FORTRAN\" class=\"mw-redirect\" title=\"FORTRAN\">FORTRAN</a></li>\n<li><a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a></li>\n<li><a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a></li>\n<li><a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a></li>\n<li><a href=\"/wiki/Schoonschip\" title=\"Schoonschip\">Schoonschip</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Simula\" title=\"Simula\">Simula</a></li>\n<li><a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a><sup id=\"cite&#95;ref-Maeder&#95;3-0\" class=\"reference\"><a href=\"#cite_note-Maeder-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Symbolic_Manipulation_Program\" class=\"mw-redirect\" title=\"Symbolic Manipulation Program\">SMP</a><sup id=\"cite&#95;ref-Q&amp;A&#95;4-0\" class=\"reference\"><a href=\"#cite_note-Q&amp;A-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul></div>\n</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Jupyter\" class=\"mw-redirect\" title=\"Jupyter\">Jupyter</a><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a></li></ul>\n</div></td></tr></tbody></table>\n<p>The <b>Wolfram Language</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;w&#39; in &#39;wind&#39;\">w</span><span title=\"/ʊ/: &#39;u&#39; in &#39;push&#39;\">ʊ</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span><span title=\"&#39;f&#39; in &#39;find&#39;\">f</span><span title=\"&#39;r&#39; in &#39;rye&#39;\">r</span><span title=\"/əm/: &#39;m&#39; in &#39;rhythm&#39;\">əm</span></span>/</a></span></span> <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\"><span style=\"font-size:90%\">WUUL</span>-frəm</i></a>) is a proprietary,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a> <a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">multi-paradigm programming language</a><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> developed by <a href=\"/wiki/Wolfram_Research\" title=\"Wolfram Research\">Wolfram Research</a>. It emphasizes <a href=\"/wiki/Symbolic_computation\" class=\"mw-redirect\" title=\"Symbolic computation\">symbolic computation</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional programming</a>, and <a href=\"/wiki/Rule-based_programming\" class=\"mw-redirect\" title=\"Rule-based programming\">rule-based programming</a><sup id=\"cite&#95;ref-LangName&#95;9-0\" class=\"reference\"><a href=\"#cite_note-LangName-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> and can employ arbitrary <a href=\"/wiki/Data_structure\" title=\"Data structure\">structures</a> and data.<sup id=\"cite&#95;ref-LangName&#95;9-1\" class=\"reference\"><a href=\"#cite_note-LangName-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> It is the programming language of the mathematical symbolic computation program <a href=\"/wiki/Mathematica\" class=\"mw-redirect\" title=\"Mathematica\">Mathematica</a>.<sup id=\"cite&#95;ref-25anv&#95;10-0\" class=\"reference\"><a href=\"#cite_note-25anv-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/\">\"Launching Version 15 of Wolfram Language &amp; Mathematica: Built-in (Useful) AI &amp; Lots of New Core Functionality\"</a>. <i>Stephen Wolfram Writings</i>. 2026-06-16<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-06-16</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Stephen+Wolfram+Writings&amp;rft.atitle=Launching+Version+15+of+Wolfram+Language+%26+Mathematica%3A+Built-in+%28Useful%29+AI+%26+Lots+of+New+Core+Functionality&amp;rft.date=2026-06-16&amp;rft&#95;id=https%3A%2F%2Fwritings.stephenwolfram.com%2F2026%2F06%2Flaunching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWolfram\" class=\"citation web cs1\">Wolfram, Stephen. <a rel=\"nofollow\" class=\"external text\" href=\"https://writings.stephenwolfram.com/2021/01/tini-veltman-1931-2021-from-assembly-language-to-a-nobel-prize/\">\"Tini Veltman (1931–2021): From Assembly Language to a Nobel Prize—Stephen Wolfram Writings\"</a>. <i>stephenwolfram.comwritings</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 January</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=stephenwolfram.comwritings.&amp;rft.atitle=Tini+Veltman+%281931%E2%80%932021%29%3A+From+Assembly+Language+to+a+Nobel+Prize%E2%80%94Stephen+Wolfram+Writings&amp;rft.aulast=Wolfram&amp;rft.aufirst=Stephen&amp;rft&#95;id=https%3A%2F%2Fwritings.stephenwolfram.com%2F2021%2F01%2Ftini-veltman-1931-2021-from-assembly-language-to-a-nobel-prize%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Maeder-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Maeder_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMaeder1994\" class=\"citation book cs1\">Maeder, Roman E. (1994). <i>The Mathematica® Programmer</i>. Academic Press, Inc. p.&#160;6. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-48321-415-3\" title=\"Special:BookSources/978-1-48321-415-3\"><bdi>978-1-48321-415-3</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Mathematica%C2%AE+Programmer&amp;rft.pages=6&amp;rft.pub=Academic+Press%2C+Inc.&amp;rft.date=1994&amp;rft.isbn=978-1-48321-415-3&amp;rft.aulast=Maeder&amp;rft.aufirst=Roman+E.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Q&amp;A-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Q&amp;A_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wolfram.com/language/faq/\">\"Wolfram Language Q&amp;A\"</a>. Wolfram Research<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-12-05</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Wolfram+Language+Q%26A&amp;rft.pub=Wolfram+Research&amp;rft&#95;id=https%3A%2F%2Fwww.wolfram.com%2Flanguage%2Ffaq%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSomers\" class=\"citation news cs1\">Somers, James. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/\">\"The Scientific Paper Is Obsolete\"</a>. <i>The Atlantic</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2018-04-10</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Atlantic&amp;rft.atitle=The+Scientific+Paper+Is+Obsolete&amp;rft.aulast=Somers&amp;rft.aufirst=James&amp;rft&#95;id=https%3A%2F%2Fwww.theatlantic.com%2Fscience%2Farchive%2F2018%2F04%2Fthe-scientific-paper-is-obsolete%2F556676%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHickey\" class=\"citation web cs1\">Hickey, Rich. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171003001051/https://www.amazon.com/gp/richpub/listmania/fullview/R3LG3ZBZS4GCTH\">\"Clojure Bookshelf\"</a>. <i>Amazon.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.amazon.com/gp/richpub/listmania/fullview/R3LG3ZBZS4GCTH\">the original</a> on 2017-10-03<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-05-06</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Amazon.com&amp;rft.atitle=Clojure+Bookshelf&amp;rft.aulast=Hickey&amp;rft.aufirst=Rich&amp;rft&#95;id=https%3A%2F%2Fwww.amazon.com%2Fgp%2Frichpub%2Flistmania%2Ffullview%2FR3LG3ZBZS4GCTH&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.wolfram.com/open-materials/\">\"Wolfram Open Code, Open Source, Open Data, Open Resources\"</a>. <i>www.wolfram.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-02-03</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.wolfram.com&amp;rft.atitle=Wolfram+Open+Code%2C+Open+Source%2C+Open+Data%2C+Open+Resources&amp;rft&#95;id=http%3A%2F%2Fwww.wolfram.com%2Fopen-materials%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wolfram.com/language/for-experts/\">\"Notes for Programming Language Experts about Wolfram Language\"</a>. Wolfram.com<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2015-11-05</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Notes+for+Programming+Language+Experts+about+Wolfram+Language&amp;rft.pub=Wolfram.com&amp;rft&#95;id=https%3A%2F%2Fwww.wolfram.com%2Flanguage%2Ffor-experts%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-LangName-9\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-LangName_9-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-LangName_9-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blog.stephenwolfram.com/2013/02/what-should-we-call-the-language-of-mathematica/\">\"What Should We Call the Language of Mathematica?—Stephen Wolfram Blog\"</a>. Blog.stephenwolfram.com. 2013-02-12<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2015-11-05</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=What+Should+We+Call+the+Language+of+Mathematica%3F%E2%80%94Stephen+Wolfram+Blog&amp;rft.pub=Blog.stephenwolfram.com&amp;rft.date=2013-02-12&amp;rft&#95;id=https%3A%2F%2Fblog.stephenwolfram.com%2F2013%2F02%2Fwhat-should-we-call-the-language-of-mathematica%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-25anv-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-25anv_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blog.wolfram.com/2013/06/23/celebrating-mathematicas-first-quarter-century/\">\"Celebrating Mathematica's First Quarter Century—Wolfram Blog\"</a>. Blog.wolfram.com. 23 June 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2015-11-05</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Celebrating+Mathematica%27s+First+Quarter+Century%E2%80%94Wolfram+Blog&amp;rft.pub=Blog.wolfram.com&amp;rft.date=2013-06-23&amp;rft&#95;id=https%3A%2F%2Fblog.wolfram.com%2F2013%2F06%2F23%2Fcelebrating-mathematicas-first-quarter-century%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AWolfram+Language\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐f4b82\nCached time: 20260918180940\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.425 seconds\nReal time usage: 0.578 seconds\nPreprocessor visited node count: 1557/1000000\nRevision size: 4965/2097152 bytes\nPost‐expand include size: 66059/2097152 bytes\nTemplate argument size: 16140/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 37248/5000000 bytes\nLua time usage: 0.251/10.000 seconds\nLua memory usage: 6378964/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  542.430      1 -total\n 35.84%  194.430      2 Template:Infobox\n 27.75%  150.549      1 Template:Infobox_programming_language\n 22.69%  123.062      8 Template:Cite_web\n 20.20%  109.570      1 Template:Multiple_issues\n 19.89%  107.878      1 Template:Short_description\n 12.64%   68.551      2 Template:Ambox\n 12.22%   66.300      2 Template:Pagetype\n 10.01%   54.309      1 Template:Infobox_software/simple\n  8.97%   48.676      1 Template:Undisclosed_paid\n-->\n\n<!-- Render ID 1daf1a4c-b38c-11f1-a63f-07c0eb515042 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "APL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FORTRAN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jupyter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematica",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rule-based programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Schoonschip",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stephen Wolfram",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Symbolic Manipulation Program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Symbolic computation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Term-rewriting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wolfram Mathematica",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wolfram Research",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:Wolfram Language",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:About you",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:List of policies",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Neutral point of view",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Scam warning",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language and environment developed by Wolfram Research",
+          "page_image": "Wolfram_Language_Logo_2016.svg",
+          "wikibase_item": "Q15241057"
+        }
+      }
+    }
+  ]
+}

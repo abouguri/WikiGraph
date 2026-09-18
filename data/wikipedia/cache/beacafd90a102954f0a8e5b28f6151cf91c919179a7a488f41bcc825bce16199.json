@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Type safety",
+    "url": "https://en.wikipedia.org/wiki/Type_safety",
+    "summary": "Extent to which a programming language discourages type errors \"Type safe\" redirects here. For Typesafe Inc, see Akka.io . Type systems General concepts Type safety Strong vs. weak typing Major categories Static vs. dynamic Manifest vs. inferred Nominal vs. structural Duck typing Minor categories Abstract Dependent Flow-sensitive Gradual Intersection Latent Refinement Substructural Unique Session v t e In computer science , type safety is the extent to which a programming language discourages or prevents type errors . [ vague ] Type-safe languages are sometimes also called strongly or strictly typed . The behaviors classified as type errors by a given programming language are usually those that result from attempts to perform operations on values that are not of the appropriate data type , e.g. trying to add a string to an integer . Type enforcement can be static (catching potential errors at compile time ), dynamic (associating type information with values at run-time and consulting them as needed to detect imminent errors), or a combination of both. Dynamic type enforcement can often run programs that would be invalid under static enforcement, but at the cost of introducing errors at runtime. In the context of static (compile-time) type systems, type safety usually involves (among other things) a guarantee that the eventual value of any expression will be a legitimate member of that expression's static type. The precise requirement is more subtle than this — see, for example, subtyping and polymorphism for complications. ^ \"What to know before debating type systems | Ovid [blogs.perl.org]\" . blogs.perl.org . Retrieved 2023-06-27 .",
+    "text": "Extent to which a programming language discourages type errors \"Type safe\" redirects here. For Typesafe Inc, see Akka.io . Type systems General concepts Type safety Strong vs. weak typing Major categories Static vs. dynamic Manifest vs. inferred Nominal vs. structural Duck typing Minor categories Abstract Dependent Flow-sensitive Gradual Intersection Latent Refinement Substructural Unique Session v t e In computer science , type safety is the extent to which a programming language discourages or prevents type errors . [ vague ] Type-safe languages are sometimes also called strongly or strictly typed . The behaviors classified as type errors by a given programming language are usually those that result from attempts to perform operations on values that are not of the appropriate data type , e.g. trying to add a string to an integer . Type enforcement can be static (catching potential errors at compile time ), dynamic (associating type information with values at run-time and consulting them as needed to detect imminent errors), or a combination of both. Dynamic type enforcement can often run programs that would be invalid under static enforcement, but at the cost of introducing errors at runtime. In the context of static (compile-time) type systems, type safety usually involves (among other things) a guarantee that the eventual value of any expression will be a legitimate member of that expression's static type. The precise requirement is more subtle than this — see, for example, subtyping and polymorphism for complications. ^ \"What to know before debating type systems | Ovid [blogs.perl.org]\" . blogs.perl.org . Retrieved 2023-06-27 .",
+    "links": [
+      "Abstract type",
+      "Akka.io",
+      "Compile time",
+      "Computer science",
+      "Data type",
+      "Dependent type",
+      "Duck typing",
+      "Expression (computer science)",
+      "Flow-sensitive typing",
+      "Gradual typing",
+      "Integer (computer science)",
+      "Intersection type",
+      "Latent typing",
+      "Manifest typing",
+      "Nominal type system",
+      "Polymorphism (computer science)",
+      "Programming language",
+      "Refinement type",
+      "Run time (program lifecycle phase)",
+      "Session type",
+      "String (computer science)",
+      "Strong and weak typing",
+      "Structural type system",
+      "Substructural type system",
+      "Subtyping",
+      "Type error",
+      "Type inference",
+      "Type system",
+      "Uniqueness type",
+      "Value (computer science)"
+    ],
+    "page_id": 602650,
+    "revision_id": 1374194821,
+    "retrieved_at": "2026-09-18T18:07:21.756661+00:00",
+    "aliases": [
+      "Strong and weak typing"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260910122241|1374194549",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Strong and weak typing",
+            "to": "Type safety",
+            "tofragment": "Strong and weak typing"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 602650,
+            "ns": 0,
+            "title": "Type safety",
+            "revisions": [
+              {
+                "revid": 1374194821,
+                "parentid": 1374194549
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Type Safety",
+              "wikibase-shortdesc": "Extent to which a programming language discourages type errors",
+              "wikibase_item": "Q736866"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Type safety",
+        "pageid": 602650,
+        "revid": 1374194821,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Extent to which a programming language discourages type errors</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Type safe\" redirects here. For Typesafe Inc, see <a href=\"/wiki/Akka.io\" title=\"Akka.io\">Akka.io</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\" style=\"margin-top: 0.5em;\"><tbody><tr><th class=\"sidebar-title\"><a href=\"/wiki/Type_system\" title=\"Type system\">Type systems</a></th></tr><tr><th class=\"sidebar-heading\">\nGeneral concepts</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a class=\"mw-selflink selflink\">Type safety</a></li>\n<li><a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">Strong vs. weak typing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nMajor categories</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a href=\"/wiki/Type_system#Static_type_checking\" title=\"Type system\">Static</a> vs. <a href=\"/wiki/Type_system#Dynamic_type_checking_and_runtime_type_information\" title=\"Type system\">dynamic</a></li>\n<li><a href=\"/wiki/Manifest_typing\" title=\"Manifest typing\">Manifest</a> vs. <a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a></li>\n<li><a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">Nominal</a> vs. <a href=\"/wiki/Structural_type_system\" title=\"Structural type system\">structural</a></li>\n<li><a href=\"/wiki/Duck_typing\" title=\"Duck typing\">Duck typing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nMinor categories</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a href=\"/wiki/Abstract_type\" title=\"Abstract type\">Abstract</a></li>\n<li><a href=\"/wiki/Dependent_type\" title=\"Dependent type\">Dependent</a></li>\n<li><a href=\"/wiki/Flow-sensitive_typing\" title=\"Flow-sensitive typing\">Flow-sensitive</a></li>\n<li><a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">Gradual</a></li>\n<li><a href=\"/wiki/Intersection_type\" title=\"Intersection type\">Intersection</a></li>\n<li><a href=\"/wiki/Latent_typing\" title=\"Latent typing\">Latent</a></li>\n<li><a href=\"/wiki/Refinement_type\" title=\"Refinement type\">Refinement</a></li>\n<li><a href=\"/wiki/Substructural_type_system\" title=\"Substructural type system\">Substructural</a></li>\n<li><a href=\"/wiki/Uniqueness_type\" title=\"Uniqueness type\">Unique</a></li>\n<li><a href=\"/wiki/Session_type\" title=\"Session type\">Session</a></li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Type_systems\" title=\"Template:Type systems\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Type_systems\" title=\"Template talk:Type systems\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Type_systems\" title=\"Special:EditPage/Template:Type systems\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, <b>type safety</b> is the extent to which a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> discourages or prevents <a href=\"/wiki/Type_error\" class=\"mw-redirect\" title=\"Type error\">type errors</a>.<sup class=\"noprint Inline-Template\" style=\"margin-left:0.1em; white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Vagueness\" title=\"Wikipedia:Vagueness\"><span title=\"What is discourage? It&#39;s subjective. (April 2026)\">vague</span></a></i>&#93;</sup> Type-safe languages are sometimes also called <b>strongly</b> or <b>strictly typed</b>. The behaviors classified as type errors by a given programming language are usually those that result from attempts to perform operations on <a href=\"/wiki/Value_(computer_science)\" title=\"Value (computer science)\">values</a> that are not of the appropriate <a href=\"/wiki/Data_type\" title=\"Data type\">data type</a>, e.g. trying to add a <a href=\"/wiki/String_(computer_science)\" title=\"String (computer science)\">string</a> to an <a href=\"/wiki/Integer_(computer_science)\" title=\"Integer (computer science)\">integer</a>.\n</p><p>Type enforcement can be static (catching potential errors at <a href=\"/wiki/Compile_time\" title=\"Compile time\">compile time</a>), dynamic (associating type information with values at <a href=\"/wiki/Run_time_(program_lifecycle_phase)\" class=\"mw-redirect\" title=\"Run time (program lifecycle phase)\">run-time</a> and consulting them as needed to detect imminent errors), or a combination of both.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Dynamic type enforcement can often run programs that would be invalid under static enforcement, but at the cost of introducing errors at runtime.\n</p><p>In the context of static (compile-time) type systems, type safety usually involves (among other things) a guarantee that the eventual value of any <a href=\"/wiki/Expression_(computer_science)\" title=\"Expression (computer science)\">expression</a> will be a legitimate member of that expression's static type. The precise requirement is more subtle than this — see, for example, <a href=\"/wiki/Subtyping\" title=\"Subtyping\">subtyping</a> and <a href=\"/wiki/Polymorphism_(computer_science)\" title=\"Polymorphism (computer science)\">polymorphism</a> for complications.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blogs.perl.org/users/ovid/2010/08/what-to-know-before-debating-type-systems.html\">\"What to know before debating type systems | Ovid &#91;blogs.perl.org&#93;\"</a>. <i>blogs.perl.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-06-27</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=blogs.perl.org&amp;rft.atitle=What+to+know+before+debating+type+systems+%7C+Ovid+%5Bblogs.perl.org%5D&amp;rft&#95;id=https%3A%2F%2Fblogs.perl.org%2Fusers%2Fovid%2F2010%2F08%2Fwhat-to-know-before-debating-type-systems.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AType+safety\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐dndc9\nCached time: 20260918180747\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.160 seconds\nReal time usage: 0.231 seconds\nPreprocessor visited node count: 333/1000000\nRevision size: 1828/2097152 bytes\nPost‐expand include size: 10058/2097152 bytes\nTemplate argument size: 1125/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 12166/5000000 bytes\nLua time usage: 0.123/10.000 seconds\nLua memory usage: 3914804/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  222.324      1 -total\n 30.75%   68.372      1 Template:Short_description\n 25.60%   56.919      1 Template:Type_systems\n 24.90%   55.356      1 Template:Sidebar\n 22.79%   50.666      1 Template:Cite_web\n 16.94%   37.670      2 Template:Pagetype\n 10.20%   22.671      1 Template:Redirect\n  9.67%   21.506      1 Template:Vague\n  9.48%   21.067      2 Template:Main_other\n  8.84%   19.649      1 Template:SDcat\n-->\n\n<!-- Render ID da54a806-b38b-11f1-8ef0-dddf561ae1af -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Akka.io",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dependent type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duck typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Expression (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flow-sensitive typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integer (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intersection type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Latent typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manifest typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Polymorphism (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Refinement type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Run time (program lifecycle phase)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Session type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "String (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Substructural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Subtyping",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type error",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Uniqueness type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Value (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Type systems",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Vagueness",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Type systems",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Extent to which a programming language discourages type errors",
+          "wikibase_item": "Q736866"
+        }
+      }
+    }
+  ]
+}

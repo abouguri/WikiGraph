@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Comparison of multi-paradigm programming languages",
+    "url": "https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages",
+    "summary": "This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( August 2009 ) ( Learn how and when to remove this message ) Programming languages can be grouped by the number and types of paradigms supported.",
+    "text": "This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( August 2009 ) ( Learn how and when to remove this message ) Programming languages can be grouped by the number and types of paradigms supported.",
+    "links": [
+      "Programming language",
+      "Programming paradigm"
+    ],
+    "page_id": 226843,
+    "revision_id": 1361290043,
+    "retrieved_at": "2026-09-18T18:07:23.861903+00:00",
+    "aliases": [
+      "Multi-paradigm programming language"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260509062258|1353266960",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Multi-paradigm programming language",
+            "to": "Comparison of multi-paradigm programming languages"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 226843,
+            "ns": 0,
+            "title": "Comparison of multi-paradigm programming languages",
+            "revisions": [
+              {
+                "revid": 1361290043,
+                "parentid": 1353266960
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "List of multi-paradigm programming languages",
+              "wikibase-shortdesc": "",
+              "wikibase_item": "Q762446"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Comparison of multi-paradigm programming languages",
+        "pageid": 226843,
+        "revid": 1361290043,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Original&#95;research plainlinks metadata ambox ambox-content ambox-Original&#95;research\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may contain <a href=\"/wiki/Wikipedia:No_original_research\" title=\"Wikipedia:No original research\">original research</a></b>.<span class=\"hide-when-compact\"> Please <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Comparison_of_multi-paradigm_programming_languages&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Comparison_of_multi-paradigm_programming_languages&amp;action=edit\">improve it</a> by <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">verifying</a> the claims made and adding <a href=\"/wiki/Wikipedia:Citing_sources#Inline_citations\" title=\"Wikipedia:Citing sources\">inline citations</a>. Statements consisting only of original research should be removed.</span>  <span class=\"date-container\"><i>(<span class=\"date\">August 2009</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p><a href=\"/wiki/Programming_language\" title=\"Programming language\">Programming languages</a> can be grouped by the number and types of <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">paradigms</a> supported.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐wj7fv\nCached time: 20260918180749\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.133 seconds\nReal time usage: 0.192 seconds\nPreprocessor visited node count: 214/1000000\nRevision size: 179/2097152 bytes\nPost‐expand include size: 5617/2097152 bytes\nTemplate argument size: 225/2097152 bytes\nHighest expansion depth: 9/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1525/5000000 bytes\nLua time usage: 0.098/10.000 seconds\nLua memory usage: 1782998/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  181.154      1 -total\n 70.81%  128.275      1 Template:Short_description\n 46.69%   84.586      2 Template:Pagetype\n 29.11%   52.731      1 Template:Original_research\n 25.92%   46.963      1 Template:Ambox\n 15.47%   28.027      2 Template:Main_other\n 14.42%   26.119      1 Template:SDcat\n  2.26%    4.089      1 Template:Short_description/lowercasecheck\n  1.02%    1.843      1 Template:First_word\n-->\n\n<!-- Render ID db85db4e-b38b-11f1-a857-71eea728e9f6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "",
+          "wikibase_item": "Q762446"
+        }
+      }
+    }
+  ]
+}

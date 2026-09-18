@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Execution (computing)",
+    "url": "https://en.wikipedia.org/wiki/Execution_%28computing%29",
+    "summary": "Performing the actions encoded in a computer program Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e In computing , execution is the process by which a computer program is processed to perform the actions that it encodes. As the processor follows the program instructions, effects are produced in accordance with the semantics of those instructions. The term run is generally synonymous. The act of starting execution is often called launching or invoking in addition to executing and running . An execution processor comes in many forms. A machine code program may be executed via the programmable interface of a computer where execution involves repeatedly following a fetch–decode–execute cycle for each program instruction executed by the control unit . Source code may be executed by interpreter software . A program may be executed in a batch process without human interaction or a user may type commands in an interactive session .",
+    "text": "Performing the actions encoded in a computer program Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e In computing , execution is the process by which a computer program is processed to perform the actions that it encodes. As the processor follows the program instructions, effects are produced in accordance with the semantics of those instructions. The term run is generally synonymous. The act of starting execution is often called launching or invoking in addition to executing and running . An execution processor comes in many forms. A machine code program may be executed via the programmable interface of a computer where execution involves repeatedly following a fetch–decode–execute cycle for each program instruction executed by the control unit . Source code may be executed by interpreter software . A program may be executed in a batch process without human interaction or a user may type commands in an interactive session .",
+    "links": [
+      "Ahead-of-time compilation",
+      "Android Runtime",
+      "BEAM (Erlang virtual machine)",
+      "Batch processing",
+      "Bytecode",
+      "C (programming language)",
+      "CPython",
+      "Clang",
+      "Command (computing)",
+      "Common Language Runtime",
+      "Compile and go system",
+      "Compile time",
+      "Compiler",
+      "Computer",
+      "Computer program",
+      "Computing",
+      "Control unit",
+      "Crt0",
+      "Dynamic recompilation",
+      "Executable",
+      "Formal semantics of programming languages",
+      "GNU Compiler Collection",
+      "Glasgow Haskell Compiler",
+      "Instruction cycle",
+      "Intermediate representation",
+      "Interpreter (computing)",
+      "Java virtual machine",
+      "Just-in-time compilation",
+      "LLVM",
+      "Linker (computing)",
+      "LuaJIT",
+      "Machine code",
+      "Meta-tracing",
+      "Microcode",
+      "Microsoft Visual C++",
+      "Mono (software)",
+      "Node.js",
+      "Object code",
+      "Objective-C",
+      "Optimizing compiler",
+      "Precompilation",
+      "PyPy",
+      "Runtime system",
+      "Session (computer science)",
+      "Software",
+      "Source code",
+      "Source-to-source compiler",
+      "Swift (programming language)",
+      "Tracing just-in-time compilation",
+      "Translator (computing)",
+      "User (computing)",
+      "V8 (JavaScript engine)",
+      "Virtual machine",
+      "Zend Engine"
+    ],
+    "page_id": 418206,
+    "revision_id": 1362285970,
+    "retrieved_at": "2026-09-18T18:08:26.605798+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260702174812|1362234121",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 418206,
+            "ns": 0,
+            "title": "Execution (computing)",
+            "revisions": [
+              {
+                "revid": 1362285970,
+                "parentid": 1362234121
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Execution (Computing)",
+              "wikibase-shortdesc": "Performing the actions encoded in a computer program",
+              "wikibase_item": "Q1077724"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Execution (computing)",
+        "pageid": 418206,
+        "revid": 1362285970,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Performing the actions encoded in a computer program</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><a class=\"mw-selflink selflink\">Program execution</a></th></tr><tr><th class=\"sidebar-heading\">\nGeneral concepts</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Computer_program\" title=\"Computer program\">Code</a></li>\n<li><a href=\"/wiki/Translator_(computing)\" title=\"Translator (computing)\">Translation</a>\n<ul><li><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></li>\n<li><a href=\"/wiki/Compile_time\" title=\"Compile time\">Compile time</a></li>\n<li><a href=\"/wiki/Optimizing_compiler\" title=\"Optimizing compiler\">Optimizing compiler</a></li></ul></li>\n<li><a href=\"/wiki/Linker_(computing)\" title=\"Linker (computing)\"> Linking</a></li>\n<li><a class=\"mw-selflink selflink\">Execution</a>\n<ul><li><a href=\"/wiki/Runtime_system\" title=\"Runtime system\">Runtime system</a></li>\n<li><a href=\"/wiki/Executable\" title=\"Executable\">Executable</a></li>\n<li><a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">Interpreter</a></li>\n<li><a href=\"/wiki/Virtual_machine\" title=\"Virtual machine\">Virtual machine</a></li></ul></li>\n<li><a href=\"/wiki/Intermediate_representation\" title=\"Intermediate representation\">Intermediate representation</a> (IR)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nTypes of code</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Source_code\" title=\"Source code\">Source code</a></li>\n<li><a href=\"/wiki/Object_code\" title=\"Object code\">Object code</a></li>\n<li><a href=\"/wiki/Bytecode\" title=\"Bytecode\">Bytecode</a></li>\n<li><a href=\"/wiki/Machine_code\" title=\"Machine code\">Machine code</a></li>\n<li><a href=\"/wiki/Microcode\" title=\"Microcode\">Microcode</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nCompilation strategies</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Ahead-of-time_compilation\" title=\"Ahead-of-time compilation\">Ahead-of-time</a> (AOT)</li>\n<li><a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">Just-in-time</a> (JIT)\n<ul><li><a href=\"/wiki/Tracing_just-in-time_compilation\" title=\"Tracing just-in-time compilation\">Tracing just-in-time</a></li>\n<li><a href=\"/wiki/Compile_and_go_system\" title=\"Compile and go system\">Compile and go system</a></li></ul></li>\n<li><a href=\"/wiki/Precompilation\" class=\"mw-redirect\" title=\"Precompilation\">Precompilation</a></li>\n<li><a href=\"/wiki/Source-to-source_compiler\" title=\"Source-to-source compiler\">Transcompilation</a></li>\n<li><a href=\"/wiki/Dynamic_recompilation\" title=\"Dynamic recompilation\">Recompilation</a></li>\n<li><a href=\"/wiki/Meta-tracing\" title=\"Meta-tracing\">Meta-tracing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable runtimes</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Android_Runtime\" title=\"Android Runtime\">Android Runtime</a> (ART)</li>\n<li><a href=\"/wiki/BEAM_(Erlang_virtual_machine)\" title=\"BEAM (Erlang virtual machine)\">BEAM</a> (Erlang)</li>\n<li><a href=\"/wiki/Common_Language_Runtime\" title=\"Common Language Runtime\">Common Language Runtime</a> (CLR) and&#160;<a href=\"/wiki/Mono_(software)#Code_Execution_Engine\" title=\"Mono (software)\">Mono</a></li>\n<li><a href=\"/wiki/CPython\" title=\"CPython\">CPython</a> and&#160;<a href=\"/wiki/PyPy\" title=\"PyPy\">PyPy</a></li>\n<li><a href=\"/wiki/Crt0\" title=\"Crt0\">crt0</a> (<a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> target-specific initializer)</li>\n<li><a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">Java virtual machine</a> (JVM)</li>\n<li><a href=\"/wiki/LuaJIT\" title=\"LuaJIT\">LuaJIT</a></li>\n<li><a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a> and&#160;<a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>'s</li>\n<li><a href=\"/wiki/V8_(JavaScript_engine)\" title=\"V8 (JavaScript engine)\">V8</a> and&#160;<a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a></li>\n<li><a href=\"/wiki/Zend_Engine\" title=\"Zend Engine\">Zend Engine</a> (PHP)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable compilers &amp; toolchains</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GNU Compiler Collection</a> (GCC)</li>\n<li><a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a> and&#160;<a href=\"/wiki/Clang\" title=\"Clang\">Clang</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">MSVC</a></li>\n<li><a href=\"/wiki/Glasgow_Haskell_Compiler\" title=\"Glasgow Haskell Compiler\">Glasgow Haskell Compiler</a> (GHC)</li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Program_execution\" title=\"Template:Program execution\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Program_execution\" title=\"Template talk:Program execution\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Program_execution\" title=\"Special:EditPage/Template:Program execution\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, <b>execution</b> is the process by which a <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a> is processed to perform the actions that it encodes. As the processor follows the program instructions, effects are produced in accordance with the <a href=\"/wiki/Formal_semantics_of_programming_languages\" class=\"mw-redirect\" title=\"Formal semantics of programming languages\">semantics</a> of those instructions. The term <i>run</i> is generally synonymous. The act of starting execution is often called <i>launching</i> or <i>invoking</i> in addition to <i>executing</i> and <i>running</i>.\n</p><p>An execution processor comes in many forms. A <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a> program may be executed via the programmable interface of a <a href=\"/wiki/Computer\" title=\"Computer\">computer</a> where execution involves repeatedly following a <a href=\"/wiki/Instruction_cycle\" title=\"Instruction cycle\">fetch–decode–execute</a> cycle for each program instruction executed by the <a href=\"/wiki/Control_unit\" title=\"Control unit\">control unit</a>. <a href=\"/wiki/Source_code\" title=\"Source code\">Source code</a> may be executed by <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a> <a href=\"/wiki/Software\" title=\"Software\">software</a>. A program may be executed in a <a href=\"/wiki/Batch_processing\" title=\"Batch processing\">batch process</a> without human interaction or a <a href=\"/wiki/User_(computing)\" title=\"User (computing)\">user</a> may type <a href=\"/wiki/Command_(computing)\" title=\"Command (computing)\">commands</a> in an <a href=\"/wiki/Session_(computer_science)\" class=\"mw-redirect\" title=\"Session (computer science)\">interactive session</a>.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐4pmbx\nCached time: 20260918180852\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.158 seconds\nReal time usage: 0.219 seconds\nPreprocessor visited node count: 178/1000000\nRevision size: 1186/2097152 bytes\nPost‐expand include size: 6380/2097152 bytes\nTemplate argument size: 569/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 0/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 9396/5000000 bytes\nLua time usage: 0.115/10.000 seconds\nLua memory usage: 1647784/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  197.966      1 -total\n 53.67%  106.244      1 Template:Program_execution\n 46.23%   91.514      1 Template:Short_description\n 26.62%   52.700      2 Template:Pagetype\n 11.45%   22.658      2 Template:Main_other\n 10.23%   20.258      1 Template:SDcat\n  1.41%    2.794      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 0112d3d3-b38c-11f1-9b83-f52218296e2d -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Program execution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ahead-of-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BEAM (Erlang virtual machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Batch processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPython",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Language Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile and go system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Control unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crt0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic recompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal semantics of programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glasgow Haskell Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intermediate representation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linker (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LuaJIT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meta-tracing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mono (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Optimizing compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Precompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PyPy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Session (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source-to-source compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tracing just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Translator (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V8 (JavaScript engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Engine",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Program execution",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Performing the actions encoded in a computer program",
+          "wikibase_item": "Q1077724"
+        }
+      }
+    }
+  ]
+}

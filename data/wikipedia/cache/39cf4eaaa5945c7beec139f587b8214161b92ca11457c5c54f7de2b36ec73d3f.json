@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "V8 (JavaScript engine)",
+    "url": "https://en.wikipedia.org/wiki/V8_%28JavaScript_engine%29",
+    "summary": "JavaScript and WebAssembly engine For the engine used in vehicles, see V8 engine . V8 Developer Google Release 2 September 2008 ; 18 years ago ( 2008-09-02 ) Stable release 11.4 / 24 May 2023 ; 3 years ago ( 24 May 2023 ) Written in C++ Platform IA-32 , x86-64 , 32-bit ARM , AArch64 , 32-bit MIPS , MIPS64 , PowerPC , IBM ESA/390 , z/Architecture Type JavaScript and WebAssembly engine License BSD-3-Clause Website v8 .dev Repository chromium .googlesource .com /v8 /v8 V8 is a JavaScript and WebAssembly engine developed by Google for its Chrome browser . V8 is free and open-source software (FOSS) and part of the Chromium project. It is also used in non-browser contexts, notably including the Node.js runtime system. Other server-side JavaScript runtimes use alternative engines, such as Bun (which uses JavaScriptCore ) and Hermes (used by React Native ). ^ a b c d \"Documentation · V8\" . Google . Retrieved 3 March 2024 . ^ \"Chrome Platform Status\" . Retrieved 29 June 2023 . ^ \"v8/LICENSE.v8 at master\" . Github. ^ Lenssen, Philipp (1 September 2008). \"Google on Google Chrome - comic book\" . Google Blogoscoped . Retrieved 17 August 2010 .",
+    "text": "JavaScript and WebAssembly engine For the engine used in vehicles, see V8 engine . V8 Developer Google Release 2 September 2008 ; 18 years ago ( 2008-09-02 ) Stable release 11.4 / 24 May 2023 ; 3 years ago ( 24 May 2023 ) Written in C++ Platform IA-32 , x86-64 , 32-bit ARM , AArch64 , 32-bit MIPS , MIPS64 , PowerPC , IBM ESA/390 , z/Architecture Type JavaScript and WebAssembly engine License BSD-3-Clause Website v8 .dev Repository chromium .googlesource .com /v8 /v8 V8 is a JavaScript and WebAssembly engine developed by Google for its Chrome browser . V8 is free and open-source software (FOSS) and part of the Chromium project. It is also used in non-browser contexts, notably including the Node.js runtime system. Other server-side JavaScript runtimes use alternative engines, such as Bun (which uses JavaScriptCore ) and Hermes (used by React Native ). ^ a b c d \"Documentation · V8\" . Google . Retrieved 3 March 2024 . ^ \"Chrome Platform Status\" . Retrieved 29 June 2023 . ^ \"v8/LICENSE.v8 at master\" . Github. ^ Lenssen, Philipp (1 September 2008). \"Google on Google Chrome - comic book\" . Google Blogoscoped . Retrieved 17 August 2010 .",
+    "links": [
+      "AArch64",
+      "ARM architecture",
+      "BSD licences",
+      "Bun (software)",
+      "C++",
+      "Chromium (web browser)",
+      "Computing platform",
+      "Free and open-source software",
+      "Google",
+      "Google Chrome",
+      "IA-32",
+      "IBM ESA/390",
+      "JavaScript engine",
+      "JavaScriptCore",
+      "MIPS architecture",
+      "MIPS64",
+      "Node.js",
+      "PowerPC",
+      "Programmer",
+      "React Native",
+      "Repository (version control)",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "V8 engine",
+      "WebAssembly",
+      "X86-64",
+      "Z/Architecture"
+    ],
+    "page_id": 19140716,
+    "revision_id": 1359864285,
+    "retrieved_at": "2026-09-18T18:09:11.627305+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260527222817|1356461887",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 19140716,
+            "ns": 0,
+            "title": "V8 (JavaScript engine)",
+            "revisions": [
+              {
+                "revid": 1359864285,
+                "parentid": 1356461887
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "JavaScript and WebAssembly engine",
+              "wikibase_item": "Q574992"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "V8 (JavaScript engine)",
+        "pageid": 19140716,
+        "revid": 1359864285,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">JavaScript and WebAssembly engine</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the engine used in vehicles, see <a href=\"/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">V8</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:V8_JavaScript_engine_logo_2.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/120px-V8_JavaScript_engine_logo_2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/250px-V8_JavaScript_engine_logo_2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Google\" title=\"Google\">Google</a><sup id=\"cite&#95;ref-v8&#95;doc&#95;1-0\" class=\"reference\"><a href=\"#cite_note-v8_doc-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">2&#160;September 2008<span class=\"noprint\">&#59;&#32;18 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2008-09-02</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">11.4<sup id=\"cite&#95;ref-wikidata-e19b087eea73854757d86a770151693b4c5722e3-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-e19b087eea73854757d86a770151693b4c5722e3-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q574992?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 24 May 2023<span class=\"noprint\">&#59;&#32;3 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">24 May 2023</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a><sup id=\"cite&#95;ref-v8&#95;doc&#95;1-1\" class=\"reference\"><a href=\"#cite_note-v8_doc-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/ARM_architecture\" class=\"mw-redirect\" title=\"ARM architecture\">32-bit ARM</a>, <a href=\"/wiki/AArch64\" title=\"AArch64\">AArch64</a>, <a href=\"/wiki/MIPS_architecture\" title=\"MIPS architecture\">32-bit MIPS</a>, <a href=\"/wiki/MIPS64\" class=\"mw-redirect\" title=\"MIPS64\">MIPS64</a>, <a href=\"/wiki/PowerPC\" title=\"PowerPC\">PowerPC</a>, <a href=\"/wiki/IBM_ESA/390\" class=\"mw-redirect\" title=\"IBM ESA/390\">IBM ESA/390</a>, <a href=\"/wiki/Z/Architecture\" title=\"Z/Architecture\">z/Architecture</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/JavaScript_engine\" class=\"mw-redirect\" title=\"JavaScript engine\">JavaScript</a> and <a href=\"/wiki/WebAssembly\" title=\"WebAssembly\">WebAssembly</a> engine</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/BSD_licences\" class=\"mw-redirect\" title=\"BSD licences\">BSD-3-Clause</a><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://v8.dev/\">v8<wbr />.dev</a></span>&#160;<span class=\"penicon autoconfirmed-show\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q574992?uselang=en#P856\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://chromium.googlesource.com/v8/v8\">chromium<wbr />.googlesource<wbr />.com<wbr />/v8<wbr />/v8</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q574992#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>V8</b> is a <a href=\"/wiki/JavaScript_engine\" class=\"mw-redirect\" title=\"JavaScript engine\">JavaScript</a> and <a href=\"/wiki/WebAssembly\" title=\"WebAssembly\">WebAssembly</a> engine developed by <a href=\"/wiki/Google\" title=\"Google\">Google</a> for its <a href=\"/wiki/Google_Chrome\" title=\"Google Chrome\">Chrome browser</a>.<sup id=\"cite&#95;ref-v8&#95;doc&#95;1-2\" class=\"reference\"><a href=\"#cite_note-v8_doc-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-comic&#95;4-0\" class=\"reference\"><a href=\"#cite_note-comic-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> V8 is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> (FOSS) and part of the <a href=\"/wiki/Chromium_(web_browser)\" title=\"Chromium (web browser)\">Chromium</a> project. It is also used in non-browser contexts, notably including the <a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a> runtime system.<sup id=\"cite&#95;ref-v8&#95;doc&#95;1-3\" class=\"reference\"><a href=\"#cite_note-v8_doc-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Other server-side JavaScript runtimes use alternative engines, such as <a href=\"/wiki/Bun_(software)\" title=\"Bun (software)\">Bun</a> (which uses <a href=\"/wiki/JavaScriptCore\" class=\"mw-redirect\" title=\"JavaScriptCore\">JavaScriptCore</a>) and Hermes (used by <a href=\"/wiki/React_Native\" title=\"React Native\">React Native</a>).\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-v8&#95;doc-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-v8_doc_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-v8_doc_1-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-v8_doc_1-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-v8_doc_1-3\"><sup><i><b>d</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://v8.dev/docs\">\"Documentation · V8\"</a>. Google<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 March</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Documentation+%C2%B7+V8&amp;rft.pub=Google&amp;rft&#95;id=https%3A%2F%2Fv8.dev%2Fdocs&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AV8+%28JavaScript+engine%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-e19b087eea73854757d86a770151693b4c5722e3-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-e19b087eea73854757d86a770151693b4c5722e3-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://chromestatus.com/roadmap\">\"Chrome Platform Status\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 June</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chrome+Platform+Status&amp;rft&#95;id=https%3A%2F%2Fchromestatus.com%2Froadmap&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AV8+%28JavaScript+engine%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/v8/v8/blob/master/LICENSE.v8\">\"v8/LICENSE.v8 at master\"</a>. Github.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=v8%2FLICENSE.v8+at+master&amp;rft.pub=Github&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fv8%2Fv8%2Fblob%2Fmaster%2FLICENSE.v8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AV8+%28JavaScript+engine%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-comic-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-comic_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLenssen2008\" class=\"citation web cs1\">Lenssen, Philipp (1 September 2008). <a rel=\"nofollow\" class=\"external text\" href=\"http://blogoscoped.com/google-chrome/\">\"Google on Google Chrome - comic book\"</a>. <i>Google Blogoscoped</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 August</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Google+Blogoscoped&amp;rft.atitle=Google+on+Google+Chrome+-+comic+book&amp;rft.date=2008-09-01&amp;rft.aulast=Lenssen&amp;rft.aufirst=Philipp&amp;rft&#95;id=http%3A%2F%2Fblogoscoped.com%2Fgoogle-chrome%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AV8+%28JavaScript+engine%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐hznhk\nCached time: 20260918180937\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.558 seconds\nReal time usage: 0.654 seconds\nPreprocessor visited node count: 1550/1000000\nRevision size: 2056/2097152 bytes\nPost‐expand include size: 28272/2097152 bytes\nTemplate argument size: 4188/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 13707/5000000 bytes\nLua time usage: 0.484/10.000 seconds\nLua memory usage: 32187658/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  638.616      1 -total\n 93.89%  599.573      2 Template:Infobox\n 85.35%  545.090      1 Template:Infobox_software\n 68.48%  437.332      5 Template:Wikidata\n 55.85%  356.657      1 Template:Infobox_software/simple\n 53.98%  344.754     19 Template:If_empty\n  9.34%   59.645      1 Template:Plainlist\n  8.17%   52.143      2 Template:Start_date_and_age\n  7.82%   49.959      1 Template:URL\n  7.76%   49.528      1 Template:Short_description\n-->\n\n<!-- Render ID 1be54894-b38c-11f1-ad24-d7bf02424813 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "V8 engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AArch64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD licences",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bun (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chromium (web browser)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Chrome",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM ESA/390",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScriptCore",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIPS64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIPS architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PowerPC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "React Native",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebAssembly",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Z/Architecture",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "JavaScript and WebAssembly engine",
+          "wikibase_item": "Q574992"
+        }
+      }
+    }
+  ]
+}

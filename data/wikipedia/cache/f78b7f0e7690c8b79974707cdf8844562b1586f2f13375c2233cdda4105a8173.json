@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Emacs",
+    "url": "https://en.wikipedia.org/wiki/Emacs",
+    "summary": "Family of text editors Not to be confused with eMac or Emacs Lisp . This article is about the class of text editors. For the most popular, current implementation, see GNU Emacs . Multics Emacs is an example of early Emacs implementations Emacs ( / ˈ iː m æ k s / ⓘ ), originally named EMACS (an acronym for \"Editor Macros\"), is a family of text editors that are characterized by their extensibility . The manual for the most widely used variant, GNU Emacs , describes it as \"the extensible, customizable, self-documenting, real-time display editor\". Development of the first Emacs began in the mid-1970s, and work on GNU Emacs, directly descended from the original, is ongoing; its latest version is 31.1 , released 24 August 2026. Emacs has over 10,000 built-in commands and its user interface allows the user to combine these commands into macros to automate work. Implementations of Emacs typically feature a dialect of the Lisp programming language, allowing users and developers to write new commands and applications for the editor. Extensions have been written to, among other things, manage files , remote access , e-mail , outlines , multimedia, Git integration, RSS feeds, and collaborative editing , as well as implementations of ELIZA , Pong , Conway's Life , Snake , Dunnet , and Tetris . The original EMACS (an extensible, full-screen editor) was developed in 1976 at the MIT Artificial Intelligence Laboratory as a unified set of Editor MACroS (EMACS) for the TECO editor . It was started by Guy L. Steele Jr. as a unification of the divergent TECO macro packages TECMAC and TMACS and was largely completed and extended by Richard M. Stallman , who is credited with naming it “Emacs” (and the “E” abbreviation) and with the core philosophy of real-time display editing and extensibility. The most popular, and most ported, version of Emacs is GNU Emacs, which was created by Richard Stallman for the GNU Project . XEmacs is a variant that branched from GNU Emacs in 1991. GNU Emacs and XEmacs use similar Lisp dialects and are, for the most part, compatible with each other. XEmacs development is currently very slow. GNU Emacs is, along with vi , one of the two main contenders in the traditional editor wars of Unix culture. GNU Emacs is among the oldest free and open source projects still under development. ^ a b Greenberg, Bernard S. (April 8, 1996). Multics Emacs: The History, Design and Implementation . Retrieved 29 June 2026 . ^ a b \"GNU Emacs FAQ\" . ^ a b Adrienne G. Thompson. \"MACSimizing TECO\" . Archived from the original on 2013-10-24 . Retrieved 2012-02-26 . ^ \"A Tutorial Introduction to GNU Emacs\" . For an editor to be called \"emacs\" the main requirement is that it be fully extensible with a real programming language, not just a macro language. ^ \"GNU Emacs Pocket Reference\" . GNU Emacs is the most popular and widespread of the Emacs family of editors. ^ \"GNU Emacs Manual\" . FSF . Retrieved 24 November 2012 . ^ Zawinski, Jamie (2007-10-29). \"Emacs Timeline\" . www.jwz.org . Retrieved 2023-07-31 . ^ \"On the Origin of Emacs in 1976 (Emacs blog articles)\" . onlisp.co.uk . Retrieved 2024-07-24 . ^ Sean Whitton (24 August 2026). \"Emacs 31.1 released\" . Retrieved 24 August 2026 . ^ \"Tramp User Manual\" . Free Software Foundation . Retrieved 2009-04-04 . ^ \"Introducing Elfeed, an Emacs Web Feed Reader\" . ^ \"Collaborative editing using Conflict-free Replicated Data Types\" . ^ \"Amusements\" . Finally, if you find yourself frustrated, try describing your problems to the famous psychotherapist Eliza. Just do M-x doctor. ^ Zawinski, Jamie (2005-06-21) [1999]. \"Emacs Timeline\" . Retrieved 11 August 2015 . ^ My conclusions: (1) Clearly, by the end of 1976 and thereafter, RMS was doing the bulk of EMACS development work, but it was not an “overnight” takeover. For a period of seven weeks, anyway, he had some implementation help from others (at least GLS, MOON, and JLK), and certainly had help with design and debugging from these and others (DLW, EAK, ED). He may have become the “principal hacker” more quickly than that, however, perhaps in the space of a week or less; but remember that in the AI lab culture, what I here call “principal hacker” (not a term used at the time) was a “first among equals”, not an exclusive owner. (3) RMS is responsible for the names “E” and “EMACS”. RMS still deserves 99% or 99.9% or 99.99% or 99.999% of the credit for taking a package of TECO macros and turning it into the most powerful editor on the planet, twice (first in TECO and then with ELISP), pouring in enormous amounts of effort and creativity over many years. He also deserves credit for working with the early user community to work out the initial set of key bindings and command names. I don’t think RMS has any reason to deny the people who helped him out during the first few months their due share of credit. They gave of their time and creativity freely, in the best spirit of contributing to the community. –GLS (Guy Steele) See comment with email from bottom of blog post Weinreb, Dan (November 11, 2007), \"Rebuttal to Stallman's Story About The Formation of Symbolics and LMI\" , Dan Weinreb's blog: software and innovation , archived from the original on January 1, 2009 . ^ Allombert, Bill. \"Debian Popularity Contest\" . Editors report . Debian . Retrieved 22 November 2011 . ^ \"The 10 oldest, significant open-source programs\" . ZDNet .",
+    "text": "Family of text editors Not to be confused with eMac or Emacs Lisp . This article is about the class of text editors. For the most popular, current implementation, see GNU Emacs . Multics Emacs is an example of early Emacs implementations Emacs ( / ˈ iː m æ k s / ⓘ ), originally named EMACS (an acronym for \"Editor Macros\"), is a family of text editors that are characterized by their extensibility . The manual for the most widely used variant, GNU Emacs , describes it as \"the extensible, customizable, self-documenting, real-time display editor\". Development of the first Emacs began in the mid-1970s, and work on GNU Emacs, directly descended from the original, is ongoing; its latest version is 31.1 , released 24 August 2026. Emacs has over 10,000 built-in commands and its user interface allows the user to combine these commands into macros to automate work. Implementations of Emacs typically feature a dialect of the Lisp programming language, allowing users and developers to write new commands and applications for the editor. Extensions have been written to, among other things, manage files , remote access , e-mail , outlines , multimedia, Git integration, RSS feeds, and collaborative editing , as well as implementations of ELIZA , Pong , Conway's Life , Snake , Dunnet , and Tetris . The original EMACS (an extensible, full-screen editor) was developed in 1976 at the MIT Artificial Intelligence Laboratory as a unified set of Editor MACroS (EMACS) for the TECO editor . It was started by Guy L. Steele Jr. as a unification of the divergent TECO macro packages TECMAC and TMACS and was largely completed and extended by Richard M. Stallman , who is credited with naming it “Emacs” (and the “E” abbreviation) and with the core philosophy of real-time display editing and extensibility. The most popular, and most ported, version of Emacs is GNU Emacs, which was created by Richard Stallman for the GNU Project . XEmacs is a variant that branched from GNU Emacs in 1991. GNU Emacs and XEmacs use similar Lisp dialects and are, for the most part, compatible with each other. XEmacs development is currently very slow. GNU Emacs is, along with vi , one of the two main contenders in the traditional editor wars of Unix culture. GNU Emacs is among the oldest free and open source projects still under development. ^ a b Greenberg, Bernard S. (April 8, 1996). Multics Emacs: The History, Design and Implementation . Retrieved 29 June 2026 . ^ a b \"GNU Emacs FAQ\" . ^ a b Adrienne G. Thompson. \"MACSimizing TECO\" . Archived from the original on 2013-10-24 . Retrieved 2012-02-26 . ^ \"A Tutorial Introduction to GNU Emacs\" . For an editor to be called \"emacs\" the main requirement is that it be fully extensible with a real programming language, not just a macro language. ^ \"GNU Emacs Pocket Reference\" . GNU Emacs is the most popular and widespread of the Emacs family of editors. ^ \"GNU Emacs Manual\" . FSF . Retrieved 24 November 2012 . ^ Zawinski, Jamie (2007-10-29). \"Emacs Timeline\" . www.jwz.org . Retrieved 2023-07-31 . ^ \"On the Origin of Emacs in 1976 (Emacs blog articles)\" . onlisp.co.uk . Retrieved 2024-07-24 . ^ Sean Whitton (24 August 2026). \"Emacs 31.1 released\" . Retrieved 24 August 2026 . ^ \"Tramp User Manual\" . Free Software Foundation . Retrieved 2009-04-04 . ^ \"Introducing Elfeed, an Emacs Web Feed Reader\" . ^ \"Collaborative editing using Conflict-free Replicated Data Types\" . ^ \"Amusements\" . Finally, if you find yourself frustrated, try describing your problems to the famous psychotherapist Eliza. Just do M-x doctor. ^ Zawinski, Jamie (2005-06-21) [1999]. \"Emacs Timeline\" . Retrieved 11 August 2015 . ^ My conclusions: (1) Clearly, by the end of 1976 and thereafter, RMS was doing the bulk of EMACS development work, but it was not an “overnight” takeover. For a period of seven weeks, anyway, he had some implementation help from others (at least GLS, MOON, and JLK), and certainly had help with design and debugging from these and others (DLW, EAK, ED). He may have become the “principal hacker” more quickly than that, however, perhaps in the space of a week or less; but remember that in the AI lab culture, what I here call “principal hacker” (not a term used at the time) was a “first among equals”, not an exclusive owner. (3) RMS is responsible for the names “E” and “EMACS”. RMS still deserves 99% or 99.9% or 99.99% or 99.999% of the credit for taking a package of TECO macros and turning it into the most powerful editor on the planet, twice (first in TECO and then with ELISP), pouring in enormous amounts of effort and creativity over many years. He also deserves credit for working with the early user community to work out the initial set of key bindings and command names. I don’t think RMS has any reason to deny the people who helped him out during the first few months their due share of credit. They gave of their time and creativity freely, in the best spirit of contributing to the community. –GLS (Guy Steele) See comment with email from bottom of blog post Weinreb, Dan (November 11, 2007), \"Rebuttal to Stallman's Story About The Formation of Symbolics and LMI\" , Dan Weinreb's blog: software and innovation , archived from the original on January 1, 2009 . ^ Allombert, Bill. \"Debian Popularity Contest\" . Editors report . Debian . Retrieved 22 November 2011 . ^ \"The 10 oldest, significant open-source programs\" . ZDNet .",
+    "links": [
+      "Collaborative editing",
+      "Conway's Game of Life",
+      "Daniel Weinreb",
+      "Dialect (computing)",
+      "Dired",
+      "Dunnet (video game)",
+      "ELIZA",
+      "EMac",
+      "Editor war",
+      "Emacs Lisp",
+      "Extensibility",
+      "Fork (software development)",
+      "Free Software Foundation",
+      "Free and open source",
+      "GNU Emacs",
+      "GNU Project",
+      "Gnus",
+      "Guy L. Steele Jr.",
+      "Jamie Zawinski",
+      "Lisp (programming language)",
+      "MIT Artificial Intelligence Laboratory",
+      "Macro (computer science)",
+      "Magit",
+      "Multics Emacs",
+      "Org-mode",
+      "Pong",
+      "RSS",
+      "Richard Stallman",
+      "Secure Shell",
+      "Snake (video game genre)",
+      "TECO (text editor)",
+      "Tetris",
+      "Text editor",
+      "Unix",
+      "User interface",
+      "Vi (text editor)",
+      "XEmacs",
+      "ZDNet"
+    ],
+    "page_id": 18933234,
+    "revision_id": 1371584339,
+    "retrieved_at": "2026-09-18T18:09:29.247783+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260726200148|1366188152",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 18933234,
+            "ns": 0,
+            "title": "Emacs",
+            "revisions": [
+              {
+                "revid": 1371584339,
+                "parentid": 1366188152
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "DPS8M_emulator_running_Multics_Emacs_screenshot.webp",
+              "wikibase-shortdesc": "Family of text editors",
+              "wikibase_item": "Q189722"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Emacs",
+        "pageid": 18933234,
+        "revid": 1371584339,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Family of text editors</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/EMac\" title=\"EMac\">eMac</a> or <a href=\"/wiki/Emacs_Lisp\" title=\"Emacs Lisp\">Emacs Lisp</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the class of text editors. For the most popular, current implementation, see <a href=\"/wiki/GNU_Emacs\" title=\"GNU Emacs\">GNU Emacs</a>.</div>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:DPS8M_emulator_running_Multics_Emacs_screenshot.webp\" class=\"mw-file-description\"><img alt=\"Screenshot of Multics Emacs\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/DPS8M_emulator_running_Multics_Emacs_screenshot.webp/250px-DPS8M_emulator_running_Multics_Emacs_screenshot.webp?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"208\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/DPS8M_emulator_running_Multics_Emacs_screenshot.webp/500px-DPS8M_emulator_running_Multics_Emacs_screenshot.webp?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"854\" data-file-height=\"709\" /></a><figcaption><a href=\"/wiki/Multics_Emacs\" title=\"Multics Emacs\">Multics Emacs</a> is an example of early Emacs implementations</figcaption></figure>\n<p><b>Emacs</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"/iː/: &#39;ee&#39; in &#39;fleece&#39;\">iː</span><span title=\"&#39;m&#39; in &#39;my&#39;\">m</span><span title=\"/æ/: &#39;a&#39; in &#39;bad&#39;\">æ</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"&#39;s&#39; in &#39;sigh&#39;\">s</span></span>/</a></span>&#32;<span class=\"ext-phonos\"><span data-nosnippet=\"\" id=\"ooui-php-1\" class=\"noexcerpt ext-phonos-PhonosButton ext-phonos-PhonosButton-emptylabel oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-buttonElement-size-medium oo-ui-iconElement oo-ui-buttonWidget\" data-ooui=\"{&quot;_&quot;:&quot;mw.Phonos.PhonosButton&quot;,&quot;href&quot;:&quot;\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/transcoded\\/3\\/3d\\/En-us-Emacs.oga\\/En-us-Emacs.oga.mp3&quot;,&quot;rel&quot;:[&quot;nofollow&quot;],&quot;framed&quot;:false,&quot;icon&quot;:&quot;volumeUp&quot;,&quot;data&quot;:{&quot;ipa&quot;:&quot;&quot;,&quot;text&quot;:&quot;&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;wikibase&quot;:&quot;&quot;,&quot;file&quot;:&quot;En-us-Emacs.oga&quot;},&quot;classes&quot;:[&quot;noexcerpt&quot;,&quot;ext-phonos-PhonosButton&quot;,&quot;ext-phonos-PhonosButton-emptylabel&quot;]}\"><a role=\"button\" tabindex=\"0\" href=\"//upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/En-us-Emacs.oga/En-us-Emacs.oga.mp3\" rel=\"nofollow\" aria-label=\"Play audio\" title=\"Play audio\" class=\"oo-ui-buttonElement-button\"><span class=\"oo-ui-iconElement-icon oo-ui-icon-volumeUp\"></span><span class=\"oo-ui-labelElement-label\"></span><span class=\"oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator\"></span></a></span><sup class=\"ext-phonos-attribution noexcerpt navigation-not-searchable\"><a href=\"/wiki/File:En-us-Emacs.oga\" title=\"File:En-us-Emacs.oga\">ⓘ</a></sup></span></span>), originally named <b>EMACS</b> (an acronym for \"Editor Macros\"),<sup id=\"cite&#95;ref-Greenberg&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Greenberg-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Gnu&#95;Emacs&#95;FAQ&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Gnu_Emacs_FAQ-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-MACSimizing&#95;TECO&#95;3-0\" class=\"reference\"><a href=\"#cite_note-MACSimizing_TECO-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> is a family of <a href=\"/wiki/Text_editor\" title=\"Text editor\">text editors</a> that are characterized by their <a href=\"/wiki/Extensibility\" title=\"Extensibility\">extensibility</a>.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> The manual for the most widely used variant,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/GNU_Emacs\" title=\"GNU Emacs\">GNU Emacs</a>, describes it as \"the extensible, customizable, self-documenting, real-time display editor\".<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> Development of the first Emacs began in the mid-1970s,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> and work on GNU Emacs, directly descended from the original, is ongoing; its latest version is 31.1<sup id=\"cite&#95;ref-wikidata-f1c89ff07f56ec5a8bb8b9ffd53f226fc8b67f50-v20&#95;9-0\" class=\"reference\"><a href=\"#cite_note-wikidata-f1c89ff07f56ec5a8bb8b9ffd53f226fc8b67f50-v20-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1252773?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>, released 24 August 2026.\n</p><p>Emacs has over 10,000 built-in commands and its <a href=\"/wiki/User_interface\" title=\"User interface\">user interface</a> allows the user to combine these commands into <a href=\"/wiki/Macro_(computer_science)\" title=\"Macro (computer science)\">macros</a> to automate work. Implementations of Emacs typically feature a <a href=\"/wiki/Dialect_(computing)\" class=\"mw-redirect\" title=\"Dialect (computing)\">dialect</a> of the <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a> programming language, allowing users and developers to write new commands and applications for the editor. Extensions have been written to, among other things, manage <a href=\"/wiki/Dired\" title=\"Dired\">files</a>, <a href=\"/wiki/Secure_Shell\" title=\"Secure Shell\">remote access</a>,<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Gnus\" title=\"Gnus\">e-mail</a>, <a href=\"/wiki/Org-mode\" title=\"Org-mode\">outlines</a>, multimedia, <a href=\"/wiki/Magit\" title=\"Magit\">Git</a> integration, <a href=\"/wiki/RSS\" title=\"RSS\">RSS</a> feeds,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Collaborative_editing\" title=\"Collaborative editing\">collaborative editing</a>,<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> as well as implementations of <i><a href=\"/wiki/ELIZA\" title=\"ELIZA\">ELIZA</a></i>, <i><a href=\"/wiki/Pong\" title=\"Pong\">Pong</a></i>, <i><a href=\"/wiki/Conway%27s_Game_of_Life\" title=\"Conway&#39;s Game of Life\">Conway's Life</a></i>, <i><a href=\"/wiki/Snake_(video_game_genre)\" title=\"Snake (video game genre)\">Snake</a></i>, <i><a href=\"/wiki/Dunnet_(video_game)\" title=\"Dunnet (video game)\">Dunnet</a></i>, and <i><a href=\"/wiki/Tetris\" title=\"Tetris\">Tetris</a></i>.<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The original EMACS (an extensible, full-screen editor) was developed in 1976 at the <a href=\"/wiki/MIT_Artificial_Intelligence_Laboratory\" class=\"mw-redirect\" title=\"MIT Artificial Intelligence Laboratory\">MIT Artificial Intelligence Laboratory</a> as a unified set of Editor MACroS (EMACS) for the <a href=\"/wiki/TECO_(text_editor)\" title=\"TECO (text editor)\">TECO editor</a>. It was started by <a href=\"/wiki/Guy_L._Steele_Jr.\" title=\"Guy L. Steele Jr.\">Guy L. Steele Jr.</a> as a unification of the divergent <a href=\"/wiki/TECO_(text_editor)\" title=\"TECO (text editor)\">TECO</a> macro packages TECMAC and TMACS and was largely completed and extended by <a href=\"/wiki/Richard_Stallman\" title=\"Richard Stallman\">Richard M. Stallman</a>, who is credited with naming it “Emacs” (and the “E” abbreviation) and with the core philosophy of real-time display editing and extensibility.<sup id=\"cite&#95;ref-jwz&#95;timeline&#95;14-0\" class=\"reference\"><a href=\"#cite_note-jwz_timeline-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Greenberg&#95;1-1\" class=\"reference\"><a href=\"#cite_note-Greenberg-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Gnu&#95;Emacs&#95;FAQ&#95;2-1\" class=\"reference\"><a href=\"#cite_note-Gnu_Emacs_FAQ-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-MACSimizing&#95;TECO&#95;3-1\" class=\"reference\"><a href=\"#cite_note-MACSimizing_TECO-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The most popular, and most ported, version of Emacs is GNU Emacs, which was created by <a href=\"/wiki/Richard_Stallman\" title=\"Richard Stallman\">Richard Stallman</a> for the <a href=\"/wiki/GNU_Project\" title=\"GNU Project\">GNU Project</a>.<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/XEmacs\" title=\"XEmacs\">XEmacs</a> is a variant that <a href=\"/wiki/Fork_(software_development)\" title=\"Fork (software development)\">branched</a> from GNU Emacs in 1991. GNU Emacs and XEmacs use similar Lisp dialects and are, for the most part, compatible with each other. XEmacs development is currently very slow.\n</p><p><a href=\"/wiki/GNU_Emacs\" title=\"GNU Emacs\">GNU Emacs</a> is, along with <a href=\"/wiki/Vi_(text_editor)\" title=\"Vi (text editor)\">vi</a>, one of the two main contenders in the traditional <a href=\"/wiki/Editor_war\" title=\"Editor war\">editor wars</a> of <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a> culture. GNU Emacs is among the oldest <a href=\"/wiki/Free_and_open_source\" class=\"mw-redirect\" title=\"Free and open source\">free and open source</a> projects still under development.<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-Greenberg-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Greenberg_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Greenberg_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\">\n<style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFGreenberg1996\" class=\"citation book cs1\">Greenberg, Bernard S. (April 8, 1996). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.multicians.org/mepap.html\"><i>Multics Emacs: The History, Design and Implementation</i></a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 June</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Multics+Emacs%3A+The+History%2C+Design+and+Implementation&amp;rft.date=1996-04-08&amp;rft.aulast=Greenberg&amp;rft.aufirst=Bernard+S.&amp;rft&#95;id=https%3A%2F%2Fwww.multicians.org%2Fmepap.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Gnu&#95;Emacs&#95;FAQ-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Gnu_Emacs_FAQ_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Gnu_Emacs_FAQ_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/software/emacs/emacs-faq.html#Origin-of-the-term-Emacs\">\"GNU Emacs FAQ\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GNU+Emacs+FAQ&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fsoftware%2Femacs%2Femacs-faq.html%23Origin-of-the-term-Emacs&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-MACSimizing&#95;TECO-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-MACSimizing_TECO_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-MACSimizing_TECO_3-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAdrienne&#95;G.&#95;Thompson\" class=\"citation web cs1\">Adrienne G. Thompson. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20131024150047/http://www.codeartnow.com/hacker-art-1/macsimizing-teco\">\"MACSimizing TECO\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.codeartnow.com/hacker-art-1/macsimizing-teco\">the original</a> on 2013-10-24<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2012-02-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=MACSimizing+TECO&amp;rft.au=Adrienne+G.+Thompson&amp;rft&#95;id=http%3A%2F%2Fwww.codeartnow.com%2Fhacker-art-1%2Fmacsimizing-teco&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www2.lib.uchicago.edu/keith/tcl-course/emacs-tutorial.html\">\"A Tutorial Introduction to GNU Emacs\"</a>. <q>For an editor to be called \"emacs\" the main requirement is that it be fully extensible with a real programming language, not just a macro language.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=A+Tutorial+Introduction+to+GNU+Emacs&amp;rft&#95;id=http%3A%2F%2Fwww2.lib.uchicago.edu%2Fkeith%2Ftcl-course%2Femacs-tutorial.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ebooks-it.org/1565924967-ebook.htm\">\"GNU Emacs Pocket Reference\"</a>. <q>GNU Emacs is the most popular and widespread of the Emacs family of editors.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GNU+Emacs+Pocket+Reference&amp;rft&#95;id=https%3A%2F%2Febooks-it.org%2F1565924967-ebook.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html\">\"GNU Emacs Manual\"</a>. FSF<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 November</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GNU+Emacs+Manual&amp;rft.pub=FSF&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fsoftware%2Femacs%2Fmanual%2Fhtml&#95;node%2Femacs%2Findex.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFZawinski2007\" class=\"citation web cs1\">Zawinski, Jamie (2007-10-29). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jwz.org/doc/emacs-timeline.html\">\"Emacs Timeline\"</a>. <i>www.jwz.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-07-31</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.jwz.org&amp;rft.atitle=Emacs+Timeline&amp;rft.date=2007-10-29&amp;rft.aulast=Zawinski&amp;rft.aufirst=Jamie&amp;rft&#95;id=https%3A%2F%2Fwww.jwz.org%2Fdoc%2Femacs-timeline.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://onlisp.co.uk/On-the-Origin-of-Emacs-in-1976.html\">\"On the Origin of Emacs in 1976 (Emacs blog articles)\"</a>. <i>onlisp.co.uk</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-07-24</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=onlisp.co.uk&amp;rft.atitle=On+the+Origin+of+Emacs+in+1976+%28Emacs+blog+articles%29&amp;rft&#95;id=https%3A%2F%2Fonlisp.co.uk%2FOn-the-Origin-of-Emacs-in-1976.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-f1c89ff07f56ec5a8bb8b9ffd53f226fc8b67f50-v20-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-f1c89ff07f56ec5a8bb8b9ffd53f226fc8b67f50-v20_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSean&#95;Whitton2026\" class=\"citation web cs1\">Sean Whitton (24 August 2026). <a rel=\"nofollow\" class=\"external text\" href=\"https://lists.gnu.org/archive/html/info-gnu/2026-08/msg00006.html\">\"Emacs 31.1 released\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 August</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Emacs+31.1+released&amp;rft.date=2026-08-24&amp;rft.au=Sean+Whitton&amp;rft&#95;id=https%3A%2F%2Flists.gnu.org%2Farchive%2Fhtml%2Finfo-gnu%2F2026-08%2Fmsg00006.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/software/tramp/\">\"Tramp User Manual\"</a>. <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">Free Software Foundation</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2009-04-04</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Tramp+User+Manual&amp;rft.pub=Free+Software+Foundation&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fsoftware%2Ftramp%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://nullprogram.com/blog/2013/09/04/\">\"Introducing Elfeed, an Emacs Web Feed Reader\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Introducing+Elfeed%2C+an+Emacs+Web+Feed+Reader&amp;rft&#95;id=http%3A%2F%2Fnullprogram.com%2Fblog%2F2013%2F09%2F04%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.librehq.com/qhong/crdt.el\">\"Collaborative editing using Conflict-free Replicated Data Types\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Collaborative+editing+using+Conflict-free+Replicated+Data+Types&amp;rft&#95;id=https%3A%2F%2Fcode.librehq.com%2Fqhong%2Fcrdt.el&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/software/emacs/manual/html_node/emacs/Amusements.html\">\"Amusements\"</a>. <q>Finally, if you find yourself frustrated, try describing your problems to the famous psychotherapist Eliza. Just do M-x doctor.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Amusements&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fsoftware%2Femacs%2Fmanual%2Fhtml&#95;node%2Femacs%2FAmusements.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-jwz&#95;timeline-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-jwz_timeline_14-0\">^</a></b></span> <span class=\"reference-text\">\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFZawinski2005\" class=\"citation web cs1\"><a href=\"/wiki/Jamie_Zawinski\" title=\"Jamie Zawinski\">Zawinski, Jamie</a> (2005-06-21) [1999]. <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.jwz.org/doc/emacs-timeline.html\" href=\"https://www.jwz.org/doc/emacs-timeline.html\">\"Emacs Timeline\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 August</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Emacs+Timeline&amp;rft.date=2005-06-21&amp;rft.aulast=Zawinski&amp;rft.aufirst=Jamie&amp;rft&#95;id=http%3A%2F%2Fwww.jwz.org%2Fdoc%2Femacs-timeline.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\">My conclusions: \n\n(1) Clearly, by the end of 1976 and thereafter, RMS was doing the bulk of EMACS development work, but it was not an “overnight” takeover. For a period of seven weeks, anyway, he had some implementation help from others (at least GLS, MOON, and JLK), and certainly had help with design and debugging from these and others (DLW, EAK, ED). He may have become the “principal hacker” more quickly than that, however, perhaps in the space of a week or less; but remember that in the AI lab culture, what I here call “principal hacker” (not a term used at the time) was a “first among equals”, not an exclusive owner. \n\n(3) RMS is responsible for the names “E” and “EMACS”. \n\nRMS still deserves 99% or 99.9% or 99.99% or 99.999% of the credit for taking a package of TECO macros and turning it into the most powerful editor on the planet, twice (first in TECO and then with ELISP), pouring in enormous amounts of effort and creativity over many years. He also deserves credit for working with the early user community to work out the initial set of key bindings and command names. I don’t think RMS has any reason to deny the people who helped him out during the first few months their due share of credit. They gave of their time and creativity freely, in the best spirit of contributing to the community. \n\n–GLS  (Guy Steele) \n\nSee comment with email from bottom of blog post <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWeinreb2007\" class=\"citation cs2 cs1-prop-unfit\"><a href=\"/wiki/Daniel_Weinreb\" title=\"Daniel Weinreb\">Weinreb, Dan</a> (November 11, 2007), <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090101103828/http://danweinreb.org/blog/rebuttal-to-stallmans-story-about-the-formation-of-symbolics-and-lmi\">\"Rebuttal to Stallman's Story About The Formation of Symbolics and LMI\"</a>, <i>Dan Weinreb's blog: software and innovation</i>, archived from the original on January 1, 2009</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Dan+Weinreb%27s+blog%3A+software+and+innovation&amp;rft.atitle=Rebuttal+to+Stallman%27s+Story+About+The+Formation+of+Symbolics+and+LMI&amp;rft.date=2007-11-11&amp;rft.aulast=Weinreb&amp;rft.aufirst=Dan&amp;rft&#95;id=http%3A%2F%2Fdanweinreb.org%2Fblog%2Frebuttal-to-stallmans-story-about-the-formation-of-symbolics-and-lmi&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span>.</span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAllombert\" class=\"citation web cs1\">Allombert, Bill. <a rel=\"nofollow\" class=\"external text\" href=\"http://popcon.debian.org/main/editors/by_vote\">\"Debian Popularity Contest\"</a>. <i>Editors report</i>. Debian<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 November</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Editors+report&amp;rft.atitle=Debian+Popularity+Contest&amp;rft.aulast=Allombert&amp;rft.aufirst=Bill&amp;rft&#95;id=http%3A%2F%2Fpopcon.debian.org%2Fmain%2Feditors%2Fby&#95;vote&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.zdnet.com/article/the-10-oldest-significant-open-source-programs/\">\"The 10 oldest, significant open-source programs\"</a>. <i><a href=\"/wiki/ZDNet\" class=\"mw-redirect\" title=\"ZDNet\">ZDNet</a></i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ZDNet&amp;rft.atitle=The+10+oldest%2C+significant+open-source+programs&amp;rft&#95;id=https%3A%2F%2Fwww.zdnet.com%2Farticle%2Fthe-10-oldest-significant-open-source-programs%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AEmacs\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐rd8vv\nCached time: 20260918180954\nCache expiry: 21600\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.378 seconds\nReal time usage: 0.491 seconds\nPreprocessor visited node count: 630/1000000\nRevision size: 8053/2097152 bytes\nPost‐expand include size: 23527/2097152 bytes\nTemplate argument size: 363/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 43076/5000000 bytes\nLua time usage: 0.296/10.000 seconds\nLua memory usage: 8204602/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  463.139      1 -total\n 35.22%  163.098      2 Template:Wikidata\n 20.84%   96.499      1 Template:Short_description\n 15.29%   70.811     14 Template:Cite_web\n 11.91%   55.170      1 Template:IPAc-en\n 11.51%   53.296      2 Template:Pagetype\n  7.28%   33.728      1 Template:Distinguish\n  6.26%   28.979      2 Template:Main_other\n  5.83%   26.995      1 Template:SDcat\n  3.69%   17.073      1 Template:Audio\n-->\n\n<!-- Render ID 260751ee-b38c-11f1-af54-6714755573f3 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "EMac",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Emacs Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Emacs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Collaborative editing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Conway's Game of Life",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Daniel Weinreb",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dialect (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dired",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dunnet (video game)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ELIZA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Editor war",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extensibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fork (software development)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open source",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gnus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Guy L. Steele Jr.",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jamie Zawinski",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT Artificial Intelligence Laboratory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Macro (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Magit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multics Emacs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Org-mode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pong",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RSS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Richard Stallman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Secure Shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Snake (video game genre)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TECO (text editor)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tetris",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Text editor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vi (text editor)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XEmacs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ZDNet",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Family of text editors",
+          "page_image_free": "DPS8M_emulator_running_Multics_Emacs_screenshot.webp",
+          "wikibase_item": "Q189722"
+        }
+      }
+    }
+  ]
+}

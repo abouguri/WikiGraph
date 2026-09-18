@@ -1,0 +1,10 @@
+{
+  "pages": 300,
+  "triples": 105268,
+  "sha256": "81eacdf54bc482510e00b55640309c8d4f92f34abddf0dc53ffb7ba0e8ce5d32",
+  "elapsed_seconds": 6.527439473022241,
+  "pages_per_second": 45.95982869544684,
+  "requests": 0,
+  "byte_identical": true,
+  "scope": "Single offline run; includes new SQLite jobs, graph building, SHACL, and disk export; OS caches not cleared."
+}

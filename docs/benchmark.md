@@ -1,22 +1,34 @@
-# Measured query baseline
+# 300-page performance and reproducibility gate
 
-Run: `python scripts/benchmark.py` (see `reports/benchmark.json` for exact results).
+Run `python scripts/benchmark_rebuild.py` and `python scripts/benchmark.py`.
+The raw reports are `reports/rebuild.json` and `reports/benchmark.json`.
+The original 100-page baseline is preserved in `reports/benchmark-100.json`.
 
-Dataset: 100 real Wikipedia entities, 815 assertions, 34,400 RDF triples. One local
-HTTP run used five concurrent clients and 100 requests per workload, with five
-warm-up requests. Each request opened a fresh connection. Rate limiting was raised
-only for the benchmark. The report records graph SHA-256 and environment details.
+Dataset: 300 distinct Wikipedia pages, 5,113 assertions, 105,268 RDF triples.
+The initial computing corpus was expanded by deterministic outgoing-link overlap;
+the additional pages provide linked context and are not all hand-curated computing topics.
+
+One local HTTP run used five concurrent clients, 100 requests per workload, and
+five warm-up requests. Every request opened a fresh connection. The report records
+the dataset and benchmark-script hashes, CPU, OS, Python version and measurement time.
 
 | Workload | p50 | p95 | p99 |
 | --- | ---: | ---: | ---: |
-| Entity search | 7.46 ms | 11.36 ms | 16.60 ms |
-| One-hop neighbors | 13.11 ms | 31.48 ms | 33.64 ms |
-| Bounded path | 7.91 ms | 11.76 ms | 12.49 ms |
+| search | 12.14 ms | 20.97 ms | 25.14 ms |
+| neighbors | 7.18 ms | 9.94 ms | 11.00 ms |
+| path | 27.76 ms | 35.59 ms | 37.41 ms |
 
-Server startup including validation/indexing: 2.88 seconds. Peak server RSS:
-139,544 KiB. These figures include local HTTP transport but not internet latency.
-The first query is application-cold; OS filesystem caches were not cleared.
+The proposed p95 <300 ms gate for search and one-hop neighbors **passed on this
+workload**. Path timing is reported separately. Startup, including graph validation
+and indexing, took 8.57 seconds; peak server RSS was
+288,940 KiB. The first query is application-cold; OS filesystem
+caches were not cleared. The request quota was raised only for the benchmark.
 
-This does not satisfy the separate 300-page performance gate or establish behavior
-under sustained public traffic. The current bottleneck is semantic coverage, not
-query latency: only two factual assertions were extracted from this corpus.
+A clean offline build took 6.53 seconds
+(45.96 pages/second), including SQLite state, graph construction,
+SHACL validation and disk export. The export matched byte-for-byte, with zero
+network requests. This is not live Wikipedia ingestion throughput.
+
+One local run does not establish WAN latency, sustained-load behavior, or hosting
+provider performance. Extraction coverage remains the main limitation: only two
+factual relations were extracted; the other 5,111 assertions are page links.

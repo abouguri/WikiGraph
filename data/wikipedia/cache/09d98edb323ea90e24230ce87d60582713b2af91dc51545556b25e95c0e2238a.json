@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "FreeBSD",
+    "url": "https://en.wikipedia.org/wiki/FreeBSD",
+    "summary": "Free and open-source Unix-like operating system Operating system FreeBSD The Power To Serve FreeBSD bootloader with ASCII art logo in version 13.0 Developer The FreeBSD Project Written in C (C11) OS family Unix-like ( BSD ) Working state Current Source model Open source Initial release 1 November 1993 ; 32 years ago ( 1993-11-01 ) Latest release 15.1 (16 June 2026 ; 3 months ago ( 2026-06-16 ) ) [±] 14.4 (10 March 2026 ; 6 months ago ( 2026-03-10 ) ) [±] Repository cgit .freebsd .org Marketing target Servers , workstations , embedded systems , network firewalls Package manager pkg Supported platforms Tier 1: 64-bit x86 (amd64) , 64-bit ARM (originally only 32-bit x86, i386 , 32-bit x86 now with tier 2 support and additionally 64-bit RISC-V , 32-bit ARMv7, 64-bit PowerPC ; previously supported e.g. MIPS , IA-64 and SPARC ) Kernel type Monolithic with dynamically loadable modules Userland BSD Default user interface Unix shells : sh or tcsh (user-selectable) csh (in the past) License FreeBSD License , FreeBSD Documentation License Official website www .freebsd .org FreeBSD is a free and open-source Unix-like operating system descended from the Berkeley Software Distribution (BSD). The first version was released in 1993 developed from 386BSD , one of the first fully functional and free Unix clones on affordable home-class hardware, and has since continuously been the most commonly used BSD-derived operating system. FreeBSD maintains a complete system, delivering a kernel , device drivers , userland utilities, and documentation, as opposed to Linux only delivering a kernel and drivers, and relying on third-parties such as GNU for system software. The FreeBSD source code is generally released under a permissive BSD license , as opposed to the copyleft GPL used by Linux. The project includes a security team overseeing all software shipped in the base distribution. Third-party applications may be installed using the pkg package management system or from source via FreeBSD Ports . The project is supported and promoted by the FreeBSD Foundation. Much of FreeBSD's codebase has become an integral part of other operating systems such as Darwin (the basis for macOS , iOS , iPadOS , watchOS , and tvOS ), TrueNAS (an open-source NAS / SAN operating system), and the system software for the PlayStation 3 , PlayStation 4 , PlayStation 5 , and PlayStation Vita game consoles. FreeBSD contains a large amount of code from OpenBSD and other current BSD systems. ^ \"FreeBSD 15.1-RELEASE Announcement\" . FreeBSD.org. 16 June 2026 . Retrieved 16 June 2026 . ^ \"FreeBSD 14.4-RELEASE Announcement\" . FreeBSD.org. 10 March 2026 . Retrieved 10 March 2026 . ^ \"Platforms\" . The FreeBSD Project . Retrieved 24 April 2025 . ^ \"FreeBSD History\" . people.freebsd.org . Archived from the original on 24 November 2023 . Retrieved 24 November 2023 . ^ Cite error: The named reference survey was invoked but never defined (see the help page ). ^ \"The return of BSD - SunWorld - January 1999\" . sunsite.uakom.sk . Retrieved 21 November 2024 . ^ By (28 October 2024). \"FreeBSD at 30: The History and Future of the Most Popular BSD-Based OS\" . Hackaday . Archived from the original on 21 November 2024 . Retrieved 21 November 2024 . ^ Cite error: The named reference informit-bsd-tree was invoked but never defined (see the help page ). ^ \"Chapter 4. Installing Applications: Packages and Ports\" . FreeBSD Handbook . The FreeBSD Project. Archived from the original on 22 September 2021 . Retrieved 16 June 2021 . ^ Cite error: The named reference scei-ps3 was invoked but never defined (see the help page ). ^ Rosenberg, Alex (17 December 2013). \"FreeBSD Handbook and PS3\" . freebsd-doc (Mailing list). Archived from the original on 2 February 2017 . Retrieved 22 January 2016 . ^ \"Open Source Software used in PlayStation 3\" . Archived from the original on 11 November 2017 . Retrieved 8 December 2022 . ^ \"Open Source Software used in PlayStation 4\" . Sony Interactive Entertainment. Archived from the original on 12 December 2017 . Retrieved 4 January 2019 . ^ \"Kernel\" . PlayStation 5 Dev Wiki . ^ \"Open Source Software used in PlayStation Vita\" . Archived from the original on 12 December 2017 . Retrieved 8 December 2022 .",
+    "text": "Free and open-source Unix-like operating system Operating system FreeBSD The Power To Serve FreeBSD bootloader with ASCII art logo in version 13.0 Developer The FreeBSD Project Written in C (C11) OS family Unix-like ( BSD ) Working state Current Source model Open source Initial release 1 November 1993 ; 32 years ago ( 1993-11-01 ) Latest release 15.1 (16 June 2026 ; 3 months ago ( 2026-06-16 ) ) [±] 14.4 (10 March 2026 ; 6 months ago ( 2026-03-10 ) ) [±] Repository cgit .freebsd .org Marketing target Servers , workstations , embedded systems , network firewalls Package manager pkg Supported platforms Tier 1: 64-bit x86 (amd64) , 64-bit ARM (originally only 32-bit x86, i386 , 32-bit x86 now with tier 2 support and additionally 64-bit RISC-V , 32-bit ARMv7, 64-bit PowerPC ; previously supported e.g. MIPS , IA-64 and SPARC ) Kernel type Monolithic with dynamically loadable modules Userland BSD Default user interface Unix shells : sh or tcsh (user-selectable) csh (in the past) License FreeBSD License , FreeBSD Documentation License Official website www .freebsd .org FreeBSD is a free and open-source Unix-like operating system descended from the Berkeley Software Distribution (BSD). The first version was released in 1993 developed from 386BSD , one of the first fully functional and free Unix clones on affordable home-class hardware, and has since continuously been the most commonly used BSD-derived operating system. FreeBSD maintains a complete system, delivering a kernel , device drivers , userland utilities, and documentation, as opposed to Linux only delivering a kernel and drivers, and relying on third-parties such as GNU for system software. The FreeBSD source code is generally released under a permissive BSD license , as opposed to the copyleft GPL used by Linux. The project includes a security team overseeing all software shipped in the base distribution. Third-party applications may be installed using the pkg package management system or from source via FreeBSD Ports . The project is supported and promoted by the FreeBSD Foundation. Much of FreeBSD's codebase has become an integral part of other operating systems such as Darwin (the basis for macOS , iOS , iPadOS , watchOS , and tvOS ), TrueNAS (an open-source NAS / SAN operating system), and the system software for the PlayStation 3 , PlayStation 4 , PlayStation 5 , and PlayStation Vita game consoles. FreeBSD contains a large amount of code from OpenBSD and other current BSD systems. ^ \"FreeBSD 15.1-RELEASE Announcement\" . FreeBSD.org. 16 June 2026 . Retrieved 16 June 2026 . ^ \"FreeBSD 14.4-RELEASE Announcement\" . FreeBSD.org. 10 March 2026 . Retrieved 10 March 2026 . ^ \"Platforms\" . The FreeBSD Project . Retrieved 24 April 2025 . ^ \"FreeBSD History\" . people.freebsd.org . Archived from the original on 24 November 2023 . Retrieved 24 November 2023 . ^ Cite error: The named reference survey was invoked but never defined (see the help page ). ^ \"The return of BSD - SunWorld - January 1999\" . sunsite.uakom.sk . Retrieved 21 November 2024 . ^ By (28 October 2024). \"FreeBSD at 30: The History and Future of the Most Popular BSD-Based OS\" . Hackaday . Archived from the original on 21 November 2024 . Retrieved 21 November 2024 . ^ Cite error: The named reference informit-bsd-tree was invoked but never defined (see the help page ). ^ \"Chapter 4. Installing Applications: Packages and Ports\" . FreeBSD Handbook . The FreeBSD Project. Archived from the original on 22 September 2021 . Retrieved 16 June 2021 . ^ Cite error: The named reference scei-ps3 was invoked but never defined (see the help page ). ^ Rosenberg, Alex (17 December 2013). \"FreeBSD Handbook and PS3\" . freebsd-doc (Mailing list). Archived from the original on 2 February 2017 . Retrieved 22 January 2016 . ^ \"Open Source Software used in PlayStation 3\" . Archived from the original on 11 November 2017 . Retrieved 8 December 2022 . ^ \"Open Source Software used in PlayStation 4\" . Sony Interactive Entertainment. Archived from the original on 12 December 2017 . Retrieved 4 January 2019 . ^ \"Kernel\" . PlayStation 5 Dev Wiki . ^ \"Open Source Software used in PlayStation Vita\" . Archived from the original on 12 December 2017 . Retrieved 8 December 2022 .",
+    "links": [
+      "386BSD",
+      "AArch64",
+      "ASCII art",
+      "Almquist shell",
+      "Application software",
+      "BSD",
+      "Berkeley Software Distribution",
+      "Booting",
+      "C (programming language)",
+      "C Shell",
+      "Computer security",
+      "Copyleft",
+      "Darwin (operating system)",
+      "Device driver",
+      "Embedded system",
+      "Firewall (computing)",
+      "Free and open-source software",
+      "FreeBSD Documentation License",
+      "FreeBSD License",
+      "FreeBSD Ports",
+      "GNU",
+      "GPL",
+      "IA-32",
+      "IA-64",
+      "IOS",
+      "IPadOS",
+      "Kernel (operating system)",
+      "Linux",
+      "Linux kernel",
+      "Loadable kernel module",
+      "MIPS architecture",
+      "MacOS",
+      "Monolithic kernel",
+      "Network-attached storage",
+      "Open source",
+      "OpenBSD",
+      "Operating system",
+      "Package manager",
+      "Permissive software license",
+      "PlayStation 3",
+      "PlayStation 4",
+      "PlayStation 5",
+      "PlayStation Vita",
+      "PowerPC",
+      "Programmer",
+      "Programming language",
+      "RISC-V",
+      "Repository (version control)",
+      "SPARC",
+      "Server (computing)",
+      "Software license",
+      "Software release life cycle",
+      "Source code",
+      "Storage area network",
+      "Tcsh",
+      "TrueNAS",
+      "TvOS",
+      "Unix",
+      "Unix shell",
+      "Unix-like",
+      "User interface",
+      "User space and kernel space",
+      "Userland (computing)",
+      "WatchOS",
+      "Workstation",
+      "X86-64"
+    ],
+    "page_id": 7580554,
+    "revision_id": 1373093240,
+    "retrieved_at": "2026-09-18T18:08:28.883371+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260826224337|1371514879",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 7580554,
+            "ns": 0,
+            "title": "FreeBSD",
+            "revisions": [
+              {
+                "revid": 1373093240,
+                "parentid": 1371514879
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "FreeBSD_13.0_boot_loader_autoboot_screenshot.png",
+              "wikibase-shortdesc": "Free and open-source Unix-like operating system",
+              "wikibase_item": "Q34236"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "FreeBSD",
+        "pageid": 7580554,
+        "revid": 1373093240,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free and open-source Unix-like operating system</div>\n<p class=\"mw-empty-elt\">\n</p>\n<div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Operating system</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color: #e0e0e0; color: inherit;\">FreeBSD</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:FreeBSD_textlogo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/FreeBSD_textlogo.svg/250px-FreeBSD_textlogo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"200\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/FreeBSD_textlogo.svg/500px-FreeBSD_textlogo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"269\" data-file-height=\"54\" /></a></span><div class=\"infobox-caption\"><i>The Power To Serve</i></div></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:FreeBSD_13.0_boot_loader_autoboot_screenshot.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/FreeBSD_13.0_boot_loader_autoboot_screenshot.png/330px-FreeBSD_13.0_boot_loader_autoboot_screenshot.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"167\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/0/0e/FreeBSD_13.0_boot_loader_autoboot_screenshot.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"720\" data-file-height=\"400\" /></a></span><div class=\"infobox-caption\">FreeBSD <a href=\"/wiki/Booting\" title=\"Booting\">bootloader</a> with <a href=\"/wiki/ASCII_art\" title=\"ASCII art\">ASCII art</a> logo in version 13.0</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\">The FreeBSD Project</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programming_language\" title=\"Programming language\">Written in</a></th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> (C11)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">OS family</th><td class=\"infobox-data\"><a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> (<a href=\"/wiki/Berkeley_Software_Distribution\" title=\"Berkeley Software Distribution\">BSD</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Working state</th><td class=\"infobox-data\">Current</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Source model</th><td class=\"infobox-data\"><a href=\"/wiki/Open_source\" title=\"Open source\">Open source</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Initial release</th><td class=\"infobox-data\">1&#160;November 1993<span class=\"noprint\">&#59;&#32;32 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1993-11-01</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Latest release</a></th><td class=\"infobox-data\">15.1 (16&#160;June 2026<span class=\"noprint\">&#59;&#32;3 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-06-16</span>)</span>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/FreeBSD&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/FreeBSD&amp;action=edit\">&#91;±&#93;</a></span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><br />\n14.4 (10&#160;March 2026<span class=\"noprint\">&#59;&#32;6 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-03-10</span>)</span>)&#32;<span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/FreeBSD&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Template:Latest_stable_software_release/FreeBSD&amp;action=edit\">&#91;±&#93;</a></span><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><br /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://cgit.freebsd.org\">cgit<wbr />.freebsd<wbr />.org</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q34236#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Marketing target</th><td class=\"infobox-data\"><a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">Servers</a>, <a href=\"/wiki/Workstation\" title=\"Workstation\">workstations</a>, <a href=\"/wiki/Embedded_system\" title=\"Embedded system\">embedded systems</a>, <a href=\"/wiki/Firewall_(computing)\" title=\"Firewall (computing)\">network firewalls</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Package_manager\" title=\"Package manager\">Package manager</a></th><td class=\"infobox-data\">pkg</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Supported platforms</th><td class=\"infobox-data\">Tier 1: <a href=\"/wiki/X86-64\" title=\"X86-64\">64-bit x86 (amd64)</a>, <a href=\"/wiki/AArch64\" title=\"AArch64\">64-bit ARM</a><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> (originally only <a href=\"/wiki/IA-32\" title=\"IA-32\">32-bit x86, i386</a>, 32-bit x86  now with tier 2 support and additionally 64-bit <a href=\"/wiki/RISC-V\" title=\"RISC-V\">RISC-V</a>, 32-bit ARMv7, 64-bit <a href=\"/wiki/PowerPC\" title=\"PowerPC\">PowerPC</a>; previously supported e.g. <a href=\"/wiki/MIPS_architecture\" title=\"MIPS architecture\">MIPS</a>, <a href=\"/wiki/IA-64\" title=\"IA-64\">IA-64</a> and <a href=\"/wiki/SPARC\" title=\"SPARC\">SPARC</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">Kernel</a> type</th><td class=\"infobox-data\"><a href=\"/wiki/Monolithic_kernel\" title=\"Monolithic kernel\">Monolithic</a> with <a href=\"/wiki/Loadable_kernel_module\" title=\"Loadable kernel module\">dynamically loadable modules</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/User_space_and_kernel_space\" title=\"User space and kernel space\">Userland</a></th><td class=\"infobox-data\"><a href=\"/wiki/BSD\" class=\"mw-redirect\" title=\"BSD\">BSD</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/User_interface\" title=\"User interface\">Default<br />user interface</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unix_shell\" title=\"Unix shell\">Unix shells</a>: <a href=\"/wiki/Almquist_shell\" title=\"Almquist shell\">sh</a> or <a href=\"/wiki/Tcsh\" title=\"Tcsh\">tcsh</a> (user-selectable) <a href=\"/wiki/C_Shell\" class=\"mw-redirect\" title=\"C Shell\">csh</a> (in the past)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/FreeBSD_License\" class=\"mw-redirect\" title=\"FreeBSD License\">FreeBSD License</a>, <a href=\"/wiki/FreeBSD_Documentation_License\" title=\"FreeBSD Documentation License\">FreeBSD Documentation License</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Official website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.freebsd.org\">www<wbr />.freebsd<wbr />.org</a></span></td></tr></tbody></table>\n<p><b>FreeBSD</b> is a <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\"> free and open-source</a> <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> descended from the <a href=\"/wiki/Berkeley_Software_Distribution\" title=\"Berkeley Software Distribution\">Berkeley Software Distribution</a> (BSD). The first version was released in 1993 developed from <a href=\"/wiki/386BSD\" title=\"386BSD\">386BSD</a>,<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> one of the first fully functional and free <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a> clones on affordable home-class hardware, and has since continuously been the most commonly used BSD-derived operating system.<sup id=\"cite&#95;ref-survey&#95;5-0\" class=\"reference\"><a href=\"#cite_note-survey-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>FreeBSD maintains a complete system, delivering a <a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">kernel</a>, <a href=\"/wiki/Device_driver\" title=\"Device driver\">device drivers</a>, <a href=\"/wiki/Userland_(computing)\" class=\"mw-redirect\" title=\"Userland (computing)\">userland</a> utilities, and documentation, as opposed to <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> only delivering a <a href=\"/wiki/Linux_kernel\" title=\"Linux kernel\">kernel</a> and drivers, and relying on third-parties such as <a href=\"/wiki/GNU\" title=\"GNU\">GNU</a> for system software.<sup id=\"cite&#95;ref-informit-bsd-tree&#95;8-0\" class=\"reference\"><a href=\"#cite_note-informit-bsd-tree-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> The FreeBSD <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> is generally released under a <a href=\"/wiki/Permissive_software_license\" title=\"Permissive software license\">permissive</a> <a href=\"/wiki/FreeBSD_License\" class=\"mw-redirect\" title=\"FreeBSD License\">BSD license</a>, as opposed to the <a href=\"/wiki/Copyleft\" title=\"Copyleft\">copyleft</a> <a href=\"/wiki/GPL\" class=\"mw-redirect\" title=\"GPL\">GPL</a> used by Linux. The project includes a <a href=\"/wiki/Computer_security\" title=\"Computer security\">security</a> team overseeing all software shipped in the base distribution. Third-party <a href=\"/wiki/Application_software\" title=\"Application software\">applications</a> may be installed using the pkg <a href=\"/wiki/Package_manager\" title=\"Package manager\">package management system</a> or from source via <a href=\"/wiki/FreeBSD_Ports\" title=\"FreeBSD Ports\">FreeBSD Ports</a>.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> The project is supported and promoted by the FreeBSD Foundation.\n</p><p>Much of FreeBSD's codebase has become an integral part of other operating systems such as <a href=\"/wiki/Darwin_(operating_system)\" title=\"Darwin (operating system)\">Darwin</a> (the basis for <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/IOS\" title=\"IOS\">iOS</a>, <a href=\"/wiki/IPadOS\" title=\"IPadOS\">iPadOS</a>, <a href=\"/wiki/WatchOS\" title=\"WatchOS\">watchOS</a>, and <a href=\"/wiki/TvOS\" title=\"TvOS\">tvOS</a>), <a href=\"/wiki/TrueNAS\" title=\"TrueNAS\">TrueNAS</a> (an open-source <a href=\"/wiki/Network-attached_storage\" title=\"Network-attached storage\">NAS</a>/<a href=\"/wiki/Storage_area_network\" title=\"Storage area network\">SAN</a> operating system), and the system software for the <a href=\"/wiki/PlayStation_3\" title=\"PlayStation 3\">PlayStation 3</a>,<sup id=\"cite&#95;ref-scei-ps3&#95;10-0\" class=\"reference\"><a href=\"#cite_note-scei-ps3-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-not-all-of-freebsd-ps3&#95;11-0\" class=\"reference\"><a href=\"#cite_note-not-all-of-freebsd-ps3-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/PlayStation_4\" title=\"PlayStation 4\">PlayStation 4</a>,<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/PlayStation_5\" title=\"PlayStation 5\">PlayStation 5</a>,<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/PlayStation_Vita\" title=\"PlayStation Vita\">PlayStation Vita</a><sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> game consoles. FreeBSD contains a large amount of code from <a href=\"/wiki/OpenBSD\" title=\"OpenBSD\">OpenBSD</a> and other current BSD systems.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.freebsd.org/releases/15.1R/announce/\">\"FreeBSD 15.1-RELEASE Announcement\"</a>. FreeBSD.org. 16 June 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 June</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FreeBSD+15.1-RELEASE+Announcement&amp;rft.pub=FreeBSD.org&amp;rft.date=2026-06-16&amp;rft&#95;id=https%3A%2F%2Fwww.freebsd.org%2Freleases%2F15.1R%2Fannounce%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.freebsd.org/releases/14.4R/announce/\">\"FreeBSD 14.4-RELEASE Announcement\"</a>. FreeBSD.org. 10 March 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">10 March</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FreeBSD+14.4-RELEASE+Announcement&amp;rft.pub=FreeBSD.org&amp;rft.date=2026-03-10&amp;rft&#95;id=https%3A%2F%2Fwww.freebsd.org%2Freleases%2F14.4R%2Fannounce%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.freebsd.org/platforms/\">\"Platforms\"</a>. <i>The FreeBSD Project</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 April</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+FreeBSD+Project&amp;rft.atitle=Platforms&amp;rft&#95;id=https%3A%2F%2Fwww.freebsd.org%2Fplatforms%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://people.freebsd.org/~murray/presentations/20050429-msu-freebsd/text2.html\">\"FreeBSD History\"</a>. <i>people.freebsd.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20231124195141/https://people.freebsd.org/~murray/presentations/20050429-msu-freebsd/text2.html\">Archived</a> from the original on 24 November 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 November</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=people.freebsd.org&amp;rft.atitle=FreeBSD+History&amp;rft&#95;id=https%3A%2F%2Fpeople.freebsd.org%2F~murray%2Fpresentations%2F20050429-msu-freebsd%2Ftext2.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-survey-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-survey_5-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>survey</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://sunsite.uakom.sk/sunworldonline/swol-01-1999/swol-01-bsd.html\">\"The return of BSD - SunWorld - January 1999\"</a>. <i>sunsite.uakom.sk</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 November</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=sunsite.uakom.sk&amp;rft.atitle=The+return+of+BSD+-+SunWorld+-+January+1999&amp;rft&#95;id=http%3A%2F%2Fsunsite.uakom.sk%2Fsunworldonline%2Fswol-01-1999%2Fswol-01-bsd.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBy2024\" class=\"citation web cs1\">By (28 October 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://hackaday.com/2024/10/28/freebsd-at-30-the-history-and-future-of-the-most-popular-bsd-based-os/\">\"FreeBSD at 30: The History and Future of the Most Popular BSD-Based OS\"</a>. <i>Hackaday</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20241121191943/https://hackaday.com/2024/10/28/freebsd-at-30-the-history-and-future-of-the-most-popular-bsd-based-os/\">Archived</a> from the original on 21 November 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 November</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Hackaday&amp;rft.atitle=FreeBSD+at+30%3A+The+History+and+Future+of+the+Most+Popular+BSD-Based+OS&amp;rft.date=2024-10-28&amp;rft.au=By&amp;rft&#95;id=https%3A%2F%2Fhackaday.com%2F2024%2F10%2F28%2Ffreebsd-at-30-the-history-and-future-of-the-most-popular-bsd-based-os%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-informit-bsd-tree-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-informit-bsd-tree_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>informit-bsd-tree</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.freebsd.org/en/books/handbook/ports/\">\"Chapter 4. Installing Applications: Packages and Ports\"</a>. <i>FreeBSD Handbook</i>. The FreeBSD Project. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210922103704/https://docs.freebsd.org/en/books/handbook/ports/\">Archived</a> from the original on 22 September 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 June</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=FreeBSD+Handbook&amp;rft.atitle=Chapter+4.+Installing+Applications%3A+Packages+and+Ports&amp;rft&#95;id=https%3A%2F%2Fdocs.freebsd.org%2Fen%2Fbooks%2Fhandbook%2Fports%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-scei-ps3-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-scei-ps3_10-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>scei-ps3</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-not-all-of-freebsd-ps3-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-not-all-of-freebsd-ps3_11-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRosenberg2013\" class=\"citation mailinglist cs1\">Rosenberg, Alex (17 December 2013). <a rel=\"nofollow\" class=\"external text\" href=\"https://lists.freebsd.org/pipermail/freebsd-doc/2013-December/022959.html\">\"FreeBSD Handbook and PS3\"</a>. <i>freebsd-doc</i> (Mailing list). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170202003719/https://lists.freebsd.org/pipermail/freebsd-doc/2013-December/022959.html\">Archived</a> from the original on 2 February 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 January</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FreeBSD+Handbook+and+PS3&amp;rft.date=2013-12-17&amp;rft.aulast=Rosenberg&amp;rft.aufirst=Alex&amp;rft&#95;id=https%3A%2F%2Flists.freebsd.org%2Fpipermail%2Ffreebsd-doc%2F2013-December%2F022959.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.dl.playstation.net/doc/ps3-oss/\">\"Open Source Software used in PlayStation 3\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171111051748/http://doc.dl.playstation.net/doc/ps3-oss/\">Archived</a> from the original on 11 November 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 December</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Open+Source+Software+used+in+PlayStation+3&amp;rft&#95;id=https%3A%2F%2Fdoc.dl.playstation.net%2Fdoc%2Fps3-oss%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.dl.playstation.net/doc/ps4-oss/\">\"Open Source Software used in PlayStation 4\"</a>. Sony Interactive Entertainment. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171212193301/https://doc.dl.playstation.net/doc/ps4-oss/\">Archived</a> from the original on 12 December 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 January</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Open+Source+Software+used+in+PlayStation+4&amp;rft.pub=Sony+Interactive+Entertainment&amp;rft&#95;id=https%3A%2F%2Fdoc.dl.playstation.net%2Fdoc%2Fps4-oss%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.psdevwiki.com/ps5/Kernel\">\"Kernel\"</a>. <i>PlayStation 5 Dev Wiki</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=PlayStation+5+Dev+Wiki&amp;rft.atitle=Kernel&amp;rft&#95;id=https%3A%2F%2Fwww.psdevwiki.com%2Fps5%2FKernel&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.dl.playstation.net/doc/psvita-oss/\">\"Open Source Software used in PlayStation Vita\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171212193301/https://doc.dl.playstation.net/doc/psvita-oss/\">Archived</a> from the original on 12 December 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 December</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Open+Source+Software+used+in+PlayStation+Vita&amp;rft&#95;id=https%3A%2F%2Fdoc.dl.playstation.net%2Fdoc%2Fpsvita-oss%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐9p4wf\nCached time: 20260918180854\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.331 seconds\nReal time usage: 0.433 seconds\nPreprocessor visited node count: 2455/1000000\nRevision size: 6470/2097152 bytes\nPost‐expand include size: 54522/2097152 bytes\nTemplate argument size: 6299/2097152 bytes\nHighest expansion depth: 26/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 30689/5000000 bytes\nLua time usage: 0.170/10.000 seconds\nLua memory usage: 7613520/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  406.769      1 -total\n 34.36%  139.770      1 Template:Infobox_OS\n 31.24%  127.083      1 Template:Infobox\n 22.79%   92.699     11 Template:Cite_web\n 17.63%   71.694      2 Template:Short_description\n 11.07%   45.043      4 Template:Pagetype\n  8.17%   33.213      2 Template:Wikidata\n  6.70%   27.238      6 Template:Broken_ref\n  6.11%   24.852     10 Template:Main_other\n  5.76%   23.450      1 Template:Plainlist\n-->\n\n<!-- Render ID 0244094f-b38c-11f1-8a1b-6fd3727efb54 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "386BSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AArch64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ASCII art",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Almquist shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Berkeley Software Distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Booting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer security",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Copyleft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Darwin (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Device driver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Firewall (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD Documentation License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD Ports",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IPadOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Loadable kernel module",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIPS architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Network-attached storage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open source",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Package manager",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Permissive software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PlayStation 3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PlayStation 4",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PlayStation 5",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PlayStation Vita",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PowerPC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RISC-V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Storage area network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tcsh",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TrueNAS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TvOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User space and kernel space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Userland (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WatchOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Workstation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free and open-source Unix-like operating system",
+          "page_image_free": "FreeBSD_13.0_boot_loader_autoboot_screenshot.png",
+          "wikibase_item": "Q34236"
+        }
+      }
+    }
+  ]
+}

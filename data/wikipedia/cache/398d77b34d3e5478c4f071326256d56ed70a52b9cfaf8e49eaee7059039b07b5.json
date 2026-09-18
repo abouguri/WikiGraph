@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ada (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Ada_%28programming_language%29",
+    "summary": "High-level programming language first released in 1980 Ada Paradigm Multi-paradigm : structured , imperative , object-oriented , aspect-oriented , concurrent , array , distributed , generic , procedural , meta Family Pascal Designed by MIL-STD-1815, Ada 83: Jean Ichbiah Ada 95: Tucker Taft Ada 2005: Tucker Taft Ada 2012: Tucker Taft First appeared February 1980 ; 46 years ago ( 1980-02 ) Stable release Ada 2022 / May 2023 Typing discipline Static , strong , safe , nominal OS Multi- or cross-platform Filename extensions .adb, .ads Website adaic.org Major implementations AdaCore GNAT , Green Hills Software Optimising Ada 95 compiler, PTC ApexAda and ObjectAda, MapuSoft Ada-C/C++ changer, formerly known as \"AdaMagic with C Intermediate\", DDC-I Score Dialects SPARK , Ravenscar profile Influenced by ALGOL 68 , Pascal , Simula 67, C++ (Ada 95), Smalltalk (Ada 95), Modula-2 (Ada 95) Java (Ada 2005), Eiffel (Ada 2012) Influenced C++ , Chapel , Drago , D , Eiffel , Griffin, Java , Nim , ParaSail , PL/SQL , PL/pgSQL , Python , Ruby , SPARforte, Sparkel , SQL/PSM , VHDL Ada Programming at Wikibooks Ada is a structured , statically typed , imperative , and object-oriented high-level programming language , inspired by Pascal and other languages. It has built-in language support for design by contract (DbC), extremely strong typing , explicit concurrency, tasks, synchronous message passing , protected objects , and non-determinism . Ada improves code safety and maintainability by using the compiler to find errors in favor of runtime errors. Ada is an international technical standard , jointly defined by the International Organization for Standardization (ISO), and the International Electrotechnical Commission (IEC). As of May 2023 [update] , the standard, ISO/IEC 8652:2023, is called Ada 2022 informally. Ada was originally designed by a team led by French computer scientist Jean Ichbiah of Honeywell under contract to the United States Department of Defense (DoD) from 1977 to 1983 to supersede over 450 programming languages then used by the DoD. Ada was named after Ada Lovelace (1815–1852), who has been credited as the first computer programmer. ^ \"Ada2012 Rationale\" (PDF) . adacore.com . Archived (PDF) from the original on 18 April 2016 . Retrieved 5 May 2018 . ^ \"Commercial software solutions for Ada, C and C++\" . AdaCore . Retrieved Apr 4, 2023 . ^ \"PTC ObjectAda\" . PTC.com . Retrieved 2014-01-27 . ^ \"MapuSoft Ada-C/C++ changer\" . 16 April 2019. ^ \"Ada 95 Certified Processors List – Details\" . ada-auth.org . Retrieved Apr 4, 2023 . ^ Ada Rationale, 1986, pp. 23, 70, 110–114, 137, 165, 236 ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. 2015-10-01. Archived (PDF) from the original on 2022-10-09 . Retrieved 2016-01-14 . ^ \"Drago\" . Archived from the original on 2020-09-14 . Retrieved 2018-08-06 . ^ \"The Griffin Project\" . cs.nyu.edu . Retrieved Apr 4, 2023 . ^ \"SparForte Programming Language\" . www.sparforte.com . Retrieved Apr 4, 2023 . ^ https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub119.pdf Ada programming language ^ Pinho, Luis Miguel (June 2023). \"From the Editor's Desk\" . Ada Letters . XLIII (1). Association for Computing Machinery: 3. doi : 10.1145/3631483 (inactive 1 July 2025). {{ cite journal }} : CS1 maint: DOI inactive as of July 2025 ( link ) ^ \"The Ada Programming Language\" . University of Mich . Archived from the original on 2016-05-22 . Retrieved 27 May 2016 . ^ Fuegi, J; Francis, J (2003). \"Lovelace & Babbage and the creation of the 1843 'notes' \". IEEE Annals of the History of Computing . 25 (4): 16– 26. doi : 10.1109/MAHC.2003.1253887 . S2CID 40077111 .",
+    "text": "High-level programming language first released in 1980 Ada Paradigm Multi-paradigm : structured , imperative , object-oriented , aspect-oriented , concurrent , array , distributed , generic , procedural , meta Family Pascal Designed by MIL-STD-1815, Ada 83: Jean Ichbiah Ada 95: Tucker Taft Ada 2005: Tucker Taft Ada 2012: Tucker Taft First appeared February 1980 ; 46 years ago ( 1980-02 ) Stable release Ada 2022 / May 2023 Typing discipline Static , strong , safe , nominal OS Multi- or cross-platform Filename extensions .adb, .ads Website adaic.org Major implementations AdaCore GNAT , Green Hills Software Optimising Ada 95 compiler, PTC ApexAda and ObjectAda, MapuSoft Ada-C/C++ changer, formerly known as \"AdaMagic with C Intermediate\", DDC-I Score Dialects SPARK , Ravenscar profile Influenced by ALGOL 68 , Pascal , Simula 67, C++ (Ada 95), Smalltalk (Ada 95), Modula-2 (Ada 95) Java (Ada 2005), Eiffel (Ada 2012) Influenced C++ , Chapel , Drago , D , Eiffel , Griffin, Java , Nim , ParaSail , PL/SQL , PL/pgSQL , Python , Ruby , SPARforte, Sparkel , SQL/PSM , VHDL Ada Programming at Wikibooks Ada is a structured , statically typed , imperative , and object-oriented high-level programming language , inspired by Pascal and other languages. It has built-in language support for design by contract (DbC), extremely strong typing , explicit concurrency, tasks, synchronous message passing , protected objects , and non-determinism . Ada improves code safety and maintainability by using the compiler to find errors in favor of runtime errors. Ada is an international technical standard , jointly defined by the International Organization for Standardization (ISO), and the International Electrotechnical Commission (IEC). As of May 2023 [update] , the standard, ISO/IEC 8652:2023, is called Ada 2022 informally. Ada was originally designed by a team led by French computer scientist Jean Ichbiah of Honeywell under contract to the United States Department of Defense (DoD) from 1977 to 1983 to supersede over 450 programming languages then used by the DoD. Ada was named after Ada Lovelace (1815–1852), who has been credited as the first computer programmer. ^ \"Ada2012 Rationale\" (PDF) . adacore.com . Archived (PDF) from the original on 18 April 2016 . Retrieved 5 May 2018 . ^ \"Commercial software solutions for Ada, C and C++\" . AdaCore . Retrieved Apr 4, 2023 . ^ \"PTC ObjectAda\" . PTC.com . Retrieved 2014-01-27 . ^ \"MapuSoft Ada-C/C++ changer\" . 16 April 2019. ^ \"Ada 95 Certified Processors List – Details\" . ada-auth.org . Retrieved Apr 4, 2023 . ^ Ada Rationale, 1986, pp. 23, 70, 110–114, 137, 165, 236 ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. 2015-10-01. Archived (PDF) from the original on 2022-10-09 . Retrieved 2016-01-14 . ^ \"Drago\" . Archived from the original on 2020-09-14 . Retrieved 2018-08-06 . ^ \"The Griffin Project\" . cs.nyu.edu . Retrieved Apr 4, 2023 . ^ \"SparForte Programming Language\" . www.sparforte.com . Retrieved Apr 4, 2023 . ^ https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub119.pdf Ada programming language ^ Pinho, Luis Miguel (June 2023). \"From the Editor's Desk\" . Ada Letters . XLIII (1). Association for Computing Machinery: 3. doi : 10.1145/3631483 (inactive 1 July 2025). {{ cite journal }} : CS1 maint: DOI inactive as of July 2025 ( link ) ^ \"The Ada Programming Language\" . University of Mich . Archived from the original on 2016-05-22 . Retrieved 27 May 2016 . ^ Fuegi, J; Francis, J (2003). \"Lovelace & Babbage and the creation of the 1843 'notes' \". IEEE Annals of the History of Computing . 25 (4): 16– 26. doi : 10.1109/MAHC.2003.1253887 . S2CID 40077111 .",
+    "links": [
+      "1977",
+      "1983",
+      "ALGOL 68",
+      "Ada Lovelace",
+      "Array programming",
+      "Aspect-oriented programming",
+      "C++",
+      "Chapel (programming language)",
+      "Compiler",
+      "Computer scientist",
+      "Concurrent programming",
+      "Cross-platform",
+      "D (programming language)",
+      "DDC-I",
+      "Design by contract",
+      "Distributed computing",
+      "Doi (identifier)",
+      "Drago (programming language)",
+      "Eiffel (programming language)",
+      "Filename extension",
+      "GNAT",
+      "Generic programming",
+      "Green Hills Software",
+      "Groupe Bull",
+      "High-level programming language",
+      "Imperative programming",
+      "International Electrotechnical Commission",
+      "International Organization for Standardization",
+      "International standard",
+      "Java (programming language)",
+      "Jean Ichbiah",
+      "Message passing",
+      "Metaprogramming",
+      "Modula-2",
+      "Multi-paradigm programming language",
+      "Nim (programming language)",
+      "Nominal type system",
+      "Nondeterministic programming",
+      "Object (computer science)",
+      "Object-oriented programming",
+      "Operating system",
+      "PL/SQL",
+      "PL/pgSQL",
+      "PTC (software company)",
+      "ParaSail (programming language)",
+      "Pascal (programming language)",
+      "Procedural programming",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Python (programming language)",
+      "Ravenscar profile",
+      "Ruby (programming language)",
+      "Runtime (program lifecycle phase)",
+      "S2CID (identifier)",
+      "SPARK (programming language)",
+      "SQL/PSM",
+      "Simula",
+      "Smalltalk",
+      "Software design",
+      "Software release life cycle",
+      "Static typing",
+      "Statically typed",
+      "Strong and weak typing",
+      "Structured programming",
+      "Technical standard",
+      "Type safety",
+      "Type system",
+      "United States Department of Defense",
+      "VHDL"
+    ],
+    "page_id": 1242,
+    "revision_id": 1365106242,
+    "retrieved_at": "2026-09-18T18:07:44.782957+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260524180422|1355918922",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1242,
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "revisions": [
+              {
+                "revid": 1365106242,
+                "parentid": 1355918922
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Ada_horizon_green_logo_with_slogan.svg",
+              "wikibase-shortdesc": "High-level programming language first released in 1980",
+              "wikibase_item": "Q154755"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Ada (programming language)",
+        "pageid": 1242,
+        "revid": 1365106242,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">High-level programming language first released in 1980</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Ada</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Ada_horizon_green_logo_with_slogan.svg\" class=\"mw-file-description\"><img alt=\"Green logo on horizon with Ada letters and slogan\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ada_horizon_green_logo_with_slogan.svg/250px-Ada_horizon_green_logo_with_slogan.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"200\" height=\"114\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ada_horizon_green_logo_with_slogan.svg/500px-Ada_horizon_green_logo_with_slogan.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"280\" data-file-height=\"160\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Aspect-oriented_programming\" title=\"Aspect-oriented programming\">aspect-oriented</a>,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Concurrent_programming\" class=\"mw-redirect\" title=\"Concurrent programming\">concurrent</a>, <a href=\"/wiki/Array_programming\" title=\"Array programming\">array</a>, <a href=\"/wiki/Distributed_computing\" title=\"Distributed computing\">distributed</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Metaprogramming\" title=\"Metaprogramming\">meta</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\">\n<ul><li>MIL-STD-1815, Ada 83: <a href=\"/wiki/Jean_Ichbiah\" title=\"Jean Ichbiah\">Jean Ichbiah</a></li>\n<li>Ada 95: Tucker Taft</li>\n<li>Ada 2005: Tucker Taft</li>\n<li>Ada 2012: Tucker Taft</li></ul>\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">February&#160;1980<span class=\"noprint\">&#59;&#32;46&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1980-02</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Ada 2022\n   / May 2023</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">Static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Type_safety\" title=\"Type safety\">safe</a>, <a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominal</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\">Multi- or <a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.adb, .ads</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.adaic.org/\">adaic.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">AdaCore <a href=\"/wiki/GNAT\" title=\"GNAT\">GNAT</a>,<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/Green_Hills_Software\" title=\"Green Hills Software\">Green Hills Software</a> Optimising Ada 95 compiler,<br /><a href=\"/wiki/PTC_(software_company)\" class=\"mw-redirect\" title=\"PTC (software company)\">PTC</a> ApexAda and ObjectAda,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><br />MapuSoft Ada-C/C++ changer,<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> formerly known as \"AdaMagic with C Intermediate\",<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/DDC-I\" title=\"DDC-I\">DDC-I</a> Score</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/SPARK_(programming_language)\" title=\"SPARK (programming language)\">SPARK</a>, <a href=\"/wiki/Ravenscar_profile\" title=\"Ravenscar profile\">Ravenscar profile</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ALGOL_68\" title=\"ALGOL 68\">ALGOL 68</a>, <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>, <a href=\"/wiki/Simula\" title=\"Simula\">Simula</a> 67,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> (Ada 95), <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a> (Ada 95), <a href=\"/wiki/Modula-2\" title=\"Modula-2\">Modula-2</a> (Ada 95) <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a> (Ada 2005), <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a> (Ada 2012)</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Chapel_(programming_language)\" title=\"Chapel (programming language)\">Chapel</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/w/index.php?title=Drago_(programming_language)&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Drago (programming language) (page does not exist)\">Drago</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>, <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>, Griffin,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/Nim_(programming_language)\" title=\"Nim (programming language)\">Nim</a>, <a href=\"/wiki/ParaSail_(programming_language)\" title=\"ParaSail (programming language)\">ParaSail</a>, <a href=\"/wiki/PL/SQL\" title=\"PL/SQL\">PL/SQL</a>, <a href=\"/wiki/PL/pgSQL\" title=\"PL/pgSQL\">PL/pgSQL</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, SPARforte,<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/ParaSail_(programming_language)#Description\" title=\"ParaSail (programming language)\">Sparkel</a>, <a href=\"/wiki/SQL/PSM\" title=\"SQL/PSM\">SQL/PSM</a>, <a href=\"/wiki/VHDL\" title=\"VHDL\">VHDL</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Ada_Programming\" class=\"extiw\" title=\"wikibooks:Ada Programming\">Ada Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>Ada</b> is a <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Statically_typed\" class=\"mw-redirect\" title=\"Statically typed\">statically typed</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, and <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level programming language</a>, inspired by <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a> and other languages. It has built-in language support for <i><a href=\"/wiki/Design_by_contract\" title=\"Design by contract\">design by contract</a></i> (DbC), extremely <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong typing</a>, explicit concurrency, tasks, synchronous <a href=\"/wiki/Message_passing\" title=\"Message passing\">message passing</a>, protected <a href=\"/wiki/Object_(computer_science)\" title=\"Object (computer science)\">objects</a>, and <a href=\"/wiki/Nondeterministic_programming\" title=\"Nondeterministic programming\">non-determinism</a>. Ada improves code safety and maintainability by using the <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> to find errors in favor of <a href=\"/wiki/Runtime_(program_lifecycle_phase)\" class=\"mw-redirect\" title=\"Runtime (program lifecycle phase)\">runtime</a> errors. Ada is an <a href=\"/wiki/International_standard\" title=\"International standard\">international</a> <a href=\"/wiki/Technical_standard\" title=\"Technical standard\">technical standard</a>, jointly defined by the <a href=\"/wiki/International_Organization_for_Standardization\" title=\"International Organization for Standardization\">International Organization for Standardization</a> (ISO), and the <a href=\"/wiki/International_Electrotechnical_Commission\" title=\"International Electrotechnical Commission\">International Electrotechnical Commission</a> (IEC). As of May 2023<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Ada_(programming_language)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Ada_(programming_language)&amp;action=edit\">&#91;update&#93;</a></sup>, the standard, ISO/IEC 8652:2023, is called Ada 2022 informally.<sup id=\"cite&#95;ref-:0&#95;11-0\" class=\"reference\"><a href=\"#cite_note-:0-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-ada-letters-june2023&#95;12-0\" class=\"reference\"><a href=\"#cite_note-ada-letters-june2023-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Ada was originally designed by a team led by French <a href=\"/wiki/Computer_scientist\" title=\"Computer scientist\">computer scientist</a> <a href=\"/wiki/Jean_Ichbiah\" title=\"Jean Ichbiah\">Jean Ichbiah</a> of <a href=\"/wiki/Groupe_Bull\" title=\"Groupe Bull\">Honeywell</a> under contract to the <a href=\"/wiki/United_States_Department_of_Defense\" title=\"United States Department of Defense\">United States Department of Defense</a> (DoD) from <a href=\"/wiki/1977\" title=\"1977\">1977</a> to <a href=\"/wiki/1983\" title=\"1983\">1983</a> to supersede over 450 programming languages then used by the DoD.<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> Ada was named after <a href=\"/wiki/Ada_Lovelace\" title=\"Ada Lovelace\">Ada Lovelace</a> (1815–1852), who has been credited as the first computer programmer.<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.adacore.com/uploads/technical-papers/Ada2012_Rational_Introducion.pdf\">\"Ada2012 Rationale\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>adacore.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160418132340/http://www.adacore.com/uploads/technical-papers/Ada2012_Rational_Introducion.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 18 April 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">5 May</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=adacore.com&amp;rft.atitle=Ada2012+Rationale&amp;rft&#95;id=http%3A%2F%2Fwww.adacore.com%2Fuploads%2Ftechnical-papers%2FAda2012&#95;Rational&#95;Introducion.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.adacore.com/download\">\"Commercial software solutions for Ada, C and C++\"</a>. <i>AdaCore</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">Apr 4,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=AdaCore&amp;rft.atitle=Commercial+software+solutions+for+Ada%2C+C+and+C%2B%2B&amp;rft&#95;id=https%3A%2F%2Fwww.adacore.com%2Fdownload&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation news cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.ptc.com/developer-tools/objectada\">\"PTC ObjectAda\"</a>. PTC.com<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-01-27</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=PTC+ObjectAda&amp;rft&#95;id=http%3A%2F%2Fwww.ptc.com%2Fdeveloper-tools%2Fobjectada&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.mapusoft.com/ada-to-c-changer/\">\"MapuSoft Ada-C/C++ changer\"</a>. 16 April 2019.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=MapuSoft+Ada-C%2FC%2B%2B+changer&amp;rft.date=2019-04-16&amp;rft&#95;id=https%3A%2F%2Fwww.mapusoft.com%2Fada-to-c-changer%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://ada-auth.org/cpl/details/151.html\">\"Ada 95 Certified Processors List – Details\"</a>. <i>ada-auth.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">Apr 4,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ada-auth.org&amp;rft.atitle=Ada+95+Certified+Processors+List+%E2%80%93+Details&amp;rft&#95;id=http%3A%2F%2Fada-auth.org%2Fcpl%2Fdetails%2F151.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\">Ada Rationale, 1986, pp. 23, 70, 110–114, 137, 165, 236</span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://chapel.cray.com/spec/spec-0.98.pdf\">\"Chapel spec (Acknowledgements)\"</a> <span class=\"cs1-format\">(PDF)</span>. Cray Inc. 2015-10-01. <a rel=\"nofollow\" class=\"external text\" href=\"https://ghostarchive.org/archive/20221009/http://chapel.cray.com/spec/spec-0.98.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 2022-10-09<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-01-14</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chapel+spec+%28Acknowledgements%29&amp;rft.pub=Cray+Inc&amp;rft.date=2015-10-01&amp;rft&#95;id=http%3A%2F%2Fchapel.cray.com%2Fspec%2Fspec-0.98.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200914212150/http://www.iuma.ulpgc.es/users/gsd/Drago/\">\"Drago\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.iuma.ulpgc.es/users/gsd/Drago/\">the original</a> on 2020-09-14<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2018-08-06</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Drago&amp;rft&#95;id=http%3A%2F%2Fwww.iuma.ulpgc.es%2Fusers%2Fgsd%2FDrago%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://cs.nyu.edu/~goldberg/griffin.html\">\"The Griffin Project\"</a>. <i>cs.nyu.edu</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">Apr 4,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=cs.nyu.edu&amp;rft.atitle=The+Griffin+Project&amp;rft&#95;id=https%3A%2F%2Fcs.nyu.edu%2F~goldberg%2Fgriffin.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.sparforte.com/\">\"SparForte Programming Language\"</a>. <i>www.sparforte.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">Apr 4,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.sparforte.com&amp;rft.atitle=SparForte+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fwww.sparforte.com%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_11-0\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external free\" href=\"https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub119.pdf\">https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub119.pdf</a> Ada programming language</span>\n</li>\n<li id=\"cite&#95;note-ada-letters-june2023-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-ada-letters-june2023_12-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFPinho2023\" class=\"citation journal cs1\">Pinho, Luis Miguel (June 2023). <a rel=\"nofollow\" class=\"external text\" href=\"https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3631483\">\"From the Editor's Desk\"</a>. <i>Ada Letters</i>. <b>XLIII</b> (1). Association for Computing Machinery: 3. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F3631483\">10.1145/3631483</a> (inactive 1 July 2025).</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Ada+Letters&amp;rft.atitle=From+the+Editor%27s+Desk&amp;rft.volume=XLIII&amp;rft.issue=1&amp;rft.pages=3&amp;rft.date=2023-06&amp;rft&#95;id=info%3Adoi%2F10.1145%2F3631483&amp;rft.aulast=Pinho&amp;rft.aufirst=Luis+Miguel&amp;rft&#95;id=https%3A%2F%2Fdl.acm.org%2Faction%2FshowFmPdf%3Fdoi%3D10.1145%252F3631483&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_journal\" title=\"Template:Cite journal\">cite journal</a>}}</code>:  CS1 maint: DOI inactive as of July 2025 (<a href=\"/wiki/Category:CS1_maint:_DOI_inactive_as_of_July_2025\" title=\"Category:CS1 maint: DOI inactive as of July 2025\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160522063844/http://groups.engin.umd.umich.edu/CIS/course.des/cis400/ada/ada.html\">\"The Ada Programming Language\"</a>. <i>University of Mich</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://groups.engin.umd.umich.edu/CIS/course.des/cis400/ada/ada.html\">the original</a> on 2016-05-22<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">27 May</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=University+of+Mich&amp;rft.atitle=The+Ada+Programming+Language&amp;rft&#95;id=http%3A%2F%2Fgroups.engin.umd.umich.edu%2FCIS%2Fcourse.des%2Fcis400%2Fada%2Fada.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFuegiFrancis2003\" class=\"citation journal cs1\">Fuegi, J; Francis, J (2003). \"Lovelace &amp; Babbage and the creation of the 1843 'notes'<span class=\"cs1-kern-right\"></span>\". <i>IEEE Annals of the History of Computing</i>. <b>25</b> (4): <span class=\"nowrap\">16–</span>26. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1109%2FMAHC.2003.1253887\">10.1109/MAHC.2003.1253887</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:40077111\">40077111</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Annals+of+the+History+of+Computing&amp;rft.atitle=Lovelace+%26+Babbage+and+the+creation+of+the+1843+%27notes%27&amp;rft.volume=25&amp;rft.issue=4&amp;rft.pages=16-26&amp;rft.date=2003&amp;rft&#95;id=info%3Adoi%2F10.1109%2FMAHC.2003.1253887&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A40077111%23id-name%3DS2CID&amp;rft.aulast=Fuegi&amp;rft.aufirst=J&amp;rft.au=Francis%2C+J&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐ddwrg\nCached time: 20260918180810\nCache expiry: 21600\nCache expiry source: Template:As_of (#time)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.455 seconds\nReal time usage: 0.635 seconds\nPreprocessor visited node count: 1470/1000000\nRevision size: 6714/2097152 bytes\nPost‐expand include size: 38983/2097152 bytes\nTemplate argument size: 5340/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 34527/5000000 bytes\nLua time usage: 0.289/10.000 seconds\nLua memory usage: 5902557/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  573.099      1 -total\n 34.50%  197.734      2 Template:Infobox\n 30.34%  173.884      9 Template:Cite_web\n 29.12%  166.904      1 Template:Infobox_programming_language\n 25.24%  144.627      1 Template:Short_description\n 12.86%   73.726      2 Template:Pagetype\n  9.10%   52.140      5 Template:Main_other\n  8.46%   48.504      1 Template:SDcat\n  7.46%   42.737      1 Template:Infobox_software/simple\n  6.76%   38.732      1 Template:As_of\n-->\n\n<!-- Render ID e80a2d77-b38b-11f1-bf1e-715ab7555821 -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Cite journal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "1977",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "1983",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 68",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada Lovelace",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Aspect-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chapel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer scientist",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DDC-I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Design by contract",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Distributed computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNAT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Green Hills Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Groupe Bull",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Electrotechnical Commission",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Organization for Standardization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International standard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jean Ichbiah",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Message passing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaprogramming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nim (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nondeterministic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/SQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/pgSQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PTC (software company)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ParaSail (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ravenscar profile",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime (program lifecycle phase)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARK (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL/PSM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Statically typed",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Technical standard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "United States Department of Defense",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VHDL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Drago (programming language)",
+            "exists": false
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: DOI inactive as of July 2025",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "High-level programming language first released in 1980",
+          "page_image_free": "Ada_horizon_green_logo_with_slogan.svg",
+          "wikibase_item": "Q154755"
+        }
+      }
+    }
+  ]
+}

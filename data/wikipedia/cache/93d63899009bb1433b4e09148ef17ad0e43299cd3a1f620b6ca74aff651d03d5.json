@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Cross-platform software",
+    "url": "https://en.wikipedia.org/wiki/Cross-platform_software",
+    "summary": "Computer software installed on multiple computing platforms \"Cross-platform\" redirects here. For the railway station interchange, see cross-platform interchange . For the game term, see cross-platform play . \"Multi-platform\" redirects here. For the mode of storytelling in television, see multi-platform television . VirtualBox about screen with representations of all major desktop operating system platforms Within computing , cross-platform software (also called multi-platform software , platform-agnostic software , or platform-independent software ) is computer software that is designed to work in several computing platforms . Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. For example, a cross-platform application may run on Linux , macOS and Microsoft Windows . Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One , ArkUI-X, Kivy , Qt , GTK , Flutter , NativeScript , Xamarin , Apache Cordova , Ionic , and React Native . ^ \"Design Guidelines: Glossary\" . java.sun.com. Archived from the original on 2012-02-13 . Retrieved 2011-10-19 . ^ \"SDD Technology blog: Definition of cross platform\" . SDD Technology . Retrieved 2020-10-18 . ^ Lee P Richardson (2016-02-16). \"Xamarin vs Ionic: A Mobile, Cross Platform, Shootout\" .",
+    "text": "Computer software installed on multiple computing platforms \"Cross-platform\" redirects here. For the railway station interchange, see cross-platform interchange . For the game term, see cross-platform play . \"Multi-platform\" redirects here. For the mode of storytelling in television, see multi-platform television . VirtualBox about screen with representations of all major desktop operating system platforms Within computing , cross-platform software (also called multi-platform software , platform-agnostic software , or platform-independent software ) is computer software that is designed to work in several computing platforms . Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. For example, a cross-platform application may run on Linux , macOS and Microsoft Windows . Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One , ArkUI-X, Kivy , Qt , GTK , Flutter , NativeScript , Xamarin , Apache Cordova , Ionic , and React Native . ^ \"Design Guidelines: Glossary\" . java.sun.com. Archived from the original on 2012-02-13 . Retrieved 2011-10-19 . ^ \"SDD Technology blog: Definition of cross platform\" . SDD Technology . Retrieved 2020-10-18 . ^ Lee P Richardson (2016-02-16). \"Xamarin vs Ionic: A Mobile, Cross Platform, Shootout\" .",
+    "links": [
+      "Apache Cordova",
+      "Application software",
+      "Bytecode",
+      "Codename One",
+      "Computer software",
+      "Computing",
+      "Computing platform",
+      "Cross-platform interchange",
+      "Cross-platform play",
+      "Flutter (software)",
+      "GTK",
+      "Interpreted language",
+      "Interpreter (computing)",
+      "Ionic (mobile app framework)",
+      "Kivy (framework)",
+      "Linux",
+      "MacOS",
+      "Microsoft Windows",
+      "Multi-platform television",
+      "NativeScript",
+      "Qt (software)",
+      "React Native",
+      "VirtualBox",
+      "Xamarin"
+    ],
+    "page_id": 81193,
+    "revision_id": 1371896948,
+    "retrieved_at": "2026-09-18T18:07:39.876024+00:00",
+    "aliases": [
+      "Cross-platform"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260817210824|1369893471",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Cross-platform",
+            "to": "Cross-platform software"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 81193,
+            "ns": 0,
+            "title": "Cross-platform software",
+            "revisions": [
+              {
+                "revid": 1371896948,
+                "parentid": 1369893471
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "About_VirtualBox_OSE.png",
+              "wikibase-shortdesc": "Computer software installed on multiple computing platforms",
+              "wikibase_item": "Q56842894"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Cross-platform software",
+        "pageid": 81193,
+        "revid": 1371896948,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Computer software installed on multiple computing platforms</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Cross-platform\" redirects here. For the railway station interchange, see <a href=\"/wiki/Cross-platform_interchange\" title=\"Cross-platform interchange\">cross-platform interchange</a>. For the game term, see <a href=\"/wiki/Cross-platform_play\" title=\"Cross-platform play\">cross-platform play</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Multi-platform\" redirects here. For the mode of storytelling in television, see <a href=\"/wiki/Multi-platform_television\" title=\"Multi-platform television\">multi-platform television</a>.</div>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:About_VirtualBox_OSE.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/71/About_VirtualBox_OSE.png/250px-About_VirtualBox_OSE.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"167\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/71/About_VirtualBox_OSE.png/500px-About_VirtualBox_OSE.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"600\" data-file-height=\"400\" /></a><figcaption><a href=\"/wiki/VirtualBox\" title=\"VirtualBox\">VirtualBox</a> about screen with representations of all major desktop operating system platforms</figcaption></figure>\n<p>Within <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, <b>cross-platform software</b> (also called <b>multi-platform software</b>, <b>platform-agnostic software</b>, or <b>platform-independent software</b>) is <a href=\"/wiki/Computer_software\" class=\"mw-redirect\" title=\"Computer software\">computer software</a> that is designed to work in several <a href=\"/wiki/Computing_platform\" title=\"Computing platform\">computing platforms</a>.<sup id=\"cite&#95;ref-Sun-Web-00&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Sun-Web-00-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an <a href=\"/wiki/Interpreted_language\" class=\"mw-redirect\" title=\"Interpreted language\">interpreted language</a> or compiled to portable <a href=\"/wiki/Bytecode\" title=\"Bytecode\">bytecode</a> for which the <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreters</a> or run-time packages are common or standard components of all supported platforms.<sup id=\"cite&#95;ref-pcmag&#95;cross&#95;platform&#95;2-0\" class=\"reference\"><a href=\"#cite_note-pcmag_cross_platform-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>For example, a cross-platform <a href=\"/wiki/Application_software\" title=\"Application software\">application</a> may run on <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a> and <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Microsoft Windows</a>. Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are <a href=\"/wiki/Codename_One\" title=\"Codename One\">Codename One</a>, ArkUI-X, <a href=\"/wiki/Kivy_(framework)\" title=\"Kivy (framework)\">Kivy</a>, <a href=\"/wiki/Qt_(software)\" title=\"Qt (software)\">Qt</a>, <a href=\"/wiki/GTK\" title=\"GTK\">GTK</a>, <a href=\"/wiki/Flutter_(software)\" title=\"Flutter (software)\">Flutter</a>, <a href=\"/wiki/NativeScript\" title=\"NativeScript\">NativeScript</a>, <a href=\"/wiki/Xamarin\" title=\"Xamarin\">Xamarin</a>, <a href=\"/wiki/Apache_Cordova\" title=\"Apache Cordova\">Apache Cordova</a>, <a href=\"/wiki/Ionic_(mobile_app_framework)\" title=\"Ionic (mobile app framework)\">Ionic</a>, and <a href=\"/wiki/React_Native\" title=\"React Native\">React Native</a>.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Sun-Web-00-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Sun-Web-00_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120213051244/http://java.sun.com/products/jlf/ed1/dg/higq.htm\">\"Design Guidelines: Glossary\"</a>. java.sun.com. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://java.sun.com/products/jlf/ed1/dg/higq.htm\">the original</a> on 2012-02-13<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2011-10-19</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Design+Guidelines%3A+Glossary&amp;rft.pub=java.sun.com&amp;rft&#95;id=http%3A%2F%2Fjava.sun.com%2Fproducts%2Fjlf%2Fed1%2Fdg%2Fhigq.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACross-platform+software\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-pcmag&#95;cross&#95;platform-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-pcmag_cross_platform_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.sdd-technology.com/news/definition-of-cross-platform\">\"SDD Technology blog: Definition of cross platform\"</a>. SDD Technology<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-10-18</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=SDD+Technology+blog%3A+Definition+of+cross+platform&amp;rft.pub=SDD+Technology&amp;rft&#95;id=https%3A%2F%2Fwww.sdd-technology.com%2Fnews%2Fdefinition-of-cross-platform&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACross-platform+software\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLee&#95;P&#95;Richardson2016\" class=\"citation web cs1\">Lee P Richardson (2016-02-16). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.codeproject.com/articles/1079101/xamarin-vs-ionic-a-mobile-cross-platform-shootout\">\"Xamarin vs Ionic: A Mobile, Cross Platform, Shootout\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Xamarin+vs+Ionic%3A+A+Mobile%2C+Cross+Platform%2C+Shootout&amp;rft.date=2016-02-16&amp;rft.au=Lee+P+Richardson&amp;rft&#95;id=https%3A%2F%2Fwww.codeproject.com%2Farticles%2F1079101%2Fxamarin-vs-ionic-a-mobile-cross-platform-shootout&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACross-platform+software\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐vt5lt\nCached time: 20260918180805\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.088 seconds\nReal time usage: 0.137 seconds\nPreprocessor visited node count: 236/1000000\nRevision size: 2282/2097152 bytes\nPost‐expand include size: 6234/2097152 bytes\nTemplate argument size: 627/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7985/5000000 bytes\nLua time usage: 0.062/10.000 seconds\nLua memory usage: 4177710/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  122.995      1 -total\n 42.24%   51.955      3 Template:Cite_web\n 36.40%   44.767      1 Template:Short_description\n 20.76%   25.532      2 Template:Pagetype\n 18.05%   22.206      2 Template:Redirect\n  9.73%   11.968      2 Template:Main_other\n  8.54%   10.506      1 Template:SDcat\n  1.06%    1.307      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID e50f3de7-b38b-11f1-88d0-2fe743e8f03b -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Cross-platform interchange",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform play",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-platform television",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Cordova",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Codename One",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flutter (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GTK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreted language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ionic (mobile app framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kivy (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NativeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Qt (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "React Native",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VirtualBox",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xamarin",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Computer software installed on multiple computing platforms",
+          "page_image_free": "About_VirtualBox_OSE.png",
+          "wikibase_item": "Q56842894"
+        }
+      }
+    }
+  ]
+}

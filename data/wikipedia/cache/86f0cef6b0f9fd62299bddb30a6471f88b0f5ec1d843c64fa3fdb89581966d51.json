@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Automated theorem proving",
+    "url": "https://en.wikipedia.org/wiki/Automated_theorem_proving",
+    "summary": "Subfield of automated reasoning and mathematical logic Automated theorem proving (also known as ATP or automated deduction ) is a subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs . Automated reasoning over mathematical proof was a major motivating factor for the development of computer science .",
+    "text": "Subfield of automated reasoning and mathematical logic Automated theorem proving (also known as ATP or automated deduction ) is a subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs . Automated reasoning over mathematical proof was a major motivating factor for the development of computer science .",
+    "links": [
+      "Automated reasoning",
+      "Computer program",
+      "Computer science",
+      "Mathematical logic",
+      "Mathematical proof",
+      "Mathematical theorem"
+    ],
+    "page_id": 2546,
+    "revision_id": 1374820166,
+    "retrieved_at": "2026-09-18T18:10:17.701804+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260908153714|1373891375",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 2546,
+            "ns": 0,
+            "title": "Automated theorem proving",
+            "revisions": [
+              {
+                "revid": 1374820166,
+                "parentid": 1373891375
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Automated Theorem Proving",
+              "wikibase-shortdesc": "Subfield of automated reasoning and mathematical logic",
+              "wikibase_item": "Q431667"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Automated theorem proving",
+        "pageid": 2546,
+        "revid": 1374820166,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Subfield of automated reasoning and mathematical logic</div>\n<p><b>Automated theorem proving</b> (also known as <b>ATP</b> or <b>automated deduction</b>) is a subfield of <a href=\"/wiki/Automated_reasoning\" title=\"Automated reasoning\">automated reasoning</a> and <a href=\"/wiki/Mathematical_logic\" title=\"Mathematical logic\">mathematical logic</a> dealing with proving <a href=\"/wiki/Mathematical_theorem\" class=\"mw-redirect\" title=\"Mathematical theorem\">mathematical theorems</a> by <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer programs</a>. Automated reasoning over <a href=\"/wiki/Mathematical_proof\" title=\"Mathematical proof\">mathematical proof</a> was a major motivating factor for the development of <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐87rbp\nCached time: 20260918181043\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.028 seconds\nReal time usage: 0.057 seconds\nPreprocessor visited node count: 138/1000000\nRevision size: 427/2097152 bytes\nPost‐expand include size: 1084/2097152 bytes\nTemplate argument size: 589/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 0/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\nLua time usage: 0.014/10.000 seconds\nLua memory usage: 1252691/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   51.905      1 Template:Short_description\n100.00%   51.905      1 -total\n 65.42%   33.956      2 Template:Pagetype\n 19.55%   10.146      2 Template:Main_other\n 17.64%    9.155      1 Template:SDcat\n  2.91%    1.508      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 433c223b-b38c-11f1-ac76-55a193be3892 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Automated reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical proof",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical theorem",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Subfield of automated reasoning and mathematical logic",
+          "wikibase_item": "Q431667"
+        }
+      }
+    }
+  ]
+}

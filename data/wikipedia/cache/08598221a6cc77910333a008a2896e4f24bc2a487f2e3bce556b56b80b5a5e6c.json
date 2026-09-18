@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "JS++",
+    "url": "https://en.wikipedia.org/wiki/JS%2B%2B",
+    "summary": "Web programming language JS++ Paradigm Multi-paradigm : Imperative , structured , object-oriented , functional , generic Family ECMAScript Designed by Roger Poon, Anton Rapetov Developer Onux First appeared October 8, 2011 ; 14 years ago ( 2011-10-08 ) Stable release 0.10.0 / December 10, 2021 ; 4 years ago ( 2021-12-10 ) Typing discipline Gradual , static , dynamic Scope lexical License BSD Filename extensions .jspp, .js++, .jpp Website www .onux .com /jspp Influenced by C , C++ , C# , Java , JavaScript JS++ is a programming language for web development that extends JavaScript with a sound type system . It includes imperative , object-oriented , functional , and generic programming features. It is free and open-source software released under a BSD license .",
+    "text": "Web programming language JS++ Paradigm Multi-paradigm : Imperative , structured , object-oriented , functional , generic Family ECMAScript Designed by Roger Poon, Anton Rapetov Developer Onux First appeared October 8, 2011 ; 14 years ago ( 2011-10-08 ) Stable release 0.10.0 / December 10, 2021 ; 4 years ago ( 2021-12-10 ) Typing discipline Gradual , static , dynamic Scope lexical License BSD Filename extensions .jspp, .js++, .jpp Website www .onux .com /jspp Influenced by C , C++ , C# , Java , JavaScript JS++ is a programming language for web development that extends JavaScript with a sound type system . It includes imperative , object-oriented , functional , and generic programming features. It is free and open-source software released under a BSD license .",
+    "links": [
+      "BSD licenses",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "Comparison of multi-paradigm programming languages",
+      "Dynamic typing",
+      "ECMAScript",
+      "Filename extension",
+      "Free and open-source software",
+      "Functional programming",
+      "Generic programming",
+      "Gradual typing",
+      "Imperative programming",
+      "Java (programming language)",
+      "JavaScript",
+      "Object-oriented programming",
+      "Programming language",
+      "Programming paradigm",
+      "Scope (computer science)",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Soundness",
+      "Static typing",
+      "Structured programming",
+      "Type system",
+      "Web development"
+    ],
+    "page_id": 59825919,
+    "revision_id": 1368554015,
+    "retrieved_at": "2026-09-18T18:09:40.936196+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260809193231|1368553944",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 59825919,
+            "ns": 0,
+            "title": "JS++",
+            "revisions": [
+              {
+                "revid": 1368554015,
+                "parentid": 1368553944
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "JS++_Logo.svg",
+              "wikibase-shortdesc": "Web programming language",
+              "wikibase_item": "Q65122282"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "JS++",
+        "pageid": 59825919,
+        "revid": 1368554015,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Web programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">JS++</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:JS%2B%2B_Logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/JS%2B%2B_Logo.svg/250px-JS%2B%2B_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"89\" class=\"mw-file-element\" data-file-width=\"563\" data-file-height=\"412\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Comparison_of_multi-paradigm_programming_languages\" title=\"Comparison of multi-paradigm programming languages\">Multi-paradigm</a>: <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">Imperative</a>, <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\">Roger Poon, Anton Rapetov</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Onux</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">October&#160;8, 2011<span class=\"noprint\">&#59;&#32;14 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2011-10-08</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">0.10.0\n   / December&#160;10, 2021<span class=\"noprint\">&#59;&#32;4 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2021-12-10</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">Gradual</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a>, <a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">dynamic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">lexical</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/BSD_licenses\" title=\"BSD licenses\">BSD</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.jspp, .js++, .jpp</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.onux.com/jspp\">www<wbr />.onux<wbr />.com<wbr />/jspp</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a></td></tr></tbody></table>\n<p><b>JS++</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> for <a href=\"/wiki/Web_development\" title=\"Web development\">web development</a> that extends <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a> with a <a href=\"/wiki/Soundness\" title=\"Soundness\">sound</a> <a href=\"/wiki/Type_system\" title=\"Type system\">type system</a>. It includes <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, and <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a> programming features. It is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> released under a <a href=\"/wiki/BSD_licenses\" title=\"BSD licenses\">BSD license</a>.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐nmb9x\nCached time: 20260918181006\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.184 seconds\nReal time usage: 0.345 seconds\nPreprocessor visited node count: 1107/1000000\nRevision size: 1743/2097152 bytes\nPost‐expand include size: 13750/2097152 bytes\nTemplate argument size: 2351/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 2850/5000000 bytes\nLua time usage: 0.095/10.000 seconds\nLua memory usage: 2293167/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  214.335      1 -total\n 71.90%  154.109      2 Template:Infobox\n 54.25%  116.275      1 Template:Infobox_programming_language\n 45.67%   97.883      1 Template:Short_description\n 29.00%   62.158      2 Template:Pagetype\n 22.83%   48.936      1 Template:Infobox_software/simple\n 16.70%   35.786      2 Template:Start_date_and_age\n 10.03%   21.499      4 Template:Main_other\n  8.75%   18.751      1 Template:SDcat\n  7.08%   15.171      2 Template:Time_ago\n-->\n\n<!-- Render ID 2d2e5e59-b38c-11f1-8adb-a3bc4c191896 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "BSD licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of multi-paradigm programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ECMAScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Soundness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web development",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Web programming language",
+          "page_image_free": "JS++_Logo.svg",
+          "wikibase_item": "Q65122282"
+        }
+      }
+    }
+  ]
+}

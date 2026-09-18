@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Idris (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Idris_%28programming_language%29",
+    "summary": "Functional programming language created in 2007 This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Idris\" programming language – news · newspapers · books · scholar · JSTOR ( August 2019 ) ( Learn how and when to remove this message ) Idris Paradigm Functional Designed by Edwin Brady First appeared 2007 ; 19 years ago ( 2007 ) Stable release Idris2 v0.8.0 / October 31, 2025 ; 10 months ago ( 2025-10-31 ) Typing discipline Dependent OS Cross-platform License BSD Filename extensions .idr, .lidr Website www .idris-lang .org Influenced by Agda , Clean , Rocq (previously known as Coq), Epigram , F# , Haskell , ML , Rust Idris is a purely-functional programming language with dependent types , quantity annotations , optional lazy evaluation , and features such as a totality checker . Idris is designed to be a general-purpose programming language similar to Haskell , but may also be used as a proof assistant . The Idris type system is similar to Agda 's. Compared to Agda, Idris prioritizes management of side effects and support for embedded domain-specific languages . Idris is compiled by modular backends, which provide code generation and a runtime system . The Idris compiler includes backends for Chez Scheme , Racket , JavaScript (both browser- and Node.js -based), and C . Additional third-party backends are available for other platforms. Idris is named after a singing dragon from the 1970s UK children's television programme Ivor the Engine . ^ Brady, Edwin (12 December 2007). \"Index of /~eb/darcs/Idris\" . University of St Andrews School of Computer Science . Archived from the original on 2008-03-20. ^ \"Release [v0.8.0] 2025 Hallowe'en Release\" . GitHub . Retrieved 2025-08-31 . ^ a b \"Uniqueness Types\" . Idris 1.3.1 Documentation . Retrieved 2019-09-26 . ^ a b c \"Idris, a language with dependent types\" . Retrieved 2014-10-26 . ^ \"Compiling to Executables\" . Documentation for the Idris 2 Language . Retrieved 1 November 2025 . ^ \"External Backends\" . Idris2 Wiki . Retrieved 1 November 2025 . ^ \"Frequently Asked Questions\" . Retrieved 2015-07-19 .",
+    "text": "Functional programming language created in 2007 This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Idris\" programming language – news · newspapers · books · scholar · JSTOR ( August 2019 ) ( Learn how and when to remove this message ) Idris Paradigm Functional Designed by Edwin Brady First appeared 2007 ; 19 years ago ( 2007 ) Stable release Idris2 v0.8.0 / October 31, 2025 ; 10 months ago ( 2025-10-31 ) Typing discipline Dependent OS Cross-platform License BSD Filename extensions .idr, .lidr Website www .idris-lang .org Influenced by Agda , Clean , Rocq (previously known as Coq), Epigram , F# , Haskell , ML , Rust Idris is a purely-functional programming language with dependent types , quantity annotations , optional lazy evaluation , and features such as a totality checker . Idris is designed to be a general-purpose programming language similar to Haskell , but may also be used as a proof assistant . The Idris type system is similar to Agda 's. Compared to Agda, Idris prioritizes management of side effects and support for embedded domain-specific languages . Idris is compiled by modular backends, which provide code generation and a runtime system . The Idris compiler includes backends for Chez Scheme , Racket , JavaScript (both browser- and Node.js -based), and C . Additional third-party backends are available for other platforms. Idris is named after a singing dragon from the 1970s UK children's television programme Ivor the Engine . ^ Brady, Edwin (12 December 2007). \"Index of /~eb/darcs/Idris\" . University of St Andrews School of Computer Science . Archived from the original on 2008-03-20. ^ \"Release [v0.8.0] 2025 Hallowe'en Release\" . GitHub . Retrieved 2025-08-31 . ^ a b \"Uniqueness Types\" . Idris 1.3.1 Documentation . Retrieved 2019-09-26 . ^ a b c \"Idris, a language with dependent types\" . Retrieved 2014-10-26 . ^ \"Compiling to Executables\" . Documentation for the Idris 2 Language . Retrieved 1 November 2025 . ^ \"External Backends\" . Idris2 Wiki . Retrieved 1 November 2025 . ^ \"Frequently Asked Questions\" . Retrieved 2015-07-19 .",
+    "links": [
+      "Agda (programming language)",
+      "BSD licenses",
+      "C (programming language)",
+      "Chez Scheme",
+      "Clean (programming language)",
+      "Cross-platform software",
+      "Dependent type",
+      "EDSL",
+      "Epigram (programming language)",
+      "F Sharp (programming language)",
+      "Filename extension",
+      "Functional programming",
+      "General-purpose programming language",
+      "GitHub",
+      "Haskell",
+      "Ivor the Engine",
+      "JavaScript",
+      "Lazy evaluation",
+      "ML (programming language)",
+      "Node.js",
+      "Operating system",
+      "Programming language",
+      "Programming paradigm",
+      "Proof assistant",
+      "Purely functional programming",
+      "Quantitative type theory",
+      "Racket (programming language)",
+      "Rocq",
+      "Runtime system",
+      "Rust (programming language)",
+      "Side effect (computer science)",
+      "Software design",
+      "Software license",
+      "Software release life cycle",
+      "Termination analysis",
+      "Type system",
+      "University of St Andrews"
+    ],
+    "page_id": 39035048,
+    "revision_id": 1360323406,
+    "retrieved_at": "2026-09-18T18:09:37.359172+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20251116231529|1322566448",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 39035048,
+            "ns": 0,
+            "title": "Idris (programming language)",
+            "revisions": [
+              {
+                "revid": 1360323406,
+                "parentid": 1322566448
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Functional programming language created in 2007",
+              "wikibase_item": "Q15408477"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Idris (programming language)",
+        "pageid": 39035048,
+        "revid": 1360323406,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Functional programming language created in 2007</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Idris%22+programming+language\">\"Idris\"&#160;programming language</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Idris%22+programming+language+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Idris%22+programming+language&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Idris%22+programming+language+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Idris%22+programming+language\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Idris%22+programming+language&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">August 2019</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Idris</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Functional_programming\" title=\"Functional programming\">Functional</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\">Edwin Brady</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">2007<span class=\"noprint\">&#59;&#32;19&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2007</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Idris2 v0.8.0<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / October&#160;31, 2025<span class=\"noprint\">&#59;&#32;10 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2025-10-31</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dependent_type\" title=\"Dependent type\">Dependent</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/BSD_licenses\" title=\"BSD licenses\">BSD</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.idr, .lidr</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.idris-lang.org\">www<wbr />.idris-lang<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Agda_(programming_language)\" title=\"Agda (programming language)\">Agda</a>, <a href=\"/wiki/Clean_(programming_language)\" title=\"Clean (programming language)\">Clean</a>,<sup id=\"cite&#95;ref-uniqueness-types&#95;3-0\" class=\"reference\"><a href=\"#cite_note-uniqueness-types-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rocq\" title=\"Rocq\">Rocq</a> (previously known as Coq),<sup id=\"cite&#95;ref-idris-web&#95;4-0\" class=\"reference\"><a href=\"#cite_note-idris-web-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Epigram_(programming_language)\" title=\"Epigram (programming language)\">Epigram</a>, <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>, <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>,<sup id=\"cite&#95;ref-idris-web&#95;4-1\" class=\"reference\"><a href=\"#cite_note-idris-web-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a>,<sup id=\"cite&#95;ref-idris-web&#95;4-2\" class=\"reference\"><a href=\"#cite_note-idris-web-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a><sup id=\"cite&#95;ref-uniqueness-types&#95;3-1\" class=\"reference\"><a href=\"#cite_note-uniqueness-types-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table>\n<p><b>Idris</b> is a <a href=\"/wiki/Purely_functional_programming\" title=\"Purely functional programming\">purely-functional</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> with <a href=\"/wiki/Dependent_type\" title=\"Dependent type\">dependent types</a>, <a href=\"/w/index.php?title=Quantitative_type_theory&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Quantitative type theory (page does not exist)\">quantity annotations</a>, optional <a href=\"/wiki/Lazy_evaluation\" title=\"Lazy evaluation\">lazy evaluation</a>, and features such as a <a href=\"/wiki/Termination_analysis\" title=\"Termination analysis\">totality checker</a>. Idris is designed to be a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose programming language</a> similar to <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>, but may also be used as a <a href=\"/wiki/Proof_assistant\" title=\"Proof assistant\">proof assistant</a>.\n</p><p>The Idris <a href=\"/wiki/Type_system\" title=\"Type system\">type system</a> is similar to <a href=\"/wiki/Agda_(programming_language)\" title=\"Agda (programming language)\">Agda</a>'s. Compared to Agda, Idris prioritizes management of <a href=\"/wiki/Side_effect_(computer_science)\" title=\"Side effect (computer science)\">side effects</a> and support for <a href=\"/wiki/EDSL#Usage_patterns\" class=\"mw-redirect\" title=\"EDSL\">embedded domain-specific languages</a>. Idris is compiled by modular backends, which provide code generation and a <a href=\"/wiki/Runtime_system\" title=\"Runtime system\">runtime system</a>.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> The Idris compiler includes backends for <a href=\"/wiki/Chez_Scheme\" title=\"Chez Scheme\">Chez Scheme</a>, <a href=\"/wiki/Racket_(programming_language)\" title=\"Racket (programming language)\">Racket</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a> (both browser- and <a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a>-based), and <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>. Additional third-party backends are available for other platforms.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Idris is named after a singing dragon from the 1970s UK children's television programme <i><a href=\"/wiki/Ivor_the_Engine#Idris_the_Dragon\" title=\"Ivor the Engine\">Ivor the Engine</a></i>.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFBrady2007\" class=\"citation web cs1\">Brady, Edwin (12 December 2007). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20080320233322/http://www-fp.cs.st-and.ac.uk/~eb/darcs/Idris/\">\"Index of /~eb/darcs/Idris\"</a>. <i><a href=\"/wiki/University_of_St_Andrews\" title=\"University of St Andrews\">University of St Andrews</a> School of Computer Science</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www-fp.cs.st-and.ac.uk/~eb/darcs/Idris/\">the original</a> on 2008-03-20.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=University+of+St+Andrews+School+of+Computer+Science&amp;rft.atitle=Index+of+%2F~eb%2Fdarcs%2FIdris&amp;rft.date=2007-12-12&amp;rft.aulast=Brady&amp;rft.aufirst=Edwin&amp;rft&#95;id=http%3A%2F%2Fwww-fp.cs.st-and.ac.uk%2F~eb%2Fdarcs%2FIdris%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AIdris+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/idris-lang/Idris2/releases/tag/v0.8.0\">\"Release &#91;v0.8.0&#93; 2025 Hallowe'en Release\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-08-31</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Release+%5Bv0.8.0%5D+2025+Hallowe%27en+Release&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fidris-lang%2FIdris2%2Freleases%2Ftag%2Fv0.8.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AIdris+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-uniqueness-types-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-uniqueness-types_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-uniqueness-types_3-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://docs.idris-lang.org/en/latest/reference/uniqueness-types.html\">\"Uniqueness Types\"</a>. <i>Idris 1.3.1 Documentation</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-09-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Idris+1.3.1+Documentation&amp;rft.atitle=Uniqueness+Types&amp;rft&#95;id=http%3A%2F%2Fdocs.idris-lang.org%2Fen%2Flatest%2Freference%2Funiqueness-types.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AIdris+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-idris-web-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-idris-web_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-idris-web_4-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-idris-web_4-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.idris-lang.org/\">\"Idris, a language with dependent types\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-10-26</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Idris%2C+a+language+with+dependent+types&amp;rft&#95;id=http%3A%2F%2Fwww.idris-lang.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AIdris+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://idris2.readthedocs.io/en/latest/backends/index.html\">\"Compiling to Executables\"</a>. <i>Documentation for the Idris 2 Language</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">1 November</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Documentation+for+the+Idris+2+Language%EF%83%81&amp;rft.atitle=Compiling+to+Executables&amp;rft&#95;id=https%3A%2F%2Fidris2.readthedocs.io%2Fen%2Flatest%2Fbackends%2Findex.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AIdris+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/idris-lang/Idris2/wiki/External-backends\">\"External Backends\"</a>. <i>Idris2 Wiki</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">1 November</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Idris2+Wiki&amp;rft.atitle=External+Backends&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fidris-lang%2FIdris2%2Fwiki%2FExternal-backends&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AIdris+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://docs.idris-lang.org/en/latest/faq/faq.html#what-does-the-name-idris-mean\">\"Frequently Asked Questions\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2015-07-19</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Frequently+Asked+Questions&amp;rft&#95;id=http%3A%2F%2Fdocs.idris-lang.org%2Fen%2Flatest%2Ffaq%2Ffaq.html%23what-does-the-name-idris-mean&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AIdris+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐sqp4r\nCached time: 20260918181002\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.303 seconds\nReal time usage: 0.406 seconds\nPreprocessor visited node count: 1276/1000000\nRevision size: 3576/2097152 bytes\nPost‐expand include size: 32528/2097152 bytes\nTemplate argument size: 3053/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 21525/5000000 bytes\nLua time usage: 0.197/10.000 seconds\nLua memory usage: 5986781/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  381.191      1 -total\n 38.08%  145.171      2 Template:Infobox\n 30.92%  117.868      7 Template:Cite_web\n 25.63%   97.701      1 Template:Infobox_programming_language\n 22.42%   85.473      1 Template:Short_description\n 17.73%   67.571      1 Template:Primary_sources\n 16.22%   61.826      1 Template:Ambox\n 14.88%   56.715      1 Template:Infobox_software/simple\n 13.04%   49.718      2 Template:Pagetype\n  6.92%   26.367      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID 2acc0344-b38c-11f1-b778-2160cfa6a1ba -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Agda (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chez Scheme",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clean (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dependent type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EDSL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Epigram (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ivor the Engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lazy evaluation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proof assistant",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Purely functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Racket (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rocq",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Side effect (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Termination analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of St Andrews",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quantitative type theory",
+            "exists": false
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Functional programming language created in 2007",
+          "wikibase_item": "Q15408477"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Type system",
+    "url": "https://en.wikipedia.org/wiki/Type_system",
+    "summary": "Computer science concept This article is about type systems in computer programming. For the formal study of type systems, see Type theory . For other uses, see Type system (disambiguation) . This article is written like a personal reflection, personal essay, or argumentative essay that states a Wikipedia editor's personal feelings or presents an original argument about a topic. Please help improve it by rewriting it in an encyclopedic style . ( July 2016 ) ( Learn how and when to remove this message ) Type systems General concepts Type safety Strong vs. weak typing Major categories Static vs. dynamic Manifest vs. inferred Nominal vs. structural Duck typing Minor categories Abstract Dependent Flow-sensitive Gradual Intersection Latent Refinement Substructural Unique Session v t e A programming language consists of a system of allowed sequences of symbols ( constructs ) together with rules that define how each construct is interpreted. For example, a language might allow expressions representing various types of data, expressions that provide structuring rules for data, expressions representing various operations on data, and constructs that provide sequencing rules for the order in which to perform operations. A simple type system for a programming language is a set of rules that associates a data type (for example, integer , floating point , string ) with each term (data-valued expression) in a computer program . In more ambitious type systems, a variety of constructs, such as variables , expressions , functions , and modules , may be assigned types. Type systems formalize and enforce the otherwise implicit categories the programmer uses for algebraic data types , data structures , or other data types , such as \"string\", \"array of float\", \"function returning boolean\". The main purpose of a type system in a programming language is to reduce possibilities for bugs in computer programs due to mismatches in how values are interpreted in different parts of a program. The aim is to prevent operations expecting a certain kind of value from being applied to values for which that operation does not make sense (validity errors). A type system can detect and prevent some of these mismatches. When a type mismatch is detected, it is called a type error . The type of a term constrains the contexts in which it may be used. For a variable, the type system determines the allowed values of that variable. For that variable to be presented as a parameter to an operation, the operation must be able to accept in that parameter any value that the type of the variable allows. Type systems are typically specified as part of programming language design. They are built into interpreters and compilers for the language. In some languages, the type system can be extended by optional tools that perform added checks using the language's original type syntax and grammar . Type systems allow defining interfaces between different parts of a computer program, and then checking that the parts have been connected in a consistent way. This checking can happen statically (at compile time ), dynamically (at runtime ), or as a combination of both. Type systems have other purposes as well, such as expressing business rules, enabling certain compiler optimizations , allowing for multiple dispatch , and providing a form of documentation . ^ Pierce 2002 , p. 1: \"A type system is a tractable syntactic method for proving the absence of certain program behaviors by classifying phrases according to the kinds of values they compute.\" ^ Cardelli 2004 , p. 1: \"The fundamental purpose of a type system is to prevent the occurrence of execution errors during the running of a program.\"",
+    "text": "Computer science concept This article is about type systems in computer programming. For the formal study of type systems, see Type theory . For other uses, see Type system (disambiguation) . This article is written like a personal reflection, personal essay, or argumentative essay that states a Wikipedia editor's personal feelings or presents an original argument about a topic. Please help improve it by rewriting it in an encyclopedic style . ( July 2016 ) ( Learn how and when to remove this message ) Type systems General concepts Type safety Strong vs. weak typing Major categories Static vs. dynamic Manifest vs. inferred Nominal vs. structural Duck typing Minor categories Abstract Dependent Flow-sensitive Gradual Intersection Latent Refinement Substructural Unique Session v t e A programming language consists of a system of allowed sequences of symbols ( constructs ) together with rules that define how each construct is interpreted. For example, a language might allow expressions representing various types of data, expressions that provide structuring rules for data, expressions representing various operations on data, and constructs that provide sequencing rules for the order in which to perform operations. A simple type system for a programming language is a set of rules that associates a data type (for example, integer , floating point , string ) with each term (data-valued expression) in a computer program . In more ambitious type systems, a variety of constructs, such as variables , expressions , functions , and modules , may be assigned types. Type systems formalize and enforce the otherwise implicit categories the programmer uses for algebraic data types , data structures , or other data types , such as \"string\", \"array of float\", \"function returning boolean\". The main purpose of a type system in a programming language is to reduce possibilities for bugs in computer programs due to mismatches in how values are interpreted in different parts of a program. The aim is to prevent operations expecting a certain kind of value from being applied to values for which that operation does not make sense (validity errors). A type system can detect and prevent some of these mismatches. When a type mismatch is detected, it is called a type error . The type of a term constrains the contexts in which it may be used. For a variable, the type system determines the allowed values of that variable. For that variable to be presented as a parameter to an operation, the operation must be able to accept in that parameter any value that the type of the variable allows. Type systems are typically specified as part of programming language design. They are built into interpreters and compilers for the language. In some languages, the type system can be extended by optional tools that perform added checks using the language's original type syntax and grammar . Type systems allow defining interfaces between different parts of a computer program, and then checking that the parts have been connected in a consistent way. This checking can happen statically (at compile time ), dynamically (at runtime ), or as a combination of both. Type systems have other purposes as well, such as expressing business rules, enabling certain compiler optimizations , allowing for multiple dispatch , and providing a form of documentation . ^ Pierce 2002 , p. 1: \"A type system is a tractable syntactic method for proving the absence of certain program behaviors by classifying phrases according to the kinds of values they compute.\" ^ Cardelli 2004 , p. 1: \"The fundamental purpose of a type system is to prevent the occurrence of execution errors during the running of a program.\"",
+    "links": [
+      "Abstract type",
+      "Algebraic data type",
+      "Bug (computer programming)",
+      "Compile time",
+      "Compiler",
+      "Compiler optimization",
+      "Computer program",
+      "Data structure",
+      "Data type",
+      "Dependent type",
+      "Duck typing",
+      "Execution (computing)",
+      "Expression (computer science)",
+      "Extended static checking",
+      "Floating point",
+      "Flow-sensitive typing",
+      "Formal grammar",
+      "Function (computer science)",
+      "Gradual typing",
+      "Integer",
+      "Interface (computer science)",
+      "Interpreter (computing)",
+      "Intersection type",
+      "Language construct",
+      "Latent typing",
+      "Manifest typing",
+      "Modular programming",
+      "Multiple dispatch",
+      "Nominal type system",
+      "Programming language",
+      "Refinement type",
+      "Session type",
+      "Software documentation",
+      "String (computer science)",
+      "Strong and weak typing",
+      "Structural type system",
+      "Substructural type system",
+      "Syntax (programming language)",
+      "Syntax (programming languages)",
+      "Term (programming)",
+      "Type error",
+      "Type inference",
+      "Type safety",
+      "Type system (disambiguation)",
+      "Type theory",
+      "Uniqueness type",
+      "Variable (computer science)"
+    ],
+    "page_id": 199701,
+    "revision_id": 1370838121,
+    "retrieved_at": "2026-09-18T18:07:33.449812+00:00",
+    "aliases": [
+      "Static typing"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260809171140|1368535194",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Static typing",
+            "to": "Type system",
+            "tofragment": "Static type checking"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 199701,
+            "ns": 0,
+            "title": "Type system",
+            "revisions": [
+              {
+                "revid": 1370838121,
+                "parentid": 1368535194
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Type System",
+              "wikibase-shortdesc": "Computer science concept",
+              "wikibase_item": "Q865760"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Type system",
+        "pageid": 199701,
+        "revid": 1370838121,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Computer science concept</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about type systems in computer programming. For the formal study of type systems, see <a href=\"/wiki/Type_theory\" title=\"Type theory\">Type theory</a>. For other uses, see <a href=\"/wiki/Type_system_(disambiguation)\" class=\"mw-disambig\" title=\"Type system (disambiguation)\">Type system (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Essay-like plainlinks metadata ambox ambox-style ambox-essay-like\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/120px-Edit-clear.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>is written like a <a href=\"/wiki/Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_publisher_of_original_thought\" title=\"Wikipedia:What Wikipedia is not\">personal reflection, personal essay, or argumentative essay</a></b> that states a Wikipedia editor's personal feelings or presents an original argument about a topic.<span class=\"hide-when-compact\"> Please <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Type_system&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Type_system&amp;action=edit\">help improve it</a> by rewriting it in an <a href=\"/wiki/Wikipedia:Writing_better_articles#Information_style_and_tone\" title=\"Wikipedia:Writing better articles\">encyclopedic style</a>.</span>  <span class=\"date-container\"><i>(<span class=\"date\">July 2016</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\" style=\"margin-top: 0.5em;\"><tbody><tr><th class=\"sidebar-title\"><a class=\"mw-selflink selflink\">Type systems</a></th></tr><tr><th class=\"sidebar-heading\">\nGeneral concepts</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a href=\"/wiki/Type_safety\" title=\"Type safety\">Type safety</a></li>\n<li><a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">Strong vs. weak typing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nMajor categories</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a class=\"mw-selflink-fragment\" href=\"#Static_type_checking\">Static</a> vs. <a class=\"mw-selflink-fragment\" href=\"#Dynamic_type_checking_and_runtime_type_information\">dynamic</a></li>\n<li><a href=\"/wiki/Manifest_typing\" title=\"Manifest typing\">Manifest</a> vs. <a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a></li>\n<li><a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">Nominal</a> vs. <a href=\"/wiki/Structural_type_system\" title=\"Structural type system\">structural</a></li>\n<li><a href=\"/wiki/Duck_typing\" title=\"Duck typing\">Duck typing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nMinor categories</th></tr><tr><td class=\"sidebar-content\" style=\"text-align: left;\">\n<ul><li><a href=\"/wiki/Abstract_type\" title=\"Abstract type\">Abstract</a></li>\n<li><a href=\"/wiki/Dependent_type\" title=\"Dependent type\">Dependent</a></li>\n<li><a href=\"/wiki/Flow-sensitive_typing\" title=\"Flow-sensitive typing\">Flow-sensitive</a></li>\n<li><a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">Gradual</a></li>\n<li><a href=\"/wiki/Intersection_type\" title=\"Intersection type\">Intersection</a></li>\n<li><a href=\"/wiki/Latent_typing\" title=\"Latent typing\">Latent</a></li>\n<li><a href=\"/wiki/Refinement_type\" title=\"Refinement type\">Refinement</a></li>\n<li><a href=\"/wiki/Substructural_type_system\" title=\"Substructural type system\">Substructural</a></li>\n<li><a href=\"/wiki/Uniqueness_type\" title=\"Uniqueness type\">Unique</a></li>\n<li><a href=\"/wiki/Session_type\" title=\"Session type\">Session</a></li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Type_systems\" title=\"Template:Type systems\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Type_systems\" title=\"Template talk:Type systems\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Type_systems\" title=\"Special:EditPage/Template:Type systems\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>A <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> consists of a system of allowed sequences of symbols (<a href=\"/wiki/Language_construct\" title=\"Language construct\">constructs</a>) together with rules that define how each construct is interpreted. For example, a language might allow expressions representing various types of data, expressions that provide structuring rules for data, expressions representing various operations on data, and constructs that provide sequencing rules for the order in which to perform operations.\n</p><p>A simple type system for a programming language is a set of rules that associates a <i><a href=\"/wiki/Data_type\" title=\"Data type\">data type</a></i> (for example, <a href=\"/wiki/Integer\" title=\"Integer\">integer</a>, <a href=\"/wiki/Floating_point\" class=\"mw-redirect\" title=\"Floating point\">floating point</a>, <a href=\"/wiki/String_(computer_science)\" title=\"String (computer science)\">string</a>) with each <i><a href=\"/wiki/Term_(programming)\" class=\"mw-redirect\" title=\"Term (programming)\">term</a></i> (data-valued expression) in a <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a>. In more ambitious type systems, a variety of constructs, such as <a href=\"/wiki/Variable_(computer_science)\" class=\"mw-redirect\" title=\"Variable (computer science)\">variables</a>, <a href=\"/wiki/Expression_(computer_science)\" title=\"Expression (computer science)\">expressions</a>, <a href=\"/wiki/Function_(computer_science)\" class=\"mw-redirect\" title=\"Function (computer science)\">functions</a>, and <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modules</a>, may be assigned types.<sup id=\"cite&#95;ref-FOOTNOTEPierce20021&#95;1-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEPierce20021-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Type systems formalize and enforce the otherwise implicit categories the programmer uses for <a href=\"/wiki/Algebraic_data_type\" title=\"Algebraic data type\">algebraic data types</a>, <a href=\"/wiki/Data_structure\" title=\"Data structure\">data structures</a>, or other <a href=\"/wiki/Data_type\" title=\"Data type\">data types</a>, such as \"string\", \"array of float\", \"function returning boolean\".\n</p><p>The main purpose of a type system in a programming language is to reduce possibilities for <a href=\"/wiki/Bug_(computer_programming)\" class=\"mw-redirect\" title=\"Bug (computer programming)\">bugs</a> in computer programs due to mismatches in how values are interpreted in different parts of a program. The aim is to prevent operations expecting a certain kind of value from being applied to values for which that operation does not make sense (validity errors).<sup id=\"cite&#95;ref-FOOTNOTECardelli20041&#95;2-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTECardelli20041-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> A type system can detect and prevent some of these mismatches. When a type mismatch is detected, it is called a <a href=\"/wiki/Type_error\" class=\"mw-redirect\" title=\"Type error\">type error</a>.\n</p><p>The type of a term constrains the contexts in which it may be used. For a variable, the type system determines the allowed values of that variable. For that variable to be presented as a parameter to an operation, the operation must be able to accept in that parameter any value that the type of the variable allows.\n</p><p>Type systems are typically specified as part of <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> design. They are built into <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreters</a> and <a href=\"/wiki/Compiler\" title=\"Compiler\">compilers</a> for the language. In some languages, the type system can be extended by <a href=\"/wiki/Extended_static_checking\" title=\"Extended static checking\">optional tools</a> that perform added checks using the language's original type <a href=\"/wiki/Syntax_(programming_languages)\" title=\"Syntax (programming languages)\">syntax</a> and <a href=\"/wiki/Formal_grammar\" title=\"Formal grammar\">grammar</a>.\n</p><p>Type systems allow defining <a href=\"/wiki/Interface_(computer_science)\" class=\"mw-redirect\" title=\"Interface (computer science)\">interfaces</a> between different parts of a computer program, and then checking that the parts have been connected in a consistent way. This checking can happen statically (at <a href=\"/wiki/Compile_time\" title=\"Compile time\">compile time</a>), dynamically (at <a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">runtime</a>), or as a combination of both. \n</p><p>Type systems have other purposes as well, such as expressing business rules, enabling certain <a href=\"/wiki/Compiler_optimization\" class=\"mw-redirect\" title=\"Compiler optimization\">compiler optimizations</a>, allowing for <a href=\"/wiki/Multiple_dispatch\" title=\"Multiple dispatch\">multiple dispatch</a>, and providing a form of <a href=\"/wiki/Software_documentation\" title=\"Software documentation\">documentation</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-FOOTNOTEPierce20021-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEPierce20021_1-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFPierce2002\">Pierce 2002</a>, p.&#160;1: \"A type system is a tractable <a href=\"/wiki/Syntax_(programming_language)\" class=\"mw-redirect\" title=\"Syntax (programming language)\">syntactic</a> method for proving the absence of certain program behaviors by classifying phrases according to the kinds of values they compute.\"</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTECardelli20041-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTECardelli20041_2-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFCardelli2004\">Cardelli 2004</a>, p.&#160;1: \"The fundamental purpose of a type system is to prevent the occurrence of execution errors during the running of a program.\"</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐5bn5r\nCached time: 20260918180759\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.138 seconds\nReal time usage: 0.196 seconds\nPreprocessor visited node count: 444/1000000\nRevision size: 3645/2097152 bytes\nPost‐expand include size: 16375/2097152 bytes\nTemplate argument size: 760/2097152 bytes\nHighest expansion depth: 15/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 11736/5000000 bytes\nLua time usage: 0.105/10.000 seconds\nLua memory usage: 3673500/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  182.049      1 -total\n 30.06%   54.720      1 Template:Short_description\n 28.87%   52.551      1 Template:Type_systems\n 28.24%   51.413      1 Template:Sidebar\n 17.30%   31.492      2 Template:Pagetype\n 15.86%   28.882      2 Template:Sfn\n 14.48%   26.359      1 Template:Essay\n 12.44%   22.643      1 Template:Essay-like\n 10.55%   19.206      1 Template:About\n  8.45%   15.386      1 Template:Ambox\n-->\n\n<!-- Render ID e17babcf-b38b-11f1-b9e5-9b337166e97e -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Type theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algebraic data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bug (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler optimization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dependent type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duck typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Expression (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extended static checking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Floating point",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flow-sensitive typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal grammar",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interface (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intersection type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Language construct",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Latent typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manifest typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multiple dispatch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Refinement type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Session type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software documentation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "String (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Substructural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Term (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type error",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Uniqueness type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Variable (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Type systems",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:What Wikipedia is not",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Writing better articles",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Type systems",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Computer science concept",
+          "wikibase_item": "Q865760"
+        }
+      }
+    }
+  ]
+}

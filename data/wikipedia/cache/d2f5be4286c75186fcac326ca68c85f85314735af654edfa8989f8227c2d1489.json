@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Garbage collection (computer science)",
+    "url": "https://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29",
+    "summary": "Form of automatic memory management This article is about garbage collection in memory management. For garbage collection in a solid-state drive, see Garbage collection (SSD) . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Garbage collection\" computer science – news · newspapers · books · scholar · JSTOR ( April 2026 ) ( Learn how and when to remove this message ) This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( April 2026 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Stop-and-copy garbage collection in a Lisp architecture : Memory is divided into working and free memory; new objects are allocated in the former. When it is full (depicted), garbage collection is performed: All data structures still in use are located by pointer tracing and copied into consecutive locations in free memory. After that, the working memory contents is discarded in favor of the compacted copy, and the role of working and free memory are exchanged (depicted). In computer science , garbage collection ( GC ) is a form of automatic memory management . The garbage collector attempts to reclaim memory that was allocated by the program, but is no longer referenced; such memory is called garbage . Garbage collection was invented by American computer scientist John McCarthy around 1959 to simplify manual memory management in Lisp . Garbage collection relieves the programmer from doing manual memory management , where the programmer specifies what objects to de-allocate and return to the memory system and when to do so. Other, similar techniques include stack allocation , region inference , and memory ownership, and combinations thereof. Garbage collection may take a significant proportion of a program's total processing time, and affect performance as a result. Resources other than memory, such as network sockets , database handles , windows , file descriptors, and device descriptors, are not typically handled by garbage collection, but rather by other methods (e.g. destructors ). Some such methods de-allocate memory also. ^ Cite error: The named reference Abelson-Sussman_2016 was invoked but never defined (see the help page ). ^ a b \"What is garbage collection (GC) in programming?\" . Storage . Retrieved 21 June 2024 . ^ Cite error: The named reference McCarthy_1960 was invoked but never defined (see the help page ).",
+    "text": "Form of automatic memory management This article is about garbage collection in memory management. For garbage collection in a solid-state drive, see Garbage collection (SSD) . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Garbage collection\" computer science – news · newspapers · books · scholar · JSTOR ( April 2026 ) ( Learn how and when to remove this message ) This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( April 2026 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Stop-and-copy garbage collection in a Lisp architecture : Memory is divided into working and free memory; new objects are allocated in the former. When it is full (depicted), garbage collection is performed: All data structures still in use are located by pointer tracing and copied into consecutive locations in free memory. After that, the working memory contents is discarded in favor of the compacted copy, and the role of working and free memory are exchanged (depicted). In computer science , garbage collection ( GC ) is a form of automatic memory management . The garbage collector attempts to reclaim memory that was allocated by the program, but is no longer referenced; such memory is called garbage . Garbage collection was invented by American computer scientist John McCarthy around 1959 to simplify manual memory management in Lisp . Garbage collection relieves the programmer from doing manual memory management , where the programmer specifies what objects to de-allocate and return to the memory system and when to do so. Other, similar techniques include stack allocation , region inference , and memory ownership, and combinations thereof. Garbage collection may take a significant proportion of a program's total processing time, and affect performance as a result. Resources other than memory, such as network sockets , database handles , windows , file descriptors, and device descriptors, are not typically handled by garbage collection, but rather by other methods (e.g. destructors ). Some such methods de-allocate memory also. ^ Cite error: The named reference Abelson-Sussman_2016 was invoked but never defined (see the help page ). ^ a b \"What is garbage collection (GC) in programming?\" . Storage . Retrieved 21 June 2024 . ^ Cite error: The named reference McCarthy_1960 was invoked but never defined (see the help page ).",
+    "links": [
+      "Computer performance",
+      "Computer science",
+      "Destructor (computer programming)",
+      "File (computing)",
+      "Garbage (computer science)",
+      "Garbage collection (SSD)",
+      "Handle (computing)",
+      "John McCarthy (computer scientist)",
+      "Lisp (programming language)",
+      "Manual memory management",
+      "Memory management",
+      "Method (computer programming)",
+      "Network socket",
+      "Region inference",
+      "Stack-based memory allocation",
+      "Window (computing)"
+    ],
+    "page_id": 6734,
+    "revision_id": 1373231348,
+    "retrieved_at": "2026-09-18T18:07:42.960631+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260904190120|1373231279",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 6734,
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "revisions": [
+              {
+                "revid": 1373231348,
+                "parentid": 1373231279
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Structure_and_Interpretation_of_Computer_Programs_p.764a.gif",
+              "wikibase-shortdesc": "Form of automatic memory management",
+              "wikibase_item": "Q322202"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Garbage collection (computer science)",
+        "pageid": 6734,
+        "revid": 1373231348,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Form of automatic memory management</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about garbage collection in memory management. For garbage collection in a solid-state drive, see <a href=\"/wiki/Garbage_collection_(SSD)\" class=\"mw-redirect\" title=\"Garbage collection (SSD)\">Garbage collection (SSD)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Garbage_collection_(computer_science)\" title=\"Special:EditPage/Garbage collection (computer science)\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Garbage_collection_(computer_science)\" title=\"Talk:Garbage collection (computer science)\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Garbage_collection_(computer_science)\" title=\"Special:EditPage/Garbage collection (computer science)\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Garbage+collection%22+computer+science\">\"Garbage collection\"&#160;computer science</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Garbage+collection%22+computer+science+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Garbage+collection%22+computer+science&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Garbage+collection%22+computer+science+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Garbage+collection%22+computer+science\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Garbage+collection%22+computer+science&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">April 2026</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-More&#95;footnotes&#95;needed plainlinks metadata ambox ambox-style ambox-More&#95;footnotes&#95;needed\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/120px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article includes a list of <a href=\"/wiki/Wikipedia:Citing_sources#General_references\" title=\"Wikipedia:Citing sources\">general references</a> <b>but lacks sufficient corresponding <a href=\"/wiki/Wikipedia:Citing_sources#Inline_citations\" title=\"Wikipedia:Citing sources\">inline citations</a></b>.<span class=\"hide-when-compact\"> Please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Garbage_collection_(computer_science)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Garbage_collection_(computer_science)&amp;action=edit\">improve this article</a> by <a href=\"/wiki/Wikipedia:When_to_cite\" title=\"Wikipedia:When to cite\">introducing</a> more precise citations.</span>  <span class=\"date-container\"><i>(<span class=\"date\">April 2026</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n<figure class=\"skin-invert-image\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Structure_and_Interpretation_of_Computer_Programs_p.764a.gif\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Structure_and_Interpretation_of_Computer_Programs_p.764a.gif/500px-Structure_and_Interpretation_of_Computer_Programs_p.764a.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"400\" height=\"243\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/b/bc/Structure_and_Interpretation_of_Computer_Programs_p.764a.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"575\" data-file-height=\"349\" /></a><figcaption>Stop-and-copy garbage collection in a <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp architecture</a>:<sup id=\"cite&#95;ref-Abelson-Sussman&#95;2016&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Abelson-Sussman_2016-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Memory is divided into <i>working</i> and <i>free</i> memory; new objects are allocated in the former. When it is full (depicted), garbage collection is performed: All data structures still in use are located by pointer tracing and copied into consecutive locations in free memory.</figcaption></figure>\n<figure class=\"skin-invert-image\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Structure_and_Interpretation_of_Computer_Programs_p.764b.gif\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Structure_and_Interpretation_of_Computer_Programs_p.764b.gif/500px-Structure_and_Interpretation_of_Computer_Programs_p.764b.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"400\" height=\"243\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/b/bb/Structure_and_Interpretation_of_Computer_Programs_p.764b.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"575\" data-file-height=\"349\" /></a><figcaption>After that, the working memory contents is discarded in favor of the compacted copy, and the role of <i>working</i> and <i>free</i> memory are exchanged (depicted).</figcaption></figure>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, <b>garbage collection</b> (<b>GC</b>) is a form of automatic <a href=\"/wiki/Memory_management\" title=\"Memory management\">memory management</a>.<sup id=\"cite&#95;ref-techtarget&#95;2-0\" class=\"reference\"><a href=\"#cite_note-techtarget-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> The <i>garbage collector</i> attempts to reclaim memory that was allocated by the program, but is no longer referenced; such memory is called <i><a href=\"/wiki/Garbage_(computer_science)\" title=\"Garbage (computer science)\">garbage</a></i>. Garbage collection was invented by American computer scientist <a href=\"/wiki/John_McCarthy_(computer_scientist)\" title=\"John McCarthy (computer scientist)\">John McCarthy</a> around 1959 to simplify manual memory management in <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>.<sup id=\"cite&#95;ref-McCarthy&#95;1960&#95;3-0\" class=\"reference\"><a href=\"#cite_note-McCarthy_1960-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Garbage collection relieves the programmer from doing <a href=\"/wiki/Manual_memory_management\" title=\"Manual memory management\">manual memory management</a>, where the programmer specifies what objects to de-allocate and return to the memory system and when to do so.<sup id=\"cite&#95;ref-techtarget&#95;2-1\" class=\"reference\"><a href=\"#cite_note-techtarget-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> Other, similar techniques include <a href=\"/wiki/Stack-based_memory_allocation\" title=\"Stack-based memory allocation\">stack allocation</a>, <a href=\"/wiki/Region_inference\" class=\"mw-redirect\" title=\"Region inference\">region inference</a>, and memory ownership, and combinations thereof. Garbage collection may take a significant proportion of a program's total processing time, and affect <a href=\"/wiki/Computer_performance\" title=\"Computer performance\">performance</a> as a result.\n</p><p>Resources other than memory, such as <a href=\"/wiki/Network_socket\" title=\"Network socket\">network sockets</a>, database <a href=\"/wiki/Handle_(computing)\" title=\"Handle (computing)\">handles</a>, <a href=\"/wiki/Window_(computing)\" title=\"Window (computing)\">windows</a>, <a href=\"/wiki/File_(computing)\" class=\"mw-redirect\" title=\"File (computing)\">file</a> descriptors, and device descriptors, are not typically handled by garbage collection, but rather by other <a href=\"/wiki/Method_(computer_programming)\" title=\"Method (computer programming)\">methods</a> (e.g. <a href=\"/wiki/Destructor_(computer_programming)\" title=\"Destructor (computer programming)\">destructors</a>). Some such methods de-allocate memory also.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-Abelson-Sussman&#95;2016-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Abelson-Sussman_2016_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Abelson-Sussman_2016</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-techtarget-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-techtarget_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-techtarget_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.techtarget.com/searchstorage/definition/garbage-collection\">\"What is garbage collection (GC) in programming?\"</a>. <i>Storage</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 June</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Storage&amp;rft.atitle=What+is+garbage+collection+%28GC%29+in+programming%3F&amp;rft&#95;id=https%3A%2F%2Fwww.techtarget.com%2Fsearchstorage%2Fdefinition%2Fgarbage-collection&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGarbage+collection+%28computer+science%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-McCarthy&#95;1960-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-McCarthy_1960_3-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>McCarthy_1960</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐cp2lc\nCached time: 20260918180808\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.334 seconds\nReal time usage: 0.455 seconds\nPreprocessor visited node count: 853/1000000\nRevision size: 2819/2097152 bytes\nPost‐expand include size: 42803/2097152 bytes\nTemplate argument size: 14976/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 9009/5000000 bytes\nLua time usage: 0.190/10.000 seconds\nLua memory usage: 4369592/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  428.672      1 -total\n 30.24%  129.617      1 Template:Multiple_issues\n 21.77%   93.331      1 Template:Cite_web\n 19.97%   85.623      1 Template:Short_description\n 15.51%   66.475      2 Template:Ambox\n 14.63%   62.725      1 Template:More_citations_needed\n 12.25%   52.506      2 Template:Pagetype\n  6.76%   28.979      4 Template:Broken_ref\n  5.90%   25.288      1 Template:About\n  4.51%   19.334      5 Template:Main_other\n-->\n\n<!-- Render ID e6d905e6-b38b-11f1-aec1-51331280933e -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Garbage collection (SSD)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer performance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Destructor (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "File (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Handle (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John McCarthy (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manual memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Method (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Network socket",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Region inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stack-based memory allocation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Window (computing)",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:When to cite",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Form of automatic memory management",
+          "page_image_free": "Structure_and_Interpretation_of_Computer_Programs_p.764a.gif",
+          "wikibase_item": "Q322202"
+        }
+      }
+    }
+  ]
+}

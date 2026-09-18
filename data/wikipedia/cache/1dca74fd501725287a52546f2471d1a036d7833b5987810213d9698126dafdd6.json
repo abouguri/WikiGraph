@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "MIT License",
+    "url": "https://en.wikipedia.org/wiki/MIT_License",
+    "summary": "Permissive free software license MIT License Publisher Massachusetts Institute of Technology SPDX identifier MIT (see list for more) Debian FSG compatible Yes FSF approved Yes OSI approved Yes GPL compatible Yes Copyleft No Linking from code with a different license Yes The MIT License is a permissive software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts few restrictions on reuse and has high license compatibility . Unlike copyleft software licenses, the MIT License allows reuse within proprietary software , provided that all copies of the software or its substantial portions include a copy of the terms of the MIT License and also a copyright notice. In 2015 and from at least 2020 through 2025, the MIT License was the most popular software license on GitHub . Notable projects that use the MIT License include the X Window System , Ruby on Rails , Node.js , Lua , jQuery , .NET , Angular , and React . ^ Cite error: The named reference SPDX License List was invoked but never defined (see the help page ). ^ \"License information\" . The Debian Project . Software in the Public Interest (published July 12, 2017). 1997–2017. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . This page presents the opinion of some debian-legal contributors on how certain licenses follow the Debian Free Software Guidelines (DFSG). ... Licenses currently found in Debian main include: ... Expat/MIT-style licenses ... ^ a b c \"Various Licenses and Comments about Them\" . The GNU Project . Free Software Foundation (published April 4, 2017). 2014–2017. Expat License. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . This is a lax, permissive non-copyleft free software license, compatible with the GNU GPL. It is sometimes ambiguously referred to as the MIT License. ^ a b c \"Various Licenses and Comments about Them\" . The GNU Project . Free Software Foundation (published April 4, 2017). 2014–2017. X11 License. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . This is a lax permissive non-copyleft free software license, compatible with the GNU GPL. ... This license is sometimes called the MIT license, but that term is misleading, since MIT has used many licenses for software. ^ \"Licenses by Name\" . Open Source Initiative . n.d. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . The following licenses have been approved by the OSI. ... MIT License (MIT) ... ^ Rosen, Lawrence E. (2005). Open Source Licensing: Software Freedom and Intellectual Property Law . Upper Saddle River, NJ: Prentice Hall PTR . ISBN 0-13-148787-6 . OCLC 56012651 . ^ Haff, Gordon. \"The mysterious history of the MIT License\" . opensource.com . Retrieved July 30, 2019 . The date? The best single answer is probably 1987. But the complete story is more complicated and even a little mysterious. [...] Precursors from 1985. The X Consortium or X11 License variant from 1987. Or the Expat License from 1998 or 1999. ^ Hanwell, Marcus D. (January 28, 2014). \"Should I use a permissive license? Copyleft? Or something in the middle?\" . opensource.com . Retrieved May 30, 2015 . Permissive licensing simplifies things One reason the business world, and more and more developers [...], favor permissive licenses is in the simplicity of reuse. The license usually only pertains to the source code that is licensed and makes no attempt to infer any conditions upon any other component, and because of this there is no need to define what constitutes a derived work. I have also never seen a license compatibility chart for permissive licenses; it seems that they are all compatible. ^ a b \"Licence Compatibility and Interoperability\" . Open-Source Software . Joinup. Archived from the original on June 17, 2015 . Retrieved May 30, 2015 . The licences for distributing free or open source software (FOSS) are divided in two families: permissive and copyleft. Permissive licences (BSD, MIT, X11, Apache, Zope) are generally compatible and interoperable with most other licences, tolerating to merge, combine or improve the covered code and to re-distribute it under many licences (including non-free or \"proprietary\"). ^ \"Paid software includes MIT licensed library, does that put my app under MIT too?\" . Software Engineering Stack Exchange . Retrieved July 21, 2021 . ^ Cite error: The named reference github2015 was invoked but never defined (see the help page ). ^ \"GitHub Innovation Graph\" . innovationgraph.github.com . Retrieved January 8, 2025 .",
+    "text": "Permissive free software license MIT License Publisher Massachusetts Institute of Technology SPDX identifier MIT (see list for more) Debian FSG compatible Yes FSF approved Yes OSI approved Yes GPL compatible Yes Copyleft No Linking from code with a different license Yes The MIT License is a permissive software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts few restrictions on reuse and has high license compatibility . Unlike copyleft software licenses, the MIT License allows reuse within proprietary software , provided that all copies of the software or its substantial portions include a copy of the terms of the MIT License and also a copyright notice. In 2015 and from at least 2020 through 2025, the MIT License was the most popular software license on GitHub . Notable projects that use the MIT License include the X Window System , Ruby on Rails , Node.js , Lua , jQuery , .NET , Angular , and React . ^ Cite error: The named reference SPDX License List was invoked but never defined (see the help page ). ^ \"License information\" . The Debian Project . Software in the Public Interest (published July 12, 2017). 1997–2017. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . This page presents the opinion of some debian-legal contributors on how certain licenses follow the Debian Free Software Guidelines (DFSG). ... Licenses currently found in Debian main include: ... Expat/MIT-style licenses ... ^ a b c \"Various Licenses and Comments about Them\" . The GNU Project . Free Software Foundation (published April 4, 2017). 2014–2017. Expat License. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . This is a lax, permissive non-copyleft free software license, compatible with the GNU GPL. It is sometimes ambiguously referred to as the MIT License. ^ a b c \"Various Licenses and Comments about Them\" . The GNU Project . Free Software Foundation (published April 4, 2017). 2014–2017. X11 License. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . This is a lax permissive non-copyleft free software license, compatible with the GNU GPL. ... This license is sometimes called the MIT license, but that term is misleading, since MIT has used many licenses for software. ^ \"Licenses by Name\" . Open Source Initiative . n.d. Archived from the original on July 20, 2017 . Retrieved July 20, 2017 . The following licenses have been approved by the OSI. ... MIT License (MIT) ... ^ Rosen, Lawrence E. (2005). Open Source Licensing: Software Freedom and Intellectual Property Law . Upper Saddle River, NJ: Prentice Hall PTR . ISBN 0-13-148787-6 . OCLC 56012651 . ^ Haff, Gordon. \"The mysterious history of the MIT License\" . opensource.com . Retrieved July 30, 2019 . The date? The best single answer is probably 1987. But the complete story is more complicated and even a little mysterious. [...] Precursors from 1985. The X Consortium or X11 License variant from 1987. Or the Expat License from 1998 or 1999. ^ Hanwell, Marcus D. (January 28, 2014). \"Should I use a permissive license? Copyleft? Or something in the middle?\" . opensource.com . Retrieved May 30, 2015 . Permissive licensing simplifies things One reason the business world, and more and more developers [...], favor permissive licenses is in the simplicity of reuse. The license usually only pertains to the source code that is licensed and makes no attempt to infer any conditions upon any other component, and because of this there is no need to define what constitutes a derived work. I have also never seen a license compatibility chart for permissive licenses; it seems that they are all compatible. ^ a b \"Licence Compatibility and Interoperability\" . Open-Source Software . Joinup. Archived from the original on June 17, 2015 . Retrieved May 30, 2015 . The licences for distributing free or open source software (FOSS) are divided in two families: permissive and copyleft. Permissive licences (BSD, MIT, X11, Apache, Zope) are generally compatible and interoperable with most other licences, tolerating to merge, combine or improve the covered code and to re-distribute it under many licences (including non-free or \"proprietary\"). ^ \"Paid software includes MIT licensed library, does that put my app under MIT too?\" . Software Engineering Stack Exchange . Retrieved July 21, 2021 . ^ Cite error: The named reference github2015 was invoked but never defined (see the help page ). ^ \"GitHub Innovation Graph\" . innovationgraph.github.com . Retrieved January 8, 2025 .",
+    "links": [
+      ".NET",
+      "Angular (web framework)",
+      "Comparison of free and open-source software licenses",
+      "Copyleft",
+      "Debian Free Software Guidelines",
+      "Debian Project",
+      "Free Software Foundation",
+      "GNU Project",
+      "GPL compatible",
+      "GPL linking exception",
+      "GitHub",
+      "ISBN (identifier)",
+      "JQuery",
+      "License compatibility",
+      "Lua",
+      "Massachusetts Institute of Technology",
+      "Node.js",
+      "OCLC (identifier)",
+      "Open Source Initiative",
+      "Permissive software license",
+      "Prentice Hall PTR",
+      "Proprietary software",
+      "Publishing",
+      "React (JavaScript library)",
+      "Ruby on Rails",
+      "Software Package Data Exchange",
+      "Software in the Public Interest",
+      "X Window System"
+    ],
+    "page_id": 19193,
+    "revision_id": 1370207555,
+    "retrieved_at": "2026-09-18T18:09:45.647226+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260716023824|1364360357",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 19193,
+            "ns": 0,
+            "title": "MIT License",
+            "revisions": [
+              {
+                "revid": 1370207555,
+                "parentid": 1364360357
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Mit License",
+              "wikibase-shortdesc": "Permissive free software license",
+              "wikibase_item": "Q334661"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "MIT License",
+        "pageid": 19193,
+        "revid": 1370207555,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Permissive free software license</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox\"><caption class=\"infobox-title\">MIT License</caption><tbody><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Publishing\" title=\"Publishing\">Publisher</a></th><td class=\"infobox-data\" style=\"width:55%;\"><a href=\"/wiki/Massachusetts_Institute_of_Technology\" title=\"Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Software_Package_Data_Exchange\" title=\"Software Package Data Exchange\">SPDX</a> identifier</th><td class=\"infobox-data\" style=\"width:55%;\">MIT<br />(see list for more)<sup id=\"cite&#95;ref-SPDX&#95;License&#95;List&#95;1-0\" class=\"reference\"><a href=\"#cite_note-SPDX_License_List-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Debian_Free_Software_Guidelines\" class=\"mw-redirect\" title=\"Debian Free Software Guidelines\">Debian FSG compatible</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<sup id=\"cite&#95;ref-dfsg-licenses&#95;2-0\" class=\"reference\"><a href=\"#cite_note-dfsg-licenses-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">FSF</a> <a href=\"/wiki/Comparison_of_free_and_open-source_software_licenses#Approvals\" title=\"Comparison of free and open-source software licenses\">approved</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<sup id=\"cite&#95;ref-gnu-license-list-expat&#95;3-0\" class=\"reference\"><a href=\"#cite_note-gnu-license-list-expat-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-gnu-license-list-x11&#95;4-0\" class=\"reference\"><a href=\"#cite_note-gnu-license-list-x11-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Open_Source_Initiative\" title=\"Open Source Initiative\">OSI</a> <a href=\"/wiki/Comparison_of_free_and_open-source_software_licenses#Approvals\" title=\"Comparison of free and open-source software licenses\">approved</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<sup id=\"cite&#95;ref-Malachi&#95;5-0\" class=\"reference\"><a href=\"#cite_note-Malachi-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/GPL_compatible\" class=\"mw-redirect\" title=\"GPL compatible\">GPL compatible</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes<sup id=\"cite&#95;ref-gnu-license-list-expat&#95;3-1\" class=\"reference\"><a href=\"#cite_note-gnu-license-list-expat-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-gnu-license-list-x11&#95;4-1\" class=\"reference\"><a href=\"#cite_note-gnu-license-list-x11-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/Copyleft\" title=\"Copyleft\">Copyleft</a></th><td class=\"infobox-data\" style=\"width:55%;\">No<sup id=\"cite&#95;ref-gnu-license-list-expat&#95;3-2\" class=\"reference\"><a href=\"#cite_note-gnu-license-list-expat-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-gnu-license-list-x11&#95;4-2\" class=\"reference\"><a href=\"#cite_note-gnu-license-list-x11-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"width:45%;\"><a href=\"/wiki/GPL_linking_exception\" title=\"GPL linking exception\">Linking from code with a different license</a></th><td class=\"infobox-data\" style=\"width:55%;\">Yes</td></tr></tbody></table>\n<p>The <b>MIT License</b> is a <a href=\"/wiki/Permissive_software_license\" title=\"Permissive software license\">permissive software license</a> originating at the <a href=\"/wiki/Massachusetts_Institute_of_Technology\" title=\"Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a> (MIT)<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> in the late 1980s.<sup id=\"cite&#95;ref-history&#95;7-0\" class=\"reference\"><a href=\"#cite_note-history-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> As a permissive license, it puts few restrictions on reuse and has high <a href=\"/wiki/License_compatibility\" title=\"License compatibility\">license compatibility</a>.<sup id=\"cite&#95;ref-opensoucecomp&#95;8-0\" class=\"reference\"><a href=\"#cite_note-opensoucecomp-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-comaptible&#95;9-0\" class=\"reference\"><a href=\"#cite_note-comaptible-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Unlike <a href=\"/wiki/Copyleft\" title=\"Copyleft\">copyleft</a> software licenses, the MIT License allows reuse within <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a>, provided that all copies of the software or its substantial portions include a copy of the terms of the MIT License and also a copyright notice.<sup id=\"cite&#95;ref-comaptible&#95;9-1\" class=\"reference\"><a href=\"#cite_note-comaptible-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> In 2015<sup id=\"cite&#95;ref-github2015&#95;11-0\" class=\"reference\"><a href=\"#cite_note-github2015-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> and from at least 2020 through 2025,<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> the MIT License was the most popular software license on <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a>.\n</p><p>Notable projects that use the MIT License include the <a href=\"/wiki/X_Window_System\" title=\"X Window System\">X Window System</a>, <a href=\"/wiki/Ruby_on_Rails\" title=\"Ruby on Rails\">Ruby on Rails</a>, <a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a>, <a href=\"/wiki/Lua\" title=\"Lua\">Lua</a>, <a href=\"/wiki/JQuery\" title=\"JQuery\">jQuery</a>, <a href=\"/wiki/.NET\" title=\".NET\">.NET</a>, <a href=\"/wiki/Angular_(web_framework)\" title=\"Angular (web framework)\">Angular</a>, and <a href=\"/wiki/React_(JavaScript_library)\" class=\"mw-redirect\" title=\"React (JavaScript library)\">React</a>.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-SPDX&#95;License&#95;List-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-SPDX_License_List_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>SPDX License List</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-dfsg-licenses-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-dfsg-licenses_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.debian.org/legal/licenses/\">\"License information\"</a>. <i>The <a href=\"/wiki/Debian_Project\" class=\"mw-redirect\" title=\"Debian Project\">Debian Project</a></i>. <a href=\"/wiki/Software_in_the_Public_Interest\" title=\"Software in the Public Interest\">Software in the Public Interest</a> (published July 12, 2017). 1997–2017. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170720142826/https://www.debian.org/legal/licenses/\">Archived</a> from the original on July 20, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 20,</span> 2017</span>. <q>This page presents the opinion of some debian-legal contributors on how certain licenses follow the Debian Free Software Guidelines (DFSG).&#160;... Licenses currently found in Debian main include: ...&#160;Expat/MIT-style licenses&#160;...</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Debian+Project&amp;rft.atitle=License+information&amp;rft.date=1997%2F2017&amp;rft&#95;id=https%3A%2F%2Fwww.debian.org%2Flegal%2Flicenses%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gnu-license-list-expat-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-gnu-license-list-expat_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-gnu-license-list-expat_3-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-gnu-license-list-expat_3-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/licenses/license-list.en.html#Expat\">\"Various Licenses and Comments about Them\"</a>. <i>The <a href=\"/wiki/GNU_Project\" title=\"GNU Project\">GNU Project</a></i>. <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">Free Software Foundation</a> (published April 4, 2017). 2014–2017. Expat License. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170720140022/https://www.gnu.org/licenses/license-list.en.html\">Archived</a> from the original on July 20, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 20,</span> 2017</span>. <q>This is a lax, permissive non-copyleft free software license, compatible with the GNU GPL. It is sometimes ambiguously referred to as the MIT License.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+GNU+Project&amp;rft.atitle=Various+Licenses+and+Comments+about+Them&amp;rft.pages=Expat+License&amp;rft.date=2014%2F2017&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Flicense-list.en.html%23Expat&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gnu-license-list-x11-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-gnu-license-list-x11_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-gnu-license-list-x11_4-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-gnu-license-list-x11_4-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/licenses/license-list.en.html#X11License\">\"Various Licenses and Comments about Them\"</a>. <i>The <a href=\"/wiki/GNU_Project\" title=\"GNU Project\">GNU Project</a></i>. <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">Free Software Foundation</a> (published April 4, 2017). 2014–2017. X11 License. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170720140022/https://www.gnu.org/licenses/license-list.en.html\">Archived</a> from the original on July 20, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 20,</span> 2017</span>. <q>This is a lax permissive non-copyleft free software license, compatible with the GNU GPL.&#160;... This license is sometimes called the MIT license, but that term is misleading, since MIT has used many licenses for software.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+GNU+Project&amp;rft.atitle=Various+Licenses+and+Comments+about+Them&amp;rft.pages=X11+License&amp;rft.date=2014%2F2017&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Flicense-list.en.html%23X11License&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Malachi-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Malachi_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://opensource.org/licenses/alphabetical\">\"Licenses by Name\"</a>. <i><a href=\"/wiki/Open_Source_Initiative\" title=\"Open Source Initiative\">Open Source Initiative</a></i>. n.d. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170720141629/https://opensource.org/licenses/alphabetical\">Archived</a> from the original on July 20, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 20,</span> 2017</span>. <q>The following licenses have been approved by the OSI. ...&#160;MIT License (MIT)&#160;...</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Open+Source+Initiative&amp;rft.atitle=Licenses+by+Name&amp;rft&#95;id=https%3A%2F%2Fopensource.org%2Flicenses%2Falphabetical&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRosen2005\" class=\"citation book cs1\">Rosen, Lawrence E. (2005). <i>Open Source Licensing: Software Freedom and Intellectual Property Law</i>. Upper Saddle River, NJ: <a href=\"/wiki/Prentice_Hall_PTR\" class=\"mw-redirect\" title=\"Prentice Hall PTR\">Prentice Hall PTR</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-13-148787-6\" title=\"Special:BookSources/0-13-148787-6\"><bdi>0-13-148787-6</bdi></a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/56012651\">56012651</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Open+Source+Licensing%3A+Software+Freedom+and+Intellectual+Property+Law&amp;rft.place=Upper+Saddle+River%2C+NJ&amp;rft.pub=Prentice+Hall+PTR&amp;rft.date=2005&amp;rft&#95;id=info%3Aoclcnum%2F56012651&amp;rft.isbn=0-13-148787-6&amp;rft.aulast=Rosen&amp;rft.aufirst=Lawrence+E.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-history-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-history_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHaff\" class=\"citation web cs1\">Haff, Gordon. <a rel=\"nofollow\" class=\"external text\" href=\"https://opensource.com/article/19/4/history-mit-license\">\"The mysterious history of the MIT License\"</a>. <i>opensource.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 30,</span> 2019</span>. <q>The date? The best single answer is probably 1987. But the complete story is more complicated and even a little mysterious. [...] Precursors from 1985. The X Consortium or X11 License variant from 1987. Or the Expat License from 1998 or 1999.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=opensource.com&amp;rft.atitle=The+mysterious+history+of+the+MIT+License&amp;rft.aulast=Haff&amp;rft.aufirst=Gordon&amp;rft&#95;id=https%3A%2F%2Fopensource.com%2Farticle%2F19%2F4%2Fhistory-mit-license&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-opensoucecomp-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-opensoucecomp_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHanwell2014\" class=\"citation web cs1\">Hanwell, Marcus D. (January 28, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"http://opensource.com/business/14/1/what-license-should-i-use-open-source-project\">\"Should I use a permissive license? Copyleft? Or something in the middle?\"</a>. opensource.com<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 30,</span> 2015</span>. <q>Permissive licensing simplifies things One reason the business world, and more and more developers [...], favor permissive licenses is in the simplicity of reuse. The license usually only pertains to the source code that is licensed and makes no attempt to infer any conditions upon any other component, and because of this there is no need to define what constitutes a derived work. I have also never seen a license compatibility chart for permissive licenses; it seems that they are all compatible.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Should+I+use+a+permissive+license%3F+Copyleft%3F+Or+something+in+the+middle%3F&amp;rft.pub=opensource.com&amp;rft.date=2014-01-28&amp;rft.aulast=Hanwell&amp;rft.aufirst=Marcus+D.&amp;rft&#95;id=http%3A%2F%2Fopensource.com%2Fbusiness%2F14%2F1%2Fwhat-license-should-i-use-open-source-project&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-comaptible-9\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-comaptible_9-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-comaptible_9-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150617130550/https://joinup.ec.europa.eu/software/page/licence_compatibility_and_interoperability\">\"Licence Compatibility and Interoperability\"</a>. <i>Open-Source Software</i>. Joinup. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://joinup.ec.europa.eu/software/page/licence_compatibility_and_interoperability\">the original</a> on June 17, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 30,</span> 2015</span>. <q>The licences for distributing free or open source software (FOSS) are divided in two families: permissive and copyleft. Permissive licences (BSD, MIT, X11, Apache, Zope) are generally compatible and interoperable with most other licences, tolerating to merge, combine or improve the covered code and to re-distribute it under many licences (including non-free or \"proprietary\").</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Open-Source+Software&amp;rft.atitle=Licence+Compatibility+and+Interoperability&amp;rft&#95;id=https%3A%2F%2Fjoinup.ec.europa.eu%2Fsoftware%2Fpage%2Flicence&#95;compatibility&#95;and&#95;interoperability&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://softwareengineering.stackexchange.com/questions/264700/paid-software-includes-mit-licensed-library-does-that-put-my-app-under-mit-too\">\"Paid software includes MIT licensed library, does that put my app under MIT too?\"</a>. <i>Software Engineering Stack Exchange</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 21,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Software+Engineering+Stack+Exchange&amp;rft.atitle=Paid+software+includes+MIT+licensed+library%2C+does+that+put+my+app+under+MIT+too%3F&amp;rft&#95;id=https%3A%2F%2Fsoftwareengineering.stackexchange.com%2Fquestions%2F264700%2Fpaid-software-includes-mit-licensed-library-does-that-put-my-app-under-mit-too&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-github2015-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-github2015_11-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>github2015</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://innovationgraph.github.com/global-metrics/licenses\">\"GitHub Innovation Graph\"</a>. <i>innovationgraph.github.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 8,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=innovationgraph.github.com&amp;rft.atitle=GitHub+Innovation+Graph&amp;rft&#95;id=https%3A%2F%2Finnovationgraph.github.com%2Fglobal-metrics%2Flicenses&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMIT+License\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐qv4jl\nCached time: 20260918181011\nCache expiry: 21600\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.216 seconds\nReal time usage: 0.289 seconds\nPreprocessor visited node count: 1066/1000000\nRevision size: 6888/2097152 bytes\nPost‐expand include size: 31711/2097152 bytes\nTemplate argument size: 2745/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 26675/5000000 bytes\nLua time usage: 0.126/10.000 seconds\nLua memory usage: 5795134/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  273.057      1 -total\n 25.62%   69.969      1 Template:Infobox_software_license\n 24.54%   67.007      1 Template:Infobox\n 24.01%   65.562      9 Template:Cite_web\n 20.94%   57.168      1 Template:Short_description\n 11.78%   32.175      2 Template:Pagetype\n  8.06%   21.999      4 Template:Broken_ref\n  7.23%   19.742      1 Template:Engvar\n  6.60%   18.015      1 Template:Wikidata\n  6.29%   17.175      4 Template:Main_other\n-->\n\n<!-- Render ID 30294fc7-b38c-11f1-af35-5927e583bac6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": ".NET",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Angular (web framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of free and open-source software licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Copyleft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian Free Software Guidelines",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL compatible",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL linking exception",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JQuery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "License compatibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lua",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Massachusetts Institute of Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open Source Initiative",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Permissive software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prentice Hall PTR",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Publishing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "React (JavaScript library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby on Rails",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software Package Data Exchange",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software in the Public Interest",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X Window System",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Permissive free software license",
+          "wikibase_item": "Q334661"
+        }
+      }
+    }
+  ]
+}

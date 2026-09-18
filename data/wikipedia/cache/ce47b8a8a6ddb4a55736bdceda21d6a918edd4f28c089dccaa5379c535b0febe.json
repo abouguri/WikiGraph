@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": ".NET",
+    "url": "https://en.wikipedia.org/wiki/.NET",
+    "summary": "Free and open source cross-platform software platform developed by Microsoft For the earlier framework, see .NET Framework . For the top-level domain, see .net . For other uses, see .net (disambiguation) . .NET Developers .NET Foundation and the open-source community Release June 27, 2016 ; 10 years ago ( 2016-06-27 ) Stable release 10.0.12 / 8 September 2026 ; 10 days ago ( 8 September 2026 ) Preview release 10.0.0-rc.2 / 14 October 2025 ; 11 months ago ( 14 October 2025 ) Written in C# , C++ and C Operating system Cross-platform : Windows , Linux , macOS , Android , iOS Platform IA-32 , x86-64 , 64-bit ARM , Power ISA (ppc64le), IBM Z and LinuxONE ( s390x ) Predecessor .NET Framework Type Software framework License MIT Website dotnet .microsoft .com Repository github .com /dotnet /runtime The .NET platform (pronounced as \" dot net\" ; formerly named .NET Core ) is a free and open-source , managed computer software framework for Windows , Linux , and macOS operating systems . It is a cross-platform successor to the .NET Framework . The project is mainly developed by Microsoft employees by way of the .NET Foundation and is today released under an MIT License . New versions of the .NET platform are released annually, typically in November. The most recent version of .NET is .NET 10, released in November 2025, which is a long-term support (LTS) version, and is scheduled to receive updates until November 2028. ^ https://dotnet.microsoft.com/en-us/download/dotnet/10.0 . Retrieved September 9, 2026 . {{ cite web }} : Missing or empty |title= ( help ) ^ \"Download .NET 10.0\" . Retrieved October 14, 2025 . ^ \"Chapter 4. Supported operating systems and architectures | Release Notes for .NET 8.0 RPM packages | .NET | 8.0 | Red Hat Documentation\" . docs.redhat.com . Retrieved September 13, 2025 . ^ a b \"core/LICENSE.TXT\" . GitHub . Archived from the original on July 16, 2021 . Retrieved June 4, 2018 . ^ \"Download .NET Core\" . microsoft.com . Microsoft . Archived from the original on September 3, 2017 . Retrieved October 31, 2017 . ^ Cite error: The named reference :6 was invoked but never defined (see the help page ).",
+    "text": "Free and open source cross-platform software platform developed by Microsoft For the earlier framework, see .NET Framework . For the top-level domain, see .net . For other uses, see .net (disambiguation) . .NET Developers .NET Foundation and the open-source community Release June 27, 2016 ; 10 years ago ( 2016-06-27 ) Stable release 10.0.12 / 8 September 2026 ; 10 days ago ( 8 September 2026 ) Preview release 10.0.0-rc.2 / 14 October 2025 ; 11 months ago ( 14 October 2025 ) Written in C# , C++ and C Operating system Cross-platform : Windows , Linux , macOS , Android , iOS Platform IA-32 , x86-64 , 64-bit ARM , Power ISA (ppc64le), IBM Z and LinuxONE ( s390x ) Predecessor .NET Framework Type Software framework License MIT Website dotnet .microsoft .com Repository github .com /dotnet /runtime The .NET platform (pronounced as \" dot net\" ; formerly named .NET Core ) is a free and open-source , managed computer software framework for Windows , Linux , and macOS operating systems . It is a cross-platform successor to the .NET Framework . The project is mainly developed by Microsoft employees by way of the .NET Foundation and is today released under an MIT License . New versions of the .NET platform are released annually, typically in November. The most recent version of .NET is .NET 10, released in November 2025, which is a long-term support (LTS) version, and is scheduled to receive updates until November 2028. ^ https://dotnet.microsoft.com/en-us/download/dotnet/10.0 . Retrieved September 9, 2026 . {{ cite web }} : Missing or empty |title= ( help ) ^ \"Download .NET 10.0\" . Retrieved October 14, 2025 . ^ \"Chapter 4. Supported operating systems and architectures | Release Notes for .NET 8.0 RPM packages | .NET | 8.0 | Red Hat Documentation\" . docs.redhat.com . Retrieved September 13, 2025 . ^ a b \"core/LICENSE.TXT\" . GitHub . Archived from the original on July 16, 2021 . Retrieved June 4, 2018 . ^ \"Download .NET Core\" . microsoft.com . Microsoft . Archived from the original on September 3, 2017 . Retrieved October 31, 2017 . ^ Cite error: The named reference :6 was invoked but never defined (see the help page ).",
+    "links": [
+      ".NET Foundation",
+      ".NET Framework",
+      ".net",
+      ".net (disambiguation)",
+      "ARM architecture family",
+      "Android (operating system)",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "Computing platform",
+      "Cross-platform",
+      "Free and open-source",
+      "GitHub",
+      "IA-32",
+      "IBM Z",
+      "IOS",
+      "Linux",
+      "MIT License",
+      "MacOS",
+      "Managed code",
+      "Microsoft",
+      "Operating system",
+      "Power ISA",
+      "Programmer",
+      "Repository (version control)",
+      "S390x",
+      "Software categories",
+      "Software framework",
+      "Software license",
+      "Software release life cycle",
+      "Windows",
+      "X86-64"
+    ],
+    "page_id": 45400268,
+    "revision_id": 1375118505,
+    "retrieved_at": "2026-09-18T18:09:15.615683+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260914004658|1374769549",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 45400268,
+            "ns": 0,
+            "title": ".NET",
+            "revisions": [
+              {
+                "revid": 1375118505,
+                "parentid": 1374769549
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Microsoft_.NET_logo.svg",
+              "wikibase-shortdesc": "Free and open source cross-platform software platform developed by Microsoft",
+              "wikibase_item": "Q21622213"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": ".NET",
+        "pageid": 45400268,
+        "revid": 1375118505,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free and open source cross-platform software platform developed by Microsoft</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the earlier framework, see <a href=\"/wiki/.NET_Framework\" title=\".NET Framework\">.NET Framework</a>. For the top-level domain, see <a href=\"/wiki/.net\" title=\".net\">.net</a>. For other uses, see <a href=\"/wiki/.net_(disambiguation)\" class=\"mw-disambig\" title=\".net (disambiguation)\">.net (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">.NET</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Microsoft_.NET_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/250px-Microsoft_.NET_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"150\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/330px-Microsoft_.NET_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"456\" data-file-height=\"456\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developers</a></th><td class=\"infobox-data\"><a href=\"/wiki/.NET_Foundation\" title=\".NET Foundation\">.NET Foundation</a> and the open-source community</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">June&#160;27, 2016<span class=\"noprint\">&#59;&#32;10 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2016-06-27</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">10.0.12<sup id=\"cite&#95;ref-wikidata-4e1df219c6ac457e5261226101eb5fbb44f3c8df-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-4e1df219c6ac457e5261226101eb5fbb44f3c8df-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q21622213?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 8 September 2026<span class=\"noprint\">&#59;&#32;10 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">8 September 2026</span>)</span></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">10.0.0-rc.2<sup id=\"cite&#95;ref-wikidata-2bc9dc5cc6ab49e36394524e17d6a88ed3d7e2cf-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-2bc9dc5cc6ab49e36394524e17d6a88ed3d7e2cf-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q21622213?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 14 October 2025<span class=\"noprint\">&#59;&#32;11 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">14 October 2025</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> and <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a>: <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a>, <a href=\"/wiki/IOS\" title=\"IOS\">iOS</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, 64-bit <a href=\"/wiki/ARM_architecture_family\" title=\"ARM architecture family\">ARM</a>, <a href=\"/wiki/Power_ISA\" title=\"Power ISA\">Power ISA</a> (ppc64le),  <a href=\"/wiki/IBM_Z\" title=\"IBM Z\">IBM Z</a> and LinuxONE (<a href=\"/wiki/S390x\" class=\"mw-redirect\" title=\"S390x\">s390x</a>)<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Predecessor</th><td class=\"infobox-data\"><a href=\"/wiki/.NET_Framework\" title=\".NET Framework\">.NET Framework</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Software_framework\" title=\"Software framework\">Software framework</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT</a><sup id=\"cite&#95;ref-GHlicense&#95;4-0\" class=\"reference\"><a href=\"#cite_note-GHlicense-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://dotnet.microsoft.com\">dotnet<wbr />.microsoft<wbr />.com</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dotnet/runtime\">github<wbr />.com<wbr />/dotnet<wbr />/runtime</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q21622213#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p>The <b>.NET</b> platform (pronounced as \"<i>dot net\"</i>; formerly named <b>.NET Core</b>) is a <a href=\"/wiki/Free_and_open-source\" class=\"mw-redirect\" title=\"Free and open-source\">free and open-source</a>, <a href=\"/wiki/Managed_code\" title=\"Managed code\">managed</a> computer <a href=\"/wiki/Software_framework\" title=\"Software framework\">software framework</a> for <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, and <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a> <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a>.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> It is a cross-platform successor to the <a href=\"/wiki/.NET_Framework\" title=\".NET Framework\">.NET Framework</a>. The project is mainly developed by <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a> employees by way of the <a href=\"/wiki/.NET_Foundation\" title=\".NET Foundation\">.NET Foundation</a> and is today released under an <a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT License</a>.<sup id=\"cite&#95;ref-GHlicense&#95;4-1\" class=\"reference\"><a href=\"#cite_note-GHlicense-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>New versions of the .NET platform are released annually, typically in November. The most recent version of .NET is .NET 10, released in November 2025, which is a long-term support (LTS) version, and is scheduled to receive updates until November 2028.<sup id=\"cite&#95;ref-:6&#95;6-0\" class=\"reference\"><a href=\"#cite_note-:6-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-4e1df219c6ac457e5261226101eb5fbb44f3c8df-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-4e1df219c6ac457e5261226101eb5fbb44f3c8df-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://dotnet.microsoft.com/en-us/download/dotnet/10.0\">https://dotnet.microsoft.com/en-us/download/dotnet/10.0</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 9,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft&#95;id=https%3A%2F%2Fdotnet.microsoft.com%2Fen-us%2Fdownload%2Fdotnet%2F10.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3A.NET\" class=\"Z3988\"></span> <span class=\"cs1-visible-error citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>: </span><span class=\"cs1-visible-error citation-comment\">Missing or empty <code class=\"cs1-code\">&#124;title=</code> (<a href=\"/wiki/Help:CS1_errors#citation_missing_title\" title=\"Help:CS1 errors\">help</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-2bc9dc5cc6ab49e36394524e17d6a88ed3d7e2cf-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-2bc9dc5cc6ab49e36394524e17d6a88ed3d7e2cf-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://dotnet.microsoft.com/en-us/download/dotnet/10.0\">\"Download .NET 10.0\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 14,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Download+.NET+10.0&amp;rft&#95;id=https%3A%2F%2Fdotnet.microsoft.com%2Fen-us%2Fdownload%2Fdotnet%2F10.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3A.NET\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.redhat.com/en/documentation/net/8.0/html/release_notes_for_.net_8.0_rpm_packages/supported-operating-systems-and-architecture_release-notes-for-dotnet-rpms\">\"Chapter 4. Supported operating systems and architectures | Release Notes for .NET 8.0 RPM packages | .NET | 8.0 | Red Hat Documentation\"</a>. <i>docs.redhat.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 13,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=docs.redhat.com&amp;rft.atitle=Chapter+4.+Supported+operating+systems+and+architectures+%7C+Release+Notes+for+.NET+8.0+RPM+packages+%7C+.NET+%7C+8.0+%7C+Red+Hat+Documentation&amp;rft&#95;id=https%3A%2F%2Fdocs.redhat.com%2Fen%2Fdocumentation%2Fnet%2F8.0%2Fhtml%2Frelease&#95;notes&#95;for&#95;.net&#95;8.0&#95;rpm&#95;packages%2Fsupported-operating-systems-and-architecture&#95;release-notes-for-dotnet-rpms&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3A.NET\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-GHlicense-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-GHlicense_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-GHlicense_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/dotnet/core/blob/main/LICENSE.TXT\">\"core/LICENSE.TXT\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210716132832/https://github.com/dotnet/core/blob/main/LICENSE.TXT\">Archived</a> from the original on July 16, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 4,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=core%2FLICENSE.TXT&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fdotnet%2Fcore%2Fblob%2Fmain%2FLICENSE.TXT&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3A.NET\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.microsoft.com/net/download/core\">\"Download .NET Core\"</a>. <i>microsoft.com</i>. <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170903110122/http://www.microsoft.com/net/download/core\">Archived</a> from the original on September 3, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 31,</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=microsoft.com&amp;rft.atitle=Download+.NET+Core&amp;rft&#95;id=https%3A%2F%2Fwww.microsoft.com%2Fnet%2Fdownload%2Fcore&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3A.NET\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:6-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:6_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>:6</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐49jh9\nCached time: 20260918180941\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.374 seconds\nReal time usage: 0.475 seconds\nPreprocessor visited node count: 1956/1000000\nRevision size: 4339/2097152 bytes\nPost‐expand include size: 41466/2097152 bytes\nTemplate argument size: 7917/2097152 bytes\nHighest expansion depth: 24/100\nExpensive parser function count: 8/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 15977/5000000 bytes\nLua time usage: 0.275/10.000 seconds\nLua memory usage: 16972561/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  451.761      1 -total\n 79.64%  359.789      2 Template:Infobox\n 68.53%  309.602      1 Template:Infobox_software\n 50.93%  230.077      1 Template:Infobox_software/simple\n 49.68%  224.416     10 Template:Wikidata\n 48.32%  218.276     19 Template:If_empty\n 13.24%   59.834      1 Template:Short_description\n  8.11%   36.645      2 Template:Pagetype\n  7.26%   32.782      3 Template:Start_date_and_age\n  4.22%   19.069      1 Template:For-multi\n-->\n\n<!-- Render ID 1e47ab1d-b38c-11f1-938d-f1abe949f128 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": ".NET Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".net",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".net (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".NET Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture family",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM Z",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Managed code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Power ISA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S390x",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Cite web",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:CS1 errors",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free and open source cross-platform software platform developed by Microsoft",
+          "page_image_free": "Microsoft_.NET_logo.svg",
+          "wikibase_item": "Q21622213"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Structured programming",
+    "url": "https://en.wikipedia.org/wiki/Structured_programming",
+    "summary": "Programming paradigm based on block-based control flow Structured programming is a programming paradigm characterized by source code that uses block -based source code structure to encode control flow such as sequence, selection (i.e. if-then-else and switch ) and iteration (i.e. for and while ). Originally, the central goal of the structured programming movement was to eliminate the need for and use of the goto statement. As goto provides powerful and flexible flow control, it can be used to write any arbitrarily complex algorithm, but the resulting code often has significant quality issues, commonly described as spaghetti code . Structured programming replaces goto with constructs that tend to result in better code. The paradigm became popular and for the most part achieved the goal of supplanting goto. In fact, its ubiquity is so thorough that for much of software development , it is simply the way code is written, and is no longer a topic of discussion as it once was. Structured programming is sometimes associated with modular programming even though they are different. In a general sense, structured implies a sense of modularity and of being written to be efficient and easy to understand and modify, but this is not what structured programming means in a narrow sense. After structured programming became popular, the style of programming that preceded it was retroactively called non-structured programming . Although technically a programming paradigm, it differs from other paradigms in that it was not intentionally designed. It was simply the state-of-the-art before structured programming was envisioned. ^ \"What is Structured Programming?\" . Software Quality . Retrieved 2024-04-09 .",
+    "text": "Programming paradigm based on block-based control flow Structured programming is a programming paradigm characterized by source code that uses block -based source code structure to encode control flow such as sequence, selection (i.e. if-then-else and switch ) and iteration (i.e. for and while ). Originally, the central goal of the structured programming movement was to eliminate the need for and use of the goto statement. As goto provides powerful and flexible flow control, it can be used to write any arbitrarily complex algorithm, but the resulting code often has significant quality issues, commonly described as spaghetti code . Structured programming replaces goto with constructs that tend to result in better code. The paradigm became popular and for the most part achieved the goal of supplanting goto. In fact, its ubiquity is so thorough that for much of software development , it is simply the way code is written, and is no longer a topic of discussion as it once was. Structured programming is sometimes associated with modular programming even though they are different. In a general sense, structured implies a sense of modularity and of being written to be efficient and easy to understand and modify, but this is not what structured programming means in a narrow sense. After structured programming became popular, the style of programming that preceded it was retroactively called non-structured programming . Although technically a programming paradigm, it differs from other paradigms in that it was not intentionally designed. It was simply the state-of-the-art before structured programming was envisioned. ^ \"What is Structured Programming?\" . Software Quality . Retrieved 2024-04-09 .",
+    "links": [
+      "Block (programming)",
+      "Conditional (computer programming)",
+      "Control flow",
+      "For loop",
+      "Goto",
+      "Modular programming",
+      "Non-structured programming",
+      "Programming paradigm",
+      "Programming style",
+      "Software development",
+      "Software quality",
+      "Source code",
+      "Spaghetti code",
+      "State-of-the-art",
+      "Structure",
+      "Switch statement",
+      "While loop"
+    ],
+    "page_id": 27695,
+    "revision_id": 1372126489,
+    "retrieved_at": "2026-09-18T18:07:43.498818+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260812151035|1369045500",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 27695,
+            "ns": 0,
+            "title": "Structured programming",
+            "revisions": [
+              {
+                "revid": 1372126489,
+                "parentid": 1369045500
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Structured Programming",
+              "wikibase-shortdesc": "Programming paradigm based on block-based control flow",
+              "wikibase_item": "Q223335"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Structured programming",
+        "pageid": 27695,
+        "revid": 1372126489,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming paradigm based on block-based control flow</div>\n<p><b>Structured programming</b> is a <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming paradigm</a> characterized by <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> that uses <a href=\"/wiki/Block_(programming)\" title=\"Block (programming)\">block</a>-based <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> <a href=\"/wiki/Structure\" title=\"Structure\">structure</a> to encode <a href=\"/wiki/Control_flow\" title=\"Control flow\">control flow</a> such as sequence, selection (i.e. <a href=\"/wiki/Conditional_(computer_programming)\" title=\"Conditional (computer programming)\">if-then-else</a> and <a href=\"/wiki/Switch_statement\" title=\"Switch statement\">switch</a>) and iteration (i.e. <a href=\"/wiki/For_loop\" class=\"mw-redirect\" title=\"For loop\">for</a> and <a href=\"/wiki/While_loop\" class=\"mw-redirect\" title=\"While loop\">while</a>). \n</p><p>Originally, the central goal of the structured programming movement was to eliminate the need for and use of the <a href=\"/wiki/Goto\" title=\"Goto\">goto</a> statement. As goto provides powerful and flexible flow control, it can be used to write any arbitrarily complex algorithm, but the resulting code often has significant <a href=\"/wiki/Software_quality\" title=\"Software quality\">quality</a> issues, commonly described as <a href=\"/wiki/Spaghetti_code\" title=\"Spaghetti code\">spaghetti code</a>. Structured programming replaces goto with constructs that tend to result in better code. The paradigm became popular and for the most part achieved the goal of supplanting goto. In fact, its ubiquity is so thorough that for much of <a href=\"/wiki/Software_development\" title=\"Software development\">software development</a>, it is simply the way code is written, and is no longer a topic of discussion as it once was.\n</p><p>Structured programming is sometimes associated with <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular programming</a> even though they are different. In a general sense, <i>structured</i> implies a sense of modularity and of being written to be efficient and easy to understand and modify, but this is not what structured programming means in a narrow sense.<sup id=\"cite&#95;ref-:0&#95;1-0\" class=\"reference\"><a href=\"#cite_note-:0-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>After structured programming became popular, the <a href=\"/wiki/Programming_style\" title=\"Programming style\">style of programming</a> that preceded it was retroactively called <a href=\"/wiki/Non-structured_programming\" title=\"Non-structured programming\">non-structured programming</a>. Although technically a programming paradigm, it differs from other paradigms in that it was not intentionally designed. It was simply the <a href=\"/wiki/State-of-the-art\" class=\"mw-redirect\" title=\"State-of-the-art\">state-of-the-art</a> before structured programming was envisioned.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-:0-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.techtarget.com/searchsoftwarequality/definition/structured-programming-modular-programming\">\"What is Structured Programming?\"</a>. <i>Software Quality</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2024-04-09</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Software+Quality&amp;rft.atitle=What+is+Structured+Programming%3F&amp;rft&#95;id=https%3A%2F%2Fwww.techtarget.com%2Fsearchsoftwarequality%2Fdefinition%2Fstructured-programming-modular-programming&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AStructured+programming\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐tzlqw\nCached time: 20260918180809\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.075 seconds\nReal time usage: 0.117 seconds\nPreprocessor visited node count: 164/1000000\nRevision size: 2114/2097152 bytes\nPost‐expand include size: 2504/2097152 bytes\nTemplate argument size: 586/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 2373/5000000 bytes\nLua time usage: 0.052/10.000 seconds\nLua memory usage: 3251476/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  109.643      1 -total\n 54.72%   59.999      1 Template:Short_description\n 43.84%   48.068      1 Template:Cite_web\n 30.43%   33.369      2 Template:Pagetype\n 15.76%   17.282      2 Template:Main_other\n 14.56%   15.962      1 Template:SDcat\n  1.33%    1.461      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID e7719dd9-b38b-11f1-b01d-83ddc3770b49 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Block (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Conditional (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Control flow",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "For loop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Goto",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Non-structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming style",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software quality",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spaghetti code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "State-of-the-art",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Switch statement",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "While loop",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming paradigm based on block-based control flow",
+          "wikibase_item": "Q223335"
+        }
+      }
+    }
+  ]
+}

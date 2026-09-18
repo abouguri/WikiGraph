@@ -12,6 +12,7 @@ import subprocess
 import sys
 import tempfile
 import time
+from datetime import UTC, datetime
 from pathlib import Path
 
 import requests
@@ -80,7 +81,18 @@ def main():
                 "dataset_counts": health,
                 "platform": platform.platform(),
                 "python": platform.python_version(),
-                "cpu": platform.processor(),
+                "cpu": next(
+                    (
+                        line.split(":", 1)[1].strip()
+                        for line in Path("/proc/cpuinfo").read_text().splitlines()
+                        if line.startswith("model name")
+                    ),
+                    platform.processor(),
+                )
+                if Path("/proc/cpuinfo").exists()
+                else platform.processor(),
+                "measured_at": datetime.now(UTC).isoformat(),
+                "benchmark_script_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                 "logical_cpus": os.cpu_count(),
                 "concurrency": args.concurrency,
                 "requests_per_workload": args.requests,
@@ -121,8 +133,16 @@ def main():
                 server.wait()
     report["server_peak_rss_kib"] = resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss
     report["limitations"] = (
-        "One local run on a 100-page graph, not the planned 300-page release gate; no WAN or sustained-load claim."
+        "One local loopback run with a fixed workload; no WAN or sustained-load claim."
     )
+    report["release_latency_gate"] = {
+        "required_pages": 300,
+        "required_concurrency": 5,
+        "target_p95_ms": 300,
+        "passed": health["entities"] >= 300
+        and args.concurrency == 5
+        and all(report["workloads"][name]["p95_ms"] < 300 for name in ["search", "neighbors"]),
+    }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

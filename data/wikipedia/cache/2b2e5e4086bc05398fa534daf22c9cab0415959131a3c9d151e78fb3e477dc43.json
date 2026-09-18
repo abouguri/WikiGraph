@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Compiled language",
+    "url": "https://en.wikipedia.org/wiki/Compiled_language",
+    "summary": "Programming language usually implemented with a compiler Informally, a compiled language is a programming language that is usually implemented with a compiler rather than an interpreter . Because any language can theoretically be either compiled or interpreted, the term lacks clarity: compilation and interpretation are properties of a programming language implementation , not of a programming language. Some languages have both compilers and interpreters. Furthermore, a single implementation can involve both a compiler and an interpreter. For example, in some environments, source code is first compiled to an intermediate form (e.g., bytecode ), which is then interpreted by an application virtual machine . In other environments, a just-in-time compiler selectively compiles some code at runtime , blurring the distinction further. ^ a b Krishnamurthi, Shriram (2025-07-14). Programming Languages: Application and Interpretation (PDF) (3rd ed.). p. 17. ^ Ullah, Asmat. \"Features and Characteristics of Compiled Languages\" . www.sqa.org.uk . ^ \"Byte Code in Java\" . GeeksforGeeks . 2021-10-16 . Retrieved 2025-04-22 .",
+    "text": "Programming language usually implemented with a compiler Informally, a compiled language is a programming language that is usually implemented with a compiler rather than an interpreter . Because any language can theoretically be either compiled or interpreted, the term lacks clarity: compilation and interpretation are properties of a programming language implementation , not of a programming language. Some languages have both compilers and interpreters. Furthermore, a single implementation can involve both a compiler and an interpreter. For example, in some environments, source code is first compiled to an intermediate form (e.g., bytecode ), which is then interpreted by an application virtual machine . In other environments, a just-in-time compiler selectively compiles some code at runtime , blurring the distinction further. ^ a b Krishnamurthi, Shriram (2025-07-14). Programming Languages: Application and Interpretation (PDF) (3rd ed.). p. 17. ^ Ullah, Asmat. \"Features and Characteristics of Compiled Languages\" . www.sqa.org.uk . ^ \"Byte Code in Java\" . GeeksforGeeks . 2021-10-16 . Retrieved 2025-04-22 .",
+    "links": [
+      "Application virtual machine",
+      "Bytecode",
+      "Compiler",
+      "Execution (computing)",
+      "Interpreter (computing)",
+      "Just-in-time compilation",
+      "Programming language",
+      "Programming language implementation"
+    ],
+    "page_id": 174101,
+    "revision_id": 1357974599,
+    "retrieved_at": "2026-09-18T18:08:48.219368+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260203023909|1336313414",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 174101,
+            "ns": 0,
+            "title": "Compiled language",
+            "revisions": [
+              {
+                "revid": 1357974599,
+                "parentid": 1336313414
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming language usually implemented with a compiler",
+              "wikibase_item": "Q651794"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Compiled language",
+        "pageid": 174101,
+        "revid": 1357974599,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language usually implemented with a compiler</div>\n<p>Informally, a <b>compiled language</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> that is usually implemented with a <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> rather than an <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a>. Because any language can theoretically be either compiled or interpreted, the term lacks clarity: compilation and interpretation are properties of a <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">programming language implementation</a>, not of a programming language. Some languages have both compilers and interpreters.<sup id=\"cite&#95;ref-:0&#95;1-0\" class=\"reference\"><a href=\"#cite_note-:0-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> Furthermore, a single implementation can involve both a compiler and an interpreter. For example, in some environments, source code is first compiled to an intermediate form (e.g., <a href=\"/wiki/Bytecode\" title=\"Bytecode\">bytecode</a>), which is then interpreted by an <a href=\"/wiki/Application_virtual_machine\" class=\"mw-redirect\" title=\"Application virtual machine\">application virtual machine</a>.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> In other environments, a <a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">just-in-time compiler</a> selectively compiles some code at <a href=\"/wiki/Execution_(computing)#Runtime\" title=\"Execution (computing)\">runtime</a>, blurring the distinction further.<sup id=\"cite&#95;ref-:0&#95;1-1\" class=\"reference\"><a href=\"#cite_note-:0-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-:0-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-:0_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-:0_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFKrishnamurthi2025\" class=\"citation book cs1\">Krishnamurthi, Shriram (2025-07-14). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.plai.org/3/5/plai-v325.pdf\"><i>Programming Languages: Application and Interpretation</i></a> <span class=\"cs1-format\">(PDF)</span> (3rd&#160;ed.). p.&#160;17.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Programming+Languages%3A+Application+and+Interpretation&amp;rft.pages=17&amp;rft.edition=3rd&amp;rft.date=2025-07-14&amp;rft.aulast=Krishnamurthi&amp;rft.aufirst=Shriram&amp;rft&#95;id=https%3A%2F%2Fwww.plai.org%2F3%2F5%2Fplai-v325.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompiled+language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFUllah\" class=\"citation web cs1\">Ullah, Asmat. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sqa.org.uk/e-learning/ClientSide01CD/page_14.htm\">\"Features and Characteristics of Compiled Languages\"</a>. <i>www.sqa.org.uk</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.sqa.org.uk&amp;rft.atitle=Features+and+Characteristics+of+Compiled+Languages&amp;rft.aulast=Ullah&amp;rft.aufirst=Asmat&amp;rft&#95;id=https%3A%2F%2Fwww.sqa.org.uk%2Fe-learning%2FClientSide01CD%2Fpage&#95;14.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompiled+language\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.geeksforgeeks.org/byte-code-in-java/\">\"Byte Code in Java\"</a>. <i>GeeksforGeeks</i>. 2021-10-16<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-04-22</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GeeksforGeeks&amp;rft.atitle=Byte+Code+in+Java&amp;rft.date=2021-10-16&amp;rft&#95;id=https%3A%2F%2Fwww.geeksforgeeks.org%2Fbyte-code-in-java%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompiled+language\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐tr2jp\nCached time: 20260918180913\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.176 seconds\nReal time usage: 0.239 seconds\nPreprocessor visited node count: 227/1000000\nRevision size: 1609/2097152 bytes\nPost‐expand include size: 4935/2097152 bytes\nTemplate argument size: 597/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7262/5000000 bytes\nLua time usage: 0.129/10.000 seconds\nLua memory usage: 3733407/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  227.326      1 -total\n 49.98%  113.625      1 Template:Cite_book\n 42.36%   96.303      1 Template:Short_description\n 22.69%   51.591      2 Template:Pagetype\n 13.36%   30.363      2 Template:Main_other\n 12.30%   27.957      1 Template:SDcat\n  5.46%   12.420      2 Template:Cite_web\n  1.21%    2.743      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 0d973cab-b38c-11f1-b060-575b6621c3f1 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Application virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language usually implemented with a compiler",
+          "wikibase_item": "Q651794"
+        }
+      }
+    }
+  ]
+}

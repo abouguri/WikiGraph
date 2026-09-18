@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Programming language design and implementation",
+    "url": "https://en.wikipedia.org/wiki/Programming_language_design_and_implementation",
+    "summary": "Sub-field of computer science For the conference, see Programming Language Design and Implementation . This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Programming language design and implementation\" – news · newspapers · books · scholar · JSTOR ( March 2023 ) ( Learn how and when to remove this message ) Programming languages are typically created by designing a form of representation of a computer program, and writing an implementation for the developed concept, usually an interpreter or compiler . Interpreters are designed to read programs, usually in some variation of a text format, and perform actions based on what it reads, whereas compilers convert code to a lower level form, such as object code . ^ Tomassetti, Federico (8 May 2019). \"How would I go about creating a programming language?\" . Strumenta . Retrieved 3 March 2023 . ^ \"Compiler vs Interpreter\" . Geeks For Geeks . 17 January 2022 . Retrieved 3 March 2023 .",
+    "text": "Sub-field of computer science For the conference, see Programming Language Design and Implementation . This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Programming language design and implementation\" – news · newspapers · books · scholar · JSTOR ( March 2023 ) ( Learn how and when to remove this message ) Programming languages are typically created by designing a form of representation of a computer program, and writing an implementation for the developed concept, usually an interpreter or compiler . Interpreters are designed to read programs, usually in some variation of a text format, and perform actions based on what it reads, whereas compilers convert code to a lower level form, such as object code . ^ Tomassetti, Federico (8 May 2019). \"How would I go about creating a programming language?\" . Strumenta . Retrieved 3 March 2023 . ^ \"Compiler vs Interpreter\" . Geeks For Geeks . 17 January 2022 . Retrieved 3 March 2023 .",
+    "links": [
+      "Compiler",
+      "Interpreter (computing)",
+      "Object code",
+      "Plain text",
+      "Programming Language Design and Implementation",
+      "Programming language"
+    ],
+    "page_id": 73181722,
+    "revision_id": 1375226116,
+    "retrieved_at": "2026-09-18T18:07:21.009040+00:00",
+    "aliases": [
+      "Programming language implementation"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260910114450|1374191117",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Programming language implementation",
+            "to": "Programming language design and implementation",
+            "tofragment": "Implementation"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 73181722,
+            "ns": 0,
+            "title": "Programming language design and implementation",
+            "revisions": [
+              {
+                "revid": 1375226116,
+                "parentid": 1374191117
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Programming Language Implementation",
+              "wikibase-shortdesc": "Sub-field of computer science",
+              "wikibase_item": "Q117190944"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Programming language design and implementation",
+        "pageid": 73181722,
+        "revid": 1375226116,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Sub-field of computer science</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the conference, see <a href=\"/wiki/Programming_Language_Design_and_Implementation\" title=\"Programming Language Design and Implementation\">Programming Language Design and Implementation</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Programming_language_design_and_implementation\" title=\"Special:EditPage/Programming language design and implementation\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Programming+language+design+and+implementation%22\">\"Programming language design and implementation\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Programming+language+design+and+implementation%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Programming+language+design+and+implementation%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Programming+language+design+and+implementation%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Programming+language+design+and+implementation%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Programming+language+design+and+implementation%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">March 2023</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p><a href=\"/wiki/Programming_language\" title=\"Programming language\">Programming languages</a> are typically created by designing a form of representation of a computer program, and writing an implementation for the developed concept,<sup id=\"cite&#95;ref-federico&#95;1-0\" class=\"reference\"><a href=\"#cite_note-federico-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> usually an <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a> or <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a>. Interpreters are designed to read programs, usually in some variation of a <a href=\"/wiki/Plain_text\" title=\"Plain text\">text</a> format, and perform actions based on what it reads, whereas compilers convert code to a lower level form, such as <a href=\"/wiki/Object_code\" title=\"Object code\">object code</a>.<sup id=\"cite&#95;ref-gfg&#95;2-0\" class=\"reference\"><a href=\"#cite_note-gfg-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-federico-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-federico_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFTomassetti2019\" class=\"citation web cs1\">Tomassetti, Federico (8 May 2019). <a rel=\"nofollow\" class=\"external text\" href=\"https://tomassetti.me/how-to-create-programming-language/\">\"How would I go about creating a programming language?\"</a>. <i>Strumenta</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 March</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Strumenta&amp;rft.atitle=How+would+I+go+about+creating+a+programming+language%3F&amp;rft.date=2019-05-08&amp;rft.aulast=Tomassetti&amp;rft.aufirst=Federico&amp;rft&#95;id=https%3A%2F%2Ftomassetti.me%2Fhow-to-create-programming-language%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProgramming+language+design+and+implementation\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gfg-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-gfg_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.geeksforgeeks.org/compiler-vs-interpreter-2/\">\"Compiler vs Interpreter\"</a>. <i>Geeks For Geeks</i>. 17 January 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 March</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Geeks+For+Geeks&amp;rft.atitle=Compiler+vs+Interpreter&amp;rft.date=2022-01-17&amp;rft&#95;id=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcompiler-vs-interpreter-2%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProgramming+language+design+and+implementation\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐gjsmg\nCached time: 20260918180746\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.234 seconds\nReal time usage: 0.321 seconds\nPreprocessor visited node count: 265/1000000\nRevision size: 1072/2097152 bytes\nPost‐expand include size: 15500/2097152 bytes\nTemplate argument size: 410/2097152 bytes\nHighest expansion depth: 9/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 6694/5000000 bytes\nLua time usage: 0.174/10.000 seconds\nLua memory usage: 4349937/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  305.992      1 -total\n 35.69%  109.217      2 Template:Cite_web\n 26.48%   81.033      1 Template:Short_description\n 26.43%   80.859      1 Template:Refimprove\n 24.21%   74.086      1 Template:Ambox\n 14.65%   44.837      2 Template:Pagetype\n  8.31%   25.420      1 Template:For\n  7.58%   23.208      2 Template:Main_other\n  6.97%   21.331      1 Template:SDcat\n  6.24%   19.103      1 Template:Find_sources_mainspace\n-->\n\n<!-- Render ID d9bc17e1-b38b-11f1-b10e-eb9b3af0b3f6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Programming Language Design and Implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Plain text",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Sub-field of computer science",
+          "wikibase_item": "Q117190944"
+        }
+      }
+    }
+  ]
+}

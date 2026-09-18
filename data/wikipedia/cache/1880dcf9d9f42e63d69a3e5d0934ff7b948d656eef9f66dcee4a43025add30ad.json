@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Modula-2",
+    "url": "https://en.wikipedia.org/wiki/Modula-2",
+    "summary": "1970s-80s computer programming language Modula-2 Paradigms imperative , structured , modular , data and procedure hiding , concurrent Family Wirth : Modula Designed by Niklaus Wirth First appeared 1978 ; 48 years ago ( 1978 ) Typing discipline Static , strong , safe Scope Lexical (static) Platform Lilith ( AMD 2901 ) OS Cross-platform Filename extensions .mod, .m2, .def, .MOD, .DEF, .mi, .md Website www .modula2 .org Major implementations ETH compiler written by Niklaus Wirth GNU Modula-2 ADW Modula-2 Dialects PIM2, PIM3, PIM4, ISO Influenced by Modula , Mesa , Pascal , ALGOL W , Euclid Influenced Modula-2+ , Modula-3 , Oberon , Ada , Fortran 90 , Lua , Zonnon , Modula-GM Modula-2 is a structured, procedural programming language developed between 1977 and 1985/8 by Niklaus Wirth at ETH Zurich . It was created as the language for the operating system and application software of the Lilith personal workstation . It was later used for programming outside the context of the Lilith . Wirth viewed Modula-2 as a successor to his earlier programming languages Pascal and Modula . The main concepts are: The module as a compiling unit for separate compiling The coroutine as the basic building block for concurrent processes Types and procedures that allow access to machine-specific data The language design was influenced by the Mesa language and the Xerox Alto , both from Xerox PARC , that Wirth saw during his 1976 sabbatical year there. The computer magazine Byte devoted the August 1984 issue to the language and its surrounding environment. Wirth created the Oberon series of languages as the successor to Modula-2, while others (particularly at Digital Equipment Corporation and Acorn Computers , later Olivetti ) developed Modula-2 into Modula-2+ and later Modula-3 . ^ \"Summary of Projects by N. Wirth, 1962–1999\" . Department of Computer Science . ETH Zurich . ^ Wirth, Niklaus (2002). \"Pascal and its Successors\". In Broy, Manfred; Denert, Ernst (eds.). Software Pioneers: Contributions to Software Engineering . Berlin, Heidelberg: Springer-Verlag . pp. 108– 120. doi : 10.1007/978-3-642-59412-0 . ISBN 978-3-642-59412-0 . S2CID 2698265 . ^ Wirth, Niklaus (18 February 2005). \"History and Goals of Modula-2\" . Dr. Dobb's Journal . Informa PLC. ^ Wirth, Niklaus (1988). Programming in Modula-2 (4th ed.). Berlin, Heidelberg: Springer. doi : 10.1007/978-3-642-83565-0 . ISBN 978-3-642-83565-0 . S2CID 41899609 . Page 4. ^ Wirth, Niklaus ; Gutknecht, Jürg ; Ohran, Richard; Paul, Robert J.; Coar, David (August 1984). \"Theme: Modula-2\" . Byte: The Small Systems Journal . Vol. 9, no. 8. pp. 143– 232. Available at Archive.org",
+    "text": "1970s-80s computer programming language Modula-2 Paradigms imperative , structured , modular , data and procedure hiding , concurrent Family Wirth : Modula Designed by Niklaus Wirth First appeared 1978 ; 48 years ago ( 1978 ) Typing discipline Static , strong , safe Scope Lexical (static) Platform Lilith ( AMD 2901 ) OS Cross-platform Filename extensions .mod, .m2, .def, .MOD, .DEF, .mi, .md Website www .modula2 .org Major implementations ETH compiler written by Niklaus Wirth GNU Modula-2 ADW Modula-2 Dialects PIM2, PIM3, PIM4, ISO Influenced by Modula , Mesa , Pascal , ALGOL W , Euclid Influenced Modula-2+ , Modula-3 , Oberon , Ada , Fortran 90 , Lua , Zonnon , Modula-GM Modula-2 is a structured, procedural programming language developed between 1977 and 1985/8 by Niklaus Wirth at ETH Zurich . It was created as the language for the operating system and application software of the Lilith personal workstation . It was later used for programming outside the context of the Lilith . Wirth viewed Modula-2 as a successor to his earlier programming languages Pascal and Modula . The main concepts are: The module as a compiling unit for separate compiling The coroutine as the basic building block for concurrent processes Types and procedures that allow access to machine-specific data The language design was influenced by the Mesa language and the Xerox Alto , both from Xerox PARC , that Wirth saw during his 1976 sabbatical year there. The computer magazine Byte devoted the August 1984 issue to the language and its surrounding environment. Wirth created the Oberon series of languages as the successor to Modula-2, while others (particularly at Digital Equipment Corporation and Acorn Computers , later Olivetti ) developed Modula-2 into Modula-2+ and later Modula-3 . ^ \"Summary of Projects by N. Wirth, 1962–1999\" . Department of Computer Science . ETH Zurich . ^ Wirth, Niklaus (2002). \"Pascal and its Successors\". In Broy, Manfred; Denert, Ernst (eds.). Software Pioneers: Contributions to Software Engineering . Berlin, Heidelberg: Springer-Verlag . pp. 108– 120. doi : 10.1007/978-3-642-59412-0 . ISBN 978-3-642-59412-0 . S2CID 2698265 . ^ Wirth, Niklaus (18 February 2005). \"History and Goals of Modula-2\" . Dr. Dobb's Journal . Informa PLC. ^ Wirth, Niklaus (1988). Programming in Modula-2 (4th ed.). Berlin, Heidelberg: Springer. doi : 10.1007/978-3-642-83565-0 . ISBN 978-3-642-83565-0 . S2CID 41899609 . Page 4. ^ Wirth, Niklaus ; Gutknecht, Jürg ; Ohran, Richard; Paul, Robert J.; Coar, David (August 1984). \"Theme: Modula-2\" . Byte: The Small Systems Journal . Vol. 9, no. 8. pp. 143– 232. Available at Archive.org",
+    "links": [
+      "ALGOL W",
+      "AMD Am2900",
+      "Acorn Computers",
+      "Ada (programming language)",
+      "Advanced Micro Devices",
+      "Application software",
+      "Byte (magazine)",
+      "Computing platform",
+      "Concurrent computing",
+      "Coroutine",
+      "Cross-platform",
+      "Digital Equipment Corporation",
+      "Doi (identifier)",
+      "Dr. Dobb's Journal",
+      "ETH Zurich",
+      "Euclid (programming language)",
+      "Filename extension",
+      "Fortran 90",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Information hiding",
+      "Jürg Gutknecht",
+      "Lilith (computer)",
+      "Lua (programming language)",
+      "Mesa (programming language)",
+      "Modula",
+      "Modula-2+",
+      "Modula-3",
+      "Modular programming",
+      "Niklaus Wirth",
+      "Oberon (programming language)",
+      "Olivetti",
+      "Operating system",
+      "Pascal (programming language)",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "S2CID (identifier)",
+      "Sabbatical",
+      "Scope (computer programming)",
+      "Scope (computer science)",
+      "Software design",
+      "Springer-Verlag",
+      "Static type",
+      "Strong and weak typing",
+      "Structured programming",
+      "Type system",
+      "Workstation",
+      "Xerox Alto",
+      "Xerox PARC",
+      "Zonnon"
+    ],
+    "page_id": 24102707,
+    "revision_id": 1374512893,
+    "retrieved_at": "2026-09-18T18:09:05.819329+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260407073957|1347532221",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 24102707,
+            "ns": 0,
+            "title": "Modula-2",
+            "revisions": [
+              {
+                "revid": 1374512893,
+                "parentid": 1347532221
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "1970s-80s computer programming language",
+              "wikibase_item": "Q777358"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Modula-2",
+        "pageid": 24102707,
+        "revid": 1374512893,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">1970s-80s computer programming language</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Modula-2</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a>, <a href=\"/wiki/Information_hiding\" title=\"Information hiding\">data and procedure hiding</a>, <a href=\"/wiki/Concurrent_computing\" title=\"Concurrent computing\">concurrent</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Wirth</a>: <a href=\"/wiki/Modula\" title=\"Modula\">Modula</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Niklaus Wirth</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1978<span class=\"noprint\">&#59;&#32;48&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1978</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_type\" class=\"mw-redirect\" title=\"Static type\">Static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Type_system#Type_safety_and_memory_safety\" title=\"Type system\">safe</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_programming)\" title=\"Scope (computer programming)\">Lexical</a> (static)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/Lilith_(computer)\" title=\"Lilith (computer)\">Lilith</a> (<a href=\"/wiki/Advanced_Micro_Devices\" class=\"mw-redirect\" title=\"Advanced Micro Devices\">AMD</a> <a href=\"/wiki/AMD_Am2900\" title=\"AMD Am2900\">2901</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.mod, .m2, .def, .MOD, .DEF, .mi, .md</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.modula2.org\">www<wbr />.modula2<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.sysecol2.ethz.ch/RAMSES/MacMETH.html\">ETH compiler</a> written by Niklaus Wirth<br /><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nongnu.org/gm2/homepage.html\">GNU Modula-2</a><br /><a rel=\"nofollow\" class=\"external text\" href=\"https://www.modula2.org/\">ADW Modula-2</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">PIM2, PIM3, PIM4, ISO</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Modula\" title=\"Modula\">Modula</a>, <a href=\"/wiki/Mesa_(programming_language)\" title=\"Mesa (programming language)\">Mesa</a>, <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>, <a href=\"/wiki/ALGOL_W\" title=\"ALGOL W\">ALGOL W</a>, <a href=\"/wiki/Euclid_(programming_language)\" title=\"Euclid (programming language)\">Euclid</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Modula-2%2B\" title=\"Modula-2+\">Modula-2+</a>, <a href=\"/wiki/Modula-3\" title=\"Modula-3\">Modula-3</a>, <a href=\"/wiki/Oberon_(programming_language)\" title=\"Oberon (programming language)\">Oberon</a>, <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/Fortran_90\" class=\"mw-redirect\" title=\"Fortran 90\">Fortran 90</a>, <a href=\"/wiki/Lua_(programming_language)\" class=\"mw-redirect\" title=\"Lua (programming language)\">Lua</a>, <a href=\"/wiki/Zonnon\" title=\"Zonnon\">Zonnon</a>, Modula-GM</td></tr></tbody></table>\n<p><b>Modula-2</b> is a structured, procedural <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> developed between 1977 and 1985/8 by <a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Niklaus Wirth</a> at <a href=\"/wiki/ETH_Zurich\" title=\"ETH Zurich\">ETH Zurich</a>. It was created as the language for the <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> and <a href=\"/wiki/Application_software\" title=\"Application software\">application software</a> of the <a href=\"/wiki/Lilith_(computer)\" title=\"Lilith (computer)\">Lilith</a> personal <a href=\"/wiki/Workstation\" title=\"Workstation\">workstation</a>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> It was later used for programming outside the context of the <a href=\"/wiki/Lilith_(computer)\" title=\"Lilith (computer)\">Lilith</a>.\n</p><p>Wirth viewed Modula-2 as a successor to his earlier programming languages <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a> and <a href=\"/wiki/Modula\" title=\"Modula\">Modula</a>.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> The main concepts are:\n</p>\n<ol><li>The <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">module</a> as a compiling unit for separate compiling</li>\n<li>The <a href=\"/wiki/Coroutine\" title=\"Coroutine\">coroutine</a> as the basic building block for concurrent processes</li>\n<li>Types and procedures that allow access to machine-specific data</li></ol>\n<p>The language design was influenced by the <a href=\"/wiki/Mesa_(programming_language)\" title=\"Mesa (programming language)\">Mesa</a> language and the <a href=\"/wiki/Xerox_Alto\" title=\"Xerox Alto\">Xerox Alto</a>, both from <a href=\"/wiki/Xerox_PARC\" class=\"mw-redirect\" title=\"Xerox PARC\">Xerox PARC</a>, that Wirth saw during his 1976 <a href=\"/wiki/Sabbatical\" title=\"Sabbatical\">sabbatical</a> year there.<sup id=\"cite&#95;ref-PIM&#95;4-0\" class=\"reference\"><a href=\"#cite_note-PIM-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> The computer magazine <i><a href=\"/wiki/Byte_(magazine)\" title=\"Byte (magazine)\">Byte</a></i> devoted the August 1984 issue to the language and its surrounding environment.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Wirth created the <a href=\"/wiki/Oberon_(programming_language)\" title=\"Oberon (programming language)\">Oberon</a> series of languages as the successor to Modula-2, while others (particularly at <a href=\"/wiki/Digital_Equipment_Corporation\" title=\"Digital Equipment Corporation\">Digital Equipment Corporation</a> and <a href=\"/wiki/Acorn_Computers\" title=\"Acorn Computers\">Acorn Computers</a>, later <a href=\"/wiki/Olivetti\" title=\"Olivetti\">Olivetti</a>) developed Modula-2 into <a href=\"/wiki/Modula-2%2B\" title=\"Modula-2+\">Modula-2+</a> and later <a href=\"/wiki/Modula-3\" title=\"Modula-3\">Modula-3</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.inf.ethz.ch/personal/wirth/projects.html\">\"Summary of Projects by N. Wirth, 1962–1999\"</a>. <i>Department of Computer Science</i>. <a href=\"/wiki/ETH_Zurich\" title=\"ETH Zurich\">ETH Zurich</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Department+of+Computer+Science&amp;rft.atitle=Summary+of+Projects+by+N.+Wirth%2C+1962%E2%80%931999&amp;rft&#95;id=https%3A%2F%2Fwww.inf.ethz.ch%2Fpersonal%2Fwirth%2Fprojects.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AModula-2\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWirth2002\" class=\"citation book cs1\"><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Wirth, Niklaus</a> (2002). \"Pascal and its Successors\". In Broy, Manfred; Denert, Ernst (eds.). <i>Software Pioneers: Contributions to Software Engineering</i>. Berlin, Heidelberg: <a href=\"/wiki/Springer-Verlag\" class=\"mw-redirect\" title=\"Springer-Verlag\">Springer-Verlag</a>. pp.&#160;<span class=\"nowrap\">108–</span>120. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2F978-3-642-59412-0\">10.1007/978-3-642-59412-0</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-642-59412-0\" title=\"Special:BookSources/978-3-642-59412-0\"><bdi>978-3-642-59412-0</bdi></a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:2698265\">2698265</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Pascal+and+its+Successors&amp;rft.btitle=Software+Pioneers%3A+Contributions+to+Software+Engineering&amp;rft.place=Berlin%2C+Heidelberg&amp;rft.pages=108-120&amp;rft.pub=Springer-Verlag&amp;rft.date=2002&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A2698265%23id-name%3DS2CID&amp;rft&#95;id=info%3Adoi%2F10.1007%2F978-3-642-59412-0&amp;rft.isbn=978-3-642-59412-0&amp;rft.aulast=Wirth&amp;rft.aufirst=Niklaus&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AModula-2\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWirth2005\" class=\"citation magazine cs1\"><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Wirth, Niklaus</a> (18 February 2005). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.drdobbs.com/open-source/history-and-goals-of-modula-2/223000094\">\"History and Goals of Modula-2\"</a>. <i><a href=\"/wiki/Dr._Dobb%27s_Journal\" title=\"Dr. Dobb&#39;s Journal\">Dr. Dobb's Journal</a></i>. Informa PLC.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Dr.+Dobb%27s+Journal&amp;rft.atitle=History+and+Goals+of+Modula-2&amp;rft.date=2005-02-18&amp;rft.aulast=Wirth&amp;rft.aufirst=Niklaus&amp;rft&#95;id=https%3A%2F%2Fwww.drdobbs.com%2Fopen-source%2Fhistory-and-goals-of-modula-2%2F223000094&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AModula-2\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-PIM-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-PIM_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWirth1988\" class=\"citation book cs1\"><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Wirth, Niklaus</a> (1988). <i>Programming in Modula-2</i> (4th&#160;ed.). Berlin, Heidelberg: Springer. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2F978-3-642-83565-0\">10.1007/978-3-642-83565-0</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-642-83565-0\" title=\"Special:BookSources/978-3-642-83565-0\"><bdi>978-3-642-83565-0</bdi></a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:41899609\">41899609</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Programming+in+Modula-2&amp;rft.place=Berlin%2C+Heidelberg&amp;rft.edition=4th&amp;rft.pub=Springer&amp;rft.date=1988&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A41899609%23id-name%3DS2CID&amp;rft&#95;id=info%3Adoi%2F10.1007%2F978-3-642-83565-0&amp;rft.isbn=978-3-642-83565-0&amp;rft.aulast=Wirth&amp;rft.aufirst=Niklaus&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AModula-2\" class=\"Z3988\"></span> Page 4.</span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWirthGutknechtOhranPaul1984\" class=\"citation magazine cs1\"><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Wirth, Niklaus</a>; <a href=\"/wiki/J%C3%BCrg_Gutknecht\" title=\"Jürg Gutknecht\">Gutknecht, Jürg</a>; Ohran, Richard; Paul, Robert J.; Coar, David (August 1984). <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/byte-magazine-1984-08\">\"Theme: Modula-2\"</a>. <i><a href=\"/wiki/Byte_(magazine)\" title=\"Byte (magazine)\">Byte: The Small Systems Journal</a></i>. Vol.&#160;9, no.&#160;8. pp.&#160;<span class=\"nowrap\">143–</span>232.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Byte%3A+The+Small+Systems+Journal&amp;rft.atitle=Theme%3A+Modula-2&amp;rft.volume=9&amp;rft.issue=8&amp;rft.pages=143-232&amp;rft.date=1984-08&amp;rft.aulast=Wirth&amp;rft.aufirst=Niklaus&amp;rft.au=Gutknecht%2C+J%C3%BCrg&amp;rft.au=Ohran%2C+Richard&amp;rft.au=Paul%2C+Robert+J.&amp;rft.au=Coar%2C+David&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fbyte-magazine-1984-08&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AModula-2\" class=\"Z3988\"></span> Available at Archive.org</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐lvdm7\nCached time: 20260918180930\nCache expiry: 1057846\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.307 seconds\nReal time usage: 0.425 seconds\nPreprocessor visited node count: 1010/1000000\nRevision size: 4582/2097152 bytes\nPost‐expand include size: 21778/2097152 bytes\nTemplate argument size: 3069/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 13244/5000000 bytes\nLua time usage: 0.190/10.000 seconds\nLua memory usage: 4972910/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  390.950      1 -total\n 32.19%  125.858      1 Template:Short_description\n 27.86%  108.909      1 Template:Cite_web\n 20.70%   80.930      1 Template:Infobox_programming_language\n 19.27%   75.337      1 Template:Infobox\n 17.89%   69.948      2 Template:Pagetype\n  9.38%   36.665      5 Template:Main_other\n  8.47%   33.106      1 Template:SDcat\n  6.75%   26.394      1 Template:Use_dmy_dates\n  5.89%   23.014      2 Template:Cite_book\n-->\n\n<!-- Render ID 17b93b83-b38c-11f1-81b4-49c217fa8535 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "ALGOL W",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AMD Am2900",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Acorn Computers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Advanced Micro Devices",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Byte (magazine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Coroutine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital Equipment Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dr. Dobb's Journal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ETH Zurich",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Euclid (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran 90",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Information hiding",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jürg Gutknecht",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lilith (computer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lua (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mesa (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-2+",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Niklaus Wirth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oberon (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Olivetti",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sabbatical",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Springer-Verlag",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Workstation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xerox Alto",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xerox PARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zonnon",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "1970s-80s computer programming language",
+          "wikibase_item": "Q777358"
+        }
+      }
+    }
+  ]
+}

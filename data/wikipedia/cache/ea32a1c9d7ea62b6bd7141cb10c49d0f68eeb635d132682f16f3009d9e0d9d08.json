@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "AMD Optimizing C/C++ Compiler",
+    "url": "https://en.wikipedia.org/wiki/AMD_Optimizing_C%2FC%2B%2B_Compiler",
+    "summary": "Optimizing C/C++ and Fortran compiler suite AMD Optimizing C/C++ Compiler Developer Advanced Micro Devices Release 2017 ; 9 years ago ( 2017 ) Stable release 5.1.0 / January 2, 2026 ; 8 months ago ( 2026-01-02 ) Operating system Linux Type Compiler License Freeware Website developer .amd .com /amd-aocc / The AMD Optimizing C/C++ Compiler ( AOCC ) is an optimizing C/C++ and Fortran compiler suite from AMD targeting 32-bit and 64-bit Linux platforms. It is a proprietary fork of LLVM + Clang with various additional patches to improve performance for AMD's Zen microarchitecture in Epyc , and Ryzen microprocessors. ^ a b \"AOCC User guide\" (PDF) . AMD. ^ \"AMD Releases Optimizing C/C++ Compiler For Ryzen - Phoronix\" . www.phoronix.com . ^ \"Benchmarking AMD's New AOCC Compiler For Ryzen - Phoronix\" . www.phoronix.com .",
+    "text": "Optimizing C/C++ and Fortran compiler suite AMD Optimizing C/C++ Compiler Developer Advanced Micro Devices Release 2017 ; 9 years ago ( 2017 ) Stable release 5.1.0 / January 2, 2026 ; 8 months ago ( 2026-01-02 ) Operating system Linux Type Compiler License Freeware Website developer .amd .com /amd-aocc / The AMD Optimizing C/C++ Compiler ( AOCC ) is an optimizing C/C++ and Fortran compiler suite from AMD targeting 32-bit and 64-bit Linux platforms. It is a proprietary fork of LLVM + Clang with various additional patches to improve performance for AMD's Zen microarchitecture in Epyc , and Ryzen microprocessors. ^ a b \"AOCC User guide\" (PDF) . AMD. ^ \"AMD Releases Optimizing C/C++ Compiler For Ryzen - Phoronix\" . www.phoronix.com . ^ \"Benchmarking AMD's New AOCC Compiler For Ryzen - Phoronix\" . www.phoronix.com .",
+    "links": [
+      "AMD",
+      "Advanced Micro Devices",
+      "Clang",
+      "Compiler",
+      "Epyc",
+      "Freeware",
+      "LLVM",
+      "Linux",
+      "Operating system",
+      "Programmer",
+      "Ryzen",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Zen (microarchitecture)"
+    ],
+    "page_id": 54086618,
+    "revision_id": 1375503560,
+    "retrieved_at": "2026-09-18T18:10:08.316400+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260319185823|1344323015",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 54086618,
+            "ns": 0,
+            "title": "AMD Optimizing C/C++ Compiler",
+            "revisions": [
+              {
+                "revid": 1375503560,
+                "parentid": 1344323015
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Optimizing C/C++ and Fortran compiler suite",
+              "wikibase_item": "Q30007232"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "AMD Optimizing C/C++ Compiler",
+        "pageid": 54086618,
+        "revid": 1375503560,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Optimizing C/C++ and Fortran compiler suite</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">AMD Optimizing C/C++ Compiler</th></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/Advanced_Micro_Devices\" class=\"mw-redirect\" title=\"Advanced Micro Devices\">Advanced Micro Devices</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">2017<span class=\"noprint\">&#59;&#32;9&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2017</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">5.1.0\n   / January&#160;2, 2026<span class=\"noprint\">&#59;&#32;8 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-01-02</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Linux\" title=\"Linux\">Linux</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Freeware\" title=\"Freeware\">Freeware</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.amd.com/amd-aocc/\">developer<wbr />.amd<wbr />.com<wbr />/amd-aocc<wbr />/</a></span></td></tr></tbody></table> \n<p>The <b>AMD Optimizing C/C++ Compiler</b> (<b>AOCC</b>) is an optimizing C/C++ and Fortran <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> suite from <a href=\"/wiki/AMD\" title=\"AMD\">AMD</a> targeting 32-bit and 64-bit <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> platforms.<sup id=\"cite&#95;ref-userguide&#95;1-0\" class=\"reference\"><a href=\"#cite_note-userguide-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-larabel2&#95;2-0\" class=\"reference\"><a href=\"#cite_note-larabel2-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> It is a proprietary fork of <a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a> + <a href=\"/wiki/Clang\" title=\"Clang\">Clang</a>  with various additional patches to improve performance for AMD's <a href=\"/wiki/Zen_(microarchitecture)\" title=\"Zen (microarchitecture)\">Zen</a> microarchitecture in <a href=\"/wiki/Epyc\" title=\"Epyc\">Epyc</a>, and <a href=\"/wiki/Ryzen\" title=\"Ryzen\">Ryzen</a> microprocessors.<sup id=\"cite&#95;ref-userguide&#95;1-1\" class=\"reference\"><a href=\"#cite_note-userguide-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-larabel&#95;3-0\" class=\"reference\"><a href=\"#cite_note-larabel-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-userguide-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-userguide_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-userguide_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://developer.amd.com/wordpress/media/2017/04/AOCC-User-guide-%E2%80%94-AOCC-LLVM-1.pdf\">\"AOCC User guide\"</a> <span class=\"cs1-format\">(PDF)</span>. AMD.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=AOCC+User+guide&amp;rft.pub=AMD&amp;rft&#95;id=http%3A%2F%2Fdeveloper.amd.com%2Fwordpress%2Fmedia%2F2017%2F04%2FAOCC-User-guide-%25E2%2580%2594-AOCC-LLVM-1.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAMD+Optimizing+C%2FC%2B%2B+Compiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-larabel2-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-larabel2_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-AOCC-1.0-Released\">\"AMD Releases Optimizing C/C++ Compiler For Ryzen - Phoronix\"</a>. <i>www.phoronix.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.phoronix.com&amp;rft.atitle=AMD+Releases+Optimizing+C%2FC%2B%2B+Compiler+For+Ryzen+-+Phoronix&amp;rft&#95;id=https%3A%2F%2Fwww.phoronix.com%2Fscan.php%3Fpage%3Dnews&#95;item%26px%3DAMD-AOCC-1.0-Released&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAMD+Optimizing+C%2FC%2B%2B+Compiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-larabel-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-larabel_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.phoronix.com/scan.php?page=article&amp;item=amd-ryzen-aocc&amp;num=1\">\"Benchmarking AMD's New AOCC Compiler For Ryzen - Phoronix\"</a>. <i>www.phoronix.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.phoronix.com&amp;rft.atitle=Benchmarking+AMD%27s+New+AOCC+Compiler+For+Ryzen+-+Phoronix&amp;rft&#95;id=http%3A%2F%2Fwww.phoronix.com%2Fscan.php%3Fpage%3Darticle%26item%3Damd-ryzen-aocc%26num%3D1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAMD+Optimizing+C%2FC%2B%2B+Compiler\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐2p4nt\nCached time: 20260918181033\nCache expiry: 21600\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.126 seconds\nReal time usage: 0.184 seconds\nPreprocessor visited node count: 1233/1000000\nRevision size: 1431/2097152 bytes\nPost‐expand include size: 15951/2097152 bytes\nTemplate argument size: 2416/2097152 bytes\nHighest expansion depth: 29/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 10186/5000000 bytes\nLua time usage: 0.074/10.000 seconds\nLua memory usage: 4742479/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  175.768      1 -total\n 55.33%   97.259      2 Template:Infobox\n 43.70%   76.805      1 Template:Infobox_software\n 29.18%   51.297      3 Template:Cite_web\n 25.15%   44.203      1 Template:Short_description\n 17.92%   31.498      1 Template:Infobox_software/simple\n 14.17%   24.899      2 Template:Pagetype\n 11.76%   20.665     13 Template:If_empty\n  9.04%   15.882      2 Template:Start_date_and_age\n  7.62%   13.392      6 Template:Main_other\n-->\n\n<!-- Render ID 3d4639b0-b38c-11f1-baea-bf40fb3917ca -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "AMD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Advanced Micro Devices",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Epyc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Freeware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ryzen",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zen (microarchitecture)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Optimizing C/C++ and Fortran compiler suite",
+          "wikibase_item": "Q30007232"
+        }
+      }
+    }
+  ]
+}

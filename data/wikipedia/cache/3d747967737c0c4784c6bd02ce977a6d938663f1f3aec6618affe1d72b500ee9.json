@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Mathematician",
+    "url": "https://en.wikipedia.org/wiki/Mathematician",
+    "summary": "Person with an extensive knowledge of mathematics Mathematician Euclid (holding calipers ), Greek mathematician, known as the \"Father of Geometry\" Occupation Occupation type Academic Description Competencies Mathematics, analytical skills and critical thinking skills Education required Doctoral degree , occasionally master's degree Fields of employment universities, private corporations, financial industry, government Related jobs statistician, actuary A mathematician is someone who uses an extensive knowledge of mathematics in their work, typically to solve mathematical problems . Mathematicians are concerned with numbers, data, quantity , structure , space , models , and change .",
+    "text": "Person with an extensive knowledge of mathematics Mathematician Euclid (holding calipers ), Greek mathematician, known as the \"Father of Geometry\" Occupation Occupation type Academic Description Competencies Mathematics, analytical skills and critical thinking skills Education required Doctoral degree , occasionally master's degree Fields of employment universities, private corporations, financial industry, government Related jobs statistician, actuary A mathematician is someone who uses an extensive knowledge of mathematics in their work, typically to solve mathematical problems . Mathematicians are concerned with numbers, data, quantity , structure , space , models , and change .",
+    "links": [
+      "Academy",
+      "Actuary",
+      "Analytical skill",
+      "Calipers",
+      "Critical thinking",
+      "Doctoral degree",
+      "Euclid",
+      "Mathematical model",
+      "Mathematical problem",
+      "Mathematical structure",
+      "Mathematics",
+      "Quantity",
+      "Space"
+    ],
+    "page_id": 18902,
+    "revision_id": 1375014588,
+    "retrieved_at": "2026-09-18T18:09:47.910408+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260829130029|1371936398",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 18902,
+            "ns": 0,
+            "title": "Mathematician",
+            "revisions": [
+              {
+                "revid": 1375014588,
+                "parentid": 1371936398
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Euclid.jpg",
+              "wikibase-shortdesc": "Person with an extensive knowledge of mathematics",
+              "wikibase_item": "Q170790"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Mathematician",
+        "pageid": 18902,
+        "revid": 1375014588,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Person with an extensive knowledge of mathematics</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox\"><caption class=\"infobox-title\">Mathematician</caption><tbody><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Euclid.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Euclid.jpg/250px-Euclid.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"209\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Euclid.jpg/500px-Euclid.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"806\" data-file-height=\"675\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/Euclid\" title=\"Euclid\">Euclid</a> (holding <a href=\"/wiki/Calipers\" title=\"Calipers\">calipers</a>), Greek mathematician, known as the \"Father of Geometry\"</div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\">Occupation</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Occupation type</div></th><td class=\"infobox-data\"><a href=\"/wiki/Academy\" title=\"Academy\">Academic</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\">Description</th></tr><tr><th scope=\"row\" class=\"infobox-label\">Competencies</th><td class=\"infobox-data\">Mathematics, <a href=\"/wiki/Analytical_skill\" title=\"Analytical skill\">analytical skills</a> and <a href=\"/wiki/Critical_thinking\" title=\"Critical thinking\">critical thinking</a> skills</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Education required</div></th><td class=\"infobox-data\"><a href=\"/wiki/Doctoral_degree\" class=\"mw-redirect\" title=\"Doctoral degree\">Doctoral degree</a>, occasionally master's degree</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Fields of<br />employment</div></th><td class=\"infobox-data\">universities, <br />private corporations, <br />financial industry, <br />government</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Related jobs</div></th><td class=\"infobox-data\">statistician, <a href=\"/wiki/Actuary\" title=\"Actuary\">actuary</a></td></tr></tbody></table>\n<p>A <b>mathematician</b> is someone who uses an extensive knowledge of <a href=\"/wiki/Mathematics\" title=\"Mathematics\">mathematics</a> in their work, typically to solve <a href=\"/wiki/Mathematical_problem\" title=\"Mathematical problem\">mathematical problems</a>. Mathematicians are concerned with numbers, data, <a href=\"/wiki/Quantity\" title=\"Quantity\">quantity</a>, <a href=\"/wiki/Mathematical_structure\" title=\"Mathematical structure\">structure</a>, <a href=\"/wiki/Space\" title=\"Space\">space</a>, <a href=\"/wiki/Mathematical_model\" title=\"Mathematical model\">models</a>, and <a href=\"/wiki/Mathematics#Calculus_and_analysis\" title=\"Mathematics\">change</a>.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐lk9p5\nCached time: 20260918181013\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.062 seconds\nReal time usage: 0.112 seconds\nPreprocessor visited node count: 403/1000000\nRevision size: 1016/2097152 bytes\nPost‐expand include size: 6601/2097152 bytes\nTemplate argument size: 1578/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1425/5000000 bytes\nLua time usage: 0.035/10.000 seconds\nLua memory usage: 1807458/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   99.157      1 -total\n 45.63%   45.247      1 Template:Short_description\n 34.74%   34.447      1 Template:Infobox_Occupation\n 31.99%   31.722      1 Template:Infobox\n 28.27%   28.028      2 Template:Pagetype\n 19.50%   19.335      1 Template:Pp\n 10.06%    9.974      3 Template:Main_other\n  9.09%    9.009      1 Template:SDcat\n  1.51%    1.493      4 Template:Longitem\n  1.27%    1.262      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 315a7a34-b38c-11f1-9e23-3d8ee47210d1 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Academy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Actuary",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Analytical skill",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Calipers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Critical thinking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctoral degree",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Euclid",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical problem",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quantity",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Space",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Person with an extensive knowledge of mathematics",
+          "page_image_free": "Euclid.jpg",
+          "wikibase_item": "Q170790"
+        }
+      }
+    }
+  ]
+}

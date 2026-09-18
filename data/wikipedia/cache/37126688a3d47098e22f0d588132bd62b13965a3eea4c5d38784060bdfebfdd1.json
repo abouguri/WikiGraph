@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Library (computing)",
+    "url": "https://en.wikipedia.org/wiki/Library_%28computing%29",
+    "summary": "Collection of resources used to develop a computer program \"Software library\" redirects here; not to be confused with library software . This article is about a software development concept. For a repository of digital assets, see Digital library . Illustration of an application which uses libvorbisfile to play an Ogg Vorbis file In computing , a library is a collection of resources that can be used during software development to implement a computer program . Commonly, a library consists of executable code such as compiled functions and classes , or a library can be a collection of source code . A resource library may contain data such as images and text . A library can be used by multiple, independent consumers (programs and other libraries). This differs from resources defined in a program which can usually only be used by that program. When a consumer uses a library resource, it gains the value of the library without having to implement it itself. Libraries encourage software reuse in a modular fashion. Libraries can use other libraries resulting in a hierarchy of libraries in a program. When writing code that uses a library, a programmer only needs to know how to use that library's application programming interface (API) without understanding its internal mechanics. For example, a program could use a library that abstracts a complicated system call so that the programmer can use the system feature without spending time to learn the intricacies of the system function.",
+    "text": "Collection of resources used to develop a computer program \"Software library\" redirects here; not to be confused with library software . This article is about a software development concept. For a repository of digital assets, see Digital library . Illustration of an application which uses libvorbisfile to play an Ogg Vorbis file In computing , a library is a collection of resources that can be used during software development to implement a computer program . Commonly, a library consists of executable code such as compiled functions and classes , or a library can be a collection of source code . A resource library may contain data such as images and text . A library can be used by multiple, independent consumers (programs and other libraries). This differs from resources defined in a program which can usually only be used by that program. When a consumer uses a library resource, it gains the value of the library without having to implement it itself. Libraries encourage software reuse in a modular fashion. Libraries can use other libraries resulting in a hierarchy of libraries in a program. When writing code that uses a library, a programmer only needs to know how to use that library's application programming interface (API) without understanding its internal mechanics. For example, a program could use a library that abstracts a complicated system call so that the programmer can use the system feature without spending time to learn the intricacies of the system function.",
+    "links": [
+      "Abstraction (computer science)",
+      "Application programming interface",
+      "Class (programming)",
+      "Compiled",
+      "Computer program",
+      "Computing",
+      "Digital library",
+      "Executable",
+      "Function (computer science)",
+      "Image",
+      "Library software",
+      "Modular programming",
+      "Ogg Vorbis",
+      "Programmer",
+      "Software development",
+      "Software reuse",
+      "Source code",
+      "System call",
+      "System resource",
+      "Text string"
+    ],
+    "page_id": 106421,
+    "revision_id": 1365619090,
+    "retrieved_at": "2026-09-18T18:09:42.684084+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260709015324|1363261554",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 106421,
+            "ns": 0,
+            "title": "Library (computing)",
+            "revisions": [
+              {
+                "revid": 1365619090,
+                "parentid": 1363261554
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Library (Computing)",
+              "page_image_free": "Ogg_vorbis_libs_and_application_dia.svg",
+              "wikibase-shortdesc": "Collection of resources used to develop a computer program",
+              "wikibase_item": "Q188860"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Library (computing)",
+        "pageid": 106421,
+        "revid": 1365619090,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Collection of resources used to develop a computer program</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Software library\" redirects here; not to be confused with <a href=\"/wiki/Library_software\" class=\"mw-redirect\" title=\"Library software\">library software</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about a software development concept. For a repository of digital assets, see <a href=\"/wiki/Digital_library\" title=\"Digital library\">Digital library</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<figure class=\"mw-halign-right\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Ogg_vorbis_libs_and_application_dia.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Ogg_vorbis_libs_and_application_dia.svg/330px-Ogg_vorbis_libs_and_application_dia.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"277\" height=\"148\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Ogg_vorbis_libs_and_application_dia.svg/960px-Ogg_vorbis_libs_and_application_dia.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"450\" data-file-height=\"240\" /></a><figcaption>Illustration of an application which uses libvorbisfile to play an <a href=\"/wiki/Ogg_Vorbis\" class=\"mw-redirect\" title=\"Ogg Vorbis\">Ogg Vorbis</a> file</figcaption></figure>\n<p>In <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, a <b>library</b> is a collection of <a href=\"/wiki/System_resource\" title=\"System resource\">resources</a> that can be used during <a href=\"/wiki/Software_development\" title=\"Software development\">software development</a> to implement a <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a>. Commonly, a library consists of <a href=\"/wiki/Executable\" title=\"Executable\">executable</a> code such as <a href=\"/wiki/Compiled\" class=\"mw-redirect\" title=\"Compiled\">compiled</a> <a href=\"/wiki/Function_(computer_science)\" class=\"mw-redirect\" title=\"Function (computer science)\">functions</a> and <a href=\"/wiki/Class_(programming)\" title=\"Class (programming)\">classes</a>, or a library can be a collection of <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a>. A resource library may contain data such as <a href=\"/wiki/Image\" title=\"Image\">images</a> and <a href=\"/wiki/Text_string\" class=\"mw-redirect\" title=\"Text string\">text</a>.\n</p><p>A library can be used by multiple, independent consumers (programs and other libraries). This differs from resources defined in a program which can usually only be used by that program. When a consumer uses a library resource, it gains the value of the library without having to implement it itself. Libraries encourage <a href=\"/wiki/Software_reuse\" class=\"mw-redirect\" title=\"Software reuse\">software reuse</a> in a <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a> fashion. Libraries can use other libraries resulting in a hierarchy of libraries in a program.\n</p><p>When writing code that uses a library, a <a href=\"/wiki/Programmer\" title=\"Programmer\">programmer</a> only needs to know how to use that library's <a href=\"/wiki/Application_programming_interface\" class=\"mw-redirect\" title=\"Application programming interface\">application programming interface</a> (API) without understanding its internal mechanics. For example, a program could use a library that <a href=\"/wiki/Abstraction_(computer_science)\" title=\"Abstraction (computer science)\">abstracts</a> a complicated <a href=\"/wiki/System_call\" title=\"System call\">system call</a> so that the programmer can use the system feature without spending time to learn the intricacies of the system function.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐vc4gk\nCached time: 20260918181008\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.102 seconds\nReal time usage: 0.175 seconds\nPreprocessor visited node count: 261/1000000\nRevision size: 1795/2097152 bytes\nPost‐expand include size: 2650/2097152 bytes\nTemplate argument size: 832/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 818/5000000 bytes\nLua time usage: 0.055/10.000 seconds\nLua memory usage: 1814231/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  152.566      1 -total\n 64.21%   97.957      1 Template:Short_description\n 33.28%   50.767      2 Template:Pagetype\n 22.07%   33.675      3 Template:Main_other\n 20.54%   31.342      1 Template:SDcat\n 19.98%   30.480      1 Template:Redirect-distinguish\n 10.60%   16.171      1 Template:Use_dmy_dates\n  6.84%   10.443      1 Template:DMCA\n  5.02%    7.660      1 Template:Dated_maintenance_category\n  4.96%    7.565      1 Template:About\n-->\n\n<!-- Render ID 2e5f8952-b38c-11f1-bbcc-15fd78983e63 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Library software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstraction (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application programming interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiled",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Image",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ogg Vorbis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software reuse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System call",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System resource",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Text string",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Collection of resources used to develop a computer program",
+          "page_image_free": "Ogg_vorbis_libs_and_application_dia.svg",
+          "wikibase_item": "Q188860"
+        }
+      }
+    }
+  ]
+}

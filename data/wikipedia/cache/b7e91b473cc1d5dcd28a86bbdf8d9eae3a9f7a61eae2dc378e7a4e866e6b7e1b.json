@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Logic",
+    "url": "https://en.wikipedia.org/wiki/Logic",
+    "summary": "Study of correct reasoning This article is about the study of correct reasoning. For other uses, see Logic (disambiguation) and Logician (disambiguation) . \"Logical\" and \"Logically\" redirect here. For the rapper, see Logic (rapper) . For the British company, see Logically (company) . Logic studies valid forms of inference like modus ponens . Logic is the study of correct reasoning . It includes both formal and informal logic . Formal logic is the study of deductively valid inferences or logical truths . It examines how conclusions follow from premises based on the structure of arguments alone, independent of their topic and content. Informal logic is associated with informal fallacies , critical thinking , and argumentation theory . Informal logic examines arguments expressed in natural language whereas formal logic uses formal language . When used as a countable noun , the term \"a logic\" refers to a specific logical formal system that articulates a proof system . Logic plays a central role in many fields, such as philosophy , mathematics , computer science , and linguistics . Logic studies arguments , which consist of a set of premises that leads to a conclusion . An example is the argument from the premises \"it's Sunday\" and \"if it's Sunday then I don't have to work\" leading to the conclusion \"I don't have to work.\" Premises and conclusions express propositions or claims that can be true or false . An important feature of propositions is their internal structure. For example, complex propositions are made up of simpler propositions linked by logical vocabulary like ∧ {\\displaystyle \\land } ( and ) or → {\\displaystyle \\to } ( if...then ). Simple propositions also have parts, like \"Sunday\" or \"work\" in the example. The truth of a proposition usually depends on the meanings of all of its parts. However, this is not the case for logically true propositions. They are true only because of their logical structure independent of the specific meanings of the individual parts. Arguments can be either correct or incorrect. An argument is correct if its premises support its conclusion. Deductive arguments have the strongest form of support: if their premises are true then their conclusion must also be true. This is not the case for ampliative arguments, which arrive at genuinely new information not found in the premises. Many arguments in everyday discourse and the sciences are ampliative arguments. They are divided into inductive and abductive arguments. Inductive arguments are statistical generalizations, such as inferring that all ravens are black based on many individual observations of black ravens. Abductive arguments are inferences to the best explanation, for example, when a doctor concludes that a patient has a certain disease which explains the symptoms they suffer. Arguments that fall short of the standards of correct reasoning often embody fallacies . Systems of logic are theoretical frameworks for assessing the correctness of arguments. Logic has been studied since antiquity . Early approaches include Aristotelian logic , Stoic logic , Nyaya , and Mohism . Aristotelian logic focuses on reasoning in the form of syllogisms . It was considered the main system of logic in the Western world until it was replaced by modern formal logic, which has its roots in the work of late 19th-century mathematicians such as Gottlob Frege . Today, the most commonly used system is classical logic . It consists of propositional logic and first-order logic . Propositional logic only considers logical relations between full propositions. First-order logic also takes the internal parts of propositions into account, like predicates and quantifiers . Extended logics accept the basic intuitions behind classical logic and apply it to other fields, such as metaphysics , ethics , and epistemology , as frameworks for reasoning about what is possible or necessary , what is or should be , and what is believed or known . Deviant logics, on the other hand, reject certain classical intuitions and provide alternative explanations of the basic laws of logic. ^ Velleman 2006 , pp. 8, 103. ^ Vickers 2022 . ^ Nunes 2011 , pp. 2066–2069.",
+    "text": "Study of correct reasoning This article is about the study of correct reasoning. For other uses, see Logic (disambiguation) and Logician (disambiguation) . \"Logical\" and \"Logically\" redirect here. For the rapper, see Logic (rapper) . For the British company, see Logically (company) . Logic studies valid forms of inference like modus ponens . Logic is the study of correct reasoning . It includes both formal and informal logic . Formal logic is the study of deductively valid inferences or logical truths . It examines how conclusions follow from premises based on the structure of arguments alone, independent of their topic and content. Informal logic is associated with informal fallacies , critical thinking , and argumentation theory . Informal logic examines arguments expressed in natural language whereas formal logic uses formal language . When used as a countable noun , the term \"a logic\" refers to a specific logical formal system that articulates a proof system . Logic plays a central role in many fields, such as philosophy , mathematics , computer science , and linguistics . Logic studies arguments , which consist of a set of premises that leads to a conclusion . An example is the argument from the premises \"it's Sunday\" and \"if it's Sunday then I don't have to work\" leading to the conclusion \"I don't have to work.\" Premises and conclusions express propositions or claims that can be true or false . An important feature of propositions is their internal structure. For example, complex propositions are made up of simpler propositions linked by logical vocabulary like ∧ {\\displaystyle \\land } ( and ) or → {\\displaystyle \\to } ( if...then ). Simple propositions also have parts, like \"Sunday\" or \"work\" in the example. The truth of a proposition usually depends on the meanings of all of its parts. However, this is not the case for logically true propositions. They are true only because of their logical structure independent of the specific meanings of the individual parts. Arguments can be either correct or incorrect. An argument is correct if its premises support its conclusion. Deductive arguments have the strongest form of support: if their premises are true then their conclusion must also be true. This is not the case for ampliative arguments, which arrive at genuinely new information not found in the premises. Many arguments in everyday discourse and the sciences are ampliative arguments. They are divided into inductive and abductive arguments. Inductive arguments are statistical generalizations, such as inferring that all ravens are black based on many individual observations of black ravens. Abductive arguments are inferences to the best explanation, for example, when a doctor concludes that a patient has a certain disease which explains the symptoms they suffer. Arguments that fall short of the standards of correct reasoning often embody fallacies . Systems of logic are theoretical frameworks for assessing the correctness of arguments. Logic has been studied since antiquity . Early approaches include Aristotelian logic , Stoic logic , Nyaya , and Mohism . Aristotelian logic focuses on reasoning in the form of syllogisms . It was considered the main system of logic in the Western world until it was replaced by modern formal logic, which has its roots in the work of late 19th-century mathematicians such as Gottlob Frege . Today, the most commonly used system is classical logic . It consists of propositional logic and first-order logic . Propositional logic only considers logical relations between full propositions. First-order logic also takes the internal parts of propositions into account, like predicates and quantifiers . Extended logics accept the basic intuitions behind classical logic and apply it to other fields, such as metaphysics , ethics , and epistemology , as frameworks for reasoning about what is possible or necessary , what is or should be , and what is believed or known . Deviant logics, on the other hand, reject certain classical intuitions and provide alternative explanations of the basic laws of logic. ^ Velleman 2006 , pp. 8, 103. ^ Vickers 2022 . ^ Nunes 2011 , pp. 2066–2069.",
+    "links": [
+      "Abductive reasoning",
+      "Ampliative",
+      "Ancient history",
+      "Argument",
+      "Argumentation theory",
+      "Aristotelian logic",
+      "Classical logic",
+      "Computer science",
+      "Countable noun",
+      "Critical thinking",
+      "Deductive reasoning",
+      "Deontic logic",
+      "Epistemic modal logic",
+      "Epistemology",
+      "Ethics",
+      "Fallacies",
+      "False (logic)",
+      "First-order logic",
+      "Formal language",
+      "Formal system",
+      "Gottlob Frege",
+      "Inductive reasoning",
+      "Inference",
+      "Informal fallacies",
+      "Linguistics",
+      "Logic (disambiguation)",
+      "Logic (rapper)",
+      "Logical conjunction",
+      "Logical connective",
+      "Logical consequence",
+      "Logical reasoning",
+      "Logical truth",
+      "Logically (company)",
+      "Logician (disambiguation)",
+      "Material conditional",
+      "Mathematics",
+      "Metaphysics",
+      "Modal logic",
+      "Modus ponens",
+      "Mohism",
+      "Natural language",
+      "Nyaya",
+      "Philosophy",
+      "Predicate (mathematical logic)",
+      "Premise",
+      "Proof system",
+      "Proposition",
+      "Propositional logic",
+      "Quantifier (logic)",
+      "Stoic logic",
+      "Syllogism",
+      "Truth",
+      "Validity (logic)"
+    ],
+    "page_id": 46426065,
+    "revision_id": 1375402876,
+    "retrieved_at": "2026-09-18T18:08:58.309660+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260912100804|1374483723",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 46426065,
+            "ns": 0,
+            "title": "Logic",
+            "revisions": [
+              {
+                "revid": 1375402876,
+                "parentid": 1374483723
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Modus_ponendo_ponens.png",
+              "toc": "",
+              "wikibase-badge-Q17437796": "",
+              "wikibase-shortdesc": "Study of correct reasoning",
+              "wikibase_item": "Q8078"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Logic",
+        "pageid": 46426065,
+        "revid": 1375402876,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Study of correct reasoning</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the study of correct reasoning. For other uses, see <a href=\"/wiki/Logic_(disambiguation)\" class=\"mw-disambig\" title=\"Logic (disambiguation)\">Logic (disambiguation)</a> and <a href=\"/wiki/Logician_(disambiguation)\" class=\"mw-disambig\" title=\"Logician (disambiguation)\">Logician (disambiguation)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Logical\" and \"Logically\" redirect here. For the rapper, see <a href=\"/wiki/Logic_(rapper)\" title=\"Logic (rapper)\">Logic (rapper)</a>. For the British company, see <a href=\"/wiki/Logically_(company)\" title=\"Logically (company)\">Logically (company)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Modus_ponendo_ponens.png\" class=\"mw-file-description\"><img alt=\"p, and p ⇒ q; ∴ q\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Modus_ponendo_ponens.png/250px-Modus_ponendo_ponens.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"206\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Modus_ponendo_ponens.png/500px-Modus_ponendo_ponens.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"682\" data-file-height=\"562\" /></a><figcaption>Logic studies valid forms of inference like <span title=\"Latin-language text\"><i lang=\"la\"><a href=\"/wiki/Modus_ponens\" title=\"Modus ponens\">modus ponens</a></i></span>.</figcaption></figure>\n<p><b>Logic</b> is the study of correct <a href=\"/wiki/Logical_reasoning\" title=\"Logical reasoning\">reasoning</a>. It includes both <a class=\"mw-selflink-fragment\" href=\"#Formal_logic\">formal</a> and <a class=\"mw-selflink-fragment\" href=\"#Informal_logic\">informal logic</a>. Formal logic is the study of <a href=\"/wiki/Validity_(logic)\" title=\"Validity (logic)\">deductively valid</a> inferences or <a href=\"/wiki/Logical_truth\" title=\"Logical truth\">logical truths</a>. It examines how conclusions follow from <a href=\"/wiki/Premise\" title=\"Premise\">premises</a> based on the structure of arguments alone, independent of their topic and content. Informal logic is associated with <a href=\"/wiki/Informal_fallacies\" class=\"mw-redirect\" title=\"Informal fallacies\">informal fallacies</a>, <a href=\"/wiki/Critical_thinking\" title=\"Critical thinking\">critical thinking</a>, and <a href=\"/wiki/Argumentation_theory\" title=\"Argumentation theory\">argumentation theory</a>. Informal logic examines arguments expressed in <a href=\"/wiki/Natural_language\" title=\"Natural language\">natural language</a> whereas formal logic uses <a href=\"/wiki/Formal_language\" title=\"Formal language\">formal language</a>. When used as a <a href=\"/wiki/Countable_noun\" class=\"mw-redirect\" title=\"Countable noun\">countable noun</a>, the term \"a logic\" refers to a specific logical <a href=\"/wiki/Formal_system\" title=\"Formal system\">formal system</a> that articulates a <a href=\"/wiki/Proof_system\" class=\"mw-redirect\" title=\"Proof system\">proof system</a>. Logic plays a central role in many fields, such as <a href=\"/wiki/Philosophy\" title=\"Philosophy\">philosophy</a>, <a href=\"/wiki/Mathematics\" title=\"Mathematics\">mathematics</a>, <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, and <a href=\"/wiki/Linguistics\" title=\"Linguistics\">linguistics</a>.\n</p><p>Logic studies <a href=\"/wiki/Argument\" title=\"Argument\">arguments</a>, which consist of a set of premises that leads to a <a href=\"/wiki/Logical_consequence\" title=\"Logical consequence\">conclusion</a>. An example is the argument from the premises \"it's Sunday\" and \"if it's Sunday then I don't have to work\" leading to the conclusion \"I don't have to work.\"<sup id=\"cite&#95;ref-FOOTNOTEVelleman20068,&#95;103&#95;1-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEVelleman20068,_103-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Premises and conclusions express <a href=\"/wiki/Proposition\" title=\"Proposition\">propositions</a> or claims that can be <a href=\"/wiki/Truth\" title=\"Truth\">true</a> or <a href=\"/wiki/False_(logic)\" title=\"False (logic)\">false</a>. An important feature of propositions is their internal structure. For example, complex propositions are made up of simpler propositions linked by <a href=\"/wiki/Logical_connective\" title=\"Logical connective\">logical vocabulary</a> like <span class=\"mwe-math-element mwe-math-element-inline\"><span class=\"mwe-math-mathml-a11y\" style=\"display: none;\"><math class=\"mathjax_ignore\" xmlns=\"http://www.w3.org/1998/Math/MathML\"  alttext=\"{\\displaystyle \\land }\">\n  <semantics>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mstyle displaystyle=\"true\" scriptlevel=\"0\">\n        <mo>&#x2227;<!-- ∧ --></mo>\n      </mstyle>\n    </mrow>\n    <annotation encoding=\"application/x-tex\">{\\displaystyle \\land }</annotation>\n  </semantics>\n</math></span><img src=\"https://wikimedia.org/api/rest_v1/media/math/render/svg/d6823e5a222eb3ca49672818ac3d13ec607052c4\" class=\"mwe-math-fallback-image-inline mw-invert skin-invert\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.55ex; height:2.009ex;\" alt=\"{\\displaystyle \\land }\"></span> (<a href=\"/wiki/Logical_conjunction\" title=\"Logical conjunction\">and</a>) or <span class=\"mwe-math-element mwe-math-element-inline\"><span class=\"mwe-math-mathml-a11y\" style=\"display: none;\"><math class=\"mathjax_ignore\" xmlns=\"http://www.w3.org/1998/Math/MathML\"  alttext=\"{\\displaystyle \\to }\">\n  <semantics>\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mstyle displaystyle=\"true\" scriptlevel=\"0\">\n        <mo stretchy=\"false\">&#x2192;<!-- → --></mo>\n      </mstyle>\n    </mrow>\n    <annotation encoding=\"application/x-tex\">{\\displaystyle \\to }</annotation>\n  </semantics>\n</math></span><img src=\"https://wikimedia.org/api/rest_v1/media/math/render/svg/1daab843254cfcb23a643070cf93f3badc4fbbbd\" class=\"mwe-math-fallback-image-inline mw-invert skin-invert\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.324ex; height:1.843ex;\" alt=\"{\\displaystyle \\to }\"></span> (<a href=\"/wiki/Material_conditional\" title=\"Material conditional\">if...then</a>). Simple propositions also have parts, like \"Sunday\" or \"work\" in the example. The truth of a proposition usually depends on the meanings of all of its parts. However, this is not the case for logically true propositions. They are true only because of their logical structure independent of the specific meanings of the individual parts.\n</p><p>Arguments can be either correct or incorrect. An argument is correct if its premises support its conclusion. <a href=\"/wiki/Deductive_reasoning\" title=\"Deductive reasoning\">Deductive arguments</a> have the strongest form of support: if their premises are true then their conclusion must also be true. This is not the case for <a href=\"/wiki/Ampliative\" title=\"Ampliative\">ampliative</a> arguments, which arrive at genuinely new information not found in the premises. Many arguments in everyday discourse and the sciences are ampliative arguments. They are divided into <a href=\"/wiki/Inductive_reasoning\" title=\"Inductive reasoning\">inductive</a> and <a href=\"/wiki/Abductive_reasoning\" title=\"Abductive reasoning\">abductive</a> arguments. Inductive arguments are statistical generalizations, such as inferring that all ravens are black based on many individual observations of black ravens.<sup id=\"cite&#95;ref-FOOTNOTEVickers2022&#95;2-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEVickers2022-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> Abductive arguments are <a href=\"/wiki/Inference\" title=\"Inference\">inferences</a> to the best explanation, for example, when a doctor concludes that a patient has a certain disease which explains the symptoms they suffer.<sup id=\"cite&#95;ref-FOOTNOTENunes20112066–2069&#95;3-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTENunes20112066–2069-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> Arguments that fall short of the standards of correct reasoning often embody <a href=\"/wiki/Fallacies\" class=\"mw-redirect\" title=\"Fallacies\">fallacies</a>. Systems of logic are theoretical frameworks for assessing the correctness of arguments.\n</p><p>Logic has been studied since <a href=\"/wiki/Ancient_history\" title=\"Ancient history\">antiquity</a>. Early approaches include <a href=\"/wiki/Aristotelian_logic\" class=\"mw-redirect\" title=\"Aristotelian logic\">Aristotelian logic</a>, <a href=\"/wiki/Stoic_logic\" class=\"mw-redirect\" title=\"Stoic logic\">Stoic logic</a>, <a href=\"/wiki/Nyaya\" title=\"Nyaya\">Nyaya</a>, and <a href=\"/wiki/Mohism\" title=\"Mohism\">Mohism</a>. Aristotelian logic focuses on reasoning in the form of <a href=\"/wiki/Syllogism\" title=\"Syllogism\">syllogisms</a>. It was considered the main system of logic in the Western world until it was replaced by modern formal logic, which has its roots in the work of late 19th-century mathematicians such as <a href=\"/wiki/Gottlob_Frege\" title=\"Gottlob Frege\">Gottlob Frege</a>. Today, the most commonly used system is <a href=\"/wiki/Classical_logic\" title=\"Classical logic\">classical logic</a>. It consists of <a href=\"/wiki/Propositional_logic\" title=\"Propositional logic\">propositional logic</a> and <a href=\"/wiki/First-order_logic\" title=\"First-order logic\">first-order logic</a>. Propositional logic only considers logical relations between full propositions. First-order logic also takes the internal parts of propositions into account, like <a href=\"/wiki/Predicate_(mathematical_logic)\" class=\"mw-redirect\" title=\"Predicate (mathematical logic)\">predicates</a> and <a href=\"/wiki/Quantifier_(logic)\" title=\"Quantifier (logic)\">quantifiers</a>. Extended logics accept the basic intuitions behind classical logic and apply it to other fields, such as <a href=\"/wiki/Metaphysics\" title=\"Metaphysics\">metaphysics</a>, <a href=\"/wiki/Ethics\" title=\"Ethics\">ethics</a>, and <a href=\"/wiki/Epistemology\" title=\"Epistemology\">epistemology</a>, as frameworks for reasoning about <a href=\"/wiki/Modal_logic\" title=\"Modal logic\">what is possible or necessary</a>, <a href=\"/wiki/Deontic_logic\" title=\"Deontic logic\">what is or should be</a>, and <a href=\"/wiki/Epistemic_modal_logic\" title=\"Epistemic modal logic\">what is believed or known</a>. Deviant logics, on the other hand, reject certain classical intuitions and provide alternative explanations of the basic laws of logic.\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r886046785\">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class=\"toclimit-3\"><meta property=\"mw:PageProp/toc\" /></div>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-FOOTNOTEVelleman20068,&#95;103-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEVelleman20068,_103_1-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFVelleman2006\">Velleman 2006</a>, pp.&#160;8, 103.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEVickers2022-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEVickers2022_2-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFVickers2022\">Vickers 2022</a>.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTENunes20112066–2069-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTENunes20112066–2069_3-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFNunes2011\">Nunes 2011</a>, pp.&#160;2066–2069.</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐pl27c\nCached time: 20260918180923\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.375 seconds\nReal time usage: 0.529 seconds\nPreprocessor visited node count: 574/1000000\nRevision size: 4809/2097152 bytes\nPost‐expand include size: 4071/2097152 bytes\nTemplate argument size: 1064/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1917/5000000 bytes\nLua time usage: 0.284/10.000 seconds\nLua memory usage: 15856775/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  460.785      1 -total\n 28.58%  131.688      3 Template:Sfn\n 23.49%  108.229      1 Template:Lang\n 19.51%   89.884      1 Template:Short_description\n 12.16%   56.038      2 Template:Pagetype\n 11.75%   54.132      7 Template:Main_other\n  9.63%   44.354      1 Template:About\n  7.75%   35.714      1 Template:Featured_article\n  7.12%   32.790      1 Template:Top_icon\n  5.26%   24.232      1 Template:Category_handler\n-->\n\n<!-- Render ID 138d1d0a-b38c-11f1-b0b9-5327416fb27c -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Featured articles*",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logician (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic (rapper)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logically (company)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abductive reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ampliative",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ancient history",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Argument",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Argumentation theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Aristotelian logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Classical logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Countable noun",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Critical thinking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deductive reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deontic logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Epistemic modal logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Epistemology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ethics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fallacies",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "False (logic)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "First-order logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gottlob Frege",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inductive reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Informal fallacies",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linguistics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logical conjunction",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logical connective",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logical consequence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logical reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logical truth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Material conditional",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaphysics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modal logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modus ponens",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mohism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Natural language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nyaya",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Philosophy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Predicate (mathematical logic)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Premise",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proof system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proposition",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Propositional logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quantifier (logic)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stoic logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syllogism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Truth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Validity (logic)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Study of correct reasoning",
+          "toc": "",
+          "page_image_free": "Modus_ponendo_ponens.png",
+          "wikibase_item": "Q8078",
+          "wikibase-badge-Q17437796": ""
+        }
+      }
+    }
+  ]
+}

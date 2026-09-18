@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Modular programming",
+    "url": "https://en.wikipedia.org/wiki/Modular_programming",
+    "summary": "Organizing code into modules This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Modular programming\" – news · newspapers · books · scholar · JSTOR ( June 2022 ) ( Learn how and when to remove this message ) Modular programming is a programming paradigm that emphasizes organizing the functions of a codebase into independent modules , each providing an aspect of a computer program in its entirety without providing other aspects. A module interface expresses the elements that are provided and required by the module. The elements defined in the interface are detectable by other modules. The implementation contains the working code that corresponds to the elements declared in the interface.",
+    "text": "Organizing code into modules This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Modular programming\" – news · newspapers · books · scholar · JSTOR ( June 2022 ) ( Learn how and when to remove this message ) Modular programming is a programming paradigm that emphasizes organizing the functions of a codebase into independent modules , each providing an aspect of a computer program in its entirety without providing other aspects. A module interface expresses the elements that are provided and required by the module. The elements defined in the interface are detectable by other modules. The implementation contains the working code that corresponds to the elements declared in the interface.",
+    "links": [
+      "Codebase",
+      "Computer program",
+      "Function (programming)",
+      "Implementation",
+      "Interface (computing)",
+      "Programming paradigm",
+      "Separation of concerns"
+    ],
+    "page_id": 939133,
+    "revision_id": 1354833922,
+    "retrieved_at": "2026-09-18T18:08:32.374711+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260510010644|1353394175",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 939133,
+            "ns": 0,
+            "title": "Modular programming",
+            "revisions": [
+              {
+                "revid": 1354833922,
+                "parentid": 1353394175
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Modular Programming",
+              "wikibase-shortdesc": "Organizing code into modules",
+              "wikibase_item": "Q6453666"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Modular programming",
+        "pageid": 939133,
+        "revid": 1354833922,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Organizing code into modules</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Modular_programming\" title=\"Special:EditPage/Modular programming\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Modular+programming%22\">\"Modular programming\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Modular+programming%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Modular+programming%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Modular+programming%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Modular+programming%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Modular+programming%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">June 2022</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p><b>Modular programming</b> is a <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming paradigm</a> that emphasizes organizing the <a href=\"/wiki/Function_(programming)\" class=\"mw-redirect\" title=\"Function (programming)\">functions</a> of a <a href=\"/wiki/Codebase\" title=\"Codebase\">codebase</a> into independent <i>modules</i>, each providing an <a href=\"/wiki/Separation_of_concerns\" title=\"Separation of concerns\">aspect</a> of a <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a> in its entirety without providing other aspects.\n</p><p>A module <a href=\"/wiki/Interface_(computing)\" title=\"Interface (computing)\">interface</a> expresses the elements that are provided and required by the module. The elements defined in the interface are detectable by other modules. The <a href=\"/wiki/Implementation\" title=\"Implementation\">implementation</a> contains the working code that corresponds to the elements declared in the interface.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐nk678\nCached time: 20260918180858\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.067 seconds\nReal time usage: 0.108 seconds\nPreprocessor visited node count: 201/1000000\nRevision size: 688/2097152 bytes\nPost‐expand include size: 10511/2097152 bytes\nTemplate argument size: 384/2097152 bytes\nHighest expansion depth: 9/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1525/5000000 bytes\nLua time usage: 0.041/10.000 seconds\nLua memory usage: 1816168/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   97.728      1 -total\n 57.33%   56.025      1 Template:Short_description\n 42.60%   41.633      1 Template:More_citations_needed\n 39.09%   38.199      1 Template:Ambox\n 32.82%   32.072      2 Template:Pagetype\n 14.37%   14.039      2 Template:Main_other\n 12.94%   12.649      1 Template:SDcat\n 11.39%   11.128      1 Template:Find_sources_mainspace\n  2.06%    2.012      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID 04a661f3-b38c-11f1-b01a-ff41b9e447ec -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Codebase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interface (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Separation of concerns",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Organizing code into modules",
+          "wikibase_item": "Q6453666"
+        }
+      }
+    }
+  ]
+}

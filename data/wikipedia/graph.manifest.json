@@ -2,118 +2,324 @@
   "schema_version": 1,
   "config": {
     "titles": [
+      ".NET",
       "ABC (programming language)",
       "ALGOL",
+      "ALGOL 60",
+      "ALGOL 68",
+      "AMD Optimizing C/C++ Compiler",
+      "API",
+      "APL (programming language)",
+      "ARM architecture family",
+      "AWK",
+      "ActionScript",
+      "Ada (programming language)",
       "Ada Lovelace",
+      "Ahead-of-time compilation",
       "Alan Kay",
       "Alan Turing",
       "Algorithm",
+      "American National Standards Institute",
+      "Android (operating system)",
+      "Android Runtime",
+      "Apache License 2.0",
+      "Apache MXNet",
       "Apple Inc.",
+      "Application software",
+      "Array programming",
+      "Artificial intelligence",
       "Assembly language",
+      "Asset",
+      "Association for Computing Machinery",
+      "Automated theorem proving",
+      "Autonomous System Number",
+      "B (programming language)",
       "BASIC",
+      "BASIC interpreter",
+      "BCPL",
+      "BEAM (Erlang virtual machine)",
+      "Bachelor of Arts",
+      "Bachelor of Science",
       "Barbara Liskov",
+      "Bell Labs",
+      "Berkeley Software Distribution",
+      "Bibcode (identifier)",
+      "Big Tech",
+      "Birth name",
       "Bjarne Stroustrup",
+      "Block (programming)",
       "Brendan Eich",
       "Brian Kernighan",
+      "Browser engine",
+      "Bytecode",
       "C (programming language)",
+      "C Sharp (programming language)",
       "C++",
+      "C++11",
+      "CLU (programming language)",
       "COBOL",
       "CPython",
+      "CUDA",
+      "Caml",
       "Cascading Style Sheets",
+      "Central processing unit",
+      "Chapel (programming language)",
+      "Charles Stark Draper Prize",
+      "Chief executive officer",
+      "Chris Lattner",
       "Clang",
       "Clojure",
+      "Code::Blocks",
+      "CoffeeScript",
+      "Common Language Runtime",
       "Common Lisp",
+      "Comparison of integrated development environments",
+      "Compile and go system",
+      "Compile time",
+      "Compiled language",
       "Compiler",
+      "Computation",
+      "Computer",
+      "Computer History Museum",
+      "Computer Pioneer Award",
+      "Computer architecture",
+      "Computer hardware",
+      "Computer network",
+      "Computer program",
       "Computer science",
+      "Computer scientist",
+      "Computing",
+      "Computing platform",
       "Concurrent computing",
+      "Cross-platform",
+      "D (programming language)",
+      "Dart (programming language)",
       "Data structure",
       "Database",
+      "Datalog",
       "Declarative programming",
       "Dennis Ritchie",
+      "Distributed computing",
+      "Doctor of Philosophy",
+      "Doctoral advisor",
+      "Doi (identifier)",
       "Donald Knuth",
+      "Duck typing",
+      "Dylan (programming language)",
+      "Dynamic programming language",
+      "Eclipse (software)",
       "Edgar F. Codd",
       "Edsger W. Dijkstra",
+      "Eiffel (programming language)",
       "Elixir (programming language)",
+      "Elm (programming language)",
+      "Emacs",
+      "Embedded system",
       "Erlang (programming language)",
+      "Executable",
+      "Execution (computing)",
       "F Sharp (programming language)",
+      "F* (programming language)",
+      "Filename extension",
       "Fortran",
+      "Free Software Foundation",
+      "Free and open-source software",
       "Free software",
+      "FreeBSD",
       "Functional programming",
       "GNU",
       "GNU Compiler Collection",
+      "GNU General Public License",
+      "GNU Project",
+      "Garbage collection (computer science)",
+      "Geany",
+      "General-purpose programming language",
+      "Generic programming",
+      "GitHub",
+      "Glasgow Haskell Compiler",
       "Go (programming language)",
       "Google",
       "Grace Hopper",
       "Graph theory",
+      "Graphical user interface",
       "Graydon Hoare",
+      "Groovy (programming language)",
       "Guido van Rossum",
       "HTML",
+      "Hardware virtualization",
       "Haskell",
+      "Haxe",
+      "High-level programming language",
+      "IA-32",
+      "IBM",
+      "IEEE",
+      "IOS",
+      "IPadOS",
+      "ISBN (identifier)",
+      "ISSN (identifier)",
+      "Idris (programming language)",
       "Imperative programming",
+      "Input/output",
+      "Instruction set architecture",
+      "Integrated development environment",
+      "Intermediate representation",
+      "International Organization for Standardization",
       "Interpreter (computing)",
+      "JS++",
       "James Gosling",
       "Java (programming language)",
+      "Java virtual machine",
       "JavaScript",
       "JetBrains",
       "John Backus",
       "John McCarthy (computer scientist)",
       "John von Neumann",
       "Julia (programming language)",
+      "Just-in-time compilation",
       "Ken Thompson",
+      "Kernel (operating system)",
       "Kotlin (programming language)",
       "LLVM",
       "Larry Wall",
+      "Library (computing)",
+      "Linker (computing)",
       "Linus Torvalds",
       "Linux",
+      "Linux distribution",
+      "Linux kernel",
       "Lisp (programming language)",
+      "Logic",
       "Logic programming",
+      "Low-level programming language",
       "Lua (programming language)",
+      "LuaJIT",
       "MATLAB",
+      "MIT License",
       "ML (programming language)",
+      "MacOS",
       "Machine code",
+      "Macro (computer science)",
+      "Massachusetts Institute of Technology",
+      "Master of Science",
       "MathWorks",
+      "Mathematician",
+      "Mathematics",
+      "Mathematics Genealogy Project",
+      "Memory management",
+      "Metaprogramming",
+      "Microcomputer",
       "Microsoft",
+      "Microsoft Visual C++",
+      "Microsoft Windows",
+      "Modula-2",
+      "Modula-3",
+      "Modular programming",
+      "Mono (software)",
       "Mozilla",
       "Mozilla Firefox",
+      "Mozilla Foundation",
+      "Multi-paradigm programming language",
       "Netscape",
       "Niklaus Wirth",
+      "Nim (programming language)",
+      "Node.js",
+      "Nominal type system",
+      "OCLC (identifier)",
       "OCaml",
+      "Oberon (programming language)",
       "Object-oriented programming",
       "Objective-C",
+      "Opa (programming language)",
       "OpenJDK",
       "Operating system",
+      "Optimizing compiler",
       "PHP",
+      "PL/I",
       "Parallel computing",
       "Pascal (programming language)",
       "Perl",
+      "Porting",
+      "Princeton University",
       "Procedural programming",
+      "Programmer",
       "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
       "Prolog",
+      "Proprietary software",
+      "PyPy",
       "Python (programming language)",
       "R (programming language)",
+      "Racket (programming language)",
+      "Raku (programming language)",
       "Rasmus Lerdorf",
+      "Reference implementation",
+      "Reflective programming",
       "Relational database",
+      "Repository (version control)",
       "Richard Stallman",
       "Ruby (programming language)",
+      "Runtime system",
       "Rust (programming language)",
+      "S2CID (identifier)",
       "SQL",
       "Scala (programming language)",
       "Scheme (programming language)",
+      "Scope (computer science)",
+      "Scripting language",
+      "Simula",
       "Smalltalk",
+      "Software",
+      "Software categories",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Source code",
       "Standard ML",
+      "Standard library",
+      "Stanford University",
+      "Strong and weak typing",
+      "Structured programming",
+      "Subsidiary",
       "Swift (programming language)",
-      "Tim Berners-Lee"
+      "Syntax (programming languages)",
+      "Theoretical computer science",
+      "Thesis",
+      "Tim Berners-Lee",
+      "Turing Award",
+      "Type inference",
+      "Type system",
+      "Unix",
+      "Unix-like",
+      "V (programming language)",
+      "V8 (JavaScript engine)",
+      "Virtual machine",
+      "Visual Studio Code",
+      "Wayback Machine",
+      "Web browser",
+      "Wolfram Language",
+      "X86-64",
+      "YouTube",
+      "Zend Engine",
+      "Zig (programming language)"
     ],
-    "max_pages": 101,
+    "max_pages": 301,
     "max_depth": 0,
     "intro_only": true
   },
-  "pages": 100,
-  "triples": 34400,
-  "sha256": "03c4679e66d6e3d36592916d72a6b0f509269159590c369e48e0ee2432c1b6b5",
-  "requests": 2,
-  "elapsed_seconds": 2.638176,
+  "pages": 300,
+  "triples": 105268,
+  "sha256": "81eacdf54bc482510e00b55640309c8d4f92f34abddf0dc53ffb7ba0e8ce5d32",
+  "requests": 0,
+  "elapsed_seconds": 9.489547,
   "sources": [
+    {
+      "page_id": 45400268,
+      "revision_id": 1375118505,
+      "title": ".NET",
+      "source_kind": "wikipedia"
+    },
     {
       "page_id": 147585,
       "revision_id": 1325980803,
@@ -127,9 +333,69 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 692878,
+      "revision_id": 1357420478,
+      "title": "ALGOL 60",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 692880,
+      "revision_id": 1375177355,
+      "title": "ALGOL 68",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 54086618,
+      "revision_id": 1375503560,
+      "title": "AMD Optimizing C/C++ Compiler",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 27697009,
+      "revision_id": 1374263741,
+      "title": "API",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1451,
+      "revision_id": 1374410077,
+      "title": "APL (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 60558,
+      "revision_id": 1373070272,
+      "title": "ARM architecture family",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1456,
+      "revision_id": 1375305667,
+      "title": "AWK",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 519691,
+      "revision_id": 1373143562,
+      "title": "ActionScript",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1242,
+      "revision_id": 1365106242,
+      "title": "Ada (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 974,
       "revision_id": 1374881938,
       "title": "Ada Lovelace",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 9934469,
+      "revision_id": 1292345296,
+      "title": "Ahead-of-time compilation",
       "source_kind": "wikipedia"
     },
     {
@@ -151,9 +417,57 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 659,
+      "revision_id": 1374150741,
+      "title": "American National Standards Institute",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 12610483,
+      "revision_id": 1375093505,
+      "title": "Android (operating system)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 42687011,
+      "revision_id": 1345637505,
+      "title": "Android Runtime",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 145908,
+      "revision_id": 1372901532,
+      "title": "Apache License",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 52513310,
+      "revision_id": 1349193331,
+      "title": "Apache MXNet",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 856,
       "revision_id": 1375223315,
       "title": "Apple Inc.",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 454746,
+      "revision_id": 1373874020,
+      "title": "Application software",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 890887,
+      "revision_id": 1346731840,
+      "title": "Array programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1164,
+      "revision_id": 1375342429,
+      "title": "Artificial intelligence",
       "source_kind": "wikipedia"
     },
     {
@@ -163,9 +477,69 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 18934838,
+      "revision_id": 1370695203,
+      "title": "Asset",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 2928,
+      "revision_id": 1372964813,
+      "title": "Association for Computing Machinery",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 2546,
+      "revision_id": 1374820166,
+      "title": "Automated theorem proving",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 312399,
+      "revision_id": 1375031847,
+      "title": "Autonomous system (Internet)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 4475,
+      "revision_id": 1375235954,
+      "title": "B (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 4015,
       "revision_id": 1373603686,
       "title": "BASIC",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 64701882,
+      "revision_id": 1365977333,
+      "title": "BASIC interpreter",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 4052,
+      "revision_id": 1362508263,
+      "title": "BCPL",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 57341082,
+      "revision_id": 1358190590,
+      "title": "BEAM (Erlang virtual machine)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 156992,
+      "revision_id": 1374067112,
+      "title": "Bachelor of Arts",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21068988,
+      "revision_id": 1373348023,
+      "title": "Bachelor of Science",
       "source_kind": "wikipedia"
     },
     {
@@ -175,9 +549,45 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 3712,
+      "revision_id": 1374937809,
+      "title": "Bell Labs",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18932622,
+      "revision_id": 1375426734,
+      "title": "Berkeley Software Distribution",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 14092434,
+      "revision_id": 1370653199,
+      "title": "Bibcode",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 57174306,
+      "revision_id": 1375583354,
+      "title": "Big Tech",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 2037726,
+      "revision_id": 1366353652,
+      "title": "Birth name",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 3713,
       "revision_id": 1373768158,
       "title": "Bjarne Stroustrup",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 381944,
+      "revision_id": 1347164302,
+      "title": "Block (programming)",
       "source_kind": "wikipedia"
     },
     {
@@ -193,15 +603,45 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 46001,
+      "revision_id": 1374526332,
+      "title": "Browser engine",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 89997,
+      "revision_id": 1371107939,
+      "title": "Bytecode",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 6021,
       "revision_id": 1374730257,
       "title": "C (programming language)",
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 2356196,
+      "revision_id": 1369765227,
+      "title": "C Sharp (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 72038,
       "revision_id": 1375333877,
       "title": "C++",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5481447,
+      "revision_id": 1371498503,
+      "title": "C++11",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 7575,
+      "revision_id": 1359705090,
+      "title": "CLU (programming language)",
       "source_kind": "wikipedia"
     },
     {
@@ -217,9 +657,51 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 7933386,
+      "revision_id": 1375005008,
+      "title": "CUDA",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 2362118,
+      "revision_id": 1371533685,
+      "title": "Caml",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 23290197,
       "revision_id": 1374865250,
       "title": "CSS",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5218,
+      "revision_id": 1375429658,
+      "title": "Central processing unit",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 6776794,
+      "revision_id": 1370642764,
+      "title": "Chapel (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 91988,
+      "revision_id": 1353969114,
+      "title": "Charles Stark Draper Prize",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 52234,
+      "revision_id": 1375533414,
+      "title": "Chief executive officer",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 14443118,
+      "revision_id": 1372454203,
+      "title": "Chris Lattner",
       "source_kind": "wikipedia"
     },
     {
@@ -235,9 +717,51 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 3102210,
+      "revision_id": 1375095139,
+      "title": "Code::Blocks",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 27403236,
+      "revision_id": 1371234827,
+      "title": "CoffeeScript",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 46003,
+      "revision_id": 1317322509,
+      "title": "Common Language Runtime",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 6068,
       "revision_id": 1369462020,
       "title": "Common Lisp",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 6444283,
+      "revision_id": 1375240622,
+      "title": "Comparison of integrated development environments",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 35117434,
+      "revision_id": 1277570458,
+      "title": "Compile and go system",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 191766,
+      "revision_id": 1360810917,
+      "title": "Compile time",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 174101,
+      "revision_id": 1357974599,
+      "title": "Compiled language",
       "source_kind": "wikipedia"
     },
     {
@@ -247,15 +771,99 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 5926,
+      "revision_id": 1364112979,
+      "title": "Computation",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 7878457,
+      "revision_id": 1374584850,
+      "title": "Computer",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1115478,
+      "revision_id": 1369594079,
+      "title": "Computer History Museum",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 24659135,
+      "revision_id": 1335438393,
+      "title": "Computer Pioneer Award",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 25652303,
+      "revision_id": 1374904863,
+      "title": "Computer architecture",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21808348,
+      "revision_id": 1374883474,
+      "title": "Computer hardware",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 4122592,
+      "revision_id": 1374667624,
+      "title": "Computer network",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5783,
+      "revision_id": 1373247273,
+      "title": "Computer program",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 5323,
       "revision_id": 1375401164,
       "title": "Computer science",
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 328784,
+      "revision_id": 1362101229,
+      "title": "Computer scientist",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5213,
+      "revision_id": 1375087113,
+      "title": "Computing",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 81196,
+      "revision_id": 1371896952,
+      "title": "Computing platform",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 2581605,
       "revision_id": 1375302178,
       "title": "Concurrent computing",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 81193,
+      "revision_id": 1371896948,
+      "title": "Cross-platform software",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 243881,
+      "revision_id": 1367708251,
+      "title": "D (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 33033735,
+      "revision_id": 1368937580,
+      "title": "Dart (programming language)",
       "source_kind": "wikipedia"
     },
     {
@@ -271,6 +879,12 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 968357,
+      "revision_id": 1374720427,
+      "title": "Datalog",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 210648,
       "revision_id": 1367382337,
       "title": "Declarative programming",
@@ -283,9 +897,57 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 8501,
+      "revision_id": 1368905282,
+      "title": "Distributed computing",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21031297,
+      "revision_id": 1374515117,
+      "title": "Doctor of Philosophy",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 26210476,
+      "revision_id": 1371778221,
+      "title": "Doctoral advisor",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 422994,
+      "revision_id": 1372580666,
+      "title": "Digital object identifier",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 8095,
       "revision_id": 1374283509,
       "title": "Donald Knuth",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 440018,
+      "revision_id": 1336760820,
+      "title": "Duck typing",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 8741,
+      "revision_id": 1355220369,
+      "title": "Dylan (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 234079,
+      "revision_id": 1358844202,
+      "title": "Dynamic programming language",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 216958,
+      "revision_id": 1375102056,
+      "title": "Eclipse (software)",
       "source_kind": "wikipedia"
     },
     {
@@ -301,9 +963,33 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 9838,
+      "revision_id": 1374643603,
+      "title": "Eiffel (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 38202780,
       "revision_id": 1373237682,
       "title": "Elixir (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 37552825,
+      "revision_id": 1364261913,
+      "title": "Elm (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18933234,
+      "revision_id": 1371584339,
+      "title": "Emacs",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 46630,
+      "revision_id": 1375575386,
+      "title": "Embedded system",
       "source_kind": "wikipedia"
     },
     {
@@ -313,9 +999,33 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 217392,
+      "revision_id": 1354604554,
+      "title": "Executable",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 418206,
+      "revision_id": 1362285970,
+      "title": "Execution (computing)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 239964,
       "revision_id": 1372118138,
       "title": "F Sharp (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 38420593,
+      "revision_id": 1371120897,
+      "title": "F* (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 147957,
+      "revision_id": 1366668995,
+      "title": "Filename extension",
       "source_kind": "wikipedia"
     },
     {
@@ -325,9 +1035,27 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 18949437,
+      "revision_id": 1375192924,
+      "title": "Free Software Foundation",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1721496,
+      "revision_id": 1373575688,
+      "title": "Free and open-source software",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 10635,
       "revision_id": 1373283891,
       "title": "Free software",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 7580554,
+      "revision_id": 1373093240,
+      "title": "FreeBSD",
       "source_kind": "wikipedia"
     },
     {
@@ -346,6 +1074,54 @@
       "page_id": 12323,
       "revision_id": 1375188309,
       "title": "GNU Compiler Collection",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18938683,
+      "revision_id": 1370513536,
+      "title": "GNU General Public License",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 275549,
+      "revision_id": 1375043896,
+      "title": "GNU Project",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 6734,
+      "revision_id": 1373231348,
+      "title": "Garbage collection (computer science)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 14845564,
+      "revision_id": 1367577307,
+      "title": "Geany",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 891926,
+      "revision_id": 1369485651,
+      "title": "General-purpose programming language",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 105837,
+      "revision_id": 1371733676,
+      "title": "Generic programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18545292,
+      "revision_id": 1375124090,
+      "title": "GitHub",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 562879,
+      "revision_id": 1373070928,
+      "title": "Glasgow Haskell Compiler",
       "source_kind": "wikipedia"
     },
     {
@@ -373,9 +1149,21 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 12293,
+      "revision_id": 1371334622,
+      "title": "Graphical user interface",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 29414838,
       "revision_id": 1375530180,
       "title": "Rust (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 508401,
+      "revision_id": 1359000230,
+      "title": "Apache Groovy",
       "source_kind": "wikipedia"
     },
     {
@@ -391,9 +1179,75 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 9774359,
+      "revision_id": 1355503198,
+      "title": "Hardware virtualization",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 27404990,
       "revision_id": 1375260087,
       "title": "Haskell",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5404706,
+      "revision_id": 1372023267,
+      "title": "Haxe",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 189842,
+      "revision_id": 1374671408,
+      "title": "High-level programming language",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 15046,
+      "revision_id": 1311335375,
+      "title": "IA-32",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 40379651,
+      "revision_id": 1375499020,
+      "title": "IBM",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 56938,
+      "revision_id": 1371628900,
+      "title": "Institute of Electrical and Electronics Engineers",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 16161443,
+      "revision_id": 1375159453,
+      "title": "IOS",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 33194455,
+      "revision_id": 1374937776,
+      "title": "IPadOS",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 14919,
+      "revision_id": 1374549706,
+      "title": "ISBN",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 234930,
+      "revision_id": 1372580803,
+      "title": "ISSN",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 39035048,
+      "revision_id": 1360323406,
+      "title": "Idris (programming language)",
       "source_kind": "wikipedia"
     },
     {
@@ -403,9 +1257,45 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 22393474,
+      "revision_id": 1343831733,
+      "title": "Input/output",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 47772,
+      "revision_id": 1371949879,
+      "title": "Instruction set architecture",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 15305,
+      "revision_id": 1368251543,
+      "title": "Integrated development environment",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1209537,
+      "revision_id": 1369059868,
+      "title": "Intermediate representation",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 14934,
+      "revision_id": 1375493946,
+      "title": "International Organization for Standardization",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 59868,
       "revision_id": 1369367199,
       "title": "Interpreter (computing)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 59825919,
+      "revision_id": 1368554015,
+      "title": "JS++",
       "source_kind": "wikipedia"
     },
     {
@@ -418,6 +1308,12 @@
       "page_id": 15881,
       "revision_id": 1375186425,
       "title": "Java (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 16389,
+      "revision_id": 1375173881,
+      "title": "Java virtual machine",
       "source_kind": "wikipedia"
     },
     {
@@ -457,9 +1353,21 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 220632,
+      "revision_id": 1346827793,
+      "title": "Just-in-time compilation",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 23370128,
       "revision_id": 1372019029,
       "title": "Ken Thompson",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21346982,
+      "revision_id": 1375068885,
+      "title": "Kernel (operating system)",
       "source_kind": "wikipedia"
     },
     {
@@ -481,6 +1389,18 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 106421,
+      "revision_id": 1365619090,
+      "title": "Library (computing)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18566,
+      "revision_id": 1375395635,
+      "title": "Linker (computing)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 17618,
       "revision_id": 1375408398,
       "title": "Linus Torvalds",
@@ -493,9 +1413,27 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 18212,
+      "revision_id": 1374533766,
+      "title": "Linux distribution",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21347315,
+      "revision_id": 1375012025,
+      "title": "Linux kernel",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 18016,
       "revision_id": 1371893565,
       "title": "Lisp (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 46426065,
+      "revision_id": 1375402876,
+      "title": "Logic",
       "source_kind": "wikipedia"
     },
     {
@@ -505,9 +1443,21 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 189845,
+      "revision_id": 1358200621,
+      "title": "Low-level programming language",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 46150,
       "revision_id": 1374477766,
       "title": "Lua",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 35043196,
+      "revision_id": 1361351583,
+      "title": "LuaJIT",
       "source_kind": "wikipedia"
     },
     {
@@ -517,9 +1467,21 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 19193,
+      "revision_id": 1370207555,
+      "title": "MIT License",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 20607,
       "revision_id": 1368622340,
       "title": "ML (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 20640,
+      "revision_id": 1375457122,
+      "title": "MacOS",
       "source_kind": "wikipedia"
     },
     {
@@ -529,15 +1491,105 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 20560,
+      "revision_id": 1370176745,
+      "title": "Macro (computer science)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18879,
+      "revision_id": 1375439739,
+      "title": "Massachusetts Institute of Technology",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 236722,
+      "revision_id": 1373685440,
+      "title": "Master of Science",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 562696,
       "revision_id": 1356927137,
       "title": "MathWorks",
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 18902,
+      "revision_id": 1375014588,
+      "title": "Mathematician",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18831,
+      "revision_id": 1375350859,
+      "title": "Mathematics",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1152126,
+      "revision_id": 1373439308,
+      "title": "Mathematics Genealogy Project",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 66924,
+      "revision_id": 1369222484,
+      "title": "Memory management",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 393460,
+      "revision_id": 1374069173,
+      "title": "Metaprogramming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 48144,
+      "revision_id": 1371241225,
+      "title": "Microcomputer",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 19001,
       "revision_id": 1375562445,
       "title": "Microsoft",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 166204,
+      "revision_id": 1359570789,
+      "title": "Microsoft Visual C++",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18890,
+      "revision_id": 1374906119,
+      "title": "Microsoft Windows",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 24102707,
+      "revision_id": 1374512893,
+      "title": "Modula-2",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 241545,
+      "revision_id": 1370788381,
+      "title": "Modula-3",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 939133,
+      "revision_id": 1354833922,
+      "title": "Modular programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 33719757,
+      "revision_id": 1374826307,
+      "title": "Mono (software)",
       "source_kind": "wikipedia"
     },
     {
@@ -553,6 +1605,18 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 382489,
+      "revision_id": 1360710881,
+      "title": "Mozilla Foundation",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 226843,
+      "revision_id": 1361290043,
+      "title": "Comparison of multi-paradigm programming languages",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 21979,
       "revision_id": 1374725093,
       "title": "Netscape",
@@ -565,9 +1629,39 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 45413679,
+      "revision_id": 1373964635,
+      "title": "Nim (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 26415635,
+      "revision_id": 1375189733,
+      "title": "Node.js",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 4471382,
+      "revision_id": 1362459053,
+      "title": "Nominal type system",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 883885,
+      "revision_id": 1369706655,
+      "title": "OCLC",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 39652,
       "revision_id": 1369441270,
       "title": "OCaml",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 22496,
+      "revision_id": 1367720365,
+      "title": "Oberon (programming language)",
       "source_kind": "wikipedia"
     },
     {
@@ -583,6 +1677,12 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 32976878,
+      "revision_id": 1372468182,
+      "title": "Opa (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 8232236,
       "revision_id": 1363833758,
       "title": "OpenJDK",
@@ -595,9 +1695,21 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 40355,
+      "revision_id": 1374347956,
+      "title": "Optimizing compiler",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 24131,
       "revision_id": 1374596342,
       "title": "PHP",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23708,
+      "revision_id": 1372789341,
+      "title": "PL/I",
       "source_kind": "wikipedia"
     },
     {
@@ -619,9 +1731,27 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 214804,
+      "revision_id": 1375297859,
+      "title": "Porting",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23922,
+      "revision_id": 1375316683,
+      "title": "Princeton University",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 23801,
       "revision_id": 1374348380,
       "title": "Procedural programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23716,
+      "revision_id": 1375157639,
+      "title": "Programmer",
       "source_kind": "wikipedia"
     },
     {
@@ -631,9 +1761,33 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 73181722,
+      "revision_id": 1375226116,
+      "title": "Programming language design and implementation",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 189897,
+      "revision_id": 1350371559,
+      "title": "Programming paradigm",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 23485,
       "revision_id": 1375083919,
       "title": "Prolog",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18934886,
+      "revision_id": 1373822756,
+      "title": "Proprietary software",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 2564605,
+      "revision_id": 1369320507,
+      "title": "PyPy",
       "source_kind": "wikipedia"
     },
     {
@@ -649,15 +1803,45 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 3350021,
+      "revision_id": 1368585235,
+      "title": "Racket (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1146638,
+      "revision_id": 1375143193,
+      "title": "Raku (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 465672,
       "revision_id": 1372706037,
       "title": "Rasmus Lerdorf",
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 29051386,
+      "revision_id": 1344469324,
+      "title": "Reference implementation",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 314905,
+      "revision_id": 1373842936,
+      "title": "Reflective programming",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 25873,
       "revision_id": 1375508962,
       "title": "Relational database",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 32966352,
+      "revision_id": 1372398981,
+      "title": "Repository (version control)",
       "source_kind": "wikipedia"
     },
     {
@@ -670,6 +1854,18 @@
       "page_id": 25768,
       "revision_id": 1372670122,
       "title": "Ruby (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 2106840,
+      "revision_id": 1335560672,
+      "title": "Runtime system",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 48455863,
+      "revision_id": 1373081340,
+      "title": "Semantic Scholar",
       "source_kind": "wikipedia"
     },
     {
@@ -691,9 +1887,69 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 62068,
+      "revision_id": 1373719712,
+      "title": "Scope (computer programming)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21490336,
+      "revision_id": 1368209356,
+      "title": "Scripting language",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 29513,
+      "revision_id": 1328974922,
+      "title": "Simula",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 28319,
       "revision_id": 1375509359,
       "title": "Smalltalk",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5309,
+      "revision_id": 1375162516,
+      "title": "Software",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 30888839,
+      "revision_id": 1360849147,
+      "title": "Software categories",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 223325,
+      "revision_id": 1366465377,
+      "title": "Software design",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 248932,
+      "revision_id": 1371807669,
+      "title": "Software development",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 803810,
+      "revision_id": 1350313709,
+      "title": "Software license",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 220901,
+      "revision_id": 1375072061,
+      "title": "Software release life cycle",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 27661,
+      "revision_id": 1372056005,
+      "title": "Source code",
       "source_kind": "wikipedia"
     },
     {
@@ -703,15 +1959,159 @@
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 374669,
+      "revision_id": 1358700006,
+      "title": "Standard library",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 26977,
+      "revision_id": 1375423403,
+      "title": "Stanford University",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 602650,
+      "revision_id": 1374194821,
+      "title": "Type safety",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 27695,
+      "revision_id": 1372126489,
+      "title": "Structured programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 567852,
+      "revision_id": 1374864153,
+      "title": "Subsidiary",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 42946389,
       "revision_id": 1359320178,
       "title": "Swift (programming language)",
       "source_kind": "wikipedia"
     },
     {
+      "page_id": 3206060,
+      "revision_id": 1361590107,
+      "title": "Syntax (programming languages)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 323392,
+      "revision_id": 1374409709,
+      "title": "Theoretical computer science",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 300215,
+      "revision_id": 1373332967,
+      "title": "Thesis",
+      "source_kind": "wikipedia"
+    },
+    {
       "page_id": 30034,
       "revision_id": 1374890625,
       "title": "Tim Berners-Lee",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 31093,
+      "revision_id": 1373210156,
+      "title": "Turing Award",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 279690,
+      "revision_id": 1362309586,
+      "title": "Type inference",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 199701,
+      "revision_id": 1370838121,
+      "title": "Type system",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21347364,
+      "revision_id": 1373785117,
+      "title": "Unix",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21347057,
+      "revision_id": 1372486477,
+      "title": "Unix-like",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 72172767,
+      "revision_id": 1363844799,
+      "title": "V (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 19140716,
+      "revision_id": 1359864285,
+      "title": "V8 (JavaScript engine)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 32353,
+      "revision_id": 1374881515,
+      "title": "Virtual machine",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 46561507,
+      "revision_id": 1374234091,
+      "title": "Visual Studio Code",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23538754,
+      "revision_id": 1375584665,
+      "title": "Wayback Machine",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 33173,
+      "revision_id": 1369875331,
+      "title": "Web browser",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 40205956,
+      "revision_id": 1373281960,
+      "title": "Wolfram Language",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 244374,
+      "revision_id": 1372228609,
+      "title": "X86-64",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 3524766,
+      "revision_id": 1375067443,
+      "title": "YouTube",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 206691,
+      "revision_id": 1351219573,
+      "title": "Zend Engine",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 61049743,
+      "revision_id": 1375417623,
+      "title": "Zig (programming language)",
       "source_kind": "wikipedia"
     }
   ],

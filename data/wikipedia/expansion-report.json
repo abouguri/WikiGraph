@@ -1,0 +1,9 @@
+{
+  "selection": "Descending outgoing-link overlap across the original seed corpus, then title",
+  "target": 300,
+  "distinct_pages": 300,
+  "attempted": 212,
+  "network_requests": 424,
+  "failures": [],
+  "limitations": "Expanded pages are linked benchmark context, not manually curated computing topics."
+}

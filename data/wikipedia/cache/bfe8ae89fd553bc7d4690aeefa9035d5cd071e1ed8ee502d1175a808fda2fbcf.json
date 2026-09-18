@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "API",
+    "url": "https://en.wikipedia.org/wiki/API",
+    "summary": "Connection between computers or programs For other uses, see API (disambiguation) . \"Api.php\" redirects here. For the Wikipedia API, see Special:ApiHelp . An application programming interface ( API ) is a connection between computers or between computer programs . It is a type of software interface , offering a service to other pieces of software . A document or standard that describes how to build such a connection or interface is called an API specification . A computer system that meets this standard is said to implement or expose an API. The term API may refer either to the specification or to the implementation. In contrast to a user interface , which connects a computer to a person, an application programming interface connects computers or pieces of software to each other. It is not intended to be used directly by a person (the end user ) other than a computer programmer who is incorporating it into software. An API is often made up of different parts which act as tools or services that are available to the programmer. A program or a programmer that uses one of these parts is said to call that portion of the API. The calls that make up the API are also known as subroutines , methods, requests, or endpoints . An API specification defines these calls, meaning that it explains how to use or implement them. One of the main purpose of APIs is to hide the internal details of how a system works, exposing only those parts a programmer will find useful and keeping them consistent even if the internal details later change. An API may be custom-built for a particular pair of systems, or it may be a shared standard allowing interoperability among many systems. The term API is often used to refer to web APIs , which allow communication between computers that are joined by the internet . There are also APIs for programming languages , software libraries , computer operating systems , and computer hardware . APIs originated in the 1940s, though the term did not emerge until the 1960s and 70s. ^ Perron, Brian E.; Luan, Hui; Qi, Zia; Victor, Bryan G.; Goyal, Kavin (2024). \"Demystifying Application Programming Interfaces (APIs): Unlocking the Power of Large Language Models and Other Web-based AI Services in Social Work Research\". arXiv : 2410.20211 [ cs.SE ]. ^ a b Reddy, Martin (2011). API Design for C++ . Elsevier Science. p. 1. ISBN 978-0-12-385004-1 . ^ Cite error: The named reference Lane2019 was invoked but never defined (see the help page ).",
+    "text": "Connection between computers or programs For other uses, see API (disambiguation) . \"Api.php\" redirects here. For the Wikipedia API, see Special:ApiHelp . An application programming interface ( API ) is a connection between computers or between computer programs . It is a type of software interface , offering a service to other pieces of software . A document or standard that describes how to build such a connection or interface is called an API specification . A computer system that meets this standard is said to implement or expose an API. The term API may refer either to the specification or to the implementation. In contrast to a user interface , which connects a computer to a person, an application programming interface connects computers or pieces of software to each other. It is not intended to be used directly by a person (the end user ) other than a computer programmer who is incorporating it into software. An API is often made up of different parts which act as tools or services that are available to the programmer. A program or a programmer that uses one of these parts is said to call that portion of the API. The calls that make up the API are also known as subroutines , methods, requests, or endpoints . An API specification defines these calls, meaning that it explains how to use or implement them. One of the main purpose of APIs is to hide the internal details of how a system works, exposing only those parts a programmer will find useful and keeping them consistent even if the internal details later change. An API may be custom-built for a particular pair of systems, or it may be a shared standard allowing interoperability among many systems. The term API is often used to refer to web APIs , which allow communication between computers that are joined by the internet . There are also APIs for programming languages , software libraries , computer operating systems , and computer hardware . APIs originated in the 1940s, though the term did not emerge until the 1960s and 70s. ^ Perron, Brian E.; Luan, Hui; Qi, Zia; Victor, Bryan G.; Goyal, Kavin (2024). \"Demystifying Application Programming Interfaces (APIs): Unlocking the Power of Large Language Models and Other Web-based AI Services in Social Work Research\". arXiv : 2410.20211 [ cs.SE ]. ^ a b Reddy, Martin (2011). API Design for C++ . Elsevier Science. p. 1. ISBN 978-0-12-385004-1 . ^ Cite error: The named reference Lane2019 was invoked but never defined (see the help page ).",
+    "links": [
+      "API (disambiguation)",
+      "ArXiv (identifier)",
+      "Communication endpoint",
+      "Computer",
+      "Computer hardware",
+      "Computer program",
+      "Computer programmer",
+      "End user",
+      "ISBN (identifier)",
+      "Information hiding",
+      "Interface (computing)",
+      "Internet",
+      "Interoperability",
+      "Library (computing)",
+      "Operating system",
+      "Programming language",
+      "Software",
+      "Subroutine",
+      "User interface",
+      "Web API"
+    ],
+    "page_id": 27697009,
+    "revision_id": 1374263741,
+    "retrieved_at": "2026-09-18T18:10:08.978841+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260813224534|1369265506",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 27697009,
+            "ns": 0,
+            "title": "API",
+            "revisions": [
+              {
+                "revid": 1374263741,
+                "parentid": 1369265506
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Connection between computers or programs",
+              "wikibase_item": "Q165194"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "API",
+        "pageid": 27697009,
+        "revid": 1374263741,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Connection between computers or programs</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other uses, see <a href=\"/wiki/API_(disambiguation)\" class=\"mw-disambig\" title=\"API (disambiguation)\">API (disambiguation)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable selfref\">\"Api.php\" redirects here. For the Wikipedia API, see <span class=\"plainlinks\"><a href=\"/wiki/Special:ApiHelp\" title=\"Special:ApiHelp\">Special:ApiHelp</a></span>.</div>\n<p>\nAn <b>application programming interface</b> (<b>API</b>) is a connection between <a href=\"/wiki/Computer\" title=\"Computer\">computers</a> or between <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer programs</a>. It is a type of software <a href=\"/wiki/Interface_(computing)\" title=\"Interface (computing)\">interface</a>, offering a service to other pieces of <a href=\"/wiki/Software\" title=\"Software\">software</a>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-:0&#95;2-0\" class=\"reference\"><a href=\"#cite_note-:0-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> A document or standard that describes how to build such a connection or interface is called an <i>API specification</i>. A computer system that meets this standard is said to <i>implement</i> or <i>expose</i> an API. The term API may refer either to the specification or to the implementation.\n</p><p>In contrast to a <a href=\"/wiki/User_interface\" title=\"User interface\">user interface</a>, which connects a computer to a person, an application programming interface connects computers or pieces of software to each other. It is not intended to be used directly by a person (the <a href=\"/wiki/End_user\" title=\"End user\">end user</a>) other than a <a href=\"/wiki/Computer_programmer\" class=\"mw-redirect\" title=\"Computer programmer\">computer programmer</a><sup id=\"cite&#95;ref-:0&#95;2-1\" class=\"reference\"><a href=\"#cite_note-:0-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> who is incorporating it into software. An API is often made up of different parts which act as tools or services that are available to the programmer. A program or a programmer that uses one of these parts is said to <i>call</i> that portion of the API. The calls that make up the API are also known as <a href=\"/wiki/Subroutine\" class=\"mw-redirect\" title=\"Subroutine\">subroutines</a>, methods, requests, or <a href=\"/wiki/Communication_endpoint\" title=\"Communication endpoint\">endpoints</a>. An API specification <i>defines</i> these calls, meaning that it explains how to use or implement them.\n</p><p>One of the main purpose of APIs is to <a href=\"/wiki/Information_hiding\" title=\"Information hiding\">hide the internal details</a> of how a system works, exposing only those parts a programmer will find useful and keeping them consistent even if the internal details later change. An API may be custom-built for a particular pair of systems, or it may be a shared standard allowing <a href=\"/wiki/Interoperability\" title=\"Interoperability\">interoperability</a> among many systems.\n</p><p>The term API is often used to refer to <a href=\"/wiki/Web_API\" title=\"Web API\">web APIs</a>,<sup id=\"cite&#95;ref-Lane2019&#95;3-0\" class=\"reference\"><a href=\"#cite_note-Lane2019-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> which allow communication between computers that are joined by the <a href=\"/wiki/Internet\" title=\"Internet\">internet</a>. There are also APIs for <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a>, <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">software libraries</a>, computer <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a>, and <a href=\"/wiki/Computer_hardware\" title=\"Computer hardware\">computer hardware</a>. APIs originated in the 1940s, though the term did not emerge until the 1960s and 70s.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFPerronLuanQiVictor2024\" class=\"citation arxiv cs1\">Perron, Brian E.; Luan, Hui; Qi, Zia; Victor, Bryan G.; Goyal, Kavin (2024). \"Demystifying Application Programming Interfaces (APIs): Unlocking the Power of Large Language Models and Other Web-based AI Services in Social Work Research\". <a href=\"/wiki/ArXiv_(identifier)\" class=\"mw-redirect\" title=\"ArXiv (identifier)\">arXiv</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://arxiv.org/abs/2410.20211\">2410.20211</a></span> [<a rel=\"nofollow\" class=\"external text\" href=\"https://arxiv.org/archive/cs.SE\">cs.SE</a>].</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=preprint&amp;rft.jtitle=arXiv&amp;rft.atitle=Demystifying+Application+Programming+Interfaces+%28APIs%29%3A+Unlocking+the+Power+of+Large+Language+Models+and+Other+Web-based+AI+Services+in+Social+Work+Research&amp;rft.date=2024&amp;rft&#95;id=info%3Aarxiv%2F2410.20211&amp;rft.aulast=Perron&amp;rft.aufirst=Brian+E.&amp;rft.au=Luan%2C+Hui&amp;rft.au=Qi%2C+Zia&amp;rft.au=Victor%2C+Bryan+G.&amp;rft.au=Goyal%2C+Kavin&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAPI\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-:0_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-:0_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFReddy2011\" class=\"citation book cs1\">Reddy, Martin (2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=IY29LylT85wC\"><i>API Design for C++</i></a>. Elsevier Science. p.&#160;1. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-12-385004-1\" title=\"Special:BookSources/978-0-12-385004-1\"><bdi>978-0-12-385004-1</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=API+Design+for+C%2B%2B&amp;rft.pages=1&amp;rft.pub=Elsevier+Science&amp;rft.date=2011&amp;rft.isbn=978-0-12-385004-1&amp;rft.aulast=Reddy&amp;rft.aufirst=Martin&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DIY29LylT85wC&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAPI\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Lane2019-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Lane2019_3-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Lane2019</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77f8cc8f9b‐vdrct\nCached time: 20260918181034\nCache expiry: 1057778\nCache expiry source: Module:Protected_page (os.date *t .month)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.150 seconds\nReal time usage: 0.227 seconds\nPreprocessor visited node count: 380/1000000\nRevision size: 2858/2097152 bytes\nPost‐expand include size: 8175/2097152 bytes\nTemplate argument size: 1331/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5898/5000000 bytes\nLua time usage: 0.097/10.000 seconds\nLua memory usage: 4255410/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  218.193      1 -total\n 32.72%   71.382      1 Template:Short_description\n 27.93%   60.931      1 Template:Cite_arXiv\n 21.65%   47.239      2 Template:Pagetype\n 10.14%   22.127      2 Template:Broken_ref\n  9.73%   21.221      1 Template:Pp\n  9.20%   20.080      1 Template:Other_uses\n  6.59%   14.389      2 Template:Main_other\n  5.91%   12.886      1 Template:SDcat\n  1.92%    4.195      1 Template:Cite_book\n-->\n\n<!-- Render ID 3ddec92a-b38c-11f1-b725-0fd64cb46a1a -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "API (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ArXiv (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Communication endpoint",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer hardware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "End user",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Information hiding",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interface (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Internet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interoperability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Subroutine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web API",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Connection between computers or programs",
+          "wikibase_item": "Q165194"
+        }
+      }
+    }
+  ]
+}
