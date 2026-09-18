@@ -1,0 +1,42 @@
+{
+  "duration_seconds": 140,
+  "captions": [
+    {
+      "seconds": 0,
+      "text": "WikiGraph: explore a real 300-page Wikipedia corpus. Each connection retains its source revision."
+    },
+    {
+      "seconds": 14,
+      "text": "A page link records a reference. It is deliberately separate from a factual relationship."
+    },
+    {
+      "seconds": 28,
+      "text": "Java → designed by → James Gosling. The panel shows the actual sentence, source revision, and extraction method."
+    },
+    {
+      "seconds": 46,
+      "text": "Factual evidence uses exact offsets into a stored snapshot. Open source revision links back to Wikipedia."
+    },
+    {
+      "seconds": 60,
+      "text": "Choose a destination and direction. Path search has explicit hop, node, and time limits."
+    },
+    {
+      "seconds": 76,
+      "text": "Selections, relationship filters, direction, and destination survive in a shareable URL."
+    },
+    {
+      "seconds": 90,
+      "text": "Offline teaching examples are synthetic and clearly labeled. They are never presented as Wikipedia evidence."
+    },
+    {
+      "seconds": 106,
+      "text": "The connection list provides keyboard actions. The same exploration works on a narrow screen."
+    },
+    {
+      "seconds": 122,
+      "text": "Verified engineering: byte-identical rebuilds, bounded queries, typed APIs, and measured latency. Real extraction coverage and independent annotation remain open."
+    }
+  ],
+  "kind": "Captioned screenshots captured from the running application; no audio"
+}

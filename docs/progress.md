@@ -11,7 +11,9 @@ This file records verified implementation, not the aspirational targets in the p
 - [x] Accessible explorer (6 Chromium flows, including full-corpus pagination and stale-response handling).
 - [x] Version-locked dependencies, container build/smoke test, and a measured 100-page HTTP baseline.
 - [x] 300-page, five-client HTTP latency gate and byte-identical offline rebuild.
-- [ ] Complete release gates: demo video and independent reproducibility review.
+- [x] Captioned 2:20 demo, real screenshots, case study, release notes and dependency review.
+- [x] Final 300-page container smoke test under a 512 MiB limit and read-only filesystem.
+- [ ] Independent reproducibility review (handoff prepared; automated checks do not replace it).
 - [x] Frozen real dev/test candidates, two-reviewer exchange/merge tooling, and canonical entity-link metrics.
 - [ ] Real held-out gold annotation and independent review (199 candidates await human labels).
 - [x] Managed-host deployment configuration (Render free-plan blueprint, provider port, server-first landing view).

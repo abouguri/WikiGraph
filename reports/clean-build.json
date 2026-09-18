@@ -1,0 +1,6 @@
+{
+  "commit": "7b840e655ffd0bedada26336740322e4ba781217",
+  "source": "git archive HEAD; no untracked files",
+  "docker_build": "passed",
+  "independent_human_review": false
+}

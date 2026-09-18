@@ -4,7 +4,10 @@ Explore connections between computing topics and inspect the source behind each
 edge. WikiGraph builds a revision-backed RDF graph from Wikipedia, serves bounded
 queries through a typed API, and provides an interactive graph and accessible list.
 
-![WikiGraph explorer showing a synthetic example and its evidence](docs/explorer.png)
+![WikiGraph showing Java's real source evidence for James Gosling](docs/media/real-evidence.png)
+
+[Watch the 2:20 walkthrough](docs/media/demo.webm) · [Technical case study](docs/case-study.md) ·
+[Release notes](docs/release-notes.md)
 
 ## Try it
 
@@ -94,10 +97,14 @@ or test the frontend.
 [Annotation protocol](docs/annotation.md) · [API](docs/api.md) ·
 [Explorer](docs/explorer.md) · [Deployment](docs/deployment.md)
 
-Pending: independent real-corpus annotation, an untouched evaluation corpus,
-three-person usability review and public hosting. The optional
+Pending: independent annotation of the frozen real evaluation split,
+independent reproduction, three-person usability review and public hosting. The optional
 [Neo4j projection](docs/neo4j.md) has verified batched imports and RDF round-trip
 fidelity; the public API continues to use RDFLib.
+
+The [review handoff](docs/review-handoff.md) provides concrete tasks for reviewers.
+The [dependency review](docs/dependencies.md) records audit results, license
+metadata, and their scope. [Demo instructions](docs/demo.md) reproduce the video.
 
 Wikipedia text and derived text datasets retain their source licensing and
 attribution; see [corpus terms](data/wikipedia/README.md) and
