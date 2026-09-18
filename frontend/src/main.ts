@@ -242,6 +242,7 @@ async function inspect(id: string) {
     return;
   const panel = $("evidence");
   panel.replaceChildren();
+  $("inspector").classList.add("is-open");
   const badge = document.createElement("span");
   badge.className = "badge";
   badge.textContent =
@@ -308,9 +309,15 @@ async function search() {
   if (current !== searchGeneration || dataset !== datasetGeneration) return;
   const list = $("results");
   list.replaceChildren();
+  list.hidden = false;
   for (const n of results) {
     const li = document.createElement("li");
-    li.append(button(n.label, () => safeRun(() => expand(n.id, true))));
+    li.append(
+      button(n.label, () => {
+        list.hidden = true;
+        safeRun(() => expand(n.id, true));
+      }),
+    );
     list.append(li);
   }
   if (!results.length) {
@@ -434,6 +441,7 @@ async function load() {
     entities.find((e) => e.label === "Python (programming language)") ||
     entities[0];
   await search();
+  $("results").hidden = true;
   if (current !== datasetGeneration) return;
   if (start) await expand(start.id, true);
   else {
@@ -479,4 +487,30 @@ safeRun(async () => {
     }
   }
   await load();
+});
+
+function setView(view: "graph" | "list") {
+  for (const name of ["graph", "list"]) {
+    $(`${name}-tab`).setAttribute("aria-selected", String(view === name));
+    $(`${name}-view`).hidden = view !== name;
+  }
+}
+$("graph-tab").onclick = () => setView("graph");
+$("list-tab").onclick = () => setView("list");
+if (matchMedia("(max-width: 767px)").matches) setView("list");
+$("path-toggle").onclick = () => {
+  const panel = $("path-controls");
+  panel.hidden = !panel.hidden;
+  $("path-toggle").setAttribute("aria-expanded", String(!panel.hidden));
+};
+$("close-inspector").onclick = () => $("inspector").classList.remove("is-open");
+document.addEventListener("click", (event) => {
+  if (!(event.target as Element).closest(".search-wrap"))
+    $("results").hidden = true;
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    $("results").hidden = true;
+    $("inspector").classList.remove("is-open");
+  }
 });

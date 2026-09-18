@@ -17,6 +17,7 @@ test("offline search, evidence, path, and shareable selection", async ({
     .getByRole("combobox", { name: "Relationship", exact: true })
     .selectOption("designedBy");
   await expect(page.locator("#connections li")).toHaveCount(1);
+  await page.getByRole("tab", { name: "Connections", exact: true }).click();
   await page
     .getByRole("button", { name: "Inspect evidence", exact: true })
     .click();
@@ -25,7 +26,10 @@ test("offline search, evidence, path, and shareable selection", async ({
   );
   await expect(page.locator("#evidence")).toContainText("Guido van Rossum");
   await page.screenshot({ path: "test-results/explorer.png", fullPage: true });
-  await page.getByLabel("Destination").selectOption("fixture-2");
+  await page.getByRole("button", { name: "Find a path", exact: true }).click();
+  await page
+    .getByLabel("Destination", { exact: true })
+    .selectOption("fixture-2");
   await page.getByRole("button", { name: "Find shortest path" }).click();
   await expect(page.locator("#status")).toContainText("Shortest path: 1");
   const url = page.url();
@@ -65,7 +69,10 @@ test("empty search and no path are explained", async ({ page }) => {
   await page
     .getByRole("combobox", { name: "Relationship", exact: true })
     .selectOption("designedBy");
-  await page.getByLabel("Destination").selectOption("fixture-9");
+  await page.getByRole("button", { name: "Find a path", exact: true }).click();
+  await page
+    .getByLabel("Destination", { exact: true })
+    .selectOption("fixture-9");
   await page.getByRole("button", { name: "Find shortest path" }).click();
   await expect(page.locator("#status")).toContainText("No path");
 });
