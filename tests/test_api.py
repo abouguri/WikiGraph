@@ -60,6 +60,8 @@ def test_search_neighbors_evidence_and_paths(graph_path):
         ]
         assert client.get("/health").json()["entities"] == 3
         assert client.get("/openapi.json").status_code == 200
+        assert "Every connection" in client.get("/").text
+        assert client.get("/sample.json").status_code == 200
 
 
 @pytest.mark.parametrize(

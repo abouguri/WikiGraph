@@ -15,6 +15,7 @@ from typing import Literal as Choice
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from rdflib import RDF, Graph
 from starlette.exceptions import HTTPException as StarletteHTTPException
@@ -318,4 +319,7 @@ def create_app(graph_path: Path | None = None, *, rate_limit: int = 180) -> Fast
             raise HTTPException(404, "Assertion not found")
         return store.assertions[id]
 
+    static = Path(__file__).parent / "static"
+    if static.exists():
+        app.mount("/", StaticFiles(directory=static, html=True), name="explorer")
     return app

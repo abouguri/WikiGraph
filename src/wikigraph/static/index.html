@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>WikiGraph — Follow the evidence</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">WikiGraph<span> / </span></a
+      ><span class="edition">COMPUTING, CONNECTED</span
+      ><a href="/docs" class="api-link">API docs ↗</a>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">A map of people, languages & ideas</p>
+        <h1>Every connection<br />has a <em>source.</em></h1>
+        <p>Follow a link. Explore a path. See the evidence behind it.</p>
+      </section>
+      <div class="toolbar">
+        <label
+          >Dataset<select id="mode">
+            <option value="offline">Offline teaching sample</option>
+            <option value="api">Server dataset</option>
+          </select></label
+        >
+        <p id="dataset-note">
+          Authored sample · synthetic revisions · works offline
+        </p>
+        <button id="share">Copy view link</button>
+      </div>
+      <div class="workspace">
+        <aside class="panel controls">
+          <p class="eyebrow">01 / Find a starting point</p>
+          <form id="search-form">
+            <label for="query">Search entities</label>
+            <div class="search-row">
+              <input
+                id="query"
+                placeholder="Try Python or Guido"
+                autocomplete="off"
+              /><button type="submit">Search</button>
+            </div>
+          </form>
+          <ul id="results" class="results" aria-label="Search results"></ul>
+          <p class="eyebrow section-label">02 / Shape your view</p>
+          <label
+            >Relationship<select id="predicate">
+              <option value="all">All connections</option>
+              <option value="linksTo">Page links</option>
+              <option value="designedBy">Designed by</option>
+              <option value="developedBy">Developed by</option>
+              <option value="influencedBy">Influenced by</option>
+            </select></label
+          ><label
+            >Direction<select id="direction">
+              <option value="both">Both directions</option>
+              <option value="out">Outgoing</option>
+              <option value="in">Incoming</option>
+            </select></label
+          ><button id="reset" class="secondary">Collapse to selection</button>
+          <p class="eyebrow section-label">03 / Connect two entities</p>
+          <label
+            >Destination<select id="target">
+              <option value="">Choose an entity</option>
+            </select></label
+          ><button id="find-path">Find shortest path</button>
+          <p class="hint">
+            Searches up to 4 hops. Click a node to expand its neighborhood.
+          </p>
+        </aside>
+        <section class="panel graph-panel" aria-label="Graph explorer">
+          <div class="graph-heading">
+            <div>
+              <p class="eyebrow">YOUR EXPLORATION</p>
+              <h2 id="selection">Python (programming language)</h2>
+            </div>
+            <span id="counts" class="count"></span>
+          </div>
+          <div class="legend">
+            <span><i class="fact-dot"></i> Extracted relation</span
+            ><span><i class="link-dot"></i> Page link</span>
+          </div>
+          <svg
+            id="graph"
+            viewBox="0 0 720 470"
+            role="img"
+            aria-label="Graph overview; all connections are also available in the list below"
+          ></svg>
+          <p id="status" role="status" aria-live="polite">Loading graph…</p>
+          <details open>
+            <summary>Accessible connection list</summary>
+            <ul id="connections" class="connections"></ul>
+          </details>
+        </section>
+        <aside class="panel evidence-panel" aria-label="Evidence panel">
+          <p class="eyebrow">INSPECT A CONNECTION</p>
+          <h2>Follow the evidence</h2>
+          <div id="evidence">
+            <p class="muted">
+              Select a connection in the list or graph to inspect its source and
+              extraction method.
+            </p>
+          </div>
+        </aside>
+      </div>
+      <section class="explain">
+        <div>
+          <span>01</span>
+          <h3>Links aren’t facts</h3>
+          <p>
+            A page link records a reference. Factual relationships use separate
+            extraction rules.
+          </p>
+        </div>
+        <div>
+          <span>02</span>
+          <h3>Evidence stays attached</h3>
+          <p>
+            Each connection carries its source, revision, and extraction method.
+          </p>
+        </div>
+        <div>
+          <span>03</span>
+          <h3>Small enough to inspect</h3>
+          <p>
+            The view shows at most 40 entities. Expand a neighborhood or narrow
+            the relationship filter.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      WikiGraph · A reproducible knowledge-graph explorer
+      <span
+        >Wikipedia data belongs to its contributors.
+        <a href="/attribution.html">Sources & attribution</a></span
+      >
+    </footer>
+  </body>
+</html>

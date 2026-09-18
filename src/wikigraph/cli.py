@@ -59,7 +59,7 @@ def demo(output: Path = Path("artifacts/demo.ttl")) -> None:
     from .pipeline import export_graph
     from .validation import validate_graph
 
-    source = Path(__file__).resolve().parents[2] / "data/demo/pages.json"
+    source = Path(__file__).parent / "demo-pages.json"
     pages = [WikipediaPage(**row) for row in json.loads(source.read_text())]
     graph = build_dataset(pages)
     validate_graph(graph)
