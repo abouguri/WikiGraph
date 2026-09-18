@@ -1,5 +1,31 @@
 # Deployment choices
 
+## Vercel
+
+Import the repository with its root directory set to the repository root and
+the framework preset set to **FastAPI**. Leave build and output directory
+overrides unset. `pyproject.toml` explicitly selects `app:app`; the root
+`app.py` exports the FastAPI instance and loads `data/wikipedia/graph.ttl`
+relative to its own location. Do not select `src.wikigraph.cli:app`: that is
+the Typer command-line application, not an ASGI server.
+
+The committed compiled frontend is served by the existing static mount. No Node
+build or Wikipedia ingestion is needed during deployment. `requirements.txt`
+references the runtime lock, and `.python-version` selects Python 3.13.
+`vercel.json` excludes development artifacts and raw caches while retaining the
+graph, application sources, SHACL shapes and bundled frontend.
+
+Remove a Docker-specific `WIKIGRAPH_GRAPH=/app/...` override if copied from
+Render settings; the default requires no environment variable. New function
+instances load the graph, so measure cold-start latency on the actual deployment.
+The request quota remains per instance, not a global deployment quota.
+
+After deployment, verify `/health` reports 300 entities and 5,113 assertions,
+then check search, Java's designed-by evidence, and the explorer at `/`.
+Local entry-point checks do not establish that the hosted deployment succeeded.
+
+Reference: [Vercel FastAPI entry points](https://vercel.com/docs/frameworks/backend/fastapi#exporting-the-fastapi-application).
+
 ## Static hosting (GitHub Pages)
 
 Serve the explorer's HTML, CSS, JavaScript and bundled teaching dataset. No Python

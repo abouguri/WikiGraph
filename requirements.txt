@@ -1,0 +1,2 @@
+# Hosting platforms discover this filename; keep versions in the shared lock.
+-r requirements.lock
