@@ -1,0 +1,25 @@
+{
+  "health": {
+    "status": "ok",
+    "entities": 300,
+    "assertions": 5113,
+    "triples": 105268,
+    "source_kinds": [
+      "wikipedia"
+    ]
+  },
+  "http_status": {
+    "/": 200,
+    "/config": 200,
+    "/sample.json": 200,
+    "/openapi.json": 200,
+    "/entities?q=Java": 200
+  },
+  "runtime": {
+    "port": 10000,
+    "memory_limit_mib": 512,
+    "read_only": true,
+    "capabilities": "all dropped"
+  },
+  "scope": "Local container smoke test; public hosting and independent review pending"
+}

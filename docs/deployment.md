@@ -36,10 +36,12 @@ has been configured yet.
 ## Local verification
 
 The image built successfully and passed a local smoke test with the read-only,
-capability-dropped runtime settings. `/health` reported 100 entities, 815
-assertions and 34,400 triples. The explorer, bundled sample, search endpoint and
+capability-dropped runtime settings. `/health` reported 300 entities, 5,113
+assertions and 105,268 triples. The explorer, bundled sample, search endpoint and
 OpenAPI schema all returned successful responses. The temporary test container
-was stopped after verification.
+was stopped after verification. The final image also passed with a 512 MiB
+memory limit and `PORT=10000`; its Docker health check reported healthy.
+See [the recorded smoke test](../reports/container-smoke.json).
 
 
 ## Prepared Render deployment

@@ -1,4 +1,5 @@
 """Container entry point supporting the port assigned by a managed host."""
+
 from __future__ import annotations
 
 import logging
