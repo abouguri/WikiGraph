@@ -423,4 +423,14 @@ for (const control of [mode, predicate, direction]) {
   if (value && [...control.options].some((o) => o.value === value))
     control.value = value;
 }
-safeRun(load);
+safeRun(async () => {
+  if (!params.has("mode")) {
+    try {
+      const config = await get<{ default_mode: string }>("/config");
+      mode.value = config.default_mode === "api" ? "api" : "offline";
+    } catch {
+      mode.value = "offline";
+    }
+  }
+  await load();
+});

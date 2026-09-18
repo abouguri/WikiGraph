@@ -19,9 +19,10 @@ wikigraph demo
 uvicorn wikigraph.api:create_app --factory --host 127.0.0.1 --port 8000
 ```
 
-Open http://localhost:8000. The initial mode is an **authored synthetic teaching
-sample**, with clearly labeled fictional revisions. The sample demonstrates the
-full interaction flow without needing Wikipedia access.
+Open http://localhost:8000. The explorer opens the API dataset by default.
+The `wikigraph demo` command above builds an **authored synthetic teaching
+sample**, with clearly labeled fictional revisions. Select the offline mode
+(or use `?mode=offline`) to run the bundled browser sample without the API.
 
 To serve the real checked-in corpus:
 

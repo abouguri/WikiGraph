@@ -1,8 +1,8 @@
 # Explorer development
 
-The API serves the explorer at `/`. Its default mode uses a bundled, synthetic
-teaching graph and makes no Wikipedia or query API requests. It can also be
-served by a plain static server from `src/wikigraph/static`.
+The API serves the explorer at `/`. The server defaults to API mode. Offline mode uses a bundled, synthetic
+teaching graph and makes no Wikipedia or query API requests. Static hosting
+from `src/wikigraph/static` falls back to offline mode when `/config` is unavailable.
 
 Switch to **Server dataset** to query the API's loaded graph. The mode, selected
 entity, destination, predicate and direction are shareable in the URL. Expanded

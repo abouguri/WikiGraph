@@ -5,7 +5,7 @@ test("offline search, evidence, path, and shareable selection", async ({
 }) => {
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
-  await page.goto("/");
+  await page.goto("/?mode=offline");
   await expect(page.locator("#status")).toContainText("connections around");
   await page.getByLabel("Search entities").fill("Python");
   await page.getByRole("button", { name: "Search", exact: true }).click();
@@ -24,7 +24,7 @@ test("offline search, evidence, path, and shareable selection", async ({
     "Synthetic teaching example",
   );
   await expect(page.locator("#evidence")).toContainText("Guido van Rossum");
-  await page.screenshot({path: "test-results/explorer.png", fullPage: true});
+  await page.screenshot({ path: "test-results/explorer.png", fullPage: true });
   await page.getByLabel("Destination").selectOption("fixture-2");
   await page.getByRole("button", { name: "Find shortest path" }).click();
   await expect(page.locator("#status")).toContainText("Shortest path: 1");
@@ -57,7 +57,7 @@ test("server mode, keyboard selection and mobile layout", async ({ page }) => {
 });
 
 test("empty search and no path are explained", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/?mode=offline");
   await expect(page.locator("#status")).toContainText("connections around");
   await page.getByLabel("Search entities").fill("No matching entity");
   await page.getByRole("button", { name: "Search", exact: true }).click();
@@ -68,4 +68,13 @@ test("empty search and no path are explained", async ({ page }) => {
   await page.getByLabel("Destination").selectOption("fixture-9");
   await page.getByRole("button", { name: "Find shortest path" }).click();
   await expect(page.locator("#status")).toContainText("No path");
+});
+
+test("hosted landing view selects the server dataset by default", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await expect(page.locator("#status")).toContainText("connections around");
+  await expect(page.locator("#mode")).toHaveValue("api");
+  await expect(page.locator("#dataset-note")).toContainText("Server dataset");
 });

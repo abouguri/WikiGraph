@@ -255,6 +255,11 @@ def create_app(graph_path: Path | None = None, *, rate_limit: int | None = None)
             {"error": {"code": 422, "message": "Invalid request parameters"}}, status_code=422
         )
 
+    @app.get("/config")
+    def config() -> dict[str, str]:
+        mode = os.environ.get("WIKIGRAPH_DEFAULT_MODE", "api")
+        return {"default_mode": mode if mode in {"api", "offline"} else "api"}
+
     @app.get("/health")
     def health() -> dict[str, Any]:
         return {

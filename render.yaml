@@ -1,0 +1,20 @@
+# Git-backed Docker deployment. No database or paid instance is provisioned.
+services:
+  - type: web
+    name: wikigraph
+    runtime: docker
+    repo: https://github.com/abouguri/WikiGraph
+    branch: main
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: WIKIGRAPH_GRAPH
+        value: /app/data/wikipedia/graph.ttl
+      - key: WIKIGRAPH_RATE_LIMIT
+        value: "180"
+      - key: WIKIGRAPH_DEFAULT_MODE
+        value: api
