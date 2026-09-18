@@ -11,6 +11,8 @@ requires-python = ">=3.11"
 dependencies = [
   "rdflib>=7.0.0",
   "pyshacl>=0.30",
+  "fastapi>=0.115",
+  "uvicorn>=0.34",
   "neo4j>=5.20.0",
   "requests>=2.31.0",
   "beautifulsoup4>=4.12.0",
@@ -18,7 +20,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0.0", "ruff>=0.11", "mypy>=1.15", "types-requests", "types-beautifulsoup4"]
+dev = ["pytest>=8.0.0", "ruff>=0.11", "mypy>=1.15", "types-requests", "types-beautifulsoup4", "httpx>=0.28"]
 
 [project.scripts]
 wikigraph = "wikigraph.cli:app"
