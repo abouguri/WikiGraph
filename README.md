@@ -95,9 +95,9 @@ or test the frontend.
 [Explorer](docs/explorer.md) · [Deployment](docs/deployment.md)
 
 Pending: independent real-corpus annotation, an untouched evaluation corpus,
-three-person usability review and public hosting. The
-Neo4j adapter remains an early prototype; it is not used by the validated API or
-demo and needs a faithful batched projection before production use.
+three-person usability review and public hosting. The optional
+[Neo4j projection](docs/neo4j.md) has verified batched imports and RDF round-trip
+fidelity; the public API continues to use RDFLib.
 
 Wikipedia text and derived text datasets retain their source licensing and
 attribution; see [corpus terms](data/wikipedia/README.md) and

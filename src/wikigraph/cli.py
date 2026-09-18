@@ -92,5 +92,32 @@ def evaluate(
     typer.echo(json.dumps(report["micro"], indent=2))
 
 
+@app.command("neo4j-load")
+def neo4j_load(
+    graph: Path,
+    uri: str = "bolt://localhost:7687",
+    username: str = "neo4j",
+    database: str = "neo4j",
+    batch_size: int = typer.Option(500, min=1, max=5000),
+) -> None:
+    """Import a versioned RDF projection; credentials come from NEO4J_PASSWORD."""
+    import os
+
+    from rdflib import Graph
+
+    from .neo4j_store import Neo4jStore
+
+    password = os.environ.get("NEO4J_PASSWORD")
+    if not password:
+        typer.echo("Set NEO4J_PASSWORD before connecting to the target database", err=True)
+        raise typer.Exit(1)
+    store = Neo4jStore(uri, username, password, database=database)
+    try:
+        dataset = store.load_graph(Graph().parse(graph, format="turtle"), batch_size=batch_size)
+        typer.echo(json.dumps({"dataset": dataset, "status": "ready"}))
+    finally:
+        store.close()
+
+
 if __name__ == "__main__":
     app()

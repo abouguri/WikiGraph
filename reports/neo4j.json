@@ -1,0 +1,25 @@
+{
+  "dataset": "81eacdf54bc482510e00b55640309c8d4f92f34abddf0dc53ffb7ba0e8ce5d32",
+  "triples": 105268,
+  "neo4j_version": "5.26.30",
+  "initial_import_seconds": 23.99034465200384,
+  "repeat_import_seconds": 15.697219134977786,
+  "repeat_import_does_not_duplicate": true,
+  "roundtrip_fingerprint_matches": true,
+  "literal_iri_language_datatype_roundtrip": true,
+  "traversal": {
+    "neo4j_bolt": {
+      "samples": 50,
+      "p50_ms": 5.441974019049667,
+      "p95_ms": 6.315563980024308
+    },
+    "rdflib_in_process": {
+      "samples": 50,
+      "p50_ms": 0.05758399493061006,
+      "p95_ms": 0.06671197479590774
+    }
+  },
+  "traversal_source": "https://example.org/wikigraph/entity/enwiki/23862",
+  "neighbor_count": 60,
+  "limitations": "Serial warm one-hop workload: remote Bolt serialization versus in-process RDFLib, not equivalent deployment architectures or a general speed comparison."
+}
