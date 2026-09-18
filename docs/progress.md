@@ -8,6 +8,7 @@ This file records verified implementation, not the aspirational targets in the p
 - [x] Factual extraction and evaluation tooling (180 synthetic records; real accuracy gate remains open).
 - [x] Bounded query API (integration tests, documented contracts, process-local limits).
 - [x] Accessible explorer (3 Chromium flows: evidence/path/share, keyboard/mobile, empty/no-path).
-- [ ] Reproducible release and measured benchmarks.
+- [x] Version-locked dependencies, container build/smoke test, and a measured 100-page HTTP baseline.
+- [ ] Complete release gates: 300-page benchmark, demo video, independent reproducibility review.
 - [ ] Real held-out corpus annotation and independent review.
 - [ ] Hosted demo and three-person usability review.

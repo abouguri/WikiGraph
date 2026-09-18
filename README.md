@@ -1,45 +1,104 @@
 # WikiGraph
 
-WikiGraph turns Wikipedia pages into a knowledge graph that can be queried with SPARQL and optionally loaded into Neo4j.
+Explore connections between computing topics and inspect the source behind each
+edge. WikiGraph builds a revision-backed RDF graph from Wikipedia, serves bounded
+queries through a typed API, and provides an interactive graph and accessible list.
 
-## Goals
+![WikiGraph explorer showing a synthetic example and its evidence](docs/explorer.png)
 
-- Extract entities from Wikipedia pages.
-- Extract simple relationships from page text and links.
-- Build an RDF graph with RDFLib.
-- Query the graph with SPARQL.
-- Export or sync the graph to Neo4j.
+## Try it
 
-## Initial roadmap
+Python 3.11+ is supported; the locked environment was verified with Python 3.13.
 
-1. Build a reliable Wikipedia page fetcher.
-2. Extract entities from links, headings, and capitalized phrases.
-3. Detect lightweight relationships from sentence patterns.
-4. Materialize the result as RDF triples.
-5. Add SPARQL query helpers and a small CLI.
-6. Add Neo4j export and sync support.
-7. Expand tests with fixture pages and graph assertions.
-
-## Project layout
-
-- `src/wikigraph/fetcher.py` fetches page content.
-- `src/wikigraph/extractor.py` identifies entities and relationships.
-- `src/wikigraph/graph_builder.py` builds RDF graphs.
-- `src/wikigraph/sparql.py` contains query helpers.
-- `src/wikigraph/neo4j_store.py` handles Neo4j export.
-- `src/wikigraph/cli.py` exposes the command line interface.
-
-## Development
-
-Install the package in editable mode with dev tools, then run:
-
-```bash
-python -m pip install -e '.[dev]'
+```sh
+python -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.lock
+pip install -e . --no-deps
+wikigraph demo
+uvicorn wikigraph.api:create_app --factory --host 127.0.0.1 --port 8000
 ```
 
-Then run:
+Open http://localhost:8000. The initial mode is an **authored synthetic teaching
+sample**, with clearly labeled fictional revisions. The sample demonstrates the
+full interaction flow without needing Wikipedia access.
 
-```bash
-python -m pytest
-python -m wikigraph.cli --help
+To serve the real checked-in corpus:
+
+```sh
+WIKIGRAPH_GRAPH=data/wikipedia/graph.ttl uvicorn wikigraph.api:create_app --factory
 ```
+
+Choose **Server dataset** in the explorer. API docs are at `/docs`.
+Alternatively, run `docker compose up --build -d`.
+
+## What is implemented
+
+- Revision-pinned fetching, bounded retries and request budgets, durable raw
+  snapshots, offline replay, and resumable SQLite ingestion jobs.
+- Canonical page identities, alias resolution, distinct unresolved mentions,
+  addressable assertions, and SHACL plus evidence-integrity validation.
+- Conservative factual extraction with sentence offsets; `linksTo` stays separate
+  from factual predicates.
+- Typed search, paginated neighbors, bounded shortest paths, evidence lookup,
+  request IDs, metrics, and a per-process request quota.
+- TypeScript/SVG explorer with filters, an evidence panel, shareable selections,
+  keyboard-accessible controls, mobile layout, and an offline sample.
+- Python CI and Chromium browser checks, reproducible exports, evaluation tooling,
+  and a measured local HTTP benchmark.
+
+## Evidence and limits
+
+The real corpus contains **100 entities, 815 assertions, and 34,400 triples**.
+Of those assertions, 813 are page links and two are factual relations. Extraction
+coverage is deliberately limited; no real-corpus precision claim has been made.
+
+The synthetic regression split produced 30 true positives, zero false positives,
+and ten false negatives. Those known templates do **not** establish Wikipedia
+accuracy. The 200 real annotation candidates remain unreviewed, and evaluation
+refuses to score them until review is recorded.
+
+A local five-client HTTP benchmark measured p95 latency of 11.36 ms for search,
+31.48 ms for neighbors, and 11.76 ms for the tested path query. These are one-run,
+100-page results, not the separate 300-page release target or an internet SLA.
+See [measured results](docs/benchmark.md) and [raw report](reports/benchmark.json).
+
+## Reproduce and develop
+
+```sh
+pip install -r requirements-dev.lock
+pip install -e . --no-deps
+ruff check src tests scripts
+mypy src/wikigraph
+pytest -q
+python scripts/rebuild_corpus.py --output /tmp/wiki-rebuild/graph.ttl
+cmp data/wikipedia/graph.ttl /tmp/wiki-rebuild/graph.ttl
+wikigraph evaluate
+cd frontend
+npm ci
+npm run build
+npx playwright install chromium
+npm test
+```
+
+The real corpus rebuild was verified byte-for-byte without network access.
+Frontend assets are bundled in the Python package; Node is needed only to change
+or test the frontend.
+
+## Design and next release gates
+
+[Product scope](docs/product-scope.md) · [Progress](docs/progress.md) ·
+[Ingestion](docs/ingestion.md) · [Identity and provenance](docs/decisions/001-identity-and-provenance.md) ·
+[Extraction tradeoffs](docs/decisions/002-extraction-and-real-corpus.md) ·
+[Annotation protocol](docs/annotation.md) · [API](docs/api.md) ·
+[Explorer](docs/explorer.md) · [Deployment](docs/deployment.md)
+
+Pending: independent real-corpus annotation, an untouched evaluation corpus,
+three-person usability review, the 300-page benchmark, and public hosting. The
+Neo4j adapter remains an early prototype; it is not used by the validated API or
+demo and needs a faithful batched projection before production use.
+
+Wikipedia text and derived text datasets retain their source licensing and
+attribution; see [corpus terms](data/wikipedia/README.md) and
+[per-page sources](data/wikipedia/SOURCES.md). Synthetic examples are labeled
+separately and are not presented as Wikipedia evidence.

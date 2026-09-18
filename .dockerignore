@@ -1,0 +1,13 @@
+.git
+.venv
+.agents
+.codex
+.pytest_cache
+.mypy_cache
+.ruff_cache
+frontend/node_modules
+frontend/test-results
+frontend/playwright-report
+artifacts
+Plan.html
+**/__pycache__
