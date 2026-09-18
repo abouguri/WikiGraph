@@ -1,0 +1,392 @@
+[
+  {
+    "title": "Python (programming language)",
+    "url": "https://example.org/wikigraph/demo/1",
+    "summary": "Python (programming language) was designed by Guido van Rossum. Python (programming language) was influenced by ABC (programming language).",
+    "text": "Python (programming language) was designed by Guido van Rossum. Python (programming language) was influenced by ABC (programming language).",
+    "links": [
+      "ABC (programming language)",
+      "Guido van Rossum",
+      "Programming language"
+    ],
+    "page_id": 1,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Guido van Rossum",
+    "url": "https://example.org/wikigraph/demo/2",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 2,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "ABC (programming language)",
+    "url": "https://example.org/wikigraph/demo/3",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 3,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "JavaScript",
+    "url": "https://example.org/wikigraph/demo/4",
+    "summary": "JavaScript was designed by Brendan Eich. JavaScript was influenced by C (programming language).",
+    "text": "JavaScript was designed by Brendan Eich. JavaScript was influenced by C (programming language).",
+    "links": [
+      "Brendan Eich",
+      "C (programming language)",
+      "Programming language"
+    ],
+    "page_id": 4,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Brendan Eich",
+    "url": "https://example.org/wikigraph/demo/5",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 5,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "C (programming language)",
+    "url": "https://example.org/wikigraph/demo/6",
+    "summary": "C (programming language) was designed by Dennis Ritchie.",
+    "text": "C (programming language) was designed by Dennis Ritchie.",
+    "links": [
+      "Dennis Ritchie",
+      "Programming language"
+    ],
+    "page_id": 6,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Dennis Ritchie",
+    "url": "https://example.org/wikigraph/demo/7",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 7,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Go (programming language)",
+    "url": "https://example.org/wikigraph/demo/8",
+    "summary": "Go (programming language) was developed by Google.",
+    "text": "Go (programming language) was developed by Google.",
+    "links": [
+      "Google",
+      "Programming language"
+    ],
+    "page_id": 8,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Google",
+    "url": "https://example.org/wikigraph/demo/9",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 9,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Java (programming language)",
+    "url": "https://example.org/wikigraph/demo/10",
+    "summary": "Java (programming language) was designed by James Gosling.",
+    "text": "Java (programming language) was designed by James Gosling.",
+    "links": [
+      "James Gosling",
+      "Programming language"
+    ],
+    "page_id": 10,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "James Gosling",
+    "url": "https://example.org/wikigraph/demo/11",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 11,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Rust (programming language)",
+    "url": "https://example.org/wikigraph/demo/12",
+    "summary": "Rust (programming language) was designed by Graydon Hoare. Rust (programming language) was developed by Mozilla.",
+    "text": "Rust (programming language) was designed by Graydon Hoare. Rust (programming language) was developed by Mozilla.",
+    "links": [
+      "Graydon Hoare",
+      "Mozilla",
+      "Programming language"
+    ],
+    "page_id": 12,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Graydon Hoare",
+    "url": "https://example.org/wikigraph/demo/13",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 13,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Mozilla",
+    "url": "https://example.org/wikigraph/demo/14",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 14,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "C++",
+    "url": "https://example.org/wikigraph/demo/15",
+    "summary": "C++ was designed by Bjarne Stroustrup. C++ was influenced by C (programming language).",
+    "text": "C++ was designed by Bjarne Stroustrup. C++ was influenced by C (programming language).",
+    "links": [
+      "Bjarne Stroustrup",
+      "C (programming language)",
+      "Programming language"
+    ],
+    "page_id": 15,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Bjarne Stroustrup",
+    "url": "https://example.org/wikigraph/demo/16",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 16,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "TypeScript",
+    "url": "https://example.org/wikigraph/demo/17",
+    "summary": "TypeScript was developed by Microsoft. TypeScript was influenced by JavaScript.",
+    "text": "TypeScript was developed by Microsoft. TypeScript was influenced by JavaScript.",
+    "links": [
+      "JavaScript",
+      "Microsoft",
+      "Programming language"
+    ],
+    "page_id": 17,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Microsoft",
+    "url": "https://example.org/wikigraph/demo/18",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 18,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Ruby (programming language)",
+    "url": "https://example.org/wikigraph/demo/19",
+    "summary": "Ruby (programming language) was designed by Yukihiro Matsumoto. Ruby (programming language) was influenced by Python (programming language).",
+    "text": "Ruby (programming language) was designed by Yukihiro Matsumoto. Ruby (programming language) was influenced by Python (programming language).",
+    "links": [
+      "Programming language",
+      "Python (programming language)",
+      "Yukihiro Matsumoto"
+    ],
+    "page_id": 19,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Yukihiro Matsumoto",
+    "url": "https://example.org/wikigraph/demo/20",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 20,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Swift (programming language)",
+    "url": "https://example.org/wikigraph/demo/21",
+    "summary": "Swift (programming language) was developed by Apple Inc..",
+    "text": "Swift (programming language) was developed by Apple Inc..",
+    "links": [
+      "Apple Inc.",
+      "Programming language"
+    ],
+    "page_id": 21,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Apple Inc.",
+    "url": "https://example.org/wikigraph/demo/22",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 22,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Kotlin (programming language)",
+    "url": "https://example.org/wikigraph/demo/23",
+    "summary": "Kotlin (programming language) was developed by JetBrains.",
+    "text": "Kotlin (programming language) was developed by JetBrains.",
+    "links": [
+      "JetBrains",
+      "Programming language"
+    ],
+    "page_id": 23,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "JetBrains",
+    "url": "https://example.org/wikigraph/demo/24",
+    "summary": "",
+    "text": "",
+    "links": [
+      "Programming language"
+    ],
+    "page_id": 24,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  },
+  {
+    "title": "Programming language",
+    "url": "https://example.org/wikigraph/demo/25",
+    "summary": "",
+    "text": "",
+    "links": [],
+    "page_id": 25,
+    "revision_id": 1,
+    "retrieved_at": "",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "synthetic"
+  }
+]

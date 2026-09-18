@@ -1,0 +1,495 @@
+{
+  "dataset": "synthetic.jsonl",
+  "split": "test",
+  "sentences": 60,
+  "source_kinds": [
+    "synthetic"
+  ],
+  "method": "link-only-baseline",
+  "micro": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 40,
+    "support": 40,
+    "precision": null,
+    "recall": 0.0,
+    "f1": 0.0,
+    "precision_95ci": null
+  },
+  "per_predicate": {
+    "designedBy": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "support": 20,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "precision_95ci": null
+    },
+    "developedBy": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 10,
+      "support": 10,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "precision_95ci": null
+    },
+    "influencedBy": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 10,
+      "support": 10,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "precision_95ci": null
+    }
+  },
+  "entity_linking_accuracy": null,
+  "limitations": "Synthetic fixtures measure regression behavior, not real-corpus accuracy. Entity-linking accuracy requires separately reviewed canonical IDs.",
+  "errors": [
+    {
+      "id": "synthetic-20-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 20"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-20-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 20"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-20-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 20"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-20-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 20"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-21-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 21"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-21-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 21"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-21-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 21"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-21-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 21"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-22-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 22"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-22-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 22"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-22-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 22"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-22-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 22"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-23-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 23"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-23-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 23"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-23-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 23"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-23-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 23"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-24-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 24"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-24-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 24"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-24-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 24"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-24-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 24"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-25-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 25"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-25-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 25"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-25-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 25"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-25-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 25"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-26-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 26"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-26-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 26"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-26-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 26"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-26-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 26"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-27-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 27"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-27-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 27"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-27-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 27"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-27-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 27"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-28-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 28"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-28-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 28"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-28-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 28"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-28-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 28"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    },
+    {
+      "id": "synthetic-29-0",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 29"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-29-1",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "developedBy",
+          "Example designer 29"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-29-2",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "influencedBy",
+          "Example designer 29"
+        ]
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "synthetic-29-5",
+      "false_positives": [],
+      "false_negatives": [
+        [
+          "designedBy",
+          "Example designer 29"
+        ]
+      ],
+      "category": "unsupported-conjunction"
+    }
+  ]
+}

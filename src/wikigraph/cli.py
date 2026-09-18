@@ -51,5 +51,46 @@ def build(
         raise typer.Exit(1)
 
 
+@app.command()
+def demo(output: Path = Path("artifacts/demo.ttl")) -> None:
+    """Build the authored synthetic teaching graph without network access."""
+    from .graph_builder import build_dataset
+    from .models import WikipediaPage
+    from .pipeline import export_graph
+    from .validation import validate_graph
+
+    source = Path(__file__).resolve().parents[2] / "data/demo/pages.json"
+    pages = [WikipediaPage(**row) for row in json.loads(source.read_text())]
+    graph = build_dataset(pages)
+    validate_graph(graph)
+    digest = export_graph(graph, output)
+    typer.echo(
+        json.dumps(
+            {
+                "pages": len(pages),
+                "triples": len(graph),
+                "sha256": digest,
+                "source_kind": "synthetic",
+            }
+        )
+    )
+
+
+@app.command()
+def evaluate(
+    dataset: Path = Path("data/evaluation/synthetic.jsonl"),
+    output: Path = Path("reports/evaluation.json"),
+    split: str = "test",
+    baseline: bool = False,
+) -> None:
+    """Evaluate labeled sentences; synthetic scores are not real-corpus accuracy."""
+    from .evaluation import evaluate as run_evaluation
+    from .fetcher import atomic_json
+
+    report = run_evaluation(dataset, split, baseline)
+    atomic_json(output, report)
+    typer.echo(json.dumps(report["micro"], indent=2))
+
+
 if __name__ == "__main__":
     app()
