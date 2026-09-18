@@ -22,21 +22,30 @@ def extract_relationships(page: WikipediaPage) -> list[Relationship]:
         Relationship(page.title, "linksTo", link, "revision-link", link)
         for link in sorted(set(page.links))
     ]
-    names = {page.title, *page.aliases}
+    names = {page.title, *page.aliases, re.sub(r" \(.*\)$", "", page.title)}
     subjects = "|".join(re.escape(name) for name in sorted(names, key=len, reverse=True))
     pattern = re.compile(
-        rf"(?:{subjects}) (?:was|is) (designed|developed|influenced) by (.+?)[.!]?$"
+        rf"(?:{subjects}) (?:was|is) (?:originally )?(designed|developed|influenced) by (.+)$"
     )
     for match in SENTENCES.finditer(page.text):
         evidence = match.group().strip()
         found = pattern.fullmatch(evidence)
         if not found:
             continue
-        verb, target = found.groups()
-        # Require the entire object to be one linked title. No guessed pronouns,
-        # conjunctions, negation, hedging, or substring entity matches.
-        if target not in page.links or target == page.title:
+        verb, remainder = found.groups()
+        targets = []
+        for link in page.links:
+            if not remainder.startswith(link):
+                continue
+            suffix = remainder[len(link) :].strip()
+            # Only explicit direct objects, optionally followed by place/year context.
+            if re.fullmatch(r"[.!]?", suffix) or re.fullmatch(
+                r"(?:at [A-Z][^.!?]+|in [12][0-9]{3}(?: [^.!?]+)?)[.!]?", suffix
+            ):
+                targets.append(link)
+        if len(targets) != 1 or targets[0] == page.title:
             continue
+        target = targets[0]
         start = match.start() + len(match.group()) - len(match.group().lstrip())
         relationships.append(
             Relationship(

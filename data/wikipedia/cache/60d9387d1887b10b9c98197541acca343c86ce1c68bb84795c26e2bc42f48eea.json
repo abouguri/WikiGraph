@@ -1,0 +1,1813 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Java (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Java_%28programming_language%29",
+    "summary": "Object-oriented programming language Not to be confused with JavaScript . \"Java language\" redirects here. For the language spoken by people from the island of Java , see Javanese language . Java Paradigm Multi-paradigm : generic , object-oriented ( class-based ), functional , imperative , reflective , concurrent Family JVM - hosted Designed by James Gosling Developer Oracle Corporation First appeared May 23, 1995 ; 31 years ago ( 1995-05-23 ) Stable release Java SE 26 / 17 March 2026 ; 6 months ago ( 17 March 2026 ) Typing discipline Static, strong, safe , nominative , manifest Memory management Garbage-collected Filename extensions .java, .class , .jar , .jmod, .war Website oracle .com /java / java .com dev .java Influenced by CLU , Simula 67, Lisp , Smalltalk , Ada 83 , C++ , C# , Eiffel , Mesa , Modula-3 , Oberon , Objective-C , UCSD Pascal , Object Pascal Influenced Ada 2005 , ArkTS , BeanShell , C# , Chapel , Clojure , Dart , ECMAScript , Fantom , Gambas , Groovy , Hack , Haxe , J# , JavaScript , JS++ , Kotlin , PHP , Python , Scala , Vala Java Programming at Wikibooks This article is part of a series on the Java programming language Frameworks AppFuse Akka Apache Camel Apache Click Apache Cocoon Apache CXF Apache Felix Apache Mina Apache Pivot Apache Shiro Apache Sling Apache Struts Apache Tapestry Apache Wicket Barracuda CodeName One Direct Web Remoting EclipseLink FreeMarker Template GeoApi GeoTools Google Guice Google Web Toolkit (GWT) Grails Hibernate iBatis JAX-RS JAX-WS JBoss Seam Jersey JHipster JSF Keycloak Micronaut MyBatis Oracle Application Development Framework Play PrimeFaces Quarkus Spring Integration Spring Roo Spring Security Thymeleaf Vaadin Vertx ZKoss Libraries Apache Accumulo Apache ActiveMQ Apache Ant Apache Avro Apache Axis Apache Commons Apache Empire DB Apache Flume Apache Geronimo Apache Giraph Apache Hadoop Apache HBase Apache Hive Apache JackRabbit Apache Jena Apache Kafka Apache Log4j Apache Lucene Apache Mahout Apache Mesos Apache Nutch Apache OODT Apache Oozie Apache OpenNLP Apache PDFBox Apache Pig Apache POI Apache Qpid Apache River (Jini) Apache Samza Apache Solr Apache Spark Apache Xerces Apache Storm Apache Tika Apache Tomcat Apache Uima Apache Velocity Apache Xerces Apache Zookeeper BioJava BlueCove Bouncy Castle Cascading CruiseControl Deeplearning4j Drools ELKI EHCache EJML Elasticsearch Google Gson Google Guava H2 Database Engine HSQLDB Infinispan IText Jackson Jasper Reports Java Astrodynamics Toolkit Java Collections Framework JavaFX Java Media Framework Java Topology Suite JAXB JaxP Jetty JFreeChart JProfiler JSoup JUNG JUnit LibGDX LiquiBase LWJGL Netty Neuroph ObjectWeb ASM Oracle WebLogic OrientDB ORMLite Parallel Colt Quartz Selenium SLF4J SonarQube Standard Widget Toolkit Spock TestNG Wildfly XStream Machine learning and AI Apache Mahout Apache MXNet Apache OpenNLP Deeplearning4j Encog LIBSVM Mallet MLlib Neuroph Weka Yooreeka Math and scientific libraries Colt Efficient Java Matrix Library Easy Java Simulations Exp4j GroovyLab JAMA Jblas Java Astrodynamics Toolkit Matrix Toolkit Java OjAlgo OptimJ Parallel Colt SuanShu IDEs Android Studio BlueJ DrJava Eclipse IDE Greenfoot IntelliJ IDEA JDeveloper jGRASP MyEclipse NetBeans IDE Visual Studio Code Application servers Apache Geronimo Apache MINA Apache Tomcat Apache TomEE Borland Enterprise Server ColdFusion GlassFish IBM WebSphere Application Server IBM WebSphere Application Server Community Edition JBoss Enterprise Application Platform JEUS Jetty Lucee Oracle Containers for J2EE Oracle WebLogic Server Orion Application Server Payara Server Resin SAP NetWeaver Application Server WildFly See also Apache Commons and Google Guava Comparison of Java virtual machines List of Java virtual machines List of JVM languages List of Java compilers List of Java software and tools List of Kotlin software and tools List of unit testing frameworks for Java Outline of the Java programming language Computer programming portal Java programming (Wikibooks) v t e Java is a high-level , general-purpose , memory-safe , object-oriented programming language . It is intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are usually compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture . The syntax of Java is similar to C and C++ , but has fewer low-level facilities than either of them. The Java runtime provides dynamic abilities (such as reflective programming (reflection) and runtime code modification) usually unavailable in traditional compiled languages. Java gained popularity shortly after its release, and has been a popular programming language since then. Java was the third most popular programming language in 2022 [update] according to GitHub . Although still widely popular, there has been a gradual decline in use of Java in recent years with other languages using JVM gaining popularity. Java was designed by James Gosling at Sun Microsystems . It was released in May 1995 as a core component of Sun's Java platform . The original and reference implementation Java compilers , virtual machines (VMs), and class libraries were released by Sun under proprietary licenses . As of May 2007, in compliance with the specifications of the Java Community Process , Sun had relicensed most of its Java technologies under the GPL-2.0-only license. Oracle , which bought Sun in 2010, offers its own HotSpot Java virtual machine. However, the official reference implementation is the OpenJDK JVM, which is open-source software used by most developers and is the default JVM for almost all Linux distributions . As of March 2026, [update] Java 26 is the current version. ^ Binstock, Andrew (May 20, 2015). \"Java's 20 Years of Innovation\" . Forbes . Archived from the original on March 14, 2016 . Retrieved March 18, 2016 . ^ \"JDK 26\" . ^ a b c d Barbara Liskov with John Guttag (2000). Program Development in Java – Abstraction, Specification, and Object-Oriented Design . USA, Addison Wesley. ISBN 978-0-201-65768-5 . ^ Chaudhary, Harry H. (July 28, 2014). \"Cracking The Java Programming Interview: 2000+ Java Interview Que/Ans\" . Archived from the original on September 29, 2023 . Retrieved May 29, 2016 . ^ Java 5.0 added several new language features (the enhanced for loop , autoboxing , varargs and annotations ), after they were introduced in the similar (and competing) C# language. [1] Archived March 19, 2011, at the Wayback Machine [2] Archived January 7, 2006, at the Wayback Machine ^ Gosling, James; McGilton, Henry (May 1996). \"The Java Language Environment\" . Archived from the original on May 6, 2014 . Retrieved May 6, 2014 . ^ Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad. \"The Java Language Specification, 2nd Edition\" . Archived from the original on August 5, 2011 . Retrieved February 8, 2008 . ^ \"The A-Z of Programming Languages: Modula-3\" . Computerworld. Archived from the original on January 5, 2009 . Retrieved June 9, 2010 . ^ Niklaus Wirth stated on a number of public occasions, e.g., in a lecture at the Polytechnic Museum, Moscow in September 2005 (several independent first-hand accounts in Russian exist, e.g., one with an audio recording: Filippova, Elena (September 22, 2005). \"Niklaus Wirth's lecture at the Polytechnic Museum in Moscow\" . Archived from the original on December 1, 2020 . Retrieved November 20, 2011 . ), that the Sun Java design team licensed the Oberon compiler sources a number of years prior to the release of Java and examined it: a (relative) compactness, type safety, garbage collection, no multiple inheritance for classes – all these key overall design features are shared by Java and Oberon. ^ Patrick Naughton cites Objective-C as a strong influence on the design of the Java programming language, stating that notable direct derivatives include Java interfaces (derived from Objective-C's protocol ) and primitive wrapper classes. [3] Archived July 13, 2011, at the Wayback Machine ^ TechMetrix Research (1999). \"History of Java\" (PDF) . Java Application Servers Report . Archived from the original (PDF) on December 29, 2010. The project went ahead under the name green and the language was based on an old model of UCSD Pascal , which makes it possible to generate interpretive code. ^ \"A Conversation with James Gosling\" . ACM Queue . Vol. 2, no. 5. Association for Computing Machinery . August 31, 2004. Archived from the original on July 16, 2015 . Retrieved June 9, 2010 . ^ The Java Language Team. About Microsoft's 'Delegates' (White Paper). JavaSoft, Sun Microsystems, Inc. Archived from the original on June 27, 2012. In the summer of 1996, Sun was designing the precursor to what is now the event model of the AWT and the JavaBeans component architecture. Borland contributed greatly to this process. We looked very carefully at Delphi Object Pascal and built a working prototype of bound method references in order to understand their interaction with the Java programming language and its APIs. ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. October 1, 2015. Archived (PDF) from the original on February 5, 2016 . Retrieved January 14, 2016 . ^ \"Gambas Documentation Introduction\" . Gambas Website. Archived from the original on October 9, 2017 . Retrieved October 9, 2017 . ^ \"Facebook Q&A: Hack brings static typing to PHP world\" . InfoWorld . March 26, 2014. Archived from the original on February 13, 2015 . Retrieved January 11, 2015 . ^ \"Write once, run anywhere?\" . Computer Weekly . May 2, 2002. Archived from the original on August 13, 2021 . Retrieved July 27, 2009 . ^ \"1.2 Design Goals of the Java Programming Language\" . Oracle. January 1, 1999. Archived from the original on January 23, 2013 . Retrieved January 14, 2013 . ^ https://arxiv.org/pdf/1908.11685 Java programming language ^ Melanson, Mike (August 9, 2022). \"Don't call it a comeback: Why Java is still champ\" . GitHub . Archived from the original on August 25, 2023 . Retrieved October 15, 2023 . ^ \"The top programming languages\" . The State of the Octoverse . GitHub . Archived from the original on August 2, 2023 . Retrieved October 15, 2023 . ^ McMillan, Robert (August 1, 2013). \"Is Java Losing Its Mojo?\" . Wired . Archived from the original on February 15, 2017 . Retrieved October 15, 2023 .",
+    "text": "Object-oriented programming language Not to be confused with JavaScript . \"Java language\" redirects here. For the language spoken by people from the island of Java , see Javanese language . Java Paradigm Multi-paradigm : generic , object-oriented ( class-based ), functional , imperative , reflective , concurrent Family JVM - hosted Designed by James Gosling Developer Oracle Corporation First appeared May 23, 1995 ; 31 years ago ( 1995-05-23 ) Stable release Java SE 26 / 17 March 2026 ; 6 months ago ( 17 March 2026 ) Typing discipline Static, strong, safe , nominative , manifest Memory management Garbage-collected Filename extensions .java, .class , .jar , .jmod, .war Website oracle .com /java / java .com dev .java Influenced by CLU , Simula 67, Lisp , Smalltalk , Ada 83 , C++ , C# , Eiffel , Mesa , Modula-3 , Oberon , Objective-C , UCSD Pascal , Object Pascal Influenced Ada 2005 , ArkTS , BeanShell , C# , Chapel , Clojure , Dart , ECMAScript , Fantom , Gambas , Groovy , Hack , Haxe , J# , JavaScript , JS++ , Kotlin , PHP , Python , Scala , Vala Java Programming at Wikibooks This article is part of a series on the Java programming language Frameworks AppFuse Akka Apache Camel Apache Click Apache Cocoon Apache CXF Apache Felix Apache Mina Apache Pivot Apache Shiro Apache Sling Apache Struts Apache Tapestry Apache Wicket Barracuda CodeName One Direct Web Remoting EclipseLink FreeMarker Template GeoApi GeoTools Google Guice Google Web Toolkit (GWT) Grails Hibernate iBatis JAX-RS JAX-WS JBoss Seam Jersey JHipster JSF Keycloak Micronaut MyBatis Oracle Application Development Framework Play PrimeFaces Quarkus Spring Integration Spring Roo Spring Security Thymeleaf Vaadin Vertx ZKoss Libraries Apache Accumulo Apache ActiveMQ Apache Ant Apache Avro Apache Axis Apache Commons Apache Empire DB Apache Flume Apache Geronimo Apache Giraph Apache Hadoop Apache HBase Apache Hive Apache JackRabbit Apache Jena Apache Kafka Apache Log4j Apache Lucene Apache Mahout Apache Mesos Apache Nutch Apache OODT Apache Oozie Apache OpenNLP Apache PDFBox Apache Pig Apache POI Apache Qpid Apache River (Jini) Apache Samza Apache Solr Apache Spark Apache Xerces Apache Storm Apache Tika Apache Tomcat Apache Uima Apache Velocity Apache Xerces Apache Zookeeper BioJava BlueCove Bouncy Castle Cascading CruiseControl Deeplearning4j Drools ELKI EHCache EJML Elasticsearch Google Gson Google Guava H2 Database Engine HSQLDB Infinispan IText Jackson Jasper Reports Java Astrodynamics Toolkit Java Collections Framework JavaFX Java Media Framework Java Topology Suite JAXB JaxP Jetty JFreeChart JProfiler JSoup JUNG JUnit LibGDX LiquiBase LWJGL Netty Neuroph ObjectWeb ASM Oracle WebLogic OrientDB ORMLite Parallel Colt Quartz Selenium SLF4J SonarQube Standard Widget Toolkit Spock TestNG Wildfly XStream Machine learning and AI Apache Mahout Apache MXNet Apache OpenNLP Deeplearning4j Encog LIBSVM Mallet MLlib Neuroph Weka Yooreeka Math and scientific libraries Colt Efficient Java Matrix Library Easy Java Simulations Exp4j GroovyLab JAMA Jblas Java Astrodynamics Toolkit Matrix Toolkit Java OjAlgo OptimJ Parallel Colt SuanShu IDEs Android Studio BlueJ DrJava Eclipse IDE Greenfoot IntelliJ IDEA JDeveloper jGRASP MyEclipse NetBeans IDE Visual Studio Code Application servers Apache Geronimo Apache MINA Apache Tomcat Apache TomEE Borland Enterprise Server ColdFusion GlassFish IBM WebSphere Application Server IBM WebSphere Application Server Community Edition JBoss Enterprise Application Platform JEUS Jetty Lucee Oracle Containers for J2EE Oracle WebLogic Server Orion Application Server Payara Server Resin SAP NetWeaver Application Server WildFly See also Apache Commons and Google Guava Comparison of Java virtual machines List of Java virtual machines List of JVM languages List of Java compilers List of Java software and tools List of Kotlin software and tools List of unit testing frameworks for Java Outline of the Java programming language Computer programming portal Java programming (Wikibooks) v t e Java is a high-level , general-purpose , memory-safe , object-oriented programming language . It is intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are usually compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture . The syntax of Java is similar to C and C++ , but has fewer low-level facilities than either of them. The Java runtime provides dynamic abilities (such as reflective programming (reflection) and runtime code modification) usually unavailable in traditional compiled languages. Java gained popularity shortly after its release, and has been a popular programming language since then. Java was the third most popular programming language in 2022 [update] according to GitHub . Although still widely popular, there has been a gradual decline in use of Java in recent years with other languages using JVM gaining popularity. Java was designed by James Gosling at Sun Microsystems . It was released in May 1995 as a core component of Sun's Java platform . The original and reference implementation Java compilers , virtual machines (VMs), and class libraries were released by Sun under proprietary licenses . As of May 2007, in compliance with the specifications of the Java Community Process , Sun had relicensed most of its Java technologies under the GPL-2.0-only license. Oracle , which bought Sun in 2010, offers its own HotSpot Java virtual machine. However, the official reference implementation is the OpenJDK JVM, which is open-source software used by most developers and is the default JVM for almost all Linux distributions . As of March 2026, [update] Java 26 is the current version. ^ Binstock, Andrew (May 20, 2015). \"Java's 20 Years of Innovation\" . Forbes . Archived from the original on March 14, 2016 . Retrieved March 18, 2016 . ^ \"JDK 26\" . ^ a b c d Barbara Liskov with John Guttag (2000). Program Development in Java – Abstraction, Specification, and Object-Oriented Design . USA, Addison Wesley. ISBN 978-0-201-65768-5 . ^ Chaudhary, Harry H. (July 28, 2014). \"Cracking The Java Programming Interview: 2000+ Java Interview Que/Ans\" . Archived from the original on September 29, 2023 . Retrieved May 29, 2016 . ^ Java 5.0 added several new language features (the enhanced for loop , autoboxing , varargs and annotations ), after they were introduced in the similar (and competing) C# language. [1] Archived March 19, 2011, at the Wayback Machine [2] Archived January 7, 2006, at the Wayback Machine ^ Gosling, James; McGilton, Henry (May 1996). \"The Java Language Environment\" . Archived from the original on May 6, 2014 . Retrieved May 6, 2014 . ^ Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad. \"The Java Language Specification, 2nd Edition\" . Archived from the original on August 5, 2011 . Retrieved February 8, 2008 . ^ \"The A-Z of Programming Languages: Modula-3\" . Computerworld. Archived from the original on January 5, 2009 . Retrieved June 9, 2010 . ^ Niklaus Wirth stated on a number of public occasions, e.g., in a lecture at the Polytechnic Museum, Moscow in September 2005 (several independent first-hand accounts in Russian exist, e.g., one with an audio recording: Filippova, Elena (September 22, 2005). \"Niklaus Wirth's lecture at the Polytechnic Museum in Moscow\" . Archived from the original on December 1, 2020 . Retrieved November 20, 2011 . ), that the Sun Java design team licensed the Oberon compiler sources a number of years prior to the release of Java and examined it: a (relative) compactness, type safety, garbage collection, no multiple inheritance for classes – all these key overall design features are shared by Java and Oberon. ^ Patrick Naughton cites Objective-C as a strong influence on the design of the Java programming language, stating that notable direct derivatives include Java interfaces (derived from Objective-C's protocol ) and primitive wrapper classes. [3] Archived July 13, 2011, at the Wayback Machine ^ TechMetrix Research (1999). \"History of Java\" (PDF) . Java Application Servers Report . Archived from the original (PDF) on December 29, 2010. The project went ahead under the name green and the language was based on an old model of UCSD Pascal , which makes it possible to generate interpretive code. ^ \"A Conversation with James Gosling\" . ACM Queue . Vol. 2, no. 5. Association for Computing Machinery . August 31, 2004. Archived from the original on July 16, 2015 . Retrieved June 9, 2010 . ^ The Java Language Team. About Microsoft's 'Delegates' (White Paper). JavaSoft, Sun Microsystems, Inc. Archived from the original on June 27, 2012. In the summer of 1996, Sun was designing the precursor to what is now the event model of the AWT and the JavaBeans component architecture. Borland contributed greatly to this process. We looked very carefully at Delphi Object Pascal and built a working prototype of bound method references in order to understand their interaction with the Java programming language and its APIs. ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. October 1, 2015. Archived (PDF) from the original on February 5, 2016 . Retrieved January 14, 2016 . ^ \"Gambas Documentation Introduction\" . Gambas Website. Archived from the original on October 9, 2017 . Retrieved October 9, 2017 . ^ \"Facebook Q&A: Hack brings static typing to PHP world\" . InfoWorld . March 26, 2014. Archived from the original on February 13, 2015 . Retrieved January 11, 2015 . ^ \"Write once, run anywhere?\" . Computer Weekly . May 2, 2002. Archived from the original on August 13, 2021 . Retrieved July 27, 2009 . ^ \"1.2 Design Goals of the Java Programming Language\" . Oracle. January 1, 1999. Archived from the original on January 23, 2013 . Retrieved January 14, 2013 . ^ https://arxiv.org/pdf/1908.11685 Java programming language ^ Melanson, Mike (August 9, 2022). \"Don't call it a comeback: Why Java is still champ\" . GitHub . Archived from the original on August 25, 2023 . Retrieved October 15, 2023 . ^ \"The top programming languages\" . The State of the Octoverse . GitHub . Archived from the original on August 2, 2023 . Retrieved October 15, 2023 . ^ McMillan, Robert (August 1, 2013). \"Is Java Losing Its Mojo?\" . Wired . Archived from the original on February 15, 2017 . Retrieved October 15, 2023 .",
+    "links": [
+      "ACM Queue",
+      "Ada (programming language)",
+      "Akka (toolkit)",
+      "Android Studio",
+      "Apache Accumulo",
+      "Apache ActiveMQ",
+      "Apache Ant",
+      "Apache Avro",
+      "Apache Axis",
+      "Apache CXF",
+      "Apache Camel",
+      "Apache Click",
+      "Apache Cocoon",
+      "Apache Commons",
+      "Apache Empire-db",
+      "Apache Felix",
+      "Apache Flume",
+      "Apache Geronimo",
+      "Apache Giraph",
+      "Apache Groovy",
+      "Apache HBase",
+      "Apache Hadoop",
+      "Apache Hive",
+      "Apache Jackrabbit",
+      "Apache Kafka",
+      "Apache Lucene",
+      "Apache MINA",
+      "Apache MXNet",
+      "Apache Mahout",
+      "Apache Mesos",
+      "Apache Nutch",
+      "Apache Oozie",
+      "Apache OpenNLP",
+      "Apache PDFBox",
+      "Apache POI",
+      "Apache Pivot",
+      "Apache Qpid",
+      "Apache Samza",
+      "Apache Shiro",
+      "Apache Sling",
+      "Apache Solr",
+      "Apache Spark",
+      "Apache Struts",
+      "Apache Tapestry",
+      "Apache Tika",
+      "Apache TomEE",
+      "Apache Tomcat",
+      "Apache Velocity",
+      "Apache Wicket",
+      "Apache Xerces",
+      "Apache ZooKeeper",
+      "AppFuse",
+      "ArkTS",
+      "Association for Computing Machinery",
+      "Barbara Liskov",
+      "Barracuda (web framework)",
+      "BeanShell",
+      "BioJava",
+      "BlueJ",
+      "Borland Enterprise Server",
+      "Bouncy Castle (cryptography)",
+      "Boxing (computer programming)",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "CLU (programming language)",
+      "Cascading (software)",
+      "Chapel (programming language)",
+      "Class-based programming",
+      "Clojure",
+      "Codename One",
+      "ColdFusion",
+      "Colt (libraries)",
+      "Comparison of Java virtual machines",
+      "Comparison of integrated development environments",
+      "Compiler",
+      "Computer Weekly",
+      "Computer architecture",
+      "Concurrent computing",
+      "CruiseControl",
+      "Dart (programming language)",
+      "Deeplearning4j",
+      "Direct Web Remoting",
+      "DrJava",
+      "Drools",
+      "ECMAScript",
+      "ELKI",
+      "Easy Java Simulations",
+      "Eclipse (software)",
+      "EclipseLink",
+      "Efficient Java Matrix Library",
+      "Ehcache",
+      "Eiffel (programming language)",
+      "Elasticsearch",
+      "Encog",
+      "Execution (computing)",
+      "Exp4j",
+      "Fantom (programming language)",
+      "Filename extension",
+      "Foreach loop",
+      "FreeMarker",
+      "Functional programming",
+      "GNU General Public License",
+      "Gambas",
+      "Garbage collection (computer science)",
+      "General-purpose programming language",
+      "Generic programming",
+      "GeoAPI",
+      "GeoTools",
+      "GitHub",
+      "GlassFish",
+      "Google Guava",
+      "Google Guice",
+      "Google Web Toolkit",
+      "Grails (framework)",
+      "Greenfoot",
+      "GroovyLab",
+      "Gson",
+      "H2 Database Engine",
+      "HSQLDB",
+      "Hack (programming language)",
+      "Hardware virtualization",
+      "Haxe",
+      "Hibernate (framework)",
+      "High-level programming language",
+      "HotSpot",
+      "IBATIS",
+      "IBM WebSphere Application Server",
+      "IBM WebSphere Application Server Community Edition",
+      "ISBN (identifier)",
+      "IText",
+      "Imperative programming",
+      "Infinispan",
+      "IntelliJ IDEA",
+      "JAMA (numerical linear algebra library)",
+      "JAR (file format)",
+      "JAX-RS",
+      "JAX-WS",
+      "JAXB",
+      "JBoss Enterprise Application Platform",
+      "JBoss Seam",
+      "JDeveloper",
+      "JEUS",
+      "JFreeChart",
+      "JGRASP",
+      "JHipster",
+      "JProfiler",
+      "JS++",
+      "JTS Topology Suite",
+      "JUNG",
+      "JUnit",
+      "JVM bytecode",
+      "Jackson (API)",
+      "James Gosling",
+      "JasperReports",
+      "Java",
+      "Java (software platform)",
+      "Java API for XML Processing",
+      "Java APIs for Bluetooth",
+      "Java Astrodynamics Toolkit",
+      "Java Collections Framework",
+      "Java Community Process",
+      "Java Media Framework",
+      "Java annotation",
+      "Java class file",
+      "Java virtual machine",
+      "JavaFX",
+      "JavaScript",
+      "JavaServer Faces",
+      "Javanese language",
+      "Jblas: Linear Algebra for Java",
+      "Jena (framework)",
+      "Jetty (web server)",
+      "Jini",
+      "John Guttag",
+      "Jsoup",
+      "Keycloak",
+      "Kotlin",
+      "LIBSVM",
+      "LibGDX",
+      "Library (computing)",
+      "Lightweight Java Game Library",
+      "Linux distribution",
+      "Liquibase",
+      "Lisp (programming language)",
+      "List of JVM languages",
+      "List of Java frameworks",
+      "List of Java software and tools",
+      "List of Java virtual machines",
+      "List of Kotlin software and tools",
+      "List of application servers",
+      "List of compilers",
+      "List of unit testing frameworks",
+      "Log4j",
+      "Low-level programming language",
+      "Lucee",
+      "Mallet (software project)",
+      "Manifest typing",
+      "Matrix Toolkit Java",
+      "Memory management",
+      "Memory safety",
+      "Mesa (programming language)",
+      "Micronaut (framework)",
+      "Modula-3",
+      "MyBatis",
+      "MyEclipse",
+      "NetBeans IDE",
+      "Netty (software)",
+      "Neuroph",
+      "Niklaus Wirth",
+      "Nominal type system",
+      "OC4J",
+      "ORMLite",
+      "Oberon (programming language)",
+      "Object Oriented Data Technology",
+      "Object Pascal",
+      "Object-oriented programming",
+      "ObjectWeb ASM",
+      "Objective-C",
+      "OjAlgo",
+      "OpenJDK",
+      "OptimJ",
+      "Oracle Application Development Framework",
+      "Oracle Corporation",
+      "Oracle WebLogic Server",
+      "OrientDB",
+      "Orion Application Server",
+      "Outline of the Java programming language",
+      "PHP",
+      "Parallel Colt",
+      "Patrick Naughton",
+      "Payara Server",
+      "Pig (programming tool)",
+      "Play Framework",
+      "PrimeFaces",
+      "Programmer",
+      "Programming language",
+      "Programming paradigm",
+      "Project Jersey",
+      "Proprietary license",
+      "Python (programming language)",
+      "Quarkus",
+      "Quartz (scheduler)",
+      "Reference implementation",
+      "Reflective programming",
+      "Resin (software)",
+      "SAP NetWeaver Application Server",
+      "SLF4J",
+      "Scala (programming language)",
+      "Selenium (software)",
+      "Simula",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software release life cycle",
+      "Software relicensing",
+      "SonarQube",
+      "Spock (testing framework)",
+      "Spring Integration",
+      "Spring Roo",
+      "Spring Security",
+      "Standard Widget Toolkit",
+      "Storm (event processor)",
+      "SuanShu numerical library",
+      "Sun Microsystems",
+      "Syntax (programming languages)",
+      "TestNG",
+      "Thymeleaf",
+      "Type system",
+      "UCSD Pascal",
+      "UIMA",
+      "Vaadin",
+      "Vala (programming language)",
+      "Variadic function",
+      "Vert.x",
+      "Virtual machine",
+      "Visual J Sharp",
+      "Visual Studio Code",
+      "WAR (file format)",
+      "Wayback Machine",
+      "Weka",
+      "WildFly",
+      "Wildfly",
+      "Wired.com",
+      "Write once, run anywhere",
+      "XStream",
+      "Yooreeka",
+      "ZK (framework)"
+    ],
+    "page_id": 15881,
+    "revision_id": 1375186425,
+    "retrieved_at": "2026-09-18T16:31:55.636596+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260915221757|1375104701",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 15881,
+            "ns": 0,
+            "title": "Java (programming language)",
+            "revisions": [
+              {
+                "revid": 1375186425,
+                "parentid": 1375104701
+              }
+            ],
+            "pageprops": {
+              "page_image": "Java_programming_language_logo.svg",
+              "wikibase-shortdesc": "Object-oriented programming language",
+              "wikibase_item": "Q251"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Java (programming language)",
+        "pageid": 15881,
+        "revid": 1375186425,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Object-oriented programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Java language\" redirects here. For the language spoken by people from the island of <a href=\"/wiki/Java\" title=\"Java\">Java</a>, see <a href=\"/wiki/Javanese_language\" title=\"Javanese language\">Javanese language</a>.</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Java</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Java_programming_language_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/250px-Java_programming_language_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"221\" class=\"mw-file-element\" data-file-width=\"234\" data-file-height=\"428\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Programming_paradigm#Multi-paradigm\" title=\"Programming paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> (<a href=\"/wiki/Class-based_programming\" class=\"mw-redirect\" title=\"Class-based programming\">class-based</a>), <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a>, <a href=\"/wiki/Concurrent_computing\" title=\"Concurrent computing\">concurrent</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">JVM</a>-<a href=\"/wiki/Hardware_virtualization\" title=\"Hardware virtualization\">hosted</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/James_Gosling\" title=\"James Gosling\">James Gosling</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Oracle_Corporation\" title=\"Oracle Corporation\">Oracle Corporation</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">May&#160;23, 1995<span class=\"noprint\">&#59;&#32;31 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1995-05-23</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Java SE 26<sup id=\"cite&#95;ref-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q251?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 17 March 2026<span class=\"noprint\">&#59;&#32;6 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">17 March 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_system\" title=\"Type system\">Static, strong, safe</a>, <a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominative</a>, <a href=\"/wiki/Manifest_typing\" title=\"Manifest typing\">manifest</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">Garbage-collected</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.java, <a href=\"/wiki/Java_class_file\" title=\"Java class file\">.class</a>, <a href=\"/wiki/JAR_(file_format)\" title=\"JAR (file format)\">.jar</a>, .jmod, <a href=\"/wiki/WAR_(file_format)\" title=\"WAR (file format)\">.war</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://oracle.com/java/\">oracle<wbr />.com<wbr />/java<wbr />/</a></span></li><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://java.com\">java<wbr />.com</a></span></li><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://dev.java\">dev<wbr />.java</a></span></li></ul></div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a>,<sup id=\"cite&#95;ref-BarbaraLiskov&#95;3-0\" class=\"reference\"><a href=\"#cite_note-BarbaraLiskov-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Simula\" title=\"Simula\">Simula</a> 67,<sup id=\"cite&#95;ref-BarbaraLiskov&#95;3-1\" class=\"reference\"><a href=\"#cite_note-BarbaraLiskov-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>,<sup id=\"cite&#95;ref-BarbaraLiskov&#95;3-2\" class=\"reference\"><a href=\"#cite_note-BarbaraLiskov-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a>,<sup id=\"cite&#95;ref-BarbaraLiskov&#95;3-3\" class=\"reference\"><a href=\"#cite_note-BarbaraLiskov-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada 83</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>,<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Mesa_(programming_language)\" title=\"Mesa (programming language)\">Mesa</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Modula-3\" title=\"Modula-3\">Modula-3</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Oberon_(programming_language)\" title=\"Oberon (programming language)\">Oberon</a>,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>,<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/UCSD_Pascal\" title=\"UCSD Pascal\">UCSD Pascal</a>,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Object_Pascal\" title=\"Object Pascal\">Object Pascal</a><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada 2005</a>, <a href=\"/wiki/ArkTS\" title=\"ArkTS\">ArkTS</a>, <a href=\"/wiki/BeanShell\" title=\"BeanShell\">BeanShell</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/Chapel_(programming_language)\" title=\"Chapel (programming language)\">Chapel</a>,<sup id=\"cite&#95;ref-chplspec&#95;14-0\" class=\"reference\"><a href=\"#cite_note-chplspec-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>, <a href=\"/wiki/Dart_(programming_language)\" title=\"Dart (programming language)\">Dart</a>, <a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a>, <a href=\"/wiki/Fantom_(programming_language)\" title=\"Fantom (programming language)\">Fantom</a>, <a href=\"/wiki/Gambas\" title=\"Gambas\">Gambas</a>,<sup id=\"cite&#95;ref-gambas&#95;15-0\" class=\"reference\"><a href=\"#cite_note-gambas-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Apache_Groovy\" title=\"Apache Groovy\">Groovy</a>, <a href=\"/wiki/Hack_(programming_language)\" title=\"Hack (programming language)\">Hack</a>,<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Haxe\" title=\"Haxe\">Haxe</a>, <a href=\"/wiki/Visual_J_Sharp\" title=\"Visual J Sharp\">J#</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/JS%2B%2B\" title=\"JS++\">JS++</a>, <a href=\"/wiki/Kotlin\" title=\"Kotlin\">Kotlin</a>, <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>, <a href=\"/wiki/Vala_(programming_language)\" title=\"Vala (programming language)\">Vala</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Java_Programming\" class=\"extiw\" title=\"wikibooks:Java Programming\">Java Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar sidebar-collapse nomobile nowraplinks\" role=\"navigation\" style=\"width:22.0em; border: 4px double #5382A1;\"><tbody><tr><td class=\"sidebar-pretitle\">This article is part of <a href=\"/wiki/Category:Java_(programming_language)\" title=\"Category:Java (programming language)\">a series</a> on the <br /> <a class=\"mw-selflink selflink\">Java programming language</a></td></tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_Java_frameworks\" title=\"List of Java frameworks\">Frameworks</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left;\">\n<ul><li><a href=\"/wiki/AppFuse\" title=\"AppFuse\">AppFuse</a></li>\n<li><a href=\"/wiki/Akka_(toolkit)\" title=\"Akka (toolkit)\">Akka</a></li>\n<li><a href=\"/wiki/Apache_Camel\" title=\"Apache Camel\">Apache Camel</a></li>\n<li><a href=\"/wiki/Apache_Click\" title=\"Apache Click\">Apache Click</a></li>\n<li><a href=\"/wiki/Apache_Cocoon\" title=\"Apache Cocoon\">Apache Cocoon</a></li>\n<li><a href=\"/wiki/Apache_CXF\" title=\"Apache CXF\">Apache CXF</a></li>\n<li><a href=\"/wiki/Apache_Felix\" title=\"Apache Felix\">Apache Felix</a></li>\n<li><a href=\"/wiki/Apache_MINA\" title=\"Apache MINA\">Apache Mina</a></li>\n<li><a href=\"/wiki/Apache_Pivot\" title=\"Apache Pivot\">Apache Pivot</a></li>\n<li><a href=\"/wiki/Apache_Shiro\" title=\"Apache Shiro\">Apache Shiro</a></li>\n<li><a href=\"/wiki/Apache_Sling\" title=\"Apache Sling\">Apache Sling</a></li>\n<li><a href=\"/wiki/Apache_Struts\" title=\"Apache Struts\">Apache Struts</a></li>\n<li><a href=\"/wiki/Apache_Tapestry\" title=\"Apache Tapestry\">Apache Tapestry</a></li>\n<li><a href=\"/wiki/Apache_Wicket\" title=\"Apache Wicket\">Apache Wicket</a></li>\n<li><a href=\"/wiki/Barracuda_(web_framework)\" title=\"Barracuda (web framework)\">Barracuda</a></li>\n<li><a href=\"/wiki/Codename_One\" title=\"Codename One\">CodeName One</a></li>\n<li><a href=\"/wiki/Direct_Web_Remoting\" title=\"Direct Web Remoting\">Direct Web Remoting</a></li>\n<li><a href=\"/wiki/EclipseLink\" title=\"EclipseLink\">EclipseLink</a></li>\n<li><a href=\"/wiki/FreeMarker\" title=\"FreeMarker\">FreeMarker Template</a></li>\n<li><a href=\"/wiki/GeoAPI\" title=\"GeoAPI\">GeoApi</a></li>\n<li><a href=\"/wiki/GeoTools\" title=\"GeoTools\">GeoTools</a></li>\n<li><a href=\"/wiki/Google_Guice\" title=\"Google Guice\">Google Guice</a></li>\n<li><a href=\"/wiki/Google_Web_Toolkit\" title=\"Google Web Toolkit\">Google Web Toolkit (GWT)</a></li>\n<li><a href=\"/wiki/Grails_(framework)\" title=\"Grails (framework)\">Grails</a></li>\n<li><a href=\"/wiki/Hibernate_(framework)\" title=\"Hibernate (framework)\">Hibernate</a></li>\n<li><a href=\"/wiki/IBATIS\" class=\"mw-redirect\" title=\"IBATIS\">iBatis</a></li>\n<li><a href=\"/wiki/JAX-RS\" class=\"mw-redirect\" title=\"JAX-RS\">JAX-RS</a></li>\n<li><a href=\"/wiki/JAX-WS\" class=\"mw-redirect\" title=\"JAX-WS\">JAX-WS</a></li>\n<li><a href=\"/wiki/JBoss_Seam\" title=\"JBoss Seam\">JBoss Seam</a></li>\n<li><a href=\"/wiki/Project_Jersey\" class=\"mw-redirect\" title=\"Project Jersey\">Jersey</a></li>\n<li><a href=\"/wiki/JHipster\" title=\"JHipster\">JHipster</a></li>\n<li><a href=\"/wiki/JavaServer_Faces\" class=\"mw-redirect\" title=\"JavaServer Faces\">JSF</a></li>\n<li><a href=\"/wiki/Keycloak\" title=\"Keycloak\">Keycloak</a></li>\n<li><a href=\"/wiki/Micronaut_(framework)\" title=\"Micronaut (framework)\">Micronaut</a></li>\n<li><a href=\"/wiki/MyBatis\" title=\"MyBatis\">MyBatis</a></li>\n<li><a href=\"/wiki/Oracle_Application_Development_Framework\" title=\"Oracle Application Development Framework\">Oracle Application Development Framework</a></li>\n<li><a href=\"/wiki/Play_Framework\" title=\"Play Framework\">Play</a></li>\n<li><a href=\"/wiki/PrimeFaces\" title=\"PrimeFaces\">PrimeFaces</a></li>\n<li><a href=\"/wiki/Quarkus\" title=\"Quarkus\">Quarkus</a></li>\n<li><a href=\"/wiki/Spring_Integration\" title=\"Spring Integration\">Spring Integration</a></li>\n<li><a href=\"/wiki/Spring_Roo\" title=\"Spring Roo\">Spring Roo</a></li>\n<li><a href=\"/wiki/Spring_Security\" title=\"Spring Security\">Spring Security</a></li>\n<li><a href=\"/wiki/Thymeleaf\" title=\"Thymeleaf\">Thymeleaf</a></li>\n<li><a href=\"/wiki/Vaadin\" title=\"Vaadin\">Vaadin</a></li>\n<li><a href=\"/wiki/Vert.x\" title=\"Vert.x\">Vertx</a></li>\n<li><a href=\"/wiki/ZK_(framework)\" title=\"ZK (framework)\">ZKoss</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_Java_software_and_tools#Libraries\" title=\"List of Java software and tools\">Libraries</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left;\">\n<ul><li><a href=\"/wiki/Apache_Accumulo\" title=\"Apache Accumulo\">Apache Accumulo</a></li>\n<li><a href=\"/wiki/Apache_ActiveMQ\" title=\"Apache ActiveMQ\">Apache ActiveMQ</a></li>\n<li><a href=\"/wiki/Apache_Ant\" title=\"Apache Ant\">Apache Ant</a></li>\n<li><a href=\"/wiki/Apache_Avro\" title=\"Apache Avro\">Apache Avro</a></li>\n<li><a href=\"/wiki/Apache_Axis\" title=\"Apache Axis\">Apache Axis</a></li>\n<li><a href=\"/wiki/Apache_Commons\" title=\"Apache Commons\">Apache Commons</a></li>\n<li><a href=\"/wiki/Apache_Empire-db\" title=\"Apache Empire-db\">Apache Empire DB</a></li>\n<li><a href=\"/wiki/Apache_Flume\" class=\"mw-redirect\" title=\"Apache Flume\">Apache Flume</a></li>\n<li><a href=\"/wiki/Apache_Geronimo\" title=\"Apache Geronimo\">Apache Geronimo</a></li>\n<li><a href=\"/wiki/Apache_Giraph\" title=\"Apache Giraph\">Apache Giraph</a></li>\n<li><a href=\"/wiki/Apache_Hadoop\" title=\"Apache Hadoop\">Apache Hadoop</a></li>\n<li><a href=\"/wiki/Apache_HBase\" title=\"Apache HBase\">Apache HBase</a></li>\n<li><a href=\"/wiki/Apache_Hive\" title=\"Apache Hive\">Apache Hive</a></li>\n<li><a href=\"/wiki/Apache_Jackrabbit\" title=\"Apache Jackrabbit\">Apache JackRabbit</a></li>\n<li><a href=\"/wiki/Jena_(framework)\" class=\"mw-redirect\" title=\"Jena (framework)\">Apache Jena</a></li>\n<li><a href=\"/wiki/Apache_Kafka\" title=\"Apache Kafka\">Apache Kafka</a></li>\n<li><a href=\"/wiki/Log4j\" title=\"Log4j\">Apache Log4j</a></li>\n<li><a href=\"/wiki/Apache_Lucene\" title=\"Apache Lucene\">Apache Lucene</a></li>\n<li><a href=\"/wiki/Apache_Mahout\" title=\"Apache Mahout\">Apache Mahout</a></li>\n<li><a href=\"/wiki/Apache_Mesos\" title=\"Apache Mesos\">Apache Mesos</a></li>\n<li><a href=\"/wiki/Apache_Nutch\" title=\"Apache Nutch\">Apache Nutch</a></li>\n<li><a href=\"/wiki/Object_Oriented_Data_Technology\" class=\"mw-redirect\" title=\"Object Oriented Data Technology\">Apache OODT</a></li>\n<li><a href=\"/wiki/Apache_Oozie\" title=\"Apache Oozie\">Apache Oozie</a></li>\n<li><a href=\"/wiki/Apache_OpenNLP\" title=\"Apache OpenNLP\">Apache OpenNLP</a></li>\n<li><a href=\"/wiki/Apache_PDFBox\" title=\"Apache PDFBox\">Apache PDFBox</a></li>\n<li><a href=\"/wiki/Pig_(programming_tool)\" class=\"mw-redirect\" title=\"Pig (programming tool)\">Apache Pig</a></li>\n<li><a href=\"/wiki/Apache_POI\" title=\"Apache POI\">Apache POI</a></li>\n<li><a href=\"/wiki/Apache_Qpid\" title=\"Apache Qpid\">Apache Qpid</a></li>\n<li><a href=\"/wiki/Jini\" title=\"Jini\">Apache River (Jini)</a></li>\n<li><a href=\"/wiki/Apache_Samza\" title=\"Apache Samza\">Apache Samza</a></li>\n<li><a href=\"/wiki/Apache_Solr\" title=\"Apache Solr\">Apache Solr</a></li>\n<li><a href=\"/wiki/Apache_Spark\" title=\"Apache Spark\">Apache Spark</a></li>\n<li><a href=\"/wiki/Apache_Xerces\" title=\"Apache Xerces\">Apache Xerces</a></li>\n<li><a href=\"/wiki/Storm_(event_processor)\" class=\"mw-redirect\" title=\"Storm (event processor)\">Apache Storm</a></li>\n<li><a href=\"/wiki/Apache_Tika\" title=\"Apache Tika\">Apache Tika</a></li>\n<li><a href=\"/wiki/Apache_Tomcat\" title=\"Apache Tomcat\">Apache Tomcat</a></li>\n<li><a href=\"/wiki/UIMA\" title=\"UIMA\">Apache Uima</a></li>\n<li><a href=\"/wiki/Apache_Velocity\" title=\"Apache Velocity\">Apache Velocity</a></li>\n<li><a href=\"/wiki/Apache_Xerces\" title=\"Apache Xerces\">Apache Xerces</a></li>\n<li><a href=\"/wiki/Apache_ZooKeeper\" title=\"Apache ZooKeeper\">Apache Zookeeper</a></li>\n<li><a href=\"/wiki/BioJava\" title=\"BioJava\">BioJava</a></li>\n<li><a href=\"/wiki/Java_APIs_for_Bluetooth\" title=\"Java APIs for Bluetooth\">BlueCove</a></li>\n<li><a href=\"/wiki/Bouncy_Castle_(cryptography)\" title=\"Bouncy Castle (cryptography)\">Bouncy Castle</a></li>\n<li><a href=\"/wiki/Cascading_(software)\" title=\"Cascading (software)\">Cascading</a></li>\n<li><a href=\"/wiki/CruiseControl\" title=\"CruiseControl\">CruiseControl</a></li>\n<li><a href=\"/wiki/Deeplearning4j\" title=\"Deeplearning4j\">Deeplearning4j</a></li>\n<li><a href=\"/wiki/Drools\" title=\"Drools\">Drools</a></li>\n<li><a href=\"/wiki/ELKI\" title=\"ELKI\">ELKI</a></li>\n<li><a href=\"/wiki/Ehcache\" title=\"Ehcache\">EHCache</a></li>\n<li><a href=\"/wiki/Efficient_Java_Matrix_Library\" title=\"Efficient Java Matrix Library\">EJML</a></li>\n<li><a href=\"/wiki/Elasticsearch\" title=\"Elasticsearch\">Elasticsearch</a></li>\n<li><a href=\"/wiki/Gson\" title=\"Gson\">Google Gson</a></li>\n<li><a href=\"/wiki/Google_Guava\" title=\"Google Guava\">Google Guava</a></li>\n<li><a href=\"/wiki/H2_Database_Engine\" title=\"H2 Database Engine\">H2 Database Engine</a></li>\n<li><a href=\"/wiki/HSQLDB\" title=\"HSQLDB\">HSQLDB</a></li>\n<li><a href=\"/wiki/Infinispan\" title=\"Infinispan\">Infinispan</a></li>\n<li><a href=\"/wiki/IText\" title=\"IText\">IText</a></li>\n<li><a href=\"/wiki/Jackson_(API)\" class=\"mw-redirect\" title=\"Jackson (API)\">Jackson</a></li>\n<li><a href=\"/wiki/JasperReports\" title=\"JasperReports\">Jasper Reports</a></li>\n<li><a href=\"/wiki/Java_Astrodynamics_Toolkit\" title=\"Java Astrodynamics Toolkit\">Java Astrodynamics Toolkit</a></li>\n<li><a href=\"/wiki/Java_Collections_Framework\" class=\"mw-redirect\" title=\"Java Collections Framework\">Java Collections Framework</a></li>\n<li><a href=\"/wiki/JavaFX\" title=\"JavaFX\">JavaFX</a></li>\n<li><a href=\"/wiki/Java_Media_Framework\" title=\"Java Media Framework\">Java Media Framework</a></li>\n<li><a href=\"/wiki/JTS_Topology_Suite\" title=\"JTS Topology Suite\">Java Topology Suite</a></li>\n<li><a href=\"/wiki/JAXB\" class=\"mw-redirect\" title=\"JAXB\">JAXB</a></li>\n<li><a href=\"/wiki/Java_API_for_XML_Processing\" title=\"Java API for XML Processing\">JaxP</a></li>\n<li><a href=\"/wiki/Jetty_(web_server)\" title=\"Jetty (web server)\">Jetty</a></li>\n<li><a href=\"/wiki/JFreeChart\" title=\"JFreeChart\">JFreeChart</a></li>\n<li><a href=\"/wiki/JProfiler\" title=\"JProfiler\">JProfiler</a></li>\n<li><a href=\"/wiki/Jsoup\" title=\"Jsoup\">JSoup</a></li>\n<li><a href=\"/wiki/JUNG\" title=\"JUNG\">JUNG</a></li>\n<li><a href=\"/wiki/JUnit\" title=\"JUnit\">JUnit</a></li>\n<li><a href=\"/wiki/LibGDX\" title=\"LibGDX\">LibGDX</a></li>\n<li><a href=\"/wiki/Liquibase\" title=\"Liquibase\">LiquiBase</a></li>\n<li><a href=\"/wiki/Lightweight_Java_Game_Library\" class=\"mw-redirect\" title=\"Lightweight Java Game Library\">LWJGL</a></li>\n<li><a href=\"/wiki/Netty_(software)\" title=\"Netty (software)\">Netty</a></li>\n<li><a href=\"/wiki/Neuroph\" title=\"Neuroph\">Neuroph</a></li>\n<li><a href=\"/wiki/ObjectWeb_ASM\" title=\"ObjectWeb ASM\">ObjectWeb ASM</a></li>\n<li><a href=\"/wiki/Oracle_WebLogic_Server\" class=\"mw-redirect\" title=\"Oracle WebLogic Server\">Oracle WebLogic</a></li>\n<li><a href=\"/wiki/OrientDB\" title=\"OrientDB\">OrientDB</a></li>\n<li><a href=\"/wiki/ORMLite\" class=\"mw-redirect\" title=\"ORMLite\">ORMLite</a></li>\n<li><a href=\"/wiki/Parallel_Colt\" title=\"Parallel Colt\">Parallel Colt</a></li>\n<li><a href=\"/wiki/Quartz_(scheduler)\" title=\"Quartz (scheduler)\">Quartz</a></li>\n<li><a href=\"/wiki/Selenium_(software)\" title=\"Selenium (software)\">Selenium</a></li>\n<li><a href=\"/wiki/SLF4J\" title=\"SLF4J\">SLF4J</a></li>\n<li><a href=\"/wiki/SonarQube\" title=\"SonarQube\">SonarQube</a></li>\n<li><a href=\"/wiki/Standard_Widget_Toolkit\" title=\"Standard Widget Toolkit\">Standard Widget Toolkit</a></li>\n<li><a href=\"/wiki/Spock_(testing_framework)\" title=\"Spock (testing framework)\">Spock</a></li>\n<li><a href=\"/wiki/TestNG\" title=\"TestNG\">TestNG</a></li>\n<li><a href=\"/wiki/Wildfly\" class=\"mw-redirect\" title=\"Wildfly\">Wildfly</a></li>\n<li><a href=\"/wiki/XStream\" title=\"XStream\">XStream</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_Java_software_and_tools#Machine_learning_and_AI\" title=\"List of Java software and tools\">Machine learning and AI</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left;\">\n<ul><li><a href=\"/wiki/Apache_Mahout\" title=\"Apache Mahout\">Apache Mahout</a></li>\n<li><a href=\"/wiki/Apache_MXNet\" title=\"Apache MXNet\">Apache MXNet</a></li>\n<li><a href=\"/wiki/Apache_OpenNLP\" title=\"Apache OpenNLP\">Apache OpenNLP</a></li>\n<li><a href=\"/wiki/Deeplearning4j\" title=\"Deeplearning4j\">Deeplearning4j</a></li>\n<li><a href=\"/wiki/Encog\" title=\"Encog\">Encog</a></li>\n<li><a href=\"/wiki/LIBSVM\" title=\"LIBSVM\">LIBSVM</a></li>\n<li><a href=\"/wiki/Mallet_(software_project)\" title=\"Mallet (software project)\">Mallet</a></li>\n<li><a href=\"/wiki/Apache_Spark#MLlib_machine_learning_library\" title=\"Apache Spark\">MLlib</a></li>\n<li><a href=\"/wiki/Neuroph\" title=\"Neuroph\">Neuroph</a></li>\n<li><a href=\"/wiki/Weka\" title=\"Weka\">Weka</a></li>\n<li><a href=\"/wiki/Yooreeka\" title=\"Yooreeka\">Yooreeka</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_Java_software_and_tools#Math_and_scientific_libraries\" title=\"List of Java software and tools\">Math and scientific libraries</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left;\">\n<ul><li><a href=\"/wiki/Colt_(libraries)\" title=\"Colt (libraries)\">Colt</a></li>\n<li><a href=\"/wiki/Efficient_Java_Matrix_Library\" title=\"Efficient Java Matrix Library\">Efficient Java Matrix Library</a></li>\n<li><a href=\"/wiki/Easy_Java_Simulations\" title=\"Easy Java Simulations\">Easy Java Simulations</a></li>\n<li><a href=\"/wiki/Exp4j\" title=\"Exp4j\">Exp4j</a></li>\n<li><a href=\"/wiki/GroovyLab\" title=\"GroovyLab\">GroovyLab</a></li>\n<li><a href=\"/wiki/JAMA_(numerical_linear_algebra_library)\" title=\"JAMA (numerical linear algebra library)\">JAMA</a></li>\n<li><a href=\"/wiki/Jblas:_Linear_Algebra_for_Java\" title=\"Jblas: Linear Algebra for Java\">Jblas</a></li>\n<li><a href=\"/wiki/Java_Astrodynamics_Toolkit\" title=\"Java Astrodynamics Toolkit\">Java Astrodynamics Toolkit</a></li>\n<li><a href=\"/wiki/Matrix_Toolkit_Java\" title=\"Matrix Toolkit Java\">Matrix Toolkit Java</a></li>\n<li><a href=\"/wiki/OjAlgo\" title=\"OjAlgo\">OjAlgo</a></li>\n<li><a href=\"/wiki/OptimJ\" title=\"OptimJ\">OptimJ</a></li>\n<li><a href=\"/wiki/Parallel_Colt\" title=\"Parallel Colt\">Parallel Colt</a></li>\n<li><a href=\"/wiki/SuanShu_numerical_library\" title=\"SuanShu numerical library\">SuanShu</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/Comparison_of_integrated_development_environments#Java\" title=\"Comparison of integrated development environments\">IDEs</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left;\">\n<ul><li><a href=\"/wiki/Android_Studio\" title=\"Android Studio\">Android Studio</a></li>\n<li><a href=\"/wiki/BlueJ\" title=\"BlueJ\">BlueJ</a></li>\n<li><a href=\"/wiki/DrJava\" title=\"DrJava\">DrJava</a></li>\n<li><a href=\"/wiki/Eclipse_(software)\" title=\"Eclipse (software)\">Eclipse IDE</a></li>\n<li><a href=\"/wiki/Greenfoot\" title=\"Greenfoot\">Greenfoot</a></li>\n<li><a href=\"/wiki/IntelliJ_IDEA\" title=\"IntelliJ IDEA\">IntelliJ IDEA</a></li>\n<li><a href=\"/wiki/JDeveloper\" title=\"JDeveloper\">JDeveloper</a></li>\n<li><a href=\"/wiki/JGRASP\" title=\"JGRASP\">jGRASP</a></li>\n<li><a href=\"/wiki/MyEclipse\" title=\"MyEclipse\">MyEclipse</a></li>\n<li><a href=\"/wiki/NetBeans_IDE\" class=\"mw-redirect\" title=\"NetBeans IDE\">NetBeans IDE</a></li>\n<li><a href=\"/wiki/Visual_Studio_Code\" title=\"Visual Studio Code\">Visual Studio Code</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_application_servers#Java\" title=\"List of application servers\">Application servers</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left;\">\n<ul><li><a href=\"/wiki/Apache_Geronimo\" title=\"Apache Geronimo\">Apache Geronimo</a></li>\n<li><a href=\"/wiki/Apache_MINA\" title=\"Apache MINA\">Apache MINA</a></li>\n<li><a href=\"/wiki/Apache_Tomcat\" title=\"Apache Tomcat\">Apache Tomcat</a></li>\n<li><a href=\"/wiki/Apache_TomEE\" title=\"Apache TomEE\">Apache TomEE</a></li>\n<li><a href=\"/wiki/Borland_Enterprise_Server\" title=\"Borland Enterprise Server\">Borland Enterprise Server</a></li>\n<li><a href=\"/wiki/ColdFusion\" class=\"mw-redirect\" title=\"ColdFusion\">ColdFusion</a></li>\n<li><a href=\"/wiki/GlassFish\" title=\"GlassFish\">GlassFish</a></li>\n<li><a href=\"/wiki/IBM_WebSphere_Application_Server\" title=\"IBM WebSphere Application Server\">IBM WebSphere Application Server</a></li>\n<li><a href=\"/wiki/IBM_WebSphere_Application_Server_Community_Edition\" title=\"IBM WebSphere Application Server Community Edition\">IBM WebSphere Application Server Community Edition</a></li>\n<li><a href=\"/wiki/JBoss_Enterprise_Application_Platform\" title=\"JBoss Enterprise Application Platform\">JBoss Enterprise Application Platform</a></li>\n<li><a href=\"/wiki/JEUS\" title=\"JEUS\">JEUS</a></li>\n<li><a href=\"/wiki/Jetty_(web_server)\" title=\"Jetty (web server)\">Jetty</a></li>\n<li><a href=\"/wiki/Lucee\" title=\"Lucee\">Lucee</a></li>\n<li><a href=\"/wiki/OC4J\" class=\"mw-redirect\" title=\"OC4J\">Oracle Containers for J2EE</a></li>\n<li><a href=\"/wiki/Oracle_WebLogic_Server\" class=\"mw-redirect\" title=\"Oracle WebLogic Server\">Oracle WebLogic Server</a></li>\n<li><a href=\"/wiki/Orion_Application_Server\" class=\"mw-redirect\" title=\"Orion Application Server\">Orion Application Server</a></li>\n<li><a href=\"/wiki/Payara_Server\" class=\"mw-redirect\" title=\"Payara Server\">Payara Server</a></li>\n<li><a href=\"/wiki/Resin_(software)\" title=\"Resin (software)\">Resin</a></li>\n<li><a href=\"/wiki/SAP_NetWeaver_Application_Server\" title=\"SAP NetWeaver Application Server\">SAP NetWeaver Application Server</a></li>\n<li><a href=\"/wiki/WildFly\" title=\"WildFly\">WildFly</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\">See also</div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left;\">\n<ul><li><a href=\"/wiki/Apache_Commons\" title=\"Apache Commons\">Apache Commons</a> and <a href=\"/wiki/Google_Guava\" title=\"Google Guava\">Google Guava</a></li>\n<li><a href=\"/wiki/Comparison_of_Java_virtual_machines\" title=\"Comparison of Java virtual machines\">Comparison of Java virtual machines</a></li>\n<li><a href=\"/wiki/List_of_Java_virtual_machines\" title=\"List of Java virtual machines\">List of Java virtual machines</a></li>\n<li><a href=\"/wiki/List_of_JVM_languages\" title=\"List of JVM languages\">List of JVM languages</a></li>\n<li><a href=\"/wiki/List_of_compilers#Java_compilers\" title=\"List of compilers\">List of Java compilers</a></li>\n<li><a href=\"/wiki/List_of_Java_software_and_tools\" title=\"List of Java software and tools\">List of Java software and tools</a></li>\n<li><a href=\"/wiki/List_of_Kotlin_software_and_tools\" title=\"List of Kotlin software and tools\">List of Kotlin software and tools</a></li>\n<li><a href=\"/wiki/List_of_unit_testing_frameworks#Java\" title=\"List of unit testing frameworks\">List of unit testing frameworks for Java</a></li>\n<li><a href=\"/wiki/Outline_of_the_Java_programming_language\" title=\"Outline of the Java programming language\">Outline of the Java programming language</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-below\">\n<ul><li><span class=\"nowrap\"><span class=\"skin-invert-image noviewer\" typeof=\"mw:File\"><a href=\"/wiki/File:Octicons-terminal.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/20px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"13\" height=\"15\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/40px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"896\" data-file-height=\"1024\" /></a></span> </span><a href=\"/wiki/Portal:Computer_programming\" title=\"Portal:Computer programming\">Computer programming&#32;portal</a></li>\n<li><a href=\"https://en.wikibooks.org/wiki/Java_Programming\" class=\"extiw\" title=\"wikibooks:Java Programming\">Java programming (Wikibooks)</a></li></ul></td></tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Java_sidebar\" title=\"Template:Java sidebar\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/w/index.php?title=Template_talk:Java_sidebar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Template talk:Java sidebar (page does not exist)\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Java_sidebar\" title=\"Special:EditPage/Template:Java sidebar\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>Java</b> is a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a>, <a href=\"/wiki/Memory_safety\" title=\"Memory safety\">memory-safe</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a>. It is intended to let <a href=\"/wiki/Programmer\" title=\"Programmer\">programmers</a> <i><a href=\"/wiki/Write_once,_run_anywhere\" title=\"Write once, run anywhere\">write once, run anywhere</a></i> (WORA),<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup> meaning that <a href=\"/wiki/Compiler\" title=\"Compiler\">compiled</a> Java code can run on all platforms that support Java without the need to recompile.<sup id=\"cite&#95;ref-design&#95;goals&#95;18-0\" class=\"reference\"><a href=\"#cite_note-design_goals-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup> Java applications are usually compiled to <a href=\"/wiki/JVM_bytecode\" title=\"JVM bytecode\">bytecode</a> that can run on any <a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">Java virtual machine</a> (JVM) regardless of the underlying <a href=\"/wiki/Computer_architecture\" title=\"Computer architecture\">computer architecture</a>.<sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup> The <a href=\"/wiki/Syntax_(programming_languages)\" title=\"Syntax (programming languages)\">syntax</a> of Java is similar to <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> and <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, but has fewer <a href=\"/wiki/Low-level_programming_language\" title=\"Low-level programming language\">low-level</a> facilities than either of them. The Java <a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">runtime</a> provides dynamic abilities (such as <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective programming</a> (reflection) and runtime code modification) usually unavailable in traditional compiled languages.\n</p><p>Java gained popularity shortly after its release, and has been a popular programming language since then.<sup id=\"cite&#95;ref-20\" class=\"reference\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup> Java was the third most popular programming language in 2022<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Java_(programming_language)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Java_(programming_language)&amp;action=edit\">&#91;update&#93;</a></sup> according to <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a>.<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> Although still widely popular, there has been a gradual decline in use of Java in recent years with <a href=\"/wiki/List_of_JVM_languages\" title=\"List of JVM languages\">other languages using JVM</a> gaining popularity.<sup id=\"cite&#95;ref-:0&#95;22-0\" class=\"reference\"><a href=\"#cite_note-:0-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Java was designed by <a href=\"/wiki/James_Gosling\" title=\"James Gosling\">James Gosling</a> at <a href=\"/wiki/Sun_Microsystems\" title=\"Sun Microsystems\">Sun Microsystems</a>. It was released in May 1995 as a core component of Sun's <a href=\"/wiki/Java_(software_platform)\" title=\"Java (software platform)\">Java platform</a>. The original and <a href=\"/wiki/Reference_implementation\" title=\"Reference implementation\">reference implementation</a> Java <a href=\"/wiki/Compiler\" title=\"Compiler\">compilers</a>, <a href=\"/wiki/Virtual_machine\" title=\"Virtual machine\">virtual machines</a> (VMs), and <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">class libraries</a> were released by Sun under <a href=\"/wiki/Proprietary_license\" class=\"mw-redirect\" title=\"Proprietary license\">proprietary licenses</a>. As of May 2007, in compliance with the specifications of the <a href=\"/wiki/Java_Community_Process\" title=\"Java Community Process\">Java Community Process</a>, Sun had <a href=\"/wiki/Software_relicensing\" title=\"Software relicensing\">relicensed</a> most of its Java technologies under the <a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GPL-2.0-only</a> license. <a href=\"/wiki/Oracle_Corporation\" title=\"Oracle Corporation\">Oracle</a>, which bought Sun in 2010, offers its own <a href=\"/wiki/HotSpot\" title=\"HotSpot\">HotSpot</a> Java virtual machine. However, the official <a href=\"/wiki/Reference_implementation\" title=\"Reference implementation\">reference implementation</a> is the <a href=\"/wiki/OpenJDK\" title=\"OpenJDK\">OpenJDK</a> JVM, which is open-source software used by most developers and is the default JVM for almost all <a href=\"/wiki/Linux_distribution\" title=\"Linux distribution\">Linux distributions</a>.\n</p><p>As of March&#160;2026,<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Java_(programming_language)&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Java_(programming_language)&amp;action=edit\">&#91;update&#93;</a></sup> Java 26 is the current version.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFBinstock,&#95;Andrew2015\" class=\"citation magazine cs1\">Binstock, Andrew (May 20, 2015). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.forbes.com/sites/oracle/2015/05/20/javas-20-years-of-innovation/\">\"Java's 20 Years of Innovation\"</a>. <i>Forbes</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160314102242/http://www.forbes.com/sites/oracle/2015/05/20/javas-20-years-of-innovation/\">Archived</a> from the original on March 14, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 18,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Forbes&amp;rft.atitle=Java%27s+20+Years+of+Innovation&amp;rft.date=2015-05-20&amp;rft.au=Binstock%2C+Andrew&amp;rft&#95;id=https%3A%2F%2Fwww.forbes.com%2Fsites%2Foracle%2F2015%2F05%2F20%2Fjavas-20-years-of-innovation%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-69fd77bc6aa38460e2a59627bbc7a62101f8fa61-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://openjdk.org/projects/jdk/26/\">\"JDK 26\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=JDK+26&amp;rft&#95;id=https%3A%2F%2Fopenjdk.org%2Fprojects%2Fjdk%2F26%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-BarbaraLiskov-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-BarbaraLiskov_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-BarbaraLiskov_3-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-BarbaraLiskov_3-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-BarbaraLiskov_3-3\"><sup><i><b>d</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBarbara&#95;Liskov&#95;with&#95;John&#95;Guttag2000\" class=\"citation book cs1\"><a href=\"/wiki/Barbara_Liskov\" title=\"Barbara Liskov\">Barbara Liskov</a> with <a href=\"/wiki/John_Guttag\" title=\"John Guttag\">John Guttag</a> (2000). <i>Program Development in Java – Abstraction, Specification, and Object-Oriented Design</i>. USA, Addison Wesley. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-201-65768-5\" title=\"Special:BookSources/978-0-201-65768-5\"><bdi>978-0-201-65768-5</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Program+Development+in+Java+%E2%80%93+Abstraction%2C+Specification%2C+and+Object-Oriented+Design&amp;rft.pub=USA%2C+Addison+Wesley&amp;rft.date=2000&amp;rft.isbn=978-0-201-65768-5&amp;rft.au=Barbara+Liskov+with+John+Guttag&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFChaudhary2014\" class=\"citation web cs1\">Chaudhary, Harry H. (July 28, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=0rUtBAAAQBAJ&amp;pg=PAPA133\">\"Cracking The Java Programming Interview: 2000+ Java Interview Que/Ans\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230929040943/https://books.google.com/books?id=0rUtBAAAQBAJ&amp;pg=PAPA133#v=onepage&amp;q&amp;f=false\">Archived</a> from the original on September 29, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 29,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Cracking+The+Java+Programming+Interview%3A+2000%2B+Java+Interview+Que%2FAns&amp;rft.date=2014-07-28&amp;rft.aulast=Chaudhary&amp;rft.aufirst=Harry+H.&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D0rUtBAAAQBAJ%26pg%3DPAPA133&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\">Java&#160;5.0 added several new language features (the <a href=\"/wiki/Foreach_loop\" class=\"mw-redirect\" title=\"Foreach loop\">enhanced for loop</a>, <a href=\"/wiki/Boxing_(computer_programming)#Autoboxing\" title=\"Boxing (computer programming)\">autoboxing</a>, <a href=\"/wiki/Variadic_function\" title=\"Variadic function\">varargs</a> and <a href=\"/wiki/Java_annotation\" title=\"Java annotation\">annotations</a>), after they were introduced in the similar (and competing) <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a> language. <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.barrycornelius.com/papers/java5/\">[1]</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110319065438/http://www.barrycornelius.com/papers/java5/\">Archived</a> March 19, 2011, at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.levenez.com/lang/\">[2]</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20060107162045/http://www.levenez.com/lang/\">Archived</a> January 7, 2006, at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGosling,&#95;JamesMcGilton,&#95;Henry1996\" class=\"citation web cs1\">Gosling, James; McGilton, Henry (May 1996). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.oracle.com/technetwork/java/langenv-140151.html\">\"The Java Language Environment\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140506214653/http://www.oracle.com/technetwork/java/langenv-140151.html\">Archived</a> from the original on May 6, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 6,</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Java+Language+Environment&amp;rft.date=1996-05&amp;rft.au=Gosling%2C+James&amp;rft.au=McGilton%2C+Henry&amp;rft&#95;id=https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2Fjava%2Flangenv-140151.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGosling,&#95;JamesJoy,&#95;BillSteele,&#95;GuyBracha,&#95;Gilad\" class=\"citation web cs1\">Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad. <a rel=\"nofollow\" class=\"external text\" href=\"https://java.sun.com/docs/books/jls/second_edition/html/intro.doc.html#237601\">\"The Java Language Specification, 2nd Edition\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110805051057/http://java.sun.com/docs/books/jls/second_edition/html/intro.doc.html#237601\">Archived</a> from the original on August 5, 2011<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 8,</span> 2008</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Java+Language+Specification%2C+2nd+Edition&amp;rft.au=Gosling%2C+James&amp;rft.au=Joy%2C+Bill&amp;rft.au=Steele%2C+Guy&amp;rft.au=Bracha%2C+Gilad&amp;rft&#95;id=https%3A%2F%2Fjava.sun.com%2Fdocs%2Fbooks%2Fjls%2Fsecond&#95;edition%2Fhtml%2Fintro.doc.html%23237601&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090105145818/http://www.computerworld.com.au/index.php/id%3B1422447371%3Bpp%3B3%3Bfp%3B4194304%3Bfpid%3B1\">\"The A-Z of Programming Languages: Modula-3\"</a>. Computerworld. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.computerworld.com.au/index.php/id;1422447371;pp;3;fp;4194304;fpid;1\">the original</a> on January 5, 2009<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 9,</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+A-Z+of+Programming+Languages%3A+Modula-3&amp;rft.pub=Computerworld&amp;rft&#95;id=http%3A%2F%2Fwww.computerworld.com.au%2Findex.php%2Fid%3B1422447371%3Bpp%3B3%3Bfp%3B4194304%3Bfpid%3B1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><a href=\"/wiki/Niklaus_Wirth\" title=\"Niklaus Wirth\">Niklaus Wirth</a> stated on a number of public occasions, e.g., in a lecture at the Polytechnic Museum, Moscow in September 2005 (several independent first-hand accounts in Russian exist, e.g., one with an audio recording: <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFilippova,&#95;Elena2005\" class=\"citation web cs1\">Filippova, Elena (September 22, 2005). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.delphikingdom.com/asp/viewitem.asp?catalogid=1155\">\"Niklaus Wirth's lecture at the Polytechnic Museum in Moscow\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201201054813/http://www.delphikingdom.com/asp/viewitem.asp?catalogid=1155\">Archived</a> from the original on December 1, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 20,</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Niklaus+Wirth%27s+lecture+at+the+Polytechnic+Museum+in+Moscow&amp;rft.date=2005-09-22&amp;rft.au=Filippova%2C+Elena&amp;rft&#95;id=http%3A%2F%2Fwww.delphikingdom.com%2Fasp%2Fviewitem.asp%3Fcatalogid%3D1155&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span>), that the Sun Java design team licensed the Oberon compiler sources a number of years prior to the release of Java and examined it: a (relative) compactness, type safety, garbage collection, no multiple inheritance for classes&#160;&#8211;&#32; all these key overall design features are shared by Java and Oberon.</span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><a href=\"/w/index.php?title=Patrick_Naughton&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Patrick Naughton (page does not exist)\">Patrick Naughton</a> cites <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a> as a strong influence on the design of the Java programming language, stating that notable direct derivatives include Java interfaces (derived from Objective-C's <a href=\"/wiki/Objective-C#Protocols\" title=\"Objective-C\">protocol</a>) and primitive wrapper classes. <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://cs.gmu.edu/~sean/stuff/java-objc.html\">[3]</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110713014816/http://cs.gmu.edu/~sean/stuff/java-objc.html\">Archived</a> July 13, 2011, at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFTechMetrix&#95;Research1999\" class=\"citation web cs1\">TechMetrix Research (1999). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20101229090912/http://www.fscript.org/prof/javapassport.pdf\">\"History of Java\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>Java Application Servers Report</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.fscript.org/prof/javapassport.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on December 29, 2010. <q>The project went ahead under the name <i>green</i> and the language was based on an old model of <a href=\"/wiki/UCSD_Pascal\" title=\"UCSD Pascal\">UCSD Pascal</a>, which makes it possible to generate interpretive code.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Java+Application+Servers+Report&amp;rft.atitle=History+of+Java&amp;rft.date=1999&amp;rft.au=TechMetrix+Research&amp;rft&#95;id=http%3A%2F%2Fwww.fscript.org%2Fprof%2Fjavapassport.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation magazine cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://queue.acm.org/detail.cfm?id=1017013\">\"A Conversation with James Gosling\"</a>. <i><a href=\"/wiki/ACM_Queue\" title=\"ACM Queue\">ACM Queue</a></i>. Vol.&#160;2, no.&#160;5. <a href=\"/wiki/Association_for_Computing_Machinery\" title=\"Association for Computing Machinery\">Association for Computing Machinery</a>. August 31, 2004. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150716194245/http://queue.acm.org/detail.cfm?id=1017013\">Archived</a> from the original on July 16, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 9,</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ACM+Queue&amp;rft.atitle=A+Conversation+with+James+Gosling&amp;rft.volume=2&amp;rft.issue=5&amp;rft.date=2004-08-31&amp;rft&#95;id=http%3A%2F%2Fqueue.acm.org%2Fdetail.cfm%3Fid%3D1017013&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFThe&#95;Java&#95;Language&#95;Team\" class=\"citation report cs1\">The Java Language Team. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120627043929/http://java.sun.com/docs/white/delegates.html\">About Microsoft's 'Delegates'</a> (White Paper). JavaSoft, Sun Microsystems, Inc. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://java.sun.com/docs/white/delegates.html\">the original</a> on June 27, 2012. <q>In the summer of 1996, Sun was designing the precursor to what is now the event model of the AWT and the JavaBeans component architecture. Borland contributed greatly to this process. We looked very carefully at Delphi Object Pascal and built a working prototype of bound method references in order to understand their interaction with the Java programming language and its APIs.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=About+Microsoft%27s+%27Delegates%27&amp;rft.pub=JavaSoft%2C+Sun+Microsystems%2C+Inc.&amp;rft.au=The+Java+Language+Team&amp;rft&#95;id=http%3A%2F%2Fjava.sun.com%2Fdocs%2Fwhite%2Fdelegates.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-chplspec-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-chplspec_14-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://chapel.cray.com/spec/spec-0.98.pdf\">\"Chapel spec (Acknowledgements)\"</a> <span class=\"cs1-format\">(PDF)</span>. Cray Inc. October 1, 2015. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160205114946/http://chapel.cray.com/spec/spec-0.98.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on February 5, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 14,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chapel+spec+%28Acknowledgements%29&amp;rft.pub=Cray+Inc.&amp;rft.date=2015-10-01&amp;rft&#95;id=http%3A%2F%2Fchapel.cray.com%2Fspec%2Fspec-0.98.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gambas-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-gambas_15-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://gambaswiki.org/wiki/doc/intro?nh&amp;l=en\">\"Gambas Documentation Introduction\"</a>. Gambas Website. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171009041815/http://gambaswiki.org/wiki/doc/intro?nh&amp;l=en\">Archived</a> from the original on October 9, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 9,</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Gambas+Documentation+Introduction&amp;rft.pub=Gambas+Website&amp;rft&#95;id=http%3A%2F%2Fgambaswiki.org%2Fwiki%2Fdoc%2Fintro%3Fnh%26l%3Den&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation magazine cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.infoworld.com/article/2610885/facebook-q-a--hack-brings-static-typing-to-php-world.html\">\"Facebook Q&amp;A: Hack brings static typing to PHP world\"</a>. <i>InfoWorld</i>. March 26, 2014. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150213220946/http://www.infoworld.com/article/2610885/facebook-q-a--hack-brings-static-typing-to-php-world.html\">Archived</a> from the original on February 13, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 11,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=InfoWorld&amp;rft.atitle=Facebook+Q%26A%3A+Hack+brings+static+typing+to+PHP+world&amp;rft.date=2014-03-26&amp;rft&#95;id=http%3A%2F%2Fwww.infoworld.com%2Farticle%2F2610885%2Ffacebook-q-a--hack-brings-static-typing-to-php-world.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.computerweekly.com/Articles/2002/05/02/186793/write-once-run-anywhere.htm\">\"Write once, run anywhere?\"</a>. <a href=\"/wiki/Computer_Weekly\" title=\"Computer Weekly\">Computer Weekly</a>. May 2, 2002. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210813193857/https://www.computerweekly.com/feature/Write-once-run-anywhere\">Archived</a> from the original on August 13, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 27,</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Write+once%2C+run+anywhere%3F&amp;rft.pub=Computer+Weekly&amp;rft.date=2002-05-02&amp;rft&#95;id=http%3A%2F%2Fwww.computerweekly.com%2FArticles%2F2002%2F05%2F02%2F186793%2Fwrite-once-run-anywhere.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-design&#95;goals-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-design_goals_18-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.oracle.com/technetwork/java/intro-141325.html\">\"1.2 Design Goals of the Java Programming Language\"</a>. Oracle. January 1, 1999. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20130123204103/http://www.oracle.com/technetwork/java/intro-141325.html\">Archived</a> from the original on January 23, 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 14,</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=1.2+Design+Goals+of+the+Java+Programming+Language&amp;rft.pub=Oracle&amp;rft.date=1999-01-01&amp;rft&#95;id=https%3A%2F%2Fwww.oracle.com%2Ftechnetwork%2Fjava%2Fintro-141325.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-19\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external free\" href=\"https://arxiv.org/pdf/1908.11685\">https://arxiv.org/pdf/1908.11685</a> Java programming language</span>\n</li>\n<li id=\"cite&#95;note-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-20\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMelanson2022\" class=\"citation web cs1\">Melanson, Mike (August 9, 2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/readme/featured/java-programming-language\">\"Don't call it a comeback: Why Java is still champ\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230825195416/https://github.com/readme/featured/java-programming-language\">Archived</a> from the original on August 25, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 15,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Don%27t+call+it+a+comeback%3A+Why+Java+is+still+champ&amp;rft.date=2022-08-09&amp;rft.aulast=Melanson&amp;rft.aufirst=Mike&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Freadme%2Ffeatured%2Fjava-programming-language&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://octoverse.github.com/2022/top-programming-languages\">\"The top programming languages\"</a>. <i>The State of the Octoverse</i>. <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230802203718/https://octoverse.github.com/2022/top-programming-languages\">Archived</a> from the original on August 2, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 15,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+State+of+the+Octoverse&amp;rft.atitle=The+top+programming+languages&amp;rft&#95;id=https%3A%2F%2Foctoverse.github.com%2F2022%2Ftop-programming-languages&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_22-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMcMillan2013\" class=\"citation magazine cs1\">McMillan, Robert (August 1, 2013). <span class=\"id-lock-limited\" title=\"Free access subject to limited trial, subscription normally required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wired.com/2013/01/java-no-longer-a-favorite/\">\"Is Java Losing Its Mojo?\"</a></span>. <i><a href=\"/wiki/Wired.com\" class=\"mw-redirect\" title=\"Wired.com\">Wired</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170215115409/https://www.wired.com/2013/01/java-no-longer-a-favorite/\">Archived</a> from the original on February 15, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 15,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Wired&amp;rft.atitle=Is+Java+Losing+Its+Mojo%3F&amp;rft.date=2013-08-01&amp;rft.aulast=McMillan&amp;rft.aufirst=Robert&amp;rft&#95;id=https%3A%2F%2Fwww.wired.com%2F2013%2F01%2Fjava-no-longer-a-favorite%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJava+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐gs7kr\nCached time: 20260918163221\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.710 seconds\nReal time usage: 1.147 seconds\nPreprocessor visited node count: 2438/1000000\nRevision size: 13961/2097152 bytes\nPost‐expand include size: 82843/2097152 bytes\nTemplate argument size: 8483/2097152 bytes\nHighest expansion depth: 22/100\nExpensive parser function count: 13/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 62816/5000000 bytes\nLua time usage: 0.476/10.000 seconds\nLua memory usage: 9599660/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00% 1043.194      1 -total\n 42.47%  443.011      2 Template:Infobox\n 38.36%  400.220      1 Template:Infobox_programming_language\n 22.53%  235.005      1 Template:Infobox_software/simple\n 18.67%  194.758      1 Template:Short_description\n 18.06%  188.411      2 Template:Wikidata\n 11.70%  122.013      2 Template:Pagetype\n  9.42%   98.312      1 Template:Java_sidebar\n  7.47%   77.962     12 Template:Cite_web\n  5.21%   54.388      1 Template:Ubl\n-->\n\n<!-- Render ID 855e6368-b37e-11f1-9b8b-ab33daba96a1 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Javanese language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ACM Queue",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Akka (toolkit)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Accumulo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache ActiveMQ",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Ant",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Avro",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Axis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache CXF",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Camel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Click",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Cocoon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Commons",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Empire-db",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Felix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Flume",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Geronimo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Giraph",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Groovy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache HBase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Hadoop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Hive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Jackrabbit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Kafka",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Lucene",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache MINA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache MXNet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Mahout",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Mesos",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Nutch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Oozie",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache OpenNLP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache PDFBox",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache POI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Pivot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Qpid",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Samza",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Shiro",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Sling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Solr",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Spark",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Struts",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Tapestry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Tika",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache TomEE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Tomcat",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Velocity",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Wicket",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Xerces",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache ZooKeeper",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AppFuse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ArkTS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Association for Computing Machinery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Barbara Liskov",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Barracuda (web framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BeanShell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BioJava",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BlueJ",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Borland Enterprise Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bouncy Castle (cryptography)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boxing (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cascading (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chapel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class-based programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Codename One",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ColdFusion",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Colt (libraries)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of Java virtual machines",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of integrated development environments",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer Weekly",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CruiseControl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dart (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deeplearning4j",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Direct Web Remoting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DrJava",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Drools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ECMAScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ELKI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Easy Java Simulations",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EclipseLink",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eclipse (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Efficient Java Matrix Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ehcache",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elasticsearch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Encog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Exp4j",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fantom (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Foreach loop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeMarker",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gambas",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GeoAPI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GeoTools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GlassFish",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Guava",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Guice",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Web Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Grails (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Greenfoot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GroovyLab",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "H2 Database Engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HSQLDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hack (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hardware virtualization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haxe",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hibernate (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HotSpot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBATIS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM WebSphere Application Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM WebSphere Application Server Community Edition",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IText",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Infinispan",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IntelliJ IDEA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JAMA (numerical linear algebra library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JAR (file format)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JAX-RS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JAX-WS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JAXB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JBoss Enterprise Application Platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JBoss Seam",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JDeveloper",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JEUS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JFreeChart",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JGRASP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JHipster",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JProfiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JS++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JTS Topology Suite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JUNG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JUnit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JVM bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jackson (API)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "James Gosling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JasperReports",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaFX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaServer Faces",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (software platform)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java API for XML Processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java APIs for Bluetooth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Astrodynamics Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Collections Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Community Process",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Media Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java annotation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java class file",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jblas: Linear Algebra for Java",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jena (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jetty (web server)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jini",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John Guttag",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jsoup",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Keycloak",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kotlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LIBSVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibGDX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lightweight Java Game Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Liquibase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of JVM languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Java frameworks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Java software and tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Java virtual machines",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Kotlin software and tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of application servers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of unit testing frameworks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Log4j",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Low-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lucee",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mallet (software project)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manifest typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Matrix Toolkit Java",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mesa (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Micronaut (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MyBatis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MyEclipse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NetBeans IDE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netty (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Neuroph",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Niklaus Wirth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OC4J",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ORMLite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oberon (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ObjectWeb ASM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object Oriented Data Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object Pascal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OjAlgo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenJDK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OptimJ",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Application Development Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle WebLogic Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OrientDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Orion Application Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the Java programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel Colt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Payara Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pig (programming tool)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Play Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PrimeFaces",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Project Jersey",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quarkus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quartz (scheduler)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reference implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Resin (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAP NetWeaver Application Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SLF4J",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Selenium (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software relicensing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SonarQube",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spock (testing framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spring Integration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spring Roo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spring Security",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard Widget Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Storm (event processor)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SuanShu numerical library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sun Microsystems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TestNG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thymeleaf",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UCSD Pascal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UIMA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vaadin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Variadic function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vert.x",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual J Sharp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio Code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WAR (file format)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayback Machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Weka",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WildFly",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wildfly",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wired.com",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Write once, run anywhere",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XStream",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Yooreeka",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ZK (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Patrick Naughton",
+            "exists": false
+          },
+          {
+            "ns": 10,
+            "title": "Template:Java sidebar",
+            "exists": true
+          },
+          {
+            "ns": 100,
+            "title": "Portal:Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Java sidebar",
+            "exists": false
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Object-oriented programming language",
+          "page_image": "Java_programming_language_logo.svg",
+          "wikibase_item": "Q251"
+        }
+      }
+    }
+  ]
+}

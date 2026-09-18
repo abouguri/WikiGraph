@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rasmus Lerdorf",
+    "url": "https://en.wikipedia.org/wiki/Rasmus_Lerdorf",
+    "summary": "Danish-Canadian programmer and creator of PHP (born 1968) Rasmus Lerdorf Lerdorf in 2014 Born ( 1968-11-22 ) 22 November 1968 (age 57) Qeqertarsuaq , Greenland , Kingdom of Denmark Education University of Waterloo ( BAS ) Occupation Programmer Known for PHP Website toys .lerdorf .com Lerdorf talks about security with Joomla! developers at OSCMS 2007 Conference. Rasmus Lerdorf ( Danish: [ˈleɐ̯ˌtɒˀf] ; born 22 November 1968) is a Danish-Canadian programmer . He is best known as the creator of PHP , a general-purpose scripting language , which he created in 1993 and released in 1995. He continues to contribute to the language's development. Cite error: There are <ref group=‡> tags on this page, but the references will not show without a {{reflist|group=‡}} template (see the help page ).",
+    "text": "Danish-Canadian programmer and creator of PHP (born 1968) Rasmus Lerdorf Lerdorf in 2014 Born ( 1968-11-22 ) 22 November 1968 (age 57) Qeqertarsuaq , Greenland , Kingdom of Denmark Education University of Waterloo ( BAS ) Occupation Programmer Known for PHP Website toys .lerdorf .com Lerdorf talks about security with Joomla! developers at OSCMS 2007 Conference. Rasmus Lerdorf ( Danish: [ˈleɐ̯ˌtɒˀf] ; born 22 November 1968) is a Danish-Canadian programmer . He is best known as the creator of PHP , a general-purpose scripting language , which he created in 1993 and released in 1995. He continues to contribute to the language's development. Cite error: There are <ref group=‡> tags on this page, but the references will not show without a {{reflist|group=‡}} template (see the help page ).",
+    "links": [
+      "Bachelor of Applied Science",
+      "Danish-Canadian",
+      "Denmark",
+      "General-purpose programming language",
+      "Greenland",
+      "Joomla",
+      "PHP",
+      "Programmer",
+      "Qeqertarsuaq",
+      "Scripting language",
+      "University of Waterloo"
+    ],
+    "page_id": 465672,
+    "revision_id": 1372706037,
+    "retrieved_at": "2026-09-18T16:42:20.033313+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260831211521|1372460708",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 465672,
+            "ns": 0,
+            "title": "Rasmus Lerdorf",
+            "revisions": [
+              {
+                "revid": 1372706037,
+                "parentid": 1372460708
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Lerdorf, Rasmus",
+              "page_image_free": "Rasmus_Lerdorf_August_2014_(cropped).JPG",
+              "wikibase-shortdesc": "Danish-Canadian programmer and creator of PHP (born 1968)",
+              "wikibase_item": "Q92768"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Rasmus Lerdorf",
+        "pageid": 465672,
+        "revid": 1372706037,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Danish-Canadian programmer and creator of PHP (born 1968)</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox biography vcard\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\"><div class=\"fn\">Rasmus Lerdorf</div></th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Rasmus_Lerdorf_August_2014_(cropped).JPG\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Rasmus_Lerdorf_August_2014_%28cropped%29.JPG/250px-Rasmus_Lerdorf_August_2014_%28cropped%29.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"188\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Rasmus_Lerdorf_August_2014_%28cropped%29.JPG/500px-Rasmus_Lerdorf_August_2014_%28cropped%29.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2048\" data-file-height=\"1536\" /></a></span><div class=\"infobox-caption\">Lerdorf in 2014</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Born</th><td class=\"infobox-data\"><span style=\"display:none\"> (<span class=\"bday\">1968-11-22</span>) </span>22 November 1968<span class=\"noprint ForceAgeToShow\"> (age&#160;57)</span><br /><div style=\"display:inline\" class=\"birthplace\"><a href=\"/wiki/Qeqertarsuaq\" title=\"Qeqertarsuaq\">Qeqertarsuaq</a>, <a href=\"/wiki/Greenland\" title=\"Greenland\">Greenland</a>, <a href=\"/wiki/Denmark\" title=\"Denmark\">Kingdom of Denmark</a></div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Education</th><td class=\"infobox-data\"><a href=\"/wiki/University_of_Waterloo\" title=\"University of Waterloo\">University of Waterloo</a> (<a href=\"/wiki/Bachelor_of_Applied_Science\" title=\"Bachelor of Applied Science\">BAS</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Occupation</th><td class=\"infobox-data role\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Programmer</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Known&#160;for</th><td class=\"infobox-data\"><a href=\"/wiki/PHP\" title=\"PHP\">PHP</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://toys.lerdorf.com/\">toys<wbr />.lerdorf<wbr />.com</a></span></span> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q92768#P856\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr></tbody></table>\n<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:RasmuswJGang.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/RasmuswJGang.jpg/250px-RasmuswJGang.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"181\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/a/ac/RasmuswJGang.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"450\" data-file-height=\"325\" /></a><figcaption>Lerdorf talks about security with <a href=\"/wiki/Joomla\" title=\"Joomla\">Joomla!</a> developers at OSCMS 2007 Conference.</figcaption></figure>\n<p><b>Rasmus Lerdorf</b> (<style data-mw-deduplicate=\"TemplateStyles:r1177148991\">.mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .IPA-label-small{font-size:100%}</style><span class=\"IPA-label IPA-label-small\">Danish:</span> <span class=\"IPA nowrap\" lang=\"da-Latn-fonipa\"><a href=\"/wiki/Help:IPA/Danish\" title=\"Help:IPA/Danish\">&#91;ˈleɐ̯ˌtɒˀf&#93;</a></span>; born 22 November 1968) is a <a href=\"/wiki/Danish-Canadian\" class=\"mw-redirect\" title=\"Danish-Canadian\">Danish-Canadian</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>‡ 1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Programmer\" title=\"Programmer\">programmer</a>. He is best known as the creator of <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a>, a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a> <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">scripting language</a>, which he created in 1993 and released in 1995. He continues to contribute to the language's development.\n<br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;‡&gt;</code> tags on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;‡&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span>\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐vc4vv\nCached time: 20260918164246\nCache expiry: 28800\nCache expiry source: Module:Age (os.date *t .day)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.353 seconds\nReal time usage: 0.483 seconds\nPreprocessor visited node count: 1945/1000000\nRevision size: 1330/2097152 bytes\nPost‐expand include size: 12750/2097152 bytes\nTemplate argument size: 4177/2097152 bytes\nHighest expansion depth: 13/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 1888/5000000 bytes\nLua time usage: 0.216/10.000 seconds\nLua memory usage: 16468952/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  464.794      1 -total\n 36.54%  169.825      1 Template:Infobox_person\n 27.92%  129.785      1 Template:IPA\n 16.77%   77.933      1 Template:Short_description\n 11.05%   51.373      4 Template:Br_separated_entries\n  9.85%   45.799      2 Template:Pagetype\n  6.96%   32.343      1 Template:Birth_date_and_age\n  6.12%   28.438     17 Template:Main_other\n  4.88%   22.662     21 Template:Pluralize_from_text\n  4.83%   22.433      2 Template:Broken_ref\n-->\n\n<!-- Render ID f9e5caac-b37f-11f1-8a83-4f95499c0a48 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Bachelor of Applied Science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Danish-Canadian",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Denmark",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Greenland",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Joomla",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Qeqertarsuaq",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scripting language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Waterloo",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/Danish",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Danish-Canadian programmer and creator of PHP (born 1968)",
+          "page_image_free": "Rasmus_Lerdorf_August_2014_(cropped).JPG",
+          "wikibase_item": "Q92768"
+        }
+      }
+    }
+  ]
+}

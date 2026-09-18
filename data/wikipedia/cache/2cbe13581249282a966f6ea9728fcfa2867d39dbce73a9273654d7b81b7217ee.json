@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OCaml",
+    "url": "https://en.wikipedia.org/wiki/OCaml",
+    "summary": "Programming language Not to be confused with occam (programming language) . OCaml Paradigms Multi-paradigm : functional , imperative , modular , object-oriented Family ML : Caml Designed by Xavier Leroy , Jérôme Vouillon, Damien Doligez , Didier Rémy, Ascánder Suárez Developer Inria First appeared 1996 ; 30 years ago ( 1996 ) Stable release 5.5.0 / 19 June 2026 ; 2 months ago ( 19 June 2026 ) Typing discipline Inferred , static , strong , structural Implementation language OCaml, C Platform IA-32 , x86-64 , Power , SPARC , ARM 32-64 , RISC-V OS Cross-platform : Linux , Unix , macOS , Windows License LGPLv2.1 Filename extensions .ml, .mli Website ocaml .org Influenced by C , Caml , Modula-3 , Pascal , Standard ML Influenced ATS , Rocq (former name: Coq ), Elm , F# , F* , Haxe , Opa , Rust , Scala , Gleam OCaml at Wikibooks OCaml ( / oʊ ˈ k æ m əl / oh- KAM -əl , formerly Objective Caml ) is a general-purpose , high-level , multi-paradigm programming language which extends the Caml dialect of ML with object-oriented features. OCaml was created in 1996 by Xavier Leroy , Jérôme Vouillon, Damien Doligez , Didier Rémy, Ascánder Suárez, and others. The OCaml toolchain includes an interactive top-level interpreter , a bytecode compiler , an optimizing native code compiler, a reversible debugger , and a package manager ( OPAM ) together with a composable build system for OCaml ( Dune ). OCaml was developed first in the context of automated theorem proving , and is used in static analysis and formal methods software. Beyond these areas, it has found use in systems programming , web development , and specific financial utilities, among other application domains. The acronym CAML originally stood for Categorical Abstract Machine Language , but OCaml omits this abstract machine . OCaml is a free and open-source software project managed and principally maintained by the French Institute for Research in Computer Science and Automation (Inria). In the early 2000s, elements from OCaml were adopted by many languages, notably F# and Scala . ^ \"Modules\" . Retrieved 22 February 2020 . ^ Leroy, Xavier (1996). \"Objective Caml 1.00\" . caml-list mailing list. ^ \"OCaml 5.5.0 Release Notes\" . ^ \"Influences - The Rust Reference\" . The Rust Reference . Retrieved 31 December 2023 . ^ \"Jérôme Vouillon\" . www.irif.fr . Retrieved 14 June 2024 . ^ \"Didier Remy\" . pauillac.inria.fr . Retrieved 14 June 2024 . ^ \"A History of OCaml\" . Retrieved 24 December 2016 .",
+    "text": "Programming language Not to be confused with occam (programming language) . OCaml Paradigms Multi-paradigm : functional , imperative , modular , object-oriented Family ML : Caml Designed by Xavier Leroy , Jérôme Vouillon, Damien Doligez , Didier Rémy, Ascánder Suárez Developer Inria First appeared 1996 ; 30 years ago ( 1996 ) Stable release 5.5.0 / 19 June 2026 ; 2 months ago ( 19 June 2026 ) Typing discipline Inferred , static , strong , structural Implementation language OCaml, C Platform IA-32 , x86-64 , Power , SPARC , ARM 32-64 , RISC-V OS Cross-platform : Linux , Unix , macOS , Windows License LGPLv2.1 Filename extensions .ml, .mli Website ocaml .org Influenced by C , Caml , Modula-3 , Pascal , Standard ML Influenced ATS , Rocq (former name: Coq ), Elm , F# , F* , Haxe , Opa , Rust , Scala , Gleam OCaml at Wikibooks OCaml ( / oʊ ˈ k æ m əl / oh- KAM -əl , formerly Objective Caml ) is a general-purpose , high-level , multi-paradigm programming language which extends the Caml dialect of ML with object-oriented features. OCaml was created in 1996 by Xavier Leroy , Jérôme Vouillon, Damien Doligez , Didier Rémy, Ascánder Suárez, and others. The OCaml toolchain includes an interactive top-level interpreter , a bytecode compiler , an optimizing native code compiler, a reversible debugger , and a package manager ( OPAM ) together with a composable build system for OCaml ( Dune ). OCaml was developed first in the context of automated theorem proving , and is used in static analysis and formal methods software. Beyond these areas, it has found use in systems programming , web development , and specific financial utilities, among other application domains. The acronym CAML originally stood for Categorical Abstract Machine Language , but OCaml omits this abstract machine . OCaml is a free and open-source software project managed and principally maintained by the French Institute for Research in Computer Science and Automation (Inria). In the early 2000s, elements from OCaml were adopted by many languages, notably F# and Scala . ^ \"Modules\" . Retrieved 22 February 2020 . ^ Leroy, Xavier (1996). \"Objective Caml 1.00\" . caml-list mailing list. ^ \"OCaml 5.5.0 Release Notes\" . ^ \"Influences - The Rust Reference\" . The Rust Reference . Retrieved 31 December 2023 . ^ \"Jérôme Vouillon\" . www.irif.fr . Retrieved 14 June 2024 . ^ \"Didier Remy\" . pauillac.inria.fr . Retrieved 14 June 2024 . ^ \"A History of OCaml\" . Retrieved 24 December 2016 .",
+    "links": [
+      "ARM architecture",
+      "ATS (programming language)",
+      "Abstract machine",
+      "Automated theorem proving",
+      "Bytecode",
+      "C (programming language)",
+      "Caml",
+      "Comparison of multi-paradigm programming languages",
+      "Compiler",
+      "Computing platform",
+      "Cross-platform software",
+      "Damien Doligez",
+      "Debugger",
+      "Elm (programming language)",
+      "F Sharp (programming language)",
+      "F* (programming language)",
+      "Filename extension",
+      "Formal methods",
+      "Free and open-source software",
+      "French Institute for Research in Computer Science and Automation",
+      "Functional programming",
+      "GNU Lesser General Public License",
+      "General-purpose programming language",
+      "Gleam (programming language)",
+      "Haxe",
+      "High-level programming language",
+      "IA-32",
+      "Imperative programming",
+      "Interpreter (computing)",
+      "Linux",
+      "ML (programming language)",
+      "MacOS",
+      "Microsoft Windows",
+      "Modula-3",
+      "Modular programming",
+      "Native code",
+      "Object-oriented programming",
+      "Occam (programming language)",
+      "Opa (programming language)",
+      "Operating system",
+      "Package manager",
+      "Pascal (programming language)",
+      "Power ISA",
+      "Programming language",
+      "Programming paradigm",
+      "RISC-V",
+      "Rocq",
+      "Rust (programming language)",
+      "SPARC",
+      "Scala (programming language)",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Standard ML",
+      "Static program analysis",
+      "Static typing",
+      "Strong and weak typing",
+      "Structural typing",
+      "Systems programming",
+      "Toolchain",
+      "Type inference",
+      "Type system",
+      "Unix",
+      "Web development",
+      "X86-64",
+      "Xavier Leroy"
+    ],
+    "page_id": 39652,
+    "revision_id": 1369441270,
+    "retrieved_at": "2026-09-18T16:42:05.827731+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260814065338|1369317723",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 39652,
+            "ns": 0,
+            "title": "OCaml",
+            "revisions": [
+              {
+                "revid": 1369441270,
+                "parentid": 1369317723
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming language",
+              "wikibase_item": "Q212587"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "OCaml",
+        "pageid": 39652,
+        "revid": 1369441270,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Occam_(programming_language)\" title=\"Occam (programming language)\">occam (programming language)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">OCaml</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:OCaml_Logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/OCaml_Logo.svg/250px-OCaml_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"33\" class=\"mw-file-element\" data-file-width=\"525\" data-file-height=\"144\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Programming_paradigm#Multi-paradigm\" title=\"Programming paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a>,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a>: <a href=\"/wiki/Caml\" title=\"Caml\">Caml</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Xavier_Leroy\" title=\"Xavier Leroy\">Xavier Leroy</a>, Jérôme Vouillon, <a href=\"/wiki/Damien_Doligez\" title=\"Damien Doligez\">Damien Doligez</a>, Didier Rémy, Ascánder Suárez</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation\" title=\"French Institute for Research in Computer Science and Automation\">Inria</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1996<span class=\"noprint\">&#59;&#32;30&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1996</span>)</span><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">5.5.0<sup id=\"cite&#95;ref-wikidata-0e79086b21e6ed684592fe6541ceb3bfc3eeca80-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-0e79086b21e6ed684592fe6541ceb3bfc3eeca80-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q212587?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 19 June 2026<span class=\"noprint\">&#59;&#32;2 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">19 June 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_inference\" title=\"Type inference\">Inferred</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Structural_typing\" class=\"mw-redirect\" title=\"Structural typing\">structural</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\">OCaml, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/Power_ISA\" title=\"Power ISA\">Power</a>, <a href=\"/wiki/SPARC\" title=\"SPARC\">SPARC</a>, <a href=\"/wiki/ARM_architecture\" class=\"mw-redirect\" title=\"ARM architecture\">ARM 32-64</a>, <a href=\"/wiki/RISC-V\" title=\"RISC-V\">RISC-V</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a>: <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_Lesser_General_Public_License\" title=\"GNU Lesser General Public License\">LGPLv2.1</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.ml, .mli</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ocaml.org/\">ocaml<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/Caml\" title=\"Caml\">Caml</a>, <a href=\"/wiki/Modula-3\" title=\"Modula-3\">Modula-3</a>, <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a>, <a href=\"/wiki/Standard_ML\" title=\"Standard ML\">Standard ML</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ATS_(programming_language)\" title=\"ATS (programming language)\">ATS</a>, <a href=\"/wiki/Rocq\" title=\"Rocq\">Rocq</a> (former name: <i>Coq</i>), <a href=\"/wiki/Elm_(programming_language)\" title=\"Elm (programming language)\">Elm</a>, <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>, <a href=\"/wiki/F*_(programming_language)\" title=\"F* (programming language)\">F*</a>, <a href=\"/wiki/Haxe\" title=\"Haxe\">Haxe</a>, <a href=\"/wiki/Opa_(programming_language)\" title=\"Opa (programming language)\">Opa</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>, <a href=\"/wiki/Gleam_(programming_language)\" title=\"Gleam (programming language)\">Gleam</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/OCaml\" class=\"extiw\" title=\"wikibooks:OCaml\">OCaml</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>OCaml</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/oʊ/: &#39;o&#39; in &#39;code&#39;\">oʊ</span><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"/æ/: &#39;a&#39; in &#39;bad&#39;\">æ</span><span title=\"&#39;m&#39; in &#39;my&#39;\">m</span><span title=\"/əl/: &#39;le&#39; in &#39;bottle&#39;\">əl</span></span>/</a></span></span> <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\">oh-<span style=\"font-size:90%\">KAM</span>-əl</i></a>, formerly <b>Objective Caml</b>) is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a>, <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/Comparison_of_multi-paradigm_programming_languages\" title=\"Comparison of multi-paradigm programming languages\">multi-paradigm</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> which extends the <a href=\"/wiki/Caml\" title=\"Caml\">Caml</a> dialect of <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a> with <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> features. OCaml was created in 1996 by <a href=\"/wiki/Xavier_Leroy\" title=\"Xavier Leroy\">Xavier Leroy</a>, Jérôme Vouillon,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Damien_Doligez\" title=\"Damien Doligez\">Damien Doligez</a>, Didier Rémy,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> Ascánder Suárez, and others.\n</p><p>The OCaml <a href=\"/wiki/Toolchain\" title=\"Toolchain\">toolchain</a> includes an interactive top-level <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a>, a <a href=\"/wiki/Bytecode\" title=\"Bytecode\">bytecode</a> <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a>, an optimizing <a href=\"/wiki/Native_code\" class=\"mw-redirect\" title=\"Native code\">native code</a> compiler, a reversible <a href=\"/wiki/Debugger\" title=\"Debugger\">debugger</a>, and a <a href=\"/wiki/Package_manager\" title=\"Package manager\">package manager</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://opam.ocaml.org/packages/\">OPAM</a>) together with a composable build system for OCaml (<a rel=\"nofollow\" class=\"external text\" href=\"https://dune.build/\">Dune</a>). OCaml was developed first in the context of <a href=\"/wiki/Automated_theorem_proving\" title=\"Automated theorem proving\">automated theorem proving</a>, and is used in <a href=\"/wiki/Static_program_analysis\" title=\"Static program analysis\">static analysis</a> and <a href=\"/wiki/Formal_methods\" title=\"Formal methods\">formal methods</a> software. Beyond these areas, it has found use in <a href=\"/wiki/Systems_programming\" title=\"Systems programming\">systems programming</a>, <a href=\"/wiki/Web_development\" title=\"Web development\">web development</a>, and specific financial utilities, among other application domains.\n</p><p>The acronym <i>CAML</i> originally stood for <i>Categorical Abstract Machine Language</i>, but OCaml omits this <a href=\"/wiki/Abstract_machine\" title=\"Abstract machine\">abstract machine</a>.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> OCaml is a <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> project managed and principally maintained by the <a href=\"/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation\" title=\"French Institute for Research in Computer Science and Automation\">French Institute for Research in Computer Science and Automation</a> (Inria). In the early 2000s, elements from OCaml were adopted by many languages, notably <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a> and <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ocaml.org/learn/tutorials/modules.html\">\"Modules\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 February</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Modules&amp;rft&#95;id=https%3A%2F%2Focaml.org%2Flearn%2Ftutorials%2Fmodules.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOCaml\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLeroy1996\" class=\"citation web cs1\"><a href=\"/wiki/Xavier_Leroy\" title=\"Xavier Leroy\">Leroy, Xavier</a> (1996). <a rel=\"nofollow\" class=\"external text\" href=\"https://sympa.inria.fr/sympa/arc/caml-list/1996-05/msg00003.html\">\"Objective Caml 1.00\"</a>. caml-list mailing list.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Objective+Caml+1.00&amp;rft.pub=caml-list+mailing+list&amp;rft.date=1996&amp;rft.aulast=Leroy&amp;rft.aufirst=Xavier&amp;rft&#95;id=https%3A%2F%2Fsympa.inria.fr%2Fsympa%2Farc%2Fcaml-list%2F1996-05%2Fmsg00003.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOCaml\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-0e79086b21e6ed684592fe6541ceb3bfc3eeca80-v20-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-0e79086b21e6ed684592fe6541ceb3bfc3eeca80-v20_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ocaml.org/releases/5.5.0\">\"OCaml 5.5.0 Release Notes\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=OCaml+5.5.0+Release+Notes&amp;rft&#95;id=https%3A%2F%2Focaml.org%2Freleases%2F5.5.0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOCaml\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/reference/influences.html\">\"Influences - The Rust Reference\"</a>. <i>The Rust Reference</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">31 December</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Rust+Reference&amp;rft.atitle=Influences+-+The+Rust+Reference&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Freference%2Finfluences.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOCaml\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.irif.fr/~vouillon/\">\"Jérôme Vouillon\"</a>. <i>www.irif.fr</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 June</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.irif.fr&amp;rft.atitle=J%C3%A9r%C3%B4me+Vouillon&amp;rft&#95;id=https%3A%2F%2Fwww.irif.fr%2F~vouillon%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOCaml\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://pauillac.inria.fr/~remy/\">\"Didier Remy\"</a>. <i>pauillac.inria.fr</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 June</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=pauillac.inria.fr&amp;rft.atitle=Didier+Remy&amp;rft&#95;id=https%3A%2F%2Fpauillac.inria.fr%2F~remy%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOCaml\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://ocaml.org/learn/history.html\">\"A History of OCaml\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 December</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=A+History+of+OCaml&amp;rft&#95;id=http%3A%2F%2Focaml.org%2Flearn%2Fhistory.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOCaml\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐8blkd\nCached time: 20260918164231\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.435 seconds\nReal time usage: 0.613 seconds\nPreprocessor visited node count: 1326/1000000\nRevision size: 4706/2097152 bytes\nPost‐expand include size: 30074/2097152 bytes\nTemplate argument size: 4551/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 22860/5000000 bytes\nLua time usage: 0.298/10.000 seconds\nLua memory usage: 6931438/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  584.521      1 -total\n 60.75%  355.103      2 Template:Infobox\n 52.84%  308.890      1 Template:Infobox_programming_language\n 34.26%  200.281      1 Template:Infobox_software/simple\n 24.84%  145.218      2 Template:Wikidata\n 21.82%  127.566      1 Template:Short_description\n 13.96%   81.586      2 Template:Pagetype\n  7.41%   43.322      1 Template:IPAc-en\n  6.75%   39.481      1 Template:Distinguish\n  5.27%   30.799      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID f0f4f76f-b37f-11f1-bc06-7ff5a60a17a4 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Occam (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ATS (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automated theorem proving",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Caml",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of multi-paradigm programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Damien Doligez",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debugger",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elm (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F* (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal methods",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "French Institute for Research in Computer Science and Automation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Lesser General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gleam (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haxe",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-3",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Native code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Opa (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Package manager",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Power ISA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RISC-V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rocq",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard ML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static program analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structural typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Systems programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Toolchain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xavier Leroy",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language",
+          "wikibase_item": "Q212587"
+        }
+      }
+    }
+  ]
+}

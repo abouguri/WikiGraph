@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ada Lovelace",
+    "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "summary": "English mathematician (1815–1852) For the computer microarchitecture, see Ada Lovelace (microarchitecture) . The Right Honourable The Countess of Lovelace Daguerreotype of Lovelace ( c. 1843 ) Born Augusta Ada Byron ( 1815-12-10 ) 10 December 1815 London, England Died 27 November 1852 (1852-11-27) (aged 36) Marylebone , London, England Resting place Church of St Mary Magdalene, Hucknall , Nottingham, England Known for Mathematics , computing Spouse William King-Noel, 1st Earl of Lovelace ​ ​ ( m. 1835) ​ Children Byron King-Noel, Viscount Ockham Anne Blunt, 15th Baroness Wentworth Ralph King-Milbanke, 2nd Earl of Lovelace Parents George Byron, 6th Baron Byron (father) Anne Isabella Milbanke (mother) Signature Augusta Ada King, Countess of Lovelace ( née Byron ; 10 December 1815 – 27 November 1852), also known as Ada Lovelace , was an English mathematician and writer chiefly known for work on Charles Babbage 's proposed mechanical general-purpose computer , the analytical engine . She was the first to recognise the machine had applications beyond pure calculation. Lovelace is often considered the first computer programmer . Lovelace was the only legitimate child of poet Lord Byron and reformer Anne Isabella Milbanke . Lord Byron separated from his wife a month after Ada was born, and died when she was eight. Although often ill in childhood, Lovelace pursued her studies assiduously . She married William King in 1835. King was a Baron , and was created Viscount Ockham and 1st Earl of Lovelace in 1838. The name Lovelace was chosen because Ada was descended from the extinct Baron Lovelaces . The title given to her husband thus made Ada the Countess of Lovelace. Lovelace's educational and social exploits brought her into contact with scientists such as Andrew Crosse , Charles Babbage , David Brewster , Charles Wheatstone and Michael Faraday , and the author Charles Dickens , contacts which she used to further her education. Lovelace described her approach as \"poetical science\" and herself as an \"Analyst (& Metaphysician )\". At age 18, Lovelace's mathematical talents led her to a long working relationship and friendship with fellow British mathematician Charles Babbage. She was particularly interested in Babbage's work on the analytical engine. Lovelace first met him on 5 June 1833, when she and her mother attended one of Charles Babbage's Saturday night soirées with their mutual friend, and Lovelace's private tutor, Mary Somerville . Though Babbage's analytical engine was never constructed and did not influence the invention of electronic computers, it has been recognised as a Turing-complete general-purpose computer, which anticipated the essential features of a modern electronic computer. Babbage is therefore known as the \"father of computers,\" and Lovelace is credited with several computing \"firsts\" for her collaboration with him. Lovelace translated an article by the military engineer Luigi Menabrea about the analytical engine, supplementing it with seven long explanatory notes . These described a method of using the machine to calculate Bernoulli numbers which is often called the first published computer program . She developed a vision of the capability of computers to go beyond mere calculating or number-crunching, while many others, including Babbage, focused only on those capabilities. Lovelace was the first to point out the possibility of encoding information besides mere arithmetical figures, such as music , and manipulating it with such a machine. Her mindset of \"poetical science\" led her to ask questions about the analytical engine, examining how individuals and society relate to technology as a collaborative tool. Ada is widely commemorated, including in the names of a programming language , roads, buildings and institutes, as well as programmes, lectures and courses. There are plaques, statues, paintings, literary and non-fiction works about her. ^ \"Only known photographs of Ada Lovelace in Bodleian Display\" . 14 October 2015. ^ \"Ada Lovelace Biography\" . biography.com . 6 May 2021. ^ Jaeger, Lars (2023), \"Ada Lovelace (1815–1852): Inventor of Computer Algorithms\" , in Jaeger, Lars (ed.), Women of Genius in Science : Whose Frequently Overlooked Contributions Changed the World , Cham: Springer International Publishing, pp. 71– 82, doi : 10.1007/978-3-031-23926-7_7 , ISBN 978-3-031-23926-7 , retrieved 30 September 2025 ^ Toole 1998 , pp. 234–235. ^ Toole 1998 , pp. 156–157. ^ Toole, Betty Alexandra (2010). Ada, the Enchantress of Numbers:Poetical Science (Kindle ed.). Critical Connection. pp. Location 641. ^ Fuegi & Francis 2003 , pp. 19, 25. ^ Toole, Betty Alexandra (1987), \"Poetical Science\", The Byron Journal , 15 : 55– 65, doi : 10.3828/bj.1987.6 .",
+    "text": "English mathematician (1815–1852) For the computer microarchitecture, see Ada Lovelace (microarchitecture) . The Right Honourable The Countess of Lovelace Daguerreotype of Lovelace ( c. 1843 ) Born Augusta Ada Byron ( 1815-12-10 ) 10 December 1815 London, England Died 27 November 1852 (1852-11-27) (aged 36) Marylebone , London, England Resting place Church of St Mary Magdalene, Hucknall , Nottingham, England Known for Mathematics , computing Spouse William King-Noel, 1st Earl of Lovelace ​ ​ ( m. 1835) ​ Children Byron King-Noel, Viscount Ockham Anne Blunt, 15th Baroness Wentworth Ralph King-Milbanke, 2nd Earl of Lovelace Parents George Byron, 6th Baron Byron (father) Anne Isabella Milbanke (mother) Signature Augusta Ada King, Countess of Lovelace ( née Byron ; 10 December 1815 – 27 November 1852), also known as Ada Lovelace , was an English mathematician and writer chiefly known for work on Charles Babbage 's proposed mechanical general-purpose computer , the analytical engine . She was the first to recognise the machine had applications beyond pure calculation. Lovelace is often considered the first computer programmer . Lovelace was the only legitimate child of poet Lord Byron and reformer Anne Isabella Milbanke . Lord Byron separated from his wife a month after Ada was born, and died when she was eight. Although often ill in childhood, Lovelace pursued her studies assiduously . She married William King in 1835. King was a Baron , and was created Viscount Ockham and 1st Earl of Lovelace in 1838. The name Lovelace was chosen because Ada was descended from the extinct Baron Lovelaces . The title given to her husband thus made Ada the Countess of Lovelace. Lovelace's educational and social exploits brought her into contact with scientists such as Andrew Crosse , Charles Babbage , David Brewster , Charles Wheatstone and Michael Faraday , and the author Charles Dickens , contacts which she used to further her education. Lovelace described her approach as \"poetical science\" and herself as an \"Analyst (& Metaphysician )\". At age 18, Lovelace's mathematical talents led her to a long working relationship and friendship with fellow British mathematician Charles Babbage. She was particularly interested in Babbage's work on the analytical engine. Lovelace first met him on 5 June 1833, when she and her mother attended one of Charles Babbage's Saturday night soirées with their mutual friend, and Lovelace's private tutor, Mary Somerville . Though Babbage's analytical engine was never constructed and did not influence the invention of electronic computers, it has been recognised as a Turing-complete general-purpose computer, which anticipated the essential features of a modern electronic computer. Babbage is therefore known as the \"father of computers,\" and Lovelace is credited with several computing \"firsts\" for her collaboration with him. Lovelace translated an article by the military engineer Luigi Menabrea about the analytical engine, supplementing it with seven long explanatory notes . These described a method of using the machine to calculate Bernoulli numbers which is often called the first published computer program . She developed a vision of the capability of computers to go beyond mere calculating or number-crunching, while many others, including Babbage, focused only on those capabilities. Lovelace was the first to point out the possibility of encoding information besides mere arithmetical figures, such as music , and manipulating it with such a machine. Her mindset of \"poetical science\" led her to ask questions about the analytical engine, examining how individuals and society relate to technology as a collaborative tool. Ada is widely commemorated, including in the names of a programming language , roads, buildings and institutes, as well as programmes, lectures and courses. There are plaques, statues, paintings, literary and non-fiction works about her. ^ \"Only known photographs of Ada Lovelace in Bodleian Display\" . 14 October 2015. ^ \"Ada Lovelace Biography\" . biography.com . 6 May 2021. ^ Jaeger, Lars (2023), \"Ada Lovelace (1815–1852): Inventor of Computer Algorithms\" , in Jaeger, Lars (ed.), Women of Genius in Science : Whose Frequently Overlooked Contributions Changed the World , Cham: Springer International Publishing, pp. 71– 82, doi : 10.1007/978-3-031-23926-7_7 , ISBN 978-3-031-23926-7 , retrieved 30 September 2025 ^ Toole 1998 , pp. 234–235. ^ Toole 1998 , pp. 156–157. ^ Toole, Betty Alexandra (2010). Ada, the Enchantress of Numbers:Poetical Science (Kindle ed.). Critical Connection. pp. Location 641. ^ Fuegi & Francis 2003 , pp. 19, 25. ^ Toole, Betty Alexandra (1987), \"Poetical Science\", The Byron Journal , 15 : 55– 65, doi : 10.3828/bj.1987.6 .",
+    "links": [
+      "Ada (programming language)",
+      "Ada Lovelace (microarchitecture)",
+      "Analytical engine",
+      "Andrew Crosse",
+      "Anne Blunt, 15th Baroness Wentworth",
+      "Arithmetic",
+      "Assiduous",
+      "Baron",
+      "Baron Lovelace",
+      "Bernoulli number",
+      "Birth name",
+      "Byron King-Noel, Viscount Ockham",
+      "Calculation",
+      "Charles Babbage",
+      "Charles Babbage's Saturday night soirées",
+      "Charles Dickens",
+      "Charles Wheatstone",
+      "Church of St Mary Magdalene, Hucknall",
+      "Computer",
+      "Computer program",
+      "Computer programmer",
+      "Computing",
+      "Daguerreotype",
+      "David Brewster",
+      "Doi (identifier)",
+      "Earl of Lovelace",
+      "ISBN (identifier)",
+      "Lady Byron",
+      "Legitimate child",
+      "Lord Byron",
+      "Luigi Menabrea",
+      "Mary Somerville",
+      "Marylebone",
+      "Mathematician",
+      "Mathematics",
+      "Metaphysics",
+      "Michael Faraday",
+      "Music",
+      "Ralph King-Milbanke, 2nd Earl of Lovelace",
+      "The Right Honourable",
+      "Turing completeness",
+      "William King-Noel, 1st Earl of Lovelace",
+      "Writer"
+    ],
+    "page_id": 974,
+    "revision_id": 1374881938,
+    "retrieved_at": "2026-09-18T16:40:53.757517+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260829161629|1371961179",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 974,
+            "ns": 0,
+            "title": "Ada Lovelace",
+            "revisions": [
+              {
+                "revid": 1374881938,
+                "parentid": 1371961179
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Lovelace, Ada",
+              "page_image_free": "Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+              "wikibase-shortdesc": "English mathematician (1815–1852)",
+              "wikibase_item": "Q7259"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Ada Lovelace",
+        "pageid": 974,
+        "revid": 1374881938,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">English mathematician (1815–1852)</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the computer microarchitecture, see <a href=\"/wiki/Ada_Lovelace_(microarchitecture)\" title=\"Ada Lovelace (microarchitecture)\">Ada Lovelace (microarchitecture)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox biography vcard\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\"><div class=\"honorific-prefix\" style=\"font-size: 80%; font-weight: normal;\"><a href=\"/wiki/The_Right_Honourable\" title=\"The Right Honourable\">The Right Honourable</a></div><div class=\"fn\">The Countess of Lovelace</div></th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png\" class=\"mw-file-description\"><img alt=\"Augusta Ada King, Countess of Lovelace, daguerrotype portrait circa 1843\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png/250px-Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"324\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png/500px-Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"957\" data-file-height=\"1239\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/Daguerreotype\" title=\"Daguerreotype\">Daguerreotype</a> of Lovelace (<abbr title=\"circa\">c.</abbr><span style=\"white-space:nowrap;\">&#8201;1843</span>)<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Born</th><td class=\"infobox-data\"><div style=\"display:inline\" class=\"nickname\">Augusta Ada Byron</div><br /><span style=\"display:none\">(<span class=\"bday\">1815-12-10</span>)</span>10 December 1815<br /><div style=\"display:inline\" class=\"birthplace\">London, England</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Died</th><td class=\"infobox-data\">27 November 1852<span style=\"display:none\">(1852-11-27)</span> (aged&#160;36)<br /><div style=\"display:inline\" class=\"deathplace\"><a href=\"/wiki/Marylebone\" title=\"Marylebone\">Marylebone</a>, London, England</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Resting place</div></th><td class=\"infobox-data label\"><a href=\"/wiki/Church_of_St_Mary_Magdalene,_Hucknall\" title=\"Church of St Mary Magdalene, Hucknall\">Church of St Mary Magdalene, Hucknall</a>, Nottingham, England<span style=\"display:none\" data-plural=\"0\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Known&#160;for</th><td class=\"infobox-data\"><a href=\"/wiki/Mathematics\" title=\"Mathematics\">Mathematics</a>, <a href=\"/wiki/Computing\" title=\"Computing\">computing</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Spouse</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1298804929\">.mw-parser-output .marriage-line-margin2px{line-height:0;margin-bottom:-2px}.mw-parser-output .marriage-line-margin3px{line-height:0;margin-bottom:-3px}.mw-parser-output .marriage-display-inline{display:inline}</style>\n<div class=\"marriage-display-inline\"><div style=\"display:inline-block;line-height:normal;margin-top:1px;white-space:normal;\"><a href=\"/wiki/William_King-Noel,_1st_Earl_of_Lovelace\" title=\"William King-Noel, 1st Earl of Lovelace\">William King-Noel, 1st Earl of Lovelace</a></div>\n   <div class=\"marriage-line-margin2px\">&#8203;</div>&#32;<div style=\"display:inline-block;margin-bottom:1px;\">&#8203;</div>&#40;<abbr title=\"married\">m.</abbr>&#160;1835&#41;<wbr />&#8203;</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Children</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Byron_King-Noel,_Viscount_Ockham\" title=\"Byron King-Noel, Viscount Ockham\">Byron King-Noel, Viscount Ockham</a></li>\n<li><a href=\"/wiki/Anne_Blunt,_15th_Baroness_Wentworth\" title=\"Anne Blunt, 15th Baroness Wentworth\">Anne Blunt, 15th Baroness Wentworth</a></li>\n<li><a href=\"/wiki/Ralph_King-Milbanke,_2nd_Earl_of_Lovelace\" title=\"Ralph King-Milbanke, 2nd Earl of Lovelace\">Ralph King-Milbanke, 2nd Earl of Lovelace</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Parents</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Lord_Byron\" title=\"Lord Byron\">George Byron, 6th Baron Byron</a> (father)</li>\n<li><a href=\"/wiki/Lady_Byron\" title=\"Lady Byron\">Anne Isabella Milbanke</a> (mother)</li></ul>\n</div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\">Signature</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span class=\"infobox-signature skin-invert\" typeof=\"mw:File\"><a href=\"/wiki/File:Augusta_Ava_Lovelace_autograph.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Augusta_Ava_Lovelace_autograph.svg/250px-Augusta_Ava_Lovelace_autograph.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"29\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Augusta_Ava_Lovelace_autograph.svg/330px-Augusta_Ava_Lovelace_autograph.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"721\" data-file-height=\"139\" /></a></span></td></tr></tbody></table>\n<p><b>Augusta Ada King, Countess of Lovelace</b> (<span title=\"Name at birth\"><a href=\"/wiki/Birth_name#Maiden_and_married_names\" title=\"Birth name\">née</a>&#160;<b>Byron</b></span>; 10 December 1815 – 27 November 1852), also known as <b>Ada Lovelace</b>, was an English <a href=\"/wiki/Mathematician\" title=\"Mathematician\">mathematician</a> and <a href=\"/wiki/Writer\" title=\"Writer\">writer</a> chiefly known for work on <a href=\"/wiki/Charles_Babbage\" title=\"Charles Babbage\">Charles Babbage</a>'s proposed mechanical general-purpose <a href=\"/wiki/Computer\" title=\"Computer\">computer</a>, the <a href=\"/wiki/Analytical_engine\" title=\"Analytical engine\">analytical engine</a>. She was the first to recognise the machine had applications beyond pure calculation. Lovelace is often considered the first <a href=\"/wiki/Computer_programmer\" class=\"mw-redirect\" title=\"Computer programmer\">computer programmer</a>.\n</p><p>Lovelace was the only <a href=\"/wiki/Legitimate_child\" class=\"mw-redirect\" title=\"Legitimate child\">legitimate child</a> of poet <a href=\"/wiki/Lord_Byron\" title=\"Lord Byron\">Lord Byron</a> and reformer <a href=\"/wiki/Lady_Byron\" title=\"Lady Byron\">Anne Isabella Milbanke</a>.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> Lord Byron separated from his wife a month after Ada was born, and died when she was eight. Although often ill in childhood, Lovelace pursued her studies <a href=\"/wiki/Assiduous\" class=\"mw-redirect\" title=\"Assiduous\">assiduously</a>. She married <a href=\"/wiki/William_King-Noel,_1st_Earl_of_Lovelace\" title=\"William King-Noel, 1st Earl of Lovelace\">William King</a> in 1835. King was a <a href=\"/wiki/Baron\" title=\"Baron\">Baron</a>, and was created Viscount Ockham and 1st <a href=\"/wiki/Earl_of_Lovelace\" title=\"Earl of Lovelace\">Earl of Lovelace</a> in 1838. The name Lovelace was chosen because Ada was descended from the extinct <a href=\"/wiki/Baron_Lovelace\" title=\"Baron Lovelace\">Baron Lovelaces</a>.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> The title given to her husband thus made Ada the Countess of Lovelace.\n</p><p>Lovelace's educational and social exploits brought her into contact with scientists such as <a href=\"/wiki/Andrew_Crosse\" title=\"Andrew Crosse\">Andrew Crosse</a>, <a href=\"/wiki/Charles_Babbage\" title=\"Charles Babbage\">Charles Babbage</a>, <a href=\"/wiki/David_Brewster\" title=\"David Brewster\">David Brewster</a>, <a href=\"/wiki/Charles_Wheatstone\" title=\"Charles Wheatstone\">Charles Wheatstone</a> and <a href=\"/wiki/Michael_Faraday\" title=\"Michael Faraday\">Michael Faraday</a>, and the author <a href=\"/wiki/Charles_Dickens\" title=\"Charles Dickens\">Charles Dickens</a>, contacts which she used to further her education. Lovelace described her approach as \"poetical science\"<sup id=\"cite&#95;ref-FOOTNOTEToole1998234–235&#95;4-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEToole1998234–235-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> and herself as an \"Analyst (&amp; <a href=\"/wiki/Metaphysics\" title=\"Metaphysics\">Metaphysician</a>)\".<sup id=\"cite&#95;ref-FOOTNOTEToole1998156–157&#95;5-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEToole1998156–157-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>At age 18, Lovelace's mathematical talents led her to a long working relationship and friendship with fellow British mathematician Charles Babbage. She was particularly interested in Babbage's work on the analytical engine. Lovelace first met him on 5 June 1833, when she and her mother attended one of <a href=\"/wiki/Charles_Babbage%27s_Saturday_night_soir%C3%A9es\" title=\"Charles Babbage&#39;s Saturday night soirées\">Charles Babbage's Saturday night soirées</a><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> with their mutual friend, and Lovelace's private tutor, <a href=\"/wiki/Mary_Somerville\" title=\"Mary Somerville\">Mary Somerville</a>. Though Babbage's analytical engine was never constructed and did not influence the invention of electronic computers, it has been recognised as a <a href=\"/wiki/Turing_completeness\" title=\"Turing completeness\">Turing-complete</a> general-purpose computer, which anticipated the essential features of a modern electronic computer. Babbage is therefore known as the \"father of computers,\" and Lovelace is credited with several computing \"firsts\" for her collaboration with him. Lovelace translated <a href=\"https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq.\" class=\"extiw\" title=\"wikisource:Scientific Memoirs/3/Sketch of the Analytical Engine invented by Charles Babbage, Esq.\">an article</a> by the military engineer <a href=\"/wiki/Luigi_Menabrea\" class=\"mw-redirect\" title=\"Luigi Menabrea\">Luigi Menabrea</a> about the analytical engine, supplementing it with <a href=\"https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq./Notes_by_the_Translator\" class=\"extiw\" title=\"wikisource:Scientific Memoirs/3/Sketch of the Analytical Engine invented by Charles Babbage, Esq./Notes by the Translator\">seven long explanatory notes</a>. These described a method of using the machine to calculate <a href=\"/wiki/Bernoulli_number\" title=\"Bernoulli number\">Bernoulli numbers</a> which is often called the first published <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer program</a>.\n</p><p>She developed a vision of the capability of computers to go beyond mere <a href=\"/wiki/Calculation\" title=\"Calculation\">calculating</a> or number-crunching, while many others, including Babbage, focused only on those capabilities.<sup id=\"cite&#95;ref-FOOTNOTEFuegiFrancis200319,&#95;25&#95;7-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEFuegiFrancis200319,_25-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> Lovelace was the first to point out the possibility of encoding information besides mere <a href=\"/wiki/Arithmetic\" title=\"Arithmetic\">arithmetical</a> figures, such as <a href=\"/wiki/Music\" title=\"Music\">music</a>, and manipulating it with such a machine. Her mindset of \"poetical science\" led her to ask questions about the analytical engine, examining how individuals and society relate to technology as a collaborative tool.<sup id=\"cite&#95;ref-ABCL&#95;8-0\" class=\"reference\"><a href=\"#cite_note-ABCL-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> Ada is widely commemorated, including in the names of a <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">programming language</a>, roads, buildings and institutes, as well as programmes, lectures and courses. There are plaques, statues, paintings, literary and non-fiction works about her.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blogs.bodleian.ox.ac.uk/adalovelace/2015/10/14/only-known-photographs-of-ada-lovelace-in-bodleian-display/\">\"Only known photographs of Ada Lovelace in Bodleian Display\"</a>. 14 October 2015.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Only+known+photographs+of+Ada+Lovelace+in+Bodleian+Display&amp;rft.date=2015-10-14&amp;rft&#95;id=https%3A%2F%2Fblogs.bodleian.ox.ac.uk%2Fadalovelace%2F2015%2F10%2F14%2Fonly-known-photographs-of-ada-lovelace-in-bodleian-display%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+Lovelace\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.biography.com/people/ada-lovelace-20825323\">\"Ada Lovelace Biography\"</a>. <i>biography.com</i>. 6 May 2021.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=biography.com&amp;rft.atitle=Ada+Lovelace+Biography&amp;rft.date=2021-05-06&amp;rft&#95;id=https%3A%2F%2Fwww.biography.com%2Fpeople%2Fada-lovelace-20825323&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+Lovelace\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJaeger2023\" class=\"citation cs2\">Jaeger, Lars (2023), <span class=\"id-lock-subscription\" title=\"Paid subscription required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007/978-3-031-23926-7_7\">\"Ada Lovelace (1815–1852): Inventor of Computer Algorithms\"</a></span>, in Jaeger, Lars (ed.), <i>Women of Genius in Science&#160;: Whose Frequently Overlooked Contributions Changed the World</i>, Cham: Springer International Publishing, pp.&#160;<span class=\"nowrap\">71–</span>82, <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2F978-3-031-23926-7_7\">10.1007/978-3-031-23926-7_7</a>, <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-031-23926-7\" title=\"Special:BookSources/978-3-031-23926-7\"><bdi>978-3-031-23926-7</bdi></a><span class=\"reference-accessdate\">, retrieved <span class=\"nowrap\">30 September</span> 2025</span></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Ada+Lovelace+%281815%E2%80%931852%29%3A+Inventor+of+Computer+Algorithms&amp;rft.btitle=Women+of+Genius+in+Science+%3A+Whose+Frequently+Overlooked+Contributions+Changed+the+World&amp;rft.place=Cham&amp;rft.pages=71-82&amp;rft.pub=Springer+International+Publishing&amp;rft.date=2023&amp;rft&#95;id=info%3Adoi%2F10.1007%2F978-3-031-23926-7&#95;7&amp;rft.isbn=978-3-031-23926-7&amp;rft.aulast=Jaeger&amp;rft.aufirst=Lars&amp;rft&#95;id=https%3A%2F%2Fdoi.org%2F10.1007%2F978-3-031-23926-7&#95;7&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+Lovelace\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEToole1998234–235-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEToole1998234–235_4-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFToole1998\">Toole 1998</a>, pp.&#160;234–235.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEToole1998156–157-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEToole1998156–157_5-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFToole1998\">Toole 1998</a>, pp.&#160;156–157.</span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFToole2010\" class=\"citation book cs1\">Toole, Betty Alexandra (2010). <i>Ada, the Enchantress of Numbers:Poetical Science</i> (Kindle&#160;ed.). Critical Connection. pp.&#160;Location 641.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Ada%2C+the+Enchantress+of+Numbers%3APoetical+Science&amp;rft.pages=Location+641&amp;rft.edition=Kindle&amp;rft.pub=Critical+Connection&amp;rft.date=2010&amp;rft.aulast=Toole&amp;rft.aufirst=Betty+Alexandra&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+Lovelace\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEFuegiFrancis200319,&#95;25-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEFuegiFrancis200319,_25_7-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFFuegiFrancis2003\">Fuegi &amp; Francis 2003</a>, pp.&#160;19, 25.</span>\n</li>\n<li id=\"cite&#95;note-ABCL-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-ABCL_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFToole1987\" class=\"citation cs2\">Toole, Betty Alexandra (1987), \"Poetical Science\", <i>The Byron Journal</i>, <b>15</b>: <span class=\"nowrap\">55–</span>65, <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.3828%2Fbj.1987.6\">10.3828/bj.1987.6</a></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Byron+Journal&amp;rft.atitle=Poetical+Science&amp;rft.volume=15&amp;rft.pages=55-65&amp;rft.date=1987&amp;rft&#95;id=info%3Adoi%2F10.3828%2Fbj.1987.6&amp;rft.aulast=Toole&amp;rft.aufirst=Betty+Alexandra&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AAda+Lovelace\" class=\"Z3988\"></span>.</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐ztmxq\nCached time: 20260918164119\nCache expiry: 28800\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.351 seconds\nReal time usage: 0.454 seconds\nPreprocessor visited node count: 2981/1000000\nRevision size: 6609/2097152 bytes\nPost‐expand include size: 31081/2097152 bytes\nTemplate argument size: 7992/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 15257/5000000 bytes\nLua time usage: 0.262/10.000 seconds\nLua memory usage: 9745455/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  430.456      1 -total\n 43.23%  186.096      1 Template:Infobox_scientist\n 13.78%   59.310      1 Template:Short_description\n 13.01%   55.997      3 Template:Sfn\n 11.97%   51.542      2 Template:Cite_web\n  8.69%   37.417      1 Template:Marriage\n  8.54%   36.763      1 Template:Birth_date\n  8.16%   35.108      2 Template:Pagetype\n  5.97%   25.698     26 Template:Main_other\n  5.08%   21.853      1 Template:Pp-semi-indef\n-->\n\n<!-- Render ID c60aa35e-b37f-11f1-b6bf-03303dba2f6d -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada Lovelace (microarchitecture)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Analytical engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Andrew Crosse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Anne Blunt, 15th Baroness Wentworth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arithmetic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assiduous",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Baron",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Baron Lovelace",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bernoulli number",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Birth name",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Byron King-Noel, Viscount Ockham",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Calculation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Charles Babbage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Charles Babbage's Saturday night soirées",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Charles Dickens",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Charles Wheatstone",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Church of St Mary Magdalene, Hucknall",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Daguerreotype",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "David Brewster",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Earl of Lovelace",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lady Byron",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Legitimate child",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lord Byron",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Luigi Menabrea",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mary Somerville",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Marylebone",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematician",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaphysics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Michael Faraday",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Music",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ralph King-Milbanke, 2nd Earl of Lovelace",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Right Honourable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing completeness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "William King-Noel, 1st Earl of Lovelace",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Writer",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "English mathematician (1815–1852)",
+          "page_image_free": "Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+          "wikibase_item": "Q7259"
+        }
+      }
+    }
+  ]
+}

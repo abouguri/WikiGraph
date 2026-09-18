@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Rust (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Rust_%28programming_language%29",
+    "summary": "General-purpose programming language Rust Paradigms Multi-paradigm : concurrent functional generic imperative structured Developer The Rust Team First appeared January 20, 2012 ; 14 years ago ( 2012-01-20 ) Stable release 1.98.1 / September 3, 2026 ; 15 days ago ( September 3, 2026 ) Typing discipline Affine inferred nominal static strong Implementation language OCaml (2006–2011) Rust (2012–present) Platform Cross-platform OS Cross-platform License MIT , Apache 2.0 Filename extensions .rs , .rlib Website rust-lang.org Influenced by Alef BETA CLU C# C++ Cyclone Elm Erlang Haskell Hermes Limbo Mesa Napier Newsqueak NIL OCaml Ruby Sather Scheme Standard ML Swift Influenced Idris PHP Project Verona SPARK Swift V Zig Gleam Rust is a general-purpose programming language that emphasizes performance , type safety , concurrency , and memory safety . Rust supports multiple programming paradigms . It was influenced by ideas from functional programming , including immutability , higher-order functions , algebraic data types , and pattern matching . It also supports object-oriented programming via structs, enums , traits, and methods. Rust enforces memory safety (i.e., that all references point to valid memory) without a conventional garbage collector ; instead, memory safety errors and data races are prevented by the \"borrow checker\", which tracks the object lifetime of references at compile time . Software developer Graydon Hoare created Rust in 2006 while working at Mozilla , which officially sponsored the project in 2009. The first stable release, Rust 1.0, was published in May 2015. The project has been sponsored by the Rust Foundation since February 2021. Rust has been adopted by many software projects, especially web services and system software . It has been studied academically and has a growing community of developers. ^ Anderson, Brian (2012-01-24). \"[rust-dev] The Rust compiler 0.1 is unleashed\" . rust-dev (Mailing list). Archived from the original on 2012-01-24 . Retrieved 2025-01-07 . ^ \"Announcing Rust 1.98.1\" . 2026-09-03 . Retrieved 2026-09-04 . ^ a b \"Platform Support\" . The rustc book . Archived from the original on 2022-06-30 . Retrieved 2022-06-27 . ^ \"Copyright\" . GitHub . The Rust Programming Language. 2022-10-19. Archived from the original on 2023-07-22 . Retrieved 2022-10-19 . ^ Cite error: The named reference licenses was invoked but never defined (see the help page ). ^ Strom, Robert E. (1983). \"Mechanisms for compile-time enforcement of security\". Proceedings of the 10th ACM SIGACT-SIGPLAN symposium on Principles of programming languages - POPL '83 . pp. 276– 284. doi : 10.1145/567067.567093 . ISBN 0897910907 . S2CID 6630704 . ^ Strom, Robert E.; Yemini, Shaula (1986). \"Typestate: A programming language concept for enhancing software reliability\" (PDF) . IEEE Transactions on Software Engineering . 12 (1). IEEE: 157– 171. Bibcode : 1986ITSEn..12..157S . doi : 10.1109/tse.1986.6312929 . S2CID 15575346 . ^ \"Uniqueness Types\" . Rust Blog . Archived from the original on 2016-09-15 . Retrieved 2016-10-08 . Those of you familiar with the Elm style may recognize that the updated --explain messages draw heavy inspiration from the Elm approach. ^ Cite error: The named reference influences was invoked but never defined (see the help page ). ^ \"Uniqueness Types\" . Idris 1.3.3 documentation . Archived from the original on 2018-11-21 . Retrieved 2022-07-14 . They are inspired by ... ownership types and borrowed pointers in the Rust programming language. ^ Eberlei, Benjamin; Schröder, Martin (2020-03-09). \"PHP RFC: Attributes v2\" . wiki.php.net . Retrieved 2026-05-11 . ^ Tovilo, Ilija (2020-05-22). \"PHP RFC: Match expression v2\" . wiki.php.net . Retrieved 2020-11-29 . ^ Garfield, Larry; Tovilo, Ilija (2020-12-04). \"PHP RFC: Enumerations\" . wiki.php.net . Retrieved 2026-05-11 . ^ Garfield, Larry; Tovilo, Ilija (2020-11-11). \"PHP RFC: Pattern Matching\" . wiki.php.net . Retrieved 2026-05-11 . ^ Cite error: The named reference Project Verona was invoked but never defined (see the help page ). ^ Cite error: The named reference Jaloyan was invoked but never defined (see the help page ). ^ Cite error: The named reference Lattner was invoked but never defined (see the help page ). ^ \"V documentation (Introduction)\" . GitHub . The V Programming Language . Retrieved 2023-11-04 . ^ Yegulalp, Serdar (2016-08-29). \"New challenger joins Rust to topple C language\" . InfoWorld . Archived from the original on 2021-11-25 . Retrieved 2022-10-19 . ^ Cite error: The named reference Gleam was invoked but never defined (see the help page ). Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "text": "General-purpose programming language Rust Paradigms Multi-paradigm : concurrent functional generic imperative structured Developer The Rust Team First appeared January 20, 2012 ; 14 years ago ( 2012-01-20 ) Stable release 1.98.1 / September 3, 2026 ; 15 days ago ( September 3, 2026 ) Typing discipline Affine inferred nominal static strong Implementation language OCaml (2006–2011) Rust (2012–present) Platform Cross-platform OS Cross-platform License MIT , Apache 2.0 Filename extensions .rs , .rlib Website rust-lang.org Influenced by Alef BETA CLU C# C++ Cyclone Elm Erlang Haskell Hermes Limbo Mesa Napier Newsqueak NIL OCaml Ruby Sather Scheme Standard ML Swift Influenced Idris PHP Project Verona SPARK Swift V Zig Gleam Rust is a general-purpose programming language that emphasizes performance , type safety , concurrency , and memory safety . Rust supports multiple programming paradigms . It was influenced by ideas from functional programming , including immutability , higher-order functions , algebraic data types , and pattern matching . It also supports object-oriented programming via structs, enums , traits, and methods. Rust enforces memory safety (i.e., that all references point to valid memory) without a conventional garbage collector ; instead, memory safety errors and data races are prevented by the \"borrow checker\", which tracks the object lifetime of references at compile time . Software developer Graydon Hoare created Rust in 2006 while working at Mozilla , which officially sponsored the project in 2009. The first stable release, Rust 1.0, was published in May 2015. The project has been sponsored by the Rust Foundation since February 2021. Rust has been adopted by many software projects, especially web services and system software . It has been studied academically and has a growing community of developers. ^ Anderson, Brian (2012-01-24). \"[rust-dev] The Rust compiler 0.1 is unleashed\" . rust-dev (Mailing list). Archived from the original on 2012-01-24 . Retrieved 2025-01-07 . ^ \"Announcing Rust 1.98.1\" . 2026-09-03 . Retrieved 2026-09-04 . ^ a b \"Platform Support\" . The rustc book . Archived from the original on 2022-06-30 . Retrieved 2022-06-27 . ^ \"Copyright\" . GitHub . The Rust Programming Language. 2022-10-19. Archived from the original on 2023-07-22 . Retrieved 2022-10-19 . ^ Cite error: The named reference licenses was invoked but never defined (see the help page ). ^ Strom, Robert E. (1983). \"Mechanisms for compile-time enforcement of security\". Proceedings of the 10th ACM SIGACT-SIGPLAN symposium on Principles of programming languages - POPL '83 . pp. 276– 284. doi : 10.1145/567067.567093 . ISBN 0897910907 . S2CID 6630704 . ^ Strom, Robert E.; Yemini, Shaula (1986). \"Typestate: A programming language concept for enhancing software reliability\" (PDF) . IEEE Transactions on Software Engineering . 12 (1). IEEE: 157– 171. Bibcode : 1986ITSEn..12..157S . doi : 10.1109/tse.1986.6312929 . S2CID 15575346 . ^ \"Uniqueness Types\" . Rust Blog . Archived from the original on 2016-09-15 . Retrieved 2016-10-08 . Those of you familiar with the Elm style may recognize that the updated --explain messages draw heavy inspiration from the Elm approach. ^ Cite error: The named reference influences was invoked but never defined (see the help page ). ^ \"Uniqueness Types\" . Idris 1.3.3 documentation . Archived from the original on 2018-11-21 . Retrieved 2022-07-14 . They are inspired by ... ownership types and borrowed pointers in the Rust programming language. ^ Eberlei, Benjamin; Schröder, Martin (2020-03-09). \"PHP RFC: Attributes v2\" . wiki.php.net . Retrieved 2026-05-11 . ^ Tovilo, Ilija (2020-05-22). \"PHP RFC: Match expression v2\" . wiki.php.net . Retrieved 2020-11-29 . ^ Garfield, Larry; Tovilo, Ilija (2020-12-04). \"PHP RFC: Enumerations\" . wiki.php.net . Retrieved 2026-05-11 . ^ Garfield, Larry; Tovilo, Ilija (2020-11-11). \"PHP RFC: Pattern Matching\" . wiki.php.net . Retrieved 2026-05-11 . ^ Cite error: The named reference Project Verona was invoked but never defined (see the help page ). ^ Cite error: The named reference Jaloyan was invoked but never defined (see the help page ). ^ Cite error: The named reference Lattner was invoked but never defined (see the help page ). ^ \"V documentation (Introduction)\" . GitHub . The V Programming Language . Retrieved 2023-11-04 . ^ Yegulalp, Serdar (2016-08-29). \"New challenger joins Rust to topple C language\" . InfoWorld . Archived from the original on 2021-11-25 . Retrieved 2022-10-19 . ^ Cite error: The named reference Gleam was invoked but never defined (see the help page ). Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "links": [
+      "Affine type system",
+      "Alef (programming language)",
+      "Algebraic data type",
+      "Apache License",
+      "BETA (programming language)",
+      "Bibcode (identifier)",
+      "C Sharp (programming language)",
+      "C++",
+      "CLU (programming language)",
+      "Comparison of multi-paradigm programming languages",
+      "Compiler",
+      "Computer performance",
+      "Computing platform",
+      "Concurrency (computer science)",
+      "Concurrent computing",
+      "Cross-platform",
+      "Cyclone (programming language)",
+      "Data race",
+      "Doi (identifier)",
+      "Elm (programming language)",
+      "Erlang (programming language)",
+      "Filename extension",
+      "Functional programming",
+      "Garbage collection (computer science)",
+      "General-purpose programming language",
+      "Generic programming",
+      "GitHub",
+      "Gleam (programming language)",
+      "Haskell",
+      "Hermes (programming language)",
+      "Higher-order function",
+      "ISBN (identifier)",
+      "Idris (programming language)",
+      "Immutability",
+      "Imperative programming",
+      "InfoWorld",
+      "Limbo (programming language)",
+      "MIT License",
+      "Memory safety",
+      "Mesa (programming language)",
+      "Mozilla",
+      "Napier88",
+      "Newsqueak",
+      "Nominal type system",
+      "OCaml",
+      "Object lifetime",
+      "Object-oriented programming",
+      "Operating system",
+      "PHP",
+      "Pattern matching",
+      "Programming paradigm",
+      "Project Verona",
+      "Reference (computer science)",
+      "Ruby (programming language)",
+      "S2CID (identifier)",
+      "SPARK (programming language)",
+      "Sather",
+      "Scheme (programming language)",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Standard ML",
+      "Static typing",
+      "Strong and weak typing",
+      "Structured programming",
+      "Swift (programming language)",
+      "System software",
+      "Type inference",
+      "Type safety",
+      "Type system",
+      "Typestate analysis",
+      "Union type",
+      "V (programming language)",
+      "Web service",
+      "Zig (programming language)"
+    ],
+    "page_id": 29414838,
+    "revision_id": 1375530180,
+    "retrieved_at": "2026-09-18T16:31:51.724985+00:00",
+    "aliases": [
+      "Graydon Hoare"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260918101254|1375530110",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Graydon Hoare",
+            "to": "Rust (programming language)"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 29414838,
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "revisions": [
+              {
+                "revid": 1375530180,
+                "parentid": 1375530110
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Rust_programming_language_black_logo.svg",
+              "wikibase-badge-Q17437798": "",
+              "wikibase-shortdesc": "General-purpose programming language",
+              "wikibase_item": "Q575650"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Rust (programming language)",
+        "pageid": 29414838,
+        "revid": 1375530180,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose programming language</div>\n<p class=\"mw-empty-elt\">\n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Rust</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"skin-invert\" typeof=\"mw:File\"><a href=\"/wiki/File:Rust_programming_language_black_logo.svg\" class=\"mw-file-description\"><img alt=\"Rust logo: a capital letter R attached inside a sprocket with teeth on the outside, both black on a white background\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/250px-Rust_programming_language_black_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"150\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/330px-Rust_programming_language_black_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"106\" data-file-height=\"106\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1367478826\">.mw-parser-output ul.cslist,.mw-parser-output ul.sslist,.mw-parser-output ul.andlist,.mw-parser-output ul.andlistoxford{margin:0;padding:0;display:inline-block;list-style:none}.mw-parser-output ul.cslist-embedded{display:inline}.mw-parser-output .cslist li,.mw-parser-output .sslist li,.mw-parser-output .andlist li,.mw-parser-output .andlistoxford li{margin:0;padding:0 0.25em 0 0;display:inline-block}.mw-parser-output .cslist li:after,.mw-parser-output .andlistoxford li:after{content:\", \"}.mw-parser-output .sslist li:after{content:\"; \"}.mw-parser-output .cslist li:last-child:after,.mw-parser-output .sslist li:last-child:after,.mw-parser-output .andlist li:last-child:after,.mw-parser-output .andlistoxford li:last-child:after{content:none}.mw-parser-output .andlist li:nth-last-child(2):after{content:\" and \"}.mw-parser-output .andlistoxford li:nth-last-child(2):after{content:\", and \"}</style><ul class=\"cslist\"><li><a href=\"/wiki/Comparison_of_multi-paradigm_programming_languages\" title=\"Comparison of multi-paradigm programming languages\">Multi-paradigm</a>:\n  <a href=\"/wiki/Concurrent_computing\" title=\"Concurrent computing\">concurrent</a></li><li><a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a></li><li><a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a></li><li><a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a></li><li><a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a></li></ul></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">The Rust Team</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">January&#160;20, 2012<span class=\"noprint\">&#59;&#32;14 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2012-01-20</span>)</span><sup id=\"cite&#95;ref-Rust0.1a&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Rust0.1a-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">1.98.1<sup id=\"cite&#95;ref-wikidata-bd73cf842f55376c8fbfab41f0506280b6ac68f1-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-bd73cf842f55376c8fbfab41f0506280b6ac68f1-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q575650?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / September 3, 2026<span class=\"noprint\">&#59;&#32;15 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">September 3, 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1367478826\" /><ul class=\"cslist\"><li><a href=\"/wiki/Affine_type_system\" class=\"mw-redirect\" title=\"Affine type system\">Affine</a></li><li><a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a></li><li><a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominal</a></li><li><a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a></li><li><a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a></li></ul></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\"><a href=\"/wiki/OCaml\" title=\"OCaml\">OCaml</a> (2006–2011)<br />Rust (2012–present)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>note 1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>note 2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT</a>, <a href=\"/wiki/Apache_License\" title=\"Apache License\">Apache 2.0</a><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>note 3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.rs</code>, <code>.rlib</code></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.rust-lang.org/\">rust-lang.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1367478826\" /><ul class=\"cslist\"><li><a href=\"/wiki/Alef_(programming_language)\" title=\"Alef (programming language)\">Alef</a></li><li><a href=\"/wiki/BETA_(programming_language)\" title=\"BETA (programming language)\">BETA</a></li><li><a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a></li><li><a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a></li><li><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a></li><li><a href=\"/wiki/Cyclone_(programming_language)\" title=\"Cyclone (programming language)\">Cyclone</a></li><li><a href=\"/wiki/Elm_(programming_language)\" title=\"Elm (programming language)\">Elm</a></li><li><a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a></li><li><a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a></li><li><a href=\"/wiki/Hermes_(programming_language)\" title=\"Hermes (programming language)\">Hermes</a></li><li><a href=\"/wiki/Limbo_(programming_language)\" title=\"Limbo (programming language)\">Limbo</a></li><li><a href=\"/wiki/Mesa_(programming_language)\" title=\"Mesa (programming language)\">Mesa</a></li><li><a href=\"/wiki/Napier88\" title=\"Napier88\">Napier</a></li><li><a href=\"/wiki/Newsqueak\" title=\"Newsqueak\">Newsqueak</a></li><li><a href=\"/wiki/Typestate_analysis\" title=\"Typestate analysis\">NIL</a><sup id=\"cite&#95;ref-nil&#95;11-0\" class=\"reference\"><a href=\"#cite_note-nil-11\"><span class=\"cite-bracket\">&#91;</span>note 4<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/OCaml\" title=\"OCaml\">OCaml</a></li><li><a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a></li><li><a href=\"/wiki/Sather\" title=\"Sather\">Sather</a></li><li><a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a></li><li><a href=\"/wiki/Standard_ML\" title=\"Standard ML\">Standard ML</a></li><li><a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-influences&#95;13-0\" class=\"reference\"><a href=\"#cite_note-influences-13\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1367478826\" /><ul class=\"cslist\"><li><a href=\"/wiki/Idris_(programming_language)\" title=\"Idris (programming language)\">Idris</a><sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/PHP\" title=\"PHP\">PHP</a><sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/Project_Verona\" title=\"Project Verona\">Project Verona</a><sup id=\"cite&#95;ref-Project&#95;Verona&#95;19-0\" class=\"reference\"><a href=\"#cite_note-Project_Verona-19\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/SPARK_(programming_language)\" title=\"SPARK (programming language)\">SPARK</a><sup id=\"cite&#95;ref-Jaloyan&#95;20-0\" class=\"reference\"><a href=\"#cite_note-Jaloyan-20\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a><sup id=\"cite&#95;ref-Lattner&#95;21-0\" class=\"reference\"><a href=\"#cite_note-Lattner-21\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/V_(programming_language)\" title=\"V (programming language)\">V</a><sup id=\"cite&#95;ref-22\" class=\"reference\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/Zig_(programming_language)\" title=\"Zig (programming language)\">Zig</a><sup id=\"cite&#95;ref-23\" class=\"reference\"><a href=\"#cite_note-23\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/Gleam_(programming_language)\" title=\"Gleam (programming language)\">Gleam</a><sup id=\"cite&#95;ref-Gleam&#95;24-0\" class=\"reference\"><a href=\"#cite_note-Gleam-24\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul></td></tr></tbody></table>\n<p><b>Rust</b> is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose programming language</a> that emphasizes <a href=\"/wiki/Computer_performance\" title=\"Computer performance\">performance</a>, <a href=\"/wiki/Type_safety\" title=\"Type safety\">type safety</a>, <a href=\"/wiki/Concurrency_(computer_science)\" title=\"Concurrency (computer science)\">concurrency</a>, and <a href=\"/wiki/Memory_safety\" title=\"Memory safety\">memory safety</a>.\n</p><p>Rust supports multiple <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming paradigms</a>. It was influenced by ideas from <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional programming</a>, including <a href=\"/wiki/Immutability\" class=\"mw-redirect\" title=\"Immutability\">immutability</a>, <a href=\"/wiki/Higher-order_function\" title=\"Higher-order function\">higher-order functions</a>, <a href=\"/wiki/Algebraic_data_type\" title=\"Algebraic data type\">algebraic data types</a>, and <a href=\"/wiki/Pattern_matching\" title=\"Pattern matching\">pattern matching</a>. It also supports <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a> via structs, <a href=\"/wiki/Union_type\" title=\"Union type\">enums</a>, traits, and methods. Rust enforces memory safety (i.e., that all <a href=\"/wiki/Reference_(computer_science)\" title=\"Reference (computer science)\">references</a> point to valid memory) without a conventional <a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">garbage collector</a>; instead, memory safety errors and <a href=\"/wiki/Data_race\" class=\"mw-redirect\" title=\"Data race\">data races</a> are prevented by the \"borrow checker\", which tracks the <a href=\"/wiki/Object_lifetime\" title=\"Object lifetime\">object lifetime</a> of references <a href=\"/wiki/Compiler\" title=\"Compiler\">at compile time</a>.\n</p><p>Software developer Graydon Hoare created Rust in 2006 while working at <a href=\"/wiki/Mozilla\" title=\"Mozilla\">Mozilla</a>, which officially sponsored the project in 2009. The first stable release, Rust 1.0, was published in May 2015. The project has been sponsored by the <a href=\"#Rust_Foundation\">Rust Foundation</a> since February 2021.\n</p><p>Rust has been adopted by many software projects, especially <a href=\"/wiki/Web_service\" title=\"Web service\">web services</a> and <a href=\"/wiki/System_software\" title=\"System software\">system software</a>. It has been studied academically and has a growing community of developers.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-Rust0.1a-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Rust0.1a_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFAnderson2012\" class=\"citation mailinglist cs1\">Anderson, Brian (2012-01-24). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120124160628/https://mail.mozilla.org/pipermail/rust-dev/2012-January/001256.html\">\"&#91;rust-dev&#93; The Rust compiler 0.1 is unleashed\"</a>. <i>rust-dev</i> (Mailing list). Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://mail.mozilla.org/pipermail/rust-dev/2012-January/001256.html\">the original</a> on 2012-01-24<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-01-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=%5Brust-dev%5D+The+Rust+compiler+0.1+is+unleashed&amp;rft.date=2012-01-24&amp;rft.aulast=Anderson&amp;rft.aufirst=Brian&amp;rft&#95;id=https%3A%2F%2Fmail.mozilla.org%2Fpipermail%2Frust-dev%2F2012-January%2F001256.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-bd73cf842f55376c8fbfab41f0506280b6ac68f1-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-bd73cf842f55376c8fbfab41f0506280b6ac68f1-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/\">\"Announcing Rust 1.98.1\"</a>. 2026-09-03<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-09-04</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Announcing+Rust+1.98.1&amp;rft.date=2026-09-03&amp;rft&#95;id=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F09%2F03%2FRust-1.98.1%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-CrossPlatform-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-CrossPlatform_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-CrossPlatform_3-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/rustc/platform-support.html\">\"Platform Support\"</a>. <i>The rustc book</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220630164523/https://doc.rust-lang.org/rustc/platform-support.html\">Archived</a> from the original on 2022-06-30<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2022-06-27</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+rustc+book&amp;rft.atitle=Platform+Support&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Frustc%2Fplatform-support.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/rust-lang/rust/blob/master/COPYRIGHT\">\"Copyright\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. The Rust Programming Language. 2022-10-19. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230722190056/http://github.com/rust-lang/rust/blob/master/COPYRIGHT\">Archived</a> from the original on 2023-07-22<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2022-10-19</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Copyright&amp;rft.date=2022-10-19&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Frust-lang%2Frust%2Fblob%2Fmaster%2FCOPYRIGHT&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-licenses-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-licenses_7-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>licenses</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Strom1983-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Strom1983_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStrom1983\" class=\"citation book cs1\">Strom, Robert E. (1983). \"Mechanisms for compile-time enforcement of security\". <i>Proceedings of the 10th ACM SIGACT-SIGPLAN symposium on Principles of programming languages - POPL '83</i>. pp.&#160;<span class=\"nowrap\">276–</span>284. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F567067.567093\">10.1145/567067.567093</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0897910907\" title=\"Special:BookSources/0897910907\"><bdi>0897910907</bdi></a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:6630704\">6630704</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Mechanisms+for+compile-time+enforcement+of+security&amp;rft.btitle=Proceedings+of+the+10th+ACM+SIGACT-SIGPLAN+symposium+on+Principles+of+programming+languages+-+POPL+%2783&amp;rft.pages=276-284&amp;rft.date=1983&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A6630704%23id-name%3DS2CID&amp;rft&#95;id=info%3Adoi%2F10.1145%2F567067.567093&amp;rft.isbn=0897910907&amp;rft.aulast=Strom&amp;rft.aufirst=Robert+E.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStromYemini,&#95;Shaula1986\" class=\"citation journal cs1\">Strom, Robert E.; Yemini, Shaula (1986). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.cs.cmu.edu/~aldrich/papers/classic/tse12-typestate.pdf\">\"Typestate: A programming language concept for enhancing software reliability\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>IEEE Transactions on Software Engineering</i>. <b>12</b> (1). IEEE: <span class=\"nowrap\">157–</span>171. <a href=\"/wiki/Bibcode_(identifier)\" class=\"mw-redirect\" title=\"Bibcode (identifier)\">Bibcode</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://ui.adsabs.harvard.edu/abs/1986ITSEn..12..157S\">1986ITSEn..12..157S</a>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1109%2Ftse.1986.6312929\">10.1109/tse.1986.6312929</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:15575346\">15575346</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Transactions+on+Software+Engineering&amp;rft.atitle=Typestate%3A+A+programming+language+concept+for+enhancing+software+reliability&amp;rft.volume=12&amp;rft.issue=1&amp;rft.pages=157-171&amp;rft.date=1986&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A15575346%23id-name%3DS2CID&amp;rft&#95;id=info%3Adoi%2F10.1109%2Ftse.1986.6312929&amp;rft&#95;id=info%3Abibcode%2F1986ITSEn..12..157S&amp;rft.aulast=Strom&amp;rft.aufirst=Robert+E.&amp;rft.au=Yemini%2C+Shaula&amp;rft&#95;id=https%3A%2F%2Fwww.cs.cmu.edu%2F~aldrich%2Fpapers%2Fclassic%2Ftse12-typestate.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blog.rust-lang.org/2016/08/10/Shape-of-errors-to-come.html\">\"Uniqueness Types\"</a>. <i>Rust Blog</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160915133745/https://blog.rust-lang.org/2016/08/10/Shape-of-errors-to-come.html\">Archived</a> from the original on 2016-09-15<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2016-10-08</span></span>. <q>Those of you familiar with the Elm style may recognize that the updated <style data-mw-deduplicate=\"TemplateStyles:r886049734\">.mw-parser-output .monospaced{font-family:monospace,monospace}</style><span class=\"monospaced\">--explain</span> messages draw heavy inspiration from the Elm approach.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Rust+Blog&amp;rft.atitle=Uniqueness+Types&amp;rft&#95;id=https%3A%2F%2Fblog.rust-lang.org%2F2016%2F08%2F10%2FShape-of-errors-to-come.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-influences-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-influences_13-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>influences</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://docs.idris-lang.org/en/latest/reference/uniqueness-types.html\">\"Uniqueness Types\"</a>. <i>Idris 1.3.3 documentation</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181121072557/http://docs.idris-lang.org/en/latest/reference/uniqueness-types.html\">Archived</a> from the original on 2018-11-21<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2022-07-14</span></span>. <q>They are inspired by ... ownership types and borrowed pointers in the Rust programming language.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Idris+1.3.3+documentation&amp;rft.atitle=Uniqueness+Types&amp;rft&#95;id=http%3A%2F%2Fdocs.idris-lang.org%2Fen%2Flatest%2Freference%2Funiqueness-types.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEberleiSchröder2020\" class=\"citation web cs1\">Eberlei, Benjamin; Schröder, Martin (2020-03-09). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/attributes_v2\">\"PHP RFC: Attributes v2\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-05-11</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Attributes+v2&amp;rft.date=2020-03-09&amp;rft.aulast=Eberlei&amp;rft.aufirst=Benjamin&amp;rft.au=Schr%C3%B6der%2C+Martin&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fattributes&#95;v2&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFTovilo2020\" class=\"citation web cs1\">Tovilo, Ilija (2020-05-22). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/match_expression_v2\">\"PHP RFC: Match expression v2\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-11-29</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Match+expression+v2&amp;rft.date=2020-05-22&amp;rft.aulast=Tovilo&amp;rft.aufirst=Ilija&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fmatch&#95;expression&#95;v2&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGarfieldTovilo2020\" class=\"citation web cs1\">Garfield, Larry; Tovilo, Ilija (2020-12-04). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/enumerations\">\"PHP RFC: Enumerations\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-05-11</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Enumerations&amp;rft.date=2020-12-04&amp;rft.aulast=Garfield&amp;rft.aufirst=Larry&amp;rft.au=Tovilo%2C+Ilija&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fenumerations&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGarfieldTovilo2020\" class=\"citation web cs1\">Garfield, Larry; Tovilo, Ilija (2020-11-11). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/pattern-matching\">\"PHP RFC: Pattern Matching\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-05-11</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Pattern+Matching&amp;rft.date=2020-11-11&amp;rft.aulast=Garfield&amp;rft.aufirst=Larry&amp;rft.au=Tovilo%2C+Ilija&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fpattern-matching&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Project&#95;Verona-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Project_Verona_19-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Project Verona</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Jaloyan-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Jaloyan_20-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Jaloyan</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Lattner-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Lattner_21-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Lattner</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-22\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/vlang/v/blob/master/doc/docs.md#introduction\">\"V documentation (Introduction)\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. The V Programming Language<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-11-04</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=V+documentation+%28Introduction%29&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fvlang%2Fv%2Fblob%2Fmaster%2Fdoc%2Fdocs.md%23introduction&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-23\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFYegulalp2016\" class=\"citation web cs1\">Yegulalp, Serdar (2016-08-29). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoworld.com/article/3113083/new-challenger-joins-rust-to-upend-c-language.html\">\"New challenger joins Rust to topple C language\"</a>. <i><a href=\"/wiki/InfoWorld\" title=\"InfoWorld\">InfoWorld</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20211125104022/https://www.infoworld.com/article/3113083/new-challenger-joins-rust-to-upend-c-language.html\">Archived</a> from the original on 2021-11-25<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2022-10-19</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=InfoWorld&amp;rft.atitle=New+challenger+joins+Rust+to+topple+C+language&amp;rft.date=2016-08-29&amp;rft.aulast=Yegulalp&amp;rft.aufirst=Serdar&amp;rft&#95;id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3113083%2Fnew-challenger-joins-rust-to-upend-c-language.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ARust+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Gleam-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Gleam_24-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Gleam</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;note&gt;</code> tags on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;note&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐5tf94\nCached time: 20260918163217\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.868 seconds\nReal time usage: 1.200 seconds\nPreprocessor visited node count: 2637/1000000\nRevision size: 9828/2097152 bytes\nPost‐expand include size: 67924/2097152 bytes\nTemplate argument size: 14994/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 41183/5000000 bytes\nLua time usage: 0.456/10.000 seconds\nLua memory usage: 12247805/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00% 1150.923      1 -total\n 47.37%  545.202      2 Template:Infobox\n 41.59%  478.649      1 Template:Infobox_programming_language\n 30.27%  348.352      1 Template:Infobox_software/simple\n 26.41%  303.916      2 Template:Wikidata\n 13.02%  149.852      1 Template:Short_description\n  8.49%   97.668      2 Template:Pagetype\n  6.61%   76.130      6 Template:Main_other\n  6.45%   74.224      2 Template:Start_date_and_age\n  5.35%   61.556     10 Template:Cite_web\n-->\n\n<!-- Render ID 82fbff3b-b37e-11f1-bd1c-0f76e022c460 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Good articles*",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Affine type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alef (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algebraic data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BETA (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bibcode (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of multi-paradigm programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer performance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrency (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cyclone (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data race",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elm (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erlang (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gleam (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hermes (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Higher-order function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Idris (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Immutability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "InfoWorld",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Limbo (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mesa (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mozilla",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Napier88",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Newsqueak",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCaml",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object lifetime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pattern matching",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Project Verona",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reference (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARK (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sather",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard ML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Typestate analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Union type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web service",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zig (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose programming language",
+          "page_image_free": "Rust_programming_language_black_logo.svg",
+          "wikibase_item": "Q575650",
+          "wikibase-badge-Q17437798": ""
+        }
+      }
+    }
+  ]
+}

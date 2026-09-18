@@ -40,6 +40,8 @@ def evaluate(path: Path, split: str = "test", baseline: bool = False) -> dict[st
     pages: dict[str, str] = {}
     ids: set[str] = set()
     for row in records:
+        if row["source_kind"] == "wikipedia" and row.get("reviewed") is not True:
+            raise ValueError("Wikipedia evaluation requires reviewed annotations")
         if row["id"] in ids:
             raise ValueError("Duplicate evaluation ID")
         ids.add(row["id"])
@@ -89,7 +91,7 @@ def evaluate(path: Path, split: str = "test", baseline: bool = False) -> dict[st
         "split": split,
         "sentences": len(selected),
         "source_kinds": sorted({r["source_kind"] for r in selected}),
-        "method": "link-only-baseline" if baseline else "rules-v1",
+        "method": "link-only-baseline" if baseline else "rules-v2",
         "micro": metrics(*totals),
         "per_predicate": {p: metrics(*c) for p, c in counts.items()},
         "entity_linking_accuracy": None,

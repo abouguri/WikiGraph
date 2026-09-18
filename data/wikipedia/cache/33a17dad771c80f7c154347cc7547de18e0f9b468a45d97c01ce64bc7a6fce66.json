@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "CPython",
+    "url": "https://en.wikipedia.org/wiki/CPython",
+    "summary": "Python reference implementation Not to be confused with Cython . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article may need to be rewritten to comply with Wikipedia's quality standards . Relevant discussion may be found on the talk page . You can help . The talk page may contain suggestions. ( January 2020 ) This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"CPython\" – news · newspapers · books · scholar · JSTOR ( November 2010 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) CPython Original author Guido van Rossum Developers Python core developers and the Python community, supported by the Python Software Foundation Release 26 January 1994 ; 32 years ago ( 1994-01-26 ) Stable release 3.14.7 / 5 August 2026 ; 44 days ago ( 5 August 2026 ) Written in C , Python Platform 42 platforms; see § Distribution Available in English Type Python Programming Language Interpreter License Python Software Foundation License Website www .python .org Repository https://github.com/python/cpython CPython is the reference implementation of the Python programming language . Written in C and Python, CPython is the default and most widely used implementation of the Python language. CPython can be defined as both an interpreter and a compiler as it compiles Python code into bytecode before interpreting it. It has a foreign function interface with several languages, including C, in which one must explicitly write bindings in a language other than Python. ^ \"Release 3.14.7\" . 5 August 2026 . Retrieved 6 August 2026 .",
+    "text": "Python reference implementation Not to be confused with Cython . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article may need to be rewritten to comply with Wikipedia's quality standards . Relevant discussion may be found on the talk page . You can help . The talk page may contain suggestions. ( January 2020 ) This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"CPython\" – news · newspapers · books · scholar · JSTOR ( November 2010 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) CPython Original author Guido van Rossum Developers Python core developers and the Python community, supported by the Python Software Foundation Release 26 January 1994 ; 32 years ago ( 1994-01-26 ) Stable release 3.14.7 / 5 August 2026 ; 44 days ago ( 5 August 2026 ) Written in C , Python Platform 42 platforms; see § Distribution Available in English Type Python Programming Language Interpreter License Python Software Foundation License Website www .python .org Repository https://github.com/python/cpython CPython is the reference implementation of the Python programming language . Written in C and Python, CPython is the default and most widely used implementation of the Python language. CPython can be defined as both an interpreter and a compiler as it compiles Python code into bytecode before interpreting it. It has a foreign function interface with several languages, including C, in which one must explicitly write bindings in a language other than Python. ^ \"Release 3.14.7\" . 5 August 2026 . Retrieved 6 August 2026 .",
+    "links": [
+      "Bytecode",
+      "C (programming language)",
+      "Compiler",
+      "Computing platform",
+      "Cython",
+      "English language",
+      "Foreign function interface",
+      "Guido van Rossum",
+      "Interpreter (computing)",
+      "Language binding",
+      "Programmer",
+      "Python (programming language)",
+      "Python Software Foundation",
+      "Python Software Foundation License",
+      "Reference implementation",
+      "Repository (version control)",
+      "Software categories",
+      "Software license",
+      "Software release life cycle"
+    ],
+    "page_id": 1984246,
+    "revision_id": 1375105062,
+    "retrieved_at": "2026-09-18T16:41:05.275565+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260316222653|1343872588",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1984246,
+            "ns": 0,
+            "title": "CPython",
+            "revisions": [
+              {
+                "revid": 1375105062,
+                "parentid": 1343872588
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Python reference implementation",
+              "wikibase_item": "Q599384"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "CPython",
+        "pageid": 1984246,
+        "revid": 1375105062,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Python reference implementation</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Cython\" title=\"Cython\">Cython</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/CPython\" title=\"Special:EditPage/CPython\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:CPython\" title=\"Talk:CPython\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Cleanup&#95;rewrite plainlinks metadata ambox ambox-content\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Crystal_Clear_app_kedit.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/40px-Crystal_Clear_app_kedit.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/120px-Crystal_Clear_app_kedit.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may need to be rewritten to comply with Wikipedia's <a href=\"/wiki/Wikipedia:Manual_of_Style\" title=\"Wikipedia:Manual of Style\">quality standards</a></b>.<span class=\"hide-when-compact\"> Relevant discussion may be found on the <a href=\"/wiki/Talk:CPython\" title=\"Talk:CPython\">talk page</a>. <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=CPython&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=CPython&amp;action=edit\">You can help</a>. The talk page may contain suggestions.</span>  <span class=\"date-container\"><i>(<span class=\"date\">January 2020</span>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22CPython%22\">\"CPython\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22CPython%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22CPython%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22CPython%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22CPython%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22CPython%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">November 2010</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">CPython</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Python_logo_and_wordmark.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/250px-Python_logo_and_wordmark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"74\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/500px-Python_logo_and_wordmark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"486\" data-file-height=\"144\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\"><a href=\"/wiki/Guido_van_Rossum\" title=\"Guido van Rossum\">Guido van Rossum</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developers</a></th><td class=\"infobox-data\">Python core developers and the Python community, supported by the <a href=\"/wiki/Python_Software_Foundation\" title=\"Python Software Foundation\">Python Software Foundation</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">26&#160;January 1994<span class=\"noprint\">&#59;&#32;32 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1994-01-26</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">3.14.7<sup id=\"cite&#95;ref-wikidata-8c708b7a0af9e8cf5ae3d823af80ce8afba82d90-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-8c708b7a0af9e8cf5ae3d823af80ce8afba82d90-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q599384?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 5 August 2026<span class=\"noprint\">&#59;&#32;44 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">5 August 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\">42 platforms; see <a href=\"#Distribution\">§&#160;Distribution</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\"><a href=\"/wiki/English_language\" title=\"English language\">English</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\">Python Programming Language Interpreter</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Python_Software_Foundation_License\" title=\"Python Software Foundation License\">Python Software Foundation License</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.python.org/\">www<wbr />.python<wbr />.org</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><a rel=\"nofollow\" class=\"external free\" href=\"https://github.com/python/cpython\">https://github.com/python/cpython</a></td></tr></tbody></table> \n<p><b>CPython</b> is the <a href=\"/wiki/Reference_implementation\" title=\"Reference implementation\">reference implementation</a> of the <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python programming language</a>. Written in <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> and Python, CPython is the default and most widely used implementation of the Python language.\n</p><p>CPython can be defined as both an <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a> and a <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> as it compiles Python code into <a href=\"/wiki/Bytecode\" title=\"Bytecode\">bytecode</a> before interpreting it. It has a <a href=\"/wiki/Foreign_function_interface\" title=\"Foreign function interface\">foreign function interface</a> with several languages, including C, in which one must explicitly write <a href=\"/wiki/Language_binding\" title=\"Language binding\">bindings</a> in a language other than Python.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-8c708b7a0af9e8cf5ae3d823af80ce8afba82d90-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-8c708b7a0af9e8cf5ae3d823af80ce8afba82d90-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/python/cpython/releases/tag/v3.14.7\">\"Release 3.14.7\"</a>. 5 August 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 August</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+3.14.7&amp;rft.date=2026-08-05&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fpython%2Fcpython%2Freleases%2Ftag%2Fv3.14.7&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACPython\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐xmn59\nCached time: 20260918164131\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.248 seconds\nReal time usage: 0.340 seconds\nPreprocessor visited node count: 1469/1000000\nRevision size: 1607/2097152 bytes\nPost‐expand include size: 46991/2097152 bytes\nTemplate argument size: 13743/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 11362/5000000 bytes\nLua time usage: 0.180/10.000 seconds\nLua memory usage: 11787245/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  321.248      1 -total\n 64.80%  208.184      2 Template:Infobox\n 59.38%  190.762      1 Template:Infobox_software\n 40.83%  131.168      1 Template:Infobox_software/simple\n 37.02%  118.914     18 Template:If_empty\n 33.50%  107.615      2 Template:Wikidata\n 18.29%   58.761      1 Template:Multiple_issues\n 17.08%   54.878      1 Template:Short_description\n 11.12%   35.738      2 Template:Ambox\n  9.83%   31.582      2 Template:Pagetype\n-->\n\n<!-- Render ID cd31b5c0-b37f-11f1-b4ac-13bc3a42aa89 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Cython",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "English language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Foreign function interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Guido van Rossum",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Language binding",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python Software Foundation License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reference implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 1,
+            "title": "Talk:CPython",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Manual of Style",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Python reference implementation",
+          "wikibase_item": "Q599384"
+        }
+      }
+    }
+  ]
+}

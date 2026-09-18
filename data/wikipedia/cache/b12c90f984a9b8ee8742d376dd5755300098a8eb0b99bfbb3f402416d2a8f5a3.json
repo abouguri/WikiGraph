@@ -1,0 +1,1410 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "SQL",
+    "url": "https://en.wikipedia.org/wiki/SQL",
+    "summary": "Relational database programming language This article is about the database language. For other uses, see SQL (disambiguation) . \"SEQUEL\" redirects here. For the topic of the word, see sequel . For other uses, see Sequel (disambiguation) . SQL (Structured Query Language) Paradigm Declarative Family Query language Designed by Donald D. Chamberlin Raymond F. Boyce Developer ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 32 (Subcommittee 32) / WG 3 (Working Group 3) First appeared 1973 ; 53 years ago ( 1973 ) Stable release SQL:2023 / June 2023 ; 3 years ago ( 2023-06 ) Typing discipline Static , strong OS Cross-platform Website www .iso .org /standard /76583 .html Major implementations Many Dialects SQL-86 SQL-89 SQL-92 SQL:1999 SQL:2003 SQL:2006 SQL:2008 SQL:2011 SQL:2016 SQL:2023 Influenced by Datalog Influenced CQL , LINQ , SPARQL , SOQL, PowerShell , JPQL , jOOQ , N1QL , GQL Structured Query Language at Wikibooks SQL (file format) Filename extension .sql Internet media type application/sql Developed by ISO / IEC Initial release 1986 ; 40 years ago ( 1986 ) Type of format Database Standard ISO/IEC 9075 Open format ? Yes Website www .iso .org /standard /76583 .html This article is part of a series on the Structured Query Language List of RDBMSs 4th Dimension Access Database Engine Actian Zen Adabas D SAP Advantage Database Server Airtable Altibase Amazon Aurora Amazon Redshift Apache Derby Apache Ignite Aster Data Systems CA Datacom Clarion ClickHouse Clustrix CockroachDB CUBRID DataEase DataFlex Dataphor dBase DuckDB Empress Embedded Database EnterpriseDB eXtremeDB Exasol Extensible Storage Engine FileMaker Pro Firebird FoundationDB FrontBase Google BigQuery Greenplum H2 Helix HSQLDB IBM Db2 IBM Lotus Approach CA IDMS Infobright Informix Ingres InterBase InterSystems Caché InterSystems IRIS Linter SQL RDBMS MariaDB MaxDB Microsoft Azure SQL Database Microsoft SQL Server Microsoft SQL Server Express Microsoft Visual FoxPro Mimer SQL MonetDB mSQL MySQL Netezza NexusDB NonStop SQL NuoDB Omnis Studio Virtuoso Universal Server Oracle database Oracle Rdb Panorama Paradox Percona Server for MySQL Percona XtraDB Polyhedra PostgreSQL Postgres Plus Advanced Server Progress Software R:Base RethinkDB SAND CDBMS SAP Adaptive Server Enterprise SAP HANA SAP IQ SingleStore Snowflake Cloud Data Warehouse solidDB Google Cloud Spanner SQL Anywhere SQL Azure SQLBase SQLite SQream DB Teradata TiDB TimescaleDB TimesTen Trafodion Transbase Unisys OS 2200 databases UniData UniVerse Vectorwise Vertica VoltDB YDB YugabyteDB Database administration tools Adminer Apache OpenOffice Base Database Workbench DatabaseSpy DbVisualizer DBeaver HeidiSQL LibreOffice Base Microsoft Access MySQL Workbench Navicat Oracle Enterprise Manager pgAdmin phpLiteAdmin PhpSQLiteAdmin phpMyAdmin SQL Database Studio SQL Server Management Studio sqsh Toad Data Modeler TOra IDEs Application Development System Online DataGrip dbForge Studio Oracle SQL Developer PL/SQL Developer SQLyog SQuirreL SQL Client Toad Database drivers and ORMs ActiveRecord Doctrine Entity Framework Hibernate JDBC ODBC SQLAlchemy See also Comparison of RDBMSs Comparison of object–RDBMSs DB-Engine Ranking list List of data science software List of SQL software and tools List of NoSQL software and tools Computer programming portal SQL (Wikibooks) v t e Structured Query Language ( SQL ) ( pronounced / ˌ ɛ s ˌ k j u ˈ ɛ l / S-Q-L ; or alternatively as / ˈ s iː k w ə l / ⓘ \"sequel\") is a domain-specific language used to manage data, especially in a relational database management system (RDBMS). It is particularly useful in handling structured data , i.e., data incorporating relations among entities and variables. Introduced in the 1970s, SQL offered two main advantages over older read–write APIs such as ISAM or VSAM . Firstly, it introduced the concept of accessing many records with one single command . Secondly, it eliminates the need to specify how to reach a record, i.e., with or without an index . Originally based upon relational algebra and tuple relational calculus , SQL consists of many types of statements, which may be informally classed as sublanguages , commonly: data query language (DQL), data definition language (DDL), data control language (DCL), and data manipulation language (DML). The scope of SQL includes data query, data manipulation (insert, update, and delete), data definition ( schema creation and modification), and data access control. Although SQL is essentially a declarative language ( 4GL ), it also includes procedural elements. SQL was one of the first commercial languages to use Edgar F. Codd 's relational model . The model was described in his influential 1970 paper, \"A Relational Model of Data for Large Shared Data Banks\". Despite not entirely adhering to the relational model as described by Codd , SQL became the most widely used database language. SQL became a standard of the American National Standards Institute (ANSI) in 1986 and of the International Organization for Standardization (ISO) in 1987. Since then, the standard has been revised multiple times to include a larger set of features and incorporate common extensions. Despite the existence of standards, virtually no implementations in existence adhere to it fully, and most SQL code requires at least some changes before being ported to different database systems. ^ Cite error: The named reference ars was invoked but never defined (see the help page ). ^ Cite error: The named reference iana was invoked but never defined (see the help page ). ^ Cite error: The named reference application/sql was invoked but never defined (see the help page ). ^ Cite error: The named reference learningSQL was invoked but never defined (see the help page ). ^ Chamberlin, Donald D.; Frana, Philip L. (3 October 2001). \"Oral history interview with Donald D. Chamberlin\" . University Digital Conservancy . hdl : 11299/107215 . Archived from the original on 24 February 2020 . Retrieved 14 January 2020 . We changed the original name \"SEQUEL\" to SQL because we got a letter from somebody's lawyer that said the name \"SEQUEL\" belonged to them. We shortened it to SQL, for Structured Query Language, and the product was known as SQL/DS. ^ Jonker, Alexandra; Mucci, Tim. \"What Is Structured Query Language (SQL)? | IBM\" . www.ibm.com . Retrieved 2 July 2026 . ^ SQL-92 , 4.22 SQL-statements, 4.22.1 Classes of SQL-statements \"There are at least five ways of classifying SQL-statements:\", 4.22.2, SQL statements classified by function \"The following are the main classes of SQL-statements:\"; SQL:2003 4.11 SQL-statements, and later revisions. ^ Chatham, Mark (2012). Structured Query Language By Example - Volume I: Data Query Language . Lulu.com. p. 8. ISBN 978-1-291-19951-2 . ^ Cite error: The named reference codd-relational-model was invoked but never defined (see the help page ). ^ Cite error: The named reference SQL-Fundamentals was invoked but never defined (see the help page ). ^ Cite error: The named reference IBM-sql was invoked but never defined (see the help page ). ^ Cite error: The named reference ISO 9075:1987 was invoked but never defined (see the help page ).",
+    "text": "Relational database programming language This article is about the database language. For other uses, see SQL (disambiguation) . \"SEQUEL\" redirects here. For the topic of the word, see sequel . For other uses, see Sequel (disambiguation) . SQL (Structured Query Language) Paradigm Declarative Family Query language Designed by Donald D. Chamberlin Raymond F. Boyce Developer ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 32 (Subcommittee 32) / WG 3 (Working Group 3) First appeared 1973 ; 53 years ago ( 1973 ) Stable release SQL:2023 / June 2023 ; 3 years ago ( 2023-06 ) Typing discipline Static , strong OS Cross-platform Website www .iso .org /standard /76583 .html Major implementations Many Dialects SQL-86 SQL-89 SQL-92 SQL:1999 SQL:2003 SQL:2006 SQL:2008 SQL:2011 SQL:2016 SQL:2023 Influenced by Datalog Influenced CQL , LINQ , SPARQL , SOQL, PowerShell , JPQL , jOOQ , N1QL , GQL Structured Query Language at Wikibooks SQL (file format) Filename extension .sql Internet media type application/sql Developed by ISO / IEC Initial release 1986 ; 40 years ago ( 1986 ) Type of format Database Standard ISO/IEC 9075 Open format ? Yes Website www .iso .org /standard /76583 .html This article is part of a series on the Structured Query Language List of RDBMSs 4th Dimension Access Database Engine Actian Zen Adabas D SAP Advantage Database Server Airtable Altibase Amazon Aurora Amazon Redshift Apache Derby Apache Ignite Aster Data Systems CA Datacom Clarion ClickHouse Clustrix CockroachDB CUBRID DataEase DataFlex Dataphor dBase DuckDB Empress Embedded Database EnterpriseDB eXtremeDB Exasol Extensible Storage Engine FileMaker Pro Firebird FoundationDB FrontBase Google BigQuery Greenplum H2 Helix HSQLDB IBM Db2 IBM Lotus Approach CA IDMS Infobright Informix Ingres InterBase InterSystems Caché InterSystems IRIS Linter SQL RDBMS MariaDB MaxDB Microsoft Azure SQL Database Microsoft SQL Server Microsoft SQL Server Express Microsoft Visual FoxPro Mimer SQL MonetDB mSQL MySQL Netezza NexusDB NonStop SQL NuoDB Omnis Studio Virtuoso Universal Server Oracle database Oracle Rdb Panorama Paradox Percona Server for MySQL Percona XtraDB Polyhedra PostgreSQL Postgres Plus Advanced Server Progress Software R:Base RethinkDB SAND CDBMS SAP Adaptive Server Enterprise SAP HANA SAP IQ SingleStore Snowflake Cloud Data Warehouse solidDB Google Cloud Spanner SQL Anywhere SQL Azure SQLBase SQLite SQream DB Teradata TiDB TimescaleDB TimesTen Trafodion Transbase Unisys OS 2200 databases UniData UniVerse Vectorwise Vertica VoltDB YDB YugabyteDB Database administration tools Adminer Apache OpenOffice Base Database Workbench DatabaseSpy DbVisualizer DBeaver HeidiSQL LibreOffice Base Microsoft Access MySQL Workbench Navicat Oracle Enterprise Manager pgAdmin phpLiteAdmin PhpSQLiteAdmin phpMyAdmin SQL Database Studio SQL Server Management Studio sqsh Toad Data Modeler TOra IDEs Application Development System Online DataGrip dbForge Studio Oracle SQL Developer PL/SQL Developer SQLyog SQuirreL SQL Client Toad Database drivers and ORMs ActiveRecord Doctrine Entity Framework Hibernate JDBC ODBC SQLAlchemy See also Comparison of RDBMSs Comparison of object–RDBMSs DB-Engine Ranking list List of data science software List of SQL software and tools List of NoSQL software and tools Computer programming portal SQL (Wikibooks) v t e Structured Query Language ( SQL ) ( pronounced / ˌ ɛ s ˌ k j u ˈ ɛ l / S-Q-L ; or alternatively as / ˈ s iː k w ə l / ⓘ \"sequel\") is a domain-specific language used to manage data, especially in a relational database management system (RDBMS). It is particularly useful in handling structured data , i.e., data incorporating relations among entities and variables. Introduced in the 1970s, SQL offered two main advantages over older read–write APIs such as ISAM or VSAM . Firstly, it introduced the concept of accessing many records with one single command . Secondly, it eliminates the need to specify how to reach a record, i.e., with or without an index . Originally based upon relational algebra and tuple relational calculus , SQL consists of many types of statements, which may be informally classed as sublanguages , commonly: data query language (DQL), data definition language (DDL), data control language (DCL), and data manipulation language (DML). The scope of SQL includes data query, data manipulation (insert, update, and delete), data definition ( schema creation and modification), and data access control. Although SQL is essentially a declarative language ( 4GL ), it also includes procedural elements. SQL was one of the first commercial languages to use Edgar F. Codd 's relational model . The model was described in his influential 1970 paper, \"A Relational Model of Data for Large Shared Data Banks\". Despite not entirely adhering to the relational model as described by Codd , SQL became the most widely used database language. SQL became a standard of the American National Standards Institute (ANSI) in 1986 and of the International Organization for Standardization (ISO) in 1987. Since then, the standard has been revised multiple times to include a larger set of features and incorporate common extensions. Despite the existence of standards, virtually no implementations in existence adhere to it fully, and most SQL code requires at least some changes before being ported to different database systems. ^ Cite error: The named reference ars was invoked but never defined (see the help page ). ^ Cite error: The named reference iana was invoked but never defined (see the help page ). ^ Cite error: The named reference application/sql was invoked but never defined (see the help page ). ^ Cite error: The named reference learningSQL was invoked but never defined (see the help page ). ^ Chamberlin, Donald D.; Frana, Philip L. (3 October 2001). \"Oral history interview with Donald D. Chamberlin\" . University Digital Conservancy . hdl : 11299/107215 . Archived from the original on 24 February 2020 . Retrieved 14 January 2020 . We changed the original name \"SEQUEL\" to SQL because we got a letter from somebody's lawyer that said the name \"SEQUEL\" belonged to them. We shortened it to SQL, for Structured Query Language, and the product was known as SQL/DS. ^ Jonker, Alexandra; Mucci, Tim. \"What Is Structured Query Language (SQL)? | IBM\" . www.ibm.com . Retrieved 2 July 2026 . ^ SQL-92 , 4.22 SQL-statements, 4.22.1 Classes of SQL-statements \"There are at least five ways of classifying SQL-statements:\", 4.22.2, SQL statements classified by function \"The following are the main classes of SQL-statements:\"; SQL:2003 4.11 SQL-statements, and later revisions. ^ Chatham, Mark (2012). Structured Query Language By Example - Volume I: Data Query Language . Lulu.com. p. 8. ISBN 978-1-291-19951-2 . ^ Cite error: The named reference codd-relational-model was invoked but never defined (see the help page ). ^ Cite error: The named reference SQL-Fundamentals was invoked but never defined (see the help page ). ^ Cite error: The named reference IBM-sql was invoked but never defined (see the help page ). ^ Cite error: The named reference ISO 9075:1987 was invoked but never defined (see the help page ).",
+    "links": [
+      "4GL",
+      "4th Dimension (software)",
+      "ADSO",
+      "API",
+      "Access Database Engine",
+      "Actian Zen",
+      "ActiveRecord",
+      "Adabas D",
+      "Adminer",
+      "Advantage Database Server",
+      "Airtable",
+      "Altibase",
+      "Amazon Aurora",
+      "Amazon Redshift",
+      "American National Standards Institute",
+      "Apache Derby",
+      "Apache Ignite",
+      "Apache OpenOffice",
+      "Aster Data Systems",
+      "CA Datacom",
+      "CUBRID",
+      "Clarion (programming language)",
+      "ClickHouse",
+      "Clustrix",
+      "CockroachDB",
+      "Codd's 12 rules",
+      "Command-line interface",
+      "Comparison of database administration tools",
+      "Comparison of object–relational database management systems",
+      "Comparison of relational database management systems",
+      "Contextual Query Language",
+      "Cross-platform",
+      "DB-Engines ranking",
+      "DBase",
+      "DBeaver",
+      "Data control language",
+      "Data definition language",
+      "Data manipulation language",
+      "Data model",
+      "Data query language",
+      "DataEase",
+      "DataFlex",
+      "DataGrip",
+      "Database",
+      "Database Workbench",
+      "Database index",
+      "Database schema",
+      "DatabaseSpy",
+      "Datalog",
+      "Dataphor",
+      "DbForge",
+      "DbVisualizer",
+      "Declarative programming",
+      "Doctrine (PHP)",
+      "Domain-specific language",
+      "Donald D. Chamberlin",
+      "DuckDB",
+      "EXtremeDB",
+      "Edgar F. Codd",
+      "Empress Embedded Database",
+      "EnterpriseDB",
+      "Entity Framework",
+      "Exasol",
+      "Extensible Storage Engine",
+      "FileMaker Pro",
+      "Filename extension",
+      "Firebird (database server)",
+      "FoundationDB",
+      "FrontBase",
+      "Google BigQuery",
+      "Graph Query Language",
+      "Greenplum",
+      "H2 (DBMS)",
+      "HSQLDB",
+      "Hdl (identifier)",
+      "HeidiSQL",
+      "Helix (database)",
+      "Hibernate (framework)",
+      "IBM Db2",
+      "IBM Lotus Approach",
+      "IDMS",
+      "ISAM",
+      "ISBN (identifier)",
+      "ISO",
+      "ISO/IEC 9075",
+      "ISO/IEC JTC 1/SC 32",
+      "Infobright",
+      "Informix",
+      "Ingres (database)",
+      "Integrated development environment",
+      "InterBase",
+      "InterSystems",
+      "InterSystems Caché",
+      "International Electrotechnical Commission",
+      "International Organization for Standardization",
+      "International standard",
+      "JDBC",
+      "Java Object Oriented Querying",
+      "Java Persistence Query Language",
+      "Language Integrated Query",
+      "LibreOffice Base",
+      "Linter SQL RDBMS",
+      "List of NoSQL software and tools",
+      "List of SQL software and tools",
+      "List of data science software",
+      "List of relational database management systems",
+      "MSQL",
+      "MariaDB",
+      "MaxDB",
+      "Media type",
+      "Microsoft Access",
+      "Microsoft Azure SQL Database",
+      "Microsoft SQL Server",
+      "Microsoft SQL Server Express",
+      "Microsoft Visual FoxPro",
+      "Mimer SQL",
+      "MonetDB",
+      "MySQL",
+      "MySQL Workbench",
+      "N1QL",
+      "Navicat",
+      "Netezza",
+      "NexusDB",
+      "NonStop SQL",
+      "NuoDB",
+      "ODBC",
+      "Object–relational mapping",
+      "Omnis Studio",
+      "Open file format",
+      "OpenLink Virtuoso",
+      "Operating system",
+      "Oracle Enterprise Manager",
+      "Oracle Rdb",
+      "Oracle SQL Developer",
+      "Oracle database",
+      "PL/SQL Developer",
+      "Panorama (database engine)",
+      "Paradox (database)",
+      "Percona Server for MySQL",
+      "PgAdmin",
+      "PhpLiteAdmin",
+      "PhpMyAdmin",
+      "PhpSQLiteAdmin",
+      "Polyhedra DBMS",
+      "PostgreSQL",
+      "Postgres Plus Advanced Server",
+      "PowerShell",
+      "Procedural programming",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Progress Software",
+      "Query language",
+      "R:Base",
+      "Raymond F. Boyce",
+      "Record (computer science)",
+      "Relational algebra",
+      "Relational database management system",
+      "Relational model",
+      "RethinkDB",
+      "SAND CDBMS",
+      "SAP Adaptive Server Enterprise",
+      "SAP HANA",
+      "SAP IQ",
+      "SPARQL",
+      "SQL (disambiguation)",
+      "SQL Anywhere",
+      "SQL Azure",
+      "SQL Database Studio",
+      "SQL Server Management Studio",
+      "SQL-92",
+      "SQL:1999",
+      "SQL:2003",
+      "SQL:2006",
+      "SQL:2008",
+      "SQL:2011",
+      "SQL:2016",
+      "SQL:2023",
+      "SQLAlchemy",
+      "SQLBase",
+      "SQLite",
+      "SQLyog",
+      "SQream DB",
+      "SQuirreL SQL Client",
+      "Sequel",
+      "Sequel (disambiguation)",
+      "SingleStore",
+      "Snowflake Computing",
+      "Software design",
+      "Software developer",
+      "Software release life cycle",
+      "SolidDB",
+      "Spanner (database)",
+      "Sqsh",
+      "Static typing",
+      "Strong typing",
+      "Structured Query Language",
+      "Sublanguage",
+      "TOra",
+      "Technical standard",
+      "Teradata",
+      "TiDB",
+      "TimesTen",
+      "TimescaleDB",
+      "Toad (software)",
+      "Toad Data Modeler",
+      "Trafodion",
+      "Transbase",
+      "Tuple relational calculus",
+      "Type system",
+      "UniData",
+      "UniVerse",
+      "Unisys OS 2200 databases",
+      "VSAM",
+      "Vectorwise",
+      "Vertica",
+      "VoltDB",
+      "XtraDB",
+      "YDB (database)",
+      "YugabyteDB"
+    ],
+    "page_id": 29004,
+    "revision_id": 1374625236,
+    "retrieved_at": "2026-09-18T16:42:23.788522+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260907181148|1373744041",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 29004,
+            "ns": 0,
+            "title": "SQL",
+            "revisions": [
+              {
+                "revid": 1374625236,
+                "parentid": 1373744041
+              }
+            ],
+            "pageprops": {
+              "toc": "",
+              "wikibase-shortdesc": "Relational database programming language",
+              "wikibase_item": "Q47607"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "SQL",
+        "pageid": 29004,
+        "revid": 1374625236,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Relational database programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the database language. For other uses, see <a href=\"/wiki/SQL_(disambiguation)\" class=\"mw-disambig\" title=\"SQL (disambiguation)\">SQL (disambiguation)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"SEQUEL\" redirects here. For the topic of the word, see <a href=\"/wiki/Sequel\" title=\"Sequel\">sequel</a>. For other uses, see <a href=\"/wiki/Sequel_(disambiguation)\" class=\"mw-disambig\" title=\"Sequel (disambiguation)\">Sequel (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">SQL (Structured Query Language)</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">Declarative</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Query_language\" title=\"Query language\">Query language</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Donald_D._Chamberlin\" class=\"mw-redirect\" title=\"Donald D. Chamberlin\">Donald D. Chamberlin</a><br /><a href=\"/wiki/Raymond_F._Boyce\" title=\"Raymond F. Boyce\">Raymond F. Boyce</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/ISO/IEC_JTC_1/SC_32\" title=\"ISO/IEC JTC 1/SC 32\">ISO/IEC JTC&#160;1 (Joint Technical Committee&#160;1) / SC&#160;32 (Subcommittee&#160;32)</a> / WG&#160;3 (Working Group&#160;3)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1973<span class=\"noprint\">&#59;&#32;53&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1973</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\"><a href=\"/wiki/SQL:2023\" title=\"SQL:2023\">SQL:2023</a>\n   /    June&#160;2023<span class=\"noprint\">&#59;&#32;3&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2023-06</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">Static</a>, <a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.iso.org/standard/76583.html\">www<wbr />.iso<wbr />.org<wbr />/standard<wbr />/76583<wbr />.html</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/List_of_relational_database_management_systems\" title=\"List of relational database management systems\">Many</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li>SQL-86</li>\n<li>SQL-89</li>\n<li><a href=\"/wiki/SQL-92\" title=\"SQL-92\">SQL-92</a></li>\n<li><a href=\"/wiki/SQL:1999\" title=\"SQL:1999\">SQL:1999</a></li>\n<li><a href=\"/wiki/SQL:2003\" title=\"SQL:2003\">SQL:2003</a></li>\n<li><a href=\"/wiki/SQL:2006\" title=\"SQL:2006\">SQL:2006</a></li>\n<li><a href=\"/wiki/SQL:2008\" title=\"SQL:2008\">SQL:2008</a></li>\n<li><a href=\"/wiki/SQL:2011\" title=\"SQL:2011\">SQL:2011</a></li>\n<li><a href=\"/wiki/SQL:2016\" title=\"SQL:2016\">SQL:2016</a></li>\n<li><a href=\"/wiki/SQL:2023\" title=\"SQL:2023\">SQL:2023</a></li></ul>\n</div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Datalog\" title=\"Datalog\">Datalog</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Contextual_Query_Language\" title=\"Contextual Query Language\">CQL</a>, <a href=\"/wiki/Language_Integrated_Query\" title=\"Language Integrated Query\">LINQ</a>, <a href=\"/wiki/SPARQL\" title=\"SPARQL\">SPARQL</a>, SOQL, <a href=\"/wiki/PowerShell\" title=\"PowerShell\">PowerShell</a>,<sup id=\"cite&#95;ref-ars&#95;1-0\" class=\"reference\"><a href=\"#cite_note-ars-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Java_Persistence_Query_Language\" class=\"mw-redirect\" title=\"Java Persistence Query Language\">JPQL</a>, <a href=\"/wiki/Java_Object_Oriented_Querying\" class=\"mw-redirect\" title=\"Java Object Oriented Querying\">jOOQ</a>, <a href=\"/wiki/N1QL\" class=\"mw-redirect\" title=\"N1QL\">N1QL</a>, <a href=\"/wiki/Graph_Query_Language\" title=\"Graph Query Language\">GQL</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Structured_Query_Language\" class=\"extiw\" title=\"wikibooks:Structured Query Language\">Structured Query Language</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><table class=\"infobox\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"padding-bottom: 0.15em;background-color:#e0e0e0;color:inherit;\">SQL (file format)</th></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extension</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><style data-mw-deduplicate=\"TemplateStyles:r886049734\">.mw-parser-output .monospaced{font-family:monospace,monospace}</style><div class=\"monospaced\">\n.sql</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Media_type\" title=\"Media type\">Internet media&#160;type</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r886049734\" /><div class=\"monospaced\">\napplication/sql<sup id=\"cite&#95;ref-iana&#95;2-0\" class=\"reference\"><a href=\"#cite_note-iana-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-application/sql&#95;3-0\" class=\"reference\"><a href=\"#cite_note-application/sql-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Developed&#160;by</th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><a href=\"/wiki/ISO\" class=\"mw-redirect\" title=\"ISO\">ISO</a>/<a href=\"/wiki/International_Electrotechnical_Commission\" title=\"International Electrotechnical Commission\">IEC</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Initial release</th><td class=\"infobox-data\" style=\"line-height: 1.35;\">1986<span class=\"noprint\">&#59;&#32;40&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1986</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Type of format</th><td class=\"infobox-data\" style=\"line-height: 1.35;\">Database</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/International_standard\" title=\"International standard\">Standard</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><a href=\"/wiki/ISO/IEC_9075\" title=\"ISO/IEC 9075\">ISO/IEC 9075</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><span class=\"nowrap\"><a href=\"/wiki/Open_file_format\" title=\"Open file format\">Open format</a>?</span></th><td class=\"infobox-data\" style=\"line-height: 1.35;\">Yes</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Website</th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.iso.org/standard/76583.html\">www<wbr />.iso<wbr />.org<wbr />/standard<wbr />/76583<wbr />.html</a></span></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar sidebar-collapse nomobile nowraplinks\" role=\"navigation\" style=\"width:22.0em; border: 4px double #0064a5;\"><tbody><tr><td class=\"sidebar-pretitle\">This article is part of <a href=\"/wiki/Category:SQL\" title=\"Category:SQL\">a series</a> on the <br /> <a href=\"/wiki/Structured_Query_Language\" class=\"mw-redirect\" title=\"Structured Query Language\">Structured Query Language</a></td></tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_relational_database_management_systems\" title=\"List of relational database management systems\">List of RDBMSs</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/4th_Dimension_(software)\" title=\"4th Dimension (software)\">4th Dimension</a></li>\n<li><a href=\"/wiki/Access_Database_Engine\" title=\"Access Database Engine\">Access Database Engine</a></li>\n<li><a href=\"/wiki/Actian_Zen\" title=\"Actian Zen\">Actian Zen</a></li>\n<li><a href=\"/wiki/Adabas_D\" title=\"Adabas D\">Adabas D</a></li>\n<li><a href=\"/wiki/Advantage_Database_Server\" class=\"mw-redirect\" title=\"Advantage Database Server\">SAP Advantage Database Server</a></li>\n<li><a href=\"/wiki/Airtable\" title=\"Airtable\">Airtable</a></li>\n<li><a href=\"/wiki/Altibase\" title=\"Altibase\">Altibase</a></li>\n<li><a href=\"/wiki/Amazon_Aurora\" title=\"Amazon Aurora\">Amazon Aurora</a></li>\n<li><a href=\"/wiki/Amazon_Redshift\" title=\"Amazon Redshift\">Amazon Redshift</a></li>\n<li><a href=\"/wiki/Apache_Derby\" title=\"Apache Derby\">Apache Derby</a></li>\n<li><a href=\"/wiki/Apache_Ignite\" title=\"Apache Ignite\">Apache Ignite</a></li>\n<li><a href=\"/wiki/Aster_Data_Systems\" title=\"Aster Data Systems\">Aster Data Systems</a></li>\n<li><a href=\"/wiki/CA_Datacom\" class=\"mw-redirect\" title=\"CA Datacom\">CA Datacom</a></li>\n<li><a href=\"/wiki/Clarion_(programming_language)\" title=\"Clarion (programming language)\">Clarion</a></li>\n<li><a href=\"/wiki/ClickHouse\" title=\"ClickHouse\">ClickHouse</a></li>\n<li><a href=\"/wiki/Clustrix\" title=\"Clustrix\">Clustrix</a></li>\n<li><a href=\"/wiki/CockroachDB\" title=\"CockroachDB\">CockroachDB</a></li>\n<li><a href=\"/wiki/CUBRID\" title=\"CUBRID\">CUBRID</a></li>\n<li><a href=\"/wiki/DataEase\" title=\"DataEase\">DataEase</a></li>\n<li><a href=\"/wiki/DataFlex\" title=\"DataFlex\">DataFlex</a></li>\n<li><a href=\"/wiki/Dataphor\" title=\"Dataphor\">Dataphor</a></li>\n<li><a href=\"/wiki/DBase\" title=\"DBase\">dBase</a></li>\n<li><a href=\"/wiki/DuckDB\" title=\"DuckDB\">DuckDB</a></li>\n<li><a href=\"/wiki/Empress_Embedded_Database\" title=\"Empress Embedded Database\">Empress Embedded Database</a></li>\n<li><a href=\"/wiki/EnterpriseDB\" title=\"EnterpriseDB\">EnterpriseDB</a></li>\n<li><a href=\"/wiki/EXtremeDB\" title=\"EXtremeDB\">eXtremeDB</a></li>\n<li><a href=\"/wiki/Exasol\" title=\"Exasol\">Exasol</a></li>\n<li><a href=\"/wiki/Extensible_Storage_Engine\" title=\"Extensible Storage Engine\">Extensible Storage Engine</a></li>\n<li><a href=\"/wiki/FileMaker_Pro\" class=\"mw-redirect\" title=\"FileMaker Pro\">FileMaker Pro</a></li>\n<li><a href=\"/wiki/Firebird_(database_server)\" title=\"Firebird (database server)\">Firebird</a></li>\n<li><a href=\"/wiki/FoundationDB\" title=\"FoundationDB\">FoundationDB</a></li>\n<li><a href=\"/wiki/FrontBase\" title=\"FrontBase\">FrontBase</a></li>\n<li><a href=\"/wiki/Google_BigQuery\" class=\"mw-redirect\" title=\"Google BigQuery\">Google BigQuery</a></li>\n<li><a href=\"/wiki/Greenplum\" title=\"Greenplum\">Greenplum</a></li>\n<li><a href=\"/wiki/H2_(DBMS)\" class=\"mw-redirect\" title=\"H2 (DBMS)\">H2</a></li>\n<li><a href=\"/wiki/Helix_(database)\" title=\"Helix (database)\">Helix</a></li>\n<li><a href=\"/wiki/HSQLDB\" title=\"HSQLDB\">HSQLDB</a></li>\n<li><a href=\"/wiki/IBM_Db2\" title=\"IBM Db2\">IBM Db2</a></li>\n<li><a href=\"/wiki/IBM_Lotus_Approach\" class=\"mw-redirect\" title=\"IBM Lotus Approach\">IBM Lotus Approach</a></li>\n<li><a href=\"/wiki/IDMS\" title=\"IDMS\">CA IDMS</a></li>\n<li><a href=\"/wiki/Infobright\" title=\"Infobright\">Infobright</a></li>\n<li><a href=\"/wiki/Informix\" title=\"Informix\">Informix</a></li>\n<li><a href=\"/wiki/Ingres_(database)\" title=\"Ingres (database)\">Ingres</a></li>\n<li><a href=\"/wiki/InterBase\" title=\"InterBase\">InterBase</a></li>\n<li><a href=\"/wiki/InterSystems_Cach%C3%A9\" title=\"InterSystems Caché\">InterSystems Caché</a></li>\n<li><a href=\"/wiki/InterSystems\" title=\"InterSystems\">InterSystems IRIS</a></li>\n<li><a href=\"/wiki/Linter_SQL_RDBMS\" title=\"Linter SQL RDBMS\">Linter SQL RDBMS</a></li>\n<li><a href=\"/wiki/MariaDB\" title=\"MariaDB\">MariaDB</a></li>\n<li><a href=\"/wiki/MaxDB\" title=\"MaxDB\">MaxDB</a></li>\n<li><a href=\"/wiki/Microsoft_Azure_SQL_Database\" title=\"Microsoft Azure SQL Database\">Microsoft Azure SQL Database</a></li>\n<li><a href=\"/wiki/Microsoft_SQL_Server\" title=\"Microsoft SQL Server\">Microsoft SQL Server</a></li>\n<li><a href=\"/wiki/Microsoft_SQL_Server_Express\" class=\"mw-redirect\" title=\"Microsoft SQL Server Express\">Microsoft SQL Server Express</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_FoxPro\" class=\"mw-redirect\" title=\"Microsoft Visual FoxPro\">Microsoft Visual FoxPro</a></li>\n<li><a href=\"/wiki/Mimer_SQL\" title=\"Mimer SQL\">Mimer SQL</a></li>\n<li><a href=\"/wiki/MonetDB\" title=\"MonetDB\">MonetDB</a></li>\n<li><a href=\"/wiki/MSQL\" title=\"MSQL\">mSQL</a></li>\n<li><a href=\"/wiki/MySQL\" title=\"MySQL\">MySQL</a></li>\n<li><a href=\"/wiki/Netezza\" title=\"Netezza\">Netezza</a></li>\n<li><a href=\"/wiki/NexusDB\" title=\"NexusDB\">NexusDB</a></li>\n<li><a href=\"/wiki/NonStop_SQL\" title=\"NonStop SQL\">NonStop SQL</a></li>\n<li><a href=\"/wiki/NuoDB\" title=\"NuoDB\">NuoDB</a></li>\n<li><a href=\"/wiki/Omnis_Studio\" title=\"Omnis Studio\">Omnis Studio</a></li>\n<li><a href=\"/wiki/OpenLink_Virtuoso\" class=\"mw-redirect\" title=\"OpenLink Virtuoso\">Virtuoso Universal Server</a></li>\n<li><a href=\"/wiki/Oracle_database\" class=\"mw-redirect\" title=\"Oracle database\">Oracle database</a></li>\n<li><a href=\"/wiki/Oracle_Rdb\" title=\"Oracle Rdb\">Oracle Rdb</a></li>\n<li><a href=\"/wiki/Panorama_(database_engine)\" title=\"Panorama (database engine)\">Panorama</a></li>\n<li><a href=\"/wiki/Paradox_(database)\" title=\"Paradox (database)\">Paradox</a></li>\n<li><a href=\"/wiki/Percona_Server_for_MySQL\" title=\"Percona Server for MySQL\">Percona Server for MySQL</a></li>\n<li><a href=\"/wiki/XtraDB\" title=\"XtraDB\">Percona XtraDB</a></li>\n<li><a href=\"/wiki/Polyhedra_DBMS\" class=\"mw-redirect\" title=\"Polyhedra DBMS\">Polyhedra</a></li>\n<li><a href=\"/wiki/PostgreSQL\" title=\"PostgreSQL\">PostgreSQL</a></li>\n<li><a href=\"/wiki/Postgres_Plus_Advanced_Server\" class=\"mw-redirect\" title=\"Postgres Plus Advanced Server\">Postgres Plus Advanced Server</a></li>\n<li><a href=\"/wiki/Progress_Software\" title=\"Progress Software\">Progress Software</a></li>\n<li><a href=\"/wiki/R:Base\" title=\"R:Base\">R:Base</a></li>\n<li><a href=\"/wiki/RethinkDB\" title=\"RethinkDB\">RethinkDB</a></li>\n<li><a href=\"/wiki/SAND_CDBMS\" title=\"SAND CDBMS\">SAND CDBMS</a></li>\n<li><a href=\"/wiki/SAP_Adaptive_Server_Enterprise\" class=\"mw-redirect\" title=\"SAP Adaptive Server Enterprise\">SAP Adaptive Server Enterprise</a></li>\n<li><a href=\"/wiki/SAP_HANA\" title=\"SAP HANA\">SAP HANA</a></li>\n<li><a href=\"/wiki/SAP_IQ\" title=\"SAP IQ\">SAP IQ</a></li>\n<li><a href=\"/wiki/SingleStore\" title=\"SingleStore\">SingleStore</a></li>\n<li><a href=\"/wiki/Snowflake_Computing\" class=\"mw-redirect\" title=\"Snowflake Computing\">Snowflake Cloud Data Warehouse</a></li>\n<li><a href=\"/wiki/SolidDB\" title=\"SolidDB\">solidDB</a></li>\n<li><a href=\"/wiki/Spanner_(database)\" title=\"Spanner (database)\">Google Cloud Spanner</a></li>\n<li><a href=\"/wiki/SQL_Anywhere\" title=\"SQL Anywhere\">SQL Anywhere</a></li>\n<li><a href=\"/wiki/SQL_Azure\" class=\"mw-redirect\" title=\"SQL Azure\">SQL Azure</a></li>\n<li><a href=\"/wiki/SQLBase\" class=\"mw-redirect\" title=\"SQLBase\">SQLBase</a></li>\n<li><a href=\"/wiki/SQLite\" title=\"SQLite\">SQLite</a></li>\n<li><a href=\"/wiki/SQream_DB\" title=\"SQream DB\">SQream DB</a></li>\n<li><a href=\"/wiki/Teradata\" title=\"Teradata\">Teradata</a></li>\n<li><a href=\"/wiki/TiDB\" title=\"TiDB\">TiDB</a></li>\n<li><a href=\"/wiki/TimescaleDB\" title=\"TimescaleDB\">TimescaleDB</a></li>\n<li><a href=\"/wiki/TimesTen\" title=\"TimesTen\">TimesTen</a></li>\n<li><a href=\"/wiki/Trafodion\" class=\"mw-redirect\" title=\"Trafodion\">Trafodion</a></li>\n<li><a href=\"/wiki/Transbase\" title=\"Transbase\">Transbase</a></li>\n<li><a href=\"/wiki/Unisys_OS_2200_databases\" title=\"Unisys OS 2200 databases\">Unisys OS 2200 databases</a></li>\n<li><a href=\"/wiki/UniData\" class=\"mw-redirect\" title=\"UniData\">UniData</a></li>\n<li><a href=\"/wiki/UniVerse\" class=\"mw-redirect\" title=\"UniVerse\">UniVerse</a></li>\n<li><a href=\"/wiki/Vectorwise\" class=\"mw-redirect\" title=\"Vectorwise\">Vectorwise</a></li>\n<li><a href=\"/wiki/Vertica\" title=\"Vertica\">Vertica</a></li>\n<li><a href=\"/wiki/VoltDB\" title=\"VoltDB\">VoltDB</a></li>\n<li><a href=\"/wiki/YDB_(database)\" title=\"YDB (database)\">YDB</a></li>\n<li><a href=\"/wiki/YugabyteDB\" title=\"YugabyteDB\">YugabyteDB</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/Comparison_of_database_administration_tools\" title=\"Comparison of database administration tools\">Database administration tools</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/Adminer\" title=\"Adminer\">Adminer</a></li>\n<li><a href=\"/wiki/Apache_OpenOffice#Features\" title=\"Apache OpenOffice\">Apache OpenOffice Base</a></li>\n<li><a href=\"/wiki/Database_Workbench\" title=\"Database Workbench\">Database Workbench</a></li>\n<li><a href=\"/wiki/DatabaseSpy\" title=\"DatabaseSpy\">DatabaseSpy</a></li>\n<li><a href=\"/wiki/DbVisualizer\" title=\"DbVisualizer\">DbVisualizer</a></li>\n<li><a href=\"/wiki/DBeaver\" title=\"DBeaver\">DBeaver</a></li>\n<li><a href=\"/wiki/HeidiSQL\" title=\"HeidiSQL\">HeidiSQL</a></li>\n<li><a href=\"/wiki/LibreOffice_Base\" title=\"LibreOffice Base\">LibreOffice Base</a></li>\n<li><a href=\"/wiki/Microsoft_Access\" title=\"Microsoft Access\">Microsoft Access</a></li>\n<li><a href=\"/wiki/MySQL_Workbench\" title=\"MySQL Workbench\">MySQL Workbench</a></li>\n<li><a href=\"/wiki/Navicat\" title=\"Navicat\">Navicat</a></li>\n<li><a href=\"/wiki/Oracle_Enterprise_Manager\" title=\"Oracle Enterprise Manager\">Oracle Enterprise Manager</a></li>\n<li><a href=\"/wiki/PgAdmin\" class=\"mw-redirect\" title=\"PgAdmin\">pgAdmin</a></li>\n<li><a href=\"/wiki/PhpLiteAdmin\" title=\"PhpLiteAdmin\">phpLiteAdmin</a></li>\n<li><a href=\"/wiki/PhpSQLiteAdmin\" title=\"PhpSQLiteAdmin\">PhpSQLiteAdmin</a></li>\n<li><a href=\"/wiki/PhpMyAdmin\" title=\"PhpMyAdmin\">phpMyAdmin</a></li>\n<li><a href=\"/wiki/SQL_Database_Studio\" title=\"SQL Database Studio\">SQL Database Studio</a></li>\n<li><a href=\"/wiki/SQL_Server_Management_Studio\" title=\"SQL Server Management Studio\">SQL Server Management Studio</a></li>\n<li><a href=\"/wiki/Sqsh\" title=\"Sqsh\">sqsh</a></li>\n<li><a href=\"/wiki/Toad_Data_Modeler\" title=\"Toad Data Modeler\">Toad Data Modeler</a></li>\n<li><a href=\"/wiki/TOra\" title=\"TOra\">TOra</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/Integrated_development_environment\" title=\"Integrated development environment\">IDEs</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/ADSO\" title=\"ADSO\">Application Development System Online</a></li>\n<li><a href=\"/wiki/DataGrip\" class=\"mw-redirect\" title=\"DataGrip\">DataGrip</a></li>\n<li><a href=\"/wiki/DbForge\" title=\"DbForge\">dbForge Studio</a></li>\n<li><a href=\"/wiki/Oracle_SQL_Developer\" title=\"Oracle SQL Developer\">Oracle SQL Developer</a></li>\n<li><a href=\"/wiki/PL/SQL_Developer\" title=\"PL/SQL Developer\">PL/SQL Developer</a></li>\n<li><a href=\"/wiki/SQLyog\" title=\"SQLyog\">SQLyog</a></li>\n<li><a href=\"/wiki/SQuirreL_SQL_Client\" title=\"SQuirreL SQL Client\">SQuirreL SQL Client</a></li>\n<li><a href=\"/wiki/Toad_(software)\" title=\"Toad (software)\">Toad</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\">Database drivers and <a href=\"/wiki/Object%E2%80%93relational_mapping\" title=\"Object–relational mapping\">ORMs</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/ActiveRecord\" class=\"mw-redirect\" title=\"ActiveRecord\">ActiveRecord</a></li>\n<li><a href=\"/wiki/Doctrine_(PHP)\" title=\"Doctrine (PHP)\">Doctrine</a></li>\n<li><a href=\"/wiki/Entity_Framework\" title=\"Entity Framework\">Entity Framework</a></li>\n<li><a href=\"/wiki/Hibernate_(framework)\" title=\"Hibernate (framework)\">Hibernate</a></li>\n<li><a href=\"/wiki/JDBC\" class=\"mw-redirect\" title=\"JDBC\">JDBC</a></li>\n<li><a href=\"/wiki/ODBC\" class=\"mw-redirect\" title=\"ODBC\">ODBC</a></li>\n<li><a href=\"/wiki/SQLAlchemy\" title=\"SQLAlchemy\">SQLAlchemy</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\">See also</div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/Comparison_of_relational_database_management_systems\" title=\"Comparison of relational database management systems\">Comparison of RDBMSs</a></li>\n<li><a href=\"/wiki/Comparison_of_object%E2%80%93relational_database_management_systems\" title=\"Comparison of object–relational database management systems\">Comparison of object–RDBMSs</a></li>\n<li><a href=\"/wiki/DB-Engines_ranking#DB-Engine_Ranking_list\" title=\"DB-Engines ranking\">DB-Engine Ranking list</a></li>\n<li><a href=\"/wiki/List_of_data_science_software\" title=\"List of data science software\">List of data science software</a></li>\n<li><a href=\"/wiki/List_of_SQL_software_and_tools\" title=\"List of SQL software and tools\">List of SQL software and tools</a></li>\n<li><a href=\"/wiki/List_of_NoSQL_software_and_tools\" title=\"List of NoSQL software and tools\">List of NoSQL software and tools</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-below\">\n<ul><li><span class=\"nowrap\"><span class=\"skin-invert-image noviewer\" typeof=\"mw:File\"><a href=\"/wiki/File:Octicons-terminal.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/20px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"13\" height=\"15\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/40px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"896\" data-file-height=\"1024\" /></a></span> </span><a href=\"/wiki/Portal:Computer_programming\" title=\"Portal:Computer programming\">Computer programming&#32;portal</a></li>\n<li><a href=\"https://en.wikibooks.org/wiki/Structured_Query_Language\" class=\"extiw\" title=\"wikibooks:Structured Query Language\">SQL (Wikibooks)</a></li></ul></td></tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:SQL_sidebar\" title=\"Template:SQL sidebar\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/w/index.php?title=Template_talk:SQL_sidebar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Template talk:SQL sidebar (page does not exist)\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:SQL_sidebar\" title=\"Special:EditPage/Template:SQL sidebar\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>Structured Query Language</b> (<b>SQL</b>) (<small>pronounced</small> <span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˌ/: secondary stress follows\">ˌ</span><span title=\"/ɛ/: &#39;e&#39; in &#39;dress&#39;\">ɛ</span><span title=\"&#39;s&#39; in &#39;sigh&#39;\">s</span><span title=\"/ˌ/: secondary stress follows\">ˌ</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"/j/: &#39;y&#39; in &#39;yes&#39;\">j</span><span title=\"/u/: &#39;u&#39; in &#39;influence&#39;\">u</span><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"/ɛ/: &#39;e&#39; in &#39;dress&#39;\">ɛ</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span></span>/</a></span></span> <i>S-Q-L</i>; <small>or alternatively as</small> <span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;s&#39; in &#39;sigh&#39;\">s</span><span title=\"/iː/: &#39;ee&#39; in &#39;fleece&#39;\">iː</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"&#39;w&#39; in &#39;wind&#39;\">w</span><span title=\"/ə/: &#39;a&#39; in &#39;about&#39;\">ə</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span></span>/</a></span>&#32;<span class=\"ext-phonos\"><span data-nosnippet=\"\" id=\"ooui-php-1\" class=\"noexcerpt ext-phonos-PhonosButton ext-phonos-PhonosButton-emptylabel oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-buttonElement-size-medium oo-ui-iconElement oo-ui-buttonWidget\" data-ooui=\"{&quot;_&quot;:&quot;mw.Phonos.PhonosButton&quot;,&quot;href&quot;:&quot;\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/transcoded\\/0\\/04\\/LL-Q1860_%28eng%29-Flame%2C_not_lame-SQL.wav\\/LL-Q1860_%28eng%29-Flame%2C_not_lame-SQL.wav.mp3&quot;,&quot;rel&quot;:[&quot;nofollow&quot;],&quot;framed&quot;:false,&quot;icon&quot;:&quot;volumeUp&quot;,&quot;data&quot;:{&quot;ipa&quot;:&quot;&quot;,&quot;text&quot;:&quot;&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;wikibase&quot;:&quot;&quot;,&quot;file&quot;:&quot;LL-Q1860 (eng)-Flame, not lame-SQL.wav&quot;},&quot;classes&quot;:[&quot;noexcerpt&quot;,&quot;ext-phonos-PhonosButton&quot;,&quot;ext-phonos-PhonosButton-emptylabel&quot;]}\"><a role=\"button\" tabindex=\"0\" href=\"//upload.wikimedia.org/wikipedia/commons/transcoded/0/04/LL-Q1860_%28eng%29-Flame%2C_not_lame-SQL.wav/LL-Q1860_%28eng%29-Flame%2C_not_lame-SQL.wav.mp3\" rel=\"nofollow\" aria-label=\"Play audio\" title=\"Play audio\" class=\"oo-ui-buttonElement-button\"><span class=\"oo-ui-iconElement-icon oo-ui-icon-volumeUp\"></span><span class=\"oo-ui-labelElement-label\"></span><span class=\"oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator\"></span></a></span><sup class=\"ext-phonos-attribution noexcerpt navigation-not-searchable\"><a href=\"/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-SQL.wav\" title=\"File:LL-Q1860 (eng)-Flame, not lame-SQL.wav\">ⓘ</a></sup></span></span> \"sequel\")<sup id=\"cite&#95;ref-learningSQL&#95;4-0\" class=\"reference\"><a href=\"#cite_note-learningSQL-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-chamberlin2001&#95;5-0\" class=\"reference\"><a href=\"#cite_note-chamberlin2001-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/Domain-specific_language\" title=\"Domain-specific language\">domain-specific language</a> used to manage data, especially in a <a href=\"/wiki/Relational_database_management_system\" class=\"mw-redirect\" title=\"Relational database management system\">relational database management system</a> (RDBMS). It is particularly useful in handling <a href=\"/wiki/Data_model\" title=\"Data model\">structured data</a>, i.e., data incorporating relations among entities and variables.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Introduced in the 1970s, SQL offered two main advantages over older read&#8211;write <a href=\"/wiki/API\" title=\"API\">APIs</a> such as <a href=\"/wiki/ISAM\" title=\"ISAM\">ISAM</a> or <a href=\"/wiki/VSAM\" class=\"mw-redirect\" title=\"VSAM\">VSAM</a>. Firstly, it introduced the concept of accessing many <a href=\"/wiki/Record_(computer_science)\" title=\"Record (computer science)\">records</a> with one single <a href=\"/wiki/Command-line_interface\" title=\"Command-line interface\">command</a>. Secondly, it eliminates the need to specify <i>how</i> to reach a record, i.e., with or without an <a href=\"/wiki/Database_index\" title=\"Database index\">index</a>.\n</p><p>Originally based upon <a href=\"/wiki/Relational_algebra\" title=\"Relational algebra\">relational algebra</a> and <a href=\"/wiki/Tuple_relational_calculus\" title=\"Tuple relational calculus\">tuple relational calculus</a>, SQL consists of many types of statements,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> which may be informally classed as <a href=\"/wiki/Sublanguage\" title=\"Sublanguage\">sublanguages</a>, commonly: <a href=\"/wiki/Data_query_language\" title=\"Data query language\">data query language</a> (DQL), <a href=\"/wiki/Data_definition_language\" title=\"Data definition language\">data definition language</a> (DDL), <a href=\"/wiki/Data_control_language\" title=\"Data control language\">data control language</a> (DCL), and <a href=\"/wiki/Data_manipulation_language\" title=\"Data manipulation language\">data manipulation language</a> (DML).<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The scope of SQL includes data query, data manipulation (insert, update, and delete), data definition (<a href=\"/wiki/Database_schema\" title=\"Database schema\">schema</a> creation and modification), and data access control. Although SQL is essentially a <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative language</a> (<a href=\"/wiki/4GL\" class=\"mw-redirect\" title=\"4GL\">4GL</a>), it also includes <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a> elements.\n</p><p>SQL was one of the first commercial languages to use <a href=\"/wiki/Edgar_F._Codd\" title=\"Edgar F. Codd\">Edgar F. Codd</a>'s <a href=\"/wiki/Relational_model\" title=\"Relational model\">relational model</a>. The model was described in his influential 1970 paper, \"A Relational Model of Data for Large Shared Data Banks\".<sup id=\"cite&#95;ref-codd-relational-model&#95;9-0\" class=\"reference\"><a href=\"#cite_note-codd-relational-model-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>  Despite not entirely adhering to <a href=\"/wiki/Codd%27s_12_rules\" title=\"Codd&#39;s 12 rules\">the relational model as described by Codd</a>, SQL became the most widely used database language.<sup id=\"cite&#95;ref-SQL-Fundamentals&#95;10-0\" class=\"reference\"><a href=\"#cite_note-SQL-Fundamentals-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-IBM-sql&#95;11-0\" class=\"reference\"><a href=\"#cite_note-IBM-sql-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>SQL became a <a href=\"/wiki/Technical_standard\" title=\"Technical standard\">standard</a> of the <a href=\"/wiki/American_National_Standards_Institute\" title=\"American National Standards Institute\">American National Standards Institute</a> (ANSI) in 1986 and of the <a href=\"/wiki/International_Organization_for_Standardization\" title=\"International Organization for Standardization\">International Organization for Standardization</a> (ISO) in 1987.<sup id=\"cite&#95;ref-ISO&#95;9075:1987&#95;12-0\" class=\"reference\"><a href=\"#cite_note-ISO_9075:1987-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> Since then, the standard has been revised multiple times to include a larger set of features and incorporate common extensions. Despite the existence of standards, virtually no implementations in existence adhere to it fully, and most SQL code requires at least some changes before being ported to different <a href=\"/wiki/Database\" title=\"Database\">database</a> systems.\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r886046785\">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class=\"toclimit-3\"><meta property=\"mw:PageProp/toc\" /></div>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-ars-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-ars_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>ars</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-iana-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-iana_2-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>iana</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-application/sql-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-application/sql_3-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>application/sql</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-learningSQL-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-learningSQL_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>learningSQL</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-chamberlin2001-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-chamberlin2001_5-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFChamberlinFrana2001\" class=\"citation journal cs1\">Chamberlin, Donald D.; Frana, Philip L. (3 October 2001). <a rel=\"nofollow\" class=\"external text\" href=\"https://conservancy.umn.edu/handle/11299/107215\">\"Oral history interview with Donald D. Chamberlin\"</a>. <i>University Digital Conservancy</i>. <a href=\"/wiki/Hdl_(identifier)\" class=\"mw-redirect\" title=\"Hdl (identifier)\">hdl</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.handle.net/11299%2F107215\">11299/107215</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200224145836/https://conservancy.umn.edu/handle/11299/107215\">Archived</a> from the original on 24 February 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 January</span> 2020</span>. <q>We changed the original name \"SEQUEL\" to SQL because we got a letter from somebody's lawyer that said the name \"SEQUEL\" belonged to them. We shortened it to SQL, for Structured Query Language, and the product was known as SQL/DS.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=University+Digital+Conservancy&amp;rft.atitle=Oral+history+interview+with+Donald+D.+Chamberlin&amp;rft.date=2001-10-03&amp;rft&#95;id=info%3Ahdl%2F11299%2F107215&amp;rft.aulast=Chamberlin&amp;rft.aufirst=Donald+D.&amp;rft.au=Frana%2C+Philip+L.&amp;rft&#95;id=https%3A%2F%2Fconservancy.umn.edu%2Fhandle%2F11299%2F107215&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASQL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJonkerMucci\" class=\"citation web cs1\">Jonker, Alexandra; Mucci, Tim. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.ibm.com/think/topics/structured-query-language\">\"What Is Structured Query Language (SQL)? | IBM\"</a>. <i>www.ibm.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2 July</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.ibm.com&amp;rft.atitle=What+Is+Structured+Query+Language+%28SQL%29%3F+%7C+IBM&amp;rft.aulast=Jonker&amp;rft.aufirst=Alexandra&amp;rft.au=Mucci%2C+Tim&amp;rft&#95;id=https%3A%2F%2Fwww.ibm.com%2Fthink%2Ftopics%2Fstructured-query-language&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASQL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><a href=\"/wiki/SQL-92\" title=\"SQL-92\">SQL-92</a>, 4.22 SQL-statements, 4.22.1 Classes of SQL-statements \"There are at least five ways of classifying SQL-statements:\", 4.22.2, SQL statements classified by function \"The following are the main classes of SQL-statements:\"; <a href=\"/wiki/SQL:2003\" title=\"SQL:2003\">SQL:2003</a> 4.11 SQL-statements, and later revisions.</span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFChatham2012\" class=\"citation book cs1\">Chatham, Mark (2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=64MBBAAAQBAJ&amp;pg=PA8\"><i>Structured Query Language By Example - Volume I: Data Query Language</i></a>. Lulu.com. p.&#160;8. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-291-19951-2\" title=\"Special:BookSources/978-1-291-19951-2\"><bdi>978-1-291-19951-2</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Structured+Query+Language+By+Example+-+Volume+I%3A+Data+Query+Language&amp;rft.pages=8&amp;rft.pub=Lulu.com&amp;rft.date=2012&amp;rft.isbn=978-1-291-19951-2&amp;rft.aulast=Chatham&amp;rft.aufirst=Mark&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D64MBBAAAQBAJ%26pg%3DPA8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASQL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-codd-relational-model-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-codd-relational-model_9-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>codd-relational-model</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-SQL-Fundamentals-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-SQL-Fundamentals_10-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>SQL-Fundamentals</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-IBM-sql-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-IBM-sql_11-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>IBM-sql</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-ISO&#95;9075:1987-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-ISO_9075:1987_12-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>ISO 9075:1987</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐g8jpj\nCached time: 20260918164249\nCache expiry: 28800\nCache expiry source: Module:Portal‐inline (os.date(%k))\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.389 seconds\nReal time usage: 0.581 seconds\nPreprocessor visited node count: 2946/1000000\nRevision size: 6211/2097152 bytes\nPost‐expand include size: 63768/2097152 bytes\nTemplate argument size: 11197/2097152 bytes\nHighest expansion depth: 26/100\nExpensive parser function count: 11/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 31143/5000000 bytes\nLua time usage: 0.154/10.000 seconds\nLua memory usage: 6115502/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  530.071      1 -total\n 21.30%  112.916      3 Template:Infobox\n 15.15%   80.321      1 Template:Infobox_programming_language\n 11.02%   58.401      1 Template:SQL_sidebar\n  9.46%   50.123      1 Template:Cite_journal\n  9.31%   49.365      1 Template:Short_description\n  7.47%   39.601      2 Template:IPAc-en\n  7.12%   37.720     16 Template:Broken_ref\n  5.35%   28.379      2 Template:Pagetype\n  5.12%   27.164      1 Template:Infobox_software/simple\n-->\n\n<!-- Render ID fbaf8ad5-b37f-11f1-9de2-cb204352a8fc -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "SQL (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sequel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sequel (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "4GL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "4th Dimension (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ADSO",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "API",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Access Database Engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Actian Zen",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ActiveRecord",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adabas D",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adminer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Advantage Database Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Airtable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Altibase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amazon Aurora",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amazon Redshift",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "American National Standards Institute",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Derby",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Ignite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache OpenOffice",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Aster Data Systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CA Datacom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CUBRID",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clarion (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ClickHouse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clustrix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CockroachDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Codd's 12 rules",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command-line interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of database administration tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of object–relational database management systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of relational database management systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Contextual Query Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DB-Engines ranking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DBase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DBeaver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DataEase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DataFlex",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DataGrip",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data control language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data definition language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data manipulation language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data query language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DatabaseSpy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database Workbench",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database index",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database schema",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Datalog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dataphor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DbForge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DbVisualizer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctrine (PHP)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Domain-specific language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Donald D. Chamberlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DuckDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EXtremeDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Edgar F. Codd",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Empress Embedded Database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EnterpriseDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Entity Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Exasol",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extensible Storage Engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FileMaker Pro",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Firebird (database server)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FoundationDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FrontBase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google BigQuery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graph Query Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Greenplum",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "H2 (DBMS)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HSQLDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hdl (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HeidiSQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Helix (database)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hibernate (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM Db2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM Lotus Approach",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IDMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISAM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO/IEC 9075",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO/IEC JTC 1/SC 32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Infobright",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Informix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ingres (database)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated development environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "InterBase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "InterSystems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "InterSystems Caché",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Electrotechnical Commission",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Organization for Standardization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International standard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JDBC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Object Oriented Querying",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Persistence Query Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Language Integrated Query",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibreOffice Base",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linter SQL RDBMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of NoSQL software and tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of SQL software and tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of data science software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of relational database management systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MSQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MariaDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MaxDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Media type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Access",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Azure SQL Database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft SQL Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft SQL Server Express",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual FoxPro",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mimer SQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MonetDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MySQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MySQL Workbench",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "N1QL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Navicat",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netezza",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NexusDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NonStop SQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NuoDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ODBC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object–relational mapping",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Omnis Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenLink Virtuoso",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open file format",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Enterprise Manager",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Rdb",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle SQL Developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/SQL Developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Panorama (database engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Paradox (database)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Percona Server for MySQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PgAdmin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PhpLiteAdmin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PhpMyAdmin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PhpSQLiteAdmin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Polyhedra DBMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PostgreSQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Postgres Plus Advanced Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PowerShell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Progress Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Query language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "R:Base",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raymond F. Boyce",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Record (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Relational algebra",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Relational database management system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Relational model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RethinkDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAND CDBMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAP Adaptive Server Enterprise",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAP HANA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAP IQ",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL-92",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL:1999",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL:2003",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL:2006",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL:2008",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL:2011",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL:2016",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL:2023",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQLAlchemy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQLBase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL Anywhere",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL Azure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL Database Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL Server Management Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQLite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQLyog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQream DB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQuirreL SQL Client",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SingleStore",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Snowflake Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SolidDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spanner (database)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sqsh",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured Query Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sublanguage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TOra",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Technical standard",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Teradata",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TiDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TimesTen",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TimescaleDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Toad (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Toad Data Modeler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Trafodion",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Transbase",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tuple relational calculus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UniData",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UniVerse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unisys OS 2200 databases",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VSAM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vectorwise",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vertica",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VoltDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XtraDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YDB (database)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YugabyteDB",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:SQL sidebar",
+            "exists": true
+          },
+          {
+            "ns": 100,
+            "title": "Portal:Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:SQL",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:SQL sidebar",
+            "exists": false
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Relational database programming language",
+          "toc": "",
+          "wikibase_item": "Q47607"
+        }
+      }
+    }
+  ]
+}

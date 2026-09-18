@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Ruby (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Ruby_%28programming_language%29",
+    "summary": "General-purpose programming language Not to be confused with Ruby on Rails or Ruby (hardware description language) . Ruby Paradigm Multi-paradigm : functional , imperative , object-oriented , reflective Designed by Yukihiro Matsumoto Developer Yukihiro Matsumoto, et al. First appeared 1995 ; 31 years ago ( 1995 ) Stable release 4.0.7 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Typing discipline Duck , dynamic , strong Scope Lexical , sometimes dynamic Implementation language C OS Cross-platform License Ruby Filename extensions .rb, .ru Website ruby-lang.org Major implementations Ruby MRI , TruffleRuby , YARV , Rubinius , JRuby , RubyMotion , mruby Influenced by Ada , BASIC , C++ , CLU , Dylan , Eiffel , Lisp , Lua , Perl , Python , Smalltalk Influenced Clojure , CoffeeScript , Crystal , D , Elixir , Groovy , Julia , Mirah , Nu , Rust , Swift Ruby Programming at Wikibooks Ruby is a general-purpose programming language designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object , including primitive data types . Development of the language began in the mid-1990s by Yukihiro \"Matz\" Matsumoto in Japan. Ruby is interpreted , high-level , and dynamically typed ; its interpreter uses garbage collection and just-in-time compilation . It supports multiple programming paradigms, including procedural , object-oriented , and functional programming . According to the creator, Ruby was influenced by Perl , Smalltalk , Eiffel , Ada , BASIC , and Lisp . ^ a b c Cite error: The named reference nov2pro was invoked but never defined (see the help page ). ^ a b Cite error: The named reference confreaks was invoked but never defined (see the help page ). ^ a b c d e f Cite error: The named reference bini was invoked but never defined (see the help page ). ^ Cite error: The named reference Julia was invoked but never defined (see the help page ). ^ Cite error: The named reference Burks was invoked but never defined (see the help page ). ^ Cite error: The named reference rust was invoked but never defined (see the help page ). ^ Cite error: The named reference lattner2014 was invoked but never defined (see the help page ). ^ Cite error: The named reference about was invoked but never defined (see the help page ).",
+    "text": "General-purpose programming language Not to be confused with Ruby on Rails or Ruby (hardware description language) . Ruby Paradigm Multi-paradigm : functional , imperative , object-oriented , reflective Designed by Yukihiro Matsumoto Developer Yukihiro Matsumoto, et al. First appeared 1995 ; 31 years ago ( 1995 ) Stable release 4.0.7 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Typing discipline Duck , dynamic , strong Scope Lexical , sometimes dynamic Implementation language C OS Cross-platform License Ruby Filename extensions .rb, .ru Website ruby-lang.org Major implementations Ruby MRI , TruffleRuby , YARV , Rubinius , JRuby , RubyMotion , mruby Influenced by Ada , BASIC , C++ , CLU , Dylan , Eiffel , Lisp , Lua , Perl , Python , Smalltalk Influenced Clojure , CoffeeScript , Crystal , D , Elixir , Groovy , Julia , Mirah , Nu , Rust , Swift Ruby Programming at Wikibooks Ruby is a general-purpose programming language designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an object , including primitive data types . Development of the language began in the mid-1990s by Yukihiro \"Matz\" Matsumoto in Japan. Ruby is interpreted , high-level , and dynamically typed ; its interpreter uses garbage collection and just-in-time compilation . It supports multiple programming paradigms, including procedural , object-oriented , and functional programming . According to the creator, Ruby was influenced by Perl , Smalltalk , Eiffel , Ada , BASIC , and Lisp . ^ a b c Cite error: The named reference nov2pro was invoked but never defined (see the help page ). ^ a b Cite error: The named reference confreaks was invoked but never defined (see the help page ). ^ a b c d e f Cite error: The named reference bini was invoked but never defined (see the help page ). ^ Cite error: The named reference Julia was invoked but never defined (see the help page ). ^ Cite error: The named reference Burks was invoked but never defined (see the help page ). ^ Cite error: The named reference rust was invoked but never defined (see the help page ). ^ Cite error: The named reference lattner2014 was invoked but never defined (see the help page ). ^ Cite error: The named reference about was invoked but never defined (see the help page ).",
+    "links": [
+      "Ada (programming language)",
+      "BASIC",
+      "C (programming language)",
+      "C++",
+      "CLU (programming language)",
+      "Clojure",
+      "CoffeeScript",
+      "Cross-platform",
+      "Crystal (programming language)",
+      "D (programming language)",
+      "Duck typing",
+      "Dylan (programming language)",
+      "Dynamic typing",
+      "Eiffel (programming language)",
+      "Elixir (programming language)",
+      "Filename extension",
+      "Functional programming",
+      "Garbage collection (computer science)",
+      "General-purpose programming language",
+      "GraalVM",
+      "Groovy (programming language)",
+      "High-level programming language",
+      "Imperative programming",
+      "Interpreted language",
+      "JRuby",
+      "Julia (programming language)",
+      "Just-in-time compilation",
+      "Lisp (programming language)",
+      "Lua",
+      "Mirah (programming language)",
+      "Mruby",
+      "Multi-paradigm programming language",
+      "Nu (programming language)",
+      "Object (computer science)",
+      "Object-oriented programming",
+      "Operating system",
+      "Perl",
+      "Primitive data type",
+      "Procedural programming",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Python (programming language)",
+      "Reflective programming",
+      "Rubinius",
+      "Ruby (hardware description language)",
+      "Ruby License",
+      "Ruby MRI",
+      "Ruby on Rails",
+      "RubyMotion",
+      "Rust (programming language)",
+      "Scope (computer programming)",
+      "Scope (computer science)",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Strong typing",
+      "Swift (programming language)",
+      "Type system",
+      "YARV",
+      "Yukihiro Matsumoto"
+    ],
+    "page_id": 25768,
+    "revision_id": 1372670122,
+    "retrieved_at": "2026-09-18T16:32:05.951023+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260831113825|1372359656",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 25768,
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "revisions": [
+              {
+                "revid": 1372670122,
+                "parentid": 1372359656
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Ruby_logo.svg",
+              "wikibase-shortdesc": "General-purpose programming language",
+              "wikibase_item": "Q161053"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Ruby (programming language)",
+        "pageid": 25768,
+        "revid": 1372670122,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Ruby_on_Rails\" title=\"Ruby on Rails\">Ruby on Rails</a> or <a href=\"/wiki/Ruby_(hardware_description_language)\" title=\"Ruby (hardware description language)\">Ruby (hardware description language)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Ruby</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Ruby_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/250px-Ruby_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"121\" class=\"mw-file-element\" data-file-width=\"198\" data-file-height=\"198\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Yukihiro_Matsumoto\" title=\"Yukihiro Matsumoto\">Yukihiro Matsumoto</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Yukihiro Matsumoto, et al.</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1995<span class=\"noprint\">&#59;&#32;31&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1995</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">4.0.7&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q161053?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 15 September 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">15 September 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Duck_typing\" title=\"Duck typing\">Duck</a>, <a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">dynamic</a>, <a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_programming)\" title=\"Scope (computer programming)\">Lexical</a>, sometimes dynamic</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Ruby_License\" title=\"Ruby License\">Ruby</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.rb, .ru</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.ruby-lang.org/en/\">ruby-lang.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Ruby_MRI\" title=\"Ruby MRI\">Ruby MRI</a>, <a href=\"/wiki/GraalVM#Language_and_Runtime_Support\" title=\"GraalVM\">TruffleRuby</a>, <a href=\"/wiki/YARV\" title=\"YARV\">YARV</a>, <a href=\"/wiki/Rubinius\" title=\"Rubinius\">Rubinius</a>, <a href=\"/wiki/JRuby\" title=\"JRuby\">JRuby</a>, <a href=\"/wiki/RubyMotion\" title=\"RubyMotion\">RubyMotion</a>, <a href=\"/wiki/Mruby\" title=\"Mruby\">mruby</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>,<sup id=\"cite&#95;ref-nov2pro&#95;1-0\" class=\"reference\"><a href=\"#cite_note-nov2pro-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/BASIC\" title=\"BASIC\">BASIC</a>,<sup id=\"cite&#95;ref-confreaks&#95;2-0\" class=\"reference\"><a href=\"#cite_note-confreaks-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>,<sup id=\"cite&#95;ref-nov2pro&#95;1-1\" class=\"reference\"><a href=\"#cite_note-nov2pro-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a>,<sup id=\"cite&#95;ref-bini&#95;3-0\" class=\"reference\"><a href=\"#cite_note-bini-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Dylan_(programming_language)\" title=\"Dylan (programming language)\">Dylan</a>,<sup id=\"cite&#95;ref-bini&#95;3-1\" class=\"reference\"><a href=\"#cite_note-bini-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>,<sup id=\"cite&#95;ref-nov2pro&#95;1-2\" class=\"reference\"><a href=\"#cite_note-nov2pro-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>,<sup id=\"cite&#95;ref-bini&#95;3-2\" class=\"reference\"><a href=\"#cite_note-bini-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Lua\" title=\"Lua\">Lua</a>, <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>,<sup id=\"cite&#95;ref-bini&#95;3-3\" class=\"reference\"><a href=\"#cite_note-bini-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>,<sup id=\"cite&#95;ref-bini&#95;3-4\" class=\"reference\"><a href=\"#cite_note-bini-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a><sup id=\"cite&#95;ref-bini&#95;3-5\" class=\"reference\"><a href=\"#cite_note-bini-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>, <a href=\"/wiki/CoffeeScript\" title=\"CoffeeScript\">CoffeeScript</a>, <a href=\"/wiki/Crystal_(programming_language)\" title=\"Crystal (programming language)\">Crystal</a>, <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>, <a href=\"/wiki/Elixir_(programming_language)\" title=\"Elixir (programming language)\">Elixir</a>, <a href=\"/wiki/Groovy_(programming_language)\" class=\"mw-redirect\" title=\"Groovy (programming language)\">Groovy</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>,<sup id=\"cite&#95;ref-Julia&#95;4-0\" class=\"reference\"><a href=\"#cite_note-Julia-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Mirah_(programming_language)\" title=\"Mirah (programming language)\">Mirah</a>, <a href=\"/wiki/Nu_(programming_language)\" title=\"Nu (programming language)\">Nu</a>,<sup id=\"cite&#95;ref-Burks&#95;5-0\" class=\"reference\"><a href=\"#cite_note-Burks-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-rust&#95;6-0\" class=\"reference\"><a href=\"#cite_note-rust-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a><sup id=\"cite&#95;ref-lattner2014&#95;7-0\" class=\"reference\"><a href=\"#cite_note-lattner2014-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Ruby_Programming\" class=\"extiw\" title=\"wikibooks:Ruby Programming\">Ruby Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>Ruby</b> is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose programming language</a> designed with an emphasis on programming productivity and simplicity. In Ruby, everything is an <a href=\"/wiki/Object_(computer_science)\" title=\"Object (computer science)\">object</a>, including <a href=\"/wiki/Primitive_data_type\" title=\"Primitive data type\">primitive data types</a>. Development of the language began in the mid-1990s by <a href=\"/wiki/Yukihiro_Matsumoto\" title=\"Yukihiro Matsumoto\">Yukihiro \"Matz\" Matsumoto</a> in Japan.\n</p><p>Ruby is <a href=\"/wiki/Interpreted_language\" class=\"mw-redirect\" title=\"Interpreted language\">interpreted</a>, <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, and <a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">dynamically typed</a>; its interpreter uses <a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">garbage collection</a> and <a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">just-in-time compilation</a>. It supports multiple programming paradigms, including <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, and <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional programming</a>. According to the creator, Ruby was influenced by <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>, <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a>, <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>, <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/BASIC\" title=\"BASIC\">BASIC</a>, and <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>.<sup id=\"cite&#95;ref-about&#95;8-0\" class=\"reference\"><a href=\"#cite_note-about-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-confreaks&#95;2-1\" class=\"reference\"><a href=\"#cite_note-confreaks-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-nov2pro-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-nov2pro_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-nov2pro_1-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-nov2pro_1-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>nov2pro</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-confreaks-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-confreaks_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-confreaks_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>confreaks</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-bini-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-bini_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-bini_3-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-bini_3-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-bini_3-3\"><sup><i><b>d</b></i></sup></a> <a href=\"#cite_ref-bini_3-4\"><sup><i><b>e</b></i></sup></a> <a href=\"#cite_ref-bini_3-5\"><sup><i><b>f</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>bini</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Julia-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Julia_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Julia</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Burks-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Burks_5-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Burks</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-rust-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-rust_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>rust</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-lattner2014-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-lattner2014_7-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>lattner2014</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-about-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-about_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>about</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐lczw7\nCached time: 20260918163231\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.337 seconds\nReal time usage: 0.455 seconds\nPreprocessor visited node count: 1867/1000000\nRevision size: 3237/2097152 bytes\nPost‐expand include size: 37206/2097152 bytes\nTemplate argument size: 11394/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 9013/5000000 bytes\nLua time usage: 0.142/10.000 seconds\nLua memory usage: 7069798/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  429.189      1 -total\n 43.34%  185.998      2 Template:Infobox\n 36.78%  157.860      1 Template:Infobox_programming_language\n 20.02%   85.930      1 Template:Infobox_software/simple\n 13.59%   58.327      2 Template:Wikidata\n 12.01%   51.538      1 Template:Short_description\n 10.06%   43.168     16 Template:Broken_ref\n  6.52%   27.977      2 Template:Pagetype\n  4.80%   20.590      1 Template:Distinguish\n  4.68%   20.077      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID 8b5448b5-b37e-11f1-b33d-afdcd9b8ef10 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Ruby on Rails",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (hardware description language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CoffeeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crystal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duck typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dylan (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elixir (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GraalVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Groovy (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreted language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JRuby",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lua",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mirah (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mruby",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nu (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Primitive data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rubinius",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RubyMotion",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby MRI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YARV",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Yukihiro Matsumoto",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose programming language",
+          "page_image_free": "Ruby_logo.svg",
+          "wikibase_item": "Q161053"
+        }
+      }
+    }
+  ]
+}

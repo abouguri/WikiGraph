@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Lua",
+    "url": "https://en.wikipedia.org/wiki/Lua",
+    "summary": "Lightweight programming language For other uses, see Lua (disambiguation) . Lua Screenshot of Lua code from a Wikipedia Lua module using the MediaWiki Scribunto extension Paradigm Multi-paradigm : scripting , imperative ( procedural , prototype-based , object-oriented ), functional , meta , reflective Designed by Roberto Ierusalimschy Waldemar Celes Luiz Henrique de Figueiredo First appeared 1993 ; 33 years ago ( 1993 ) Stable release 5.5.1 / 24 July 2026 ; 56 days ago ( 24 July 2026 ) Typing discipline Dynamic , strong , duck Implementation language ANSI C OS Cross-platform License MIT Filename extensions .lua Website lua .org Major implementations Lua , LuaJIT , LuaVela , MoonSharp , Dialects GSL Shell , Luau Influenced by C++ , CLU , Scheme , SNOBOL Influenced GameMonkey , Io , Julia , Red , Ruby , Squirrel , Luau Lua ( / ˈ l uː . ə / , LOO -ə ; from Portuguese : lua [ˈlu(w)ɐ] meaning moon ) is a lightweight , high-level , multi-paradigm programming language designed mainly for embedded use in applications. Lua is cross-platform software , since the interpreter of compiled bytecode is written in ANSI C , and Lua has a relatively simple C application programming interface ( API ) to embed it into applications. Lua originated in 1993 as a language for extending software applications to meet the increasing demand for customization at the time. It provided the basic facilities of most procedural programming languages, but more complicated or domain-specific features were not included; rather, it included mechanisms for extending the language, allowing programmers to implement such features. As Lua was intended to be a general embeddable extension language, the designers of Lua focused on improving its speed , portability , extensibility and ease-of-use in development. ^ \"diffs-lua-5.5.0-lua-5.5.1\" . ^ Ierusalimschy, Roberto; de Figueiredo, Luiz Henrique; Filho, Waldemar Celes (June 1996). \"Lua—An Extensible Extension Language\" . Software: Practice and Experience . 26 (6): 635– 652. doi : 10.1002/(SICI)1097-024X(199606)26:6<635::AID-SPE26>3.0.CO;2-P . S2CID 61066194 . Retrieved 24 October 2015 . ^ \"About Lua\" . Lua.org . Retrieved 26 May 2026 . ^ Takhteyev, Yuri (21 April 2013). \"From Brazil to Wikipedia\" . Foreign Affairs . Retrieved 25 April 2013 .",
+    "text": "Lightweight programming language For other uses, see Lua (disambiguation) . Lua Screenshot of Lua code from a Wikipedia Lua module using the MediaWiki Scribunto extension Paradigm Multi-paradigm : scripting , imperative ( procedural , prototype-based , object-oriented ), functional , meta , reflective Designed by Roberto Ierusalimschy Waldemar Celes Luiz Henrique de Figueiredo First appeared 1993 ; 33 years ago ( 1993 ) Stable release 5.5.1 / 24 July 2026 ; 56 days ago ( 24 July 2026 ) Typing discipline Dynamic , strong , duck Implementation language ANSI C OS Cross-platform License MIT Filename extensions .lua Website lua .org Major implementations Lua , LuaJIT , LuaVela , MoonSharp , Dialects GSL Shell , Luau Influenced by C++ , CLU , Scheme , SNOBOL Influenced GameMonkey , Io , Julia , Red , Ruby , Squirrel , Luau Lua ( / ˈ l uː . ə / , LOO -ə ; from Portuguese : lua [ˈlu(w)ɐ] meaning moon ) is a lightweight , high-level , multi-paradigm programming language designed mainly for embedded use in applications. Lua is cross-platform software , since the interpreter of compiled bytecode is written in ANSI C , and Lua has a relatively simple C application programming interface ( API ) to embed it into applications. Lua originated in 1993 as a language for extending software applications to meet the increasing demand for customization at the time. It provided the basic facilities of most procedural programming languages, but more complicated or domain-specific features were not included; rather, it included mechanisms for extending the language, allowing programmers to implement such features. As Lua was intended to be a general embeddable extension language, the designers of Lua focused on improving its speed , portability , extensibility and ease-of-use in development. ^ \"diffs-lua-5.5.0-lua-5.5.1\" . ^ Ierusalimschy, Roberto; de Figueiredo, Luiz Henrique; Filho, Waldemar Celes (June 1996). \"Lua—An Extensible Extension Language\" . Software: Practice and Experience . 26 (6): 635– 652. doi : 10.1002/(SICI)1097-024X(199606)26:6<635::AID-SPE26>3.0.CO;2-P . S2CID 61066194 . Retrieved 24 October 2015 . ^ \"About Lua\" . Lua.org . Retrieved 26 May 2026 . ^ Takhteyev, Yuri (21 April 2013). \"From Brazil to Wikipedia\" . Foreign Affairs . Retrieved 25 April 2013 .",
+    "links": [
+      "ANSI C",
+      "API",
+      "Application software",
+      "Bytecode",
+      "C++",
+      "CLU (programming language)",
+      "Compiler",
+      "Cross-platform software",
+      "Doi (identifier)",
+      "Domain-specific language",
+      "Duck typing",
+      "Dynamic typing",
+      "Filename extension",
+      "Foreign Affairs",
+      "Functional programming",
+      "GameMonkey Script",
+      "High-level programming language",
+      "Imperative programming",
+      "Interpreter (computing)",
+      "Io (programming language)",
+      "Julia (programming language)",
+      "Lightweight programming language",
+      "Lua (disambiguation)",
+      "LuaJIT",
+      "Luau (programming language)",
+      "MIT License",
+      "MediaWiki",
+      "Metaprogramming",
+      "Moon",
+      "Multi-paradigm",
+      "Multi-paradigm programming language",
+      "Object-oriented programming",
+      "Operating system",
+      "Porting",
+      "Portuguese language",
+      "Procedural programming",
+      "Profiling (computer programming)",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Prototype-based programming",
+      "Red (programming language)",
+      "Reflective programming",
+      "Roberto Ierusalimschy",
+      "Ruby (programming language)",
+      "S2CID (identifier)",
+      "SNOBOL",
+      "Scheme (programming language)",
+      "Scripting language",
+      "Software design",
+      "Software license",
+      "Software release life cycle",
+      "Squirrel (programming language)",
+      "Strong and weak typing",
+      "Type system"
+    ],
+    "page_id": 46150,
+    "revision_id": 1374477766,
+    "retrieved_at": "2026-09-18T16:41:56.268798+00:00",
+    "aliases": [
+      "Lua (programming language)"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260912084250|1374477621",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Lua (programming language)",
+            "to": "Lua"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 46150,
+            "ns": 0,
+            "title": "Lua",
+            "revisions": [
+              {
+                "revid": 1374477766,
+                "parentid": 1374477621
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Lua-Logo.svg",
+              "wikibase-shortdesc": "Lightweight programming language",
+              "wikibase_item": "Q207316"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Lua",
+        "pageid": 46150,
+        "revid": 1374477766,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Lightweight programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other uses, see <a href=\"/wiki/Lua_(disambiguation)\" class=\"mw-disambig\" title=\"Lua (disambiguation)\">Lua (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Lua</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Lua-Logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/250px-Lua-Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"121\" class=\"mw-file-element\" data-file-width=\"947\" data-file-height=\"947\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Excerpt_of_Coordinates_module_in_Lua.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Excerpt_of_Coordinates_module_in_Lua.png/250px-Excerpt_of_Coordinates_module_in_Lua.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"138\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Excerpt_of_Coordinates_module_in_Lua.png/500px-Excerpt_of_Coordinates_module_in_Lua.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"640\" data-file-height=\"354\" /></a></span><div class=\"infobox-caption\">Screenshot of Lua code from a <a href=\"/wiki/Wikipedia:Lua\" title=\"Wikipedia:Lua\">Wikipedia Lua module</a> using the <a href=\"/wiki/MediaWiki\" title=\"MediaWiki\">MediaWiki</a> <a href=\"https://www.mediawiki.org/wiki/Extension:Scribunto\" class=\"extiw\" title=\"mw:Extension:Scribunto\">Scribunto</a> extension</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">scripting</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a> (<a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Prototype-based_programming\" title=\"Prototype-based programming\">prototype-based</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>), <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Metaprogramming\" title=\"Metaprogramming\">meta</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Roberto_Ierusalimschy\" title=\"Roberto Ierusalimschy\">Roberto Ierusalimschy</a><br />Waldemar Celes<br />Luiz Henrique de Figueiredo</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1993<span class=\"noprint\">&#59;&#32;33&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1993</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">5.5.1<sup id=\"cite&#95;ref-wikidata-c6c875be98f69f0739cc70bbdaf30fd04c3d59ff-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-c6c875be98f69f0739cc70bbdaf30fd04c3d59ff-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q207316?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 24 July 2026<span class=\"noprint\">&#59;&#32;56 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">24 July 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Duck_typing\" title=\"Duck typing\">duck</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\"><a href=\"/wiki/ANSI_C\" title=\"ANSI C\">ANSI C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.lua</code></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://lua.org\">lua<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"//www.lua.org/download.html\">Lua</a></span>, <a href=\"/wiki/LuaJIT\" title=\"LuaJIT\">LuaJIT</a>, <span class=\"url\"><a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"//github.com/luavela/luavela\" href=\"https://github.com/luavela/luavela\">LuaVela</a></span>, \n<span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.moonsharp.org\">MoonSharp</a></span>,</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nongnu.org/gsl-shell\">GSL Shell</a></span>, <span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://luau.org\">Luau</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a>, <a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a>, <a href=\"/wiki/SNOBOL\" title=\"SNOBOL\">SNOBOL</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/GameMonkey_Script\" title=\"GameMonkey Script\">GameMonkey</a>, <a href=\"/wiki/Io_(programming_language)\" title=\"Io (programming language)\">Io</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>, <a href=\"/wiki/Red_(programming_language)\" title=\"Red (programming language)\">Red</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/Squirrel_(programming_language)\" title=\"Squirrel (programming language)\">Squirrel</a>, <a href=\"/wiki/Luau_(programming_language)\" title=\"Luau (programming language)\">Luau</a></td></tr></tbody></table>\n<p><b>Lua</b> <span class=\"noexcerpt\">(<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span><span title=\"/uː/: &#39;oo&#39; in &#39;goose&#39;\">uː</span><span title=\"/./: syllable break\">.</span><span title=\"/ə/: &#39;a&#39; in &#39;about&#39;\">ə</span></span>/</a></span></span>, <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\"><span style=\"font-size:90%\">LOO</span>-ə</i></a>; from <a href=\"/wiki/Portuguese_language\" title=\"Portuguese language\">Portuguese</a>: <i lang=\"pt\"><a href=\"https://en.wiktionary.org/wiki/lua#Portuguese\" class=\"extiw\" title=\"wikt:lua\">lua</a></i> <span class=\"IPA nowrap\" lang=\"pt-Latn-fonipa\"><a href=\"/wiki/Help:IPA/Portuguese\" title=\"Help:IPA/Portuguese\">&#91;ˈlu(w)ɐ&#93;</a></span> meaning <i><a href=\"/wiki/Moon\" title=\"Moon\">moon</a></i>)</span> is a <a href=\"/wiki/Lightweight_programming_language\" title=\"Lightweight programming language\">lightweight</a>, <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">multi-paradigm</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> designed mainly for <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">embedded use</a> in applications.<sup id=\"cite&#95;ref-luaspe&#95;2-0\" class=\"reference\"><a href=\"#cite_note-luaspe-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> Lua is <a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">cross-platform software</a>, since the <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a> of <a href=\"/wiki/Compiler\" title=\"Compiler\">compiled</a> <a href=\"/wiki/Bytecode\" title=\"Bytecode\">bytecode</a> is written in <a href=\"/wiki/ANSI_C\" title=\"ANSI C\">ANSI C</a>,<sup id=\"cite&#95;ref-luaabout&#95;3-0\" class=\"reference\"><a href=\"#cite_note-luaabout-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> and Lua has a relatively simple C application programming interface (<a href=\"/wiki/API\" title=\"API\">API</a>) to embed it into applications.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Lua originated in 1993 as a language for extending <a href=\"/wiki/Application_software\" title=\"Application software\">software applications</a> to meet the increasing demand for customization at the time. It provided the basic facilities of most <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural programming</a> languages, but more complicated or <a href=\"/wiki/Domain-specific_language\" title=\"Domain-specific language\">domain-specific</a> features were not included; rather, it included mechanisms for extending the language, allowing programmers to implement such features. As Lua was intended to be a general embeddable extension language, the designers of Lua focused on improving its <a href=\"/wiki/Profiling_(computer_programming)\" title=\"Profiling (computer programming)\">speed</a>, <a href=\"/wiki/Porting\" title=\"Porting\">portability</a>, extensibility and ease-of-use in development.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-c6c875be98f69f0739cc70bbdaf30fd04c3d59ff-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-c6c875be98f69f0739cc70bbdaf30fd04c3d59ff-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.lua.org/work/diffs-lua-5.5.0-lua-5.5.1.html\">\"diffs-lua-5.5.0-lua-5.5.1\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=diffs-lua-5.5.0-lua-5.5.1&amp;rft&#95;id=https%3A%2F%2Fwww.lua.org%2Fwork%2Fdiffs-lua-5.5.0-lua-5.5.1.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALua\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-luaspe-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-luaspe_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFIerusalimschyde&#95;FigueiredoFilho1996\" class=\"citation journal cs1\">Ierusalimschy, Roberto; de Figueiredo, Luiz Henrique; Filho, Waldemar Celes (June 1996). <span class=\"id-lock-subscription\" title=\"Paid subscription required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.lua.org/spe.html\">\"Lua—An Extensible Extension Language\"</a></span>. <i>Software: Practice and Experience</i>. <b>26</b> (6): <span class=\"nowrap\">635–</span>652. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1002%2F%28SICI%291097-024X%28199606%2926%3A6%3C635%3A%3AAID-SPE26%3E3.0.CO%3B2-P\">10.1002/(SICI)1097-024X(199606)26:6&#60;635::AID-SPE26&#62;3.0.CO&#59;2-P</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:61066194\">61066194</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 October</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Software%3A+Practice+and+Experience&amp;rft.atitle=Lua%E2%80%94An+Extensible+Extension+Language&amp;rft.volume=26&amp;rft.issue=6&amp;rft.pages=635-652&amp;rft.date=1996-06&amp;rft&#95;id=info%3Adoi%2F10.1002%2F%28SICI%291097-024X%28199606%2926%3A6%3C635%3A%3AAID-SPE26%3E3.0.CO%3B2-P&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A61066194%23id-name%3DS2CID&amp;rft.aulast=Ierusalimschy&amp;rft.aufirst=Roberto&amp;rft.au=de+Figueiredo%2C+Luiz+Henrique&amp;rft.au=Filho%2C+Waldemar+Celes&amp;rft&#95;id=https%3A%2F%2Fwww.lua.org%2Fspe.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALua\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-luaabout-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-luaabout_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.lua.org/about.html#why\">\"About Lua\"</a>. Lua.org<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 May</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=About+Lua&amp;rft.pub=Lua.org&amp;rft&#95;id=https%3A%2F%2Fwww.lua.org%2Fabout.html%23why&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALua\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFTakhteyev2013\" class=\"citation magazine cs1\">Takhteyev, Yuri (21 April 2013). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.foreignaffairs.com/articles/139332/yuri-takhteyev/from-brazil-to-wikipedia?page=2\">\"From Brazil to Wikipedia\"</a>. <i><a href=\"/wiki/Foreign_Affairs\" title=\"Foreign Affairs\">Foreign Affairs</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 April</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Foreign+Affairs&amp;rft.atitle=From+Brazil+to+Wikipedia&amp;rft.date=2013-04-21&amp;rft.aulast=Takhteyev&amp;rft.aufirst=Yuri&amp;rft&#95;id=https%3A%2F%2Fwww.foreignaffairs.com%2Farticles%2F139332%2Fyuri-takhteyev%2Ffrom-brazil-to-wikipedia%3Fpage%3D2&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALua\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐xrksm\nCached time: 20260918164222\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.614 seconds\nReal time usage: 0.791 seconds\nPreprocessor visited node count: 1397/1000000\nRevision size: 4314/2097152 bytes\nPost‐expand include size: 31039/2097152 bytes\nTemplate argument size: 5905/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 12861/5000000 bytes\nLua time usage: 0.469/10.000 seconds\nLua memory usage: 18986977/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  751.495      1 -total\n 43.84%  329.457      2 Template:Infobox\n 37.82%  284.179      1 Template:Infobox_programming_language\n 29.86%  224.395      1 Template:Noexcerpt\n 29.67%  222.953      1 Template:Infobox_software/simple\n 23.26%  174.792      2 Template:Wikidata\n 20.59%  154.706      1 Template:Langx\n 16.65%  125.146      1 Template:Short_description\n 11.17%   83.929      2 Template:Pagetype\n  6.30%   47.378      1 Template:IPAc-en\n-->\n\n<!-- Render ID eb97b1b6-b37f-11f1-982f-795317646f8c -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Lua (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ANSI C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "API",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Domain-specific language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duck typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Foreign Affairs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GameMonkey Script",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Io (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lightweight programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LuaJIT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Luau (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MediaWiki",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaprogramming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Moon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Porting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Portuguese language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Profiling (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prototype-based programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Red (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Roberto Ierusalimschy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SNOBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scripting language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Squirrel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Lua",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/Portuguese",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Lightweight programming language",
+          "page_image_free": "Lua-Logo.svg",
+          "wikibase_item": "Q207316"
+        }
+      }
+    }
+  ]
+}

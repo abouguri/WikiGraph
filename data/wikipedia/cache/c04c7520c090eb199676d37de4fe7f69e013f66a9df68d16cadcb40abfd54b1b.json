@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Declarative programming",
+    "url": "https://en.wikipedia.org/wiki/Declarative_programming",
+    "summary": "Programming paradigm based on modeling the logic of a computation This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( April 2010 ) ( Learn how and when to remove this message ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Declarative programming\" – news · newspapers · books · scholar · JSTOR ( February 2015 ) ( Learn how and when to remove this message ) This article may need to be rewritten to comply with Wikipedia's quality standards . Relevant discussion may be found on the talk page . You can help . The talk page may contain suggestions. ( December 2025 ) ( Learn how and when to remove this message ) In computer science , declarative programming is a programming paradigm that expresses the logic of a computation without fully describing its control flow . The paradigm focuses on abstracting a program beyond the order of execution. This implies usage of a high-level programming language . Languages that permit this style allow a developer to minimize or eliminate side effects by describing what the program must accomplish in terms of the problem domain , rather than fully describing how to accomplish it as a sequence of the programming language primitives (the how being left up to the language's implementation ). Declarative programming is in contrast with imperative programming , which implements algorithms in explicit steps. Just like in the functional programming paradigm, mutating variables does not conform to the declarative paradigm because it implies an execution order which is imperative . Declarative programming may consider programs as theories of a formal logic , and computations as deductions in that logical theory. Declarative programming at times simplifies the writing of parallel programs . Common declarative language paradigms include logic programming (e.g., Prolog , Datalog , answer set programming ), and algebraic modeling systems. Some logic programming languages, such as Prolog , and database query languages , such as SQL , while declarative in principle, also support a procedural style of programming. Other definitions: Any programming language that lacks side effects , or more specifically, has referential transparency . A language with a clear correspondence to mathematical logic . ^ Lloyd, J.W. (September 19–22, 1994). \"Practical Advantages of Declarative Programming\" (PDF) . In Alpuente, María; Barbuti, Roberto; Ramos, Isidro (eds.). GULP-PRODE'94 1994 Joint Conference on Declarative Programming . Vol. I. Peñíscola , Spain. pp. 3– 17. ^ Sebesta, Robert (2016). Concepts of programming languages . Boston: Pearson. ISBN 978-0-13-394302-3 . OCLC 896687896 . ^ \"Imperative programming: Overview of the oldest programming paradigm\" . IONOS Digital Guide . 2021-05-21. Archived from the original on 2022-05-03 . Retrieved 2023-05-23 . ^ \"DAMP 2009: Workshop on Declarative Aspects of Multicore Programming\" . Cse.unsw.edu.au. 20 January 2009. Archived from the original on 13 September 2013 . Retrieved 15 August 2013 . ^ \"SQL Stored Procedures\" . www.w3schools.com . Retrieved 2026-08-02 . ^ Chakravarty, Manuel M. T. (14 February 1997). On the Massively Parallel Execution of Declarative Programs (Doctoral dissertation). Technische Universität Berlin . Archived from the original on 23 September 2015 . Retrieved 26 February 2015 . In this context, the criterion for calling a programming language declarative is the existence of a clear, mathematically established correspondence between the language and mathematical logic such that a declarative semantics for the language can be based on the model or the proof theory (or both) of the logic.",
+    "text": "Programming paradigm based on modeling the logic of a computation This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article includes a list of general references but lacks sufficient corresponding inline citations . Please help improve this article by introducing more precise citations. ( April 2010 ) ( Learn how and when to remove this message ) This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Declarative programming\" – news · newspapers · books · scholar · JSTOR ( February 2015 ) ( Learn how and when to remove this message ) This article may need to be rewritten to comply with Wikipedia's quality standards . Relevant discussion may be found on the talk page . You can help . The talk page may contain suggestions. ( December 2025 ) ( Learn how and when to remove this message ) In computer science , declarative programming is a programming paradigm that expresses the logic of a computation without fully describing its control flow . The paradigm focuses on abstracting a program beyond the order of execution. This implies usage of a high-level programming language . Languages that permit this style allow a developer to minimize or eliminate side effects by describing what the program must accomplish in terms of the problem domain , rather than fully describing how to accomplish it as a sequence of the programming language primitives (the how being left up to the language's implementation ). Declarative programming is in contrast with imperative programming , which implements algorithms in explicit steps. Just like in the functional programming paradigm, mutating variables does not conform to the declarative paradigm because it implies an execution order which is imperative . Declarative programming may consider programs as theories of a formal logic , and computations as deductions in that logical theory. Declarative programming at times simplifies the writing of parallel programs . Common declarative language paradigms include logic programming (e.g., Prolog , Datalog , answer set programming ), and algebraic modeling systems. Some logic programming languages, such as Prolog , and database query languages , such as SQL , while declarative in principle, also support a procedural style of programming. Other definitions: Any programming language that lacks side effects , or more specifically, has referential transparency . A language with a clear correspondence to mathematical logic . ^ Lloyd, J.W. (September 19–22, 1994). \"Practical Advantages of Declarative Programming\" (PDF) . In Alpuente, María; Barbuti, Roberto; Ramos, Isidro (eds.). GULP-PRODE'94 1994 Joint Conference on Declarative Programming . Vol. I. Peñíscola , Spain. pp. 3– 17. ^ Sebesta, Robert (2016). Concepts of programming languages . Boston: Pearson. ISBN 978-0-13-394302-3 . OCLC 896687896 . ^ \"Imperative programming: Overview of the oldest programming paradigm\" . IONOS Digital Guide . 2021-05-21. Archived from the original on 2022-05-03 . Retrieved 2023-05-23 . ^ \"DAMP 2009: Workshop on Declarative Aspects of Multicore Programming\" . Cse.unsw.edu.au. 20 January 2009. Archived from the original on 13 September 2013 . Retrieved 15 August 2013 . ^ \"SQL Stored Procedures\" . www.w3schools.com . Retrieved 2026-08-02 . ^ Chakravarty, Manuel M. T. (14 February 1997). On the Massively Parallel Execution of Declarative Programs (Doctoral dissertation). Technische Universität Berlin . Archived from the original on 23 September 2015 . Retrieved 26 February 2015 . In this context, the criterion for calling a programming language declarative is the existence of a clear, mathematically established correspondence between the language and mathematical logic such that a declarative semantics for the language can be based on the model or the proof theory (or both) of the logic.",
+    "links": [
+      "Algebraic modeling language",
+      "Algorithm",
+      "Answer set programming",
+      "Computation",
+      "Computer science",
+      "Control flow",
+      "Datalog",
+      "Domain knowledge",
+      "Functional programming",
+      "High-level programming language",
+      "ISBN (identifier)",
+      "Immutable object",
+      "Imperative programming",
+      "Language primitive",
+      "Logic",
+      "Logic programming",
+      "Mathematical logic",
+      "OCLC (identifier)",
+      "Parallel computing",
+      "Peñíscola",
+      "Program (machine)",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Prolog",
+      "Query language",
+      "Referential transparency",
+      "SQL",
+      "Side effect (computer science)",
+      "Technische Universität Berlin",
+      "Theory (mathematical logic)"
+    ],
+    "page_id": 210648,
+    "revision_id": 1367382337,
+    "retrieved_at": "2026-09-18T16:41:17.070729+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260802192750|1367381029",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 210648,
+            "ns": 0,
+            "title": "Declarative programming",
+            "revisions": [
+              {
+                "revid": 1367382337,
+                "parentid": 1367381029
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming paradigm based on modeling the logic of a computation",
+              "wikibase_item": "Q531152"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Declarative programming",
+        "pageid": 210648,
+        "revid": 1367382337,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming paradigm based on modeling the logic of a computation</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1248332772\">.mw-parser-output .multiple-issues-text{width:95%;margin:0.2em 0}.mw-parser-output .multiple-issues-text>.mw-collapsible-content{margin-top:0.3em}.mw-parser-output .compact-ambox .ambox{border:none;border-collapse:collapse;background-color:transparent;margin:0 0 0 1.6em!important;padding:0!important;width:auto;display:block}body.mediawiki .mw-parser-output .compact-ambox .ambox.mbox-small-left{font-size:100%;width:auto;margin:0}.mw-parser-output .compact-ambox .ambox .mbox-text{padding:0!important;margin:0!important}.mw-parser-output .compact-ambox .ambox .mbox-text-span{display:list-item;line-height:1.5em;list-style-type:disc}body.skin-minerva .mw-parser-output .multiple-issues-text>.mw-collapsible-toggle,.mw-parser-output .compact-ambox .ambox .mbox-image,.mw-parser-output .compact-ambox .ambox .mbox-imageright,.mw-parser-output .compact-ambox .ambox .mbox-empty-cell,.mw-parser-output .compact-ambox .hide-when-compact{display:none}</style><table class=\"box-Multiple&#95;issues plainlinks metadata ambox ambox-content ambox-multiple&#95;issues compact-ambox\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/120px-Ambox_important.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"40\" data-file-height=\"40\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\"><div class=\"multiple-issues-text mw-collapsible\"><b>This article has multiple issues.</b> Please help <b><a href=\"/wiki/Special:EditPage/Declarative_programming\" title=\"Special:EditPage/Declarative programming\">improve it</a></b> or discuss these issues on the <b><a href=\"/wiki/Talk:Declarative_programming\" title=\"Talk:Declarative programming\">talk page</a></b>. <small><i>(<a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove these messages</a>)</i></small>\n<div class=\"mw-collapsible-content\">\n      <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-More&#95;footnotes&#95;needed plainlinks metadata ambox ambox-style ambox-More&#95;footnotes&#95;needed\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><span><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/120px-Text_document_with_red_question_mark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\" /></span></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article includes a list of <a href=\"/wiki/Wikipedia:Citing_sources#General_references\" title=\"Wikipedia:Citing sources\">general references</a> <b>but lacks sufficient corresponding <a href=\"/wiki/Wikipedia:Citing_sources#Inline_citations\" title=\"Wikipedia:Citing sources\">inline citations</a></b>.<span class=\"hide-when-compact\"> Please help <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Declarative_programming&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Declarative_programming&amp;action=edit\">improve this article</a> by <a href=\"/wiki/Wikipedia:When_to_cite\" title=\"Wikipedia:When to cite\">introducing</a> more precise citations.</span>  <span class=\"date-container\"><i>(<span class=\"date\">April 2010</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Declarative_programming\" title=\"Special:EditPage/Declarative programming\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Declarative+programming%22\">\"Declarative programming\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Declarative+programming%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Declarative+programming%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Declarative+programming%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Declarative+programming%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Declarative+programming%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">February 2015</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1364180890\" /><table class=\"box-Cleanup&#95;rewrite plainlinks metadata ambox ambox-content\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Crystal_Clear_app_kedit.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/40px-Crystal_Clear_app_kedit.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/120px-Crystal_Clear_app_kedit.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>may need to be rewritten to comply with Wikipedia's <a href=\"/wiki/Wikipedia:Manual_of_Style\" title=\"Wikipedia:Manual of Style\">quality standards</a></b>.<span class=\"hide-when-compact\"> Relevant discussion may be found on the <a href=\"/wiki/Talk:Declarative_programming\" title=\"Talk:Declarative programming\">talk page</a>. <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Declarative_programming&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Declarative_programming&amp;action=edit\">You can help</a>. The talk page may contain suggestions.</span>  <span class=\"date-container\"><i>(<span class=\"date\">December 2025</span>)</i></span></div></td></tr></tbody></table>\n    </div>\n</div><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, <b>declarative programming</b> is a <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming paradigm</a> that expresses the <a href=\"/wiki/Logic\" title=\"Logic\">logic</a> of a <a href=\"/wiki/Computation\" title=\"Computation\">computation</a> without fully describing its <a href=\"/wiki/Control_flow\" title=\"Control flow\">control flow</a>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The paradigm focuses on abstracting a program beyond the order of execution. This implies usage of a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level programming language</a>. \n</p><p>Languages that permit this style allow a developer to minimize or eliminate <a href=\"/wiki/Side_effect_(computer_science)\" title=\"Side effect (computer science)\">side effects</a> by describing <i>what</i> the program must accomplish in terms of the <a href=\"/wiki/Domain_knowledge\" title=\"Domain knowledge\">problem domain</a>, rather than fully describing <i>how</i> to accomplish it as a sequence of the programming <a href=\"/wiki/Language_primitive\" title=\"Language primitive\">language primitives</a> (the <i>how</i> being left up to the language's <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementation</a>). Declarative programming is in contrast with <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative programming</a>, which implements <a href=\"/wiki/Algorithm\" title=\"Algorithm\">algorithms</a> in explicit steps.<sup id=\"cite&#95;ref-Sebesta&#95;2016&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Sebesta_2016-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Just like in the <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional programming</a> paradigm, <a href=\"/wiki/Immutable_object\" title=\"Immutable object\">mutating variables</a> does not conform to the declarative paradigm because it implies an execution order which is <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>.\n</p><p>Declarative programming may consider <a href=\"/wiki/Program_(machine)\" title=\"Program (machine)\">programs</a> as <a href=\"/wiki/Theory_(mathematical_logic)\" title=\"Theory (mathematical logic)\">theories</a> of a <a href=\"/wiki/Mathematical_logic#Formal_logical_systems\" title=\"Mathematical logic\">formal logic</a>, and computations as deductions in that logical theory. Declarative programming at times simplifies the writing of <a href=\"/wiki/Parallel_computing\" title=\"Parallel computing\">parallel programs</a>.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Common declarative language paradigms include <a href=\"/wiki/Logic_programming\" title=\"Logic programming\">logic programming</a> (e.g., <a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a>, <a href=\"/wiki/Datalog\" title=\"Datalog\">Datalog</a>, <a href=\"/wiki/Answer_set_programming\" title=\"Answer set programming\">answer set programming</a>), and <a href=\"/wiki/Algebraic_modeling_language\" title=\"Algebraic modeling language\">algebraic modeling</a> systems.\n</p><p>Some logic programming languages, such as <a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a>, and <a href=\"/wiki/Query_language\" title=\"Query language\">database query languages</a>, such as <a href=\"/wiki/SQL\" title=\"SQL\">SQL</a>, while declarative in principle, also support a procedural style of programming.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Other definitions:\n</p>\n<ul><li>Any programming language that lacks <a href=\"/wiki/Side_effect_(computer_science)\" title=\"Side effect (computer science)\">side effects</a>, or more specifically, has <a href=\"/wiki/Referential_transparency\" title=\"Referential transparency\">referential transparency</a>.</li>\n<li>A language with a clear correspondence to <a href=\"/wiki/Mathematical_logic\" title=\"Mathematical logic\">mathematical logic</a>.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFLloyd1994\" class=\"citation conference cs1\">Lloyd, J.W. (September 19–22, 1994). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.programmazionelogica.it/wp-content/uploads/2015/12/GP1994-I-000-031.pdf\">\"Practical Advantages of Declarative Programming\"</a> <span class=\"cs1-format\">(PDF)</span>. In Alpuente, María; Barbuti, Roberto; Ramos, Isidro (eds.). <i>GULP-PRODE'94 1994 Joint Conference on Declarative Programming</i>. Vol.&#160;I. <a href=\"/wiki/Pe%C3%B1%C3%ADscola\" class=\"mw-redirect\" title=\"Peñíscola\">Peñíscola</a>, Spain. pp.&#160;<span class=\"nowrap\">3–</span>17.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=Practical+Advantages+of+Declarative+Programming&amp;rft.btitle=GULP-PRODE%2794+1994+Joint+Conference+on+Declarative+Programming&amp;rft.place=Pe%C3%B1%C3%ADscola%2C+Spain&amp;rft.pages=3-17&amp;rft.date=1994-09-19%2F1994-09-22&amp;rft.aulast=Lloyd&amp;rft.aufirst=J.W.&amp;rft&#95;id=https%3A%2F%2Fwww.programmazionelogica.it%2Fwp-content%2Fuploads%2F2015%2F12%2FGP1994-I-000-031.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADeclarative+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Sebesta&#95;2016-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Sebesta_2016_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSebesta2016\" class=\"citation book cs1\">Sebesta, Robert (2016). <i>Concepts of programming languages</i>. Boston: Pearson. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-13-394302-3\" title=\"Special:BookSources/978-0-13-394302-3\"><bdi>978-0-13-394302-3</bdi></a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/896687896\">896687896</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Concepts+of+programming+languages&amp;rft.place=Boston&amp;rft.pub=Pearson&amp;rft.date=2016&amp;rft&#95;id=info%3Aoclcnum%2F896687896&amp;rft.isbn=978-0-13-394302-3&amp;rft.aulast=Sebesta&amp;rft.aufirst=Robert&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADeclarative+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.ionos.com/digitalguide/websites/web-development/imperative-programming/\">\"Imperative programming: Overview of the oldest programming paradigm\"</a>. <i>IONOS Digital Guide</i>. 2021-05-21. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220503083342/https://www.ionos.com/digitalguide/websites/web-development/imperative-programming/\">Archived</a> from the original on 2022-05-03<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-05-23</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=IONOS+Digital+Guide&amp;rft.atitle=Imperative+programming%3A+Overview+of+the+oldest+programming+paradigm&amp;rft.date=2021-05-21&amp;rft&#95;id=https%3A%2F%2Fwww.ionos.com%2Fdigitalguide%2Fwebsites%2Fweb-development%2Fimperative-programming%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADeclarative+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20130913162703/http://www.cse.unsw.edu.au/~pls/damp09/\">\"DAMP 2009: Workshop on Declarative Aspects of Multicore Programming\"</a>. Cse.unsw.edu.au. 20 January 2009. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cse.unsw.edu.au/~pls/damp09/\">the original</a> on 13 September 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 August</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=DAMP+2009%3A+Workshop+on+Declarative+Aspects+of+Multicore+Programming&amp;rft.pub=Cse.unsw.edu.au&amp;rft.date=2009-01-20&amp;rft&#95;id=http%3A%2F%2Fwww.cse.unsw.edu.au%2F~pls%2Fdamp09%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADeclarative+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.w3schools.com/SQL/sql_stored_procedures.asp\">\"SQL Stored Procedures\"</a>. <i>www.w3schools.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-08-02</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.w3schools.com&amp;rft.atitle=SQL+Stored+Procedures&amp;rft&#95;id=https%3A%2F%2Fwww.w3schools.com%2FSQL%2Fsql&#95;stored&#95;procedures.asp&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADeclarative+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFChakravarty1997\" class=\"citation thesis cs1\">Chakravarty, Manuel M. T. (14 February 1997). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cse.unsw.edu.au/~chak/papers/diss.ps.gz\"><i>On the Massively Parallel Execution of Declarative Programs</i></a> (Doctoral dissertation). <a href=\"/wiki/Technische_Universit%C3%A4t_Berlin\" title=\"Technische Universität Berlin\">Technische Universität Berlin</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150923211531/http://www.cse.unsw.edu.au/~chak/papers/diss.ps.gz\">Archived</a> from the original on 23 September 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 February</span> 2015</span>. <q>In this context, the criterion for calling a programming language declarative is the existence of a clear, mathematically established correspondence between the language and mathematical logic such that a declarative semantics for the language can be based on the model or the proof theory (or both) of the logic.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation&amp;rft.title=On+the+Massively+Parallel+Execution+of+Declarative+Programs&amp;rft.inst=Technische+Universit%C3%A4t+Berlin&amp;rft.date=1997-02-14&amp;rft.aulast=Chakravarty&amp;rft.aufirst=Manuel+M.+T.&amp;rft&#95;id=http%3A%2F%2Fwww.cse.unsw.edu.au%2F~chak%2Fpapers%2Fdiss.ps.gz&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADeclarative+programming\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐4sks4\nCached time: 20260918164142\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.153 seconds\nReal time usage: 0.239 seconds\nPreprocessor visited node count: 696/1000000\nRevision size: 4848/2097152 bytes\nPost‐expand include size: 52840/2097152 bytes\nTemplate argument size: 16047/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 21355/5000000 bytes\nLua time usage: 0.104/10.000 seconds\nLua memory usage: 5740072/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  224.227      1 -total\n 34.74%   77.887      1 Template:Multiple_issues\n 26.55%   59.531      1 Template:Short_description\n 26.14%   58.621      1 Template:Cite_conference\n 21.39%   47.966      3 Template:Ambox\n 16.29%   36.529      1 Template:More_footnotes_needed\n 13.80%   30.948      2 Template:Pagetype\n  8.77%   19.656      4 Template:Main_other\n  8.12%   18.199      1 Template:SDcat\n  5.83%   13.072      1 Template:More_citations_needed\n-->\n\n<!-- Render ID d3c03873-b37f-11f1-89ae-f9b1a9b68d1f -->\n</div>",
+        "links": [
+          {
+            "ns": 1,
+            "title": "Talk:Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algebraic modeling language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Answer set programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Control flow",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Datalog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Domain knowledge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Immutable object",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Language primitive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Peñíscola",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Program (machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Query language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Referential transparency",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Side effect (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Technische Universität Berlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Theory (mathematical logic)",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citing sources",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Manual of Style",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:When to cite",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming paradigm based on modeling the logic of a computation",
+          "wikibase_item": "Q531152"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "GNU Compiler Collection",
+    "url": "https://en.wikipedia.org/wiki/GNU_Compiler_Collection",
+    "summary": "Free and open-source compiler for various programming languages This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"GNU Compiler Collection\" – news · newspapers · books · scholar · JSTOR ( January 2022 ) ( Learn how and when to remove this message ) GNU Compiler Collection Screenshot of GCC 10.2 compiling its own source code Original author Richard Stallman Developer GNU Project Release March 22, 1987 ; 39 years ago ( 1987-03-22 ) Stable release 16.2 / 7 August 2026 ; 42 days ago ( 7 August 2026 ) Written in C , C++ Operating system Cross-platform Platform GNU and many others Size ~15 million LOC Available in English Type Compiler License GPLv3+ with GCC Runtime Library Exception Website gcc .gnu .org Repository gcc .gnu .org /git /gcc .git The GNU Compiler Collection ( GCC ; formerly GNU C Compiler ) is a collection of compilers from the GNU Project that support various programming languages , hardware architectures , and operating systems . The Free Software Foundation (FSF) distributes GCC as free software under the GNU General Public License (GNU GPL). GCC is a key component of the GNU toolchain which is used for most projects related to GNU and the Linux kernel . With roughly 15 million lines of code in 2019, GCC is one of the largest free programs in existence. It has played an important role in the growth of free software , as both a tool and an example. When it was first released in 1987 by Richard Stallman , GCC 1.0 was named the GNU C Compiler since it only handled the C programming language . It was extended to compile C++ in December of that year. Front ends were later developed for Objective-C , Objective-C++ , Fortran , Ada , Go , D , Modula-2 , Rust , COBOL , and ALGOL 68 among others. The OpenMP and OpenACC specifications are also supported in the C and C++ compilers. As well as being the official compiler of the GNU operating system , GCC has been adopted as the standard compiler by many other modern Unix-like computer operating systems , including most Linux distributions. Most BSD family operating systems also switched to GCC shortly after its release, although since then, FreeBSD and Apple macOS have moved to the Clang compiler, largely due to licensing reasons. GCC can also compile code for Windows , Android , iOS , Solaris , HP-UX , AIX , and MS-DOS compatible operating systems. GCC has been ported to more platforms and instruction set architectures than any other compiler, and is widely deployed as a tool in the development of both free and proprietary software . GCC is also available for many embedded systems , including ARM -based and Power ISA -based chips. ^ a b \"GCC Releases\" . GNU Project. Archived from the original on June 4, 2023 . Retrieved July 24, 2020 . ^ Richard Biener (August 7, 2026). \"GCC 16.2 Released\" . Retrieved August 7, 2026 . ^ \"GCC Coding Conventions - GNU Project\" . gcc.gnu.org . Archived from the original on May 28, 2023 . Retrieved February 7, 2022 . ^ a b Víctor Rodríguez (October 1, 2019). \"Cutting Edge Toolchain (Latest Features in GCC/GLIBC)\" . youtube.com . Linux Foundation. Archived from the original on November 7, 2021 . Retrieved January 19, 2021 . ^ \"GCC Runtime Library Exception\" . Archived from the original on March 31, 2023 . Retrieved July 24, 2020 . ^ \"GCC Front Ends\" . GNU Project. Archived from the original on February 13, 2026 . Retrieved February 13, 2026 . ^ \"GCC 6 Release Series — Changes, New Features, and Fixes - GNU Project\" . gcc.gnu.org . Archived from the original on September 22, 2016 . Retrieved September 19, 2016 . ^ \"OpenACC - GCC Wiki\" . gcc.gnu.org . Archived from the original on April 1, 2015 . Retrieved September 19, 2016 . ^ \"The LLVM Compiler Infrastructure Project\" . llvm.org . Archived from the original on January 18, 2023 . Retrieved September 24, 2021 . ^ \"Apple's GPLv3 purge\" . meta.ath0.com . February 5, 2012. Archived from the original on January 18, 2023 . Retrieved January 12, 2021 . ^ Linnemann, Reid (June 20, 2012). \"Why Clang\" . Archived from the original on January 18, 2023 . Retrieved January 12, 2021 . ^ \"August 29, 2007: FreeBSD Foundation Newsletter, August 29, 2007\" . October 11, 2007. Archived from the original on October 11, 2007 . Retrieved January 12, 2021 . ^ \"Installing GCC: Binaries - GNU Project - Free Software Foundation (FSF)\" . gcc.gnu.org . Archived from the original on January 5, 2021 . Retrieved January 12, 2021 .",
+    "text": "Free and open-source compiler for various programming languages This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"GNU Compiler Collection\" – news · newspapers · books · scholar · JSTOR ( January 2022 ) ( Learn how and when to remove this message ) GNU Compiler Collection Screenshot of GCC 10.2 compiling its own source code Original author Richard Stallman Developer GNU Project Release March 22, 1987 ; 39 years ago ( 1987-03-22 ) Stable release 16.2 / 7 August 2026 ; 42 days ago ( 7 August 2026 ) Written in C , C++ Operating system Cross-platform Platform GNU and many others Size ~15 million LOC Available in English Type Compiler License GPLv3+ with GCC Runtime Library Exception Website gcc .gnu .org Repository gcc .gnu .org /git /gcc .git The GNU Compiler Collection ( GCC ; formerly GNU C Compiler ) is a collection of compilers from the GNU Project that support various programming languages , hardware architectures , and operating systems . The Free Software Foundation (FSF) distributes GCC as free software under the GNU General Public License (GNU GPL). GCC is a key component of the GNU toolchain which is used for most projects related to GNU and the Linux kernel . With roughly 15 million lines of code in 2019, GCC is one of the largest free programs in existence. It has played an important role in the growth of free software , as both a tool and an example. When it was first released in 1987 by Richard Stallman , GCC 1.0 was named the GNU C Compiler since it only handled the C programming language . It was extended to compile C++ in December of that year. Front ends were later developed for Objective-C , Objective-C++ , Fortran , Ada , Go , D , Modula-2 , Rust , COBOL , and ALGOL 68 among others. The OpenMP and OpenACC specifications are also supported in the C and C++ compilers. As well as being the official compiler of the GNU operating system , GCC has been adopted as the standard compiler by many other modern Unix-like computer operating systems , including most Linux distributions. Most BSD family operating systems also switched to GCC shortly after its release, although since then, FreeBSD and Apple macOS have moved to the Clang compiler, largely due to licensing reasons. GCC can also compile code for Windows , Android , iOS , Solaris , HP-UX , AIX , and MS-DOS compatible operating systems. GCC has been ported to more platforms and instruction set architectures than any other compiler, and is widely deployed as a tool in the development of both free and proprietary software . GCC is also available for many embedded systems , including ARM -based and Power ISA -based chips. ^ a b \"GCC Releases\" . GNU Project. Archived from the original on June 4, 2023 . Retrieved July 24, 2020 . ^ Richard Biener (August 7, 2026). \"GCC 16.2 Released\" . Retrieved August 7, 2026 . ^ \"GCC Coding Conventions - GNU Project\" . gcc.gnu.org . Archived from the original on May 28, 2023 . Retrieved February 7, 2022 . ^ a b Víctor Rodríguez (October 1, 2019). \"Cutting Edge Toolchain (Latest Features in GCC/GLIBC)\" . youtube.com . Linux Foundation. Archived from the original on November 7, 2021 . Retrieved January 19, 2021 . ^ \"GCC Runtime Library Exception\" . Archived from the original on March 31, 2023 . Retrieved July 24, 2020 . ^ \"GCC Front Ends\" . GNU Project. Archived from the original on February 13, 2026 . Retrieved February 13, 2026 . ^ \"GCC 6 Release Series — Changes, New Features, and Fixes - GNU Project\" . gcc.gnu.org . Archived from the original on September 22, 2016 . Retrieved September 19, 2016 . ^ \"OpenACC - GCC Wiki\" . gcc.gnu.org . Archived from the original on April 1, 2015 . Retrieved September 19, 2016 . ^ \"The LLVM Compiler Infrastructure Project\" . llvm.org . Archived from the original on January 18, 2023 . Retrieved September 24, 2021 . ^ \"Apple's GPLv3 purge\" . meta.ath0.com . February 5, 2012. Archived from the original on January 18, 2023 . Retrieved January 12, 2021 . ^ Linnemann, Reid (June 20, 2012). \"Why Clang\" . Archived from the original on January 18, 2023 . Retrieved January 12, 2021 . ^ \"August 29, 2007: FreeBSD Foundation Newsletter, August 29, 2007\" . October 11, 2007. Archived from the original on October 11, 2007 . Retrieved January 12, 2021 . ^ \"Installing GCC: Binaries - GNU Project - Free Software Foundation (FSF)\" . gcc.gnu.org . Archived from the original on January 5, 2021 . Retrieved January 12, 2021 .",
+    "links": [
+      "ALGOL 68",
+      "ARM architecture family",
+      "Ada (programming language)",
+      "Android (operating system)",
+      "Berkeley Software Distribution",
+      "C (programming language)",
+      "C++",
+      "COBOL",
+      "Clang",
+      "Compiler",
+      "Computer architecture",
+      "Computing platform",
+      "Cross-platform",
+      "D (programming language)",
+      "Embedded system",
+      "File size",
+      "Fortran",
+      "Free Software Foundation",
+      "Free software",
+      "FreeBSD",
+      "GNU",
+      "GNU General Public License",
+      "GNU Project",
+      "GNU operating system",
+      "GNU toolchain",
+      "Go (programming language)",
+      "HP-UX",
+      "IBM AIX",
+      "IOS",
+      "Instruction set architecture",
+      "Linux",
+      "Linux kernel",
+      "MS-DOS",
+      "MacOS",
+      "Modula-2",
+      "Objective-C",
+      "Objective-C++",
+      "OpenACC",
+      "OpenMP",
+      "Operating system",
+      "Porting",
+      "Power ISA",
+      "Programmer",
+      "Programming language",
+      "Proprietary software",
+      "Repository (version control)",
+      "Richard Stallman",
+      "Rust (programming language)",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Solaris (operating system)",
+      "Source lines of code",
+      "Unix-like",
+      "Windows"
+    ],
+    "page_id": 12323,
+    "revision_id": 1375188309,
+    "retrieved_at": "2026-09-18T16:41:33.506733+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260915215941|1375102234",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 12323,
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "revisions": [
+              {
+                "revid": 1375188309,
+                "parentid": 1375102234
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "GCC_10.2_GNU_Compiler_Collection_self-compilation.png",
+              "wikibase-shortdesc": "Free and open-source compiler for various programming languages",
+              "wikibase_item": "Q178940"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "GNU Compiler Collection",
+        "pageid": 12323,
+        "revid": 1375188309,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free and open-source compiler for various programming languages</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22GNU+Compiler+Collection%22\">\"GNU Compiler Collection\"</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22GNU+Compiler+Collection%22+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22GNU+Compiler+Collection%22&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22GNU+Compiler+Collection%22+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22GNU+Compiler+Collection%22\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22GNU+Compiler+Collection%22&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">January 2022</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">GNU Compiler Collection</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:GNU_Compiler_Collection_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/af/GNU_Compiler_Collection_logo.svg/120px-GNU_Compiler_Collection_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"118\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/af/GNU_Compiler_Collection_logo.svg/250px-GNU_Compiler_Collection_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"584\" data-file-height=\"689\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:GCC_10.2_GNU_Compiler_Collection_self-compilation.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/GCC_10.2_GNU_Compiler_Collection_self-compilation.png/250px-GCC_10.2_GNU_Compiler_Collection_self-compilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"307\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/GCC_10.2_GNU_Compiler_Collection_self-compilation.png/500px-GCC_10.2_GNU_Compiler_Collection_self-compilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"946\" data-file-height=\"1160\" /></a></span><div class=\"infobox-caption\">Screenshot of GCC 10.2 compiling its own source code</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\"><a href=\"/wiki/Richard_Stallman\" title=\"Richard Stallman\">Richard Stallman</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_Project\" title=\"GNU Project\">GNU Project</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">March&#160;22, 1987<span class=\"noprint\">&#59;&#32;39 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1987-03-22</span>)</span><sup id=\"cite&#95;ref-release-history&#95;1-0\" class=\"reference\"><a href=\"#cite_note-release-history-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">16.2<sup id=\"cite&#95;ref-wikidata-9bcf88b8a601b7f287bb015c3f4b4c8b8ca59419-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-9bcf88b8a601b7f287bb015c3f4b4c8b8ca59419-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q178940?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 7 August 2026<span class=\"noprint\">&#59;&#32;42 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">7 August 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU\" title=\"GNU\">GNU</a> and many others</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/File_size\" title=\"File size\">Size</a></th><td class=\"infobox-data\">~15 million <a href=\"/wiki/Source_lines_of_code\" title=\"Source lines of code\">LOC</a><sup id=\"cite&#95;ref-loc&#95;4-0\" class=\"reference\"><a href=\"#cite_note-loc-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">English</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GPLv3+</a> with GCC Runtime Library Exception<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org\">gcc<wbr />.gnu<wbr />.org</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/git/gcc.git\">gcc<wbr />.gnu<wbr />.org<wbr />/git<wbr />/gcc<wbr />.git</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q178940#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p>The <b>GNU Compiler Collection</b> (<b>GCC</b>; formerly <b>GNU C Compiler</b>) is a collection of <a href=\"/wiki/Compiler\" title=\"Compiler\">compilers</a> from the <a href=\"/wiki/GNU_Project\" title=\"GNU Project\">GNU Project</a> that support various <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a>, <a href=\"/wiki/Computer_architecture\" title=\"Computer architecture\">hardware architectures</a>, and <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a>. The <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">Free Software Foundation</a> (FSF) distributes GCC as <a href=\"/wiki/Free_software\" title=\"Free software\">free software</a> under the <a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU General Public License</a> (GNU GPL). GCC is a key component of the <a href=\"/wiki/GNU_toolchain\" title=\"GNU toolchain\">GNU toolchain</a> which is used for most projects related to <a href=\"/wiki/GNU\" title=\"GNU\">GNU</a> and the <a href=\"/wiki/Linux_kernel\" title=\"Linux kernel\">Linux kernel</a>. With roughly 15 million lines of code in 2019, GCC is one of the largest free programs in existence.<sup id=\"cite&#95;ref-loc&#95;4-1\" class=\"reference\"><a href=\"#cite_note-loc-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> It has played an important role in the growth of <a href=\"/wiki/Free_software\" title=\"Free software\">free software</a>, as both a tool and an example.\n</p><p>When it was first released in 1987 by <a href=\"/wiki/Richard_Stallman\" title=\"Richard Stallman\">Richard Stallman</a>, GCC 1.0 was named the <i>GNU C Compiler</i> since it only handled the <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C programming language</a>.<sup id=\"cite&#95;ref-release-history&#95;1-1\" class=\"reference\"><a href=\"#cite_note-release-history-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> It was extended to compile <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> in December of that year. <a href=\"/wiki/Compiler#Front_end\" title=\"Compiler\">Front ends</a> were later developed for <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>, <a href=\"/wiki/Objective-C%2B%2B\" class=\"mw-redirect\" title=\"Objective-C++\">Objective-C++</a>, <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>, <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>, <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>, <a href=\"/wiki/Modula-2\" title=\"Modula-2\">Modula-2</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>, <a href=\"/wiki/COBOL\" title=\"COBOL\">COBOL</a>, and <a href=\"/wiki/ALGOL_68\" title=\"ALGOL 68\">ALGOL 68</a> among others.<sup id=\"cite&#95;ref-:7&#95;6-0\" class=\"reference\"><a href=\"#cite_note-:7-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> The <a href=\"/wiki/OpenMP\" title=\"OpenMP\">OpenMP</a> and <a href=\"/wiki/OpenACC\" title=\"OpenACC\">OpenACC</a> specifications are also supported in the C and C++ compilers.<sup id=\"cite&#95;ref-gcc6&#95;7-0\" class=\"reference\"><a href=\"#cite_note-gcc6-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-:2&#95;8-0\" class=\"reference\"><a href=\"#cite_note-:2-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>As well as being the official compiler of the <a href=\"/wiki/GNU_operating_system\" class=\"mw-redirect\" title=\"GNU operating system\">GNU operating system</a>, GCC has been adopted as the standard compiler by many other modern <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> computer <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a>, including most <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> distributions. Most <a href=\"/wiki/Berkeley_Software_Distribution\" title=\"Berkeley Software Distribution\">BSD</a> family operating systems also switched to GCC shortly after its release, although since then, <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a> and <a href=\"/wiki/MacOS\" title=\"MacOS\">Apple macOS</a> have moved to the <a href=\"/wiki/Clang\" title=\"Clang\">Clang</a> compiler,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> largely due to licensing reasons.<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> GCC can also compile code for <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a>, <a href=\"/wiki/IOS\" title=\"IOS\">iOS</a>, <a href=\"/wiki/Solaris_(operating_system)\" class=\"mw-redirect\" title=\"Solaris (operating system)\">Solaris</a>, <a href=\"/wiki/HP-UX\" title=\"HP-UX\">HP-UX</a>, <a href=\"/wiki/IBM_AIX\" title=\"IBM AIX\">AIX</a>, and <a href=\"/wiki/MS-DOS\" title=\"MS-DOS\">MS-DOS</a> compatible operating systems.<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>GCC has been <a href=\"/wiki/Porting\" title=\"Porting\">ported</a> to more platforms and <a href=\"/wiki/Instruction_set_architecture\" title=\"Instruction set architecture\">instruction set architectures</a> than any other compiler, and is widely deployed as a tool in the development of both free and <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a>. GCC is also available for many <a href=\"/wiki/Embedded_system\" title=\"Embedded system\">embedded systems</a>, including <a href=\"/wiki/ARM_architecture_family\" title=\"ARM architecture family\">ARM</a>-based and <a href=\"/wiki/Power_ISA\" title=\"Power ISA\">Power ISA</a>-based chips.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-release-history-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-release-history_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-release-history_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gnu.org/software/gcc/releases.html\">\"GCC Releases\"</a>. GNU Project. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230604113400/https://www.gnu.org/software/gcc/releases.html\">Archived</a> from the original on June 4, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 24,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GCC+Releases&amp;rft.pub=GNU+Project&amp;rft&#95;id=https%3A%2F%2Fgnu.org%2Fsoftware%2Fgcc%2Freleases.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-9bcf88b8a601b7f287bb015c3f4b4c8b8ca59419-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-9bcf88b8a601b7f287bb015c3f4b4c8b8ca59419-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRichard&#95;Biener2026\" class=\"citation web cs1\">Richard Biener (August 7, 2026). <a rel=\"nofollow\" class=\"external text\" href=\"https://lists.gnu.org/archive/html/info-gnu/2026-08/msg00000.html\">\"GCC 16.2 Released\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 7,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GCC+16.2+Released&amp;rft.date=2026-08-07&amp;rft.au=Richard+Biener&amp;rft&#95;id=https%3A%2F%2Flists.gnu.org%2Farchive%2Fhtml%2Finfo-gnu%2F2026-08%2Fmsg00000.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/codingconventions.html\">\"GCC Coding Conventions - GNU Project\"</a>. <i>gcc.gnu.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230528012107/https://gcc.gnu.org/codingconventions.html\">Archived</a> from the original on May 28, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 7,</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=gcc.gnu.org&amp;rft.atitle=GCC+Coding+Conventions+-+GNU+Project&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Fcodingconventions.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-loc-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-loc_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-loc_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFVíctor&#95;Rodríguez2019\" class=\"citation web cs1\">Víctor Rodríguez (October 1, 2019). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=QXwxBM4sbYM\">\"Cutting Edge Toolchain (Latest Features in GCC/GLIBC)\"</a>. <i>youtube.com</i>. Linux Foundation. <a rel=\"nofollow\" class=\"external text\" href=\"https://ghostarchive.org/varchive/youtube/20211107/QXwxBM4sbYM\">Archived</a> from the original on November 7, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 19,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=youtube.com&amp;rft.atitle=Cutting+Edge+Toolchain+%28Latest+Features+in+GCC%2FGLIBC%29&amp;rft.date=2019-10-01&amp;rft.au=V%C3%ADctor+Rodr%C3%ADguez&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQXwxBM4sbYM&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gnu.org/licenses/gcc-exception-3.1\">\"GCC Runtime Library Exception\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230331220440/https://www.gnu.org/licenses/gcc-exception-3.1\">Archived</a> from the original on March 31, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 24,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GCC+Runtime+Library+Exception&amp;rft&#95;id=https%3A%2F%2Fgnu.org%2Flicenses%2Fgcc-exception-3.1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:7-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:7_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/frontends.html\">\"GCC Front Ends\"</a>. GNU Project. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20260213025826/https://gcc.gnu.org/frontends.html\">Archived</a> from the original on February 13, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 13,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GCC+Front+Ends&amp;rft.pub=GNU+Project&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Ffrontends.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gcc6-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-gcc6_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/gcc-6/changes.html\">\"GCC 6 Release Series — Changes, New Features, and Fixes - GNU Project\"</a>. <i>gcc.gnu.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160922161533/http://gcc.gnu.org/gcc-6/changes.html\">Archived</a> from the original on September 22, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 19,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=gcc.gnu.org&amp;rft.atitle=GCC+6+Release+Series+%E2%80%94+Changes%2C+New+Features%2C+and+Fixes+-+GNU+Project&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Fgcc-6%2Fchanges.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:2-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:2_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/wiki/OpenACC\">\"OpenACC - GCC Wiki\"</a>. <i>gcc.gnu.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150401174332/https://gcc.gnu.org/wiki/OpenACC\">Archived</a> from the original on April 1, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 19,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=gcc.gnu.org&amp;rft.atitle=OpenACC+-+GCC+Wiki&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Fwiki%2FOpenACC&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://llvm.org/Users.html\">\"The LLVM Compiler Infrastructure Project\"</a>. <i>llvm.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230118185909/https://llvm.org/Users.html\">Archived</a> from the original on January 18, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 24,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=llvm.org&amp;rft.atitle=The+LLVM+Compiler+Infrastructure+Project&amp;rft&#95;id=https%3A%2F%2Fllvm.org%2FUsers.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/\">\"Apple's GPLv3 purge\"</a>. <i>meta.ath0.com</i>. February 5, 2012. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230118185910/http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/\">Archived</a> from the original on January 18, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 12,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=meta.ath0.com&amp;rft.atitle=Apple%27s+GPLv3+purge&amp;rft.date=2012-02-05&amp;rft&#95;id=http%3A%2F%2Fmeta.ath0.com%2F2012%2F02%2F05%2Fapples-great-gpl-purge%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLinnemann2012\" class=\"citation web cs1\">Linnemann, Reid (June 20, 2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://lists.freebsd.org/pipermail/freebsd-questions/2012-June/242495.html\">\"Why Clang\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230118185910/https://lists.freebsd.org/pipermail/freebsd-questions/2012-June/242495.html\">Archived</a> from the original on January 18, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 12,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Why+Clang&amp;rft.date=2012-06-20&amp;rft.aulast=Linnemann&amp;rft.aufirst=Reid&amp;rft&#95;id=https%3A%2F%2Flists.freebsd.org%2Fpipermail%2Ffreebsd-questions%2F2012-June%2F242495.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20071011023649/http://www.freebsdfoundation.org/press/2007Aug-newsletter.shtml#Letter\">\"August 29, 2007: FreeBSD Foundation Newsletter, August 29, 2007\"</a>. October 11, 2007. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.freebsdfoundation.org/press/2007Aug-newsletter.shtml#Letter\">the original</a> on October 11, 2007<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 12,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=August+29%2C+2007%3A+FreeBSD+Foundation+Newsletter%2C+August+29%2C+2007&amp;rft.date=2007-10-11&amp;rft&#95;id=http%3A%2F%2Fwww.freebsdfoundation.org%2Fpress%2F2007Aug-newsletter.shtml%23Letter&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/install/binaries.html\">\"Installing GCC: Binaries - GNU Project - Free Software Foundation (FSF)\"</a>. <i>gcc.gnu.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210105200706/https://gcc.gnu.org/install/binaries.html\">Archived</a> from the original on January 5, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 12,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=gcc.gnu.org&amp;rft.atitle=Installing+GCC%3A+Binaries+-+GNU+Project+-+Free+Software+Foundation+%28FSF%29&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Finstall%2Fbinaries.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU+Compiler+Collection\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐85nss\nCached time: 20260918164159\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.599 seconds\nReal time usage: 0.832 seconds\nPreprocessor visited node count: 2007/1000000\nRevision size: 7664/2097152 bytes\nPost‐expand include size: 53781/2097152 bytes\nTemplate argument size: 5252/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 35959/5000000 bytes\nLua time usage: 0.416/10.000 seconds\nLua memory usage: 11138455/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  782.575      1 -total\n 64.19%  502.351      2 Template:Infobox\n 59.33%  464.282      1 Template:Infobox_software\n 34.85%  272.704      1 Template:Infobox_software/simple\n 31.92%  249.774     19 Template:If_empty\n 31.20%  244.181      6 Template:Wikidata\n 13.73%  107.486      1 Template:Short_description\n 11.40%   89.187      1 Template:Primary_sources\n 10.32%   80.788      1 Template:Ambox\n  8.62%   67.433     12 Template:Cite_web\n-->\n\n<!-- Render ID dde234cf-b37f-11f1-bd9c-4db2ab6368e2 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "ALGOL 68",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture family",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Berkeley Software Distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "COBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "File size",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU toolchain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HP-UX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM AIX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MS-DOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenACC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenMP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Porting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Power ISA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Richard Stallman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Solaris (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source lines of code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free and open-source compiler for various programming languages",
+          "page_image_free": "GCC_10.2_GNU_Compiler_Collection_self-compilation.png",
+          "wikibase_item": "Q178940"
+        }
+      }
+    }
+  ]
+}

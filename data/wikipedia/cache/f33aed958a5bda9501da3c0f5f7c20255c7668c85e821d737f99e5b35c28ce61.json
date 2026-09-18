@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Functional programming",
+    "url": "https://en.wikipedia.org/wiki/Functional_programming",
+    "summary": "Programming paradigm based on applying and composing functions For subroutine-oriented programming, see Procedural programming . In computer science , functional programming is a programming paradigm where programs are constructed by applying and composing functions . It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program. In functional programming, functions are treated as first-class entities , meaning that they can be bound to names (including local identifiers ), passed as arguments , and returned from other functions, just as any other data type can. This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner. Functional programming is sometimes treated as synonymous with purely functional programming , a subset of functional programming that treats all functions as deterministic mathematical functions , or pure functions . When a pure function is called with some given arguments, it will always return the same result, and cannot be affected by any mutable state or other side effects . This is in contrast with impure procedures , common in imperative programming , which can have side effects (such as modifying the program's state or taking input from a user). Proponents of purely functional programming claim that by restricting side effects, programs can have fewer bugs , be easier to debug and test , and be more suited to formal verification . Functional programming has its roots in academia, evolving from the lambda calculus , a formal system of computation based only on functions. Functional programming has historically been less popular than imperative programming, but many functional languages are seeing use today in industry and education, including Common Lisp , Scheme , Clojure , Wolfram Language , Racket , Erlang , Elixir , OCaml , Haskell , and F# . Lean is a functional programming language commonly used for verifying mathematical theorems. Functional programming is also key to some languages that have found success in specific domains, like JavaScript in the Web, R in statistics, J , K and Q in financial analysis, and XQuery / XSLT for XML . Domain-specific declarative languages like SQL and Lex / Yacc use some elements of functional programming, such as not allowing mutable values . In addition, many other programming languages support programming in a functional style or have implemented features from functional programming, such as D (since 2007 with the release of D2), C++ (since C++11 ), C# , Kotlin , Perl , PHP , Python , Go , Rust , Raku , Scala , and Java (since Java 8). ^ Hudak, Paul (September 1989). \"Conception, evolution, and application of functional programming languages\" (PDF) . ACM Computing Surveys . 21 (3): 359– 411. doi : 10.1145/72551.72554 . S2CID 207637854 . Archived from the original (PDF) on 2016-01-31 . Retrieved 2013-08-10 . ^ Cite error: The named reference hughesWhyFPMatters was invoked but never defined (see the help page ). ^ Cite error: The named reference clinger1987 was invoked but never defined (see the help page ). ^ Cite error: The named reference hartheimer1987 was invoked but never defined (see the help page ). ^ Cite error: The named reference kidd2007 was invoked but never defined (see the help page ). ^ Cite error: The named reference cleis2006 was invoked but never defined (see the help page ). ^ \"Wolfram Language Guide: Functional Programming\" . 2015 . Retrieved 2015-08-24 . ^ Cite error: The named reference Amath-CO was invoked but never defined (see the help page ). ^ Cite error: The named reference racket-video-games was invoked but never defined (see the help page ). ^ Cite error: The named reference erlang-faq was invoked but never defined (see the help page ). ^ Cite error: The named reference armstrong2007 was invoked but never defined (see the help page ). ^ Cite error: The named reference larson2009 was invoked but never defined (see the help page ). ^ \"The Elixir Programming Language\" . Retrieved 2021-02-14 . ^ Cite error: The named reference minksy2008 was invoked but never defined (see the help page ). ^ Cite error: The named reference leroy2007 was invoked but never defined (see the help page ). ^ Cite error: The named reference haskell-industry was invoked but never defined (see the help page ). ^ Cite error: The named reference hudak2007 was invoked but never defined (see the help page ). ^ Mansell, Howard (2008). Quantitative Finance in F# . CUFP 2008. Archived from the original on 2015-07-08 . Retrieved 2009-08-29 . ^ Peake, Alex (2009). The First Substantial Line of Business Application in F# . CUFP 2009. Archived from the original on 2009-10-17 . Retrieved 2009-08-29 . ^ de Moura, Leonardo; Ullrich, Sebastian (July 2021). \"The Lean 4 Theorem Prover and Programming Language\". Lecture Notes in Artificial Intelligence . Conference on Automated Deduction. Vol. 12699. pp. 625– 635. doi : 10.1007/978-3-030-79876-5_37 . ISSN 1611-3349 . ^ Banz, Matt (2017-06-27). \"An introduction to functional programming in JavaScript\" . Opensource.com . Retrieved 2021-01-09 . ^ Cite error: The named reference useR was invoked but never defined (see the help page ). ^ Cite error: The named reference Chambers was invoked but never defined (see the help page ). ^ Cite error: The named reference Novatchev was invoked but never defined (see the help page ). ^ Cite error: The named reference Mertz was invoked but never defined (see the help page ). ^ Cite error: The named reference Chamberlin_Boyce was invoked but never defined (see the help page ). ^ \"Functional programming - Dlang Tour\" . tour.dlang.org . Retrieved 2026-07-28 . ^ Functional Programming with C# - Simon Painter - NDC Oslo 2020 , 8 August 2021, archived from the original on 2021-10-30 , retrieved 2021-10-23 ^ \"Functional programming - Kotlin Programming Language\" . Kotlin . Retrieved 2019-05-01 . ^ Dominus, Mark J. (2005). Higher-Order Perl . Morgan Kaufmann . ISBN 978-1-55860-701-9 . ^ Holywell, Simon (2014). Functional Programming in PHP . php[architect]. ISBN 9781940111056 . ^ The Cain Gang Ltd. \"Python Metaclasses: Who? Why? When?\" (PDF) . Archived from the original (PDF) on 30 May 2009 . Retrieved 27 June 2009 . ^ \"GopherCon 2020: Dylan Meeus - Functional Programming with Go\" . YouTube . 22 December 2020. ^ \"Functional Language Features: Iterators and Closures - The Rust Programming Language\" . doc.rust-lang.org . Retrieved 2021-01-09 . ^ Vanderbauwhede, Wim (18 July 2020). \"Cleaner code with functional programming\" . Archived from the original on 28 July 2020 . Retrieved 6 October 2020 . ^ Cite error: The named reference effective-scala was invoked but never defined (see the help page ). ^ Cite error: The named reference java-8-javadoc was invoked but never defined (see the help page ).",
+    "text": "Programming paradigm based on applying and composing functions For subroutine-oriented programming, see Procedural programming . In computer science , functional programming is a programming paradigm where programs are constructed by applying and composing functions . It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program. In functional programming, functions are treated as first-class entities , meaning that they can be bound to names (including local identifiers ), passed as arguments , and returned from other functions, just as any other data type can. This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner. Functional programming is sometimes treated as synonymous with purely functional programming , a subset of functional programming that treats all functions as deterministic mathematical functions , or pure functions . When a pure function is called with some given arguments, it will always return the same result, and cannot be affected by any mutable state or other side effects . This is in contrast with impure procedures , common in imperative programming , which can have side effects (such as modifying the program's state or taking input from a user). Proponents of purely functional programming claim that by restricting side effects, programs can have fewer bugs , be easier to debug and test , and be more suited to formal verification . Functional programming has its roots in academia, evolving from the lambda calculus , a formal system of computation based only on functions. Functional programming has historically been less popular than imperative programming, but many functional languages are seeing use today in industry and education, including Common Lisp , Scheme , Clojure , Wolfram Language , Racket , Erlang , Elixir , OCaml , Haskell , and F# . Lean is a functional programming language commonly used for verifying mathematical theorems. Functional programming is also key to some languages that have found success in specific domains, like JavaScript in the Web, R in statistics, J , K and Q in financial analysis, and XQuery / XSLT for XML . Domain-specific declarative languages like SQL and Lex / Yacc use some elements of functional programming, such as not allowing mutable values . In addition, many other programming languages support programming in a functional style or have implemented features from functional programming, such as D (since 2007 with the release of D2), C++ (since C++11 ), C# , Kotlin , Perl , PHP , Python , Go , Rust , Raku , Scala , and Java (since Java 8). ^ Hudak, Paul (September 1989). \"Conception, evolution, and application of functional programming languages\" (PDF) . ACM Computing Surveys . 21 (3): 359– 411. doi : 10.1145/72551.72554 . S2CID 207637854 . Archived from the original (PDF) on 2016-01-31 . Retrieved 2013-08-10 . ^ Cite error: The named reference hughesWhyFPMatters was invoked but never defined (see the help page ). ^ Cite error: The named reference clinger1987 was invoked but never defined (see the help page ). ^ Cite error: The named reference hartheimer1987 was invoked but never defined (see the help page ). ^ Cite error: The named reference kidd2007 was invoked but never defined (see the help page ). ^ Cite error: The named reference cleis2006 was invoked but never defined (see the help page ). ^ \"Wolfram Language Guide: Functional Programming\" . 2015 . Retrieved 2015-08-24 . ^ Cite error: The named reference Amath-CO was invoked but never defined (see the help page ). ^ Cite error: The named reference racket-video-games was invoked but never defined (see the help page ). ^ Cite error: The named reference erlang-faq was invoked but never defined (see the help page ). ^ Cite error: The named reference armstrong2007 was invoked but never defined (see the help page ). ^ Cite error: The named reference larson2009 was invoked but never defined (see the help page ). ^ \"The Elixir Programming Language\" . Retrieved 2021-02-14 . ^ Cite error: The named reference minksy2008 was invoked but never defined (see the help page ). ^ Cite error: The named reference leroy2007 was invoked but never defined (see the help page ). ^ Cite error: The named reference haskell-industry was invoked but never defined (see the help page ). ^ Cite error: The named reference hudak2007 was invoked but never defined (see the help page ). ^ Mansell, Howard (2008). Quantitative Finance in F# . CUFP 2008. Archived from the original on 2015-07-08 . Retrieved 2009-08-29 . ^ Peake, Alex (2009). The First Substantial Line of Business Application in F# . CUFP 2009. Archived from the original on 2009-10-17 . Retrieved 2009-08-29 . ^ de Moura, Leonardo; Ullrich, Sebastian (July 2021). \"The Lean 4 Theorem Prover and Programming Language\". Lecture Notes in Artificial Intelligence . Conference on Automated Deduction. Vol. 12699. pp. 625– 635. doi : 10.1007/978-3-030-79876-5_37 . ISSN 1611-3349 . ^ Banz, Matt (2017-06-27). \"An introduction to functional programming in JavaScript\" . Opensource.com . Retrieved 2021-01-09 . ^ Cite error: The named reference useR was invoked but never defined (see the help page ). ^ Cite error: The named reference Chambers was invoked but never defined (see the help page ). ^ Cite error: The named reference Novatchev was invoked but never defined (see the help page ). ^ Cite error: The named reference Mertz was invoked but never defined (see the help page ). ^ Cite error: The named reference Chamberlin_Boyce was invoked but never defined (see the help page ). ^ \"Functional programming - Dlang Tour\" . tour.dlang.org . Retrieved 2026-07-28 . ^ Functional Programming with C# - Simon Painter - NDC Oslo 2020 , 8 August 2021, archived from the original on 2021-10-30 , retrieved 2021-10-23 ^ \"Functional programming - Kotlin Programming Language\" . Kotlin . Retrieved 2019-05-01 . ^ Dominus, Mark J. (2005). Higher-Order Perl . Morgan Kaufmann . ISBN 978-1-55860-701-9 . ^ Holywell, Simon (2014). Functional Programming in PHP . php[architect]. ISBN 9781940111056 . ^ The Cain Gang Ltd. \"Python Metaclasses: Who? Why? When?\" (PDF) . Archived from the original (PDF) on 30 May 2009 . Retrieved 27 June 2009 . ^ \"GopherCon 2020: Dylan Meeus - Functional Programming with Go\" . YouTube . 22 December 2020. ^ \"Functional Language Features: Iterators and Closures - The Rust Programming Language\" . doc.rust-lang.org . Retrieved 2021-01-09 . ^ Vanderbauwhede, Wim (18 July 2020). \"Cleaner code with functional programming\" . Archived from the original on 28 July 2020 . Retrieved 6 October 2020 . ^ Cite error: The named reference effective-scala was invoked but never defined (see the help page ). ^ Cite error: The named reference java-8-javadoc was invoked but never defined (see the help page ).",
+    "links": [
+      "C Sharp (programming language)",
+      "C++",
+      "C++11",
+      "Clojure",
+      "Common Lisp",
+      "Composability",
+      "Computer science",
+      "D (programming language)",
+      "Data type",
+      "Debugging",
+      "Declarative programming",
+      "Deterministic system",
+      "Doi (identifier)",
+      "Elixir (programming language)",
+      "Erlang (programming language)",
+      "Expression (computer science)",
+      "F Sharp (programming language)",
+      "First-class object",
+      "Formal verification",
+      "Function (mathematics)",
+      "Function application",
+      "Function composition (computer science)",
+      "Go (programming language)",
+      "Haskell",
+      "Higher-Order Perl",
+      "ISBN (identifier)",
+      "ISSN (identifier)",
+      "Identifier (computer languages)",
+      "Imperative programming",
+      "J (programming language)",
+      "Java (programming language)",
+      "JavaScript",
+      "K (programming language)",
+      "Kotlin",
+      "Lambda calculus",
+      "Lean (proof assistant)",
+      "Lex (software)",
+      "Mark Jason Dominus",
+      "Modular programming",
+      "Morgan Kaufmann",
+      "Mutable object",
+      "OCaml",
+      "PHP",
+      "Parameter (computer programming)",
+      "Paul Hudak",
+      "Perl",
+      "Procedural programming",
+      "Procedure (computer science)",
+      "Programming paradigm",
+      "Pure function",
+      "Purely functional programming",
+      "Python (programming language)",
+      "Q (programming language from Kx Systems)",
+      "R (programming language)",
+      "Racket (programming language)",
+      "Raku (programming language)",
+      "Return value",
+      "Rust (programming language)",
+      "S2CID (identifier)",
+      "SQL",
+      "Scala (programming language)",
+      "Scheme (programming language)",
+      "Side effect (computer science)",
+      "Software bug",
+      "Software testing",
+      "State (computer science)",
+      "Statement (computer science)",
+      "Tree (data structure)",
+      "Value (computer science)",
+      "Wolfram Language",
+      "XML",
+      "XQuery",
+      "XSLT",
+      "Yacc"
+    ],
+    "page_id": 10933,
+    "revision_id": 1366590619,
+    "retrieved_at": "2026-09-18T16:41:31.101557+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260623150605|1360778923",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 10933,
+            "ns": 0,
+            "title": "Functional programming",
+            "revisions": [
+              {
+                "revid": 1366590619,
+                "parentid": 1360778923
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Functional programming",
+              "wikibase-shortdesc": "Programming paradigm based on applying and composing functions",
+              "wikibase_item": "Q193076"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Functional programming",
+        "pageid": 10933,
+        "revid": 1366590619,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming paradigm based on applying and composing functions</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For subroutine-oriented programming, see <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">Procedural programming</a>.</div>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, <b>functional programming</b> is a <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming paradigm</a> where programs are constructed by <a href=\"/wiki/Function_application\" title=\"Function application\">applying</a> and <a href=\"/wiki/Function_composition_(computer_science)\" title=\"Function composition (computer science)\">composing functions</a>. It is a <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative programming</a> paradigm in which function definitions are <a href=\"/wiki/Tree_(data_structure)\" class=\"mw-redirect\" title=\"Tree (data structure)\">trees</a> of <a href=\"/wiki/Expression_(computer_science)\" title=\"Expression (computer science)\">expressions</a> that map <a href=\"/wiki/Value_(computer_science)\" title=\"Value (computer science)\">values</a> to other values, rather than a sequence of <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a> <a href=\"/wiki/Statement_(computer_science)\" title=\"Statement (computer science)\">statements</a> which update the <a href=\"/wiki/State_(computer_science)\" title=\"State (computer science)\">running state</a> of the program.\n</p><p>In functional programming, functions are treated as <a href=\"/wiki/First-class_object\" class=\"mw-redirect\" title=\"First-class object\">first-class entities</a>, meaning that they can be bound to names (including local <a href=\"/wiki/Identifier_(computer_languages)\" title=\"Identifier (computer languages)\">identifiers</a>), passed as <a href=\"/wiki/Parameter_(computer_programming)\" title=\"Parameter (computer programming)\">arguments</a>, and <a href=\"/wiki/Return_value\" class=\"mw-redirect\" title=\"Return value\">returned</a> from other functions, just as any other <a href=\"/wiki/Data_type\" title=\"Data type\">data type</a> can. This allows programs to be written in a <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative</a> and <a href=\"/wiki/Composability\" title=\"Composability\">composable</a> style, where small functions are combined in a <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a> manner.\n</p><p>Functional programming is sometimes treated as synonymous with <a href=\"/wiki/Purely_functional_programming\" title=\"Purely functional programming\">purely functional programming</a>, a subset of functional programming that treats all functions as <a href=\"/wiki/Deterministic_system\" title=\"Deterministic system\">deterministic</a> mathematical <a href=\"/wiki/Function_(mathematics)\" title=\"Function (mathematics)\">functions</a>, or <a href=\"/wiki/Pure_function\" title=\"Pure function\">pure functions</a>. When a pure function is called with some given arguments, it will always return the same result, and cannot be affected by any mutable <a href=\"/wiki/State_(computer_science)\" title=\"State (computer science)\">state</a> or other <a href=\"/wiki/Side_effect_(computer_science)\" title=\"Side effect (computer science)\">side effects</a>. This is in contrast with impure <a href=\"/wiki/Procedure_(computer_science)\" class=\"mw-redirect\" title=\"Procedure (computer science)\">procedures</a>, common in <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative programming</a>, which can have side effects (such as modifying the program's state or taking input from a user). Proponents of purely functional programming claim that by restricting side effects, programs can have fewer <a href=\"/wiki/Software_bug\" title=\"Software bug\">bugs</a>, be easier to <a href=\"/wiki/Debugging\" title=\"Debugging\">debug</a> and <a href=\"/wiki/Software_testing\" title=\"Software testing\">test</a>, and be more suited to <a href=\"/wiki/Formal_verification\" title=\"Formal verification\">formal verification</a>.<sup id=\"cite&#95;ref-hudak1989&#95;1-0\" class=\"reference\"><a href=\"#cite_note-hudak1989-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-hughesWhyFPMatters&#95;2-0\" class=\"reference\"><a href=\"#cite_note-hughesWhyFPMatters-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Functional programming has its roots in academia, evolving from the <a href=\"/wiki/Lambda_calculus\" title=\"Lambda calculus\">lambda calculus</a>, a formal system of computation based only on functions. Functional programming has historically been less popular than imperative programming, but many functional languages are seeing use today in industry and education, including <a href=\"/wiki/Common_Lisp\" title=\"Common Lisp\">Common Lisp</a>, <a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a>,<sup id=\"cite&#95;ref-clinger1987&#95;3-0\" class=\"reference\"><a href=\"#cite_note-clinger1987-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-hartheimer1987&#95;4-0\" class=\"reference\"><a href=\"#cite_note-hartheimer1987-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-kidd2007&#95;5-0\" class=\"reference\"><a href=\"#cite_note-kidd2007-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-cleis2006&#95;6-0\" class=\"reference\"><a href=\"#cite_note-cleis2006-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>, <a href=\"/wiki/Wolfram_Language\" title=\"Wolfram Language\">Wolfram Language</a>,<sup id=\"cite&#95;ref-reference.wolfram.com&#95;7-0\" class=\"reference\"><a href=\"#cite_note-reference.wolfram.com-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Amath-CO&#95;8-0\" class=\"reference\"><a href=\"#cite_note-Amath-CO-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Racket_(programming_language)\" title=\"Racket (programming language)\">Racket</a>,<sup id=\"cite&#95;ref-racket-video-games&#95;9-0\" class=\"reference\"><a href=\"#cite_note-racket-video-games-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a>,<sup id=\"cite&#95;ref-erlang-faq&#95;10-0\" class=\"reference\"><a href=\"#cite_note-erlang-faq-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-armstrong2007&#95;11-0\" class=\"reference\"><a href=\"#cite_note-armstrong2007-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-larson2009&#95;12-0\" class=\"reference\"><a href=\"#cite_note-larson2009-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Elixir_(programming_language)\" title=\"Elixir (programming language)\">Elixir</a>,<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/OCaml\" title=\"OCaml\">OCaml</a>,<sup id=\"cite&#95;ref-minksy2008&#95;14-0\" class=\"reference\"><a href=\"#cite_note-minksy2008-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-leroy2007&#95;15-0\" class=\"reference\"><a href=\"#cite_note-leroy2007-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>,<sup id=\"cite&#95;ref-haskell-industry&#95;16-0\" class=\"reference\"><a href=\"#cite_note-haskell-industry-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-hudak2007&#95;17-0\" class=\"reference\"><a href=\"#cite_note-hudak2007-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>.<sup id=\"cite&#95;ref-quantFSharp&#95;18-0\" class=\"reference\"><a href=\"#cite_note-quantFSharp-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-businessAppsFSharp&#95;19-0\" class=\"reference\"><a href=\"#cite_note-businessAppsFSharp-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Lean_(proof_assistant)\" title=\"Lean (proof assistant)\">Lean</a> is a functional programming language commonly used for verifying mathematical theorems.<sup id=\"cite&#95;ref-20\" class=\"reference\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup> Functional programming is also key to some languages that have found success in specific domains, like <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a> in the Web,<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/R_(programming_language)\" title=\"R (programming language)\">R</a> in statistics,<sup id=\"cite&#95;ref-useR&#95;22-0\" class=\"reference\"><a href=\"#cite_note-useR-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Chambers&#95;23-0\" class=\"reference\"><a href=\"#cite_note-Chambers-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/J_(programming_language)\" title=\"J (programming language)\">J</a>, <a href=\"/wiki/K_(programming_language)\" title=\"K (programming language)\">K</a> and <a href=\"/wiki/Q_(programming_language_from_Kx_Systems)\" title=\"Q (programming language from Kx Systems)\">Q</a> in financial analysis, and <a href=\"/wiki/XQuery\" title=\"XQuery\">XQuery</a>/<a href=\"/wiki/XSLT\" title=\"XSLT\">XSLT</a> for <a href=\"/wiki/XML\" title=\"XML\">XML</a>.<sup id=\"cite&#95;ref-Novatchev&#95;24-0\" class=\"reference\"><a href=\"#cite_note-Novatchev-24\"><span class=\"cite-bracket\">&#91;</span>24<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Mertz&#95;25-0\" class=\"reference\"><a href=\"#cite_note-Mertz-25\"><span class=\"cite-bracket\">&#91;</span>25<span class=\"cite-bracket\">&#93;</span></a></sup> Domain-specific declarative languages like <a href=\"/wiki/SQL\" title=\"SQL\">SQL</a> and <a href=\"/wiki/Lex_(software)\" title=\"Lex (software)\">Lex</a>/<a href=\"/wiki/Yacc\" title=\"Yacc\">Yacc</a> use some elements of functional programming, such as not allowing <a href=\"/wiki/Mutable_object\" class=\"mw-redirect\" title=\"Mutable object\">mutable values</a>.<sup id=\"cite&#95;ref-Chamberlin&#95;Boyce&#95;26-0\" class=\"reference\"><a href=\"#cite_note-Chamberlin_Boyce-26\"><span class=\"cite-bracket\">&#91;</span>26<span class=\"cite-bracket\">&#93;</span></a></sup> In addition, many other programming languages support programming in a functional style or have implemented features from functional programming, such as <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a><sup id=\"cite&#95;ref-27\" class=\"reference\"><a href=\"#cite_note-27\"><span class=\"cite-bracket\">&#91;</span>27<span class=\"cite-bracket\">&#93;</span></a></sup> (since 2007 with the release of D2), <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> (since <a href=\"/wiki/C%2B%2B11\" title=\"C++11\">C++11</a>), <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>,<sup id=\"cite&#95;ref-28\" class=\"reference\"><a href=\"#cite_note-28\"><span class=\"cite-bracket\">&#91;</span>28<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Kotlin\" title=\"Kotlin\">Kotlin</a>,<sup id=\"cite&#95;ref-:0&#95;29-0\" class=\"reference\"><a href=\"#cite_note-:0-29\"><span class=\"cite-bracket\">&#91;</span>29<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>,<sup id=\"cite&#95;ref-30\" class=\"reference\"><a href=\"#cite_note-30\"><span class=\"cite-bracket\">&#91;</span>30<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a>,<sup id=\"cite&#95;ref-31\" class=\"reference\"><a href=\"#cite_note-31\"><span class=\"cite-bracket\">&#91;</span>31<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>,<sup id=\"cite&#95;ref-AutoNT-13&#95;32-0\" class=\"reference\"><a href=\"#cite_note-AutoNT-13-32\"><span class=\"cite-bracket\">&#91;</span>32<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>,<sup id=\"cite&#95;ref-33\" class=\"reference\"><a href=\"#cite_note-33\"><span class=\"cite-bracket\">&#91;</span>33<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-34\" class=\"reference\"><a href=\"#cite_note-34\"><span class=\"cite-bracket\">&#91;</span>34<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Raku_(programming_language)\" title=\"Raku (programming language)\">Raku</a>,<sup id=\"cite&#95;ref-35\" class=\"reference\"><a href=\"#cite_note-35\"><span class=\"cite-bracket\">&#91;</span>35<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>,<sup id=\"cite&#95;ref-effective-scala&#95;36-0\" class=\"reference\"><a href=\"#cite_note-effective-scala-36\"><span class=\"cite-bracket\">&#91;</span>36<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a> (since Java 8).<sup id=\"cite&#95;ref-java-8-javadoc&#95;37-0\" class=\"reference\"><a href=\"#cite_note-java-8-javadoc-37\"><span class=\"cite-bracket\">&#91;</span>37<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-hudak1989-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-hudak1989_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFHudak1989\" class=\"citation journal cs1\"><a href=\"/wiki/Paul_Hudak\" title=\"Paul Hudak\">Hudak, Paul</a> (September 1989). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160131083528/http://www.dbnet.ece.ntua.gr/~adamo/languages/books/p359-hudak.pdf\">\"Conception, evolution, and application of functional programming languages\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>ACM Computing Surveys</i>. <b>21</b> (3): <span class=\"nowrap\">359–</span>411. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F72551.72554\">10.1145/72551.72554</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:207637854\">207637854</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.dbnet.ece.ntua.gr/~adamo/languages/books/p359-hudak.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on 2016-01-31<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2013-08-10</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ACM+Computing+Surveys&amp;rft.atitle=Conception%2C+evolution%2C+and+application+of+functional+programming+languages&amp;rft.volume=21&amp;rft.issue=3&amp;rft.pages=359-411&amp;rft.date=1989-09&amp;rft&#95;id=info%3Adoi%2F10.1145%2F72551.72554&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A207637854%23id-name%3DS2CID&amp;rft.aulast=Hudak&amp;rft.aufirst=Paul&amp;rft&#95;id=http%3A%2F%2Fwww.dbnet.ece.ntua.gr%2F~adamo%2Flanguages%2Fbooks%2Fp359-hudak.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-hughesWhyFPMatters-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-hughesWhyFPMatters_2-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>hughesWhyFPMatters</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-clinger1987-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-clinger1987_3-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>clinger1987</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-hartheimer1987-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-hartheimer1987_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>hartheimer1987</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-kidd2007-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-kidd2007_5-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>kidd2007</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-cleis2006-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-cleis2006_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>cleis2006</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-reference.wolfram.com-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-reference.wolfram.com_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://reference.wolfram.com/language/guide/FunctionalProgramming.html\">\"Wolfram Language Guide: Functional Programming\"</a>. 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2015-08-24</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Wolfram+Language+Guide%3A+Functional+Programming&amp;rft.date=2015&amp;rft&#95;id=http%3A%2F%2Freference.wolfram.com%2Flanguage%2Fguide%2FFunctionalProgramming.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Amath-CO-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Amath-CO_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Amath-CO</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-racket-video-games-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-racket-video-games_9-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>racket-video-games</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-erlang-faq-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-erlang-faq_10-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>erlang-faq</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-armstrong2007-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-armstrong2007_11-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>armstrong2007</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-larson2009-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-larson2009_12-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>larson2009</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://elixir-lang.org/\">\"The Elixir Programming Language\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2021-02-14</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Elixir+Programming+Language&amp;rft&#95;id=https%3A%2F%2Felixir-lang.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-minksy2008-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-minksy2008_14-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>minksy2008</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-leroy2007-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-leroy2007_15-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>leroy2007</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-haskell-industry-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-haskell-industry_16-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>haskell-industry</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-hudak2007-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-hudak2007_17-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>hudak2007</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-quantFSharp-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-quantFSharp_18-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMansell2008\" class=\"citation conference cs1\">Mansell, Howard (2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150708125937/http://cufp.galois.com/2008/abstracts.html#MansellHoward\"><i>Quantitative Finance in F#</i></a>. CUFP 2008. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://cufp.galois.com/2008/abstracts.html#MansellHoward\">the original</a> on 2015-07-08<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2009-08-29</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.btitle=Quantitative+Finance+in+F%23&amp;rft.date=2008&amp;rft.aulast=Mansell&amp;rft.aufirst=Howard&amp;rft&#95;id=http%3A%2F%2Fcufp.galois.com%2F2008%2Fabstracts.html%23MansellHoward&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-businessAppsFSharp-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-businessAppsFSharp_19-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFPeake2009\" class=\"citation conference cs1\">Peake, Alex (2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20091017070140/http://cufp.galois.com/2009/abstracts.html#AlexPeakeAdamGranicz\"><i>The First Substantial Line of Business Application in F#</i></a>. CUFP 2009. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://cufp.galois.com/2009/abstracts.html#AlexPeakeAdamGranicz\">the original</a> on 2009-10-17<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2009-08-29</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.btitle=The+First+Substantial+Line+of+Business+Application+in+F%23&amp;rft.date=2009&amp;rft.aulast=Peake&amp;rft.aufirst=Alex&amp;rft&#95;id=http%3A%2F%2Fcufp.galois.com%2F2009%2Fabstracts.html%23AlexPeakeAdamGranicz&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-20\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFde&#95;MouraUllrich2021\" class=\"citation conference cs1\">de Moura, Leonardo; Ullrich, Sebastian (July 2021). \"The Lean 4 Theorem Prover and Programming Language\". <i>Lecture Notes in Artificial Intelligence</i>. Conference on Automated Deduction. Vol.&#160;12699. pp.&#160;<span class=\"nowrap\">625–</span>635. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2F978-3-030-79876-5_37\">10.1007/978-3-030-79876-5_37</a></span>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1611-3349\">1611-3349</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=The+Lean+4+Theorem+Prover+and+Programming+Language&amp;rft.btitle=Lecture+Notes+in+Artificial+Intelligence&amp;rft.pages=625-635&amp;rft.date=2021-07&amp;rft&#95;id=info%3Adoi%2F10.1007%2F978-3-030-79876-5&#95;37&amp;rft.issn=1611-3349&amp;rft.aulast=de+Moura&amp;rft.aufirst=Leonardo&amp;rft.au=Ullrich%2C+Sebastian&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBanz2017\" class=\"citation web cs1\">Banz, Matt (2017-06-27). <a rel=\"nofollow\" class=\"external text\" href=\"https://opensource.com/article/17/6/functional-javascript\">\"An introduction to functional programming in JavaScript\"</a>. <i>Opensource.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2021-01-09</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Opensource.com&amp;rft.atitle=An+introduction+to+functional+programming+in+JavaScript&amp;rft.date=2017-06-27&amp;rft.aulast=Banz&amp;rft.aufirst=Matt&amp;rft&#95;id=https%3A%2F%2Fopensource.com%2Farticle%2F17%2F6%2Ffunctional-javascript&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-useR-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-useR_22-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>useR</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Chambers-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Chambers_23-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Chambers</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Novatchev-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Novatchev_24-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Novatchev</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Mertz-25\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Mertz_25-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Mertz</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Chamberlin&#95;Boyce-26\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Chamberlin_Boyce_26-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Chamberlin_Boyce</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-27\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-27\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://tour.dlang.org/tour/en/gems/functional-programming\">\"Functional programming - Dlang Tour\"</a>. <i>tour.dlang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-07-28</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=tour.dlang.org&amp;rft.atitle=Functional+programming+-+Dlang+Tour&amp;rft&#95;id=https%3A%2F%2Ftour.dlang.org%2Ftour%2Fen%2Fgems%2Ffunctional-programming&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-28\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-28\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation cs2\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ghostarchive.org/varchive/youtube/20211030/gvyTB4aMI4o\"><i>Functional Programming with C# - Simon Painter - NDC Oslo 2020</i></a>, 8 August 2021, archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=gvyTB4aMI4o\">the original</a> on 2021-10-30<span class=\"reference-accessdate\">, retrieved <span class=\"nowrap\">2021-10-23</span></span></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Functional+Programming+with+C%23+-+Simon+Painter+-+NDC+Oslo+2020&amp;rft.date=2021-08-08&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgvyTB4aMI4o&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-29\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_29-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://kotlinlang.org/docs/tutorials/kotlin-for-py/functional-programming.html\">\"Functional programming - Kotlin Programming Language\"</a>. <i>Kotlin</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-05-01</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Kotlin&amp;rft.atitle=Functional+programming+-+Kotlin+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fkotlinlang.org%2Fdocs%2Ftutorials%2Fkotlin-for-py%2Ffunctional-programming.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-30\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-30\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDominus2005\" class=\"citation book cs1\"><a href=\"/wiki/Mark_Jason_Dominus\" class=\"mw-redirect\" title=\"Mark Jason Dominus\">Dominus, Mark J.</a> (2005). <a href=\"/wiki/Higher-Order_Perl\" title=\"Higher-Order Perl\"><i>Higher-Order Perl</i></a>. <a href=\"/wiki/Morgan_Kaufmann\" class=\"mw-redirect\" title=\"Morgan Kaufmann\">Morgan Kaufmann</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-55860-701-9\" title=\"Special:BookSources/978-1-55860-701-9\"><bdi>978-1-55860-701-9</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Higher-Order+Perl&amp;rft.pub=Morgan+Kaufmann&amp;rft.date=2005&amp;rft.isbn=978-1-55860-701-9&amp;rft.aulast=Dominus&amp;rft.aufirst=Mark+J.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-31\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-31\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHolywell2014\" class=\"citation book cs1\">Holywell, Simon (2014). <i>Functional Programming in PHP</i>. php[architect]. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/9781940111056\" title=\"Special:BookSources/9781940111056\"><bdi>9781940111056</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Functional+Programming+in+PHP&amp;rft.pub=php%5Barchitect%5D&amp;rft.date=2014&amp;rft.isbn=9781940111056&amp;rft.aulast=Holywell&amp;rft.aufirst=Simon&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-AutoNT-13-32\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-AutoNT-13_32-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFThe&#95;Cain&#95;Gang&#95;Ltd.\" class=\"citation web cs1\">The Cain Gang Ltd. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090530030205/http://www.python.org/community/pycon/dc2004/papers/24/metaclasses-pycon.pdf\">\"Python Metaclasses: Who? Why? When?\"</a> <span class=\"cs1-format\">(PDF)</span>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.python.org/community/pycon/dc2004/papers/24/metaclasses-pycon.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on 30 May 2009<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">27 June</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Python+Metaclasses%3A+Who%3F+Why%3F+When%3F&amp;rft.au=The+Cain+Gang+Ltd.&amp;rft&#95;id=https%3A%2F%2Fwww.python.org%2Fcommunity%2Fpycon%2Fdc2004%2Fpapers%2F24%2Fmetaclasses-pycon.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-33\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-33\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=wqs8n5Uk5OM\">\"GopherCon 2020: Dylan Meeus - Functional Programming with Go\"</a>. <i>YouTube</i>. 22 December 2020.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=GopherCon+2020%3A+Dylan+Meeus+-+Functional+Programming+with+Go&amp;rft.date=2020-12-22&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dwqs8n5Uk5OM&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-34\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-34\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/book/ch13-00-functional-features.html\">\"Functional Language Features: Iterators and Closures - The Rust Programming Language\"</a>. <i>doc.rust-lang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2021-01-09</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=doc.rust-lang.org&amp;rft.atitle=Functional+Language+Features%3A+Iterators+and+Closures+-+The+Rust+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Fbook%2Fch13-00-functional-features.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-35\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-35\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFVanderbauwhede2020\" class=\"citation web cs1\">Vanderbauwhede, Wim (18 July 2020). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200728013926/https://wimvanderbauwhede.github.io/articles/decluttering-with-functional-programming/\">\"Cleaner code with functional programming\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://wimvanderbauwhede.github.io/articles/decluttering-with-functional-programming/\">the original</a> on 28 July 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 October</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Cleaner+code+with+functional+programming&amp;rft.date=2020-07-18&amp;rft.aulast=Vanderbauwhede&amp;rft.aufirst=Wim&amp;rft&#95;id=https%3A%2F%2Fwimvanderbauwhede.github.io%2Farticles%2Fdecluttering-with-functional-programming%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFunctional+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-effective-scala-36\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-effective-scala_36-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>effective-scala</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-java-8-javadoc-37\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-java-8-javadoc_37-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>java-8-javadoc</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐lc8qt\nCached time: 20260918164156\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 1.010 seconds\nReal time usage: 1.327 seconds\nPreprocessor visited node count: 2730/1000000\nRevision size: 9270/2097152 bytes\nPost‐expand include size: 63349/2097152 bytes\nTemplate argument size: 15814/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 2/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 42352/5000000 bytes\nLua time usage: 0.310/10.000 seconds\nLua memory usage: 5896882/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00% 1266.046      1 -total\n 12.98%  164.278     42 Template:Broken_ref\n 10.29%  130.291      1 Template:Cite_journal\n  9.09%  115.049      1 Template:Short_description\n  4.97%   62.918      2 Template:Pagetype\n  4.09%   51.844      9 Template:Cite_web\n  2.80%   35.471      2 Template:Main_other\n  2.58%   32.685      1 Template:SDcat\n  2.25%   28.521      1 Template:For\n  2.03%   25.686      3 Template:Cite_conference\n-->\n\n<!-- Render ID dc18656c-b37f-11f1-a99b-df3bc3560fd1 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Composability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debugging",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deterministic system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elixir (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erlang (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Expression (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "First-class object",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal verification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (mathematics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function application",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function composition (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Higher-Order Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Identifier (computer languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "J (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "K (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kotlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lambda calculus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lean (proof assistant)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lex (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mark Jason Dominus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Morgan Kaufmann",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mutable object",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCaml",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parameter (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Paul Hudak",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedure (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pure function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Purely functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Q (programming language from Kx Systems)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "R (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Racket (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raku (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Return value",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Side effect (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software bug",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software testing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "State (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Statement (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tree (data structure)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Value (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wolfram Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XQuery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XSLT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Yacc",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming paradigm based on applying and composing functions",
+          "wikibase_item": "Q193076"
+        }
+      }
+    }
+  ]
+}

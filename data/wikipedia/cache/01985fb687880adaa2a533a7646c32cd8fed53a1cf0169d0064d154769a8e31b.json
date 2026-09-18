@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Swift (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Swift_%28programming_language%29",
+    "summary": "Apple's general-purpose, open-source, compiled programming language This article is about the Apple programming language; not to be confused with Swift (parallel scripting language) or Swift (CPU) . Swift Show dark mode logo Show light mode logo Paradigm Multi-paradigm : protocol-oriented , object-oriented , functional , imperative , block structured , declarative , concurrent Designed by Chris Lattner , Doug Gregor, John McCall, Ted Kremenek, Joe Groff, and Apple Inc. Developer Apple Inc. and open-source contributors First appeared June 2, 2014 ; 12 years ago ( 2014-06-02 ) Stable release 6.4.0 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Typing discipline Static , strong , inferred Memory management Automatic Reference Counting OS Apple's operating systems ( Darwin , iOS , iPadOS , macOS , tvOS , visionOS , watchOS ), Linux , Windows , FreeBSD , Android , z/OS License Apache License 2.0 (Swift 2.2 and later) Proprietary (up to Swift 2.2) Filename extensions .swift, .SWIFT Website swift.org developer.apple.com/swift Major implementations swiftc, silver Influenced by Objective-C , Rust , Haskell , Ruby , Python , C# , CLU , D Influenced Rust , V (Vlang) , Mojo , Carbon Swift is a high-level general-purpose , multi-paradigm , compiled programming language created by Chris Lattner in 2010 for Apple Inc. and maintained by the open-source community . Swift compiles to machine code and uses an LLVM -based compiler. Swift was first released in June 2014 and the Swift toolchain has shipped in Xcode since Xcode version 6, released in September 2014. Apple intended Swift to support many core concepts associated with Objective-C , notably dynamic dispatch , widespread late binding , extensible programming , and similar features, but in a \"safer\" way, making it easier to catch software bugs ; Swift has features addressing some common programming errors like null pointer dereferencing and provides syntactic sugar to help avoid the pyramid of doom . Swift supports the concept of protocol extensibility, an extensibility system that can be applied to types, structs and classes , which Apple promotes as a real change in programming paradigms they term \"protocol-oriented programming\" (similar to traits and type classes ). Swift was introduced at Apple's 2014 Worldwide Developers Conference (WWDC). It underwent an upgrade to version 1.2 during 2014 and a major upgrade to Swift 2 at WWDC 2015. It was initially a proprietary language , but version 2.2 was made open-source software under the Apache License 2.0 on December 3, 2015, for Apple's platforms and Linux . ^ US patent 9329844 ^ \"Swift Has Reached 1.0\" . Apple. September 9, 2014 . Retrieved March 8, 2015 . ^ \"Release 6.4.0\" . September 15, 2026 . Retrieved September 15, 2026 . ^ \"Swift, Objectively\" . Dr. Dobb's . Swift is proprietary and closed: It is entirely controlled by Apple and there is no open source implementation. ^ Lattner, Chris (June 11, 2014). \"Re: [LLVMdev] [cfe-dev] [Advertisement] open positions in Apple's Swift compiler team\" . Archived from the original on July 14, 2014 . Retrieved June 12, 2014 . You can imagine that many of us want it to be open source and part of LLVM, but the discussion hasn't happened yet, and won't for some time. ^ \"Chris Lattner's Homepage\" . Chris Lattner. June 3, 2014 . Retrieved June 3, 2014 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ Lattner, Chris (June 3, 2014). \"Chris Lattner's Homepage\" . Chris Lattner . Retrieved June 3, 2014 . I started work on the Swift Programming Language in July of 2010. I implemented much of the basic language structure, with only a few people knowing of its existence. A few other (amazing) people started contributing in earnest late in 2011, and it became a major focus for the Apple Developer Tools group in July 2013 [...] drawing ideas from Objective-C , Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ \"Building assert() in Swift, Part 2: __FILE__ and __LINE__\" . Retrieved September 25, 2014 . ^ \"Influences - The Rust Reference\" . doc.rust-lang.org . Retrieved May 2, 2020 . ^ \"influenced by - V documentation\" . github.com . Retrieved November 3, 2023 . ^ \"Mojo language FAQ\" . modular.com . Retrieved August 17, 2025 . ^ \"Carbon Language GitHub\" . github.com . Retrieved August 17, 2025 . ^ Lardinois, Frederic (June 2, 2014). \"Apple Launches Swift, A New Programming Language For Writing iOS And OS X Apps\" . TechCrunch . Retrieved September 7, 2022 . ^ Protocol-oriented Programming in Swift . Apple Inc . YouTube . Archived from the original on July 16, 2023 . Retrieved June 18, 2015 . ^ \"Concepts are similar to Rust Traits, (I think) Swift Protocols and Haskel Type C... | Hacker News\" . news.ycombinator.com . ^ Williams, Owen (June 2, 2014). \"Tim Berners-Lee's sixtieth birthday Apple announces Swift, a new programming language for iOS\" . The Next Web . Retrieved June 2, 2014 . ^ \"Apple's new programming language Swift is now open source\" . The Verge . December 3, 2015 . Retrieved December 5, 2015 . ^ \"Apple Open Sources Swift in Latest Pitch to the Enterprise\" . CIO Journal. The Wall Street Journal Blogs . December 3, 2015 . Retrieved December 5, 2015 .",
+    "text": "Apple's general-purpose, open-source, compiled programming language This article is about the Apple programming language; not to be confused with Swift (parallel scripting language) or Swift (CPU) . Swift Show dark mode logo Show light mode logo Paradigm Multi-paradigm : protocol-oriented , object-oriented , functional , imperative , block structured , declarative , concurrent Designed by Chris Lattner , Doug Gregor, John McCall, Ted Kremenek, Joe Groff, and Apple Inc. Developer Apple Inc. and open-source contributors First appeared June 2, 2014 ; 12 years ago ( 2014-06-02 ) Stable release 6.4.0 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Typing discipline Static , strong , inferred Memory management Automatic Reference Counting OS Apple's operating systems ( Darwin , iOS , iPadOS , macOS , tvOS , visionOS , watchOS ), Linux , Windows , FreeBSD , Android , z/OS License Apache License 2.0 (Swift 2.2 and later) Proprietary (up to Swift 2.2) Filename extensions .swift, .SWIFT Website swift.org developer.apple.com/swift Major implementations swiftc, silver Influenced by Objective-C , Rust , Haskell , Ruby , Python , C# , CLU , D Influenced Rust , V (Vlang) , Mojo , Carbon Swift is a high-level general-purpose , multi-paradigm , compiled programming language created by Chris Lattner in 2010 for Apple Inc. and maintained by the open-source community . Swift compiles to machine code and uses an LLVM -based compiler. Swift was first released in June 2014 and the Swift toolchain has shipped in Xcode since Xcode version 6, released in September 2014. Apple intended Swift to support many core concepts associated with Objective-C , notably dynamic dispatch , widespread late binding , extensible programming , and similar features, but in a \"safer\" way, making it easier to catch software bugs ; Swift has features addressing some common programming errors like null pointer dereferencing and provides syntactic sugar to help avoid the pyramid of doom . Swift supports the concept of protocol extensibility, an extensibility system that can be applied to types, structs and classes , which Apple promotes as a real change in programming paradigms they term \"protocol-oriented programming\" (similar to traits and type classes ). Swift was introduced at Apple's 2014 Worldwide Developers Conference (WWDC). It underwent an upgrade to version 1.2 during 2014 and a major upgrade to Swift 2 at WWDC 2015. It was initially a proprietary language , but version 2.2 was made open-source software under the Apache License 2.0 on December 3, 2015, for Apple's platforms and Linux . ^ US patent 9329844 ^ \"Swift Has Reached 1.0\" . Apple. September 9, 2014 . Retrieved March 8, 2015 . ^ \"Release 6.4.0\" . September 15, 2026 . Retrieved September 15, 2026 . ^ \"Swift, Objectively\" . Dr. Dobb's . Swift is proprietary and closed: It is entirely controlled by Apple and there is no open source implementation. ^ Lattner, Chris (June 11, 2014). \"Re: [LLVMdev] [cfe-dev] [Advertisement] open positions in Apple's Swift compiler team\" . Archived from the original on July 14, 2014 . Retrieved June 12, 2014 . You can imagine that many of us want it to be open source and part of LLVM, but the discussion hasn't happened yet, and won't for some time. ^ \"Chris Lattner's Homepage\" . Chris Lattner. June 3, 2014 . Retrieved June 3, 2014 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ Lattner, Chris (June 3, 2014). \"Chris Lattner's Homepage\" . Chris Lattner . Retrieved June 3, 2014 . I started work on the Swift Programming Language in July of 2010. I implemented much of the basic language structure, with only a few people knowing of its existence. A few other (amazing) people started contributing in earnest late in 2011, and it became a major focus for the Apple Developer Tools group in July 2013 [...] drawing ideas from Objective-C , Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ \"Building assert() in Swift, Part 2: __FILE__ and __LINE__\" . Retrieved September 25, 2014 . ^ \"Influences - The Rust Reference\" . doc.rust-lang.org . Retrieved May 2, 2020 . ^ \"influenced by - V documentation\" . github.com . Retrieved November 3, 2023 . ^ \"Mojo language FAQ\" . modular.com . Retrieved August 17, 2025 . ^ \"Carbon Language GitHub\" . github.com . Retrieved August 17, 2025 . ^ Lardinois, Frederic (June 2, 2014). \"Apple Launches Swift, A New Programming Language For Writing iOS And OS X Apps\" . TechCrunch . Retrieved September 7, 2022 . ^ Protocol-oriented Programming in Swift . Apple Inc . YouTube . Archived from the original on July 16, 2023 . Retrieved June 18, 2015 . ^ \"Concepts are similar to Rust Traits, (I think) Swift Protocols and Haskel Type C... | Hacker News\" . news.ycombinator.com . ^ Williams, Owen (June 2, 2014). \"Tim Berners-Lee's sixtieth birthday Apple announces Swift, a new programming language for iOS\" . The Next Web . Retrieved June 2, 2014 . ^ \"Apple's new programming language Swift is now open source\" . The Verge . December 3, 2015 . Retrieved December 5, 2015 . ^ \"Apple Open Sources Swift in Latest Pitch to the Enterprise\" . CIO Journal. The Wall Street Journal Blogs . December 3, 2015 . Retrieved December 5, 2015 .",
+    "links": [
+      "Android (operating system)",
+      "Apache License",
+      "Apache License 2.0",
+      "Apple Inc.",
+      "Apple Worldwide Developers Conference",
+      "Automatic Reference Counting",
+      "Block (programming)",
+      "C Sharp (programming language)",
+      "CLU (programming language)",
+      "Carbon (programming language)",
+      "Chris Lattner",
+      "Class (programming)",
+      "Compiled language",
+      "Concurrent programming",
+      "D (programming language)",
+      "Darwin (operating system)",
+      "Declarative programming",
+      "Dereference operator",
+      "Dynamic dispatch",
+      "Elements Toolchain",
+      "Extensible programming",
+      "Filename extension",
+      "FreeBSD",
+      "Functional programming",
+      "General-purpose programming language",
+      "Haskell",
+      "High-level programming language",
+      "IOS",
+      "IPadOS",
+      "Imperative programming",
+      "Interface (object-oriented programming)",
+      "LLVM",
+      "Late binding",
+      "Linux",
+      "MacOS",
+      "Memory management",
+      "Mojo (programming language)",
+      "Multi-paradigm programming language",
+      "Null pointer",
+      "Object-oriented programming",
+      "Objective-C",
+      "Open-source software",
+      "Open-source software movement",
+      "Operating system",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Proprietary programming language",
+      "Proprietary software",
+      "Pyramid of doom (programming)",
+      "Python (programming language)",
+      "Record (computer science)",
+      "Ruby (programming language)",
+      "Rust (programming language)",
+      "Software bug",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Strong and weak typing",
+      "Swift (CPU)",
+      "Swift (parallel scripting language)",
+      "Syntactic sugar",
+      "The Wall Street Journal",
+      "Trait (computer programming)",
+      "TvOS",
+      "Type class",
+      "Type inference",
+      "Type system",
+      "V (programming language)",
+      "VisionOS",
+      "WatchOS",
+      "Windows",
+      "Xcode",
+      "YouTube",
+      "Z/OS"
+    ],
+    "page_id": 42946389,
+    "revision_id": 1359320178,
+    "retrieved_at": "2026-09-18T16:32:08.403692+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260529102055|1356709328",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 42946389,
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "revisions": [
+              {
+                "revid": 1359320178,
+                "parentid": 1356709328
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Apple's general-purpose, open-source, compiled programming language",
+              "wikibase_item": "Q17118377"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Swift (programming language)",
+        "pageid": 42946389,
+        "revid": 1359320178,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Apple's general-purpose, open-source, compiled programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the Apple programming language; not to be confused with <a href=\"/wiki/Swift_(parallel_scripting_language)\" title=\"Swift (parallel scripting language)\">Swift (parallel scripting language)</a> or <a href=\"/wiki/Swift_(CPU)\" class=\"mw-redirect\" title=\"Swift (CPU)\">Swift (CPU)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Swift</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><style data-mw-deduplicate=\"TemplateStyles:r1347935094\">.mw-parser-output .ifdark>.dark{display:none}.mw-parser-output .ifdark>.nodark{display:inherit;display:initial}html.skin-theme-clientpref-night .mw-parser-output .ifdark>.nodark{display:none}html.skin-theme-clientpref-night .mw-parser-output .ifdark>.dark{display:inherit;display:initial}html.client-dark-mode .mw-parser-output .ifdark>.nodark{display:none}html.client-dark-mode .mw-parser-output .ifdark>.dark{display:inherit;display:initial}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .ifdark>.nodark{display:none}html.skin-theme-clientpref-os .mw-parser-output .ifdark>.dark{display:inherit;display:initial}}@media screen and (prefers-color-scheme:light){html.skin-theme-clientpref-os .mw-parser-output .ifdark>.dark{display:none}html.skin-theme-clientpref-os .mw-parser-output .ifdark>.nodark{display:inherit;display:initial}}</style><div class=\"ifdark\"><div class=\"nodark\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Swift_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/250px-Swift_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"77\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/500px-Swift_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"191\" data-file-height=\"59\" /></a></span></div><div class=\"dark\"><div class=\"switcher-container\"><div><span typeof=\"mw:File\"><a href=\"/wiki/File:Swift_logo_with_light_text.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Swift_logo_with_light_text.svg/250px-Swift_logo_with_light_text.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"77\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Swift_logo_with_light_text.svg/500px-Swift_logo_with_light_text.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"191\" data-file-height=\"59\" /></a></span><span class=\"switcher-label\" style=\"display:none\">Show dark mode logo</span></div><div><span typeof=\"mw:File\"><a href=\"/wiki/File:Swift_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/250px-Swift_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"77\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/500px-Swift_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"191\" data-file-height=\"59\" /></a></span><span class=\"switcher-label\" style=\"display:none\">Show light mode logo</span></div></div></div></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Interface_(object-oriented_programming)\" title=\"Interface (object-oriented programming)\">protocol-oriented</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Block_(programming)\" title=\"Block (programming)\">block structured</a>, <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative</a>, <a href=\"/wiki/Concurrent_programming\" class=\"mw-redirect\" title=\"Concurrent programming\">concurrent</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Chris_Lattner\" title=\"Chris Lattner\">Chris Lattner</a>, Doug Gregor, John McCall, Ted Kremenek, Joe Groff, and <a href=\"/wiki/Apple_Inc.\" title=\"Apple Inc.\">Apple Inc.</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Apple_Inc.\" title=\"Apple Inc.\">Apple Inc.</a> and open-source contributors</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">June&#160;2, 2014<span class=\"noprint\">&#59;&#32;12 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2014-06-02</span>)</span><sup id=\"cite&#95;ref-version1&#95;2-0\" class=\"reference\"><a href=\"#cite_note-version1-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">6.4.0<sup id=\"cite&#95;ref-wikidata-1be95f56f26aaba95acdc16cece2401611361b09-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-1be95f56f26aaba95acdc16cece2401611361b09-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q17118377?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   /    15 September 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">15 September 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_system#Static_type-checking\" title=\"Type system\">Static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Automatic_Reference_Counting\" title=\"Automatic Reference Counting\">Automatic Reference Counting</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\">Apple's operating systems (<a href=\"/wiki/Darwin_(operating_system)\" title=\"Darwin (operating system)\">Darwin</a>, <a href=\"/wiki/IOS\" title=\"IOS\">iOS</a>, <a href=\"/wiki/IPadOS\" title=\"IPadOS\">iPadOS</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/TvOS\" title=\"TvOS\">tvOS</a>, <a href=\"/wiki/VisionOS\" title=\"VisionOS\">visionOS</a>, <a href=\"/wiki/WatchOS\" title=\"WatchOS\">watchOS</a>), <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>, <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a>, <a href=\"/wiki/Z/OS\" title=\"Z/OS\">z/OS</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache License 2.0</a> (Swift 2.2 and later)<br /><a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">Proprietary</a> (up to Swift 2.2)<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.swift, .SWIFT</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\">\n<ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.swift.org/\">swift.org</a></span></li>\n<li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.apple.com/swift/\">developer.apple.com/swift</a></span></li></ul>\n</div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">swiftc, <a href=\"/wiki/Elements_Toolchain\" class=\"mw-redirect\" title=\"Elements Toolchain\">silver</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>,<sup id=\"cite&#95;ref-lattner2014&#95;6-0\" class=\"reference\"><a href=\"#cite_note-lattner2014-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>, <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a>,<sup id=\"cite&#95;ref-lattner&#95;2014&#95;info&#95;1&#95;7-0\" class=\"reference\"><a href=\"#cite_note-lattner_2014_info_1-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a><sup id=\"cite&#95;ref-Getting&#95;the&#95;location&#95;of&#95;a&#95;caller&#95;8-0\" class=\"reference\"><a href=\"#cite_note-Getting_the_location_of_a_caller-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/V_(programming_language)\" title=\"V (programming language)\">V (Vlang)</a>,<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Mojo_(programming_language)\" title=\"Mojo (programming language)\">Mojo</a>,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Carbon_(programming_language)\" title=\"Carbon (programming language)\">Carbon</a><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table>\n<p><b>Swift</b> is a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a> <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a>, <a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">multi-paradigm</a>, <a href=\"/wiki/Compiled_language\" title=\"Compiled language\">compiled</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> created by <a href=\"/wiki/Chris_Lattner\" title=\"Chris Lattner\">Chris Lattner</a> in 2010 for <a href=\"/wiki/Apple_Inc.\" title=\"Apple Inc.\">Apple Inc.</a> and maintained by <a href=\"/wiki/Open-source_software_movement\" title=\"Open-source software movement\">the open-source community</a>. Swift compiles to machine code and uses an <a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a>-based compiler. Swift was first released in June 2014<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> and the Swift toolchain has shipped in <a href=\"/wiki/Xcode\" title=\"Xcode\">Xcode</a> since Xcode version 6, released in September 2014.\n</p><p>Apple intended Swift to support many core concepts associated with <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>, notably <a href=\"/wiki/Dynamic_dispatch\" title=\"Dynamic dispatch\">dynamic dispatch</a>, widespread <a href=\"/wiki/Late_binding\" title=\"Late binding\">late binding</a>, <a href=\"/wiki/Extensible_programming\" title=\"Extensible programming\">extensible programming</a>, and similar features, but in a \"safer\" way, making it easier to catch <a href=\"/wiki/Software_bug\" title=\"Software bug\">software bugs</a>; Swift has features addressing some common programming errors like <a href=\"/wiki/Null_pointer\" title=\"Null pointer\">null pointer</a> <a href=\"/wiki/Dereference_operator\" class=\"mw-redirect\" title=\"Dereference operator\">dereferencing</a> and provides <a href=\"/wiki/Syntactic_sugar\" title=\"Syntactic sugar\">syntactic sugar</a> to help avoid the <a href=\"/wiki/Pyramid_of_doom_(programming)\" title=\"Pyramid of doom (programming)\">pyramid of doom</a>. Swift supports the concept of <a href=\"/wiki/Interface_(object-oriented_programming)\" title=\"Interface (object-oriented programming)\">protocol</a> extensibility, an extensibility system that can be applied to types, <a href=\"/wiki/Record_(computer_science)\" title=\"Record (computer science)\">structs</a> and <a href=\"/wiki/Class_(programming)\" title=\"Class (programming)\">classes</a>, which Apple promotes as a real change in programming paradigms they term \"protocol-oriented programming\"<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> (similar to <a href=\"/wiki/Trait_(computer_programming)\" title=\"Trait (computer programming)\">traits</a> and <a href=\"/wiki/Type_class\" title=\"Type class\">type classes</a>).<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Swift was introduced at Apple's <a href=\"/wiki/Apple_Worldwide_Developers_Conference#2010s\" class=\"mw-redirect\" title=\"Apple Worldwide Developers Conference\">2014 Worldwide Developers Conference</a> (WWDC).<sup id=\"cite&#95;ref-tnw&#95;swift&#95;info&#95;1&#95;16-0\" class=\"reference\"><a href=\"#cite_note-tnw_swift_info_1-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> It underwent an upgrade to version 1.2 during 2014 and a major upgrade to Swift 2 at WWDC 2015. It was initially a <a href=\"/wiki/Proprietary_programming_language\" class=\"mw-redirect\" title=\"Proprietary programming language\">proprietary language</a>, but version 2.2 was made <a href=\"/wiki/Open-source_software\" title=\"Open-source software\">open-source software</a> under the <a href=\"/wiki/Apache_License\" title=\"Apache License\">Apache License</a> 2.0 on December 3, 2015, for Apple's platforms and <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>.<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1041539562\">.mw-parser-output .citation{word-wrap:break-word}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}</style><span class=\"citation patent\"><a rel=\"nofollow\" class=\"external text\" href=\"https://worldwide.espacenet.com/textdoc?DB=EPODOC&amp;IDX=US9329844\">US&#32;patent 9329844</a></span><span class=\"Z3988\" title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Apatent&amp;rft.number=9329844&amp;rft.cc=US&amp;rft.title=\"><span style=\"display: none;\">&#160;</span></span></span>\n</li>\n<li id=\"cite&#95;note-version1-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-version1_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.apple.com/swift/blog/?id=14\">\"Swift Has Reached 1.0\"</a>. Apple. September 9, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 8,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Swift+Has+Reached+1.0&amp;rft.pub=Apple&amp;rft.date=2014-09-09&amp;rft&#95;id=https%3A%2F%2Fdeveloper.apple.com%2Fswift%2Fblog%2F%3Fid%3D14&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-1be95f56f26aaba95acdc16cece2401611361b09-v20-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-1be95f56f26aaba95acdc16cece2401611361b09-v20_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/swiftlang/swift/releases/tag/swift-6.4.0-RELEASE\">\"Release 6.4.0\"</a>. September 15, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 15,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+6.4.0&amp;rft.date=2026-09-15&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fswiftlang%2Fswift%2Freleases%2Ftag%2Fswift-6.4.0-RELEASE&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.drdobbs.com/architecture-and-design/swift-objectively/240168424\">\"Swift, Objectively\"</a>. <i>Dr. Dobb's</i>. <q>Swift is proprietary and closed: It is entirely controlled by Apple and there is no open source implementation.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Dr.+Dobb%27s&amp;rft.atitle=Swift%2C+Objectively&amp;rft&#95;id=https%3A%2F%2Fwww.drdobbs.com%2Farchitecture-and-design%2Fswift-objectively%2F240168424&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLattner2014\" class=\"citation web cs1\"><a href=\"/wiki/Chris_Lattner\" title=\"Chris Lattner\">Lattner, Chris</a> (June 11, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140714201921/http://lists.cs.uiuc.edu/pipermail/llvmdev/2014-June/073698.html\">\"Re: &#91;LLVMdev&#93; &#91;cfe-dev&#93; &#91;Advertisement&#93; open positions in Apple's Swift compiler team\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://lists.cs.uiuc.edu/pipermail/llvmdev/2014-June/073698.html\">the original</a> on July 14, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 12,</span> 2014</span>. <q>You can imagine that many of us want it to be open source and part of LLVM, but the discussion hasn't happened yet, and won't for some time.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Re%3A+%5BLLVMdev%5D+%5Bcfe-dev%5D+%5BAdvertisement%5D+open+positions+in+Apple%27s+Swift+compiler+team&amp;rft.date=2014-06-11&amp;rft.aulast=Lattner&amp;rft.aufirst=Chris&amp;rft&#95;id=http%3A%2F%2Flists.cs.uiuc.edu%2Fpipermail%2Fllvmdev%2F2014-June%2F073698.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-lattner2014-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-lattner2014_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://nondot.org/sabre/\">\"Chris Lattner's Homepage\"</a>. Chris Lattner. June 3, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 3,</span> 2014</span>. <q>The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chris+Lattner%27s+Homepage&amp;rft.pub=Chris+Lattner&amp;rft.date=2014-06-03&amp;rft&#95;id=http%3A%2F%2Fnondot.org%2Fsabre%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-lattner&#95;2014&#95;info&#95;1-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-lattner_2014_info_1_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLattner2014\" class=\"citation web cs1\"><a href=\"/wiki/Chris_Lattner\" title=\"Chris Lattner\">Lattner, Chris</a> (June 3, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"http://nondot.org/sabre\">\"Chris Lattner's Homepage\"</a>. Chris Lattner<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 3,</span> 2014</span>. <q>I started work on the Swift Programming Language in July of 2010. I implemented much of the basic language structure, with only a few people knowing of its existence. A few other (amazing) people started contributing in earnest late in 2011, and it became a major focus for the Apple Developer Tools group in July 2013 [...] drawing ideas from <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chris+Lattner%27s+Homepage&amp;rft.pub=Chris+Lattner&amp;rft.date=2014-06-03&amp;rft.aulast=Lattner&amp;rft.aufirst=Chris&amp;rft&#95;id=http%3A%2F%2Fnondot.org%2Fsabre&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Getting&#95;the&#95;location&#95;of&#95;a&#95;caller-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Getting_the_location_of_a_caller_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.apple.com/swift/blog/?id=15\">\"Building assert() in Swift, Part 2: __FILE__ and __LINE__\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 25,</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Building+assert%28%29+in+Swift%2C+Part+2%3A+&#95;&#95;FILE&#95;&#95;+and+&#95;&#95;LINE&#95;&#95;&amp;rft&#95;id=https%3A%2F%2Fdeveloper.apple.com%2Fswift%2Fblog%2F%3Fid%3D15&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/reference/influences.html\">\"Influences - The Rust Reference\"</a>. <i>doc.rust-lang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 2,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=doc.rust-lang.org&amp;rft.atitle=Influences+-+The+Rust+Reference&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Freference%2Finfluences.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/vlang/v/blob/master/doc/docs.md#introduction\">\"influenced by - V documentation\"</a>. <i>github.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 3,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=github.com&amp;rft.atitle=influenced+by+-+V+documentation&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fvlang%2Fv%2Fblob%2Fmaster%2Fdoc%2Fdocs.md%23introduction&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.modular.com/mojo/faq/#why-not-make-julia-better\">\"Mojo language FAQ\"</a>. <i>modular.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 17,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=modular.com&amp;rft.atitle=Mojo+language+FAQ&amp;rft&#95;id=https%3A%2F%2Fdocs.modular.com%2Fmojo%2Ffaq%2F%23why-not-make-julia-better&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/carbon-language/carbon-lang\">\"Carbon Language GitHub\"</a>. <i>github.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 17,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=github.com&amp;rft.atitle=Carbon+Language+GitHub&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fcarbon-language%2Fcarbon-lang&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLardinois2014\" class=\"citation web cs1\">Lardinois, Frederic (June 2, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://techcrunch.com/2014/06/02/apple-launches-swift-a-new-programming-language-for-writing-ios-and-os-x-apps/\">\"Apple Launches Swift, A New Programming Language For Writing iOS And OS X Apps\"</a>. <i>TechCrunch</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 7,</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TechCrunch&amp;rft.atitle=Apple+Launches+Swift%2C+A+New+Programming+Language+For+Writing+iOS+And+OS+X+Apps&amp;rft.date=2014-06-02&amp;rft.aulast=Lardinois&amp;rft.aufirst=Frederic&amp;rft&#95;id=https%3A%2F%2Ftechcrunch.com%2F2014%2F06%2F02%2Fapple-launches-swift-a-new-programming-language-for-writing-ios-and-os-x-apps%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation audio-visual cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230716101741/https://www.youtube.com/watch?v=g2LwFZatfTI\"><i>Protocol-oriented Programming in Swift</i></a>. <i>Apple Inc</i>. <a href=\"/wiki/YouTube\" title=\"YouTube\">YouTube</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=g2LwFZatfTI\">the original</a> on July 16, 2023<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 18,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Protocol-oriented+Programming+in+Swift&amp;rft.pub=YouTube&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg2LwFZatfTI&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://news.ycombinator.com/item?id=13225740\">\"Concepts are similar to Rust Traits, (I think) Swift Protocols and Haskel Type C... &#124; Hacker News\"</a>. <i>news.ycombinator.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=news.ycombinator.com&amp;rft.atitle=Concepts+are+similar+to+Rust+Traits%2C+%28I+think%29+Swift+Protocols+and+Haskel+Type+C...+%26%23124%3B+Hacker+News&amp;rft&#95;id=https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D13225740&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-tnw&#95;swift&#95;info&#95;1-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-tnw_swift_info_1_16-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWilliams2014\" class=\"citation web cs1\">Williams, Owen (June 2, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://thenextweb.com/apple/2014/06/02/apple-announces-swift-new-programming-language-ios\">\"Tim Berners-Lee's sixtieth birthday Apple announces Swift, a new programming language for iOS\"</a>. <i>The Next Web</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 2,</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Next+Web&amp;rft.atitle=Tim+Berners-Lee%27s+sixtieth+birthday+Apple+announces+Swift%2C+a+new+programming+language+for+iOS&amp;rft.date=2014-06-02&amp;rft.aulast=Williams&amp;rft.aufirst=Owen&amp;rft&#95;id=https%3A%2F%2Fthenextweb.com%2Fapple%2F2014%2F06%2F02%2Fapple-announces-swift-new-programming-language-ios&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.theverge.com/2015/12/3/9842854/apple-swift-open-source-released\">\"Apple's new programming language Swift is now open source\"</a>. <i>The Verge</i>. December 3, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 5,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Verge&amp;rft.atitle=Apple%27s+new+programming+language+Swift+is+now+open+source&amp;rft.date=2015-12-03&amp;rft&#95;id=https%3A%2F%2Fwww.theverge.com%2F2015%2F12%2F3%2F9842854%2Fapple-swift-open-source-released&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><span class=\"id-lock-registration\" title=\"Free registration required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blogs.wsj.com/cio/2015/12/03/apple-open-sources-swift-in-latest-pitch-to-the-enterprise/\">\"Apple Open Sources Swift in Latest Pitch to the Enterprise\"</a></span>. CIO Journal. <i><a href=\"/wiki/The_Wall_Street_Journal\" title=\"The Wall Street Journal\">The Wall Street Journal</a> Blogs</i>. December 3, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 5,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Wall+Street+Journal+Blogs&amp;rft.atitle=Apple+Open+Sources+Swift+in+Latest+Pitch+to+the+Enterprise&amp;rft.date=2015-12-03&amp;rft&#95;id=https%3A%2F%2Fblogs.wsj.com%2Fcio%2F2015%2F12%2F03%2Fapple-open-sources-swift-in-latest-pitch-to-the-enterprise%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ASwift+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐tszcq\nCached time: 20260918163234\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.314 seconds\nReal time usage: 0.392 seconds\nPreprocessor visited node count: 1946/1000000\nRevision size: 9443/2097152 bytes\nPost‐expand include size: 54472/2097152 bytes\nTemplate argument size: 7817/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 45474/5000000 bytes\nLua time usage: 0.213/10.000 seconds\nLua memory usage: 8783185/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  361.440      1 -total\n 61.67%  222.895      2 Template:Infobox\n 55.07%  199.052      1 Template:Infobox_programming_language\n 38.46%  139.027      1 Template:Infobox_software/simple\n 31.02%  112.110      2 Template:Wikidata\n 18.66%   67.439      1 Template:Short_description\n 13.32%   48.132      2 Template:Pagetype\n 12.12%   43.789     15 Template:Cite_web\n  5.84%   21.115      2 Template:Start_date_and_age\n  5.52%   19.959      1 Template:About-distinguish\n-->\n\n<!-- Render ID 8d1e0e18-b37e-11f1-9248-871bcfbe02d9 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Swift (parallel scripting language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (CPU)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache License 2.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apple Inc.",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apple Worldwide Developers Conference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automatic Reference Counting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Block (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Carbon (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chris Lattner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiled language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Darwin (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dereference operator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic dispatch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elements Toolchain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extensible programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IPadOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interface (object-oriented programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Late binding",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mojo (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Null pointer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open-source software movement",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pyramid of doom (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Record (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software bug",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntactic sugar",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Wall Street Journal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Trait (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TvOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type class",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VisionOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WatchOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YouTube",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Z/OS",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Apple's general-purpose, open-source, compiled programming language",
+          "wikibase_item": "Q17118377"
+        }
+      }
+    }
+  ]
+}

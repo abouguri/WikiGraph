@@ -12,7 +12,7 @@ from .models import Entity, Relationship, WikipediaPage
 
 WG = Namespace("https://example.org/wikigraph/")
 WIKI = Namespace("https://en.wikipedia.org/wiki/")
-EXTRACTOR_VERSION = "rules-v1"
+EXTRACTOR_VERSION = "rules-v2"
 
 
 def normalize(label: str) -> str:

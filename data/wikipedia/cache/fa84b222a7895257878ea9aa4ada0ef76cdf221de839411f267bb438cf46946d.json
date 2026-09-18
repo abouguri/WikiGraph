@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "COBOL",
+    "url": "https://en.wikipedia.org/wiki/COBOL",
+    "summary": "Programming language with English-like syntax COBOL The COBOL 60 report to CODASYL (April 1960) Paradigm Procedural , imperative , object-oriented , generic Designed by Howard Bromberg , Norman Discount , Vernon Reeves , Jean E. Sammet , William Selden , Gertrude Tierney , with indirect influence from Grace Hopper Developers CODASYL , ANSI , ISO / IEC First appeared 1960 ; 66 years ago ( 1960 ) Stable release ISO/IEC 1989:2023 / 2023 Typing discipline Weak , static Filename extensions .cbl , .cob , .cpy Major implementations GnuCOBOL , IBM COBOL , GCC , Micro Focus Visual COBOL Dialects COBOL/2, DEC COBOL-10, DEC PDP-11 COBOL, DEC PDP-11 COBOL-85, DEC VAX COBOL, DOSVS COBOL, Envyr ICOBOL, Fujitsu COBOL, Hitachi COBOL2002, HP3000 COBOL/II, IBM COBOL SAA, IBM COBOL/400, IBM COBOL/II, IBM Enterprise COBOL, IBM ILE COBOL, IBM OS/VS COBOL, ICL COBOL (VME), Micro Focus ACUCOBOL-GT, Micro Focus COBOL-IT, Micro Focus RM/COBOL, Micro Focus Visual COBOL, Microsoft COBOL, Raincode COBOL, Realia COBOL, Ryan McFarland RM/COBOL, Ryan McFarland RM/COBOL-85, Tandem (NonStop) COBOL, Tandem (NonStop) SCOBOL, UNIVAC COBOL, Unisys MCP COBOL74, Unisys MCP COBOL85, X/Open COBOL, Veryant isCOBOL, Wang VS COBOL, WATBOL Influenced by Initial: AIMACO , COMTRAN , FACT , FLOW-MATIC COBOL 2002: C++ , Eiffel , Smalltalk Influenced CobolScript , EGL , PL/I , PL/B COBOL at Wikibooks COBOL ( Common Business-Oriented Language ; / ˈ k oʊ b ɒ l , - b ɔː l / ) is a compiled English-like computer programming language designed for business use. It is an imperative , procedural , and, since 2002, object-oriented language. COBOL is primarily used in business, finance, and administrative systems for companies and governments. COBOL is still widely used in applications deployed on mainframe computers , such as large-scale batch and transaction processing jobs. Many large financial institutions were developing new systems in the language as late as 2006, but most programming in COBOL today is purely to maintain existing applications. Programs are being moved to new platforms, rewritten in modern languages, or replaced with other software. COBOL's design was started in 1959 by CODASYL and was partly based on the programming language FLOW-MATIC , designed by Grace Hopper . It was created as part of a US Department of Defense effort to create a portable programming language for data processing. It was originally seen as a stopgap, but the Defense Department promptly pressured computer manufacturers to provide it, resulting in its widespread adoption. It was standardized in 1968 and has been revised five times. Expansions include support for structured and object-oriented programming . The current standard is ISO / IEC 1989:2023. COBOL statements have prose syntax such as MOVE x TO y , which was designed to be self-documenting and highly readable. However, it is verbose and uses over 300 reserved words compared to the succinct and mathematically inspired syntax of other languages. Lacking a large standard library , the standard specifies 43 statements, 87 functions, and just one class. COBOL code is split into four divisions (identification, environment, data, and procedure), containing a rigid hierarchy of sections, paragraphs, and sentences. COBOL has been criticized for its verbosity, design process, and poor support for structured programming . These weaknesses often result in monolithic programs that are hard to comprehend as a whole, despite their local readability. ^ Cite error: The named reference creators was invoked but never defined (see the help page ). ^ \"GCC 15 Release Series — Changes, New Features, and Fixes\" . GCC, the GNU Compiler Collection . Retrieved 28 March 2026 . ^ Technical Standard, COBOL Language (PDF) . X/Open Company Ltd., U.K. December 1991. ISBN 1-872630-09-X . ^ Cite error: The named reference SW95 was invoked but never defined (see the help page ). ^ Cite error: The named reference Arranga98 was invoked but never defined (see the help page ). ^ Arranga, Edmund C.; Coyle, Frank P. (March 1997). \"Cobol: Perception and Reality\". Computer . 30 (3): 127. doi : 10.1109/2.573683 . ISSN 0018-9162 . ^ Imajo, Tetsuji; et al. (September 2000). COBOL Script: a business-oriented scripting language . Enterprise Distributed Object Computing Conference . Makuhari, Japan: IEEE. doi : 10.1109/EDOC.2000.882363 . ISBN 0769508650 . ^ Ho, Wing Hong (7 May 2007). \"Introduction to EGL\" (PDF) . IBM Software Group. Archived from the original (PDF) on 13 January 2019 . Retrieved 12 January 2019 . ^ Radin, George (1978). Wexelblat, Richard L. (ed.). The early history and characteristics of PL/I . History of Programming Languages. Academic Press (published 1981). p. 572. doi : 10.1145/800025.1198410 . ISBN 0127450408 . ^ \"What is PL/B - The Programming Language for Business?\" . sysmaker.com . Infopro, Inc . Retrieved 22 April 2022 . ... conversion to an alternate, extended COBOL or to ANSI COBOL is very difficult, if at all possible ^ \"New to COBOL\" . ^ Cite error: The named reference Computerworld Not Dead Yet was invoked but never defined (see the help page ). ^ Mitchell, Robert L. (14 March 2012). \"Brain drain: Where Cobol systems go from here\" . Computerworld . Retrieved 9 February 2015 . ^ Ensmenger, Nathan L. (2009). The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise . MIT Press . p. 100. ISBN 978-0262050937 . LCCN 2009052638 . ^ ISO/IEC JTC 1/SC 22/WG 4 2023 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "Programming language with English-like syntax COBOL The COBOL 60 report to CODASYL (April 1960) Paradigm Procedural , imperative , object-oriented , generic Designed by Howard Bromberg , Norman Discount , Vernon Reeves , Jean E. Sammet , William Selden , Gertrude Tierney , with indirect influence from Grace Hopper Developers CODASYL , ANSI , ISO / IEC First appeared 1960 ; 66 years ago ( 1960 ) Stable release ISO/IEC 1989:2023 / 2023 Typing discipline Weak , static Filename extensions .cbl , .cob , .cpy Major implementations GnuCOBOL , IBM COBOL , GCC , Micro Focus Visual COBOL Dialects COBOL/2, DEC COBOL-10, DEC PDP-11 COBOL, DEC PDP-11 COBOL-85, DEC VAX COBOL, DOSVS COBOL, Envyr ICOBOL, Fujitsu COBOL, Hitachi COBOL2002, HP3000 COBOL/II, IBM COBOL SAA, IBM COBOL/400, IBM COBOL/II, IBM Enterprise COBOL, IBM ILE COBOL, IBM OS/VS COBOL, ICL COBOL (VME), Micro Focus ACUCOBOL-GT, Micro Focus COBOL-IT, Micro Focus RM/COBOL, Micro Focus Visual COBOL, Microsoft COBOL, Raincode COBOL, Realia COBOL, Ryan McFarland RM/COBOL, Ryan McFarland RM/COBOL-85, Tandem (NonStop) COBOL, Tandem (NonStop) SCOBOL, UNIVAC COBOL, Unisys MCP COBOL74, Unisys MCP COBOL85, X/Open COBOL, Veryant isCOBOL, Wang VS COBOL, WATBOL Influenced by Initial: AIMACO , COMTRAN , FACT , FLOW-MATIC COBOL 2002: C++ , Eiffel , Smalltalk Influenced CobolScript , EGL , PL/I , PL/B COBOL at Wikibooks COBOL ( Common Business-Oriented Language ; / ˈ k oʊ b ɒ l , - b ɔː l / ) is a compiled English-like computer programming language designed for business use. It is an imperative , procedural , and, since 2002, object-oriented language. COBOL is primarily used in business, finance, and administrative systems for companies and governments. COBOL is still widely used in applications deployed on mainframe computers , such as large-scale batch and transaction processing jobs. Many large financial institutions were developing new systems in the language as late as 2006, but most programming in COBOL today is purely to maintain existing applications. Programs are being moved to new platforms, rewritten in modern languages, or replaced with other software. COBOL's design was started in 1959 by CODASYL and was partly based on the programming language FLOW-MATIC , designed by Grace Hopper . It was created as part of a US Department of Defense effort to create a portable programming language for data processing. It was originally seen as a stopgap, but the Defense Department promptly pressured computer manufacturers to provide it, resulting in its widespread adoption. It was standardized in 1968 and has been revised five times. Expansions include support for structured and object-oriented programming . The current standard is ISO / IEC 1989:2023. COBOL statements have prose syntax such as MOVE x TO y , which was designed to be self-documenting and highly readable. However, it is verbose and uses over 300 reserved words compared to the succinct and mathematically inspired syntax of other languages. Lacking a large standard library , the standard specifies 43 statements, 87 functions, and just one class. COBOL code is split into four divisions (identification, environment, data, and procedure), containing a rigid hierarchy of sections, paragraphs, and sentences. COBOL has been criticized for its verbosity, design process, and poor support for structured programming . These weaknesses often result in monolithic programs that are hard to comprehend as a whole, despite their local readability. ^ Cite error: The named reference creators was invoked but never defined (see the help page ). ^ \"GCC 15 Release Series — Changes, New Features, and Fixes\" . GCC, the GNU Compiler Collection . Retrieved 28 March 2026 . ^ Technical Standard, COBOL Language (PDF) . X/Open Company Ltd., U.K. December 1991. ISBN 1-872630-09-X . ^ Cite error: The named reference SW95 was invoked but never defined (see the help page ). ^ Cite error: The named reference Arranga98 was invoked but never defined (see the help page ). ^ Arranga, Edmund C.; Coyle, Frank P. (March 1997). \"Cobol: Perception and Reality\". Computer . 30 (3): 127. doi : 10.1109/2.573683 . ISSN 0018-9162 . ^ Imajo, Tetsuji; et al. (September 2000). COBOL Script: a business-oriented scripting language . Enterprise Distributed Object Computing Conference . Makuhari, Japan: IEEE. doi : 10.1109/EDOC.2000.882363 . ISBN 0769508650 . ^ Ho, Wing Hong (7 May 2007). \"Introduction to EGL\" (PDF) . IBM Software Group. Archived from the original (PDF) on 13 January 2019 . Retrieved 12 January 2019 . ^ Radin, George (1978). Wexelblat, Richard L. (ed.). The early history and characteristics of PL/I . History of Programming Languages. Academic Press (published 1981). p. 572. doi : 10.1145/800025.1198410 . ISBN 0127450408 . ^ \"What is PL/B - The Programming Language for Business?\" . sysmaker.com . Infopro, Inc . Retrieved 22 April 2022 . ... conversion to an alternate, extended COBOL or to ANSI COBOL is very difficult, if at all possible ^ \"New to COBOL\" . ^ Cite error: The named reference Computerworld Not Dead Yet was invoked but never defined (see the help page ). ^ Mitchell, Robert L. (14 March 2012). \"Brain drain: Where Cobol systems go from here\" . Computerworld . Retrieved 9 February 2015 . ^ Ensmenger, Nathan L. (2009). The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise . MIT Press . p. 100. ISBN 978-0262050937 . LCCN 2009052638 . ^ ISO/IEC JTC 1/SC 22/WG 4 2023 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "AIMACO",
+      "ANSI",
+      "Academic Press",
+      "Batch processing",
+      "C++",
+      "CODASYL",
+      "COMTRAN",
+      "CobolScript",
+      "Compiled language",
+      "Computer programming language",
+      "Doi (identifier)",
+      "EGL (programming language)",
+      "Eiffel (programming language)",
+      "FACT computer language",
+      "FLOW-MATIC",
+      "Filename extension",
+      "GNU Compiler Collection",
+      "Generic programming",
+      "George Radin",
+      "GnuCOBOL",
+      "Grace Hopper",
+      "IBM COBOL",
+      "ISBN (identifier)",
+      "ISO",
+      "ISSN (identifier)",
+      "Imperative programming",
+      "International Electrotechnical Commission",
+      "International Organization for Standardization",
+      "Jean E. Sammet",
+      "LCCN (identifier)",
+      "MIT Press",
+      "Mainframe computer",
+      "Micro Focus",
+      "Object-oriented programming",
+      "PL/I",
+      "Procedural programming",
+      "Programming Language for Business",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Prose",
+      "Reserved word",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software portability",
+      "Software release life cycle",
+      "Standard library",
+      "Standardized",
+      "Static typing",
+      "Structured programming",
+      "Transaction processing",
+      "Type system",
+      "US Department of Defense",
+      "WATBOL",
+      "Weak typing",
+      "X/Open"
+    ],
+    "page_id": 6799,
+    "revision_id": 1375366074,
+    "retrieved_at": "2026-09-18T16:41:04.268113+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260829182824|1371984610",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 6799,
+            "ns": 0,
+            "title": "COBOL",
+            "revisions": [
+              {
+                "revid": 1375366074,
+                "parentid": 1371984610
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Cobol",
+              "page_image_free": "COBOL_Report_Apr60.djvu",
+              "wikibase-shortdesc": "Programming language with English-like syntax",
+              "wikibase_item": "Q131140"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "COBOL",
+        "pageid": 6799,
+        "revid": 1375366074,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language with English-like syntax</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">COBOL</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:COBOL_Report_Apr60.djvu\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-250px-COBOL_Report_Apr60.djvu.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"159\" class=\"mw-file-element\" data-file-width=\"2368\" data-file-height=\"3108\" /></a></span><div class=\"infobox-caption\">The <i>COBOL 60</i> report to <a href=\"/wiki/CODASYL\" title=\"CODASYL\">CODASYL</a> (April 1960)</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">Procedural</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><span class=\"nowrap\">Howard Bromberg</span>, <span class=\"nowrap\">Norman Discount</span>, <span class=\"nowrap\">Vernon Reeves</span>, <span class=\"nowrap\"><a href=\"/wiki/Jean_E._Sammet\" title=\"Jean E. Sammet\">Jean E. Sammet</a></span>, <span class=\"nowrap\">William Selden</span>, <span class=\"nowrap\">Gertrude Tierney</span>, with indirect influence from <span class=\"nowrap\"><a href=\"/wiki/Grace_Hopper\" title=\"Grace Hopper\">Grace Hopper</a></span><sup id=\"cite&#95;ref-creators&#95;1-0\" class=\"reference\"><a href=\"#cite_note-creators-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developers</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/CODASYL\" title=\"CODASYL\">CODASYL</a>, <a href=\"/wiki/ANSI\" class=\"mw-redirect\" title=\"ANSI\">ANSI</a>, <a href=\"/wiki/International_Organization_for_Standardization\" title=\"International Organization for Standardization\">ISO</a>/<a href=\"/wiki/International_Electrotechnical_Commission\" title=\"International Electrotechnical Commission\">IEC</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1960<span class=\"noprint\">&#59;&#32;66&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1960</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">ISO/IEC 1989:2023\n   / 2023</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Weak_typing\" class=\"mw-redirect\" title=\"Weak typing\">Weak</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.cbl</code>, <code>.cob</code>, <code>.cpy</code></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span class=\"nowraplinks\"><a href=\"/wiki/GnuCOBOL\" title=\"GnuCOBOL\">GnuCOBOL</a>, <a href=\"/wiki/IBM_COBOL\" title=\"IBM COBOL\">IBM COBOL</a>, <a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GCC</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></span>, <span class=\"nowrap\"><a href=\"/wiki/Micro_Focus\" title=\"Micro Focus\">Micro Focus</a> Visual COBOL</span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">COBOL/2, DEC COBOL-10, DEC PDP-11 COBOL, DEC PDP-11 COBOL-85, DEC VAX COBOL, DOSVS COBOL, Envyr ICOBOL, Fujitsu COBOL, Hitachi COBOL2002, HP3000 COBOL/II, IBM COBOL SAA, IBM COBOL/400, IBM COBOL/II, IBM Enterprise COBOL, IBM ILE COBOL, IBM OS/VS COBOL, ICL COBOL (VME), Micro Focus ACUCOBOL-GT, Micro Focus COBOL-IT, Micro Focus RM/COBOL, Micro Focus Visual COBOL, Microsoft COBOL, Raincode COBOL, Realia COBOL, Ryan McFarland RM/COBOL, Ryan McFarland RM/COBOL-85, Tandem (NonStop) COBOL, Tandem (NonStop) SCOBOL, UNIVAC COBOL, Unisys MCP COBOL74, Unisys MCP COBOL85, <a href=\"/wiki/X/Open\" title=\"X/Open\">X/Open</a> COBOL,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> Veryant isCOBOL, Wang VS COBOL, <a href=\"/wiki/WATBOL\" title=\"WATBOL\">WATBOL</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">Initial: <a href=\"/wiki/AIMACO\" title=\"AIMACO\">AIMACO</a>, <a href=\"/wiki/COMTRAN\" title=\"COMTRAN\">COMTRAN</a>, <a href=\"/wiki/FACT_computer_language\" class=\"mw-redirect\" title=\"FACT computer language\">FACT</a>, <a href=\"/wiki/FLOW-MATIC\" title=\"FLOW-MATIC\">FLOW-MATIC</a> \n<br />COBOL 2002:<sup id=\"cite&#95;ref-2002&#95;influence&#95;7-0\" class=\"reference\"><a href=\"#cite_note-2002_influence-7\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Eiffel_(programming_language)\" title=\"Eiffel (programming language)\">Eiffel</a>, <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/CobolScript\" title=\"CobolScript\">CobolScript</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/EGL_(programming_language)\" title=\"EGL (programming language)\">EGL</a>,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/PL/I\" title=\"PL/I\">PL/I</a>,<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Programming_Language_for_Business\" title=\"Programming Language for Business\">PL/B</a><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/COBOL\" class=\"extiw\" title=\"wikibooks:COBOL\">COBOL</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>COBOL</b> (<b>Common Business-Oriented Language</b>; <span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"/oʊ/: &#39;o&#39; in &#39;code&#39;\">oʊ</span><span title=\"&#39;b&#39; in &#39;buy&#39;\">b</span><span title=\"/ɒ/: &#39;o&#39; in &#39;body&#39;\">ɒ</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span></span>,<span class=\"wrap\"> </span>-<span style=\"border-bottom:1px dotted\"><span title=\"&#39;b&#39; in &#39;buy&#39;\">b</span><span title=\"/ɔː/: &#39;au&#39; in &#39;fraud&#39;\">ɔː</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span></span>/</a></span></span>)<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/Compiled_language\" title=\"Compiled language\">compiled</a> English-like <a href=\"/wiki/Computer_programming_language\" class=\"mw-redirect\" title=\"Computer programming language\">computer programming language</a> designed for business use. It is an <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, and, since 2002, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> language. COBOL is primarily used in business, finance, and administrative systems for companies and governments. COBOL is still widely used in applications deployed on <a href=\"/wiki/Mainframe_computer\" title=\"Mainframe computer\">mainframe computers</a>, such as large-scale <a href=\"/wiki/Batch_processing\" title=\"Batch processing\">batch</a> and <a href=\"/wiki/Transaction_processing\" title=\"Transaction processing\">transaction processing</a> jobs. Many large financial institutions were developing new systems in the language as late as 2006,<sup id=\"cite&#95;ref-Computerworld&#95;Not&#95;Dead&#95;Yet&#95;13-0\" class=\"reference\"><a href=\"#cite_note-Computerworld_Not_Dead_Yet-13\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> but most programming in COBOL today is purely to maintain existing applications. Programs are being moved to new platforms, rewritten in modern languages, or replaced with other software.<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>COBOL's design was started in 1959 by <a href=\"/wiki/CODASYL\" title=\"CODASYL\">CODASYL</a> and was partly based on the programming language <a href=\"/wiki/FLOW-MATIC\" title=\"FLOW-MATIC\">FLOW-MATIC</a>, designed by <a href=\"/wiki/Grace_Hopper\" title=\"Grace Hopper\">Grace Hopper</a>. It was created as part of a <a href=\"/wiki/US_Department_of_Defense\" class=\"mw-redirect\" title=\"US Department of Defense\">US Department of Defense</a> effort to create a <a href=\"/wiki/Software_portability\" title=\"Software portability\">portable</a> programming language for data processing. It was originally seen as a stopgap, but the Defense Department promptly pressured computer manufacturers to provide it, resulting in its widespread adoption.<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> It was <a href=\"/wiki/Standardized\" class=\"mw-redirect\" title=\"Standardized\">standardized</a> in 1968 and has been revised five times. Expansions include support for <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a> and <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a>. The current standard is <a href=\"/wiki/ISO\" class=\"mw-redirect\" title=\"ISO\">ISO</a>/<a href=\"/wiki/International_Electrotechnical_Commission\" title=\"International Electrotechnical Commission\">IEC</a>&#160;1989:2023.<sup id=\"cite&#95;ref-FOOTNOTEISO/IEC&#95;JTC&#95;1/SC&#95;22/WG&#95;42023&#95;16-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEISO/IEC_JTC_1/SC_22/WG_42023-16\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>COBOL statements have <a href=\"/wiki/Prose\" title=\"Prose\">prose</a> syntax such as <code class=\"mw-highlight mw-highlight-lang-cobolfree mw-content-ltr\" style=\"\" dir=\"ltr\"><span class=\"kr\">MOVE</span><span class=\"w\"> </span><span class=\"nv\">x</span><span class=\"w\"> </span><span class=\"kp\">TO</span><span class=\"w\"> </span><span class=\"nv\">y</span></code>, which was designed to be self-documenting and highly readable. However, it is verbose and uses over 300 <a href=\"/wiki/Reserved_word\" title=\"Reserved word\">reserved words</a> compared to the succinct and mathematically inspired syntax of other languages. Lacking a large <a href=\"/wiki/Standard_library\" title=\"Standard library\">standard library</a>, the standard specifies 43 statements, 87 functions, and just one class. COBOL code is split into four <i>divisions</i> (identification, environment, data, and procedure), containing a rigid hierarchy of sections, paragraphs, and sentences. \n</p><p>COBOL has been <a class=\"mw-selflink-fragment\" href=\"#Reception\">criticized</a> for its verbosity, design process, and poor support for <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured programming</a>. These weaknesses often result in monolithic programs that are hard to comprehend as a whole, despite their local readability.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-creators-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-creators_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>creators</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/gcc-15/changes.html#cobol\">\"GCC 15 Release Series — Changes, New Features, and Fixes\"</a>. <i>GCC, the GNU Compiler Collection</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">28 March</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GCC%2C+the+GNU+Compiler+Collection&amp;rft.atitle=GCC+15+Release+Series+%E2%80%94+Changes%2C+New+Features%2C+and+Fixes&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Fgcc-15%2Fchanges.html%23cobol&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation book cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://pubs.opengroup.org/onlinepubs/009680799/toc.pdf\"><i>Technical Standard, COBOL Language</i></a> <span class=\"cs1-format\">(PDF)</span>. X/Open Company Ltd., U.K. December 1991. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/1-872630-09-X\" title=\"Special:BookSources/1-872630-09-X\"><bdi>1-872630-09-X</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Technical+Standard%2C+COBOL+Language&amp;rft.pub=X%2FOpen+Company+Ltd.%2C+U.K.&amp;rft.date=1991-12&amp;rft.isbn=1-872630-09-X&amp;rft&#95;id=https%3A%2F%2Fpubs.opengroup.org%2Fonlinepubs%2F009680799%2Ftoc.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-SW95-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-SW95_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>SW95</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Arranga98-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Arranga98_5-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Arranga98</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFArrangaCoyle1997\" class=\"citation journal cs1\">Arranga, Edmund C.; Coyle, Frank P. (March 1997). \"Cobol: Perception and Reality\". <i>Computer</i>. <b>30</b> (3): 127. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1109%2F2.573683\">10.1109/2.573683</a>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/0018-9162\">0018-9162</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Computer&amp;rft.atitle=Cobol%3A+Perception+and+Reality&amp;rft.volume=30&amp;rft.issue=3&amp;rft.pages=127&amp;rft.date=1997-03&amp;rft&#95;id=info%3Adoi%2F10.1109%2F2.573683&amp;rft.issn=0018-9162&amp;rft.aulast=Arranga&amp;rft.aufirst=Edmund+C.&amp;rft.au=Coyle%2C+Frank+P.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFImajoMiyakeSatoIto2000\" class=\"citation conference cs1\">Imajo, Tetsuji; et&#160;al. (September 2000). <i>COBOL Script: a business-oriented scripting language</i>. <a rel=\"nofollow\" class=\"external text\" href=\"http://dblp1.uni-trier.de/db/conf/edoc/edoc2000.html\">Enterprise Distributed Object Computing Conference</a>. Makuhari, Japan: IEEE. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1109%2FEDOC.2000.882363\">10.1109/EDOC.2000.882363</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0769508650\" title=\"Special:BookSources/0769508650\"><bdi>0769508650</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.btitle=COBOL+Script%3A+a+business-oriented+scripting+language&amp;rft.place=Makuhari%2C+Japan&amp;rft.pub=IEEE&amp;rft.date=2000-09&amp;rft&#95;id=info%3Adoi%2F10.1109%2FEDOC.2000.882363&amp;rft.isbn=0769508650&amp;rft.aulast=Imajo&amp;rft.aufirst=Tetsuji&amp;rft.au=Miyake%2C+Tatsuki&amp;rft.au=Sato%2C+Shinobu&amp;rft.au=Ito%2C+Toshiyuki&amp;rft.au=Yokotsuka%2C+Daisuke&amp;rft.au=Tsujihata%2C+Yoshihide&amp;rft.au=Uemura%2C+Shunsuke&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHo2007\" class=\"citation web cs1\">Ho, Wing Hong (7 May 2007). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190113063021/https://www.omg.org/adm/EGLOverviewtoOMG.pdf\">\"Introduction to EGL\"</a> <span class=\"cs1-format\">(PDF)</span>. IBM Software Group. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.omg.org/adm/EGLOverviewtoOMG.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on 13 January 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 January</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Introduction+to+EGL&amp;rft.pub=IBM+Software+Group&amp;rft.date=2007-05-07&amp;rft.aulast=Ho&amp;rft.aufirst=Wing+Hong&amp;rft&#95;id=https%3A%2F%2Fwww.omg.org%2Fadm%2FEGLOverviewtoOMG.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRadin1978\" class=\"citation conference cs1\"><a href=\"/wiki/George_Radin\" title=\"George Radin\">Radin, George</a> (1978). Wexelblat, Richard L. (ed.). <i>The early history and characteristics of PL/I</i>. History of Programming Languages. <a href=\"/wiki/Academic_Press\" title=\"Academic Press\">Academic Press</a> (published 1981). p.&#160;572. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F800025.1198410\">10.1145/800025.1198410</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0127450408\" title=\"Special:BookSources/0127450408\"><bdi>0127450408</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.btitle=The+early+history+and+characteristics+of+PL%2FI&amp;rft.pages=572&amp;rft.pub=Academic+Press&amp;rft.date=1978&amp;rft&#95;id=info%3Adoi%2F10.1145%2F800025.1198410&amp;rft.isbn=0127450408&amp;rft.aulast=Radin&amp;rft.aufirst=George&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.sysmaker.com/infopro/x3j15/whatart.htm#why\">\"What is PL/B - The Programming Language for Business?\"</a>. <i>sysmaker.com</i>. Infopro, Inc<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 April</span> 2022</span>. <q>... conversion to an alternate, extended COBOL or to ANSI COBOL is very difficult, if at all possible</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=sysmaker.com&amp;rft.atitle=What+is+PL%2FB+-+The+Programming+Language+for+Business%3F&amp;rft&#95;id=https%3A%2F%2Fwww.sysmaker.com%2Finfopro%2Fx3j15%2Fwhatart.htm%23why&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.microfocus.com/documentation/visual-cobol/vc60/DevHub/GUID-F7908F35-6AD9-4A42-B710-25750904789E.html\">\"New to COBOL\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=New+to+COBOL&amp;rft&#95;id=https%3A%2F%2Fwww.microfocus.com%2Fdocumentation%2Fvisual-cobol%2Fvc60%2FDevHub%2FGUID-F7908F35-6AD9-4A42-B710-25750904789E.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Computerworld&#95;Not&#95;Dead&#95;Yet-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Computerworld_Not_Dead_Yet_13-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Computerworld Not Dead Yet</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMitchell2012\" class=\"citation magazine cs1\">Mitchell, Robert L. (14 March 2012). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.computerworld.com/article/2502420/data-center/brain-drain-where-cobol-systems-go-from-here.html\">\"Brain drain: Where Cobol systems go from here\"</a>. <i>Computerworld</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Computerworld&amp;rft.atitle=Brain+drain%3A+Where+Cobol+systems+go+from+here&amp;rft.date=2012-03-14&amp;rft.aulast=Mitchell&amp;rft.aufirst=Robert+L.&amp;rft&#95;id=http%3A%2F%2Fwww.computerworld.com%2Farticle%2F2502420%2Fdata-center%2Fbrain-drain-where-cobol-systems-go-from-here.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEnsmenger2009\" class=\"citation book cs1\">Ensmenger, Nathan L. (2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=VCcsTPQ738oC&amp;pg=PA100\"><i>The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise</i></a>. <a href=\"/wiki/MIT_Press\" title=\"MIT Press\">MIT Press</a>. p.&#160;100. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0262050937\" title=\"Special:BookSources/978-0262050937\"><bdi>978-0262050937</bdi></a>. <a href=\"/wiki/LCCN_(identifier)\" class=\"mw-redirect\" title=\"LCCN (identifier)\">LCCN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://lccn.loc.gov/2009052638\">2009052638</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Computer+Boys+Take+Over%3A+Computers%2C+Programmers%2C+and+the+Politics+of+Technical+Expertise&amp;rft.pages=100&amp;rft.pub=MIT+Press&amp;rft.date=2009&amp;rft&#95;id=info%3Alccn%2F2009052638&amp;rft.isbn=978-0262050937&amp;rft.aulast=Ensmenger&amp;rft.aufirst=Nathan+L.&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DVCcsTPQ738oC%26pg%3DPA100&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACOBOL\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEISO/IEC&#95;JTC&#95;1/SC&#95;22/WG&#95;42023-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEISO/IEC_JTC_1/SC_22/WG_42023_16-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFISO/IEC_JTC_1/SC_22/WG_42023\">ISO/IEC JTC 1/SC 22/WG 4 2023</a>.</span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐4f74m\nCached time: 20260918164130\nCache expiry: 1063126\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.351 seconds\nReal time usage: 0.473 seconds\nPreprocessor visited node count: 2020/1000000\nRevision size: 8153/2097152 bytes\nPost‐expand include size: 48038/2097152 bytes\nTemplate argument size: 10014/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 30409/5000000 bytes\nLua time usage: 0.205/10.000 seconds\nLua memory usage: 9237132/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  448.378      1 -total\n 20.89%   93.666      2 Template:Infobox\n 18.18%   81.533      1 Template:Infobox_programming_language\n 16.34%   73.263      1 Template:Short_description\n 14.82%   66.462      4 Template:Cite_web\n 11.72%   52.534      2 Template:Pagetype\n 10.26%   46.014      1 Template:Sfn\n  7.35%   32.965     10 Template:Broken_ref\n  4.91%   22.002      1 Template:IPAc-en\n  4.26%   19.109      1 Template:Infobox_software/simple\n-->\n\n<!-- Render ID cc992aa8-b37f-11f1-9602-118a3be975fb -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "AIMACO",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ANSI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Academic Press",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Batch processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CODASYL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "COMTRAN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CobolScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiled language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EGL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eiffel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FACT computer language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FLOW-MATIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "George Radin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GnuCOBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Grace Hopper",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM COBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Electrotechnical Commission",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Organization for Standardization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jean E. Sammet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LCCN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT Press",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mainframe computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Micro Focus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming Language for Business",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prose",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reserved word",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software portability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standardized",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Transaction processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "US Department of Defense",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WATBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X/Open",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language with English-like syntax",
+          "page_image_free": "COBOL_Report_Apr60.djvu",
+          "wikibase_item": "Q131140"
+        }
+      }
+    }
+  ]
+}

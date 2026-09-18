@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "John von Neumann",
+    "url": "https://en.wikipedia.org/wiki/John_von_Neumann",
+    "summary": "Hungarian and American mathematician and physicist (1903–1957) The native form of this personal name is Neumann János Lajos . This article uses Western name order when mentioning individuals. John von Neumann Von Neumann in the 1940s Member of the United States Atomic Energy Commission In office March 15, 1955 – February 8, 1957 President Dwight D. Eisenhower Preceded by Eugene M. Zuckert Succeeded by John S. Graham Personal details Born Neumann János Lajos ( 1903-12-28 ) December 28, 1903 Budapest , Kingdom of Hungary, Austria-Hungary Died February 8, 1957 (1957-02-08) (aged 53) Washington, D.C. , U.S. Resting place Princeton Cemetery Citizenship Hungary United States Education Pázmány Péter University University of Berlin ETH Zürich Scientific career Known for Mathematical formulation of quantum mechanics , Game theory , Spectral theory , Ergodic theory , von Neumann algebras , List of things named after John von Neumann Spouses Marietta Kövesi ​ ​ ( m. 1930; div. 1937) ​ Klára Dán ​ ( m. 1938) ​ Children Marina von Neumann Whitman Awards Bôcher Memorial Prize (1938) Navy Distinguished Civilian Service Award (1946) Medal for Merit (1946) Medal of Freedom (1956) Enrico Fermi Award (1956) Carl-Gustaf Rossby Research Medal (1957) Fields Logic , mathematics , mathematical physics , theoretical physics , statistics , economics , computer science , theoretical biology , chemistry , computing Workplaces University of Göttingen University of Berlin University of Hamburg Princeton University Institute for Advanced Study Los Alamos Laboratory National Defense Research Committee United States Department of Defense United States Atomic Energy Commission Thesis Az általános halmazelmélet axiomatikus felépítése (The axiomatic construction of general set theory) (1925) Doctoral advisor Lipót Fejér Other academic advisors László Rátz Gábor Szegő Michael Fekete József Kürschák David Hilbert Erhard Schmidt Hermann Weyl George Pólya Doctoral students Donald B. Gillies Israel Halperin Friederich Mautner Other notable students Eugene Wigner Paul Halmos Peter Lax Arthur Burks Benoit Mandelbrot Signature John von Neumann ( / v ɒ n ˈ n ɔɪ m ən / von NOY -mən ; Hungarian : Neumann János Lajos ; December 28, 1903 – February 8, 1957) was a Hungarian and American mathematician, physicist, computer scientist and engineer. Von Neumann had perhaps the widest coverage of any mathematician of his time, integrating pure and applied sciences and making major contributions to many fields, including mathematics , physics , economics , computing , and statistics . He was a pioneer in building the mathematical framework of quantum physics , in the development of functional analysis , and in game theory , introducing or codifying concepts including cellular automata , the universal constructor and the digital computer . His analysis of the structure of self-replication preceded the discovery of the structure of DNA . During World War II , von Neumann worked on the Manhattan Project . He developed the mathematical models behind the explosive lenses used in the implosion-type nuclear weapon . Before and after the war, he consulted for many organizations including the Office of Scientific Research and Development , the United States Army 's Ballistic Research Laboratory , the Armed Forces Special Weapons Project and the Oak Ridge National Laboratory . At the peak of his influence in the 1950s, he chaired a number of Defense Department committees including the Strategic Missile Evaluation Committee and the ICBM Scientific Advisory Committee. He was also a member of the influential Atomic Energy Commission in charge of all atomic energy development in the country. He played a key role alongside Bernard Schriever and Trevor Gardner in the design and development of the United States' first intercontinental ballistic missile (ICBM) programs. At that time he was considered the nation's foremost expert on nuclear weaponry and the leading defense scientist at the U.S. Department of Defense . Von Neumann's contributions and intellectual ability drew praise from colleagues in physics, mathematics, and beyond. His accolades include a Medal of Freedom and a crater on the Moon named in his honor. ^ Dyson 2012 , p. 48. ^ Israel, Giorgio [in Italian] ; Gasca, Ana Millan (2009). The World as a Mathematical Game: John von Neumann and Twentieth Century Science . Science Networks. Historical Studies. Vol. 38. Basel: Birkhäuser. p. 14. doi : 10.1007/978-3-7643-9896-5 . ISBN 978-3-7643-9896-5 . OCLC 318641638 . ^ Goldstine 1980 , p. 169. ^ Halperin, Israel . \"The Extraordinary Inspiration of John von Neumann\". In Glimm, Impagliazzo & Singer (1990) , p. 16. ^ John von Neumann at the Mathematics Genealogy Project . Retrieved 2015-03-17. ^ Szanton 1992 , p. 130. ^ Dempster, M. A. H. (February 2011). \"Benoit B. Mandelbrot (1924–2010): a father of Quantitative Finance\" (PDF) . Quantitative Finance . 11 (2): 155– 156. doi : 10.1080/14697688.2011.552332 . S2CID 154802171 . Archived from the original on 2014-07-14. ^ Rédei 1999 , p. 7. ^ Macrae 1992 . ^ Aspray 1990 , p. 246. ^ Sheehan 2010 . Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "text": "Hungarian and American mathematician and physicist (1903–1957) The native form of this personal name is Neumann János Lajos . This article uses Western name order when mentioning individuals. John von Neumann Von Neumann in the 1940s Member of the United States Atomic Energy Commission In office March 15, 1955 – February 8, 1957 President Dwight D. Eisenhower Preceded by Eugene M. Zuckert Succeeded by John S. Graham Personal details Born Neumann János Lajos ( 1903-12-28 ) December 28, 1903 Budapest , Kingdom of Hungary, Austria-Hungary Died February 8, 1957 (1957-02-08) (aged 53) Washington, D.C. , U.S. Resting place Princeton Cemetery Citizenship Hungary United States Education Pázmány Péter University University of Berlin ETH Zürich Scientific career Known for Mathematical formulation of quantum mechanics , Game theory , Spectral theory , Ergodic theory , von Neumann algebras , List of things named after John von Neumann Spouses Marietta Kövesi ​ ​ ( m. 1930; div. 1937) ​ Klára Dán ​ ( m. 1938) ​ Children Marina von Neumann Whitman Awards Bôcher Memorial Prize (1938) Navy Distinguished Civilian Service Award (1946) Medal for Merit (1946) Medal of Freedom (1956) Enrico Fermi Award (1956) Carl-Gustaf Rossby Research Medal (1957) Fields Logic , mathematics , mathematical physics , theoretical physics , statistics , economics , computer science , theoretical biology , chemistry , computing Workplaces University of Göttingen University of Berlin University of Hamburg Princeton University Institute for Advanced Study Los Alamos Laboratory National Defense Research Committee United States Department of Defense United States Atomic Energy Commission Thesis Az általános halmazelmélet axiomatikus felépítése (The axiomatic construction of general set theory) (1925) Doctoral advisor Lipót Fejér Other academic advisors László Rátz Gábor Szegő Michael Fekete József Kürschák David Hilbert Erhard Schmidt Hermann Weyl George Pólya Doctoral students Donald B. Gillies Israel Halperin Friederich Mautner Other notable students Eugene Wigner Paul Halmos Peter Lax Arthur Burks Benoit Mandelbrot Signature John von Neumann ( / v ɒ n ˈ n ɔɪ m ən / von NOY -mən ; Hungarian : Neumann János Lajos ; December 28, 1903 – February 8, 1957) was a Hungarian and American mathematician, physicist, computer scientist and engineer. Von Neumann had perhaps the widest coverage of any mathematician of his time, integrating pure and applied sciences and making major contributions to many fields, including mathematics , physics , economics , computing , and statistics . He was a pioneer in building the mathematical framework of quantum physics , in the development of functional analysis , and in game theory , introducing or codifying concepts including cellular automata , the universal constructor and the digital computer . His analysis of the structure of self-replication preceded the discovery of the structure of DNA . During World War II , von Neumann worked on the Manhattan Project . He developed the mathematical models behind the explosive lenses used in the implosion-type nuclear weapon . Before and after the war, he consulted for many organizations including the Office of Scientific Research and Development , the United States Army 's Ballistic Research Laboratory , the Armed Forces Special Weapons Project and the Oak Ridge National Laboratory . At the peak of his influence in the 1950s, he chaired a number of Defense Department committees including the Strategic Missile Evaluation Committee and the ICBM Scientific Advisory Committee. He was also a member of the influential Atomic Energy Commission in charge of all atomic energy development in the country. He played a key role alongside Bernard Schriever and Trevor Gardner in the design and development of the United States' first intercontinental ballistic missile (ICBM) programs. At that time he was considered the nation's foremost expert on nuclear weaponry and the leading defense scientist at the U.S. Department of Defense . Von Neumann's contributions and intellectual ability drew praise from colleagues in physics, mathematics, and beyond. His accolades include a Medal of Freedom and a crater on the Moon named in his honor. ^ Dyson 2012 , p. 48. ^ Israel, Giorgio [in Italian] ; Gasca, Ana Millan (2009). The World as a Mathematical Game: John von Neumann and Twentieth Century Science . Science Networks. Historical Studies. Vol. 38. Basel: Birkhäuser. p. 14. doi : 10.1007/978-3-7643-9896-5 . ISBN 978-3-7643-9896-5 . OCLC 318641638 . ^ Goldstine 1980 , p. 169. ^ Halperin, Israel . \"The Extraordinary Inspiration of John von Neumann\". In Glimm, Impagliazzo & Singer (1990) , p. 16. ^ John von Neumann at the Mathematics Genealogy Project . Retrieved 2015-03-17. ^ Szanton 1992 , p. 130. ^ Dempster, M. A. H. (February 2011). \"Benoit B. Mandelbrot (1924–2010): a father of Quantitative Finance\" (PDF) . Quantitative Finance . 11 (2): 155– 156. doi : 10.1080/14697688.2011.552332 . S2CID 154802171 . Archived from the original on 2014-07-14. ^ Rédei 1999 , p. 7. ^ Macrae 1992 . ^ Aspray 1990 , p. 246. ^ Sheehan 2010 . Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "links": [
+      "Applied science",
+      "Armed Forces Special Weapons Project",
+      "Arthur Burks",
+      "Ballistic Research Laboratory",
+      "Basic research",
+      "Benoit Mandelbrot",
+      "Bernard Schriever",
+      "Budapest",
+      "Bôcher Memorial Prize",
+      "Carl-Gustaf Rossby Research Medal",
+      "Cellular automaton",
+      "Chemistry",
+      "Computer",
+      "Computer science",
+      "Computing",
+      "DNA",
+      "David Hilbert",
+      "Doctoral advisor",
+      "Doi (identifier)",
+      "Donald B. Gillies",
+      "Dwight D. Eisenhower",
+      "ETH Zurich",
+      "Economics",
+      "Enrico Fermi Award",
+      "Ergodic theory",
+      "Erhard Schmidt",
+      "Eugene M. Zuckert",
+      "Eugene Wigner",
+      "Explosive lens",
+      "Eötvös Loránd University",
+      "Friederich Ignaz Mautner",
+      "Functional analysis",
+      "Game theory",
+      "George Pólya",
+      "Gábor Szegő",
+      "Hermann Weyl",
+      "Humboldt University of Berlin",
+      "Hungarian language",
+      "ICBM",
+      "ISBN (identifier)",
+      "Implosion-type nuclear weapon",
+      "Institute for Advanced Study",
+      "Intercontinental ballistic missile",
+      "Israel Halperin",
+      "John Stephens Graham",
+      "József Kürschák",
+      "Klára Dán von Neumann",
+      "Lipót Fejér",
+      "List of things named after John von Neumann",
+      "Logic",
+      "Los Alamos Laboratory",
+      "László Rátz",
+      "Manhattan Project",
+      "Marina von Neumann Whitman",
+      "Mathematical and theoretical biology",
+      "Mathematical formulation of quantum mechanics",
+      "Mathematical physics",
+      "Mathematics",
+      "Mathematics Genealogy Project",
+      "Medal for Merit",
+      "Medal of Freedom (1945)",
+      "Michael Fekete",
+      "National Defense Research Committee",
+      "Navy Distinguished Civilian Service Award",
+      "Nuclear weapon",
+      "OCLC (identifier)",
+      "Oak Ridge National Laboratory",
+      "Office of Scientific Research and Development",
+      "Paul Halmos",
+      "Personal name",
+      "Peter Lax",
+      "Physics",
+      "Princeton Cemetery",
+      "Princeton University",
+      "Quantum physics",
+      "S2CID (identifier)",
+      "Self-replication",
+      "Spectral theory",
+      "Statistics",
+      "Teapot Committee",
+      "Theoretical physics",
+      "Thesis",
+      "Trevor Gardner",
+      "United States Army",
+      "United States Atomic Energy Commission",
+      "United States Department of Defense",
+      "University of Göttingen",
+      "University of Hamburg",
+      "Von Neumann (crater)",
+      "Von Neumann algebras",
+      "Von Neumann universal constructor",
+      "Washington, D.C.",
+      "World War II"
+    ],
+    "page_id": 15942,
+    "revision_id": 1375521158,
+    "retrieved_at": "2026-09-18T16:41:44.031960+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260917121650|1375373749",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 15942,
+            "ns": 0,
+            "title": "John von Neumann",
+            "revisions": [
+              {
+                "revid": 1375521158,
+                "parentid": 1375373749
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Neumann, John von",
+              "page_image_free": "JohnvonNeumann-LosAlamos.gif",
+              "toc": "",
+              "wikibase-badge-Q17437798": "",
+              "wikibase-shortdesc": "Hungarian and American mathematician and physicist (1903–1957)",
+              "wikibase_item": "Q17455"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "John von Neumann",
+        "pageid": 15942,
+        "revid": 1375521158,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Hungarian and American mathematician and physicist (1903–1957)</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">The native form of this <a href=\"/wiki/Personal_name\" title=\"Personal name\">personal name</a> is <i>Neumann János Lajos</i>.&#32;This article uses <a href=\"/wiki/Personal_name#Western_name_order_(family_name_last)\" title=\"Personal name\">Western name order</a> when mentioning individuals.</div>\n<p class=\"mw-empty-elt\">\n\n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vcard\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"font-size: 100%;\"><div class=\"fn\" style=\"font-size:125%;\">John von Neumann</div></th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:JohnvonNeumann-LosAlamos.gif\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/JohnvonNeumann-LosAlamos.gif/250px-JohnvonNeumann-LosAlamos.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"326\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"490\" data-file-height=\"639\" /></a></span><div class=\"infobox-caption\" style=\"line-height:normal; padding:0.2em;\">Von Neumann in the 1940s</div></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"color: #202122; background:lavender;line-height:normal;padding:0.2em;\">Member of the<br /><a href=\"/wiki/United_States_Atomic_Energy_Commission\" title=\"United States Atomic Energy Commission\">United States Atomic Energy Commission</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\" style=\"border-bottom:none\"><span class=\"nowrap\"><b>In office</b></span><br />March 15, 1955&#160;–&#32;February 8, 1957</td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"text-align:left\">President</th><td class=\"infobox-data\"><a href=\"/wiki/Dwight_D._Eisenhower\" title=\"Dwight D. Eisenhower\">Dwight D. Eisenhower</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"text-align:left\"><span class=\"nowrap\">Preceded by</span></th><td class=\"infobox-data\"><a href=\"/wiki/Eugene_M._Zuckert\" title=\"Eugene M. Zuckert\">Eugene M. Zuckert</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"text-align:left\"><span class=\"nowrap\">Succeeded by</span></th><td class=\"infobox-data\"><a href=\"/wiki/John_Stephens_Graham\" title=\"John Stephens Graham\">John S. Graham</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"color: #202122; background:lavender\">Personal details</th></tr><tr><th scope=\"row\" class=\"infobox-label\">Born</th><td class=\"infobox-data\"><span class=\"nickname\">Neumann János Lajos</span><br /><span style=\"display:none\">(<span class=\"bday\">1903-12-28</span>)</span>December 28, 1903<br /><div class=\"birthplace\"><a href=\"/wiki/Budapest\" title=\"Budapest\">Budapest</a>, Kingdom of Hungary, Austria-Hungary</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Died</th><td class=\"infobox-data\">February 8, 1957<span style=\"display:none\">(1957-02-08)</span> (aged&#160;53)<br /><div class=\"deathplace\"><a href=\"/wiki/Washington,_D.C.\" title=\"Washington, D.C.\">Washington, D.C.</a>, U.S.</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Resting&#160;place</th><td class=\"infobox-data label\"><a href=\"/wiki/Princeton_Cemetery\" title=\"Princeton Cemetery\">Princeton Cemetery</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Citizenship</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>Hungary</li><li>United States</li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Education</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/E%C3%B6tv%C3%B6s_Lor%C3%A1nd_University\" title=\"Eötvös Loránd University\">Pázmány Péter University</a></li><li><a href=\"/wiki/Humboldt_University_of_Berlin\" title=\"Humboldt University of Berlin\">University of Berlin</a></li><li><a href=\"/wiki/ETH_Zurich\" title=\"ETH Zurich\">ETH Zürich</a></li></ul></div></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><td colspan=\"2\" class=\"infobox-subheader\"><b>Scientific career</b></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Known&#160;for</th><td class=\"infobox-data\"><a href=\"/wiki/Mathematical_formulation_of_quantum_mechanics\" title=\"Mathematical formulation of quantum mechanics\">Mathematical formulation of quantum mechanics</a>, <a href=\"/wiki/Game_theory\" title=\"Game theory\">Game theory</a>, <a href=\"/wiki/Spectral_theory\" title=\"Spectral theory\">Spectral theory</a>, <a href=\"/wiki/Ergodic_theory\" title=\"Ergodic theory\">Ergodic theory</a>, <a href=\"/wiki/Von_Neumann_algebras\" class=\"mw-redirect\" title=\"Von Neumann algebras\">von Neumann algebras</a>, <a href=\"/wiki/List_of_things_named_after_John_von_Neumann\" title=\"List of things named after John von Neumann\">List of things named after John von Neumann</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Spouses</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><style data-mw-deduplicate=\"TemplateStyles:r1298804929\">.mw-parser-output .marriage-line-margin2px{line-height:0;margin-bottom:-2px}.mw-parser-output .marriage-line-margin3px{line-height:0;margin-bottom:-3px}.mw-parser-output .marriage-display-inline{display:inline}</style>\n<div class=\"marriage-display-inline\"><div style=\"display:inline-block;line-height:normal;margin-top:1px;white-space:normal;\">Marietta Kövesi</div>\n   <div class=\"marriage-line-margin2px\">&#8203;</div>&#32;<div style=\"display:inline-block;margin-bottom:1px;\">&#8203;</div>&#40;<abbr title=\"married\">m.</abbr>&#160;1930&#59;&#32;<abbr title=\"divorced\">div.</abbr>&#160;1937&#41;<wbr />&#8203;</div></li><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1298804929\" />\n<div class=\"marriage-display-inline\"><div style=\"display:inline-block;line-height:normal;\"><a href=\"/wiki/Kl%C3%A1ra_D%C3%A1n_von_Neumann\" title=\"Klára Dán von Neumann\">Klára Dán</a></div>&#32;<div style=\"display:inline-block;\">&#8203;</div>&#40;<abbr title=\"married\">m.</abbr>&#160;1938&#41;<wbr />&#8203;</div></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Children</th><td class=\"infobox-data\"><a href=\"/wiki/Marina_von_Neumann_Whitman\" title=\"Marina von Neumann Whitman\">Marina von Neumann Whitman</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Awards</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/B%C3%B4cher_Memorial_Prize\" title=\"Bôcher Memorial Prize\">Bôcher Memorial Prize</a> (1938)</li><li><a href=\"/wiki/Navy_Distinguished_Civilian_Service_Award\" title=\"Navy Distinguished Civilian Service Award\">Navy Distinguished Civilian Service Award</a> (1946)</li><li><a href=\"/wiki/Medal_for_Merit\" title=\"Medal for Merit\">Medal for Merit</a> (1946)</li><li><a href=\"/wiki/Medal_of_Freedom_(1945)\" title=\"Medal of Freedom (1945)\">Medal of Freedom</a> (1956)</li><li><a href=\"/wiki/Enrico_Fermi_Award\" title=\"Enrico Fermi Award\">Enrico Fermi Award</a> (1956)</li><li><a href=\"/wiki/Carl-Gustaf_Rossby_Research_Medal\" title=\"Carl-Gustaf Rossby Research Medal\">Carl-Gustaf Rossby Research Medal</a> (1957)</li></ul></div></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Fields</th><td class=\"infobox-data category\"><a href=\"/wiki/Logic\" title=\"Logic\">Logic</a>, <a href=\"/wiki/Mathematics\" title=\"Mathematics\">mathematics</a>, <a href=\"/wiki/Mathematical_physics\" title=\"Mathematical physics\">mathematical physics</a>, <a href=\"/wiki/Theoretical_physics\" title=\"Theoretical physics\">theoretical physics</a>, <a href=\"/wiki/Statistics\" title=\"Statistics\">statistics</a>, <a href=\"/wiki/Economics\" title=\"Economics\">economics</a>, <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, <a href=\"/wiki/Mathematical_and_theoretical_biology\" title=\"Mathematical and theoretical biology\">theoretical biology</a>, <a href=\"/wiki/Chemistry\" title=\"Chemistry\">chemistry</a>, <a href=\"/wiki/Computing\" title=\"Computing\">computing</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Workplaces</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/University_of_G%C3%B6ttingen\" title=\"University of Göttingen\">University of Göttingen</a></li><li><a href=\"/wiki/Humboldt_University_of_Berlin\" title=\"Humboldt University of Berlin\">University of Berlin</a></li><li><a href=\"/wiki/University_of_Hamburg\" title=\"University of Hamburg\">University of Hamburg</a></li><li><a href=\"/wiki/Princeton_University\" title=\"Princeton University\">Princeton University</a></li><li><a href=\"/wiki/Institute_for_Advanced_Study\" title=\"Institute for Advanced Study\">Institute for Advanced Study</a></li><li><a href=\"/wiki/Los_Alamos_Laboratory\" class=\"mw-redirect\" title=\"Los Alamos Laboratory\">Los Alamos Laboratory</a></li><li><a href=\"/wiki/National_Defense_Research_Committee\" title=\"National Defense Research Committee\">National Defense Research Committee</a></li><li><a href=\"/wiki/United_States_Department_of_Defense\" title=\"United States Department of Defense\">United States Department of Defense</a></li><li><a href=\"/wiki/United_States_Atomic_Energy_Commission\" title=\"United States Atomic Energy Commission\">United States Atomic Energy Commission</a></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Thesis\" title=\"Thesis\">Thesis</a></th><td class=\"infobox-data\"><i> Az általános halmazelmélet axiomatikus felépítése (The axiomatic construction of general set theory) </i>&#160;<span style=\"font-size:97%;\">(1925)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Doctoral_advisor\" title=\"Doctoral advisor\">Doctoral advisor</a></div></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Lip%C3%B3t_Fej%C3%A9r\" title=\"Lipót Fejér\">Lipót Fejér</a></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Other&#160;academic advisors</div></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/L%C3%A1szl%C3%B3_R%C3%A1tz\" title=\"László Rátz\">László Rátz</a></li><li><a href=\"/wiki/G%C3%A1bor_Szeg%C5%91\" title=\"Gábor Szegő\">Gábor Szegő</a></li><li><a href=\"/wiki/Michael_Fekete\" title=\"Michael Fekete\">Michael Fekete</a></li><li><a href=\"/wiki/J%C3%B3zsef_K%C3%BCrsch%C3%A1k\" title=\"József Kürschák\">József Kürschák</a><sup id=\"cite&#95;ref-FOOTNOTEDyson201248&#95;1-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEDyson201248-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/David_Hilbert\" title=\"David Hilbert\">David Hilbert</a></li><li><a href=\"/wiki/Erhard_Schmidt\" title=\"Erhard Schmidt\">Erhard Schmidt</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/Hermann_Weyl\" title=\"Hermann Weyl\">Hermann Weyl</a></li><li><a href=\"/wiki/George_P%C3%B3lya\" title=\"George Pólya\">George Pólya</a><sup id=\"cite&#95;ref-FOOTNOTEGoldstine1980169&#95;3-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEGoldstine1980169-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Doctoral students</div></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Donald_B._Gillies\" title=\"Donald B. Gillies\">Donald B. Gillies</a></li><li><a href=\"/wiki/Israel_Halperin\" title=\"Israel Halperin\">Israel Halperin</a><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>note 1<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/Friederich_Ignaz_Mautner\" title=\"Friederich Ignaz Mautner\">Friederich Mautner</a><sup id=\"cite&#95;ref-genealogy&#95;6-0\" class=\"reference\"><a href=\"#cite_note-genealogy-6\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Other&#160;notable students</div></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Eugene_Wigner\" title=\"Eugene Wigner\">Eugene Wigner</a><sup id=\"cite&#95;ref-FOOTNOTESzanton1992130&#95;7-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTESzanton1992130-7\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/Paul_Halmos\" title=\"Paul Halmos\">Paul Halmos</a></li><li><a href=\"/wiki/Peter_Lax\" title=\"Peter Lax\">Peter Lax</a></li><li><a href=\"/wiki/Arthur_Burks\" title=\"Arthur Burks\">Arthur Burks</a></li><li><a href=\"/wiki/Benoit_Mandelbrot\" title=\"Benoit Mandelbrot\">Benoit Mandelbrot</a><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th colspan=\"2\" class=\"infobox-header\">Signature</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span class=\"infobox-signature skin-invert\" typeof=\"mw:File\"><a href=\"/wiki/File:Johnny_von_neumann_sig.gif\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/en/a/af/Johnny_von_neumann_sig.gif?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"26\" class=\"mw-file-element\" data-file-width=\"200\" data-file-height=\"35\" /></a></span></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><td colspan=\"2\" class=\"infobox-below\" style=\"border-top: 1px solid right;\"><div></div></td></tr></tbody></table>\n<p><b>John von Neumann</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"&#39;v&#39; in &#39;vie&#39;\">v</span><span title=\"/ɒ/: &#39;o&#39; in &#39;body&#39;\">ɒ</span><span title=\"&#39;n&#39; in &#39;nigh&#39;\">n</span></span><span class=\"wrap\"> </span><span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;n&#39; in &#39;nigh&#39;\">n</span><span title=\"/ɔɪ/: &#39;oi&#39; in &#39;choice&#39;\">ɔɪ</span><span title=\"&#39;m&#39; in &#39;my&#39;\">m</span><span title=\"/ən/: &#39;on&#39; in &#39;button&#39;\">ən</span></span>/</a></span></span> <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\">von <span style=\"font-size:90%\">NOY</span>-mən</i></a>; <a href=\"/wiki/Hungarian_language\" title=\"Hungarian language\">Hungarian</a>: <i lang=\"hu\">Neumann János Lajos</i>;<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>note 2<span class=\"cite-bracket\">&#93;</span></a></sup> December 28, 1903&#160;– February&#160;8, 1957) was a Hungarian and American mathematician, physicist, computer scientist and engineer. Von Neumann had perhaps the widest coverage of any mathematician of his time,<sup id=\"cite&#95;ref-FOOTNOTERédei19997&#95;10-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTERédei19997-10\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> integrating <a href=\"/wiki/Basic_research\" title=\"Basic research\">pure</a> and <a href=\"/wiki/Applied_science#Applied_research\" title=\"Applied science\">applied sciences</a> and making major contributions to many fields, including <a href=\"/wiki/Mathematics\" title=\"Mathematics\">mathematics</a>, <a href=\"/wiki/Physics\" title=\"Physics\">physics</a>, <a href=\"/wiki/Economics\" title=\"Economics\">economics</a>, <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, and <a href=\"/wiki/Statistics\" title=\"Statistics\">statistics</a>. He was a pioneer in building the mathematical framework of <a href=\"/wiki/Quantum_physics\" class=\"mw-redirect\" title=\"Quantum physics\">quantum physics</a>, in the development of <a href=\"/wiki/Functional_analysis\" title=\"Functional analysis\">functional analysis</a>, and in <a href=\"/wiki/Game_theory\" title=\"Game theory\">game theory</a>, introducing or codifying concepts including <a href=\"/wiki/Cellular_automaton\" title=\"Cellular automaton\">cellular automata</a>, the <a href=\"/wiki/Von_Neumann_universal_constructor\" title=\"Von Neumann universal constructor\">universal constructor</a> and the <a href=\"/wiki/Computer\" title=\"Computer\">digital computer</a>. His analysis of the structure of <a href=\"/wiki/Self-replication\" title=\"Self-replication\">self-replication</a> preceded the discovery of the structure of <a href=\"/wiki/DNA\" title=\"DNA\">DNA</a>.\n</p><p>During <a href=\"/wiki/World_War_II\" title=\"World War II\">World War II</a>, von Neumann worked on the <a href=\"/wiki/Manhattan_Project\" title=\"Manhattan Project\">Manhattan Project</a>. He developed the mathematical models behind the <a href=\"/wiki/Explosive_lens\" title=\"Explosive lens\">explosive lenses</a> used in the <a href=\"/wiki/Implosion-type_nuclear_weapon\" class=\"mw-redirect\" title=\"Implosion-type nuclear weapon\">implosion-type nuclear weapon</a>.<sup id=\"cite&#95;ref-FOOTNOTEMacrae1992&#95;11-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEMacrae1992-11\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> Before and after the war, he consulted for many organizations including the <a href=\"/wiki/Office_of_Scientific_Research_and_Development\" title=\"Office of Scientific Research and Development\">Office of Scientific Research and Development</a>, the <a href=\"/wiki/United_States_Army\" title=\"United States Army\">United States Army</a>'s <a href=\"/wiki/Ballistic_Research_Laboratory\" title=\"Ballistic Research Laboratory\">Ballistic Research Laboratory</a>, the <a href=\"/wiki/Armed_Forces_Special_Weapons_Project\" title=\"Armed Forces Special Weapons Project\">Armed Forces Special Weapons Project</a> and the <a href=\"/wiki/Oak_Ridge_National_Laboratory\" title=\"Oak Ridge National Laboratory\">Oak Ridge National Laboratory</a>.<sup id=\"cite&#95;ref-FOOTNOTEAspray1990246&#95;12-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEAspray1990246-12\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> At the peak of his influence in the 1950s, he chaired a number of <a href=\"/wiki/United_States_Department_of_Defense\" title=\"United States Department of Defense\">Defense Department</a> committees including the <a href=\"/wiki/Teapot_Committee\" title=\"Teapot Committee\">Strategic Missile Evaluation Committee</a> and the <a href=\"/wiki/ICBM\" class=\"mw-redirect\" title=\"ICBM\">ICBM</a> Scientific Advisory Committee. He was also a member of the influential <a href=\"/wiki/United_States_Atomic_Energy_Commission\" title=\"United States Atomic Energy Commission\">Atomic Energy Commission</a> in charge of all atomic energy development in the country. He played a key role alongside <a href=\"/wiki/Bernard_Schriever\" title=\"Bernard Schriever\">Bernard Schriever</a> and <a href=\"/wiki/Trevor_Gardner\" title=\"Trevor Gardner\">Trevor Gardner</a> in the design and development of the United States' first <a href=\"/wiki/Intercontinental_ballistic_missile\" title=\"Intercontinental ballistic missile\">intercontinental ballistic missile</a> (ICBM) programs.<sup id=\"cite&#95;ref-FOOTNOTESheehan2010&#95;13-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTESheehan2010-13\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> At that time he was considered the nation's foremost expert on <a href=\"/wiki/Nuclear_weapon\" title=\"Nuclear weapon\">nuclear weaponry</a> and the leading defense scientist at the <a href=\"/wiki/United_States_Department_of_Defense\" title=\"United States Department of Defense\">U.S. Department of Defense</a>.\n</p><p>Von Neumann's contributions and intellectual ability drew praise from colleagues in physics, mathematics, and beyond. His accolades include a <a href=\"/wiki/Medal_of_Freedom_(1945)\" title=\"Medal of Freedom (1945)\">Medal of Freedom</a> and a <a href=\"/wiki/Von_Neumann_(crater)\" title=\"Von Neumann (crater)\">crater on the Moon</a> named in his honor.\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r886046785\">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class=\"toclimit-3\"><meta property=\"mw:PageProp/toc\" /></div>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-FOOTNOTEDyson201248-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEDyson201248_1-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFDyson2012\">Dyson 2012</a>, p.&#160;48.</span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFIsraelGasca2009\" class=\"citation book cs1 cs1-prop-interwiki-linked-name\"><a href=\"https://it.wikipedia.org/wiki/Giorgio_Israel\" class=\"extiw\" title=\"it:Giorgio Israel\">Israel, Giorgio</a> <span class=\"cs1-format\">[in Italian]</span>; Gasca, Ana Millan (2009). <i>The World as a Mathematical Game: John von Neumann and Twentieth Century Science</i>. Science Networks. Historical Studies. Vol.&#160;38. Basel: Birkhäuser. p.&#160;14. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2F978-3-7643-9896-5\">10.1007/978-3-7643-9896-5</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-7643-9896-5\" title=\"Special:BookSources/978-3-7643-9896-5\"><bdi>978-3-7643-9896-5</bdi></a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/318641638\">318641638</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+World+as+a+Mathematical+Game%3A+John+von+Neumann+and+Twentieth+Century+Science&amp;rft.place=Basel&amp;rft.series=Science+Networks.+Historical+Studies&amp;rft.pages=14&amp;rft.pub=Birkh%C3%A4user&amp;rft.date=2009&amp;rft&#95;id=info%3Aoclcnum%2F318641638&amp;rft&#95;id=info%3Adoi%2F10.1007%2F978-3-7643-9896-5&amp;rft.isbn=978-3-7643-9896-5&amp;rft.aulast=Israel&amp;rft.aufirst=Giorgio&amp;rft.au=Gasca%2C+Ana+Millan&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJohn+von+Neumann\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEGoldstine1980169-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEGoldstine1980169_3-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFGoldstine1980\">Goldstine 1980</a>, p.&#160;169.</span>\n</li>\n<li id=\"cite&#95;note-halperin1990-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-halperin1990_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><span id=\"CITEREFHalperin1990\" class=\"citation\"><a href=\"/wiki/Israel_Halperin\" title=\"Israel Halperin\">Halperin, Israel</a>. \"The Extraordinary Inspiration of John von Neumann\". In <a href=\"#CITEREFGlimmImpagliazzoSinger1990\">Glimm, Impagliazzo &amp; Singer (1990)</a>, p.&#160;16.</span></span>\n</li>\n<li id=\"cite&#95;note-genealogy-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-genealogy_6-0\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://mathgenealogy.org/id.php?id=53213\">John von Neumann</a> at the <a href=\"/wiki/Mathematics_Genealogy_Project\" title=\"Mathematics Genealogy Project\">Mathematics Genealogy Project</a>. Retrieved 2015-03-17.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTESzanton1992130-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTESzanton1992130_7-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFSzanton1992\">Szanton 1992</a>, p.&#160;130.</span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDempster2011\" class=\"citation journal cs1 cs1-prop-unfit\">Dempster, M. A. H. (February 2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140714163938/http://www.cambridge-systems.com/content/QFBenoitMandelbrotTribute.pdf\">\"Benoit B. Mandelbrot (1924–2010): a father of Quantitative Finance\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>Quantitative Finance</i>. <b>11</b> (2): <span class=\"nowrap\">155–</span>156. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1080%2F14697688.2011.552332\">10.1080/14697688.2011.552332</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:154802171\">154802171</a>. Archived from the original on 2014-07-14.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Quantitative+Finance&amp;rft.atitle=Benoit+B.+Mandelbrot+%281924%E2%80%932010%29%3A+a+father+of+Quantitative+Finance&amp;rft.volume=11&amp;rft.issue=2&amp;rft.pages=155-156&amp;rft.date=2011-02&amp;rft&#95;id=info%3Adoi%2F10.1080%2F14697688.2011.552332&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A154802171%23id-name%3DS2CID&amp;rft.aulast=Dempster&amp;rft.aufirst=M.+A.+H.&amp;rft&#95;id=http%3A%2F%2Fwww.cambridge-systems.com%2Fcontent%2FQFBenoitMandelbrotTribute.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJohn+von+Neumann\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTERédei19997-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTERédei19997_10-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRédei1999\">Rédei 1999</a>, p.&#160;7.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEMacrae1992-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEMacrae1992_11-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFMacrae1992\">Macrae 1992</a>.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEAspray1990246-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEAspray1990246_12-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFAspray1990\">Aspray 1990</a>, p.&#160;246.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTESheehan2010-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTESheehan2010_13-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFSheehan2010\">Sheehan 2010</a>.</span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;note&gt;</code> tags on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;note&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐226x7\nCached time: 20260918164209\nCache expiry: 28800\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 1.400 seconds\nReal time usage: 1.735 seconds\nPreprocessor visited node count: 10849/1000000\nRevision size: 7626/2097152 bytes\nPost‐expand include size: 81818/2097152 bytes\nTemplate argument size: 26067/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 20239/5000000 bytes\nLua time usage: 0.974/10.000 seconds\nLua memory usage: 20360747/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00% 1681.379      1 -total\n 53.40%  897.816      1 Template:Infobox_officeholder\n 29.84%  501.686      1 Template:Infobox_scientist\n 22.83%  383.939      9 Template:Ubl\n 14.27%  239.976      7 Template:Sfn\n 10.84%  182.180      1 Template:Langx\n  8.91%  149.732      2 Template:Marriage\n  7.90%  132.832      1 Template:Birth_date\n  7.88%  132.436     17 Template:Infobox_officeholder/office\n  7.79%  130.955      1 Template:Short_description\n-->\n\n<!-- Render ID e3d8154e-b37f-11f1-ab05-bb1aed92c91f -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Good articles*",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Applied science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Armed Forces Special Weapons Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arthur Burks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ballistic Research Laboratory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Basic research",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Benoit Mandelbrot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bernard Schriever",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Budapest",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bôcher Memorial Prize",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Carl-Gustaf Rossby Research Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cellular automaton",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chemistry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DNA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "David Hilbert",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctoral advisor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Donald B. Gillies",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dwight D. Eisenhower",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ETH Zurich",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Economics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Enrico Fermi Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ergodic theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erhard Schmidt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eugene M. Zuckert",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eugene Wigner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Explosive lens",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eötvös Loránd University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Friederich Ignaz Mautner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Game theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "George Pólya",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gábor Szegő",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hermann Weyl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Humboldt University of Berlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hungarian language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ICBM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Implosion-type nuclear weapon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Institute for Advanced Study",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intercontinental ballistic missile",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Israel Halperin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John Stephens Graham",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "József Kürschák",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Klára Dán von Neumann",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lipót Fejér",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of things named after John von Neumann",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Los Alamos Laboratory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "László Rátz",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manhattan Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Marina von Neumann Whitman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical and theoretical biology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical formulation of quantum mechanics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical physics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics Genealogy Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Medal for Merit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Medal of Freedom (1945)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Michael Fekete",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "National Defense Research Committee",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Navy Distinguished Civilian Service Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nuclear weapon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oak Ridge National Laboratory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Office of Scientific Research and Development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Paul Halmos",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Personal name",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Peter Lax",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Physics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Princeton Cemetery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Princeton University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quantum physics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Self-replication",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spectral theory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Statistics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Teapot Committee",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Theoretical physics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thesis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Trevor Gardner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "United States Army",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "United States Atomic Energy Commission",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "United States Department of Defense",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Göttingen",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Hamburg",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Von Neumann (crater)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Von Neumann algebras",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Von Neumann universal constructor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Washington, D.C.",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "World War II",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Hungarian and American mathematician and physicist (1903–1957)",
+          "toc": "",
+          "page_image_free": "JohnvonNeumann-LosAlamos.gif",
+          "wikibase_item": "Q17455",
+          "wikibase-badge-Q17437798": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "LLVM",
+    "url": "https://en.wikipedia.org/wiki/LLVM",
+    "summary": "Compiler backend for multiple programming languages LLVM The LLVM logo, a stylized wyvern Original authors Chris Lattner Vikram Adve Developer LLVM Developer Group Release 2003 ; 23 years ago ( 2003 ) Stable release 23.1.1 / 8 September 2026 Written in C++ Operating system Cross-platform Type Compiler License Apache License 2.0 with LLVM Exceptions (v9.0.0 or later) Legacy license: UIUC ( BSD-style ) Website www .llvm .org Repository github .com /llvm LLVM is a set of compiler and toolchain technologies that can be used to develop a frontend for any programming language and a backend for any instruction set architecture . LLVM is designed around a language-independent intermediate representation (IR) that serves as a portable , high-level assembly language that can be optimized with a variety of transformations over multiple passes. The name LLVM originally stood for Low Level Virtual Machine. However, the project has since expanded, and the name is no longer an acronym but an orphan initialism . LLVM is written in C++ and is designed for compile-time , link-time , and runtime optimization. Originally implemented for C and C++, the language-agnostic design of LLVM has since spawned a wide variety of frontends: languages with compilers that use LLVM (or which do not directly use LLVM but can generate compiled programs as LLVM IR) include ActionScript , Ada , C# for .NET , Common Lisp , Crystal , CUDA , D , Delphi , Dylan , Forth , Fortran , FreeBASIC , Free Pascal , Halide , Haskell , Idris , Jai (only for optimized release builds), Java bytecode , Julia , Kotlin , LabVIEW 's G language, Objective-C , OpenCL , Odin, PicoLisp , PostgreSQL 's SQL and PL/pgSQL , Ruby , Rust , Scala , Standard ML , Swift , Wolfram Language , Xojo , and Zig . ^ \"LLVM Logo\" . The LLVM Compiler Infrastructure Project . ^ \"LLVM 23.1.1\" . September 8, 2026 . Retrieved September 8, 2026 . ^ \"LICENSE.TXT\" . llvm.org . Retrieved September 24, 2019 . ^ \"LLVM Developer Policy — LLVM 20.0.0git documentation\" . llvm.org . Retrieved November 9, 2024 . ^ \"The LLVM Compiler Infrastructure Project\" . Retrieved March 11, 2016 . ^ \"LLVM Language Reference Manual\" . Retrieved June 9, 2019 . ^ \"The LLVM Compiler Infrastructure Project\" . llvm.org . Retrieved January 13, 2025 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"Announcing LLILC - A new LLVM-based Compiler for .NET\" . dotnetfoundation.org . Archived from the original on December 12, 2021 . Retrieved September 12, 2020 . ^ \"Mono LLVM\" . Retrieved March 10, 2013 . ^ Lattner, Chris (2011). \"LLVM\" . In Brown, Amy; Wilson, Greg (eds.). The Architecture of Open Source Applications . ^ \"Clasp\" . Clasp Developers . Retrieved December 2, 2024 . ^ \"LDC\" . D Wiki . Retrieved December 2, 2024 . ^ \"LLVM-based Delphi Compilers\" . Embarcadero . Retrieved November 26, 2024 . ^ \"MovForth\" . GitHub . November 28, 2021. ^ \"The Flang Compiler\" . LLVM Project . Retrieved December 2, 2024 . ^ \"Rapid\" . Rapid . Retrieved November 22, 2024 . ^ Wong, William (May 23, 2017). \"What's the Difference Between LabVIEW 2017 and LabVIEW NXG?\" . Electronic Design . ^ \"NI LabVIEW Compiler: Under the Hood\" . ^ Larabel, Michael (April 11, 2018). \"Khronos Officially Announces Its LLVM/SPIR-V Translator\" . Phoronix.com . ^ \"Frequently Asked Questions\" . odin-lang.org . Retrieved January 26, 2026 . ^ \"32.1. What is JIT compilation?\" . PostgreSQL Documentation . November 12, 2020 . Retrieved January 25, 2021 . ^ \"Features\" . RubyMotion . Scratchwork Development LLC . Retrieved June 17, 2017 . RubyMotion transforms the Ruby source code of your project into ... machine code using a[n] ... ahead-of-time (AOT) compiler, based on LLVM. ^ \"Code Generation - Guide to Rustc Development\" . rust-lang.org . Retrieved January 4, 2023 . ^ Reedy, Geoff (September 24, 2012). \"Compiling Scala to LLVM\" . St. Louis, Missouri, United States . Retrieved February 19, 2013 . ^ \"Scala Native\" . Retrieved November 26, 2023 . ^ \"LLVMCodegen\" . MLton . Retrieved November 26, 2024 . ^ Wolfram Language Documentation",
+    "text": "Compiler backend for multiple programming languages LLVM The LLVM logo, a stylized wyvern Original authors Chris Lattner Vikram Adve Developer LLVM Developer Group Release 2003 ; 23 years ago ( 2003 ) Stable release 23.1.1 / 8 September 2026 Written in C++ Operating system Cross-platform Type Compiler License Apache License 2.0 with LLVM Exceptions (v9.0.0 or later) Legacy license: UIUC ( BSD-style ) Website www .llvm .org Repository github .com /llvm LLVM is a set of compiler and toolchain technologies that can be used to develop a frontend for any programming language and a backend for any instruction set architecture . LLVM is designed around a language-independent intermediate representation (IR) that serves as a portable , high-level assembly language that can be optimized with a variety of transformations over multiple passes. The name LLVM originally stood for Low Level Virtual Machine. However, the project has since expanded, and the name is no longer an acronym but an orphan initialism . LLVM is written in C++ and is designed for compile-time , link-time , and runtime optimization. Originally implemented for C and C++, the language-agnostic design of LLVM has since spawned a wide variety of frontends: languages with compilers that use LLVM (or which do not directly use LLVM but can generate compiled programs as LLVM IR) include ActionScript , Ada , C# for .NET , Common Lisp , Crystal , CUDA , D , Delphi , Dylan , Forth , Fortran , FreeBASIC , Free Pascal , Halide , Haskell , Idris , Jai (only for optimized release builds), Java bytecode , Julia , Kotlin , LabVIEW 's G language, Objective-C , OpenCL , Odin, PicoLisp , PostgreSQL 's SQL and PL/pgSQL , Ruby , Rust , Scala , Standard ML , Swift , Wolfram Language , Xojo , and Zig . ^ \"LLVM Logo\" . The LLVM Compiler Infrastructure Project . ^ \"LLVM 23.1.1\" . September 8, 2026 . Retrieved September 8, 2026 . ^ \"LICENSE.TXT\" . llvm.org . Retrieved September 24, 2019 . ^ \"LLVM Developer Policy — LLVM 20.0.0git documentation\" . llvm.org . Retrieved November 9, 2024 . ^ \"The LLVM Compiler Infrastructure Project\" . Retrieved March 11, 2016 . ^ \"LLVM Language Reference Manual\" . Retrieved June 9, 2019 . ^ \"The LLVM Compiler Infrastructure Project\" . llvm.org . Retrieved January 13, 2025 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"Announcing LLILC - A new LLVM-based Compiler for .NET\" . dotnetfoundation.org . Archived from the original on December 12, 2021 . Retrieved September 12, 2020 . ^ \"Mono LLVM\" . Retrieved March 10, 2013 . ^ Lattner, Chris (2011). \"LLVM\" . In Brown, Amy; Wilson, Greg (eds.). The Architecture of Open Source Applications . ^ \"Clasp\" . Clasp Developers . Retrieved December 2, 2024 . ^ \"LDC\" . D Wiki . Retrieved December 2, 2024 . ^ \"LLVM-based Delphi Compilers\" . Embarcadero . Retrieved November 26, 2024 . ^ \"MovForth\" . GitHub . November 28, 2021. ^ \"The Flang Compiler\" . LLVM Project . Retrieved December 2, 2024 . ^ \"Rapid\" . Rapid . Retrieved November 22, 2024 . ^ Wong, William (May 23, 2017). \"What's the Difference Between LabVIEW 2017 and LabVIEW NXG?\" . Electronic Design . ^ \"NI LabVIEW Compiler: Under the Hood\" . ^ Larabel, Michael (April 11, 2018). \"Khronos Officially Announces Its LLVM/SPIR-V Translator\" . Phoronix.com . ^ \"Frequently Asked Questions\" . odin-lang.org . Retrieved January 26, 2026 . ^ \"32.1. What is JIT compilation?\" . PostgreSQL Documentation . November 12, 2020 . Retrieved January 25, 2021 . ^ \"Features\" . RubyMotion . Scratchwork Development LLC . Retrieved June 17, 2017 . RubyMotion transforms the Ruby source code of your project into ... machine code using a[n] ... ahead-of-time (AOT) compiler, based on LLVM. ^ \"Code Generation - Guide to Rustc Development\" . rust-lang.org . Retrieved January 4, 2023 . ^ Reedy, Geoff (September 24, 2012). \"Compiling Scala to LLVM\" . St. Louis, Missouri, United States . Retrieved February 19, 2013 . ^ \"Scala Native\" . Retrieved November 26, 2023 . ^ \"LLVMCodegen\" . MLton . Retrieved November 26, 2024 . ^ Wolfram Language Documentation",
+    "links": [
+      ".NET",
+      "ActionScript",
+      "Ada (programming language)",
+      "Apache License 2.0",
+      "Assembly language",
+      "BSD licenses",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "CUDA",
+      "Chris Lattner",
+      "Common Lisp",
+      "Compile-time",
+      "Compiler",
+      "Cross-platform software",
+      "Crystal (programming language)",
+      "D (programming language)",
+      "Delphi (software)",
+      "Dylan (programming language)",
+      "Electronic Design (magazine)",
+      "Forth (programming language)",
+      "Fortran",
+      "Free Pascal",
+      "FreeBASIC",
+      "GitHub",
+      "Halide (programming language)",
+      "Haskell",
+      "Idris (programming language)",
+      "Instruction set architecture",
+      "Intermediate representation",
+      "Jai (programming language)",
+      "Java bytecode",
+      "Julia (programming language)",
+      "Kotlin",
+      "LabVIEW",
+      "Language-independent specification",
+      "Linker (computing)",
+      "Objective-C",
+      "OpenCL",
+      "Operating system",
+      "Optimizing compiler",
+      "Orphan initialism",
+      "PL/pgSQL",
+      "PicoLisp",
+      "PostgreSQL",
+      "Programmer",
+      "Programming language",
+      "Repository (version control)",
+      "Ruby (programming language)",
+      "RubyMotion",
+      "Runtime (program lifecycle phase)",
+      "Rust (programming language)",
+      "Scala (programming language)",
+      "Software categories",
+      "Software license",
+      "Software portability",
+      "Software release life cycle",
+      "Standard ML",
+      "Swift (programming language)",
+      "Toolchain",
+      "University of Illinois/NCSA Open Source License",
+      "Vikram Adve",
+      "Wolfram Language",
+      "Wyvern",
+      "Xojo",
+      "Zig (programming language)"
+    ],
+    "page_id": 654611,
+    "revision_id": 1364744671,
+    "retrieved_at": "2026-09-18T16:41:48.971060+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260704205713|1362568676",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 654611,
+            "ns": 0,
+            "title": "LLVM",
+            "revisions": [
+              {
+                "revid": 1364744671,
+                "parentid": 1362568676
+              }
+            ],
+            "pageprops": {
+              "page_image": "LLVM_logo.png",
+              "wikibase-shortdesc": "Compiler backend for multiple programming languages",
+              "wikibase_item": "Q223490"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "LLVM",
+        "pageid": 654611,
+        "revid": 1364744671,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Compiler backend for multiple programming languages</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">LLVM</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:LLVM_logo.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/en/thumb/d/dd/LLVM_logo.png/250px-LLVM_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"157\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//upload.wikimedia.org/wikipedia/en/d/dd/LLVM_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"399\" data-file-height=\"250\" /></a></span><div class=\"infobox-caption\">The LLVM logo, a stylized <a href=\"/wiki/Wyvern\" title=\"Wyvern\">wyvern</a><sup id=\"cite&#95;ref-logo&#95;1-0\" class=\"reference\"><a href=\"#cite_note-logo-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original authors</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Chris_Lattner\" title=\"Chris Lattner\">Chris Lattner</a></li><li><a href=\"/wiki/Vikram_Adve\" title=\"Vikram Adve\">Vikram Adve</a></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\">LLVM Developer Group</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">2003<span class=\"noprint\">&#59;&#32;23&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2003</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">23.1.1<sup id=\"cite&#95;ref-wikidata-d7ac5c8d696d348dbd8f214d76e303b8cca61afa-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-d7ac5c8d696d348dbd8f214d76e303b8cca61afa-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q223490?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 8 September 2026</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache License 2.0</a> with LLVM Exceptions (v9.0.0 or later)<sup id=\"cite&#95;ref-License&#95;3-0\" class=\"reference\"><a href=\"#cite_note-License-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><br />\nLegacy license:<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/University_of_Illinois/NCSA_Open_Source_License\" title=\"University of Illinois/NCSA Open Source License\">UIUC</a> (<a href=\"/wiki/BSD_licenses\" title=\"BSD licenses\">BSD-style</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.llvm.org\">www<wbr />.llvm<wbr />.org</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/llvm\">github<wbr />.com<wbr />/llvm</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q223490#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>LLVM</b> is a set of <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> and <a href=\"/wiki/Toolchain\" title=\"Toolchain\">toolchain</a> technologies<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> that can be used to develop a <a href=\"/wiki/Compiler#Front_end\" title=\"Compiler\">frontend</a> for any <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> and a <a href=\"/wiki/Compiler#Back_end\" title=\"Compiler\">backend</a> for any <a href=\"/wiki/Instruction_set_architecture\" title=\"Instruction set architecture\">instruction set architecture</a>. LLVM is designed around a <a href=\"/wiki/Language-independent_specification\" title=\"Language-independent specification\">language-independent</a> <a href=\"/wiki/Intermediate_representation\" title=\"Intermediate representation\">intermediate representation</a> (IR) that serves as a <a href=\"/wiki/Software_portability\" title=\"Software portability\">portable</a>, high-level <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly language</a> that can be <a href=\"/wiki/Optimizing_compiler\" title=\"Optimizing compiler\">optimized</a> with a variety of transformations over multiple passes.<sup id=\"cite&#95;ref-langref&#95;6-0\" class=\"reference\"><a href=\"#cite_note-langref-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> The name <i>LLVM</i> originally stood for <i>Low Level Virtual Machine.</i> However, the project has since expanded, and the name is no longer an acronym but an <a href=\"/wiki/Orphan_initialism\" class=\"mw-redirect\" title=\"Orphan initialism\">orphan initialism</a>.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>LLVM is written in <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> and is designed for <a href=\"/wiki/Compile-time\" class=\"mw-redirect\" title=\"Compile-time\">compile-time</a>, <a href=\"/wiki/Linker_(computing)\" title=\"Linker (computing)\">link-time</a>, and <a href=\"/wiki/Runtime_(program_lifecycle_phase)\" class=\"mw-redirect\" title=\"Runtime (program lifecycle phase)\">runtime</a> optimization. Originally implemented for <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> and C++, the language-agnostic design of LLVM has since spawned a wide variety of frontends: languages with compilers that use LLVM (or which do not directly use LLVM but can generate compiled programs as LLVM IR) include <a href=\"/wiki/ActionScript\" title=\"ActionScript\">ActionScript</a>, <a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a> for <a href=\"/wiki/.NET\" title=\".NET\">.NET</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Common_Lisp\" title=\"Common Lisp\">Common Lisp</a>,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Crystal_(programming_language)\" title=\"Crystal (programming language)\">Crystal</a>, <a href=\"/wiki/CUDA\" title=\"CUDA\">CUDA</a>, <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>,<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Delphi_(software)\" title=\"Delphi (software)\">Delphi</a>,<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Dylan_(programming_language)\" title=\"Dylan (programming language)\">Dylan</a>, <a href=\"/wiki/Forth_(programming_language)\" title=\"Forth (programming language)\">Forth</a>,<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>,<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/FreeBASIC\" title=\"FreeBASIC\">FreeBASIC</a>, <a href=\"/wiki/Free_Pascal\" title=\"Free Pascal\">Free Pascal</a>, <a href=\"/wiki/Halide_(programming_language)\" title=\"Halide (programming language)\">Halide</a>, <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>, <a href=\"/wiki/Idris_(programming_language)\" title=\"Idris (programming language)\">Idris</a>,<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Jai_(programming_language)\" class=\"mw-redirect\" title=\"Jai (programming language)\">Jai</a> (only for optimized release builds), <a href=\"/wiki/Java_bytecode\" class=\"mw-redirect\" title=\"Java bytecode\">Java bytecode</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>, <a href=\"/wiki/Kotlin\" title=\"Kotlin\">Kotlin</a>, <a href=\"/wiki/LabVIEW\" title=\"LabVIEW\">LabVIEW</a>'s G language,<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>, <a href=\"/wiki/OpenCL\" title=\"OpenCL\">OpenCL</a>,<sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup> Odin,<sup id=\"cite&#95;ref-20\" class=\"reference\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/PicoLisp\" title=\"PicoLisp\">PicoLisp</a>, <a href=\"/wiki/PostgreSQL\" title=\"PostgreSQL\">PostgreSQL</a>'s SQL and <a href=\"/wiki/PL/pgSQL\" title=\"PL/pgSQL\">PL/pgSQL</a>,<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>,<sup id=\"cite&#95;ref-22\" class=\"reference\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-23\" class=\"reference\"><a href=\"#cite_note-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>,<sup id=\"cite&#95;ref-24\" class=\"reference\"><a href=\"#cite_note-24\"><span class=\"cite-bracket\">&#91;</span>24<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-25\" class=\"reference\"><a href=\"#cite_note-25\"><span class=\"cite-bracket\">&#91;</span>25<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Standard_ML\" title=\"Standard ML\">Standard ML</a>,<sup id=\"cite&#95;ref-26\" class=\"reference\"><a href=\"#cite_note-26\"><span class=\"cite-bracket\">&#91;</span>26<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>, <a href=\"/wiki/Wolfram_Language\" title=\"Wolfram Language\">Wolfram Language</a>,<sup id=\"cite&#95;ref-27\" class=\"reference\"><a href=\"#cite_note-27\"><span class=\"cite-bracket\">&#91;</span>27<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Xojo\" title=\"Xojo\">Xojo</a>, and <a href=\"/wiki/Zig_(programming_language)\" title=\"Zig (programming language)\">Zig</a>.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-logo-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-logo_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://llvm.org/Logo.html\">\"LLVM Logo\"</a>. <i>The LLVM Compiler Infrastructure Project</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+LLVM+Compiler+Infrastructure+Project&amp;rft.atitle=LLVM+Logo&amp;rft&#95;id=https%3A%2F%2Fllvm.org%2FLogo.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-d7ac5c8d696d348dbd8f214d76e303b8cca61afa-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-d7ac5c8d696d348dbd8f214d76e303b8cca61afa-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/llvm/llvm-project/releases/tag/llvmorg-23.1.1\">\"LLVM 23.1.1\"</a>. September 8, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 8,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=LLVM+23.1.1&amp;rft.date=2026-09-08&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fllvm%2Fllvm-project%2Freleases%2Ftag%2Fllvmorg-23.1.1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-License-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-License_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://releases.llvm.org/9.0.0/LICENSE.TXT\">\"LICENSE.TXT\"</a>. llvm.org<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 24,</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=LICENSE.TXT&amp;rft.pub=llvm.org&amp;rft&#95;id=https%3A%2F%2Freleases.llvm.org%2F9.0.0%2FLICENSE.TXT&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://llvm.org/docs/DeveloperPolicy.html#legacy\">\"LLVM Developer Policy — LLVM 20.0.0git documentation\"</a>. <i>llvm.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 9,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=llvm.org&amp;rft.atitle=LLVM+Developer+Policy+%E2%80%94+LLVM+20.0.0git+documentation&amp;rft&#95;id=https%3A%2F%2Fllvm.org%2Fdocs%2FDeveloperPolicy.html%23legacy&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://llvm.org/\">\"The LLVM Compiler Infrastructure Project\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 11,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+LLVM+Compiler+Infrastructure+Project&amp;rft&#95;id=https%3A%2F%2Fllvm.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-langref-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-langref_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://llvm.org/docs/LangRef.html\">\"LLVM Language Reference Manual\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 9,</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=LLVM+Language+Reference+Manual&amp;rft&#95;id=https%3A%2F%2Fllvm.org%2Fdocs%2FLangRef.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://llvm.org/\">\"The LLVM Compiler Infrastructure Project\"</a>. <i>llvm.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 13,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=llvm.org&amp;rft.atitle=The+LLVM+Compiler+Infrastructure+Project&amp;rft&#95;id=https%3A%2F%2Fllvm.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>:  CS1 maint: deprecated archival service (<a href=\"/wiki/Category:CS1_maint:_deprecated_archival_service\" title=\"Category:CS1 maint: deprecated archival service\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20211212184833/https://dotnetfoundation.org/blog/2015/04/14/announcing-llilc-llvm-for-dotnet\">\"Announcing LLILC - A new LLVM-based Compiler for .NET\"</a>. <i>dotnetfoundation.org</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://dotnetfoundation.org/blog/2015/04/14/announcing-llilc-llvm-for-dotnet\">the original</a> on December 12, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 12,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=dotnetfoundation.org&amp;rft.atitle=Announcing+LLILC+-+A+new+LLVM-based+Compiler+for+.NET&amp;rft&#95;id=https%3A%2F%2Fdotnetfoundation.org%2Fblog%2F2015%2F04%2F14%2Fannouncing-llilc-llvm-for-dotnet&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.mono-project.com/Mono_LLVM\">\"Mono LLVM\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 10,</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Mono+LLVM&amp;rft&#95;id=https%3A%2F%2Fwww.mono-project.com%2FMono&#95;LLVM&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLattner2011\" class=\"citation book cs1\"><a href=\"/wiki/Chris_Lattner\" title=\"Chris Lattner\">Lattner, Chris</a> (2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.aosabook.org/en/llvm.html\">\"LLVM\"</a>. In Brown, Amy; Wilson, Greg (eds.). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.aosabook.org/\"><i>The Architecture of Open Source Applications</i></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=LLVM&amp;rft.btitle=The+Architecture+of+Open+Source+Applications&amp;rft.date=2011&amp;rft.aulast=Lattner&amp;rft.aufirst=Chris&amp;rft&#95;id=https%3A%2F%2Fwww.aosabook.org%2Fen%2Fllvm.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clasp-developers.github.io/\">\"Clasp\"</a>. Clasp Developers<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 2,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Clasp&amp;rft.pub=Clasp+Developers&amp;rft&#95;id=https%3A%2F%2Fclasp-developers.github.io%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.dlang.org/LDC\">\"LDC\"</a>. <i>D Wiki</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 2,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=D+Wiki&amp;rft.atitle=LDC&amp;rft&#95;id=https%3A%2F%2Fwiki.dlang.org%2FLDC&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docwiki.embarcadero.com/RADStudio/Sydney/en/LLVM-based_Delphi_Compilers\">\"LLVM-based Delphi Compilers\"</a>. Embarcadero<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 26,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=LLVM-based+Delphi+Compilers&amp;rft.pub=Embarcadero&amp;rft&#95;id=https%3A%2F%2Fdocwiki.embarcadero.com%2FRADStudio%2FSydney%2Fen%2FLLVM-based&#95;Delphi&#95;Compilers&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/reschivon/movForth\">\"MovForth\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. November 28, 2021.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=MovForth&amp;rft.date=2021-11-28&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Freschivon%2FmovForth&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://flang.llvm.org\">\"The Flang Compiler\"</a>. LLVM Project<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 2,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Flang+Compiler&amp;rft.pub=LLVM+Project&amp;rft&#95;id=https%3A%2F%2Fflang.llvm.org&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://rapid.sinyax.net/\">\"Rapid\"</a>. <i>Rapid</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 22,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Rapid&amp;rft.atitle=Rapid&amp;rft&#95;id=https%3A%2F%2Frapid.sinyax.net%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWong2017\" class=\"citation magazine cs1\">Wong, William (May 23, 2017). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.electronicdesign.com/test-measurement/what-s-difference-between-labview-2017-and-labview-nxg\">\"What's the Difference Between LabVIEW 2017 and LabVIEW NXG?\"</a>. <i><a href=\"/wiki/Electronic_Design_(magazine)\" title=\"Electronic Design (magazine)\">Electronic Design</a></i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Electronic+Design&amp;rft.atitle=What%27s+the+Difference+Between+LabVIEW+2017+and+LabVIEW+NXG%3F&amp;rft.date=2017-05-23&amp;rft.aulast=Wong&amp;rft.aufirst=William&amp;rft&#95;id=https%3A%2F%2Fwww.electronicdesign.com%2Ftest-measurement%2Fwhat-s-difference-between-labview-2017-and-labview-nxg&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.ni.com/en/support/documentation/supplemental/10/ni-labview-compiler--under-the-hood.html\">\"NI LabVIEW Compiler: Under the Hood\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NI+LabVIEW+Compiler%3A+Under+the+Hood&amp;rft&#95;id=https%3A%2F%2Fwww.ni.com%2Fen%2Fsupport%2Fdocumentation%2Fsupplemental%2F10%2Fni-labview-compiler--under-the-hood.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-19\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLarabel2018\" class=\"citation news cs1\">Larabel, Michael (April 11, 2018). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.phoronix.com/scan.php?page=news_item&amp;px=SPIRV-LLVM-Translator\">\"Khronos Officially Announces Its LLVM/SPIR-V Translator\"</a>. <i>Phoronix.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Phoronix.com&amp;rft.atitle=Khronos+Officially+Announces+Its+LLVM%2FSPIR-V+Translator&amp;rft.date=2018-04-11&amp;rft.aulast=Larabel&amp;rft.aufirst=Michael&amp;rft&#95;id=https%3A%2F%2Fwww.phoronix.com%2Fscan.php%3Fpage%3Dnews&#95;item%26px%3DSPIRV-LLVM-Translator&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-20\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://odin-lang.org/docs/faq/\">\"Frequently Asked Questions\"</a>. <i>odin-lang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 26,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=odin-lang.org&amp;rft.atitle=Frequently+Asked+Questions&amp;rft&#95;id=https%3A%2F%2Fodin-lang.org%2Fdocs%2Ffaq%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.postgresql.org/docs/11/jit-reason.html\">\"32.1. What is JIT compilation?\"</a>. <i>PostgreSQL Documentation</i>. November 12, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 25,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=PostgreSQL+Documentation&amp;rft.atitle=32.1.+What+is+JIT+compilation%3F&amp;rft.date=2020-11-12&amp;rft&#95;id=https%3A%2F%2Fwww.postgresql.org%2Fdocs%2F11%2Fjit-reason.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-22\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.rubymotion.com/tour/features/\">\"Features\"</a>. <i>RubyMotion</i>. Scratchwork Development LLC<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 17,</span> 2017</span>. <q><a href=\"/wiki/RubyMotion\" title=\"RubyMotion\">RubyMotion</a> transforms the Ruby source code of your project into ... machine code using a[n] ... ahead-of-time (AOT) compiler, based on LLVM.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=RubyMotion&amp;rft.atitle=Features&amp;rft&#95;id=http%3A%2F%2Fwww.rubymotion.com%2Ftour%2Ffeatures%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-23\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://rustc-dev-guide.rust-lang.org/backend/codegen.html\">\"Code Generation - Guide to Rustc Development\"</a>. <i>rust-lang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 4,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=rust-lang.org&amp;rft.atitle=Code+Generation+-+Guide+to+Rustc+Development&amp;rft&#95;id=https%3A%2F%2Frustc-dev-guide.rust-lang.org%2Fbackend%2Fcodegen.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-24\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFReedy2012\" class=\"citation web cs1\">Reedy, Geoff (September 24, 2012). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.infoq.com/presentations/Scala-LLVM\">\"Compiling Scala to LLVM\"</a>. St. Louis, Missouri, United States<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 19,</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Compiling+Scala+to+LLVM&amp;rft.place=St.+Louis%2C+Missouri%2C+United+States&amp;rft.date=2012-09-24&amp;rft.aulast=Reedy&amp;rft.aufirst=Geoff&amp;rft&#95;id=http%3A%2F%2Fwww.infoq.com%2Fpresentations%2FScala-LLVM&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-25\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-25\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://scala-native.org/\">\"Scala Native\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 26,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Scala+Native&amp;rft&#95;id=https%3A%2F%2Fscala-native.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-26\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-26\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://mlton.org/LLVMCodegen\">\"LLVMCodegen\"</a>. <i>MLton</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 26,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MLton&amp;rft.atitle=LLVMCodegen&amp;rft&#95;id=http%3A%2F%2Fmlton.org%2FLLVMCodegen&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALLVM\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-27\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-27\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://reference.wolfram.com/language/ref/FunctionCompile.html\">Wolfram Language Documentation</a></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐84ggs\nCached time: 20260918164214\nCache expiry: 28800\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.650 seconds\nReal time usage: 0.831 seconds\nPreprocessor visited node count: 1908/1000000\nRevision size: 8529/2097152 bytes\nPost‐expand include size: 49625/2097152 bytes\nTemplate argument size: 3993/2097152 bytes\nHighest expansion depth: 20/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 65241/5000000 bytes\nLua time usage: 0.473/10.000 seconds\nLua memory usage: 11664819/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  788.502      1 -total\n 60.60%  477.831      2 Template:Infobox\n 59.17%  466.587      1 Template:Infobox_software\n 37.63%  296.707      1 Template:Infobox_software/simple\n 36.73%  289.611      6 Template:Wikidata\n 33.93%  267.501     18 Template:If_empty\n 15.58%  122.834      1 Template:Short_description\n 14.99%  118.173     22 Template:Cite_web\n  8.71%   68.692      2 Template:Pagetype\n  4.96%   39.095      9 Template:Main_other\n-->\n\n<!-- Render ID e6d2fac4-b37f-11f1-8bf3-c11a203fe4a5 -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Cite web",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".NET",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ActionScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache License 2.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSD licenses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CUDA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chris Lattner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile-time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crystal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Delphi (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dylan (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Electronic Design (magazine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Forth (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Pascal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Halide (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Idris (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intermediate representation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jai (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kotlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LabVIEW",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Language-independent specification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linker (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Optimizing compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Orphan initialism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/pgSQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PicoLisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PostgreSQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RubyMotion",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime (program lifecycle phase)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software portability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard ML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Toolchain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Illinois/NCSA Open Source License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vikram Adve",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wolfram Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wyvern",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xojo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zig (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: deprecated archival service",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Compiler backend for multiple programming languages",
+          "page_image": "LLVM_logo.png",
+          "wikibase_item": "Q223490"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2200 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "C (programming language)",
+    "url": "https://en.wikipedia.org/wiki/C_%28programming_language%29",
+    "summary": "General-purpose programming language \"C programming language\" redirects here. For the book, see The C Programming Language . \"C lang\" redirects here. For the compiler front end, see Clang . Not to be confused with C++ or C# . C Logotype used on the cover of the first edition of The C Programming Language Paradigm Multi-paradigm : imperative ( procedural ), structured Designed by Dennis Ritchie Developer ANSI X3J11 ( ANSI C ); ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 22 (Subcommittee 22) / WG 14 (Working Group 14) (ISO C) First appeared 1972 ; 54 years ago ( 1972 ) Stable release C23 / October 31, 2024 ; 22 months ago ( 2024-10-31 ) Preview release C2Y (N3886) / May 24, 2026 ; 3 months ago ( 2026-05-24 ) Typing discipline Static , weak , manifest , nominal OS Cross-platform Filename extensions .c, .h Website c-language.org iso.org open-std.org Major implementations pcc , GCC , Clang , Intel C , C++Builder , Microsoft Visual C++ , Watcom C Dialects Cyclone , Unified Parallel C , Split-C , Cilk , C* Influenced by B , BCPL , CPL , ALGOL 68 , PL/I , Fortran Influenced Numerous : AMPL , AWK , csh , C++ , C-- , C# , Objective-C , D , Go , Java , JavaScript , JS++ , Julia , Limbo , LPC , Perl , PHP , Pike , Processing , Python , Rust , V (Vlang) , Vala , Verilog (HDL), Nim , Zig C Programming at Wikibooks This article is part of a series on the C programming language C libraries and tools Adns ALSA Allegro APR Argon2 Assimp bdwgc Berkeley DB BFD BGI BSAFE Chipmunk C POSIX library C standard library Cairo CGNS CLIPS Core Audio Core Foundation Core Image Core Text Cryptlib cURL DevIL DirectFB Dld Expat FFmpeg Fontconfig FreeTDS FreeType GD Graphics Library GDK GEGL GGI GIO GLib glibc GLFW GNet GNU Libtool GNU portability library GNU Portable Threads GNU Readline GnuTLS GObject GTK Scene Graph Kit GTK HDF Intel IPP IUP J2K-Codec JasPer LDAP API LZO Liba52 Libaf Libao2 libarchive Libart Libass Libavcodec Libavdevice Libavfilter Libavformat Libpcap Libdca Libdvdcss libevent libffi Libgegl libgcrypt Libgimp Libhybris Libinput libjpeg libLAS Libmpcodecs Libmpdemux libpng Libpostproc libpq LibreSSL Librsb Librsvg libsndfile libsodium Libswscale LibTIFF Libusb libuv LibVLC LibVNCServer Libvpx Libwww libxml2 Libxslt libzip LMDB LittleCMS LZ4 LZFSE MatrixSSL Mbed TLS MediaLib Mesa Microwindows Ming Mongoose Mpg123 MPIR MsQuic MuJoCo Mustache Ncurses Nettle Newt Netpbm Nghttp2 Nrrd Oniguruma OpenCL OpenCV OpenGL OpenGL Utility Library OpenJPEG OpenSSL Pango PCRE PROJ Quartz 2D Raylib Redland RDF S2n-tls Setcontext SFML SDL SQLite systemd Tk VDPAU Vorbis VTD-XML Win32 API Wimlib Windows.h WolfSSH WolfSSL X Toolkit Intrinsics x264 XCB Xft Xlib XMDF XMLStarlet zlib Zopfli Zstd C IDEs Anjuta AppCode C++Builder CLion Code::Blocks CodeLite Dev-C++ Eclipse CDT Geany KDevelop LabWindows/CVI Microsoft Visual Studio MonoDevelop NetBeans IDE OpenWatcom Oracle Solaris Studio Pelles C IDE Qt Creator SlickEdit Ultimate++ Understand Visual Studio Code Xcode C compilers Acorn C/C++ AMD Optimizing C/C++ Compiler Amsterdam Compiler Kit Aztec C BDS C Cc65 Ccache Clang CodeWarrior Comeau C/C++ C++Builder Csmith Deep Blue C Digital Mars DJGPP GNU Compiler Collection HP aC++ IBM XL C/C++ Compilers Intel C++ Compiler LabWindows/CVI Lattice C LCC Macintosh Programmer's Workshop Megamax C Microsoft Visual C++ MinGW Mingw-w64 Norcroft C compiler Open64 Oracle Developer Studio PathScale Portable C Compiler The Portland Group QuickC ROSE SAS/C Small Device C Compiler Small-C TDM-GCC TenDRA Compiler THINK C Tiny C Compiler Turbo C Vbcc VisualAge Watcom C/C++ Whitesmiths Z88DK Zig C mathematical libraries Automatically Tuned Linear Algebra Software Basic Linear Algebra Subprograms BLOPEX C mathematical functions Fastest Fourier Transform in the West GNU MPFR GNU Multiple Precision Arithmetic Library GNU Scientific Library hypre Integer set library LAPACK Libfixmath Lis (linear algebra library) LOBPCG Math Kernel Library Mathomatic OpenBLAS PARI/GP ScaLAPACK PETSc SLEPc UMFPACK See also C syntax History of C List of C programming books List of C software and tools List of C-family programming languages List of free software programmed in C Outline of the C programming language Computer programming portal C programming (Wikibooks) v t e C is a general-purpose programming language created in 1972 by Dennis Ritchie . By design, C gives programmers relatively direct access to the features of typical CPU architectures, customized for the target instruction set . It has been and continues to be used to implement operating systems (especially kernels ), device drivers , and protocol stacks , though its use in application software is decreasing. C is used on computers ranging from supercomputers to microcontrollers and embedded systems . C was initially developed as a successor to the B programming language at Bell Labs by Ritchie between 1972 and 1973. Its initial purpose was to construct utilities running on Unix , and was later applied to re-implementing the kernel of the Unix operating system. During the 1980s, C gradually gained popularity, leading to it becoming one of the most widely used programming languages , with C compilers available for practically all modern computer architectures and operating systems. The book The C Programming Language , co-authored by the original language designer, served for many years as the de facto standard for the language. C has been standardized since 1989 by the American National Standards Institute (ANSI) and, subsequently, jointly by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC). C is an imperative procedural language, supporting structured programming , lexical variable scope , and recursion , with a static type system . It was designed to be compiled to provide low-level access to memory and language constructs that map efficiently to machine instructions , all with minimal runtime support . Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards -compliant C program written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code. Although neither C nor its standard library provide some popular features found in other languages, it is flexible enough to support them. For example, object orientation and garbage collection are provided by external libraries GLib Object System and Boehm garbage collector , respectively. Since 2000, C has typically ranked as the most or second-most popular language in the TIOBE index . ^ a b Prinz, Peter; Crawford, Tony (December 16, 2005). C in a Nutshell . O'Reilly Media, Inc. p. 3. ISBN 978-0-596-55071-4 . ^ Ritchie (1993a) , p. 9. ^ Ritchie (1993b) , p. 9. ^ a b Ritchie (2003) . ^ \"N3886 Working Draft\" (PDF) . ISO/IEC JTC1/SC22/WG14 . Open Standards. May 28, 2026 . Retrieved August 4, 2026 . ^ Ritchie (1993a) , p. 8. ^ Ritchie (1993b) , p. 8. ^ \"Verilog HDL (and C)\" (PDF) . The Research School of Computer Science at the Australian National University. June 3, 2010. Archived from the original (PDF) on November 6, 2013 . Retrieved August 19, 2013 . 1980s: Verilog first introduced; Verilog inspired by the C programming language ^ \"The name is based on, and pronounced like the letter C in the English alphabet\" . the c programming language sound . English Chinese Dictionary. Archived from the original on November 17, 2022 . Retrieved November 17, 2022 . ^ Munoz, Daniel. \"After All These Years, the World is Still Powered by C Programming | Toptal\" . Toptal Engineering Blog . Retrieved June 15, 2024 . ^ \"C Language Drops to Lowest Popularity Rating\" . Developer.com . August 9, 2016. Archived from the original on August 22, 2022 . Retrieved August 1, 2022 . ^ Ritchie (1993a) . ^ \"Programming Language Popularity\" . 2009. Archived from the original on January 16, 2009 . Retrieved January 16, 2009 . ^ \"TIOBE Programming Community Index\" . 2009. Archived from the original on May 4, 2009 . Retrieved May 6, 2009 . ^ Ward, Terry A. (August 1983). \"Annotated C / A Bibliography of the C Language\" . Byte . p. 268 . Retrieved January 31, 2015 . ^ \"TIOBE Index for September 2024\" . Archived from the original on September 18, 2024 . Retrieved December 16, 2025 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "General-purpose programming language \"C programming language\" redirects here. For the book, see The C Programming Language . \"C lang\" redirects here. For the compiler front end, see Clang . Not to be confused with C++ or C# . C Logotype used on the cover of the first edition of The C Programming Language Paradigm Multi-paradigm : imperative ( procedural ), structured Designed by Dennis Ritchie Developer ANSI X3J11 ( ANSI C ); ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 22 (Subcommittee 22) / WG 14 (Working Group 14) (ISO C) First appeared 1972 ; 54 years ago ( 1972 ) Stable release C23 / October 31, 2024 ; 22 months ago ( 2024-10-31 ) Preview release C2Y (N3886) / May 24, 2026 ; 3 months ago ( 2026-05-24 ) Typing discipline Static , weak , manifest , nominal OS Cross-platform Filename extensions .c, .h Website c-language.org iso.org open-std.org Major implementations pcc , GCC , Clang , Intel C , C++Builder , Microsoft Visual C++ , Watcom C Dialects Cyclone , Unified Parallel C , Split-C , Cilk , C* Influenced by B , BCPL , CPL , ALGOL 68 , PL/I , Fortran Influenced Numerous : AMPL , AWK , csh , C++ , C-- , C# , Objective-C , D , Go , Java , JavaScript , JS++ , Julia , Limbo , LPC , Perl , PHP , Pike , Processing , Python , Rust , V (Vlang) , Vala , Verilog (HDL), Nim , Zig C Programming at Wikibooks This article is part of a series on the C programming language C libraries and tools Adns ALSA Allegro APR Argon2 Assimp bdwgc Berkeley DB BFD BGI BSAFE Chipmunk C POSIX library C standard library Cairo CGNS CLIPS Core Audio Core Foundation Core Image Core Text Cryptlib cURL DevIL DirectFB Dld Expat FFmpeg Fontconfig FreeTDS FreeType GD Graphics Library GDK GEGL GGI GIO GLib glibc GLFW GNet GNU Libtool GNU portability library GNU Portable Threads GNU Readline GnuTLS GObject GTK Scene Graph Kit GTK HDF Intel IPP IUP J2K-Codec JasPer LDAP API LZO Liba52 Libaf Libao2 libarchive Libart Libass Libavcodec Libavdevice Libavfilter Libavformat Libpcap Libdca Libdvdcss libevent libffi Libgegl libgcrypt Libgimp Libhybris Libinput libjpeg libLAS Libmpcodecs Libmpdemux libpng Libpostproc libpq LibreSSL Librsb Librsvg libsndfile libsodium Libswscale LibTIFF Libusb libuv LibVLC LibVNCServer Libvpx Libwww libxml2 Libxslt libzip LMDB LittleCMS LZ4 LZFSE MatrixSSL Mbed TLS MediaLib Mesa Microwindows Ming Mongoose Mpg123 MPIR MsQuic MuJoCo Mustache Ncurses Nettle Newt Netpbm Nghttp2 Nrrd Oniguruma OpenCL OpenCV OpenGL OpenGL Utility Library OpenJPEG OpenSSL Pango PCRE PROJ Quartz 2D Raylib Redland RDF S2n-tls Setcontext SFML SDL SQLite systemd Tk VDPAU Vorbis VTD-XML Win32 API Wimlib Windows.h WolfSSH WolfSSL X Toolkit Intrinsics x264 XCB Xft Xlib XMDF XMLStarlet zlib Zopfli Zstd C IDEs Anjuta AppCode C++Builder CLion Code::Blocks CodeLite Dev-C++ Eclipse CDT Geany KDevelop LabWindows/CVI Microsoft Visual Studio MonoDevelop NetBeans IDE OpenWatcom Oracle Solaris Studio Pelles C IDE Qt Creator SlickEdit Ultimate++ Understand Visual Studio Code Xcode C compilers Acorn C/C++ AMD Optimizing C/C++ Compiler Amsterdam Compiler Kit Aztec C BDS C Cc65 Ccache Clang CodeWarrior Comeau C/C++ C++Builder Csmith Deep Blue C Digital Mars DJGPP GNU Compiler Collection HP aC++ IBM XL C/C++ Compilers Intel C++ Compiler LabWindows/CVI Lattice C LCC Macintosh Programmer's Workshop Megamax C Microsoft Visual C++ MinGW Mingw-w64 Norcroft C compiler Open64 Oracle Developer Studio PathScale Portable C Compiler The Portland Group QuickC ROSE SAS/C Small Device C Compiler Small-C TDM-GCC TenDRA Compiler THINK C Tiny C Compiler Turbo C Vbcc VisualAge Watcom C/C++ Whitesmiths Z88DK Zig C mathematical libraries Automatically Tuned Linear Algebra Software Basic Linear Algebra Subprograms BLOPEX C mathematical functions Fastest Fourier Transform in the West GNU MPFR GNU Multiple Precision Arithmetic Library GNU Scientific Library hypre Integer set library LAPACK Libfixmath Lis (linear algebra library) LOBPCG Math Kernel Library Mathomatic OpenBLAS PARI/GP ScaLAPACK PETSc SLEPc UMFPACK See also C syntax History of C List of C programming books List of C software and tools List of C-family programming languages List of free software programmed in C Outline of the C programming language Computer programming portal C programming (Wikibooks) v t e C is a general-purpose programming language created in 1972 by Dennis Ritchie . By design, C gives programmers relatively direct access to the features of typical CPU architectures, customized for the target instruction set . It has been and continues to be used to implement operating systems (especially kernels ), device drivers , and protocol stacks , though its use in application software is decreasing. C is used on computers ranging from supercomputers to microcontrollers and embedded systems . C was initially developed as a successor to the B programming language at Bell Labs by Ritchie between 1972 and 1973. Its initial purpose was to construct utilities running on Unix , and was later applied to re-implementing the kernel of the Unix operating system. During the 1980s, C gradually gained popularity, leading to it becoming one of the most widely used programming languages , with C compilers available for practically all modern computer architectures and operating systems. The book The C Programming Language , co-authored by the original language designer, served for many years as the de facto standard for the language. C has been standardized since 1989 by the American National Standards Institute (ANSI) and, subsequently, jointly by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC). C is an imperative procedural language, supporting structured programming , lexical variable scope , and recursion , with a static type system . It was designed to be compiled to provide low-level access to memory and language constructs that map efficiently to machine instructions , all with minimal runtime support . Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards -compliant C program written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code. Although neither C nor its standard library provide some popular features found in other languages, it is flexible enough to support them. For example, object orientation and garbage collection are provided by external libraries GLib Object System and Boehm garbage collector , respectively. Since 2000, C has typically ranked as the most or second-most popular language in the TIOBE index . ^ a b Prinz, Peter; Crawford, Tony (December 16, 2005). C in a Nutshell . O'Reilly Media, Inc. p. 3. ISBN 978-0-596-55071-4 . ^ Ritchie (1993a) , p. 9. ^ Ritchie (1993b) , p. 9. ^ a b Ritchie (2003) . ^ \"N3886 Working Draft\" (PDF) . ISO/IEC JTC1/SC22/WG14 . Open Standards. May 28, 2026 . Retrieved August 4, 2026 . ^ Ritchie (1993a) , p. 8. ^ Ritchie (1993b) , p. 8. ^ \"Verilog HDL (and C)\" (PDF) . The Research School of Computer Science at the Australian National University. June 3, 2010. Archived from the original (PDF) on November 6, 2013 . Retrieved August 19, 2013 . 1980s: Verilog first introduced; Verilog inspired by the C programming language ^ \"The name is based on, and pronounced like the letter C in the English alphabet\" . the c programming language sound . English Chinese Dictionary. Archived from the original on November 17, 2022 . Retrieved November 17, 2022 . ^ Munoz, Daniel. \"After All These Years, the World is Still Powered by C Programming | Toptal\" . Toptal Engineering Blog . Retrieved June 15, 2024 . ^ \"C Language Drops to Lowest Popularity Rating\" . Developer.com . August 9, 2016. Archived from the original on August 22, 2022 . Retrieved August 1, 2022 . ^ Ritchie (1993a) . ^ \"Programming Language Popularity\" . 2009. Archived from the original on January 16, 2009 . Retrieved January 16, 2009 . ^ \"TIOBE Programming Community Index\" . 2009. Archived from the original on May 4, 2009 . Retrieved May 6, 2009 . ^ Ward, Terry A. (August 1983). \"Annotated C / A Bibliography of the C Language\" . Byte . p. 268 . Retrieved January 31, 2015 . ^ \"TIOBE Index for September 2024\" . Archived from the original on September 18, 2024 . Retrieved December 16, 2025 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "ALGOL 68",
+      "AMD Optimizing C/C++ Compiler",
+      "AMPL",
+      "ANSI C",
+      "AWK",
+      "Acorn C/C++",
+      "Adns",
+      "Advanced Linux Sound Architecture",
+      "Allegro (software library)",
+      "American National Standards Institute",
+      "Amsterdam Compiler Kit",
+      "Anjuta",
+      "Apache Portable Runtime",
+      "AppCode",
+      "Application software",
+      "Argon2",
+      "Assimp",
+      "Automatically Tuned Linear Algebra Software",
+      "Aztec C",
+      "B (programming language)",
+      "BCPL",
+      "BDS C",
+      "BLOPEX",
+      "BSAFE",
+      "Basic Linear Algebra Subprograms",
+      "Bell Labs",
+      "Berkeley DB",
+      "Binary File Descriptor library",
+      "Boehm garbage collector",
+      "Borland Graphics Interface",
+      "C (programming language)",
+      "C POSIX library",
+      "C Sharp (programming language)",
+      "C mathematical functions",
+      "C programming language",
+      "C shell",
+      "C standard library",
+      "C syntax",
+      "C*",
+      "C++",
+      "C++Builder",
+      "C--",
+      "C23 (C standard revision)",
+      "C2Y (C standard revision)",
+      "CGNS",
+      "CLIPS",
+      "CLion",
+      "CPL (programming language)",
+      "CURL",
+      "Cairo (graphics)",
+      "Cc65",
+      "Ccache",
+      "Central processing unit",
+      "Chipmunk (physics engine)",
+      "Cilk",
+      "Clang",
+      "Code::Blocks",
+      "CodeLite",
+      "CodeWarrior",
+      "Comeau C/C++",
+      "Comparison of integrated development environments",
+      "Compiled",
+      "Compiler",
+      "Computer architecture",
+      "Computer memory",
+      "Core Audio",
+      "Core Foundation",
+      "Core Image",
+      "Core Text",
+      "Cross-platform",
+      "Cryptlib",
+      "Csmith",
+      "Cyclone (programming language)",
+      "D (programming language)",
+      "DJGPP",
+      "Deep Blue C",
+      "Dennis Ritchie",
+      "Dev-C++",
+      "DevIL",
+      "Device driver",
+      "Digital Mars",
+      "DirectFB",
+      "Dld (software)",
+      "Eclipse (software)",
+      "Embedded system",
+      "Expat (software)",
+      "FFmpeg",
+      "Fastest Fourier Transform in the West",
+      "Filename extension",
+      "Fontconfig",
+      "Fortran",
+      "FreeTDS",
+      "FreeType",
+      "GD Graphics Library",
+      "GDK",
+      "GEGL",
+      "GIO (software)",
+      "GLFW",
+      "GLib",
+      "GLib Object System",
+      "GNU C Library",
+      "GNU Compiler Collection",
+      "GNU Libtool",
+      "GNU MPFR",
+      "GNU Multiple Precision Arithmetic Library",
+      "GNU Portable Threads",
+      "GNU Readline",
+      "GNU Scientific Library",
+      "GNU portability library",
+      "GNet",
+      "GObject",
+      "GTK",
+      "GTK Scene Graph Kit",
+      "Garbage collection (computer science)",
+      "Geany",
+      "General Graphics Interface",
+      "General-purpose programming language",
+      "GnuTLS",
+      "Go (programming language)",
+      "HP aC++",
+      "Hierarchical Data Format",
+      "Hypre",
+      "IBM XL C/C++ Compilers",
+      "ISBN (identifier)",
+      "ISO/IEC JTC 1/SC 22",
+      "IUP (software)",
+      "Imperative programming",
+      "Instruction set architecture",
+      "Integer set library",
+      "Integrated Performance Primitives",
+      "Intel C++ Compiler",
+      "International Electrotechnical Commission",
+      "International Organization for Standardization",
+      "J2K-Codec",
+      "JS++",
+      "JasPer",
+      "Java (programming language)",
+      "JavaScript",
+      "Julia (programming language)",
+      "KDevelop",
+      "Kernel (operating system)",
+      "LAPACK",
+      "LCC (compiler)",
+      "LDAP Application Program Interface",
+      "LOBPCG",
+      "LPC (programming language)",
+      "LZ4 (compression algorithm)",
+      "LZFSE",
+      "LabWindows/CVI",
+      "Lattice C",
+      "Lempel–Ziv–Oberhumer",
+      "Lexical variable scope",
+      "LibLAS",
+      "LibTIFF",
+      "LibVNCServer",
+      "Liba52",
+      "Libaf",
+      "Libao2",
+      "Libarchive",
+      "Libart",
+      "Libass",
+      "Libavcodec",
+      "Libavdevice",
+      "Libavfilter",
+      "Libavformat",
+      "Libdca",
+      "Libdvdcss",
+      "Libevent",
+      "Libffi",
+      "Libfixmath",
+      "Libgcrypt",
+      "Libgegl",
+      "Libgimp",
+      "Libhybris",
+      "Libinput",
+      "Libjpeg",
+      "Libmpcodecs",
+      "Libmpdemux",
+      "Libpcap",
+      "Libpng",
+      "Libpostproc",
+      "Libpq",
+      "LibreSSL",
+      "Librsb",
+      "Librsvg",
+      "Libsndfile",
+      "Libsodium",
+      "Libswscale",
+      "Libusb",
+      "Libuv",
+      "Libvpx",
+      "Libwww",
+      "Libxml2",
+      "Libxslt",
+      "Libzip",
+      "Lightning Memory-Mapped Database",
+      "Limbo (programming language)",
+      "Lis (linear algebra library)",
+      "List of C compilers",
+      "List of C software and tools",
+      "List of C-family programming languages",
+      "List of computer books",
+      "LittleCMS",
+      "Low-level programming language",
+      "MPIR (mathematics software)",
+      "Machine instructions",
+      "Macintosh Programmer's Workshop",
+      "Manifest typing",
+      "Math Kernel Library",
+      "Mathomatic",
+      "MatrixSSL",
+      "Mbed TLS",
+      "MediaLib",
+      "Megamax C",
+      "Mesa (computer graphics)",
+      "Microcontroller",
+      "Microsoft Visual C++",
+      "Microsoft Visual Studio",
+      "Microwindows",
+      "MinGW",
+      "Ming library",
+      "Mingw-w64",
+      "Mongoose (web server)",
+      "MonoDevelop",
+      "Mpg123",
+      "MsQuic",
+      "MuJoCo",
+      "Multi-paradigm",
+      "Mustache (template system)",
+      "Ncurses",
+      "NetBeans IDE",
+      "Netpbm",
+      "Nettle (cryptographic library)",
+      "Newt (programming library)",
+      "Nghttp2",
+      "Nim (programming language)",
+      "Nominal type system",
+      "Norcroft C compiler",
+      "Nrrd",
+      "Object-oriented programming",
+      "Objective-C",
+      "Oniguruma",
+      "Open64",
+      "OpenBLAS",
+      "OpenCL",
+      "OpenCV",
+      "OpenGL",
+      "OpenGL Utility Library",
+      "OpenJPEG",
+      "OpenSSL",
+      "OpenWatcom",
+      "Operating system",
+      "Oracle Developer Studio",
+      "Oracle Solaris Studio",
+      "Outline of the C programming language",
+      "PARI/GP",
+      "PCRE",
+      "PETSc",
+      "PHP",
+      "PL/I",
+      "PROJ",
+      "Pango",
+      "PathScale",
+      "Perl",
+      "Pike (programming language)",
+      "Portable C Compiler",
+      "Procedural programming",
+      "Processing",
+      "Programmer",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Protocol stack",
+      "Python (programming language)",
+      "Qt Creator",
+      "Quartz 2D",
+      "QuickC",
+      "ROSE (compiler framework)",
+      "Raylib",
+      "Recursion (computer science)",
+      "Redland RDF Application Framework",
+      "Runtime system",
+      "Rust (programming language)",
+      "S2n-tls",
+      "SAS/C",
+      "SFML",
+      "SLEPc",
+      "SQLite",
+      "ScaLAPACK",
+      "Setcontext",
+      "Simple DirectMedia Layer",
+      "SlickEdit",
+      "Small Device C Compiler",
+      "Small-C",
+      "Software design",
+      "Software developer",
+      "Software portability",
+      "Software release life cycle",
+      "Specification (technical standard)",
+      "Split-C",
+      "Static type system",
+      "Strong and weak typing",
+      "Structured programming",
+      "Supercomputer",
+      "Systemd",
+      "TDM-GCC",
+      "THINK C",
+      "TIOBE index",
+      "TenDRA Compiler",
+      "The C Programming Language",
+      "The Portland Group",
+      "Tiny C Compiler",
+      "Tk (software)",
+      "Turbo C",
+      "Type system",
+      "UMFPACK",
+      "Ultimate++",
+      "Understand (software)",
+      "Unified Parallel C",
+      "Unix",
+      "V (programming language)",
+      "VDPAU",
+      "VLC media player",
+      "VTD-XML",
+      "Vala (programming language)",
+      "Vbcc",
+      "Verilog",
+      "Visual Studio Code",
+      "VisualAge",
+      "Vorbis",
+      "Watcom C/C++",
+      "Whitesmiths",
+      "Wimlib",
+      "Win32 API",
+      "Windows.h",
+      "WolfSSH",
+      "WolfSSL",
+      "X Toolkit Intrinsics",
+      "X264",
+      "XCB",
+      "XMDF",
+      "XMLStarlet",
+      "Xcode",
+      "Xft",
+      "Xlib",
+      "Z88DK",
+      "Zig (programming language)",
+      "Zlib",
+      "Zopfli",
+      "Zstd"
+    ],
+    "page_id": 6021,
+    "revision_id": 1374730257,
+    "retrieved_at": "2026-09-18T16:31:44.867085+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260913190755|1374720792",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 6021,
+            "ns": 0,
+            "title": "C (programming language)",
+            "revisions": [
+              {
+                "revid": 1374730257,
+                "parentid": 1374720792
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "C1stEdition.svg",
+              "wikibase-shortdesc": "General-purpose programming language",
+              "wikibase_item": "Q15777"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "C (programming language)",
+        "pageid": 6021,
+        "revid": 1374730257,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"C programming language\" redirects here. For the book, see <a href=\"/wiki/The_C_Programming_Language\" title=\"The C Programming Language\"><i>The C Programming Language</i></a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"C lang\" redirects here. For the compiler front end, see <a href=\"/wiki/Clang\" title=\"Clang\">Clang</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> or <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>.</div>\n<p class=\"mw-empty-elt\">\n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">C</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:C1stEdition.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/72/C1stEdition.svg/250px-C1stEdition.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"126\" class=\"mw-file-element\" data-file-width=\"318\" data-file-height=\"332\" /></a></span><div class=\"infobox-caption\">Logotype used on the cover of the first edition of <i><a href=\"/wiki/The_C_Programming_Language\" title=\"The C Programming Language\">The C Programming Language</a></i><sup id=\"cite&#95;ref-C&#95;in&#95;a&#95;Nutshell&#95;1-0\" class=\"reference\"><a href=\"#cite_note-C_in_a_Nutshell-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a> (<a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>), <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Dennis Ritchie</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">ANSI X3J11 (<a href=\"/wiki/ANSI_C\" title=\"ANSI C\">ANSI C</a>); <a href=\"/wiki/ISO/IEC_JTC_1/SC_22\" title=\"ISO/IEC JTC 1/SC 22\">ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 22 (Subcommittee 22)</a> / WG 14 (Working Group 14) (ISO C)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1972<span class=\"noprint\">&#59;&#32;54&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1972</span>)</span><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\"><a href=\"/wiki/C23_(C_standard_revision)\" title=\"C23 (C standard revision)\">C23</a>\n   / October&#160;31, 2024<span class=\"noprint\">&#59;&#32;22 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2024-10-31</span>)</span></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\"><a href=\"/wiki/C2Y_(C_standard_revision)\" class=\"mw-redirect\" title=\"C2Y (C standard revision)\">C2Y</a> (N3886)\n   / May&#160;24, 2026<span class=\"noprint\">&#59;&#32;3 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-05-24</span>)</span><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_system\" title=\"Type system\">Static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">weak</a>, <a href=\"/wiki/Manifest_typing\" title=\"Manifest typing\">manifest</a>, <a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominal</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.c, .h</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.c-language.org/\">c-language.org</a></span></li><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.iso.org/standard/82075.html\">iso.org</a></span></li><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.open-std.org/jtc1/sc22/wg14/\">open-std.org</a></span></li></ul></div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Portable_C_Compiler\" title=\"Portable C Compiler\">pcc</a>, <a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GCC</a>, <a href=\"/wiki/Clang\" title=\"Clang\">Clang</a>, <span class=\"nowrap\"><a href=\"/wiki/Intel_C%2B%2B_Compiler\" title=\"Intel C++ Compiler\">Intel C</a></span>, <a href=\"/wiki/C%2B%2BBuilder\" title=\"C++Builder\">C++Builder</a>, <span class=\"nowrap\"><a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">Microsoft Visual C++</a></span>, <span class=\"nowrap\"><a href=\"/wiki/Watcom_C/C%2B%2B\" title=\"Watcom C/C++\">Watcom C</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Cyclone_(programming_language)\" title=\"Cyclone (programming language)\">Cyclone</a>, <a href=\"/wiki/Unified_Parallel_C\" title=\"Unified Parallel C\">Unified Parallel C</a>, <a href=\"/wiki/Split-C\" title=\"Split-C\">Split-C</a>, <a href=\"/wiki/Cilk\" title=\"Cilk\">Cilk</a>, <a href=\"/wiki/C*\" title=\"C*\">C*</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/B_(programming_language)\" title=\"B (programming language)\">B</a>, <a href=\"/wiki/BCPL\" title=\"BCPL\">BCPL</a>, <a href=\"/wiki/CPL_(programming_language)\" title=\"CPL (programming language)\">CPL</a>, <a href=\"/wiki/ALGOL_68\" title=\"ALGOL 68\">ALGOL 68</a>,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/PL/I\" title=\"PL/I\">PL/I</a>, <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Category:C_programming_language_family\" title=\"Category:C programming language family\">Numerous</a>: <a href=\"/wiki/AMPL\" title=\"AMPL\">AMPL</a>, <a href=\"/wiki/AWK\" title=\"AWK\">AWK</a>, <a href=\"/wiki/C_shell\" title=\"C shell\">csh</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/C--\" title=\"C--\">C--</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>, <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>, <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/JS%2B%2B\" title=\"JS++\">JS++</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>, <a href=\"/wiki/Limbo_(programming_language)\" title=\"Limbo (programming language)\">Limbo</a>, <a href=\"/wiki/LPC_(programming_language)\" class=\"mw-redirect\" title=\"LPC (programming language)\">LPC</a>, <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>, <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a>, <a href=\"/wiki/Pike_(programming_language)\" title=\"Pike (programming language)\">Pike</a>, <a href=\"/wiki/Processing\" title=\"Processing\">Processing</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>, <a href=\"/wiki/V_(programming_language)\" title=\"V (programming language)\">V (Vlang)</a>, <a href=\"/wiki/Vala_(programming_language)\" title=\"Vala (programming language)\">Vala</a>, <a href=\"/wiki/Verilog\" title=\"Verilog\">Verilog</a> (HDL),<sup id=\"cite&#95;ref-vinsp&#95;10-0\" class=\"reference\"><a href=\"#cite_note-vinsp-10\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Nim_(programming_language)\" title=\"Nim (programming language)\">Nim</a>, <a href=\"/wiki/Zig_(programming_language)\" title=\"Zig (programming language)\">Zig</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/C_Programming\" class=\"extiw\" title=\"wikibooks:C Programming\">C Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1184024115\">.mw-parser-output .div-col{margin-top:0.3em;column-width:30em}.mw-parser-output .div-col-small{font-size:90%}.mw-parser-output .div-col-rules{column-rule:1px solid #aaa}.mw-parser-output .div-col dl,.mw-parser-output .div-col ol,.mw-parser-output .div-col ul{margin-top:0}.mw-parser-output .div-col li,.mw-parser-output .div-col dd{page-break-inside:avoid;break-inside:avoid-column}</style><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1184024115\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1184024115\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1184024115\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1184024115\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1184024115\" /><table class=\"sidebar sidebar-collapse nomobile nowraplinks\" role=\"navigation\" style=\"width:22.0em; border: 4px double #A9BBCD;\"><tbody><tr><td class=\"sidebar-pretitle\">This article is part of <a href=\"/wiki/Category:C_(programming_language)\" title=\"Category:C (programming language)\">a series</a> on the <br /> <a href=\"/wiki/C_programming_language\" class=\"mw-redirect\" title=\"C programming language\">C programming language</a></td></tr><tr><td class=\"sidebar-image\"><span typeof=\"mw:File\"><a href=\"/wiki/C_(programming_language)\" title=\"The logo of C programming language\"><img alt=\"The logo of C programming language\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/72/C1stEdition.svg/60px-C1stEdition.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"52\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/72/C1stEdition.svg/120px-C1stEdition.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"318\" data-file-height=\"332\" /></a></span></td></tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_C_software_and_tools#Libraries_and_tools\" title=\"List of C software and tools\">C libraries and tools</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\"><div class=\"div-col\" style=\"column-width: 8em;\">\n<ul><li><a href=\"/wiki/Adns\" title=\"Adns\">Adns</a></li>\n<li><a href=\"/wiki/Advanced_Linux_Sound_Architecture\" title=\"Advanced Linux Sound Architecture\">ALSA</a></li>\n<li><a href=\"/wiki/Allegro_(software_library)\" title=\"Allegro (software library)\">Allegro</a></li>\n<li><a href=\"/wiki/Apache_Portable_Runtime\" title=\"Apache Portable Runtime\">APR</a></li>\n<li><a href=\"/wiki/Argon2\" title=\"Argon2\">Argon2</a></li>\n<li><a href=\"/wiki/Assimp\" class=\"mw-redirect\" title=\"Assimp\">Assimp</a></li>\n<li><a href=\"/wiki/Boehm_garbage_collector\" title=\"Boehm garbage collector\">bdwgc</a></li>\n<li><a href=\"/wiki/Berkeley_DB\" title=\"Berkeley DB\">Berkeley DB</a></li>\n<li><a href=\"/wiki/Binary_File_Descriptor_library\" title=\"Binary File Descriptor library\">BFD</a></li>\n<li><a href=\"/wiki/Borland_Graphics_Interface\" title=\"Borland Graphics Interface\">BGI</a></li>\n<li><a href=\"/wiki/BSAFE\" title=\"BSAFE\">BSAFE</a></li>\n<li><a href=\"/wiki/Chipmunk_(physics_engine)\" class=\"mw-redirect\" title=\"Chipmunk (physics engine)\">Chipmunk</a></li>\n<li><a href=\"/wiki/C_POSIX_library\" title=\"C POSIX library\">C POSIX library</a></li>\n<li><a href=\"/wiki/C_standard_library\" title=\"C standard library\">C standard library</a></li>\n<li><a href=\"/wiki/Cairo_(graphics)\" title=\"Cairo (graphics)\">Cairo</a></li>\n<li><a href=\"/wiki/CGNS\" title=\"CGNS\">CGNS</a></li>\n<li><a href=\"/wiki/CLIPS\" title=\"CLIPS\">CLIPS</a></li>\n<li><a href=\"/wiki/Core_Audio\" title=\"Core Audio\">Core Audio</a></li>\n<li><a href=\"/wiki/Core_Foundation\" title=\"Core Foundation\">Core Foundation</a></li>\n<li><a href=\"/wiki/Core_Image\" title=\"Core Image\">Core Image</a></li>\n<li><a href=\"/wiki/Core_Text\" title=\"Core Text\">Core Text</a></li>\n<li><a href=\"/wiki/Cryptlib\" title=\"Cryptlib\">Cryptlib</a></li>\n<li><a href=\"/wiki/CURL\" title=\"CURL\">cURL</a></li>\n<li><a href=\"/wiki/DevIL\" title=\"DevIL\">DevIL</a></li>\n<li><a href=\"/wiki/DirectFB\" title=\"DirectFB\">DirectFB</a></li>\n<li><a href=\"/wiki/Dld_(software)\" title=\"Dld (software)\">Dld</a></li>\n<li><a href=\"/wiki/Expat_(software)\" title=\"Expat (software)\">Expat</a></li>\n<li><a href=\"/wiki/FFmpeg\" title=\"FFmpeg\">FFmpeg</a></li>\n<li><a href=\"/wiki/Fontconfig\" title=\"Fontconfig\">Fontconfig</a></li>\n<li><a href=\"/wiki/FreeTDS\" title=\"FreeTDS\">FreeTDS</a></li>\n<li><a href=\"/wiki/FreeType\" title=\"FreeType\">FreeType</a></li>\n<li><a href=\"/wiki/GD_Graphics_Library\" title=\"GD Graphics Library\">GD Graphics Library</a></li>\n<li><a href=\"/wiki/GDK\" title=\"GDK\">GDK</a></li>\n<li><a href=\"/wiki/GEGL\" title=\"GEGL\">GEGL</a></li>\n<li><a href=\"/wiki/General_Graphics_Interface\" title=\"General Graphics Interface\">GGI</a></li>\n<li><a href=\"/wiki/GIO_(software)\" title=\"GIO (software)\">GIO</a></li>\n<li><a href=\"/wiki/GLib\" title=\"GLib\">GLib</a></li>\n<li><a href=\"/wiki/GNU_C_Library\" class=\"mw-redirect\" title=\"GNU C Library\">glibc</a></li>\n<li><a href=\"/wiki/GLFW\" title=\"GLFW\">GLFW</a></li>\n<li><a href=\"/wiki/GNet\" title=\"GNet\">GNet</a></li>\n<li><a href=\"/wiki/GNU_Libtool\" title=\"GNU Libtool\">GNU Libtool</a></li>\n<li><a href=\"/wiki/GNU_portability_library\" class=\"mw-redirect\" title=\"GNU portability library\">GNU portability library</a></li>\n<li><a href=\"/wiki/GNU_Portable_Threads\" title=\"GNU Portable Threads\">GNU Portable Threads</a></li>\n<li><a href=\"/wiki/GNU_Readline\" title=\"GNU Readline\">GNU Readline</a></li>\n<li><a href=\"/wiki/GnuTLS\" title=\"GnuTLS\">GnuTLS</a></li>\n<li><a href=\"/wiki/GObject\" title=\"GObject\">GObject</a></li>\n<li><a href=\"/wiki/GTK_Scene_Graph_Kit\" title=\"GTK Scene Graph Kit\">GTK Scene Graph Kit</a></li>\n<li><a href=\"/wiki/GTK\" title=\"GTK\">GTK</a></li>\n<li><a href=\"/wiki/Hierarchical_Data_Format\" title=\"Hierarchical Data Format\">HDF</a></li>\n<li><a href=\"/wiki/Integrated_Performance_Primitives\" title=\"Integrated Performance Primitives\">Intel IPP</a></li>\n<li><a href=\"/wiki/IUP_(software)\" title=\"IUP (software)\">IUP</a></li>\n<li><a href=\"/wiki/J2K-Codec\" title=\"J2K-Codec\">J2K-Codec</a></li>\n<li><a href=\"/wiki/JasPer\" title=\"JasPer\">JasPer</a></li>\n<li><a href=\"/wiki/LDAP_Application_Program_Interface\" title=\"LDAP Application Program Interface\">LDAP API</a></li>\n<li><a href=\"/wiki/Lempel%E2%80%93Ziv%E2%80%93Oberhumer\" title=\"Lempel–Ziv–Oberhumer\">LZO</a></li>\n<li><a href=\"/wiki/Liba52\" class=\"mw-redirect\" title=\"Liba52\">Liba52</a></li>\n<li><a href=\"/wiki/Libaf\" class=\"mw-redirect\" title=\"Libaf\">Libaf</a></li>\n<li><a href=\"/wiki/Libao2\" class=\"mw-redirect\" title=\"Libao2\">Libao2</a></li>\n<li><a href=\"/wiki/Libarchive\" title=\"Libarchive\">libarchive</a></li>\n<li><a href=\"/wiki/Libart\" title=\"Libart\">Libart</a></li>\n<li><a href=\"/wiki/Libass\" class=\"mw-redirect\" title=\"Libass\">Libass</a></li>\n<li><a href=\"/wiki/Libavcodec\" title=\"Libavcodec\">Libavcodec</a></li>\n<li><a href=\"/wiki/Libavdevice\" class=\"mw-redirect\" title=\"Libavdevice\">Libavdevice</a></li>\n<li><a href=\"/wiki/Libavfilter\" class=\"mw-redirect\" title=\"Libavfilter\">Libavfilter</a></li>\n<li><a href=\"/wiki/Libavformat\" class=\"mw-redirect\" title=\"Libavformat\">Libavformat</a></li>\n<li><a href=\"/wiki/Libpcap\" class=\"mw-redirect\" title=\"Libpcap\">Libpcap</a></li>\n<li><a href=\"/wiki/Libdca\" title=\"Libdca\">Libdca</a></li>\n<li><a href=\"/wiki/Libdvdcss\" title=\"Libdvdcss\">Libdvdcss</a></li>\n<li><a href=\"/wiki/Libevent\" title=\"Libevent\">libevent</a></li>\n<li><a href=\"/wiki/Libffi\" title=\"Libffi\">libffi</a></li>\n<li><a href=\"/wiki/Libgegl\" class=\"mw-redirect\" title=\"Libgegl\">Libgegl</a></li>\n<li><a href=\"/wiki/Libgcrypt\" title=\"Libgcrypt\">libgcrypt</a></li>\n<li><a href=\"/wiki/Libgimp\" class=\"mw-redirect\" title=\"Libgimp\">Libgimp</a></li>\n<li><a href=\"/wiki/Libhybris\" title=\"Libhybris\">Libhybris</a></li>\n<li><a href=\"/wiki/Libinput\" class=\"mw-redirect\" title=\"Libinput\">Libinput</a></li>\n<li><a href=\"/wiki/Libjpeg\" title=\"Libjpeg\">libjpeg</a></li>\n<li><a href=\"/wiki/LibLAS\" title=\"LibLAS\">libLAS</a></li>\n<li><a href=\"/wiki/Libmpcodecs\" class=\"mw-redirect\" title=\"Libmpcodecs\">Libmpcodecs</a></li>\n<li><a href=\"/wiki/Libmpdemux\" class=\"mw-redirect\" title=\"Libmpdemux\">Libmpdemux</a></li>\n<li><a href=\"/wiki/Libpng\" title=\"Libpng\">libpng</a></li>\n<li><a href=\"/wiki/Libpostproc\" class=\"mw-redirect\" title=\"Libpostproc\">Libpostproc</a></li>\n<li><a href=\"/wiki/Libpq\" class=\"mw-redirect\" title=\"Libpq\">libpq</a></li>\n<li><a href=\"/wiki/LibreSSL\" title=\"LibreSSL\">LibreSSL</a></li>\n<li><a href=\"/wiki/Librsb\" title=\"Librsb\">Librsb</a></li>\n<li><a href=\"/wiki/Librsvg\" title=\"Librsvg\">Librsvg</a></li>\n<li><a href=\"/wiki/Libsndfile\" title=\"Libsndfile\">libsndfile</a></li>\n<li><a href=\"/wiki/Libsodium\" class=\"mw-redirect\" title=\"Libsodium\">libsodium</a></li>\n<li><a href=\"/wiki/Libswscale\" class=\"mw-redirect\" title=\"Libswscale\">Libswscale</a></li>\n<li><a href=\"/wiki/LibTIFF\" title=\"LibTIFF\">LibTIFF</a></li>\n<li><a href=\"/wiki/Libusb\" title=\"Libusb\">Libusb</a></li>\n<li><a href=\"/wiki/Libuv\" title=\"Libuv\">libuv</a></li>\n<li><a href=\"/wiki/VLC_media_player#Use_of_VLC_with_other_programs\" title=\"VLC media player\">LibVLC</a></li>\n<li><a href=\"/wiki/LibVNCServer\" title=\"LibVNCServer\">LibVNCServer</a></li>\n<li><a href=\"/wiki/Libvpx\" title=\"Libvpx\">Libvpx</a></li>\n<li><a href=\"/wiki/Libwww\" title=\"Libwww\">Libwww</a></li>\n<li><a href=\"/wiki/Libxml2\" title=\"Libxml2\">libxml2</a></li>\n<li><a href=\"/wiki/Libxslt\" title=\"Libxslt\">Libxslt</a></li>\n<li><a href=\"/wiki/Libzip\" title=\"Libzip\">libzip</a></li>\n<li><a href=\"/wiki/Lightning_Memory-Mapped_Database\" title=\"Lightning Memory-Mapped Database\">LMDB</a></li>\n<li><a href=\"/wiki/LittleCMS\" class=\"mw-redirect\" title=\"LittleCMS\">LittleCMS</a></li>\n<li><a href=\"/wiki/LZ4_(compression_algorithm)\" title=\"LZ4 (compression algorithm)\">LZ4</a></li>\n<li><a href=\"/wiki/LZFSE\" title=\"LZFSE\">LZFSE</a></li>\n<li><a href=\"/wiki/MatrixSSL\" title=\"MatrixSSL\">MatrixSSL</a></li>\n<li><a href=\"/wiki/Mbed_TLS\" title=\"Mbed TLS\">Mbed TLS</a></li>\n<li><a href=\"/wiki/MediaLib\" title=\"MediaLib\">MediaLib</a></li>\n<li><a href=\"/wiki/Mesa_(computer_graphics)\" title=\"Mesa (computer graphics)\">Mesa</a></li>\n<li><a href=\"/wiki/Microwindows\" title=\"Microwindows\">Microwindows</a></li>\n<li><a href=\"/wiki/Ming_library\" title=\"Ming library\">Ming</a></li>\n<li><a href=\"/wiki/Mongoose_(web_server)\" title=\"Mongoose (web server)\">Mongoose</a></li>\n<li><a href=\"/wiki/Mpg123\" title=\"Mpg123\">Mpg123</a></li>\n<li><a href=\"/wiki/MPIR_(mathematics_software)\" title=\"MPIR (mathematics software)\">MPIR</a></li>\n<li><a href=\"/wiki/MsQuic\" title=\"MsQuic\">MsQuic</a></li>\n<li><a href=\"/wiki/MuJoCo\" title=\"MuJoCo\">MuJoCo</a></li>\n<li><a href=\"/wiki/Mustache_(template_system)\" title=\"Mustache (template system)\">Mustache</a></li>\n<li><a href=\"/wiki/Ncurses\" title=\"Ncurses\">Ncurses</a></li>\n<li><a href=\"/wiki/Nettle_(cryptographic_library)\" title=\"Nettle (cryptographic library)\">Nettle</a></li>\n<li><a href=\"/wiki/Newt_(programming_library)\" title=\"Newt (programming library)\">Newt</a></li>\n<li><a href=\"/wiki/Netpbm\" title=\"Netpbm\">Netpbm</a></li>\n<li><a href=\"/wiki/Nghttp2\" title=\"Nghttp2\">Nghttp2</a></li>\n<li><a href=\"/wiki/Nrrd\" title=\"Nrrd\">Nrrd</a></li>\n<li><a href=\"/wiki/Oniguruma\" title=\"Oniguruma\">Oniguruma</a></li>\n<li><a href=\"/wiki/OpenCL\" title=\"OpenCL\">OpenCL</a></li>\n<li><a href=\"/wiki/OpenCV\" title=\"OpenCV\">OpenCV</a></li>\n<li><a href=\"/wiki/OpenGL\" title=\"OpenGL\">OpenGL</a></li>\n<li><a href=\"/wiki/OpenGL_Utility_Library\" title=\"OpenGL Utility Library\">OpenGL Utility Library</a></li>\n<li><a href=\"/wiki/OpenJPEG\" title=\"OpenJPEG\">OpenJPEG</a></li>\n<li><a href=\"/wiki/OpenSSL\" title=\"OpenSSL\">OpenSSL</a></li>\n<li><a href=\"/wiki/Pango\" title=\"Pango\">Pango</a></li>\n<li><a href=\"/wiki/PCRE\" class=\"mw-redirect\" title=\"PCRE\">PCRE</a></li>\n<li><a href=\"/wiki/PROJ\" title=\"PROJ\">PROJ</a></li>\n<li><a href=\"/wiki/Quartz_2D\" title=\"Quartz 2D\">Quartz 2D</a></li>\n<li><a href=\"/wiki/Raylib\" title=\"Raylib\">Raylib</a></li>\n<li><a href=\"/wiki/Redland_RDF_Application_Framework\" title=\"Redland RDF Application Framework\">Redland RDF</a></li>\n<li><a href=\"/wiki/S2n-tls\" title=\"S2n-tls\">S2n-tls</a></li>\n<li><a href=\"/wiki/Setcontext\" title=\"Setcontext\">Setcontext</a></li>\n<li><a href=\"/wiki/SFML\" class=\"mw-redirect\" title=\"SFML\">SFML</a></li>\n<li><a href=\"/wiki/Simple_DirectMedia_Layer\" title=\"Simple DirectMedia Layer\">SDL</a></li>\n<li><a href=\"/wiki/SQLite\" title=\"SQLite\">SQLite</a></li>\n<li><a href=\"/wiki/Systemd\" title=\"Systemd\">systemd</a></li>\n<li><a href=\"/wiki/Tk_(software)\" title=\"Tk (software)\">Tk</a></li>\n<li><a href=\"/wiki/VDPAU\" title=\"VDPAU\">VDPAU</a></li>\n<li><a href=\"/wiki/Vorbis\" title=\"Vorbis\">Vorbis</a></li>\n<li><a href=\"/wiki/VTD-XML\" title=\"VTD-XML\">VTD-XML</a></li>\n<li><a href=\"/wiki/Win32_API\" class=\"mw-redirect\" title=\"Win32 API\">Win32 API</a></li>\n<li><a href=\"/wiki/Wimlib\" class=\"mw-redirect\" title=\"Wimlib\">Wimlib</a></li>\n<li><a href=\"/wiki/Windows.h\" title=\"Windows.h\">Windows.h</a></li>\n<li><a href=\"/wiki/WolfSSH\" title=\"WolfSSH\">WolfSSH</a></li>\n<li><a href=\"/wiki/WolfSSL\" title=\"WolfSSL\">WolfSSL</a></li>\n<li><a href=\"/wiki/X_Toolkit_Intrinsics\" title=\"X Toolkit Intrinsics\">X Toolkit Intrinsics</a></li>\n<li><a href=\"/wiki/X264\" title=\"X264\">x264</a></li>\n<li><a href=\"/wiki/XCB\" title=\"XCB\">XCB</a></li>\n<li><a href=\"/wiki/Xft\" title=\"Xft\">Xft</a></li>\n<li><a href=\"/wiki/Xlib\" title=\"Xlib\">Xlib</a></li>\n<li><a href=\"/wiki/XMDF\" title=\"XMDF\">XMDF</a></li>\n<li><a href=\"/wiki/XMLStarlet\" title=\"XMLStarlet\">XMLStarlet</a></li>\n<li><a href=\"/wiki/Zlib\" title=\"Zlib\">zlib</a></li>\n<li><a href=\"/wiki/Zopfli\" title=\"Zopfli\">Zopfli</a></li>\n<li><a href=\"/wiki/Zstd\" title=\"Zstd\">Zstd</a></li></ul>\n</div></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/Comparison_of_integrated_development_environments#C/C++\" title=\"Comparison of integrated development environments\">C IDEs</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\"><div class=\"div-col\" style=\"column-width: 10em;\">\n<ul><li><a href=\"/wiki/Anjuta\" title=\"Anjuta\">Anjuta</a></li>\n<li><a href=\"/wiki/AppCode\" class=\"mw-redirect\" title=\"AppCode\">AppCode</a></li>\n<li><a href=\"/wiki/C%2B%2BBuilder\" title=\"C++Builder\">C++Builder</a></li>\n<li><a href=\"/wiki/CLion\" class=\"mw-redirect\" title=\"CLion\">CLion</a></li>\n<li><a href=\"/wiki/Code::Blocks\" title=\"Code::Blocks\">Code::Blocks</a></li>\n<li><a href=\"/wiki/CodeLite\" title=\"CodeLite\">CodeLite</a></li>\n<li><a href=\"/wiki/Dev-C%2B%2B\" title=\"Dev-C++\">Dev-C++</a></li>\n<li><a href=\"/wiki/Eclipse_(software)\" title=\"Eclipse (software)\">Eclipse CDT</a></li>\n<li><a href=\"/wiki/Geany\" title=\"Geany\">Geany</a></li>\n<li><a href=\"/wiki/KDevelop\" title=\"KDevelop\">KDevelop</a></li>\n<li><a href=\"/wiki/LabWindows/CVI\" title=\"LabWindows/CVI\">LabWindows/CVI</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_Studio\" class=\"mw-redirect\" title=\"Microsoft Visual Studio\">Microsoft Visual Studio</a></li>\n<li><a href=\"/wiki/MonoDevelop\" title=\"MonoDevelop\">MonoDevelop</a></li>\n<li><a href=\"/wiki/NetBeans_IDE\" class=\"mw-redirect\" title=\"NetBeans IDE\">NetBeans IDE</a></li>\n<li><a href=\"/wiki/OpenWatcom\" class=\"mw-redirect\" title=\"OpenWatcom\">OpenWatcom</a></li>\n<li><a href=\"/wiki/Oracle_Solaris_Studio\" class=\"mw-redirect\" title=\"Oracle Solaris Studio\">Oracle Solaris Studio</a></li>\n<li><a href=\"/wiki/LCC_(compiler)\" title=\"LCC (compiler)\">Pelles C IDE</a></li>\n<li><a href=\"/wiki/Qt_Creator\" title=\"Qt Creator\">Qt Creator</a></li>\n<li><a href=\"/wiki/SlickEdit\" title=\"SlickEdit\">SlickEdit</a></li>\n<li><a href=\"/wiki/Ultimate%2B%2B\" title=\"Ultimate++\">Ultimate++</a></li>\n<li><a href=\"/wiki/Understand_(software)\" title=\"Understand (software)\">Understand</a></li>\n<li><a href=\"/wiki/Visual_Studio_Code\" title=\"Visual Studio Code\">Visual Studio Code</a></li>\n<li><a href=\"/wiki/Xcode\" title=\"Xcode\">Xcode</a></li></ul>\n</div></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_C_compilers\" class=\"mw-redirect\" title=\"List of C compilers\">C compilers</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/Acorn_C/C%2B%2B\" title=\"Acorn C/C++\">Acorn C/C++</a></li>\n<li><a href=\"/wiki/AMD_Optimizing_C/C%2B%2B_Compiler\" title=\"AMD Optimizing C/C++ Compiler\">AMD Optimizing C/C++ Compiler</a></li>\n<li><a href=\"/wiki/Amsterdam_Compiler_Kit\" title=\"Amsterdam Compiler Kit\">Amsterdam Compiler Kit</a></li>\n<li><a href=\"/wiki/Aztec_C\" title=\"Aztec C\">Aztec C</a></li>\n<li><a href=\"/wiki/BDS_C\" title=\"BDS C\">BDS C</a></li>\n<li><a href=\"/wiki/Cc65\" title=\"Cc65\">Cc65</a></li>\n<li><a href=\"/wiki/Ccache\" title=\"Ccache\">Ccache</a></li>\n<li><a href=\"/wiki/Clang\" title=\"Clang\">Clang</a></li>\n<li><a href=\"/wiki/CodeWarrior\" title=\"CodeWarrior\">CodeWarrior</a></li>\n<li><a href=\"/wiki/Comeau_C/C%2B%2B\" title=\"Comeau C/C++\">Comeau C/C++</a></li>\n<li><a href=\"/wiki/C%2B%2BBuilder\" title=\"C++Builder\">C++Builder</a></li>\n<li><a href=\"/wiki/Csmith\" title=\"Csmith\">Csmith</a></li>\n<li><a href=\"/wiki/Deep_Blue_C\" title=\"Deep Blue C\">Deep Blue C</a></li>\n<li><a href=\"/wiki/Digital_Mars\" title=\"Digital Mars\">Digital Mars</a></li>\n<li><a href=\"/wiki/DJGPP\" title=\"DJGPP\">DJGPP</a></li>\n<li><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GNU Compiler Collection</a></li>\n<li><a href=\"/wiki/HP_aC%2B%2B\" title=\"HP aC++\">HP aC++</a></li>\n<li><a href=\"/wiki/IBM_XL_C/C%2B%2B_Compilers\" title=\"IBM XL C/C++ Compilers\">IBM XL C/C++ Compilers</a></li>\n<li><a href=\"/wiki/Intel_C%2B%2B_Compiler\" title=\"Intel C++ Compiler\">Intel C++ Compiler</a></li>\n<li><a href=\"/wiki/LabWindows/CVI\" title=\"LabWindows/CVI\">LabWindows/CVI</a></li>\n<li><a href=\"/wiki/Lattice_C\" title=\"Lattice C\">Lattice C</a></li>\n<li><a href=\"/wiki/LCC_(compiler)\" title=\"LCC (compiler)\">LCC</a></li>\n<li><a href=\"/wiki/Macintosh_Programmer%27s_Workshop\" title=\"Macintosh Programmer&#39;s Workshop\">Macintosh Programmer's Workshop</a></li>\n<li><a href=\"/wiki/Megamax_C\" title=\"Megamax C\">Megamax C</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">Microsoft Visual C++</a></li>\n<li><a href=\"/wiki/MinGW\" title=\"MinGW\">MinGW</a></li>\n<li><a href=\"/wiki/Mingw-w64\" title=\"Mingw-w64\">Mingw-w64</a></li>\n<li><a href=\"/wiki/Norcroft_C_compiler\" title=\"Norcroft C compiler\">Norcroft C compiler</a></li>\n<li><a href=\"/wiki/Open64\" title=\"Open64\">Open64</a></li>\n<li><a href=\"/wiki/Oracle_Developer_Studio\" title=\"Oracle Developer Studio\">Oracle Developer Studio</a></li>\n<li><a href=\"/wiki/PathScale\" title=\"PathScale\">PathScale</a></li>\n<li><a href=\"/wiki/Portable_C_Compiler\" title=\"Portable C Compiler\">Portable C Compiler</a></li>\n<li><a href=\"/wiki/The_Portland_Group\" title=\"The Portland Group\">The Portland Group</a></li>\n<li><a href=\"/wiki/QuickC\" title=\"QuickC\">QuickC</a></li>\n<li><a href=\"/wiki/ROSE_(compiler_framework)\" title=\"ROSE (compiler framework)\">ROSE</a></li>\n<li><a href=\"/wiki/SAS/C\" class=\"mw-redirect\" title=\"SAS/C\">SAS/C</a></li>\n<li><a href=\"/wiki/Small_Device_C_Compiler\" title=\"Small Device C Compiler\">Small Device C Compiler</a></li>\n<li><a href=\"/wiki/Small-C\" title=\"Small-C\">Small-C</a></li>\n<li><a href=\"/wiki/TDM-GCC\" title=\"TDM-GCC\">TDM-GCC</a></li>\n<li><a href=\"/wiki/TenDRA_Compiler\" title=\"TenDRA Compiler\">TenDRA Compiler</a></li>\n<li><a href=\"/wiki/THINK_C\" title=\"THINK C\">THINK C</a></li>\n<li><a href=\"/wiki/Tiny_C_Compiler\" title=\"Tiny C Compiler\">Tiny C Compiler</a></li>\n<li><a href=\"/wiki/Turbo_C\" title=\"Turbo C\">Turbo C</a></li>\n<li><a href=\"/wiki/Vbcc\" title=\"Vbcc\">Vbcc</a></li>\n<li><a href=\"/wiki/VisualAge\" title=\"VisualAge\">VisualAge</a></li>\n<li><a href=\"/wiki/Watcom_C/C%2B%2B\" title=\"Watcom C/C++\">Watcom C/C++</a></li>\n<li><a href=\"/wiki/Whitesmiths\" title=\"Whitesmiths\">Whitesmiths</a></li>\n<li><a href=\"/wiki/Z88DK\" title=\"Z88DK\">Z88DK</a></li>\n<li><a href=\"/wiki/Zig_(programming_language)\" title=\"Zig (programming language)\">Zig</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_C_software_and_tools#Mathematical_libraries\" title=\"List of C software and tools\">C mathematical libraries</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\"><div class=\"div-col\" style=\"column-width: 12em;\">\n<ul><li><a href=\"/wiki/Automatically_Tuned_Linear_Algebra_Software\" title=\"Automatically Tuned Linear Algebra Software\">Automatically Tuned Linear Algebra Software</a></li>\n<li><a href=\"/wiki/Basic_Linear_Algebra_Subprograms\" title=\"Basic Linear Algebra Subprograms\">Basic Linear Algebra Subprograms</a></li>\n<li><a href=\"/wiki/BLOPEX\" class=\"mw-redirect\" title=\"BLOPEX\">BLOPEX</a></li>\n<li><a href=\"/wiki/C_mathematical_functions\" title=\"C mathematical functions\">C mathematical functions</a></li>\n<li><a href=\"/wiki/Fastest_Fourier_Transform_in_the_West\" title=\"Fastest Fourier Transform in the West\">Fastest Fourier Transform in the West</a></li>\n<li><a href=\"/wiki/GNU_MPFR\" title=\"GNU MPFR\">GNU MPFR</a></li>\n<li><a href=\"/wiki/GNU_Multiple_Precision_Arithmetic_Library\" title=\"GNU Multiple Precision Arithmetic Library\">GNU Multiple Precision Arithmetic Library</a></li>\n<li><a href=\"/wiki/GNU_Scientific_Library\" title=\"GNU Scientific Library\">GNU Scientific Library</a></li>\n<li><a href=\"/wiki/Hypre\" title=\"Hypre\">hypre</a></li>\n<li><a href=\"/wiki/Integer_set_library\" title=\"Integer set library\">Integer set library</a></li>\n<li><a href=\"/wiki/LAPACK\" title=\"LAPACK\">LAPACK</a></li>\n<li><a href=\"/wiki/Libfixmath\" title=\"Libfixmath\">Libfixmath</a></li>\n<li><a href=\"/wiki/Lis_(linear_algebra_library)\" title=\"Lis (linear algebra library)\">Lis (linear algebra library)</a></li>\n<li><a href=\"/wiki/LOBPCG\" title=\"LOBPCG\">LOBPCG</a></li>\n<li><a href=\"/wiki/Math_Kernel_Library\" title=\"Math Kernel Library\">Math Kernel Library</a></li>\n<li><a href=\"/wiki/Mathomatic\" title=\"Mathomatic\">Mathomatic</a></li>\n<li><a href=\"/wiki/OpenBLAS\" title=\"OpenBLAS\">OpenBLAS</a></li>\n<li><a href=\"/wiki/PARI/GP\" title=\"PARI/GP\">PARI/GP</a></li>\n<li><a href=\"/wiki/ScaLAPACK\" title=\"ScaLAPACK\">ScaLAPACK</a></li>\n<li><a href=\"/wiki/PETSc\" class=\"mw-redirect\" title=\"PETSc\">PETSc</a></li>\n<li><a href=\"/wiki/SLEPc\" title=\"SLEPc\">SLEPc</a></li>\n<li><a href=\"/wiki/UMFPACK\" title=\"UMFPACK\">UMFPACK</a></li></ul>\n</div></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\">See also</div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/C_syntax\" title=\"C syntax\">C syntax</a></li>\n<li><a class=\"mw-selflink-fragment\" href=\"#History\">History of C</a></li>\n<li><a href=\"/wiki/List_of_computer_books#C\" title=\"List of computer books\">List of C programming books</a></li>\n<li><a href=\"/wiki/List_of_C_software_and_tools\" title=\"List of C software and tools\">List of C software and tools</a></li>\n<li><a href=\"/wiki/List_of_C-family_programming_languages\" title=\"List of C-family programming languages\">List of C-family programming languages</a></li>\n<li><a href=\"/wiki/Category:Free_software_programmed_in_C\" title=\"Category:Free software programmed in C\">List of free software programmed in C</a></li>\n<li><a href=\"/wiki/Outline_of_the_C_programming_language\" title=\"Outline of the C programming language\">Outline of the C programming language</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-below\">\n<ul><li><span class=\"nowrap\"><span class=\"skin-invert-image noviewer\" typeof=\"mw:File\"><a href=\"/wiki/File:Octicons-terminal.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/20px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"13\" height=\"15\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/40px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"896\" data-file-height=\"1024\" /></a></span> </span><a href=\"/wiki/Portal:Computer_programming\" title=\"Portal:Computer programming\">Computer programming&#32;portal</a></li>\n<li><a href=\"https://en.wikibooks.org/wiki/C_Programming\" class=\"extiw\" title=\"wikibooks:C Programming\">C programming (Wikibooks)</a></li></ul></td></tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:C_sidebar\" title=\"Template:C sidebar\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/w/index.php?title=Template_talk:C_sidebar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Template talk:C sidebar (page does not exist)\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:C_sidebar\" title=\"Special:EditPage/Template:C sidebar\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>C</b><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>c<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose programming language</a> created in 1972 by <a href=\"/wiki/Dennis_Ritchie\" title=\"Dennis Ritchie\">Dennis Ritchie</a>. By design, C gives <a href=\"/wiki/Programmer\" title=\"Programmer\">programmers</a> relatively direct access to the features of typical <a href=\"/wiki/Central_processing_unit\" title=\"Central processing unit\">CPU</a> architectures, customized for the target <a href=\"/wiki/Instruction_set_architecture\" title=\"Instruction set architecture\">instruction set</a>. It has been and continues to be used to implement <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a> (especially <a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">kernels</a><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup>), <a href=\"/wiki/Device_driver\" title=\"Device driver\">device drivers</a>, and <a href=\"/wiki/Protocol_stack\" title=\"Protocol stack\">protocol stacks</a>, though its use in <a href=\"/wiki/Application_software\" title=\"Application software\">application software</a> is decreasing.<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> C is used on computers ranging from <a href=\"/wiki/Supercomputer\" title=\"Supercomputer\">supercomputers</a> to <a href=\"/wiki/Microcontroller\" title=\"Microcontroller\">microcontrollers</a> and <a href=\"/wiki/Embedded_system\" title=\"Embedded system\">embedded systems</a>.\n</p><p>C was initially developed as a successor to the <a href=\"/wiki/B_(programming_language)\" title=\"B (programming language)\">B</a> programming language at <a href=\"/wiki/Bell_Labs\" title=\"Bell Labs\">Bell Labs</a> by Ritchie between 1972 and 1973. Its initial purpose was to construct utilities running on <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a>, and was later applied to re-implementing the kernel of the Unix operating system.<sup id=\"cite&#95;ref-FOOTNOTERitchie1993a&#95;15-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTERitchie1993a-15\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> During the 1980s, C gradually gained popularity, leading to it becoming one of the most widely used <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a>,<sup id=\"cite&#95;ref-langpop&#95;16-0\" class=\"reference\"><a href=\"#cite_note-langpop-16\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-TIOBE-2009&#95;17-0\" class=\"reference\"><a href=\"#cite_note-TIOBE-2009-17\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> with C <a href=\"/wiki/Compiler\" title=\"Compiler\">compilers</a> available for practically all modern <a href=\"/wiki/Computer_architecture\" title=\"Computer architecture\">computer architectures</a> and operating systems. The book <i><a href=\"/wiki/The_C_Programming_Language\" title=\"The C Programming Language\">The C Programming Language</a></i>, co-authored by the original language designer, served for many years as the <i>de facto</i> standard for the language.<sup id=\"cite&#95;ref-ward198308&#95;18-0\" class=\"reference\"><a href=\"#cite_note-ward198308-18\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-C&#95;in&#95;a&#95;Nutshell&#95;1-1\" class=\"reference\"><a href=\"#cite_note-C_in_a_Nutshell-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> C has been standardized since 1989 by the <a href=\"/wiki/American_National_Standards_Institute\" title=\"American National Standards Institute\">American National Standards Institute</a> (ANSI) and, subsequently, jointly by the <a href=\"/wiki/International_Organization_for_Standardization\" title=\"International Organization for Standardization\">International Organization for Standardization</a> (ISO) and the <a href=\"/wiki/International_Electrotechnical_Commission\" title=\"International Electrotechnical Commission\">International Electrotechnical Commission</a> (IEC).\n</p><p>C is an <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a> <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a> language, supporting <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured programming</a>, <a href=\"/wiki/Lexical_variable_scope\" class=\"mw-redirect\" title=\"Lexical variable scope\">lexical variable scope</a>, and <a href=\"/wiki/Recursion_(computer_science)\" title=\"Recursion (computer science)\">recursion</a>, with a <a href=\"/wiki/Static_type_system\" class=\"mw-redirect\" title=\"Static type system\">static type system</a>. It was designed to be <a href=\"/wiki/Compiled\" class=\"mw-redirect\" title=\"Compiled\">compiled</a> to provide <a href=\"/wiki/Low-level_programming_language\" title=\"Low-level programming language\">low-level</a> access to <a href=\"/wiki/Computer_memory\" title=\"Computer memory\">memory</a> and language constructs that map efficiently to <a href=\"/wiki/Machine_instructions\" class=\"mw-redirect\" title=\"Machine instructions\">machine instructions</a>, all with minimal <a href=\"/wiki/Runtime_system\" title=\"Runtime system\">runtime support</a>. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A <a href=\"/wiki/Specification_(technical_standard)\" title=\"Specification (technical standard)\">standards</a>-compliant C program written with <a href=\"/wiki/Software_portability\" title=\"Software portability\">portability</a> in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code.\n</p><p>Although neither C nor its standard library provide some popular features found in other languages, it is flexible enough to support them. For example, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object orientation</a> and <a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">garbage collection</a> are provided by external libraries <a href=\"/wiki/GLib_Object_System\" class=\"mw-redirect\" title=\"GLib Object System\">GLib Object System</a> and <a href=\"/wiki/Boehm_garbage_collector\" title=\"Boehm garbage collector\">Boehm garbage collector</a>, respectively.\n</p><p>Since 2000, C has typically ranked as the most or second-most popular language in the <a href=\"/wiki/TIOBE_index\" title=\"TIOBE index\">TIOBE index</a>.<sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-C&#95;in&#95;a&#95;Nutshell-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-C_in_a_Nutshell_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-C_in_a_Nutshell_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\">\n<style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFPrinzCrawford2005\" class=\"citation book cs1\">Prinz, Peter; Crawford, Tony (December 16, 2005). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=4Mfe4sAMFUYC\"><i>C in a Nutshell</i></a>. O'Reilly Media, Inc. p.&#160;3. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-596-55071-4\" title=\"Special:BookSources/978-0-596-55071-4\"><bdi>978-0-596-55071-4</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=C+in+a+Nutshell&amp;rft.pages=3&amp;rft.pub=O%27Reilly+Media%2C+Inc.&amp;rft.date=2005-12-16&amp;rft.isbn=978-0-596-55071-4&amp;rft.aulast=Prinz&amp;rft.aufirst=Peter&amp;rft.au=Crawford%2C+Tony&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D4Mfe4sAMFUYC&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTERitchie1993a9-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTERitchie1993a9_2-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRitchie1993a\">Ritchie (1993a)</a>, p.&#160;9.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTERitchie1993b9-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTERitchie1993b9_3-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRitchie1993b\">Ritchie (1993b)</a>, p.&#160;9.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTERitchie2003-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-FOOTNOTERitchie2003_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTERitchie2003_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><a href=\"#CITEREFRitchie2003\">Ritchie (2003)</a>.</span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3886.pdf\">\"N3886 Working Draft\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>ISO/IEC JTC1/SC22/WG14</i>. Open Standards. May 28, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 4,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ISO%2FIEC+JTC1%2FSC22%2FWG14&amp;rft.atitle=N3886+Working+Draft&amp;rft.date=2026-05-28&amp;rft&#95;id=https%3A%2F%2Fwww.open-std.org%2Fjtc1%2Fsc22%2Fwg14%2Fwww%2Fdocs%2Fn3886.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTERitchie1993a8-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTERitchie1993a8_7-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRitchie1993a\">Ritchie (1993a)</a>, p.&#160;8.</span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTERitchie1993b8-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTERitchie1993b8_8-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRitchie1993b\">Ritchie (1993b)</a>, p.&#160;8.</span>\n</li>\n<li id=\"cite&#95;note-vinsp-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-vinsp_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20131106064022/http://cs.anu.edu.au/courses/ENGN3213/lectures/lecture6_VERILOG_2010.pdf\">\"Verilog HDL (and C)\"</a> <span class=\"cs1-format\">(PDF)</span>. The Research School of Computer Science at the Australian National University. June 3, 2010. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://cs.anu.edu.au/courses/ENGN3213/lectures/lecture6_VERILOG_2010.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on November 6, 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 19,</span> 2013</span>. <q>1980s: Verilog first introduced; Verilog inspired by the C programming language</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Verilog+HDL+%28and+C%29&amp;rft.pub=The+Research+School+of+Computer+Science+at+the+Australian+National+University&amp;rft.date=2010-06-03&amp;rft&#95;id=http%3A%2F%2Fcs.anu.edu.au%2Fcourses%2FENGN3213%2Flectures%2Flecture6&#95;VERILOG&#95;2010.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20221117151137/https://eng.ichacha.net/pronounce/the%20c%20programming%20language.html\">\"The name is based on, and pronounced like the letter C in the English alphabet\"</a>. <i>the c programming language sound</i>. English Chinese Dictionary. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://eng.ichacha.net/pronounce/the%20c%20programming%20language.html\">the original</a> on November 17, 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 17,</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=the+c+programming+language+sound&amp;rft.atitle=The+name+is+based+on%2C+and+pronounced+like+the+letter+C+in+the+English+alphabet&amp;rft&#95;id=https%3A%2F%2Feng.ichacha.net%2Fpronounce%2Fthe%2520c%2520programming%2520language.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMunoz\" class=\"citation web cs1\">Munoz, Daniel. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.toptal.com/c/after-all-these-years-the-world-is-still-powered-by-c-programming\">\"After All These Years, the World is Still Powered by C Programming | Toptal\"</a>. <i>Toptal Engineering Blog</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 15,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Toptal+Engineering+Blog&amp;rft.atitle=After+All+These+Years%2C+the+World+is+Still+Powered+by+C+Programming+%7C+Toptal&amp;rft.aulast=Munoz&amp;rft.aufirst=Daniel&amp;rft&#95;id=https%3A%2F%2Fwww.toptal.com%2Fc%2Fafter-all-these-years-the-world-is-still-powered-by-c-programming&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220822225609/https://www.developer.com/news/c-language-drops-to-lowest-popularity-rating/\">\"C Language Drops to Lowest Popularity Rating\"</a>. <i>Developer.com</i>. August 9, 2016. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.developer.com/news/c-language-drops-to-lowest-popularity-rating/\">the original</a> on August 22, 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 1,</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Developer.com&amp;rft.atitle=C+Language+Drops+to+Lowest+Popularity+Rating&amp;rft.date=2016-08-09&amp;rft&#95;id=https%3A%2F%2Fwww.developer.com%2Fnews%2Fc-language-drops-to-lowest-popularity-rating%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTERitchie1993a-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTERitchie1993a_15-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFRitchie1993a\">Ritchie (1993a)</a>.</span>\n</li>\n<li id=\"cite&#95;note-langpop-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-langpop_16-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090116080326/http://www.langpop.com/\">\"Programming Language Popularity\"</a>. 2009. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.langpop.com/\">the original</a> on January 16, 2009<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 16,</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Programming+Language+Popularity&amp;rft.date=2009&amp;rft&#95;id=https%3A%2F%2Fwww.langpop.com%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-TIOBE-2009-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-TIOBE-2009_17-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090504181627/http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html\">\"TIOBE Programming Community Index\"</a>. 2009. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tiobe.com/index.php/content/paperinfo/tpci/index.html\">the original</a> on May 4, 2009<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 6,</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=TIOBE+Programming+Community+Index&amp;rft.date=2009&amp;rft&#95;id=https%3A%2F%2Fwww.tiobe.com%2Findex.php%2Fcontent%2Fpaperinfo%2Ftpci%2Findex.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-ward198308-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-ward198308_18-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWard1983\" class=\"citation news cs1\">Ward, Terry A. (August 1983). <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/byte-magazine-1983-08/1983_08_BYTE_08-08_The_C_Language#page/n267/mode/2up\">\"Annotated C / A Bibliography of the C Language\"</a>. <i>Byte</i>. p.&#160;268<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 31,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Byte&amp;rft.atitle=Annotated+C+%2F+A+Bibliography+of+the+C+Language&amp;rft.pages=268&amp;rft.date=1983-08&amp;rft.aulast=Ward&amp;rft.aufirst=Terry+A.&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fstream%2Fbyte-magazine-1983-08%2F1983&#95;08&#95;BYTE&#95;08-08&#95;The&#95;C&#95;Language%23page%2Fn267%2Fmode%2F2up&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-19\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20240918165843/https://www.tiobe.com/tiobe-index/\">\"TIOBE Index for September 2024\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tiobe.com/tiobe-index/\">the original</a> on September 18, 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 16,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=TIOBE+Index+for+September+2024&amp;rft&#95;id=https%3A%2F%2Fwww.tiobe.com%2Ftiobe-index%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐77znd\nCached time: 20260918163210\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.809 seconds\nReal time usage: 1.050 seconds\nPreprocessor visited node count: 2806/1000000\nRevision size: 9620/2097152 bytes\nPost‐expand include size: 73312/2097152 bytes\nTemplate argument size: 10817/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 15/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 44482/5000000 bytes\nLua time usage: 0.502/10.000 seconds\nLua memory usage: 8510637/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  948.080      1 -total\n 35.77%  339.161      2 Template:Infobox\n 30.59%  290.039      1 Template:Infobox_programming_language\n 16.49%  156.365      3 Template:Efn\n 12.10%  114.676      1 Template:Cite_book\n 11.42%  108.310      7 Template:Sfnp\n 11.07%  104.946      1 Template:C_sidebar\n 11.01%  104.355      1 Template:Short_description\n  6.75%   64.010      2 Template:Pagetype\n  6.28%   59.565      1 Template:Infobox_software/simple\n-->\n\n<!-- Render ID 7ecfe53c-b37e-11f1-9f63-b3c09c4ca9e8 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The C Programming Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 68",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AMD Optimizing C/C++ Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AMPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ANSI C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AWK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Acorn C/C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adns",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Advanced Linux Sound Architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Allegro (software library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "American National Standards Institute",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amsterdam Compiler Kit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Anjuta",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Portable Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AppCode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Argon2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assimp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automatically Tuned Linear Algebra Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Aztec C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BCPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BDS C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BLOPEX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BSAFE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "B (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Basic Linear Algebra Subprograms",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bell Labs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Berkeley DB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Binary File Descriptor library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boehm garbage collector",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Borland Graphics Interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C*",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++Builder",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C--",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C23 (C standard revision)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C2Y (C standard revision)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CGNS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLIPS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLion",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CURL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C POSIX library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C mathematical functions",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C shell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C standard library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C syntax",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cairo (graphics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cc65",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ccache",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Central processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chipmunk (physics engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cilk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code::Blocks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CodeLite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CodeWarrior",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comeau C/C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of integrated development environments",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiled",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer memory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Core Audio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Core Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Core Image",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Core Text",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cryptlib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Csmith",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cyclone (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DJGPP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deep Blue C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dennis Ritchie",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dev-C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DevIL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Device driver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital Mars",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DirectFB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dld (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eclipse (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Expat (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FFmpeg",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fastest Fourier Transform in the West",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fontconfig",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeTDS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeType",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GDK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GD Graphics Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GEGL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GIO (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GLFW",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GLib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GLib Object System",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU C Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Libtool",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU MPFR",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Multiple Precision Arithmetic Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Portable Threads",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Readline",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Scientific Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU portability library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GObject",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GTK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GTK Scene Graph Kit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Geany",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General Graphics Interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GnuTLS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HP aC++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hierarchical Data Format",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hypre",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM XL C/C++ Compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO/IEC JTC 1/SC 22",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IUP (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integer set library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated Performance Primitives",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intel C++ Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Electrotechnical Commission",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Organization for Standardization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "J2K-Codec",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JS++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JasPer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KDevelop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LAPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LCC (compiler)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LDAP Application Program Interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LOBPCG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LPC (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LZ4 (compression algorithm)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LZFSE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LabWindows/CVI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lattice C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lempel–Ziv–Oberhumer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lexical variable scope",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibLAS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibTIFF",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibVNCServer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Liba52",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libaf",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libao2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libarchive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libart",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libass",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libavcodec",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libavdevice",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libavfilter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libavformat",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libdca",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libdvdcss",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libevent",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libffi",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libfixmath",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libgcrypt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libgegl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libgimp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libhybris",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libinput",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libjpeg",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libmpcodecs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libmpdemux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libpcap",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libpng",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libpostproc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libpq",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibreSSL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Librsb",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Librsvg",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libsndfile",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libsodium",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libswscale",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libusb",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libuv",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libvpx",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libwww",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libxml2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libxslt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libzip",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lightning Memory-Mapped Database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Limbo (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lis (linear algebra library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of C-family programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of C compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of C software and tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of computer books",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LittleCMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Low-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MPIR (mathematics software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine instructions",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Macintosh Programmer's Workshop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manifest typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Math Kernel Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathomatic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MatrixSSL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mbed TLS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MediaLib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Megamax C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mesa (computer graphics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcontroller",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microwindows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MinGW",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ming library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mingw-w64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mongoose (web server)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MonoDevelop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mpg123",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MsQuic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MuJoCo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mustache (template system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ncurses",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NetBeans IDE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netpbm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nettle (cryptographic library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Newt (programming library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nghttp2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nim (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Norcroft C compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nrrd",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oniguruma",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenBLAS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenCV",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenGL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenGL Utility Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenJPEG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenSSL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenWatcom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Developer Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Solaris Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the C programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PARI/GP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PCRE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PETSc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PROJ",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pango",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PathScale",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pike (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Portable C Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Protocol stack",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Qt Creator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quartz 2D",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "QuickC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ROSE (compiler framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raylib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Recursion (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Redland RDF Application Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2n-tls",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAS/C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SFML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SLEPc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQLite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ScaLAPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Setcontext",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simple DirectMedia Layer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SlickEdit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Small-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Small Device C Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software portability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Specification (technical standard)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Split-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Supercomputer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Systemd",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TDM-GCC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "THINK C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TIOBE index",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TenDRA Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Portland Group",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tiny C Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tk (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turbo C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UMFPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ultimate++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Understand (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unified Parallel C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VDPAU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VLC media player",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VTD-XML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vbcc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Verilog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VisualAge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio Code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vorbis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Watcom C/C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Whitesmiths",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wimlib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Win32 API",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows.h",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WolfSSH",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WolfSSL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X264",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XCB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XMDF",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XMLStarlet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X Toolkit Intrinsics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xlib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Z88DK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zig (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zlib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zopfli",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zstd",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:C sidebar",
+            "exists": true
+          },
+          {
+            "ns": 100,
+            "title": "Portal:Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:C programming language family",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:Free software programmed in C",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:C sidebar",
+            "exists": false
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose programming language",
+          "page_image_free": "C1stEdition.svg",
+          "wikibase_item": "Q15777"
+        }
+      }
+    }
+  ]
+}

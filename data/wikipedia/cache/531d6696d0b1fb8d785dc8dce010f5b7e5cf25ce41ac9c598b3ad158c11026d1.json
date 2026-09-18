@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Data structure",
+    "url": "https://en.wikipedia.org/wiki/Data_structure",
+    "summary": "Particular way of storing and organizing data in a computer Not to be confused with Data type or Data model . A data structure known as a hash table . In computer science , a data structure is a way to organize and store data that is usually chosen for efficient access to data. More precisely, a data structure is the physical implementation of a data type , including specifications of the data organization and storage format, as well as functions or operations for working with this data. Data structures are closely related to abstract data types (ADTs). The data structure describes the representation of data in memory and how operations are carried out, while the ADT describes the logical form or algebraic structure of the data type—what operations are allowed and what results they produce—without describing how those operations are implemented. Some authors do not use the term \"abstract data type\" and simply refer to the logical and physical forms of the data structure. ^ Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L.; Stein, Clifford (2009). Introduction to Algorithms, Third Edition (3rd ed.). The MIT Press. p. 9. ISBN 978-0262033848 . A data structure is a way to store and organize data in order to facilitate access and modifications. ^ Black, Paul E. (15 December 2004). \"data structure\" . In Pieterse, Vreda; Black, Paul E. (eds.). Dictionary of Algorithms and Data Structures [online] . National Institute of Standards and Technology . Retrieved 2018-11-06 . An organization of information, usually in memory, for better algorithm efficiency, such as queue, stack, linked list, heap, dictionary, and tree, or conceptual unity, such as the name and address of a person. It may include redundant information, such as length of the list or number of nodes in a subtree. ^ \"Data structure\" . Encyclopaedia Britannica . 17 April 2017 . Retrieved 2018-11-06 . way in which data are stored for efficient search and retrieval ^ a b \"1.2 Abstract Data Types\" . Virginia Tech - CS3 Data Structures & Algorithms . Archived from the original on 2023-02-10 . Retrieved 2023-02-15 . ^ Wegner, Peter; Reilly, Edwin D. (2003-08-29). Encyclopedia of Computer Science . Chichester, UK: John Wiley and Sons. pp. 507– 512. ISBN 978-0470864128 .",
+    "text": "Particular way of storing and organizing data in a computer Not to be confused with Data type or Data model . A data structure known as a hash table . In computer science , a data structure is a way to organize and store data that is usually chosen for efficient access to data. More precisely, a data structure is the physical implementation of a data type , including specifications of the data organization and storage format, as well as functions or operations for working with this data. Data structures are closely related to abstract data types (ADTs). The data structure describes the representation of data in memory and how operations are carried out, while the ADT describes the logical form or algebraic structure of the data type—what operations are allowed and what results they produce—without describing how those operations are implemented. Some authors do not use the term \"abstract data type\" and simply refer to the logical and physical forms of the data structure. ^ Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L.; Stein, Clifford (2009). Introduction to Algorithms, Third Edition (3rd ed.). The MIT Press. p. 9. ISBN 978-0262033848 . A data structure is a way to store and organize data in order to facilitate access and modifications. ^ Black, Paul E. (15 December 2004). \"data structure\" . In Pieterse, Vreda; Black, Paul E. (eds.). Dictionary of Algorithms and Data Structures [online] . National Institute of Standards and Technology . Retrieved 2018-11-06 . An organization of information, usually in memory, for better algorithm efficiency, such as queue, stack, linked list, heap, dictionary, and tree, or conceptual unity, such as the name and address of a person. It may include redundant information, such as length of the list or number of nodes in a subtree. ^ \"Data structure\" . Encyclopaedia Britannica . 17 April 2017 . Retrieved 2018-11-06 . way in which data are stored for efficient search and retrieval ^ a b \"1.2 Abstract Data Types\" . Virginia Tech - CS3 Data Structures & Algorithms . Archived from the original on 2023-02-10 . Retrieved 2023-02-15 . ^ Wegner, Peter; Reilly, Edwin D. (2003-08-29). Encyclopedia of Computer Science . Chichester, UK: John Wiley and Sons. pp. 507– 512. ISBN 978-0470864128 .",
+    "links": [
+      "Abstract data type",
+      "Algebraic structure",
+      "Computer science",
+      "Data",
+      "Data access",
+      "Data model",
+      "Data type",
+      "Efficient",
+      "Function (computer programming)",
+      "Hash table",
+      "ISBN (identifier)",
+      "National Institute of Standards and Technology",
+      "Operator (computer programming)"
+    ],
+    "page_id": 8519,
+    "revision_id": 1371989601,
+    "retrieved_at": "2026-09-18T16:41:15.214636+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260805052104|1367787426",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 8519,
+            "ns": 0,
+            "title": "Data structure",
+            "revisions": [
+              {
+                "revid": 1371989601,
+                "parentid": 1367787426
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Data Structure",
+              "page_image_free": "Hash_table_3_1_1_0_1_0_0_SP.svg",
+              "wikibase-shortdesc": "Particular way of storing and organizing data in a computer",
+              "wikibase_item": "Q175263"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Data structure",
+        "pageid": 8519,
+        "revid": 1371989601,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Particular way of storing and organizing data in a computer</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\"><span>Not to be confused with <a href=\"/wiki/Data_type\" title=\"Data type\">Data type</a> or <a href=\"/wiki/Data_model\" title=\"Data model\">Data model</a>.</span></div>\n<figure typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Hash_table_3_1_1_0_1_0_0_SP.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/250px-Hash_table_3_1_1_0_1_0_0_SP.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"183\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/500px-Hash_table_3_1_1_0_1_0_0_SP.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"315\" data-file-height=\"230\" /></a><figcaption>A data structure known as a <a href=\"/wiki/Hash_table\" title=\"Hash table\">hash table</a>.</figcaption></figure> \n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, a <b>data structure</b> is a way to organize and store <a href=\"/wiki/Data\" title=\"Data\">data</a> that is usually chosen for <a href=\"/wiki/Efficient\" class=\"mw-redirect\" title=\"Efficient\">efficient</a> <a href=\"/wiki/Data_access\" title=\"Data access\">access</a> to data.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> More precisely, a data structure is the physical implementation of a <a href=\"/wiki/Data_type\" title=\"Data type\">data type</a>, including specifications of the data organization and storage format, as well as <a href=\"/wiki/Function_(computer_programming)\" title=\"Function (computer programming)\">functions</a> or <a href=\"/wiki/Operator_(computer_programming)\" title=\"Operator (computer programming)\">operations</a> for working with this data. Data structures are closely related to <a href=\"/wiki/Abstract_data_type\" title=\"Abstract data type\">abstract data types</a> (ADTs).<sup id=\"cite&#95;ref-OpenDSA&#95;4-0\" class=\"reference\"><a href=\"#cite_note-OpenDSA-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> The data structure describes the representation of data in memory and how operations are carried out, while the ADT describes the logical form or <a href=\"/wiki/Algebraic_structure\" title=\"Algebraic structure\">algebraic structure</a> of the data type—what operations are allowed and what results they produce—without describing how those operations are implemented.<sup id=\"cite&#95;ref-OpenDSA&#95;4-1\" class=\"reference\"><a href=\"#cite_note-OpenDSA-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Some authors do not use the term \"abstract data type\" and simply refer to the logical and physical forms of the data structure.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFCormenLeisersonRivestStein2009\" class=\"citation book cs1\">Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L.; Stein, Clifford (2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://dl.acm.org/citation.cfm?id=1614191\"><i>Introduction to Algorithms, Third Edition</i></a> (3rd&#160;ed.). The MIT Press. p.&#160;9. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0262033848\" title=\"Special:BookSources/978-0262033848\"><bdi>978-0262033848</bdi></a>. <q>A data structure is a way to store and organize data in order to facilitate access and modifications.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Introduction+to+Algorithms%2C+Third+Edition&amp;rft.pages=9&amp;rft.edition=3rd&amp;rft.pub=The+MIT+Press&amp;rft.date=2009&amp;rft.isbn=978-0262033848&amp;rft.aulast=Cormen&amp;rft.aufirst=Thomas+H.&amp;rft.au=Leiserson%2C+Charles+E.&amp;rft.au=Rivest%2C+Ronald+L.&amp;rft.au=Stein%2C+Clifford&amp;rft&#95;id=https%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D1614191&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AData+structure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBlack2004\" class=\"citation book cs1\">Black, Paul E. (15 December 2004). <a rel=\"nofollow\" class=\"external text\" href=\"https://xlinux.nist.gov/dads/HTML/datastructur.html\">\"data structure\"</a>. In Pieterse, Vreda; Black, Paul E. (eds.). <i>Dictionary of Algorithms and Data Structures [online]</i>. <a href=\"/wiki/National_Institute_of_Standards_and_Technology\" title=\"National Institute of Standards and Technology\">National Institute of Standards and Technology</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2018-11-06</span></span>. <q>An organization of information, usually in memory, for better algorithm efficiency, such as queue, stack, linked list, heap, dictionary, and tree, or conceptual unity, such as the name and address of a person. It may include redundant information, such as length of the list or number of nodes in a subtree.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=data+structure&amp;rft.btitle=Dictionary+of+Algorithms+and+Data+Structures+%5Bonline%5D&amp;rft.pub=National+Institute+of+Standards+and+Technology&amp;rft.date=2004-12-15&amp;rft.aulast=Black&amp;rft.aufirst=Paul+E.&amp;rft&#95;id=https%3A%2F%2Fxlinux.nist.gov%2Fdads%2FHTML%2Fdatastructur.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AData+structure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation encyclopaedia cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.britannica.com/technology/data-structure\">\"Data structure\"</a>. <i>Encyclopaedia Britannica</i>. 17 April 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2018-11-06</span></span>. <q>way in which data are stored for efficient search and retrieval</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Data+structure&amp;rft.btitle=Encyclopaedia+Britannica&amp;rft.date=2017-04-17&amp;rft&#95;id=https%3A%2F%2Fwww.britannica.com%2Ftechnology%2Fdata-structure&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AData+structure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-OpenDSA-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-OpenDSA_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-OpenDSA_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/ADT.html\">\"1.2 Abstract Data Types\"</a>. <i>Virginia Tech - CS3 Data Structures &amp; Algorithms</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230210114105/https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/ADT.html\">Archived</a> from the original on 2023-02-10<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-02-15</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Virginia+Tech+-+CS3+Data+Structures+%26+Algorithms&amp;rft.atitle=1.2+Abstract+Data+Types&amp;rft&#95;id=https%3A%2F%2Fopendsa-server.cs.vt.edu%2FODSA%2FBooks%2FCS3%2Fhtml%2FADT.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AData+structure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWegnerReilly2003\" class=\"citation book cs1\">Wegner, Peter; Reilly, Edwin D. (2003-08-29). <a rel=\"nofollow\" class=\"external text\" href=\"http://dl.acm.org/citation.cfm?id=1074100.1074312\"><i>Encyclopedia of Computer Science</i></a>. Chichester, UK: John Wiley and Sons. pp.&#160;<span class=\"nowrap\">507–</span>512. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0470864128\" title=\"Special:BookSources/978-0470864128\"><bdi>978-0470864128</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Encyclopedia+of+Computer+Science&amp;rft.place=Chichester%2C+UK&amp;rft.pages=507-512&amp;rft.pub=John+Wiley+and+Sons&amp;rft.date=2003-08-29&amp;rft.isbn=978-0470864128&amp;rft.aulast=Wegner&amp;rft.aufirst=Peter&amp;rft.au=Reilly%2C+Edwin+D.&amp;rft&#95;id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D1074100.1074312&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AData+structure\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐ghpcr\nCached time: 20260918164141\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.104 seconds\nReal time usage: 0.151 seconds\nPreprocessor visited node count: 340/1000000\nRevision size: 3265/2097152 bytes\nPost‐expand include size: 11083/2097152 bytes\nTemplate argument size: 608/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 12413/5000000 bytes\nLua time usage: 0.070/10.000 seconds\nLua memory usage: 4742105/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  135.916      1 -total\n 41.77%   56.776      3 Template:Cite_book\n 34.98%   47.550      1 Template:Short_description\n 19.87%   27.010      2 Template:Pagetype\n 13.51%   18.369      1 Template:Hatnote_group\n 10.32%   14.027      1 Template:Distinguish\n  8.53%   11.591      2 Template:Main_other\n  7.50%   10.194      1 Template:SDcat\n  3.03%    4.112      1 Template:Cite_web\n  2.72%    3.702      1 Template:Cite_encyclopedia\n-->\n\n<!-- Render ID d327a29c-b37f-11f1-8fc4-d13325189287 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstract data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algebraic structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data access",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Efficient",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hash table",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "National Institute of Standards and Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operator (computer programming)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Particular way of storing and organizing data in a computer",
+          "page_image_free": "Hash_table_3_1_1_0_1_0_0_SP.svg",
+          "wikibase_item": "Q175263"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Logic programming",
+    "url": "https://en.wikipedia.org/wiki/Logic_programming",
+    "summary": "Programming paradigm based on formal logic Logic programming is a programming , database , and knowledge representation paradigm based on formal logic . A logic program is a set of sentences in logical form, representing knowledge about some problem domain. Computation is performed by applying logical reasoning to that knowledge, to solve problems in the domain. Major logic programming language families include Prolog , Answer Set Programming (ASP), and Datalog . In all of these languages, rules are written in the form of clauses : A :- B 1 , ..., B n . and are read as declarative sentences in logical form: A if B 1 and ... and B n . A is called the head of the rule, B 1 , ..., B n is called the body , and the B i are called literals or conditions. When n = 0, the rule is called a fact and is written in the simplified form: A. Queries (or goals) have the same syntax as the bodies of rules and are commonly written in the form: ?- B 1 , ..., B n . In the simplest case of Horn clauses (or \"definite\" clauses), all of the A, B 1 , ..., B n are atomic formulae of the form p(t 1 ,..., t m ), where p is a predicate symbol naming a relation, like \"motherhood\", and the t i are terms naming objects (or individuals). Terms include both constant symbols, like \"charles\", and variables, such as X, which start with an upper case letter. Consider, for example, the following Horn clause program: mother_child ( elizabeth , charles ). father_child ( charles , william ). father_child ( charles , harry ). parent_child ( X , Y ) :- mother_child ( X , Y ). parent_child ( X , Y ) :- father_child ( X , Y ). grandparent_child ( X , Y ) :- parent_child ( X , Z ), parent_child ( Z , Y ). Given a query, the program produces answers. For instance for a query ?- parent_child(X, william) , the single answer is X = charles Various queries can be asked. For instance the program can be queried both to generate grandparents and to generate grandchildren. It can even be used to generate all pairs of grandchildren and grandparents, or simply to check if a given pair is such a pair: grandparent_child ( X , william ). X = elizabeth ?- grandparent_child ( elizabeth , Y ). Y = william ; Y = harry . ?- grandparent_child ( X , Y ). X = elizabeth Y = william ; X = elizabeth Y = harry . ?- grandparent_child ( william , harry ). no ?- grandparent_child ( elizabeth , harry ). yes Although Horn clause logic programs are Turing complete , for most practical applications, Horn clause programs need to be extended to \"normal\" logic programs with negative conditions. For example, the definition of sibling uses a negative condition, where the predicate = is defined by the clause X = X : sibling ( X , Y ) :- parent_child ( Z , X ), parent_child ( Z , Y ), not ( X = Y ). Logic programming languages that include negative conditions have the knowledge representation capabilities of a non-monotonic logic . In ASP and Datalog, logic programs have only a declarative reading, and their execution is performed by means of a proof procedure or model generator whose behaviour is not meant to be controlled by the programmer. However, in the Prolog family of languages, logic programs also have a procedural interpretation as goal-reduction procedures. From this point of view, clause A :- B 1 ,...,B n is understood as: to solve A , solve B 1 , and ... and solve B n . Negative conditions in the bodies of clauses also have a procedural interpretation, known as negation as failure : A negative literal not B is deemed to hold if and only if the positive literal B fails to hold. Much of the research in the field of logic programming has been concerned with trying to develop a logical semantics for negation as failure and with developing other semantics and other implementations for negation. These developments have been important, in turn, for supporting the development of formal methods for logic-based program verification and program transformation . ^ Tärnlund, S.Å. (1977). \"Horn clause computability\". BIT Numerical Mathematics . 17 (2): 215– 226. doi : 10.1007/BF01932293 . S2CID 32577496 . ^ Andréka, H.; Németi, I. (1978). \"The generalised completeness of Horn predicate-logic as a programming language\" . Acta Cybernetica . 4 (1): 3– 10.",
+    "text": "Programming paradigm based on formal logic Logic programming is a programming , database , and knowledge representation paradigm based on formal logic . A logic program is a set of sentences in logical form, representing knowledge about some problem domain. Computation is performed by applying logical reasoning to that knowledge, to solve problems in the domain. Major logic programming language families include Prolog , Answer Set Programming (ASP), and Datalog . In all of these languages, rules are written in the form of clauses : A :- B 1 , ..., B n . and are read as declarative sentences in logical form: A if B 1 and ... and B n . A is called the head of the rule, B 1 , ..., B n is called the body , and the B i are called literals or conditions. When n = 0, the rule is called a fact and is written in the simplified form: A. Queries (or goals) have the same syntax as the bodies of rules and are commonly written in the form: ?- B 1 , ..., B n . In the simplest case of Horn clauses (or \"definite\" clauses), all of the A, B 1 , ..., B n are atomic formulae of the form p(t 1 ,..., t m ), where p is a predicate symbol naming a relation, like \"motherhood\", and the t i are terms naming objects (or individuals). Terms include both constant symbols, like \"charles\", and variables, such as X, which start with an upper case letter. Consider, for example, the following Horn clause program: mother_child ( elizabeth , charles ). father_child ( charles , william ). father_child ( charles , harry ). parent_child ( X , Y ) :- mother_child ( X , Y ). parent_child ( X , Y ) :- father_child ( X , Y ). grandparent_child ( X , Y ) :- parent_child ( X , Z ), parent_child ( Z , Y ). Given a query, the program produces answers. For instance for a query ?- parent_child(X, william) , the single answer is X = charles Various queries can be asked. For instance the program can be queried both to generate grandparents and to generate grandchildren. It can even be used to generate all pairs of grandchildren and grandparents, or simply to check if a given pair is such a pair: grandparent_child ( X , william ). X = elizabeth ?- grandparent_child ( elizabeth , Y ). Y = william ; Y = harry . ?- grandparent_child ( X , Y ). X = elizabeth Y = william ; X = elizabeth Y = harry . ?- grandparent_child ( william , harry ). no ?- grandparent_child ( elizabeth , harry ). yes Although Horn clause logic programs are Turing complete , for most practical applications, Horn clause programs need to be extended to \"normal\" logic programs with negative conditions. For example, the definition of sibling uses a negative condition, where the predicate = is defined by the clause X = X : sibling ( X , Y ) :- parent_child ( Z , X ), parent_child ( Z , Y ), not ( X = Y ). Logic programming languages that include negative conditions have the knowledge representation capabilities of a non-monotonic logic . In ASP and Datalog, logic programs have only a declarative reading, and their execution is performed by means of a proof procedure or model generator whose behaviour is not meant to be controlled by the programmer. However, in the Prolog family of languages, logic programs also have a procedural interpretation as goal-reduction procedures. From this point of view, clause A :- B 1 ,...,B n is understood as: to solve A , solve B 1 , and ... and solve B n . Negative conditions in the bodies of clauses also have a procedural interpretation, known as negation as failure : A negative literal not B is deemed to hold if and only if the positive literal B fails to hold. Much of the research in the field of logic programming has been concerned with trying to develop a logical semantics for negation as failure and with developing other semantics and other implementations for negation. These developments have been important, in turn, for supporting the development of formal methods for logic-based program verification and program transformation . ^ Tärnlund, S.Å. (1977). \"Horn clause computability\". BIT Numerical Mathematics . 17 (2): 215– 226. doi : 10.1007/BF01932293 . S2CID 32577496 . ^ Andréka, H.; Németi, I. (1978). \"The generalised completeness of Horn predicate-logic as a programming language\" . Acta Cybernetica . 4 (1): 3– 10.",
+    "links": [
+      "Answer set programming",
+      "Atomic formula",
+      "BIT Numerical Mathematics",
+      "Clause (logic)",
+      "Database",
+      "Datalog",
+      "Declarative programming",
+      "Doi (identifier)",
+      "Formal methods",
+      "Formal verification",
+      "Horn clause",
+      "Knowledge representation",
+      "Literal (mathematical logic)",
+      "Logic",
+      "Negation as failure",
+      "Non-monotonic logic",
+      "Predicate (mathematical logic)",
+      "Procedural programming",
+      "Program transformation",
+      "Programming paradigm",
+      "Prolog",
+      "S2CID (identifier)",
+      "Turing completeness"
+    ],
+    "page_id": 17927,
+    "revision_id": 1375521752,
+    "retrieved_at": "2026-09-18T16:41:54.861559+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260625171341|1361103096",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 17927,
+            "ns": 0,
+            "title": "Logic programming",
+            "revisions": [
+              {
+                "revid": 1375521752,
+                "parentid": 1361103096
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming paradigm based on formal logic",
+              "wikibase_item": "Q275603"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Logic programming",
+        "pageid": 17927,
+        "revid": 1375521752,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming paradigm based on formal logic</div>\n<p><b>Logic programming</b> is a <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming</a>, <a href=\"/wiki/Database\" title=\"Database\">database</a>, and <a href=\"/wiki/Knowledge_representation\" class=\"mw-redirect\" title=\"Knowledge representation\">knowledge representation</a> paradigm based on formal <a href=\"/wiki/Logic\" title=\"Logic\">logic</a>. A logic program is a set of sentences in logical form, representing knowledge about some problem domain. Computation is performed by applying logical reasoning to that knowledge, to solve problems in the domain.  Major logic programming language families include <a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a>, <a href=\"/wiki/Answer_set_programming\" title=\"Answer set programming\">Answer Set Programming</a> (ASP), and <a href=\"/wiki/Datalog\" title=\"Datalog\">Datalog</a>. In all of these languages, rules are written in the form of <i><a href=\"/wiki/Clause_(logic)\" title=\"Clause (logic)\">clauses</a></i>:\n</p>\n<dl><dd><code>A&#160;:- B<sub>1</sub>, ..., B<sub>n</sub>.</code></dd></dl>\n<p>and are read as declarative sentences in logical form:\n</p>\n<dl><dd><code>A if B<sub>1</sub> and ... and B<sub>n</sub>.</code></dd></dl>\n<p><code>A</code> is called the <i>head</i> of the rule, <code>B<sub>1</sub></code>, ..., <code>B<sub>n</sub></code> is called the <i>body</i>, and the <code>B<sub>i</sub></code> are called <i><a href=\"/wiki/Literal_(mathematical_logic)\" title=\"Literal (mathematical logic)\">literals</a></i> or conditions. When n = 0, the rule is called a <i>fact</i> and is written in the simplified form:\n</p>\n<dl><dd><code>A.</code></dd></dl>\n<p>Queries (or goals) have the same syntax as the bodies of rules and are commonly written in the form:\n</p>\n<dl><dd><code>?- B<sub>1</sub>, ..., B<sub>n</sub>.</code></dd></dl>\n<p>In the simplest case of <a href=\"/wiki/Horn_clause\" title=\"Horn clause\">Horn clauses</a> (or \"definite\" clauses), all of the A, B<sub>1</sub>, ..., B<sub>n</sub> are <a href=\"/wiki/Atomic_formula\" title=\"Atomic formula\">atomic formulae</a> of the form p(t<sub>1</sub> ,..., t<sub>m</sub>), where p is a predicate symbol naming a relation, like \"motherhood\", and the t<sub>i</sub> are terms naming objects (or individuals). Terms include both constant symbols, like \"charles\", and variables, such as X, which start with an upper case letter.\n</p><p>Consider, for example, the following Horn clause program:\n</p>\n<div class=\"mw-highlight mw-highlight-lang-prolog mw-content-ltr\" dir=\"ltr\"><pre><span></span><span class=\"nf\">mother_child</span><span class=\"p\">(</span><span class=\"s s-Atom\">elizabeth</span><span class=\"p\">,</span> <span class=\"s s-Atom\">charles</span><span class=\"p\">).</span>\n<span class=\"nf\">father_child</span><span class=\"p\">(</span><span class=\"s s-Atom\">charles</span><span class=\"p\">,</span> <span class=\"s s-Atom\">william</span><span class=\"p\">).</span>\n<span class=\"nf\">father_child</span><span class=\"p\">(</span><span class=\"s s-Atom\">charles</span><span class=\"p\">,</span> <span class=\"s s-Atom\">harry</span><span class=\"p\">).</span>\n<span class=\"nf\">parent_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">)</span> <span class=\"p\">:-</span> \n     <span class=\"nf\">mother_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">).</span>\n<span class=\"nf\">parent_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">)</span> <span class=\"p\">:-</span> \n     <span class=\"nf\">father_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">).</span>\n<span class=\"nf\">grandparent_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">)</span> <span class=\"p\">:-</span> \n     <span class=\"nf\">parent_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Z</span><span class=\"p\">),</span> \n     <span class=\"nf\">parent_child</span><span class=\"p\">(</span><span class=\"nv\">Z</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">).</span>\n</pre></div>\n<p>Given a query, the program produces answers.\nFor instance for a query  <code>?- parent_child(X, william)</code>, the single answer is\n</p>\n<div class=\"mw-highlight mw-highlight-lang-prolog mw-content-ltr\" dir=\"ltr\"><pre><span></span><span class=\"nv\">X</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">charles</span>\n</pre></div>\n<p>Various queries can be asked.  For instance\nthe program can be queried both to generate grandparents and to generate grandchildren. It can even be used to generate all pairs of grandchildren and grandparents, or simply to check if a given pair is such a pair:\n</p>\n<div class=\"mw-highlight mw-highlight-lang-prolog mw-content-ltr\" dir=\"ltr\"><pre><span></span><span class=\"nf\">grandparent_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"s s-Atom\">william</span><span class=\"p\">).</span>\n<span class=\"nv\">X</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">elizabeth</span>\n\n<span class=\"s s-Atom\">?-</span> <span class=\"nf\">grandparent_child</span><span class=\"p\">(</span><span class=\"s s-Atom\">elizabeth</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">).</span>\n<span class=\"nv\">Y</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">william</span><span class=\"p\">;</span>\n<span class=\"nv\">Y</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">harry</span><span class=\"p\">.</span>\n\n<span class=\"s s-Atom\">?-</span> <span class=\"nf\">grandparent_child</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">).</span>\n<span class=\"nv\">X</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">elizabeth</span>\n<span class=\"nv\">Y</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">william</span><span class=\"p\">;</span>\n<span class=\"nv\">X</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">elizabeth</span>\n<span class=\"nv\">Y</span> <span class=\"o\">=</span> <span class=\"s s-Atom\">harry</span><span class=\"p\">.</span>\n\n<span class=\"s s-Atom\">?-</span> <span class=\"nf\">grandparent_child</span><span class=\"p\">(</span><span class=\"s s-Atom\">william</span><span class=\"p\">,</span> <span class=\"s s-Atom\">harry</span><span class=\"p\">).</span>\n<span class=\"s s-Atom\">no</span>\n<span class=\"s s-Atom\">?-</span> <span class=\"nf\">grandparent_child</span><span class=\"p\">(</span><span class=\"s s-Atom\">elizabeth</span><span class=\"p\">,</span> <span class=\"s s-Atom\">harry</span><span class=\"p\">).</span>\n<span class=\"s s-Atom\">yes</span>\n</pre></div>\n<p>Although Horn clause logic programs are <a href=\"/wiki/Turing_completeness\" title=\"Turing completeness\">Turing complete</a>,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> for most practical applications, Horn clause programs need to be extended to \"normal\" logic programs with negative conditions. For example, the definition of sibling uses a negative condition, where the <a href=\"/wiki/Predicate_(mathematical_logic)\" class=\"mw-redirect\" title=\"Predicate (mathematical logic)\">predicate</a> = is defined by the clause <code> X = X </code>:\n</p>\n<div class=\"mw-highlight mw-highlight-lang-prolog mw-content-ltr\" dir=\"ltr\"><pre><span></span><span class=\"nf\">sibling</span><span class=\"p\">(</span><span class=\"nv\">X</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">)</span> <span class=\"p\">:-</span> \n     <span class=\"nf\">parent_child</span><span class=\"p\">(</span><span class=\"nv\">Z</span><span class=\"p\">,</span> <span class=\"nv\">X</span><span class=\"p\">),</span> \n     <span class=\"nf\">parent_child</span><span class=\"p\">(</span><span class=\"nv\">Z</span><span class=\"p\">,</span> <span class=\"nv\">Y</span><span class=\"p\">),</span> \n     <span class=\"o\">not</span><span class=\"p\">(</span><span class=\"nv\">X</span> <span class=\"o\">=</span> <span class=\"nv\">Y</span><span class=\"p\">).</span>\n</pre></div>\n<p>Logic programming languages that include negative conditions have the knowledge representation capabilities of a <a href=\"/wiki/Non-monotonic_logic\" title=\"Non-monotonic logic\">non-monotonic logic</a>.\n</p><p>In ASP and Datalog, logic programs have only a <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative</a> reading, and their execution is performed by means of a proof procedure or model generator whose behaviour is not meant to be controlled by the programmer. However, in the Prolog family of languages, logic programs also have a <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a> interpretation as goal-reduction procedures. From this point of view, clause A&#160;:- B<sub>1</sub>,...,B<sub>n</sub> is understood as:\n</p>\n<dl><dd>to solve <code>A</code>, solve <code>B<sub>1</sub></code>, and ... and solve <code>B<sub>n</sub></code>.</dd></dl>\n<p>Negative conditions in the bodies of clauses also have a procedural interpretation, known as <i><a href=\"/wiki/Negation_as_failure\" title=\"Negation as failure\">negation as failure</a></i>: A negative literal <code> not B</code> is deemed to hold if and only if the positive literal <code> B</code> fails to hold.\n</p><p>Much of the research in the field of logic programming has been concerned with trying to develop a logical semantics for negation as failure and with developing other semantics and other implementations for negation. These developments have been important, in turn, for supporting the development of <a href=\"/wiki/Formal_methods\" title=\"Formal methods\">formal methods</a> for logic-based <a href=\"/wiki/Formal_verification\" title=\"Formal verification\">program verification</a> and <a href=\"/wiki/Program_transformation\" title=\"Program transformation\">program transformation</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFTärnlund1977\" class=\"citation journal cs1\">Tärnlund, S.Å. (1977). \"Horn clause computability\". <i><a href=\"/wiki/BIT_Numerical_Mathematics\" title=\"BIT Numerical Mathematics\">BIT Numerical Mathematics</a></i>. <b>17</b> (2): <span class=\"nowrap\">215–</span>226. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2FBF01932293\">10.1007/BF01932293</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:32577496\">32577496</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=BIT+Numerical+Mathematics&amp;rft.atitle=Horn+clause+computability&amp;rft.volume=17&amp;rft.issue=2&amp;rft.pages=215-226&amp;rft.date=1977&amp;rft&#95;id=info%3Adoi%2F10.1007%2FBF01932293&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A32577496%23id-name%3DS2CID&amp;rft.aulast=T%C3%A4rnlund&amp;rft.aufirst=S.%C3%85.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALogic+programming\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAndrékaNémeti1978\" class=\"citation journal cs1\">Andréka, H.; Németi, I. (1978). <a rel=\"nofollow\" class=\"external text\" href=\"https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3160\">\"The generalised completeness of Horn predicate-logic as a programming language\"</a>. <i>Acta Cybernetica</i>. <b>4</b> (1): <span class=\"nowrap\">3–</span>10.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Acta+Cybernetica&amp;rft.atitle=The+generalised+completeness+of+Horn+predicate-logic+as+a+programming+language&amp;rft.volume=4&amp;rft.issue=1&amp;rft.pages=3-10&amp;rft.date=1978&amp;rft.aulast=Andr%C3%A9ka&amp;rft.aufirst=H.&amp;rft.au=N%C3%A9meti%2C+I.&amp;rft&#95;id=https%3A%2F%2Fcyber.bibl.u-szeged.hu%2Findex.php%2Factcybern%2Farticle%2Fview%2F3160&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ALogic+programming\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐b7m68\nCached time: 20260918164220\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.185 seconds\nReal time usage: 0.236 seconds\nPreprocessor visited node count: 223/1000000\nRevision size: 5360/2097152 bytes\nPost‐expand include size: 4578/2097152 bytes\nTemplate argument size: 475/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 9711/5000000 bytes\nLua time usage: 0.138/10.000 seconds\nLua memory usage: 3314577/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  216.231      1 -total\n 52.81%  114.196      2 Template:Cite_journal\n 44.71%   96.675      1 Template:Short_description\n 30.24%   65.389      2 Template:Pagetype\n  8.72%   18.858      2 Template:Main_other\n  7.83%   16.921      1 Template:SDcat\n  0.95%    2.060      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID ea668d7d-b37f-11f1-8869-13a0f5873c93 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Answer set programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Atomic formula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BIT Numerical Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clause (logic)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Datalog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal methods",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal verification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Horn clause",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Knowledge representation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Literal (mathematical logic)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Negation as failure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Non-monotonic logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Predicate (mathematical logic)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Program transformation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing completeness",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming paradigm based on formal logic",
+          "wikibase_item": "Q275603"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,995 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Fortran",
+    "url": "https://en.wikipedia.org/wiki/Fortran",
+    "summary": "General-purpose programming language Not to be confused with 4chan . Fortran Paradigm Multi-paradigm : structured , imperative ( procedural , object-oriented ), generic , array Designed by John Backus Developer John Backus and IBM First appeared 1957 ; 69 years ago ( 1957 ) Stable release Fortran 2023 (ISO/IEC 1539:2023) / November 17, 2023 ; 2 years ago ( 2023-11-17 ) Typing discipline Strong , static , manifest Filename extensions .f90 , .f , .for Website fortran-lang .org Major implementations Absoft , Cray , GFortran , G95 , IBM XL Fortran, Intel , Hitachi , Lahey/Fujitsu, Numerical Algorithms Group , Open Watcom , PathScale , PGI , Silverfrost , Oracle Solaris Studio , VAX/DEC/VSI , others Influenced by Speedcoding Influenced ALGOL 58 , BASIC , C , Chapel , CMS-2 , DOPE , Fortress , MATLAB , PL/I , PACT I , MUMPS , IDL , Ratfor , SAKO Fortran at Wikibooks This article is part of a series on the Fortran programming language Fortran mathematical libraries ARPACK Automatically Tuned Linear Algebra Software BLAS BLIS EISPACK Harwell Subroutine Library IMSL Numerical Libraries LAPACK Librsb LINPACK Lis Math Kernel Library MINPACK NAG Fortran Library Netlib PETSc QUADPACK SLATEC SOFA Fortran scientific libraries ABINIT Cantera CERN Program Library CP2K Dalton FFTPACK Kinetic PreProcessor MODTRAN MOLCAS Nek5000 NOVAS NWChem Octopus Physics Analysis Workstation Quantum ESPRESSO SIESTA Tinker Fortran IDEs and editors Code::Blocks Eclipse IDE Emacs Geany IntelliJ IDEA KDevelop NetBeans OpenWatcom Simply Fortran Vim Visual Studio Visual Studio Code Fortran compilers Absoft Pro Fortran AOCC Classic Flang G95 GCC ( GNU Fortran ) IBM XL Fortran Intel Fortran Compiler LFortran LLVM Flang MinGW Open64 Open Watcom Oracle Fortran PGI compilers ROSE Silverfrost FTN95 Fortran tools and frameworks Autotools CMake Coarray Fortran FORD FUnit GDB High Performance Fortran Make MPI Fortran bindings OpenMP pFUnit ScaLAPACK Spack SQuORE Understand Valgrind VTune Profiler See also List of Fortran books List of Fortran software and tools Computer programming portal Fortran programming (Wikibooks) v t e Fortran ( / ˈ f ɔːr t r æ n / ; formerly FORTRAN ) is a third-generation , compiled , imperative programming language designed for numeric computation and scientific computing . Fortran was originally developed by IBM with a reference manual being released in 1956; however, the first compilers only began to produce accurate code two years later. Fortran computer programs have been written to support scientific and engineering applications, such as numerical weather prediction , finite element analysis , computational fluid dynamics , plasma physics , geophysics , computational physics , crystallography and computational chemistry . It is a popular language for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers . Fortran has evolved through numerous versions and dialects. The two most important early versions were FORTRAN II and FORTRAN IV. In 1966, the American National Standards Institute (ANSI) developed a standard for Fortran to limit proliferation of compilers using slightly different syntax. Successive versions have added support for a character data type, structured programming (Fortran 77), array programming , modular programming , generic programming (Fortran 90), parallel computing ( Fortran 95 ), object-oriented programming (Fortran 2003), and concurrent programming (Fortran 2008). FORTRAN and COBOL genealogy tree ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. October 1, 2015. Archived (PDF) from the original on February 5, 2016 . Retrieved January 14, 2016 . ^ Report of a Visit to Discuss Common Programming Languages in Czechoslowakia and Poland, 1963, John A. Gosden (Editor), Roger E. Gay, John L. Jones, Jack N. Merner, Christopher J. Shaw ^ John Backus. \"The history of FORTRAN I, II and III\" (PDF) . softwarepreservation.computerhistory.org. Archived (PDF) from the original on July 26, 2007 . Retrieved February 8, 2026 . ^ Wilson, Leslie B. (2001). Comparative Programming Languages, Third Edition . Addison-Wesley. p. 16. ISBN 0-201-71012-9 . The manual for Fortran I was released in 1956, but it was 1958 before successful compilers were running programs correctly. ^ Loh, Eugene (June 18, 2010). \"The Ideal HPC Programming Language\" . ACM Queue . 8 (6): 30– 38. doi : 10.1145/1810226.1820518 . ^ \"HPL – A Portable Implementation of the High-Performance Linpack Benchmark for Distributed-Memory Computers\" . Retrieved February 21, 2015 . ^ \"Q13. What are the benchmarks?\" . Overview – CPU 2017 . SPEC . Retrieved November 13, 2019 . ^ Cite error: The named reference pratt was invoked but never defined (see the help page ). ^ Wilson, Leslie B. (2001). Comparative Programming Languages, Third Edition . Addison-Wesley. p. 18. ISBN 0-201-71012-9 . Another problem was that there was no standard for Fortran and so slightly different versions ... would likely fail when used with a different compiler.",
+    "text": "General-purpose programming language Not to be confused with 4chan . Fortran Paradigm Multi-paradigm : structured , imperative ( procedural , object-oriented ), generic , array Designed by John Backus Developer John Backus and IBM First appeared 1957 ; 69 years ago ( 1957 ) Stable release Fortran 2023 (ISO/IEC 1539:2023) / November 17, 2023 ; 2 years ago ( 2023-11-17 ) Typing discipline Strong , static , manifest Filename extensions .f90 , .f , .for Website fortran-lang .org Major implementations Absoft , Cray , GFortran , G95 , IBM XL Fortran, Intel , Hitachi , Lahey/Fujitsu, Numerical Algorithms Group , Open Watcom , PathScale , PGI , Silverfrost , Oracle Solaris Studio , VAX/DEC/VSI , others Influenced by Speedcoding Influenced ALGOL 58 , BASIC , C , Chapel , CMS-2 , DOPE , Fortress , MATLAB , PL/I , PACT I , MUMPS , IDL , Ratfor , SAKO Fortran at Wikibooks This article is part of a series on the Fortran programming language Fortran mathematical libraries ARPACK Automatically Tuned Linear Algebra Software BLAS BLIS EISPACK Harwell Subroutine Library IMSL Numerical Libraries LAPACK Librsb LINPACK Lis Math Kernel Library MINPACK NAG Fortran Library Netlib PETSc QUADPACK SLATEC SOFA Fortran scientific libraries ABINIT Cantera CERN Program Library CP2K Dalton FFTPACK Kinetic PreProcessor MODTRAN MOLCAS Nek5000 NOVAS NWChem Octopus Physics Analysis Workstation Quantum ESPRESSO SIESTA Tinker Fortran IDEs and editors Code::Blocks Eclipse IDE Emacs Geany IntelliJ IDEA KDevelop NetBeans OpenWatcom Simply Fortran Vim Visual Studio Visual Studio Code Fortran compilers Absoft Pro Fortran AOCC Classic Flang G95 GCC ( GNU Fortran ) IBM XL Fortran Intel Fortran Compiler LFortran LLVM Flang MinGW Open64 Open Watcom Oracle Fortran PGI compilers ROSE Silverfrost FTN95 Fortran tools and frameworks Autotools CMake Coarray Fortran FORD FUnit GDB High Performance Fortran Make MPI Fortran bindings OpenMP pFUnit ScaLAPACK Spack SQuORE Understand Valgrind VTune Profiler See also List of Fortran books List of Fortran software and tools Computer programming portal Fortran programming (Wikibooks) v t e Fortran ( / ˈ f ɔːr t r æ n / ; formerly FORTRAN ) is a third-generation , compiled , imperative programming language designed for numeric computation and scientific computing . Fortran was originally developed by IBM with a reference manual being released in 1956; however, the first compilers only began to produce accurate code two years later. Fortran computer programs have been written to support scientific and engineering applications, such as numerical weather prediction , finite element analysis , computational fluid dynamics , plasma physics , geophysics , computational physics , crystallography and computational chemistry . It is a popular language for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers . Fortran has evolved through numerous versions and dialects. The two most important early versions were FORTRAN II and FORTRAN IV. In 1966, the American National Standards Institute (ANSI) developed a standard for Fortran to limit proliferation of compilers using slightly different syntax. Successive versions have added support for a character data type, structured programming (Fortran 77), array programming , modular programming , generic programming (Fortran 90), parallel computing ( Fortran 95 ), object-oriented programming (Fortran 2003), and concurrent programming (Fortran 2008). FORTRAN and COBOL genealogy tree ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. October 1, 2015. Archived (PDF) from the original on February 5, 2016 . Retrieved January 14, 2016 . ^ Report of a Visit to Discuss Common Programming Languages in Czechoslowakia and Poland, 1963, John A. Gosden (Editor), Roger E. Gay, John L. Jones, Jack N. Merner, Christopher J. Shaw ^ John Backus. \"The history of FORTRAN I, II and III\" (PDF) . softwarepreservation.computerhistory.org. Archived (PDF) from the original on July 26, 2007 . Retrieved February 8, 2026 . ^ Wilson, Leslie B. (2001). Comparative Programming Languages, Third Edition . Addison-Wesley. p. 16. ISBN 0-201-71012-9 . The manual for Fortran I was released in 1956, but it was 1958 before successful compilers were running programs correctly. ^ Loh, Eugene (June 18, 2010). \"The Ideal HPC Programming Language\" . ACM Queue . 8 (6): 30– 38. doi : 10.1145/1810226.1820518 . ^ \"HPL – A Portable Implementation of the High-Performance Linpack Benchmark for Distributed-Memory Computers\" . Retrieved February 21, 2015 . ^ \"Q13. What are the benchmarks?\" . Overview – CPU 2017 . SPEC . Retrieved November 13, 2019 . ^ Cite error: The named reference pratt was invoked but never defined (see the help page ). ^ Wilson, Leslie B. (2001). Comparative Programming Languages, Third Edition . Addison-Wesley. p. 18. ISBN 0-201-71012-9 . Another problem was that there was no standard for Fortran and so slightly different versions ... would likely fail when used with a different compiler.",
+    "links": [
+      "4chan",
+      "ABINIT",
+      "ALGOL 58",
+      "AMD Optimizing C/C++ Compiler",
+      "ARPACK",
+      "Absoft Fortran Compilers",
+      "American National Standards Institute",
+      "Array programming",
+      "Automatically Tuned Linear Algebra Software",
+      "Autotools",
+      "BASIC",
+      "BLAS",
+      "BLIS (software)",
+      "C (programming language)",
+      "CERN Program Library",
+      "CMS-2",
+      "CMake",
+      "CP2K",
+      "Cantera",
+      "Chapel (programming language)",
+      "Coarray Fortran",
+      "Code::Blocks",
+      "Comparison of integrated development environments",
+      "Compiled language",
+      "Computational chemistry",
+      "Computational fluid dynamics",
+      "Computational physics",
+      "Computational science",
+      "Computer program",
+      "Concurrent programming",
+      "Cray",
+      "Crystallography",
+      "Dalton (program)",
+      "Dartmouth Oversimplified Programming Experiment",
+      "Doi (identifier)",
+      "EISPACK",
+      "Eclipse IDE",
+      "Emacs",
+      "FFTPACK",
+      "FUnit",
+      "Filename extension",
+      "Finite element method",
+      "Flang",
+      "Fortran",
+      "Fortran 95 language features",
+      "Fortress (programming language)",
+      "G95",
+      "GDB",
+      "GNU Compiler Collection",
+      "GNU Fortran",
+      "Geany",
+      "Generic programming",
+      "Geophysics",
+      "Harwell Subroutine Library",
+      "High Performance Fortran",
+      "High-performance computing",
+      "Hitachi",
+      "IBM",
+      "IBM XL Fortran",
+      "IDL (programming language)",
+      "IMSL Numerical Libraries",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Intel Fortran Compiler",
+      "IntelliJ IDEA",
+      "John Backus",
+      "KDevelop",
+      "Kinetic PreProcessor",
+      "LAPACK",
+      "LFortran",
+      "LINPACK",
+      "Librsb",
+      "Lis (linear algebra library)",
+      "List of Fortran compilers",
+      "List of Fortran software and tools",
+      "List of computer books",
+      "List of numerical libraries",
+      "MATLAB",
+      "MINPACK",
+      "MODTRAN",
+      "MOLCAS",
+      "MUMPS",
+      "Make (software)",
+      "Manifest typing",
+      "Math Kernel Library",
+      "Message Passing Interface",
+      "MinGW",
+      "Modular programming",
+      "Multi-paradigm programming language",
+      "NAG Numerical Library",
+      "NOVAS",
+      "NWChem",
+      "Nek5000",
+      "NetBeans",
+      "Netlib",
+      "Numerical Algorithms Group",
+      "Numerical analysis",
+      "Numerical weather prediction",
+      "Object-oriented programming",
+      "Octopus (software)",
+      "Open Watcom",
+      "Open64",
+      "OpenMP",
+      "OpenVMS",
+      "OpenWatcom",
+      "Oracle Developer Studio",
+      "Oracle Solaris Studio",
+      "PACT I",
+      "PETSc",
+      "PFUnit",
+      "PGI compiler",
+      "PL/I",
+      "PathScale",
+      "Physics Analysis Workstation",
+      "Plasma (physics)",
+      "Procedural programming",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "QUADPACK",
+      "Quantum ESPRESSO",
+      "ROSE (compiler framework)",
+      "Ratfor",
+      "SAKO (programming language)",
+      "SIESTA (computer program)",
+      "SLATEC",
+      "SOFA (Astronomy)",
+      "SPEC",
+      "SQuORE",
+      "ScaLAPACK",
+      "Silverfrost FTN95",
+      "Simply Fortran",
+      "Software design",
+      "Software developer",
+      "Software release life cycle",
+      "Spack (software)",
+      "Speedcoding",
+      "Strong and weak typing",
+      "Structured programming",
+      "TOP500",
+      "Third-generation programming language",
+      "Tinker (software)",
+      "Type system",
+      "Understand (software)",
+      "VTune",
+      "Valgrind",
+      "Vim (text editor)",
+      "Visual Studio",
+      "Visual Studio Code",
+      "Watcom C compiler"
+    ],
+    "page_id": 11168,
+    "revision_id": 1374404077,
+    "retrieved_at": "2026-09-18T16:41:27.890291+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260906174808|1373567739",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 11168,
+            "ns": 0,
+            "title": "Fortran",
+            "revisions": [
+              {
+                "revid": 1374404077,
+                "parentid": 1373567739
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Fortran_logo.svg",
+              "wikibase-shortdesc": "General-purpose programming language",
+              "wikibase_item": "Q83303"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Fortran",
+        "pageid": 11168,
+        "revid": 1374404077,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose programming language</div>\n<p class=\"mw-empty-elt\"> \n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/4chan\" title=\"4chan\">4chan</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Fortran</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Fortran_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/250px-Fortran_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"121\" class=\"mw-file-element\" data-file-width=\"255\" data-file-height=\"255\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a> (<a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>), <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a>, <a href=\"/wiki/Array_programming\" title=\"Array programming\">array</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/John_Backus\" title=\"John Backus\">John Backus</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">John Backus and <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1957<span class=\"noprint\">&#59;&#32;69&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1957</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Fortran 2023 (ISO/IEC 1539:2023)\n   / November&#160;17, 2023<span class=\"noprint\">&#59;&#32;2 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2023-11-17</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">Strong</a>, <a href=\"/wiki/Type_system\" title=\"Type system\">static</a>, <a href=\"/wiki/Manifest_typing\" title=\"Manifest typing\">manifest</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code class=\"mw-highlight mw-highlight-lang-text mw-content-ltr\" style=\"\" dir=\"ltr\">.f90</code>, <code class=\"mw-highlight mw-highlight-lang-text mw-content-ltr\" style=\"\" dir=\"ltr\">.f</code>, <code class=\"mw-highlight mw-highlight-lang-text mw-content-ltr\" style=\"\" dir=\"ltr\">.for</code></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://fortran-lang.org\">fortran-lang<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Absoft_Fortran_Compilers\" class=\"mw-redirect\" title=\"Absoft Fortran Compilers\">Absoft</a>, <a href=\"/wiki/Cray\" title=\"Cray\">Cray</a>, <a href=\"/wiki/GNU_Fortran\" title=\"GNU Fortran\">GFortran</a>, <a href=\"/wiki/G95\" title=\"G95\">G95</a>, <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a> XL Fortran, <a href=\"/wiki/Intel_Fortran_Compiler\" title=\"Intel Fortran Compiler\">Intel</a>, <a href=\"/wiki/Hitachi\" title=\"Hitachi\">Hitachi</a>, Lahey/Fujitsu, <a href=\"/wiki/Numerical_Algorithms_Group\" class=\"mw-redirect\" title=\"Numerical Algorithms Group\">Numerical Algorithms Group</a>, <a href=\"/wiki/Watcom_C_compiler\" class=\"mw-redirect\" title=\"Watcom C compiler\">Open Watcom</a>, <a href=\"/wiki/PathScale\" title=\"PathScale\">PathScale</a>, <a href=\"/wiki/PGI_compiler\" class=\"mw-redirect\" title=\"PGI compiler\">PGI</a>, <a href=\"/wiki/Silverfrost_FTN95\" title=\"Silverfrost FTN95\">Silverfrost</a>, <a href=\"/wiki/Oracle_Solaris_Studio\" class=\"mw-redirect\" title=\"Oracle Solaris Studio\">Oracle Solaris Studio</a>, <a href=\"/wiki/OpenVMS\" title=\"OpenVMS\">VAX/DEC/VSI</a>, others</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Speedcoding\" title=\"Speedcoding\">Speedcoding</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ALGOL_58\" title=\"ALGOL 58\">ALGOL 58</a>, <a href=\"/wiki/BASIC\" title=\"BASIC\">BASIC</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/Chapel_(programming_language)\" title=\"Chapel (programming language)\">Chapel</a>,<sup id=\"cite&#95;ref-chplspec&#95;1-0\" class=\"reference\"><a href=\"#cite_note-chplspec-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/CMS-2\" title=\"CMS-2\">CMS-2</a>, <a href=\"/wiki/Dartmouth_Oversimplified_Programming_Experiment\" title=\"Dartmouth Oversimplified Programming Experiment\">DOPE</a>, <a href=\"/wiki/Fortress_(programming_language)\" title=\"Fortress (programming language)\">Fortress</a>, <a href=\"/wiki/MATLAB\" title=\"MATLAB\">MATLAB</a>, <a href=\"/wiki/PL/I\" title=\"PL/I\">PL/I</a>, <a href=\"/wiki/PACT_I\" class=\"mw-redirect\" title=\"PACT I\">PACT I</a>, <a href=\"/wiki/MUMPS\" title=\"MUMPS\">MUMPS</a>, <a href=\"/wiki/IDL_(programming_language)\" title=\"IDL (programming language)\">IDL</a>, <a href=\"/wiki/Ratfor\" title=\"Ratfor\">Ratfor</a>, <a href=\"/wiki/SAKO_(programming_language)\" title=\"SAKO (programming language)\">SAKO</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Fortran\" class=\"extiw\" title=\"wikibooks:Fortran\">Fortran</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar sidebar-collapse nomobile nowraplinks\" role=\"navigation\" style=\"width:22.0em; border: 4px double #734F96;\"><tbody><tr><td class=\"sidebar-pretitle\">This article is part of <a href=\"/wiki/Category:Fortran\" title=\"Category:Fortran\">a series</a> on the <br /> <a class=\"mw-selflink selflink\">Fortran programming language</a></td></tr><tr><td class=\"sidebar-image\"><span typeof=\"mw:File\"><a href=\"/wiki/Fortran\" title=\"The logo of the Fortran programming language\"><img alt=\"The logo of the Fortran programming language\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/60px-Fortran_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/120px-Fortran_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"255\" data-file-height=\"255\" /></a></span></td></tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_numerical_libraries#Fortran\" title=\"List of numerical libraries\">Fortran mathematical libraries</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/ARPACK\" title=\"ARPACK\">ARPACK</a></li>\n<li><a href=\"/wiki/Automatically_Tuned_Linear_Algebra_Software\" title=\"Automatically Tuned Linear Algebra Software\">Automatically Tuned Linear Algebra Software</a></li>\n<li><a href=\"/wiki/BLAS\" class=\"mw-redirect\" title=\"BLAS\">BLAS</a></li>\n<li><a href=\"/wiki/BLIS_(software)\" title=\"BLIS (software)\">BLIS</a></li>\n<li><a href=\"/wiki/EISPACK\" title=\"EISPACK\">EISPACK</a></li>\n<li><a href=\"/wiki/Harwell_Subroutine_Library\" class=\"mw-redirect\" title=\"Harwell Subroutine Library\">Harwell Subroutine Library</a></li>\n<li><a href=\"/wiki/IMSL_Numerical_Libraries\" title=\"IMSL Numerical Libraries\">IMSL Numerical Libraries</a></li>\n<li><a href=\"/wiki/LAPACK\" title=\"LAPACK\">LAPACK</a></li>\n<li><a href=\"/wiki/Librsb\" title=\"Librsb\">Librsb</a></li>\n<li><a href=\"/wiki/LINPACK\" title=\"LINPACK\">LINPACK</a></li>\n<li><a href=\"/wiki/Lis_(linear_algebra_library)\" title=\"Lis (linear algebra library)\">Lis</a></li>\n<li><a href=\"/wiki/Math_Kernel_Library\" title=\"Math Kernel Library\">Math Kernel Library</a></li>\n<li><a href=\"/wiki/MINPACK\" title=\"MINPACK\">MINPACK</a></li>\n<li><a href=\"/wiki/NAG_Numerical_Library\" title=\"NAG Numerical Library\">NAG Fortran Library</a></li>\n<li><a href=\"/wiki/Netlib\" title=\"Netlib\">Netlib</a></li>\n<li><a href=\"/wiki/PETSc\" class=\"mw-redirect\" title=\"PETSc\">PETSc</a></li>\n<li><a href=\"/wiki/QUADPACK\" title=\"QUADPACK\">QUADPACK</a></li>\n<li><a href=\"/wiki/SLATEC\" title=\"SLATEC\">SLATEC</a></li>\n<li><a href=\"/wiki/SOFA_(Astronomy)\" class=\"mw-redirect\" title=\"SOFA (Astronomy)\">SOFA</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_Fortran_software_and_tools#Scientific_libraries\" title=\"List of Fortran software and tools\">Fortran scientific libraries</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/ABINIT\" title=\"ABINIT\">ABINIT</a></li>\n<li><a href=\"/wiki/Cantera\" title=\"Cantera\">Cantera</a></li>\n<li><a href=\"/wiki/CERN_Program_Library\" title=\"CERN Program Library\">CERN Program Library</a></li>\n<li><a href=\"/wiki/CP2K\" title=\"CP2K\">CP2K</a></li>\n<li><a href=\"/wiki/Dalton_(program)\" title=\"Dalton (program)\">Dalton</a></li>\n<li><a href=\"/wiki/FFTPACK\" title=\"FFTPACK\">FFTPACK</a></li>\n<li><a href=\"/wiki/Kinetic_PreProcessor\" title=\"Kinetic PreProcessor\">Kinetic PreProcessor</a></li>\n<li><a href=\"/wiki/MODTRAN\" title=\"MODTRAN\">MODTRAN</a></li>\n<li><a href=\"/wiki/MOLCAS\" title=\"MOLCAS\">MOLCAS</a></li>\n<li><a href=\"/wiki/Nek5000\" title=\"Nek5000\">Nek5000</a></li>\n<li><a href=\"/wiki/NOVAS\" class=\"mw-redirect\" title=\"NOVAS\">NOVAS</a></li>\n<li><a href=\"/wiki/NWChem\" title=\"NWChem\">NWChem</a></li>\n<li><a href=\"/wiki/Octopus_(software)\" title=\"Octopus (software)\">Octopus</a></li>\n<li><a href=\"/wiki/Physics_Analysis_Workstation\" title=\"Physics Analysis Workstation\">Physics Analysis Workstation</a></li>\n<li><a href=\"/wiki/Quantum_ESPRESSO\" title=\"Quantum ESPRESSO\">Quantum ESPRESSO</a></li>\n<li><a href=\"/wiki/SIESTA_(computer_program)\" title=\"SIESTA (computer program)\">SIESTA</a></li>\n<li><a href=\"/wiki/Tinker_(software)\" title=\"Tinker (software)\">Tinker</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/Comparison_of_integrated_development_environments#Fortran\" title=\"Comparison of integrated development environments\">Fortran IDEs and editors</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/Code::Blocks\" title=\"Code::Blocks\">Code::Blocks</a></li>\n<li><a href=\"/wiki/Eclipse_IDE\" class=\"mw-redirect\" title=\"Eclipse IDE\">Eclipse IDE</a></li>\n<li><a href=\"/wiki/Emacs\" title=\"Emacs\">Emacs</a></li>\n<li><a href=\"/wiki/Geany\" title=\"Geany\">Geany</a></li>\n<li><a href=\"/wiki/IntelliJ_IDEA\" title=\"IntelliJ IDEA\">IntelliJ IDEA</a></li>\n<li><a href=\"/wiki/KDevelop\" title=\"KDevelop\">KDevelop</a></li>\n<li><a href=\"/wiki/NetBeans\" title=\"NetBeans\">NetBeans</a></li>\n<li><a href=\"/wiki/OpenWatcom\" class=\"mw-redirect\" title=\"OpenWatcom\">OpenWatcom</a></li>\n<li><a href=\"/wiki/Simply_Fortran\" title=\"Simply Fortran\">Simply Fortran</a></li>\n<li><a href=\"/wiki/Vim_(text_editor)\" title=\"Vim (text editor)\">Vim</a></li>\n<li><a href=\"/wiki/Visual_Studio\" title=\"Visual Studio\">Visual Studio</a></li>\n<li><a href=\"/wiki/Visual_Studio_Code\" title=\"Visual Studio Code\">Visual Studio Code</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_Fortran_compilers\" class=\"mw-redirect\" title=\"List of Fortran compilers\">Fortran compilers</a></div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/Absoft_Fortran_Compilers\" class=\"mw-redirect\" title=\"Absoft Fortran Compilers\">Absoft Pro Fortran</a></li>\n<li><a href=\"/wiki/AMD_Optimizing_C/C%2B%2B_Compiler\" title=\"AMD Optimizing C/C++ Compiler\">AOCC</a></li>\n<li><a href=\"/wiki/Flang\" class=\"mw-redirect\" title=\"Flang\">Classic Flang</a></li>\n<li><a href=\"/wiki/G95\" title=\"G95\">G95</a></li>\n<li><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GCC</a> (<a href=\"/wiki/GNU_Fortran\" title=\"GNU Fortran\">GNU Fortran</a>)</li>\n<li><a href=\"/wiki/IBM_XL_Fortran\" title=\"IBM XL Fortran\">IBM XL Fortran</a></li>\n<li><a href=\"/wiki/Intel_Fortran_Compiler\" title=\"Intel Fortran Compiler\">Intel Fortran Compiler</a></li>\n<li><a href=\"/wiki/LFortran\" title=\"LFortran\">LFortran</a></li>\n<li><a href=\"/wiki/Flang\" class=\"mw-redirect\" title=\"Flang\">LLVM Flang</a></li>\n<li><a href=\"/wiki/MinGW\" title=\"MinGW\">MinGW</a></li>\n<li><a href=\"/wiki/Open64\" title=\"Open64\">Open64</a></li>\n<li><a href=\"/wiki/Open_Watcom\" class=\"mw-redirect\" title=\"Open Watcom\">Open Watcom</a></li>\n<li><a href=\"/wiki/Oracle_Developer_Studio\" title=\"Oracle Developer Studio\">Oracle Fortran</a></li>\n<li><a href=\"/wiki/PGI_compiler#Compilers\" class=\"mw-redirect\" title=\"PGI compiler\">PGI compilers</a></li>\n<li><a href=\"/wiki/ROSE_(compiler_framework)\" title=\"ROSE (compiler framework)\">ROSE</a></li>\n<li><a href=\"/wiki/Silverfrost_FTN95\" title=\"Silverfrost FTN95\">Silverfrost FTN95</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\">Fortran tools and frameworks</div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/Autotools\" class=\"mw-redirect\" title=\"Autotools\">Autotools</a></li>\n<li><a href=\"/wiki/CMake\" title=\"CMake\">CMake</a></li>\n<li><a href=\"/wiki/Coarray_Fortran\" title=\"Coarray Fortran\">Coarray Fortran</a></li>\n<li><a href=\"https://en.wikibooks.org/wiki/Fortran/Documenting_Fortran\" class=\"extiw\" title=\"wikibooks:Fortran/Documenting Fortran\">FORD</a></li>\n<li><a href=\"/wiki/FUnit\" title=\"FUnit\">FUnit</a></li>\n<li><a href=\"/wiki/GDB\" class=\"mw-redirect\" title=\"GDB\">GDB</a></li>\n<li><a href=\"/wiki/High_Performance_Fortran\" title=\"High Performance Fortran\">High Performance Fortran</a></li>\n<li><a href=\"/wiki/Make_(software)\" title=\"Make (software)\">Make</a></li>\n<li><a href=\"/wiki/Message_Passing_Interface\" title=\"Message Passing Interface\">MPI Fortran bindings</a></li>\n<li><a href=\"/wiki/OpenMP\" title=\"OpenMP\">OpenMP</a></li>\n<li><a href=\"/wiki/PFUnit\" title=\"PFUnit\">pFUnit</a></li>\n<li><a href=\"/wiki/ScaLAPACK\" title=\"ScaLAPACK\">ScaLAPACK</a></li>\n<li><a href=\"/wiki/Spack_(software)\" class=\"mw-redirect\" title=\"Spack (software)\">Spack</a></li>\n<li><a href=\"/wiki/SQuORE\" title=\"SQuORE\">SQuORE</a></li>\n<li><a href=\"/wiki/Understand_(software)\" title=\"Understand (software)\">Understand</a></li>\n<li><a href=\"/wiki/Valgrind\" title=\"Valgrind\">Valgrind</a></li>\n<li><a href=\"/wiki/VTune\" title=\"VTune\">VTune Profiler</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\">See also</div><div class=\"sidebar-list-content mw-collapsible-content plainlist\" style=\"text-align:left\">\n<ul><li><a href=\"/wiki/List_of_computer_books#Fortran\" title=\"List of computer books\">List of Fortran books</a></li>\n<li><a href=\"/wiki/List_of_Fortran_software_and_tools\" title=\"List of Fortran software and tools\">List of Fortran software and tools</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-below\">\n<ul><li><span class=\"nowrap\"><span class=\"skin-invert-image noviewer\" typeof=\"mw:File\"><a href=\"/wiki/File:Octicons-terminal.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/20px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"13\" height=\"15\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/40px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"896\" data-file-height=\"1024\" /></a></span> </span><a href=\"/wiki/Portal:Computer_programming\" title=\"Portal:Computer programming\">Computer programming&#32;portal</a></li>\n<li><a href=\"https://en.wikibooks.org/wiki/Fortran\" class=\"extiw\" title=\"wikibooks:Fortran\">Fortran programming (Wikibooks)</a></li></ul></td></tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Fortran_sidebar\" title=\"Template:Fortran sidebar\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/w/index.php?title=Template_talk:Fortran_sidebar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Template talk:Fortran sidebar (page does not exist)\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Fortran_sidebar\" title=\"Special:EditPage/Template:Fortran sidebar\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>Fortran</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;f&#39; in &#39;find&#39;\">f</span><span title=\"/ɔːr/: &#39;ar&#39; in &#39;war&#39;\">ɔːr</span><span title=\"&#39;t&#39; in &#39;tie&#39;\">t</span><span title=\"&#39;r&#39; in &#39;rye&#39;\">r</span><span title=\"/æ/: &#39;a&#39; in &#39;bad&#39;\">æ</span><span title=\"&#39;n&#39; in &#39;nigh&#39;\">n</span></span>/</a></span></span>; formerly <b>FORTRAN</b>) is a <a href=\"/wiki/Third-generation_programming_language\" class=\"mw-redirect\" title=\"Third-generation programming language\">third-generation</a>, <a href=\"/wiki/Compiled_language\" title=\"Compiled language\">compiled</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> designed for <a href=\"/wiki/Numerical_analysis\" title=\"Numerical analysis\">numeric computation</a> and <a href=\"/wiki/Computational_science\" title=\"Computational science\">scientific computing</a>.\n</p><p>Fortran was originally developed by <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a> with a reference manual being released in 1956;<sup id=\"cite&#95;ref-Where&#95;3-0\" class=\"reference\"><a href=\"#cite_note-Where-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> however, the first compilers only began to produce accurate code two years later.<sup id=\"cite&#95;ref-cpl&#95;3rd-pg&#95;16&#95;quote&#95;4-0\" class=\"reference\"><a href=\"#cite_note-cpl_3rd-pg_16_quote-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Fortran <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer programs</a> have been written to support scientific and engineering applications, such as <a href=\"/wiki/Numerical_weather_prediction\" title=\"Numerical weather prediction\">numerical weather prediction</a>, <a href=\"/wiki/Finite_element_method\" title=\"Finite element method\">finite element analysis</a>, <a href=\"/wiki/Computational_fluid_dynamics\" title=\"Computational fluid dynamics\">computational fluid dynamics</a>, <a href=\"/wiki/Plasma_(physics)\" title=\"Plasma (physics)\">plasma physics</a>, <a href=\"/wiki/Geophysics\" title=\"Geophysics\">geophysics</a>, <a href=\"/wiki/Computational_physics\" title=\"Computational physics\">computational physics</a>, <a href=\"/wiki/Crystallography\" title=\"Crystallography\">crystallography</a> and <a href=\"/wiki/Computational_chemistry\" title=\"Computational chemistry\">computational chemistry</a>. It is a popular language for <a href=\"/wiki/High-performance_computing\" title=\"High-performance computing\">high-performance computing</a><sup id=\"cite&#95;ref-hpc&#95;5-0\" class=\"reference\"><a href=\"#cite_note-hpc-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> and is used for programs that benchmark and rank the world's <a href=\"/wiki/TOP500\" title=\"TOP500\">fastest supercomputers</a>.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Fortran has evolved through numerous versions and dialects. The two most important early versions were FORTRAN II and FORTRAN IV.<sup id=\"cite&#95;ref-pratt&#95;8-0\" class=\"reference\"><a href=\"#cite_note-pratt-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> In 1966, the <a href=\"/wiki/American_National_Standards_Institute\" title=\"American National Standards Institute\">American National Standards Institute</a> (ANSI) developed a standard for Fortran to limit proliferation of compilers using slightly different syntax.<sup id=\"cite&#95;ref-cpl&#95;3rd-pg&#95;18&#95;quoted&#95;9-0\" class=\"reference\"><a href=\"#cite_note-cpl_3rd-pg_18_quoted-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> Successive versions have added support for a character data type, <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured programming</a> (Fortran 77), <a href=\"/wiki/Array_programming\" title=\"Array programming\">array programming</a>, <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular programming</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic programming</a> (Fortran 90), <a href=\"/wiki/High_Performance_Fortran\" title=\"High Performance Fortran\">parallel computing</a> (<a href=\"/wiki/Fortran_95_language_features\" title=\"Fortran 95 language features\">Fortran 95</a>), <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a> (Fortran 2003), and <a href=\"/wiki/Concurrent_programming\" class=\"mw-redirect\" title=\"Concurrent programming\">concurrent programming</a> (Fortran 2008).\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Algol%26Fortran_Family_By_Skippppp.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Algol%26Fortran_Family_By_Skippppp.svg/330px-Algol%26Fortran_Family_By_Skippppp.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"427\" style=\"--mw-file-upright: 1.2\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Algol%26Fortran_Family_By_Skippppp.svg/960px-Algol%26Fortran_Family_By_Skippppp.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"688\" data-file-height=\"979\" /></a><figcaption>FORTRAN and COBOL genealogy tree</figcaption></figure>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-chplspec-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-chplspec_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://chapel.cray.com/spec/spec-0.98.pdf\">\"Chapel spec (Acknowledgements)\"</a> <span class=\"cs1-format\">(PDF)</span>. Cray Inc. October 1, 2015. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160205114946/http://chapel.cray.com/spec/spec-0.98.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on February 5, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 14,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chapel+spec+%28Acknowledgements%29&amp;rft.pub=Cray+Inc&amp;rft.date=2015-10-01&amp;rft&#95;id=http%3A%2F%2Fchapel.cray.com%2Fspec%2Fspec-0.98.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFortran\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\">Report of a Visit to Discuss Common Programming Languages in Czechoslowakia and Poland, 1963, John A. Gosden (Editor), Roger E. Gay, John L. Jones, Jack N. Merner, Christopher J. Shaw</span>\n</li>\n<li id=\"cite&#95;note-Where-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Where_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJohn&#95;Backus\" class=\"citation web cs1\">John Backus. <a rel=\"nofollow\" class=\"external text\" href=\"https://softwarepreservation.computerhistory.org/FORTRAN/paper/p25-backus.pdf\">\"The history of FORTRAN I, II and III\"</a> <span class=\"cs1-format\">(PDF)</span>. softwarepreservation.computerhistory.org. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20070726192224/http://www.softwarepreservation.org/projects/FORTRAN/paper/p25-backus.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on July 26, 2007<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 8,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+history+of+FORTRAN+I%2C+II+and+III&amp;rft.pub=softwarepreservation.computerhistory.org&amp;rft.au=John+Backus&amp;rft&#95;id=https%3A%2F%2Fsoftwarepreservation.computerhistory.org%2FFORTRAN%2Fpaper%2Fp25-backus.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFortran\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-cpl&#95;3rd-pg&#95;16&#95;quote-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-cpl_3rd-pg_16_quote_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWilson2001\" class=\"citation book cs1\">Wilson, Leslie B. (2001). <i>Comparative Programming Languages, Third Edition</i>. Addison-Wesley. p.&#160;16. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-201-71012-9\" title=\"Special:BookSources/0-201-71012-9\"><bdi>0-201-71012-9</bdi></a>. <q>The manual for Fortran I was released in 1956, but it was 1958 before successful compilers were running programs correctly.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Comparative+Programming+Languages%2C+Third+Edition&amp;rft.pages=16&amp;rft.pub=Addison-Wesley&amp;rft.date=2001&amp;rft.isbn=0-201-71012-9&amp;rft.aulast=Wilson&amp;rft.aufirst=Leslie+B.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFortran\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-hpc-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-hpc_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLoh2010\" class=\"citation journal cs1\">Loh, Eugene (June 18, 2010). <a rel=\"nofollow\" class=\"external text\" href=\"https://queue.acm.org/detail.cfm?id=1820518\">\"The Ideal HPC Programming Language\"</a>. <i>ACM Queue</i>. <b>8</b> (6): <span class=\"nowrap\">30–</span>38. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F1810226.1820518\">10.1145/1810226.1820518</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ACM+Queue&amp;rft.atitle=The+Ideal+HPC+Programming+Language&amp;rft.volume=8&amp;rft.issue=6&amp;rft.pages=30-38&amp;rft.date=2010-06-18&amp;rft&#95;id=info%3Adoi%2F10.1145%2F1810226.1820518&amp;rft.aulast=Loh&amp;rft.aufirst=Eugene&amp;rft&#95;id=https%3A%2F%2Fqueue.acm.org%2Fdetail.cfm%3Fid%3D1820518&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFortran\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.netlib.org/benchmark/hpl\">\"HPL –  A Portable Implementation of the High-Performance Linpack Benchmark for Distributed-Memory Computers\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 21,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=HPL+%E2%80%93+A+Portable+Implementation+of+the+High-Performance+Linpack+Benchmark+for+Distributed-Memory+Computers&amp;rft&#95;id=https%3A%2F%2Fwww.netlib.org%2Fbenchmark%2Fhpl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFortran\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.spec.org/cpu2017/Docs/overview.html#benchmarks\">\"Q13. What are the benchmarks?\"</a>. <i>Overview – CPU 2017</i>. <a href=\"/wiki/SPEC\" class=\"mw-redirect\" title=\"SPEC\">SPEC</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 13,</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Overview+%E2%80%93+CPU+2017&amp;rft.atitle=Q13.+What+are+the+benchmarks%3F&amp;rft&#95;id=https%3A%2F%2Fwww.spec.org%2Fcpu2017%2FDocs%2Foverview.html%23benchmarks&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFortran\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-pratt-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-pratt_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>pratt</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-cpl&#95;3rd-pg&#95;18&#95;quoted-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-cpl_3rd-pg_18_quoted_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWilson2001\" class=\"citation book cs1\">Wilson, Leslie B. (2001). <i>Comparative Programming Languages, Third Edition</i>. Addison-Wesley. p.&#160;18. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-201-71012-9\" title=\"Special:BookSources/0-201-71012-9\"><bdi>0-201-71012-9</bdi></a>. <q>Another problem was that there was no standard for Fortran and so slightly different versions ... would likely fail when used with a different compiler.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Comparative+Programming+Languages%2C+Third+Edition&amp;rft.pages=18&amp;rft.pub=Addison-Wesley&amp;rft.date=2001&amp;rft.isbn=0-201-71012-9&amp;rft.aulast=Wilson&amp;rft.aufirst=Leslie+B.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFortran\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐qnsx8\nCached time: 20260918164153\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.607 seconds\nReal time usage: 0.868 seconds\nPreprocessor visited node count: 1771/1000000\nRevision size: 6132/2097152 bytes\nPost‐expand include size: 45011/2097152 bytes\nTemplate argument size: 4884/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 14/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 33238/5000000 bytes\nLua time usage: 0.387/10.000 seconds\nLua memory usage: 6954842/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  810.187      1 -total\n 29.44%  238.528      2 Template:Infobox\n 23.60%  191.171      1 Template:Infobox_programming_language\n 15.87%  128.552      1 Template:Fortran_sidebar\n 14.71%  119.200      4 Template:Cite_web\n 14.44%  116.962      1 Template:Short_description\n  8.56%   69.350      2 Template:Pagetype\n  7.53%   60.972      1 Template:Infobox_software/simple\n  5.80%   46.954      1 Template:Pp-pc\n  5.25%   42.560      1 Template:IPAc-en\n-->\n\n<!-- Render ID da4eb06c-b37f-11f1-8d84-b3ada7e75041 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "4chan",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ABINIT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 58",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AMD Optimizing C/C++ Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Absoft Fortran Compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "American National Standards Institute",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automatically Tuned Linear Algebra Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Autotools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BLAS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BLIS (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CERN Program Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CMS-2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CMake",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CP2K",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cantera",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chapel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Coarray Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code::Blocks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of integrated development environments",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiled language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational chemistry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational fluid dynamics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational physics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cray",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crystallography",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dalton (program)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dartmouth Oversimplified Programming Experiment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EISPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eclipse IDE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Emacs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FFTPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FUnit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Finite element method",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran 95 language features",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortress (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "G95",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Geany",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Geophysics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Harwell Subroutine Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-performance computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High Performance Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hitachi",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM XL Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IDL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IMSL Numerical Libraries",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intel Fortran Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IntelliJ IDEA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John Backus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KDevelop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kinetic PreProcessor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LAPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LFortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LINPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Librsb",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lis (linear algebra library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Fortran compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Fortran software and tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of computer books",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of numerical libraries",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MATLAB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MINPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MODTRAN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MOLCAS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MUMPS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Make (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manifest typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Math Kernel Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Message Passing Interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MinGW",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NAG Numerical Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NOVAS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NWChem",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nek5000",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NetBeans",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netlib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Numerical Algorithms Group",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Numerical analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Numerical weather prediction",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Octopus (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenMP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenVMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenWatcom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open Watcom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Developer Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Solaris Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PACT I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PETSc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PFUnit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PGI compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PL/I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PathScale",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Physics Analysis Workstation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Plasma (physics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "QUADPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quantum ESPRESSO",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ROSE (compiler framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ratfor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAKO (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SIESTA (computer program)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SLATEC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SOFA (Astronomy)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPEC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQuORE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ScaLAPACK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Silverfrost FTN95",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simply Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spack (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Speedcoding",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TOP500",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Third-generation programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tinker (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Understand (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VTune",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Valgrind",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vim (text editor)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio Code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Watcom C compiler",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Fortran sidebar",
+            "exists": true
+          },
+          {
+            "ns": 100,
+            "title": "Portal:Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:Fortran",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Fortran sidebar",
+            "exists": false
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose programming language",
+          "page_image_free": "Fortran_logo.svg",
+          "wikibase_item": "Q83303"
+        }
+      }
+    }
+  ]
+}

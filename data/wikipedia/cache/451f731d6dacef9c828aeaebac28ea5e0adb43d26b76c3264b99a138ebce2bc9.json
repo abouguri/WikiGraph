@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Standard ML",
+    "url": "https://en.wikipedia.org/wiki/Standard_ML",
+    "summary": "General-purpose functional programming language Standard ML Paradigm Multi-paradigm : functional , imperative , modular Family ML First appeared 1983 ; 43 years ago ( 1983 ) Stable release Standard ML '97 / 1997 ; 29 years ago ( 1997 ) Typing discipline Inferred , static , strong Filename extensions .sml Website smlfamily .github .io Major implementations SML/NJ , MLton , Poly/ML Dialects Alice , Concurrent ML , Dependent ML Influenced by ML , Hope , Pascal Influenced Elm , F# , F* , Haskell , OCaml , Python , Rust , Scala Standard ML ( SML ) is a general-purpose , high-level , modular , functional programming language with compile-time type checking and type inference . It is popular for writing compilers , for programming language research , and for developing theorem provers . Standard ML is a modern dialect of ML , the language used in the Logic for Computable Functions (LCF) theorem-proving project. It is distinctive among widely used languages in that it has a formal specification , given as typing rules and operational semantics in The Definition of Standard ML , originally released in 1990, with a second and final revision being released in 1997. ^ Harper, Robert (May 5, 1998). \"Programming in Standard ML\" (PDF) . Archived from the original (PDF) on December 30, 2025 . Retrieved December 30, 2025 . ^ a b \"SML '97\" . www.smlnj.org . ^ \"itertools — Functions creating iterators for efficient looping — Python 3.7.1rc1 documentation\" . docs.python.org . ^ \"Influences - The Rust Reference\" . The Rust Reference . Retrieved 2023-12-31 . ^ Milner, Robin ; Tofte, Mads ; Harper, Robert (1990). The Definition of Standard ML (PDF) . Cambridge, Massachusetts: The MIT Press. ISBN 978-0-262-13255-8 . Archived from the original (PDF) on October 8, 2025. ^ Milner, Robin; Tofte, Mads; Harper, Robert; MacQueen, David (1997). The Definition of Standard ML (Revised) (PDF) . MIT Press. ISBN 978-0-262-63181-5 . Archived from the original (PDF) on November 23, 2025.",
+    "text": "General-purpose functional programming language Standard ML Paradigm Multi-paradigm : functional , imperative , modular Family ML First appeared 1983 ; 43 years ago ( 1983 ) Stable release Standard ML '97 / 1997 ; 29 years ago ( 1997 ) Typing discipline Inferred , static , strong Filename extensions .sml Website smlfamily .github .io Major implementations SML/NJ , MLton , Poly/ML Dialects Alice , Concurrent ML , Dependent ML Influenced by ML , Hope , Pascal Influenced Elm , F# , F* , Haskell , OCaml , Python , Rust , Scala Standard ML ( SML ) is a general-purpose , high-level , modular , functional programming language with compile-time type checking and type inference . It is popular for writing compilers , for programming language research , and for developing theorem provers . Standard ML is a modern dialect of ML , the language used in the Logic for Computable Functions (LCF) theorem-proving project. It is distinctive among widely used languages in that it has a formal specification , given as typing rules and operational semantics in The Definition of Standard ML , originally released in 1990, with a second and final revision being released in 1997. ^ Harper, Robert (May 5, 1998). \"Programming in Standard ML\" (PDF) . Archived from the original (PDF) on December 30, 2025 . Retrieved December 30, 2025 . ^ a b \"SML '97\" . www.smlnj.org . ^ \"itertools — Functions creating iterators for efficient looping — Python 3.7.1rc1 documentation\" . docs.python.org . ^ \"Influences - The Rust Reference\" . The Rust Reference . Retrieved 2023-12-31 . ^ Milner, Robin ; Tofte, Mads ; Harper, Robert (1990). The Definition of Standard ML (PDF) . Cambridge, Massachusetts: The MIT Press. ISBN 978-0-262-13255-8 . Archived from the original (PDF) on October 8, 2025. ^ Milner, Robin; Tofte, Mads; Harper, Robert; MacQueen, David (1997). The Definition of Standard ML (Revised) (PDF) . MIT Press. ISBN 978-0-262-63181-5 . Archived from the original (PDF) on November 23, 2025.",
+    "links": [
+      "Alice (programming language)",
+      "Automated theorem proving",
+      "Compiler",
+      "Concurrent ML",
+      "Dependent ML",
+      "Elm (programming language)",
+      "F Sharp (programming language)",
+      "F* (programming language)",
+      "Filename extension",
+      "Formal specification",
+      "Functional programming",
+      "General-purpose programming language",
+      "Haskell",
+      "High-level programming language",
+      "Hope (programming language)",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Logic for Computable Functions",
+      "ML (programming language)",
+      "MLton",
+      "Mads Tofte",
+      "Modular programming",
+      "OCaml",
+      "Operational semantics",
+      "Pascal (programming language)",
+      "Poly/ML",
+      "Programming language",
+      "Programming language implementation",
+      "Programming language research",
+      "Programming paradigm",
+      "Python (programming language)",
+      "Robert Harper (computer scientist)",
+      "Robin Milner",
+      "Rust (programming language)",
+      "Scala (programming language)",
+      "Software release life cycle",
+      "Standard ML of New Jersey",
+      "Strong and weak typing",
+      "Type checking",
+      "Type inference",
+      "Type system",
+      "Typing rule"
+    ],
+    "page_id": 100337,
+    "revision_id": 1330335636,
+    "retrieved_at": "2026-09-18T16:42:27.918190+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20251230210248|1330334019",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 100337,
+            "ns": 0,
+            "title": "Standard ML",
+            "revisions": [
+              {
+                "revid": 1330335636,
+                "parentid": 1330334019
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "General-purpose functional programming language",
+              "wikibase_item": "Q597330"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Standard ML",
+        "pageid": 100337,
+        "revid": 1330335636,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose functional programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Standard ML</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1983<span class=\"noprint\">&#59;&#32;43&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1983</span>)</span><sup id=\"cite&#95;ref-smlnj&#95;2-0\" class=\"reference\"><a href=\"#cite_note-smlnj-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Standard ML '97<sup id=\"cite&#95;ref-smlnj&#95;2-1\" class=\"reference\"><a href=\"#cite_note-smlnj-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / 1997<span class=\"noprint\">&#59;&#32;29&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1997</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_inference\" title=\"Type inference\">Inferred</a>, <a href=\"/wiki/Type_system#static_type_checking\" title=\"Type system\">static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.sml</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://smlfamily.github.io/\">smlfamily<wbr />.github<wbr />.io</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Standard_ML_of_New_Jersey\" title=\"Standard ML of New Jersey\">SML/NJ</a>, <a href=\"/wiki/MLton\" title=\"MLton\">MLton</a>, <a href=\"/wiki/Poly/ML\" class=\"mw-redirect\" title=\"Poly/ML\">Poly/ML</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Alice_(programming_language)\" title=\"Alice (programming language)\">Alice</a>, <a href=\"/wiki/Concurrent_ML\" title=\"Concurrent ML\">Concurrent ML</a>, <a href=\"/wiki/Dependent_ML\" title=\"Dependent ML\">Dependent ML</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a>, <a href=\"/wiki/Hope_(programming_language)\" title=\"Hope (programming language)\">Hope</a>, <a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Elm_(programming_language)\" title=\"Elm (programming language)\">Elm</a>, <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>, <a href=\"/wiki/F*_(programming_language)\" title=\"F* (programming language)\">F*</a>, <a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a>, <a href=\"/wiki/OCaml\" title=\"OCaml\">OCaml</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a></td></tr></tbody></table>\n<p><b>Standard ML</b> (<b>SML</b>) is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a>, <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> with compile-time <a href=\"/wiki/Type_checking\" class=\"mw-redirect\" title=\"Type checking\">type checking</a> and <a href=\"/wiki/Type_inference\" title=\"Type inference\">type inference</a>. It is popular for writing <a href=\"/wiki/Compiler\" title=\"Compiler\">compilers</a>, for <a href=\"/wiki/Programming_language_research\" class=\"mw-redirect\" title=\"Programming language research\">programming language research</a>, and for developing <a href=\"/wiki/Automated_theorem_proving\" title=\"Automated theorem proving\">theorem provers</a>.\n</p><p>Standard ML is a modern dialect of <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a>, the language used in the <a href=\"/wiki/Logic_for_Computable_Functions\" title=\"Logic for Computable Functions\">Logic for Computable Functions</a> (LCF) theorem-proving project. It is distinctive among widely used languages in that it has a <a href=\"/wiki/Formal_specification\" title=\"Formal specification\">formal specification</a>, given as <a href=\"/wiki/Typing_rule\" title=\"Typing rule\">typing rules</a> and <a href=\"/wiki/Operational_semantics\" title=\"Operational semantics\">operational semantics</a> in <i>The Definition of Standard ML</i>, originally released in 1990, with a second and final revision being released in 1997.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFHarper1998\" class=\"citation web cs1\"><a href=\"/wiki/Robert_Harper_(computer_scientist)\" title=\"Robert Harper (computer scientist)\">Harper, Robert</a> (May 5, 1998). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20251230201408/https://www.cse.iitd.ac.in/~sak/courses/ics/intro-to-SML.pdf\">\"Programming in Standard ML\"</a> <span class=\"cs1-format\">(PDF)</span>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.cse.iitd.ac.in/~sak/courses/ics/intro-to-SML.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on December 30, 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 30,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Programming+in+Standard+ML&amp;rft.date=1998-05-05&amp;rft.aulast=Harper&amp;rft.aufirst=Robert&amp;rft&#95;id=https%3A%2F%2Fwww.cse.iitd.ac.in%2F~sak%2Fcourses%2Fics%2Fintro-to-SML.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AStandard+ML\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-smlnj-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-smlnj_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-smlnj_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.smlnj.org/sml97.html\">\"SML '97\"</a>. <i>www.smlnj.org</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.smlnj.org&amp;rft.atitle=SML+%2797&amp;rft&#95;id=http%3A%2F%2Fwww.smlnj.org%2Fsml97.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AStandard+ML\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.python.org/3/library/itertools.html\">\"itertools — Functions creating iterators for efficient looping — Python 3.7.1rc1 documentation\"</a>. <i>docs.python.org</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=docs.python.org&amp;rft.atitle=itertools+%E2%80%94+Functions+creating+iterators+for+efficient+looping+%E2%80%94+Python+3.7.1rc1+documentation&amp;rft&#95;id=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Fitertools.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AStandard+ML\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/reference/influences.html\">\"Influences - The Rust Reference\"</a>. <i>The Rust Reference</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-12-31</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Rust+Reference&amp;rft.atitle=Influences+-+The+Rust+Reference&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Freference%2Finfluences.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AStandard+ML\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMilnerTofteHarper1990\" class=\"citation book cs1\"><a href=\"/wiki/Robin_Milner\" title=\"Robin Milner\">Milner, Robin</a>; <a href=\"/wiki/Mads_Tofte\" title=\"Mads Tofte\">Tofte, Mads</a>; Harper, Robert (1990). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20251008194724/https://smlfamily.github.io/sml90-defn.pdf\"><i>The Definition of Standard ML</i></a> <span class=\"cs1-format\">(PDF)</span>. Cambridge, Massachusetts: The MIT Press. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-262-13255-8\" title=\"Special:BookSources/978-0-262-13255-8\"><bdi>978-0-262-13255-8</bdi></a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://smlfamily.github.io/sml90-defn.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on October 8, 2025.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Definition+of+Standard+ML&amp;rft.place=Cambridge%2C+Massachusetts&amp;rft.pub=The+MIT+Press&amp;rft.date=1990&amp;rft.isbn=978-0-262-13255-8&amp;rft.aulast=Milner&amp;rft.aufirst=Robin&amp;rft.au=Tofte%2C+Mads&amp;rft.au=Harper%2C+Robert&amp;rft&#95;id=https%3A%2F%2Fsmlfamily.github.io%2Fsml90-defn.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AStandard+ML\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMilnerTofteHarperMacQueen1997\" class=\"citation book cs1\">Milner, Robin; Tofte, Mads; Harper, Robert; MacQueen, David (1997). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20251123052443/https://smlfamily.github.io/sml97-defn.pdf\"><i>The Definition of Standard ML (Revised)</i></a> <span class=\"cs1-format\">(PDF)</span>. MIT Press. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-262-63181-5\" title=\"Special:BookSources/978-0-262-63181-5\"><bdi>978-0-262-63181-5</bdi></a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://smlfamily.github.io/sml97-defn.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on November 23, 2025.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Definition+of+Standard+ML+%28Revised%29&amp;rft.pub=MIT+Press&amp;rft.date=1997&amp;rft.isbn=978-0-262-63181-5&amp;rft.aulast=Milner&amp;rft.aufirst=Robin&amp;rft.au=Tofte%2C+Mads&amp;rft.au=Harper%2C+Robert&amp;rft.au=MacQueen%2C+David&amp;rft&#95;id=https%3A%2F%2Fsmlfamily.github.io%2Fsml97-defn.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AStandard+ML\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐4sks4\nCached time: 20260918164253\nCache expiry: 1063036\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.157 seconds\nReal time usage: 0.215 seconds\nPreprocessor visited node count: 1162/1000000\nRevision size: 3898/2097152 bytes\nPost‐expand include size: 24772/2097152 bytes\nTemplate argument size: 3173/2097152 bytes\nHighest expansion depth: 22/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 17207/5000000 bytes\nLua time usage: 0.094/10.000 seconds\nLua memory usage: 4668515/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  200.800      1 -total\n 42.99%   86.323      2 Template:Infobox\n 33.11%   66.484      1 Template:Infobox_programming_language\n 32.29%   64.843      1 Template:Short_description\n 28.02%   56.260      4 Template:Cite_web\n 19.23%   38.619      2 Template:Pagetype\n 13.65%   27.408      1 Template:Infobox_software/simple\n  9.37%   18.814      4 Template:Main_other\n  8.67%   17.415      1 Template:SDcat\n  4.50%    9.042      2 Template:Start_date_and_age\n-->\n\n<!-- Render ID fe11f5f6-b37f-11f1-89ae-f9b1a9b68d1f -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Alice (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automated theorem proving",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent ML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dependent ML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elm (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F* (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal specification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hope (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic for Computable Functions",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MLton",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mads Tofte",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCaml",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operational semantics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Poly/ML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language research",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robert Harper (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robin Milner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard ML of New Jersey",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type checking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Typing rule",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose functional programming language",
+          "wikibase_item": "Q597330"
+        }
+      }
+    }
+  ]
+}

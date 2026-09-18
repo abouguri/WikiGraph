@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "JavaScript",
+    "url": "https://en.wikipedia.org/wiki/JavaScript",
+    "summary": "High-level programming language Not to be confused with Java (programming language) , Javanese script , or ECMAScript . JavaScript Official logo of TC39 , the technical committee responsible for maintaining JavaScript Screenshot of JavaScript source code Paradigms Multi-paradigm : event-driven , functional , imperative , procedural , object-oriented Family ECMAScript Designed by Brendan Eich of Netscape first; then others contributed to ECMAScript standard First appeared 4 December 1995 ; 30 years ago ( 1995-12-04 ) Stable release ECMAScript 2024 / June 2024 ; 2 years ago ( June 2024 ) Preview release ECMAScript 2025 / 27 March 2024 ; 2 years ago ( 27 March 2024 ) Typing discipline Dynamic , weak , duck Memory management Garbage collected Scope Lexical Filename extensions .js • .mjs • .cjs Website ecma-international .org /publications-and-standards /standards /ecma-262 / Major implementations V8 , JavaScriptCore , SpiderMonkey ; Chakra (deprecated) Influenced by Java , Scheme , Self , AWK , HyperTalk Influenced ActionScript , ArkTS , AssemblyScript , CoffeeScript , Dart , Haxe , JS++ , Opa , TypeScript JavaScript at Wikibooks JavaScript ( JS ) is a programming language and core technology of the Web , alongside HTML and CSS . Created by Brendan Eich in 1995, it is maintained by Ecma International 's TC39 technical committee, with related Web APIs maintained by W3C and WHATWG . As of 2025, JavaScript is the most widely used programming language on GitHub . However, TypeScript , which is a version of JavaScript that is strict about types and is statically typed, overtook JavaScript on GitHub by August 2025. Web browsers have a dedicated JavaScript engine that executes the client code . These engines are also utilized in some servers and a variety of apps . The most popular runtime system for non-browser usage is Node.js . JavaScript is a high-level , often just-in-time–compiled language that conforms to the ECMAScript standard. It has dynamic typing , prototype-based object-orientation , and first-class functions . It is multi-paradigm , supporting event-driven , functional , and imperative programming styles . It has application programming interfaces (APIs) for working with text, dates, regular expressions , standard data structures , and the Document Object Model (DOM). The ECMAScript standard does not include any input/output (I/O), such as networking , storage , or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O. Although Java and JavaScript are similar in name and syntax , the two languages are distinct and differ greatly in design. ^ \"Netscape and Sun announce JavaScript, the Open, Cross-platform Object Scripting Language for Enterprise Networks and the Internet\" (Press release). 4 December 1995. Archived from the original on 16 September 2007. ^ \"ECMAScript® 2024 Language Specification\" . June 2024 . Retrieved 30 August 2024 . ^ \"ECMAScript® 2025 Language Specification\" . 27 March 2024 . Retrieved 17 April 2024 . ^ \"nodejs/node-eps\" . GitHub . Archived from the original on 29 August 2020 . Retrieved 5 July 2018 . ^ Seibel, Peter (16 September 2009). Coders at Work: Reflections on the Craft of Programming . Apress. ISBN 978-1-4302-1948-4 . Archived from the original on 24 December 2020 . Retrieved 25 December 2018 . Eich: The immediate concern at Netscape was it must look like Java. ^ a b c Cite error: The named reference origin was invoked but never defined (see the help page ). ^ \"Popularity – Brendan Eich\" . ^ \"Brendan Eich: An Introduction to JavaScript, JSConf 2010\" . YouTube . 20 January 2013. p. 22m. Archived from the original on 29 August 2020 . Retrieved 25 November 2019 . Eich: \"function\", eight letters, I was influenced by AWK. ^ Eich, Brendan (1998). \"Foreword\". In Goodman, Danny (ed.). JavaScript Bible (3rd ed.). John Wiley & Sons . ISBN 0-7645-3188-3 . LCCN 97078208 . OCLC 38888873 . OL 712205M . ^ \"TC39 - Specifying JavaScript\" . tc39.es . Retrieved 25 April 2026 . ^ \"JavaScript technologies overview - JavaScript | MDN\" . MDN Web Docs . 27 October 2025 . Retrieved 25 April 2026 . ^ GitHub (28 October 2025). \"Octoverse 2025: A new developer joins GitHub every second as AI leads TypeScript to #1\" . The GitHub Blog . Chart: \"JavaScript & TypeScript have the largest combined usage\" . Retrieved 25 April 2026 . ^ \"TypeScript rises to the top on GitHub\" . InfoWorld . Retrieved 10 July 2026 . ^ \"Stack Overflow Developer Survey 2025\" . Stack Overflow . Retrieved 10 October 2025 . ^ \"ECMAScript 2020 Language Specification\" . Archived from the original on 8 May 2020 . Retrieved 8 May 2020 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "High-level programming language Not to be confused with Java (programming language) , Javanese script , or ECMAScript . JavaScript Official logo of TC39 , the technical committee responsible for maintaining JavaScript Screenshot of JavaScript source code Paradigms Multi-paradigm : event-driven , functional , imperative , procedural , object-oriented Family ECMAScript Designed by Brendan Eich of Netscape first; then others contributed to ECMAScript standard First appeared 4 December 1995 ; 30 years ago ( 1995-12-04 ) Stable release ECMAScript 2024 / June 2024 ; 2 years ago ( June 2024 ) Preview release ECMAScript 2025 / 27 March 2024 ; 2 years ago ( 27 March 2024 ) Typing discipline Dynamic , weak , duck Memory management Garbage collected Scope Lexical Filename extensions .js • .mjs • .cjs Website ecma-international .org /publications-and-standards /standards /ecma-262 / Major implementations V8 , JavaScriptCore , SpiderMonkey ; Chakra (deprecated) Influenced by Java , Scheme , Self , AWK , HyperTalk Influenced ActionScript , ArkTS , AssemblyScript , CoffeeScript , Dart , Haxe , JS++ , Opa , TypeScript JavaScript at Wikibooks JavaScript ( JS ) is a programming language and core technology of the Web , alongside HTML and CSS . Created by Brendan Eich in 1995, it is maintained by Ecma International 's TC39 technical committee, with related Web APIs maintained by W3C and WHATWG . As of 2025, JavaScript is the most widely used programming language on GitHub . However, TypeScript , which is a version of JavaScript that is strict about types and is statically typed, overtook JavaScript on GitHub by August 2025. Web browsers have a dedicated JavaScript engine that executes the client code . These engines are also utilized in some servers and a variety of apps . The most popular runtime system for non-browser usage is Node.js . JavaScript is a high-level , often just-in-time–compiled language that conforms to the ECMAScript standard. It has dynamic typing , prototype-based object-orientation , and first-class functions . It is multi-paradigm , supporting event-driven , functional , and imperative programming styles . It has application programming interfaces (APIs) for working with text, dates, regular expressions , standard data structures , and the Document Object Model (DOM). The ECMAScript standard does not include any input/output (I/O), such as networking , storage , or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O. Although Java and JavaScript are similar in name and syntax , the two languages are distinct and differ greatly in design. ^ \"Netscape and Sun announce JavaScript, the Open, Cross-platform Object Scripting Language for Enterprise Networks and the Internet\" (Press release). 4 December 1995. Archived from the original on 16 September 2007. ^ \"ECMAScript® 2024 Language Specification\" . June 2024 . Retrieved 30 August 2024 . ^ \"ECMAScript® 2025 Language Specification\" . 27 March 2024 . Retrieved 17 April 2024 . ^ \"nodejs/node-eps\" . GitHub . Archived from the original on 29 August 2020 . Retrieved 5 July 2018 . ^ Seibel, Peter (16 September 2009). Coders at Work: Reflections on the Craft of Programming . Apress. ISBN 978-1-4302-1948-4 . Archived from the original on 24 December 2020 . Retrieved 25 December 2018 . Eich: The immediate concern at Netscape was it must look like Java. ^ a b c Cite error: The named reference origin was invoked but never defined (see the help page ). ^ \"Popularity – Brendan Eich\" . ^ \"Brendan Eich: An Introduction to JavaScript, JSConf 2010\" . YouTube . 20 January 2013. p. 22m. Archived from the original on 29 August 2020 . Retrieved 25 November 2019 . Eich: \"function\", eight letters, I was influenced by AWK. ^ Eich, Brendan (1998). \"Foreword\". In Goodman, Danny (ed.). JavaScript Bible (3rd ed.). John Wiley & Sons . ISBN 0-7645-3188-3 . LCCN 97078208 . OCLC 38888873 . OL 712205M . ^ \"TC39 - Specifying JavaScript\" . tc39.es . Retrieved 25 April 2026 . ^ \"JavaScript technologies overview - JavaScript | MDN\" . MDN Web Docs . 27 October 2025 . Retrieved 25 April 2026 . ^ GitHub (28 October 2025). \"Octoverse 2025: A new developer joins GitHub every second as AI leads TypeScript to #1\" . The GitHub Blog . Chart: \"JavaScript & TypeScript have the largest combined usage\" . Retrieved 25 April 2026 . ^ \"TypeScript rises to the top on GitHub\" . InfoWorld . Retrieved 10 July 2026 . ^ \"Stack Overflow Developer Survey 2025\" . Stack Overflow . Retrieved 10 October 2025 . ^ \"ECMAScript 2020 Language Specification\" . Archived from the original on 8 May 2020 . Retrieved 8 May 2020 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "AWK",
+      "ActionScript",
+      "Application programming interface",
+      "Application software",
+      "ArkTS",
+      "AssemblyScript",
+      "Brendan Eich",
+      "CSS",
+      "Chakra (JavaScript engine)",
+      "CoffeeScript",
+      "Computer graphics",
+      "Computer network",
+      "Danny Goodman",
+      "Dart (programming language)",
+      "Data storage",
+      "Data structure",
+      "Document Object Model",
+      "Duck typing",
+      "Dynamic typing",
+      "ECMAScript",
+      "Ecma International",
+      "Event-driven programming",
+      "Filename extension",
+      "First-class function",
+      "Functional programming",
+      "Garbage collection (computer science)",
+      "GitHub",
+      "HTML",
+      "Haxe",
+      "High-level programming language",
+      "HyperTalk",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Input/output",
+      "JS++",
+      "Java (programming language)",
+      "JavaScript engine",
+      "JavaScriptCore",
+      "Javanese script",
+      "John Wiley & Sons",
+      "Just-in-time compilation",
+      "LCCN (identifier)",
+      "MDN Web Docs",
+      "Memory management",
+      "Multi-paradigm",
+      "Netscape",
+      "Node.js",
+      "OCLC (identifier)",
+      "OL (identifier)",
+      "Object-oriented programming",
+      "Opa (programming language)",
+      "Procedural programming",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Prototype-based programming",
+      "Regular expression",
+      "Runtime system",
+      "Scheme (programming language)",
+      "Scope (computer science)",
+      "Self (programming language)",
+      "Server (computing)",
+      "Software design",
+      "Software release life cycle",
+      "Source code",
+      "SpiderMonkey",
+      "Strong and weak typing",
+      "Syntax (programming languages)",
+      "TC39",
+      "Type system",
+      "TypeScript",
+      "V8 (JavaScript engine)",
+      "W3C",
+      "WHATWG",
+      "Web browser",
+      "Web platform",
+      "World Wide Web",
+      "YouTube"
+    ],
+    "page_id": 9845,
+    "revision_id": 1375341525,
+    "retrieved_at": "2026-09-18T16:31:56.859281+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260909073843|1374011619",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 9845,
+            "ns": 0,
+            "title": "JavaScript",
+            "revisions": [
+              {
+                "revid": 1375341525,
+                "parentid": 1374011619
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Logo_of_TC39.svg",
+              "wikibase-shortdesc": "High-level programming language",
+              "wikibase_item": "Q2005"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "JavaScript",
+        "pageid": 9845,
+        "revid": 1375341525,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">High-level programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java (programming language)</a>, <a href=\"/wiki/Javanese_script\" title=\"Javanese script\">Javanese script</a>, or <a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a>.</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">JavaScript</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Logo_of_TC39.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_of_TC39.svg/250px-Logo_of_TC39.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"121\" class=\"mw-file-element\" data-file-width=\"512\" data-file-height=\"512\" /></a></span><div class=\"infobox-caption\">Official logo of <a href=\"/wiki/TC39\" class=\"mw-redirect\" title=\"TC39\">TC39</a>, the technical committee responsible for maintaining JavaScript</div></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:JavaScript_code.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/JavaScript_code.png/330px-JavaScript_code.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"200\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/a/a4/JavaScript_code.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"882\" data-file-height=\"587\" /></a></span><div class=\"infobox-caption\">Screenshot of JavaScript source code</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Event-driven_programming\" title=\"Event-driven programming\">event-driven</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Brendan_Eich\" title=\"Brendan Eich\">Brendan Eich</a> of <a href=\"/wiki/Netscape\" title=\"Netscape\">Netscape</a> first; then others contributed to <a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a> standard</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">4&#160;December 1995<span class=\"noprint\">&#59;&#32;30 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1995-12-04</span>)</span><sup id=\"cite&#95;ref-press&#95;release&#95;1-0\" class=\"reference\"><a href=\"#cite_note-press_release-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">ECMAScript 2024<sup id=\"cite&#95;ref-wikidata-fdaa92a1fc5308e94e5ed782a2024ab0bbc4c072-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-fdaa92a1fc5308e94e5ed782a2024ab0bbc4c072-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2005?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / June 2024<span class=\"noprint\">&#59;&#32;2 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">June 2024</span>)</span></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">ECMAScript 2025<sup id=\"cite&#95;ref-wikidata-6351048ad5638805e5935d8ba81b639a34072b65-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-6351048ad5638805e5935d8ba81b639a34072b65-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2005?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 27 March 2024<span class=\"noprint\">&#59;&#32;2 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">27 March 2024</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">weak</a>, <a href=\"/wiki/Duck_typing\" title=\"Duck typing\">duck</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">Garbage collected</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Lexical</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.js</code> • <code>.mjs</code> • <code>.cjs</code><sup id=\"cite&#95;ref-node.js&#95;ECMAScript&#95;Modules&#95;Specification&#95;4-0\" class=\"reference\"><a href=\"#cite_note-node.js_ECMAScript_Modules_Specification-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ecma-international.org/publications-and-standards/standards/ecma-262/\">ecma-international<wbr />.org<wbr />/publications-and-standards<wbr />/standards<wbr />/ecma-262<wbr />/</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/V8_(JavaScript_engine)\" title=\"V8 (JavaScript engine)\">V8</a>, <a href=\"/wiki/JavaScriptCore\" class=\"mw-redirect\" title=\"JavaScriptCore\">JavaScriptCore</a>, <a href=\"/wiki/SpiderMonkey\" title=\"SpiderMonkey\">SpiderMonkey</a>;<br /><a href=\"/wiki/Chakra_(JavaScript_engine)\" title=\"Chakra (JavaScript engine)\">Chakra</a> (deprecated)</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>,<sup id=\"cite&#95;ref-looklikejava&#95;5-0\" class=\"reference\"><a href=\"#cite_note-looklikejava-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-origin&#95;6-0\" class=\"reference\"><a href=\"#cite_note-origin-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a>,<sup id=\"cite&#95;ref-origin&#95;6-1\" class=\"reference\"><a href=\"#cite_note-origin-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Self_(programming_language)\" title=\"Self (programming language)\">Self</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/AWK\" title=\"AWK\">AWK</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/HyperTalk\" title=\"HyperTalk\">HyperTalk</a><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/ActionScript\" title=\"ActionScript\">ActionScript</a>, <a href=\"/wiki/ArkTS\" title=\"ArkTS\">ArkTS</a>, <a href=\"/wiki/AssemblyScript\" title=\"AssemblyScript\">AssemblyScript</a>, <a href=\"/wiki/CoffeeScript\" title=\"CoffeeScript\">CoffeeScript</a>, <a href=\"/wiki/Dart_(programming_language)\" title=\"Dart (programming language)\">Dart</a>, <a href=\"/wiki/Haxe\" title=\"Haxe\">Haxe</a>, <a href=\"/wiki/JS%2B%2B\" title=\"JS++\">JS++</a>, <a href=\"/wiki/Opa_(programming_language)\" title=\"Opa (programming language)\">Opa</a>, <a href=\"/wiki/TypeScript\" title=\"TypeScript\">TypeScript</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/JavaScript\" class=\"extiw\" title=\"wikibooks:JavaScript\">JavaScript</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>JavaScript</b> (<b>JS</b>)<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> and core technology of <a href=\"/wiki/World_Wide_Web\" title=\"World Wide Web\">the Web</a>, alongside <a href=\"/wiki/HTML\" title=\"HTML\">HTML</a> and <a href=\"/wiki/CSS\" title=\"CSS\">CSS</a>. Created by <a href=\"/wiki/Brendan_Eich\" title=\"Brendan Eich\">Brendan Eich</a> in 1995,<sup id=\"cite&#95;ref-origin&#95;6-2\" class=\"reference\"><a href=\"#cite_note-origin-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> it is maintained by <a href=\"/wiki/Ecma_International\" title=\"Ecma International\">Ecma International</a>'s <a href=\"/wiki/TC39\" class=\"mw-redirect\" title=\"TC39\">TC39</a> technical committee,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> with related <a href=\"/wiki/Web_platform\" title=\"Web platform\">Web APIs</a> maintained by <a href=\"/wiki/W3C\" class=\"mw-redirect\" title=\"W3C\">W3C</a> and <a href=\"/wiki/WHATWG\" title=\"WHATWG\">WHATWG</a>.<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> As of 2025, JavaScript is the most widely used programming language on <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a>.<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> However, <a href=\"/wiki/TypeScript\" title=\"TypeScript\">TypeScript</a>, which is a version of JavaScript that is strict about types and is statically typed, overtook JavaScript on GitHub by August 2025.<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> \n</p><p><a href=\"/wiki/Web_browser\" title=\"Web browser\">Web browsers</a> have a dedicated <a href=\"/wiki/JavaScript_engine\" class=\"mw-redirect\" title=\"JavaScript engine\">JavaScript engine</a> that executes the client <a href=\"/wiki/Source_code\" title=\"Source code\">code</a>. These engines are also utilized in some <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">servers</a> and a variety of <a href=\"/wiki/Application_software\" title=\"Application software\">apps</a>. The most popular <a href=\"/wiki/Runtime_system\" title=\"Runtime system\">runtime system</a> for non-browser usage is <a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a>.<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>JavaScript is a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, often <a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">just-in-time–compiled</a> language that conforms to the <a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a> standard.<sup id=\"cite&#95;ref-tc39&#95;17-0\" class=\"reference\"><a href=\"#cite_note-tc39-17\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> It has <a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">dynamic typing</a>, <a href=\"/wiki/Prototype-based_programming\" title=\"Prototype-based programming\">prototype-based</a> <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-orientation</a>, and <a href=\"/wiki/First-class_function\" title=\"First-class function\">first-class functions</a>. It is <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">multi-paradigm</a>, supporting <a href=\"/wiki/Event-driven_programming\" title=\"Event-driven programming\">event-driven</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, and <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a> <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming styles</a>. It has <a href=\"/wiki/Application_programming_interface\" class=\"mw-redirect\" title=\"Application programming interface\">application programming interfaces</a> (APIs) for working with text, dates, <a href=\"/wiki/Regular_expression\" title=\"Regular expression\">regular expressions</a>, standard <a href=\"/wiki/Data_structure\" title=\"Data structure\">data structures</a>, and the <a href=\"/wiki/Document_Object_Model\" title=\"Document Object Model\">Document Object Model</a> (DOM).\n</p><p>The ECMAScript standard does not include any <a href=\"/wiki/Input/output\" title=\"Input/output\">input/output</a> (I/O), such as <a href=\"/wiki/Computer_network\" title=\"Computer network\">networking</a>, <a href=\"/wiki/Data_storage\" title=\"Data storage\">storage</a>, or <a href=\"/wiki/Computer_graphics\" title=\"Computer graphics\">graphics</a> facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.\n</p><p>Although <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a> and JavaScript are similar in name and <a href=\"/wiki/Syntax_(programming_languages)\" title=\"Syntax (programming languages)\">syntax</a>, the two languages are distinct and differ greatly in design.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-press&#95;release-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-press_release_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation pressrelease cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20070916144913/https://wp.netscape.com/newsref/pr/newsrelease67.html\">\"Netscape and Sun announce JavaScript, the Open, Cross-platform Object Scripting Language for Enterprise Networks and the Internet\"</a> (Press release). 4 December 1995. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://wp.netscape.com/newsref/pr/newsrelease67.html\">the original</a> on 16 September 2007.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Netscape+and+Sun+announce+JavaScript%2C+the+Open%2C+Cross-platform+Object+Scripting+Language+for+Enterprise+Networks+and+the+Internet&amp;rft.date=1995-12-04&amp;rft&#95;id=https%3A%2F%2Fwp.netscape.com%2Fnewsref%2Fpr%2Fnewsrelease67.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-fdaa92a1fc5308e94e5ed782a2024ab0bbc4c072-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-fdaa92a1fc5308e94e5ed782a2024ab0bbc4c072-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://262.ecma-international.org/15.0/\">\"ECMAScript® 2024 Language Specification\"</a>. June 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">30 August</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ECMAScript%C2%AE+2024+Language+Specification&amp;rft.date=2024-06&amp;rft&#95;id=https%3A%2F%2F262.ecma-international.org%2F15.0%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-6351048ad5638805e5935d8ba81b639a34072b65-v20-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-6351048ad5638805e5935d8ba81b639a34072b65-v20_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://tc39.es/ecma262/\">\"ECMAScript® 2025 Language Specification\"</a>. 27 March 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 April</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ECMAScript%C2%AE+2025+Language+Specification&amp;rft.date=2024-03-27&amp;rft&#95;id=https%3A%2F%2Ftc39.es%2Fecma262%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-node.js&#95;ECMAScript&#95;Modules&#95;Specification-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-node.js_ECMAScript_Modules_Specification_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/nodejs/node-eps/blob/master/002-es-modules.md\">\"nodejs/node-eps\"</a>. <i>GitHub</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200829024713/https://github.com/nodejs/node-eps/blob/master/002-es-modules.md\">Archived</a> from the original on 29 August 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">5 July</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=nodejs%2Fnode-eps&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fnodejs%2Fnode-eps%2Fblob%2Fmaster%2F002-es-modules.md&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-looklikejava-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-looklikejava_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSeibel2009\" class=\"citation book cs1\">Seibel, Peter (16 September 2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=nneBa6-mWfgC&amp;q=The+immediate+concern+at+Netscape+was+it+must+look+like+Java.&amp;pg=PA141\"><i>Coders at Work: Reflections on the Craft of Programming</i></a>. Apress. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-4302-1948-4\" title=\"Special:BookSources/978-1-4302-1948-4\"><bdi>978-1-4302-1948-4</bdi></a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201224233514/https://books.google.com/books?id=nneBa6-mWfgC&amp;q=The+immediate+concern+at+Netscape+was+it+must+look+like+Java.&amp;pg=PA141\">Archived</a> from the original on 24 December 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 December</span> 2018</span>. <q>Eich: The immediate concern at Netscape was it must look like Java.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Coders+at+Work%3A+Reflections+on+the+Craft+of+Programming&amp;rft.pub=Apress&amp;rft.date=2009-09-16&amp;rft.isbn=978-1-4302-1948-4&amp;rft.aulast=Seibel&amp;rft.aufirst=Peter&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DnneBa6-mWfgC%26q%3DThe%2Bimmediate%2Bconcern%2Bat%2BNetscape%2Bwas%2Bit%2Bmust%2Blook%2Blike%2BJava.%26pg%3DPA141&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-origin-6\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-origin_6-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-origin_6-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-origin_6-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>origin</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://brendaneich.com/2008/04/popularity/\">\"Popularity – Brendan Eich\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Popularity+%E2%80%93+Brendan+Eich&amp;rft&#95;id=https%3A%2F%2Fbrendaneich.com%2F2008%2F04%2Fpopularity%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=1EyRscXrehw\">\"Brendan Eich: An Introduction to JavaScript, JSConf 2010\"</a>. <i><a href=\"/wiki/YouTube\" title=\"YouTube\">YouTube</a></i>. 20 January 2013. p.&#160;22m. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200829024704/https://www.youtube.com/watch?v=1EyRscXrehw\">Archived</a> from the original on 29 August 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 November</span> 2019</span>. <q>Eich: \"function\", eight letters, I was influenced by AWK.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=Brendan+Eich%3A+An+Introduction+to+JavaScript%2C+JSConf+2010&amp;rft.pages=22m&amp;rft.date=2013-01-20&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1EyRscXrehw&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEich1998\" class=\"citation book cs1\"><a href=\"/wiki/Brendan_Eich\" title=\"Brendan Eich\">Eich, Brendan</a> (1998). \"Foreword\". In <a href=\"/wiki/Danny_Goodman\" title=\"Danny Goodman\">Goodman, Danny</a> (ed.). <span class=\"id-lock-registration\" title=\"Free registration required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/javascriptbible000good\"><i>JavaScript Bible</i></a></span> (3rd&#160;ed.). <a href=\"/wiki/John_Wiley_%26_Sons\" class=\"mw-redirect\" title=\"John Wiley &amp; Sons\">John Wiley &amp; Sons</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-7645-3188-3\" title=\"Special:BookSources/0-7645-3188-3\"><bdi>0-7645-3188-3</bdi></a>. <a href=\"/wiki/LCCN_(identifier)\" class=\"mw-redirect\" title=\"LCCN (identifier)\">LCCN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://lccn.loc.gov/97078208\">97078208</a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/38888873\">38888873</a>. <a href=\"/wiki/OL_(identifier)\" class=\"mw-redirect\" title=\"OL (identifier)\">OL</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://openlibrary.org/books/OL712205M\">712205M</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Foreword&amp;rft.btitle=JavaScript+Bible&amp;rft.edition=3rd&amp;rft.pub=John+Wiley+%26+Sons&amp;rft.date=1998&amp;rft&#95;id=info%3Aoclcnum%2F38888873&amp;rft&#95;id=info%3Alccn%2F97078208&amp;rft&#95;id=https%3A%2F%2Fopenlibrary.org%2Fbooks%2FOL712205M%23id-name%3DOL&amp;rft.isbn=0-7645-3188-3&amp;rft.aulast=Eich&amp;rft.aufirst=Brendan&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fjavascriptbible000good&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://tc39.es/\">\"TC39 - Specifying JavaScript\"</a>. <i>tc39.es</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 April</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=tc39.es&amp;rft.atitle=TC39+-+Specifying+JavaScript.&amp;rft&#95;id=https%3A%2F%2Ftc39.es%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview\">\"JavaScript technologies overview - JavaScript | MDN\"</a>. <i><a href=\"/wiki/MDN_Web_Docs\" title=\"MDN Web Docs\">MDN Web Docs</a></i>. 27 October 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 April</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MDN+Web+Docs&amp;rft.atitle=JavaScript+technologies+overview+-+JavaScript+%7C+MDN&amp;rft.date=2025-10-27&amp;rft&#95;id=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FReference%2FJavaScript&#95;technologies&#95;overview&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGitHub2025\" class=\"citation web cs1\"><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a> (28 October 2025). <a rel=\"nofollow\" class=\"external text\" href=\"https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/\">\"Octoverse 2025: A new developer joins GitHub every second as AI leads TypeScript to #1\"</a>. <i>The GitHub Blog</i>. Chart: \"JavaScript &amp; TypeScript have the largest combined usage\"<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 April</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+GitHub+Blog&amp;rft.atitle=Octoverse+2025%3A+A+new+developer+joins+GitHub+every+second+as+AI+leads+TypeScript+to+%231&amp;rft.pages=Chart%3A+%22JavaScript+%26+TypeScript+have+the+largest+combined+usage%22&amp;rft.date=2025-10-28&amp;rft.au=GitHub&amp;rft&#95;id=https%3A%2F%2Fgithub.blog%2Fnews-insights%2Foctoverse%2Foctoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoworld.com/article/4080454/typescript-rises-to-the-top-on-github.html\">\"TypeScript rises to the top on GitHub\"</a>. <i>InfoWorld</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">10 July</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=InfoWorld&amp;rft.atitle=TypeScript+rises+to+the+top+on+GitHub&amp;rft&#95;id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F4080454%2Ftypescript-rises-to-the-top-on-github.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://survey.stackoverflow.co/2025/technology#1-web-frameworks-and-technologies\">\"Stack Overflow Developer Survey 2025\"</a>. <i>Stack Overflow</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">10 October</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Stack+Overflow&amp;rft.atitle=Stack+Overflow+Developer+Survey+2025&amp;rft&#95;id=https%3A%2F%2Fsurvey.stackoverflow.co%2F2025%2Ftechnology%231-web-frameworks-and-technologies&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-tc39-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-tc39_17-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://tc39.es/ecma262/#sec-overview\">\"ECMAScript 2020 Language Specification\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200508053013/https://tc39.es/ecma262/#sec-overview\">Archived</a> from the original on 8 May 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 May</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ECMAScript+2020+Language+Specification&amp;rft&#95;id=https%3A%2F%2Ftc39.es%2Fecma262%2F%23sec-overview&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJavaScript\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐wvqwm\nCached time: 20260918163222\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.289 seconds\nReal time usage: 0.488 seconds\nPreprocessor visited node count: 2083/1000000\nRevision size: 8636/2097152 bytes\nPost‐expand include size: 57986/2097152 bytes\nTemplate argument size: 10476/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 11/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 40544/5000000 bytes\nLua time usage: 0.184/10.000 seconds\nLua memory usage: 9023175/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  465.169      1 -total\n 52.30%  243.296      2 Template:Infobox\n 46.29%  215.337      1 Template:Infobox_programming_language\n 32.24%  149.970      1 Template:Infobox_software/simple\n 25.99%  120.909      4 Template:Wikidata\n 10.64%   49.489      1 Template:Short_description\n 10.32%   47.988      2 Template:Efn\n  9.73%   45.267      1 Template:IPAc-en\n  6.67%   31.042      2 Template:Pagetype\n  4.97%   23.130      3 Template:Start_date_and_age\n-->\n\n<!-- Render ID 85f6f39d-b37e-11f1-9ddf-4ddf68220cd7 -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Javanese script",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ECMAScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AWK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ActionScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application programming interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ArkTS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AssemblyScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Brendan Eich",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chakra (JavaScript engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CoffeeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer graphics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Danny Goodman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dart (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data storage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Document Object Model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duck typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ecma International",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Event-driven programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "First-class function",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haxe",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HyperTalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JS++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScriptCore",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John Wiley & Sons",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LCCN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MDN Web Docs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netscape",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OL (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Opa (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prototype-based programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Regular expression",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Self (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SpiderMonkey",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TC39",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TypeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V8 (JavaScript engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "W3C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WHATWG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web browser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "World Wide Web",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YouTube",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "High-level programming language",
+          "page_image_free": "Logo_of_TC39.svg",
+          "wikibase_item": "Q2005"
+        }
+      }
+    }
+  ]
+}

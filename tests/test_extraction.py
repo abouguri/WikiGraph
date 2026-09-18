@@ -50,3 +50,33 @@ def test_split_leakage_rejected(tmp_path):
     path.write_text("\n".join(json.dumps(r) for r in rows))
     with pytest.raises(ValueError, match="leakage"):
         evaluate(path)
+
+
+def test_explicit_short_subject_and_trailing_context():
+    page = WikipediaPage(
+        "Java (programming language)",
+        "",
+        "",
+        "Java was designed by James Gosling at Sun Microsystems .",
+        ["James Gosling", "Sun Microsystems"],
+    )
+    facts = [r for r in extract_relationships(page) if r.predicate != "linksTo"]
+    assert [(r.predicate, r.object) for r in facts] == [("designedBy", "James Gosling")]
+    page.text = "Java was not designed by James Gosling at Sun Microsystems."
+    assert all(r.predicate == "linksTo" for r in extract_relationships(page))
+
+
+def test_object_substrings_and_conjunctions_do_not_resolve():
+    page = WikipediaPage("A", "", "", "A was designed by Bob and Carol.", ["Bob", "Carol"])
+    assert all(r.predicate == "linksTo" for r in extract_relationships(page))
+    page.text = "A was designed by Bobby."
+    assert all(r.predicate == "linksTo" for r in extract_relationships(page))
+
+
+def test_real_unreviewed_annotations_cannot_be_scored(tmp_path):
+    row = json.loads(Path("data/evaluation/synthetic.jsonl").read_text().splitlines()[0])
+    row.update(source_kind="wikipedia", reviewed=False)
+    path = tmp_path / "unreviewed.jsonl"
+    path.write_text(json.dumps(row))
+    with pytest.raises(ValueError, match="reviewed annotations"):
+        evaluate(path)

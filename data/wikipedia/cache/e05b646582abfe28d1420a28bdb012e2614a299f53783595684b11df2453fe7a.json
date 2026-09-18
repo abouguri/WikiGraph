@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "R (programming language)",
+    "url": "https://en.wikipedia.org/wiki/R_%28programming_language%29",
+    "summary": "Programming language for statistics \"R lang\" redirects here; not to be confused with Erlang or Rust (programming language) . R Terminal window for R Paradigms Multi-paradigm : procedural , object-oriented , functional , reflective , imperative , array Designed by Ross Ihaka and Robert Gentleman Developer R Core Team First appeared August 1993 ; 33 years ago ( 1993-08 ) Stable release 4.6.1 / 24 June 2026 ; 2 months ago ( 24 June 2026 ) Typing discipline Dynamic Platform arm64 and x86-64 License GPL-2.0-or-later Filename extensions .R .r .rdata .rhistory .rds .rda Website r-project.org Influenced by Lisp S Scheme Influenced Julia pandas R Programming at Wikibooks R is a programming language for statistical computing and data visualization . It has been widely adopted in the fields of data mining , bioinformatics , data analysis , and data science . The core R language is extended by a large number of software packages , which contain reusable code , documentation, and sample data. Some of the most popular R packages are in the tidyverse collection, which enhances functionality for visualizing, transforming, and modelling data, as well as improves the ease of programming (according to the authors and users). R is free and open-source software distributed under the GNU General Public License . The language is implemented primarily in C , Fortran , and R itself . Precompiled executables are available for the major operating systems (including Linux , MacOS , and Microsoft Windows ). Its core is an interpreted language with a native command line interface . In addition, multiple third-party applications are available as graphical user interfaces ; such applications include RStudio (an integrated development environment ), Jupyter (a notebook interface ), as well as Termux and Google Colab for mobile devices. ^ a b Cite error: The named reference Morandat was invoked but never defined (see the help page ). ^ Peter Dalgaard (24 June 2026). \"[Rd] R 4.6.1 is released\" . Retrieved 29 June 2026 . ^ a b \"R - Free Software Directory\" . directory.fsf.org . Retrieved 26 January 2024 . ^ \"R scripts\" . mercury.webster.edu . Retrieved 17 July 2021 . ^ \"R Data Format Family (.rdata, .rda)\" . Loc.gov . 9 June 2017 . Retrieved 17 July 2021 . ^ Cite error: The named reference R FAQ was invoked but never defined (see the help page ). ^ \"Introduction\" . The Julia Manual . Archived from the original on 20 June 2018 . Retrieved 5 August 2018 . ^ \"Comparison with R\" . pandas Getting started . Retrieved 15 July 2024 . ^ Giorgi, Federico M.; Ceraolo, Carmine; Mercatelli, Daniele (27 April 2022). \"The R Language: An Engine for Bioinformatics and Data Science\" . Life . 12 (5): 648. Bibcode : 2022Life...12..648G . doi : 10.3390/life12050648 . PMC 9148156 . PMID 35629316 . ^ \"Home - RDocumentation\" . www.rdocumentation.org . Retrieved 13 June 2025 . ^ \"R: What is R?\" . www.r-project.org . Retrieved 10 May 2025 . ^ Conor I., Anderson (8 July 2018). \"Installing R on Android via Termux\" . Conor I. Anderson . Retrieved 12 December 2025 . Quintana Denis, José Armando (2025). \"Análisis de datos en R utilizando Google Colab\" . Escuela Politécnica Superior . Universidad de Alcalá. Hewitt, Christopher (1 April 2024). \"Exploring Canadian Geospatial Data with GeoPandas in Colab Notebooks\" . Bulletin - Association of Canadian Map Libraries and Archives (ACMLA) (173): 14– 17. doi : 10.15353/acmla.n173.5671 . ISSN 2561-2263 . Poolman, Toryn M.; Townsend-Nicholson, Andrea; Cain, Amanda (2022). \"Teaching genomics to life science undergraduates using cloud computing platforms with open datasets\" . Biochemistry and Molecular Biology Education . 50 (5): 446– 449. doi : 10.1002/bmb.21646 . ISSN 1539-3429 . PMC 9804627 . PMID 35972192 . Nurdin, Naufal Muharam (2022). \"Development of blood hemoglobin level early detection device based on a noninvasive optical platform\" . Heliyon . 8 (11) e11260. Bibcode : 2022Heliy...811260I . doi : 10.1016/J.HELIYON.2022.E11260 . PMC 9636482 . PMID 36345523 . Miftahul Arifin; Fauzi Helmi; Alamsyah, Dafiq Fajri (2024). \"Analisis Pola Asosiasi Penjualan Produk Ritel dengan Platform Google Colab\" . Justify: Jurnal Sistem Informasi Ibrahimy . 3 : 74– 85. doi : 10.35316/justify.v3i1.5569 . Retrieved 12 December 2025 .",
+    "text": "Programming language for statistics \"R lang\" redirects here; not to be confused with Erlang or Rust (programming language) . R Terminal window for R Paradigms Multi-paradigm : procedural , object-oriented , functional , reflective , imperative , array Designed by Ross Ihaka and Robert Gentleman Developer R Core Team First appeared August 1993 ; 33 years ago ( 1993-08 ) Stable release 4.6.1 / 24 June 2026 ; 2 months ago ( 24 June 2026 ) Typing discipline Dynamic Platform arm64 and x86-64 License GPL-2.0-or-later Filename extensions .R .r .rdata .rhistory .rds .rda Website r-project.org Influenced by Lisp S Scheme Influenced Julia pandas R Programming at Wikibooks R is a programming language for statistical computing and data visualization . It has been widely adopted in the fields of data mining , bioinformatics , data analysis , and data science . The core R language is extended by a large number of software packages , which contain reusable code , documentation, and sample data. Some of the most popular R packages are in the tidyverse collection, which enhances functionality for visualizing, transforming, and modelling data, as well as improves the ease of programming (according to the authors and users). R is free and open-source software distributed under the GNU General Public License . The language is implemented primarily in C , Fortran , and R itself . Precompiled executables are available for the major operating systems (including Linux , MacOS , and Microsoft Windows ). Its core is an interpreted language with a native command line interface . In addition, multiple third-party applications are available as graphical user interfaces ; such applications include RStudio (an integrated development environment ), Jupyter (a notebook interface ), as well as Termux and Google Colab for mobile devices. ^ a b Cite error: The named reference Morandat was invoked but never defined (see the help page ). ^ Peter Dalgaard (24 June 2026). \"[Rd] R 4.6.1 is released\" . Retrieved 29 June 2026 . ^ a b \"R - Free Software Directory\" . directory.fsf.org . Retrieved 26 January 2024 . ^ \"R scripts\" . mercury.webster.edu . Retrieved 17 July 2021 . ^ \"R Data Format Family (.rdata, .rda)\" . Loc.gov . 9 June 2017 . Retrieved 17 July 2021 . ^ Cite error: The named reference R FAQ was invoked but never defined (see the help page ). ^ \"Introduction\" . The Julia Manual . Archived from the original on 20 June 2018 . Retrieved 5 August 2018 . ^ \"Comparison with R\" . pandas Getting started . Retrieved 15 July 2024 . ^ Giorgi, Federico M.; Ceraolo, Carmine; Mercatelli, Daniele (27 April 2022). \"The R Language: An Engine for Bioinformatics and Data Science\" . Life . 12 (5): 648. Bibcode : 2022Life...12..648G . doi : 10.3390/life12050648 . PMC 9148156 . PMID 35629316 . ^ \"Home - RDocumentation\" . www.rdocumentation.org . Retrieved 13 June 2025 . ^ \"R: What is R?\" . www.r-project.org . Retrieved 10 May 2025 . ^ Conor I., Anderson (8 July 2018). \"Installing R on Android via Termux\" . Conor I. Anderson . Retrieved 12 December 2025 . Quintana Denis, José Armando (2025). \"Análisis de datos en R utilizando Google Colab\" . Escuela Politécnica Superior . Universidad de Alcalá. Hewitt, Christopher (1 April 2024). \"Exploring Canadian Geospatial Data with GeoPandas in Colab Notebooks\" . Bulletin - Association of Canadian Map Libraries and Archives (ACMLA) (173): 14– 17. doi : 10.15353/acmla.n173.5671 . ISSN 2561-2263 . Poolman, Toryn M.; Townsend-Nicholson, Andrea; Cain, Amanda (2022). \"Teaching genomics to life science undergraduates using cloud computing platforms with open datasets\" . Biochemistry and Molecular Biology Education . 50 (5): 446– 449. doi : 10.1002/bmb.21646 . ISSN 1539-3429 . PMC 9804627 . PMID 35972192 . Nurdin, Naufal Muharam (2022). \"Development of blood hemoglobin level early detection device based on a noninvasive optical platform\" . Heliyon . 8 (11) e11260. Bibcode : 2022Heliy...811260I . doi : 10.1016/J.HELIYON.2022.E11260 . PMC 9636482 . PMID 36345523 . Miftahul Arifin; Fauzi Helmi; Alamsyah, Dafiq Fajri (2024). \"Analisis Pola Asosiasi Penjualan Produk Ritel dengan Platform Google Colab\" . Justify: Jurnal Sistem Informasi Ibrahimy . 3 : 74– 85. doi : 10.35316/justify.v3i1.5569 . Retrieved 12 December 2025 .",
+    "links": [
+      "Arm64",
+      "Array programming",
+      "Bibcode (identifier)",
+      "Bioinformatics",
+      "C (programming language)",
+      "Command line interface",
+      "Computing platform",
+      "Data analysis",
+      "Data and information visualization",
+      "Data mining",
+      "Data science",
+      "Doi (identifier)",
+      "Dynamic typing",
+      "Erlang (disambiguation)",
+      "Executable",
+      "Filename extension",
+      "Fortran",
+      "Free and open-source software",
+      "Functional programming",
+      "GNU GPL",
+      "GNU General Public License",
+      "Google Colab",
+      "Graphical user interface",
+      "ISSN (identifier)",
+      "Imperative programming",
+      "Integrated development environment",
+      "Interpreted language",
+      "Julia (programming language)",
+      "Jupyter",
+      "Linux",
+      "Lisp (programming language)",
+      "MacOS",
+      "Microsoft Windows",
+      "Multi-paradigm programming language",
+      "Notebook interface",
+      "Object-oriented programming",
+      "Operating system",
+      "PMC (identifier)",
+      "PMID (identifier)",
+      "Pandas (software)",
+      "Preprocessor",
+      "Procedural programming",
+      "Programming language",
+      "Programming paradigm",
+      "R package",
+      "RStudio",
+      "Reflective programming",
+      "Reusability",
+      "Robert Gentleman (statistician)",
+      "Ross Ihaka",
+      "Rust (programming language)",
+      "S (programming language)",
+      "Scheme (programming language)",
+      "Self-hosting (compilers)",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Statistical computing",
+      "Termux",
+      "Third-party software component",
+      "Tidyverse",
+      "Type system",
+      "X86-64"
+    ],
+    "page_id": 376707,
+    "revision_id": 1369228333,
+    "retrieved_at": "2026-09-18T16:42:19.040569+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260707000800|1362916404",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 376707,
+            "ns": 0,
+            "title": "R (programming language)",
+            "revisions": [
+              {
+                "revid": 1369228333,
+                "parentid": 1362916404
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "R_logo.svg",
+              "wikibase-shortdesc": "Programming language for statistics",
+              "wikibase_item": "Q206904"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "R (programming language)",
+        "pageid": 376707,
+        "revid": 1369228333,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language for statistics</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"R lang\" redirects here; not to be confused with <a href=\"/wiki/Erlang_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"Erlang (disambiguation)\">Erlang</a> or <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust (programming language)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">R</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:R_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/250px-R_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"116\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/330px-R_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"724\" data-file-height=\"561\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:R_terminal.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/01/R_terminal.jpg/250px-R_terminal.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"173\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/01/R_terminal.jpg/500px-R_terminal.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"683\" data-file-height=\"472\" /></a></span><div class=\"infobox-caption\">Terminal window for R</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Array_programming\" title=\"Array programming\">array</a><sup id=\"cite&#95;ref-Morandat&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Morandat-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Ross_Ihaka\" title=\"Ross Ihaka\">Ross Ihaka</a> and <a href=\"/wiki/Robert_Gentleman_(statistician)\" title=\"Robert Gentleman (statistician)\">Robert Gentleman</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">R Core Team</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">August&#160;1993<span class=\"noprint\">&#59;&#32;33&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1993-08</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">4.6.1<sup id=\"cite&#95;ref-wikidata-15373dff9d797d4a1a02bb6222c59f56d8d7b1d9-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-15373dff9d797d4a1a02bb6222c59f56d8d7b1d9-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q206904?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 24 June 2026<span class=\"noprint\">&#59;&#32;2 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">24 June 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/Arm64\" class=\"mw-redirect\" title=\"Arm64\">arm64</a> and <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_GPL#Version_2\" class=\"mw-redirect\" title=\"GNU GPL\">GPL-2.0-or-later</a><sup id=\"cite&#95;ref-gnugpl&#95;3-0\" class=\"reference\"><a href=\"#cite_note-gnugpl-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>.R<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></li><li>.r</li><li>.rdata</li><li>.rhistory</li><li>.rds</li><li>.rda<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.r-project.org/\">r-project.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a></li>\n<li><a href=\"/wiki/S_(programming_language)\" title=\"S (programming language)\">S</a><sup id=\"cite&#95;ref-R&#95;FAQ&#95;6-0\" class=\"reference\"><a href=\"#cite_note-R_FAQ-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a><sup id=\"cite&#95;ref-Morandat&#95;1-1\" class=\"reference\"><a href=\"#cite_note-Morandat-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a><sup id=\"cite&#95;ref-Introduction&#95;7-0\" class=\"reference\"><a href=\"#cite_note-Introduction-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Pandas_(software)\" title=\"Pandas (software)\">pandas</a><sup id=\"cite&#95;ref-pandas&#95;8-0\" class=\"reference\"><a href=\"#cite_note-pandas-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/R_Programming\" class=\"extiw\" title=\"wikibooks:R Programming\">R Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>R</b> is a <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> for <a href=\"/wiki/Statistical_computing\" class=\"mw-redirect\" title=\"Statistical computing\">statistical computing</a> and <a href=\"/wiki/Data_and_information_visualization\" title=\"Data and information visualization\">data visualization</a>. It has been widely adopted in the fields of <a href=\"/wiki/Data_mining\" title=\"Data mining\">data mining</a>, <a href=\"/wiki/Bioinformatics\" title=\"Bioinformatics\">bioinformatics</a>, <a href=\"/wiki/Data_analysis\" title=\"Data analysis\">data analysis</a>, and <a href=\"/wiki/Data_science\" title=\"Data science\">data science</a>.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The core R language is extended by a large number of <a href=\"/wiki/R_package\" title=\"R package\">software packages</a>, which contain <a href=\"/wiki/Reusability\" title=\"Reusability\">reusable code</a>, documentation, and sample data. Some of the most popular R packages are in the <a href=\"/wiki/Tidyverse\" title=\"Tidyverse\">tidyverse</a> collection, which enhances functionality for visualizing, transforming, and modelling data, as well as improves the ease of programming (according to the authors and users).<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>R is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> distributed under the <a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU General Public License</a>.<sup id=\"cite&#95;ref-gnugpl&#95;3-1\" class=\"reference\"><a href=\"#cite_note-gnugpl-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> The language is implemented primarily in <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>, and <a href=\"/wiki/Self-hosting_(compilers)\" title=\"Self-hosting (compilers)\">R itself</a>. <a href=\"/wiki/Preprocessor\" title=\"Preprocessor\">Precompiled</a> <a href=\"/wiki/Executable\" title=\"Executable\">executables</a> are available for the major <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a> (including <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">MacOS</a>, and <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Microsoft Windows</a>).\n</p><p>Its core is an <a href=\"/wiki/Interpreted_language\" class=\"mw-redirect\" title=\"Interpreted language\">interpreted language</a> with a native <a href=\"/wiki/Command_line_interface\" class=\"mw-redirect\" title=\"Command line interface\">command line interface</a>. In addition, multiple <a href=\"/wiki/Third-party_software_component\" title=\"Third-party software component\">third-party</a> applications are available as <a href=\"/wiki/Graphical_user_interface\" title=\"Graphical user interface\">graphical user interfaces</a>; such applications include <a href=\"/wiki/RStudio\" title=\"RStudio\">RStudio</a> (an <a href=\"/wiki/Integrated_development_environment\" title=\"Integrated development environment\">integrated development environment</a>),  <a href=\"/wiki/Jupyter\" class=\"mw-redirect\" title=\"Jupyter\">Jupyter</a> (a <a href=\"/wiki/Notebook_interface\" title=\"Notebook interface\">notebook interface</a>), as well as <a href=\"/wiki/Termux\" title=\"Termux\">Termux</a> and <a href=\"/wiki/Google_Colab\" title=\"Google Colab\">Google Colab</a> for mobile devices.<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-Morandat-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Morandat_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Morandat_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Morandat</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-15373dff9d797d4a1a02bb6222c59f56d8d7b1d9-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-15373dff9d797d4a1a02bb6222c59f56d8d7b1d9-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFPeter&#95;Dalgaard2026\" class=\"citation web cs1\">Peter Dalgaard (24 June 2026). <a rel=\"nofollow\" class=\"external text\" href=\"https://hypatia.math.ethz.ch/pipermail/r-announce/2026/000727.html\">\"&#91;Rd&#93; R 4.6.1 is released\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 June</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=%5BRd%5D+R+4.6.1+is+released&amp;rft.date=2026-06-24&amp;rft.au=Peter+Dalgaard&amp;rft&#95;id=https%3A%2F%2Fhypatia.math.ethz.ch%2Fpipermail%2Fr-announce%2F2026%2F000727.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gnugpl-3\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-gnugpl_3-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-gnugpl_3-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://directory.fsf.org/wiki/R#tab=Details\">\"R - Free Software Directory\"</a>. <i>directory.fsf.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 January</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=directory.fsf.org&amp;rft.atitle=R+-+Free+Software+Directory&amp;rft&#95;id=https%3A%2F%2Fdirectory.fsf.org%2Fwiki%2FR%23tab%3DDetails&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://mercury.webster.edu/aleshunas/R_learning_infrastructure/R%20scripts.html\">\"R scripts\"</a>. <i>mercury.webster.edu</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 July</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=mercury.webster.edu&amp;rft.atitle=R+scripts&amp;rft&#95;id=http%3A%2F%2Fmercury.webster.edu%2Faleshunas%2FR&#95;learning&#95;infrastructure%2FR%2520scripts.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml\">\"R Data Format Family (.rdata, .rda)\"</a>. <i>Loc.gov</i>. 9 June 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 July</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Loc.gov&amp;rft.atitle=R+Data+Format+Family+%28.rdata%2C+.rda%29&amp;rft.date=2017-06-09&amp;rft&#95;id=https%3A%2F%2Fwww.loc.gov%2Fpreservation%2Fdigital%2Fformats%2Ffdd%2Ffdd000470.shtml&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-R&#95;FAQ-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-R_FAQ_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>R FAQ</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Introduction-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Introduction_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180620172516/https://docs.julialang.org/en/stable/manual/introduction/#man-introduction-1\">\"Introduction\"</a>. <i>The Julia Manual</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://docs.julialang.org/en/stable/manual/introduction/#man-introduction-1\">the original</a> on 20 June 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">5 August</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Julia+Manual&amp;rft.atitle=Introduction&amp;rft&#95;id=https%3A%2F%2Fdocs.julialang.org%2Fen%2Fstable%2Fmanual%2Fintroduction%2F%23man-introduction-1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-pandas-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-pandas_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_r.html\">\"Comparison with R\"</a>. <i>pandas Getting started</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 July</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=pandas+Getting+started&amp;rft.atitle=Comparison+with+R&amp;rft&#95;id=https%3A%2F%2Fpandas.pydata.org%2Fpandas-docs%2Fstable%2Fgetting&#95;started%2Fcomparison%2Fcomparison&#95;with&#95;r.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGiorgiCeraoloMercatelli2022\" class=\"citation journal cs1\">Giorgi, Federico M.; Ceraolo, Carmine; Mercatelli, Daniele (27 April 2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148156\">\"The R Language: An Engine for Bioinformatics and Data Science\"</a>. <i>Life</i>. <b>12</b> (5): 648. <a href=\"/wiki/Bibcode_(identifier)\" class=\"mw-redirect\" title=\"Bibcode (identifier)\">Bibcode</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://ui.adsabs.harvard.edu/abs/2022Life...12..648G\">2022Life...12..648G</a>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.3390%2Flife12050648\">10.3390/life12050648</a></span>. <a href=\"/wiki/PMC_(identifier)\" class=\"mw-redirect\" title=\"PMC (identifier)\">PMC</a>&#160;<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9148156\">9148156</a></span>. <a href=\"/wiki/PMID_(identifier)\" class=\"mw-redirect\" title=\"PMID (identifier)\">PMID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://pubmed.ncbi.nlm.nih.gov/35629316\">35629316</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Life&amp;rft.atitle=The+R+Language%3A+An+Engine+for+Bioinformatics+and+Data+Science&amp;rft.volume=12&amp;rft.issue=5&amp;rft.pages=648&amp;rft.date=2022-04-27&amp;rft&#95;id=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC9148156%23id-name%3DPMC&amp;rft&#95;id=info%3Apmid%2F35629316&amp;rft&#95;id=info%3Adoi%2F10.3390%2Flife12050648&amp;rft&#95;id=info%3Abibcode%2F2022Life...12..648G&amp;rft.aulast=Giorgi&amp;rft.aufirst=Federico+M.&amp;rft.au=Ceraolo%2C+Carmine&amp;rft.au=Mercatelli%2C+Daniele&amp;rft&#95;id=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC9148156&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.rdocumentation.org/\">\"Home - RDocumentation\"</a>. <i>www.rdocumentation.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">13 June</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.rdocumentation.org&amp;rft.atitle=Home+-+RDocumentation&amp;rft&#95;id=https%3A%2F%2Fwww.rdocumentation.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.r-project.org/about.html\">\"R: What is R?\"</a>. <i>www.r-project.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">10 May</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.r-project.org&amp;rft.atitle=R%3A+What+is+R%3F&amp;rft&#95;id=https%3A%2F%2Fwww.r-project.org%2Fabout.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><div><ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFConor&#95;I.2018\" class=\"citation web cs1\">Conor I., Anderson (8 July 2018). <a rel=\"nofollow\" class=\"external text\" href=\"https://conr.ca/post/installing-r-on-android-via-termux/\">\"Installing R on Android via Termux\"</a>. <i>Conor I. Anderson</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 December</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Conor+I.+Anderson&amp;rft.atitle=Installing+R+on+Android+via+Termux&amp;rft.date=2018-07-08&amp;rft.aulast=Conor+I.&amp;rft.aufirst=Anderson&amp;rft&#95;id=https%3A%2F%2Fconr.ca%2Fpost%2Finstalling-r-on-android-via-termux%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></li><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFQuintana&#95;Denis2025\" class=\"citation journal cs1\">Quintana Denis, José Armando (2025). <a rel=\"nofollow\" class=\"external text\" href=\"https://ebuah.uah.es/dspace/handle/10017/67257\">\"Análisis de datos en R utilizando Google Colab\"</a>. <i>Escuela Politécnica Superior</i>. Universidad de Alcalá.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Escuela+Polit%C3%A9cnica+Superior&amp;rft.atitle=An%C3%A1lisis+de+datos+en+R+utilizando+Google+Colab&amp;rft.date=2025&amp;rft.aulast=Quintana+Denis&amp;rft.aufirst=Jos%C3%A9+Armando&amp;rft&#95;id=https%3A%2F%2Febuah.uah.es%2Fdspace%2Fhandle%2F10017%2F67257&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></li><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHewitt2024\" class=\"citation journal cs1\">Hewitt, Christopher (1 April 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://openjournals.uwaterloo.ca/index.php/acmla/article/view/5671\">\"Exploring Canadian Geospatial Data with GeoPandas in Colab Notebooks\"</a>. <i>Bulletin - Association of Canadian Map Libraries and Archives (ACMLA)</i> (173): <span class=\"nowrap\">14–</span>17. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.15353%2Facmla.n173.5671\">10.15353/acmla.n173.5671</a></span>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/2561-2263\">2561-2263</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Bulletin+-+Association+of+Canadian+Map+Libraries+and+Archives+%28ACMLA%29&amp;rft.atitle=Exploring+Canadian+Geospatial+Data+with+GeoPandas+in+Colab+Notebooks&amp;rft.issue=173&amp;rft.pages=14-17&amp;rft.date=2024-04-01&amp;rft&#95;id=info%3Adoi%2F10.15353%2Facmla.n173.5671&amp;rft.issn=2561-2263&amp;rft.aulast=Hewitt&amp;rft.aufirst=Christopher&amp;rft&#95;id=https%3A%2F%2Fopenjournals.uwaterloo.ca%2Findex.php%2Facmla%2Farticle%2Fview%2F5671&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></li><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFPoolmanTownsend-NicholsonCain2022\" class=\"citation journal cs1\">Poolman, Toryn M.; Townsend-Nicholson, Andrea; Cain, Amanda (2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9804627\">\"Teaching genomics to life science undergraduates using cloud computing platforms with open datasets\"</a>. <i>Biochemistry and Molecular Biology Education</i>. <b>50</b> (5): <span class=\"nowrap\">446–</span>449. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1002%2Fbmb.21646\">10.1002/bmb.21646</a>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/1539-3429\">1539-3429</a>. <a href=\"/wiki/PMC_(identifier)\" class=\"mw-redirect\" title=\"PMC (identifier)\">PMC</a>&#160;<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9804627\">9804627</a></span>. <a href=\"/wiki/PMID_(identifier)\" class=\"mw-redirect\" title=\"PMID (identifier)\">PMID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://pubmed.ncbi.nlm.nih.gov/35972192\">35972192</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Biochemistry+and+Molecular+Biology+Education&amp;rft.atitle=Teaching+genomics+to+life+science+undergraduates+using+cloud+computing+platforms+with+open+datasets&amp;rft.volume=50&amp;rft.issue=5&amp;rft.pages=446-449&amp;rft.date=2022&amp;rft&#95;id=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC9804627%23id-name%3DPMC&amp;rft.issn=1539-3429&amp;rft&#95;id=info%3Apmid%2F35972192&amp;rft&#95;id=info%3Adoi%2F10.1002%2Fbmb.21646&amp;rft.aulast=Poolman&amp;rft.aufirst=Toryn+M.&amp;rft.au=Townsend-Nicholson%2C+Andrea&amp;rft.au=Cain%2C+Amanda&amp;rft&#95;id=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC9804627&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></li><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFNurdin2022\" class=\"citation journal cs1\">Nurdin, Naufal Muharam (2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.academia.edu/97712835\">\"Development of blood hemoglobin level early detection device based on a noninvasive optical platform\"</a>. <i>Heliyon</i>. <b>8</b> (11) e11260. <a href=\"/wiki/Bibcode_(identifier)\" class=\"mw-redirect\" title=\"Bibcode (identifier)\">Bibcode</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://ui.adsabs.harvard.edu/abs/2022Heliy...811260I\">2022Heliy...811260I</a>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1016%2FJ.HELIYON.2022.E11260\">10.1016/J.HELIYON.2022.E11260</a></span>. <a href=\"/wiki/PMC_(identifier)\" class=\"mw-redirect\" title=\"PMC (identifier)\">PMC</a>&#160;<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9636482\">9636482</a></span>. <a href=\"/wiki/PMID_(identifier)\" class=\"mw-redirect\" title=\"PMID (identifier)\">PMID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://pubmed.ncbi.nlm.nih.gov/36345523\">36345523</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Heliyon&amp;rft.atitle=Development+of+blood+hemoglobin+level+early+detection+device+based+on+a+noninvasive+optical+platform&amp;rft.volume=8&amp;rft.issue=11&amp;rft.artnum=e11260&amp;rft.date=2022&amp;rft&#95;id=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC9636482%23id-name%3DPMC&amp;rft&#95;id=info%3Apmid%2F36345523&amp;rft&#95;id=info%3Adoi%2F10.1016%2FJ.HELIYON.2022.E11260&amp;rft&#95;id=info%3Abibcode%2F2022Heliy...811260I&amp;rft.aulast=Nurdin&amp;rft.aufirst=Naufal+Muharam&amp;rft&#95;id=https%3A%2F%2Fwww.academia.edu%2F97712835&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></li><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMiftahul&#95;ArifinFauzi&#95;HelmiAlamsyah2024\" class=\"citation journal cs1\">Miftahul Arifin; Fauzi Helmi; Alamsyah, Dafiq Fajri (2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://journal.ibrahimy.ac.id/index.php/JUSTIFY/article/view/5569\">\"Analisis Pola Asosiasi Penjualan Produk Ritel dengan Platform Google Colab\"</a>. <i>Justify: Jurnal Sistem Informasi Ibrahimy</i>. <b>3</b>: <span class=\"nowrap\">74–</span>85. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.35316%2Fjustify.v3i1.5569\">10.35316/justify.v3i1.5569</a></span><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 December</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Justify%3A+Jurnal+Sistem+Informasi+Ibrahimy&amp;rft.atitle=Analisis+Pola+Asosiasi+Penjualan+Produk+Ritel+dengan+Platform+Google+Colab&amp;rft.volume=3&amp;rft.pages=74-85&amp;rft.date=2024&amp;rft&#95;id=info%3Adoi%2F10.35316%2Fjustify.v3i1.5569&amp;rft.au=Miftahul+Arifin&amp;rft.au=Fauzi+Helmi&amp;rft.au=Alamsyah%2C+Dafiq+Fajri&amp;rft&#95;id=https%3A%2F%2Fjournal.ibrahimy.ac.id%2Findex.php%2FJUSTIFY%2Farticle%2Fview%2F5569&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AR+%28programming+language%29\" class=\"Z3988\"></span></li></ul></div></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐kwbxw\nCached time: 20260918164244\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.296 seconds\nReal time usage: 0.428 seconds\nPreprocessor visited node count: 2034/1000000\nRevision size: 7179/2097152 bytes\nPost‐expand include size: 67930/2097152 bytes\nTemplate argument size: 6379/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 46969/5000000 bytes\nLua time usage: 0.190/10.000 seconds\nLua memory usage: 13041010/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  399.483      1 -total\n 58.76%  234.719      2 Template:Infobox\n 54.06%  215.950      1 Template:Infobox_programming_language\n 36.02%  143.909      1 Template:Infobox_software/simple\n 31.11%  124.289      4 Template:Wikidata\n 13.44%   53.702      1 Template:Short_description\n  8.42%   33.617      2 Template:Pagetype\n  8.00%   31.948      3 Template:Start_date_and_age\n  6.67%   26.627      1 Template:Bulleted_list\n  6.32%   25.234      6 Template:Cite_journal\n-->\n\n<!-- Render ID f8b4a839-b37f-11f1-b6e7-853de3398146 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Erlang (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arm64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bibcode (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bioinformatics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command line interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data and information visualization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data mining",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU GPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Colab",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphical user interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated development environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreted language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jupyter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Notebook interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PMC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PMID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pandas (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Preprocessor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RStudio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "R package",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reusability",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robert Gentleman (statistician)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ross Ihaka",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Self-hosting (compilers)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Statistical computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Termux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Third-party software component",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tidyverse",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language for statistics",
+          "page_image_free": "R_logo.svg",
+          "wikibase_item": "Q206904"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Go (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Go_%28programming_language%29",
+    "summary": "Programming language For the 2003 agent-based programming language, see Go! (programming language) . This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Go\" programming language – news · newspapers · books · scholar · JSTOR ( August 2026 ) ( Learn how and when to remove this message ) Go Paradigm Multi-paradigm : concurrent , imperative , functional , object-oriented Designed by Robert Griesemer Rob Pike Ken Thompson Developer Google and contributors First appeared November 10, 2009 ; 16 years ago ( 2009-11-10 ) Stable release 1.27.1 / 1 September 2026 ; 17 days ago ( 1 September 2026 ) Typing discipline Inferred , static , strong , structural , nominal Memory management Garbage collection Implementation language Go, Assembly language (gc); C++ (gofrontend) OS DragonFly BSD , FreeBSD , Linux , macOS , NetBSD , OpenBSD , Plan 9 , Solaris , Windows License 3-clause BSD + patent grant Filename extensions .go Website go .dev Major implementations gc, gofrontend, gold Influenced by C , Oberon-2 , Limbo , Active Oberon , communicating sequential processes , Pascal , Oberon , Smalltalk , Newsqueak , Modula-2 , Alef , APL , BCPL , Modula , occam Influenced Crystal , V Go (often referred to as Golang ) is a high-level , general-purpose programming language that is statically typed and compiled . Originally designed in 2007 by Robert Griesemer , Rob Pike , and Ken Thompson , Go was publicly announced in November 2009, and is developed by Google and community contributors. Go has a simple syntax similar to C++ , as well as garbage collection , structural typing , CSP -style concurrency , and a broad standard library . There are two major implementations: The original, self-hosting compiler toolchain , initially developed inside Google; A frontend written in C++ , called gofrontend, originally a GCC frontend, providing gccgo, a GCC-based Go compiler; later extended to also support LLVM , providing an LLVM-based Go compiler called gollvm. ^ \"Codewalk: First-Class Functions in Go\" . Go supports first class functions, higher-order functions, user-defined function types, function literals, closures, and multiple return values. This rich feature set supports a functional programming style in a strongly typed language. ^ \"Is Go an object-oriented language?\" . Retrieved April 13, 2019 . Although Go has types and methods and allows an object-oriented style of programming, there is no type hierarchy. ^ \"Go: code that grows with grace\" . Retrieved June 24, 2018 . Go is Object Oriented, but not in the usual way. ^ a b \"Language Design FAQ\" . The Go Programming Language . January 16, 2010. Archived from the original on July 28, 2025 . Retrieved February 27, 2010 . ^ a b Cite error: The named reference Claburn-2022 was invoked but never defined (see the help page ). ^ Griesemer, Robert; Pike, Rob; Thompson, Ken; Taylor, Ian; Cox, Russ; Kim, Jini; Langley, Adam. \"Hey! Ho! Let's Go!\" . Google Open Source . Retrieved May 17, 2018 . ^ \"Release 1.27.1\" . September 1, 2026 . Retrieved September 2, 2026 . ^ \"The Go Programming Language Specification\" . The Go Programming Language . Archived from the original on August 13, 2025. ^ a b \"Why doesn't Go have \"implements\" declarations?\" . The Go Programming Language . Archived from the original on July 28, 2025 . Retrieved October 1, 2015 . ^ Pike, Rob [@rob_pike] (December 22, 2014). \"Go has structural typing, not duck typing. Full interface satisfaction is checked and required\" ( Tweet ). Archived from the original on April 7, 2022 . Retrieved March 13, 2016 – via Twitter . ^ \"lang/go: go-1.4\" . OpenBSD ports . December 23, 2014 . Retrieved January 19, 2015 . ^ \"Go Porting Efforts\" . Go Language Resources . cat-v. January 12, 2010 . Retrieved January 18, 2010 . ^ \"Text file LICENSE\" . The Go Programming Language . Archived from the original on July 16, 2025 . Retrieved October 5, 2012 . ^ \"Additional IP Rights Grant\" . The Go Programming Language . Archived from the original on March 30, 2025 . Retrieved October 5, 2012 . ^ a b Bin Uzayr, Sufyan (2023). GoLang: The Ultimate Guide . CRC Press . doi : 10.1201/9781003309055 . ISBN 9781003309055 . Archived from the original on August 21, 2026 . Retrieved August 20, 2026 . ^ Kincaid, Jason (November 10, 2009). \"Google's Go: A New Programming Language That's Python Meets C++\" . TechCrunch . Retrieved January 18, 2010 . ^ \"Go Introduction\" . www.w3schools.com . Retrieved November 23, 2024 . ^ Metz, Cade (May 5, 2011). \"Google Go boldly goes where no code has gone before\" . The Register . Archived from the original on July 28, 2025. ^ \"Go 1.5 Release Notes\" . Retrieved January 28, 2016 . The compiler and runtime are now implemented in Go and assembler, without C. ^ \"The Go programming language\" . GitHub . Retrieved November 1, 2024 . ^ \"gofrontend\" . GitHub . Retrieved November 1, 2024 . ^ \"gccgo\" . Retrieved November 1, 2024 . gccgo, the GNU compiler for the Go programming language ^ \"Gollvm\" . Retrieved November 1, 2024 . Gollvm is an LLVM-based Go compiler.",
+    "text": "Programming language For the 2003 agent-based programming language, see Go! (programming language) . This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Go\" programming language – news · newspapers · books · scholar · JSTOR ( August 2026 ) ( Learn how and when to remove this message ) Go Paradigm Multi-paradigm : concurrent , imperative , functional , object-oriented Designed by Robert Griesemer Rob Pike Ken Thompson Developer Google and contributors First appeared November 10, 2009 ; 16 years ago ( 2009-11-10 ) Stable release 1.27.1 / 1 September 2026 ; 17 days ago ( 1 September 2026 ) Typing discipline Inferred , static , strong , structural , nominal Memory management Garbage collection Implementation language Go, Assembly language (gc); C++ (gofrontend) OS DragonFly BSD , FreeBSD , Linux , macOS , NetBSD , OpenBSD , Plan 9 , Solaris , Windows License 3-clause BSD + patent grant Filename extensions .go Website go .dev Major implementations gc, gofrontend, gold Influenced by C , Oberon-2 , Limbo , Active Oberon , communicating sequential processes , Pascal , Oberon , Smalltalk , Newsqueak , Modula-2 , Alef , APL , BCPL , Modula , occam Influenced Crystal , V Go (often referred to as Golang ) is a high-level , general-purpose programming language that is statically typed and compiled . Originally designed in 2007 by Robert Griesemer , Rob Pike , and Ken Thompson , Go was publicly announced in November 2009, and is developed by Google and community contributors. Go has a simple syntax similar to C++ , as well as garbage collection , structural typing , CSP -style concurrency , and a broad standard library . There are two major implementations: The original, self-hosting compiler toolchain , initially developed inside Google; A frontend written in C++ , called gofrontend, originally a GCC frontend, providing gccgo, a GCC-based Go compiler; later extended to also support LLVM , providing an LLVM-based Go compiler called gollvm. ^ \"Codewalk: First-Class Functions in Go\" . Go supports first class functions, higher-order functions, user-defined function types, function literals, closures, and multiple return values. This rich feature set supports a functional programming style in a strongly typed language. ^ \"Is Go an object-oriented language?\" . Retrieved April 13, 2019 . Although Go has types and methods and allows an object-oriented style of programming, there is no type hierarchy. ^ \"Go: code that grows with grace\" . Retrieved June 24, 2018 . Go is Object Oriented, but not in the usual way. ^ a b \"Language Design FAQ\" . The Go Programming Language . January 16, 2010. Archived from the original on July 28, 2025 . Retrieved February 27, 2010 . ^ a b Cite error: The named reference Claburn-2022 was invoked but never defined (see the help page ). ^ Griesemer, Robert; Pike, Rob; Thompson, Ken; Taylor, Ian; Cox, Russ; Kim, Jini; Langley, Adam. \"Hey! Ho! Let's Go!\" . Google Open Source . Retrieved May 17, 2018 . ^ \"Release 1.27.1\" . September 1, 2026 . Retrieved September 2, 2026 . ^ \"The Go Programming Language Specification\" . The Go Programming Language . Archived from the original on August 13, 2025. ^ a b \"Why doesn't Go have \"implements\" declarations?\" . The Go Programming Language . Archived from the original on July 28, 2025 . Retrieved October 1, 2015 . ^ Pike, Rob [@rob_pike] (December 22, 2014). \"Go has structural typing, not duck typing. Full interface satisfaction is checked and required\" ( Tweet ). Archived from the original on April 7, 2022 . Retrieved March 13, 2016 – via Twitter . ^ \"lang/go: go-1.4\" . OpenBSD ports . December 23, 2014 . Retrieved January 19, 2015 . ^ \"Go Porting Efforts\" . Go Language Resources . cat-v. January 12, 2010 . Retrieved January 18, 2010 . ^ \"Text file LICENSE\" . The Go Programming Language . Archived from the original on July 16, 2025 . Retrieved October 5, 2012 . ^ \"Additional IP Rights Grant\" . The Go Programming Language . Archived from the original on March 30, 2025 . Retrieved October 5, 2012 . ^ a b Bin Uzayr, Sufyan (2023). GoLang: The Ultimate Guide . CRC Press . doi : 10.1201/9781003309055 . ISBN 9781003309055 . Archived from the original on August 21, 2026 . Retrieved August 20, 2026 . ^ Kincaid, Jason (November 10, 2009). \"Google's Go: A New Programming Language That's Python Meets C++\" . TechCrunch . Retrieved January 18, 2010 . ^ \"Go Introduction\" . www.w3schools.com . Retrieved November 23, 2024 . ^ Metz, Cade (May 5, 2011). \"Google Go boldly goes where no code has gone before\" . The Register . Archived from the original on July 28, 2025. ^ \"Go 1.5 Release Notes\" . Retrieved January 28, 2016 . The compiler and runtime are now implemented in Go and assembler, without C. ^ \"The Go programming language\" . GitHub . Retrieved November 1, 2024 . ^ \"gofrontend\" . GitHub . Retrieved November 1, 2024 . ^ \"gccgo\" . Retrieved November 1, 2024 . gccgo, the GNU compiler for the Go programming language ^ \"Gollvm\" . Retrieved November 1, 2024 . Gollvm is an LLVM-based Go compiler.",
+    "links": [
+      "3-clause BSD",
+      "APL (programming language)",
+      "Active Oberon",
+      "Alef (programming language)",
+      "Assembly language",
+      "BCPL",
+      "C (programming language)",
+      "C++",
+      "CRC Press",
+      "Communicating sequential processes",
+      "Compiled language",
+      "Compiler",
+      "Concurrency (computer science)",
+      "Concurrent programming",
+      "Crystal (programming language)",
+      "Doi (identifier)",
+      "DragonFly BSD",
+      "Elements Toolchain",
+      "Filename extension",
+      "FreeBSD",
+      "Functional programming",
+      "GNU Compiler Collection",
+      "Garbage collection (computer science)",
+      "General purpose programming language",
+      "GitHub",
+      "Go! (programming language)",
+      "Google",
+      "High-level programming language",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Ken Thompson",
+      "LLVM",
+      "Limbo (programming language)",
+      "Linux",
+      "MacOS",
+      "Memory management",
+      "Modula",
+      "Modula-2",
+      "Multi-paradigm programming language",
+      "NetBSD",
+      "Newsqueak",
+      "Nominal typing",
+      "Oberon (programming language)",
+      "Oberon-2",
+      "Object-oriented programming",
+      "Occam (programming language)",
+      "OpenBSD",
+      "Operating system",
+      "Pascal (programming language)",
+      "Plan 9 from Bell Labs",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Rob Pike",
+      "Robert Griesemer",
+      "Self-hosting (compilers)",
+      "Smalltalk",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software patents",
+      "Software release life cycle",
+      "Solaris (operating system)",
+      "Standard library",
+      "Static typing",
+      "Strong typing",
+      "Structural type system",
+      "Structural typing",
+      "Syntax (programming languages)",
+      "TechCrunch",
+      "The Register",
+      "Toolchain",
+      "Tweet (social media)",
+      "Twitter",
+      "Type inference",
+      "Type system",
+      "V (programming language)",
+      "Windows"
+    ],
+    "page_id": 25039021,
+    "revision_id": 1375187723,
+    "retrieved_at": "2026-09-18T16:31:48.133484+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260915220005|1375102292",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 25039021,
+            "ns": 0,
+            "title": "Go (programming language)",
+            "revisions": [
+              {
+                "revid": 1375187723,
+                "parentid": 1375102292
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Go_Logo_Blue.svg",
+              "wikibase-shortdesc": "Programming language",
+              "wikibase_item": "Q37227"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Go (programming language)",
+        "pageid": 25039021,
+        "revid": 1375187723,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the 2003 agent-based programming language, see <a href=\"/wiki/Go!_(programming_language)\" title=\"Go! (programming language)\">Go! (programming language)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Go%22+programming+language\">\"Go\"&#160;programming language</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Go%22+programming+language+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Go%22+programming+language&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Go%22+programming+language+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Go%22+programming+language\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Go%22+programming+language&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">August 2026</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Go</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Go_Logo_Blue.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/250px-Go_Logo_Blue.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"230\" height=\"86\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/500px-Go_Logo_Blue.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"191\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Concurrent_programming\" class=\"mw-redirect\" title=\"Concurrent programming\">concurrent</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>,<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Robert_Griesemer\" title=\"Robert Griesemer\">Robert Griesemer</a><br /><a href=\"/wiki/Rob_Pike\" title=\"Rob Pike\">Rob Pike</a><br /><a href=\"/wiki/Ken_Thompson\" title=\"Ken Thompson\">Ken Thompson</a><sup id=\"cite&#95;ref-langfaq&#95;4-0\" class=\"reference\"><a href=\"#cite_note-langfaq-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/Google\" title=\"Google\">Google</a><sup id=\"cite&#95;ref-Claburn-2022&#95;5-0\" class=\"reference\"><a href=\"#cite_note-Claburn-2022-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> and contributors</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">November&#160;10, 2009<span class=\"noprint\">&#59;&#32;16 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2009-11-10</span>)</span><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">1.27.1<sup id=\"cite&#95;ref-wikidata-de1f36c6b3c8790389b8391fd2a97e795900982b-v20&#95;7-0\" class=\"reference\"><a href=\"#cite_note-wikidata-de1f36c6b3c8790389b8391fd2a97e795900982b-v20-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q37227?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 1 September 2026<span class=\"noprint\">&#59;&#32;17 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1 September 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_inference\" title=\"Type inference\">Inferred</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a>, <a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">strong</a>,<sup id=\"cite&#95;ref-go-introduction&#95;8-0\" class=\"reference\"><a href=\"#cite_note-go-introduction-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Structural_typing\" class=\"mw-redirect\" title=\"Structural typing\">structural</a>,<sup id=\"cite&#95;ref-structural&#95;typing&#95;9-0\" class=\"reference\"><a href=\"#cite_note-structural_typing-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-pike-20141222&#95;10-0\" class=\"reference\"><a href=\"#cite_note-pike-20141222-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Nominal_typing\" class=\"mw-redirect\" title=\"Nominal typing\">nominal</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">Garbage collection</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\">Go, <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">Assembly language</a> (gc); <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> (gofrontend)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/DragonFly_BSD\" title=\"DragonFly BSD\">DragonFly BSD</a>, <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>, <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/NetBSD\" title=\"NetBSD\">NetBSD</a>, <a href=\"/wiki/OpenBSD\" title=\"OpenBSD\">OpenBSD</a>,<sup id=\"cite&#95;ref-openbsd&#95;11-0\" class=\"reference\"><a href=\"#cite_note-openbsd-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Plan_9_from_Bell_Labs\" title=\"Plan 9 from Bell Labs\">Plan 9</a>,<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Solaris_(operating_system)\" class=\"mw-redirect\" title=\"Solaris (operating system)\">Solaris</a>, <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/3-clause_BSD\" class=\"mw-redirect\" title=\"3-clause BSD\">3-clause BSD</a><sup id=\"cite&#95;ref-license&#95;13-0\" class=\"reference\"><a href=\"#cite_note-license-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> + <a href=\"/wiki/Software_patents\" class=\"mw-redirect\" title=\"Software patents\">patent</a> grant<sup id=\"cite&#95;ref-gopatens&#95;14-0\" class=\"reference\"><a href=\"#cite_note-gopatens-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.go</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.dev\">go<wbr />.dev</a></span></span> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q37227#P856\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">gc, gofrontend, <a href=\"/wiki/Elements_Toolchain\" class=\"mw-redirect\" title=\"Elements Toolchain\">gold</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span><span><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></span>, <span><a href=\"/wiki/Oberon-2\" title=\"Oberon-2\">Oberon-2</a></span>, <span><a href=\"/wiki/Limbo_(programming_language)\" title=\"Limbo (programming language)\">Limbo</a></span>, <span><a href=\"/wiki/Active_Oberon\" title=\"Active Oberon\">Active Oberon</a></span>, <span><a href=\"/wiki/Communicating_sequential_processes\" title=\"Communicating sequential processes\">communicating sequential processes</a></span>, <span><a href=\"/wiki/Pascal_(programming_language)\" title=\"Pascal (programming language)\">Pascal</a></span>, <span><a href=\"/wiki/Oberon_(programming_language)\" title=\"Oberon (programming language)\">Oberon</a></span>, <span><a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a></span>, <span><a href=\"/wiki/Newsqueak\" title=\"Newsqueak\">Newsqueak</a></span>, <span><a href=\"/wiki/Modula-2\" title=\"Modula-2\">Modula-2</a></span>, <span><a href=\"/wiki/Alef_(programming_language)\" title=\"Alef (programming language)\">Alef</a></span>, <span><a href=\"/wiki/APL_(programming_language)\" title=\"APL (programming language)\">APL</a></span>, <span><a href=\"/wiki/BCPL\" title=\"BCPL\">BCPL</a></span>, <span><a href=\"/wiki/Modula\" title=\"Modula\">Modula</a></span>, <span><a href=\"/wiki/Occam_(programming_language)\" title=\"Occam (programming language)\">occam</a></span></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Crystal_(programming_language)\" title=\"Crystal (programming language)\">Crystal</a>, <a href=\"/wiki/V_(programming_language)\" title=\"V (programming language)\">V</a></td></tr></tbody></table>\n<p><b>Go</b> (often referred to as <b>Golang</b>)<sup id=\"cite&#95;ref-Bin&#95;Uzayr-2023&#95;15-0\" class=\"reference\"><a href=\"#cite_note-Bin_Uzayr-2023-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page: 2\">&#58;&#8202;2&#8202;</span></sup> is a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/General_purpose_programming_language\" class=\"mw-redirect\" title=\"General purpose programming language\">general-purpose programming language</a> that is <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">statically typed</a> and <a href=\"/wiki/Compiled_language\" title=\"Compiled language\">compiled</a>. Originally designed in 2007 by <a href=\"/wiki/Robert_Griesemer\" title=\"Robert Griesemer\">Robert Griesemer</a>, <a href=\"/wiki/Rob_Pike\" title=\"Rob Pike\">Rob Pike</a>, and <a href=\"/wiki/Ken_Thompson\" title=\"Ken Thompson\">Ken Thompson</a>, Go was publicly announced in November 2009,<sup id=\"cite&#95;ref-techcrunch&#95;16-0\" class=\"reference\"><a href=\"#cite_note-techcrunch-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-langfaq&#95;4-1\" class=\"reference\"><a href=\"#cite_note-langfaq-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> and is developed by <a href=\"/wiki/Google\" title=\"Google\">Google</a><sup id=\"cite&#95;ref-Claburn-2022&#95;5-1\" class=\"reference\"><a href=\"#cite_note-Claburn-2022-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> and community contributors. Go has a simple <a href=\"/wiki/Syntax_(programming_languages)\" title=\"Syntax (programming languages)\">syntax</a> similar to <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>,<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup> as well as <a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">garbage collection</a>, <a href=\"/wiki/Structural_type_system\" title=\"Structural type system\">structural typing</a>,<sup id=\"cite&#95;ref-structural&#95;typing&#95;9-1\" class=\"reference\"><a href=\"#cite_note-structural_typing-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Communicating_sequential_processes\" title=\"Communicating sequential processes\">CSP</a>-style <a href=\"/wiki/Concurrency_(computer_science)\" title=\"Concurrency (computer science)\">concurrency</a>,<sup id=\"cite&#95;ref-boldly&#95;18-0\" class=\"reference\"><a href=\"#cite_note-boldly-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup> and a broad <a href=\"/wiki/Standard_library\" title=\"Standard library\">standard library</a>.<sup id=\"cite&#95;ref-Bin&#95;Uzayr-2023&#95;15-1\" class=\"reference\"><a href=\"#cite_note-Bin_Uzayr-2023-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Pages: i, 4, 12\">&#58;&#8202;i,&#8202;4,&#8202;12&#8202;</span></sup>\n</p><p>There are two major implementations:\n</p>\n<ul><li>The original, <a href=\"/wiki/Self-hosting_(compilers)\" title=\"Self-hosting (compilers)\">self-hosting</a><sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a> <a href=\"/wiki/Toolchain\" title=\"Toolchain\">toolchain</a>, initially developed inside Google;<sup id=\"cite&#95;ref-20\" class=\"reference\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li>A frontend written in <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, called gofrontend,<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> originally a <a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GCC</a> frontend, providing gccgo, a GCC-based Go compiler;<sup id=\"cite&#95;ref-22\" class=\"reference\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> later extended to also support <a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a>, providing an LLVM-based Go compiler called gollvm.<sup id=\"cite&#95;ref-23\" class=\"reference\"><a href=\"#cite_note-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.dev/doc/codewalk/functions/\">\"Codewalk: First-Class Functions in Go\"</a>. <q>Go supports first class functions, higher-order functions, user-defined function types, function literals, closures, and multiple return values. This rich feature set supports a functional programming style in a strongly typed language.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Codewalk%3A+First-Class+Functions+in+Go&amp;rft&#95;id=https%3A%2F%2Fgo.dev%2Fdoc%2Fcodewalk%2Ffunctions%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://golang.org/doc/faq#Is_Go_an_object-oriented_language\">\"Is Go an object-oriented language?\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">April 13,</span> 2019</span>. <q>Although Go has types and methods and allows an object-oriented style of programming, there is no type hierarchy.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Is+Go+an+object-oriented+language%3F&amp;rft&#95;id=https%3A%2F%2Fgolang.org%2Fdoc%2Ffaq%23Is&#95;Go&#95;an&#95;object-oriented&#95;language&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://talks.golang.org/2012/chat.slide#5\">\"Go: code that grows with grace\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 24,</span> 2018</span>. <q>Go is Object Oriented, but not in the usual way.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Go%3A+code+that+grows+with+grace&amp;rft&#95;id=https%3A%2F%2Ftalks.golang.org%2F2012%2Fchat.slide%235&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-langfaq-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-langfaq_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-langfaq_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.dev/doc/faq\">\"Language Design FAQ\"</a>. <i>The Go Programming Language</i>. January 16, 2010. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250728222723/https://go.dev/doc/faq\">Archived</a> from the original on July 28, 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 27,</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Go+Programming+Language&amp;rft.atitle=Language+Design+FAQ&amp;rft.date=2010-01-16&amp;rft&#95;id=https%3A%2F%2Fgo.dev%2Fdoc%2Ffaq&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Claburn-2022-5\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Claburn-2022_5-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Claburn-2022_5-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Claburn-2022</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGriesemerPikeThompsonTaylor\" class=\"citation web cs1\">Griesemer, Robert; Pike, Rob; Thompson, Ken; Taylor, Ian; Cox, Russ; Kim, Jini; Langley, Adam. <a rel=\"nofollow\" class=\"external text\" href=\"https://opensource.googleblog.com/2009/11/hey-ho-lets-go.html\">\"Hey! Ho! Let's Go!\"</a>. <i>Google Open Source</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 17,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Google+Open+Source&amp;rft.atitle=Hey%21+Ho%21+Let%27s+Go%21&amp;rft.aulast=Griesemer&amp;rft.aufirst=Robert&amp;rft.au=Pike%2C+Rob&amp;rft.au=Thompson%2C+Ken&amp;rft.au=Taylor%2C+Ian&amp;rft.au=Cox%2C+Russ&amp;rft.au=Kim%2C+Jini&amp;rft.au=Langley%2C+Adam&amp;rft&#95;id=https%3A%2F%2Fopensource.googleblog.com%2F2009%2F11%2Fhey-ho-lets-go.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-de1f36c6b3c8790389b8391fd2a97e795900982b-v20-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-de1f36c6b3c8790389b8391fd2a97e795900982b-v20_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/golang/go/releases/tag/go1.27.1\">\"Release 1.27.1\"</a>. September 1, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 2,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+1.27.1&amp;rft.date=2026-09-01&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgolang%2Fgo%2Freleases%2Ftag%2Fgo1.27.1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-go-introduction-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-go-introduction_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.dev/ref/spec#Introduction\">\"The Go Programming Language Specification\"</a>. <i>The Go Programming Language</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250813094237/https://go.dev/ref/spec#Introduction\">Archived</a> from the original on August 13, 2025.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Go+Programming+Language&amp;rft.atitle=The+Go+Programming+Language+Specification&amp;rft&#95;id=https%3A%2F%2Fgo.dev%2Fref%2Fspec%23Introduction&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-structural&#95;typing-9\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-structural_typing_9-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-structural_typing_9-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.dev/doc/faq#implements_interface\">\"Why doesn't Go have \"implements\" declarations?\"</a>. <i>The Go Programming Language</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250728222723/https://go.dev/doc/faq#implements_interface\">Archived</a> from the original on July 28, 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 1,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Go+Programming+Language&amp;rft.atitle=Why+doesn%27t+Go+have+%22implements%22+declarations%3F&amp;rft&#95;id=https%3A%2F%2Fgo.dev%2Fdoc%2Ffaq%23implements&#95;interface&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-pike-20141222-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-pike-20141222_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFPike2014\" class=\"citation web cs1\"><a href=\"/wiki/Rob_Pike\" title=\"Rob Pike\">Pike, Rob [@rob_pike]</a> (December 22, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220407025913/https://twitter.com/rob_pike/status/546973312543227904\">\"Go has structural typing, not duck typing. Full interface satisfaction is checked and required\"</a> (<a href=\"/wiki/Tweet_(social_media)\" title=\"Tweet (social media)\">Tweet</a>). Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://twitter.com/rob_pike/status/546973312543227904\">the original</a> on April 7, 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 13,</span> 2016</span> &#8211; via <a href=\"/wiki/Twitter\" class=\"mw-redirect\" title=\"Twitter\">Twitter</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Go+has+structural+typing%2C+not+duck+typing.+Full+interface+satisfaction+is+checked+and+required.&amp;rft.date=2014-12-22&amp;rft.aulast=Pike&amp;rft.aufirst=Rob&amp;rft&#95;id=https%3A%2F%2Ftwitter.com%2Frob&#95;pike%2Fstatus%2F546973312543227904&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-openbsd-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-openbsd_11-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://ports.su/lang/go\">\"lang/go: go-1.4\"</a>. <i>OpenBSD ports</i>. December 23, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 19,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OpenBSD+ports&amp;rft.atitle=lang%2Fgo%3A+go-1.4&amp;rft.date=2014-12-23&amp;rft&#95;id=http%3A%2F%2Fports.su%2Flang%2Fgo&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://go-lang.cat-v.org/os-ports\">\"Go Porting Efforts\"</a>. <i>Go Language Resources</i>. cat-v. January 12, 2010<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 18,</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Go+Language+Resources&amp;rft.atitle=Go+Porting+Efforts&amp;rft.date=2010-01-12&amp;rft&#95;id=http%3A%2F%2Fgo-lang.cat-v.org%2Fos-ports&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-license-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-license_13-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.dev/LICENSE\">\"Text file LICENSE\"</a>. <i>The Go Programming Language</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250716050530/https://go.dev/LICENSE\">Archived</a> from the original on July 16, 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 5,</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Go+Programming+Language&amp;rft.atitle=Text+file+LICENSE&amp;rft&#95;id=https%3A%2F%2Fgo.dev%2FLICENSE&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gopatens-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-gopatens_14-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.dev/PATENTS\">\"Additional IP Rights Grant\"</a>. <i>The Go Programming Language</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250330185005/https://go.dev/PATENTS\">Archived</a> from the original on March 30, 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 5,</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Go+Programming+Language&amp;rft.atitle=Additional+IP+Rights+Grant&amp;rft&#95;id=https%3A%2F%2Fgo.dev%2FPATENTS&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Bin&#95;Uzayr-2023-15\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Bin_Uzayr-2023_15-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Bin_Uzayr-2023_15-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBin&#95;Uzayr2023\" class=\"citation book cs1\">Bin Uzayr, Sufyan (2023). <a rel=\"nofollow\" class=\"external text\" href=\"https://api.taylorfrancis.com:443/content/books/mono/download?identifierName=doi&amp;identifierValue=10.1201/9781003309055&amp;type=googlepdf\"><i>GoLang: The Ultimate Guide</i></a>. <a href=\"/wiki/CRC_Press\" title=\"CRC Press\">CRC Press</a>. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1201%2F9781003309055\">10.1201/9781003309055</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/9781003309055\" title=\"Special:BookSources/9781003309055\"><bdi>9781003309055</bdi></a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://megalodon.jp/ref/2026-0821-0304-33/https://api.taylorfrancis.com:443/content/books/mono/download?identifierName=doi&amp;identifierValue=10.1201/9781003309055&amp;type=googlepdf\">Archived</a> from the original on August 21, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 20,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=GoLang%3A+The+Ultimate+Guide&amp;rft.pub=CRC+Press&amp;rft.date=2023&amp;rft&#95;id=info%3Adoi%2F10.1201%2F9781003309055&amp;rft.isbn=9781003309055&amp;rft.aulast=Bin+Uzayr&amp;rft.aufirst=Sufyan&amp;rft&#95;id=https%3A%2F%2Fapi.taylorfrancis.com%3A443%2Fcontent%2Fbooks%2Fmono%2Fdownload%3FidentifierName%3Ddoi%26identifierValue%3D10.1201%2F9781003309055%26type%3Dgooglepdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-techcrunch-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-techcrunch_16-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKincaid2009\" class=\"citation news cs1\">Kincaid, Jason (November 10, 2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://techcrunch.com/2009/11/10/google-go-language/\">\"Google's Go: A New Programming Language That's Python Meets C++\"</a>. <i><a href=\"/wiki/TechCrunch\" title=\"TechCrunch\">TechCrunch</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 18,</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=TechCrunch&amp;rft.atitle=Google%27s+Go%3A+A+New+Programming+Language+That%27s+Python+Meets+C%2B%2B&amp;rft.date=2009-11-10&amp;rft.aulast=Kincaid&amp;rft.aufirst=Jason&amp;rft&#95;id=https%3A%2F%2Ftechcrunch.com%2F2009%2F11%2F10%2Fgoogle-go-language%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.w3schools.com/go/go_introduction.php\">\"Go Introduction\"</a>. <i>www.w3schools.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 23,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.w3schools.com&amp;rft.atitle=Go+Introduction&amp;rft&#95;id=https%3A%2F%2Fwww.w3schools.com%2Fgo%2Fgo&#95;introduction.php&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-boldly-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-boldly_18-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMetz2011\" class=\"citation news cs1\">Metz, Cade (May 5, 2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.theregister.com/2011/05/05/google_go/\">\"Google Go boldly goes where no code has gone before\"</a>. <i><a href=\"/wiki/The_Register\" title=\"The Register\">The Register</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250728222723/https://go.dev/doc/faq\">Archived</a> from the original on July 28, 2025.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Register&amp;rft.atitle=Google+Go+boldly+goes+where+no+code+has+gone+before&amp;rft.date=2011-05-05&amp;rft.aulast=Metz&amp;rft.aufirst=Cade&amp;rft&#95;id=https%3A%2F%2Fwww.theregister.com%2F2011%2F05%2F05%2Fgoogle&#95;go%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-19\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://golang.org/doc/go1.5#implementation\">\"Go 1.5 Release Notes\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 28,</span> 2016</span>. <q>The compiler and runtime are now implemented in Go and assembler, without C.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Go+1.5+Release+Notes&amp;rft&#95;id=https%3A%2F%2Fgolang.org%2Fdoc%2Fgo1.5%23implementation&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-20\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/golang/go\">\"The Go programming language\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 1,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=The+Go+programming+language&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgolang%2Fgo&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/golang/gofrontend\">\"gofrontend\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 1,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=gofrontend&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fgolang%2Fgofrontend&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-22\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gccgo/\">\"gccgo\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 1,</span> 2024</span>. <q>gccgo, the GNU compiler for the Go programming language</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=gccgo&amp;rft&#95;id=https%3A%2F%2Fgcc.gnu.org%2Fonlinedocs%2Fgcc-14.2.0%2Fgccgo%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-23\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://go.googlesource.com/gollvm/\">\"Gollvm\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 1,</span> 2024</span>. <q>Gollvm is an LLVM-based Go compiler.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Gollvm&amp;rft&#95;id=https%3A%2F%2Fgo.googlesource.com%2Fgollvm%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGo+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐g8nrt\nCached time: 20260918163213\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.404 seconds\nReal time usage: 0.559 seconds\nPreprocessor visited node count: 2463/1000000\nRevision size: 9035/2097152 bytes\nPost‐expand include size: 69446/2097152 bytes\nTemplate argument size: 7235/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 58128/5000000 bytes\nLua time usage: 0.243/10.000 seconds\nLua memory usage: 12661226/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  517.029      1 -total\n 51.87%  268.181      2 Template:Infobox\n 46.94%  242.704      1 Template:Infobox_programming_language\n 27.32%  141.252      1 Template:Infobox_software/simple\n 23.18%  119.852      2 Template:Wikidata\n 13.77%   71.202      1 Template:Short_description\n  9.30%   48.059      1 Template:Primary_sources\n  8.13%   42.057      2 Template:Pagetype\n  7.84%   40.529      1 Template:Ambox\n  7.61%   39.371     17 Template:Cite_web\n-->\n\n<!-- Render ID 8099b262-b37e-11f1-8afb-15afa30b558d -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Go! (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "3-clause BSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "APL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Active Oberon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alef (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BCPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CRC Press",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Communicating sequential processes",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiled language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrency (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crystal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DragonFly BSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elements Toolchain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ken Thompson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Limbo (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NetBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Newsqueak",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oberon-2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oberon (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Occam (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pascal (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Plan 9 from Bell Labs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rob Pike",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robert Griesemer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Self-hosting (compilers)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software patents",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Solaris (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structural typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TechCrunch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Register",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Toolchain",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tweet (social media)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Twitter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language",
+          "page_image_free": "Go_Logo_Blue.svg",
+          "wikibase_item": "Q37227"
+        }
+      }
+    }
+  ]
+}

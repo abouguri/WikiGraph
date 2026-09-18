@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Clang",
+    "url": "https://en.wikipedia.org/wiki/Clang",
+    "summary": "Compiler front-end This article is about the compiler. For other uses, see Clang (disambiguation) . Not to be confused with C (programming language) . Clang Screenshot of Clang 21.1.7 version information and verbose compile information, along with the compiled program Original author Chris Lattner Developer LLVM Developer Group Release September 26, 2007 ; 18 years ago ( 2007-09-26 ) Stable release 23.1.1 / 8 August 2026 ; 41 days ago ( 8 August 2026 ) Written in C++ Operating system Unix-like Platform AArch64 , ARMv7 , IA-32 , x86-64 , ppc64le Type Compiler front end License Apache 2.0 with LLVM Exceptions Website clang .llvm .org Repository github .com /llvm Clang ( / ˈ k l æ ŋ / ) is a compiler front end for the programming languages C , C++ , Objective-C , and Objective-C++ and the software frameworks OpenMP , OpenCL , RenderScript , CUDA , SYCL , and HIP . It acts as a drop-in replacement for the GNU Compiler Collection (GCC), supporting most of its compiling flags and unofficial language extensions. It includes a static analyzer and several code analysis tools. Clang operates in tandem with the LLVM compiler back end and has been a subproject of LLVM 2.6 and later. As with LLVM, it is free and open-source software under the Apache 2.0 software license . Its contributors include Apple , IBM , Microsoft , Google , ARM , Sony , Intel and AMD . Clang 22 has full support for all published C++ standards up to C++17 , implements most features of C++20 and C++23 , and has initial support for the C++26 standard. Since v16.0.0, Clang compiles C++ using the GNU++17 dialect by default, which includes features from the C++17 standard and conforming GNU extensions. ^ \"LLVM 2.1 Release Notes\" . llvm.org . LLVM Developer Group. September 27, 2007. Archived from the original on November 17, 2016 . Retrieved April 30, 2018 . ^ \"LLVM 23.1.1\" . August 8, 2026 . Retrieved August 8, 2026 . ^ \"Releases\" . llvm – llvm-project repo . LLVM Developer Group. August 27, 2021. Archived from the original on September 12, 2021 . Retrieved September 12, 2021 – via GitHub.com . ^ a b \"LICENSE.TXT\" , llvm.org , LLVM Developer Group, archived from the original on November 11, 2020 , retrieved September 24, 2019 ^ a b \"LLVM Developer Policy\" , llvm.org , LLVM Developer Group, § Copyright, License, and Patents, archived from the original on November 13, 2012 , retrieved September 12, 2021 ^ Christopher, Eric (July 3, 2008). \"simply wonder pronunciation of Clang\" . LLVMdev (Mailing list) . Retrieved September 22, 2015 . ^ \"OpenMP Support\" . LLVM Project Blog . May 22, 2015. Archived from the original on March 26, 2016 . Retrieved March 28, 2016 . ^ \"C++ Heterogeneous-Compute Interface for Portability\" . GitHub . Archived from the original on June 27, 2020 . Retrieved February 18, 2020 . ^ \"Clang Language Extensions\" . Archived from the original on February 24, 2014 . Retrieved November 8, 2017 . In addition to the language extensions listed here, Clang aims to support a broad range of GCC extensions. ^ Cite error: The named reference GCCCompat was invoked but never defined (see the help page ). ^ \"Clang Static Analyzer\" . LLVM. Archived from the original on April 30, 2018 . Retrieved September 3, 2009 . ^ \"Getting Involved with the Clang Project\" , clang.llvm.org , LLVM Developer Group, archived from the original on April 27, 2018 , retrieved September 18, 2012 , Clang is a subproject of the LLVM Project, but has its own mailing lists because the communities have people with different interests. ^ Cite error: The named reference cxx_status was invoked but never defined (see the help page ). ^ \"Clang 17.0.1 Release Notes\" . LLVM . Retrieved October 25, 2023 .",
+    "text": "Compiler front-end This article is about the compiler. For other uses, see Clang (disambiguation) . Not to be confused with C (programming language) . Clang Screenshot of Clang 21.1.7 version information and verbose compile information, along with the compiled program Original author Chris Lattner Developer LLVM Developer Group Release September 26, 2007 ; 18 years ago ( 2007-09-26 ) Stable release 23.1.1 / 8 August 2026 ; 41 days ago ( 8 August 2026 ) Written in C++ Operating system Unix-like Platform AArch64 , ARMv7 , IA-32 , x86-64 , ppc64le Type Compiler front end License Apache 2.0 with LLVM Exceptions Website clang .llvm .org Repository github .com /llvm Clang ( / ˈ k l æ ŋ / ) is a compiler front end for the programming languages C , C++ , Objective-C , and Objective-C++ and the software frameworks OpenMP , OpenCL , RenderScript , CUDA , SYCL , and HIP . It acts as a drop-in replacement for the GNU Compiler Collection (GCC), supporting most of its compiling flags and unofficial language extensions. It includes a static analyzer and several code analysis tools. Clang operates in tandem with the LLVM compiler back end and has been a subproject of LLVM 2.6 and later. As with LLVM, it is free and open-source software under the Apache 2.0 software license . Its contributors include Apple , IBM , Microsoft , Google , ARM , Sony , Intel and AMD . Clang 22 has full support for all published C++ standards up to C++17 , implements most features of C++20 and C++23 , and has initial support for the C++26 standard. Since v16.0.0, Clang compiles C++ using the GNU++17 dialect by default, which includes features from the C++17 standard and conforming GNU extensions. ^ \"LLVM 2.1 Release Notes\" . llvm.org . LLVM Developer Group. September 27, 2007. Archived from the original on November 17, 2016 . Retrieved April 30, 2018 . ^ \"LLVM 23.1.1\" . August 8, 2026 . Retrieved August 8, 2026 . ^ \"Releases\" . llvm – llvm-project repo . LLVM Developer Group. August 27, 2021. Archived from the original on September 12, 2021 . Retrieved September 12, 2021 – via GitHub.com . ^ a b \"LICENSE.TXT\" , llvm.org , LLVM Developer Group, archived from the original on November 11, 2020 , retrieved September 24, 2019 ^ a b \"LLVM Developer Policy\" , llvm.org , LLVM Developer Group, § Copyright, License, and Patents, archived from the original on November 13, 2012 , retrieved September 12, 2021 ^ Christopher, Eric (July 3, 2008). \"simply wonder pronunciation of Clang\" . LLVMdev (Mailing list) . Retrieved September 22, 2015 . ^ \"OpenMP Support\" . LLVM Project Blog . May 22, 2015. Archived from the original on March 26, 2016 . Retrieved March 28, 2016 . ^ \"C++ Heterogeneous-Compute Interface for Portability\" . GitHub . Archived from the original on June 27, 2020 . Retrieved February 18, 2020 . ^ \"Clang Language Extensions\" . Archived from the original on February 24, 2014 . Retrieved November 8, 2017 . In addition to the language extensions listed here, Clang aims to support a broad range of GCC extensions. ^ Cite error: The named reference GCCCompat was invoked but never defined (see the help page ). ^ \"Clang Static Analyzer\" . LLVM. Archived from the original on April 30, 2018 . Retrieved September 3, 2009 . ^ \"Getting Involved with the Clang Project\" , clang.llvm.org , LLVM Developer Group, archived from the original on April 27, 2018 , retrieved September 18, 2012 , Clang is a subproject of the LLVM Project, but has its own mailing lists because the communities have people with different interests. ^ Cite error: The named reference cxx_status was invoked but never defined (see the help page ). ^ \"Clang 17.0.1 Release Notes\" . LLVM . Retrieved October 25, 2023 .",
+    "links": [
+      "AArch64",
+      "ARM Holdings",
+      "ARMv7",
+      "Advanced Micro Devices",
+      "Apache License 2.0",
+      "Apple Inc.",
+      "C (programming language)",
+      "C++",
+      "C++17",
+      "C++20",
+      "C++23",
+      "C++26",
+      "CUDA",
+      "Chris Lattner",
+      "Clang (disambiguation)",
+      "Command-line interface",
+      "Compiler back end",
+      "Compiler front end",
+      "Computing platform",
+      "Free and open-source software",
+      "GNU Compiler Collection",
+      "GPUOpen",
+      "GitHub",
+      "GitHub.com",
+      "Google",
+      "IA-32",
+      "IBM",
+      "Intel",
+      "LLVM",
+      "Microsoft",
+      "Objective-C",
+      "Objective-C++",
+      "OpenCL",
+      "OpenMP",
+      "Operating system",
+      "Ppc64le",
+      "Programmer",
+      "Programming language",
+      "RenderScript",
+      "Repository (version control)",
+      "SYCL",
+      "Software categories",
+      "Software framework",
+      "Software license",
+      "Software release life cycle",
+      "Sony",
+      "Static program analysis",
+      "Unix-like",
+      "X86-64"
+    ],
+    "page_id": 12407970,
+    "revision_id": 1371364376,
+    "retrieved_at": "2026-09-18T16:41:08.358984+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260629074009|1361648820",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 12407970,
+            "ns": 0,
+            "title": "Clang",
+            "revisions": [
+              {
+                "revid": 1371364376,
+                "parentid": 1361648820
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Clang_21.1.7_version_and_compile_information_screenshot.webp",
+              "wikibase-shortdesc": "Compiler front-end",
+              "wikibase_item": "Q864915"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Clang",
+        "pageid": 12407970,
+        "revid": 1371364376,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Compiler front-end</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the compiler. For other uses, see <a href=\"/wiki/Clang_(disambiguation)\" class=\"mw-disambig\" title=\"Clang (disambiguation)\">Clang (disambiguation)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C (programming language)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Clang</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Clang_21.1.7_version_and_compile_information_screenshot.webp\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Clang_21.1.7_version_and_compile_information_screenshot.webp/250px-Clang_21.1.7_version_and_compile_information_screenshot.webp?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"129\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Clang_21.1.7_version_and_compile_information_screenshot.webp/500px-Clang_21.1.7_version_and_compile_information_screenshot.webp?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1043\" data-file-height=\"539\" /></a></span><div class=\"infobox-caption\">Screenshot of Clang 21.1.7 version information and verbose compile information, along with the compiled program</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\"><a href=\"/wiki/Chris_Lattner\" title=\"Chris Lattner\">Chris Lattner</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\">LLVM Developer Group</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">September&#160;26, 2007<span class=\"noprint\">&#59;&#32;18 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2007-09-26</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">23.1.1<sup id=\"cite&#95;ref-wikidata-d7def1c653cbc7034fd844a50aa8c35d02a0d45e-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-d7def1c653cbc7034fd844a50aa8c35d02a0d45e-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q864915?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 8 August 2026<span class=\"noprint\">&#59;&#32;41 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">8 August 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/AArch64\" title=\"AArch64\">AArch64</a>, <a href=\"/wiki/ARMv7\" class=\"mw-redirect\" title=\"ARMv7\">ARMv7</a>, <a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/Ppc64le\" class=\"mw-redirect\" title=\"Ppc64le\">ppc64le</a><sup id=\"cite&#95;ref-GitRepo&#95;3-0\" class=\"reference\"><a href=\"#cite_note-GitRepo-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Compiler_front_end\" class=\"mw-redirect\" title=\"Compiler front end\">Compiler front end</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache 2.0</a> with LLVM Exceptions<sup id=\"cite&#95;ref-License&#95;4-0\" class=\"reference\"><a href=\"#cite_note-License-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Relicensing&#95;efforts&#95;5-0\" class=\"reference\"><a href=\"#cite_note-Relicensing_efforts-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clang.llvm.org\">clang<wbr />.llvm<wbr />.org</a></span>&#160;<span class=\"penicon autoconfirmed-show\"><span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q864915?uselang=en#P856\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/llvm\">github<wbr />.com<wbr />/llvm</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q864915#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>Clang</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span><span title=\"/æ/: &#39;a&#39; in &#39;bad&#39;\">æ</span><span title=\"/ŋ/: &#39;ng&#39; in &#39;sing&#39;\">ŋ</span></span>/</a></span></span>)<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/Compiler_front_end\" class=\"mw-redirect\" title=\"Compiler front end\">compiler front end</a> for the <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a> <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a>, and <a href=\"/wiki/Objective-C%2B%2B\" class=\"mw-redirect\" title=\"Objective-C++\">Objective-C++</a> and the <a href=\"/wiki/Software_framework\" title=\"Software framework\">software frameworks</a> <a href=\"/wiki/OpenMP\" title=\"OpenMP\">OpenMP</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/OpenCL\" title=\"OpenCL\">OpenCL</a>, <a href=\"/wiki/RenderScript\" title=\"RenderScript\">RenderScript</a>, <a href=\"/wiki/CUDA\" title=\"CUDA\">CUDA</a>, <a href=\"/wiki/SYCL\" title=\"SYCL\">SYCL</a>, and <a href=\"/wiki/GPUOpen#AMD_Boltzmann_Initiative\" title=\"GPUOpen\">HIP</a>.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> It acts as a drop-in replacement for the <a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GNU Compiler Collection</a> (GCC), supporting most of its <a href=\"/wiki/Command-line_interface#Command-line_option\" title=\"Command-line interface\">compiling flags</a> and unofficial language extensions.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-GCCCompat&#95;10-0\" class=\"reference\"><a href=\"#cite_note-GCCCompat-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> It includes a <a href=\"/wiki/Static_program_analysis\" title=\"Static program analysis\">static analyzer</a> and several code analysis tools.<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Clang operates in tandem with the <a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a> <a href=\"/wiki/Compiler_back_end\" class=\"mw-redirect\" title=\"Compiler back end\">compiler back end</a> and has been a subproject of LLVM 2.6 and later.<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> As with LLVM, it is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> under the <a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache 2.0</a> <a href=\"/wiki/Software_license\" title=\"Software license\">software license</a>.<sup id=\"cite&#95;ref-License&#95;4-1\" class=\"reference\"><a href=\"#cite_note-License-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Relicensing&#95;efforts&#95;5-1\" class=\"reference\"><a href=\"#cite_note-Relicensing_efforts-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> Its contributors include <a href=\"/wiki/Apple_Inc.\" title=\"Apple Inc.\">Apple</a>, <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a>, <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>, <a href=\"/wiki/Google\" title=\"Google\">Google</a>, <a href=\"/wiki/ARM_Holdings\" class=\"mw-redirect\" title=\"ARM Holdings\">ARM</a>, <a href=\"/wiki/Sony\" title=\"Sony\">Sony</a>, <a href=\"/wiki/Intel\" title=\"Intel\">Intel</a> and <a href=\"/wiki/Advanced_Micro_Devices\" class=\"mw-redirect\" title=\"Advanced Micro Devices\">AMD</a>.\n</p><p>Clang 22 has full support for all published C++ standards up to <a href=\"/wiki/C%2B%2B17\" title=\"C++17\">C++17</a>, implements most features of <a href=\"/wiki/C%2B%2B20\" title=\"C++20\">C++20</a> and <a href=\"/wiki/C%2B%2B23\" title=\"C++23\">C++23</a>, and has initial support for the <a href=\"/wiki/C%2B%2B26\" title=\"C++26\">C++26</a> standard.<sup id=\"cite&#95;ref-cxx&#95;status&#95;13-0\" class=\"reference\"><a href=\"#cite_note-cxx_status-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> Since v16.0.0, Clang compiles C++ using the GNU++17 dialect by default, which includes features from the <a href=\"/wiki/C%2B%2B17\" title=\"C++17\">C++17</a> standard and conforming GNU extensions.<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.llvm.org/releases/2.1/docs/ReleaseNotes.html\">\"LLVM 2.1 Release Notes\"</a>. <i>llvm.org</i>. LLVM Developer Group. September 27, 2007. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161117042311/http://llvm.org/releases/2.1/docs/ReleaseNotes.html\">Archived</a> from the original on November 17, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">April 30,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=llvm.org&amp;rft.atitle=LLVM+2.1+Release+Notes&amp;rft.date=2007-09-27&amp;rft&#95;id=https%3A%2F%2Fwww.llvm.org%2Freleases%2F2.1%2Fdocs%2FReleaseNotes.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-d7def1c653cbc7034fd844a50aa8c35d02a0d45e-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-d7def1c653cbc7034fd844a50aa8c35d02a0d45e-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/llvm/llvm-project/releases/tag/llvmorg-23.1.1\">\"LLVM 23.1.1\"</a>. August 8, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 8,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=LLVM+23.1.1&amp;rft.date=2026-08-08&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fllvm%2Fllvm-project%2Freleases%2Ftag%2Fllvmorg-23.1.1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-GitRepo-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-GitRepo_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/llvm/llvm-project/releases\">\"Releases\"</a>. <i>llvm – llvm-project repo</i>. LLVM Developer Group. August 27, 2021. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210912214255/https://github.com/llvm/llvm-project/releases\">Archived</a> from the original on September 12, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 12,</span> 2021</span> &#8211; via <a href=\"/wiki/GitHub.com\" class=\"mw-redirect\" title=\"GitHub.com\">GitHub.com</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=llvm+%E2%80%93+llvm-project+repo&amp;rft.atitle=Releases&amp;rft.date=2021-08-27&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fllvm%2Fllvm-project%2Freleases&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-License-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-License_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-License_4-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation cs2\"><a rel=\"nofollow\" class=\"external text\" href=\"https://releases.llvm.org/9.0.0/LICENSE.TXT\">\"LICENSE.TXT\"</a>, <i>llvm.org</i>, LLVM Developer Group, <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201111220059/https://releases.llvm.org/9.0.0/LICENSE.TXT\">archived</a> from the original on November 11, 2020<span class=\"reference-accessdate\">, retrieved <span class=\"nowrap\">September 24,</span> 2019</span></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=llvm.org&amp;rft.atitle=LICENSE.TXT&amp;rft&#95;id=https%3A%2F%2Freleases.llvm.org%2F9.0.0%2FLICENSE.TXT&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Relicensing&#95;efforts-5\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Relicensing_efforts_5-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Relicensing_efforts_5-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation cs2\"><a rel=\"nofollow\" class=\"external text\" href=\"https://llvm.org/docs/DeveloperPolicy.html#copyright-license-and-patents\">\"LLVM Developer Policy\"</a>, <i>llvm.org</i>, LLVM Developer Group, § Copyright, License, and Patents, <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20121113204817/https://www.llvm.org/docs/DeveloperPolicy.html#copyright-license-and-patents\">archived</a> from the original on November 13, 2012<span class=\"reference-accessdate\">, retrieved <span class=\"nowrap\">September 12,</span> 2021</span></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=llvm.org&amp;rft.atitle=LLVM+Developer+Policy&amp;rft.pages=%C2%A7+Copyright%2C+License%2C+and+Patents&amp;rft&#95;id=https%3A%2F%2Fllvm.org%2Fdocs%2FDeveloperPolicy.html%23copyright-license-and-patents&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFChristopher2008\" class=\"citation mailinglist cs1\">Christopher, Eric (July 3, 2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://lists.llvm.org/pipermail/llvm-dev/2008-July/015629.html\">\"simply wonder pronunciation of Clang\"</a>. <i>LLVMdev</i> (Mailing list)<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 22,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=simply+wonder+pronunciation+of+Clang&amp;rft.date=2008-07-03&amp;rft.aulast=Christopher&amp;rft.aufirst=Eric&amp;rft&#95;id=https%3A%2F%2Flists.llvm.org%2Fpipermail%2Fllvm-dev%2F2008-July%2F015629.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://blog.llvm.org/2015/05/openmp-support_22.html\">\"OpenMP Support\"</a>. <i>LLVM Project Blog</i>. May 22, 2015. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160326042624/http://blog.llvm.org/2015/05/openmp-support_22.html\">Archived</a> from the original on March 26, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 28,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=LLVM+Project+Blog&amp;rft.atitle=OpenMP+Support&amp;rft.date=2015-05-22&amp;rft&#95;id=http%3A%2F%2Fblog.llvm.org%2F2015%2F05%2Fopenmp-support&#95;22.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/ROCm-Developer-Tools/HIP\">\"C++ Heterogeneous-Compute Interface for Portability\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200627204139/https://github.com/ROCm-Developer-Tools/HIP\">Archived</a> from the original on June 27, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 18,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=C%2B%2B+Heterogeneous-Compute+Interface+for+Portability&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FROCm-Developer-Tools%2FHIP&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clang.llvm.org/docs/LanguageExtensions.html\">\"Clang Language Extensions\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140224002333/http://clang.llvm.org/docs/LanguageExtensions.html\">Archived</a> from the original on February 24, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 8,</span> 2017</span>. <q>In addition to the language extensions listed here, Clang aims to support a broad range of GCC extensions.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Clang+Language+Extensions&amp;rft&#95;id=https%3A%2F%2Fclang.llvm.org%2Fdocs%2FLanguageExtensions.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-GCCCompat-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-GCCCompat_10-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>GCCCompat</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clang-analyzer.llvm.org/\">\"Clang Static Analyzer\"</a>. LLVM. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180430013035/http://clang-analyzer.llvm.org/\">Archived</a> from the original on April 30, 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 3,</span> 2009</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Clang+Static+Analyzer&amp;rft.pub=LLVM&amp;rft&#95;id=https%3A%2F%2Fclang-analyzer.llvm.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation cs2\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clang.llvm.org/get_involved.html\">\"Getting Involved with the Clang Project\"</a>, <i>clang.llvm.org</i>, LLVM Developer Group, <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180427112311/http://clang.llvm.org/get_involved.html\">archived</a> from the original on April 27, 2018<span class=\"reference-accessdate\">, retrieved <span class=\"nowrap\">September 18,</span> 2012</span>, <q>Clang is a subproject of the LLVM Project, but has its own mailing lists because the communities have people with different interests.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=clang.llvm.org&amp;rft.atitle=Getting+Involved+with+the+Clang+Project&amp;rft&#95;id=https%3A%2F%2Fclang.llvm.org%2Fget&#95;involved.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-cxx&#95;status-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-cxx_status_13-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>cxx_status</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://releases.llvm.org/17.0.1/tools/clang/docs/ReleaseNotes.html\">\"Clang 17.0.1 Release Notes\"</a>. LLVM<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 25,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Clang+17.0.1+Release+Notes&amp;rft.pub=LLVM&amp;rft&#95;id=https%3A%2F%2Freleases.llvm.org%2F17.0.1%2Ftools%2Fclang%2Fdocs%2FReleaseNotes.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClang\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐6rb9h\nCached time: 20260918164134\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.635 seconds\nReal time usage: 0.838 seconds\nPreprocessor visited node count: 2059/1000000\nRevision size: 6494/2097152 bytes\nPost‐expand include size: 46204/2097152 bytes\nTemplate argument size: 5528/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 33284/5000000 bytes\nLua time usage: 0.432/10.000 seconds\nLua memory usage: 11027317/52428800 bytes\nNumber of Wikibase entities loaded: 2/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  789.587      1 -total\n 59.54%  470.104      2 Template:Infobox\n 58.50%  461.900      1 Template:Infobox_software\n 32.76%  258.667     19 Template:If_empty\n 29.85%  235.717      5 Template:Wikidata\n 29.50%  232.903      1 Template:Infobox_software/simple\n 10.24%   80.882      1 Template:Short_description\n  7.21%   56.943      2 Template:Start_date_and_age\n  6.21%   49.048      2 Template:Pagetype\n  5.20%   41.094      1 Template:IPAc-en\n-->\n\n<!-- Render ID cefb7480-b37f-11f1-9049-d51020bd1add -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Clang (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AArch64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM Holdings",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARMv7",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Advanced Micro Devices",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache License 2.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apple Inc.",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++17",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++20",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++23",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++26",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CUDA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chris Lattner",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command-line interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler back end",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler front end",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPUOpen",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub.com",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenMP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ppc64le",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RenderScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SYCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sony",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static program analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Compiler front-end",
+          "page_image_free": "Clang_21.1.7_version_and_compile_information_screenshot.webp",
+          "wikibase_item": "Q864915"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Julia (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Julia_%28programming_language%29",
+    "summary": "Dynamic programming language This article is about the programming language. For people called Julia Lang, see Julia Lang (disambiguation) . Julia Paradigm Multi-paradigm : multiple dispatch (primary paradigm), functional , array , procedural ( imperative ), structured , reflective , meta , multistaged Designed by Jeff Bezanson , Alan Edelman , Stefan Karpinski , Viral B. Shah Developer Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and other contributors First appeared 2012 ; 14 years ago ( 2012 ) Stable release 1.13.0 / 10 September 2026 ; 8 days ago ( 10 September 2026 ) and 1.10.12 ( LTS ) / 16 August 2026 ; 33 days ago ( 2026-08-16 ) Typing discipline Dynamic , inferred , optional , nominative , parametric , strong Implementation language Julia, C , C++ , LLVM , FemtoLisp (Scheme) Platform Tier 1: 64- and 32-bit Linux , Windows 10 +, and 64-bit macOS ; IA-32 , x86-64 , Apple silicon ( ARM64 ) Macs; Nvidia GPUs/ CUDA 11.0+ (on Linux; tier 2 for Windows) Tier 2: 64-bit FreeBSD 13.4+ (for x86-64), 64-bit Arm for Windows 11 (Prism ) and Linux; Apple GPUs/Metal on macOS 13+, Intel GPUs/ OneAPI 6.2+ and Nvidia GPUs (on Windows) Tier 3: 64-bit RISC-V , 64-bit musl (e.g. Alpine Linux ); and AMD GPUs/ ROCm 5.3+. OS Linux , macOS , Windows 10+ and FreeBSD License MIT Filename extensions .jl Website JuliaLang.org Influenced by Dylan Lisp Lua Mathematica MATLAB Perl Python R Ruby Fortress Julia is a dynamic general-purpose programming language . As a high-level language, distinctive aspects of Julia's design include a type system with parametric polymorphism , the use of multiple dispatch as a core programming paradigm , just-in-time compilation and a parallel garbage collection implementation. Notably, Julia does not support classes with encapsulated methods but instead relies on the types of all of a function's arguments to determine which method will be called. By default, Julia is run similarly to scripting languages, using its runtime, and allows for interactions , but Julia programs can also be compiled to small binary standalone executables (or to small libraries for e.g. Python ), with e.g. the JuliaC.jl compiler. Julia programs can reuse libraries from other languages, and vice versa. Julia has interoperability with C , C++ , Fortran , Rust , Python , and R . Additionally, some Julia packages have bindings to be used from Python and R as libraries . Julia is supported by programmer tools like IDEs (see below) and by notebooks like Pluto.jl, Jupyter , and since 2025, Google Colab officially supports Julia natively. Julia is sometimes used in embedded systems (e.g. has been used in a satellite in space on a Raspberry Pi Compute Module 4; 64-bit Pis work best with Julia, and Julia is supported in Raspbian ). ^ \"Smoothing data with Julia's @generated functions\" . 5 November 2015. Archived from the original on 4 March 2016 . Retrieved 9 December 2015 . Julia's generated functions are closely related to the multistaged programming (MSP) paradigm popularized by Taha and Sheard, which generalizes the compile time/run time stages of program execution by allowing for multiple stages of delayed code execution. ^ \"LICENSE.md\" . GitHub . September 2017. Archived from the original on 23 January 2021 . Retrieved 20 October 2014 . ^ \"Contributors to JuliaLang/julia\" . GitHub . Archived from the original on 23 January 2021 . Retrieved 20 October 2014 . ^ a b c d Cite error: The named reference announcement was invoked but never defined (see the help page ). ^ \"Julia v1.13.0 has been released\" . ^ Jeff Bezanson; Stefan Karpinski; Viral Shah; Alan Edelman. \"Manual Downloads\" . The Julia Programming Language . Retrieved 17 August 2026 . ^ a b Engheim, Erik (17 November 2017). \"Dynamically Typed Languages Are Not What You Think\" . Medium . Archived from the original on 5 March 2021 . Retrieved 27 January 2021 . ^ \"Building Julia (Detailed)\" . GitHub . September 2017. Archived from the original on 16 May 2022 . Retrieved 16 May 2022 . ^ \"Download Julia\" . julialang.org . Archived from the original on 26 January 2021 . Retrieved 15 September 2025 . ^ \"NVIDIA CUDA ⋅ JuliaGPU\" . juliagpu.org . Archived from the original on 27 August 2025 . Retrieved 15 September 2025 . ^ \"NVIDIA CUDA ⋅ JuliaGPU\" . juliagpu.org . Archived from the original on 29 January 2022 . Retrieved 17 January 2022 . we have shown the performance to approach and even sometimes exceed that of CUDA C on a selection of applications from the Rodinia benchmark suite ^ \"How emulation works on Arm\" . learn.microsoft.com . Archived from the original on 19 November 2025 . Retrieved 17 November 2025 . ^ \"RISC-V (Linux) · The Julia Language\" . docs.julialang.org . Archived from the original on 14 November 2025 . Retrieved 24 November 2025 . ^ Stokel-Walker, Chris. \"Julia: The Goldilocks language\" . Increment . Stripe. Archived from the original on 9 November 2020 . Retrieved 23 August 2020 . ^ \"JuliaCon 2016\" . JuliaCon. Archived from the original on 4 March 2017 . Retrieved 6 December 2016 . He has co-designed the programming language Scheme, which has greatly influenced the design of Julia ^ a b c d \"Home · The Julia Language\" . docs.julialang.org . Archived from the original on 11 January 2021 . Retrieved 15 August 2018 . ^ \"Programming Language Network\" . GitHub. Archived from the original on 20 December 2020 . Retrieved 6 December 2016 . ^ Wolfram, Stephen (12 February 2013). \"What Should We Call the Language of Mathematica?—Stephen Wolfram Writings\" . writings.stephenwolfram.com . Archived from the original on 4 September 2024 . Retrieved 24 June 2021 . ^ Cite error: The named reference PackageCompiler.jl was invoked but never defined (see the help page ). ^ \"[ANN] JuliaLibWrapping.jl: bringing Julia libraries to C and Python users\" . Julia Programming Language . 1 September 2026 . Retrieved 8 September 2026 . ^ \"JuliaLang/JuliaC.jl\" . JuliaLang. 24 November 2025. Archived from the original on 30 November 2025 . Retrieved 24 November 2025 . ^ Cite error: The named reference AppBundler.jl was invoked but never defined (see the help page ). ^ Cite error: The named reference CxxWrap was invoked but never defined (see the help page ). ^ Cite error: The named reference RepliBuild was invoked but never defined (see the help page ). ^ Cite error: The named reference RustCall.jl was invoked but never defined (see the help page ). ^ \"Julia available in Raspbian on the Raspberry Pi\" . Archived from the original on 4 May 2017 . Retrieved 6 June 2017 . Julia works on all the Pi variants, we recommend using the Pi 3.",
+    "text": "Dynamic programming language This article is about the programming language. For people called Julia Lang, see Julia Lang (disambiguation) . Julia Paradigm Multi-paradigm : multiple dispatch (primary paradigm), functional , array , procedural ( imperative ), structured , reflective , meta , multistaged Designed by Jeff Bezanson , Alan Edelman , Stefan Karpinski , Viral B. Shah Developer Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and other contributors First appeared 2012 ; 14 years ago ( 2012 ) Stable release 1.13.0 / 10 September 2026 ; 8 days ago ( 10 September 2026 ) and 1.10.12 ( LTS ) / 16 August 2026 ; 33 days ago ( 2026-08-16 ) Typing discipline Dynamic , inferred , optional , nominative , parametric , strong Implementation language Julia, C , C++ , LLVM , FemtoLisp (Scheme) Platform Tier 1: 64- and 32-bit Linux , Windows 10 +, and 64-bit macOS ; IA-32 , x86-64 , Apple silicon ( ARM64 ) Macs; Nvidia GPUs/ CUDA 11.0+ (on Linux; tier 2 for Windows) Tier 2: 64-bit FreeBSD 13.4+ (for x86-64), 64-bit Arm for Windows 11 (Prism ) and Linux; Apple GPUs/Metal on macOS 13+, Intel GPUs/ OneAPI 6.2+ and Nvidia GPUs (on Windows) Tier 3: 64-bit RISC-V , 64-bit musl (e.g. Alpine Linux ); and AMD GPUs/ ROCm 5.3+. OS Linux , macOS , Windows 10+ and FreeBSD License MIT Filename extensions .jl Website JuliaLang.org Influenced by Dylan Lisp Lua Mathematica MATLAB Perl Python R Ruby Fortress Julia is a dynamic general-purpose programming language . As a high-level language, distinctive aspects of Julia's design include a type system with parametric polymorphism , the use of multiple dispatch as a core programming paradigm , just-in-time compilation and a parallel garbage collection implementation. Notably, Julia does not support classes with encapsulated methods but instead relies on the types of all of a function's arguments to determine which method will be called. By default, Julia is run similarly to scripting languages, using its runtime, and allows for interactions , but Julia programs can also be compiled to small binary standalone executables (or to small libraries for e.g. Python ), with e.g. the JuliaC.jl compiler. Julia programs can reuse libraries from other languages, and vice versa. Julia has interoperability with C , C++ , Fortran , Rust , Python , and R . Additionally, some Julia packages have bindings to be used from Python and R as libraries . Julia is supported by programmer tools like IDEs (see below) and by notebooks like Pluto.jl, Jupyter , and since 2025, Google Colab officially supports Julia natively. Julia is sometimes used in embedded systems (e.g. has been used in a satellite in space on a Raspberry Pi Compute Module 4; 64-bit Pis work best with Julia, and Julia is supported in Raspbian ). ^ \"Smoothing data with Julia's @generated functions\" . 5 November 2015. Archived from the original on 4 March 2016 . Retrieved 9 December 2015 . Julia's generated functions are closely related to the multistaged programming (MSP) paradigm popularized by Taha and Sheard, which generalizes the compile time/run time stages of program execution by allowing for multiple stages of delayed code execution. ^ \"LICENSE.md\" . GitHub . September 2017. Archived from the original on 23 January 2021 . Retrieved 20 October 2014 . ^ \"Contributors to JuliaLang/julia\" . GitHub . Archived from the original on 23 January 2021 . Retrieved 20 October 2014 . ^ a b c d Cite error: The named reference announcement was invoked but never defined (see the help page ). ^ \"Julia v1.13.0 has been released\" . ^ Jeff Bezanson; Stefan Karpinski; Viral Shah; Alan Edelman. \"Manual Downloads\" . The Julia Programming Language . Retrieved 17 August 2026 . ^ a b Engheim, Erik (17 November 2017). \"Dynamically Typed Languages Are Not What You Think\" . Medium . Archived from the original on 5 March 2021 . Retrieved 27 January 2021 . ^ \"Building Julia (Detailed)\" . GitHub . September 2017. Archived from the original on 16 May 2022 . Retrieved 16 May 2022 . ^ \"Download Julia\" . julialang.org . Archived from the original on 26 January 2021 . Retrieved 15 September 2025 . ^ \"NVIDIA CUDA ⋅ JuliaGPU\" . juliagpu.org . Archived from the original on 27 August 2025 . Retrieved 15 September 2025 . ^ \"NVIDIA CUDA ⋅ JuliaGPU\" . juliagpu.org . Archived from the original on 29 January 2022 . Retrieved 17 January 2022 . we have shown the performance to approach and even sometimes exceed that of CUDA C on a selection of applications from the Rodinia benchmark suite ^ \"How emulation works on Arm\" . learn.microsoft.com . Archived from the original on 19 November 2025 . Retrieved 17 November 2025 . ^ \"RISC-V (Linux) · The Julia Language\" . docs.julialang.org . Archived from the original on 14 November 2025 . Retrieved 24 November 2025 . ^ Stokel-Walker, Chris. \"Julia: The Goldilocks language\" . Increment . Stripe. Archived from the original on 9 November 2020 . Retrieved 23 August 2020 . ^ \"JuliaCon 2016\" . JuliaCon. Archived from the original on 4 March 2017 . Retrieved 6 December 2016 . He has co-designed the programming language Scheme, which has greatly influenced the design of Julia ^ a b c d \"Home · The Julia Language\" . docs.julialang.org . Archived from the original on 11 January 2021 . Retrieved 15 August 2018 . ^ \"Programming Language Network\" . GitHub. Archived from the original on 20 December 2020 . Retrieved 6 December 2016 . ^ Wolfram, Stephen (12 February 2013). \"What Should We Call the Language of Mathematica?—Stephen Wolfram Writings\" . writings.stephenwolfram.com . Archived from the original on 4 September 2024 . Retrieved 24 June 2021 . ^ Cite error: The named reference PackageCompiler.jl was invoked but never defined (see the help page ). ^ \"[ANN] JuliaLibWrapping.jl: bringing Julia libraries to C and Python users\" . Julia Programming Language . 1 September 2026 . Retrieved 8 September 2026 . ^ \"JuliaLang/JuliaC.jl\" . JuliaLang. 24 November 2025. Archived from the original on 30 November 2025 . Retrieved 24 November 2025 . ^ Cite error: The named reference AppBundler.jl was invoked but never defined (see the help page ). ^ Cite error: The named reference CxxWrap was invoked but never defined (see the help page ). ^ Cite error: The named reference RepliBuild was invoked but never defined (see the help page ). ^ Cite error: The named reference RustCall.jl was invoked but never defined (see the help page ). ^ \"Julia available in Raspbian on the Raspberry Pi\" . Archived from the original on 4 May 2017 . Retrieved 6 June 2017 . Julia works on all the Pi variants, we recommend using the Pi 3.",
+    "links": [
+      "AArch64",
+      "Alan Edelman",
+      "Alpine Linux",
+      "Apple silicon",
+      "Armv8",
+      "Array programming",
+      "C (programming language)",
+      "C++",
+      "CUDA",
+      "Class (programming)",
+      "Computing platform",
+      "Dylan (programming language)",
+      "Dynamic programming language",
+      "Embedded system",
+      "Encapsulation (computer programming)",
+      "Filename extension",
+      "Fortran",
+      "Fortress (programming language)",
+      "FreeBSD",
+      "Functional programming",
+      "General-purpose programming language",
+      "GitHub",
+      "Google Colab",
+      "High-level programming language",
+      "IA-32",
+      "Imperative programming",
+      "Jeff Bezanson",
+      "Julia Lang (disambiguation)",
+      "Just-in-time compilation",
+      "LLVM",
+      "Library (computing)",
+      "Linux distribution",
+      "Lisp (programming language)",
+      "Long-term support",
+      "Lua",
+      "MATLAB",
+      "MIT License",
+      "MacOS",
+      "Metaprogramming",
+      "Microsoft Windows",
+      "Multi-paradigm programming language",
+      "Multiple dispatch",
+      "Multistaged programming",
+      "Musl",
+      "Nominal type system",
+      "OneAPI (compute acceleration)",
+      "Operating system",
+      "Optional typing",
+      "Parametric polymorphism",
+      "Perl",
+      "Procedural programming",
+      "Programming language",
+      "Programming paradigm",
+      "Project Jupyter",
+      "Python (programming language)",
+      "R (programming language)",
+      "RISC-V",
+      "ROCm",
+      "Raspberry Pi",
+      "Raspbian",
+      "Read–eval–print loop",
+      "Reflective programming",
+      "Ruby (programming language)",
+      "Rust (programming language)",
+      "Scheme (programming language)",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Stefan Karpinski",
+      "Strong and weak typing",
+      "Structured programming",
+      "Tracing garbage collection",
+      "Type inference",
+      "Type system",
+      "Viral B. Shah",
+      "Windows 10",
+      "Wolfram Language",
+      "X86-64"
+    ],
+    "page_id": 38455554,
+    "revision_id": 1375246316,
+    "retrieved_at": "2026-09-18T16:41:45.870920+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260908114941|1373866780",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 38455554,
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "revisions": [
+              {
+                "revid": 1375246316,
+                "parentid": 1373866780
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Julia_Programming_Language_Logo.svg",
+              "wikibase-shortdesc": "Dynamic programming language",
+              "wikibase_item": "Q2613697"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Julia (programming language)",
+        "pageid": 38455554,
+        "revid": 1375246316,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Dynamic programming language</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For people called Julia Lang, see <a href=\"/wiki/Julia_Lang_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"Julia Lang (disambiguation)\">Julia Lang (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Julia</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Julia_Programming_Language_Logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Julia_Programming_Language_Logo.svg/250px-Julia_Programming_Language_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"140\" height=\"90\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Julia_Programming_Language_Logo.svg/330px-Julia_Programming_Language_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"330\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Multiple_dispatch\" title=\"Multiple dispatch\">multiple dispatch</a> (primary paradigm), <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Array_programming\" title=\"Array programming\">array</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a> (<a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>), <a href=\"/wiki/Structured_programming\" title=\"Structured programming\">structured</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a>, <a href=\"/wiki/Metaprogramming\" title=\"Metaprogramming\">meta</a>, <a href=\"/wiki/Multistaged_programming\" class=\"mw-redirect\" title=\"Multistaged programming\">multistaged</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Jeff_Bezanson\" title=\"Jeff Bezanson\">Jeff Bezanson</a>, <a href=\"/wiki/Alan_Edelman\" title=\"Alan Edelman\">Alan Edelman</a>, <a href=\"/wiki/Stefan_Karpinski\" title=\"Stefan Karpinski\">Stefan Karpinski</a>, <a href=\"/wiki/Viral_B._Shah\" title=\"Viral B. Shah\">Viral B. Shah</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and other contributors<sup id=\"cite&#95;ref-license&#95;2-0\" class=\"reference\"><a href=\"#cite_note-license-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">2012<span class=\"noprint\">&#59;&#32;14&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2012</span>)</span><sup id=\"cite&#95;ref-announcement&#95;4-0\" class=\"reference\"><a href=\"#cite_note-announcement-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">1.13.0<sup id=\"cite&#95;ref-wikidata-5e8f0336dbfa6c8a9f6800762e8d21e1ecf1d247-v20&#95;5-0\" class=\"reference\"><a href=\"#cite_note-wikidata-5e8f0336dbfa6c8a9f6800762e8d21e1ecf1d247-v20-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q28974961?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   /    <span class=\"nowrap\">10 September 2026<span class=\"noprint\">&#59;&#32;8 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">10 September 2026</span>)</span></span> <small>and 1.10.12<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> (<a href=\"/wiki/Long-term_support\" title=\"Long-term support\">LTS</a>) / <span class=\"nowrap\">16&#160;August 2026<span class=\"noprint\">&#59;&#32;33 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-08-16</span>)</span></span> </small></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_programming_language\" title=\"Dynamic programming language\">Dynamic</a>,<sup id=\"cite&#95;ref-Engheim&#95;7-0\" class=\"reference\"><a href=\"#cite_note-Engheim-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Type_inference\" title=\"Type inference\">inferred</a>, <a href=\"/wiki/Optional_typing\" class=\"mw-redirect\" title=\"Optional typing\">optional</a>, <a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominative</a>, <a href=\"/wiki/Parametric_polymorphism\" title=\"Parametric polymorphism\">parametric</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a><sup id=\"cite&#95;ref-Engheim&#95;7-1\" class=\"reference\"><a href=\"#cite_note-Engheim-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\">Julia, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a>, <a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">FemtoLisp (Scheme)</a><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\">Tier&#160;1: 64- and 32-bit <a href=\"/wiki/Linux_distribution\" title=\"Linux distribution\">Linux</a>, <span class=\"nowrap\"><a href=\"/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a>+,</span> and <span class=\"nowrap\">64-bit <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>;</span> <a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>, <a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/Apple_silicon\" title=\"Apple silicon\">Apple silicon</a> <small>(<a href=\"/wiki/AArch64\" title=\"AArch64\">ARM64</a>)</small> Macs; Nvidia GPUs/<a href=\"/wiki/CUDA\" title=\"CUDA\">CUDA</a> 11.0+ (on Linux; <span class=\"nowrap\">tier 2</span> for Windows)<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><br /><br /> Tier&#160;2: 64-bit <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a> 13.4+ (for x86-64), <a href=\"/wiki/Armv8\" class=\"mw-redirect\" title=\"Armv8\">64-bit Arm</a> for Windows 11 (Prism<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup>) and Linux; Apple GPUs/Metal on macOS 13+, Intel GPUs/<a href=\"/wiki/OneAPI_(compute_acceleration)\" title=\"OneAPI (compute acceleration)\">OneAPI</a> 6.2+ and Nvidia GPUs (on Windows)<br /><br /> Tier&#160;3:  64-bit <a href=\"/wiki/RISC-V\" title=\"RISC-V\">RISC-V</a>,<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> 64-bit <a href=\"/wiki/Musl\" title=\"Musl\">musl</a> (e.g. <a href=\"/wiki/Alpine_Linux\" title=\"Alpine Linux\">Alpine Linux</a>); and AMD GPUs/<a href=\"/wiki/ROCm\" title=\"ROCm\">ROCm</a> 5.3+.</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Linux_distribution\" title=\"Linux distribution\">Linux</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a>&#160;10+ and  <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MIT_License\" title=\"MIT License\">MIT</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.jl</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://JuliaLang.org\">JuliaLang.org</a></span></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Dylan_(programming_language)\" title=\"Dylan (programming language)\">Dylan</a><sup id=\"cite&#95;ref-goldilocks&#95;14-0\" class=\"reference\"><a href=\"#cite_note-goldilocks-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a><sup id=\"cite&#95;ref-announcement&#95;4-1\" class=\"reference\"><a href=\"#cite_note-announcement-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-JuliaCon2016&#95;15-0\" class=\"reference\"><a href=\"#cite_note-JuliaCon2016-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Lua\" title=\"Lua\">Lua</a><sup id=\"cite&#95;ref-Introduction&#95;16-0\" class=\"reference\"><a href=\"#cite_note-Introduction-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Wolfram_Language\" title=\"Wolfram Language\">Mathematica</a><sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/MATLAB\" title=\"MATLAB\">MATLAB</a><sup id=\"cite&#95;ref-announcement&#95;4-2\" class=\"reference\"><a href=\"#cite_note-announcement-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Perl\" title=\"Perl\">Perl</a><sup id=\"cite&#95;ref-Introduction&#95;16-1\" class=\"reference\"><a href=\"#cite_note-Introduction-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a><sup id=\"cite&#95;ref-Introduction&#95;16-2\" class=\"reference\"><a href=\"#cite_note-Introduction-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/R_(programming_language)\" title=\"R (programming language)\">R</a><sup id=\"cite&#95;ref-announcement&#95;4-3\" class=\"reference\"><a href=\"#cite_note-announcement-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a><sup id=\"cite&#95;ref-Introduction&#95;16-3\" class=\"reference\"><a href=\"#cite_note-Introduction-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Fortress_(programming_language)\" title=\"Fortress (programming language)\">Fortress</a></li></ul>\n</div></td></tr></tbody></table>\n<p><b>Julia</b> is a <a href=\"/wiki/Dynamic_programming_language\" title=\"Dynamic programming language\">dynamic</a> <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a>. As a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a> language, distinctive aspects of Julia's design include a type system with <a href=\"/wiki/Parametric_polymorphism\" title=\"Parametric polymorphism\">parametric polymorphism</a>, the use of <a href=\"/wiki/Multiple_dispatch\" title=\"Multiple dispatch\">multiple dispatch</a> as a core <a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">programming paradigm</a>, <a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">just-in-time</a> compilation and a parallel <a href=\"/wiki/Tracing_garbage_collection\" title=\"Tracing garbage collection\">garbage collection</a> implementation. Notably, Julia does not support <a href=\"/wiki/Class_(programming)\" title=\"Class (programming)\">classes</a> with <a href=\"/wiki/Encapsulation_(computer_programming)\" title=\"Encapsulation (computer programming)\">encapsulated</a> methods but instead relies on the types of all of a function's arguments to determine which method will be called.\n</p><p>By default, Julia is run similarly to scripting languages, using its runtime, and allows for <a href=\"/wiki/Read%E2%80%93eval%E2%80%93print_loop\" title=\"Read–eval–print loop\">interactions</a>,<sup id=\"cite&#95;ref-PackageCompiler.jl&#95;19-0\" class=\"reference\"><a href=\"#cite_note-PackageCompiler.jl-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup> but Julia programs can also be compiled to small binary standalone executables (or to small libraries for e.g. Python<sup id=\"cite&#95;ref-20\" class=\"reference\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup>), with e.g. the <i>JuliaC.jl</i> compiler.<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-AppBundler.jl&#95;22-0\" class=\"reference\"><a href=\"#cite_note-AppBundler.jl-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> \n</p><p>Julia programs can reuse libraries from other languages, and vice versa. Julia has interoperability with <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <span class=\"nowrap\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a></span>,<sup id=\"cite&#95;ref-CxxWrap&#95;23-0\" class=\"reference\"><a href=\"#cite_note-CxxWrap-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-RepliBuild&#95;24-0\" class=\"reference\"><a href=\"#cite_note-RepliBuild-24\"><span class=\"cite-bracket\">&#91;</span>24<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-RustCall.jl&#95;25-0\" class=\"reference\"><a href=\"#cite_note-RustCall.jl-25\"><span class=\"cite-bracket\">&#91;</span>25<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, and <a href=\"/wiki/R_(programming_language)\" title=\"R (programming language)\">R</a>. Additionally, some Julia packages have bindings to be used from Python and R as <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">libraries</a>.\n</p><p>Julia is supported by programmer tools like IDEs (see below) and by notebooks like Pluto.jl, <a href=\"/wiki/Project_Jupyter\" title=\"Project Jupyter\">Jupyter</a>, and since 2025, <a href=\"/wiki/Google_Colab\" title=\"Google Colab\">Google Colab</a> officially supports Julia natively.\n</p><p>Julia is sometimes used in <a href=\"/wiki/Embedded_system\" title=\"Embedded system\">embedded systems</a> (e.g. has been used in a satellite in space on a <a href=\"/wiki/Raspberry_Pi\" title=\"Raspberry Pi\">Raspberry Pi</a> Compute Module 4; 64-bit Pis work best with Julia, and Julia is supported in <a href=\"/wiki/Raspbian\" class=\"mw-redirect\" title=\"Raspbian\">Raspbian</a>).<sup id=\"cite&#95;ref-26\" class=\"reference\"><a href=\"#cite_note-26\"><span class=\"cite-bracket\">&#91;</span>26<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://medium.com/@acidflask/smoothing-data-with-julia-s-generated-functions-c80e240e05f3#.615wk3dle\">\"Smoothing data with Julia's @generated functions\"</a>. 5 November 2015. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160304105339/https://medium.com/@acidflask/smoothing-data-with-julia-s-generated-functions-c80e240e05f3#.615wk3dle\">Archived</a> from the original on 4 March 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 December</span> 2015</span>. <q>Julia's generated functions are closely related to the multistaged programming (MSP) paradigm popularized by Taha and Sheard, which generalizes the compile time/run time stages of program execution by allowing for multiple stages of delayed code execution.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Smoothing+data+with+Julia%27s+%40generated+functions&amp;rft.date=2015-11-05&amp;rft&#95;id=https%3A%2F%2Fmedium.com%2F%40acidflask%2Fsmoothing-data-with-julia-s-generated-functions-c80e240e05f3%23.615wk3dle&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-license-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-license_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/JuliaLang/julia/blob/master/LICENSE.md\">\"LICENSE.md\"</a>. <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a>. September 2017. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210123222058/https://github.com/JuliaLang/julia/blob/master/LICENSE.md\">Archived</a> from the original on 23 January 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">20 October</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=LICENSE.md&amp;rft.pub=GitHub&amp;rft.date=2017-09&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FJuliaLang%2Fjulia%2Fblob%2Fmaster%2FLICENSE.md&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/JuliaLang/julia/graphs/contributors\">\"Contributors to JuliaLang/julia\"</a>. <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210123223030/https://github.com/JuliaLang/julia/graphs/contributors\">Archived</a> from the original on 23 January 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">20 October</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Contributors+to+JuliaLang%2Fjulia&amp;rft.pub=GitHub&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FJuliaLang%2Fjulia%2Fgraphs%2Fcontributors&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-announcement-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-announcement_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-announcement_4-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-announcement_4-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-announcement_4-3\"><sup><i><b>d</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>announcement</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-5e8f0336dbfa6c8a9f6800762e8d21e1ecf1d247-v20-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-5e8f0336dbfa6c8a9f6800762e8d21e1ecf1d247-v20_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://discourse.julialang.org/t/julia-v1-13-0-has-been-released/139326\">\"Julia v1.13.0 has been released\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Julia+v1.13.0+has+been+released&amp;rft&#95;id=https%3A%2F%2Fdiscourse.julialang.org%2Ft%2Fjulia-v1-13-0-has-been-released%2F139326&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJeff&#95;BezansonStefan&#95;KarpinskiViral&#95;ShahAlan&#95;Edelman\" class=\"citation web cs1\">Jeff Bezanson; Stefan Karpinski; Viral Shah; Alan Edelman. <a rel=\"nofollow\" class=\"external text\" href=\"https://julialang.org/downloads/manual-downloads/\">\"Manual Downloads\"</a>. <i>The Julia Programming Language</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 August</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Julia+Programming+Language&amp;rft.atitle=Manual+Downloads&amp;rft.au=Jeff+Bezanson&amp;rft.au=Stefan+Karpinski&amp;rft.au=Viral+Shah&amp;rft.au=Alan+Edelman&amp;rft&#95;id=https%3A%2F%2Fjulialang.org%2Fdownloads%2Fmanual-downloads%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Engheim-7\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Engheim_7-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Engheim_7-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEngheim2017\" class=\"citation web cs1\">Engheim, Erik (17 November 2017). <a rel=\"nofollow\" class=\"external text\" href=\"https://erik-engheim.medium.com/dynamically-typed-languages-are-not-what-you-think-ac8d1392b803\">\"Dynamically Typed Languages Are Not What You Think\"</a>. <i>Medium</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210305194133/https://erik-engheim.medium.com/dynamically-typed-languages-are-not-what-you-think-ac8d1392b803\">Archived</a> from the original on 5 March 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">27 January</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Medium&amp;rft.atitle=Dynamically+Typed+Languages+Are+Not+What+You+Think&amp;rft.date=2017-11-17&amp;rft.aulast=Engheim&amp;rft.aufirst=Erik&amp;rft&#95;id=https%3A%2F%2Ferik-engheim.medium.com%2Fdynamically-typed-languages-are-not-what-you-think-ac8d1392b803&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/JuliaLang/julia/blob/master/doc/src/devdocs/build/build.md#required-build-tools-and-external-libraries\">\"Building Julia (Detailed)\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. September 2017. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220516170342/https://github.com/JuliaLang/julia/blob/master/doc/src/devdocs/build/build.md#required-build-tools-and-external-libraries\">Archived</a> from the original on 16 May 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 May</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Building+Julia+%28Detailed%29&amp;rft.date=2017-09&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FJuliaLang%2Fjulia%2Fblob%2Fmaster%2Fdoc%2Fsrc%2Fdevdocs%2Fbuild%2Fbuild.md%23required-build-tools-and-external-libraries&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://julialang.org/downloads/\">\"Download Julia\"</a>. <i>julialang.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210126095723/https://julialang.org/downloads/\">Archived</a> from the original on 26 January 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 September</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=julialang.org&amp;rft.atitle=Download+Julia&amp;rft&#95;id=https%3A%2F%2Fjulialang.org%2Fdownloads%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://juliagpu.org/backends/cuda/\">\"NVIDIA CUDA ⋅ JuliaGPU\"</a>. <i>juliagpu.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250827025500/https://juliagpu.org/backends/cuda/\">Archived</a> from the original on 27 August 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 September</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=juliagpu.org&amp;rft.atitle=NVIDIA+CUDA+%E2%8B%85+JuliaGPU&amp;rft&#95;id=https%3A%2F%2Fjuliagpu.org%2Fbackends%2Fcuda%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220129013944/https://juliagpu.org/cuda/\">\"NVIDIA CUDA ⋅ JuliaGPU\"</a>. <i>juliagpu.org</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://juliagpu.org/cuda/\">the original</a> on 29 January 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 January</span> 2022</span>. <q>we have shown the performance to approach and even sometimes exceed that of CUDA C on a selection of applications from the Rodinia benchmark suite</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=juliagpu.org&amp;rft.atitle=NVIDIA+CUDA+%E2%8B%85+JuliaGPU&amp;rft&#95;id=https%3A%2F%2Fjuliagpu.org%2Fcuda%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation\">\"How emulation works on Arm\"</a>. <i>learn.microsoft.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20251119144315/https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation\">Archived</a> from the original on 19 November 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 November</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=learn.microsoft.com&amp;rft.atitle=How+emulation+works+on+Arm&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Farm%2Fapps-on-arm-x86-emulation&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.julialang.org/en/v1/devdocs/build/riscv/\">\"RISC-V (Linux) · The Julia Language\"</a>. <i>docs.julialang.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20251114165945/https://docs.julialang.org/en/v1/devdocs/build/riscv/\">Archived</a> from the original on 14 November 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 November</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=docs.julialang.org&amp;rft.atitle=RISC-V+%28Linux%29+%C2%B7+The+Julia+Language&amp;rft&#95;id=https%3A%2F%2Fdocs.julialang.org%2Fen%2Fv1%2Fdevdocs%2Fbuild%2Friscv%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-goldilocks-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-goldilocks_14-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStokel-Walker\" class=\"citation web cs1\">Stokel-Walker, Chris. <a rel=\"nofollow\" class=\"external text\" href=\"https://increment.com/programming-languages/goldilocks-language-history-of-julia/\">\"Julia: The Goldilocks language\"</a>. <i>Increment</i>. Stripe. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201109024158/https://increment.com/programming-languages/goldilocks-language-history-of-julia/\">Archived</a> from the original on 9 November 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">23 August</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Increment&amp;rft.atitle=Julia%3A+The+Goldilocks+language&amp;rft.aulast=Stokel-Walker&amp;rft.aufirst=Chris&amp;rft&#95;id=https%3A%2F%2Fincrement.com%2Fprogramming-languages%2Fgoldilocks-language-history-of-julia%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-JuliaCon2016-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-JuliaCon2016_15-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://juliacon.org/2016\">\"JuliaCon 2016\"</a>. JuliaCon. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170304010606/http://juliacon.org/2016/\">Archived</a> from the original on 4 March 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 December</span> 2016</span>. <q>He has co-designed the programming language Scheme, which has greatly influenced the design of Julia</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=JuliaCon+2016&amp;rft.pub=JuliaCon&amp;rft&#95;id=https%3A%2F%2Fjuliacon.org%2F2016&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Introduction-16\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Introduction_16-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Introduction_16-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-Introduction_16-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-Introduction_16-3\"><sup><i><b>d</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.julialang.org/en/v1/\">\"Home · The Julia Language\"</a>. <i>docs.julialang.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210111031656/https://docs.julialang.org/en/v1/\">Archived</a> from the original on 11 January 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 August</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=docs.julialang.org&amp;rft.atitle=Home+%C2%B7+The+Julia+Language&amp;rft&#95;id=https%3A%2F%2Fdocs.julialang.org%2Fen%2Fv1%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201220131729/http://fatiherikli.github.io/programming-language-network/#language:Julia\">\"Programming Language Network\"</a>. GitHub. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://fatiherikli.github.io/programming-language-network/#language:Julia\">the original</a> on 20 December 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 December</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Programming+Language+Network&amp;rft.pub=GitHub&amp;rft&#95;id=https%3A%2F%2Ffatiherikli.github.io%2Fprogramming-language-network%2F%23language%3AJulia&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWolfram2013\" class=\"citation journal cs1\">Wolfram, Stephen (12 February 2013). <a rel=\"nofollow\" class=\"external text\" href=\"https://writings.stephenwolfram.com/2013/02/what-should-we-call-the-language-of-mathematica/\">\"What Should We Call the Language of Mathematica?—Stephen Wolfram Writings\"</a>. <i>writings.stephenwolfram.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20240904035044/https://writings.stephenwolfram.com/2013/02/what-should-we-call-the-language-of-mathematica/\">Archived</a> from the original on 4 September 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 June</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=writings.stephenwolfram.com&amp;rft.atitle=What+Should+We+Call+the+Language+of+Mathematica%3F%E2%80%94Stephen+Wolfram+Writings&amp;rft.date=2013-02-12&amp;rft.aulast=Wolfram&amp;rft.aufirst=Stephen&amp;rft&#95;id=https%3A%2F%2Fwritings.stephenwolfram.com%2F2013%2F02%2Fwhat-should-we-call-the-language-of-mathematica%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-PackageCompiler.jl-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-PackageCompiler.jl_19-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>PackageCompiler.jl</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-20\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://discourse.julialang.org/t/ann-julialibwrapping-jl-bringing-julia-libraries-to-c-and-python-users/139150\">\"&#91;ANN&#93; JuliaLibWrapping.jl: bringing Julia libraries to C and Python users\"</a>. <i>Julia Programming Language</i>. 1 September 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Julia+Programming+Language&amp;rft.atitle=%5BANN%5D+JuliaLibWrapping.jl%3A+bringing+Julia+libraries+to+C+and+Python+users&amp;rft.date=2026-09-01&amp;rft&#95;id=https%3A%2F%2Fdiscourse.julialang.org%2Ft%2Fann-julialibwrapping-jl-bringing-julia-libraries-to-c-and-python-users%2F139150&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/JuliaLang/JuliaC.jl\">\"JuliaLang/JuliaC.jl\"</a>. JuliaLang. 24 November 2025. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20251130193734/https://github.com/JuliaLang/JuliaC.jl\">Archived</a> from the original on 30 November 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">24 November</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=JuliaLang%2FJuliaC.jl&amp;rft.pub=JuliaLang&amp;rft.date=2025-11-24&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FJuliaLang%2FJuliaC.jl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-AppBundler.jl-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-AppBundler.jl_22-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>AppBundler.jl</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-CxxWrap-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-CxxWrap_23-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>CxxWrap</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-RepliBuild-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-RepliBuild_24-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>RepliBuild</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-RustCall.jl-25\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-RustCall.jl_25-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>RustCall.jl</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-26\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-26\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://julialang.org/blog/2017/05/raspberry-pi-julia\">\"Julia available in Raspbian on the Raspberry Pi\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170504162102/https://julialang.org/blog/2017/05/raspberry-pi-julia\">Archived</a> from the original on 4 May 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 June</span> 2017</span>. <q>Julia works on all the Pi variants, we recommend using the Pi 3.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Julia+available+in+Raspbian+on+the+Raspberry+Pi&amp;rft&#95;id=https%3A%2F%2Fjulialang.org%2Fblog%2F2017%2F05%2Fraspberry-pi-julia&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AJulia+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐cjl9t\nCached time: 20260918164211\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.758 seconds\nReal time usage: 1.019 seconds\nPreprocessor visited node count: 2625/1000000\nRevision size: 18472/2097152 bytes\nPost‐expand include size: 73118/2097152 bytes\nTemplate argument size: 12507/2097152 bytes\nHighest expansion depth: 29/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 55655/5000000 bytes\nLua time usage: 0.368/10.000 seconds\nLua memory usage: 8613672/52428800 bytes\nNumber of Wikibase entities loaded: 2/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  948.678      1 -total\n 47.87%  454.170      2 Template:Infobox\n 40.17%  381.069      1 Template:Infobox_programming_language\n 26.33%  249.757      1 Template:Infobox_software/simple\n 18.39%  174.509      2 Template:Wikidata\n 10.85%  102.928     18 Template:Cite_web\n 10.65%  101.048      1 Template:Short_description\n  6.40%   60.725      2 Template:Pagetype\n  6.33%   60.032     12 Template:Broken_ref\n  4.92%   46.633      1 Template:Flatlist\n-->\n\n<!-- Render ID e5093d83-b37f-11f1-ab69-4f48e2943138 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Julia Lang (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AArch64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alan Edelman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alpine Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apple silicon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Armv8",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CUDA",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class (programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dylan (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Encapsulation (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortress (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Colab",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jeff Bezanson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Long-term support",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lua",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MATLAB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIT License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaprogramming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multiple dispatch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multistaged programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Musl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OneAPI (compute acceleration)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Optional typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parametric polymorphism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Project Jupyter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RISC-V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ROCm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "R (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raspberry Pi",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raspbian",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Read–eval–print loop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stefan Karpinski",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structured programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tracing garbage collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Viral B. Shah",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows 10",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wolfram Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Dynamic programming language",
+          "page_image_free": "Julia_Programming_Language_Logo.svg",
+          "wikibase_item": "Q2613697"
+        }
+      }
+    }
+  ]
+}

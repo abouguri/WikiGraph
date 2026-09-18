@@ -74,3 +74,16 @@ def test_interrupted_run_keeps_committed_pages(tmp_path):
     report = ingest(**options)
     fetcher.fetch_page.assert_called_once_with("B")
     assert report["pages"] == 2
+
+
+def test_redirect_alias_survives_deduplication(tmp_path):
+    fetcher = WikipediaFetcher(offline=True)
+    a = WikipediaPage(
+        "Canonical", "https://example.org/A", "", "", page_id=1, revision_id=1, aliases=["Alias"]
+    )
+    b = WikipediaPage("Canonical", "https://example.org/A", "", "", page_id=1, revision_id=1)
+    fetcher.fetch_page = Mock(side_effect=[a, b])
+    output = tmp_path / "g.ttl"
+    report = ingest(["Alias", "Canonical"], fetcher=fetcher, output=output, state=tmp_path / "j.db")
+    assert report["pages"] == 1
+    assert json.loads(output.with_suffix(".pages.json").read_text())[0]["aliases"] == ["Alias"]

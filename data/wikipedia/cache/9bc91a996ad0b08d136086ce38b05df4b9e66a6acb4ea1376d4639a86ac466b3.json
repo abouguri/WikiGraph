@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "TypeScript",
+    "url": "https://en.wikipedia.org/wiki/TypeScript",
+    "summary": "Programming language and superset of JavaScript For the typed instance analogous to a handwritten document, see Manuscript . TypeScript Paradigm Multi-paradigm : functional , generic , imperative , object-oriented Family ECMAScript Designed by Microsoft , Anders Hejlsberg , Luke Hoban Developer Microsoft First appeared 1 October 2012 ; 13 years ago ( 2012-10-01 ) Stable release 7.0.2 / 8 July 2026 ; 2 months ago ( 8 July 2026 ) Typing discipline Duck , gradual , strong , structural Scope Lexical License Apache 2.0 Filename extensions .ts, .tsx, .mts, .cts Website www .typescriptlang .org Influenced by C# , F# , Java , JavaScript Influenced AtScript , AssemblyScript , ArkTS TypeScript ( TS ) is a high-level programming language that adds static typing with optional type annotations to JavaScript . It is designed for developing large applications. It transpiles to JavaScript. It is developed by Microsoft as free and open-source software released under the Apache License 2.0 . TypeScript may be used to develop JavaScript applications for both client-side and server-side execution (as with React.js , Node.js , Deno or Bun ). Multiple options are available for transpiling. The default TypeScript Compiler can be used, or the Babel compiler can be invoked to convert TypeScript to JavaScript. TypeScript supports definition files that can contain type information of existing JavaScript libraries , much like C++ header files can describe the structure of existing object files . This enables other programs to use the values defined in the files as if they were statically typed TypeScript entities. There are third-party header files for popular libraries such as jQuery , MongoDB , and D3.js . TypeScript headers for the Node.js library modules are also available, allowing development of Node.js programs within TypeScript. Before TypeScript 7.0, the TypeScript compiler was written in TypeScript and compiled to JavaScript. In TypeScript 7.0, it was rewritten in Go . It is licensed under the Apache License 2.0 . Anders Hejlsberg , lead architect of C# and creator of Delphi and Turbo Pascal , has worked on developing TypeScript. ^ \"TypeScript\" . CodePlex . Archived from the original on 3 April 2015 . Retrieved 26 April 2015 . ^ \"Announcing TypeScript 7.0\" . ^ \"Releases · microsoft/TypeScript\" . GitHub . Archived from the original on 2 August 2018 . Retrieved 16 December 2020 . ^ \"Type Compatibility\" . TypeScript . Archived from the original on 12 March 2018 . Retrieved 21 March 2018 . ^ \"The Early History of F#\" (PDF) . Archived (PDF) from the original on 9 August 2024 . Retrieved 5 February 2024 . TypeScript was directly influenced by F#: one of the originators of TypeScript was Luke Hoban, who began TypeScript (then called Strada) immediately after working on F# 2.0. Recently he noted the influence of F# on early parts of the TypeScript design [Hoban 2017]. ^ Bright, Peter (3 October 2012). \"Microsoft TypeScript: the JavaScript we need, or a solution looking for a problem?\" . Ars Technica . Condé Nast . Archived from the original on 9 October 2018 . Retrieved 26 April 2015 . ^ \"TypeScript Programming with Visual Studio Code\" . code.visualstudio.com . Archived from the original on 22 September 2022 . Retrieved 12 February 2019 . ^ \"borisyankov/DefinitelyTyped\" . GitHub . Archived from the original on 1 November 2015 . Retrieved 26 April 2015 . ^ Rosenwasser, Daniel (8 July 2026). \"Announcing TypeScript 7.0\" . TypeScript . Archived from the original on 14 July 2026 . Retrieved 14 July 2026 . ^ Foley, Mary Jo (1 October 2012). \"Microsoft takes the wraps off TypeScript, a superset of JavaScript\" . ZDNet . CBS Interactive . Archived from the original on 13 November 2014 . Retrieved 26 April 2015 . ^ Somasegar, S. (1 October 2012). \"TypeScript: JavaScript Development at Application Scale\" . Somasegar's blog . Microsoft. Archived from the original on 26 September 2017 . Retrieved 26 April 2015 . ^ Baxter-Reynolds, Matt (1 October 2012). \"Microsoft TypeScript: Can the father of C# save us from the tyranny of JavaScript?\" . ZDNet . Archived from the original on 3 August 2014 . Retrieved 26 April 2015 . ^ Jackson, Joab (1 October 2012). \"Microsoft Augments Javascript for Large-scale Development\" . CIO . IDG Enterprise . Archived from the original on 17 December 2013 . Retrieved 26 April 2015 .",
+    "text": "Programming language and superset of JavaScript For the typed instance analogous to a handwritten document, see Manuscript . TypeScript Paradigm Multi-paradigm : functional , generic , imperative , object-oriented Family ECMAScript Designed by Microsoft , Anders Hejlsberg , Luke Hoban Developer Microsoft First appeared 1 October 2012 ; 13 years ago ( 2012-10-01 ) Stable release 7.0.2 / 8 July 2026 ; 2 months ago ( 8 July 2026 ) Typing discipline Duck , gradual , strong , structural Scope Lexical License Apache 2.0 Filename extensions .ts, .tsx, .mts, .cts Website www .typescriptlang .org Influenced by C# , F# , Java , JavaScript Influenced AtScript , AssemblyScript , ArkTS TypeScript ( TS ) is a high-level programming language that adds static typing with optional type annotations to JavaScript . It is designed for developing large applications. It transpiles to JavaScript. It is developed by Microsoft as free and open-source software released under the Apache License 2.0 . TypeScript may be used to develop JavaScript applications for both client-side and server-side execution (as with React.js , Node.js , Deno or Bun ). Multiple options are available for transpiling. The default TypeScript Compiler can be used, or the Babel compiler can be invoked to convert TypeScript to JavaScript. TypeScript supports definition files that can contain type information of existing JavaScript libraries , much like C++ header files can describe the structure of existing object files . This enables other programs to use the values defined in the files as if they were statically typed TypeScript entities. There are third-party header files for popular libraries such as jQuery , MongoDB , and D3.js . TypeScript headers for the Node.js library modules are also available, allowing development of Node.js programs within TypeScript. Before TypeScript 7.0, the TypeScript compiler was written in TypeScript and compiled to JavaScript. In TypeScript 7.0, it was rewritten in Go . It is licensed under the Apache License 2.0 . Anders Hejlsberg , lead architect of C# and creator of Delphi and Turbo Pascal , has worked on developing TypeScript. ^ \"TypeScript\" . CodePlex . Archived from the original on 3 April 2015 . Retrieved 26 April 2015 . ^ \"Announcing TypeScript 7.0\" . ^ \"Releases · microsoft/TypeScript\" . GitHub . Archived from the original on 2 August 2018 . Retrieved 16 December 2020 . ^ \"Type Compatibility\" . TypeScript . Archived from the original on 12 March 2018 . Retrieved 21 March 2018 . ^ \"The Early History of F#\" (PDF) . Archived (PDF) from the original on 9 August 2024 . Retrieved 5 February 2024 . TypeScript was directly influenced by F#: one of the originators of TypeScript was Luke Hoban, who began TypeScript (then called Strada) immediately after working on F# 2.0. Recently he noted the influence of F# on early parts of the TypeScript design [Hoban 2017]. ^ Bright, Peter (3 October 2012). \"Microsoft TypeScript: the JavaScript we need, or a solution looking for a problem?\" . Ars Technica . Condé Nast . Archived from the original on 9 October 2018 . Retrieved 26 April 2015 . ^ \"TypeScript Programming with Visual Studio Code\" . code.visualstudio.com . Archived from the original on 22 September 2022 . Retrieved 12 February 2019 . ^ \"borisyankov/DefinitelyTyped\" . GitHub . Archived from the original on 1 November 2015 . Retrieved 26 April 2015 . ^ Rosenwasser, Daniel (8 July 2026). \"Announcing TypeScript 7.0\" . TypeScript . Archived from the original on 14 July 2026 . Retrieved 14 July 2026 . ^ Foley, Mary Jo (1 October 2012). \"Microsoft takes the wraps off TypeScript, a superset of JavaScript\" . ZDNet . CBS Interactive . Archived from the original on 13 November 2014 . Retrieved 26 April 2015 . ^ Somasegar, S. (1 October 2012). \"TypeScript: JavaScript Development at Application Scale\" . Somasegar's blog . Microsoft. Archived from the original on 26 September 2017 . Retrieved 26 April 2015 . ^ Baxter-Reynolds, Matt (1 October 2012). \"Microsoft TypeScript: Can the father of C# save us from the tyranny of JavaScript?\" . ZDNet . Archived from the original on 3 August 2014 . Retrieved 26 April 2015 . ^ Jackson, Joab (1 October 2012). \"Microsoft Augments Javascript for Large-scale Development\" . CIO . IDG Enterprise . Archived from the original on 17 December 2013 . Retrieved 26 April 2015 .",
+    "links": [
+      "Anders Hejlsberg",
+      "Annotation",
+      "Apache License 2.0",
+      "ArkTS",
+      "Ars Technica",
+      "AssemblyScript",
+      "AtScript",
+      "Babel (transcompiler)",
+      "Bun (software)",
+      "C Sharp (programming language)",
+      "C++",
+      "CBS Interactive",
+      "Client-side",
+      "CodePlex",
+      "Condé Nast",
+      "D3.js",
+      "Delphi (software)",
+      "Deno (software)",
+      "Duck typing",
+      "ECMAScript",
+      "F Sharp (programming language)",
+      "Filename extension",
+      "Free and open-source software",
+      "Functional programming",
+      "Generic programming",
+      "GitHub",
+      "Go (programming language)",
+      "Gradual typing",
+      "High-level programming language",
+      "IDG Enterprise",
+      "Imperative programming",
+      "Include directive",
+      "JQuery",
+      "Java (programming language)",
+      "JavaScript",
+      "Library (computing)",
+      "Manuscript",
+      "Microsoft",
+      "MongoDB",
+      "Multi-paradigm programming language",
+      "Node.js",
+      "Object file",
+      "Object-oriented programming",
+      "Programming language",
+      "Programming paradigm",
+      "React.js",
+      "Scope (computer science)",
+      "Self-hosting (compilers)",
+      "Server-side",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Source-to-source compiler",
+      "Static typing",
+      "Strong and weak typing",
+      "Structural type system",
+      "Turbo Pascal",
+      "Type system",
+      "ZDNet"
+    ],
+    "page_id": 8157205,
+    "revision_id": 1374287062,
+    "retrieved_at": "2026-09-18T16:32:09.749371+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260901072735|1372565959",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 8157205,
+            "ns": 0,
+            "title": "TypeScript",
+            "revisions": [
+              {
+                "revid": 1374287062,
+                "parentid": 1372565959
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Typescript.svg",
+              "wikibase-shortdesc": "Programming language and superset of JavaScript",
+              "wikibase_item": "Q978185"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "TypeScript",
+        "pageid": 8157205,
+        "revid": 1374287062,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language and superset of JavaScript</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the typed instance analogous to a handwritten document, see <a href=\"/wiki/Manuscript\" title=\"Manuscript\">Manuscript</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">TypeScript</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Typescript.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/250px-Typescript.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"121\" class=\"mw-file-element\" data-file-width=\"260\" data-file-height=\"260\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/ECMAScript\" title=\"ECMAScript\">ECMAScript</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>,<br /><a href=\"/wiki/Anders_Hejlsberg\" title=\"Anders Hejlsberg\">Anders Hejlsberg</a>,<br />Luke Hoban</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Microsoft</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1&#160;October 2012<span class=\"noprint\">&#59;&#32;13 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2012-10-01</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">7.0.2<sup id=\"cite&#95;ref-wikidata-332cde540f8bc9ce8dd8689ac728553ea544d045-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-332cde540f8bc9ce8dd8689ac728553ea544d045-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q978185?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 8 July 2026<span class=\"noprint\">&#59;&#32;2 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">8 July 2026</span>)</span><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Duck_typing\" title=\"Duck typing\">Duck</a>, <a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">gradual</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Structural_type_system\" title=\"Structural type system\">structural</a><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Lexical</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache 2.0</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.ts, .tsx, .mts, .cts</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.typescriptlang.org/\">www<wbr />.typescriptlang<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>, <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/AtScript\" title=\"AtScript\">AtScript</a>, <a href=\"/wiki/AssemblyScript\" title=\"AssemblyScript\">AssemblyScript</a>, <a href=\"/wiki/ArkTS\" title=\"ArkTS\">ArkTS</a></td></tr></tbody></table>\n<p><b>TypeScript</b> (<b>TS</b>) is a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> that adds <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static typing</a> with optional type <a href=\"/wiki/Annotation#Software_and_engineering\" title=\"Annotation\">annotations</a> to <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>. It is designed for developing large applications. It <a href=\"/wiki/Source-to-source_compiler\" title=\"Source-to-source compiler\">transpiles</a> to JavaScript.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> It is developed by <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a> as <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> released under the <a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache License 2.0</a>.\n</p><p>TypeScript may be used to develop JavaScript applications for both <a href=\"/wiki/Client-side\" class=\"mw-redirect\" title=\"Client-side\">client-side</a> and <a href=\"/wiki/Server-side\" class=\"mw-redirect\" title=\"Server-side\">server-side</a> execution (as with <a href=\"/wiki/React.js\" class=\"mw-redirect\" title=\"React.js\">React.js</a>, <a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a>, <a href=\"/wiki/Deno_(software)\" title=\"Deno (software)\">Deno</a> or <a href=\"/wiki/Bun_(software)\" title=\"Bun (software)\">Bun</a>). Multiple options are available for transpiling. The default TypeScript Compiler can be used,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> or the <a href=\"/wiki/Babel_(transcompiler)\" title=\"Babel (transcompiler)\">Babel</a> compiler can be invoked to convert TypeScript to JavaScript.\n</p><p>TypeScript supports definition files that can contain type information of existing JavaScript <a href=\"/wiki/Library_(computing)\" title=\"Library (computing)\">libraries</a>, much like <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a> <a href=\"/wiki/Include_directive#Header_file\" title=\"Include directive\">header files</a> can describe the structure of existing <a href=\"/wiki/Object_file\" title=\"Object file\">object files</a>. This enables other programs to use the values defined in the files as if they were statically typed TypeScript entities. There are third-party header files for popular libraries such as <a href=\"/wiki/JQuery\" title=\"JQuery\">jQuery</a>, <a href=\"/wiki/MongoDB\" title=\"MongoDB\">MongoDB</a>, and <a href=\"/wiki/D3.js\" title=\"D3.js\">D3.js</a>. TypeScript headers for the <a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a> library modules are also available, allowing development of Node.js programs within TypeScript.<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Before TypeScript 7.0, the TypeScript compiler was <a href=\"/wiki/Self-hosting_(compilers)\" title=\"Self-hosting (compilers)\">written in TypeScript</a> and <a href=\"/wiki/Source-to-source_compiler\" title=\"Source-to-source compiler\">compiled</a> to JavaScript. In TypeScript 7.0, it was rewritten in <a href=\"/wiki/Go_(programming_language)\" title=\"Go (programming language)\">Go</a>.<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> It is licensed under the <a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache License 2.0</a>. <a href=\"/wiki/Anders_Hejlsberg\" title=\"Anders Hejlsberg\">Anders Hejlsberg</a>, lead architect of <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a> and creator of <a href=\"/wiki/Delphi_(software)\" title=\"Delphi (software)\">Delphi</a> and <a href=\"/wiki/Turbo_Pascal\" title=\"Turbo Pascal\">Turbo Pascal</a>, has worked on developing TypeScript.<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150403224440/https://typescript.codeplex.com/releases/view/95554\">\"TypeScript\"</a>. <i><a href=\"/wiki/CodePlex\" title=\"CodePlex\">CodePlex</a></i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://typescript.codeplex.com/releases/view/95554\">the original</a> on 3 April 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 April</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=CodePlex&amp;rft.atitle=TypeScript&amp;rft&#95;id=https%3A%2F%2Ftypescript.codeplex.com%2Freleases%2Fview%2F95554&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-332cde540f8bc9ce8dd8689ac728553ea544d045-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-332cde540f8bc9ce8dd8689ac728553ea544d045-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/\">\"Announcing TypeScript 7.0\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Announcing+TypeScript+7.0&amp;rft&#95;id=https%3A%2F%2Fdevblogs.microsoft.com%2Ftypescript%2Fannouncing-typescript-7-0%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/microsoft/TypeScript/releases\">\"Releases · microsoft/TypeScript\"</a>. <i>GitHub</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180802062702/https://github.com/Microsoft/TypeScript/releases\">Archived</a> from the original on 2 August 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 December</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Releases+%C2%B7+microsoft%2FTypeScript&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fmicrosoft%2FTypeScript%2Freleases&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.typescriptlang.org/docs/handbook/type-compatibility.html\">\"Type Compatibility\"</a>. <i>TypeScript</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180312103740/http://www.typescriptlang.org/docs/handbook/type-compatibility.html\">Archived</a> from the original on 12 March 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 March</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TypeScript&amp;rft.atitle=Type+Compatibility&amp;rft&#95;id=https%3A%2F%2Fwww.typescriptlang.org%2Fdocs%2Fhandbook%2Ftype-compatibility.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://fsharp.org/history/hopl-final/hopl-fsharp.pdf\">\"The Early History of F#\"</a> <span class=\"cs1-format\">(PDF)</span>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20240809075047/https://fsharp.org/history/hopl-final/hopl-fsharp.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 9 August 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">5 February</span> 2024</span>. <q>TypeScript was directly influenced by F#: one of the originators of TypeScript was Luke Hoban, who began TypeScript (then called Strada) immediately after working on F# 2.0. Recently he noted the influence of F# on early parts of the TypeScript design [Hoban 2017].</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Early+History+of+F%23&amp;rft&#95;id=https%3A%2F%2Ffsharp.org%2Fhistory%2Fhopl-final%2Fhopl-fsharp.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBright2012\" class=\"citation web cs1\">Bright, Peter (3 October 2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://arstechnica.com/information-technology/2012/10/microsoft-typescript-the-javascript-we-need-or-a-solution-looking-for-a-problem/\">\"Microsoft TypeScript: the JavaScript we need, or a solution looking for a problem?\"</a>. <i><a href=\"/wiki/Ars_Technica\" title=\"Ars Technica\">Ars Technica</a></i>. <a href=\"/wiki/Cond%C3%A9_Nast\" title=\"Condé Nast\">Condé Nast</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181009164414/https://arstechnica.com/information-technology/2012/10/microsoft-typescript-the-javascript-we-need-or-a-solution-looking-for-a-problem/\">Archived</a> from the original on 9 October 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 April</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Ars+Technica&amp;rft.atitle=Microsoft+TypeScript%3A+the+JavaScript+we+need%2C+or+a+solution+looking+for+a+problem%3F&amp;rft.date=2012-10-03&amp;rft.aulast=Bright&amp;rft.aufirst=Peter&amp;rft&#95;id=https%3A%2F%2Farstechnica.com%2Finformation-technology%2F2012%2F10%2Fmicrosoft-typescript-the-javascript-we-need-or-a-solution-looking-for-a-problem%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://code.visualstudio.com/docs/languages/typescript\">\"TypeScript Programming with Visual Studio Code\"</a>. <i>code.visualstudio.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220922080247/https://code.visualstudio.com/docs/languages/typescript\">Archived</a> from the original on 22 September 2022<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 February</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=code.visualstudio.com&amp;rft.atitle=TypeScript+Programming+with+Visual+Studio+Code&amp;rft&#95;id=https%3A%2F%2Fcode.visualstudio.com%2Fdocs%2Flanguages%2Ftypescript&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/borisyankov/DefinitelyTyped\">\"borisyankov/DefinitelyTyped\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20151101104210/https://github.com/borisyankov/DefinitelyTyped\">Archived</a> from the original on 1 November 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 April</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=borisyankov%2FDefinitelyTyped&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fborisyankov%2FDefinitelyTyped&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRosenwasser2026\" class=\"citation web cs1\">Rosenwasser, Daniel (8 July 2026). <a rel=\"nofollow\" class=\"external text\" href=\"https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/\">\"Announcing TypeScript 7.0\"</a>. <i>TypeScript</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20260714102339/https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/\">Archived</a> from the original on 14 July 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 July</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TypeScript&amp;rft.atitle=Announcing+TypeScript+7.0&amp;rft.date=2026-07-08&amp;rft.aulast=Rosenwasser&amp;rft.aufirst=Daniel&amp;rft&#95;id=https%3A%2F%2Fdevblogs.microsoft.com%2Ftypescript%2Fannouncing-typescript-7-0%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFoley2012\" class=\"citation web cs1\">Foley, Mary Jo (1 October 2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.zdnet.com/article/microsoft-takes-the-wraps-off-typescript-a-superset-of-javascript/\">\"Microsoft takes the wraps off TypeScript, a superset of JavaScript\"</a>. <i><a href=\"/wiki/ZDNet\" class=\"mw-redirect\" title=\"ZDNet\">ZDNet</a></i>. <a href=\"/wiki/CBS_Interactive\" class=\"mw-redirect\" title=\"CBS Interactive\">CBS Interactive</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20141113161248/http://www.zdnet.com/microsoft-takes-the-wraps-off-typescript-a-superset-of-javascript-7000004993/\">Archived</a> from the original on 13 November 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 April</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ZDNet&amp;rft.atitle=Microsoft+takes+the+wraps+off+TypeScript%2C+a+superset+of+JavaScript&amp;rft.date=2012-10-01&amp;rft.aulast=Foley&amp;rft.aufirst=Mary+Jo&amp;rft&#95;id=https%3A%2F%2Fwww.zdnet.com%2Farticle%2Fmicrosoft-takes-the-wraps-off-typescript-a-superset-of-javascript%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSomasegar2012\" class=\"citation web cs1\">Somasegar, S. (1 October 2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170926142536/https://blogs.msdn.microsoft.com/somasegar/2012/10/01/typescript-javascript-development-at-application-scale/\">\"TypeScript: JavaScript Development at Application Scale\"</a>. <i>Somasegar's blog</i>. Microsoft. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://blogs.msdn.com/b/somasegar/archive/2012/10/01/typescript-javascript-development-at-application-scale\">the original</a> on 26 September 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 April</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Somasegar%27s+blog&amp;rft.atitle=TypeScript%3A+JavaScript+Development+at+Application+Scale&amp;rft.date=2012-10-01&amp;rft.aulast=Somasegar&amp;rft.aufirst=S.&amp;rft&#95;id=http%3A%2F%2Fblogs.msdn.com%2Fb%2Fsomasegar%2Farchive%2F2012%2F10%2F01%2Ftypescript-javascript-development-at-application-scale&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBaxter-Reynolds2012\" class=\"citation web cs1\">Baxter-Reynolds, Matt (1 October 2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.zdnet.com/article/microsoft-typescript-can-the-father-of-c-save-us-from-the-tyranny-of-javascript/\">\"Microsoft TypeScript: Can the father of C# save us from the tyranny of JavaScript?\"</a>. <i><a href=\"/wiki/ZDNet\" class=\"mw-redirect\" title=\"ZDNet\">ZDNet</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140803030303/http://www.zdnet.com/microsoft-typescript-can-the-father-of-c-save-us-from-the-tyranny-of-javascript-7000005054/\">Archived</a> from the original on 3 August 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 April</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ZDNet&amp;rft.atitle=Microsoft+TypeScript%3A+Can+the+father+of+C%23+save+us+from+the+tyranny+of+JavaScript%3F&amp;rft.date=2012-10-01&amp;rft.aulast=Baxter-Reynolds&amp;rft.aufirst=Matt&amp;rft&#95;id=https%3A%2F%2Fwww.zdnet.com%2Farticle%2Fmicrosoft-typescript-can-the-father-of-c-save-us-from-the-tyranny-of-javascript%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJackson2012\" class=\"citation web cs1\">Jackson, Joab (1 October 2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20131217223751/http://www.cio.com/article/717679/Microsoft_Augments_Javascript_for_Large_scale_Development\">\"Microsoft Augments Javascript for Large-scale Development\"</a>. <i>CIO</i>. <a href=\"/wiki/IDG_Enterprise\" class=\"mw-redirect\" title=\"IDG Enterprise\">IDG Enterprise</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cio.com/article/717679/Microsoft_Augments_Javascript_for_Large_scale_Development\">the original</a> on 17 December 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 April</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=CIO&amp;rft.atitle=Microsoft+Augments+Javascript+for+Large-scale+Development&amp;rft.date=2012-10-01&amp;rft.aulast=Jackson&amp;rft.aufirst=Joab&amp;rft&#95;id=http%3A%2F%2Fwww.cio.com%2Farticle%2F717679%2FMicrosoft&#95;Augments&#95;Javascript&#95;for&#95;Large&#95;scale&#95;Development&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ATypeScript\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐cgcss\nCached time: 20260918163235\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.534 seconds\nReal time usage: 0.671 seconds\nPreprocessor visited node count: 1578/1000000\nRevision size: 8838/2097152 bytes\nPost‐expand include size: 41485/2097152 bytes\nTemplate argument size: 4012/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 34078/5000000 bytes\nLua time usage: 0.397/10.000 seconds\nLua memory usage: 11735861/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  613.702      1 -total\n 67.33%  413.233      2 Template:Infobox\n 60.43%  370.841      1 Template:Infobox_programming_language\n 49.07%  301.171      1 Template:Infobox_software/simple\n 42.88%  263.126      3 Template:Wikidata\n 14.33%   87.914      1 Template:Short_description\n 13.78%   84.563     12 Template:Cite_web\n  8.18%   50.227      2 Template:Start_date_and_age\n  7.83%   48.046      2 Template:Pagetype\n  4.63%   28.392      1 Template:For\n-->\n\n<!-- Render ID 8db69df8-b37e-11f1-b30e-1dc09db57417 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Manuscript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Anders Hejlsberg",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Annotation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache License 2.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ArkTS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ars Technica",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AssemblyScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AtScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Babel (transcompiler)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bun (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CBS Interactive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Client-side",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CodePlex",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Condé Nast",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D3.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Delphi (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deno (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duck typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ECMAScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Go (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IDG Enterprise",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Include directive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JQuery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Library (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MongoDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object file",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "React.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Self-hosting (compilers)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server-side",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source-to-source compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Structural type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turbo Pascal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ZDNet",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language and superset of JavaScript",
+          "page_image_free": "Typescript.svg",
+          "wikibase_item": "Q978185"
+        }
+      }
+    }
+  ]
+}

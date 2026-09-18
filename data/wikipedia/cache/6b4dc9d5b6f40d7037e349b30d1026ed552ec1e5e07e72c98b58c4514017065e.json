@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Interpreter (computing)",
+    "url": "https://en.wikipedia.org/wiki/Interpreter_%28computing%29",
+    "summary": "Software that executes source code directly This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Interpreter\" computing – news · newspapers · books · scholar · JSTOR ( September 2025 ) ( Learn how and when to remove this message ) W3sDesign Interpreter Design Pattern UML Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e In computing , an interpreter is software that executes source code without first compiling it to machine code . An interpreted runtime environment differs from one that processes CPU -native executable code which requires translating source code before executing it. An interpreter may translate the source code to an intermediate format, such as bytecode . A hybrid environment may translate the bytecode to machine code via just-in-time compilation , as in the case of .NET and Java , instead of interpreting the bytecode directly. Before the widespread adoption of interpreters, the execution of computer programs often relied on compilers , which translate and compile source code into machine code. Early runtime environments for Lisp and BASIC could parse source code directly. Thereafter, runtime environments were developed for languages (such as Perl , Raku , Python , MATLAB , and Ruby ), which translated source code into an intermediate format before executing to enhance runtime performance . Code that runs in an interpreter can be run on any platform that has a compatible interpreter. The same code can be distributed to any such platform, instead of an executable having to be built for each platform. Although each programming language is usually associated with a particular runtime environment, a language can be used in different environments. Interpreters have been constructed for languages traditionally associated with compilation , such as ALGOL , Fortran , COBOL , C and C++ .",
+    "text": "Software that executes source code directly This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Interpreter\" computing – news · newspapers · books · scholar · JSTOR ( September 2025 ) ( Learn how and when to remove this message ) W3sDesign Interpreter Design Pattern UML Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e In computing , an interpreter is software that executes source code without first compiling it to machine code . An interpreted runtime environment differs from one that processes CPU -native executable code which requires translating source code before executing it. An interpreter may translate the source code to an intermediate format, such as bytecode . A hybrid environment may translate the bytecode to machine code via just-in-time compilation , as in the case of .NET and Java , instead of interpreting the bytecode directly. Before the widespread adoption of interpreters, the execution of computer programs often relied on compilers , which translate and compile source code into machine code. Early runtime environments for Lisp and BASIC could parse source code directly. Thereafter, runtime environments were developed for languages (such as Perl , Raku , Python , MATLAB , and Ruby ), which translated source code into an intermediate format before executing to enhance runtime performance . Code that runs in an interpreter can be run on any platform that has a compatible interpreter. The same code can be distributed to any such platform, instead of an executable having to be built for each platform. Although each programming language is usually associated with a particular runtime environment, a language can be used in different environments. Interpreters have been constructed for languages traditionally associated with compilation , such as ALGOL , Fortran , COBOL , C and C++ .",
+    "links": [
+      ".NET",
+      "ALGOL",
+      "Ahead-of-time compilation",
+      "Android Runtime",
+      "BASIC interpreter",
+      "BEAM (Erlang virtual machine)",
+      "Bytecode",
+      "C (programming language)",
+      "C++",
+      "COBOL",
+      "CPU",
+      "CPython",
+      "Clang",
+      "Common Language Runtime",
+      "Compile and go system",
+      "Compile time",
+      "Compiler",
+      "Compilers",
+      "Compiling",
+      "Computer program",
+      "Computer programs",
+      "Computing",
+      "Crt0",
+      "Dynamic recompilation",
+      "Executable",
+      "Executable code",
+      "Execution (computers)",
+      "Execution (computing)",
+      "Fortran",
+      "GNU Compiler Collection",
+      "Glasgow Haskell Compiler",
+      "Intermediate representation",
+      "Java (programming language)",
+      "Java virtual machine",
+      "Just-in-time compilation",
+      "LLVM",
+      "Linker (computing)",
+      "Lisp (programming language)",
+      "LuaJIT",
+      "MATLAB",
+      "Machine code",
+      "Meta-tracing",
+      "Microcode",
+      "Microsoft Visual C++",
+      "Mono (software)",
+      "Node.js",
+      "Object code",
+      "Objective-C",
+      "Optimizing compiler",
+      "Perl",
+      "Precompilation",
+      "PyPy",
+      "Python (programming language)",
+      "Raku (programming language)",
+      "Ruby (programming language)",
+      "Runtime environment",
+      "Runtime performance",
+      "Runtime system",
+      "Software",
+      "Software compatibility",
+      "Source code",
+      "Source-to-source compiler",
+      "Swift (programming language)",
+      "Tracing just-in-time compilation",
+      "Translator (computing)",
+      "Unified Modeling Language",
+      "V8 (JavaScript engine)",
+      "Virtual machine",
+      "Zend Engine"
+    ],
+    "page_id": 59868,
+    "revision_id": 1369367199,
+    "retrieved_at": "2026-09-18T16:41:39.492737+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260605201840|1357974328",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 59868,
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "revisions": [
+              {
+                "revid": 1369367199,
+                "parentid": 1357974328
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "W3sDesign_Interpreter_Design_Pattern_UML.jpg",
+              "wikibase-shortdesc": "Software that executes source code directly",
+              "wikibase_item": "Q183065"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Interpreter (computing)",
+        "pageid": 59868,
+        "revid": 1369367199,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Software that executes source code directly</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-More&#95;citations&#95;needed plainlinks metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">more citations</a></b>.<span class=\"hide-when-compact\"> Please help <a href=\"/wiki/Special:EditPage/Interpreter_(computing)\" title=\"Special:EditPage/Interpreter (computing)\">improve this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing for beginners\">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href=\"/wiki/Wikipedia:Verifiability#Burden_of_evidence\" title=\"Wikipedia:Verifiability\">removed</a>.<br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Interpreter%22+computing\">\"Interpreter\"&#160;computing</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Interpreter%22+computing+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Interpreter%22+computing&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Interpreter%22+computing+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Interpreter%22+computing\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Interpreter%22+computing&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">September 2025</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<figure typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:W3sDesign_Interpreter_Design_Pattern_UML.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/33/W3sDesign_Interpreter_Design_Pattern_UML.jpg/330px-W3sDesign_Interpreter_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"116\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/3/33/W3sDesign_Interpreter_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x\" data-file-width=\"620\" data-file-height=\"240\" /></a><figcaption>W3sDesign Interpreter Design Pattern <a href=\"/wiki/Unified_Modeling_Language\" title=\"Unified Modeling Language\">UML</a> </figcaption></figure>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">Program execution</a></th></tr><tr><th class=\"sidebar-heading\">\nGeneral concepts</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Computer_program\" title=\"Computer program\">Code</a></li>\n<li><a href=\"/wiki/Translator_(computing)\" title=\"Translator (computing)\">Translation</a>\n<ul><li><a href=\"/wiki/Compiler\" title=\"Compiler\">Compiler</a></li>\n<li><a href=\"/wiki/Compile_time\" title=\"Compile time\">Compile time</a></li>\n<li><a href=\"/wiki/Optimizing_compiler\" title=\"Optimizing compiler\">Optimizing compiler</a></li></ul></li>\n<li><a href=\"/wiki/Linker_(computing)\" title=\"Linker (computing)\"> Linking</a></li>\n<li><a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">Execution</a>\n<ul><li><a href=\"/wiki/Runtime_system\" title=\"Runtime system\">Runtime system</a></li>\n<li><a href=\"/wiki/Executable\" title=\"Executable\">Executable</a></li>\n<li><a class=\"mw-selflink selflink\">Interpreter</a></li>\n<li><a href=\"/wiki/Virtual_machine\" title=\"Virtual machine\">Virtual machine</a></li></ul></li>\n<li><a href=\"/wiki/Intermediate_representation\" title=\"Intermediate representation\">Intermediate representation</a> (IR)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nTypes of code</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Source_code\" title=\"Source code\">Source code</a></li>\n<li><a href=\"/wiki/Object_code\" title=\"Object code\">Object code</a></li>\n<li><a href=\"/wiki/Bytecode\" title=\"Bytecode\">Bytecode</a></li>\n<li><a href=\"/wiki/Machine_code\" title=\"Machine code\">Machine code</a></li>\n<li><a href=\"/wiki/Microcode\" title=\"Microcode\">Microcode</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nCompilation strategies</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Ahead-of-time_compilation\" title=\"Ahead-of-time compilation\">Ahead-of-time</a> (AOT)</li>\n<li><a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">Just-in-time</a> (JIT)\n<ul><li><a href=\"/wiki/Tracing_just-in-time_compilation\" title=\"Tracing just-in-time compilation\">Tracing just-in-time</a></li>\n<li><a href=\"/wiki/Compile_and_go_system\" title=\"Compile and go system\">Compile and go system</a></li></ul></li>\n<li><a href=\"/wiki/Precompilation\" class=\"mw-redirect\" title=\"Precompilation\">Precompilation</a></li>\n<li><a href=\"/wiki/Source-to-source_compiler\" title=\"Source-to-source compiler\">Transcompilation</a></li>\n<li><a href=\"/wiki/Dynamic_recompilation\" title=\"Dynamic recompilation\">Recompilation</a></li>\n<li><a href=\"/wiki/Meta-tracing\" title=\"Meta-tracing\">Meta-tracing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable runtimes</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Android_Runtime\" title=\"Android Runtime\">Android Runtime</a> (ART)</li>\n<li><a href=\"/wiki/BEAM_(Erlang_virtual_machine)\" title=\"BEAM (Erlang virtual machine)\">BEAM</a> (Erlang)</li>\n<li><a href=\"/wiki/Common_Language_Runtime\" title=\"Common Language Runtime\">Common Language Runtime</a> (CLR) and&#160;<a href=\"/wiki/Mono_(software)#Code_Execution_Engine\" title=\"Mono (software)\">Mono</a></li>\n<li><a href=\"/wiki/CPython\" title=\"CPython\">CPython</a> and&#160;<a href=\"/wiki/PyPy\" title=\"PyPy\">PyPy</a></li>\n<li><a href=\"/wiki/Crt0\" title=\"Crt0\">crt0</a> (<a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> target-specific initializer)</li>\n<li><a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">Java virtual machine</a> (JVM)</li>\n<li><a href=\"/wiki/LuaJIT\" title=\"LuaJIT\">LuaJIT</a></li>\n<li><a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a> and&#160;<a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>'s</li>\n<li><a href=\"/wiki/V8_(JavaScript_engine)\" title=\"V8 (JavaScript engine)\">V8</a> and&#160;<a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a></li>\n<li><a href=\"/wiki/Zend_Engine\" title=\"Zend Engine\">Zend Engine</a> (PHP)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable compilers &amp; toolchains</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GNU Compiler Collection</a> (GCC)</li>\n<li><a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a> and&#160;<a href=\"/wiki/Clang\" title=\"Clang\">Clang</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">MSVC</a></li>\n<li><a href=\"/wiki/Glasgow_Haskell_Compiler\" title=\"Glasgow Haskell Compiler\">Glasgow Haskell Compiler</a> (GHC)</li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Program_execution\" title=\"Template:Program execution\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Program_execution\" title=\"Template talk:Program execution\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Program_execution\" title=\"Special:EditPage/Template:Program execution\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, an <b>interpreter</b> is <a href=\"/wiki/Software\" title=\"Software\">software</a> that <a href=\"/wiki/Execution_(computers)\" class=\"mw-redirect\" title=\"Execution (computers)\">executes</a> <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> without first <a href=\"/wiki/Compiling\" class=\"mw-redirect\" title=\"Compiling\">compiling</a> it to <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a>. An interpreted <a href=\"/wiki/Runtime_environment\" class=\"mw-redirect\" title=\"Runtime environment\">runtime environment</a> differs from one that processes <a href=\"/wiki/CPU\" class=\"mw-redirect\" title=\"CPU\">CPU</a>-native <a href=\"/wiki/Executable_code\" class=\"mw-redirect\" title=\"Executable code\">executable code</a> which requires translating source code before executing it. An interpreter may translate the source code to an intermediate format, such as <a href=\"/wiki/Bytecode\" title=\"Bytecode\">bytecode</a>. A hybrid environment may translate the bytecode to machine code via <a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">just-in-time compilation</a>, as in the case of <a href=\"/wiki/.NET\" title=\".NET\">.NET</a> and <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>, instead of interpreting the bytecode directly.\n</p><p>Before the widespread adoption of interpreters, the execution of <a href=\"/wiki/Computer_programs\" class=\"mw-redirect\" title=\"Computer programs\">computer programs</a> often relied on <a href=\"/wiki/Compilers\" class=\"mw-redirect\" title=\"Compilers\">compilers</a>, which translate and compile source code into machine code. Early runtime environments for <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a> and <a href=\"/wiki/BASIC_interpreter\" title=\"BASIC interpreter\">BASIC</a> could parse source code directly. Thereafter, runtime environments  were developed for languages (such as <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>, <a href=\"/wiki/Raku_(programming_language)\" title=\"Raku (programming language)\">Raku</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/MATLAB\" title=\"MATLAB\">MATLAB</a>, and <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>), which translated source code into an intermediate format before executing to enhance <a href=\"/wiki/Runtime_performance\" class=\"mw-redirect\" title=\"Runtime performance\">runtime performance</a>.\n</p><p>Code that runs in an interpreter can be run on any platform that has a <a href=\"/wiki/Software_compatibility\" class=\"mw-redirect\" title=\"Software compatibility\">compatible</a> interpreter. The same code can be distributed to any such platform, instead of an <a href=\"/wiki/Executable\" title=\"Executable\">executable</a> having to be built for each platform. Although each programming language is usually associated with a particular runtime environment, a language can be used in different environments. Interpreters have been constructed for languages traditionally associated with <a href=\"/wiki/Compiler\" title=\"Compiler\">compilation</a>, such as <a href=\"/wiki/ALGOL\" title=\"ALGOL\">ALGOL</a>, <a href=\"/wiki/Fortran\" title=\"Fortran\">Fortran</a>, <a href=\"/wiki/COBOL\" title=\"COBOL\">COBOL</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> and <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐kwbxw\nCached time: 20260918164205\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.099 seconds\nReal time usage: 0.168 seconds\nPreprocessor visited node count: 241/1000000\nRevision size: 2125/2097152 bytes\nPost‐expand include size: 16094/2097152 bytes\nTemplate argument size: 513/2097152 bytes\nHighest expansion depth: 9/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 10921/5000000 bytes\nLua time usage: 0.071/10.000 seconds\nLua memory usage: 2156095/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  141.044      1 -total\n 37.62%   53.061      1 Template:Short_description\n 33.89%   47.800      1 Template:Program_execution\n 28.41%   40.073      1 Template:Needs_sources\n 25.84%   36.447      1 Template:Ambox\n 22.20%   31.316      2 Template:Pagetype\n  9.29%   13.105      2 Template:Main_other\n  8.57%   12.094      1 Template:SDcat\n  6.98%    9.842      1 Template:Find_sources_mainspace\n  0.92%    1.300      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID e175baba-b37f-11f1-b6e7-853de3398146 -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Program execution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": ".NET",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ahead-of-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC interpreter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BEAM (Erlang virtual machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "COBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPython",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Language Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile and go system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer programs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crt0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic recompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computers)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fortran",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glasgow Haskell Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intermediate representation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linker (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LuaJIT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MATLAB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meta-tracing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mono (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Optimizing compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Precompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PyPy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raku (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime performance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software compatibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source-to-source compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tracing just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Translator (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unified Modeling Language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V8 (JavaScript engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Engine",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Program execution",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Referencing for beginners",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Software that executes source code directly",
+          "page_image_free": "W3sDesign_Interpreter_Design_Pattern_UML.jpg",
+          "wikibase_item": "Q183065"
+        }
+      }
+    }
+  ]
+}

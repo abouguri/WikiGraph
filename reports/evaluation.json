@@ -5,7 +5,7 @@
   "source_kinds": [
     "synthetic"
   ],
-  "method": "rules-v1",
+  "method": "rules-v2",
   "micro": {
     "tp": 30,
     "fp": 0,

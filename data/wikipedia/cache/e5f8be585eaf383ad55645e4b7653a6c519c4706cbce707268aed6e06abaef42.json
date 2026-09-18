@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Operating system",
+    "url": "https://en.wikipedia.org/wiki/Operating_system",
+    "summary": "Software that manages computer hardware resources Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e An operating system ( OS ) is system software that manages computer hardware and software resources, and provides common services for computer programs . Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time , mass storage , peripherals, and other resources. For hardware functions such as input and output and memory allocation , the operating system acts as an intermediary between programs and the computer hardware, although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers . As of November 2025 [update] , Android is the most popular operating system, with a 38% market share, followed by Microsoft Windows at 33%, iOS and iPadOS at 15%, macOS at 4%, and Linux at 1%. Android, iOS, and iPadOS are operating systems for mobile devices such as smartphones, while Windows, macOS, and Linux are for desktop computers. Linux distributions are dominant in the server and supercomputing sectors and number in the thousands. Other specialized classes of operating systems (special-purpose operating systems), such as embedded and real-time systems, exist for many applications. Security-focused operating systems also exist. Some operating systems have low system requirements (e.g. light-weight Linux distribution ). Others may have higher system requirements. Some operating systems require installation or may come pre-installed with purchased computers ( OEM -installation), whereas others may run directly from media (i.e. live CD ) or flash memory (i.e. a LiveUSB from a USB stick). ^ Jia, Shian; Wang, Xinbo; Song, Mingli; Chen, Gang (15 November 2024). \"Agent Centric Operating System – a Comprehensive Review and Outlook for Operating System\". arXiv : 2411.17710 [ cs.DC ]. ^ Stallings (2005). Operating Systems, Internals and Design Principles . Pearson: Prentice Hall. p. 6. ^ Dhotre, I.A. (2009). Operating Systems . Technical Publications. p. 1. ^ \"Operating System Market Share Worldwide\" . StatCounter Global Stats . Retrieved 20 December 2024 . ^ \"Major Distributions An overview of major Linux distributions and FreeBSD\" . Distrowatch . Archived from the original on 2 April 2013 . Retrieved 15 November 2024 . ^ Andrus, Brian (8 July 2024). \"Top 12 Most Popular Linux Distros\" . DreamHost Blog . Retrieved 15 November 2024 . ^ Silberschatz, Abraham; Galvin, Peter B.; Gagne, Greg (2005). \"VII. Special-Purpose Systems\" . Operating System Concepts (Seventh ed.). Wiley. ISBN 978-0-471-69466-3 . Archived from the original on 13 June 2021 . Retrieved 8 February 2021 . ^ \"Special-Purpose Operating Systems - RWTH AACHEN UNIVERSITY Institute for Automation of Complex Power Systems - English\" . www.acs.eonerc.rwth-aachen.de . Archived from the original on 14 June 2021 . Retrieved 8 February 2021 .",
+    "text": "Software that manages computer hardware resources Operating systems Common features Process management Interrupts Memory management File system Device drivers Networking Security Input/output v t e An operating system ( OS ) is system software that manages computer hardware and software resources, and provides common services for computer programs . Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time , mass storage , peripherals, and other resources. For hardware functions such as input and output and memory allocation , the operating system acts as an intermediary between programs and the computer hardware, although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers . As of November 2025 [update] , Android is the most popular operating system, with a 38% market share, followed by Microsoft Windows at 33%, iOS and iPadOS at 15%, macOS at 4%, and Linux at 1%. Android, iOS, and iPadOS are operating systems for mobile devices such as smartphones, while Windows, macOS, and Linux are for desktop computers. Linux distributions are dominant in the server and supercomputing sectors and number in the thousands. Other specialized classes of operating systems (special-purpose operating systems), such as embedded and real-time systems, exist for many applications. Security-focused operating systems also exist. Some operating systems have low system requirements (e.g. light-weight Linux distribution ). Others may have higher system requirements. Some operating systems require installation or may come pre-installed with purchased computers ( OEM -installation), whereas others may run directly from media (i.e. live CD ) or flash memory (i.e. a LiveUSB from a USB stick). ^ Jia, Shian; Wang, Xinbo; Song, Mingli; Chen, Gang (15 November 2024). \"Agent Centric Operating System – a Comprehensive Review and Outlook for Operating System\". arXiv : 2411.17710 [ cs.DC ]. ^ Stallings (2005). Operating Systems, Internals and Design Principles . Pearson: Prentice Hall. p. 6. ^ Dhotre, I.A. (2009). Operating Systems . Technical Publications. p. 1. ^ \"Operating System Market Share Worldwide\" . StatCounter Global Stats . Retrieved 20 December 2024 . ^ \"Major Distributions An overview of major Linux distributions and FreeBSD\" . Distrowatch . Archived from the original on 2 April 2013 . Retrieved 15 November 2024 . ^ Andrus, Brian (8 July 2024). \"Top 12 Most Popular Linux Distros\" . DreamHost Blog . Retrieved 15 November 2024 . ^ Silberschatz, Abraham; Galvin, Peter B.; Gagne, Greg (2005). \"VII. Special-Purpose Systems\" . Operating System Concepts (Seventh ed.). Wiley. ISBN 978-0-471-69466-3 . Archived from the original on 13 June 2021 . Retrieved 8 February 2021 . ^ \"Special-Purpose Operating Systems - RWTH AACHEN UNIVERSITY Institute for Automation of Complex Power Systems - English\" . www.acs.eonerc.rwth-aachen.de . Archived from the original on 14 June 2021 . Retrieved 8 February 2021 .",
+    "links": [
+      "Android (operating system)",
+      "Application software",
+      "ArXiv (identifier)",
+      "Computer hardware",
+      "Computer network",
+      "Computer program",
+      "Computer security",
+      "Daemon (computing)",
+      "Device driver",
+      "Embedded system",
+      "File system",
+      "IOS",
+      "IPadOS",
+      "ISBN (identifier)",
+      "Input and output",
+      "Input/output",
+      "Interrupt",
+      "Light-weight Linux distribution",
+      "Linux",
+      "Linux distribution",
+      "Live CD",
+      "MacOS",
+      "Mass storage",
+      "Memory allocation",
+      "Memory management",
+      "Microsoft Windows",
+      "OEM",
+      "Operating system",
+      "Process management (computing)",
+      "Scheduler (computing)",
+      "Scheduling (computing)",
+      "Security-focused operating system",
+      "Software",
+      "Supercomputer",
+      "System call",
+      "System software",
+      "Time-sharing",
+      "USB flash drive",
+      "User (computing)",
+      "Web server"
+    ],
+    "page_id": 22194,
+    "revision_id": 1372175185,
+    "retrieved_at": "2026-09-18T16:42:10.525183+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260827165114|1371648353",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 22194,
+            "ns": 0,
+            "title": "Operating system",
+            "revisions": [
+              {
+                "revid": 1372175185,
+                "parentid": 1371648353
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Operating_system_placement.svg",
+              "wikibase-shortdesc": "Software that manages computer hardware resources",
+              "wikibase_item": "Q9135"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Operating system",
+        "pageid": 22194,
+        "revid": 1372175185,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Software that manages computer hardware resources</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><a class=\"mw-selflink selflink\">Operating systems</a></th></tr><tr><td class=\"sidebar-image\"><figure class=\"mw-halign-center noresize mw-ext-imagemap-desc-bottom-right\" typeof=\"mw:File\"><span><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/250px-Operating_system_placement.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"165\" height=\"244\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/330px-Operating_system_placement.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"250\" data-file-height=\"370\" usemap=\"#ImageMap_424993074d1faf41\" resource=\"/wiki/File:Operating_system_placement.svg\" /></span><map name=\"ImageMap_424993074d1faf41\"><area href=\"/wiki/User_(computing)\" coords=\"1,1,165,59\" alt=\"User\" title=\"User\" /><area href=\"/wiki/Application_software\" coords=\"1,60,165,119\" alt=\"Application\" title=\"Application\" /><area href=\"/wiki/Operating_system\" coords=\"1,119,165,178\" alt=\"Operating system\" title=\"Operating system\" /><area href=\"/wiki/Computer_hardware\" coords=\"1,179,165,237\" alt=\"Hardware\" title=\"Hardware\" /></map><figcaption></figcaption></figure></td></tr><tr><th class=\"sidebar-heading\" style=\"font-size:110%;\">\nCommon features</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Process_management_(computing)\" title=\"Process management (computing)\">Process management</a></li>\n<li><a href=\"/wiki/Interrupt\" title=\"Interrupt\">Interrupts</a></li>\n<li><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></li>\n<li><a href=\"/wiki/File_system\" title=\"File system\">File system</a></li>\n<li><a href=\"/wiki/Device_driver\" title=\"Device driver\">Device drivers</a></li>\n<li><a href=\"/wiki/Computer_network\" title=\"Computer network\">Networking</a></li>\n<li><a href=\"/wiki/Computer_security\" title=\"Computer security\">Security</a></li>\n<li><a href=\"/wiki/Input/output\" title=\"Input/output\">Input/output</a></li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:OS\" title=\"Template:OS\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:OS\" title=\"Template talk:OS\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:OS\" title=\"Special:EditPage/Template:OS\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>An <b>operating system</b> (<b>OS</b>) is <a href=\"/wiki/System_software\" title=\"System software\">system software</a> that manages <a href=\"/wiki/Computer_hardware\" title=\"Computer hardware\">computer hardware</a> and <a href=\"/wiki/Software\" title=\"Software\">software</a> resources, and provides common <a href=\"/wiki/Daemon_(computing)\" title=\"Daemon (computing)\">services</a> for <a href=\"/wiki/Computer_program\" title=\"Computer program\">computer programs</a>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p><a href=\"/wiki/Time-sharing\" title=\"Time-sharing\">Time-sharing</a> operating systems <a href=\"/wiki/Scheduler_(computing)\" class=\"mw-redirect\" title=\"Scheduler (computing)\">schedule tasks</a> for efficient use of the system and may also include accounting software for cost allocation of <a href=\"/wiki/Scheduling_(computing)\" title=\"Scheduling (computing)\">processor time</a>, <a href=\"/wiki/Mass_storage\" title=\"Mass storage\">mass storage</a>, peripherals, and other resources.\n</p><p>For hardware functions such as <a href=\"/wiki/Input_and_output\" class=\"mw-redirect\" title=\"Input and output\">input and output</a> and <a href=\"/wiki/Memory_allocation\" class=\"mw-redirect\" title=\"Memory allocation\">memory allocation</a>, the operating system acts as an intermediary between programs and the computer hardware,<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> although the application code is usually executed directly by the hardware and frequently makes <a href=\"/wiki/System_call\" title=\"System call\">system calls</a> to an OS function or is <a href=\"/wiki/Interrupt\" title=\"Interrupt\">interrupted</a> by it. Operating systems are found on many devices that contain a computer&#160;&#8211;&#32;from cellular phones and video game consoles to <a href=\"/wiki/Web_server\" title=\"Web server\">web servers</a> and <a href=\"/wiki/Supercomputer\" title=\"Supercomputer\">supercomputers</a>.\n</p><p>As of November&#160;2025<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Operating_system&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Operating_system&amp;action=edit\">&#91;update&#93;</a></sup>, <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a> is the most popular operating system, with a 38% market share, followed by <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Microsoft Windows</a> at 33%, <a href=\"/wiki/IOS\" title=\"IOS\">iOS</a> and <a href=\"/wiki/IPadOS\" title=\"IPadOS\">iPadOS</a> at 15%, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a> at 4%, and <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> at 1%. Android, iOS, and iPadOS are operating systems for mobile devices such as smartphones, while Windows, macOS, and Linux are for desktop computers.<sup id=\"cite&#95;ref-gs.statcounter.com&#95;4-0\" class=\"reference\"><a href=\"#cite_note-gs.statcounter.com-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Linux_distribution\" title=\"Linux distribution\">Linux distributions</a> are dominant in the server and supercomputing sectors and number in the thousands.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> Other specialized classes of operating systems (special-purpose operating systems),<sup id=\"cite&#95;ref-auto&#95;7-0\" class=\"reference\"><a href=\"#cite_note-auto-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> such as <a href=\"/wiki/Embedded_system\" title=\"Embedded system\">embedded</a> and real-time systems, exist for many applications. <a href=\"/wiki/Security-focused_operating_system\" class=\"mw-redirect\" title=\"Security-focused operating system\">Security-focused operating systems</a> also exist. Some operating systems have low system requirements (e.g. <a href=\"/wiki/Light-weight_Linux_distribution\" class=\"mw-redirect\" title=\"Light-weight Linux distribution\">light-weight Linux distribution</a>). Others may have higher system requirements.\n</p><p>Some operating systems require installation or may come pre-installed with purchased computers (<a href=\"/wiki/OEM\" class=\"mw-redirect\" title=\"OEM\">OEM</a>-installation), whereas others may run directly from media (i.e. <a href=\"/wiki/Live_CD\" title=\"Live CD\">live CD</a>) or flash memory (i.e. a LiveUSB from a <a href=\"/wiki/USB_flash_drive\" title=\"USB flash drive\">USB</a> stick).\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\">\n<style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFJiaWangSongChen2024\" class=\"citation arxiv cs1\">Jia, Shian; Wang, Xinbo; Song, Mingli; Chen, Gang (15 November 2024). \"Agent Centric Operating System – a Comprehensive Review and Outlook for Operating System\". <a href=\"/wiki/ArXiv_(identifier)\" class=\"mw-redirect\" title=\"ArXiv (identifier)\">arXiv</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://arxiv.org/abs/2411.17710\">2411.17710</a></span> [<a rel=\"nofollow\" class=\"external text\" href=\"https://arxiv.org/archive/cs.DC\">cs.DC</a>].</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=preprint&amp;rft.jtitle=arXiv&amp;rft.atitle=Agent+Centric+Operating+System+%E2%80%93+a+Comprehensive+Review+and+Outlook+for+Operating+System&amp;rft.date=2024-11-15&amp;rft&#95;id=info%3Aarxiv%2F2411.17710&amp;rft.aulast=Jia&amp;rft.aufirst=Shian&amp;rft.au=Wang%2C+Xinbo&amp;rft.au=Song%2C+Mingli&amp;rft.au=Chen%2C+Gang&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStallings2005\" class=\"citation book cs1\">Stallings (2005). <i>Operating Systems, Internals and Design Principles</i>. Pearson: Prentice Hall. p.&#160;6.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Operating+Systems%2C+Internals+and+Design+Principles&amp;rft.place=Pearson&amp;rft.pages=6&amp;rft.pub=Prentice+Hall&amp;rft.date=2005&amp;rft.au=Stallings&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDhotre2009\" class=\"citation book cs1\">Dhotre, I.A. (2009). <i>Operating Systems</i>. Technical Publications. p.&#160;1.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Operating+Systems.&amp;rft.pages=1&amp;rft.pub=Technical+Publications&amp;rft.date=2009&amp;rft.aulast=Dhotre&amp;rft.aufirst=I.A.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-gs.statcounter.com-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-gs.statcounter.com_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/os-market-share\">\"Operating System Market Share Worldwide\"</a>. <i>StatCounter Global Stats</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">20 December</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=StatCounter+Global+Stats&amp;rft.atitle=Operating+System+Market+Share+Worldwide&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2Fos-market-share&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://distrowatch.com/dwres.php?resource=major\">\"Major Distributions An overview of major Linux distributions and FreeBSD\"</a>. <i>Distrowatch</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20130402195650/http://distrowatch.com/dwres.php?resource=major\">Archived</a> from the original on 2 April 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 November</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Distrowatch&amp;rft.atitle=Major+Distributions+An+overview+of+major+Linux+distributions+and+FreeBSD&amp;rft&#95;id=https%3A%2F%2Fdistrowatch.com%2Fdwres.php%3Fresource%3Dmajor&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAndrus2024\" class=\"citation web cs1\">Andrus, Brian (8 July 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dreamhost.com/blog/linux-distros/\">\"Top 12 Most Popular Linux Distros\"</a>. <i>DreamHost Blog</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 November</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=DreamHost+Blog&amp;rft.atitle=Top+12+Most+Popular+Linux+Distros&amp;rft.date=2024-07-08&amp;rft.aulast=Andrus&amp;rft.aufirst=Brian&amp;rft&#95;id=https%3A%2F%2Fwww.dreamhost.com%2Fblog%2Flinux-distros%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-auto-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-auto_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSilberschatzGalvinGagne2005\" class=\"citation book cs1\">Silberschatz, Abraham; Galvin, Peter B.; Gagne, Greg (2005). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.oreilly.com/library/view/operating-system-concepts/9780471694663/pt07.html\">\"VII. Special-Purpose Systems\"</a>. <i>Operating System Concepts</i> (Seventh&#160;ed.). Wiley. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-471-69466-3\" title=\"Special:BookSources/978-0-471-69466-3\"><bdi>978-0-471-69466-3</bdi></a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210613190049/https://www.oreilly.com/library/view/operating-system-concepts/9780471694663/pt07.html\">Archived</a> from the original on 13 June 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 February</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=VII.+Special-Purpose+Systems&amp;rft.btitle=Operating+System+Concepts&amp;rft.edition=Seventh&amp;rft.pub=Wiley&amp;rft.date=2005&amp;rft.isbn=978-0-471-69466-3&amp;rft.aulast=Silberschatz&amp;rft.aufirst=Abraham&amp;rft.au=Galvin%2C+Peter+B.&amp;rft.au=Gagne%2C+Greg&amp;rft&#95;id=https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Foperating-system-concepts%2F9780471694663%2Fpt07.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.acs.eonerc.rwth-aachen.de/cms/E-ON-ERC-ACS/Studium/Lehrveranstaltungen/~lrhs/Spezial-Betriebssysteme/?lidx=1\">\"Special-Purpose Operating Systems - RWTH AACHEN UNIVERSITY Institute for Automation of Complex Power Systems - English\"</a>. <i>www.acs.eonerc.rwth-aachen.de</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210614034001/https://www.acs.eonerc.rwth-aachen.de/cms/E-ON-ERC-ACS/Studium/Lehrveranstaltungen/~lrhs/Spezial-Betriebssysteme/?lidx=1\">Archived</a> from the original on 14 June 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 February</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.acs.eonerc.rwth-aachen.de&amp;rft.atitle=Special-Purpose+Operating+Systems+-+RWTH+AACHEN+UNIVERSITY+Institute+for+Automation+of+Complex+Power+Systems+-+English&amp;rft&#95;id=https%3A%2F%2Fwww.acs.eonerc.rwth-aachen.de%2Fcms%2FE-ON-ERC-ACS%2FStudium%2FLehrveranstaltungen%2F~lrhs%2FSpezial-Betriebssysteme%2F%3Flidx%3D1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOperating+system\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐xrksm\nCached time: 20260918164236\nCache expiry: 28800\nCache expiry source: Template:As_of (#time)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.368 seconds\nReal time usage: 0.483 seconds\nPreprocessor visited node count: 948/1000000\nRevision size: 4778/2097152 bytes\nPost‐expand include size: 21245/2097152 bytes\nTemplate argument size: 1364/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 29584/5000000 bytes\nLua time usage: 0.269/10.000 seconds\nLua memory usage: 5169621/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  452.873      1 -total\n 29.17%  132.094      1 Template:OS\n 28.62%  129.628      1 Template:Sidebar\n 21.34%   96.663      1 Template:Cite_arXiv\n 18.96%   85.852      1 Template:Short_description\n 12.11%   54.860      2 Template:Pagetype\n  7.59%   34.383      1 Template:Pp-vandalism\n  6.32%   28.634      4 Template:Cite_web\n  4.93%   22.348      1 Template:Use_dmy_dates\n  4.59%   20.790      3 Template:Cite_book\n-->\n\n<!-- Render ID f3efecb6-b37f-11f1-982f-795317646f8c -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer hardware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ArXiv (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer network",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer security",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Daemon (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Device driver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "File system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IPadOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input and output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interrupt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Light-weight Linux distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux distribution",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Live CD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mass storage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory allocation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OEM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process management (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheduler (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheduling (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Security-focused operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Supercomputer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System call",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Time-sharing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "USB flash drive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web server",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:OS",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:OS",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Software that manages computer hardware resources",
+          "page_image_free": "Operating_system_placement.svg",
+          "wikibase_item": "Q9135"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Barbara Liskov",
+    "url": "https://en.wikipedia.org/wiki/Barbara_Liskov",
+    "summary": "American computer scientist Barbara Liskov Liskov in 2010 Born Barbara Jane Huberman ( 1939-11-07 ) November 7, 1939 (age 86) Los Angeles, California, US Education University of California, Berkeley ( BA ) Stanford University ( MS , PhD ) Known for Venus ( operating system ) CLU Argus Thor ( object-oriented database ) Liskov substitution principle Spouse Nathan Liskov ​ ( m. 1970) ​ Children 1 Awards IEEE John von Neumann Medal (2004) A. M. Turing Award (2008) National Inventors Hall of Fame (2012) Computer Pioneer Award (2018) Scientific career Fields Computer science Workplaces Massachusetts Institute of Technology Thesis A Program to Play Chess End Games (1968) Doctoral advisor John McCarthy Doctoral students Maurice Herlihy J. Eliot Moss Sanjay Ghemawat Andrew Myers Dan R.K. Ports Barbara Jane Liskov ( née Huberman ; born November 7, 1939) is an American computer scientist who has made pioneering contributions to programming languages and distributed computing . Her notable work includes the introduction of abstract data types and the accompanying principle of data abstraction , along with the Liskov substitution principle , which applies these ideas to object-oriented programming , subtyping , and inheritance . Her work was recognized with the 2008 Turing Award , the highest distinction in computer science. Liskov is one of the earliest women to have been granted a doctorate in computer science in the United States, and the second woman to receive the Turing Award. She is currently an Institute Professor and Ford Professor of Engineering at the Massachusetts Institute of Technology . ^ Barbara Liskov at the Mathematics Genealogy Project ^ \"Barbara Liskov\" . A.M. Turing Award . Association for Computing Machinery . Retrieved 28 August 2021 . ^ Barbara Liskov , Programming Methodology Group, MIT.",
+    "text": "American computer scientist Barbara Liskov Liskov in 2010 Born Barbara Jane Huberman ( 1939-11-07 ) November 7, 1939 (age 86) Los Angeles, California, US Education University of California, Berkeley ( BA ) Stanford University ( MS , PhD ) Known for Venus ( operating system ) CLU Argus Thor ( object-oriented database ) Liskov substitution principle Spouse Nathan Liskov ​ ( m. 1970) ​ Children 1 Awards IEEE John von Neumann Medal (2004) A. M. Turing Award (2008) National Inventors Hall of Fame (2012) Computer Pioneer Award (2018) Scientific career Fields Computer science Workplaces Massachusetts Institute of Technology Thesis A Program to Play Chess End Games (1968) Doctoral advisor John McCarthy Doctoral students Maurice Herlihy J. Eliot Moss Sanjay Ghemawat Andrew Myers Dan R.K. Ports Barbara Jane Liskov ( née Huberman ; born November 7, 1939) is an American computer scientist who has made pioneering contributions to programming languages and distributed computing . Her notable work includes the introduction of abstract data types and the accompanying principle of data abstraction , along with the Liskov substitution principle , which applies these ideas to object-oriented programming , subtyping , and inheritance . Her work was recognized with the 2008 Turing Award , the highest distinction in computer science. Liskov is one of the earliest women to have been granted a doctorate in computer science in the United States, and the second woman to receive the Turing Award. She is currently an Institute Professor and Ford Professor of Engineering at the Massachusetts Institute of Technology . ^ Barbara Liskov at the Mathematics Genealogy Project ^ \"Barbara Liskov\" . A.M. Turing Award . Association for Computing Machinery . Retrieved 28 August 2021 . ^ Barbara Liskov , Programming Methodology Group, MIT.",
+    "links": [
+      "Abstract data type",
+      "Abstraction (computer science)",
+      "Argus (programming language)",
+      "Bachelor of Arts",
+      "Birth name",
+      "CLU (programming language)",
+      "Computer Pioneer Award",
+      "Computer science",
+      "Computer scientist",
+      "Database",
+      "Distributed computing",
+      "Doctor of Philosophy",
+      "Doctoral advisor",
+      "IEEE John von Neumann Medal",
+      "Inheritance (object-oriented programming)",
+      "J. Eliot Moss",
+      "John McCarthy (computer scientist)",
+      "Liskov substitution principle",
+      "List of Institute Professors at the Massachusetts Institute of Technology",
+      "Massachusetts Institute of Technology",
+      "Master of Science",
+      "Mathematics Genealogy Project",
+      "Maurice Herlihy",
+      "National Inventors Hall of Fame",
+      "Object-oriented programming",
+      "Operating system",
+      "Programming languages",
+      "Sanjay Ghemawat",
+      "Stanford University",
+      "Subtyping",
+      "Thesis",
+      "Turing Award",
+      "University of California, Berkeley"
+    ],
+    "page_id": 1507538,
+    "revision_id": 1373748520,
+    "retrieved_at": "2026-09-18T16:41:02.106463+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260907181007|1373743777",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1507538,
+            "ns": 0,
+            "title": "Barbara Liskov",
+            "revisions": [
+              {
+                "revid": 1373748520,
+                "parentid": 1373743777
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Liskov, Barbara",
+              "page_image_free": "Barbara_Liskov_MIT_computer_scientist_2010.jpg",
+              "wikibase-shortdesc": "American computer scientist",
+              "wikibase_item": "Q16080922"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Barbara Liskov",
+        "pageid": 1507538,
+        "revid": 1373748520,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">American computer scientist</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox biography vcard\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\"><div class=\"fn\">Barbara Liskov</div></th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Barbara_Liskov_MIT_computer_scientist_2010.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg/250px-Barbara_Liskov_MIT_computer_scientist_2010.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"350\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg/500px-Barbara_Liskov_MIT_computer_scientist_2010.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1857\" data-file-height=\"2600\" /></a></span><div class=\"infobox-caption\">Liskov in 2010</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Born</th><td class=\"infobox-data\"><div style=\"display:inline\" class=\"nickname\">Barbara Jane Huberman</div><br /><span style=\"display:none\"> (<span class=\"bday\">1939-11-07</span>) </span>November 7, 1939<span class=\"noprint ForceAgeToShow\"> (age&#160;86)</span><br /><div style=\"display:inline\" class=\"birthplace\">Los Angeles, California, US</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Education</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/University_of_California,_Berkeley\" title=\"University of California, Berkeley\">University of California, Berkeley</a> (<a href=\"/wiki/Bachelor_of_Arts\" title=\"Bachelor of Arts\">BA</a>)</li><li><a href=\"/wiki/Stanford_University\" title=\"Stanford University\">Stanford University</a> (<a href=\"/wiki/Master_of_Science\" title=\"Master of Science\">MS</a>, <a href=\"/wiki/Doctor_of_Philosophy\" title=\"Doctor of Philosophy\">PhD</a>)</li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Known&#160;for</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li>Venus <span style=\"font-size: 85%;\">(<a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a>)</span></li>\n<li><a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a></li>\n<li><a href=\"/wiki/Argus_(programming_language)\" title=\"Argus (programming language)\">Argus</a></li>\n<li>Thor <span style=\"font-size: 85%;\">(<a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> <a href=\"/wiki/Database\" title=\"Database\">database</a>)</span></li>\n<li><a href=\"/wiki/Liskov_substitution_principle\" title=\"Liskov substitution principle\">Liskov substitution principle</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Spouse</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1298804929\">.mw-parser-output .marriage-line-margin2px{line-height:0;margin-bottom:-2px}.mw-parser-output .marriage-line-margin3px{line-height:0;margin-bottom:-3px}.mw-parser-output .marriage-display-inline{display:inline}</style>\n<div class=\"marriage-display-inline\"><div style=\"display:inline-block;line-height:normal;\">Nathan Liskov</div>&#32;<div style=\"display:inline-block;\">&#8203;</div>&#40;<abbr title=\"married\">m.</abbr>&#160;1970&#41;<wbr />&#8203;</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Children</th><td class=\"infobox-data\">1</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Awards</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/IEEE_John_von_Neumann_Medal\" title=\"IEEE John von Neumann Medal\">IEEE John von Neumann Medal</a> <small>(2004)</small></li><li><a href=\"/wiki/Turing_Award\" title=\"Turing Award\">A. M. Turing Award</a> <small>(2008)<br /></small><a href=\"/wiki/National_Inventors_Hall_of_Fame\" title=\"National Inventors Hall of Fame\">National Inventors Hall of Fame</a> <small>(2012)</small></li><li><a href=\"/wiki/Computer_Pioneer_Award\" title=\"Computer Pioneer Award\">Computer Pioneer Award</a> <small>(2018)</small></li></ul></div></td></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><b>Scientific career</b></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Fields</th><td class=\"infobox-data category\"><a href=\"/wiki/Computer_science\" title=\"Computer science\">Computer science</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Workplaces</th><td class=\"infobox-data\"><a href=\"/wiki/Massachusetts_Institute_of_Technology\" title=\"Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Thesis\" title=\"Thesis\">Thesis</a></th><td class=\"infobox-data\"><i><a rel=\"nofollow\" class=\"external text\" href=\"https://apps.dtic.mil/sti/citations/AD0673971\">A Program to Play Chess End Games</a></i>&#160;<span style=\"font-size:97%;\">(1968)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Doctoral_advisor\" title=\"Doctoral advisor\">Doctoral advisor</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/John_McCarthy_(computer_scientist)\" title=\"John McCarthy (computer scientist)\">John McCarthy</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Doctoral students</div></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Maurice_Herlihy\" title=\"Maurice Herlihy\">Maurice Herlihy</a></li>\n<li><a href=\"/wiki/J._Eliot_Moss\" class=\"mw-redirect\" title=\"J. Eliot Moss\">J. Eliot Moss</a></li>\n<li><a href=\"/wiki/Sanjay_Ghemawat\" title=\"Sanjay Ghemawat\">Sanjay Ghemawat</a></li>\n<li>Andrew Myers</li>\n<li>Dan R.K. Ports</li></ul>\n</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr></tbody></table>\n<p><b>Barbara Jane Liskov</b> (<span title=\"Name at birth\"><a href=\"/wiki/Birth_name#Maiden_and_married_names\" title=\"Birth name\">née</a>&#160;<b>Huberman</b></span>; born November 7, 1939) is an American <a href=\"/wiki/Computer_scientist\" title=\"Computer scientist\">computer scientist</a> who has made pioneering contributions to <a href=\"/wiki/Programming_languages\" class=\"mw-redirect\" title=\"Programming languages\">programming languages</a> and <a href=\"/wiki/Distributed_computing\" title=\"Distributed computing\">distributed computing</a>. Her notable work includes the introduction of <a href=\"/wiki/Abstract_data_type\" title=\"Abstract data type\">abstract data types</a> and the accompanying principle of <a href=\"/wiki/Abstraction_(computer_science)\" title=\"Abstraction (computer science)\">data abstraction</a>, along with the <a href=\"/wiki/Liskov_substitution_principle\" title=\"Liskov substitution principle\">Liskov substitution principle</a>, which applies these ideas to <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a>, <a href=\"/wiki/Subtyping\" title=\"Subtyping\">subtyping</a>, and <a href=\"/wiki/Inheritance_(object-oriented_programming)\" title=\"Inheritance (object-oriented programming)\">inheritance</a>. Her work was recognized with the 2008 <a href=\"/wiki/Turing_Award\" title=\"Turing Award\">Turing Award</a>, the highest distinction in computer science.\n</p><p>Liskov is one of the earliest women to have been granted a doctorate in computer science in the United States, and the second woman to receive the Turing Award. She is currently an <a href=\"/wiki/List_of_Institute_Professors_at_the_Massachusetts_Institute_of_Technology\" class=\"mw-redirect\" title=\"List of Institute Professors at the Massachusetts Institute of Technology\">Institute Professor</a> and Ford Professor of Engineering at the <a href=\"/wiki/Massachusetts_Institute_of_Technology\" title=\"Massachusetts Institute of Technology\">Massachusetts Institute of Technology</a>.<sup id=\"cite&#95;ref-turing&#95;2-0\" class=\"reference\"><a href=\"#cite_note-turing-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-PMG&#95;3-0\" class=\"reference\"><a href=\"#cite_note-PMG-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://mathgenealogy.org/id.php?id=61932\">Barbara Liskov</a> at the <a href=\"/wiki/Mathematics_Genealogy_Project\" title=\"Mathematics Genealogy Project\">Mathematics Genealogy Project</a></span>\n</li>\n<li id=\"cite&#95;note-turing-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-turing_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://amturing.acm.org/award_winners/liskov_1108679.cfm\">\"Barbara Liskov\"</a>. <i>A.M. Turing Award</i>. Association for Computing Machinery<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">28 August</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=A.M.+Turing+Award&amp;rft.atitle=Barbara+Liskov.&amp;rft&#95;id=https%3A%2F%2Famturing.acm.org%2Faward&#95;winners%2Fliskov&#95;1108679.cfm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ABarbara+Liskov\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-PMG-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-PMG_3-0\">^</a></b></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.pmg.csail.mit.edu/~liskov/\">Barbara Liskov</a>, Programming Methodology Group, MIT.</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐rqghg\nCached time: 20260918164126\nCache expiry: 28800\nCache expiry source: Module:Age (os.date *t .day)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.281 seconds\nReal time usage: 0.366 seconds\nPreprocessor visited node count: 2568/1000000\nRevision size: 3061/2097152 bytes\nPost‐expand include size: 26504/2097152 bytes\nTemplate argument size: 7700/2097152 bytes\nHighest expansion depth: 18/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7122/5000000 bytes\nLua time usage: 0.194/10.000 seconds\nLua memory usage: 6107776/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  344.877      1 -total\n 59.11%  203.857      1 Template:Infobox_scientist\n 20.08%   69.257      1 Template:Cite_web\n 15.24%   52.558      1 Template:Short_description\n 11.11%   38.331      1 Template:Married\n 11.07%   38.191      1 Template:Birth_date_and_age\n  8.71%   30.035      2 Template:Pagetype\n  7.70%   26.555      1 Template:Infobox\n  7.66%   26.406     22 Template:Main_other\n  5.94%   20.489     21 Template:Pluralize_from_text\n-->\n\n<!-- Render ID ca36c73e-b37f-11f1-a088-09b244fee58d -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Abstract data type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Abstraction (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Argus (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bachelor of Arts",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Birth name",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer Pioneer Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer scientist",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Distributed computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctor of Philosophy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctoral advisor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IEEE John von Neumann Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Inheritance (object-oriented programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "J. Eliot Moss",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John McCarthy (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Liskov substitution principle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Institute Professors at the Massachusetts Institute of Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Massachusetts Institute of Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Master of Science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics Genealogy Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Maurice Herlihy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "National Inventors Hall of Fame",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sanjay Ghemawat",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stanford University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Subtyping",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thesis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of California, Berkeley",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "American computer scientist",
+          "page_image_free": "Barbara_Liskov_MIT_computer_scientist_2010.jpg",
+          "wikibase_item": "Q16080922"
+        }
+      }
+    }
+  ]
+}

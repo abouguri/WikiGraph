@@ -91,11 +91,16 @@ def ingest(
                     "UPDATE jobs SET status='failed', error=? WHERE title=?", (str(exc), title)
                 )
             db.commit()
-        pages = {
-            p.page_id: p
-            for (raw,) in db.execute("SELECT page FROM jobs WHERE status='done' ORDER BY title")
-            for p in [WikipediaPage(**json.loads(raw))]
-        }
+        pages: dict[tuple[str, int], WikipediaPage] = {}
+        for (raw,) in db.execute("SELECT page FROM jobs WHERE status='done' ORDER BY title"):
+            page = WikipediaPage(**json.loads(raw))
+            key = (page.source_kind, page.page_id)
+            previous_page = pages.get(key)
+            if previous_page:
+                aliases = set(previous_page.aliases) | set(page.aliases)
+                page = max([previous_page, page], key=lambda p: p.revision_id)
+                page.aliases = sorted(aliases - {page.title})
+            pages[key] = page
         graph = build_dataset(list(pages.values()))
         validate_graph(graph)
         digest = export_graph(graph, output)

@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Elixir (programming language)",
+    "url": "https://en.wikipedia.org/wiki/Elixir_%28programming_language%29",
+    "summary": "Programming language running on the Erlang virtual machine This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Elixir\" programming language – news · newspapers · books · scholar · JSTOR ( June 2023 ) ( Learn how and when to remove this message ) Elixir Paradigms multi-paradigm : functional , concurrent , distributed , process-oriented Designed by José Valim First appeared 25 May 2012 ; 14 years ago ( 2012-05-25 ) Stable release 1.20 / 3 June 2026 ; 3 months ago ( 3 June 2026 ) Typing discipline dynamic , strong , gradual since version 1.20 Platform Erlang License Apache License 2.0 Filename extensions .ex, .exs Website elixir-lang .org Influenced by Clojure , Erlang , Ruby Influenced Gleam , LFE Elixir is a functional , concurrent , high-level general-purpose programming language that runs on the BEAM virtual machine , which is also used to implement the Erlang programming language. Elixir builds on top of Erlang and shares the same abstractions for building distributed , fault-tolerant applications. Elixir also provides tooling and an extensible design. The latter is supported by compile-time metaprogramming with macros and polymorphism via protocols. The community organizes yearly events in the United States, Europe, and Japan, as well as minor local events and conferences. ^ Valim, José (25 May 2012). \"Elixir v0.5.0 released\" . elixir-lang . Retrieved 22 January 2026 . ^ \"Elixir's Evolution: History and Ecosystem\" . Software Patterns Lexicon . 23 November 2024. Archived from the original on 22 January 2026 . Retrieved 22 January 2026 . ^ Woo, Jiahao (15 January 2024). \"The Story of Elixir\" . OSS History . Archived from the original on 15 January 2024 . Retrieved 22 January 2026 . ^ https://github.com/elixir-lang/elixir/releases/ . {{ cite web }} : Missing or empty |title= ( help ) ^ \"Elixir v1.20 released: now a gradually typed language\" . Elixir-lang.org . 3 June 2026 . Retrieved 18 July 2026 . ^ \"elixir/LICENSE at master · elixir-lang/elixir · GitHub\" . GitHub . ^ \"Most Popular Programming Languages of 2018 - Elite Infoworld Blog\" . 30 March 2018. Archived from the original on 9 May 2018 . Retrieved 8 May 2018 . ^ \"Elixir\" . elixir-lang . Retrieved 17 February 2013 . ^ \"ElixirConf\" . Retrieved 11 July 2018 . ^ \"ElixirConf\" . Retrieved 11 July 2018 . ^ \"Erlang & Elixir Fest\" . Archived from the original on 30 March 2019 . Retrieved 18 February 2019 . ^ \"Elixir LDN\" . Archived from the original on 12 July 2018 . Retrieved 12 July 2018 . ^ \"EMPEX - Empire State Elixir Conference\" . Retrieved 12 July 2018 .",
+    "text": "Programming language running on the Erlang virtual machine This article relies excessively on references to primary sources . Please improve this article by adding secondary or tertiary sources . Find sources: \"Elixir\" programming language – news · newspapers · books · scholar · JSTOR ( June 2023 ) ( Learn how and when to remove this message ) Elixir Paradigms multi-paradigm : functional , concurrent , distributed , process-oriented Designed by José Valim First appeared 25 May 2012 ; 14 years ago ( 2012-05-25 ) Stable release 1.20 / 3 June 2026 ; 3 months ago ( 3 June 2026 ) Typing discipline dynamic , strong , gradual since version 1.20 Platform Erlang License Apache License 2.0 Filename extensions .ex, .exs Website elixir-lang .org Influenced by Clojure , Erlang , Ruby Influenced Gleam , LFE Elixir is a functional , concurrent , high-level general-purpose programming language that runs on the BEAM virtual machine , which is also used to implement the Erlang programming language. Elixir builds on top of Erlang and shares the same abstractions for building distributed , fault-tolerant applications. Elixir also provides tooling and an extensible design. The latter is supported by compile-time metaprogramming with macros and polymorphism via protocols. The community organizes yearly events in the United States, Europe, and Japan, as well as minor local events and conferences. ^ Valim, José (25 May 2012). \"Elixir v0.5.0 released\" . elixir-lang . Retrieved 22 January 2026 . ^ \"Elixir's Evolution: History and Ecosystem\" . Software Patterns Lexicon . 23 November 2024. Archived from the original on 22 January 2026 . Retrieved 22 January 2026 . ^ Woo, Jiahao (15 January 2024). \"The Story of Elixir\" . OSS History . Archived from the original on 15 January 2024 . Retrieved 22 January 2026 . ^ https://github.com/elixir-lang/elixir/releases/ . {{ cite web }} : Missing or empty |title= ( help ) ^ \"Elixir v1.20 released: now a gradually typed language\" . Elixir-lang.org . 3 June 2026 . Retrieved 18 July 2026 . ^ \"elixir/LICENSE at master · elixir-lang/elixir · GitHub\" . GitHub . ^ \"Most Popular Programming Languages of 2018 - Elite Infoworld Blog\" . 30 March 2018. Archived from the original on 9 May 2018 . Retrieved 8 May 2018 . ^ \"Elixir\" . elixir-lang . Retrieved 17 February 2013 . ^ \"ElixirConf\" . Retrieved 11 July 2018 . ^ \"ElixirConf\" . Retrieved 11 July 2018 . ^ \"Erlang & Elixir Fest\" . Archived from the original on 30 March 2019 . Retrieved 18 February 2019 . ^ \"Elixir LDN\" . Archived from the original on 12 July 2018 . Retrieved 12 July 2018 . ^ \"EMPEX - Empire State Elixir Conference\" . Retrieved 12 July 2018 .",
+    "links": [
+      "Apache License 2.0",
+      "BEAM (Erlang virtual machine)",
+      "Clojure",
+      "Computing platform",
+      "Concurrent computing",
+      "Concurrent programming",
+      "Distributed computing",
+      "Distributed programming",
+      "Erlang (programming language)",
+      "Extensible",
+      "Fault-tolerant",
+      "Filename extension",
+      "Functional programming",
+      "General-purpose programming language",
+      "Gleam (programming language)",
+      "Gradual typing",
+      "High-level programming language",
+      "LFE (programming language)",
+      "Macro (computer science)",
+      "Metaprogramming",
+      "Multi-paradigm programming language",
+      "Polymorphism (computer science)",
+      "Process virtual machine",
+      "Process-oriented programming",
+      "Programming language",
+      "Programming paradigm",
+      "Ruby (programming language)",
+      "Software design",
+      "Software license",
+      "Software release life cycle",
+      "Strong typing",
+      "Type system"
+    ],
+    "page_id": 38202780,
+    "revision_id": 1373237682,
+    "retrieved_at": "2026-09-18T16:41:22.548878+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260731134635|1367024231",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 38202780,
+            "ns": 0,
+            "title": "Elixir (programming language)",
+            "revisions": [
+              {
+                "revid": 1373237682,
+                "parentid": 1367024231
+              }
+            ],
+            "pageprops": {
+              "page_image": "Elixir_programming_language_logo.svg",
+              "wikibase-shortdesc": "Programming language running on the Erlang virtual machine",
+              "wikibase_item": "Q5362035"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Elixir (programming language)",
+        "pageid": 38202780,
+        "revid": 1373237682,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language running on the Erlang virtual machine</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1364180890\">.mw-parser-output .ambox{border:1px solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output .ambox+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.ambox,.mw-parser-output .ambox+.mw-empty-elt+.mw-empty-elt+.mw-empty-elt+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}@media(min-width:720px){.mw-parser-output .ambox{margin:0 10%}}@media print{body.ns-0 .mw-parser-output .ambox{display:none!important}}</style><table class=\"box-Primary&#95;sources plainlinks metadata ambox ambox-content ambox-Primary&#95;sources\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><div class=\"mbox-image-div\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Question_book-new.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/120px-Question_book-new.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></span></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies excessively on <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this article by adding <a href=\"/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>. <br /><small><span class=\"plainlinks\"><i>Find sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22Elixir%22+programming+language\">\"Elixir\"&#160;programming language</a>&#160;–&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22Elixir%22+programming+language+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22Elixir%22+programming+language&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22Elixir%22+programming+language+-wikipedia\">books</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22Elixir%22+programming+language\">scholar</a>&#160;<b>·</b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22Elixir%22+programming+language&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>  <span class=\"date-container\"><i>(<span class=\"date\">June 2023</span>)</i></span><span class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this message</a></small>)</i></span></div></td></tr></tbody></table>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Elixir</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Elixir_programming_language_logo.svg\" class=\"mw-file-description\" title=\"elixir programming language\"><img alt=\"elixir programming language\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b9/Elixir_programming_language_logo.svg/250px-Elixir_programming_language_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"170\" height=\"82\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/b/b9/Elixir_programming_language_logo.svg/500px-Elixir_programming_language_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"455\" data-file-height=\"220\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">multi-paradigm</a>: <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>,  <a href=\"/wiki/Concurrent_programming\" class=\"mw-redirect\" title=\"Concurrent programming\">concurrent</a>, <a href=\"/wiki/Distributed_programming\" class=\"mw-redirect\" title=\"Distributed programming\">distributed</a>, <a href=\"/wiki/Process-oriented_programming\" title=\"Process-oriented programming\">process-oriented</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\">José Valim</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">25&#160;May 2012<span class=\"noprint\">&#59;&#32;14 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2012-05-25</span>)</span><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">1.20<sup id=\"cite&#95;ref-wikidata-f827292da230bb558f0a68de144abd1135133091-v20&#95;4-0\" class=\"reference\"><a href=\"#cite_note-wikidata-f827292da230bb558f0a68de144abd1135133091-v20-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q5362035?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 3 June 2026<span class=\"noprint\">&#59;&#32;3 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">3 June 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_system\" title=\"Type system\">dynamic</a>, <a href=\"/wiki/Strong_typing\" class=\"mw-redirect\" title=\"Strong typing\">strong</a>, <a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">gradual</a> since version 1.20<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Apache_License_2.0\" class=\"mw-redirect\" title=\"Apache License 2.0\">Apache License 2.0</a><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.ex, .exs</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://elixir-lang.org\">elixir-lang<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>, <a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Gleam_(programming_language)\" title=\"Gleam (programming language)\">Gleam</a>, <a href=\"/wiki/LFE_(programming_language)\" title=\"LFE (programming language)\">LFE</a></td></tr></tbody></table>\n<p><b>Elixir</b> is a <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Concurrent_computing\" title=\"Concurrent computing\">concurrent</a>, <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a> <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> that runs on the <a href=\"/wiki/BEAM_(Erlang_virtual_machine)\" title=\"BEAM (Erlang virtual machine)\">BEAM</a> <a href=\"/wiki/Process_virtual_machine\" class=\"mw-redirect\" title=\"Process virtual machine\">virtual machine</a>, which is also used to implement the <a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a> programming language.<sup id=\"cite&#95;ref-:0&#95;7-0\" class=\"reference\"><a href=\"#cite_note-:0-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> Elixir builds on top of Erlang and shares the same abstractions for building <a href=\"/wiki/Distributed_computing\" title=\"Distributed computing\">distributed</a>, <a href=\"/wiki/Fault-tolerant\" class=\"mw-redirect\" title=\"Fault-tolerant\">fault-tolerant</a> applications. Elixir also provides tooling and an <a href=\"/wiki/Extensible\" class=\"mw-redirect\" title=\"Extensible\">extensible</a> design. The latter is supported by compile-time <a href=\"/wiki/Metaprogramming\" title=\"Metaprogramming\">metaprogramming</a> with <a href=\"/wiki/Macro_(computer_science)\" title=\"Macro (computer science)\">macros</a> and <a href=\"/wiki/Polymorphism_(computer_science)\" title=\"Polymorphism (computer science)\">polymorphism</a> via protocols.<sup id=\"cite&#95;ref-elixirhome&#95;8-0\" class=\"reference\"><a href=\"#cite_note-elixirhome-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The community organizes yearly events in the United States,<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> Europe,<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> and Japan,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> as well as minor local events and conferences.<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFValim2012\" class=\"citation web cs1\">Valim, José (25 May 2012). <a rel=\"nofollow\" class=\"external text\" href=\"https://elixir-lang.org/blog/2012/05/25/elixir-v0-5-0-released/\">\"Elixir v0.5.0 released\"</a>. <i>elixir-lang</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 January</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=elixir-lang&amp;rft.atitle=Elixir+v0.5.0+released&amp;rft.date=2012-05-25&amp;rft.aulast=Valim&amp;rft.aufirst=Jos%C3%A9&amp;rft&#95;id=https%3A%2F%2Felixir-lang.org%2Fblog%2F2012%2F05%2F25%2Felixir-v0-5-0-released%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://softwarepatternslexicon.com/elixir/introduction-to-design-patterns-in-elixir/history-of-elixir-and-its-ecosystem/\">\"Elixir's Evolution: History and Ecosystem\"</a>. <i>Software Patterns Lexicon</i>. 23 November 2024. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20260122223929/https://softwarepatternslexicon.com/elixir/introduction-to-design-patterns-in-elixir/history-of-elixir-and-its-ecosystem/\">Archived</a> from the original on 22 January 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 January</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Software+Patterns+Lexicon&amp;rft.atitle=Elixir%27s+Evolution%3A+History+and+Ecosystem&amp;rft.date=2024-11-23&amp;rft&#95;id=https%3A%2F%2Fsoftwarepatternslexicon.com%2Felixir%2Fintroduction-to-design-patterns-in-elixir%2Fhistory-of-elixir-and-its-ecosystem%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWoo2024\" class=\"citation web cs1\">Woo, Jiahao (15 January 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://osshistory.org/p/elixir\">\"The Story of Elixir\"</a>. <i>OSS History</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20240115045703/https://osshistory.org/p/elixir\">Archived</a> from the original on 15 January 2024<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">22 January</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OSS+History&amp;rft.atitle=The+Story+of+Elixir&amp;rft.date=2024-01-15&amp;rft.aulast=Woo&amp;rft.aufirst=Jiahao&amp;rft&#95;id=https%3A%2F%2Fosshistory.org%2Fp%2Felixir&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-f827292da230bb558f0a68de144abd1135133091-v20-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-f827292da230bb558f0a68de144abd1135133091-v20_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/elixir-lang/elixir/releases/\">https://github.com/elixir-lang/elixir/releases/</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Felixir-lang%2Felixir%2Freleases%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span> <span class=\"cs1-visible-error citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>: </span><span class=\"cs1-visible-error citation-comment\">Missing or empty <code class=\"cs1-code\">&#124;title=</code> (<a href=\"/wiki/Help:CS1_errors#citation_missing_title\" title=\"Help:CS1 errors\">help</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/\">\"Elixir v1.20 released: now a gradually typed language\"</a>. <i>Elixir-lang.org</i>. 3 June 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">18 July</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Elixir-lang.org&amp;rft.atitle=Elixir+v1.20+released%3A+now+a+gradually+typed+language&amp;rft.date=2026-06-03&amp;rft&#95;id=https%3A%2F%2Felixir-lang.org%2Fblog%2F2026%2F06%2F03%2Felixir-v1-20-0-released%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/elixir-lang/elixir/blob/master/LICENSE\">\"elixir/LICENSE at master · elixir-lang/elixir · GitHub\"</a>. <i>GitHub</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=elixir%2FLICENSE+at+master+%C2%B7+elixir-lang%2Felixir+%C2%B7+GitHub&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Felixir-lang%2Felixir%2Fblob%2Fmaster%2FLICENSE&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_7-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation news cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180509080342/https://www.eliteinfoworld.com/blog/popular-programming-languages-2018/\">\"Most Popular Programming Languages of 2018 - Elite Infoworld Blog\"</a>. 30 March 2018. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.eliteinfoworld.com/blog/popular-programming-languages-2018/\">the original</a> on 9 May 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">8 May</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Most+Popular+Programming+Languages+of+2018+-+Elite+Infoworld+Blog&amp;rft.date=2018-03-30&amp;rft&#95;id=https%3A%2F%2Fwww.eliteinfoworld.com%2Fblog%2Fpopular-programming-languages-2018%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-elixirhome-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-elixirhome_8-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://elixir-lang.org\">\"Elixir\"</a>. <i>elixir-lang</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">17 February</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=elixir-lang&amp;rft.atitle=Elixir&amp;rft&#95;id=https%3A%2F%2Felixir-lang.org&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://elixirconf.com/\">\"ElixirConf\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 July</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ElixirConf&amp;rft&#95;id=https%3A%2F%2Felixirconf.com%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://elixirconf.eu/\">\"ElixirConf\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 July</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ElixirConf&amp;rft&#95;id=http%3A%2F%2Felixirconf.eu%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190330065643/https://elixir-fest.jp/\">\"Erlang &amp; Elixir Fest\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://elixir-fest.jp/\">the original</a> on 30 March 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">18 February</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Erlang+%26+Elixir+Fest&amp;rft&#95;id=https%3A%2F%2Felixir-fest.jp%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180712184204/http://www.elixir.london/\">\"Elixir LDN\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.elixir.london/\">the original</a> on 12 July 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 July</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Elixir+LDN&amp;rft&#95;id=http%3A%2F%2Fwww.elixir.london%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://empex.co/\">\"EMPEX - Empire State Elixir Conference\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 July</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=EMPEX+-+Empire+State+Elixir+Conference&amp;rft&#95;id=http%3A%2F%2Fempex.co%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AElixir+%28programming+language%29\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐79s9k\nCached time: 20260918164148\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.474 seconds\nReal time usage: 0.610 seconds\nPreprocessor visited node count: 1532/1000000\nRevision size: 5005/2097152 bytes\nPost‐expand include size: 44249/2097152 bytes\nTemplate argument size: 4176/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 35234/5000000 bytes\nLua time usage: 0.350/10.000 seconds\nLua memory usage: 10988747/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  582.011      1 -total\n 57.11%  332.397      2 Template:Infobox\n 49.82%  289.983      1 Template:Infobox_programming_language\n 38.39%  223.444      1 Template:Infobox_software/simple\n 31.80%  185.095      2 Template:Wikidata\n 18.71%  108.876      1 Template:Short_description\n 14.23%   82.823      1 Template:Primary_sources\n 13.26%   77.178      1 Template:Ambox\n 10.87%   63.254      2 Template:Pagetype\n  9.88%   57.515     11 Template:Cite_web\n-->\n\n<!-- Render ID d753b854-b37f-11f1-bf2d-99886f439eff -->\n</div>",
+        "links": [
+          {
+            "ns": 10,
+            "title": "Template:Cite web",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache License 2.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BEAM (Erlang virtual machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Distributed computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Distributed programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erlang (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extensible",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fault-tolerant",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gleam (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LFE (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Macro (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaprogramming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Polymorphism (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:No original research",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:CS1 errors",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Maintenance template removal",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language running on the Erlang virtual machine",
+          "page_image": "Elixir_programming_language_logo.svg",
+          "wikibase_item": "Q5362035"
+        }
+      }
+    }
+  ]
+}

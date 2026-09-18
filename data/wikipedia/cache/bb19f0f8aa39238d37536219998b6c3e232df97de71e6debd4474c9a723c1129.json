@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Parallel computing",
+    "url": "https://en.wikipedia.org/wiki/Parallel_computing",
+    "summary": "Programming paradigm in which many processes are executed simultaneously \"Parallelization\" redirects here. For parallelization of manifolds, see Parallelization (mathematics) . Large supercomputers such as IBM's Blue Gene/P are designed to heavily exploit parallelism. Parallel computing is a type of computation in which many calculations or processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level , instruction-level , data , and task parallelism . Parallelism has long been employed in high-performance computing , but has gained broader interest due to the physical constraints preventing frequency scaling . As power consumption (and consequently heat generation) by computers has become a concern in recent years, parallel computing has become the dominant paradigm in computer architecture , mainly in the form of multi-core processors . Parallelism vs concurrency In computer science , parallelism and concurrency are two different things: a parallel program uses multiple CPU cores , each core performing a task independently. On the other hand, concurrency enables a program to deal with multiple tasks even on a single CPU core; the core switches between tasks (i.e. threads ) without necessarily completing each one. A program can have both, neither or a combination of parallelism and concurrency characteristics. Parallel computers can be roughly classified according to the level at which the hardware supports parallelism, with multi-core and multi-processor computers having multiple processing elements within a single machine, while clusters , MPPs , and grids use multiple computers to work on the same task. Specialized parallel computer architectures are sometimes used alongside traditional processors, for accelerating specific tasks. In some cases parallelism is transparent to the programmer, such as in bit-level or instruction-level parallelism, but explicitly parallel algorithms , particularly those that use concurrency, are more difficult to write than sequential ones, because concurrency introduces several new classes of potential software bugs , of which race conditions are the most common. Communication and synchronization between the different subtasks are typically some of the greatest obstacles to getting optimal parallel program performance. A theoretical upper bound on the speed-up of a single program as a result of parallelization is given by Amdahl's law , which states that it is limited by the fraction of time for which the parallelization can be utilised. ^ Gottlieb, Allan; Almasi, George S. (1989). Highly parallel computing . Redwood City, Calif.: Benjamin/Cummings. ISBN 978-0-8053-0177-9 . ^ S.V. Adve et al. (November 2008). \"Parallel Computing Research at Illinois: The UPCRC Agenda\" Archived 2018-01-11 at the Wayback Machine (PDF). Parallel@Illinois, University of Illinois at Urbana-Champaign. \"The main techniques for these performance benefits—increased clock frequency and smarter but increasingly complex architectures—are now hitting the so-called power wall. The computer industry has accepted that future performance increases must largely come from increasing the number of processors (or cores) on a die, rather than making a single core go faster.\" ^ Asanovic et al. Old [conventional wisdom]: Power is free, but transistors are expensive. New [conventional wisdom] is [that] power is expensive, but transistors are \"free\". ^ Asanovic, Krste et al. (December 18, 2006). \"The Landscape of Parallel Computing Research: A View from Berkeley\" (PDF). University of California, Berkeley. Technical Report No. UCB/EECS-2006-183. \"Old [conventional wisdom]: Increasing clock frequency is the primary method of improving processor performance. New [conventional wisdom]: Increasing parallelism is the primary method of improving processor performance… Even representatives from Intel, a company generally associated with the 'higher clock-speed is better' position, warned that traditional approaches to maximizing performance through maximizing clock speed have been pushed to their limits.\" ^ Parallel and Concurrent Programming in Haskell . O'Reilly Media. 2013. ISBN 9781449335922 . ^ Hennessy, John L. ; Patterson, David A. ; Larus, James R. (1999). Computer organization and design: the hardware/software interface (2. ed., 3rd print. ed.). San Francisco: Kaufmann. ISBN 978-1-55860-428-5 .",
+    "text": "Programming paradigm in which many processes are executed simultaneously \"Parallelization\" redirects here. For parallelization of manifolds, see Parallelization (mathematics) . Large supercomputers such as IBM's Blue Gene/P are designed to heavily exploit parallelism. Parallel computing is a type of computation in which many calculations or processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level , instruction-level , data , and task parallelism . Parallelism has long been employed in high-performance computing , but has gained broader interest due to the physical constraints preventing frequency scaling . As power consumption (and consequently heat generation) by computers has become a concern in recent years, parallel computing has become the dominant paradigm in computer architecture , mainly in the form of multi-core processors . Parallelism vs concurrency In computer science , parallelism and concurrency are two different things: a parallel program uses multiple CPU cores , each core performing a task independently. On the other hand, concurrency enables a program to deal with multiple tasks even on a single CPU core; the core switches between tasks (i.e. threads ) without necessarily completing each one. A program can have both, neither or a combination of parallelism and concurrency characteristics. Parallel computers can be roughly classified according to the level at which the hardware supports parallelism, with multi-core and multi-processor computers having multiple processing elements within a single machine, while clusters , MPPs , and grids use multiple computers to work on the same task. Specialized parallel computer architectures are sometimes used alongside traditional processors, for accelerating specific tasks. In some cases parallelism is transparent to the programmer, such as in bit-level or instruction-level parallelism, but explicitly parallel algorithms , particularly those that use concurrency, are more difficult to write than sequential ones, because concurrency introduces several new classes of potential software bugs , of which race conditions are the most common. Communication and synchronization between the different subtasks are typically some of the greatest obstacles to getting optimal parallel program performance. A theoretical upper bound on the speed-up of a single program as a result of parallelization is given by Amdahl's law , which states that it is limited by the fraction of time for which the parallelization can be utilised. ^ Gottlieb, Allan; Almasi, George S. (1989). Highly parallel computing . Redwood City, Calif.: Benjamin/Cummings. ISBN 978-0-8053-0177-9 . ^ S.V. Adve et al. (November 2008). \"Parallel Computing Research at Illinois: The UPCRC Agenda\" Archived 2018-01-11 at the Wayback Machine (PDF). Parallel@Illinois, University of Illinois at Urbana-Champaign. \"The main techniques for these performance benefits—increased clock frequency and smarter but increasingly complex architectures—are now hitting the so-called power wall. The computer industry has accepted that future performance increases must largely come from increasing the number of processors (or cores) on a die, rather than making a single core go faster.\" ^ Asanovic et al. Old [conventional wisdom]: Power is free, but transistors are expensive. New [conventional wisdom] is [that] power is expensive, but transistors are \"free\". ^ Asanovic, Krste et al. (December 18, 2006). \"The Landscape of Parallel Computing Research: A View from Berkeley\" (PDF). University of California, Berkeley. Technical Report No. UCB/EECS-2006-183. \"Old [conventional wisdom]: Increasing clock frequency is the primary method of improving processor performance. New [conventional wisdom]: Increasing parallelism is the primary method of improving processor performance… Even representatives from Intel, a company generally associated with the 'higher clock-speed is better' position, warned that traditional approaches to maximizing performance through maximizing clock speed have been pushed to their limits.\" ^ Parallel and Concurrent Programming in Haskell . O'Reilly Media. 2013. ISBN 9781449335922 . ^ Hennessy, John L. ; Patterson, David A. ; Larus, James R. (1999). Computer organization and design: the hardware/software interface (2. ed., 3rd print. ed.). San Francisco: Kaufmann. ISBN 978-1-55860-428-5 .",
+    "links": [
+      "Amdahl's law",
+      "Asanovic, Krste",
+      "Bit-level parallelism",
+      "Blue Gene",
+      "Computer architecture",
+      "Computer cluster",
+      "Computer industry",
+      "Computer networking",
+      "Computer science",
+      "Computing",
+      "Data parallelism",
+      "David Patterson (computer scientist)",
+      "Frequency scaling",
+      "Grid computing",
+      "High-performance computing",
+      "ISBN (identifier)",
+      "Instruction-level parallelism",
+      "James Larus",
+      "John L. Hennessy",
+      "Krste Asanović",
+      "Massively parallel (computing)",
+      "Multi-core processor",
+      "Parallel algorithm",
+      "Parallelization (mathematics)",
+      "Process (computing)",
+      "Processing element",
+      "Race condition",
+      "Sequential algorithm",
+      "Software bug",
+      "Speedup",
+      "Supercomputer",
+      "Symmetric multiprocessing",
+      "Synchronization (computer science)",
+      "Task parallelism",
+      "Thread (computing)",
+      "Transistor",
+      "Upper bound",
+      "Wayback Machine"
+    ],
+    "page_id": 145162,
+    "revision_id": 1373829754,
+    "retrieved_at": "2026-09-18T16:42:13.280027+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260724205330|1365854569",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 145162,
+            "ns": 0,
+            "title": "Parallel computing",
+            "revisions": [
+              {
+                "revid": 1373829754,
+                "parentid": 1365854569
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "IBM_Blue_Gene_P_supercomputer.jpg",
+              "toc": "",
+              "wikibase-badge-Q17437796": "",
+              "wikibase-shortdesc": "Programming paradigm in which many processes are executed simultaneously",
+              "wikibase_item": "Q232661"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Parallel computing",
+        "pageid": 145162,
+        "revid": 1373829754,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming paradigm in which many processes are executed simultaneously</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Parallelization\" redirects here. For parallelization of manifolds, see <a href=\"/wiki/Parallelization_(mathematics)\" title=\"Parallelization (mathematics)\">Parallelization (mathematics)</a>.</div>\n<figure typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:IBM_Blue_Gene_P_supercomputer.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/IBM_Blue_Gene_P_supercomputer.jpg/330px-IBM_Blue_Gene_P_supercomputer.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"199\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/IBM_Blue_Gene_P_supercomputer.jpg/960px-IBM_Blue_Gene_P_supercomputer.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2100\" data-file-height=\"1391\" /></a><figcaption>Large <a href=\"/wiki/Supercomputer\" title=\"Supercomputer\">supercomputers</a> such as IBM's <a href=\"/wiki/Blue_Gene\" class=\"mw-redirect\" title=\"Blue Gene\">Blue Gene/P</a> are designed to heavily exploit parallelism.</figcaption></figure>\n<p><b>Parallel computing</b> is a type of <a href=\"/wiki/Computing\" title=\"Computing\">computation</a> in which many calculations or <a href=\"/wiki/Process_(computing)\" title=\"Process (computing)\">processes</a> are carried out simultaneously.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: <a href=\"/wiki/Bit-level_parallelism\" title=\"Bit-level parallelism\">bit-level</a>, <a href=\"/wiki/Instruction-level_parallelism\" title=\"Instruction-level parallelism\">instruction-level</a>, <a href=\"/wiki/Data_parallelism\" title=\"Data parallelism\">data</a>, and <a href=\"/wiki/Task_parallelism\" title=\"Task parallelism\">task parallelism</a>. Parallelism has long been employed in <a href=\"/wiki/High-performance_computing\" title=\"High-performance computing\">high-performance computing</a>, but has gained broader interest due to the physical constraints preventing <a href=\"/wiki/Frequency_scaling\" title=\"Frequency scaling\">frequency scaling</a>.<sup id=\"cite&#95;ref-:0&#95;2-0\" class=\"reference\"><a href=\"#cite_note-:0-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> As power consumption (and consequently heat generation) by computers has become a concern in recent years,<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> parallel computing has become the dominant paradigm in <a href=\"/wiki/Computer_architecture\" title=\"Computer architecture\">computer architecture</a>, mainly in the form of <a href=\"/wiki/Multi-core_processor\" title=\"Multi-core processor\">multi-core processors</a>.<sup id=\"cite&#95;ref-View-Power&#95;4-0\" class=\"reference\"><a href=\"#cite_note-View-Power-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Parallelism_vs_concurrency.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Parallelism_vs_concurrency.png/250px-Parallelism_vs_concurrency.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"64\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Parallelism_vs_concurrency.png/500px-Parallelism_vs_concurrency.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"962\" data-file-height=\"245\" /></a><figcaption>Parallelism vs concurrency</figcaption></figure>\n<p>In <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, <b>parallelism</b> and concurrency are two different things: a parallel program uses <a href=\"/wiki/Multi-core_processor\" title=\"Multi-core processor\">multiple CPU cores</a>, each core performing a task independently. On the other hand, concurrency enables a program to deal with multiple tasks even on a single CPU core; the core switches between tasks (i.e. <a href=\"/wiki/Thread_(computing)\" title=\"Thread (computing)\">threads</a>) without necessarily completing each one. A program can have both, neither or a combination of parallelism and concurrency characteristics.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Parallel computers can be roughly classified according to the level at which the hardware supports parallelism, with multi-core and <a href=\"/wiki/Symmetric_multiprocessing\" title=\"Symmetric multiprocessing\">multi-processor</a> computers having multiple <a href=\"/wiki/Processing_element\" class=\"mw-redirect\" title=\"Processing element\">processing elements</a> within a single machine, while <a href=\"/wiki/Computer_cluster\" title=\"Computer cluster\">clusters</a>, <a href=\"/wiki/Massively_parallel_(computing)\" class=\"mw-redirect\" title=\"Massively parallel (computing)\">MPPs</a>, and <a href=\"/wiki/Grid_computing\" title=\"Grid computing\">grids</a> use multiple computers to work on the same task. Specialized parallel computer architectures are sometimes used alongside traditional processors, for accelerating specific tasks.\n</p><p>In some cases parallelism is transparent to the programmer, such as in bit-level or instruction-level parallelism, but explicitly <a href=\"/wiki/Parallel_algorithm\" title=\"Parallel algorithm\">parallel algorithms</a>, particularly those that use concurrency, are more difficult to write than <a href=\"/wiki/Sequential_algorithm\" title=\"Sequential algorithm\">sequential</a> ones,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> because concurrency introduces several new classes of potential <a href=\"/wiki/Software_bug\" title=\"Software bug\">software bugs</a>, of which <a href=\"/wiki/Race_condition\" title=\"Race condition\">race conditions</a> are the most common. <a href=\"/wiki/Computer_networking\" class=\"mw-redirect\" title=\"Computer networking\">Communication</a> and <a href=\"/wiki/Synchronization_(computer_science)\" title=\"Synchronization (computer science)\">synchronization</a> between the different subtasks are typically some of the greatest obstacles to getting optimal parallel program performance.\n</p><p>A theoretical <a href=\"/wiki/Upper_bound\" class=\"mw-redirect\" title=\"Upper bound\">upper bound</a> on the <a href=\"/wiki/Speedup\" title=\"Speedup\">speed-up</a> of a single program as a result of parallelization is given by <a href=\"/wiki/Amdahl%27s_law\" title=\"Amdahl&#39;s law\">Amdahl's law</a>, which states that it is limited by the fraction of time for which the parallelization can be utilised.\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r886046785\">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class=\"toclimit-4\"><meta property=\"mw:PageProp/toc\" /></div>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFGottliebAlmasi,&#95;George&#95;S.1989\" class=\"citation book cs1\">Gottlieb, Allan; Almasi, George S. (1989). <a rel=\"nofollow\" class=\"external text\" href=\"http://dl.acm.org/citation.cfm?id=160438\"><i>Highly parallel computing</i></a>. Redwood City, Calif.: Benjamin/Cummings. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-8053-0177-9\" title=\"Special:BookSources/978-0-8053-0177-9\"><bdi>978-0-8053-0177-9</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Highly+parallel+computing&amp;rft.place=Redwood+City%2C+Calif.&amp;rft.pub=Benjamin%2FCummings&amp;rft.date=1989&amp;rft.isbn=978-0-8053-0177-9&amp;rft.aulast=Gottlieb&amp;rft.aufirst=Allan&amp;rft.au=Almasi%2C+George+S.&amp;rft&#95;id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D160438&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AParallel+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:0_2-0\">^</a></b></span> <span class=\"reference-text\">S.V. Adve <i>et al.</i> (November 2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://graphics.cs.illinois.edu/sites/default/files/upcrc-wp.pdf\">\"Parallel Computing Research at Illinois: The UPCRC Agenda\"</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180111165735/https://graphics.cs.illinois.edu/sites/default/files/upcrc-wp.pdf\">Archived</a> 2018-01-11 at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a> (PDF). Parallel@Illinois, University of Illinois at Urbana-Champaign. \"The main techniques for these performance benefits—increased clock frequency and smarter but increasingly complex architectures—are now hitting the so-called power wall. The <a href=\"/wiki/Computer_industry\" class=\"mw-redirect\" title=\"Computer industry\">computer industry</a> has accepted that future performance increases must largely come from increasing the number of processors (or cores) on a die, rather than making a single core go faster.\"</span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><a href=\"/wiki/Krste_Asanovi%C4%87\" title=\"Krste Asanović\">Asanovic</a> <i>et al.</i> Old [conventional wisdom]: Power is free, but <a href=\"/wiki/Transistor\" title=\"Transistor\">transistors</a> are expensive. New [conventional wisdom] is [that] power is expensive, but transistors are \"free\".</span>\n</li>\n<li id=\"cite&#95;note-View-Power-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-View-Power_4-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"/wiki/Asanovic,_Krste\" class=\"mw-redirect\" title=\"Asanovic, Krste\">Asanovic, Krste</a> <i>et al.</i> (December 18, 2006). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-183.pdf\">\"The Landscape of Parallel Computing Research: A View from Berkeley\"</a> (PDF). University of California, Berkeley. Technical Report No. UCB/EECS-2006-183. \"Old [conventional wisdom]: Increasing clock frequency is the primary method of improving processor performance. New [conventional wisdom]: Increasing parallelism is the primary method of improving processor performance… Even representatives from Intel, a company generally associated with the 'higher clock-speed is better' position, warned that traditional approaches to maximizing performance through maximizing clock speed have been pushed to their limits.\"</span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation book cs1\"><i>Parallel and Concurrent Programming in Haskell</i>. O'Reilly Media. 2013. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/9781449335922\" title=\"Special:BookSources/9781449335922\"><bdi>9781449335922</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Parallel+and+Concurrent+Programming+in+Haskell&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2013&amp;rft.isbn=9781449335922&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AParallel+computing\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHennessyPatterson,&#95;David&#95;A.Larus,&#95;James&#95;R.1999\" class=\"citation book cs1\"><a href=\"/wiki/John_L._Hennessy\" title=\"John L. Hennessy\">Hennessy, John L.</a>; <a href=\"/wiki/David_Patterson_(computer_scientist)\" title=\"David Patterson (computer scientist)\">Patterson, David A.</a>; <a href=\"/wiki/James_Larus\" title=\"James Larus\">Larus, James R.</a> (1999). <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/computerorganiz000henn\"><i>Computer organization and design: the hardware/software interface</i></a> (2. ed., 3rd print.&#160;ed.). San Francisco: Kaufmann. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-55860-428-5\" title=\"Special:BookSources/978-1-55860-428-5\"><bdi>978-1-55860-428-5</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Computer+organization+and+design%3A+the+hardware%2Fsoftware+interface&amp;rft.place=San+Francisco&amp;rft.edition=2.+ed.%2C+3rd+print.&amp;rft.pub=Kaufmann&amp;rft.date=1999&amp;rft.isbn=978-1-55860-428-5&amp;rft.aulast=Hennessy&amp;rft.aufirst=John+L.&amp;rft.au=Patterson%2C+David+A.&amp;rft.au=Larus%2C+James+R.&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fcomputerorganiz000henn&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AParallel+computing\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐44pgh\nCached time: 20260918164239\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.243 seconds\nReal time usage: 0.325 seconds\nPreprocessor visited node count: 279/1000000\nRevision size: 5820/2097152 bytes\nPost‐expand include size: 6969/2097152 bytes\nTemplate argument size: 727/2097152 bytes\nHighest expansion depth: 8/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 8385/5000000 bytes\nLua time usage: 0.167/10.000 seconds\nLua memory usage: 3975747/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  292.691      1 -total\n 46.29%  135.500      3 Template:Cite_book\n 33.09%   96.839      1 Template:Short_description\n 20.91%   61.193      2 Template:Pagetype\n  9.80%   28.673      1 Template:Redirect\n  7.17%   20.990      2 Template:Main_other\n  6.38%   18.688      1 Template:SDcat\n  3.55%   10.394      1 Template:Webarchive\n  2.22%    6.509      1 Template:TOC_limit\n  1.11%    3.235      1 Template:Short_description/lowercasecheck\n-->\n\n<!-- Render ID f5b9b035-b37f-11f1-b5e0-6d2f6802aed3 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Parallelization (mathematics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amdahl's law",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Asanovic, Krste",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bit-level parallelism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Blue Gene",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer cluster",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer industry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer networking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data parallelism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "David Patterson (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Frequency scaling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Grid computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-performance computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction-level parallelism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "James Larus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John L. Hennessy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Krste Asanović",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Massively parallel (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-core processor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Process (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Processing element",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Race condition",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sequential algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software bug",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Speedup",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Supercomputer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Symmetric multiprocessing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Synchronization (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Task parallelism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thread (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Transistor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Upper bound",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayback Machine",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming paradigm in which many processes are executed simultaneously",
+          "toc": "",
+          "page_image_free": "IBM_Blue_Gene_P_supercomputer.jpg",
+          "wikibase_item": "Q232661",
+          "wikibase-badge-Q17437796": ""
+        }
+      }
+    }
+  ]
+}

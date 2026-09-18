@@ -1,0 +1,1044 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Compiler",
+    "url": "https://en.wikipedia.org/wiki/Compiler",
+    "summary": "Software that translates code from one programming language to another This article is about software to translate computer languages. For the manga series, see Compiler (manga) . \"Compile\" and \"Compiling\" redirect here. For the software company, see Compile (company) . For other uses, see Compilation . Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e Part of a series on Software development Core activities Data modeling Processes Requirements Design Construction Engineering Testing Debugging Deployment Maintenance Paradigms, models Agile Cleanroom Incremental Prototyping Spiral V model Waterfall Methodologies , frameworks ASD DAD DevOps DSDM FDD IID Kanban Lean SD LeSS MDE MSF PSP RAD RUP SAFe Scrum SEMAT TDD TSP UP XP Supporting disciplines Configuration management Deployment management Documentation Project management Quality assurance User experience Practices ATDD BDD CCO CD CI DDD PP SBE Stand-up TDD XP Tools Build automation Compiler Debugger GUI builder IDE Infrastructure as code Profiler Release automation UML modeling Standards, bodies of knowledge CMMI IEEE standards IREB ISO 9001 ISO/IEC standards ITIL OMG PMBOK SWEBOK Glossaries Artificial intelligence Computer science Electrical and electronics engineering Outlines Software development Computer programming Programming languages C C++ C# Java JavaScript Perl Python Rust v t e In computing , a compiler is software that translates computer code written in one programming language (the source language) into another language (the target language). The name \"compiler\" is primarily used for programs that translate source code from a high-level programming language to a low-level programming language (e.g., assembly language , object code , or machine code ) to create an executable program. There are many different types of compilers which produce output in different useful forms. A cross-compiler produces code for a different central processing unit (CPU) or operating system than the one on which the cross-compiler itself runs. A bootstrap compiler is often a temporary compiler, used for compiling a more permanent or better optimized compiler for a language. Related software include decompilers , programs that translate from low-level languages to higher-level ones; programs that translate between high-level languages, usually called source-to-source compilers or transpilers ; language rewriters , usually programs that translate the form of expressions without a change of language; and compiler-compilers , compilers that produce compilers (or parts of them), often in a generic and reusable way so as to be able to produce many differing compilers. A compiler is likely to perform some or all of the following operations, often called phases: preprocessing , lexical analysis , parsing , semantic analysis ( syntax-directed translation ), conversion of input programs to an intermediate representation , code optimization and machine specific code generation . Compilers generally implement these phases as modular components, promoting efficient design and correctness of transformations of source input to target output. Program faults caused by incorrect compiler behavior can be very difficult to track down and work around; therefore, compiler implementers invest significant effort to ensure compiler correctness . ^ \"Encyclopedia: Definition of Compiler\" . PCMag.com . Retrieved 2 July 2022 . ^ Aho, Alfred V.; Sethi, Ravi; Ullman, Jeffrey D. (2007). Compilers: Principles, Techniques, and Tools (2nd ed.). ^ Sudarsanam, Ashok; Malik, Sharad; Fujita, Masahiro (2002). \"A Retargetable Compilation Methodology for Embedded Digital Signal Processors Using a Machine-Dependent Code Optimization Library\". Readings in Hardware/Software Co-Design . Elsevier. pp. 506– 515. doi : 10.1016/b978-155860702-6/50045-4 . ISBN 9781558607026 . A compiler is a computer program that translates a program written in a high-level language (HLL), such as C, into an equivalent assembly language program [2]. ^ Sun, Chengnian; Le, Vu; Zhang, Qirun; Su, Zhendong (2016). \"Toward understanding compiler bugs in GCC and LLVM\" . Proceedings of the 25th International Symposium on Software Testing and Analysis . ISSTA 2016. ACM. pp. 294– 305. doi : 10.1145/2931037.2931074 . ISBN 9781450343909 . S2CID 8339241 .",
+    "text": "Software that translates code from one programming language to another This article is about software to translate computer languages. For the manga series, see Compiler (manga) . \"Compile\" and \"Compiling\" redirect here. For the software company, see Compile (company) . For other uses, see Compilation . Program execution General concepts Code Translation Compiler Compile time Optimizing compiler Linking Execution Runtime system Executable Interpreter Virtual machine Intermediate representation (IR) Types of code Source code Object code Bytecode Machine code Microcode Compilation strategies Ahead-of-time (AOT) Just-in-time (JIT) Tracing just-in-time Compile and go system Precompilation Transcompilation Recompilation Meta-tracing Notable runtimes Android Runtime (ART) BEAM (Erlang) Common Language Runtime (CLR) and Mono CPython and PyPy crt0 ( C target-specific initializer) Java virtual machine (JVM) LuaJIT Objective-C and Swift 's V8 and Node.js Zend Engine (PHP) Notable compilers & toolchains GNU Compiler Collection (GCC) LLVM and Clang MSVC Glasgow Haskell Compiler (GHC) v t e Part of a series on Software development Core activities Data modeling Processes Requirements Design Construction Engineering Testing Debugging Deployment Maintenance Paradigms, models Agile Cleanroom Incremental Prototyping Spiral V model Waterfall Methodologies , frameworks ASD DAD DevOps DSDM FDD IID Kanban Lean SD LeSS MDE MSF PSP RAD RUP SAFe Scrum SEMAT TDD TSP UP XP Supporting disciplines Configuration management Deployment management Documentation Project management Quality assurance User experience Practices ATDD BDD CCO CD CI DDD PP SBE Stand-up TDD XP Tools Build automation Compiler Debugger GUI builder IDE Infrastructure as code Profiler Release automation UML modeling Standards, bodies of knowledge CMMI IEEE standards IREB ISO 9001 ISO/IEC standards ITIL OMG PMBOK SWEBOK Glossaries Artificial intelligence Computer science Electrical and electronics engineering Outlines Software development Computer programming Programming languages C C++ C# Java JavaScript Perl Python Rust v t e In computing , a compiler is software that translates computer code written in one programming language (the source language) into another language (the target language). The name \"compiler\" is primarily used for programs that translate source code from a high-level programming language to a low-level programming language (e.g., assembly language , object code , or machine code ) to create an executable program. There are many different types of compilers which produce output in different useful forms. A cross-compiler produces code for a different central processing unit (CPU) or operating system than the one on which the cross-compiler itself runs. A bootstrap compiler is often a temporary compiler, used for compiling a more permanent or better optimized compiler for a language. Related software include decompilers , programs that translate from low-level languages to higher-level ones; programs that translate between high-level languages, usually called source-to-source compilers or transpilers ; language rewriters , usually programs that translate the form of expressions without a change of language; and compiler-compilers , compilers that produce compilers (or parts of them), often in a generic and reusable way so as to be able to produce many differing compilers. A compiler is likely to perform some or all of the following operations, often called phases: preprocessing , lexical analysis , parsing , semantic analysis ( syntax-directed translation ), conversion of input programs to an intermediate representation , code optimization and machine specific code generation . Compilers generally implement these phases as modular components, promoting efficient design and correctness of transformations of source input to target output. Program faults caused by incorrect compiler behavior can be very difficult to track down and work around; therefore, compiler implementers invest significant effort to ensure compiler correctness . ^ \"Encyclopedia: Definition of Compiler\" . PCMag.com . Retrieved 2 July 2022 . ^ Aho, Alfred V.; Sethi, Ravi; Ullman, Jeffrey D. (2007). Compilers: Principles, Techniques, and Tools (2nd ed.). ^ Sudarsanam, Ashok; Malik, Sharad; Fujita, Masahiro (2002). \"A Retargetable Compilation Methodology for Embedded Digital Signal Processors Using a Machine-Dependent Code Optimization Library\". Readings in Hardware/Software Co-Design . Elsevier. pp. 506– 515. doi : 10.1016/b978-155860702-6/50045-4 . ISBN 9781558607026 . A compiler is a computer program that translates a program written in a high-level language (HLL), such as C, into an equivalent assembly language program [2]. ^ Sun, Chengnian; Le, Vu; Zhang, Qirun; Su, Zhendong (2016). \"Toward understanding compiler bugs in GCC and LLVM\" . Proceedings of the 25th International Symposium on Software Testing and Analysis . ISSTA 2016. ACM. pp. 294– 305. doi : 10.1145/2931037.2931074 . ISBN 9781450343909 . S2CID 8339241 .",
+    "links": [
+      "Acceptance test-driven development",
+      "Adaptive software development",
+      "Agile software development",
+      "Ahead-of-time compilation",
+      "Android Runtime",
+      "Application-release automation",
+      "Assembly language",
+      "BEAM (Erlang virtual machine)",
+      "Behavior-driven development",
+      "Bootstrap compiler",
+      "Build automation",
+      "Bytecode",
+      "C (programming language)",
+      "CPython",
+      "Capability Maturity Model Integration",
+      "Central processing unit",
+      "Clang",
+      "Cleanroom software engineering",
+      "Code generation (compiler)",
+      "Code optimization",
+      "Code ownership",
+      "Common Language Runtime",
+      "Compilation (disambiguation)",
+      "Compile (company)",
+      "Compile and go system",
+      "Compile time",
+      "Compiler (manga)",
+      "Compiler correctness",
+      "Compiler-compiler",
+      "Computer program",
+      "Computing",
+      "Continuous delivery",
+      "Continuous integration",
+      "Cross-compiler",
+      "Crt0",
+      "Data modeling",
+      "Debugger",
+      "Debugging",
+      "Decompiler",
+      "Deployment management",
+      "DevOps",
+      "Disciplined agile delivery",
+      "Doi (identifier)",
+      "Domain-driven design",
+      "Dynamic recompilation",
+      "Dynamic systems development method",
+      "Executable",
+      "Execution (computing)",
+      "Expression (computer science)",
+      "Extreme programming",
+      "Extreme programming practices",
+      "Feature-driven development",
+      "GNU Compiler Collection",
+      "Glasgow Haskell Compiler",
+      "Glossary of artificial intelligence",
+      "Glossary of computer science",
+      "Glossary of electrical and electronics engineering",
+      "Graphical user interface builder",
+      "High-level programming language",
+      "IEEE Standards Association",
+      "ISBN (identifier)",
+      "ISO 9001",
+      "ISO/IEC JTC 1/SC 7",
+      "ITIL",
+      "Incremental build model",
+      "Infrastructure as code",
+      "Input/output",
+      "Integrated development environment",
+      "Intermediate representation",
+      "International Requirements Engineering Board",
+      "Interpreter (computing)",
+      "Iterative and incremental development",
+      "Java virtual machine",
+      "Just-in-time compilation",
+      "Kanban (development)",
+      "LLVM",
+      "Lean software development",
+      "Lexical analysis",
+      "Linker (computing)",
+      "List of programming languages by type",
+      "Low-level programming language",
+      "LuaJIT",
+      "Machine code",
+      "Meta-tracing",
+      "Microcode",
+      "Microsoft Solutions Framework",
+      "Microsoft Visual C++",
+      "Model-driven engineering",
+      "Mono (software)",
+      "Node.js",
+      "Object Management Group",
+      "Object code",
+      "Objective-C",
+      "Operating system",
+      "Optimizing compiler",
+      "Outline of computer programming",
+      "Outline of software development",
+      "Outline of the C programming language",
+      "Outline of the C sharp programming language",
+      "Outline of the C++ programming language",
+      "Outline of the Java programming language",
+      "Outline of the JavaScript programming language",
+      "Outline of the Perl programming language",
+      "Outline of the Python programming language",
+      "Outline of the Rust programming language",
+      "Pair programming",
+      "Parser",
+      "Personal software process",
+      "Precompilation",
+      "Preprocessor",
+      "Profiling (computer programming)",
+      "Program transformation",
+      "Programming language",
+      "Programming tool",
+      "Project Management Body of Knowledge",
+      "PyPy",
+      "Rapid application development",
+      "Rational unified process",
+      "Requirements engineering",
+      "Rewriting",
+      "Runtime system",
+      "S2CID (identifier)",
+      "SEMAT",
+      "Scaled agile framework",
+      "Scrum (project management)",
+      "Semantic analysis (compilers)",
+      "Software",
+      "Software Engineering Body of Knowledge",
+      "Software configuration management",
+      "Software construction",
+      "Software deployment",
+      "Software design",
+      "Software development",
+      "Software development methodology",
+      "Software development process",
+      "Software documentation",
+      "Software engineering",
+      "Software maintenance",
+      "Software project management",
+      "Software prototyping",
+      "Software quality assurance",
+      "Software testing",
+      "Source code",
+      "Source-to-source compiler",
+      "Specification by example",
+      "Spiral model",
+      "Stand-up meeting",
+      "Swift (programming language)",
+      "Syntax-directed translation",
+      "Team software process",
+      "Test-driven development",
+      "Tracing just-in-time compilation",
+      "Translator (computing)",
+      "UML tool",
+      "Unified process",
+      "User experience",
+      "V-model (software development)",
+      "V8 (JavaScript engine)",
+      "Virtual machine",
+      "Waterfall model",
+      "Zend Engine"
+    ],
+    "page_id": 5739,
+    "revision_id": 1373605841,
+    "retrieved_at": "2026-09-18T16:41:12.766488+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260826231651|1371519026",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 5739,
+            "ns": 0,
+            "title": "Compiler",
+            "revisions": [
+              {
+                "revid": 1373605841,
+                "parentid": 1371519026
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Software that translates code from one programming language to another",
+              "wikibase_item": "Q47506"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Compiler",
+        "pageid": 5739,
+        "revid": 1373605841,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Software that translates code from one programming language to another</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about software to translate computer languages. For the manga series, see <a href=\"/wiki/Compiler_(manga)\" title=\"Compiler (manga)\"><i>Compiler</i> (manga)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Compile\" and \"Compiling\" redirect here. For the software company, see <a href=\"/wiki/Compile_(company)\" title=\"Compile (company)\">Compile (company)</a>. For other uses, see <a href=\"/wiki/Compilation_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"Compilation (disambiguation)\">Compilation</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">Program execution</a></th></tr><tr><th class=\"sidebar-heading\">\nGeneral concepts</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Computer_program\" title=\"Computer program\">Code</a></li>\n<li><a href=\"/wiki/Translator_(computing)\" title=\"Translator (computing)\">Translation</a>\n<ul><li><a class=\"mw-selflink selflink\">Compiler</a></li>\n<li><a href=\"/wiki/Compile_time\" title=\"Compile time\">Compile time</a></li>\n<li><a href=\"/wiki/Optimizing_compiler\" title=\"Optimizing compiler\">Optimizing compiler</a></li></ul></li>\n<li><a href=\"/wiki/Linker_(computing)\" title=\"Linker (computing)\"> Linking</a></li>\n<li><a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">Execution</a>\n<ul><li><a href=\"/wiki/Runtime_system\" title=\"Runtime system\">Runtime system</a></li>\n<li><a href=\"/wiki/Executable\" title=\"Executable\">Executable</a></li>\n<li><a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">Interpreter</a></li>\n<li><a href=\"/wiki/Virtual_machine\" title=\"Virtual machine\">Virtual machine</a></li></ul></li>\n<li><a href=\"/wiki/Intermediate_representation\" title=\"Intermediate representation\">Intermediate representation</a> (IR)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nTypes of code</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Source_code\" title=\"Source code\">Source code</a></li>\n<li><a href=\"/wiki/Object_code\" title=\"Object code\">Object code</a></li>\n<li><a href=\"/wiki/Bytecode\" title=\"Bytecode\">Bytecode</a></li>\n<li><a href=\"/wiki/Machine_code\" title=\"Machine code\">Machine code</a></li>\n<li><a href=\"/wiki/Microcode\" title=\"Microcode\">Microcode</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nCompilation strategies</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Ahead-of-time_compilation\" title=\"Ahead-of-time compilation\">Ahead-of-time</a> (AOT)</li>\n<li><a href=\"/wiki/Just-in-time_compilation\" title=\"Just-in-time compilation\">Just-in-time</a> (JIT)\n<ul><li><a href=\"/wiki/Tracing_just-in-time_compilation\" title=\"Tracing just-in-time compilation\">Tracing just-in-time</a></li>\n<li><a href=\"/wiki/Compile_and_go_system\" title=\"Compile and go system\">Compile and go system</a></li></ul></li>\n<li><a href=\"/wiki/Precompilation\" class=\"mw-redirect\" title=\"Precompilation\">Precompilation</a></li>\n<li><a href=\"/wiki/Source-to-source_compiler\" title=\"Source-to-source compiler\">Transcompilation</a></li>\n<li><a href=\"/wiki/Dynamic_recompilation\" title=\"Dynamic recompilation\">Recompilation</a></li>\n<li><a href=\"/wiki/Meta-tracing\" title=\"Meta-tracing\">Meta-tracing</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable runtimes</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Android_Runtime\" title=\"Android Runtime\">Android Runtime</a> (ART)</li>\n<li><a href=\"/wiki/BEAM_(Erlang_virtual_machine)\" title=\"BEAM (Erlang virtual machine)\">BEAM</a> (Erlang)</li>\n<li><a href=\"/wiki/Common_Language_Runtime\" title=\"Common Language Runtime\">Common Language Runtime</a> (CLR) and&#160;<a href=\"/wiki/Mono_(software)#Code_Execution_Engine\" title=\"Mono (software)\">Mono</a></li>\n<li><a href=\"/wiki/CPython\" title=\"CPython\">CPython</a> and&#160;<a href=\"/wiki/PyPy\" title=\"PyPy\">PyPy</a></li>\n<li><a href=\"/wiki/Crt0\" title=\"Crt0\">crt0</a> (<a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> target-specific initializer)</li>\n<li><a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">Java virtual machine</a> (JVM)</li>\n<li><a href=\"/wiki/LuaJIT\" title=\"LuaJIT\">LuaJIT</a></li>\n<li><a href=\"/wiki/Objective-C\" title=\"Objective-C\">Objective-C</a> and&#160;<a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>'s</li>\n<li><a href=\"/wiki/V8_(JavaScript_engine)\" title=\"V8 (JavaScript engine)\">V8</a> and&#160;<a href=\"/wiki/Node.js\" title=\"Node.js\">Node.js</a></li>\n<li><a href=\"/wiki/Zend_Engine\" title=\"Zend Engine\">Zend Engine</a> (PHP)</li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nNotable compilers &amp; toolchains</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GNU Compiler Collection</a> (GCC)</li>\n<li><a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a> and&#160;<a href=\"/wiki/Clang\" title=\"Clang\">Clang</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">MSVC</a></li>\n<li><a href=\"/wiki/Glasgow_Haskell_Compiler\" title=\"Glasgow Haskell Compiler\">Glasgow Haskell Compiler</a> (GHC)</li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Program_execution\" title=\"Template:Program execution\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Program_execution\" title=\"Template talk:Program execution\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Program_execution\" title=\"Special:EditPage/Template:Program execution\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1246091330\" /><table class=\"sidebar sidebar-collapse nomobile\" role=\"navigation\"><tbody><tr><td class=\"sidebar-pretitle\">Part of a series on</td></tr><tr><th class=\"sidebar-title-with-pretitle\"><a href=\"/wiki/Software_development\" title=\"Software development\">Software development</a></th></tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Core activities</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Data_modeling\" title=\"Data modeling\">Data modeling</a></li>\n<li><a href=\"/wiki/Software_development_process\" title=\"Software development process\">Processes</a></li>\n<li><a href=\"/wiki/Requirements_engineering\" title=\"Requirements engineering\">Requirements</a></li>\n<li><a href=\"/wiki/Software_design\" title=\"Software design\">Design</a></li>\n<li><a href=\"/wiki/Software_construction\" title=\"Software construction\">Construction</a></li>\n<li><a href=\"/wiki/Software_engineering\" title=\"Software engineering\">Engineering</a></li>\n<li><a href=\"/wiki/Software_testing\" title=\"Software testing\">Testing</a></li>\n<li><a href=\"/wiki/Debugging\" title=\"Debugging\">Debugging</a></li>\n<li><a href=\"/wiki/Software_deployment\" title=\"Software deployment\">Deployment</a></li>\n<li><a href=\"/wiki/Software_maintenance\" title=\"Software maintenance\">Maintenance</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Paradigms, models</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Agile_software_development\" title=\"Agile software development\">Agile</a></li>\n<li><a href=\"/wiki/Cleanroom_software_engineering\" title=\"Cleanroom software engineering\">Cleanroom</a></li>\n<li><a href=\"/wiki/Incremental_build_model\" title=\"Incremental build model\">Incremental</a></li>\n<li><a href=\"/wiki/Software_prototyping\" title=\"Software prototyping\">Prototyping</a></li>\n<li><a href=\"/wiki/Spiral_model\" title=\"Spiral model\">Spiral</a></li>\n<li><a href=\"/wiki/V-model_(software_development)\" title=\"V-model (software development)\">V model</a></li>\n<li><a href=\"/wiki/Waterfall_model\" title=\"Waterfall model\">Waterfall</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\"><a href=\"/wiki/Software_development_methodology\" class=\"mw-redirect\" title=\"Software development methodology\">Methodologies</a>, frameworks</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Adaptive_software_development\" title=\"Adaptive software development\">ASD</a></li>\n<li><a href=\"/wiki/Disciplined_agile_delivery\" title=\"Disciplined agile delivery\">DAD</a></li>\n<li><a href=\"/wiki/DevOps\" title=\"DevOps\">DevOps</a></li>\n<li><a href=\"/wiki/Dynamic_systems_development_method\" title=\"Dynamic systems development method\">DSDM</a></li>\n<li><a href=\"/wiki/Feature-driven_development\" title=\"Feature-driven development\">FDD</a></li>\n<li><a href=\"/wiki/Iterative_and_incremental_development\" title=\"Iterative and incremental development\">IID</a></li>\n<li><a href=\"/wiki/Kanban_(development)\" title=\"Kanban (development)\">Kanban</a></li>\n<li><a href=\"/wiki/Lean_software_development\" title=\"Lean software development\">Lean SD</a></li>\n<li><a href=\"/wiki/Scrum_(project_management)#Large-scale_scrum\" title=\"Scrum (project management)\">LeSS</a></li>\n<li><a href=\"/wiki/Model-driven_engineering\" title=\"Model-driven engineering\">MDE</a></li>\n<li><a href=\"/wiki/Microsoft_Solutions_Framework\" title=\"Microsoft Solutions Framework\">MSF</a></li>\n<li><a href=\"/wiki/Personal_software_process\" title=\"Personal software process\">PSP</a></li>\n<li><a href=\"/wiki/Rapid_application_development\" title=\"Rapid application development\">RAD</a></li>\n<li><a href=\"/wiki/Rational_unified_process\" title=\"Rational unified process\">RUP</a></li>\n<li><a href=\"/wiki/Scaled_agile_framework\" title=\"Scaled agile framework\">SAFe</a></li>\n<li><a href=\"/wiki/Scrum_(project_management)\" title=\"Scrum (project management)\">Scrum</a></li>\n<li><a href=\"/wiki/SEMAT\" title=\"SEMAT\">SEMAT</a></li>\n<li><a href=\"/wiki/Test-driven_development\" title=\"Test-driven development\">TDD</a></li>\n<li><a href=\"/wiki/Team_software_process\" title=\"Team software process\">TSP</a></li>\n<li><a href=\"/wiki/Unified_process\" title=\"Unified process\">UP</a></li>\n<li><a href=\"/wiki/Extreme_programming\" title=\"Extreme programming\">XP</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Supporting disciplines</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Software_configuration_management\" title=\"Software configuration management\">Configuration management</a></li>\n<li><a href=\"/wiki/Deployment_management#Computer_science\" title=\"Deployment management\">Deployment management</a></li>\n<li><a href=\"/wiki/Software_documentation\" title=\"Software documentation\">Documentation</a></li>\n<li><a href=\"/wiki/Software_project_management\" title=\"Software project management\">Project management</a></li>\n<li><a href=\"/wiki/Software_quality_assurance\" title=\"Software quality assurance\">Quality assurance</a></li>\n<li><a href=\"/wiki/User_experience\" title=\"User experience\">User experience</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Practices</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Acceptance_test-driven_development\" title=\"Acceptance test-driven development\">ATDD</a></li>\n<li><a href=\"/wiki/Behavior-driven_development\" title=\"Behavior-driven development\">BDD</a></li>\n<li><a href=\"/wiki/Code_ownership\" title=\"Code ownership\">CCO</a></li>\n<li><a href=\"/wiki/Continuous_delivery\" title=\"Continuous delivery\">CD</a></li>\n<li><a href=\"/wiki/Continuous_integration\" title=\"Continuous integration\">CI</a></li>\n<li><a href=\"/wiki/Domain-driven_design\" title=\"Domain-driven design\">DDD</a></li>\n<li><a href=\"/wiki/Pair_programming\" title=\"Pair programming\">PP</a></li>\n<li><a href=\"/wiki/Specification_by_example\" title=\"Specification by example\">SBE</a></li>\n<li><a href=\"/wiki/Stand-up_meeting\" title=\"Stand-up meeting\">Stand-up</a></li>\n<li><a href=\"/wiki/Test-driven_development\" title=\"Test-driven development\">TDD</a></li>\n<li><a href=\"/wiki/Extreme_programming_practices\" title=\"Extreme programming practices\">XP</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\"><a href=\"/wiki/Programming_tool\" title=\"Programming tool\">Tools</a></div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Build_automation\" title=\"Build automation\">Build automation</a></li>\n<li><a class=\"mw-selflink selflink\">Compiler</a></li>\n<li><a href=\"/wiki/Debugger\" title=\"Debugger\">Debugger</a></li>\n<li><a href=\"/wiki/Graphical_user_interface_builder\" title=\"Graphical user interface builder\">GUI builder</a></li>\n<li><a href=\"/wiki/Integrated_development_environment\" title=\"Integrated development environment\">IDE</a></li>\n<li><a href=\"/wiki/Infrastructure_as_code\" title=\"Infrastructure as code\">Infrastructure as code</a></li>\n<li><a href=\"/wiki/Profiling_(computer_programming)\" title=\"Profiling (computer programming)\">Profiler</a></li>\n<li><a href=\"/wiki/Application-release_automation\" title=\"Application-release automation\">Release automation</a></li>\n<li><a href=\"/wiki/UML_tool\" title=\"UML tool\">UML modeling</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Standards, bodies of knowledge</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Capability_Maturity_Model_Integration\" title=\"Capability Maturity Model Integration\">CMMI</a></li>\n<li><a href=\"/wiki/IEEE_Standards_Association\" title=\"IEEE Standards Association\">IEEE standards</a></li>\n<li><a href=\"/wiki/International_Requirements_Engineering_Board\" title=\"International Requirements Engineering Board\">IREB</a></li>\n<li><a href=\"/wiki/ISO_9001\" class=\"mw-redirect\" title=\"ISO 9001\">ISO 9001</a></li>\n<li><a href=\"/wiki/ISO/IEC_JTC_1/SC_7\" title=\"ISO/IEC JTC 1/SC 7\">ISO/IEC standards</a></li>\n<li><a href=\"/wiki/ITIL\" title=\"ITIL\">ITIL</a></li>\n<li><a href=\"/wiki/Object_Management_Group\" title=\"Object Management Group\">OMG</a></li>\n<li><a href=\"/wiki/Project_Management_Body_of_Knowledge\" title=\"Project Management Body of Knowledge\">PMBOK</a></li>\n<li><a href=\"/wiki/Software_Engineering_Body_of_Knowledge\" title=\"Software Engineering Body of Knowledge\">SWEBOK</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Glossaries</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Glossary_of_artificial_intelligence\" title=\"Glossary of artificial intelligence\">Artificial intelligence</a></li>\n<li><a href=\"/wiki/Glossary_of_computer_science\" title=\"Glossary of computer science\">Computer science</a></li>\n<li><a href=\"/wiki/Glossary_of_electrical_and_electronics_engineering\" title=\"Glossary of electrical and electronics engineering\">Electrical and electronics engineering</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"border-top:1px solid #aaa; text-align:center;background-color:#e0e0e0;;color: var(--color-base)\">Outlines</div><div class=\"sidebar-list-content mw-collapsible-content hlist\">\n<ul><li><a href=\"/wiki/Outline_of_software_development\" title=\"Outline of software development\">Software development</a></li>\n<li><a href=\"/wiki/Outline_of_computer_programming\" title=\"Outline of computer programming\">Computer programming</a></li>\n<li><a href=\"/wiki/List_of_programming_languages_by_type\" title=\"List of programming languages by type\">Programming languages</a>\n<ul><li><a href=\"/wiki/Outline_of_the_C_programming_language\" title=\"Outline of the C programming language\">C</a></li>\n<li><a href=\"/wiki/Outline_of_the_C%2B%2B_programming_language\" title=\"Outline of the C++ programming language\">C++</a></li>\n<li><a href=\"/wiki/Outline_of_the_C_sharp_programming_language\" title=\"Outline of the C sharp programming language\">C#</a></li>\n<li><a href=\"/wiki/Outline_of_the_Java_programming_language\" title=\"Outline of the Java programming language\">Java</a></li>\n<li><a href=\"/wiki/Outline_of_the_JavaScript_programming_language\" title=\"Outline of the JavaScript programming language\">JavaScript</a></li>\n<li><a href=\"/wiki/Outline_of_the_Perl_programming_language\" title=\"Outline of the Perl programming language\">Perl</a></li>\n<li><a href=\"/wiki/Outline_of_the_Python_programming_language\" title=\"Outline of the Python programming language\">Python</a></li>\n<li><a href=\"/wiki/Outline_of_the_Rust_programming_language\" title=\"Outline of the Rust programming language\">Rust</a></li></ul></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1239400231\" /><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Software_development_process\" title=\"Template:Software development process\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Software_development_process\" title=\"Template talk:Software development process\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Software_development_process\" title=\"Special:EditPage/Template:Software development process\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p>In <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, a <b>compiler</b> is <a href=\"/wiki/Software\" title=\"Software\">software</a> that <a href=\"/wiki/Translator_(computing)\" title=\"Translator (computing)\">translates</a> computer code written in one <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> (the <i>source</i> language) into another language (the <i>target</i> language). The name \"compiler\" is primarily used for programs that translate <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a> from a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level programming language</a> to a <a href=\"/wiki/Low-level_programming_language\" title=\"Low-level programming language\">low-level programming language</a> (e.g., <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly language</a>, <a href=\"/wiki/Object_code\" title=\"Object code\">object code</a>, or <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a>) to create an <a href=\"/wiki/Executable\" title=\"Executable\">executable</a> program.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-dragon&#95;2-0\" class=\"reference\"><a href=\"#cite_note-dragon-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page / location: p1\">&#58;&#8202;p1&#8202;</span></sup><sup id=\"cite&#95;ref-SudarsanamMalikFujita&#95;3-0\" class=\"reference\"><a href=\"#cite_note-SudarsanamMalikFujita-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>There are many different types of compilers which produce output in different useful forms. A <i><a href=\"/wiki/Cross-compiler\" class=\"mw-redirect\" title=\"Cross-compiler\">cross-compiler</a></i> produces code for a different <a href=\"/wiki/Central_processing_unit\" title=\"Central processing unit\">central processing unit</a> (CPU) or <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> than the one on which the cross-compiler itself runs. A <i><a href=\"/wiki/Bootstrap_compiler\" class=\"mw-redirect\" title=\"Bootstrap compiler\">bootstrap compiler</a></i> is often a temporary compiler, used for compiling a more permanent or better optimized compiler for a language.\n</p><p>Related software include <i><a href=\"/wiki/Decompiler\" title=\"Decompiler\">decompilers</a></i>, programs that translate from low-level languages to higher-level ones; programs that translate between high-level languages, usually called <i><a href=\"/wiki/Source-to-source_compiler\" title=\"Source-to-source compiler\">source-to-source compilers</a></i> or <i>transpilers</i>; language <i><a href=\"/wiki/Rewriting\" title=\"Rewriting\">rewriters</a></i>, usually programs that translate the form of <a href=\"/wiki/Expression_(computer_science)\" title=\"Expression (computer science)\">expressions</a> without a change of language; and <i><a href=\"/wiki/Compiler-compiler\" title=\"Compiler-compiler\">compiler-compilers</a></i>, compilers that produce compilers (or parts of them), often in a generic and reusable way so as to be able to produce many differing compilers.\n</p><p>A compiler is likely to perform some or all of the following operations, often called phases: <a href=\"/wiki/Preprocessor\" title=\"Preprocessor\">preprocessing</a>, <a href=\"/wiki/Lexical_analysis\" title=\"Lexical analysis\">lexical analysis</a>, <a href=\"/wiki/Parser\" class=\"mw-redirect\" title=\"Parser\">parsing</a>, <a href=\"/wiki/Semantic_analysis_(compilers)\" title=\"Semantic analysis (compilers)\">semantic analysis</a> (<a href=\"/wiki/Syntax-directed_translation\" title=\"Syntax-directed translation\">syntax-directed translation</a>), conversion of <a href=\"/wiki/Input/output\" title=\"Input/output\">input</a> programs to an <a href=\"/wiki/Intermediate_representation\" title=\"Intermediate representation\">intermediate representation</a>, <a href=\"/wiki/Code_optimization\" class=\"mw-redirect\" title=\"Code optimization\">code optimization</a> and <a href=\"/wiki/Code_generation_(compiler)\" title=\"Code generation (compiler)\">machine specific code generation</a>. Compilers generally implement these phases as modular components, promoting efficient design and correctness of <a href=\"/wiki/Program_transformation\" title=\"Program transformation\">transformations</a> of source input to target output. Program faults caused by incorrect compiler behavior can be very difficult to track down and work around; therefore, compiler implementers invest significant effort to ensure <a href=\"/wiki/Compiler_correctness\" title=\"Compiler correctness\">compiler correctness</a>.<sup id=\"cite&#95;ref-Sun2016&#95;4-0\" class=\"reference\"><a href=\"#cite_note-Sun2016-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.pcmag.com/encyclopedia/term/compiler\">\"Encyclopedia: Definition of Compiler\"</a>. <i>PCMag.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2 July</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=PCMag.com&amp;rft.atitle=Encyclopedia%3A+Definition+of+Compiler&amp;rft&#95;id=https%3A%2F%2Fwww.pcmag.com%2Fencyclopedia%2Fterm%2Fcompiler&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-dragon-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-dragon_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAhoSethiUllman2007\" class=\"citation book cs1\">Aho, Alfred V.; Sethi, Ravi; Ullman, Jeffrey D. (2007). <i>Compilers: Principles, Techniques, and Tools</i> (2nd&#160;ed.).</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Compilers%3A+Principles%2C+Techniques%2C+and+Tools&amp;rft.edition=2nd&amp;rft.date=2007&amp;rft.aulast=Aho&amp;rft.aufirst=Alfred+V.&amp;rft.au=Sethi%2C+Ravi&amp;rft.au=Ullman%2C+Jeffrey+D.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-SudarsanamMalikFujita-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-SudarsanamMalikFujita_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSudarsanamMalikFujita2002\" class=\"citation book cs1\">Sudarsanam, Ashok; Malik, Sharad; Fujita, Masahiro (2002). \"A Retargetable Compilation Methodology for Embedded Digital Signal Processors Using a Machine-Dependent Code Optimization Library\". <i>Readings in Hardware/Software Co-Design</i>. Elsevier. pp.&#160;<span class=\"nowrap\">506–</span>515. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1016%2Fb978-155860702-6%2F50045-4\">10.1016/b978-155860702-6/50045-4</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/9781558607026\" title=\"Special:BookSources/9781558607026\"><bdi>9781558607026</bdi></a>. <q>A compiler is a computer program that translates a program written in a high-level language (HLL), such as C, into an equivalent assembly language program [2].</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=A+Retargetable+Compilation+Methodology+for+Embedded+Digital+Signal+Processors+Using+a+Machine-Dependent+Code+Optimization+Library&amp;rft.btitle=Readings+in+Hardware%2FSoftware+Co-Design&amp;rft.pages=506-515&amp;rft.pub=Elsevier&amp;rft.date=2002&amp;rft&#95;id=info%3Adoi%2F10.1016%2Fb978-155860702-6%2F50045-4&amp;rft.isbn=9781558607026&amp;rft.aulast=Sudarsanam&amp;rft.aufirst=Ashok&amp;rft.au=Malik%2C+Sharad&amp;rft.au=Fujita%2C+Masahiro&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompiler\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Sun2016-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Sun2016_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSunLeZhangSu2016\" class=\"citation book cs1\">Sun, Chengnian; Le, Vu; Zhang, Qirun; Su, Zhendong (2016). <a rel=\"nofollow\" class=\"external text\" href=\"http://dl.acm.org/citation.cfm?doid=2931037.2931074\">\"Toward understanding compiler bugs in GCC and LLVM\"</a>. <i>Proceedings of the 25th International Symposium on Software Testing and Analysis</i>. ISSTA 2016. ACM. pp.&#160;<span class=\"nowrap\">294–</span>305. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F2931037.2931074\">10.1145/2931037.2931074</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/9781450343909\" title=\"Special:BookSources/9781450343909\"><bdi>9781450343909</bdi></a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:8339241\">8339241</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Toward+understanding+compiler+bugs+in+GCC+and+LLVM&amp;rft.btitle=Proceedings+of+the+25th+International+Symposium+on+Software+Testing+and+Analysis&amp;rft.series=ISSTA+2016&amp;rft.pages=294-305&amp;rft.pub=ACM&amp;rft.date=2016&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A8339241%23id-name%3DS2CID&amp;rft&#95;id=info%3Adoi%2F10.1145%2F2931037.2931074&amp;rft.isbn=9781450343909&amp;rft.aulast=Sun&amp;rft.aufirst=Chengnian&amp;rft.au=Le%2C+Vu&amp;rft.au=Zhang%2C+Qirun&amp;rft.au=Su%2C+Zhendong&amp;rft&#95;id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fdoid%3D2931037.2931074&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACompiler\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐2p4st\nCached time: 20260918164138\nCache expiry: 2592000\nCache expiry source: Module:Citation/CS1 (os.date(%Y))\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.425 seconds\nReal time usage: 0.601 seconds\nPreprocessor visited node count: 793/1000000\nRevision size: 4181/2097152 bytes\nPost‐expand include size: 38770/2097152 bytes\nTemplate argument size: 965/2097152 bytes\nHighest expansion depth: 16/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 29146/5000000 bytes\nLua time usage: 0.290/10.000 seconds\nLua memory usage: 5716310/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  543.976      1 -total\n 23.80%  129.455      1 Template:Short_description\n 22.21%  120.797      1 Template:Program_execution\n 20.22%  110.011      1 Template:Cite_web\n 14.78%   80.424      2 Template:Pagetype\n  7.02%   38.211      1 Template:About\n  5.87%   31.953      1 Template:Rp\n  5.57%   30.299      1 Template:Use_dmy_dates\n  5.29%   28.780      3 Template:Main_other\n  4.60%   25.007      1 Template:R/superscript\n-->\n\n<!-- Render ID d15dda01-b37f-11f1-9134-33d7bf95f7a3 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Compiler (manga)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile (company)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compilation (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Acceptance test-driven development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adaptive software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Agile software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ahead-of-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application-release automation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BEAM (Erlang virtual machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Behavior-driven development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bootstrap compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Build automation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bytecode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CPython",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Capability Maturity Model Integration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Central processing unit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cleanroom software engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code generation (compiler)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code optimization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code ownership",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Language Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile and go system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compile time",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler-compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler correctness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer program",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Continuous delivery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Continuous integration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crt0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data modeling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debugger",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debugging",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Decompiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deployment management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DevOps",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Disciplined agile delivery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Domain-driven design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic recompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic systems development method",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Executable",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Expression (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extreme programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Extreme programming practices",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Feature-driven development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glasgow Haskell Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glossary of artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glossary of computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glossary of electrical and electronics engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphical user interface builder",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IEEE Standards Association",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO/IEC JTC 1/SC 7",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO 9001",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ITIL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Incremental build model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Infrastructure as code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated development environment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intermediate representation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Requirements Engineering Board",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Iterative and incremental development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kanban (development)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lean software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lexical analysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linker (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of programming languages by type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Low-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LuaJIT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meta-tracing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Solutions Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Model-driven engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mono (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Node.js",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object Management Group",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Optimizing compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of computer programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the C++ programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the C programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the C sharp programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the JavaScript programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the Java programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the Perl programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the Python programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of the Rust programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pair programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Personal software process",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Precompilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Preprocessor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Profiling (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Program transformation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming tool",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Project Management Body of Knowledge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PyPy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rapid application development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rational unified process",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Requirements engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rewriting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Runtime system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SEMAT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scaled agile framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scrum (project management)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Semantic analysis (compilers)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software Engineering Body of Knowledge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software configuration management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software construction",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software deployment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development methodology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development process",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software documentation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software engineering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software maintenance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software project management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software prototyping",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software quality assurance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software testing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source-to-source compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Specification by example",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spiral model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stand-up meeting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax-directed translation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Team software process",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Test-driven development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tracing just-in-time compilation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Translator (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UML tool",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unified process",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User experience",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V-model (software development)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V8 (JavaScript engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Waterfall model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Engine",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Program execution",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Software development process",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Program execution",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Software development process",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Software that translates code from one programming language to another",
+          "wikibase_item": "Q47506"
+        }
+      }
+    }
+  ]
+}

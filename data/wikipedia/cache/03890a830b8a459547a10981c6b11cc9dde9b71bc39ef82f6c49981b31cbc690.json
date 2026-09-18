@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Clojure",
+    "url": "https://en.wikipedia.org/wiki/Clojure",
+    "summary": "Dialect of the Lisp programming language on the Java platform Clojure Paradigm Multi-paradigm : agent-oriented concurrent functional logic macro pipeline Family JVM - hosted ; Lisp Designed by Rich Hickey First appeared 2007 ; 19 years ago ( 2007 ) Stable release 1.12.5 / 12 May 2026 ; 4 months ago ( 2026-05-12 ) Typing discipline Dynamic , strong Memory management Garbage collection via a host ( JVM , CLR , a JavaScript runtime such as V8 in case of ClojureScript or BEAM (see below ) Platform Java JavaScript .NET License Eclipse Public Filename extensions .clj .cljs .cljr .cljc .cljd .edn Website clojure .org Dialects ClojureScript, ClojureDart Influenced by C# C++ Common Lisp Erlang Haskell Java ML Prolog Racket Ruby Scheme Wolfram Language Influenced Elixir Hy Janet LFE Pixie Rhine Clojure Programming at Wikibooks Clojure ( / ˈ k l oʊ ʒ ər / , like closure ) is a dynamic and functional dialect of the programming language Lisp on the Java platform . Like most other Lisps, Clojure's syntax is built on S-expressions that are first parsed into data structures by a Lisp reader before being compiled . Clojure's reader supports literal syntax for maps , sets, and vectors along with lists, and these are compiled to the mentioned structures directly. Clojure treats code as data and has a Lisp macro system. Clojure is a Lisp-1 and is not intended to be code-compatible with other dialects of Lisp, since it uses its own set of data structures incompatible with other Lisps. Clojure advocates immutability and immutable data structures and encourages programmers to be explicit about managing identity and its states. This focus on programming with immutable values and explicit progression-of-time constructs is intended to facilitate developing more robust, especially concurrent , programs that are simple and fast. While its type system is entirely dynamic , recent efforts have also sought the implementation of a dependent type system . The language was created by Rich Hickey in the mid-2000s, originally for the Java platform; the language has since been ported to other platforms, such as the Common Language Runtime (.NET). Hickey continues to lead development of the language as its benevolent dictator for life . ^ \"Agents and Asynchronous Actions\" . Clojure.org . Retrieved 2019-07-07 . ^ \"Concurrent Programming\" . Clojure.org . Retrieved 2019-07-07 . ^ Hickey, Rich; contributors. \"core.async\" . GitHub . Retrieved 2019-07-07 . ^ \"Functional Programming\" . Clojure.org . Retrieved 2019-07-07 . ^ Nolen, David; Hickey, Rich. \"core.logic\" . GitHub . Retrieved 2019-07-07 . ^ \"Macros\" . Clojure.org . Retrieved 2019-07-07 . ^ Esterhazy, Paulus. \"Threading Macros Guide\" . Clojure.org . Retrieved 2019-07-07 . ^ Cite error: The named reference release/clojure1-12-5 was invoked but never defined (see the help page ). ^ Fogus, Michael (2011). \"Rich Hickey Q&A\" . CodeQuarterly.com . Archived from the original on 2017-01-11. ^ Hickey, Rich (2011). \"Simple Made Easy\" . YouTube . [ better source needed ] ^ Bonnaire-Sergeant, Ambrose (2012). A Practical Optional Type System for Clojure (Thesis). The University of Western Australia. ^ \"Clojure Programming\" (PDF) . OReilly.com . Retrieved 2013-04-30 . ^ Hickey, Rich. \"Clojure Bookshelf\" . Amazon.com . Archived from the original on 2017-10-03 . Retrieved 2019-07-07 . ^ Rose, Calvin; contributors. \"Janet Language\" . Janet-Lang.org . Retrieved 2023-02-18 . ^ Baldridge, Timothy. \"Pixie\" . GitHub . Retrieved 2025-02-06 . ^ Ramachandra, Ramkumar. \"Rhine\" . GitHub . Retrieved 2019-07-07 . ^ a b c Edwards, Kathryn (2009-08-10). \"The A-Z of Programming Languages: Clojure\" . Computerworld.com.au . Archived from the original on 2019-08-26. ^ Hickey, Rich (2009-01-05). \"meaning and pronunciation of Clojure\" . Google.com . ^ Krill, Paul (2012-03-22). \"Clojure inventor Hickey now aims for Android\" . InfoWorld.com . ^ \"Clojure\" . Clojure.org . Retrieved 2019-07-07 . ^ a b \"The Reader\" . Clojure.org . Retrieved 2019-07-07 . ^ a b \"Differences with other Lisps\" . Clojure.org . Retrieved 2019-07-07 . ^ \"Values and Change: Clojure's approach to Identity and State\" . Clojure.org . Retrieved 2019-07-07 . ^ Hickey, Rich. \"Rationale\" . Clojure.org . Retrieved 2019-07-07 . ^ Torre, Charles (2009-10-06). \"Expert to Expert: Rich Hickey and Brian Beckman – Inside Clojure\" . MSDN.com . ^ \"clojure/spec.alpha\" . GitHub . 2017-04-26.",
+    "text": "Dialect of the Lisp programming language on the Java platform Clojure Paradigm Multi-paradigm : agent-oriented concurrent functional logic macro pipeline Family JVM - hosted ; Lisp Designed by Rich Hickey First appeared 2007 ; 19 years ago ( 2007 ) Stable release 1.12.5 / 12 May 2026 ; 4 months ago ( 2026-05-12 ) Typing discipline Dynamic , strong Memory management Garbage collection via a host ( JVM , CLR , a JavaScript runtime such as V8 in case of ClojureScript or BEAM (see below ) Platform Java JavaScript .NET License Eclipse Public Filename extensions .clj .cljs .cljr .cljc .cljd .edn Website clojure .org Dialects ClojureScript, ClojureDart Influenced by C# C++ Common Lisp Erlang Haskell Java ML Prolog Racket Ruby Scheme Wolfram Language Influenced Elixir Hy Janet LFE Pixie Rhine Clojure Programming at Wikibooks Clojure ( / ˈ k l oʊ ʒ ər / , like closure ) is a dynamic and functional dialect of the programming language Lisp on the Java platform . Like most other Lisps, Clojure's syntax is built on S-expressions that are first parsed into data structures by a Lisp reader before being compiled . Clojure's reader supports literal syntax for maps , sets, and vectors along with lists, and these are compiled to the mentioned structures directly. Clojure treats code as data and has a Lisp macro system. Clojure is a Lisp-1 and is not intended to be code-compatible with other dialects of Lisp, since it uses its own set of data structures incompatible with other Lisps. Clojure advocates immutability and immutable data structures and encourages programmers to be explicit about managing identity and its states. This focus on programming with immutable values and explicit progression-of-time constructs is intended to facilitate developing more robust, especially concurrent , programs that are simple and fast. While its type system is entirely dynamic , recent efforts have also sought the implementation of a dependent type system . The language was created by Rich Hickey in the mid-2000s, originally for the Java platform; the language has since been ported to other platforms, such as the Common Language Runtime (.NET). Hickey continues to lead development of the language as its benevolent dictator for life . ^ \"Agents and Asynchronous Actions\" . Clojure.org . Retrieved 2019-07-07 . ^ \"Concurrent Programming\" . Clojure.org . Retrieved 2019-07-07 . ^ Hickey, Rich; contributors. \"core.async\" . GitHub . Retrieved 2019-07-07 . ^ \"Functional Programming\" . Clojure.org . Retrieved 2019-07-07 . ^ Nolen, David; Hickey, Rich. \"core.logic\" . GitHub . Retrieved 2019-07-07 . ^ \"Macros\" . Clojure.org . Retrieved 2019-07-07 . ^ Esterhazy, Paulus. \"Threading Macros Guide\" . Clojure.org . Retrieved 2019-07-07 . ^ Cite error: The named reference release/clojure1-12-5 was invoked but never defined (see the help page ). ^ Fogus, Michael (2011). \"Rich Hickey Q&A\" . CodeQuarterly.com . Archived from the original on 2017-01-11. ^ Hickey, Rich (2011). \"Simple Made Easy\" . YouTube . [ better source needed ] ^ Bonnaire-Sergeant, Ambrose (2012). A Practical Optional Type System for Clojure (Thesis). The University of Western Australia. ^ \"Clojure Programming\" (PDF) . OReilly.com . Retrieved 2013-04-30 . ^ Hickey, Rich. \"Clojure Bookshelf\" . Amazon.com . Archived from the original on 2017-10-03 . Retrieved 2019-07-07 . ^ Rose, Calvin; contributors. \"Janet Language\" . Janet-Lang.org . Retrieved 2023-02-18 . ^ Baldridge, Timothy. \"Pixie\" . GitHub . Retrieved 2025-02-06 . ^ Ramachandra, Ramkumar. \"Rhine\" . GitHub . Retrieved 2019-07-07 . ^ a b c Edwards, Kathryn (2009-08-10). \"The A-Z of Programming Languages: Clojure\" . Computerworld.com.au . Archived from the original on 2019-08-26. ^ Hickey, Rich (2009-01-05). \"meaning and pronunciation of Clojure\" . Google.com . ^ Krill, Paul (2012-03-22). \"Clojure inventor Hickey now aims for Android\" . InfoWorld.com . ^ \"Clojure\" . Clojure.org . Retrieved 2019-07-07 . ^ a b \"The Reader\" . Clojure.org . Retrieved 2019-07-07 . ^ a b \"Differences with other Lisps\" . Clojure.org . Retrieved 2019-07-07 . ^ \"Values and Change: Clojure's approach to Identity and State\" . Clojure.org . Retrieved 2019-07-07 . ^ Hickey, Rich. \"Rationale\" . Clojure.org . Retrieved 2019-07-07 . ^ Torre, Charles (2009-10-06). \"Expert to Expert: Rich Hickey and Brian Beckman – Inside Clojure\" . MSDN.com . ^ \"clojure/spec.alpha\" . GitHub . 2017-04-26.",
+    "links": [
+      ".NET",
+      "Agent-oriented programming",
+      "Array (data structure)",
+      "BEAM (Erlang virtual machine)",
+      "Benevolent dictator for life",
+      "C Sharp (programming language)",
+      "C++",
+      "Common Language Runtime",
+      "Common Lisp",
+      "Compiler",
+      "Computing platform",
+      "Concurrent programming",
+      "Data structure",
+      "Dependent type",
+      "Dialect (computing)",
+      "Dynamic programming language",
+      "Dynamic typing",
+      "Eclipse Public License",
+      "Elixir (programming language)",
+      "Erlang (programming language)",
+      "Filename extension",
+      "Functional programming",
+      "Garbage collection (computer science)",
+      "GitHub",
+      "Hardware virtualization",
+      "Hash table",
+      "Haskell",
+      "Homoiconicity",
+      "Hy (programming language)",
+      "Immutable object",
+      "Java (programming language)",
+      "Java (software platform)",
+      "Java virtual machine",
+      "JavaScript",
+      "JavaScript engine",
+      "LFE (programming language)",
+      "Lisp (programming language)",
+      "Lisp macro",
+      "Lisp reader",
+      "Lisp-1",
+      "Logic programming",
+      "ML (programming language)",
+      "Macro (computer science)",
+      "Memory management",
+      "Multi-paradigm programming language",
+      "Parsing",
+      "Persistent data structure",
+      "Pipeline (software)",
+      "Programming language",
+      "Programming paradigm",
+      "Prolog",
+      "Racket (programming language)",
+      "Rich Hickey",
+      "Ruby (programming language)",
+      "S-expression",
+      "Scheme (programming language)",
+      "Software design",
+      "Software license",
+      "Software release life cycle",
+      "Strong and weak typing",
+      "Syntax (programming languages)",
+      "Type system",
+      "V8 (JavaScript engine)",
+      "Wolfram Language"
+    ],
+    "page_id": 16561990,
+    "revision_id": 1369230874,
+    "retrieved_at": "2026-09-18T16:41:10.249412+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260606011410|1358013969",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 16561990,
+            "ns": 0,
+            "title": "Clojure",
+            "revisions": [
+              {
+                "revid": 1369230874,
+                "parentid": 1358013969
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Clojure_logo.svg",
+              "wikibase-shortdesc": "Dialect of the Lisp programming language on the Java platform",
+              "wikibase_item": "Q51798"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Clojure",
+        "pageid": 16561990,
+        "revid": 1369230874,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Dialect of the Lisp programming language on the Java platform</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Clojure</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Clojure_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/120px-Clojure_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"120\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/250px-Clojure_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"256\" data-file-height=\"256\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>:\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Agent-oriented_programming\" title=\"Agent-oriented programming\">agent-oriented</a><sup id=\"cite&#95;ref-reference/agents&#95;1-0\" class=\"reference\"><a href=\"#cite_note-reference/agents-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Concurrent_programming\" class=\"mw-redirect\" title=\"Concurrent programming\">concurrent</a><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Logic_programming\" title=\"Logic programming\">logic</a><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Macro_(computer_science)\" title=\"Macro (computer science)\">macro</a><sup id=\"cite&#95;ref-reference/macros&#95;6-0\" class=\"reference\"><a href=\"#cite_note-reference/macros-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Pipeline_(software)\" title=\"Pipeline (software)\">pipeline</a><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">JVM</a>-<a href=\"/wiki/Hardware_virtualization\" title=\"Hardware virtualization\">hosted</a>; <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Rich_Hickey\" title=\"Rich Hickey\">Rich Hickey</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">2007<span class=\"noprint\">&#59;&#32;19&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2007</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">1.12.5<sup id=\"cite&#95;ref-release/clojure1-12-5&#95;8-0\" class=\"reference\"><a href=\"#cite_note-release/clojure1-12-5-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / 12&#160;May 2026<span class=\"noprint\">&#59;&#32;4 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-05-12</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Memory_management\" title=\"Memory management\">Memory management</a></th><td class=\"infobox-data\"><a href=\"/wiki/Garbage_collection_(computer_science)\" title=\"Garbage collection (computer science)\">Garbage collection</a> via a host (<a href=\"/wiki/Java_virtual_machine\" title=\"Java virtual machine\">JVM</a>, <a href=\"/wiki/Common_Language_Runtime\" title=\"Common Language Runtime\">CLR</a>, a <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a> runtime such as <a href=\"/wiki/V8_(JavaScript_engine)\" title=\"V8 (JavaScript engine)\">V8</a> in case of ClojureScript or <a href=\"/wiki/BEAM_(Erlang_virtual_machine)\" title=\"BEAM (Erlang virtual machine)\">BEAM</a> (see <a href=\"#Alternative_platforms\">below</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Computing_platform\" title=\"Computing platform\">Platform</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Java_(software_platform)\" title=\"Java (software platform)\">Java</a></li>\n<li><a href=\"/wiki/JavaScript_engine\" class=\"mw-redirect\" title=\"JavaScript engine\">JavaScript</a></li>\n<li><a href=\"/wiki/.NET\" title=\".NET\">.NET</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Eclipse_Public_License\" title=\"Eclipse Public License\">Eclipse Public</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li>.clj</li>\n<li>.cljs</li>\n<li>.cljr</li>\n<li>.cljc</li>\n<li>.cljd</li>\n<li>.edn</li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org\">clojure<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">ClojureScript, ClojureDart</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a></li>\n<li><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Common_Lisp\" title=\"Common Lisp\">Common Lisp</a></li>\n<li><a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a></li>\n<li><a href=\"/wiki/Haskell\" title=\"Haskell\">Haskell</a><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a></li>\n<li><a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a></li>\n<li><a href=\"/wiki/Prolog\" title=\"Prolog\">Prolog</a></li>\n<li><a href=\"/wiki/Racket_(programming_language)\" title=\"Racket (programming language)\">Racket</a><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a></li>\n<li><a href=\"/wiki/Wolfram_Language\" title=\"Wolfram Language\">Wolfram Language</a><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Elixir_(programming_language)\" title=\"Elixir (programming language)\">Elixir</a></li>\n<li><a href=\"/wiki/Hy_(programming_language)\" title=\"Hy (programming language)\">Hy</a></li>\n<li>Janet<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/LFE_(programming_language)\" title=\"LFE (programming language)\">LFE</a></li>\n<li>Pixie<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li>Rhine<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Clojure_Programming\" class=\"extiw\" title=\"wikibooks:Clojure Programming\">Clojure Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>Clojure</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span><span title=\"/oʊ/: &#39;o&#39; in &#39;code&#39;\">oʊ</span><span title=\"/ʒ/: &#39;s&#39; in &#39;pleasure&#39;\">ʒ</span><span title=\"/ər/: &#39;er&#39; in &#39;letter&#39;\">ər</span></span>/</a></span></span>, like <i>closure</i>)<sup id=\"cite&#95;ref-interview/a-z&#95;17-0\" class=\"reference\"><a href=\"#cite_note-interview/a-z-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-clojure-meaning-pronunciation&#95;18-0\" class=\"reference\"><a href=\"#cite_note-clojure-meaning-pronunciation-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/Dynamic_programming_language\" title=\"Dynamic programming language\">dynamic</a> and <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a> <a href=\"/wiki/Dialect_(computing)\" class=\"mw-redirect\" title=\"Dialect (computing)\">dialect</a> of the <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a> on the <a href=\"/wiki/Java_(software_platform)\" title=\"Java (software platform)\">Java platform</a>.<sup id=\"cite&#95;ref-platform/android&#95;19-0\" class=\"reference\"><a href=\"#cite_note-platform/android-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-clojure.org&#95;20-0\" class=\"reference\"><a href=\"#cite_note-clojure.org-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Like most other Lisps, Clojure's <a href=\"/wiki/Syntax_(programming_languages)\" title=\"Syntax (programming languages)\">syntax</a> is built on <a href=\"/wiki/S-expression\" title=\"S-expression\">S-expressions</a> that are first <a href=\"/wiki/Parsing\" title=\"Parsing\">parsed</a> into <a href=\"/wiki/Data_structure\" title=\"Data structure\">data structures</a> by a <a href=\"/wiki/Lisp_reader\" title=\"Lisp reader\">Lisp reader</a> before being <a href=\"/wiki/Compiler\" title=\"Compiler\">compiled</a>.<sup id=\"cite&#95;ref-reference/reader&#95;21-0\" class=\"reference\"><a href=\"#cite_note-reference/reader-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-interview/a-z&#95;17-1\" class=\"reference\"><a href=\"#cite_note-interview/a-z-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup> Clojure's reader supports literal syntax for <a href=\"/wiki/Hash_table\" title=\"Hash table\">maps</a>, sets, and <a href=\"/wiki/Array_(data_structure)\" title=\"Array (data structure)\">vectors</a> along with lists, and these are compiled to the mentioned structures directly.<sup id=\"cite&#95;ref-reference/reader&#95;21-1\" class=\"reference\"><a href=\"#cite_note-reference/reader-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> Clojure treats <a href=\"/wiki/Homoiconicity\" title=\"Homoiconicity\">code as data</a> and has a <a href=\"/wiki/Lisp_macro\" class=\"mw-redirect\" title=\"Lisp macro\">Lisp macro</a> system.<sup id=\"cite&#95;ref-reference/lisps&#95;22-0\" class=\"reference\"><a href=\"#cite_note-reference/lisps-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> Clojure is a <a href=\"/wiki/Lisp-1\" class=\"mw-redirect\" title=\"Lisp-1\">Lisp-1</a> and is not intended to be code-compatible with other dialects of Lisp, since it uses its own set of data structures incompatible with other Lisps.<sup id=\"cite&#95;ref-reference/lisps&#95;22-1\" class=\"reference\"><a href=\"#cite_note-reference/lisps-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> \n</p><p>Clojure advocates <a href=\"/wiki/Immutable_object\" title=\"Immutable object\">immutability</a> and <a href=\"/wiki/Persistent_data_structure\" title=\"Persistent data structure\">immutable data structures</a> and encourages programmers to be explicit about managing identity and its states.<sup id=\"cite&#95;ref-about/state&#95;23-0\" class=\"reference\"><a href=\"#cite_note-about/state-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup> This focus on programming with immutable values and explicit progression-of-time constructs is intended to facilitate developing more robust, especially <a href=\"/wiki/Concurrent_programming\" class=\"mw-redirect\" title=\"Concurrent programming\">concurrent</a>, programs that are simple and fast.<sup id=\"cite&#95;ref-about/rationale&#95;24-0\" class=\"reference\"><a href=\"#cite_note-about/rationale-24\"><span class=\"cite-bracket\">&#91;</span>24<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-msdn/inside-clojure&#95;25-0\" class=\"reference\"><a href=\"#cite_note-msdn/inside-clojure-25\"><span class=\"cite-bracket\">&#91;</span>25<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-interview/a-z&#95;17-2\" class=\"reference\"><a href=\"#cite_note-interview/a-z-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup> While its type system is entirely <a href=\"/wiki/Type_system\" title=\"Type system\">dynamic</a>, recent efforts have also sought the implementation of a <a href=\"/wiki/Dependent_type\" title=\"Dependent type\">dependent type system</a>.<sup id=\"cite&#95;ref-26\" class=\"reference\"><a href=\"#cite_note-26\"><span class=\"cite-bracket\">&#91;</span>26<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The language was created by <a href=\"/wiki/Rich_Hickey\" title=\"Rich Hickey\">Rich Hickey</a> in the mid-2000s, originally for the Java platform; the language has since been ported to other platforms, such as the <a href=\"/wiki/Common_Language_Runtime\" title=\"Common Language Runtime\">Common Language Runtime</a> (.NET). Hickey continues to lead development of the language as its <a href=\"/wiki/Benevolent_dictator_for_life\" title=\"Benevolent dictator for life\">benevolent dictator for life</a>.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-reference/agents-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-reference/agents_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/reference/agents\">\"Agents and Asynchronous Actions\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Agents+and+Asynchronous+Actions&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Freference%2Fagents&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/about/concurrent_programming\">\"Concurrent Programming\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Concurrent+Programming&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Fabout%2Fconcurrent&#95;programming&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHickeycontributors\" class=\"citation web cs1\">Hickey, Rich; contributors. <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/clojure/core.async\">\"core.async\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=core.async&amp;rft.aulast=Hickey&amp;rft.aufirst=Rich&amp;rft.au=contributors&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fclojure%2Fcore.async&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/about/functional_programming\">\"Functional Programming\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Functional+Programming&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Fabout%2Ffunctional&#95;programming&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFNolenHickey\" class=\"citation web cs1\">Nolen, David; Hickey, Rich. <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/clojure/core.logic/\">\"core.logic\"</a>. <i>GitHub</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=core.logic&amp;rft.aulast=Nolen&amp;rft.aufirst=David&amp;rft.au=Hickey%2C+Rich&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fclojure%2Fcore.logic%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-reference/macros-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-reference/macros_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/reference/macros\">\"Macros\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Macros&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Freference%2Fmacros&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEsterhazy\" class=\"citation web cs1\">Esterhazy, Paulus. <a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/guides/threading_macros\">\"Threading Macros Guide\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Threading+Macros+Guide&amp;rft.aulast=Esterhazy&amp;rft.aufirst=Paulus&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Fguides%2Fthreading&#95;macros&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-release/clojure1-12-5-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-release/clojure1-12-5_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>release/clojure1-12-5</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFogus2011\" class=\"citation web cs1\">Fogus, Michael (2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170111184835/http://www.codequarterly.com/2011/rich-hickey/\">\"Rich Hickey Q&amp;A\"</a>. <i>CodeQuarterly.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.codequarterly.com/2011/rich-hickey/\">the original</a> on 2017-01-11.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=CodeQuarterly.com&amp;rft.atitle=Rich+Hickey+Q%26A&amp;rft.date=2011&amp;rft.aulast=Fogus&amp;rft.aufirst=Michael&amp;rft&#95;id=http%3A%2F%2Fwww.codequarterly.com%2F2011%2Frich-hickey%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHickey2011\" class=\"citation web cs1\">Hickey, Rich (2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://youtube.com/watch?v=LKtk3HCgTa8\">\"Simple Made Easy\"</a>. <i>YouTube</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=Simple+Made+Easy&amp;rft.date=2011&amp;rft.aulast=Hickey&amp;rft.aufirst=Rich&amp;rft&#95;id=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DLKtk3HCgTa8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span><sup class=\"noprint Inline-Template noprint noexcerpt Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Verifiability#Questionable_sources\" title=\"Wikipedia:Verifiability\"><span title=\"This claim needs references to better sources. (September 2024)\">better&#160;source&#160;needed</span></a></i>&#93;</sup></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBonnaire-Sergeant2012\" class=\"citation thesis cs1\">Bonnaire-Sergeant, Ambrose (2012). <i>A Practical Optional Type System for Clojure</i> (Thesis). The University of Western Australia.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation&amp;rft.title=A+Practical+Optional+Type+System+for+Clojure&amp;rft.inst=The+University+of+Western+Australia&amp;rft.date=2012&amp;rft.aulast=Bonnaire-Sergeant&amp;rft.aufirst=Ambrose&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://cdn.oreilly.com/oreilly/booksamplers/9781449394707_sampler.pdf\">\"Clojure Programming\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>OReilly.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2013-04-30</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=OReilly.com&amp;rft.atitle=Clojure+Programming&amp;rft&#95;id=http%3A%2F%2Fcdn.oreilly.com%2Foreilly%2Fbooksamplers%2F9781449394707&#95;sampler.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHickey\" class=\"citation web cs1\">Hickey, Rich. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171003001051/https://www.amazon.com/gp/richpub/listmania/fullview/R3LG3ZBZS4GCTH\">\"Clojure Bookshelf\"</a>. <i>Amazon.com</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.amazon.com/gp/richpub/listmania/fullview/R3LG3ZBZS4GCTH\">the original</a> on 2017-10-03<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Amazon.com&amp;rft.atitle=Clojure+Bookshelf&amp;rft.aulast=Hickey&amp;rft.aufirst=Rich&amp;rft&#95;id=https%3A%2F%2Fwww.amazon.com%2Fgp%2Frichpub%2Flistmania%2Ffullview%2FR3LG3ZBZS4GCTH&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRosecontributors\" class=\"citation web cs1\">Rose, Calvin; contributors. <a rel=\"nofollow\" class=\"external text\" href=\"https://janet-lang.org/\">\"Janet Language\"</a>. <i>Janet-Lang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2023-02-18</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Janet-Lang.org&amp;rft.atitle=Janet+Language&amp;rft.aulast=Rose&amp;rft.aufirst=Calvin&amp;rft.au=contributors&amp;rft&#95;id=https%3A%2F%2Fjanet-lang.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBaldridge\" class=\"citation web cs1\">Baldridge, Timothy. <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/pixie-lang/pixie\">\"Pixie\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-02-06</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Pixie&amp;rft.aulast=Baldridge&amp;rft.aufirst=Timothy&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fpixie-lang%2Fpixie&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRamachandra\" class=\"citation web cs1\">Ramachandra, Ramkumar. <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/artagnon/rhine-ml\">\"Rhine\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=Rhine&amp;rft.aulast=Ramachandra&amp;rft.aufirst=Ramkumar&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fartagnon%2Frhine-ml&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-interview/a-z-17\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-interview/a-z_17-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-interview/a-z_17-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-interview/a-z_17-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEdwards2009\" class=\"citation web cs1\">Edwards, Kathryn (2009-08-10). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190826190240/https://www.computerworld.com.au/article/313989/a-z_programming_languages_clojure/\">\"The A-Z of Programming Languages: Clojure\"</a>. <i>Computerworld.com.au</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.computerworld.com.au/article/313989/a-z_programming_languages_clojure/\">the original</a> on 2019-08-26.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Computerworld.com.au&amp;rft.atitle=The+A-Z+of+Programming+Languages%3A+Clojure&amp;rft.date=2009-08-10&amp;rft.aulast=Edwards&amp;rft.aufirst=Kathryn&amp;rft&#95;id=https%3A%2F%2Fwww.computerworld.com.au%2Farticle%2F313989%2Fa-z&#95;programming&#95;languages&#95;clojure%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-clojure-meaning-pronunciation-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-clojure-meaning-pronunciation_18-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHickey2009\" class=\"citation web cs1\">Hickey, Rich (2009-01-05). <a rel=\"nofollow\" class=\"external text\" href=\"https://groups.google.com/d/msg/clojure/4uDxeOS8pwY/UHiYp7p1a3YJ\">\"meaning and pronunciation of Clojure\"</a>. <i>Google.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Google.com&amp;rft.atitle=meaning+and+pronunciation+of+Clojure&amp;rft.date=2009-01-05&amp;rft.aulast=Hickey&amp;rft.aufirst=Rich&amp;rft&#95;id=https%3A%2F%2Fgroups.google.com%2Fd%2Fmsg%2Fclojure%2F4uDxeOS8pwY%2FUHiYp7p1a3YJ&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-platform/android-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-platform/android_19-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKrill2012\" class=\"citation web cs1\">Krill, Paul (2012-03-22). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoworld.com/article/2619641/clojure-inventor-hickey-now-aims-for-android.html\">\"Clojure inventor Hickey now aims for Android\"</a>. <i>InfoWorld.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=InfoWorld.com&amp;rft.atitle=Clojure+inventor+Hickey+now+aims+for+Android&amp;rft.date=2012-03-22&amp;rft.aulast=Krill&amp;rft.aufirst=Paul&amp;rft&#95;id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F2619641%2Fclojure-inventor-hickey-now-aims-for-android.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-clojure.org-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-clojure.org_20-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/\">\"Clojure\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Clojure&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-reference/reader-21\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-reference/reader_21-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-reference/reader_21-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/reference/reader\">\"The Reader\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=The+Reader&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Freference%2Freader&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-reference/lisps-22\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-reference/lisps_22-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-reference/lisps_22-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/reference/lisps\">\"Differences with other Lisps\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Differences+with+other+Lisps&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Freference%2Flisps&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-about/state-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-about/state_23-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/about/state\">\"Values and Change: Clojure's approach to Identity and State\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Values+and+Change%3A+Clojure%27s+approach+to+Identity+and+State&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Fabout%2Fstate&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-about/rationale-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-about/rationale_24-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHickey\" class=\"citation web cs1\">Hickey, Rich. <a rel=\"nofollow\" class=\"external text\" href=\"https://clojure.org/about/rationale\">\"Rationale\"</a>. <i>Clojure.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-07-07</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Clojure.org&amp;rft.atitle=Rationale&amp;rft.aulast=Hickey&amp;rft.aufirst=Rich&amp;rft&#95;id=https%3A%2F%2Fclojure.org%2Fabout%2Frationale&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-msdn/inside-clojure-25\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-msdn/inside-clojure_25-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFTorre2009\" class=\"citation web cs1\">Torre, Charles (2009-10-06). <a rel=\"nofollow\" class=\"external text\" href=\"https://channel9.msdn.com/shows/Going+Deep/Expert-to-Expert-Rich-Hickey-and-Brian-Beckman-Inside-Clojure/\">\"Expert to Expert: Rich Hickey and Brian Beckman – Inside Clojure\"</a>. <i>MSDN.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MSDN.com&amp;rft.atitle=Expert+to+Expert%3A+Rich+Hickey+and+Brian+Beckman+%E2%80%93+Inside+Clojure&amp;rft.date=2009-10-06&amp;rft.aulast=Torre&amp;rft.aufirst=Charles&amp;rft&#95;id=https%3A%2F%2Fchannel9.msdn.com%2Fshows%2FGoing%2BDeep%2FExpert-to-Expert-Rich-Hickey-and-Brian-Beckman-Inside-Clojure%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-26\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-26\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/clojure/spec.alpha\">\"clojure/spec.alpha\"</a>. <i><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></i>. 2017-04-26.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=clojure%2Fspec.alpha&amp;rft.date=2017-04-26&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fclojure%2Fspec.alpha&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AClojure\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐pptjt\nCached time: 20260918164135\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.683 seconds\nReal time usage: 0.968 seconds\nPreprocessor visited node count: 2279/1000000\nRevision size: 9054/2097152 bytes\nPost‐expand include size: 61775/2097152 bytes\nTemplate argument size: 9985/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 80993/5000000 bytes\nLua time usage: 0.377/10.000 seconds\nLua memory usage: 7499139/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  891.975      1 -total\n 35.77%  319.065      2 Template:Infobox\n 32.60%  290.763     24 Template:Cite_web\n 28.74%  256.333      1 Template:Infobox_programming_language\n 13.81%  123.198      1 Template:Short_description\n  9.00%   80.248      1 Template:Infobox_software/simple\n  8.78%   78.287      6 Template:Flatlist\n  8.58%   76.547      2 Template:Pagetype\n  7.01%   62.528      2 Template:Broken_ref\n  6.15%   54.898      1 Template:IPAc-en\n-->\n\n<!-- Render ID cf940aad-b37f-11f1-a354-0b9bd7fdea80 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": ".NET",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Agent-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Array (data structure)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BEAM (Erlang virtual machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Benevolent dictator for life",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Language Runtime",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dependent type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dialect (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eclipse Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elixir (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erlang (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Garbage collection (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hardware virtualization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hash table",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Homoiconicity",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hy (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Immutable object",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (software platform)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LFE (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp-1",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp macro",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp reader",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Macro (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory management",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parsing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Persistent data structure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Pipeline (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Racket (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rich Hickey",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S-expression",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Syntax (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "V8 (JavaScript engine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wolfram Language",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Verifiability",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Dialect of the Lisp programming language on the Java platform",
+          "page_image_free": "Clojure_logo.svg",
+          "wikibase_item": "Q51798"
+        }
+      }
+    }
+  ]
+}

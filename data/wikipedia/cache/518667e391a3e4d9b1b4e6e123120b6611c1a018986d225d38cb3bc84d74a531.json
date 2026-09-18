@@ -1,0 +1,682 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "CSS",
+    "url": "https://en.wikipedia.org/wiki/CSS",
+    "summary": "Style sheet language This article is about the markup styling language. For other uses, see CSS (disambiguation) . Cascading Style Sheets (CSS) Official logo since December 2024 [update] Example of CSS source code Filename extension .css Internet media type text/css Uniform Type Identifier (UTI) public.css Developed by World Wide Web Consortium (W3C) Initial release 17 December 1996 ; 29 years ago ( 1996-12-17 ) Latest release CSS 3 is being developed as multiple separate modules. Regular snapshots summarize their status. 7 December 2023 ; 2 years ago ( 2023-12-07 ) Type of format Style sheet language Container for Style rules for HTML elements Contained by HTML Documents Open format ? Yes Website w3 .org /TR /CSS / #css Cascading Style Sheets Style sheet CSS Zen Garden Concepts Animations Box model Flexbox Grid Image replacement Philosophies Tableless Responsive \"Holy grail\" CSS hack Preprocessors Sass Less Stylus (stylesheet language) Frameworks Tailwind Bootstrap Foundation Extensions Stylish Stylus (browser extension) Comparisons Stylesheet languages Cascading Style Sheets v t e HTML HTML and variants Dynamic HTML HTML5 XHTML Basic Mobile Profile HTML elements and attributes HTML element article audio blink canvas div and span marquee meta video HTML attribute alt attribute HTML frame Editing HTML editor Text editor Character encodings and language Character encodings Character entity references (named characters) Unicode Language code Document and browser technology Document Object Model Browser Object Model Style sheets CSS Font family Web colors Quirks mode Web storage Rendering engine Client-side scripting and APIs JavaScript WebCL HTMX Web3D technology Web3D WebGL WebGPU WebXR Standardizations W3C Validator WHATWG MDN Web Docs Web platform Comparisons Document markup languages Comparison of browser engines v t e Cascading Style Sheets ( CSS ) is a style sheet language used for specifying the presentation and styling of a document written in a markup language , such as HTML or XML (including XML dialects such as SVG , MathML , or XHTML ). CSS is a cornerstone technology of the World Wide Web , alongside HTML and JavaScript . CSS is designed to enable the separation of content and presentation , including layout , colors , and fonts . This separation can improve content accessibility , since the content can be written without concern for its presentation; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting. Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader ), and on Braille-based tactile devices. CSS also has rules for alternative formatting if the content is accessed on a mobile device . The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaration of a property match a particular element. This cascading priority scheme is predictable. The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type ( MIME type ) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents. In addition to HTML, other markup languages support the use of CSS including XHTML , plain XML , SVG , and XUL . CSS is also used in the GTK widget toolkit . ^ \"Minutes Telecon 2024-12-11\" . CSS WG Blog . W3C. 2024-12-12. Archived from the original on 2025-01-16 . Retrieved 2025-01-16 . ^ \"CSS developer guide\" . MDN Web Docs . Archived from the original on 2015-09-25 . Retrieved 2026-04-20 . ^ Flanagan, David (18 April 2011). JavaScript: the definitive guide . Beijing; Farnham: O'Reilly. p. 1. ISBN 978-1-4493-9385-4 . OCLC 686709345 . JavaScript is part of the triad of technologies that all Web developers must learn: HTML to specify the content of web pages, CSS to specify the presentation of web pages, and JavaScript to specify the behavior of web pages. ^ \"What is CSS?\" . World Wide Web Consortium. Archived from the original on 2010-11-29 . Retrieved 2010-12-01 . ^ Clark, Scott (23 July 2010). \"Web-based Mobile Apps of the Future Using HTML 5, CSS and JavaScript\" . HTML Goodies . HTMLGoodies. Archived from the original on 2014-10-20 . Retrieved 2014-10-16 . ^ \"W3C CSS validation service\" . Archived from the original on 2011-02-14 . Retrieved 2012-06-30 .",
+    "text": "Style sheet language This article is about the markup styling language. For other uses, see CSS (disambiguation) . Cascading Style Sheets (CSS) Official logo since December 2024 [update] Example of CSS source code Filename extension .css Internet media type text/css Uniform Type Identifier (UTI) public.css Developed by World Wide Web Consortium (W3C) Initial release 17 December 1996 ; 29 years ago ( 1996-12-17 ) Latest release CSS 3 is being developed as multiple separate modules. Regular snapshots summarize their status. 7 December 2023 ; 2 years ago ( 2023-12-07 ) Type of format Style sheet language Container for Style rules for HTML elements Contained by HTML Documents Open format ? Yes Website w3 .org /TR /CSS / #css Cascading Style Sheets Style sheet CSS Zen Garden Concepts Animations Box model Flexbox Grid Image replacement Philosophies Tableless Responsive \"Holy grail\" CSS hack Preprocessors Sass Less Stylus (stylesheet language) Frameworks Tailwind Bootstrap Foundation Extensions Stylish Stylus (browser extension) Comparisons Stylesheet languages Cascading Style Sheets v t e HTML HTML and variants Dynamic HTML HTML5 XHTML Basic Mobile Profile HTML elements and attributes HTML element article audio blink canvas div and span marquee meta video HTML attribute alt attribute HTML frame Editing HTML editor Text editor Character encodings and language Character encodings Character entity references (named characters) Unicode Language code Document and browser technology Document Object Model Browser Object Model Style sheets CSS Font family Web colors Quirks mode Web storage Rendering engine Client-side scripting and APIs JavaScript WebCL HTMX Web3D technology Web3D WebGL WebGPU WebXR Standardizations W3C Validator WHATWG MDN Web Docs Web platform Comparisons Document markup languages Comparison of browser engines v t e Cascading Style Sheets ( CSS ) is a style sheet language used for specifying the presentation and styling of a document written in a markup language , such as HTML or XML (including XML dialects such as SVG , MathML , or XHTML ). CSS is a cornerstone technology of the World Wide Web , alongside HTML and JavaScript . CSS is designed to enable the separation of content and presentation , including layout , colors , and fonts . This separation can improve content accessibility , since the content can be written without concern for its presentation; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting. Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader ), and on Braille-based tactile devices. CSS also has rules for alternative formatting if the content is accessed on a mobile device . The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaration of a property match a particular element. This cascading priority scheme is predictable. The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type ( MIME type ) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents. In addition to HTML, other markup languages support the use of CSS including XHTML , plain XML , SVG , and XUL . CSS is also used in the GTK widget toolkit . ^ \"Minutes Telecon 2024-12-11\" . CSS WG Blog . W3C. 2024-12-12. Archived from the original on 2025-01-16 . Retrieved 2025-01-16 . ^ \"CSS developer guide\" . MDN Web Docs . Archived from the original on 2015-09-25 . Retrieved 2026-04-20 . ^ Flanagan, David (18 April 2011). JavaScript: the definitive guide . Beijing; Farnham: O'Reilly. p. 1. ISBN 978-1-4493-9385-4 . OCLC 686709345 . JavaScript is part of the triad of technologies that all Web developers must learn: HTML to specify the content of web pages, CSS to specify the presentation of web pages, and JavaScript to specify the behavior of web pages. ^ \"What is CSS?\" . World Wide Web Consortium. Archived from the original on 2010-11-29 . Retrieved 2010-12-01 . ^ Clark, Scott (23 July 2010). \"Web-based Mobile Apps of the Future Using HTML 5, CSS and JavaScript\" . HTML Goodies . HTMLGoodies. Archived from the original on 2014-10-20 . Retrieved 2014-10-16 . ^ \"W3C CSS validation service\" . Archived from the original on 2011-02-14 . Retrieved 2012-06-30 .",
+    "links": [
+      "Accessibility",
+      "Alt attribute",
+      "Article element",
+      "Blink element",
+      "Bootstrap (front-end framework)",
+      "Braille display",
+      "Browser Object Model",
+      "Browser engine",
+      "CSS (disambiguation)",
+      "CSS Zen Garden",
+      "CSS animations",
+      "CSS box model",
+      "CSS framework",
+      "CSS grid layout",
+      "CSS hack",
+      "CSS image replacement",
+      "Cache (computing)",
+      "Canvas element",
+      "Cascading Style Sheets",
+      "Character encodings in HTML",
+      "Color",
+      "Comparison of browser engines",
+      "Comparison of document markup languages",
+      "Comparison of stylesheet languages",
+      "Container format",
+      "Div and span",
+      "Document Object Model",
+      "Dynamic HTML",
+      "Filename extension",
+      "Flexbox",
+      "Font family (HTML)",
+      "Foundation (framework)",
+      "Frame (World Wide Web)",
+      "GTK",
+      "HTML",
+      "HTML attribute",
+      "HTML audio",
+      "HTML editor",
+      "HTML element",
+      "HTML video",
+      "HTML5",
+      "Holy grail (web design)",
+      "Htmx",
+      "ISBN (identifier)",
+      "JavaScript",
+      "Language code",
+      "Less (stylesheet language)",
+      "List of XML and HTML character entity references",
+      "MDN Web Docs",
+      "MIME media type",
+      "Markup language",
+      "Marquee element",
+      "MathML",
+      "Media type",
+      "Meta element",
+      "Mobile device",
+      "OCLC (identifier)",
+      "Open file format",
+      "Page layout",
+      "Plain Old XML",
+      "Presentation semantics",
+      "Quirks mode",
+      "Responsive web design",
+      "SVG",
+      "Sass (stylesheet language)",
+      "Screen reader",
+      "Separation of content and presentation",
+      "Software release life cycle",
+      "Source code",
+      "Style sheet (web development)",
+      "Style sheet language",
+      "Stylish (software)",
+      "Stylus (browser extension)",
+      "Stylus (stylesheet language)",
+      "Tableless web design",
+      "Tailwind CSS",
+      "Text editor",
+      "Typeface",
+      "Unicode and HTML",
+      "Uniform Type Identifier",
+      "W3C Markup Validation Service",
+      "WHATWG",
+      "Web colors",
+      "Web page",
+      "Web platform",
+      "Web storage",
+      "Web3D",
+      "WebCL",
+      "WebGL",
+      "WebGPU",
+      "WebXR",
+      "Widget toolkit",
+      "World Wide Web",
+      "World Wide Web Consortium",
+      "XHTML",
+      "XHTML Basic",
+      "XHTML Mobile Profile",
+      "XML",
+      "XUL"
+    ],
+    "page_id": 23290197,
+    "revision_id": 1374865250,
+    "retrieved_at": "2026-09-18T16:41:06.870319+00:00",
+    "aliases": [
+      "Cascading Style Sheets"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260911071636|1374318255",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Cascading Style Sheets",
+            "to": "CSS"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 23290197,
+            "ns": 0,
+            "title": "CSS",
+            "revisions": [
+              {
+                "revid": 1374865250,
+                "parentid": 1374318255
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Official_CSS_Logo.svg",
+              "wikibase-shortdesc": "Style sheet language",
+              "wikibase_item": "Q46441"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "CSS",
+        "pageid": 23290197,
+        "revid": 1374865250,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Style sheet language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the markup styling language. For other uses, see <a href=\"/wiki/CSS_(disambiguation)\" class=\"mw-disambig\" title=\"CSS (disambiguation)\">CSS (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"padding-bottom: 0.15em;background-color:#e0e0e0;color:inherit;\">Cascading Style Sheets (CSS)</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Official_CSS_Logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/120px-Official_CSS_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"120\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/250px-Official_CSS_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1000\" data-file-height=\"1000\" /></a></span><div class=\"infobox-caption\">Official logo since December&#160;2024<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=CSS&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=CSS&amp;action=edit\">&#91;update&#93;</a></sup><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></div></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_CSS.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_CSS.jpg/250px-%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_CSS.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"160\" height=\"262\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_CSS.jpg/330px-%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_CSS.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"1180\" /></a></span><div class=\"infobox-caption\">Example of CSS <a href=\"/wiki/Source_code\" title=\"Source code\">source code</a></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extension</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><style data-mw-deduplicate=\"TemplateStyles:r886049734\">.mw-parser-output .monospaced{font-family:monospace,monospace}</style><div class=\"monospaced\">\n.css</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Media_type\" title=\"Media type\">Internet media&#160;type</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r886049734\" /><div class=\"monospaced\">\ntext/css</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Uniform_Type_Identifier\" title=\"Uniform Type Identifier\">Uniform Type Identifier&#160;(UTI)</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\">public.css</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Developed&#160;by</th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><a href=\"/wiki/World_Wide_Web_Consortium\" title=\"World Wide Web Consortium\">World Wide Web Consortium</a> (W3C)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Initial release</th><td class=\"infobox-data\" style=\"line-height: 1.35;\">17&#160;December 1996<span class=\"noprint\">&#59;&#32;29 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1996-12-17</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Latest release</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">CSS 3 is being developed as multiple separate modules. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.w3.org/TR/CSS/\">Regular snapshots</a> summarize their status.<br />7&#160;December 2023<span class=\"noprint\">&#59;&#32;2 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2023-12-07</span>)</span> </div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Type of format</th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><a href=\"/wiki/Style_sheet_language\" title=\"Style sheet language\">Style sheet language</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><a href=\"/wiki/Container_format\" title=\"Container format\">Container&#160;for</a></th><td class=\"infobox-data\" style=\"line-height: 1.35;\">Style rules for <a href=\"/wiki/HTML_element\" title=\"HTML element\">HTML elements</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Contained&#160;by</th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><a href=\"/wiki/HTML\" title=\"HTML\">HTML</a> Documents</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\"><span class=\"nowrap\"><a href=\"/wiki/Open_file_format\" title=\"Open file format\">Open format</a>?</span></th><td class=\"infobox-data\" style=\"line-height: 1.35;\">Yes</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"line-height: 1.2; padding-right: 0.65em;\">Website</th><td class=\"infobox-data\" style=\"line-height: 1.35;\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://w3.org/TR/CSS/#css\">w3<wbr />.org<wbr />/TR<wbr />/CSS<wbr />/<wbr />#css</a></span></td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\" style=\"background:var(--background-color-disabled);display:block;margin-bottom:0.25em; color: inherit;\"><a href=\"/wiki/Cascading_Style_Sheets\" class=\"mw-redirect\" title=\"Cascading Style Sheets\">Cascading Style Sheets</a></th></tr><tr><td class=\"sidebar-content hlist\" style=\"padding-top:0.2em;padding-bottom:0.7em;\">\n<ul><li><a href=\"/wiki/Style_sheet_(web_development)\" title=\"Style sheet (web development)\">Style sheet</a></li>\n<li><a href=\"/wiki/CSS_Zen_Garden\" title=\"CSS Zen Garden\">CSS Zen Garden</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\" style=\"background:var(--background-color-neutral); color: inherit;\">\nConcepts</th></tr><tr><td class=\"sidebar-content hlist\" style=\"padding-top:0.2em;padding-bottom:0.7em;\">\n<ul><li><a href=\"/wiki/CSS_animations\" title=\"CSS animations\">Animations</a></li>\n<li><a href=\"/wiki/CSS_box_model\" title=\"CSS box model\">Box model</a></li>\n<li><a href=\"/wiki/Flexbox\" title=\"Flexbox\">Flexbox</a></li>\n<li><a href=\"/wiki/CSS_grid_layout\" title=\"CSS grid layout\">Grid</a></li>\n<li><a href=\"/wiki/CSS_image_replacement\" title=\"CSS image replacement\">Image replacement</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\" style=\"background:var(--background-color-neutral); color: inherit;\">\nPhilosophies</th></tr><tr><td class=\"sidebar-content hlist\" style=\"padding-top:0.2em;padding-bottom:0.7em;\">\n<ul><li><a href=\"/wiki/Tableless_web_design\" title=\"Tableless web design\">Tableless</a></li>\n<li><a href=\"/wiki/Responsive_web_design\" title=\"Responsive web design\">Responsive</a></li>\n<li><a href=\"/wiki/Holy_grail_(web_design)\" title=\"Holy grail (web design)\">\"Holy grail\"</a></li>\n<li><a href=\"/wiki/CSS_hack\" title=\"CSS hack\">CSS hack</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\" style=\"background:var(--background-color-neutral); color: inherit;\">\nPreprocessors</th></tr><tr><td class=\"sidebar-content hlist\" style=\"padding-top:0.2em;padding-bottom:0.7em;\">\n<ul><li><a href=\"/wiki/Sass_(stylesheet_language)\" class=\"mw-redirect\" title=\"Sass (stylesheet language)\">Sass</a></li>\n<li><a href=\"/wiki/Less_(stylesheet_language)\" class=\"mw-redirect\" title=\"Less (stylesheet language)\">Less</a></li>\n<li><a href=\"/wiki/Stylus_(stylesheet_language)\" class=\"mw-redirect\" title=\"Stylus (stylesheet language)\">Stylus (stylesheet language)</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\" style=\"background:var(--background-color-neutral); color: inherit;\">\n<a href=\"/wiki/CSS_framework\" title=\"CSS framework\">Frameworks</a></th></tr><tr><td class=\"sidebar-content hlist\" style=\"padding-top:0.2em;padding-bottom:0.7em;\">\n<ul><li><a href=\"/wiki/Tailwind_CSS\" title=\"Tailwind CSS\">Tailwind</a></li>\n<li><a href=\"/wiki/Bootstrap_(front-end_framework)\" title=\"Bootstrap (front-end framework)\">Bootstrap</a></li>\n<li><a href=\"/wiki/Foundation_(framework)\" title=\"Foundation (framework)\">Foundation</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\" style=\"background:var(--background-color-neutral); color: inherit;\">\nExtensions</th></tr><tr><td class=\"sidebar-content hlist\" style=\"padding-top:0.2em;padding-bottom:0.7em;\">\n<ul><li><a href=\"/wiki/Stylish_(software)\" title=\"Stylish (software)\">Stylish</a></li>\n<li><a href=\"/wiki/Stylus_(browser_extension)\" title=\"Stylus (browser extension)\">Stylus (browser extension)</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\" style=\"background:var(--background-color-neutral); color: inherit;\">\nComparisons</th></tr><tr><td class=\"sidebar-content hlist\" style=\"padding-top:0.2em;padding-bottom:0.7em;\">\n<ul><li><a href=\"/wiki/Comparison_of_stylesheet_languages\" title=\"Comparison of stylesheet languages\">Stylesheet languages</a></li></ul></td>\n</tr><tr><td class=\"sidebar-below plainlist\" style=\"background:var(--background-color-neutral); display:block;margin-top:0.4em;color:inherit;\">\n<ul><li><span class=\"noviewer\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\" title=\"Wikibooks page\"><img alt=\"\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span>&#160;<a href=\"https://en.wikibooks.org/wiki/Cascading_Style_Sheets\" class=\"extiw\" title=\"b:Cascading Style Sheets\"><span class=\"tmp-color\" style=\"color:#002bb8\">Cascading Style Sheets</span></a></li></ul></td></tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:CSS_sidebar\" title=\"Template:CSS sidebar\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:CSS_sidebar\" title=\"Template talk:CSS sidebar\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:CSS_sidebar\" title=\"Special:EditPage/Template:CSS sidebar\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1246091330\" /><table class=\"sidebar nomobile nowraplinks\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><a href=\"/wiki/HTML\" title=\"HTML\">HTML</a></th></tr><tr><td class=\"sidebar-image\"><span class=\"noviewer notpageimage\" typeof=\"mw:File\"><a href=\"/wiki/File:HTML5_logo_and_wordmark.svg\" class=\"mw-file-description\"><img alt=\"HTML5 logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/60px-HTML5_logo_and_wordmark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\" /></a></span></td></tr><tr><th class=\"sidebar-heading\">\nHTML and variants</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Dynamic_HTML\" title=\"Dynamic HTML\">Dynamic HTML</a></li>\n<li><a href=\"/wiki/HTML5\" title=\"HTML5\">HTML5</a></li>\n<li><a href=\"/wiki/XHTML\" title=\"XHTML\">XHTML</a>\n<ul><li><a href=\"/wiki/XHTML_Basic\" title=\"XHTML Basic\">Basic</a></li>\n<li><a href=\"/wiki/XHTML_Mobile_Profile\" title=\"XHTML Mobile Profile\">Mobile Profile</a></li></ul></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nHTML elements and attributes</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/HTML_element\" title=\"HTML element\">HTML element</a>\n<ul><li><a href=\"/wiki/Article_element\" title=\"Article element\">article</a></li>\n<li><a href=\"/wiki/HTML_audio\" title=\"HTML audio\">audio</a></li>\n<li><a href=\"/wiki/Blink_element\" title=\"Blink element\">blink</a></li>\n<li><a href=\"/wiki/Canvas_element\" title=\"Canvas element\">canvas</a></li>\n<li><a href=\"/wiki/Div_and_span\" title=\"Div and span\">div and span</a></li>\n<li><a href=\"/wiki/Marquee_element\" title=\"Marquee element\">marquee</a></li>\n<li><a href=\"/wiki/Meta_element\" title=\"Meta element\">meta</a></li>\n<li><a href=\"/wiki/HTML_video\" title=\"HTML video\">video</a></li></ul></li>\n<li><a href=\"/wiki/HTML_attribute\" title=\"HTML attribute\">HTML attribute</a>\n<ul><li><a href=\"/wiki/Alt_attribute\" title=\"Alt attribute\">alt attribute</a></li></ul></li>\n<li><a href=\"/wiki/Frame_(World_Wide_Web)\" title=\"Frame (World Wide Web)\">HTML frame</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nEditing</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/HTML_editor\" title=\"HTML editor\">HTML editor</a></li>\n<li><a href=\"/wiki/Text_editor\" title=\"Text editor\">Text editor</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nCharacter encodings and language</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Character_encodings_in_HTML\" title=\"Character encodings in HTML\">Character encodings</a></li>\n<li><a href=\"/wiki/List_of_XML_and_HTML_character_entity_references\" title=\"List of XML and HTML character entity references\">Character entity references (named characters)</a></li>\n<li><a href=\"/wiki/Unicode_and_HTML\" title=\"Unicode and HTML\">Unicode</a></li>\n<li><a href=\"/wiki/Language_code\" title=\"Language code\">Language code</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nDocument and browser technology</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Document_Object_Model\" title=\"Document Object Model\">Document Object Model</a></li>\n<li><a href=\"/wiki/Browser_Object_Model\" title=\"Browser Object Model\">Browser Object Model</a></li>\n<li><a href=\"/wiki/Style_sheet_(web_development)\" title=\"Style sheet (web development)\">Style sheets</a>\n<ul><li><a class=\"mw-selflink selflink\">CSS</a></li></ul></li>\n<li><a href=\"/wiki/Font_family_(HTML)\" title=\"Font family (HTML)\">Font family</a></li>\n<li><a href=\"/wiki/Web_colors\" title=\"Web colors\">Web colors</a></li>\n<li><a href=\"/wiki/Quirks_mode\" title=\"Quirks mode\">Quirks mode</a></li>\n<li><a href=\"/wiki/Web_storage\" title=\"Web storage\">Web storage</a></li>\n<li><a href=\"/wiki/Browser_engine\" title=\"Browser engine\">Rendering engine</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nClient-side scripting and APIs</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>\n<ul><li><a href=\"/wiki/WebCL\" title=\"WebCL\">WebCL</a></li>\n<li><a href=\"/wiki/Htmx\" title=\"Htmx\">HTMX</a></li></ul></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nWeb3D technology</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Web3D\" title=\"Web3D\">Web3D</a>\n<ul><li><a href=\"/wiki/WebGL\" title=\"WebGL\">WebGL</a></li>\n<li><a href=\"/wiki/WebGPU\" title=\"WebGPU\">WebGPU</a></li>\n<li><a href=\"/wiki/WebXR\" title=\"WebXR\">WebXR</a></li></ul></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nStandardizations</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/World_Wide_Web_Consortium\" title=\"World Wide Web Consortium\">W3C</a>\n<ul><li><a href=\"/wiki/W3C_Markup_Validation_Service\" title=\"W3C Markup Validation Service\">Validator</a></li></ul></li>\n<li><a href=\"/wiki/WHATWG\" title=\"WHATWG\">WHATWG</a></li>\n<li><a href=\"/wiki/MDN_Web_Docs\" title=\"MDN Web Docs\">MDN Web Docs</a></li>\n<li><a href=\"/wiki/Web_platform\" title=\"Web platform\">Web platform</a></li></ul></td>\n</tr><tr><th class=\"sidebar-heading\">\nComparisons</th></tr><tr><td class=\"sidebar-content hlist\">\n<ul><li><a href=\"/wiki/Comparison_of_document_markup_languages\" title=\"Comparison of document markup languages\">Document markup languages</a></li>\n<li><a href=\"/wiki/Comparison_of_browser_engines\" title=\"Comparison of browser engines\">Comparison of browser engines</a></li></ul></td>\n</tr><tr><td class=\"sidebar-navbar\" style=\"border-top:1px solid #aaa;\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1239400231\" /><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:HTML\" title=\"Template:HTML\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:HTML\" title=\"Template talk:HTML\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:HTML\" title=\"Special:EditPage/Template:HTML\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>Cascading Style Sheets</b> (<b>CSS</b>) is a <a href=\"/wiki/Style_sheet_language\" title=\"Style sheet language\">style sheet language</a> used for specifying the <a href=\"/wiki/Presentation_semantics\" title=\"Presentation semantics\">presentation</a> and styling of a document written in a <a href=\"/wiki/Markup_language\" title=\"Markup language\">markup language</a>, such as <a href=\"/wiki/HTML\" title=\"HTML\">HTML</a> or <a href=\"/wiki/XML\" title=\"XML\">XML</a> (including XML dialects such as <a href=\"/wiki/SVG\" title=\"SVG\">SVG</a>, <a href=\"/wiki/MathML\" title=\"MathML\">MathML</a>, or <a href=\"/wiki/XHTML\" title=\"XHTML\">XHTML</a>).<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> CSS is a cornerstone technology of the <a href=\"/wiki/World_Wide_Web\" title=\"World Wide Web\">World Wide Web</a>, alongside HTML and <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>CSS is designed to enable the <a href=\"/wiki/Separation_of_content_and_presentation\" title=\"Separation of content and presentation\">separation of content and presentation</a>, including <a href=\"/wiki/Page_layout\" title=\"Page layout\">layout</a>, <a href=\"/wiki/Color\" title=\"Color\">colors</a>, and <a href=\"/wiki/Typeface\" title=\"Typeface\">fonts</a>.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> This separation can improve content <a href=\"/wiki/Accessibility\" title=\"Accessibility\">accessibility</a>, since the content can be written without concern for its presentation; provide more flexibility and control in the specification of presentation characteristics; enable multiple <a href=\"/wiki/Web_page\" title=\"Web page\">web pages</a> to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be <a href=\"/wiki/Cache_(computing)\" title=\"Cache (computing)\">cached</a> to improve the page load speed between the pages that share the file and its formatting.\n</p><p>Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or <a href=\"/wiki/Screen_reader\" title=\"Screen reader\">screen reader</a>), and on <a href=\"/wiki/Braille_display\" class=\"mw-redirect\" title=\"Braille display\">Braille-based</a> tactile devices. CSS also has rules for alternative formatting if the content is accessed on a <a href=\"/wiki/Mobile_device\" title=\"Mobile device\">mobile device</a>.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The name <i>cascading</i> comes from the specified priority scheme to determine which declaration applies if more than one declaration of a property match a particular element. This cascading priority scheme is predictable.\n</p><p>The CSS specifications are maintained by the <a href=\"/wiki/World_Wide_Web_Consortium\" title=\"World Wide Web Consortium\">World Wide Web Consortium</a> (W3C). Internet media type (<a href=\"/wiki/MIME_media_type\" class=\"mw-redirect\" title=\"MIME media type\">MIME type</a>) <code>text/css</code> is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free <a href=\"/wiki/W3C_Markup_Validation_Service#CSS_validation\" title=\"W3C Markup Validation Service\">CSS validation service</a> for CSS documents.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>In addition to HTML, other markup languages support the use of CSS including <a href=\"/wiki/XHTML\" title=\"XHTML\">XHTML</a>, <a href=\"/wiki/Plain_Old_XML\" title=\"Plain Old XML\">plain XML</a>, <a href=\"/wiki/SVG\" title=\"SVG\">SVG</a>, and <a href=\"/wiki/XUL\" title=\"XUL\">XUL</a>. CSS is also used in the <a href=\"/wiki/GTK\" title=\"GTK\">GTK</a> <a href=\"/wiki/Widget_toolkit\" title=\"Widget toolkit\">widget toolkit</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.w3.org/blog/CSS/2024/12/12/minutes-2024-12-11/\">\"Minutes Telecon 2024-12-11\"</a>. <i>CSS WG Blog</i>. W3C. 2024-12-12. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250116125653/https://www.w3.org/blog/CSS/2024/12/12/minutes-2024-12-11/\">Archived</a> from the original on 2025-01-16<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2025-01-16</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=CSS+WG+Blog&amp;rft.atitle=Minutes+Telecon+2024-12-11&amp;rft.date=2024-12-12&amp;rft&#95;id=https%3A%2F%2Fwww.w3.org%2Fblog%2FCSS%2F2024%2F12%2F12%2Fminutes-2024-12-11%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACSS\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">\"CSS developer guide\"</a>. <i>MDN Web Docs</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150925201248/https://developer.mozilla.org/en-US/docs/Web/Guide/CSS\">Archived</a> from the original on 2015-09-25<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-04-20</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MDN+Web+Docs&amp;rft.atitle=CSS+developer+guide&amp;rft&#95;id=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACSS\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFlanagan2011\" class=\"citation book cs1\">Flanagan, David (18 April 2011). <i>JavaScript: the definitive guide</i>. Beijing; Farnham: O'Reilly. p.&#160;1. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-4493-9385-4\" title=\"Special:BookSources/978-1-4493-9385-4\"><bdi>978-1-4493-9385-4</bdi></a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/686709345\">686709345</a>. <q>JavaScript is part of the triad of technologies that all Web developers must learn: HTML to specify the content of web pages, CSS to specify the presentation of web pages, and JavaScript to specify the behavior of web pages.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=JavaScript%3A+the+definitive+guide&amp;rft.place=Beijing%3B+Farnham&amp;rft.pages=1&amp;rft.pub=O%27Reilly&amp;rft.date=2011-04-18&amp;rft&#95;id=info%3Aoclcnum%2F686709345&amp;rft.isbn=978-1-4493-9385-4&amp;rft.aulast=Flanagan&amp;rft.aufirst=David&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACSS\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.w3.org/standards/webdesign/htmlcss#whatcss\">\"What is CSS?\"</a>. World Wide Web Consortium. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20101129081921/https://www.w3.org/standards/webdesign/htmlcss#whatcss\">Archived</a> from the original on 2010-11-29<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2010-12-01</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=What+is+CSS%3F&amp;rft.pub=World+Wide+Web+Consortium&amp;rft&#95;id=https%3A%2F%2Fwww.w3.org%2Fstandards%2Fwebdesign%2Fhtmlcss%23whatcss&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACSS\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFClark2010\" class=\"citation news cs1\">Clark, Scott (23 July 2010). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.htmlgoodies.com/beyond/article.php/3893911/Web-based-Mobile-Apps-of-the-Future-Using-HTML-5-CSS-and-JavaScript.htm\">\"Web-based Mobile Apps of the Future Using HTML 5, CSS and JavaScript\"</a>. <i>HTML Goodies</i>. HTMLGoodies. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20141020121735/https://www.htmlgoodies.com/beyond/article.php/3893911/Web-based-Mobile-Apps-of-the-Future-Using-HTML-5-CSS-and-JavaScript.htm\">Archived</a> from the original on 2014-10-20<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2014-10-16</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=HTML+Goodies&amp;rft.atitle=Web-based+Mobile+Apps+of+the+Future+Using+HTML+5%2C+CSS+and+JavaScript&amp;rft.date=2010-07-23&amp;rft.aulast=Clark&amp;rft.aufirst=Scott&amp;rft&#95;id=https%3A%2F%2Fwww.htmlgoodies.com%2Fbeyond%2Farticle.php%2F3893911%2FWeb-based-Mobile-Apps-of-the-Future-Using-HTML-5-CSS-and-JavaScript.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACSS\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://jigsaw.w3.org/css-validator/\">\"W3C CSS validation service\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110214164625/https://jigsaw.w3.org/css-validator/\">Archived</a> from the original on 2011-02-14<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2012-06-30</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=W3C+CSS+validation+service&amp;rft&#95;id=https%3A%2F%2Fjigsaw.w3.org%2Fcss-validator%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACSS\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐85nss\nCached time: 20260918164132\nCache expiry: 28800\nCache expiry source: Template:As_of (#time)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.553 seconds\nReal time usage: 0.792 seconds\nPreprocessor visited node count: 1774/1000000\nRevision size: 5588/2097152 bytes\nPost‐expand include size: 48412/2097152 bytes\nTemplate argument size: 4512/2097152 bytes\nHighest expansion depth: 26/100\nExpensive parser function count: 3/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 36096/5000000 bytes\nLua time usage: 0.364/10.000 seconds\nLua memory usage: 5023305/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  738.822      1 -total\n 24.18%  178.645      1 Template:CSS\n 23.97%  177.132      1 Template:Infobox_file_format\n 23.60%  174.341      2 Template:Sidebar\n 22.62%  167.122      1 Template:Infobox\n 19.43%  143.561      4 Template:Cite_web\n 17.19%  127.013      1 Template:Short_description\n 10.60%   78.344      2 Template:Pagetype\n  7.89%   58.257      1 Template:About\n  5.18%   38.253      2 Template:Release_date_and_age\n-->\n\n<!-- Render ID cdca554f-b37f-11f1-bd9c-4db2ab6368e2 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "CSS (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Accessibility",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alt attribute",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Article element",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Blink element",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bootstrap (front-end framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Braille display",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Browser Object Model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Browser engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS Zen Garden",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS animations",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS box model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS grid layout",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS hack",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CSS image replacement",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cache (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Canvas element",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cascading Style Sheets",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Character encodings in HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Color",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of browser engines",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of document markup languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of stylesheet languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Container format",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Div and span",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Document Object Model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flexbox",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Font family (HTML)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Foundation (framework)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Frame (World Wide Web)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GTK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML5",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML attribute",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML audio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML editor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML element",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML video",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Holy grail (web design)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Htmx",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Language code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Less (stylesheet language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of XML and HTML character entity references",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MDN Web Docs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIME media type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Markup language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Marquee element",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MathML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Media type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meta element",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mobile device",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open file format",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Page layout",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Plain Old XML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Presentation semantics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quirks mode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Responsive web design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SVG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sass (stylesheet language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Screen reader",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Separation of content and presentation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Style sheet (web development)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Style sheet language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stylish (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stylus (browser extension)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stylus (stylesheet language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tableless web design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tailwind CSS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Text editor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Typeface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unicode and HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Uniform Type Identifier",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "W3C Markup Validation Service",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WHATWG",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web3D",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebGL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebGPU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebXR",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web colors",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web page",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web storage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Widget toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "World Wide Web",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "World Wide Web Consortium",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XHTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XHTML Basic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XHTML Mobile Profile",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XUL",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:CSS sidebar",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:HTML",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:CSS sidebar",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:HTML",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Style sheet language",
+          "page_image_free": "Official_CSS_Logo.svg",
+          "wikibase_item": "Q46441"
+        }
+      }
+    }
+  ]
+}

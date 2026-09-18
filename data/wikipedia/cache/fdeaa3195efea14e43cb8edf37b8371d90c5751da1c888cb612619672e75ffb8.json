@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Common Lisp",
+    "url": "https://en.wikipedia.org/wiki/Common_Lisp",
+    "summary": "Programming language standard Common Lisp Paradigm Multi-paradigm : procedural , functional , object-oriented , meta , reflective , generic Family Lisp Designed by Scott Fahlman , Richard P. Gabriel , David A. Moon , Kent Pitman , Guy Steele , Dan Weinreb Developer ANSI X3J13 committee First appeared 1984 (42 years ago) ( 1984 ) , 1994 (32 years ago) ( 1994 ) for ANSI Common Lisp Typing discipline Dynamic , strong Scope Lexical, optionally dynamic OS Cross-platform Filename extensions .lisp, .lsp, .l, .cl, .fasl Website common-lisp .net Major implementations Allegro CL , ABCL , Clasp , CLISP , Clozure CL , CMUCL , ECL , GCL , LispWorks , Scieneer CL , SBCL , Symbolics Common Lisp Dialects CLtL1, CLtL2, ANSI Common Lisp Influenced by Lisp , Lisp Machine Lisp , Maclisp , Scheme , Interlisp Influenced Clojure , Dylan , Emacs Lisp , EuLisp , ISLISP , *Lisp , AutoLisp , Julia , Moose , R , SKILL , SubL Common Lisp ( CL ) is a dialect of the Lisp programming language , published in American National Standards Institute (ANSI) standard document ANSI INCITS 226-1994 (S2018) (formerly X3.226-1994 (R1999) ). The Common Lisp HyperSpec , a hyperlinked HTML version, has been derived from the ANSI Common Lisp standard. The Common Lisp language was developed as a standardized and improved successor of Maclisp . By the early 1980s, several groups were already at work on diverse successors to MacLisp: Lisp Machine Lisp (aka ZetaLisp), Spice Lisp , NIL and S-1 Lisp . Common Lisp sought to unify, standardize, and extend the features of these MacLisp dialects. Common Lisp is not an implementation, but rather a language specification . Several implementations of the Common Lisp standard are available, including free and open-source software and proprietary software products. Common Lisp is a general-purpose, multi-paradigm programming language . It supports a combination of procedural , functional , and object-oriented programming paradigms. As a dynamic programming language , it facilitates evolutionary and incremental software development , with iterative compiling into efficient runtime programs. This incremental development is often done interactively without interrupting the running application. It also supports optional type annotation and casting, which can be added as needed at the later profiling and optimization stages, to permit the compiler to generate more efficient code. For instance, fixnum can hold an unboxed integer in a range supported by the hardware and implementation, permitting more efficient arithmetic than on big integers or arbitrary precision types. Similarly, the compiler can be told on a per-module or per-function basis which type of safety level is wanted, using optimize declarations. Common Lisp includes the Common Lisp Object System (CLOS), an object system that supports multiple dispatch (multimethods) and method combinations. It is often implemented with a metaobject protocol. Common Lisp is extensible through standard features such as Lisp macros (code transformations) and reader macros (input parsers for characters). Common Lisp provides partial backwards compatibility with Maclisp and John McCarthy's original Lisp . This allows older Lisp software to be ported to Common Lisp. ^ \"ANSI Standards Action - December 28, 2018\" (PDF) . ansi.org . Archived (PDF) from the original on April 12, 2021. ^ Quoted from cover of cited standard. ANSI INCITS 226-1994 [S2008], for sale on standard's document page Archived September 27, 2020, at the Wayback Machine . ^ \"CLHS: About the Common Lisp HyperSpec (TM)\" . lispworks.com . ^ \"CLHS: Section 1.1.2\" . lispworks.com . ^ \"Common Lisp Implementations: A Survey\" . Archived from the original on April 21, 2012 . Retrieved December 22, 2007 . ^ \"Old LISP programs still run in Common Lisp\" . Retrieved May 13, 2015 .",
+    "text": "Programming language standard Common Lisp Paradigm Multi-paradigm : procedural , functional , object-oriented , meta , reflective , generic Family Lisp Designed by Scott Fahlman , Richard P. Gabriel , David A. Moon , Kent Pitman , Guy Steele , Dan Weinreb Developer ANSI X3J13 committee First appeared 1984 (42 years ago) ( 1984 ) , 1994 (32 years ago) ( 1994 ) for ANSI Common Lisp Typing discipline Dynamic , strong Scope Lexical, optionally dynamic OS Cross-platform Filename extensions .lisp, .lsp, .l, .cl, .fasl Website common-lisp .net Major implementations Allegro CL , ABCL , Clasp , CLISP , Clozure CL , CMUCL , ECL , GCL , LispWorks , Scieneer CL , SBCL , Symbolics Common Lisp Dialects CLtL1, CLtL2, ANSI Common Lisp Influenced by Lisp , Lisp Machine Lisp , Maclisp , Scheme , Interlisp Influenced Clojure , Dylan , Emacs Lisp , EuLisp , ISLISP , *Lisp , AutoLisp , Julia , Moose , R , SKILL , SubL Common Lisp ( CL ) is a dialect of the Lisp programming language , published in American National Standards Institute (ANSI) standard document ANSI INCITS 226-1994 (S2018) (formerly X3.226-1994 (R1999) ). The Common Lisp HyperSpec , a hyperlinked HTML version, has been derived from the ANSI Common Lisp standard. The Common Lisp language was developed as a standardized and improved successor of Maclisp . By the early 1980s, several groups were already at work on diverse successors to MacLisp: Lisp Machine Lisp (aka ZetaLisp), Spice Lisp , NIL and S-1 Lisp . Common Lisp sought to unify, standardize, and extend the features of these MacLisp dialects. Common Lisp is not an implementation, but rather a language specification . Several implementations of the Common Lisp standard are available, including free and open-source software and proprietary software products. Common Lisp is a general-purpose, multi-paradigm programming language . It supports a combination of procedural , functional , and object-oriented programming paradigms. As a dynamic programming language , it facilitates evolutionary and incremental software development , with iterative compiling into efficient runtime programs. This incremental development is often done interactively without interrupting the running application. It also supports optional type annotation and casting, which can be added as needed at the later profiling and optimization stages, to permit the compiler to generate more efficient code. For instance, fixnum can hold an unboxed integer in a range supported by the hardware and implementation, permitting more efficient arithmetic than on big integers or arbitrary precision types. Similarly, the compiler can be told on a per-module or per-function basis which type of safety level is wanted, using optimize declarations. Common Lisp includes the Common Lisp Object System (CLOS), an object system that supports multiple dispatch (multimethods) and method combinations. It is often implemented with a metaobject protocol. Common Lisp is extensible through standard features such as Lisp macros (code transformations) and reader macros (input parsers for characters). Common Lisp provides partial backwards compatibility with Maclisp and John McCarthy's original Lisp . This allows older Lisp software to be ported to Common Lisp. ^ \"ANSI Standards Action - December 28, 2018\" (PDF) . ansi.org . Archived (PDF) from the original on April 12, 2021. ^ Quoted from cover of cited standard. ANSI INCITS 226-1994 [S2008], for sale on standard's document page Archived September 27, 2020, at the Wayback Machine . ^ \"CLHS: About the Common Lisp HyperSpec (TM)\" . lispworks.com . ^ \"CLHS: Section 1.1.2\" . lispworks.com . ^ \"Common Lisp Implementations: A Survey\" . Archived from the original on April 21, 2012 . Retrieved December 22, 2007 . ^ \"Old LISP programs still run in Common Lisp\" . Retrieved May 13, 2015 .",
+    "links": [
+      "*Lisp",
+      "Allegro Common Lisp",
+      "American National Standards Institute",
+      "Armed Bear Common Lisp",
+      "AutoLisp",
+      "Boxing (computer programming)",
+      "CLISP",
+      "CMUCL",
+      "Cadence SKILL",
+      "Clasp (Common Lisp)",
+      "Clojure",
+      "Clozure CL",
+      "Common Lisp HyperSpec",
+      "Common Lisp Object System",
+      "Compiler",
+      "Cross-platform",
+      "Dan Weinreb",
+      "David A. Moon",
+      "Dialect (computing)",
+      "Dylan (programming language)",
+      "Dynamic programming language",
+      "Dynamic typing",
+      "Emacs Lisp",
+      "Embeddable Common Lisp",
+      "EuLisp",
+      "Execution (computing)",
+      "Filename extension",
+      "Free and open-source software",
+      "Functional programming",
+      "GNU Common Lisp",
+      "Genera (operating system)",
+      "Generic programming",
+      "Guy Steele",
+      "HTML",
+      "Hyperlink",
+      "ISLISP",
+      "Interlisp",
+      "Iterative and incremental development",
+      "Julia (programming language)",
+      "Kent Pitman",
+      "Lisp (programming language)",
+      "Lisp Machine Lisp",
+      "LispWorks",
+      "Maclisp",
+      "Macro (computer science)",
+      "Metaobject",
+      "Metaprogramming",
+      "Moose (Perl)",
+      "Multi-paradigm programming language",
+      "Multiple dispatch",
+      "NIL (programming language)",
+      "Object system",
+      "Object-oriented programming",
+      "Operating system",
+      "Procedural programming",
+      "Profiling (computer programming)",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Proprietary software",
+      "R (programming language)",
+      "Reflective programming",
+      "Richard P. Gabriel",
+      "S-1 Lisp",
+      "SBCL",
+      "Scheme (programming language)",
+      "Scieneer Common Lisp",
+      "Scope (computer science)",
+      "Scott Fahlman",
+      "Software design",
+      "Software developer",
+      "Specification",
+      "Spice Lisp",
+      "Strongly-typed programming language",
+      "SubL",
+      "Type system",
+      "Wayback Machine",
+      "X3J13"
+    ],
+    "page_id": 6068,
+    "revision_id": 1369462020,
+    "retrieved_at": "2026-09-18T16:41:11.309374+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260813070900|1369161298",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 6068,
+            "ns": 0,
+            "title": "Common Lisp",
+            "revisions": [
+              {
+                "revid": 1369462020,
+                "parentid": 1369161298
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Lisp_logo.svg",
+              "wikibase-shortdesc": "Programming language standard",
+              "wikibase_item": "Q849146"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Common Lisp",
+        "pageid": 6068,
+        "revid": 1369462020,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language standard</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Common Lisp</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Lisp_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Lisp_logo.svg/120px-Lisp_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"120\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Lisp_logo.svg/250px-Lisp_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Metaprogramming\" title=\"Metaprogramming\">meta</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Scott_Fahlman\" title=\"Scott Fahlman\">Scott Fahlman</a>, <a href=\"/wiki/Richard_P._Gabriel\" title=\"Richard P. Gabriel\">Richard P. Gabriel</a>, <a href=\"/wiki/David_A._Moon\" title=\"David A. Moon\">David A. Moon</a>, <a href=\"/wiki/Kent_Pitman\" title=\"Kent Pitman\">Kent Pitman</a>, <a href=\"/wiki/Guy_Steele\" class=\"mw-redirect\" title=\"Guy Steele\">Guy Steele</a>, <a href=\"/wiki/Dan_Weinreb\" class=\"mw-redirect\" title=\"Dan Weinreb\">Dan Weinreb</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/American_National_Standards_Institute\" title=\"American National Standards Institute\">ANSI</a> <a href=\"/wiki/X3J13\" title=\"X3J13\">X3J13</a> committee</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1984<span class=\"noprint\">&#32;(42&#160;years ago)</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1984</span>)</span>, 1994<span class=\"noprint\">&#32;(32&#160;years ago)</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1994</span>)</span> for ANSI Common Lisp</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Strongly-typed_programming_language\" class=\"mw-redirect\" title=\"Strongly-typed programming language\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Scope_(computer_science)\" class=\"mw-redirect\" title=\"Scope (computer science)\">Scope</a></th><td class=\"infobox-data\">Lexical, optionally dynamic</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.lisp, .lsp, .l, .cl, .fasl</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://common-lisp.net\">common-lisp<wbr />.net</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Allegro_Common_Lisp\" title=\"Allegro Common Lisp\">Allegro CL</a>, <a href=\"/wiki/Armed_Bear_Common_Lisp\" class=\"mw-redirect\" title=\"Armed Bear Common Lisp\">ABCL</a>, <a href=\"/w/index.php?title=Clasp_(Common_Lisp)&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Clasp (Common Lisp) (page does not exist)\">Clasp</a>, <a href=\"/wiki/CLISP\" title=\"CLISP\">CLISP</a>, <a href=\"/wiki/Clozure_CL\" title=\"Clozure CL\">Clozure CL</a>, <a href=\"/wiki/CMUCL\" class=\"mw-redirect\" title=\"CMUCL\">CMUCL</a>, <a href=\"/wiki/Embeddable_Common_Lisp\" title=\"Embeddable Common Lisp\">ECL</a>, <a href=\"/wiki/GNU_Common_Lisp\" title=\"GNU Common Lisp\">GCL</a>, <a href=\"/wiki/LispWorks\" title=\"LispWorks\">LispWorks</a>, <a href=\"/w/index.php?title=Scieneer_Common_Lisp&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Scieneer Common Lisp (page does not exist)\">Scieneer CL</a>, <a href=\"/wiki/SBCL\" class=\"mw-redirect\" title=\"SBCL\">SBCL</a>, <a href=\"/wiki/Genera_(operating_system)\" class=\"mw-redirect\" title=\"Genera (operating system)\">Symbolics Common Lisp</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\">CLtL1, CLtL2, ANSI Common Lisp</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>, <a href=\"/wiki/Lisp_Machine_Lisp\" title=\"Lisp Machine Lisp\">Lisp Machine Lisp</a>, <a href=\"/wiki/Maclisp\" title=\"Maclisp\">Maclisp</a>, <a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a>, <a href=\"/wiki/Interlisp\" title=\"Interlisp\">Interlisp</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>, <a href=\"/wiki/Dylan_(programming_language)\" title=\"Dylan (programming language)\">Dylan</a>, <a href=\"/wiki/Emacs_Lisp\" title=\"Emacs Lisp\">Emacs Lisp</a>, <a href=\"/wiki/EuLisp\" title=\"EuLisp\">EuLisp</a>, <a href=\"/wiki/ISLISP\" title=\"ISLISP\">ISLISP</a>, <a href=\"/wiki/*Lisp\" title=\"*Lisp\">*Lisp</a>, <a href=\"/wiki/AutoLisp\" class=\"mw-redirect\" title=\"AutoLisp\">AutoLisp</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>, <a href=\"/wiki/Moose_(Perl)\" title=\"Moose (Perl)\">Moose</a>, <a href=\"/wiki/R_(programming_language)\" title=\"R (programming language)\">R</a>, <a href=\"/wiki/Cadence_SKILL\" title=\"Cadence SKILL\">SKILL</a>, <a href=\"/wiki/SubL\" class=\"mw-redirect\" title=\"SubL\">SubL</a></td></tr></tbody></table>\n<p><b>Common Lisp</b> (<b>CL</b>) is a <a href=\"/wiki/Dialect_(computing)\" class=\"mw-redirect\" title=\"Dialect (computing)\">dialect</a> of the <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp programming language</a>, published in <a href=\"/wiki/American_National_Standards_Institute\" title=\"American National Standards Institute\">American National Standards Institute</a> (ANSI) standard document <i>ANSI INCITS 226-1994 (S2018)</i><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> (formerly <i>X3.226-1994 (R1999)</i>).<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> The <a href=\"/wiki/Common_Lisp_HyperSpec\" title=\"Common Lisp HyperSpec\">Common Lisp HyperSpec</a>, a <a href=\"/wiki/Hyperlink\" title=\"Hyperlink\">hyperlinked</a> <a href=\"/wiki/HTML\" title=\"HTML\">HTML</a> version, has been derived from the ANSI Common Lisp standard.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The Common Lisp language was developed as a standardized and improved successor of <a href=\"/wiki/Maclisp\" title=\"Maclisp\">Maclisp</a>. By the early 1980s, several groups were already at work on diverse successors to MacLisp: <a href=\"/wiki/Lisp_Machine_Lisp\" title=\"Lisp Machine Lisp\">Lisp Machine Lisp</a> (aka ZetaLisp), <a href=\"/wiki/Spice_Lisp\" title=\"Spice Lisp\">Spice Lisp</a>, <a href=\"/wiki/NIL_(programming_language)\" title=\"NIL (programming language)\">NIL</a> and <a href=\"/wiki/S-1_Lisp\" title=\"S-1 Lisp\">S-1 Lisp</a>. Common Lisp sought to unify, standardize, and extend the features of these MacLisp dialects. Common Lisp is not an implementation, but rather a language <a href=\"/wiki/Specification\" class=\"mw-redirect\" title=\"Specification\">specification</a>.<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Several <a href=\"#Implementations\">implementations</a> of the Common Lisp standard are available, including <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> and <a href=\"/wiki/Proprietary_software\" title=\"Proprietary software\">proprietary software</a> products.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\nCommon Lisp is a general-purpose, <a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">multi-paradigm programming language</a>. It supports a combination of <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, and <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented programming</a> paradigms. As a <a href=\"/wiki/Dynamic_programming_language\" title=\"Dynamic programming language\">dynamic programming language</a>, it facilitates evolutionary and <a href=\"/wiki/Iterative_and_incremental_development\" title=\"Iterative and incremental development\">incremental software development</a>, with iterative <a href=\"/wiki/Compiler\" title=\"Compiler\">compiling</a> into efficient <a href=\"/wiki/Execution_(computing)\" title=\"Execution (computing)\">runtime</a> programs. This incremental development is often done interactively without interrupting the running application.\n</p><p>It also supports optional type annotation and casting, which can be added as needed at the later <a href=\"/wiki/Profiling_(computer_programming)\" title=\"Profiling (computer programming)\">profiling</a> and optimization stages, to permit the compiler to generate more efficient code. For instance, <code>fixnum</code> can hold an <a href=\"/wiki/Boxing_(computer_programming)\" title=\"Boxing (computer programming)\">unboxed</a> integer in a range supported by the hardware and implementation, permitting more efficient arithmetic than on big integers or arbitrary precision types. Similarly, the compiler can be told on a per-module or per-function basis which type of safety level is wanted, using <i>optimize</i> declarations.\n</p><p>Common Lisp includes the <a href=\"/wiki/Common_Lisp_Object_System\" title=\"Common Lisp Object System\">Common Lisp Object System</a> (CLOS), an <a href=\"/wiki/Object_system\" class=\"mw-redirect\" title=\"Object system\">object system</a> that supports <a href=\"/wiki/Multiple_dispatch\" title=\"Multiple dispatch\">multiple dispatch</a> (multimethods) and method combinations. It is often implemented with a <a href=\"/wiki/Metaobject\" title=\"Metaobject\">metaobject</a> protocol.\n</p><p>Common Lisp is extensible through standard features such as <i>Lisp <a href=\"/wiki/Macro_(computer_science)\" title=\"Macro (computer science)\">macros</a></i> (code transformations) and <i>reader macros</i> (input parsers for characters).\n</p><p>Common Lisp provides partial backwards compatibility with <a href=\"/wiki/Maclisp\" title=\"Maclisp\">Maclisp</a> and John McCarthy's original <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>. This allows older Lisp software to be ported to Common Lisp.<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://share.ansi.org/Shared%20Documents/Standards%20Action/2018-PDFs/SAV4952.pdf#page=10\">\"ANSI Standards Action - December 28, 2018\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>ansi.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210412125343/https://share.ansi.org/Shared%20Documents/Standards%20Action/2018-PDFs/SAV4952.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on April 12, 2021.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=ansi.org&amp;rft.atitle=ANSI+Standards+Action+-+December+28%2C+2018&amp;rft&#95;id=https%3A%2F%2Fshare.ansi.org%2FShared%2520Documents%2FStandards%2520Action%2F2018-PDFs%2FSAV4952.pdf%23page%3D10&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACommon+Lisp\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\">Quoted from cover of cited standard. ANSI INCITS 226-1994 [S2008], for sale on standard's <a rel=\"nofollow\" class=\"external text\" href=\"https://webstore.ansi.org/Standards/INCITS/INCITS2261994S2008\">document page</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200927024609/https://webstore.ansi.org/Standards/INCITS/INCITS2261994S2008\">Archived</a> September 27, 2020, at the <a href=\"/wiki/Wayback_Machine\" title=\"Wayback Machine\">Wayback Machine</a>.</span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.lispworks.com/documentation/HyperSpec/Front/Help.htm#Authorship\">\"CLHS: About the Common Lisp HyperSpec (TM)\"</a>. <i>lispworks.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=lispworks.com&amp;rft.atitle=CLHS%3A+About+the+Common+Lisp+HyperSpec+%28TM%29&amp;rft&#95;id=http%3A%2F%2Fwww.lispworks.com%2Fdocumentation%2FHyperSpec%2FFront%2FHelp.htm%23Authorship&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACommon+Lisp\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.lispworks.com/documentation/HyperSpec/Body/01_ab.htm\">\"CLHS: Section 1.1.2\"</a>. <i>lispworks.com</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=lispworks.com&amp;rft.atitle=CLHS%3A+Section+1.1.2&amp;rft&#95;id=http%3A%2F%2Fwww.lispworks.com%2Fdocumentation%2FHyperSpec%2FBody%2F01&#95;ab.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACommon+Lisp\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120421181340/http://common-lisp.net/~dlw/LispSurvey.html\">\"Common Lisp Implementations: A Survey\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://common-lisp.net/~dlw/LispSurvey.html\">the original</a> on April 21, 2012<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">December 22,</span> 2007</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Common+Lisp+Implementations%3A+A+Survey&amp;rft&#95;id=http%3A%2F%2Fcommon-lisp.net%2F~dlw%2FLispSurvey.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACommon+Lisp\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.informatimago.com/develop/lisp/com/informatimago/small-cl-pgms/wang.html\">\"Old LISP programs still run in Common Lisp\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 13,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Old+LISP+programs+still+run+in+Common+Lisp&amp;rft&#95;id=http%3A%2F%2Fwww.informatimago.com%2Fdevelop%2Flisp%2Fcom%2Finformatimago%2Fsmall-cl-pgms%2Fwang.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ACommon+Lisp\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐rkt49\nCached time: 20260918164137\nCache expiry: 1063111\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.289 seconds\nReal time usage: 0.394 seconds\nPreprocessor visited node count: 1199/1000000\nRevision size: 6330/2097152 bytes\nPost‐expand include size: 21778/2097152 bytes\nTemplate argument size: 3482/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 13385/5000000 bytes\nLua time usage: 0.178/10.000 seconds\nLua memory usage: 4835261/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  354.675      1 -total\n 34.02%  120.673      1 Template:Short_description\n 32.05%  113.690      5 Template:Cite_web\n 23.58%   83.650      2 Template:Pagetype\n 20.20%   71.657      1 Template:Infobox_programming_language\n 18.90%   67.051      1 Template:Infobox\n  5.91%   20.954      5 Template:Main_other\n  5.83%   20.664      1 Template:Use_mdy_dates\n  5.05%   17.901      1 Template:SDcat\n  4.16%   14.767      1 Template:Webarchive\n-->\n\n<!-- Render ID d0c541b0-b37f-11f1-b471-7591d94f4bd9 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "*Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Allegro Common Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "American National Standards Institute",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Armed Bear Common Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AutoLisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boxing (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLISP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CMUCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cadence SKILL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clozure CL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Lisp HyperSpec",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Lisp Object System",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dan Weinreb",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "David A. Moon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dialect (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dylan (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Emacs Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embeddable Common Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "EuLisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Execution (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Common Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Genera (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Guy Steele",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hyperlink",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISLISP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interlisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Iterative and incremental development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kent Pitman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LispWorks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp Machine Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Maclisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Macro (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaobject",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metaprogramming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Moose (Perl)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multiple dispatch",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NIL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Profiling (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Proprietary software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "R (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Richard P. Gabriel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S-1 Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SBCL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scope (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scott Fahlman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Specification",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spice Lisp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strongly-typed programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SubL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wayback Machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X3J13",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clasp (Common Lisp)",
+            "exists": false
+          },
+          {
+            "ns": 0,
+            "title": "Scieneer Common Lisp",
+            "exists": false
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language standard",
+          "page_image_free": "Lisp_logo.svg",
+          "wikibase_item": "Q849146"
+        }
+      }
+    }
+  ]
+}

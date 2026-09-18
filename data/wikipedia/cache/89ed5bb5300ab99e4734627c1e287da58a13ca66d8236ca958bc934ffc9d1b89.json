@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Alan Turing",
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "summary": "English computer scientist (1912–1954) For the Oregon artwork, see Alan Turing (sculpture) . \"Turing\" redirects here. For other uses, see Turing (disambiguation) . Alan Turing OBE FRS Turing in 1951 Born Alan Mathison Turing ( 1912-06-23 ) 23 June 1912 Maida Vale , London, England Died 7 June 1954 (1954-06-07) (aged 41) Wilmslow , Cheshire, England Cause of death Suicide by cyanide poisoning Education University of Cambridge ( MA ) Princeton University (PhD) Known for Cryptanalysis of the Enigma Turing's proof Turing machine Turing test unorganised machine Turing pattern Turing reduction \" The Chemical Basis of Morphogenesis \" Turing paradox Partner Joan Clarke (engaged in 1941 but did not marry) Awards Smith's Prize (1936) Scientific career Fields Logic mathematics cryptanalysis computer science mathematical and theoretical biology Workplaces University of Manchester Government Code and Cypher School National Physical Laboratory Thesis Systems of Logic Based on Ordinals (1938) Doctoral advisor Alonzo Church Doctoral students Robin Gandy Beatrice Worsley Signature Alan Mathison Turing ( / ˈ tj ʊər ɪ ŋ / ; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist , logician , cryptanalyst , philosopher and theoretical biologist . He was highly influential in the development of theoretical computer science , providing a formalisation of the concepts of algorithm and computation with the Turing machine , which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science. Born in London, Turing was raised in southern England . He graduated from King's College, Cambridge , and in 1938, earned a doctorate degree from Princeton University . During World War II , Turing worked for the Government Code and Cypher School at Bletchley Park , Britain's codebreaking centre that produced Ultra intelligence. He led Hut 8 , the section responsible for German naval cryptanalysis. Turing devised techniques for speeding the breaking of German ciphers , including improvements to the pre-war Polish bomba method, an electromechanical machine that could find settings for the Enigma machine . He played a crucial role in cracking intercepted messages that enabled the Allies to defeat the Axis powers in the Battle of the Atlantic and other engagements. After the war, Turing worked at the National Physical Laboratory , where he designed the Automatic Computing Engine , one of the first designs for a stored-program computer. In 1948, Turing joined Max Newman 's Computing Machine Laboratory at the University of Manchester , where he contributed to the development of early Manchester computers and became interested in mathematical biology . Turing wrote on the chemical basis of morphogenesis and predicted oscillating chemical reactions such as the Belousov–Zhabotinsky reaction , first observed in the 1960s. Despite these accomplishments, he was never fully recognised during his lifetime because much of his work was covered by the Official Secrets Act . In 1952, Turing was prosecuted for homosexual acts . He accepted hormone treatment, a procedure commonly referred to as chemical castration , as an alternative to prison. Turing died on 7 June 1954, aged 41, from cyanide poisoning . An inquest determined his death as suicide, but the evidence is also consistent with accidental poisoning. Following a campaign in 2009, British prime minister Gordon Brown made an official public apology for \"the appalling way [Turing] was treated\". Queen Elizabeth II granted a pardon in 2013. The term \" Alan Turing law \" is used informally to refer to a 2017 law in the UK that retroactively pardoned men cautioned or convicted under historical legislation that outlawed homosexual acts. Turing left an extensive legacy in mathematics and computing which has become widely recognised with statues and many things named after him , including an annual award for computing innovation. His portrait appears on the Bank of England £50 note , first released on 23 June 2021 to coincide with his birthday. The audience vote in a 2019 BBC series named Turing the greatest scientist of the 20th century. The cognitive scientist Douglas Hofstadter writes: Atheist, homosexual, eccentric, marathon-running mathematician, A. M. Turing was in large part responsible not only for the concept of computers, incisive theorems about their powers, and a clear vision of the possibility of computer minds, but also for the cracking of German ciphers during the Second World War. It is fair to say we owe much to Alan Turing for the fact that we are not under Nazi rule today. ^ a b Cite error: The named reference googlescholar was invoked but never defined (see the help page ). ^ a b Cite error: The named reference mathgene was invoked but never defined (see the help page ). ^ Cite error: The named reference gandyphd was invoked but never defined (see the help page ). ^ Cite error: The named reference bowen19 was invoked but never defined (see the help page ). ^ a b Cite error: The named reference Copeland was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-1 was invoked but never defined (see the help page ). ^ Cite error: The named reference frs was invoked but never defined (see the help page ). ^ Cite error: The named reference AFP was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-2 was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-3 was invoked but never defined (see the help page ). ^ Cite error: The named reference bbc-copeland was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-4 was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-5 was invoked but never defined (see the help page ). ^ Cite error: The named reference Milinkovitch was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-6 was invoked but never defined (see the help page ). ^ Cite error: The named reference BBC-pardon was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-7 was invoked but never defined (see the help page ). ^ Hodges 1983 , p. xiii. Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "text": "English computer scientist (1912–1954) For the Oregon artwork, see Alan Turing (sculpture) . \"Turing\" redirects here. For other uses, see Turing (disambiguation) . Alan Turing OBE FRS Turing in 1951 Born Alan Mathison Turing ( 1912-06-23 ) 23 June 1912 Maida Vale , London, England Died 7 June 1954 (1954-06-07) (aged 41) Wilmslow , Cheshire, England Cause of death Suicide by cyanide poisoning Education University of Cambridge ( MA ) Princeton University (PhD) Known for Cryptanalysis of the Enigma Turing's proof Turing machine Turing test unorganised machine Turing pattern Turing reduction \" The Chemical Basis of Morphogenesis \" Turing paradox Partner Joan Clarke (engaged in 1941 but did not marry) Awards Smith's Prize (1936) Scientific career Fields Logic mathematics cryptanalysis computer science mathematical and theoretical biology Workplaces University of Manchester Government Code and Cypher School National Physical Laboratory Thesis Systems of Logic Based on Ordinals (1938) Doctoral advisor Alonzo Church Doctoral students Robin Gandy Beatrice Worsley Signature Alan Mathison Turing ( / ˈ tj ʊər ɪ ŋ / ; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist , logician , cryptanalyst , philosopher and theoretical biologist . He was highly influential in the development of theoretical computer science , providing a formalisation of the concepts of algorithm and computation with the Turing machine , which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science. Born in London, Turing was raised in southern England . He graduated from King's College, Cambridge , and in 1938, earned a doctorate degree from Princeton University . During World War II , Turing worked for the Government Code and Cypher School at Bletchley Park , Britain's codebreaking centre that produced Ultra intelligence. He led Hut 8 , the section responsible for German naval cryptanalysis. Turing devised techniques for speeding the breaking of German ciphers , including improvements to the pre-war Polish bomba method, an electromechanical machine that could find settings for the Enigma machine . He played a crucial role in cracking intercepted messages that enabled the Allies to defeat the Axis powers in the Battle of the Atlantic and other engagements. After the war, Turing worked at the National Physical Laboratory , where he designed the Automatic Computing Engine , one of the first designs for a stored-program computer. In 1948, Turing joined Max Newman 's Computing Machine Laboratory at the University of Manchester , where he contributed to the development of early Manchester computers and became interested in mathematical biology . Turing wrote on the chemical basis of morphogenesis and predicted oscillating chemical reactions such as the Belousov–Zhabotinsky reaction , first observed in the 1960s. Despite these accomplishments, he was never fully recognised during his lifetime because much of his work was covered by the Official Secrets Act . In 1952, Turing was prosecuted for homosexual acts . He accepted hormone treatment, a procedure commonly referred to as chemical castration , as an alternative to prison. Turing died on 7 June 1954, aged 41, from cyanide poisoning . An inquest determined his death as suicide, but the evidence is also consistent with accidental poisoning. Following a campaign in 2009, British prime minister Gordon Brown made an official public apology for \"the appalling way [Turing] was treated\". Queen Elizabeth II granted a pardon in 2013. The term \" Alan Turing law \" is used informally to refer to a 2017 law in the UK that retroactively pardoned men cautioned or convicted under historical legislation that outlawed homosexual acts. Turing left an extensive legacy in mathematics and computing which has become widely recognised with statues and many things named after him , including an annual award for computing innovation. His portrait appears on the Bank of England £50 note , first released on 23 June 2021 to coincide with his birthday. The audience vote in a 2019 BBC series named Turing the greatest scientist of the 20th century. The cognitive scientist Douglas Hofstadter writes: Atheist, homosexual, eccentric, marathon-running mathematician, A. M. Turing was in large part responsible not only for the concept of computers, incisive theorems about their powers, and a clear vision of the possibility of computer minds, but also for the cracking of German ciphers during the Second World War. It is fair to say we owe much to Alan Turing for the fact that we are not under Nazi rule today. ^ a b Cite error: The named reference googlescholar was invoked but never defined (see the help page ). ^ a b Cite error: The named reference mathgene was invoked but never defined (see the help page ). ^ Cite error: The named reference gandyphd was invoked but never defined (see the help page ). ^ Cite error: The named reference bowen19 was invoked but never defined (see the help page ). ^ a b Cite error: The named reference Copeland was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-1 was invoked but never defined (see the help page ). ^ Cite error: The named reference frs was invoked but never defined (see the help page ). ^ Cite error: The named reference AFP was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-2 was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-3 was invoked but never defined (see the help page ). ^ Cite error: The named reference bbc-copeland was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-4 was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-5 was invoked but never defined (see the help page ). ^ Cite error: The named reference Milinkovitch was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-6 was invoked but never defined (see the help page ). ^ Cite error: The named reference BBC-pardon was invoked but never defined (see the help page ). ^ Cite error: The named reference Auto6D-7 was invoked but never defined (see the help page ). ^ Hodges 1983 , p. xiii. Cite error: There are <ref group=note> tags on this page, but the references will not show without a {{reflist|group=note}} template (see the help page ).",
+    "links": [
+      "Alan Turing (sculpture)",
+      "Alan Turing law",
+      "Algorithm",
+      "Allies of World War 2",
+      "Alonzo Church",
+      "Automatic Computing Engine",
+      "Axis powers",
+      "Bank of England £50 note",
+      "Battle of the Atlantic",
+      "Beatrice Worsley",
+      "Belousov–Zhabotinsky reaction",
+      "Bletchley Park",
+      "Bomba (cryptography)",
+      "Chemical castration",
+      "Chemical oscillator",
+      "Cipher",
+      "Codebreaking",
+      "Computation",
+      "Computer science",
+      "Computer scientist",
+      "Computing Machine Laboratory",
+      "Cryptanalysis",
+      "Cryptanalysis of the Enigma",
+      "Cryptanalyst",
+      "Cyanide poisoning",
+      "Doctoral advisor",
+      "Douglas Hofstadter",
+      "Electromechanical",
+      "Enigma machine",
+      "Fellow of the Royal Society",
+      "Gordon Brown",
+      "Government Code and Cypher School",
+      "Gross indecency",
+      "Hut 8",
+      "Icons: The Greatest Person of the 20th Century",
+      "Joan Clarke",
+      "Legacy of Alan Turing",
+      "List of things named after Alan Turing",
+      "Logic",
+      "Maida Vale",
+      "Manchester computers",
+      "Master of Arts (Oxford, Cambridge, and Dublin)",
+      "Mathematical and theoretical biology",
+      "Mathematical biology",
+      "Max Newman",
+      "Morphogenesis",
+      "National Physical Laboratory (United Kingdom)",
+      "Officer of the Order of the British Empire",
+      "Official Secrets Act 1939",
+      "Princeton University",
+      "Quantum Zeno effect",
+      "Queen Elizabeth II",
+      "Robin Gandy",
+      "Royal prerogative of mercy",
+      "Smith's Prize",
+      "Southern England",
+      "The Chemical Basis of Morphogenesis",
+      "Theoretical biologist",
+      "Theoretical computer science",
+      "Thesis",
+      "Turing (disambiguation)",
+      "Turing Award",
+      "Turing machine",
+      "Turing pattern",
+      "Turing reduction",
+      "Turing test",
+      "Turing's proof",
+      "Ultra (cryptography)",
+      "University of Cambridge",
+      "University of Manchester",
+      "Unorganized machine",
+      "Wilmslow",
+      "World War II"
+    ],
+    "page_id": 1208,
+    "revision_id": 1375527246,
+    "retrieved_at": "2026-09-18T16:40:56.399392+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260918085424|1375524597",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1208,
+            "ns": 0,
+            "title": "Alan Turing",
+            "revisions": [
+              {
+                "revid": 1375527246,
+                "parentid": 1375524597
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Turing, Alan",
+              "page_image_free": "Alan_turing_header.jpg",
+              "toc": "",
+              "wikibase-badge-Q17437798": "",
+              "wikibase-shortdesc": "English computer scientist (1912–1954)",
+              "wikibase_item": "Q7251"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Alan Turing",
+        "pageid": 1208,
+        "revid": 1375527246,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">English computer scientist (1912–1954)</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the Oregon artwork, see <a href=\"/wiki/Alan_Turing_(sculpture)\" title=\"Alan Turing (sculpture)\"><i>Alan Turing</i> (sculpture)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Turing\" redirects here. For other uses, see <a href=\"/wiki/Turing_(disambiguation)\" class=\"mw-disambig\" title=\"Turing (disambiguation)\">Turing (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n\n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox biography vcard\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\"><div class=\"fn\">Alan Turing</div><div class=\"honorific-suffix\" style=\"font-size: 80%; font-weight: normal;\"><span class=\"nobold noexcerpt nowraplinks\" style=\"font-size:;\"><span style=\"font-size: 100%;\"><a href=\"/wiki/Officer_of_the_Order_of_the_British_Empire\" class=\"mw-redirect\" title=\"Officer of the Order of the British Empire\">OBE</a></span>&#32;<span style=\"font-size: 100%;\"><a href=\"/wiki/Fellow_of_the_Royal_Society\" title=\"Fellow of the Royal Society\">FRS</a></span></span></div></th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Alan_turing_header.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alan_turing_header.jpg/250px-Alan_turing_header.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"333\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alan_turing_header.jpg/500px-Alan_turing_header.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"752\" data-file-height=\"1002\" /></a></span><div class=\"infobox-caption\">Turing in 1951</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Born</th><td class=\"infobox-data\"><div style=\"display:inline\" class=\"nickname\">Alan Mathison Turing</div><br /><span style=\"display:none\">(<span class=\"bday\">1912-06-23</span>)</span>23 June 1912<br /><div style=\"display:inline\" class=\"birthplace\"><a href=\"/wiki/Maida_Vale\" title=\"Maida Vale\">Maida Vale</a>, London, England</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Died</th><td class=\"infobox-data\">7 June 1954<span style=\"display:none\">(1954-06-07)</span> (aged&#160;41)<br /><div style=\"display:inline\" class=\"deathplace\"><span class=\"nowrap\"><a href=\"/wiki/Wilmslow\" title=\"Wilmslow\">Wilmslow</a>, Cheshire, England</span></div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Cause&#160;of death</div></th><td class=\"infobox-data\">Suicide by <a href=\"/wiki/Cyanide_poisoning\" title=\"Cyanide poisoning\">cyanide poisoning</a><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>note 1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Education</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\" style=\"margin-left:1em;text-indent:-1em;\">\n<ul><li><span class=\"nowrap\"><a href=\"/wiki/University_of_Cambridge\" title=\"University of Cambridge\">University of Cambridge</a>  (<a href=\"/wiki/Master_of_Arts_(Oxford,_Cambridge,_and_Dublin)\" class=\"mw-redirect\" title=\"Master of Arts (Oxford, Cambridge, and Dublin)\">MA</a>)</span></li>\n<li><a href=\"/wiki/Princeton_University\" title=\"Princeton University\">Princeton University</a> (PhD)</li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Known&#160;for</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Cryptanalysis_of_the_Enigma\" title=\"Cryptanalysis of the Enigma\">Cryptanalysis of the Enigma</a></li>\n<li><a href=\"/wiki/Turing%27s_proof\" title=\"Turing&#39;s proof\">Turing's proof</a></li>\n<li><a href=\"/wiki/Turing_machine\" title=\"Turing machine\">Turing machine</a></li>\n<li><a href=\"/wiki/Turing_test\" title=\"Turing test\">Turing test</a></li>\n<li><a href=\"/wiki/Unorganized_machine\" title=\"Unorganized machine\">unorganised machine</a></li>\n<li><a href=\"/wiki/Turing_pattern\" title=\"Turing pattern\">Turing pattern</a></li>\n<li><a href=\"/wiki/Turing_reduction\" title=\"Turing reduction\">Turing reduction</a></li>\n<li>\"<a href=\"/wiki/The_Chemical_Basis_of_Morphogenesis\" title=\"The Chemical Basis of Morphogenesis\">The Chemical Basis of Morphogenesis</a>\"</li>\n<li><a href=\"/wiki/Quantum_Zeno_effect\" title=\"Quantum Zeno effect\">Turing paradox</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Partner</th><td class=\"infobox-data\"><a href=\"/wiki/Joan_Clarke\" title=\"Joan Clarke\">Joan Clarke</a> (engaged in 1941 but did not marry)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Awards</th><td class=\"infobox-data\"><a href=\"/wiki/Smith%27s_Prize\" title=\"Smith&#39;s Prize\">Smith's Prize</a> (1936)</td></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><b>Scientific career</b></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Fields</th><td class=\"infobox-data category\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Logic\" title=\"Logic\">Logic</a></li>\n<li>mathematics</li>\n<li><a href=\"/wiki/Cryptanalysis\" title=\"Cryptanalysis\">cryptanalysis</a></li>\n<li><a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a></li>\n<li><a href=\"/wiki/Mathematical_and_theoretical_biology\" title=\"Mathematical and theoretical biology\">mathematical and theoretical biology</a><sup id=\"cite&#95;ref-googlescholar&#95;1-0\" class=\"reference\"><a href=\"#cite_note-googlescholar-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Workplaces</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/University_of_Manchester\" title=\"University of Manchester\">University of Manchester</a></li>\n<li><a href=\"/wiki/Government_Code_and_Cypher_School\" title=\"Government Code and Cypher School\">Government Code and Cypher School</a></li>\n<li><a href=\"/wiki/National_Physical_Laboratory_(United_Kingdom)\" title=\"National Physical Laboratory (United Kingdom)\">National Physical Laboratory</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Thesis\" title=\"Thesis\">Thesis</a></th><td class=\"infobox-data\"><i><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20121023103503/https://webspace.princeton.edu/users/jedwards/Turing%20Centennial%202012/Mudd%20Archive%20files/12285_AC100_Turing_1938.pdf\">Systems of Logic Based on Ordinals</a></i>&#160;<span style=\"font-size:97%;\">(1938)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Doctoral_advisor\" title=\"Doctoral advisor\">Doctoral advisor</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Alonzo_Church\" title=\"Alonzo Church\">Alonzo Church</a><sup id=\"cite&#95;ref-mathgene&#95;2-0\" class=\"reference\"><a href=\"#cite_note-mathgene-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Doctoral students</div></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Robin_Gandy\" title=\"Robin Gandy\">Robin Gandy</a><sup id=\"cite&#95;ref-mathgene&#95;2-1\" class=\"reference\"><a href=\"#cite_note-mathgene-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-gandyphd&#95;3-0\" class=\"reference\"><a href=\"#cite_note-gandyphd-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Beatrice_Worsley\" title=\"Beatrice Worsley\">Beatrice Worsley</a><sup id=\"cite&#95;ref-bowen19&#95;4-0\" class=\"reference\"><a href=\"#cite_note-bowen19-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th colspan=\"2\" class=\"infobox-header\">Signature</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span class=\"infobox-signature skin-invert\" typeof=\"mw:File\"><a href=\"/wiki/File:Alan_Turing_signature.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Alan_Turing_signature.svg/250px-Alan_Turing_signature.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"30\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Alan_Turing_signature.svg/330px-Alan_Turing_signature.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"585\" data-file-height=\"118\" /></a></span></td></tr></tbody></table>\n<p><b>Alan Mathison Turing</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"/tj/: &#39;t&#39; in &#39;tune&#39;\">tj</span><span title=\"/ʊər/: &#39;our&#39; in &#39;tour&#39;\">ʊər</span><span title=\"/ɪ/: &#39;i&#39; in &#39;kit&#39;\">ɪ</span><span title=\"/ŋ/: &#39;ng&#39; in &#39;sing&#39;\">ŋ</span></span>/</a></span></span>; 23 June 1912&#160;– 7 June 1954) was an English mathematician, <a href=\"/wiki/Computer_scientist\" title=\"Computer scientist\">computer scientist</a>, <a href=\"/wiki/Logic\" title=\"Logic\">logician</a>, <a href=\"/wiki/Cryptanalyst\" class=\"mw-redirect\" title=\"Cryptanalyst\">cryptanalyst</a>, philosopher and <a href=\"/wiki/Theoretical_biologist\" class=\"mw-redirect\" title=\"Theoretical biologist\">theoretical biologist</a>.<sup id=\"cite&#95;ref-Auto6D-1&#95;7-0\" class=\"reference\"><a href=\"#cite_note-Auto6D-1-7\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> He was highly influential in the development of <a href=\"/wiki/Theoretical_computer_science\" title=\"Theoretical computer science\">theoretical computer science</a>, providing a formalisation of the concepts of <a href=\"/wiki/Algorithm\" title=\"Algorithm\">algorithm</a> and <a href=\"/wiki/Computation\" title=\"Computation\">computation</a> with the <a href=\"/wiki/Turing_machine\" title=\"Turing machine\">Turing machine</a>, which can be considered a model of a general-purpose computer.<sup id=\"cite&#95;ref-frs&#95;8-0\" class=\"reference\"><a href=\"#cite_note-frs-8\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-AFP&#95;9-0\" class=\"reference\"><a href=\"#cite_note-AFP-9\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Auto6D-2&#95;10-0\" class=\"reference\"><a href=\"#cite_note-Auto6D-2-10\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> Turing is widely considered to be the father of theoretical computer science.<sup id=\"cite&#95;ref-Auto6D-3&#95;11-0\" class=\"reference\"><a href=\"#cite_note-Auto6D-3-11\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Born in London, Turing was raised in <a href=\"/wiki/Southern_England\" title=\"Southern England\">southern England</a>. He graduated from <a href=\"/wiki/University_of_Cambridge\" title=\"University of Cambridge\">King's College, Cambridge</a>, and in 1938, earned a doctorate degree from <a href=\"/wiki/Princeton_University\" title=\"Princeton University\">Princeton University</a>. During <a href=\"/wiki/World_War_II\" title=\"World War II\">World War II</a>, Turing worked for the <a href=\"/wiki/Government_Code_and_Cypher_School\" title=\"Government Code and Cypher School\">Government Code and Cypher School</a> at <a href=\"/wiki/Bletchley_Park\" title=\"Bletchley Park\">Bletchley Park</a>, Britain's <a href=\"/wiki/Codebreaking\" class=\"mw-redirect\" title=\"Codebreaking\">codebreaking</a> centre that produced <a href=\"/wiki/Ultra_(cryptography)\" title=\"Ultra (cryptography)\">Ultra</a> intelligence. He led <a href=\"/wiki/Hut_8\" title=\"Hut 8\">Hut 8</a>, the section responsible for German naval cryptanalysis. Turing devised techniques for speeding the breaking of German <a href=\"/wiki/Cipher\" title=\"Cipher\">ciphers</a>, including improvements to the pre-war Polish <a href=\"/wiki/Bomba_(cryptography)\" title=\"Bomba (cryptography)\">bomba</a> method, an <a href=\"/wiki/Electromechanical\" class=\"mw-redirect\" title=\"Electromechanical\">electromechanical</a> machine that could find settings for the <a href=\"/wiki/Enigma_machine\" title=\"Enigma machine\">Enigma machine</a>. He played a crucial role in cracking intercepted messages that enabled the <a href=\"/wiki/Allies_of_World_War_2\" class=\"mw-redirect\" title=\"Allies of World War 2\">Allies</a> to defeat the <a href=\"/wiki/Axis_powers\" title=\"Axis powers\">Axis powers</a> in the <a href=\"/wiki/Battle_of_the_Atlantic\" title=\"Battle of the Atlantic\">Battle of the Atlantic</a> and other engagements.<sup id=\"cite&#95;ref-bbc-copeland&#95;12-0\" class=\"reference\"><a href=\"#cite_note-bbc-copeland-12\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Auto6D-4&#95;13-0\" class=\"reference\"><a href=\"#cite_note-Auto6D-4-13\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>After the war, Turing worked at the <a href=\"/wiki/National_Physical_Laboratory_(United_Kingdom)\" title=\"National Physical Laboratory (United Kingdom)\">National Physical Laboratory</a>, where he designed the <a href=\"/wiki/Automatic_Computing_Engine\" title=\"Automatic Computing Engine\">Automatic Computing Engine</a>, one of the first designs for a stored-program computer. In 1948, Turing joined <a href=\"/wiki/Max_Newman\" title=\"Max Newman\">Max Newman</a>'s <a href=\"/wiki/Computing_Machine_Laboratory\" title=\"Computing Machine Laboratory\">Computing Machine Laboratory</a> at the <a href=\"/wiki/University_of_Manchester\" title=\"University of Manchester\">University of Manchester</a>, where he contributed to the development of early <a href=\"/wiki/Manchester_computers\" title=\"Manchester computers\">Manchester computers</a><sup id=\"cite&#95;ref-Auto6D-5&#95;14-0\" class=\"reference\"><a href=\"#cite_note-Auto6D-5-14\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> and became interested in <a href=\"/wiki/Mathematical_biology\" class=\"mw-redirect\" title=\"Mathematical biology\">mathematical biology</a>. Turing wrote on the chemical basis of <a href=\"/wiki/Morphogenesis\" title=\"Morphogenesis\">morphogenesis</a><sup id=\"cite&#95;ref-Milinkovitch&#95;15-0\" class=\"reference\"><a href=\"#cite_note-Milinkovitch-15\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-googlescholar&#95;1-1\" class=\"reference\"><a href=\"#cite_note-googlescholar-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> and predicted <a href=\"/wiki/Chemical_oscillator\" title=\"Chemical oscillator\">oscillating chemical reactions</a> such as the <a href=\"/wiki/Belousov%E2%80%93Zhabotinsky_reaction\" title=\"Belousov–Zhabotinsky reaction\">Belousov–Zhabotinsky reaction</a>, first observed in the 1960s. Despite these accomplishments, he was never fully recognised during his lifetime because much of his work was covered by the <a href=\"/wiki/Official_Secrets_Act_1939\" title=\"Official Secrets Act 1939\">Official Secrets Act</a>.<sup id=\"cite&#95;ref-Auto6D-6&#95;16-0\" class=\"reference\"><a href=\"#cite_note-Auto6D-6-16\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>In 1952, Turing was prosecuted for <a href=\"/wiki/Gross_indecency\" title=\"Gross indecency\">homosexual acts</a>. He accepted hormone treatment, a procedure commonly referred to as <a href=\"/wiki/Chemical_castration\" title=\"Chemical castration\">chemical castration</a>, as an alternative to prison. Turing died on 7 June 1954, aged 41, from <a href=\"/wiki/Cyanide_poisoning\" title=\"Cyanide poisoning\">cyanide poisoning</a>. An inquest determined his death as suicide, but the evidence is also consistent with accidental poisoning.<sup id=\"cite&#95;ref-Copeland&#95;5-1\" class=\"reference\"><a href=\"#cite_note-Copeland-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> Following a campaign in 2009, British prime minister <a href=\"/wiki/Gordon_Brown\" title=\"Gordon Brown\">Gordon Brown</a> made an <a href=\"#Government_apology_and_pardon\">official public apology</a> for \"the appalling way [Turing] was treated\". <a href=\"/wiki/Queen_Elizabeth_II\" class=\"mw-redirect\" title=\"Queen Elizabeth II\">Queen Elizabeth II</a> granted a <a href=\"/wiki/Royal_prerogative_of_mercy\" title=\"Royal prerogative of mercy\">pardon</a> in 2013. The term \"<a href=\"/wiki/Alan_Turing_law\" title=\"Alan Turing law\">Alan Turing law</a>\" is used informally to refer to a 2017 law in the UK that retroactively pardoned men cautioned or convicted under historical legislation that outlawed homosexual acts.<sup id=\"cite&#95;ref-BBC-pardon&#95;17-0\" class=\"reference\"><a href=\"#cite_note-BBC-pardon-17\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Turing left <a href=\"/wiki/Legacy_of_Alan_Turing\" title=\"Legacy of Alan Turing\">an extensive legacy</a> in mathematics and computing which has become widely recognised with statues and <a href=\"/wiki/List_of_things_named_after_Alan_Turing\" title=\"List of things named after Alan Turing\">many things named after him</a>, including <a href=\"/wiki/Turing_Award\" title=\"Turing Award\">an annual award</a> for computing innovation. His portrait appears on the <a href=\"/wiki/Bank_of_England_%C2%A350_note\" title=\"Bank of England £50 note\">Bank of England £50 note</a>, first released on 23 June 2021 to coincide with his birthday. The audience vote in a <a href=\"/wiki/Icons:_The_Greatest_Person_of_the_20th_Century\" title=\"Icons: The Greatest Person of the 20th Century\">2019 BBC series</a> named Turing the greatest scientist of the 20th century.<sup id=\"cite&#95;ref-Auto6D-7&#95;18-0\" class=\"reference\"><a href=\"#cite_note-Auto6D-7-18\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The cognitive scientist <a href=\"/wiki/Douglas_Hofstadter\" title=\"Douglas Hofstadter\">Douglas Hofstadter</a> writes:<sup id=\"cite&#95;ref-FOOTNOTEHodges1983xiii&#95;19-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHodges1983xiii-19\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1244412712\">.mw-parser-output .templatequote{overflow:hidden;margin:1em 0;padding:0 32px}.mw-parser-output .templatequotecite{line-height:1.5em;text-align:left;margin-top:0}@media(min-width:500px){.mw-parser-output .templatequotecite{padding-left:1.6em}}</style><blockquote class=\"templatequote\"><p>Atheist, homosexual, eccentric, marathon-running mathematician, <span class=\"nowrap\">A. M. Turing</span> was in large part responsible not only for the concept of computers, incisive theorems about their powers, and a clear vision of the possibility of computer minds, but also for the cracking of German ciphers during the Second World War. It is fair to say we owe much to Alan Turing for the fact that we are not under Nazi rule today.</p></blockquote>\n<style data-mw-deduplicate=\"TemplateStyles:r886046785\">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class=\"toclimit-3\"><meta property=\"mw:PageProp/toc\" /></div>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-googlescholar-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-googlescholar_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-googlescholar_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>googlescholar</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-mathgene-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-mathgene_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-mathgene_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>mathgene</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-gandyphd-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-gandyphd_3-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>gandyphd</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-bowen19-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-bowen19_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>bowen19</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Copeland-5\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Copeland_5-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Copeland_5-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Copeland</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Auto6D-1-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Auto6D-1_7-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Auto6D-1</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-frs-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-frs_8-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>frs</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-AFP-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-AFP_9-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>AFP</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Auto6D-2-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Auto6D-2_10-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Auto6D-2</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Auto6D-3-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Auto6D-3_11-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Auto6D-3</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-bbc-copeland-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-bbc-copeland_12-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>bbc-copeland</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Auto6D-4-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Auto6D-4_13-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Auto6D-4</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Auto6D-5-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Auto6D-5_14-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Auto6D-5</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Milinkovitch-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Milinkovitch_15-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Milinkovitch</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Auto6D-6-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Auto6D-6_16-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Auto6D-6</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-BBC-pardon-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-BBC-pardon_17-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>BBC-pardon</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Auto6D-7-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Auto6D-7_18-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Auto6D-7</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEHodges1983xiii-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEHodges1983xiii_19-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFHodges1983\">Hodges 1983</a>, p.&#160;xiii.</span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;note&gt;</code> tags on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;note&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐cpc46\nCached time: 20260918164122\nCache expiry: 28800\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.757 seconds\nReal time usage: 1.093 seconds\nPreprocessor visited node count: 5512/1000000\nRevision size: 7112/2097152 bytes\nPost‐expand include size: 66147/2097152 bytes\nTemplate argument size: 24075/2097152 bytes\nHighest expansion depth: 14/100\nExpensive parser function count: 8/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 14046/5000000 bytes\nLua time usage: 0.311/10.000 seconds\nLua memory usage: 10876206/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00% 1056.417      1 -total\n 23.63%  249.657      1 Template:Infobox_scientist\n  8.93%   94.286      1 Template:Sfn\n  7.55%   79.765     36 Template:Broken_ref\n  7.02%   74.212      1 Template:Short_description\n  5.69%   60.136      1 Template:Birth_date\n  4.92%   51.995     28 Template:Main_other\n  4.43%   46.786      2 Template:Pagetype\n  2.87%   30.312      1 Template:Infobox\n  2.74%   28.899     25 Template:If_empty\n-->\n\n<!-- Render ID c7d47637-b37f-11f1-8b39-35132118b6ff -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Good articles*",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alan Turing (sculpture)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alan Turing law",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Allies of World War 2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alonzo Church",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automatic Computing Engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Axis powers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bank of England £50 note",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Battle of the Atlantic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Beatrice Worsley",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Belousov–Zhabotinsky reaction",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bletchley Park",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bomba (cryptography)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chemical castration",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chemical oscillator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cipher",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Codebreaking",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer scientist",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing Machine Laboratory",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cryptanalysis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cryptanalysis of the Enigma",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cryptanalyst",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cyanide poisoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctoral advisor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Douglas Hofstadter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Electromechanical",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Enigma machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fellow of the Royal Society",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gordon Brown",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Government Code and Cypher School",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gross indecency",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hut 8",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Icons: The Greatest Person of the 20th Century",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Joan Clarke",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Legacy of Alan Turing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of things named after Alan Turing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Maida Vale",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Manchester computers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Master of Arts (Oxford, Cambridge, and Dublin)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical and theoretical biology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematical biology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Max Newman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Morphogenesis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "National Physical Laboratory (United Kingdom)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Officer of the Order of the British Empire",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Official Secrets Act 1939",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Princeton University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quantum Zeno effect",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Queen Elizabeth II",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robin Gandy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Royal prerogative of mercy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smith's Prize",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Southern England",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Chemical Basis of Morphogenesis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Theoretical biologist",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Theoretical computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thesis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing's proof",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing pattern",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing reduction",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing test",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ultra (cryptography)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Cambridge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Manchester",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unorganized machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Wilmslow",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "World War II",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "English computer scientist (1912–1954)",
+          "toc": "",
+          "page_image_free": "Alan_turing_header.jpg",
+          "wikibase_item": "Q7251",
+          "wikibase-badge-Q17437798": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1799 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "C++",
+    "url": "https://en.wikipedia.org/wiki/C%2B%2B",
+    "summary": "General-purpose programming language \"cxx\" and \".cxx\" redirect here. For other uses, see CXX . C++ Logo endorsed by the C++ standards committee Paradigms Multi-paradigm : procedural , imperative , functional , object-oriented , generic , modular , reflective , Design by contract Family C Designed by Bjarne Stroustrup Developer ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 22 (Subcommittee 22) / WG 21 (Working Group 21) First appeared 1985 ; 41 years ago ( 1985 ) Stable release C++23 (ISO/IEC 14882:2024) / 19 October 2024 ; 22 months ago ( 2024-10-19 ) Preview release C++26 (N5032) / 15 December 2025 ; 9 months ago ( 2025-12-15 ) Typing discipline Static , strong , nominative , partially inferred OS Cross-platform Filename extensions .C, .cc, .cpp, .cxx, .c++ , .h, .H, .hh, .hpp, .hxx, .h++ .cppm, .ixx Website isocpp .org Major implementations GCC , LLVM Clang , Microsoft Visual C++ , Embarcadero C++Builder , Intel C++ Compiler , IBM XL C++ , EDG Influenced by Ada , ALGOL 68 , BCPL , C , CLU , F# , ML , Mesa , Modula-2 , Simula , Smalltalk Influenced Ada 95 , C# , C99 , Carbon , Chapel , Clojure , D , Java , JS++ , Lua , Nim , Objective-C++ , Perl , PHP , Python , Rust C++ Programming at Wikibooks This article is part of a series on the C++ programming language C++ libraries Active Template Library Allegro Apache MXNet Apache Xerces Asio Bitpit Boost Botan C3D Toolkit Caffe Cinder ClanLib CMU Sphinx Crypto++ C++ AMP C++ Standard Library C++/WinRT DevIL fastText FLTK Geospatial Data Abstraction Library General Polygon Clipper GLFW GraphicsMagick HarfBuzz High Efficiency Image File Format ImageMagick Integrated Performance Primitives International Components for Unicode ITK Jackets library JSBSim JUCE KDE Frameworks KFRlib LevelDB libcamera Libdash libLAS LibRaw libSBML libsigc++ LIBSVM Libx LIVE555 Loki Metakit Microsoft Cognitive Toolkit Microsoft Foundation Class Library Microsoft SEAL mlpack Mobile Robot Programming Toolkit MoltenVK Object Windows Library Open Asset Import Library Open Cascade OpenCV OpenFOAM OpenH264 OpenImageIO Open Inventor OpenNN openFrameworks OpenRTM-aist OpenVDB Oracle Template Library Orfeo toolbox OR-Tools Parallel Patterns Library PhysX POCO C++ Libraries Poppler Protocol Buffers Qt QuantLib RocksDB ROOT ROS Scintilla SFML Shogun Skia Snappy Sound Object Library Stapl Standard Template Library TerraLib Tesseract OCR Threading Building Blocks ThreadWeaver TinyXML Tkrzw VDPAU VTD-XML Windows Template Library wxWidgets x265 XGBoost C++ numerical libraries Adept Advanced Simulation Library ALGLIB Armadillo Blitz++ CAPD CGAL Class Library for Numbers deal.II Dune Eigen GetFEM++ GiNaC IML++ IT++ JAMA LAPACK++ LEMON Math Kernel Library Matrix Template Library MFEM Netlib Number Theory Library PETSc PLplot SymbolicC++ Template Numerical Toolkit Trilinos C++ IDEs Code::Blocks CodeLite C++Builder CLion Dev-C++ Eclipse CDT Geany KDevelop Microsoft Visual Studio NetBeans OpenWatcom Qt Creator SlickEdit Ultimate++ Understand Visual Studio Code Xcode C++ compilers AMD Optimizing C/C++ Compiler C++Builder Clang Comeau C/C++ Digital Mars GCC HP aC++ IBM XL C/C++ Intel C++ Compiler Open64 Oracle Developer Studio TenDRA Turbo C++ Microsoft Visual C++ Zig compiler C++ tools Akonadi BALL Boehm garbage collector CEGUI CMake Confidential Consortium Framework CppUnit DaviX Doxygen Fox toolkit GDB Google Test gtkmm HOOPS Visualize HPX LessTif MFC Rogue Wave TnFOX Ultimate++ Valgrind Xcas See also C++ syntax Free software programmed in C++ History of C++ List of C++ software and tools List of C-family programming languages Outline of C++ Computer programming portal C++ programming (Wikibooks) v t e C++ is a high-level , general-purpose programming language created by Danish computer scientist Bjarne Stroustrup . First released in 1985 as an extension of the C programming language , adding object-oriented (OOP) functionality and later expanding significantly with the addition of functional programming features. It supports low-level memory manipulation for systems like microcomputers and has been used for the creation and maintenance of Microsoft Windows . C++ has also added support for generic programming through the use of templates . It is usually implemented as a compiled language , and many vendors provide C++ compilers , including the Free Software Foundation , LLVM , Microsoft , Intel , Embarcadero , Oracle , and IBM . C++ was designed with systems programming and embedded , resource-constrained software and large systems in mind, with performance , efficiency, and flexibility of use as its design highlights. C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications, including desktop applications , video games , servers (e.g., e-commerce , web search , or databases ), and performance-critical applications (e.g., telephone switches or space probes ). C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in October 2024 as ISO/IEC 14882:2024 (informally known as C++23 ). The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998 , which was then amended by the C++03 , C++11 , C++14 , C++17 , and C++20 standards. The next C++23 standard superseded these with new features and an enlarged standard library . Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization. Since 2012, C++ has been on a three-year release schedule with C++29 as the next planned standard. ^ Wyatt Childers; et al. (26 June 2024). \"P2996R4 - Reflection for C++26\" . isocpp.org . WG21. ^ \"N5032: Working Draft, Programming Languages — C++\" (PDF) . ISO/IEC JTC 1/SC 22 . 15 December 2025 . Retrieved 29 April 2026 . ^ \"Overview of modules in C++\" . Microsoft. 24 April 2023. ^ a b c d e Stroustrup, Bjarne (1996). \"A history of C++: 1979-1991\". History of programming languages---II . ACM . pp. 699– 769. doi : 10.1145/234286.1057836 . ^ Stroustrup, Bjarne (16 December 2021). \"C++20: Reaching for the Aims of C++ - Bjarne Stroustrup - CppCon 2021\" . CppCon. Archived from the original on 30 December 2021 . Retrieved 30 December 2021 . ^ Stroustrup, Bjarne (12 June 2020). \"Thriving in a crowded and changing world: C++ 2006–2020\" . Proceedings of the ACM on Programming Languages . 4 (HOPL). Association for Computing Machinery (ACM): 1– 168. doi : 10.1145/3386320 . ISSN 2475-1421 . S2CID 219603741 . ^ Naugler, David (May 2007). \"C# 2.0 for C++ and Java programmer: conference workshop\". Journal of Computing Sciences in Colleges . 22 (5). Although C# has been strongly influenced by Java it has also been strongly influenced by C++ and is best viewed as a descendant of both C++ and Java. ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. 1 October 2015. Archived (PDF) from the original on 24 June 2018 . Retrieved 14 January 2016 . ^ Fogus, Michael. \"Rich Hickey Q&A\" . Code Quarterly . Archived from the original on 11 January 2017 . Retrieved 11 January 2017 . ^ Harry. H. Chaudhary (28 July 2014). \"Cracking The Java Programming Interview :: 2000+ Java Interview Que/Ans\" . Archived from the original on 27 May 2021 . Retrieved 29 May 2016 . ^ Roger Poon (1 May 2017). \"Scaling JS++: Abstraction, Performance, and Readability\" . Archived from the original on 11 May 2020 . Retrieved 21 April 2020 . ^ \"The evolution of an extension language: a history of Lua\" . www.lua.org . Retrieved 4 January 2023 . ^ \"FAQ Nim Programming Language\" . Archived from the original on 11 July 2017 . Retrieved 21 April 2020 . ^ \"9. Classes — Python 3.6.4 documentation\" . docs.python.org . Archived from the original on 23 October 2012 . Retrieved 9 January 2018 . ^ \"Influences - The Rust Reference\" . doc.rust-lang.org . Retrieved 4 January 2023 . ^ Cite error: The named reference hopl2 was invoked but never defined (see the help page ). ^ Stroustrup, Bjarne (1997). \"1\". The C++ Programming Language (Third ed.). Addison-Wesley. ISBN 0-201-88954-4 . OCLC 59193992 . ^ a b Stroustrup, B. (6 May 2014). \"Lecture:The essence of C++. University of Edinburgh\" . YouTube . Archived from the original on 28 April 2015 . Retrieved 12 June 2015 . ^ Stroustrup, Bjarne (17 February 2014). \"C++ Applications\" . stroustrup.com . Archived from the original on 4 April 2021 . Retrieved 5 May 2014 . ^ Cite error: The named reference isocpp2024 was invoked but never defined (see the help page ). ^ \"Bjarne Stroustrup's Homepage\" . www.stroustrup.com . Archived from the original on 14 May 2019 . Retrieved 15 May 2013 . ^ \"C++ IS schedule\" (PDF) . Archived (PDF) from the original on 10 August 2020 . Retrieved 9 August 2020 . ^ \"C++29 - cppreference.com\" . cppreference.com . Retrieved 10 July 2026 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "text": "General-purpose programming language \"cxx\" and \".cxx\" redirect here. For other uses, see CXX . C++ Logo endorsed by the C++ standards committee Paradigms Multi-paradigm : procedural , imperative , functional , object-oriented , generic , modular , reflective , Design by contract Family C Designed by Bjarne Stroustrup Developer ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 22 (Subcommittee 22) / WG 21 (Working Group 21) First appeared 1985 ; 41 years ago ( 1985 ) Stable release C++23 (ISO/IEC 14882:2024) / 19 October 2024 ; 22 months ago ( 2024-10-19 ) Preview release C++26 (N5032) / 15 December 2025 ; 9 months ago ( 2025-12-15 ) Typing discipline Static , strong , nominative , partially inferred OS Cross-platform Filename extensions .C, .cc, .cpp, .cxx, .c++ , .h, .H, .hh, .hpp, .hxx, .h++ .cppm, .ixx Website isocpp .org Major implementations GCC , LLVM Clang , Microsoft Visual C++ , Embarcadero C++Builder , Intel C++ Compiler , IBM XL C++ , EDG Influenced by Ada , ALGOL 68 , BCPL , C , CLU , F# , ML , Mesa , Modula-2 , Simula , Smalltalk Influenced Ada 95 , C# , C99 , Carbon , Chapel , Clojure , D , Java , JS++ , Lua , Nim , Objective-C++ , Perl , PHP , Python , Rust C++ Programming at Wikibooks This article is part of a series on the C++ programming language C++ libraries Active Template Library Allegro Apache MXNet Apache Xerces Asio Bitpit Boost Botan C3D Toolkit Caffe Cinder ClanLib CMU Sphinx Crypto++ C++ AMP C++ Standard Library C++/WinRT DevIL fastText FLTK Geospatial Data Abstraction Library General Polygon Clipper GLFW GraphicsMagick HarfBuzz High Efficiency Image File Format ImageMagick Integrated Performance Primitives International Components for Unicode ITK Jackets library JSBSim JUCE KDE Frameworks KFRlib LevelDB libcamera Libdash libLAS LibRaw libSBML libsigc++ LIBSVM Libx LIVE555 Loki Metakit Microsoft Cognitive Toolkit Microsoft Foundation Class Library Microsoft SEAL mlpack Mobile Robot Programming Toolkit MoltenVK Object Windows Library Open Asset Import Library Open Cascade OpenCV OpenFOAM OpenH264 OpenImageIO Open Inventor OpenNN openFrameworks OpenRTM-aist OpenVDB Oracle Template Library Orfeo toolbox OR-Tools Parallel Patterns Library PhysX POCO C++ Libraries Poppler Protocol Buffers Qt QuantLib RocksDB ROOT ROS Scintilla SFML Shogun Skia Snappy Sound Object Library Stapl Standard Template Library TerraLib Tesseract OCR Threading Building Blocks ThreadWeaver TinyXML Tkrzw VDPAU VTD-XML Windows Template Library wxWidgets x265 XGBoost C++ numerical libraries Adept Advanced Simulation Library ALGLIB Armadillo Blitz++ CAPD CGAL Class Library for Numbers deal.II Dune Eigen GetFEM++ GiNaC IML++ IT++ JAMA LAPACK++ LEMON Math Kernel Library Matrix Template Library MFEM Netlib Number Theory Library PETSc PLplot SymbolicC++ Template Numerical Toolkit Trilinos C++ IDEs Code::Blocks CodeLite C++Builder CLion Dev-C++ Eclipse CDT Geany KDevelop Microsoft Visual Studio NetBeans OpenWatcom Qt Creator SlickEdit Ultimate++ Understand Visual Studio Code Xcode C++ compilers AMD Optimizing C/C++ Compiler C++Builder Clang Comeau C/C++ Digital Mars GCC HP aC++ IBM XL C/C++ Intel C++ Compiler Open64 Oracle Developer Studio TenDRA Turbo C++ Microsoft Visual C++ Zig compiler C++ tools Akonadi BALL Boehm garbage collector CEGUI CMake Confidential Consortium Framework CppUnit DaviX Doxygen Fox toolkit GDB Google Test gtkmm HOOPS Visualize HPX LessTif MFC Rogue Wave TnFOX Ultimate++ Valgrind Xcas See also C++ syntax Free software programmed in C++ History of C++ List of C++ software and tools List of C-family programming languages Outline of C++ Computer programming portal C++ programming (Wikibooks) v t e C++ is a high-level , general-purpose programming language created by Danish computer scientist Bjarne Stroustrup . First released in 1985 as an extension of the C programming language , adding object-oriented (OOP) functionality and later expanding significantly with the addition of functional programming features. It supports low-level memory manipulation for systems like microcomputers and has been used for the creation and maintenance of Microsoft Windows . C++ has also added support for generic programming through the use of templates . It is usually implemented as a compiled language , and many vendors provide C++ compilers , including the Free Software Foundation , LLVM , Microsoft , Intel , Embarcadero , Oracle , and IBM . C++ was designed with systems programming and embedded , resource-constrained software and large systems in mind, with performance , efficiency, and flexibility of use as its design highlights. C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications, including desktop applications , video games , servers (e.g., e-commerce , web search , or databases ), and performance-critical applications (e.g., telephone switches or space probes ). C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in October 2024 as ISO/IEC 14882:2024 (informally known as C++23 ). The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998 , which was then amended by the C++03 , C++11 , C++14 , C++17 , and C++20 standards. The next C++23 standard superseded these with new features and an enlarged standard library . Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization. Since 2012, C++ has been on a three-year release schedule with C++29 as the next planned standard. ^ Wyatt Childers; et al. (26 June 2024). \"P2996R4 - Reflection for C++26\" . isocpp.org . WG21. ^ \"N5032: Working Draft, Programming Languages — C++\" (PDF) . ISO/IEC JTC 1/SC 22 . 15 December 2025 . Retrieved 29 April 2026 . ^ \"Overview of modules in C++\" . Microsoft. 24 April 2023. ^ a b c d e Stroustrup, Bjarne (1996). \"A history of C++: 1979-1991\". History of programming languages---II . ACM . pp. 699– 769. doi : 10.1145/234286.1057836 . ^ Stroustrup, Bjarne (16 December 2021). \"C++20: Reaching for the Aims of C++ - Bjarne Stroustrup - CppCon 2021\" . CppCon. Archived from the original on 30 December 2021 . Retrieved 30 December 2021 . ^ Stroustrup, Bjarne (12 June 2020). \"Thriving in a crowded and changing world: C++ 2006–2020\" . Proceedings of the ACM on Programming Languages . 4 (HOPL). Association for Computing Machinery (ACM): 1– 168. doi : 10.1145/3386320 . ISSN 2475-1421 . S2CID 219603741 . ^ Naugler, David (May 2007). \"C# 2.0 for C++ and Java programmer: conference workshop\". Journal of Computing Sciences in Colleges . 22 (5). Although C# has been strongly influenced by Java it has also been strongly influenced by C++ and is best viewed as a descendant of both C++ and Java. ^ \"Chapel spec (Acknowledgements)\" (PDF) . Cray Inc. 1 October 2015. Archived (PDF) from the original on 24 June 2018 . Retrieved 14 January 2016 . ^ Fogus, Michael. \"Rich Hickey Q&A\" . Code Quarterly . Archived from the original on 11 January 2017 . Retrieved 11 January 2017 . ^ Harry. H. Chaudhary (28 July 2014). \"Cracking The Java Programming Interview :: 2000+ Java Interview Que/Ans\" . Archived from the original on 27 May 2021 . Retrieved 29 May 2016 . ^ Roger Poon (1 May 2017). \"Scaling JS++: Abstraction, Performance, and Readability\" . Archived from the original on 11 May 2020 . Retrieved 21 April 2020 . ^ \"The evolution of an extension language: a history of Lua\" . www.lua.org . Retrieved 4 January 2023 . ^ \"FAQ Nim Programming Language\" . Archived from the original on 11 July 2017 . Retrieved 21 April 2020 . ^ \"9. Classes — Python 3.6.4 documentation\" . docs.python.org . Archived from the original on 23 October 2012 . Retrieved 9 January 2018 . ^ \"Influences - The Rust Reference\" . doc.rust-lang.org . Retrieved 4 January 2023 . ^ Cite error: The named reference hopl2 was invoked but never defined (see the help page ). ^ Stroustrup, Bjarne (1997). \"1\". The C++ Programming Language (Third ed.). Addison-Wesley. ISBN 0-201-88954-4 . OCLC 59193992 . ^ a b Stroustrup, B. (6 May 2014). \"Lecture:The essence of C++. University of Edinburgh\" . YouTube . Archived from the original on 28 April 2015 . Retrieved 12 June 2015 . ^ Stroustrup, Bjarne (17 February 2014). \"C++ Applications\" . stroustrup.com . Archived from the original on 4 April 2021 . Retrieved 5 May 2014 . ^ Cite error: The named reference isocpp2024 was invoked but never defined (see the help page ). ^ \"Bjarne Stroustrup's Homepage\" . www.stroustrup.com . Archived from the original on 14 May 2019 . Retrieved 15 May 2013 . ^ \"C++ IS schedule\" (PDF) . Archived (PDF) from the original on 10 August 2020 . Retrieved 9 August 2020 . ^ \"C++29 - cppreference.com\" . cppreference.com . Retrieved 10 July 2026 . Cite error: There are <ref group=lower-alpha> tags or {{efn}} templates on this page, but the references will not show without a {{reflist|group=lower-alpha}} template or {{notelist}} template (see the help page ).",
+    "links": [
+      "ALGLIB",
+      "ALGOL 68",
+      "AMD Optimizing C/C++ Compiler",
+      "Active Template Library",
+      "Ada (programming language)",
+      "Adept (C++ library)",
+      "Advanced Simulation Library",
+      "Akonadi",
+      "Allegro (software library)",
+      "Apache MXNet",
+      "Apache Xerces",
+      "Application software",
+      "Armadillo (C++ library)",
+      "ArrayFire",
+      "Asio C++ library",
+      "Assimp",
+      "Association for Computing Machinery",
+      "BALL",
+      "BCPL",
+      "Bell Labs",
+      "Bitpit",
+      "Bjarne Stroustrup",
+      "Blitz++",
+      "Boehm garbage collector",
+      "Boost (C++ libraries)",
+      "Botan (programming library)",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "C++ AMP",
+      "C++ Standard Library",
+      "C++ Standard library",
+      "C++ syntax",
+      "C++/WinRT",
+      "C++03",
+      "C++11",
+      "C++14",
+      "C++17",
+      "C++20",
+      "C++23",
+      "C++26",
+      "C++Builder",
+      "C3D Toolkit",
+      "C99",
+      "CAPD library",
+      "CEGUI",
+      "CGAL",
+      "CLU (programming language)",
+      "CLion",
+      "CMU Sphinx",
+      "CMake",
+      "CXX (disambiguation)",
+      "Caffe (software)",
+      "Carbon (programming language)",
+      "Chapel (programming language)",
+      "Cinder (programming library)",
+      "ClanLib",
+      "Clang",
+      "Class Library for Numbers",
+      "Clojure",
+      "Code::Blocks",
+      "CodeLite",
+      "Comeau C/C++",
+      "Comparison of integrated development environments",
+      "Compiled language",
+      "Confidential Consortium Framework",
+      "CppUnit",
+      "Cross-platform",
+      "Crypto++",
+      "D (programming language)",
+      "Database",
+      "DaviX",
+      "Deal.II",
+      "Design by contract",
+      "Dev-C++",
+      "DevIL",
+      "Digital Mars",
+      "Doi (identifier)",
+      "Doxygen",
+      "Dune (mathematics software)",
+      "E-commerce",
+      "Eclipse (software)",
+      "Edison Design Group",
+      "Eigen (C++ library)",
+      "Embarcadero Technologies",
+      "Embedded software",
+      "F Sharp (programming language)",
+      "FLTK",
+      "FastText",
+      "Filename extension",
+      "Fox toolkit",
+      "Free Software Foundation",
+      "Functional programming",
+      "GDAL",
+      "GDB",
+      "GLFW",
+      "GNU Compiler Collection",
+      "Geany",
+      "General Polygon Clipper",
+      "General-purpose programming language",
+      "Generic programming",
+      "GetFEM++",
+      "GiNaC",
+      "Google Test",
+      "GraphicsMagick",
+      "Gtkmm",
+      "HOOPS Visualize",
+      "HP aC++",
+      "HPX",
+      "HarfBuzz",
+      "High Efficiency Image File Format",
+      "High-level programming language",
+      "History of C++",
+      "IBM",
+      "IBM XL C++",
+      "IML++",
+      "ISBN (identifier)",
+      "ISO/IEC JTC 1/SC 22",
+      "ISSN (identifier)",
+      "IT++",
+      "ImageMagick",
+      "Imperative programming",
+      "Insight Segmentation and Registration Toolkit",
+      "Integrated Performance Primitives",
+      "Intel",
+      "Intel C++ Compiler",
+      "International Components for Unicode",
+      "International Organization for Standardization",
+      "JAMA (numerical linear algebra library)",
+      "JS++",
+      "JSBSim",
+      "JUCE",
+      "Java (programming language)",
+      "KDE Frameworks",
+      "KDevelop",
+      "KFRlib",
+      "LAPACK++",
+      "LEMON (C++ library)",
+      "LIBSVM",
+      "LIVE555",
+      "LLVM",
+      "LessTif",
+      "LevelDB",
+      "LibLAS",
+      "LibRaw",
+      "LibSBML",
+      "Libcamera",
+      "Libdash",
+      "Libsigc++",
+      "Libx (graphics library)",
+      "List of C++ compilers",
+      "List of C++ software and tools",
+      "List of C-family programming languages",
+      "List of compilers",
+      "List of numerical libraries",
+      "Low-level programming language",
+      "Lua",
+      "MFEM",
+      "ML (programming language)",
+      "Math Kernel Library",
+      "Matrix Template Library",
+      "Memory (computing)",
+      "Mesa (programming language)",
+      "Metakit",
+      "Microcomputer",
+      "Microsoft",
+      "Microsoft Cognitive Toolkit",
+      "Microsoft Foundation Class Library",
+      "Microsoft SEAL",
+      "Microsoft Visual C++",
+      "Microsoft Visual Studio",
+      "Microsoft Windows",
+      "Mlpack",
+      "Mobile Robot Programming Toolkit",
+      "Modern C++ Design",
+      "Modula-2",
+      "Modular programming",
+      "MoltenVK",
+      "Multi-paradigm programming language",
+      "NetBeans",
+      "Netlib",
+      "Nim (programming language)",
+      "Nominal type system",
+      "Number Theory Library",
+      "OCLC (identifier)",
+      "OR-Tools",
+      "Object Windows Library",
+      "Object-oriented programming",
+      "Objective-C++",
+      "Open Cascade Technology",
+      "Open Inventor",
+      "Open64",
+      "OpenCV",
+      "OpenFOAM",
+      "OpenFrameworks",
+      "OpenH264",
+      "OpenImageIO",
+      "OpenNN",
+      "OpenRTM-aist",
+      "OpenVDB",
+      "OpenWatcom",
+      "Operating system",
+      "Oracle Developer Studio",
+      "Oracle Template Library",
+      "Orfeo toolbox",
+      "Outline of C++",
+      "PETSc",
+      "PHP",
+      "PLplot",
+      "POCO C++ Libraries",
+      "Parallel Patterns Library",
+      "Performance (software)",
+      "Perl",
+      "PhysX",
+      "Poppler (software)",
+      "Procedural programming",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Protocol Buffers",
+      "Python (programming language)",
+      "Qt (software)",
+      "Qt Creator",
+      "QuantLib",
+      "ROOT",
+      "Reflective programming",
+      "Robot Operating System",
+      "RocksDB",
+      "Rogue Wave Software",
+      "Rust (programming language)",
+      "S2CID (identifier)",
+      "SFML",
+      "Scintilla (software)",
+      "Server (computing)",
+      "Shogun (toolbox)",
+      "Simula",
+      "Skia Graphics Engine",
+      "SlickEdit",
+      "Smalltalk",
+      "Snappy (compression)",
+      "Software",
+      "Software design",
+      "Software developer",
+      "Software release life cycle",
+      "Sound Object Library",
+      "Space probes",
+      "Standard Template Library",
+      "Stapl",
+      "Static type",
+      "Strong and weak typing",
+      "SymbolicC++",
+      "Systems programming",
+      "Telephone exchange",
+      "Template (C++)",
+      "Template Numerical Toolkit",
+      "TenDRA Compiler",
+      "TerraLib",
+      "Tesseract (software)",
+      "ThreadWeaver",
+      "Threading Building Blocks",
+      "TinyXML",
+      "Tkrzw",
+      "TnFOX",
+      "Trilinos",
+      "Turbo C++",
+      "Type inference",
+      "Type system",
+      "Ultimate++",
+      "Understand (software)",
+      "VDPAU",
+      "VTD-XML",
+      "Valgrind",
+      "Video game development",
+      "Visual Studio Code",
+      "Web search engine",
+      "Windows Template Library",
+      "WxWidgets",
+      "X265",
+      "XGBoost",
+      "Xcas",
+      "Xcode",
+      "YouTube",
+      "Zig (programming language)"
+    ],
+    "page_id": 72038,
+    "revision_id": 1375333877,
+    "retrieved_at": "2026-09-18T16:31:46.020521+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260917043715|1375333800",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 72038,
+            "ns": 0,
+            "title": "C++",
+            "revisions": [
+              {
+                "revid": 1375333877,
+                "parentid": 1375333800
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "C",
+              "page_image_free": "ISO_C++_Logo.svg",
+              "wikibase-shortdesc": "General-purpose programming language",
+              "wikibase_item": "Q2407"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "C++",
+        "pageid": 72038,
+        "revid": 1375333877,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">General-purpose programming language</div>\n<p class=\"mw-empty-elt\"> \n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"cxx\" and \".cxx\" redirect here. For other uses, see <a href=\"/wiki/CXX_(disambiguation)\" class=\"mw-redirect mw-disambig\" title=\"CXX (disambiguation)\">CXX</a>.</div> \n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">C++</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:ISO_C%2B%2B_Logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/250px-ISO_C%2B%2B_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"136\" class=\"mw-file-element\" data-file-width=\"306\" data-file-height=\"344\" /></a></span><div class=\"infobox-caption\">Logo endorsed by the C++ standards committee</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigms</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm_programming_language\" class=\"mw-redirect\" title=\"Multi-paradigm programming language\">Multi-paradigm</a>: <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic</a>, <a href=\"/wiki/Modular_programming\" title=\"Modular programming\">modular</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>, <a href=\"/wiki/Design_by_contract\" title=\"Design by contract\">Design by contract</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Family</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Bjarne_Stroustrup\" title=\"Bjarne Stroustrup\">Bjarne Stroustrup</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><a href=\"/wiki/ISO/IEC_JTC_1/SC_22\" title=\"ISO/IEC JTC 1/SC 22\">ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 22 (Subcommittee 22)</a> / WG 21 (Working Group 21)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1985<span class=\"noprint\">&#59;&#32;41&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1985</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\"><a href=\"/wiki/C%2B%2B23\" title=\"C++23\">C++23</a> (ISO/IEC 14882:2024)\n   / 19&#160;October 2024<span class=\"noprint\">&#59;&#32;22 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2024-10-19</span>)</span></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\"><a href=\"/wiki/C%2B%2B26\" title=\"C++26\">C++26</a> (N5032)<sup id=\"cite&#95;ref-N5032&#95;2-0\" class=\"reference\"><a href=\"#cite_note-N5032-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / 15&#160;December 2025<span class=\"noprint\">&#59;&#32;9 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2025-12-15</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Static_type\" class=\"mw-redirect\" title=\"Static type\">Static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a>, <a href=\"/wiki/Nominal_type_system\" title=\"Nominal type system\">nominative</a>, <a href=\"/wiki/Type_inference\" title=\"Type inference\">partially inferred</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.C, .cc, .cpp, .cxx, <span class=\"nowrap\">.c++</span>, .h, .H, .hh, .hpp, .hxx, <span class=\"nowrap\">.h++</span> .cppm, .ixx<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://isocpp.org/\">isocpp<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><span class=\"nowraplinks\"><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GCC</a>, <a href=\"/wiki/Clang\" title=\"Clang\">LLVM Clang</a>, <a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">Microsoft Visual C++</a>, <a href=\"/wiki/C%2B%2BBuilder\" title=\"C++Builder\">Embarcadero C++Builder</a>, <a href=\"/wiki/Intel_C%2B%2B_Compiler\" title=\"Intel C++ Compiler\">Intel C++ Compiler</a>, <a href=\"/wiki/IBM_XL_C%2B%2B\" class=\"mw-redirect\" title=\"IBM XL C++\">IBM XL C++</a>, <a href=\"/wiki/Edison_Design_Group\" title=\"Edison Design Group\">EDG</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada</a>, <a href=\"/wiki/ALGOL_68\" title=\"ALGOL 68\">ALGOL 68</a>,<sup id=\"cite&#95;ref-history-cpp-paper&#95;4-0\" class=\"reference\"><a href=\"#cite_note-history-cpp-paper-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/BCPL\" title=\"BCPL\">BCPL</a>,<sup id=\"cite&#95;ref-cppcon21&#95;bj&#95;5-0\" class=\"reference\"><a href=\"#cite_note-cppcon21_bj-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a><sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>, <a href=\"/wiki/CLU_(programming_language)\" title=\"CLU (programming language)\">CLU</a>,<sup id=\"cite&#95;ref-history-cpp-paper&#95;4-1\" class=\"reference\"><a href=\"#cite_note-history-cpp-paper-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a>, <a href=\"/wiki/Mesa_(programming_language)\" title=\"Mesa (programming language)\">Mesa</a>,<sup id=\"cite&#95;ref-history-cpp-paper&#95;4-2\" class=\"reference\"><a href=\"#cite_note-history-cpp-paper-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Modula-2\" title=\"Modula-2\">Modula-2</a>,<sup id=\"cite&#95;ref-history-cpp-paper&#95;4-3\" class=\"reference\"><a href=\"#cite_note-history-cpp-paper-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Simula\" title=\"Simula\">Simula</a>, <a href=\"/wiki/Smalltalk\" title=\"Smalltalk\">Smalltalk</a><sup id=\"cite&#95;ref-history-cpp-paper&#95;4-4\" class=\"reference\"><a href=\"#cite_note-history-cpp-paper-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Ada_(programming_language)\" title=\"Ada (programming language)\">Ada 95</a>, <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>,<sup id=\"cite&#95;ref-influenceSharp&#95;9-0\" class=\"reference\"><a href=\"#cite_note-influenceSharp-9\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C99\" title=\"C99\">C99</a>, <a href=\"/wiki/Carbon_(programming_language)\" title=\"Carbon (programming language)\">Carbon</a>, <a href=\"/wiki/Chapel_(programming_language)\" title=\"Chapel (programming language)\">Chapel</a>,<sup id=\"cite&#95;ref-chplspec&#95;10-0\" class=\"reference\"><a href=\"#cite_note-chplspec-10\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>,<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/D_(programming_language)\" title=\"D (programming language)\">D</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>,<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/JS%2B%2B\" title=\"JS++\">JS++</a>,<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Lua\" title=\"Lua\">Lua</a>,<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Nim_(programming_language)\" title=\"Nim (programming language)\">Nim</a>,<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Objective-C%2B%2B\" class=\"mw-redirect\" title=\"Objective-C++\">Objective-C++</a>, <a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>, <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>,<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a><sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/C%2B%2B_Programming\" class=\"extiw\" title=\"wikibooks:C++ Programming\">C++ Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class=\"sidebar sidebar-collapse nomobile nowraplinks hlist\" role=\"navigation\" style=\"width:22.0em; border: 4px double #5B7FA6;\"><tbody><tr><td class=\"sidebar-pretitle\">This article is part of <a href=\"/wiki/Category:C%2B%2B\" title=\"Category:C++\">a series</a> on the <br /> <a class=\"mw-selflink selflink\">C++ programming language</a></td></tr><tr><td class=\"sidebar-image\"><span typeof=\"mw:File\"><a href=\"/wiki/C%2B%2B\" title=\"The logo of the C++ programming language\"><img alt=\"The logo of the C++ programming language\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/60px-ISO_C%2B%2B_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"56\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/120px-ISO_C%2B%2B_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"306\" data-file-height=\"344\" /></a></span></td></tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_C%2B%2B_software_and_tools#Libraries\" title=\"List of C++ software and tools\">C++ libraries</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Active_Template_Library\" title=\"Active Template Library\">Active Template Library</a></li>\n<li><a href=\"/wiki/Allegro_(software_library)\" title=\"Allegro (software library)\">Allegro</a></li>\n<li><a href=\"/wiki/Apache_MXNet\" title=\"Apache MXNet\">Apache MXNet</a></li>\n<li><a href=\"/wiki/Apache_Xerces\" title=\"Apache Xerces\">Apache Xerces</a></li>\n<li><a href=\"/wiki/Asio_C%2B%2B_library\" class=\"mw-redirect\" title=\"Asio C++ library\">Asio</a></li>\n<li><a href=\"/wiki/Bitpit\" title=\"Bitpit\">Bitpit</a></li>\n<li><a href=\"/wiki/Boost_(C%2B%2B_libraries)\" title=\"Boost (C++ libraries)\">Boost</a></li>\n<li><a href=\"/wiki/Botan_(programming_library)\" title=\"Botan (programming library)\">Botan</a></li>\n<li><a href=\"/wiki/C3D_Toolkit\" title=\"C3D Toolkit\">C3D Toolkit</a></li>\n<li><a href=\"/wiki/Caffe_(software)\" title=\"Caffe (software)\">Caffe</a></li>\n<li><a href=\"/wiki/Cinder_(programming_library)\" title=\"Cinder (programming library)\">Cinder</a></li>\n<li><a href=\"/wiki/ClanLib\" title=\"ClanLib\">ClanLib</a></li>\n<li><a href=\"/wiki/CMU_Sphinx\" title=\"CMU Sphinx\">CMU Sphinx</a></li>\n<li><a href=\"/wiki/Crypto%2B%2B\" title=\"Crypto++\">Crypto++</a></li>\n<li><a href=\"/wiki/C%2B%2B_AMP\" title=\"C++ AMP\">C++ AMP</a></li>\n<li><a href=\"/wiki/C%2B%2B_Standard_Library\" title=\"C++ Standard Library\">C++ Standard Library</a></li>\n<li><a href=\"/wiki/C%2B%2B/WinRT\" title=\"C++/WinRT\">C++/WinRT</a></li>\n<li><a href=\"/wiki/DevIL\" title=\"DevIL\">DevIL</a></li>\n<li><a href=\"/wiki/FastText\" title=\"FastText\">fastText</a></li>\n<li><a href=\"/wiki/FLTK\" title=\"FLTK\">FLTK</a></li>\n<li><a href=\"/wiki/GDAL\" title=\"GDAL\">Geospatial Data Abstraction Library</a></li>\n<li><a href=\"/wiki/General_Polygon_Clipper\" title=\"General Polygon Clipper\">General Polygon Clipper</a></li>\n<li><a href=\"/wiki/GLFW\" title=\"GLFW\">GLFW</a></li>\n<li><a href=\"/wiki/GraphicsMagick\" title=\"GraphicsMagick\">GraphicsMagick</a></li>\n<li><a href=\"/wiki/HarfBuzz\" title=\"HarfBuzz\">HarfBuzz</a></li>\n<li><a href=\"/wiki/High_Efficiency_Image_File_Format\" title=\"High Efficiency Image File Format\">High Efficiency Image File Format</a></li>\n<li><a href=\"/wiki/ImageMagick\" title=\"ImageMagick\">ImageMagick</a></li>\n<li><a href=\"/wiki/Integrated_Performance_Primitives\" title=\"Integrated Performance Primitives\">Integrated Performance Primitives</a></li>\n<li><a href=\"/wiki/International_Components_for_Unicode\" title=\"International Components for Unicode\">International Components for Unicode</a></li>\n<li><a href=\"/wiki/Insight_Segmentation_and_Registration_Toolkit\" title=\"Insight Segmentation and Registration Toolkit\">ITK</a></li>\n<li><a href=\"/wiki/ArrayFire\" title=\"ArrayFire\">Jackets library</a></li>\n<li><a href=\"/wiki/JSBSim\" class=\"mw-redirect\" title=\"JSBSim\">JSBSim</a></li>\n<li><a href=\"/wiki/JUCE\" title=\"JUCE\">JUCE</a></li>\n<li><a href=\"/wiki/KDE_Frameworks\" title=\"KDE Frameworks\">KDE Frameworks</a></li>\n<li><a href=\"/wiki/KFRlib\" title=\"KFRlib\">KFRlib</a></li>\n<li><a href=\"/wiki/LevelDB\" title=\"LevelDB\">LevelDB</a></li>\n<li><a href=\"/wiki/Libcamera\" title=\"Libcamera\">libcamera</a></li>\n<li><a href=\"/wiki/Libdash\" title=\"Libdash\">Libdash</a></li>\n<li><a href=\"/wiki/LibLAS\" title=\"LibLAS\">libLAS</a></li>\n<li><a href=\"/wiki/LibRaw\" title=\"LibRaw\">LibRaw</a></li>\n<li><a href=\"/wiki/LibSBML\" title=\"LibSBML\">libSBML</a></li>\n<li><a href=\"/wiki/Libsigc%2B%2B\" title=\"Libsigc++\">libsigc++</a></li>\n<li><a href=\"/wiki/LIBSVM\" title=\"LIBSVM\">LIBSVM</a></li>\n<li><a href=\"/wiki/Libx_(graphics_library)\" title=\"Libx (graphics library)\">Libx</a></li>\n<li><a href=\"/wiki/LIVE555\" title=\"LIVE555\">LIVE555</a></li>\n<li><a href=\"/wiki/Modern_C%2B%2B_Design#Loki_library\" title=\"Modern C++ Design\">Loki</a></li>\n<li><a href=\"/wiki/Metakit\" title=\"Metakit\">Metakit</a></li>\n<li><a href=\"/wiki/Microsoft_Cognitive_Toolkit\" title=\"Microsoft Cognitive Toolkit\">Microsoft Cognitive Toolkit</a></li>\n<li><a href=\"/wiki/Microsoft_Foundation_Class_Library\" title=\"Microsoft Foundation Class Library\">Microsoft Foundation Class Library</a></li>\n<li><a href=\"/wiki/Microsoft_SEAL\" title=\"Microsoft SEAL\">Microsoft SEAL</a></li>\n<li><a href=\"/wiki/Mlpack\" title=\"Mlpack\">mlpack</a></li>\n<li><a href=\"/wiki/Mobile_Robot_Programming_Toolkit\" title=\"Mobile Robot Programming Toolkit\">Mobile Robot Programming Toolkit</a></li>\n<li><a href=\"/wiki/MoltenVK\" title=\"MoltenVK\">MoltenVK</a></li>\n<li><a href=\"/wiki/Object_Windows_Library\" title=\"Object Windows Library\">Object Windows Library</a></li>\n<li><a href=\"/wiki/Assimp\" class=\"mw-redirect\" title=\"Assimp\">Open Asset Import Library</a></li>\n<li><a href=\"/wiki/Open_Cascade_Technology\" title=\"Open Cascade Technology\">Open Cascade</a></li>\n<li><a href=\"/wiki/OpenCV\" title=\"OpenCV\">OpenCV</a></li>\n<li><a href=\"/wiki/OpenFOAM\" title=\"OpenFOAM\">OpenFOAM</a></li>\n<li><a href=\"/wiki/OpenH264\" title=\"OpenH264\">OpenH264</a></li>\n<li><a href=\"/wiki/OpenImageIO\" title=\"OpenImageIO\">OpenImageIO</a></li>\n<li><a href=\"/wiki/Open_Inventor\" title=\"Open Inventor\">Open Inventor</a></li>\n<li><a href=\"/wiki/OpenNN\" title=\"OpenNN\">OpenNN</a></li>\n<li><a href=\"/wiki/OpenFrameworks\" title=\"OpenFrameworks\">openFrameworks</a></li>\n<li><a href=\"/wiki/OpenRTM-aist\" title=\"OpenRTM-aist\">OpenRTM-aist</a></li>\n<li><a href=\"/wiki/OpenVDB\" title=\"OpenVDB\">OpenVDB</a></li>\n<li><a href=\"/wiki/Oracle_Template_Library\" title=\"Oracle Template Library\">Oracle Template Library</a></li>\n<li><a href=\"/wiki/Orfeo_toolbox\" title=\"Orfeo toolbox\">Orfeo toolbox</a></li>\n<li><a href=\"/wiki/OR-Tools\" title=\"OR-Tools\">OR-Tools</a></li>\n<li><a href=\"/wiki/Parallel_Patterns_Library\" title=\"Parallel Patterns Library\">Parallel Patterns Library</a></li>\n<li><a href=\"/wiki/PhysX\" title=\"PhysX\">PhysX</a></li>\n<li><a href=\"/wiki/POCO_C%2B%2B_Libraries\" title=\"POCO C++ Libraries\">POCO C++ Libraries</a></li>\n<li><a href=\"/wiki/Poppler_(software)\" title=\"Poppler (software)\">Poppler</a></li>\n<li><a href=\"/wiki/Protocol_Buffers\" title=\"Protocol Buffers\">Protocol Buffers</a></li>\n<li><a href=\"/wiki/Qt_(software)\" title=\"Qt (software)\">Qt</a></li>\n<li><a href=\"/wiki/QuantLib\" title=\"QuantLib\">QuantLib</a></li>\n<li><a href=\"/wiki/RocksDB\" title=\"RocksDB\">RocksDB</a></li>\n<li><a href=\"/wiki/ROOT\" title=\"ROOT\">ROOT</a></li>\n<li><a href=\"/wiki/Robot_Operating_System\" title=\"Robot Operating System\">ROS</a></li>\n<li><a href=\"/wiki/Scintilla_(software)\" title=\"Scintilla (software)\">Scintilla</a></li>\n<li><a href=\"/wiki/SFML\" class=\"mw-redirect\" title=\"SFML\">SFML</a></li>\n<li><a href=\"/wiki/Shogun_(toolbox)\" title=\"Shogun (toolbox)\">Shogun</a></li>\n<li><a href=\"/wiki/Skia_Graphics_Engine\" title=\"Skia Graphics Engine\">Skia</a></li>\n<li><a href=\"/wiki/Snappy_(compression)\" title=\"Snappy (compression)\">Snappy</a></li>\n<li><a href=\"/wiki/Sound_Object_Library\" title=\"Sound Object Library\">Sound Object Library</a></li>\n<li><a href=\"/wiki/Stapl\" title=\"Stapl\">Stapl</a></li>\n<li><a href=\"/wiki/Standard_Template_Library\" title=\"Standard Template Library\">Standard Template Library</a></li>\n<li><a href=\"/wiki/TerraLib\" title=\"TerraLib\">TerraLib</a></li>\n<li><a href=\"/wiki/Tesseract_(software)\" title=\"Tesseract (software)\">Tesseract OCR</a></li>\n<li><a href=\"/wiki/Threading_Building_Blocks\" title=\"Threading Building Blocks\">Threading Building Blocks</a></li>\n<li><a href=\"/wiki/ThreadWeaver\" title=\"ThreadWeaver\">ThreadWeaver</a></li>\n<li><a href=\"/wiki/TinyXML\" title=\"TinyXML\">TinyXML</a></li>\n<li><a href=\"/wiki/Tkrzw\" title=\"Tkrzw\">Tkrzw</a></li>\n<li><a href=\"/wiki/VDPAU\" title=\"VDPAU\">VDPAU</a></li>\n<li><a href=\"/wiki/VTD-XML\" title=\"VTD-XML\">VTD-XML</a></li>\n<li><a href=\"/wiki/Windows_Template_Library\" title=\"Windows Template Library\">Windows Template Library</a></li>\n<li><a href=\"/wiki/WxWidgets\" title=\"WxWidgets\">wxWidgets</a></li>\n<li><a href=\"/wiki/X265\" title=\"X265\">x265</a></li>\n<li><a href=\"/wiki/XGBoost\" title=\"XGBoost\">XGBoost</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_numerical_libraries#C++\" title=\"List of numerical libraries\">C++ numerical libraries</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Adept_(C%2B%2B_library)\" title=\"Adept (C++ library)\">Adept</a></li>\n<li><a href=\"/wiki/Advanced_Simulation_Library\" title=\"Advanced Simulation Library\">Advanced Simulation Library</a></li>\n<li><a href=\"/wiki/ALGLIB\" title=\"ALGLIB\">ALGLIB</a></li>\n<li><a href=\"/wiki/Armadillo_(C%2B%2B_library)\" title=\"Armadillo (C++ library)\">Armadillo</a></li>\n<li><a href=\"/wiki/Blitz%2B%2B\" title=\"Blitz++\">Blitz++</a></li>\n<li><a href=\"/wiki/CAPD_library\" title=\"CAPD library\">CAPD</a></li>\n<li><a href=\"/wiki/CGAL\" title=\"CGAL\">CGAL</a></li>\n<li><a href=\"/wiki/Class_Library_for_Numbers\" title=\"Class Library for Numbers\">Class Library for Numbers</a></li>\n<li><a href=\"/wiki/Deal.II\" title=\"Deal.II\">deal.II</a></li>\n<li><a href=\"/wiki/Dune_(mathematics_software)\" title=\"Dune (mathematics software)\">Dune</a></li>\n<li><a href=\"/wiki/Eigen_(C%2B%2B_library)\" title=\"Eigen (C++ library)\">Eigen</a></li>\n<li><a href=\"/wiki/GetFEM%2B%2B\" title=\"GetFEM++\">GetFEM++</a></li>\n<li><a href=\"/wiki/GiNaC\" title=\"GiNaC\">GiNaC</a></li>\n<li><a href=\"/wiki/IML%2B%2B\" title=\"IML++\">IML++</a></li>\n<li><a href=\"/wiki/IT%2B%2B\" title=\"IT++\">IT++</a></li>\n<li><a href=\"/wiki/JAMA_(numerical_linear_algebra_library)\" title=\"JAMA (numerical linear algebra library)\">JAMA</a></li>\n<li><a href=\"/wiki/LAPACK%2B%2B\" title=\"LAPACK++\">LAPACK++</a></li>\n<li><a href=\"/wiki/LEMON_(C%2B%2B_library)\" title=\"LEMON (C++ library)\">LEMON</a></li>\n<li><a href=\"/wiki/Math_Kernel_Library\" title=\"Math Kernel Library\">Math Kernel Library</a></li>\n<li><a href=\"/wiki/Matrix_Template_Library\" title=\"Matrix Template Library\">Matrix Template Library</a></li>\n<li><a href=\"/wiki/MFEM\" title=\"MFEM\">MFEM</a></li>\n<li><a href=\"/wiki/Netlib\" title=\"Netlib\">Netlib</a></li>\n<li><a href=\"/wiki/Number_Theory_Library\" title=\"Number Theory Library\">Number Theory Library</a></li>\n<li><a href=\"/wiki/PETSc\" class=\"mw-redirect\" title=\"PETSc\">PETSc</a></li>\n<li><a href=\"/wiki/PLplot\" title=\"PLplot\">PLplot</a></li>\n<li><a href=\"/wiki/SymbolicC%2B%2B\" title=\"SymbolicC++\">SymbolicC++</a></li>\n<li><a href=\"/wiki/Template_Numerical_Toolkit\" title=\"Template Numerical Toolkit\">Template Numerical Toolkit</a></li>\n<li><a href=\"/wiki/Trilinos\" title=\"Trilinos\">Trilinos</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/Comparison_of_integrated_development_environments#C/C++\" title=\"Comparison of integrated development environments\">C++ IDEs</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Code::Blocks\" title=\"Code::Blocks\">Code::Blocks</a></li>\n<li><a href=\"/wiki/CodeLite\" title=\"CodeLite\">CodeLite</a></li>\n<li><a href=\"/wiki/C%2B%2BBuilder\" title=\"C++Builder\">C++Builder</a></li>\n<li><a href=\"/wiki/CLion\" class=\"mw-redirect\" title=\"CLion\">CLion</a></li>\n<li><a href=\"/wiki/Dev-C%2B%2B\" title=\"Dev-C++\">Dev-C++</a></li>\n<li><a href=\"/wiki/Eclipse_(software)\" title=\"Eclipse (software)\">Eclipse CDT</a></li>\n<li><a href=\"/wiki/Geany\" title=\"Geany\">Geany</a></li>\n<li><a href=\"/wiki/KDevelop\" title=\"KDevelop\">KDevelop</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_Studio\" class=\"mw-redirect\" title=\"Microsoft Visual Studio\">Microsoft Visual Studio</a></li>\n<li><a href=\"/wiki/NetBeans#NetBeans_IDE_Bundle_for_C/C++\" title=\"NetBeans\">NetBeans</a></li>\n<li><a href=\"/wiki/OpenWatcom\" class=\"mw-redirect\" title=\"OpenWatcom\">OpenWatcom</a></li>\n<li><a href=\"/wiki/Qt_Creator\" title=\"Qt Creator\">Qt Creator</a></li>\n<li><a href=\"/wiki/SlickEdit\" title=\"SlickEdit\">SlickEdit</a></li>\n<li><a href=\"/wiki/Ultimate%2B%2B\" title=\"Ultimate++\">Ultimate++</a></li>\n<li><a href=\"/wiki/Understand_(software)\" title=\"Understand (software)\">Understand</a></li>\n<li><a href=\"/wiki/Visual_Studio_Code\" title=\"Visual Studio Code\">Visual Studio Code</a></li>\n<li><a href=\"/wiki/Xcode\" title=\"Xcode\">Xcode</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_C%2B%2B_compilers\" class=\"mw-redirect\" title=\"List of C++ compilers\">C++ compilers</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/AMD_Optimizing_C/C%2B%2B_Compiler\" title=\"AMD Optimizing C/C++ Compiler\">AMD Optimizing C/C++ Compiler</a></li>\n<li><a href=\"/wiki/C%2B%2BBuilder\" title=\"C++Builder\">C++Builder</a></li>\n<li><a href=\"/wiki/Clang\" title=\"Clang\">Clang</a></li>\n<li><a href=\"/wiki/Comeau_C/C%2B%2B\" title=\"Comeau C/C++\">Comeau C/C++</a></li>\n<li><a href=\"/wiki/Digital_Mars\" title=\"Digital Mars\">Digital Mars</a></li>\n<li><a href=\"/wiki/GNU_Compiler_Collection\" title=\"GNU Compiler Collection\">GCC</a></li>\n<li><a href=\"/wiki/HP_aC%2B%2B\" title=\"HP aC++\">HP aC++</a></li>\n<li><a href=\"/wiki/IBM_XL_C%2B%2B\" class=\"mw-redirect\" title=\"IBM XL C++\">IBM XL C/C++</a></li>\n<li><a href=\"/wiki/Intel_C%2B%2B_Compiler\" title=\"Intel C++ Compiler\">Intel C++ Compiler</a></li>\n<li><a href=\"/wiki/Open64\" title=\"Open64\">Open64</a></li>\n<li><a href=\"/wiki/Oracle_Developer_Studio\" title=\"Oracle Developer Studio\">Oracle Developer Studio</a></li>\n<li><a href=\"/wiki/TenDRA_Compiler\" title=\"TenDRA Compiler\">TenDRA</a></li>\n<li><a href=\"/wiki/Turbo_C%2B%2B\" title=\"Turbo C++\">Turbo C++</a></li>\n<li><a href=\"/wiki/Microsoft_Visual_C%2B%2B\" title=\"Microsoft Visual C++\">Microsoft Visual C++</a></li>\n<li><a href=\"/wiki/Zig_(programming_language)#Compiler\" title=\"Zig (programming language)\">Zig compiler</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\"><a href=\"/wiki/List_of_C%2B%2B_software_and_tools#Tools\" title=\"List of C++ software and tools\">C++ tools</a></div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/Akonadi\" title=\"Akonadi\">Akonadi</a></li>\n<li><a href=\"/wiki/BALL\" title=\"BALL\">BALL</a></li>\n<li><a href=\"/wiki/Boehm_garbage_collector\" title=\"Boehm garbage collector\">Boehm garbage collector</a></li>\n<li><a href=\"/wiki/CEGUI\" title=\"CEGUI\">CEGUI</a></li>\n<li><a href=\"/wiki/CMake\" title=\"CMake\">CMake</a></li>\n<li><a href=\"/wiki/Confidential_Consortium_Framework\" title=\"Confidential Consortium Framework\">Confidential Consortium Framework</a></li>\n<li><a href=\"/wiki/CppUnit\" title=\"CppUnit\">CppUnit</a></li>\n<li><a href=\"/wiki/DaviX\" title=\"DaviX\">DaviX</a></li>\n<li><a href=\"/wiki/Doxygen\" title=\"Doxygen\">Doxygen</a></li>\n<li><a href=\"/wiki/Fox_toolkit\" title=\"Fox toolkit\">Fox toolkit</a></li>\n<li><a href=\"/wiki/GDB\" class=\"mw-redirect\" title=\"GDB\">GDB</a></li>\n<li><a href=\"/wiki/Google_Test\" title=\"Google Test\">Google Test</a></li>\n<li><a href=\"/wiki/Gtkmm\" title=\"Gtkmm\">gtkmm</a></li>\n<li><a href=\"/wiki/HOOPS_Visualize\" title=\"HOOPS Visualize\">HOOPS Visualize</a></li>\n<li><a href=\"/wiki/HPX\" title=\"HPX\">HPX</a></li>\n<li><a href=\"/wiki/LessTif\" title=\"LessTif\">LessTif</a></li>\n<li><a href=\"/wiki/Microsoft_Foundation_Class_Library\" title=\"Microsoft Foundation Class Library\">MFC</a></li>\n<li><a href=\"/wiki/Rogue_Wave_Software\" title=\"Rogue Wave Software\">Rogue Wave</a></li>\n<li><a href=\"/wiki/TnFOX\" class=\"mw-redirect\" title=\"TnFOX\">TnFOX</a></li>\n<li><a href=\"/wiki/Ultimate%2B%2B\" title=\"Ultimate++\">Ultimate++</a></li>\n<li><a href=\"/wiki/Valgrind\" title=\"Valgrind\">Valgrind</a></li>\n<li><a href=\"/wiki/Xcas\" title=\"Xcas\">Xcas</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-content\">\n<div class=\"sidebar-list mw-collapsible mw-collapsed\"><div class=\"sidebar-list-title\" style=\"color: var(--color-base)\">See also</div><div class=\"sidebar-list-content mw-collapsible-content\">\n<ul><li><a href=\"/wiki/C%2B%2B_syntax\" title=\"C++ syntax\">C++ syntax</a></li>\n<li><a href=\"/wiki/Category:Free_software_programmed_in_C%2B%2B\" title=\"Category:Free software programmed in C++\">Free software programmed in C++</a></li>\n<li><a href=\"/wiki/History_of_C%2B%2B\" class=\"mw-redirect\" title=\"History of C++\">History of C++</a></li>\n<li><a href=\"/wiki/List_of_C%2B%2B_software_and_tools\" title=\"List of C++ software and tools\">List of C++ software and tools</a></li>\n<li><a href=\"/wiki/List_of_C-family_programming_languages\" title=\"List of C-family programming languages\">List of C-family programming languages</a></li>\n<li><a href=\"/wiki/Outline_of_C%2B%2B\" class=\"mw-redirect\" title=\"Outline of C++\">Outline of C++</a></li></ul></div></div></td>\n</tr><tr><td class=\"sidebar-below\">\n<ul><li><span class=\"nowrap\"><span class=\"skin-invert-image noviewer\" typeof=\"mw:File\"><a href=\"/wiki/File:Octicons-terminal.svg\" class=\"mw-file-description\"><img alt=\"icon\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/20px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"13\" height=\"15\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Octicons-terminal.svg/40px-Octicons-terminal.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"896\" data-file-height=\"1024\" /></a></span> </span><a href=\"/wiki/Portal:Computer_programming\" title=\"Portal:Computer programming\">Computer programming&#32;portal</a></li>\n<li><a href=\"https://en.wikibooks.org/wiki/C%2B%2B_Programming\" class=\"extiw\" title=\"wikibooks:C++ Programming\">C++ programming (Wikibooks)</a></li></ul></td></tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:C%2B%2B_sidebar\" title=\"Template:C++ sidebar\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/w/index.php?title=Template_talk:C%2B%2B_sidebar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Template talk:C++ sidebar (page does not exist)\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:C%2B%2B_sidebar\" title=\"Special:EditPage/Template:C++ sidebar\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>C++</b><sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>c<span class=\"cite-bracket\">&#93;</span></a></sup> is a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose programming language</a> created by Danish computer scientist <a href=\"/wiki/Bjarne_Stroustrup\" title=\"Bjarne Stroustrup\">Bjarne Stroustrup</a>. First released in 1985 as an extension of the <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C programming language</a>, adding <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a> (OOP) functionality and later expanding significantly with the addition of <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional programming</a> features. It supports <a href=\"/wiki/Low-level_programming_language\" title=\"Low-level programming language\">low-level</a> <a href=\"/wiki/Memory_(computing)\" class=\"mw-redirect\" title=\"Memory (computing)\">memory</a> manipulation for systems like <a href=\"/wiki/Microcomputer\" title=\"Microcomputer\">microcomputers</a> and has been used for the creation and maintenance of <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Microsoft Windows</a>. C++ has also added support for <a href=\"/wiki/Generic_programming\" title=\"Generic programming\">generic programming</a> through the use of <a href=\"/wiki/Template_(C%2B%2B)\" title=\"Template (C++)\">templates</a>. It is usually implemented as a <a href=\"/wiki/Compiled_language\" title=\"Compiled language\">compiled language</a>, and many vendors provide <a href=\"/wiki/List_of_compilers#C.2B.2B_compilers\" title=\"List of compilers\">C++ compilers</a>, including the <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">Free Software Foundation</a>, <a href=\"/wiki/LLVM\" title=\"LLVM\">LLVM</a>, <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>, <a href=\"/wiki/Intel\" title=\"Intel\">Intel</a>, <a href=\"/wiki/Embarcadero_Technologies\" title=\"Embarcadero Technologies\">Embarcadero</a>, <a href=\"/wiki/Oracle_Developer_Studio\" title=\"Oracle Developer Studio\">Oracle</a>, and <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a>.<sup id=\"cite&#95;ref-stroustruptcpppl&#95;20-0\" class=\"reference\"><a href=\"#cite_note-stroustruptcpppl-20\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>C++ was designed with <a href=\"/wiki/Systems_programming\" title=\"Systems programming\">systems programming</a> and <a href=\"/wiki/Embedded_software\" title=\"Embedded software\">embedded</a>, resource-constrained <a href=\"/wiki/Software\" title=\"Software\">software</a> and large systems in mind, with <a href=\"/wiki/Performance_(software)\" class=\"mw-redirect\" title=\"Performance (software)\">performance</a>, efficiency, and flexibility of use as its design highlights.<sup id=\"cite&#95;ref-Stroustrup1&#95;21-0\" class=\"reference\"><a href=\"#cite_note-Stroustrup1-21\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup> C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,<sup id=\"cite&#95;ref-Stroustrup1&#95;21-1\" class=\"reference\"><a href=\"#cite_note-Stroustrup1-21\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup> including <a href=\"/wiki/Application_software\" title=\"Application software\">desktop applications</a>, <a href=\"/wiki/Video_game_development\" title=\"Video game development\">video games</a>, <a href=\"/wiki/Server_(computing)\" title=\"Server (computing)\">servers</a> (e.g., <a href=\"/wiki/E-commerce\" title=\"E-commerce\">e-commerce</a>, <a href=\"/wiki/Web_search_engine\" class=\"mw-redirect\" title=\"Web search engine\">web search</a>, or <a href=\"/wiki/Database\" title=\"Database\">databases</a>), and performance-critical applications (e.g., <a href=\"/wiki/Telephone_exchange\" title=\"Telephone exchange\">telephone switches</a> or <a href=\"/wiki/Space_probes\" class=\"mw-redirect\" title=\"Space probes\">space probes</a>).<sup id=\"cite&#95;ref-applications&#95;22-0\" class=\"reference\"><a href=\"#cite_note-applications-22\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>C++ is standardized by the <a href=\"/wiki/International_Organization_for_Standardization\" title=\"International Organization for Standardization\">International Organization for Standardization</a> (ISO), with the latest standard version ratified and published by ISO in October 2024 as <i>ISO/IEC 14882:2024</i> (informally known as <a href=\"/wiki/C%2B%2B23\" title=\"C++23\">C++23</a>).<sup id=\"cite&#95;ref-isocpp2024&#95;23-0\" class=\"reference\"><a href=\"#cite_note-isocpp2024-23\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup> The C++ <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> was initially standardized in 1998 as <i>ISO/IEC 14882:1998</i>, which was then amended by the <a href=\"/wiki/C%2B%2B03\" title=\"C++03\">C++03</a>, <a href=\"/wiki/C%2B%2B11\" title=\"C++11\">C++11</a>, <a href=\"/wiki/C%2B%2B14\" title=\"C++14\">C++14</a>, <a href=\"/wiki/C%2B%2B17\" title=\"C++17\">C++17</a>, and <a href=\"/wiki/C%2B%2B20\" title=\"C++20\">C++20</a> standards. The next <span class=\"nowrap\"><a href=\"/wiki/C%2B%2B23\" title=\"C++23\">C++23</a></span> standard superseded these with new features and an enlarged <a href=\"/wiki/C%2B%2B_Standard_library\" class=\"mw-redirect\" title=\"C++ Standard library\">standard library</a>. Before the initial standardization in 1998, C++ was developed by Stroustrup at <a href=\"/wiki/Bell_Labs\" title=\"Bell Labs\">Bell Labs</a> since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level features</a> for program organization.<sup id=\"cite&#95;ref-24\" class=\"reference\"><a href=\"#cite_note-24\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> Since 2012, C++ has been on a three-year release schedule<sup id=\"cite&#95;ref-25\" class=\"reference\"><a href=\"#cite_note-25\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> with C++29 as the next planned standard.<sup id=\"cite&#95;ref-26\" class=\"reference\"><a href=\"#cite_note-26\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFWyatt&#95;Childers2024\" class=\"citation web cs1\">Wyatt Childers; et&#160;al. (26 June 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://isocpp.org/files/papers/P2996R4.html\">\"P2996R4 - Reflection for C++26\"</a>. <i>isocpp.org</i>. WG21.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=isocpp.org&amp;rft.atitle=P2996R4+-+Reflection+for+C%2B%2B26&amp;rft.date=2024-06-26&amp;rft.au=Wyatt+Childers&amp;rft&#95;id=https%3A%2F%2Fisocpp.org%2Ffiles%2Fpapers%2FP2996R4.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-N5032-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-N5032_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/n5032.pdf\">\"N5032: Working Draft, Programming Languages — C++\"</a> <span class=\"cs1-format\">(PDF)</span>. <a href=\"/wiki/ISO/IEC_JTC_1/SC_22\" title=\"ISO/IEC JTC 1/SC 22\">ISO/IEC JTC 1/SC 22</a>. 15 December 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 April</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=N5032%3A+Working+Draft%2C+Programming+Languages+%E2%80%94+C%2B%2B&amp;rft.pub=ISO%2FIEC+JTC+1%2FSC+22&amp;rft.date=2025-12-15&amp;rft&#95;id=https%3A%2F%2Fwww.open-std.org%2Fjtc1%2Fsc22%2Fwg21%2Fdocs%2Fpapers%2F2025%2Fn5032.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://learn.microsoft.com/en-us/cpp/cpp/modules-cpp?view=msvc-170\">\"Overview of modules in C++\"</a>. Microsoft. 24 April 2023.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Overview+of+modules+in+C%2B%2B&amp;rft.pub=Microsoft&amp;rft.date=2023-04-24&amp;rft&#95;id=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fcpp%2Fcpp%2Fmodules-cpp%3Fview%3Dmsvc-170&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-history-cpp-paper-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-history-cpp-paper_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-history-cpp-paper_4-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-history-cpp-paper_4-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-history-cpp-paper_4-3\"><sup><i><b>d</b></i></sup></a> <a href=\"#cite_ref-history-cpp-paper_4-4\"><sup><i><b>e</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrup1996\" class=\"citation book cs1\">Stroustrup, Bjarne (1996). \"A history of C++: 1979-1991\". <i>History of programming languages---II</i>. <a href=\"/wiki/Association_for_Computing_Machinery\" title=\"Association for Computing Machinery\">ACM</a>. pp.&#160;<span class=\"nowrap\">699–</span>769. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F234286.1057836\">10.1145/234286.1057836</a></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=A+history+of+C%2B%2B%3A+1979-1991&amp;rft.btitle=History+of+programming+languages---II&amp;rft.pages=699-769&amp;rft.pub=ACM&amp;rft.date=1996&amp;rft&#95;id=info%3Adoi%2F10.1145%2F234286.1057836&amp;rft.aulast=Stroustrup&amp;rft.aufirst=Bjarne&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-cppcon21&#95;bj-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-cppcon21_bj_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrup2021\" class=\"citation web cs1\">Stroustrup, Bjarne (16 December 2021). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=15QF2q66NhU\">\"C++20: Reaching for the Aims of C++ - Bjarne Stroustrup - CppCon 2021\"</a>. CppCon. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20211230092718/https://www.youtube.com/watch?v=15QF2q66NhU\">Archived</a> from the original on 30 December 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">30 December</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=C%2B%2B20%3A+Reaching+for+the+Aims+of+C%2B%2B+-+Bjarne+Stroustrup+-+CppCon+2021&amp;rft.pub=CppCon&amp;rft.date=2021-12-16&amp;rft.aulast=Stroustrup&amp;rft.aufirst=Bjarne&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D15QF2q66NhU&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrup2020\" class=\"citation journal cs1\">Stroustrup, Bjarne (12 June 2020). <a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F3386320\">\"Thriving in a crowded and changing world: C++ 2006–2020\"</a>. <i>Proceedings of the ACM on Programming Languages</i>. <b>4</b> (HOPL). Association for Computing Machinery (ACM): <span class=\"nowrap\">1–</span>168. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F3386320\">10.1145/3386320</a></span>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/2475-1421\">2475-1421</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:219603741\">219603741</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+ACM+on+Programming+Languages&amp;rft.atitle=Thriving+in+a+crowded+and+changing+world%3A+C%2B%2B+2006%E2%80%932020&amp;rft.volume=4&amp;rft.issue=HOPL&amp;rft.pages=1-168&amp;rft.date=2020-06-12&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A219603741%23id-name%3DS2CID&amp;rft.issn=2475-1421&amp;rft&#95;id=info%3Adoi%2F10.1145%2F3386320&amp;rft.aulast=Stroustrup&amp;rft.aufirst=Bjarne&amp;rft&#95;id=https%3A%2F%2Fdoi.org%2F10.1145%252F3386320&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-influenceSharp-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-influenceSharp_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFNaugler2007\" class=\"citation journal cs1\">Naugler, David (May 2007). \"C# 2.0 for C++ and Java programmer: conference workshop\". <i>Journal of Computing Sciences in Colleges</i>. <b>22</b> (5). <q>Although C# has been strongly influenced by Java it has also been strongly influenced by C++ and is best viewed as a descendant of both C++ and Java.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Computing+Sciences+in+Colleges&amp;rft.atitle=C%23+2.0+for+C%2B%2B+and+Java+programmer%3A+conference+workshop&amp;rft.volume=22&amp;rft.issue=5&amp;rft.date=2007-05&amp;rft.aulast=Naugler&amp;rft.aufirst=David&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-chplspec-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-chplspec_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://chapel-lang.org/spec/spec-0.98.pdf\">\"Chapel spec (Acknowledgements)\"</a> <span class=\"cs1-format\">(PDF)</span>. Cray Inc. 1 October 2015. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180624150422/https://chapel-lang.org/spec/spec-0.98.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 24 June 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">14 January</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chapel+spec+%28Acknowledgements%29&amp;rft.pub=Cray+Inc&amp;rft.date=2015-10-01&amp;rft&#95;id=https%3A%2F%2Fchapel-lang.org%2Fspec%2Fspec-0.98.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFogus\" class=\"citation web cs1\">Fogus, Michael. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170111184835/http://www.codequarterly.com/2011/rich-hickey/\">\"Rich Hickey Q&amp;A\"</a>. <i>Code Quarterly</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.codequarterly.com/2011/rich-hickey/\">the original</a> on 11 January 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">11 January</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Code+Quarterly&amp;rft.atitle=Rich+Hickey+Q%26A&amp;rft.aulast=Fogus&amp;rft.aufirst=Michael&amp;rft&#95;id=https%3A%2F%2Fwww.codequarterly.com%2F2011%2Frich-hickey%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHarry.&#95;H.&#95;Chaudhary2014\" class=\"citation web cs1\">Harry. H. Chaudhary (28 July 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=0rUtBAAAQBAJ&amp;pg=PA133\">\"Cracking The Java Programming Interview&#160;:: 2000+ Java Interview Que/Ans\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210527025512/https://books.google.com/books?id=0rUtBAAAQBAJ&amp;pg=PA133\">Archived</a> from the original on 27 May 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">29 May</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Cracking+The+Java+Programming+Interview+%3A%3A+2000%2B+Java+Interview+Que%2FAns&amp;rft.date=2014-07-28&amp;rft.au=Harry.+H.+Chaudhary&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D0rUtBAAAQBAJ%26pg%3DPA133&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRoger&#95;Poon2017\" class=\"citation web cs1\">Roger Poon (1 May 2017). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.onux.com/jspp/blog/scaling-jspp-abstraction-performance-and-readability/\">\"Scaling JS++: Abstraction, Performance, and Readability\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200511095442/https://www.onux.com/jspp/blog/scaling-jspp-abstraction-performance-and-readability/\">Archived</a> from the original on 11 May 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 April</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Scaling+JS%2B%2B%3A+Abstraction%2C+Performance%2C+and+Readability&amp;rft.date=2017-05-01&amp;rft.au=Roger+Poon&amp;rft&#95;id=https%3A%2F%2Fwww.onux.com%2Fjspp%2Fblog%2Fscaling-jspp-abstraction-performance-and-readability%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.lua.org/history.html\">\"The evolution of an extension language: a history of Lua\"</a>. <i>www.lua.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 January</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.lua.org&amp;rft.atitle=The+evolution+of+an+extension+language%3A+a+history+of+Lua&amp;rft&#95;id=https%3A%2F%2Fwww.lua.org%2Fhistory.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://nim-lang.org/faq.html\">\"FAQ Nim Programming Language\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170711004631/https://nim-lang.org/faq.html\">Archived</a> from the original on 11 July 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">21 April</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FAQ+Nim+Programming+Language&amp;rft&#95;id=https%3A%2F%2Fnim-lang.org%2Ffaq.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.python.org/tutorial/classes.html\">\"9. Classes — Python 3.6.4 documentation\"</a>. <i>docs.python.org</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20121023030209/http://docs.python.org/tutorial/classes.html\">Archived</a> from the original on 23 October 2012<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 January</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=docs.python.org&amp;rft.atitle=9.+Classes+%E2%80%94+Python+3.6.4+documentation&amp;rft&#95;id=https%3A%2F%2Fdocs.python.org%2Ftutorial%2Fclasses.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/reference/influences.html\">\"Influences - The Rust Reference\"</a>. <i>doc.rust-lang.org</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 January</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=doc.rust-lang.org&amp;rft.atitle=Influences+-+The+Rust+Reference&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Freference%2Finfluences.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-hopl2-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-hopl2_18-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>hopl2</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-stroustruptcpppl-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-stroustruptcpppl_20-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrup1997\" class=\"citation book cs1\"><a href=\"/wiki/Bjarne_Stroustrup\" title=\"Bjarne Stroustrup\">Stroustrup, Bjarne</a> (1997). \"1\". <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/cprogramminglang00stro_0\"><i>The C++ Programming Language</i></a> (Third&#160;ed.). Addison-Wesley. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/0-201-88954-4\" title=\"Special:BookSources/0-201-88954-4\"><bdi>0-201-88954-4</bdi></a>. <a href=\"/wiki/OCLC_(identifier)\" class=\"mw-redirect\" title=\"OCLC (identifier)\">OCLC</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/oclc/59193992\">59193992</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=1&amp;rft.btitle=The+C%2B%2B+Programming+Language&amp;rft.edition=Third&amp;rft.pub=Addison-Wesley&amp;rft.date=1997&amp;rft&#95;id=info%3Aoclcnum%2F59193992&amp;rft.isbn=0-201-88954-4&amp;rft.aulast=Stroustrup&amp;rft.aufirst=Bjarne&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fcprogramminglang00stro&#95;0&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Stroustrup1-21\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Stroustrup1_21-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Stroustrup1_21-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrup,&#95;B.2014\" class=\"citation web cs1\">Stroustrup, B. (6 May 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=86xWVb4XIyE\">\"Lecture:The essence of C++. University of Edinburgh\"</a>. <i><a href=\"/wiki/YouTube\" title=\"YouTube\">YouTube</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150428003608/https://www.youtube.com/watch?v=86xWVb4XIyE\">Archived</a> from the original on 28 April 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 June</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTube&amp;rft.atitle=Lecture%3AThe+essence+of+C%2B%2B.+University+of+Edinburgh.&amp;rft.date=2014-05-06&amp;rft.au=Stroustrup%2C+B.&amp;rft&#95;id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D86xWVb4XIyE&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-applications-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-applications_22-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrup2014\" class=\"citation web cs1\">Stroustrup, Bjarne (17 February 2014). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.stroustrup.com/applications.html\">\"C++ Applications\"</a>. <i>stroustrup.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210404065717/https://www.stroustrup.com/applications.html\">Archived</a> from the original on 4 April 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">5 May</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=stroustrup.com&amp;rft.atitle=C%2B%2B+Applications&amp;rft.date=2014-02-17&amp;rft.aulast=Stroustrup&amp;rft.aufirst=Bjarne&amp;rft&#95;id=https%3A%2F%2Fwww.stroustrup.com%2Fapplications.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-isocpp2024-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-isocpp2024_23-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>isocpp2024</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-24\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.stroustrup.com\">\"Bjarne Stroustrup's Homepage\"</a>. <i>www.stroustrup.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190514123147/http://www.stroustrup.com/\">Archived</a> from the original on 14 May 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 May</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.stroustrup.com&amp;rft.atitle=Bjarne+Stroustrup%27s+Homepage&amp;rft&#95;id=http%3A%2F%2Fwww.stroustrup.com&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-25\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-25\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p1000r4.pdf\">\"C++ IS schedule\"</a> <span class=\"cs1-format\">(PDF)</span>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200810105609/http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p1000r4.pdf\">Archived</a> <span class=\"cs1-format\">(PDF)</span> from the original on 10 August 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 August</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=C%2B%2B+IS+schedule&amp;rft&#95;id=http%3A%2F%2Fwww.open-std.org%2Fjtc1%2Fsc22%2Fwg21%2Fdocs%2Fpapers%2F2020%2Fp1000r4.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-26\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-26\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://cppreference.com/cpp/29\">\"C++29 - cppreference.com\"</a>. <i>cppreference.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">10 July</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=cppreference.com&amp;rft.atitle=C%2B%2B29+-+cppreference.com&amp;rft&#95;id=https%3A%2F%2Fcppreference.com%2Fcpp%2F29&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AC%2B%2B\" class=\"Z3988\"></span></span>\n</li>\n</ol></div><p><br /><span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: There are <code>&lt;ref&#160;group&#61;lower-alpha&gt;</code> tags&#160;or <code>&#123;&#123;efn&#125;&#125;</code> templates on this page, but the references will not show without a <code>&#123;&#123;reflist&#124;group&#61;lower-alpha&#125;&#125;</code> template&#160;or <code>&#123;&#123;notelist&#125;&#125;</code> template (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_group_refs_without_references\" title=\"Help:Cite errors/Cite error group refs without references\">help page</a>).</span></p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐8ttdj\nCached time: 20260918163211\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.353 seconds\nReal time usage: 0.511 seconds\nPreprocessor visited node count: 2631/1000000\nRevision size: 12362/2097152 bytes\nPost‐expand include size: 84475/2097152 bytes\nTemplate argument size: 11468/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 11/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 67121/5000000 bytes\nLua time usage: 0.190/10.000 seconds\nLua memory usage: 8635449/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  447.598      1 -total\n 24.18%  108.209      2 Template:Infobox\n 19.84%   88.822     17 Template:Cite_web\n 19.42%   86.904      1 Template:Infobox_programming_language\n 10.14%   45.380      1 Template:Short_description\n  8.86%   39.665      1 Template:C++_sidebar\n  6.37%   28.492      2 Template:Pagetype\n  5.90%   26.386      1 Template:Infobox_software/simple\n  5.79%   25.922      3 Template:Efn\n  5.37%   24.054      1 Template:Redirect-multi\n-->\n\n<!-- Render ID 7f688125-b37e-11f1-a24f-cfebb5cf2efb -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CXX (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGLIB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ALGOL 68",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AMD Optimizing C/C++ Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Active Template Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ada (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adept (C++ library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Advanced Simulation Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Akonadi",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Allegro (software library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache MXNet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apache Xerces",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Armadillo (C++ library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ArrayFire",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Asio C++ library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assimp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Association for Computing Machinery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BALL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BCPL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bell Labs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bitpit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bjarne Stroustrup",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Blitz++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boehm garbage collector",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Boost (C++ libraries)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Botan (programming library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++/WinRT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++03",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++14",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++17",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++20",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++23",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++26",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++Builder",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++ AMP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++ Standard Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++ Standard library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++ syntax",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C3D Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C99",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CAPD library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CEGUI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CGAL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLU (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CLion",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CMU Sphinx",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CMake",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Caffe (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Carbon (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chapel (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cinder (programming library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ClanLib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clang",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Class Library for Numbers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Code::Blocks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CodeLite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comeau C/C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Comparison of integrated development environments",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiled language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Confidential Consortium Framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CppUnit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Crypto++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "D (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DaviX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Deal.II",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Design by contract",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dev-C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DevIL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital Mars",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doxygen",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dune (mathematics software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "E-commerce",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eclipse (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Edison Design Group",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eigen (C++ library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embarcadero Technologies",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Embedded software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FLTK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FastText",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fox toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GDAL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GLFW",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Compiler Collection",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Geany",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General Polygon Clipper",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GetFEM++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GiNaC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Test",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GraphicsMagick",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gtkmm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HOOPS Visualize",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HPX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HP aC++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HarfBuzz",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High Efficiency Image File Format",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "History of C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM XL C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IML++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISO/IEC JTC 1/SC 22",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IT++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ImageMagick",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Insight Segmentation and Registration Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Integrated Performance Primitives",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Intel C++ Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Components for Unicode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Organization for Standardization",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JAMA (numerical linear algebra library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JS++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JSBSim",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JUCE",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KDE Frameworks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KDevelop",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KFRlib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LAPACK++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LEMON (C++ library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LIBSVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LIVE555",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LLVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LessTif",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LevelDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibLAS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibRaw",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LibSBML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libcamera",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libdash",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libsigc++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Libx (graphics library)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of C++ compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of C++ software and tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of C-family programming languages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of compilers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of numerical libraries",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Low-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lua",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MFEM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Math Kernel Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Matrix Template Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Memory (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mesa (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Metakit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microcomputer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Cognitive Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Foundation Class Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft SEAL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mlpack",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mobile Robot Programming Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modern C++ Design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modula-2",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modular programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MoltenVK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NetBeans",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netlib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nim (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nominal type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Number Theory Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OCLC (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OR-Tools",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object Windows Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Objective-C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenCV",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenFOAM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenFrameworks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenH264",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenImageIO",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenNN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenRTM-aist",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenVDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenWatcom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open Cascade Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Open Inventor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Developer Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Template Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Orfeo toolbox",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outline of C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PETSc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PLplot",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "POCO C++ Libraries",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel Patterns Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Performance (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PhysX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Poppler (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Protocol Buffers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Qt (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Qt Creator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "QuantLib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ROOT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robot Operating System",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RocksDB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rogue Wave Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SFML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scintilla (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Server (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Shogun (toolbox)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simula",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Skia Graphics Engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SlickEdit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Smalltalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Snappy (compression)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sound Object Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Space probes",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard Template Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stapl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static type",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SymbolicC++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Systems programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Telephone exchange",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Template (C++)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Template Numerical Toolkit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TenDRA Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TerraLib",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tesseract (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ThreadWeaver",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Threading Building Blocks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TinyXML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tkrzw",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TnFOX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Trilinos",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turbo C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ultimate++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Understand (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VDPAU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "VTD-XML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Valgrind",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Video game development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio Code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web search engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Template Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WxWidgets",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X265",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XGBoost",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xcas",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xcode",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YouTube",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zig (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:C++ sidebar",
+            "exists": true
+          },
+          {
+            "ns": 100,
+            "title": "Portal:Computer programming",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error group refs without references",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:C++",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:Free software programmed in C++",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:C++ sidebar",
+            "exists": false
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "General-purpose programming language",
+          "page_image_free": "ISO_C++_Logo.svg",
+          "wikibase_item": "Q2407"
+        }
+      }
+    }
+  ]
+}

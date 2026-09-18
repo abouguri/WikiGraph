@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Grace Hopper",
+    "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "summary": "U.S. naval officer and computer scientist (1906–1992) For the residential college, see Grace Hopper College . For the submarine cable, see Grace Hopper (submarine communications cable) . Grace Hopper Hopper in 1984 Born Grace Brewster Murray ( 1906-12-09 ) December 9, 1906 New York City, U.S. Died January 1, 1992 (1992-01-01) (aged 85) Arlington County, Virginia , U.S. Resting place Arlington National Cemetery Education Vassar College ( BA ) Yale University ( MS , PhD ) Spouse Vincent Hopper ​ ​ ( m. 1930; div. 1945) ​ Awards Defense Distinguished Service Medal Legion of Merit Meritorious Service Medal American Campaign Medal World War II Victory Medal National Defense Service Medal Armed Forces Reserve Medal with two Hourglass Devices Naval Reserve Medal Presidential Medal of Freedom (posthumous) Military career Allegiance United States Branch United States Navy Service years 1943–1986 Rank Rear admiral (lower half) Scientific career Known for FLOW-MATIC COBOL Fields Computer science Mathematics Workplaces Vassar College Yale University Harvard University University of Pennsylvania Eckert–Mauchly Computer Corporation Remington Rand Digital Equipment Corporation Thesis New Types of Irreducibility Criteria (1934) Doctoral advisor Øystein Ore Grace Brewster Hopper ( née Murray ; December 9, 1906 – January 1, 1992) was an American computer scientist , mathematician , and United States Navy rear admiral . She was a pioneer of computer programming. Hopper was the first to devise the theory of machine-independent programming languages, and used this theory to develop the FLOW-MATIC programming language and COBOL , an early high-level programming language still in use today. She was also one of the first programmers on the Harvard Mark I computer. She is credited with writing the first computer manual, \"A Manual of Operation for the Automatic Sequence Controlled Calculator.\" Before joining the Navy, Hopper earned a Ph.D. in mathematics from Yale University and was a professor of mathematics at Vassar College . She left her position at Vassar to join the United States Navy Reserve during World War II. Hopper began her computing career in 1944 as a member of the Harvard Mark I team, led by Howard H. Aiken . In 1949, she joined the Eckert–Mauchly Computer Corporation and was part of the team that developed the UNIVAC I computer. At Eckert–Mauchly she managed the development of one of the first COBOL compilers. She believed that programming should be simplified with an English-based computer programming language. Her compiler converted English terms into machine code understood by computers. By 1952, Hopper had finished her program linker (originally called a compiler ), which was written for the A-0 System . In 1954, Eckert–Mauchly chose Hopper to lead their department for automatic programming, and she led the release of some of the first compiled languages like FLOW-MATIC . In 1959, she participated in the CODASYL consortium, helping to create a machine-independent programming language called COBOL , which was based on English words. Hopper promoted the use of the language throughout the 1960s. The U.S. Navy Arleigh Burke -class guided-missile destroyer USS Hopper was named for her, as was the Cray XE6 \"Hopper\" supercomputer at NERSC , the \"Grace\" supercomputing cluster at Texas A&M University, and the Nvidia GPU architecture \" Hopper \". During her lifetime, Hopper was awarded 40 honorary degrees from universities across the world. A college at Yale University was renamed in her honor. In 1991, she received the National Medal of Technology . On November 22, 2016, she was posthumously awarded the Presidential Medal of Freedom by President Barack Obama . In 2024, the Institute of Electrical and Electronics Engineers (IEEE) dedicated a plaque at the University of Pennsylvania in honor of invention the A-0 compiler, that functioned as a linker/loader, by Grace Hopper during her time as a lecturer in the School of Engineering. ^ Cantrell, Mark (March 1, 2014). \"Amazing Grace: Rear Adm. Grace Hopper, USN, was a pioneer in computer science\" . Military Officer . Vol. 12, no. 3. Military Officers Association of America. pp. 52– 55, 106 . Retrieved March 1, 2014 . ^ Donald D. Spencer (1985). Computers and Information Processing . C.E. Merrill Publishing Co. ISBN 978-0-675-20290-9 . ^ Laplante, Phillip A. (2001). Dictionary of computer science, engineering, and technology . Boca Raton, FL: CRC Press. ISBN 978-0-8493-2691-2 . ^ Bunch, Bryan H.; Hellemans, Alexander (1993). The Timetables of Technology: A Chronology of the Most Important People and Events in the History of Technology . New York: Simon & Schuster. ISBN 978-0-671-76918-5 . ^ Booss-Bavnbek, Bernhelm; Høyrup, Jens (2003). Mathematics and War . Birkhäuser Verlag. ISBN 978-3-7643-1634-1 . ^ \"Hopper\" . National Energy Research Scientific Computing Center . Archived from the original on March 14, 2016 . Retrieved March 19, 2016 . ^ \"Hardware - Texas A&M HPRC\" . hprc.tamu.edu . Retrieved August 11, 2026 . ^ \"NVIDIA GH200 Grace Hopper Superchip\" . Retrieved May 25, 2024 . ^ Helmore, Edward (February 23, 2024). \" 'Amazing Grace': the name behind Nvidia's $2tn chip empire\" . The Guardian . ISSN 0261-3077 . Retrieved May 28, 2024 . ^ Carson, Erin (November 23, 2016). \"White House honors two of tech's female pioneers\" . CBS News . Retrieved November 23, 2016 . ^ Scheffler, Ian (May 16, 2024). \"Recognizing a Pioneer: The IEEE Dedicates Milestone to Grace Hopper at Penn Engineering\" . Penn Engineering Blog . Retrieved June 7, 2024 . ^ Scheffler, Ian (June 6, 2024). \"Recognizing a pioneer: Penn Engineering's Grace Hopper\" . Penn Today . Retrieved June 7, 2024 .",
+    "text": "U.S. naval officer and computer scientist (1906–1992) For the residential college, see Grace Hopper College . For the submarine cable, see Grace Hopper (submarine communications cable) . Grace Hopper Hopper in 1984 Born Grace Brewster Murray ( 1906-12-09 ) December 9, 1906 New York City, U.S. Died January 1, 1992 (1992-01-01) (aged 85) Arlington County, Virginia , U.S. Resting place Arlington National Cemetery Education Vassar College ( BA ) Yale University ( MS , PhD ) Spouse Vincent Hopper ​ ​ ( m. 1930; div. 1945) ​ Awards Defense Distinguished Service Medal Legion of Merit Meritorious Service Medal American Campaign Medal World War II Victory Medal National Defense Service Medal Armed Forces Reserve Medal with two Hourglass Devices Naval Reserve Medal Presidential Medal of Freedom (posthumous) Military career Allegiance United States Branch United States Navy Service years 1943–1986 Rank Rear admiral (lower half) Scientific career Known for FLOW-MATIC COBOL Fields Computer science Mathematics Workplaces Vassar College Yale University Harvard University University of Pennsylvania Eckert–Mauchly Computer Corporation Remington Rand Digital Equipment Corporation Thesis New Types of Irreducibility Criteria (1934) Doctoral advisor Øystein Ore Grace Brewster Hopper ( née Murray ; December 9, 1906 – January 1, 1992) was an American computer scientist , mathematician , and United States Navy rear admiral . She was a pioneer of computer programming. Hopper was the first to devise the theory of machine-independent programming languages, and used this theory to develop the FLOW-MATIC programming language and COBOL , an early high-level programming language still in use today. She was also one of the first programmers on the Harvard Mark I computer. She is credited with writing the first computer manual, \"A Manual of Operation for the Automatic Sequence Controlled Calculator.\" Before joining the Navy, Hopper earned a Ph.D. in mathematics from Yale University and was a professor of mathematics at Vassar College . She left her position at Vassar to join the United States Navy Reserve during World War II. Hopper began her computing career in 1944 as a member of the Harvard Mark I team, led by Howard H. Aiken . In 1949, she joined the Eckert–Mauchly Computer Corporation and was part of the team that developed the UNIVAC I computer. At Eckert–Mauchly she managed the development of one of the first COBOL compilers. She believed that programming should be simplified with an English-based computer programming language. Her compiler converted English terms into machine code understood by computers. By 1952, Hopper had finished her program linker (originally called a compiler ), which was written for the A-0 System . In 1954, Eckert–Mauchly chose Hopper to lead their department for automatic programming, and she led the release of some of the first compiled languages like FLOW-MATIC . In 1959, she participated in the CODASYL consortium, helping to create a machine-independent programming language called COBOL , which was based on English words. Hopper promoted the use of the language throughout the 1960s. The U.S. Navy Arleigh Burke -class guided-missile destroyer USS Hopper was named for her, as was the Cray XE6 \"Hopper\" supercomputer at NERSC , the \"Grace\" supercomputing cluster at Texas A&M University, and the Nvidia GPU architecture \" Hopper \". During her lifetime, Hopper was awarded 40 honorary degrees from universities across the world. A college at Yale University was renamed in her honor. In 1991, she received the National Medal of Technology . On November 22, 2016, she was posthumously awarded the Presidential Medal of Freedom by President Barack Obama . In 2024, the Institute of Electrical and Electronics Engineers (IEEE) dedicated a plaque at the University of Pennsylvania in honor of invention the A-0 compiler, that functioned as a linker/loader, by Grace Hopper during her time as a lecturer in the School of Engineering. ^ Cantrell, Mark (March 1, 2014). \"Amazing Grace: Rear Adm. Grace Hopper, USN, was a pioneer in computer science\" . Military Officer . Vol. 12, no. 3. Military Officers Association of America. pp. 52– 55, 106 . Retrieved March 1, 2014 . ^ Donald D. Spencer (1985). Computers and Information Processing . C.E. Merrill Publishing Co. ISBN 978-0-675-20290-9 . ^ Laplante, Phillip A. (2001). Dictionary of computer science, engineering, and technology . Boca Raton, FL: CRC Press. ISBN 978-0-8493-2691-2 . ^ Bunch, Bryan H.; Hellemans, Alexander (1993). The Timetables of Technology: A Chronology of the Most Important People and Events in the History of Technology . New York: Simon & Schuster. ISBN 978-0-671-76918-5 . ^ Booss-Bavnbek, Bernhelm; Høyrup, Jens (2003). Mathematics and War . Birkhäuser Verlag. ISBN 978-3-7643-1634-1 . ^ \"Hopper\" . National Energy Research Scientific Computing Center . Archived from the original on March 14, 2016 . Retrieved March 19, 2016 . ^ \"Hardware - Texas A&M HPRC\" . hprc.tamu.edu . Retrieved August 11, 2026 . ^ \"NVIDIA GH200 Grace Hopper Superchip\" . Retrieved May 25, 2024 . ^ Helmore, Edward (February 23, 2024). \" 'Amazing Grace': the name behind Nvidia's $2tn chip empire\" . The Guardian . ISSN 0261-3077 . Retrieved May 28, 2024 . ^ Carson, Erin (November 23, 2016). \"White House honors two of tech's female pioneers\" . CBS News . Retrieved November 23, 2016 . ^ Scheffler, Ian (May 16, 2024). \"Recognizing a Pioneer: The IEEE Dedicates Milestone to Grace Hopper at Penn Engineering\" . Penn Engineering Blog . Retrieved June 7, 2024 . ^ Scheffler, Ian (June 6, 2024). \"Recognizing a pioneer: Penn Engineering's Grace Hopper\" . Penn Today . Retrieved June 7, 2024 .",
+    "links": [
+      "A-0 System",
+      "American Campaign Medal",
+      "Arleigh Burke-class destroyer",
+      "Arlington County, Virginia",
+      "Arlington National Cemetery",
+      "Armed Forces Reserve Medal",
+      "Bachelor of Arts",
+      "Barack Obama",
+      "Birth name",
+      "COBOL",
+      "CODASYL",
+      "Compiler",
+      "Computer scientist",
+      "Cray XE6",
+      "Defense Distinguished Service Medal",
+      "Digital Equipment Corporation",
+      "Doctor of Philosophy",
+      "Doctoral advisor",
+      "Eckert–Mauchly Computer Corporation",
+      "FLOW-MATIC",
+      "Grace Hopper (submarine communications cable)",
+      "Grace Hopper College",
+      "Harvard Mark I",
+      "Harvard University",
+      "High-level programming language",
+      "Hopper (microarchitecture)",
+      "Hopper College",
+      "Hourglass Device",
+      "Howard H. Aiken",
+      "ISBN (identifier)",
+      "ISSN (identifier)",
+      "Institute of Electrical and Electronics Engineers",
+      "Legion of Merit",
+      "Linker (computing)",
+      "Machine code",
+      "Master of Science",
+      "Mathematician",
+      "Meritorious Service Medal (USA)",
+      "NERSC",
+      "National Defense Service Medal",
+      "National Medal of Technology and Innovation",
+      "Naval Reserve Medal",
+      "Presidential Medal of Freedom",
+      "Rear admiral (United States)",
+      "Rear admiral (lower half)",
+      "Remington Rand",
+      "Texas A&M University",
+      "Thesis",
+      "UNIVAC I",
+      "USS Hopper",
+      "United States Navy",
+      "United States Navy Reserve",
+      "University of Pennsylvania",
+      "Vassar College",
+      "World War II Victory Medal",
+      "Yale University",
+      "Øystein Ore"
+    ],
+    "page_id": 12590,
+    "revision_id": 1374054212,
+    "retrieved_at": "2026-09-18T16:41:34.508349+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260831183609|1372431556",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 12590,
+            "ns": 0,
+            "title": "Grace Hopper",
+            "revisions": [
+              {
+                "revid": 1374054212,
+                "parentid": 1372431556
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Hopper, Grace",
+              "page_image_free": "Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg",
+              "wikibase-shortdesc": "U.S. naval officer and computer scientist (1906–1992)",
+              "wikibase_item": "Q11641"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Grace Hopper",
+        "pageid": 12590,
+        "revid": 1374054212,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">U.S. naval officer and computer scientist (1906–1992)</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For the residential college, see <a href=\"/wiki/Grace_Hopper_College\" title=\"Grace Hopper College\">Grace Hopper College</a>. For the submarine cable, see <a href=\"/wiki/Grace_Hopper_(submarine_communications_cable)\" title=\"Grace Hopper (submarine communications cable)\">Grace Hopper (submarine communications cable)</a>.</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox biography vcard\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\"><div class=\"fn\">Grace Hopper</div></th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg/250px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"333\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg/500px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1542\" data-file-height=\"2051\" /></a></span><div class=\"infobox-caption\">Hopper in 1984</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Born</th><td class=\"infobox-data\"><div style=\"display:inline\" class=\"nickname\">Grace Brewster Murray</div><br /><span style=\"display:none\">(<span class=\"bday\">1906-12-09</span>)</span>December 9, 1906<br /><div style=\"display:inline\" class=\"birthplace\">New York City, U.S.</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Died</th><td class=\"infobox-data\">January 1, 1992<span style=\"display:none\">(1992-01-01)</span> (aged&#160;85)<br /><div style=\"display:inline\" class=\"deathplace\"><a href=\"/wiki/Arlington_County,_Virginia\" title=\"Arlington County, Virginia\">Arlington County, Virginia</a>, U.S.</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Resting place</div></th><td class=\"infobox-data label\"><a href=\"/wiki/Arlington_National_Cemetery\" title=\"Arlington National Cemetery\">Arlington National Cemetery</a><span style=\"display:none\" data-plural=\"0\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Education</th><td class=\"infobox-data\"><a href=\"/wiki/Vassar_College\" title=\"Vassar College\">Vassar College</a> (<a href=\"/wiki/Bachelor_of_Arts\" title=\"Bachelor of Arts\">BA</a>)<br /><a href=\"/wiki/Yale_University\" title=\"Yale University\">Yale University</a> (<a href=\"/wiki/Master_of_Science\" title=\"Master of Science\">MS</a>, <a href=\"/wiki/Doctor_of_Philosophy\" title=\"Doctor of Philosophy\">PhD</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Spouse</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1298804929\">.mw-parser-output .marriage-line-margin2px{line-height:0;margin-bottom:-2px}.mw-parser-output .marriage-line-margin3px{line-height:0;margin-bottom:-3px}.mw-parser-output .marriage-display-inline{display:inline}</style>\n<div class=\"marriage-display-inline\"><div style=\"display:inline-block;line-height:normal;margin-top:1px;white-space:normal;\">Vincent Hopper</div>\n   <div class=\"marriage-line-margin2px\">&#8203;</div>&#32;<div style=\"display:inline-block;margin-bottom:1px;\">&#8203;</div>&#40;<abbr title=\"married\">m.</abbr>&#160;1930&#59;&#32;<abbr title=\"divorced\">div.</abbr>&#160;1945&#41;<wbr />&#8203;</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Awards</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Defense_Distinguished_Service_Medal\" title=\"Defense Distinguished Service Medal\">Defense Distinguished Service Medal</a></li>\n<li><a href=\"/wiki/Legion_of_Merit\" title=\"Legion of Merit\">Legion of Merit</a></li>\n<li><a href=\"/wiki/Meritorious_Service_Medal_(USA)\" class=\"mw-redirect\" title=\"Meritorious Service Medal (USA)\">Meritorious Service Medal</a></li>\n<li><a href=\"/wiki/American_Campaign_Medal\" title=\"American Campaign Medal\">American Campaign Medal</a></li>\n<li><a href=\"/wiki/World_War_II_Victory_Medal\" title=\"World War II Victory Medal\">World War II Victory Medal</a></li>\n<li><a href=\"/wiki/National_Defense_Service_Medal\" title=\"National Defense Service Medal\">National Defense Service Medal</a></li>\n<li><a href=\"/wiki/Armed_Forces_Reserve_Medal\" title=\"Armed Forces Reserve Medal\">Armed Forces Reserve Medal</a> with two <a href=\"/wiki/Hourglass_Device\" class=\"mw-redirect\" title=\"Hourglass Device\">Hourglass Devices</a></li>\n<li><a href=\"/wiki/Naval_Reserve_Medal\" title=\"Naval Reserve Medal\">Naval Reserve Medal</a></li>\n<li><a href=\"/wiki/Presidential_Medal_of_Freedom\" title=\"Presidential Medal of Freedom\">Presidential Medal of Freedom</a> (posthumous)</li></ul>\n</div></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><td colspan=\"2\" class=\"infobox-subheader\"><b>Military career</b></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Allegiance</th><td class=\"infobox-data\">United States</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Branch</div></th><td class=\"infobox-data\"><a href=\"/wiki/United_States_Navy\" title=\"United States Navy\">United States Navy</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Service&#160;years</div></th><td class=\"infobox-data\">1943–1986</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Rank</div></th><td class=\"infobox-data\"><a href=\"/wiki/Rear_admiral_(lower_half)\" class=\"mw-redirect\" title=\"Rear admiral (lower half)\">Rear admiral (lower half)</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><td colspan=\"2\" class=\"infobox-subheader\"><b>Scientific career</b></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Known&#160;for</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/FLOW-MATIC\" title=\"FLOW-MATIC\">FLOW-MATIC</a></li>\n<li><a href=\"/wiki/COBOL\" title=\"COBOL\">COBOL</a></li></ul>\n</div></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Fields</th><td class=\"infobox-data category\">Computer science<br />Mathematics</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Workplaces</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Vassar_College\" title=\"Vassar College\">Vassar College</a></li>\n<li><a href=\"/wiki/Yale_University\" title=\"Yale University\">Yale University</a></li>\n<li><a href=\"/wiki/Harvard_University\" title=\"Harvard University\">Harvard University</a></li>\n<li><a href=\"/wiki/University_of_Pennsylvania\" title=\"University of Pennsylvania\">University of Pennsylvania</a></li>\n<li><a href=\"/wiki/Eckert%E2%80%93Mauchly_Computer_Corporation\" title=\"Eckert–Mauchly Computer Corporation\">Eckert–Mauchly Computer Corporation</a></li>\n<li><a href=\"/wiki/Remington_Rand\" title=\"Remington Rand\">Remington Rand</a></li>\n<li><a href=\"/wiki/Digital_Equipment_Corporation\" title=\"Digital Equipment Corporation\">Digital Equipment Corporation</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Thesis\" title=\"Thesis\">Thesis</a></th><td class=\"infobox-data\"><i><a rel=\"nofollow\" class=\"external text\" href=\"https://www.ams.org/journals/notices/201903/hopper_thesis.pdf\">New Types of Irreducibility Criteria</a></i>&#160;<span style=\"font-size:97%;\">(1934)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Doctoral_advisor\" title=\"Doctoral advisor\">Doctoral advisor</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/%C3%98ystein_Ore\" title=\"Øystein Ore\">Øystein Ore</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr></tbody></table>\n<p><b>Grace Brewster Hopper</b> (<span title=\"Name at birth\"><a href=\"/wiki/Birth_name#Maiden_and_married_names\" title=\"Birth name\">née</a>&#160;<b>Murray</b></span>; December 9, 1906 – January 1, 1992) was an American <a href=\"/wiki/Computer_scientist\" title=\"Computer scientist\">computer scientist</a>, <a href=\"/wiki/Mathematician\" title=\"Mathematician\">mathematician</a>, and <a href=\"/wiki/United_States_Navy\" title=\"United States Navy\">United States Navy</a> <a href=\"/wiki/Rear_admiral_(United_States)\" title=\"Rear admiral (United States)\">rear admiral</a>.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> She was a pioneer of computer programming. Hopper was the first to devise the theory of machine-independent programming languages, and used this theory to develop the <a href=\"/wiki/FLOW-MATIC\" title=\"FLOW-MATIC\">FLOW-MATIC</a> programming language and <a href=\"/wiki/COBOL\" title=\"COBOL\">COBOL</a>, an early <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level programming language</a> still in use today. She was also one of the first programmers on the <a href=\"/wiki/Harvard_Mark_I\" title=\"Harvard Mark I\">Harvard Mark&#160;I</a> computer. She is credited with writing the first computer manual, \"A Manual of Operation for the Automatic Sequence Controlled Calculator.\"\n</p><p>Before joining the Navy, Hopper earned a Ph.D. in mathematics from <a href=\"/wiki/Yale_University\" title=\"Yale University\">Yale University</a> and was a professor of mathematics at <a href=\"/wiki/Vassar_College\" title=\"Vassar College\">Vassar College</a>. She left her position at Vassar to join the <a href=\"/wiki/United_States_Navy_Reserve\" title=\"United States Navy Reserve\">United States Navy Reserve</a> during World War<span class=\"nowrap\">&#160;</span>II. Hopper began her computing career in 1944 as a member of the Harvard Mark<span class=\"nowrap\">&#160;</span>I team, led by <a href=\"/wiki/Howard_H._Aiken\" title=\"Howard H. Aiken\">Howard H. Aiken</a>. In 1949, she joined the <a href=\"/wiki/Eckert%E2%80%93Mauchly_Computer_Corporation\" title=\"Eckert–Mauchly Computer Corporation\">Eckert–Mauchly Computer Corporation</a> and was part of the team that developed the <a href=\"/wiki/UNIVAC_I\" title=\"UNIVAC I\">UNIVAC&#160;I</a> computer. At Eckert–Mauchly she managed the development of one of the first <a href=\"/wiki/COBOL\" title=\"COBOL\">COBOL</a> compilers.\n</p><p>She believed that programming should be simplified with an English-based computer programming language. Her compiler converted English terms into <a href=\"/wiki/Machine_code\" title=\"Machine code\">machine code</a> understood by computers. By 1952, Hopper had finished her program <a href=\"/wiki/Linker_(computing)\" title=\"Linker (computing)\">linker</a> (originally called a <a href=\"/wiki/Compiler\" title=\"Compiler\">compiler</a>), which was written for the <a href=\"/wiki/A-0_System\" title=\"A-0 System\">A-0 System</a>.<sup id=\"cite&#95;ref-Spencer85&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Spencer85-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Laplante01&#95;3-0\" class=\"reference\"><a href=\"#cite_note-Laplante01-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Bunch93&#95;4-0\" class=\"reference\"><a href=\"#cite_note-Bunch93-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Booss03&#95;5-0\" class=\"reference\"><a href=\"#cite_note-Booss03-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> In 1954, Eckert–Mauchly chose Hopper to lead their department for automatic programming, and she led the release of some of the first compiled languages like <a href=\"/wiki/FLOW-MATIC\" title=\"FLOW-MATIC\">FLOW-MATIC</a>. In 1959, she participated in the <a href=\"/wiki/CODASYL\" title=\"CODASYL\">CODASYL</a> consortium, helping to create a machine-independent programming language called <a href=\"/wiki/COBOL\" title=\"COBOL\">COBOL</a>, which was based on English words. Hopper promoted the use of the language throughout the 1960s.\n</p><p>The U.S. Navy <a href=\"/wiki/Arleigh_Burke-class_destroyer\" title=\"Arleigh Burke-class destroyer\"><i>Arleigh Burke</i>-class</a> guided-missile destroyer <a href=\"/wiki/USS_Hopper\" title=\"USS Hopper\">USS&#160;<i>Hopper</i></a> was named for her, as was the <a href=\"/wiki/Cray_XE6\" title=\"Cray XE6\">Cray XE6</a> \"Hopper\" supercomputer at <a href=\"/wiki/NERSC\" class=\"mw-redirect\" title=\"NERSC\">NERSC</a>,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> the \"Grace\" supercomputing cluster at <a href=\"/wiki/Texas_A%26M_University\" title=\"Texas A&amp;M University\">Texas A&amp;M</a> University,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> and the Nvidia GPU architecture \"<a href=\"/wiki/Hopper_(microarchitecture)\" title=\"Hopper (microarchitecture)\">Hopper</a>\".<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> During her lifetime, Hopper was awarded 40 honorary degrees from universities across the world. A <a href=\"/wiki/Hopper_College\" class=\"mw-redirect\" title=\"Hopper College\">college</a> at <a href=\"/wiki/Yale_University\" title=\"Yale University\">Yale University</a> was renamed in her honor.  In 1991, she received the <a href=\"/wiki/National_Medal_of_Technology_and_Innovation\" title=\"National Medal of Technology and Innovation\">National Medal of Technology</a>. On November 22, 2016, she was posthumously awarded the <a href=\"/wiki/Presidential_Medal_of_Freedom\" title=\"Presidential Medal of Freedom\">Presidential Medal of Freedom</a> by President <a href=\"/wiki/Barack_Obama\" title=\"Barack Obama\">Barack Obama</a>.<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> In 2024, the <a href=\"/wiki/Institute_of_Electrical_and_Electronics_Engineers\" title=\"Institute of Electrical and Electronics Engineers\">Institute of Electrical and Electronics Engineers</a> (IEEE) dedicated a plaque at the <a href=\"/wiki/University_of_Pennsylvania\" title=\"University of Pennsylvania\">University of Pennsylvania</a> in honor of invention the <a href=\"/wiki/A-0_System\" title=\"A-0 System\">A-0</a> compiler, that functioned as a linker/loader, by Grace Hopper during her time as a lecturer in the School of Engineering.<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFCantrell2014\" class=\"citation news cs1\">Cantrell, Mark (March 1, 2014). <a rel=\"nofollow\" class=\"external text\" href=\"http://content.yudu.com/A2qfj4/201403March/resources/3.htm\">\"Amazing Grace: Rear Adm. Grace Hopper, USN, was a pioneer in computer science\"</a>. <i>Military Officer</i>. Vol.&#160;12, no.&#160;3. Military Officers Association of America. pp.&#160;<span class=\"nowrap\">52–</span>55, 106<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 1,</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Military+Officer&amp;rft.atitle=Amazing+Grace%3A+Rear+Adm.+Grace+Hopper%2C+USN%2C+was+a+pioneer+in+computer+science&amp;rft.volume=12&amp;rft.issue=3&amp;rft.pages=52-55%2C+106&amp;rft.date=2014-03-01&amp;rft.aulast=Cantrell&amp;rft.aufirst=Mark&amp;rft&#95;id=http%3A%2F%2Fcontent.yudu.com%2FA2qfj4%2F201403March%2Fresources%2F3.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Spencer85-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Spencer85_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDonald&#95;D.&#95;Spencer1985\" class=\"citation book cs1\">Donald D. Spencer (1985). <i>Computers and Information Processing</i>. C.E. Merrill Publishing Co. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-675-20290-9\" title=\"Special:BookSources/978-0-675-20290-9\"><bdi>978-0-675-20290-9</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Computers+and+Information+Processing&amp;rft.pub=C.E.+Merrill+Publishing+Co&amp;rft.date=1985&amp;rft.isbn=978-0-675-20290-9&amp;rft.au=Donald+D.+Spencer&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Laplante01-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Laplante01_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLaplante2001\" class=\"citation book cs1\">Laplante, Phillip A. (2001). <i>Dictionary of computer science, engineering, and technology</i>. Boca Raton, FL: CRC Press. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-8493-2691-2\" title=\"Special:BookSources/978-0-8493-2691-2\"><bdi>978-0-8493-2691-2</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Dictionary+of+computer+science%2C+engineering%2C+and+technology&amp;rft.place=Boca+Raton%2C+FL&amp;rft.pub=CRC+Press&amp;rft.date=2001&amp;rft.isbn=978-0-8493-2691-2&amp;rft.aulast=Laplante&amp;rft.aufirst=Phillip+A.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Bunch93-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Bunch93_4-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBunchHellemans1993\" class=\"citation book cs1\">Bunch, Bryan H.; Hellemans, Alexander (1993). <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/timetablesoftech00brya\"><i>The Timetables of Technology: A Chronology of the Most Important People and Events in the History of Technology</i></a>. New York: Simon &amp; Schuster. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-671-76918-5\" title=\"Special:BookSources/978-0-671-76918-5\"><bdi>978-0-671-76918-5</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Timetables+of+Technology%3A+A+Chronology+of+the+Most+Important+People+and+Events+in+the+History+of+Technology&amp;rft.place=New+York&amp;rft.pub=Simon+%26+Schuster&amp;rft.date=1993&amp;rft.isbn=978-0-671-76918-5&amp;rft.aulast=Bunch&amp;rft.aufirst=Bryan+H.&amp;rft.au=Hellemans%2C+Alexander&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Ftimetablesoftech00brya&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Booss03-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Booss03_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBooss-BavnbekHøyrup2003\" class=\"citation book cs1\">Booss-Bavnbek, Bernhelm; Høyrup, Jens (2003). <i>Mathematics and War</i>. Birkhäuser Verlag. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-7643-1634-1\" title=\"Special:BookSources/978-3-7643-1634-1\"><bdi>978-3-7643-1634-1</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Mathematics+and+War&amp;rft.pub=Birkh%C3%A4user+Verlag&amp;rft.date=2003&amp;rft.isbn=978-3-7643-1634-1&amp;rft.aulast=Booss-Bavnbek&amp;rft.aufirst=Bernhelm&amp;rft.au=H%C3%B8yrup%2C+Jens&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160314142943/http://www.nersc.gov/users/computational-systems/retired-systems/hopper\">\"Hopper\"</a>. <i>National Energy Research Scientific Computing Center</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.nersc.gov/users/computational-systems/retired-systems/hopper/\">the original</a> on March 14, 2016<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 19,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Energy+Research+Scientific+Computing+Center&amp;rft.atitle=Hopper&amp;rft&#95;id=http%3A%2F%2Fwww.nersc.gov%2Fusers%2Fcomputational-systems%2Fretired-systems%2Fhopper%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://hprc.tamu.edu/kb/User-Guides/Grace/Hardware/#grace-a-dell-x86-hpc-cluster\">\"Hardware - Texas A&amp;M HPRC\"</a>. <i>hprc.tamu.edu</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 11,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=hprc.tamu.edu&amp;rft.atitle=Hardware+-+Texas+A%26M+HPRC&amp;rft&#95;id=https%3A%2F%2Fhprc.tamu.edu%2Fkb%2FUser-Guides%2FGrace%2FHardware%2F%23grace-a-dell-x86-hpc-cluster&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/\">\"NVIDIA GH200 Grace Hopper Superchip\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 25,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NVIDIA+GH200+Grace+Hopper+Superchip&amp;rft&#95;id=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2Fdata-center%2Fgrace-hopper-superchip%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHelmore2024\" class=\"citation news cs1\">Helmore, Edward (February 23, 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.theguardian.com/technology/2024/feb/23/grace-hopper-nvidia-superchip\">\"<span class=\"cs1-kern-left\"></span>'Amazing Grace': the name behind Nvidia's $2tn chip empire\"</a>. <i>The Guardian</i>. <a href=\"/wiki/ISSN_(identifier)\" class=\"mw-redirect\" title=\"ISSN (identifier)\">ISSN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://search.worldcat.org/issn/0261-3077\">0261-3077</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 28,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Guardian&amp;rft.atitle=%27Amazing+Grace%27%3A+the+name+behind+Nvidia%27s+%242tn+chip+empire&amp;rft.date=2024-02-23&amp;rft.issn=0261-3077&amp;rft.aulast=Helmore&amp;rft.aufirst=Edward&amp;rft&#95;id=https%3A%2F%2Fwww.theguardian.com%2Ftechnology%2F2024%2Ffeb%2F23%2Fgrace-hopper-nvidia-superchip&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFCarson2016\" class=\"citation web cs1\">Carson, Erin (November 23, 2016). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cbsnews.com/news/white-house-medal-of-freedom-margaret-hamilton-grace-hopper/\">\"White House honors two of tech's female pioneers\"</a>. <i>CBS News</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">November 23,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=CBS+News&amp;rft.atitle=White+House+honors+two+of+tech%27s+female+pioneers&amp;rft.date=2016-11-23&amp;rft.aulast=Carson&amp;rft.aufirst=Erin&amp;rft&#95;id=http%3A%2F%2Fwww.cbsnews.com%2Fnews%2Fwhite-house-medal-of-freedom-margaret-hamilton-grace-hopper%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFScheffler2024\" class=\"citation web cs1\">Scheffler, Ian (May 16, 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://blog.seas.upenn.edu/recognizing-a-pioneer-the-ieee-dedicates-milestone-to-grace-hopper-at-penn-engineering/\">\"Recognizing a Pioneer: The IEEE Dedicates Milestone to Grace Hopper at Penn Engineering\"</a>. <i>Penn Engineering Blog</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 7,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Penn+Engineering+Blog&amp;rft.atitle=Recognizing+a+Pioneer%3A+The+IEEE+Dedicates+Milestone+to+Grace+Hopper+at+Penn+Engineering&amp;rft.date=2024-05-16&amp;rft.aulast=Scheffler&amp;rft.aufirst=Ian&amp;rft&#95;id=https%3A%2F%2Fblog.seas.upenn.edu%2Frecognizing-a-pioneer-the-ieee-dedicates-milestone-to-grace-hopper-at-penn-engineering%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFScheffler2024\" class=\"citation web cs1\">Scheffler, Ian (June 6, 2024). <a rel=\"nofollow\" class=\"external text\" href=\"https://penntoday.upenn.edu/news/recognizing-pioneer-penn-engineerings-grace-hopper\">\"Recognizing a pioneer: Penn Engineering's Grace Hopper\"</a>. <i>Penn Today</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 7,</span> 2024</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Penn+Today&amp;rft.atitle=Recognizing+a+pioneer%3A+Penn+Engineering%27s+Grace+Hopper&amp;rft.date=2024-06-06&amp;rft.aulast=Scheffler&amp;rft.aufirst=Ian&amp;rft&#95;id=https%3A%2F%2Fpenntoday.upenn.edu%2Fnews%2Frecognizing-pioneer-penn-engineerings-grace-hopper&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGrace+Hopper\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐4sks4\nCached time: 20260918164200\nCache expiry: 28800\nCache expiry source: Module:Wd (os.date(!%Y‐%m‐%d))\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.357 seconds\nReal time usage: 0.500 seconds\nPreprocessor visited node count: 6167/1000000\nRevision size: 8611/2097152 bytes\nPost‐expand include size: 61989/2097152 bytes\nTemplate argument size: 14903/2097152 bytes\nHighest expansion depth: 20/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 37237/5000000 bytes\nLua time usage: 0.246/10.000 seconds\nLua memory usage: 11341985/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  472.132      1 -total\n 57.28%  270.454      1 Template:Infobox_person\n 19.42%   91.669     63 Template:Pluralize_from_text\n 14.49%   68.425     12 Template:Br_separated_entries\n 12.83%   60.553      1 Template:Infobox_military_person\n 12.56%   59.278      2 Template:Cite_news\n 11.87%   56.056      1 Template:Short_description\n 10.49%   49.537      1 Template:Marriage\n  8.26%   38.989      1 Template:Birth_date\n  7.77%   36.689      1 Template:Infobox_scientist\n-->\n\n<!-- Render ID de7acd72-b37f-11f1-89ae-f9b1a9b68d1f -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Grace Hopper College",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Grace Hopper (submarine communications cable)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "USS Hopper",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "A-0 System",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "American Campaign Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arleigh Burke-class destroyer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arlington County, Virginia",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Arlington National Cemetery",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Armed Forces Reserve Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bachelor of Arts",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Barack Obama",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Birth name",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "COBOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CODASYL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer scientist",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cray XE6",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Defense Distinguished Service Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Digital Equipment Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctor of Philosophy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctoral advisor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Eckert–Mauchly Computer Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FLOW-MATIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Harvard Mark I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Harvard University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hopper (microarchitecture)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hopper College",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hourglass Device",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Howard H. Aiken",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISSN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Institute of Electrical and Electronics Engineers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Legion of Merit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linker (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Machine code",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Master of Science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematician",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Meritorious Service Medal (USA)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NERSC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "National Defense Service Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "National Medal of Technology and Innovation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Naval Reserve Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Presidential Medal of Freedom",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rear admiral (United States)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rear admiral (lower half)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Remington Rand",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Texas A&M University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thesis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "UNIVAC I",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "United States Navy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "United States Navy Reserve",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "University of Pennsylvania",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vassar College",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "World War II Victory Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Yale University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Øystein Ore",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "U.S. naval officer and computer scientist (1906–1992)",
+          "page_image_free": "Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg",
+          "wikibase_item": "Q11641"
+        }
+      }
+    }
+  ]
+}

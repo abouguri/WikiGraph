@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Firefox",
+    "url": "https://en.wikipedia.org/wiki/Firefox",
+    "summary": "Web browser made by Mozilla This article is about the web browser. For other uses, see Firefox (disambiguation) . \"Phoenix (web browser)\" redirects here. For the 1990s web browser developed at the University of Chicago, see Phoenix (tkWWW-based browser) . Firefox Logo used since October 2019 Firefox 152.0.3 (64-bit) running on the Ubuntu operating system Developers Mozilla Foundation and its contributors Mozilla Corporation Release November 9, 2004 ; 21 years ago ( 2004-11-09 ) Stable release(s) [±] Standard 156.0 / September 15, 2026 ; 3 days ago ( September 15, 2026 ) ESR 153 153.3.0esr / September 15, 2026 ; 3 days ago ( September 15, 2026 ) ESR 140 140.16.0esr / September 15, 2026 ; 3 days ago ( 2026-09-15 ) ESR 115 115.41.0esr / September 15, 2026 ; 3 days ago ( 2026-09-15 ) Preview release(s) [±] Beta and developer 157.0b2 / September 16, 2026 ; 2 days ago ( September 16, 2026 ) Nightly 158.0a1 / September 10, 2026 ; 8 days ago ( September 10, 2026 ) Written in C++ , JavaScript , HTML , C , Rust , and others Engines Gecko , Quantum , and SpiderMonkey ; WebKit on iOS/iPadOS Operating system Haiku Linux Oracle Solaris OpenIndiana macOS Catalina or later Windows 10 or later Windows Server 2016 or later Android Oreo or later iOS 15 or later iPadOS 15 or later Included with Various Unix-like operating systems Available in 97 languages Type Web browser License MPL 2.0 Website firefox .com Repository github .com /mozilla-firefox /firefox Mozilla Firefox , or simply Firefox , is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation . It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. The software is available for Windows , macOS , and Linux systems, as well as a mobile version for Android (see Firefox for Android ) and iOS , with unofficial ports for other platforms such as Oracle Solaris and OpenIndiana . Firefox is the spiritual successor of Netscape Navigator , as the Mozilla community was created by Netscape in 1998, before Netscape's acquisition by AOL . Firefox was created in 2002 under the codename \"Phoenix\" by members of the Mozilla community who desired a standalone browser rather than the Mozilla Application Suite bundle. During its beta phase, it proved to be popular with its testers and was praised for its speed, security, and add-ons compared to Microsoft 's then-dominant Internet Explorer 6 . It was released on November 9, 2004, and challenged Internet Explorer 's dominance with 60 million downloads within nine months. In November 2017, Firefox began incorporating new technology under the code name \" Quantum \" to promote parallelism and a more intuitive user interface . The current version of Firefox is available for Windows 10 or later versions of Windows, as well as macOS, and Linux. Its unofficial ports are available for various Unix systems such as Oracle Solaris and OpenIndiana , as well as for Unix-like operating systems, including FreeBSD , OpenBSD , NetBSD , and other operating systems, such as ReactOS . It is the default, pre-installed browser on Debian , Ubuntu , and some other Linux distros. Firefox is also available for Android and iOS . However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version was also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser until April 30, 2021, when Firefox was discontinued on that platform. Firefox usage share grew to a peak of 32.21% in November 2009, with Firefox 3.5 overtaking Internet Explorer 7 , although not all versions of Internet Explorer as a whole; its usage then declined in competition with Google Chrome . As of July 2026 [update] , according to StatCounter , it had a 6.3% usage share on traditional PCs (i.e. as a desktop browser), making it the third-most popular PC web browser after Google Chrome (72%) and Microsoft Edge (10%), and ahead of Safari (5.2%). ^ \"Firefox 156.0, See All New Features, Updates and Fixes\" . September 15, 2026 . Retrieved September 15, 2026 . ^ \"Firefox ESR 153.3.0, See All New Features, Updates and Fixes\" . September 15, 2026 . Retrieved September 15, 2026 . ^ \"Firefox ESR 140.16.0, See All New Features, Updates and Fixes\" . Firefox. September 15, 2026 . Retrieved September 15, 2026 . ^ \"Firefox ESR 115.41.0, See All New Features, Updates and Fixes\" . Firefox. September 15, 2026 . Retrieved September 15, 2026 . ^ \"Index of /pub/firefox/releases/157.0b2/\" . September 16, 2026 . Retrieved September 17, 2026 . ^ \"Firefox Nightly 158.0a1, See All New Features, Updates and Fixes\" . September 10, 2026 . Retrieved September 11, 2026 . ^ Yegulalp, Serdar (February 3, 2017). \"Mozilla binds Firefox's fate to the Rust language\" . InfoWorld . Archived from the original on August 19, 2017 . Retrieved August 19, 2017 . ^ \"The Mozilla Firefox Open Source Project on Open Hub: Languages Page\" . openhub.net . Archived from the original on October 7, 2021 . Retrieved October 15, 2021 . ^ \"Raising the Minimum Android Version for Firefox\" . September 15, 2025 . Retrieved September 15, 2025 . ^ Cite error: The named reference languages was invoked but never defined (see the help page ). ^ \"Mozilla\" . Archived from the original on October 21, 2014 . Retrieved October 20, 2014 . ^ Cite error: The named reference Licensing-Policies was invoked but never defined (see the help page ). ^ Corbet, Jonathan (January 10, 2005). \"Debian and Mozilla – a study in trademarks\" . LWN.net . Archived from the original on August 1, 2017 . Retrieved September 14, 2011 . ^ \"Gecko Layout Engine\" . download-firefox.org. July 17, 2008. Archived from the original on June 15, 2010 . Retrieved May 10, 2012 . ^ Jay, Paul (February 28, 2008). \"Curtains for Netscape – Tech Bytes\" . CBC News. Archived from the original on July 5, 2015 . Retrieved June 26, 2015 . ^ \"Firefox browser takes on Microsoft\" . BBC News . November 9, 2004. Archived from the original on December 20, 2017. ^ Weber, Tim (May 9, 2005). \"The assault on software giant Microsoft\" . BBC News . Archived from the original on September 25, 2017. ^ Mayo, Mark (November 14, 2017). \"Introducing the New Firefox: Firefox Quantum\" . The Mozilla Blog . Archived from the original on June 27, 2018 . Retrieved May 26, 2018 . ^ \"FreeBSD ports\" . Archived from the original on March 23, 2019 . Retrieved March 24, 2018 . ^ \"OpenBSD ports\" . Archived from the original on January 20, 2019 . Retrieved March 24, 2018 . ^ \"NetBSD pkgsrc\" . Archived from the original on November 1, 2018 . Retrieved October 31, 2018 . ^ \"Firefox for Fire TV\" . Amazon . Archived from the original on July 7, 2020 . Retrieved July 17, 2020 . ^ a b StatCounter. \"Desktop Browser Market Share Worldwide (Jan 2009 – Jan 2013)\" . gs.statcounter.com . Archived from the original on October 11, 2017 . Retrieved October 23, 2021 . ^ \"StatCounter Global Stats – Browser, OS, Search Engine including Mobile Usage Share\" . StatCounter Global Stats . Retrieved July 14, 2018 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"StatCounter global stats – Top 12 browser versions\" . StatCounter . Retrieved March 12, 2010 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"Desktop Browser Market Share Worldwide\" . StatCounter Global Stats . Retrieved July 18, 2026 . ^ \"Desktop Browser Market Share Worldwide\" . StatCounter Global Stats . Retrieved July 18, 2026 .",
+    "text": "Web browser made by Mozilla This article is about the web browser. For other uses, see Firefox (disambiguation) . \"Phoenix (web browser)\" redirects here. For the 1990s web browser developed at the University of Chicago, see Phoenix (tkWWW-based browser) . Firefox Logo used since October 2019 Firefox 152.0.3 (64-bit) running on the Ubuntu operating system Developers Mozilla Foundation and its contributors Mozilla Corporation Release November 9, 2004 ; 21 years ago ( 2004-11-09 ) Stable release(s) [±] Standard 156.0 / September 15, 2026 ; 3 days ago ( September 15, 2026 ) ESR 153 153.3.0esr / September 15, 2026 ; 3 days ago ( September 15, 2026 ) ESR 140 140.16.0esr / September 15, 2026 ; 3 days ago ( 2026-09-15 ) ESR 115 115.41.0esr / September 15, 2026 ; 3 days ago ( 2026-09-15 ) Preview release(s) [±] Beta and developer 157.0b2 / September 16, 2026 ; 2 days ago ( September 16, 2026 ) Nightly 158.0a1 / September 10, 2026 ; 8 days ago ( September 10, 2026 ) Written in C++ , JavaScript , HTML , C , Rust , and others Engines Gecko , Quantum , and SpiderMonkey ; WebKit on iOS/iPadOS Operating system Haiku Linux Oracle Solaris OpenIndiana macOS Catalina or later Windows 10 or later Windows Server 2016 or later Android Oreo or later iOS 15 or later iPadOS 15 or later Included with Various Unix-like operating systems Available in 97 languages Type Web browser License MPL 2.0 Website firefox .com Repository github .com /mozilla-firefox /firefox Mozilla Firefox , or simply Firefox , is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation . It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. The software is available for Windows , macOS , and Linux systems, as well as a mobile version for Android (see Firefox for Android ) and iOS , with unofficial ports for other platforms such as Oracle Solaris and OpenIndiana . Firefox is the spiritual successor of Netscape Navigator , as the Mozilla community was created by Netscape in 1998, before Netscape's acquisition by AOL . Firefox was created in 2002 under the codename \"Phoenix\" by members of the Mozilla community who desired a standalone browser rather than the Mozilla Application Suite bundle. During its beta phase, it proved to be popular with its testers and was praised for its speed, security, and add-ons compared to Microsoft 's then-dominant Internet Explorer 6 . It was released on November 9, 2004, and challenged Internet Explorer 's dominance with 60 million downloads within nine months. In November 2017, Firefox began incorporating new technology under the code name \" Quantum \" to promote parallelism and a more intuitive user interface . The current version of Firefox is available for Windows 10 or later versions of Windows, as well as macOS, and Linux. Its unofficial ports are available for various Unix systems such as Oracle Solaris and OpenIndiana , as well as for Unix-like operating systems, including FreeBSD , OpenBSD , NetBSD , and other operating systems, such as ReactOS . It is the default, pre-installed browser on Debian , Ubuntu , and some other Linux distros. Firefox is also available for Android and iOS . However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version was also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser until April 30, 2021, when Firefox was discontinued on that platform. Firefox usage share grew to a peak of 32.21% in November 2009, with Firefox 3.5 overtaking Internet Explorer 7 , although not all versions of Internet Explorer as a whole; its usage then declined in competition with Google Chrome . As of July 2026 [update] , according to StatCounter , it had a 6.3% usage share on traditional PCs (i.e. as a desktop browser), making it the third-most popular PC web browser after Google Chrome (72%) and Microsoft Edge (10%), and ahead of Safari (5.2%). ^ \"Firefox 156.0, See All New Features, Updates and Fixes\" . September 15, 2026 . Retrieved September 15, 2026 . ^ \"Firefox ESR 153.3.0, See All New Features, Updates and Fixes\" . September 15, 2026 . Retrieved September 15, 2026 . ^ \"Firefox ESR 140.16.0, See All New Features, Updates and Fixes\" . Firefox. September 15, 2026 . Retrieved September 15, 2026 . ^ \"Firefox ESR 115.41.0, See All New Features, Updates and Fixes\" . Firefox. September 15, 2026 . Retrieved September 15, 2026 . ^ \"Index of /pub/firefox/releases/157.0b2/\" . September 16, 2026 . Retrieved September 17, 2026 . ^ \"Firefox Nightly 158.0a1, See All New Features, Updates and Fixes\" . September 10, 2026 . Retrieved September 11, 2026 . ^ Yegulalp, Serdar (February 3, 2017). \"Mozilla binds Firefox's fate to the Rust language\" . InfoWorld . Archived from the original on August 19, 2017 . Retrieved August 19, 2017 . ^ \"The Mozilla Firefox Open Source Project on Open Hub: Languages Page\" . openhub.net . Archived from the original on October 7, 2021 . Retrieved October 15, 2021 . ^ \"Raising the Minimum Android Version for Firefox\" . September 15, 2025 . Retrieved September 15, 2025 . ^ Cite error: The named reference languages was invoked but never defined (see the help page ). ^ \"Mozilla\" . Archived from the original on October 21, 2014 . Retrieved October 20, 2014 . ^ Cite error: The named reference Licensing-Policies was invoked but never defined (see the help page ). ^ Corbet, Jonathan (January 10, 2005). \"Debian and Mozilla – a study in trademarks\" . LWN.net . Archived from the original on August 1, 2017 . Retrieved September 14, 2011 . ^ \"Gecko Layout Engine\" . download-firefox.org. July 17, 2008. Archived from the original on June 15, 2010 . Retrieved May 10, 2012 . ^ Jay, Paul (February 28, 2008). \"Curtains for Netscape – Tech Bytes\" . CBC News. Archived from the original on July 5, 2015 . Retrieved June 26, 2015 . ^ \"Firefox browser takes on Microsoft\" . BBC News . November 9, 2004. Archived from the original on December 20, 2017. ^ Weber, Tim (May 9, 2005). \"The assault on software giant Microsoft\" . BBC News . Archived from the original on September 25, 2017. ^ Mayo, Mark (November 14, 2017). \"Introducing the New Firefox: Firefox Quantum\" . The Mozilla Blog . Archived from the original on June 27, 2018 . Retrieved May 26, 2018 . ^ \"FreeBSD ports\" . Archived from the original on March 23, 2019 . Retrieved March 24, 2018 . ^ \"OpenBSD ports\" . Archived from the original on January 20, 2019 . Retrieved March 24, 2018 . ^ \"NetBSD pkgsrc\" . Archived from the original on November 1, 2018 . Retrieved October 31, 2018 . ^ \"Firefox for Fire TV\" . Amazon . Archived from the original on July 7, 2020 . Retrieved July 17, 2020 . ^ a b StatCounter. \"Desktop Browser Market Share Worldwide (Jan 2009 – Jan 2013)\" . gs.statcounter.com . Archived from the original on October 11, 2017 . Retrieved October 23, 2021 . ^ \"StatCounter Global Stats – Browser, OS, Search Engine including Mobile Usage Share\" . StatCounter Global Stats . Retrieved July 14, 2018 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"StatCounter global stats – Top 12 browser versions\" . StatCounter . Retrieved March 12, 2010 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) ^ \"Desktop Browser Market Share Worldwide\" . StatCounter Global Stats . Retrieved July 18, 2026 . ^ \"Desktop Browser Market Share Worldwide\" . StatCounter Global Stats . Retrieved July 18, 2026 .",
+    "links": [
+      "AOL",
+      "Amazon Fire TV",
+      "Amazon Silk",
+      "Android (operating system)",
+      "Android Oreo",
+      "BBC News",
+      "Browser engine",
+      "C (programming language)",
+      "C++",
+      "Debian",
+      "Firefox (disambiguation)",
+      "Firefox 3.5",
+      "Firefox for Android",
+      "Firefox logo",
+      "Free and open-source software",
+      "FreeBSD",
+      "Gecko (software)",
+      "Google Chrome",
+      "HTML",
+      "Haiku (operating system)",
+      "IOS",
+      "IOS 15",
+      "IPadOS 15",
+      "Internet Explorer",
+      "Internet Explorer 6",
+      "Internet Explorer 7",
+      "JavaScript",
+      "LWN.net",
+      "Linux",
+      "MPL 2.0",
+      "MacOS",
+      "MacOS Catalina",
+      "Microsoft",
+      "Microsoft Edge",
+      "Microsoft Windows",
+      "Mobile web",
+      "Mozilla",
+      "Mozilla Application Suite",
+      "Mozilla Corporation",
+      "Mozilla Foundation",
+      "NetBSD",
+      "Netscape",
+      "Netscape Navigator",
+      "OpenBSD",
+      "OpenIndiana",
+      "Operating system",
+      "Oracle Solaris",
+      "Parallel computing",
+      "Phoenix (tkWWW-based browser)",
+      "Programmer",
+      "Quantum (Mozilla)",
+      "ReactOS",
+      "Repository (version control)",
+      "Rust (programming language)",
+      "Safari (web browser)",
+      "Software categories",
+      "Software engine",
+      "Software license",
+      "Software release life cycle",
+      "SpiderMonkey",
+      "Spiritual successor",
+      "StatCounter",
+      "Ubuntu",
+      "Unix",
+      "Unix-like",
+      "Usage share of web browsers",
+      "User interface",
+      "Web browser",
+      "WebKit",
+      "Windows 10",
+      "Windows Server 2016",
+      "X86-64"
+    ],
+    "page_id": 210892,
+    "revision_id": 1375543177,
+    "retrieved_at": "2026-09-18T16:42:02.484034+00:00",
+    "aliases": [
+      "Mozilla Firefox"
+    ],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260918071038|1375515069",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "redirects": [
+          {
+            "from": "Mozilla Firefox",
+            "to": "Firefox"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 210892,
+            "ns": 0,
+            "title": "Firefox",
+            "revisions": [
+              {
+                "revid": 1375543177,
+                "parentid": 1375515069
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Firefox_logo,_2019.svg",
+              "wikibase-shortdesc": "Web browser made by Mozilla",
+              "wikibase_item": "Q698"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Firefox",
+        "pageid": 210892,
+        "revid": 1375543177,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Web browser made by Mozilla</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\"><span>This article is about the web browser. For other uses, see <a href=\"/wiki/Firefox_(disambiguation)\" class=\"mw-disambig\" title=\"Firefox (disambiguation)\">Firefox (disambiguation)</a>.</span> <span>\"Phoenix (web browser)\" redirects here. For the 1990s web browser developed at the University of Chicago, see <a href=\"/wiki/Phoenix_(tkWWW-based_browser)\" class=\"mw-redirect\" title=\"Phoenix (tkWWW-based browser)\">Phoenix (tkWWW-based browser)</a>.</span></div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">Firefox</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Firefox_logo,_2019.svg\" class=\"mw-file-description\"><img alt=\"Firefox logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/250px-Firefox_logo%2C_2019.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"125\" height=\"125\" class=\"mw-file-element\" data-file-width=\"512\" data-file-height=\"512\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/Firefox_logo\" title=\"Firefox logo\">Logo</a> used since October 2019</div></td></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Firefox_152.0.3_opening_Wikipedia_article_on_Linux_screenshot.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Firefox_152.0.3_opening_Wikipedia_article_on_Linux_screenshot.png/250px-Firefox_152.0.3_opening_Wikipedia_article_on_Linux_screenshot.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"141\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Firefox_152.0.3_opening_Wikipedia_article_on_Linux_screenshot.png/500px-Firefox_152.0.3_opening_Wikipedia_article_on_Linux_screenshot.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1329\" data-file-height=\"752\" /></a></span><div class=\"infobox-caption\">Firefox 152.0.3 <a href=\"/wiki/X86-64\" title=\"X86-64\">(64-bit)</a> running on the <a href=\"/wiki/Ubuntu\" title=\"Ubuntu\">Ubuntu</a> operating system</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developers</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Mozilla_Foundation\" title=\"Mozilla Foundation\">Mozilla Foundation</a> and its contributors</li><li><a href=\"/wiki/Mozilla_Corporation\" title=\"Mozilla Corporation\">Mozilla Corporation</a></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">November&#160;9, 2004<span class=\"noprint\">&#59;&#32;21 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2004-11-09</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th colspan=\"2\" class=\"infobox-header\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release(s)</a> <span class=\"plainlinks\" style=\"font-size:smaller; margin:0px\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/wiki/Template:Latest_stable_software_release/Firefox?action=edit\" href=\"https://en.wikipedia.org/wiki/Template:Latest_stable_software_release/Firefox?action=edit\">&#91;±&#93;</a></span></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><table class=\"infobox-subbox\"><tbody><tr><th scope=\"row\" class=\"infobox-label\">Standard</th><td class=\"infobox-data\">156.0<sup id=\"cite&#95;ref-wikidata-a4ce8894e22be40af9578f667cea83ca574efbd1-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-a4ce8894e22be40af9578f667cea83ca574efbd1-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q698?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span> / September 15, 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">September 15, 2026</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><abbr title=\"Extended support release\">ESR</abbr><span class=\"nowrap\">&#160;</span>153</th><td class=\"infobox-data\">153.3.0esr<sup id=\"cite&#95;ref-wikidata-5913ec0182b332dcd858b6cac10364f337b60730-v20&#95;2-0\" class=\"reference\"><a href=\"#cite_note-wikidata-5913ec0182b332dcd858b6cac10364f337b60730-v20-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q698?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span> / September 15, 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">September 15, 2026</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><abbr title=\"Extended support release\">ESR</abbr><span class=\"nowrap\">&#160;</span>140</th><td class=\"infobox-data\">140.16.0esr<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> / September&#160;15, 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-09-15</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><abbr title=\"Extended support release\">ESR</abbr><span class=\"nowrap\">&#160;</span>115</th><td class=\"infobox-data\">115.41.0esr<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> / September&#160;15, 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-09-15</span>)</span></td></tr></tbody></table></td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></tr><tr><th colspan=\"2\" class=\"infobox-header\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release(s)</a> <span class=\"plainlinks\" style=\"font-size:smaller; margin:0px\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/wiki/Template:Latest_preview_software_release/Firefox?action=edit\" href=\"https://en.wikipedia.org/wiki/Template:Latest_preview_software_release/Firefox?action=edit\">&#91;±&#93;</a></span></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><table class=\"infobox-subbox\"><tbody><tr><th scope=\"row\" class=\"infobox-label\">Beta and<br />developer</th><td class=\"infobox-data\">157.0b2<sup id=\"cite&#95;ref-wikidata-279115ec9dfdab7e07ef8a2d278b954422275432-v20&#95;5-0\" class=\"reference\"><a href=\"#cite_note-wikidata-279115ec9dfdab7e07ef8a2d278b954422275432-v20-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q698?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span> / September 16, 2026<span class=\"noprint\">&#59;&#32;2 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">September 16, 2026</span>)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Nightly</th><td class=\"infobox-data\">158.0a1<sup id=\"cite&#95;ref-wikidata-6e38781f41f671d5bb942497a0d4ecd30980065d-v20&#95;6-0\" class=\"reference\"><a href=\"#cite_note-wikidata-6e38781f41f671d5bb942497a0d4ecd30980065d-v20-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q698?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span> / September 10, 2026<span class=\"noprint\">&#59;&#32;8 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">September 10, 2026</span>)</span></td></tr></tbody></table></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/HTML\" title=\"HTML\">HTML</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>, and others<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_engine\" title=\"Software engine\">Engines</a></th><td class=\"infobox-data\"><a href=\"/wiki/Gecko_(software)\" title=\"Gecko (software)\">Gecko</a>, <a href=\"/wiki/Quantum_(Mozilla)\" class=\"mw-redirect\" title=\"Quantum (Mozilla)\">Quantum</a>, and <a href=\"/wiki/SpiderMonkey\" title=\"SpiderMonkey\">SpiderMonkey</a>; <a href=\"/wiki/WebKit\" title=\"WebKit\">WebKit</a> on iOS/iPadOS</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Haiku_(operating_system)\" title=\"Haiku (operating system)\">Haiku</a></li><li><a href=\"/wiki/Linux\" title=\"Linux\">Linux</a></li><li><a href=\"/wiki/Oracle_Solaris\" title=\"Oracle Solaris\">Oracle Solaris</a></li><li><a href=\"/wiki/OpenIndiana\" title=\"OpenIndiana\">OpenIndiana</a></li><li><a href=\"/wiki/MacOS_Catalina\" title=\"MacOS Catalina\">macOS Catalina</a> or later</li><li><a href=\"/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a> or later</li><li><a href=\"/wiki/Windows_Server_2016\" title=\"Windows Server 2016\">Windows Server 2016</a> or later</li><li><a href=\"/wiki/Android_Oreo\" title=\"Android Oreo\">Android Oreo</a> or later<sup id=\"cite&#95;ref-Raising&#95;the&#95;Minimum&#95;Android&#95;Version&#95;for&#95;Firefox&#95;9-0\" class=\"reference\"><a href=\"#cite_note-Raising_the_Minimum_Android_Version_for_Firefox-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup></li><li><a href=\"/wiki/IOS_15\" title=\"IOS 15\">iOS 15</a> or later</li><li><a href=\"/wiki/IPadOS_15\" title=\"IPadOS 15\">iPadOS 15</a> or later</li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Included with</th><td class=\"infobox-data\">Various <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> operating systems</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Available in</th><td class=\"infobox-data\">97 languages<sup id=\"cite&#95;ref-languages&#95;10-0\" class=\"reference\"><a href=\"#cite_note-languages-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Web_browser\" title=\"Web browser\">Web browser</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/MPL_2.0\" class=\"mw-redirect\" title=\"MPL 2.0\">MPL 2.0</a><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Licensing-Policies&#95;12-0\" class=\"reference\"><a href=\"#cite_note-Licensing-Policies-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://firefox.com\">firefox<wbr />.com</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/mozilla-firefox/firefox\">github<wbr />.com<wbr />/mozilla-firefox<wbr />/firefox</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q698#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>Mozilla Firefox</b>, or simply <b>Firefox</b>, is a <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source</a><sup id=\"cite&#95;ref-LWNtrademark&#95;13-0\" class=\"reference\"><a href=\"#cite_note-LWNtrademark-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Web_browser\" title=\"Web browser\">web browser</a> developed by the <a href=\"/wiki/Mozilla_Foundation\" title=\"Mozilla Foundation\">Mozilla Foundation</a> and its subsidiary, the <a href=\"/wiki/Mozilla_Corporation\" title=\"Mozilla Corporation\">Mozilla Corporation</a>. It uses the <a href=\"/wiki/Gecko_(software)\" title=\"Gecko (software)\">Gecko</a> <a href=\"/wiki/Browser_engine\" title=\"Browser engine\">rendering engine</a> to display web pages, which implements current and anticipated web standards.<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> The software is available for <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, and <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a> systems, as well as a <a href=\"/wiki/Mobile_web\" title=\"Mobile web\">mobile</a> version for <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a> (see <a href=\"/wiki/Firefox_for_Android\" title=\"Firefox for Android\">Firefox for Android</a>) and <a href=\"/wiki/IOS\" title=\"IOS\">iOS</a>, with unofficial ports for other platforms such as <a href=\"/wiki/Oracle_Solaris\" title=\"Oracle Solaris\">Oracle Solaris</a> and <a href=\"/wiki/OpenIndiana\" title=\"OpenIndiana\">OpenIndiana</a>.\n</p><p>Firefox is the <a href=\"/wiki/Spiritual_successor\" title=\"Spiritual successor\">spiritual successor</a> of <a href=\"/wiki/Netscape_Navigator\" title=\"Netscape Navigator\">Netscape Navigator</a>, as the <a href=\"/wiki/Mozilla\" title=\"Mozilla\">Mozilla</a> community was created by <a href=\"/wiki/Netscape\" title=\"Netscape\">Netscape</a> in 1998, before Netscape's acquisition by <a href=\"/wiki/AOL\" title=\"AOL\">AOL</a>.<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> Firefox was created in 2002 under the codename \"Phoenix\" by members of the Mozilla community who desired a standalone browser rather than the <a href=\"/wiki/Mozilla_Application_Suite\" title=\"Mozilla Application Suite\">Mozilla Application Suite</a> bundle. During its <a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">beta</a> phase, it proved to be popular with its testers and was praised for its speed, security, and add-ons compared to <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>'s then-dominant <a href=\"/wiki/Internet_Explorer_6\" title=\"Internet Explorer 6\">Internet Explorer&#160;6</a>. It was released on November 9, 2004,<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> and challenged <a href=\"/wiki/Internet_Explorer\" title=\"Internet Explorer\">Internet Explorer</a>'s dominance with 60 million downloads within nine months.<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup> In November 2017, Firefox began incorporating new technology under the code name \"<a href=\"/wiki/Quantum_(Mozilla)\" class=\"mw-redirect\" title=\"Quantum (Mozilla)\">Quantum</a>\" to promote <a href=\"/wiki/Parallel_computing\" title=\"Parallel computing\">parallelism</a> and a more intuitive <a href=\"/wiki/User_interface\" title=\"User interface\">user interface</a>.<sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>The current version of Firefox is available for <a href=\"/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a> or later versions of Windows, as well as macOS, and Linux. Its unofficial ports are available for various <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a> systems such as <a href=\"/wiki/Oracle_Solaris\" title=\"Oracle Solaris\">Oracle Solaris</a> and <a href=\"/wiki/OpenIndiana\" title=\"OpenIndiana\">OpenIndiana</a>, as well as for <a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a> operating systems, including <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>,<sup id=\"cite&#95;ref-FreeBSD&#95;ports2&#95;19-0\" class=\"reference\"><a href=\"#cite_note-FreeBSD_ports2-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/OpenBSD\" title=\"OpenBSD\">OpenBSD</a>,<sup id=\"cite&#95;ref-OpenBSD&#95;ports2&#95;20-0\" class=\"reference\"><a href=\"#cite_note-OpenBSD_ports2-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/NetBSD\" title=\"NetBSD\">NetBSD</a>,<sup id=\"cite&#95;ref-NetBSD&#95;pkgsrc2&#95;21-0\" class=\"reference\"><a href=\"#cite_note-NetBSD_pkgsrc2-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> and other operating systems, such as <a href=\"/wiki/ReactOS\" title=\"ReactOS\">ReactOS</a>. It is the default, pre-installed browser on <a href=\"/wiki/Debian\" title=\"Debian\">Debian</a>, <a href=\"/wiki/Ubuntu\" title=\"Ubuntu\">Ubuntu</a>, and some other Linux distros. Firefox is also available for <a href=\"/wiki/Android_(operating_system)\" title=\"Android (operating system)\">Android</a> and <a href=\"/wiki/IOS\" title=\"IOS\">iOS</a>. However, as with all other iOS web browsers, the iOS version uses the <a href=\"/wiki/WebKit\" title=\"WebKit\">WebKit</a> layout engine instead of Gecko due to platform requirements. An optimized version was also available on the <a href=\"/wiki/Amazon_Fire_TV\" title=\"Amazon Fire TV\">Amazon Fire TV</a> as one of the two main browsers available with Amazon's <a href=\"/wiki/Amazon_Silk\" title=\"Amazon Silk\">Silk Browser</a><sup id=\"cite&#95;ref-22\" class=\"reference\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> until April 30, 2021, when Firefox was discontinued on that platform.\n</p><p>Firefox usage share grew to a peak of 32.21% in November 2009,<sup id=\"cite&#95;ref-StatCounter&#95;23-0\" class=\"reference\"><a href=\"#cite_note-StatCounter-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup> with <a href=\"/wiki/Firefox_3.5\" class=\"mw-redirect\" title=\"Firefox 3.5\">Firefox 3.5</a> overtaking <a href=\"/wiki/Internet_Explorer_7\" title=\"Internet Explorer 7\">Internet Explorer 7</a>, although not all versions of Internet Explorer as a whole;<sup id=\"cite&#95;ref-24\" class=\"reference\"><a href=\"#cite_note-24\"><span class=\"cite-bracket\">&#91;</span>24<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-25\" class=\"reference\"><a href=\"#cite_note-25\"><span class=\"cite-bracket\">&#91;</span>25<span class=\"cite-bracket\">&#93;</span></a></sup> its usage then declined in competition with <a href=\"/wiki/Google_Chrome\" title=\"Google Chrome\">Google Chrome</a>.<sup id=\"cite&#95;ref-StatCounter&#95;23-1\" class=\"reference\"><a href=\"#cite_note-StatCounter-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup> As of July&#160;2026<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Firefox&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Firefox&amp;action=edit\">&#91;update&#93;</a></sup>, according to <a href=\"/wiki/StatCounter\" title=\"StatCounter\">StatCounter</a>, it had a 6.3% <a href=\"/wiki/Usage_share_of_web_browsers\" title=\"Usage share of web browsers\">usage share</a> on traditional PCs (i.e. as a desktop browser), making it the third-most popular PC web browser after Google Chrome (72%) and <a href=\"/wiki/Microsoft_Edge\" title=\"Microsoft Edge\">Microsoft Edge</a> (10%), and ahead of <a href=\"/wiki/Safari_(web_browser)\" title=\"Safari (web browser)\">Safari</a> (5.2%).<sup id=\"cite&#95;ref-26\" class=\"reference\"><a href=\"#cite_note-26\"><span class=\"cite-bracket\">&#91;</span>26<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-27\" class=\"reference\"><a href=\"#cite_note-27\"><span class=\"cite-bracket\">&#91;</span>27<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-a4ce8894e22be40af9578f667cea83ca574efbd1-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-a4ce8894e22be40af9578f667cea83ca574efbd1-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.firefox.com/en-US/firefox/156.0/releasenotes/\">\"Firefox 156.0, See All New Features, Updates and Fixes\"</a>. September 15, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 15,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Firefox+156.0%2C+See+All+New+Features%2C+Updates+and+Fixes&amp;rft.date=2026-09-15&amp;rft&#95;id=https%3A%2F%2Fwww.firefox.com%2Fen-US%2Ffirefox%2F156.0%2Freleasenotes%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-5913ec0182b332dcd858b6cac10364f337b60730-v20-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-5913ec0182b332dcd858b6cac10364f337b60730-v20_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.firefox.com/en-US/firefox/153.3.0/releasenotes/\">\"Firefox ESR 153.3.0, See All New Features, Updates and Fixes\"</a>. September 15, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 15,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Firefox+ESR+153.3.0%2C+See+All+New+Features%2C+Updates+and+Fixes&amp;rft.date=2026-09-15&amp;rft&#95;id=https%3A%2F%2Fwww.firefox.com%2Fen-US%2Ffirefox%2F153.3.0%2Freleasenotes%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.firefox.com/en-US/firefox/140.16.0/releasenotes/\">\"Firefox ESR 140.16.0, See All New Features, Updates and Fixes\"</a>. Firefox. September 15, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 15,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Firefox+ESR+140.16.0%2C+See+All+New+Features%2C+Updates+and+Fixes&amp;rft.pub=Firefox&amp;rft.date=2026-09-15&amp;rft&#95;id=https%3A%2F%2Fwww.firefox.com%2Fen-US%2Ffirefox%2F140.16.0%2Freleasenotes%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.firefox.com/en-US/firefox/115.41.0/releasenotes/\">\"Firefox ESR 115.41.0, See All New Features, Updates and Fixes\"</a>. Firefox. September 15, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 15,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Firefox+ESR+115.41.0%2C+See+All+New+Features%2C+Updates+and+Fixes&amp;rft.pub=Firefox&amp;rft.date=2026-09-15&amp;rft&#95;id=https%3A%2F%2Fwww.firefox.com%2Fen-US%2Ffirefox%2F115.41.0%2Freleasenotes%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-279115ec9dfdab7e07ef8a2d278b954422275432-v20-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-279115ec9dfdab7e07ef8a2d278b954422275432-v20_5-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.mozilla.org/pub/firefox/releases/157.0b2/\">\"Index of /pub/firefox/releases/157.0b2/\"</a>. September 16, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 17,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Index+of+%2Fpub%2Ffirefox%2Freleases%2F157.0b2%2F&amp;rft.date=2026-09-16&amp;rft&#95;id=https%3A%2F%2Farchive.mozilla.org%2Fpub%2Ffirefox%2Freleases%2F157.0b2%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-6e38781f41f671d5bb942497a0d4ecd30980065d-v20-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-6e38781f41f671d5bb942497a0d4ecd30980065d-v20_6-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.firefox.com/en-US/firefox/158.0a1/releasenotes/\">\"Firefox Nightly 158.0a1, See All New Features, Updates and Fixes\"</a>. September 10, 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 11,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Firefox+Nightly+158.0a1%2C+See+All+New+Features%2C+Updates+and+Fixes&amp;rft.date=2026-09-10&amp;rft&#95;id=https%3A%2F%2Fwww.firefox.com%2Fen-US%2Ffirefox%2F158.0a1%2Freleasenotes%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFYegulalp2017\" class=\"citation news cs1\">Yegulalp, Serdar (February 3, 2017). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoworld.com/article/3165424/web-browsers/mozilla-binds-firefoxs-fate-to-the-rust-language.html\">\"Mozilla binds Firefox's fate to the Rust language\"</a>. <i>InfoWorld</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170819063448/http://www.infoworld.com/article/3165424/web-browsers/mozilla-binds-firefoxs-fate-to-the-rust-language.html\">Archived</a> from the original on August 19, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 19,</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=InfoWorld&amp;rft.atitle=Mozilla+binds+Firefox%27s+fate+to+the+Rust+language&amp;rft.date=2017-02-03&amp;rft.aulast=Yegulalp&amp;rft.aufirst=Serdar&amp;rft&#95;id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3165424%2Fweb-browsers%2Fmozilla-binds-firefoxs-fate-to-the-rust-language.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.openhub.net/p/firefox/analyses/latest/languages_summary\">\"The Mozilla Firefox Open Source Project on Open Hub: Languages Page\"</a>. <i>openhub.net</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20211007234007/https://www.openhub.net/p/firefox/analyses/latest/languages_summary\">Archived</a> from the original on October 7, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 15,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=openhub.net&amp;rft.atitle=The+Mozilla+Firefox+Open+Source+Project+on+Open+Hub%3A+Languages+Page&amp;rft&#95;id=https%3A%2F%2Fwww.openhub.net%2Fp%2Ffirefox%2Fanalyses%2Flatest%2Flanguages&#95;summary&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Raising&#95;the&#95;Minimum&#95;Android&#95;Version&#95;for&#95;Firefox-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Raising_the_Minimum_Android_Version_for_Firefox_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://blog.mozilla.org/futurereleases/2025/09/15/raising-the-minimum-android-version-for-firefox/\">\"Raising the Minimum Android Version for Firefox\"</a>. September 15, 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 15,</span> 2025</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Raising+the+Minimum+Android+Version+for+Firefox&amp;rft.date=2025-09-15&amp;rft&#95;id=https%3A%2F%2Fblog.mozilla.org%2Ffuturereleases%2F2025%2F09%2F15%2Fraising-the-minimum-android-version-for-firefox%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-languages-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-languages_10-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>languages</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.mozilla.org/en-US/about/legal/eula/\">\"Mozilla\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20141021035640/https://www.mozilla.org/en-US/about/legal/eula/\">Archived</a> from the original on October 21, 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 20,</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Mozilla&amp;rft&#95;id=https%3A%2F%2Fwww.mozilla.org%2Fen-US%2Fabout%2Flegal%2Feula%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Licensing-Policies-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Licensing-Policies_12-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Licensing-Policies</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-LWNtrademark-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-LWNtrademark_13-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFCorbet,&#95;Jonathan2005\" class=\"citation web cs1\">Corbet, Jonathan (January 10, 2005). <a rel=\"nofollow\" class=\"external text\" href=\"https://lwn.net/Articles/118268/\">\"Debian and Mozilla – a study in trademarks\"</a>. <i><a href=\"/wiki/LWN.net\" title=\"LWN.net\">LWN.net</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170801163012/https://lwn.net/Articles/118268/\">Archived</a> from the original on August 1, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">September 14,</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=LWN.net&amp;rft.atitle=Debian+and+Mozilla+%E2%80%93+a+study+in+trademarks&amp;rft.date=2005-01-10&amp;rft.au=Corbet%2C+Jonathan&amp;rft&#95;id=https%3A%2F%2Flwn.net%2FArticles%2F118268%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20100615131607/http://download-firefox.org/spread-firefox/gecko-layout-engine-and-mozilla-firefox/\">\"Gecko Layout Engine\"</a>. download-firefox.org. July 17, 2008. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://download-firefox.org/spread-firefox/gecko-layout-engine-and-mozilla-firefox/\">the original</a> on June 15, 2010<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 10,</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Gecko+Layout+Engine&amp;rft.pub=download-firefox.org&amp;rft.date=2008-07-17&amp;rft&#95;id=http%3A%2F%2Fdownload-firefox.org%2Fspread-firefox%2Fgecko-layout-engine-and-mozilla-firefox%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJay2008\" class=\"citation news cs1\">Jay, Paul (February 28, 2008). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cbc.ca/technology/technology-blog/2008/02/curtains-for-netscape.html\">\"Curtains for Netscape – Tech Bytes\"</a>. CBC News. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150705110100/http://www.cbc.ca/technology/technology-blog/2008/02/curtains-for-netscape.html\">Archived</a> from the original on July 5, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 26,</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Curtains+for+Netscape+%E2%80%93+Tech+Bytes&amp;rft.date=2008-02-28&amp;rft.aulast=Jay&amp;rft.aufirst=Paul&amp;rft&#95;id=http%3A%2F%2Fwww.cbc.ca%2Ftechnology%2Ftechnology-blog%2F2008%2F02%2Fcurtains-for-netscape.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://news.bbc.co.uk/1/hi/technology/3993959.stm\">\"Firefox browser takes on Microsoft\"</a>. <i><a href=\"/wiki/BBC_News\" title=\"BBC News\">BBC News</a></i>. November 9, 2004. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171220113953/http://news.bbc.co.uk/2/hi/technology/3993959.stm\">Archived</a> from the original on December 20, 2017.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=BBC+News&amp;rft.atitle=Firefox+browser+takes+on+Microsoft&amp;rft.date=2004-11-09&amp;rft&#95;id=https%3A%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Ftechnology%2F3993959.stm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWeber2005\" class=\"citation web cs1\">Weber, Tim (May 9, 2005). <a rel=\"nofollow\" class=\"external text\" href=\"https://news.bbc.co.uk/2/hi/business/4508897.stm\">\"The assault on software giant Microsoft\"</a>. <i><a href=\"/wiki/BBC_News\" title=\"BBC News\">BBC News</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170925233936/http://news.bbc.co.uk/2/hi/business/4508897.stm\">Archived</a> from the original on September 25, 2017.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=BBC+News&amp;rft.atitle=The+assault+on+software+giant+Microsoft&amp;rft.date=2005-05-09&amp;rft.aulast=Weber&amp;rft.aufirst=Tim&amp;rft&#95;id=https%3A%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fbusiness%2F4508897.stm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMayo2017\" class=\"citation web cs1\">Mayo, Mark (November 14, 2017). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20180627114050/https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/\">\"Introducing the New Firefox: Firefox Quantum\"</a>. <i>The Mozilla Blog</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/\">the original</a> on June 27, 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">May 26,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Mozilla+Blog&amp;rft.atitle=Introducing+the+New+Firefox%3A+Firefox+Quantum&amp;rft.date=2017-11-14&amp;rft.aulast=Mayo&amp;rft.aufirst=Mark&amp;rft&#95;id=https%3A%2F%2Fblog.mozilla.org%2Fblog%2F2017%2F11%2F14%2Fintroducing-firefox-quantum%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FreeBSD&#95;ports2-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FreeBSD_ports2_19-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://svnweb.freebsd.org/ports/head/www/firefox/\">\"FreeBSD ports\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190323104221/https://svnweb.freebsd.org/ports/head/www/firefox/\">Archived</a> from the original on March 23, 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 24,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FreeBSD+ports&amp;rft&#95;id=https%3A%2F%2Fsvnweb.freebsd.org%2Fports%2Fhead%2Fwww%2Ffirefox%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-OpenBSD&#95;ports2-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-OpenBSD_ports2_20-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/www/mozilla-firefox/\">\"OpenBSD ports\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190120074628/http://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/www/mozilla-firefox/\">Archived</a> from the original on January 20, 2019<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 24,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=OpenBSD+ports&amp;rft&#95;id=http%3A%2F%2Fcvsweb.openbsd.org%2Fcgi-bin%2Fcvsweb%2Fports%2Fwww%2Fmozilla-firefox%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-NetBSD&#95;pkgsrc2-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-NetBSD_pkgsrc2_21-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/www/firefox/\">\"NetBSD pkgsrc\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181101015707/http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/www/firefox/\">Archived</a> from the original on November 1, 2018<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 31,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NetBSD+pkgsrc&amp;rft&#95;id=http%3A%2F%2Fcvsweb.netbsd.org%2Fbsdweb.cgi%2Fpkgsrc%2Fwww%2Ffirefox%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-22\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.amazon.com/Mozilla-Firefox-for-Fire-TV/dp/B078B5YMPD\">\"Firefox for Fire TV\"</a>. <i>Amazon</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200707103351/https://www.amazon.com/Mozilla-Firefox-for-Fire-TV/dp/B078B5YMPD\">Archived</a> from the original on July 7, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 17,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Amazon&amp;rft.atitle=Firefox+for+Fire+TV&amp;rft&#95;id=https%3A%2F%2Fwww.amazon.com%2FMozilla-Firefox-for-Fire-TV%2Fdp%2FB078B5YMPD&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-StatCounter-23\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-StatCounter_23-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-StatCounter_23-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStatCounter\" class=\"citation web cs1\">StatCounter. <a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/browser-market-share/desktop/worldwide/#monthly-200901-201301\">\"Desktop Browser Market Share Worldwide (Jan 2009 – Jan 2013)\"</a>. <i>gs.statcounter.com</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171011022101/https://gs.statcounter.com/browser-market-share/desktop/worldwide#monthly-200901-201301\">Archived</a> from the original on October 11, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 23,</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=gs.statcounter.com&amp;rft.atitle=Desktop+Browser+Market+Share+Worldwide+%28Jan+2009+%E2%80%93+Jan+2013%29&amp;rft.au=StatCounter&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2Fbrowser-market-share%2Fdesktop%2Fworldwide%2F%23monthly-200901-201301&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-24\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/#browser_version-ww-weekly-200827-200951\">\"StatCounter Global Stats – Browser, OS, Search Engine including Mobile Usage Share\"</a>. <i>StatCounter Global Stats</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 14,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=StatCounter+Global+Stats&amp;rft.atitle=StatCounter+Global+Stats+%E2%80%93+Browser%2C+OS%2C+Search+Engine+including+Mobile+Usage+Share&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2F%23browser&#95;version-ww-weekly-200827-200951&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>:  CS1 maint: deprecated archival service (<a href=\"/wiki/Category:CS1_maint:_deprecated_archival_service\" title=\"Category:CS1 maint: deprecated archival service\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-25\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-25\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/#browser_version-ww-monthly-200902-201006\">\"StatCounter global stats – Top 12 browser versions\"</a>. StatCounter<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 12,</span> 2010</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=StatCounter+global+stats+%E2%80%93+Top+12+browser+versions&amp;rft.pub=StatCounter&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2F%23browser&#95;version-ww-monthly-200902-201006&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_web\" title=\"Template:Cite web\">cite web</a>}}</code>:  CS1 maint: deprecated archival service (<a href=\"/wiki/Category:CS1_maint:_deprecated_archival_service\" title=\"Category:CS1 maint: deprecated archival service\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-26\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-26\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/browser-market-share/desktop/worldwide/#monthly-202606-202606-bar\">\"Desktop Browser Market Share Worldwide\"</a>. <i>StatCounter Global Stats</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 18,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=StatCounter+Global+Stats&amp;rft.atitle=Desktop+Browser+Market+Share+Worldwide&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2Fbrowser-market-share%2Fdesktop%2Fworldwide%2F%23monthly-202606-202606-bar&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-27\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-27\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gs.statcounter.com/browser-market-share/desktop/worldwide/#monthly-202509-202606\">\"Desktop Browser Market Share Worldwide\"</a>. <i>StatCounter Global Stats</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 18,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=StatCounter+Global+Stats&amp;rft.atitle=Desktop+Browser+Market+Share+Worldwide&amp;rft&#95;id=https%3A%2F%2Fgs.statcounter.com%2Fbrowser-market-share%2Fdesktop%2Fworldwide%2F%23monthly-202509-202606&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AFirefox\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐rqghg\nCached time: 20260918164228\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 1.225 seconds\nReal time usage: 1.344 seconds\nPreprocessor visited node count: 3976/1000000\nRevision size: 11833/2097152 bytes\nPost‐expand include size: 112779/2097152 bytes\nTemplate argument size: 6821/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 9/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 68950/5000000 bytes\nLua time usage: 1.031/10.000 seconds\nLua memory usage: 39346413/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n143.84% 1863.235      3 Template:Infobox\n100.00% 1295.388      1 -total\n 78.84% 1021.297      1 Template:Infobox_software\n 67.69%  876.906     10 Template:Wikidata\n 65.93%  854.027      1 Template:Infobox_software/stacked\n 64.60%  836.778      2 Template:Multiple_releases\n 47.60%  616.647      1 Template:Latest_stable_software_release/Firefox\n 19.45%  251.992      7 Template:Start_date_and_age\n 17.25%  223.519      1 Template:Latest_preview_software_release/Firefox\n  4.95%   64.116     19 Template:Cite_web\n-->\n\n<!-- Render ID ef2b3a3e-b37f-11f1-a088-09b244fee58d -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Firefox (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Phoenix (tkWWW-based browser)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AOL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amazon Fire TV",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amazon Silk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Android Oreo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BBC News",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Browser engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Firefox 3.5",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Firefox for Android",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Firefox logo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gecko (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google Chrome",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haiku (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IOS 15",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IPadOS 15",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Internet Explorer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Internet Explorer 6",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Internet Explorer 7",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LWN.net",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MPL 2.0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS Catalina",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Edge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mobile web",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mozilla",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mozilla Application Suite",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mozilla Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mozilla Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NetBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netscape",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Netscape Navigator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenIndiana",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Solaris",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parallel computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quantum (Mozilla)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ReactOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Safari (web browser)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SpiderMonkey",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Spiritual successor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "StatCounter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ubuntu",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Usage share of web browsers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WebKit",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web browser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows 10",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Server 2016",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Cite web",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: deprecated archival service",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Web browser made by Mozilla",
+          "page_image_free": "Firefox_logo,_2019.svg",
+          "wikibase_item": "Q698"
+        }
+      }
+    }
+  ]
+}

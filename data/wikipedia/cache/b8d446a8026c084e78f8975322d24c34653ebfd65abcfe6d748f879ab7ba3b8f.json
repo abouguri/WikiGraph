@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Algorithm",
+    "url": "https://en.wikipedia.org/wiki/Algorithm",
+    "summary": "Sequence of operations for a task \"Algorithms\" redirects here. For the subfield of computer science, see Analysis of algorithms . For other uses, see Algorithm (disambiguation) . Flowchart of an algorithm to find the greatest common divisor of two numbers. In mathematics and computer science , an algorithm ( / ˈ æ l ɡ ə r ɪ ð əm / ⓘ ) is any well-defined set of instructions that when followed terminates after a finite number of steps that comprise a solution to a given computational problem . Advanced algorithms may utilize loops and involve many conditionals that decide the next step based on the inputs provided, resulting in long sequences of steps before halting, but all algorithms terminate by definition. In contrast to algorithms, heuristics might be applied to problems for which it is not possible for an algorithmic solution to exist, e.g., because the problem is undecidable or there is otherwise no way to define the correct or optimal result. For example, although social media recommender systems are erroneously called \"algorithms\" in popular media, they are accurately classified as heuristics, because there is no objective criteria by which a recommendation produced by such a system can be judged as \"correct\". As an effective method , an algorithm can be expressed within both a finite amount of space and time and in a well-defined formal language for calculating a function . Starting from an initial state and input, a computation occurs at each step, eventually producing output and terminating. Randomized algorithms incorporate random inputs which can be used to simulate non-deterministic output even though the transitions between states are deterministic. ^ \"A procedure which has all the characteristics of an algorithm except that it possibly lacks finiteness may be called a 'computational method ' \" (Knuth 1971:5). ^ David A. Grossman, Ophir Frieder, Information Retrieval: Algorithms and Heuristics , 2nd edition, 2004, ISBN 1402030045 ^ \"Any classical mathematical algorithm, for example, can be described in a finite number of English words\" (Rogers 1987:2). ^ Well defined concerning the agent that executes the algorithm: \"There is a computing agent, usually human, which can react to the instructions and carry out the computations\" (Rogers 1987:2). ^ \"an algorithm is a procedure for computing a function (concerning some chosen notation for integers) ... this limitation (to numerical functions) results in no loss of generality\", (Rogers 1977:1). ^ \"An algorithm has one or more outputs, i.e., quantities which have a specified relation to the inputs\" (Knuth 1973:5). ^ Whether or not a process with random interior processes (not including the input) is an algorithm is debatable. Rogers opines that: \"a computation is carried out in a discrete stepwise fashion, without the use of continuous methods or analog devices ... carried forward deterministically, without resort to random methods or devices, e.g., dice\" (Rogers 1987:2).",
+    "text": "Sequence of operations for a task \"Algorithms\" redirects here. For the subfield of computer science, see Analysis of algorithms . For other uses, see Algorithm (disambiguation) . Flowchart of an algorithm to find the greatest common divisor of two numbers. In mathematics and computer science , an algorithm ( / ˈ æ l ɡ ə r ɪ ð əm / ⓘ ) is any well-defined set of instructions that when followed terminates after a finite number of steps that comprise a solution to a given computational problem . Advanced algorithms may utilize loops and involve many conditionals that decide the next step based on the inputs provided, resulting in long sequences of steps before halting, but all algorithms terminate by definition. In contrast to algorithms, heuristics might be applied to problems for which it is not possible for an algorithmic solution to exist, e.g., because the problem is undecidable or there is otherwise no way to define the correct or optimal result. For example, although social media recommender systems are erroneously called \"algorithms\" in popular media, they are accurately classified as heuristics, because there is no objective criteria by which a recommendation produced by such a system can be judged as \"correct\". As an effective method , an algorithm can be expressed within both a finite amount of space and time and in a well-defined formal language for calculating a function . Starting from an initial state and input, a computation occurs at each step, eventually producing output and terminating. Randomized algorithms incorporate random inputs which can be used to simulate non-deterministic output even though the transitions between states are deterministic. ^ \"A procedure which has all the characteristics of an algorithm except that it possibly lacks finiteness may be called a 'computational method ' \" (Knuth 1971:5). ^ David A. Grossman, Ophir Frieder, Information Retrieval: Algorithms and Heuristics , 2nd edition, 2004, ISBN 1402030045 ^ \"Any classical mathematical algorithm, for example, can be described in a finite number of English words\" (Rogers 1987:2). ^ Well defined concerning the agent that executes the algorithm: \"There is a computing agent, usually human, which can react to the instructions and carry out the computations\" (Rogers 1987:2). ^ \"an algorithm is a procedure for computing a function (concerning some chosen notation for integers) ... this limitation (to numerical functions) results in no loss of generality\", (Rogers 1977:1). ^ \"An algorithm has one or more outputs, i.e., quantities which have a specified relation to the inputs\" (Knuth 1973:5). ^ Whether or not a process with random interior processes (not including the input) is an algorithm is debatable. Rogers opines that: \"a computation is carried out in a discrete stepwise fashion, without the use of continuous methods or analog devices ... carried forward deterministically, without resort to random methods or devices, e.g., dice\" (Rogers 1987:2).",
+    "links": [
+      "Algorithm (disambiguation)",
+      "Analysis of algorithms",
+      "Computational problem",
+      "Computer science",
+      "Conditional (computer programming)",
+      "Decidability (logic)",
+      "Determinism",
+      "Effective method",
+      "Finite sequence",
+      "Formal language",
+      "Function (mathematics)",
+      "Greatest common divisor",
+      "Heuristic (computer science)",
+      "ISBN (identifier)",
+      "Loop (computing)",
+      "Mathematics",
+      "Randomized algorithm",
+      "Recommender system",
+      "Rigour",
+      "Undecidable problem"
+    ],
+    "page_id": 775,
+    "revision_id": 1374395712,
+    "retrieved_at": "2026-09-18T16:40:57.085616+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260909114842|1374033444",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 775,
+            "ns": 0,
+            "title": "Algorithm",
+            "revisions": [
+              {
+                "revid": 1374395712,
+                "parentid": 1374033444
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "GCD_through_successive_subtractions.svg",
+              "wikibase-shortdesc": "Sequence of operations for a task",
+              "wikibase_item": "Q8366"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Algorithm",
+        "pageid": 775,
+        "revid": 1374395712,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Sequence of operations for a task</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">\"Algorithms\" redirects here. For the subfield of computer science, see <a href=\"/wiki/Analysis_of_algorithms\" title=\"Analysis of algorithms\">Analysis of algorithms</a>. For other uses, see <a href=\"/wiki/Algorithm_(disambiguation)\" class=\"mw-disambig\" title=\"Algorithm (disambiguation)\">Algorithm (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:GCD_through_successive_subtractions.svg\" class=\"mw-file-description\"><img alt=\"In a loop, subtract the larger number against the smaller number. Halt the loop when the subtraction will make a number negative. Assess two numbers, whether one of them is equal to zero or not. If yes, take the other number as the greatest common divisor. If no, put the two numbers in the subtraction loop again.\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/GCD_through_successive_subtractions.svg/250px-GCD_through_successive_subtractions.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"313\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/GCD_through_successive_subtractions.svg/500px-GCD_through_successive_subtractions.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"660\" data-file-height=\"825\" /></a><figcaption>Flowchart of an algorithm to find the <a href=\"/wiki/Greatest_common_divisor\" title=\"Greatest common divisor\">greatest common divisor</a> of two numbers.</figcaption></figure>\n<p>In <a href=\"/wiki/Mathematics\" title=\"Mathematics\">mathematics</a> and <a href=\"/wiki/Computer_science\" title=\"Computer science\">computer science</a>, an <b>algorithm</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"/æ/: &#39;a&#39; in &#39;bad&#39;\">æ</span><span title=\"&#39;l&#39; in &#39;lie&#39;\">l</span><span title=\"/ɡ/: &#39;g&#39; in &#39;guy&#39;\">ɡ</span><span title=\"/ə/: &#39;a&#39; in &#39;about&#39;\">ə</span><span title=\"&#39;r&#39; in &#39;rye&#39;\">r</span><span title=\"/ɪ/: &#39;i&#39; in &#39;kit&#39;\">ɪ</span><span title=\"/ð/: &#39;th&#39; in &#39;this&#39;\">ð</span><span title=\"/əm/: &#39;m&#39; in &#39;rhythm&#39;\">əm</span></span>/</a></span>&#32;<span class=\"ext-phonos\"><span data-nosnippet=\"\" id=\"ooui-php-1\" class=\"noexcerpt ext-phonos-PhonosButton ext-phonos-PhonosButton-emptylabel oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-buttonElement-size-medium oo-ui-iconElement oo-ui-buttonWidget\" data-ooui=\"{&quot;_&quot;:&quot;mw.Phonos.PhonosButton&quot;,&quot;href&quot;:&quot;\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/transcoded\\/7\\/7f\\/En-us-algorithm.ogg\\/En-us-algorithm.ogg.mp3&quot;,&quot;rel&quot;:[&quot;nofollow&quot;],&quot;framed&quot;:false,&quot;icon&quot;:&quot;volumeUp&quot;,&quot;data&quot;:{&quot;ipa&quot;:&quot;&quot;,&quot;text&quot;:&quot;&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;wikibase&quot;:&quot;&quot;,&quot;file&quot;:&quot;En-us-algorithm.ogg&quot;},&quot;classes&quot;:[&quot;noexcerpt&quot;,&quot;ext-phonos-PhonosButton&quot;,&quot;ext-phonos-PhonosButton-emptylabel&quot;]}\"><a role=\"button\" tabindex=\"0\" href=\"//upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/En-us-algorithm.ogg/En-us-algorithm.ogg.mp3\" rel=\"nofollow\" aria-label=\"Play audio\" title=\"Play audio\" class=\"oo-ui-buttonElement-button\"><span class=\"oo-ui-iconElement-icon oo-ui-icon-volumeUp\"></span><span class=\"oo-ui-labelElement-label\"></span><span class=\"oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator\"></span></a></span><sup class=\"ext-phonos-attribution noexcerpt navigation-not-searchable\"><a href=\"/wiki/File:En-us-algorithm.ogg\" title=\"File:En-us-algorithm.ogg\">ⓘ</a></sup></span></span>) is any <a href=\"/wiki/Rigour#Mathematics\" title=\"Rigour\">well-defined</a> set of instructions that when followed terminates after a <a href=\"/wiki/Finite_sequence\" class=\"mw-redirect\" title=\"Finite sequence\">finite number of steps</a> that comprise a solution to a given <a href=\"/wiki/Computational_problem\" title=\"Computational problem\">computational problem</a>. Advanced algorithms may utilize <a href=\"/wiki/Loop_(computing)\" class=\"mw-redirect\" title=\"Loop (computing)\">loops</a> and involve many <a href=\"/wiki/Conditional_(computer_programming)\" title=\"Conditional (computer programming)\">conditionals</a> that <a href=\"/wiki/Decidability_(logic)\" title=\"Decidability (logic)\">decide</a> the next step based on the inputs provided, resulting in long sequences of steps before halting, but all algorithms terminate by definition.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>In contrast to algorithms, <a href=\"/wiki/Heuristic_(computer_science)\" title=\"Heuristic (computer science)\">heuristics</a> might be applied to problems for which it is not possible for an algorithmic solution to exist, e.g., because the problem is <a href=\"/wiki/Undecidable_problem\" title=\"Undecidable problem\">undecidable</a> or there is otherwise no way to define the correct or optimal result.<sup id=\"cite&#95;ref-:2&#95;2-0\" class=\"reference\"><a href=\"#cite_note-:2-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> For example, although social media <a href=\"/wiki/Recommender_system\" title=\"Recommender system\">recommender systems</a> are erroneously called \"algorithms\" in popular media, they are accurately classified as heuristics, because there is no objective criteria by which a recommendation produced by such a system can be judged as \"correct\".\n</p><p>As an <a href=\"/wiki/Effective_method\" title=\"Effective method\">effective method</a>, an algorithm can be expressed within both a finite amount of space and time<sup id=\"cite&#95;ref-:3&#95;3-0\" class=\"reference\"><a href=\"#cite_note-:3-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> and in a well-defined <a href=\"/wiki/Formal_language\" title=\"Formal language\">formal language</a><sup id=\"cite&#95;ref-:4&#95;4-0\" class=\"reference\"><a href=\"#cite_note-:4-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> for calculating a <a href=\"/wiki/Function_(mathematics)\" title=\"Function (mathematics)\">function</a>.<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> Starting from an initial state and input, a computation occurs at each step, eventually producing output<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> and terminating.  <a href=\"/wiki/Randomized_algorithm\" title=\"Randomized algorithm\">Randomized algorithms</a> incorporate random inputs which can be used to simulate <a href=\"/wiki/Determinism\" title=\"Determinism\">non-deterministic</a> output even though the transitions between states are deterministic.<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\">\"A procedure which has all the characteristics of an algorithm except that it possibly lacks finiteness may be called a 'computational method<span style=\"padding-right:.15em;\">'</span>\" (Knuth 1971:5).</span>\n</li>\n<li id=\"cite&#95;note-:2-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:2_2-0\">^</a></b></span> <span class=\"reference-text\">David A. Grossman, Ophir Frieder, <i>Information Retrieval: Algorithms and Heuristics</i>, 2nd edition, 2004, <style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/1402030045\" title=\"Special:BookSources/1402030045\"><bdi>1402030045</bdi></a></span>\n</li>\n<li id=\"cite&#95;note-:3-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:3_3-0\">^</a></b></span> <span class=\"reference-text\">\"Any classical mathematical algorithm, for example, can be described in a finite number of English words\" (Rogers 1987:2).</span>\n</li>\n<li id=\"cite&#95;note-:4-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-:4_4-0\">^</a></b></span> <span class=\"reference-text\">Well defined concerning the agent that executes the algorithm: \"There is a computing agent, usually human, which can react to the instructions and carry out the computations\" (Rogers 1987:2).</span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\">\"an algorithm is a procedure for computing a <i>function</i> (concerning some chosen notation for integers) ... this limitation (to numerical functions) results in no loss of generality\", (Rogers 1977:1).</span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\">\"An algorithm has one or more outputs, i.e., quantities which have a specified relation to the inputs\" (Knuth 1973:5).</span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\">Whether or not a process with random interior processes (not including the input) is an algorithm is debatable. Rogers opines that: \"a computation is carried out in a discrete stepwise fashion, without the use of continuous methods or analog devices ... carried forward deterministically, without resort to random methods or devices, e.g., dice\" (Rogers 1987:2).</span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐lczw7\nCached time: 20260918164123\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.122 seconds\nReal time usage: 0.185 seconds\nPreprocessor visited node count: 329/1000000\nRevision size: 3791/2097152 bytes\nPost‐expand include size: 3900/2097152 bytes\nTemplate argument size: 684/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 5022/5000000 bytes\nLua time usage: 0.085/10.000 seconds\nLua memory usage: 3232749/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  173.178      1 -total\n 30.24%   52.361      1 Template:Short_description\n 26.27%   45.496      1 Template:Isbn\n 20.05%   34.724      1 Template:IPAc-en\n 17.66%   30.575      2 Template:Pagetype\n 12.33%   21.346      1 Template:Redirect\n  8.19%   14.186      3 Template:Main_other\n  7.46%   12.920      1 Template:SDcat\n  7.10%   12.294      1 Template:Use_mdy_dates\n  5.68%    9.835      1 Template:Audio\n-->\n\n<!-- Render ID c86d0ab4-b37f-11f1-b33d-afdcd9b8ef10 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Analysis of algorithms",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Algorithm (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational problem",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Conditional (computer programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Decidability (logic)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Determinism",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Effective method",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Finite sequence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Function (mathematics)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Greatest common divisor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Heuristic (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Loop (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Randomized algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Recommender system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rigour",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Undecidable problem",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Sequence of operations for a task",
+          "page_image_free": "GCD_through_successive_subtractions.svg",
+          "wikibase_item": "Q8366"
+        }
+      }
+    }
+  ]
+}

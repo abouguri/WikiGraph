@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Database",
+    "url": "https://en.wikipedia.org/wiki/Database",
+    "summary": "Organized collection of data in computing This article is about the computing concept. For instances of the general concept, see Lists of databases . An SQL select statement and its result In computing , a database is an organized collection of data or a type of data store based on the use of a database management system ( DBMS ), the software that interacts with end users , applications , and the database itself to capture and analyze the data. The DBMS additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a database system . Often the term \"database\" is also used loosely to refer to any of the DBMS, the database system or an application associated with the database. Small databases can be stored on a file system , while large databases are hosted on computer clusters or cloud storage . The design of databases spans formal techniques and practical considerations, including data modeling , efficient data representation and storage, query languages , security and privacy of sensitive data, and distributed computing issues, including supporting concurrent access and fault tolerance . Computer scientists may classify database management systems according to the database models that they support. Relational databases became dominant in the 1980s. These model data as rows and columns in a series of tables , and the vast majority use SQL for writing and querying data. In the 2000s, non-relational databases became popular, collectively referred to as NoSQL , because they use different query languages .",
+    "text": "Organized collection of data in computing This article is about the computing concept. For instances of the general concept, see Lists of databases . An SQL select statement and its result In computing , a database is an organized collection of data or a type of data store based on the use of a database management system ( DBMS ), the software that interacts with end users , applications , and the database itself to capture and analyze the data. The DBMS additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a database system . Often the term \"database\" is also used loosely to refer to any of the DBMS, the database system or an application associated with the database. Small databases can be stored on a file system , while large databases are hosted on computer clusters or cloud storage . The design of databases spans formal techniques and practical considerations, including data modeling , efficient data representation and storage, query languages , security and privacy of sensitive data, and distributed computing issues, including supporting concurrent access and fault tolerance . Computer scientists may classify database management systems according to the database models that they support. Relational databases became dominant in the 1980s. These model data as rows and columns in a series of tables , and the vast majority use SQL for writing and querying data. In the 2000s, non-relational databases became popular, collectively referred to as NoSQL , because they use different query languages .",
+    "links": [
+      "Application software",
+      "Cloud storage",
+      "Column (database)",
+      "Computer clusters",
+      "Computer scientists",
+      "Computing",
+      "Concurrent computing",
+      "Data (computing)",
+      "Data modeling",
+      "Data store",
+      "Database design",
+      "Database model",
+      "Database security",
+      "Distributed computing",
+      "End user",
+      "Fault tolerance",
+      "File system",
+      "Information privacy",
+      "Lists of databases",
+      "NoSQL",
+      "Query language",
+      "Relational database",
+      "Row (database)",
+      "SQL",
+      "Software",
+      "Table (database)"
+    ],
+    "page_id": 8377,
+    "revision_id": 1369645396,
+    "retrieved_at": "2026-09-18T16:41:16.123138+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260816061345|1369642687",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 8377,
+            "ns": 0,
+            "title": "Database",
+            "revisions": [
+              {
+                "revid": 1369645396,
+                "parentid": 1369642687
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "DVD_Rental_Query.png",
+              "wikibase-shortdesc": "Organized collection of data in computing",
+              "wikibase_item": "Q8513"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Database",
+        "pageid": 8377,
+        "revid": 1369645396,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Organized collection of data in computing</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the computing concept. For instances of the general concept, see <a href=\"/wiki/Lists_of_databases\" title=\"Lists of databases\">Lists of databases</a>.</div>\n<p class=\"mw-empty-elt\">\n\n\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:DVD_Rental_Query.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/DVD_Rental_Query.png/500px-DVD_Rental_Query.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"340\" height=\"295\" style=\"--mw-file-upright: 1.35\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/DVD_Rental_Query.png/960px-DVD_Rental_Query.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"968\" data-file-height=\"839\" /></a><figcaption>An <a href=\"/wiki/SQL\" title=\"SQL\">SQL</a> select statement and its result</figcaption></figure>\n<p>In <a href=\"/wiki/Computing\" title=\"Computing\">computing</a>, a <b>database</b> is an organized collection of <a href=\"/wiki/Data_(computing)\" class=\"mw-redirect\" title=\"Data (computing)\">data</a> or a type of <a href=\"/wiki/Data_store\" title=\"Data store\">data store</a> based on the use of a <b>database management system</b> (<b>DBMS</b>), the <a href=\"/wiki/Software\" title=\"Software\">software</a> that interacts with <a href=\"/wiki/End_user\" title=\"End user\">end users</a>, <a href=\"/wiki/Application_software\" title=\"Application software\">applications</a>, and the database itself to capture and analyze the data. The DBMS additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a <b>database system</b>. Often the term \"database\" is also used loosely to refer to any of the DBMS, the database system or an application associated with the database.\n</p><p>Small databases can be stored on a <a href=\"/wiki/File_system\" title=\"File system\">file system</a>, while large databases are hosted on <a href=\"/wiki/Computer_clusters\" class=\"mw-redirect\" title=\"Computer clusters\">computer clusters</a> or <a href=\"/wiki/Cloud_storage\" title=\"Cloud storage\">cloud storage</a>. The <a href=\"/wiki/Database_design\" title=\"Database design\">design of databases</a> spans formal techniques and practical considerations, including <a href=\"/wiki/Data_modeling\" title=\"Data modeling\">data modeling</a>, efficient data representation and storage, <a href=\"/wiki/Query_language\" title=\"Query language\">query languages</a>, <a href=\"/wiki/Database_security\" class=\"mw-redirect\" title=\"Database security\">security</a> and <a href=\"/wiki/Information_privacy\" title=\"Information privacy\">privacy</a> of sensitive data, and <a href=\"/wiki/Distributed_computing\" title=\"Distributed computing\">distributed computing</a> issues, including supporting <a href=\"/wiki/Concurrent_computing\" title=\"Concurrent computing\">concurrent</a> access and <a href=\"/wiki/Fault_tolerance\" title=\"Fault tolerance\">fault tolerance</a>.\n</p><p><a href=\"/wiki/Computer_scientists\" class=\"mw-redirect\" title=\"Computer scientists\">Computer scientists</a> may classify database management systems according to the <a href=\"/wiki/Database_model\" title=\"Database model\">database models</a> that they support. <a href=\"/wiki/Relational_database\" title=\"Relational database\">Relational databases</a> became dominant in the 1980s. These model data as <a href=\"/wiki/Row_(database)\" title=\"Row (database)\">rows</a> and <a href=\"/wiki/Column_(database)\" title=\"Column (database)\">columns</a> in a series of <a href=\"/wiki/Table_(database)\" title=\"Table (database)\">tables</a>, and the vast majority use <a href=\"/wiki/SQL\" title=\"SQL\">SQL</a> for writing and querying data. In the 2000s, non-relational databases became popular, collectively referred to as <a href=\"/wiki/NoSQL\" title=\"NoSQL\">NoSQL</a>, because they use different <a href=\"/wiki/Query_language\" title=\"Query language\">query languages</a>.\n</p>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐l99zk\nCached time: 20260918164141\nCache expiry: 2592000\nReduced expiry: false\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.145 seconds\nReal time usage: 0.223 seconds\nPreprocessor visited node count: 343/1000000\nRevision size: 2092/2097152 bytes\nPost‐expand include size: 3270/2097152 bytes\nTemplate argument size: 924/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 6/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 409/5000000 bytes\nLua time usage: 0.082/10.000 seconds\nLua memory usage: 2122357/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  194.779      1 -total\n 49.73%   96.860      1 Template:Short_description\n 28.99%   56.461      2 Template:Pagetype\n 21.40%   41.679      1 Template:Protection_padlock\n 15.13%   29.468      1 Template:About\n 11.92%   23.226      3 Template:Main_other\n 10.74%   20.927      1 Template:SDcat\n 10.66%   20.755      1 Template:Use_dmy_dates\n  8.52%   16.586      2 Template:DMCA\n  6.78%   13.202      2 Template:Dated_maintenance_category\n-->\n\n<!-- Render ID d3c0350a-b37f-11f1-a567-95f80b5802db -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lists of databases",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Application software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cloud storage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Column (database)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer clusters",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer scientists",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concurrent computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data modeling",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Data store",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database model",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Database security",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Distributed computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "End user",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fault tolerance",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "File system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Information privacy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "NoSQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Query language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Relational database",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Row (database)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SQL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Table (database)",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Organized collection of data in computing",
+          "page_image_free": "DVD_Rental_Query.png",
+          "wikibase_item": "Q8513"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "config": {
+    "titles": [
+      "ABC (programming language)",
+      "ALGOL",
+      "Ada Lovelace",
+      "Alan Kay",
+      "Alan Turing",
+      "Algorithm",
+      "Apple Inc.",
+      "Assembly language",
+      "BASIC",
+      "Barbara Liskov",
+      "Bjarne Stroustrup",
+      "Brendan Eich",
+      "Brian Kernighan",
+      "C (programming language)",
+      "C++",
+      "COBOL",
+      "CPython",
+      "Cascading Style Sheets",
+      "Clang",
+      "Clojure",
+      "Common Lisp",
+      "Compiler",
+      "Computer science",
+      "Concurrent computing",
+      "Data structure",
+      "Database",
+      "Declarative programming",
+      "Dennis Ritchie",
+      "Donald Knuth",
+      "Edgar F. Codd",
+      "Edsger W. Dijkstra",
+      "Elixir (programming language)",
+      "Erlang (programming language)",
+      "F Sharp (programming language)",
+      "Fortran",
+      "Free software",
+      "Functional programming",
+      "GNU",
+      "GNU Compiler Collection",
+      "Go (programming language)",
+      "Google",
+      "Grace Hopper",
+      "Graph theory",
+      "Graydon Hoare",
+      "Guido van Rossum",
+      "HTML",
+      "Haskell",
+      "Imperative programming",
+      "Interpreter (computing)",
+      "James Gosling",
+      "Java (programming language)",
+      "JavaScript",
+      "JetBrains",
+      "John Backus",
+      "John McCarthy (computer scientist)",
+      "John von Neumann",
+      "Julia (programming language)",
+      "Ken Thompson",
+      "Kotlin (programming language)",
+      "LLVM",
+      "Larry Wall",
+      "Linus Torvalds",
+      "Linux",
+      "Lisp (programming language)",
+      "Logic programming",
+      "Lua (programming language)",
+      "MATLAB",
+      "ML (programming language)",
+      "Machine code",
+      "MathWorks",
+      "Microsoft",
+      "Mozilla",
+      "Mozilla Firefox",
+      "Netscape",
+      "Niklaus Wirth",
+      "OCaml",
+      "Object-oriented programming",
+      "Objective-C",
+      "OpenJDK",
+      "Operating system",
+      "PHP",
+      "Parallel computing",
+      "Pascal (programming language)",
+      "Perl",
+      "Procedural programming",
+      "Programming language",
+      "Prolog",
+      "Python (programming language)",
+      "R (programming language)",
+      "Rasmus Lerdorf",
+      "Relational database",
+      "Richard Stallman",
+      "Ruby (programming language)",
+      "Rust (programming language)",
+      "SQL",
+      "Scala (programming language)",
+      "Scheme (programming language)",
+      "Smalltalk",
+      "Standard ML",
+      "Swift (programming language)",
+      "Tim Berners-Lee"
+    ],
+    "max_pages": 101,
+    "max_depth": 0,
+    "intro_only": true
+  },
+  "pages": 100,
+  "triples": 34400,
+  "sha256": "03c4679e66d6e3d36592916d72a6b0f509269159590c369e48e0ee2432c1b6b5",
+  "requests": 2,
+  "elapsed_seconds": 2.638176,
+  "sources": [
+    {
+      "page_id": 147585,
+      "revision_id": 1325980803,
+      "title": "ABC (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1453,
+      "revision_id": 1369017045,
+      "title": "ALGOL",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 974,
+      "revision_id": 1374881938,
+      "title": "Ada Lovelace",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1449,
+      "revision_id": 1369059454,
+      "title": "Alan Kay",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1208,
+      "revision_id": 1375527246,
+      "title": "Alan Turing",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 775,
+      "revision_id": 1374395712,
+      "title": "Algorithm",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 856,
+      "revision_id": 1375223315,
+      "title": "Apple Inc.",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1368,
+      "revision_id": 1364026310,
+      "title": "Assembly language",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 4015,
+      "revision_id": 1373603686,
+      "title": "BASIC",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1507538,
+      "revision_id": 1373748520,
+      "title": "Barbara Liskov",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 3713,
+      "revision_id": 1373768158,
+      "title": "Bjarne Stroustrup",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1067455,
+      "revision_id": 1374843703,
+      "title": "Brendan Eich",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 4051,
+      "revision_id": 1371976733,
+      "title": "Brian Kernighan",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 6021,
+      "revision_id": 1374730257,
+      "title": "C (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 72038,
+      "revision_id": 1375333877,
+      "title": "C++",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 6799,
+      "revision_id": 1375366074,
+      "title": "COBOL",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1984246,
+      "revision_id": 1375105062,
+      "title": "CPython",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23290197,
+      "revision_id": 1374865250,
+      "title": "CSS",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 12407970,
+      "revision_id": 1371364376,
+      "title": "Clang",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 16561990,
+      "revision_id": 1369230874,
+      "title": "Clojure",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 6068,
+      "revision_id": 1369462020,
+      "title": "Common Lisp",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5739,
+      "revision_id": 1373605841,
+      "title": "Compiler",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 5323,
+      "revision_id": 1375401164,
+      "title": "Computer science",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 2581605,
+      "revision_id": 1375302178,
+      "title": "Concurrent computing",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 8519,
+      "revision_id": 1371989601,
+      "title": "Data structure",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 8377,
+      "revision_id": 1369645396,
+      "title": "Database",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 210648,
+      "revision_id": 1367382337,
+      "title": "Declarative programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 8218,
+      "revision_id": 1374586375,
+      "title": "Dennis Ritchie",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 8095,
+      "revision_id": 1374283509,
+      "title": "Donald Knuth",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 93548,
+      "revision_id": 1371988525,
+      "title": "Edgar F. Codd",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 10018,
+      "revision_id": 1375552430,
+      "title": "Edsger W. Dijkstra",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 38202780,
+      "revision_id": 1373237682,
+      "title": "Elixir (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 9646,
+      "revision_id": 1371489886,
+      "title": "Erlang (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 239964,
+      "revision_id": 1372118138,
+      "title": "F Sharp (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 11168,
+      "revision_id": 1374404077,
+      "title": "Fortran",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 10635,
+      "revision_id": 1373283891,
+      "title": "Free software",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 10933,
+      "revision_id": 1366590619,
+      "title": "Functional programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 11875,
+      "revision_id": 1375042850,
+      "title": "GNU",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 12323,
+      "revision_id": 1375188309,
+      "title": "GNU Compiler Collection",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 25039021,
+      "revision_id": 1375187723,
+      "title": "Go (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 1092923,
+      "revision_id": 1375484647,
+      "title": "Google",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 12590,
+      "revision_id": 1374054212,
+      "title": "Grace Hopper",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 12401,
+      "revision_id": 1374306193,
+      "title": "Graph theory",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 29414838,
+      "revision_id": 1375530180,
+      "title": "Rust (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 226402,
+      "revision_id": 1375340759,
+      "title": "Guido van Rossum",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 13191,
+      "revision_id": 1375498083,
+      "title": "HTML",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 27404990,
+      "revision_id": 1375260087,
+      "title": "Haskell",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 197847,
+      "revision_id": 1368361506,
+      "title": "Imperative programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 59868,
+      "revision_id": 1369367199,
+      "title": "Interpreter (computing)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 51792,
+      "revision_id": 1374192843,
+      "title": "James Gosling",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 15881,
+      "revision_id": 1375186425,
+      "title": "Java (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 9845,
+      "revision_id": 1375341525,
+      "title": "JavaScript",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 39830388,
+      "revision_id": 1374735780,
+      "title": "JetBrains",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 71331,
+      "revision_id": 1372022084,
+      "title": "John Backus",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 308362,
+      "revision_id": 1373851184,
+      "title": "John McCarthy (computer scientist)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 15942,
+      "revision_id": 1375521158,
+      "title": "John von Neumann",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 38455554,
+      "revision_id": 1375246316,
+      "title": "Julia (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23370128,
+      "revision_id": 1372019029,
+      "title": "Ken Thompson",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 41819039,
+      "revision_id": 1374735409,
+      "title": "Kotlin",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 654611,
+      "revision_id": 1364744671,
+      "title": "LLVM",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 17519,
+      "revision_id": 1372885491,
+      "title": "Larry Wall",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 17618,
+      "revision_id": 1375408398,
+      "title": "Linus Torvalds",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 6097297,
+      "revision_id": 1374532962,
+      "title": "Linux",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 18016,
+      "revision_id": 1371893565,
+      "title": "Lisp (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 17927,
+      "revision_id": 1375521752,
+      "title": "Logic programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 46150,
+      "revision_id": 1374477766,
+      "title": "Lua",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 20412,
+      "revision_id": 1366137638,
+      "title": "MATLAB",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 20607,
+      "revision_id": 1368622340,
+      "title": "ML (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 20683,
+      "revision_id": 1370514143,
+      "title": "Machine code",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 562696,
+      "revision_id": 1356927137,
+      "title": "MathWorks",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 19001,
+      "revision_id": 1375562445,
+      "title": "Microsoft",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 36754915,
+      "revision_id": 1373283528,
+      "title": "Mozilla",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 210892,
+      "revision_id": 1375543177,
+      "title": "Firefox",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21979,
+      "revision_id": 1374725093,
+      "title": "Netscape",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 21642,
+      "revision_id": 1343412262,
+      "title": "Niklaus Wirth",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 39652,
+      "revision_id": 1369441270,
+      "title": "OCaml",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 27471338,
+      "revision_id": 1372572599,
+      "title": "Object-oriented programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 39809523,
+      "revision_id": 1353282567,
+      "title": "Objective-C",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 8232236,
+      "revision_id": 1363833758,
+      "title": "OpenJDK",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 22194,
+      "revision_id": 1372175185,
+      "title": "Operating system",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 24131,
+      "revision_id": 1374596342,
+      "title": "PHP",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 145162,
+      "revision_id": 1373829754,
+      "title": "Parallel computing",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23773,
+      "revision_id": 1372732212,
+      "title": "Pascal (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23939,
+      "revision_id": 1375101993,
+      "title": "Perl",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23801,
+      "revision_id": 1374348380,
+      "title": "Procedural programming",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23015,
+      "revision_id": 1374191615,
+      "title": "Programming language",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23485,
+      "revision_id": 1375083919,
+      "title": "Prolog",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 23862,
+      "revision_id": 1374673393,
+      "title": "Python (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 376707,
+      "revision_id": 1369228333,
+      "title": "R (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 465672,
+      "revision_id": 1372706037,
+      "title": "Rasmus Lerdorf",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 25873,
+      "revision_id": 1375508962,
+      "title": "Relational database",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 3434143,
+      "revision_id": 1374622993,
+      "title": "Richard Stallman",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 25768,
+      "revision_id": 1372670122,
+      "title": "Ruby (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 29004,
+      "revision_id": 1374625236,
+      "title": "SQL",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 3254510,
+      "revision_id": 1373564584,
+      "title": "Scala (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 28119,
+      "revision_id": 1372210330,
+      "title": "Scheme (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 28319,
+      "revision_id": 1375509359,
+      "title": "Smalltalk",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 100337,
+      "revision_id": 1330335636,
+      "title": "Standard ML",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 42946389,
+      "revision_id": 1359320178,
+      "title": "Swift (programming language)",
+      "source_kind": "wikipedia"
+    },
+    {
+      "page_id": 30034,
+      "revision_id": 1374890625,
+      "title": "Tim Berners-Lee",
+      "source_kind": "wikipedia"
+    }
+  ],
+  "failures": []
+}

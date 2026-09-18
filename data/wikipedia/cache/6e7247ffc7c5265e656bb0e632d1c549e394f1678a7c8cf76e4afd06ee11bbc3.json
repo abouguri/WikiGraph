@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "OpenJDK",
+    "url": "https://en.wikipedia.org/wiki/OpenJDK",
+    "summary": "Free and open-source implementation of Java SE OpenJDK Original author Sun Microsystems Developers Oracle , OpenJDK and Java Community, Red Hat , Azul Systems , IBM , Microsoft , Amazon , Apple , SAP Release May 8, 2007 ; 19 years ago ( 2007-05-08 ) Stable release 27 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Written in C++ , Java Operating system Linux , FreeBSD , macOS , Windows , OpenIndiana , OpenVMS ; several other ports in progress Type Java development kit License GPL-2.0-only with linking exception Website openjdk .org Repository github .com /openjdk OpenJDK ( Open Java Development Kit ) is an implementation of the Java Platform, Standard Edition (Java SE). It is the result of an effort Sun Microsystems began in 2006, four years before the company was acquired by Oracle Corporation . OpenJDK is free and open-source software released under the GNU General Public License (GPL) version 2 with a GPL linking exception , preventing components that linked to the Java Class Library becoming subject to the terms of the GPL license. OpenJDK is the official reference implementation of Java SE since version 7, and is the most popular JDK distribution. ^ Mark Reinhold (September 15, 2026). \"Java 27 / JDK 27: General Availability\" . ^ \"OpenJDK homepage\" . Oracle Corporation and/or its affiliates . Retrieved January 1, 2013 . ^ \"Moving to OpenJDK as the official Java SE 7 Reference Implementation\" . Archived from the original on January 18, 2021 . Retrieved June 20, 2018 . ^ \"Java Platform, Standard Edition 7 Reference Implementations\" . jdk.java.net . ^ \"Java Platform, Standard Edition 8 Reference Implementations\" . Archived from the original on November 21, 2015.",
+    "text": "Free and open-source implementation of Java SE OpenJDK Original author Sun Microsystems Developers Oracle , OpenJDK and Java Community, Red Hat , Azul Systems , IBM , Microsoft , Amazon , Apple , SAP Release May 8, 2007 ; 19 years ago ( 2007-05-08 ) Stable release 27 / 15 September 2026 ; 3 days ago ( 15 September 2026 ) Written in C++ , Java Operating system Linux , FreeBSD , macOS , Windows , OpenIndiana , OpenVMS ; several other ports in progress Type Java development kit License GPL-2.0-only with linking exception Website openjdk .org Repository github .com /openjdk OpenJDK ( Open Java Development Kit ) is an implementation of the Java Platform, Standard Edition (Java SE). It is the result of an effort Sun Microsystems began in 2006, four years before the company was acquired by Oracle Corporation . OpenJDK is free and open-source software released under the GNU General Public License (GPL) version 2 with a GPL linking exception , preventing components that linked to the Java Class Library becoming subject to the terms of the GPL license. OpenJDK is the official reference implementation of Java SE since version 7, and is the most popular JDK distribution. ^ Mark Reinhold (September 15, 2026). \"Java 27 / JDK 27: General Availability\" . ^ \"OpenJDK homepage\" . Oracle Corporation and/or its affiliates . Retrieved January 1, 2013 . ^ \"Moving to OpenJDK as the official Java SE 7 Reference Implementation\" . Archived from the original on January 18, 2021 . Retrieved June 20, 2018 . ^ \"Java Platform, Standard Edition 7 Reference Implementations\" . jdk.java.net . ^ \"Java Platform, Standard Edition 8 Reference Implementations\" . Archived from the original on November 21, 2015.",
+    "links": [
+      "Amazon (company)",
+      "Apple Inc.",
+      "Azul Systems",
+      "C++",
+      "Free and open-source software",
+      "FreeBSD",
+      "GNU General Public License",
+      "GPL linking exception",
+      "IBM",
+      "Java (programming language)",
+      "Java (software platform)",
+      "Java Class Library",
+      "Java Platform, Standard Edition",
+      "Linux",
+      "MacOS",
+      "Microsoft",
+      "Microsoft Windows",
+      "OpenIndiana",
+      "OpenVMS",
+      "Operating system",
+      "Oracle Corporation",
+      "Programmer",
+      "Red Hat",
+      "Reference implementation",
+      "Repository (version control)",
+      "SAP",
+      "Software categories",
+      "Software license",
+      "Software release life cycle",
+      "Sun Microsystems"
+    ],
+    "page_id": 8232236,
+    "revision_id": 1363833758,
+    "retrieved_at": "2026-09-18T16:42:09.300772+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260709055429|1363283587",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 8232236,
+            "ns": 0,
+            "title": "OpenJDK",
+            "revisions": [
+              {
+                "revid": 1363833758,
+                "parentid": 1363283587
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Free and open-source implementation of Java SE",
+              "wikibase_item": "Q1461054"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "OpenJDK",
+        "pageid": 8232236,
+        "revid": 1363833758,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free and open-source implementation of Java SE</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above summary\">OpenJDK</th></tr><tr><td colspan=\"2\" class=\"infobox-image logo\"><span typeof=\"mw:File\"><a href=\"/wiki/File:OpenJDK_logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/18/OpenJDK_logo.svg/250px-OpenJDK_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"200\" height=\"55\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/1/18/OpenJDK_logo.svg/500px-OpenJDK_logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"140\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Original author</a></th><td class=\"infobox-data\"><a href=\"/wiki/Sun_Microsystems\" title=\"Sun Microsystems\">Sun Microsystems</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developers</a></th><td class=\"infobox-data\"><a href=\"/wiki/Oracle_Corporation\" title=\"Oracle Corporation\">Oracle</a>, OpenJDK and Java Community, <a href=\"/wiki/Red_Hat\" title=\"Red Hat\">Red Hat</a>, <a href=\"/wiki/Azul_Systems\" title=\"Azul Systems\">Azul Systems</a>, <a href=\"/wiki/IBM\" title=\"IBM\">IBM</a>, <a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>, <a href=\"/wiki/Amazon_(company)\" title=\"Amazon (company)\">Amazon</a>, <a href=\"/wiki/Apple_Inc.\" title=\"Apple Inc.\">Apple</a>, <a href=\"/wiki/SAP\" title=\"SAP\">SAP</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Release</th><td class=\"infobox-data\">May&#160;8, 2007<span class=\"noprint\">&#59;&#32;19 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2007-05-08</span>)</span></td></tr><tr class=\"infobox-hiddenrow\" style=\"display: none;\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">27<sup id=\"cite&#95;ref-wikidata-7b00a61e65eb6154b478dbe722396feb9765b5ea-v20&#95;1-0\" class=\"reference\"><a href=\"#cite_note-wikidata-7b00a61e65eb6154b478dbe722396feb9765b5ea-v20-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1461054?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 15 September 2026<span class=\"noprint\">&#59;&#32;3 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">15 September 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Written in</th><td class=\"infobox-data\"><a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">Operating system</a></th><td class=\"infobox-data\"><a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>, <a href=\"/wiki/FreeBSD\" title=\"FreeBSD\">FreeBSD</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a>, <a href=\"/wiki/OpenIndiana\" title=\"OpenIndiana\">OpenIndiana</a>, <a href=\"/wiki/OpenVMS\" title=\"OpenVMS\">OpenVMS</a>; several other ports in progress</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_categories#Categorization_approaches\" title=\"Software categories\">Type</a></th><td class=\"infobox-data\"><a href=\"/wiki/Java_(software_platform)\" title=\"Java (software platform)\">Java</a> development kit</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GPL-2.0-only</a> with <a href=\"/wiki/GPL_linking_exception\" title=\"GPL linking exception\">linking exception</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://openjdk.org/\">openjdk<wbr />.org</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Repository_(version_control)\" title=\"Repository (version control)\">Repository</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/openjdk\">github<wbr />.com<wbr />/openjdk</a></span> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1461054#P1324\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span></li></ul>\n</div></td></tr></tbody></table> \n<p><b>OpenJDK</b> (<b>Open Java Development Kit</b>) is an implementation of the <a href=\"/wiki/Java_Platform,_Standard_Edition\" title=\"Java Platform, Standard Edition\">Java Platform, Standard Edition</a> (Java SE).<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> It is the result of an effort <a href=\"/wiki/Sun_Microsystems\" title=\"Sun Microsystems\">Sun Microsystems</a> began in 2006, four years before the company was acquired by <a href=\"/wiki/Oracle_Corporation\" title=\"Oracle Corporation\">Oracle Corporation</a>. OpenJDK is <a href=\"/wiki/Free_and_open-source_software\" title=\"Free and open-source software\">free and open-source software</a> released under the <a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU General Public License</a> (GPL) version 2 with a <a href=\"/wiki/GPL_linking_exception\" title=\"GPL linking exception\">GPL linking exception</a>, preventing components that linked to the <a href=\"/wiki/Java_Class_Library\" title=\"Java Class Library\">Java Class Library</a> becoming subject to the terms of the GPL license. OpenJDK is the official <a href=\"/wiki/Reference_implementation\" title=\"Reference implementation\">reference implementation</a> of Java SE since version 7, and is the most popular JDK distribution.<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-wikidata-7b00a61e65eb6154b478dbe722396feb9765b5ea-v20-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-7b00a61e65eb6154b478dbe722396feb9765b5ea-v20_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFMark&#95;Reinhold2026\" class=\"citation web cs1\">Mark Reinhold (September 15, 2026). <a rel=\"nofollow\" class=\"external text\" href=\"https://mail.openjdk.org/archives/list/jdk-dev@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/\">\"Java 27 / JDK 27: General Availability\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Java+27+%2F+JDK+27%3A+General+Availability&amp;rft.date=2026-09-15&amp;rft.au=Mark+Reinhold&amp;rft&#95;id=https%3A%2F%2Fmail.openjdk.org%2Farchives%2Flist%2Fjdk-dev%40openjdk.org%2Fthread%2FORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOpenJDK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://openjdk.java.net/\">\"OpenJDK homepage\"</a>. <a href=\"/wiki/Oracle_Corporation\" title=\"Oracle Corporation\">Oracle Corporation</a> and/or its affiliates<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 1,</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=OpenJDK+homepage&amp;rft.pub=Oracle+Corporation+and%2For+its+affiliates&amp;rft&#95;id=http%3A%2F%2Fopenjdk.java.net%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOpenJDK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210118091934/https://blogs.oracle.com/java/moving-to-openjdk-as-the-official-java-se-7-reference-implementation\">\"Moving to OpenJDK as the official Java SE 7 Reference Implementation\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://blogs.oracle.com/java/moving-to-openjdk-as-the-official-java-se-7-reference-implementation\">the original</a> on January 18, 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 20,</span> 2018</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Moving+to+OpenJDK+as+the+official+Java+SE+7+Reference+Implementation&amp;rft&#95;id=https%3A%2F%2Fblogs.oracle.com%2Fjava%2Fmoving-to-openjdk-as-the-official-java-se-7-reference-implementation&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOpenJDK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://jdk.java.net/java-se-ri/7\">\"Java Platform, Standard Edition 7 Reference Implementations\"</a>. <i>jdk.java.net</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=jdk.java.net&amp;rft.atitle=Java+Platform%2C+Standard+Edition+7+Reference+Implementations&amp;rft&#95;id=https%3A%2F%2Fjdk.java.net%2Fjava-se-ri%2F7&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOpenJDK\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20151121054204/https://jdk8.java.net/java-se-8-ri/\">\"Java Platform, Standard Edition 8 Reference Implementations\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://jdk.java.net/java-se-ri/8\">the original</a> on November 21, 2015.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Java+Platform%2C+Standard+Edition+8+Reference+Implementations&amp;rft&#95;id=http%3A%2F%2Fjdk.java.net%2Fjava-se-ri%2F8&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AOpenJDK\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐cwlxj\nCached time: 20260918164235\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.250 seconds\nReal time usage: 0.609 seconds\nPreprocessor visited node count: 1531/1000000\nRevision size: 2682/2097152 bytes\nPost‐expand include size: 28242/2097152 bytes\nTemplate argument size: 4809/2097152 bytes\nHighest expansion depth: 23/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 15080/5000000 bytes\nLua time usage: 0.168/10.000 seconds\nLua memory usage: 8731420/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  591.186      1 -total\n 82.30%  486.570      1 Template:Infobox_software\n 48.73%  288.089      2 Template:Infobox\n 26.62%  157.349      1 Template:Infobox_software/simple\n 23.33%  137.933     18 Template:If_empty\n 21.54%  127.326      4 Template:Wikidata\n 11.92%   70.476      1 Template:Short_description\n  7.29%   43.121      2 Template:Pagetype\n  5.72%   33.838      2 Template:Start_date_and_age\n  3.31%   19.597      9 Template:Main_other\n-->\n\n<!-- Render ID f35755e9-b37f-11f1-b9af-7360af580555 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Amazon (company)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apple Inc.",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Azul Systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FreeBSD",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free and open-source software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GPL linking exception",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (software platform)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Class Library",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java Platform, Standard Edition",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenIndiana",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenVMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oracle Corporation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Red Hat",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reference implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Repository (version control)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SAP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software categories",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sun Microsystems",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free and open-source implementation of Java SE",
+          "wikibase_item": "Q1461054"
+        }
+      }
+    }
+  ]
+}

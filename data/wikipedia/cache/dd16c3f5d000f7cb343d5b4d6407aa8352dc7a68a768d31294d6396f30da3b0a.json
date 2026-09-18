@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "GNU",
+    "url": "https://en.wikipedia.org/wiki/GNU",
+    "summary": "Free software collection This article is about the free software collection. For the animal, see Wildebeest . For other uses, see GNU (disambiguation) . Not to be confused with XNU . Operating system GNU Debian GNU/Hurd with Xfce4 and web browser Midori Developer Community Written in Various languages (notably C and assembly language ) OS family Unix-like Working state Current Source model Free software Marketing target Personal computers, mobile devices, embedded devices, servers, mainframes, supercomputers Supported platforms Alpha , ARC , ARM , AVR32 , Blackfin , C6x , ETRAX CRIS , FR-V , H8/300 , IA-32 / x86-64 , Hexagon , Itanium , M32R , m68k , META , MicroBlaze , MIPS , MN103 , OpenRISC , PA-RISC , PowerPC , s390 / s390x , S+core , SuperH , SPARC , TILE64 , Unicore32 , Xtensa , RISC-V (with Linux-libre kernel only) Kernel type Microkernel ( GNU Hurd ) or Monolithic kernel (GNU Linux-libre , fork of Linux ) Userland GNU License GNU GPL , GNU LGPL , GNU AGPL , GNU FDL , GNU FSDG Official website gnu .org GNU ( / ɡ n uː / ⓘ GNOO ) is an extensive collection of free software (387 packages as of June 2025 [update] ), which can be used as an operating system or can be used in parts with other operating systems. Most of GNU is licensed under the GNU Project 's own General Public License ( GPL ). Richard Stallman , founder of the GNU project GNU is also the project within which the free software concept originated. Richard Stallman , the founder of the project, views GNU as a \"technical means to a social end\". Relatedly, Lawrence Lessig states in his introduction to the second edition of Stallman's book Free Software, Free Society that in it Stallman has written about \"the social aspects of software and how Free Software can create community and social justice\". ^ \"GNU Licenses\" . ^ \"GNU FSDG\" . ^ \"What is GNU?\" . The GNU Operating System . Free Software Foundation . September 4, 2009 . Retrieved October 9, 2009 . The name 'GNU' is a recursive acronym for 'GNU's Not Unix'; it is pronounced g-noo , as one syllable with no vowel sound between the g and the n . ^ Cite error: The named reference rms-zagreb-talk was invoked but never defined (see the help page ). ^ Stallman, Richard. \"Software – GNU Project\" . GNU Project . Free Software Foundation, Inc . Retrieved January 9, 2022 . ^ Cite error: The named reference handbookonopensource was invoked but never defined (see the help page ). ^ \"GNU Manifesto\" . GNU project . FSF . Retrieved July 27, 2011 . ^ Raymond, Eric (February 1, 2001). The Cathedral & the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary . O'Reilly Media, Inc. pp. 10 –12. ISBN 978-0-59600108-7 . ^ Stallman, Richard (1986), \"KTH\" , Philosophy (speech), GNU, Stockholm, Sweden: FSF . ^ Stallman, Richard M.; Gay, Joshua (December 2009). Free Software, Free Society: Selected Essays Of Richard M. Stallman . CreateSpace Independent Publishing Platform. ISBN 9781441436856 . Retrieved March 24, 2016 .",
+    "text": "Free software collection This article is about the free software collection. For the animal, see Wildebeest . For other uses, see GNU (disambiguation) . Not to be confused with XNU . Operating system GNU Debian GNU/Hurd with Xfce4 and web browser Midori Developer Community Written in Various languages (notably C and assembly language ) OS family Unix-like Working state Current Source model Free software Marketing target Personal computers, mobile devices, embedded devices, servers, mainframes, supercomputers Supported platforms Alpha , ARC , ARM , AVR32 , Blackfin , C6x , ETRAX CRIS , FR-V , H8/300 , IA-32 / x86-64 , Hexagon , Itanium , M32R , m68k , META , MicroBlaze , MIPS , MN103 , OpenRISC , PA-RISC , PowerPC , s390 / s390x , S+core , SuperH , SPARC , TILE64 , Unicore32 , Xtensa , RISC-V (with Linux-libre kernel only) Kernel type Microkernel ( GNU Hurd ) or Monolithic kernel (GNU Linux-libre , fork of Linux ) Userland GNU License GNU GPL , GNU LGPL , GNU AGPL , GNU FDL , GNU FSDG Official website gnu .org GNU ( / ɡ n uː / ⓘ GNOO ) is an extensive collection of free software (387 packages as of June 2025 [update] ), which can be used as an operating system or can be used in parts with other operating systems. Most of GNU is licensed under the GNU Project 's own General Public License ( GPL ). Richard Stallman , founder of the GNU project GNU is also the project within which the free software concept originated. Richard Stallman , the founder of the project, views GNU as a \"technical means to a social end\". Relatedly, Lawrence Lessig states in his introduction to the second edition of Stallman's book Free Software, Free Society that in it Stallman has written about \"the social aspects of software and how Free Software can create community and social justice\". ^ \"GNU Licenses\" . ^ \"GNU FSDG\" . ^ \"What is GNU?\" . The GNU Operating System . Free Software Foundation . September 4, 2009 . Retrieved October 9, 2009 . The name 'GNU' is a recursive acronym for 'GNU's Not Unix'; it is pronounced g-noo , as one syllable with no vowel sound between the g and the n . ^ Cite error: The named reference rms-zagreb-talk was invoked but never defined (see the help page ). ^ Stallman, Richard. \"Software – GNU Project\" . GNU Project . Free Software Foundation, Inc . Retrieved January 9, 2022 . ^ Cite error: The named reference handbookonopensource was invoked but never defined (see the help page ). ^ \"GNU Manifesto\" . GNU project . FSF . Retrieved July 27, 2011 . ^ Raymond, Eric (February 1, 2001). The Cathedral & the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary . O'Reilly Media, Inc. pp. 10 –12. ISBN 978-0-59600108-7 . ^ Stallman, Richard (1986), \"KTH\" , Philosophy (speech), GNU, Stockholm, Sweden: FSF . ^ Stallman, Richard M.; Gay, Joshua (December 2009). Free Software, Free Society: Selected Essays Of Richard M. Stallman . CreateSpace Independent Publishing Platform. ISBN 9781441436856 . Retrieved March 24, 2016 .",
+    "links": [
+      "ARM architecture family",
+      "AVR32",
+      "Assembly language",
+      "Blackfin",
+      "C (programming language)",
+      "C6x",
+      "DEC Alpha",
+      "Debian GNU/Hurd",
+      "ESA/390",
+      "ETRAX CRIS",
+      "FR-V",
+      "Free Software Foundation",
+      "Free Software, Free Society",
+      "Free software",
+      "GNU (disambiguation)",
+      "GNU Affero General Public License",
+      "GNU Free Documentation License",
+      "GNU General Public License",
+      "GNU Hurd",
+      "GNU Lesser General Public License",
+      "GNU Project",
+      "H8/300",
+      "IA-32",
+      "ISBN (identifier)",
+      "Imagination META",
+      "Itanium",
+      "Kernel (operating system)",
+      "Lawrence Lessig",
+      "Linux kernel",
+      "Linux-libre",
+      "M32R",
+      "M68k",
+      "MIPS architecture",
+      "MN103",
+      "MicroBlaze",
+      "Microkernel",
+      "Midori (web browser)",
+      "Monolithic kernel",
+      "OpenRISC",
+      "Operating system",
+      "PA-RISC",
+      "PowerPC",
+      "Programmer",
+      "Programming language",
+      "Qualcomm Hexagon",
+      "RISC-V",
+      "Recursive acronym",
+      "Richard Stallman",
+      "S+core",
+      "SPARC",
+      "Software license",
+      "SuperH",
+      "Synopsys ARC",
+      "TILE64",
+      "Unicore32",
+      "Unix-like",
+      "User space and kernel space",
+      "Wildebeest",
+      "X86-64",
+      "XNU",
+      "Xfce4",
+      "Xtensa",
+      "Z/Architecture"
+    ],
+    "page_id": 11875,
+    "revision_id": 1375042850,
+    "retrieved_at": "2026-09-18T16:41:32.001555+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260812160123|1369051587",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 11875,
+            "ns": 0,
+            "title": "GNU",
+            "revisions": [
+              {
+                "revid": 1375042850,
+                "parentid": 1369051587
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Gnu_hurd_debian_1.png",
+              "wikibase-shortdesc": "Free software collection",
+              "wikibase_item": "Q44571"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "GNU",
+        "pageid": 11875,
+        "revid": 1375042850,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Free software collection</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the free software collection. For the animal, see <a href=\"/wiki/Wildebeest\" title=\"Wildebeest\">Wildebeest</a>. For other uses, see <a href=\"/wiki/GNU_(disambiguation)\" class=\"mw-disambig\" title=\"GNU (disambiguation)\">GNU (disambiguation)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/XNU\" title=\"XNU\">XNU</a>.</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Operating system</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color: #e0e0e0; color: inherit;\">GNU</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Heckert_GNU_white.svg\" class=\"mw-file-description\"><img alt=\"The GNU head\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/120px-Heckert_GNU_white.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"98\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/250px-Heckert_GNU_white.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"535\" data-file-height=\"523\" /></a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Gnu_hurd_debian_1.png\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Gnu_hurd_debian_1.png/330px-Gnu_hurd_debian_1.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"225\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Gnu_hurd_debian_1.png/960px-Gnu_hurd_debian_1.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1024\" data-file-height=\"768\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/Debian_GNU/Hurd\" class=\"mw-redirect\" title=\"Debian GNU/Hurd\">Debian GNU/Hurd</a> with <a href=\"/wiki/Xfce4\" class=\"mw-redirect\" title=\"Xfce4\">Xfce4</a> and web browser <a href=\"/wiki/Midori_(web_browser)\" title=\"Midori (web browser)\">Midori</a></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programmer\" title=\"Programmer\">Developer</a></th><td class=\"infobox-data\">Community</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Programming_language\" title=\"Programming language\">Written in</a></th><td class=\"infobox-data\">Various languages (notably <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> and <a href=\"/wiki/Assembly_language\" title=\"Assembly language\">assembly language</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">OS family</th><td class=\"infobox-data\"><a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Working state</th><td class=\"infobox-data\">Current</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Source model</th><td class=\"infobox-data\"><a href=\"/wiki/Free_software\" title=\"Free software\">Free software</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Marketing target</th><td class=\"infobox-data\">Personal computers, mobile devices, embedded devices, servers, mainframes, supercomputers</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Supported platforms</th><td class=\"infobox-data\"><a href=\"/wiki/DEC_Alpha\" title=\"DEC Alpha\">Alpha</a>, <a href=\"/wiki/Synopsys_ARC\" class=\"mw-redirect\" title=\"Synopsys ARC\">ARC</a>, <a href=\"/wiki/ARM_architecture_family\" title=\"ARM architecture family\">ARM</a>, <a href=\"/wiki/AVR32\" title=\"AVR32\">AVR32</a>, <a href=\"/wiki/Blackfin\" title=\"Blackfin\">Blackfin</a>, <a href=\"/wiki/C6x\" class=\"mw-redirect\" title=\"C6x\">C6x</a>, <a href=\"/wiki/ETRAX_CRIS\" title=\"ETRAX CRIS\">ETRAX CRIS</a>, <a href=\"/wiki/FR-V\" class=\"mw-redirect\" title=\"FR-V\">FR-V</a>, <a href=\"/wiki/H8/300\" class=\"mw-redirect\" title=\"H8/300\">H8/300</a>, <a href=\"/wiki/IA-32\" title=\"IA-32\">IA-32</a>/<a href=\"/wiki/X86-64\" title=\"X86-64\">x86-64</a>, <a href=\"/wiki/Qualcomm_Hexagon\" title=\"Qualcomm Hexagon\">Hexagon</a>, <a href=\"/wiki/Itanium\" title=\"Itanium\">Itanium</a>, <a href=\"/wiki/M32R\" title=\"M32R\">M32R</a>, <a href=\"/wiki/M68k\" class=\"mw-redirect\" title=\"M68k\">m68k</a>, <a href=\"/wiki/Imagination_META\" title=\"Imagination META\">META</a>, <a href=\"/wiki/MicroBlaze\" title=\"MicroBlaze\">MicroBlaze</a>, <a href=\"/wiki/MIPS_architecture\" title=\"MIPS architecture\">MIPS</a>, <a href=\"/wiki/MN103\" title=\"MN103\">MN103</a>, <a href=\"/wiki/OpenRISC\" title=\"OpenRISC\">OpenRISC</a>, <a href=\"/wiki/PA-RISC\" title=\"PA-RISC\">PA-RISC</a>, <a href=\"/wiki/PowerPC\" title=\"PowerPC\">PowerPC</a>, <a href=\"/wiki/ESA/390\" class=\"mw-redirect\" title=\"ESA/390\">s390</a>/<a href=\"/wiki/Z/Architecture\" title=\"Z/Architecture\">s390x</a>, <a href=\"/wiki/S%2Bcore\" class=\"mw-redirect\" title=\"S+core\">S+core</a>, <a href=\"/wiki/SuperH\" title=\"SuperH\">SuperH</a>, <a href=\"/wiki/SPARC\" title=\"SPARC\">SPARC</a>, <a href=\"/wiki/TILE64\" title=\"TILE64\">TILE64</a>, <a href=\"/wiki/Unicore32\" class=\"mw-redirect\" title=\"Unicore32\">Unicore32</a>, <a href=\"/wiki/Xtensa\" class=\"mw-redirect\" title=\"Xtensa\">Xtensa</a>, <a href=\"/wiki/RISC-V\" title=\"RISC-V\">RISC-V</a>  (with <a href=\"/wiki/Linux-libre\" title=\"Linux-libre\">Linux-libre</a> kernel only)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Kernel_(operating_system)\" title=\"Kernel (operating system)\">Kernel</a> type</th><td class=\"infobox-data\"><a href=\"/wiki/Microkernel\" title=\"Microkernel\">Microkernel</a> (<a href=\"/wiki/GNU_Hurd\" title=\"GNU Hurd\">GNU Hurd</a>) or <a href=\"/wiki/Monolithic_kernel\" title=\"Monolithic kernel\">Monolithic kernel</a> (GNU <a href=\"/wiki/Linux-libre\" title=\"Linux-libre\">Linux-libre</a>, fork of <a href=\"/wiki/Linux_kernel\" title=\"Linux kernel\">Linux</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/User_space_and_kernel_space\" title=\"User space and kernel space\">Userland</a></th><td class=\"infobox-data\">GNU</td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU GPL</a>, <a href=\"/wiki/GNU_Lesser_General_Public_License\" title=\"GNU Lesser General Public License\">GNU LGPL</a>, <a href=\"/wiki/GNU_Affero_General_Public_License\" title=\"GNU Affero General Public License\">GNU AGPL</a>, <a href=\"/wiki/GNU_Free_Documentation_License\" title=\"GNU Free Documentation License\">GNU FDL</a>, <a href=\"/wiki/GNU_Project#GNU_Free_System_Distribution_Guidelines\" title=\"GNU Project\">GNU FSDG</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\">Official website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://gnu.org\">gnu<wbr />.org</a></span></td></tr></tbody></table>\n<p><b>GNU</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ɡ/: &#39;g&#39; in &#39;guy&#39;\">ɡ</span><span title=\"&#39;n&#39; in &#39;nigh&#39;\">n</span><span title=\"/uː/: &#39;oo&#39; in &#39;goose&#39;\">uː</span></span>/</a></span>&#32;<span class=\"ext-phonos\"><span data-nosnippet=\"\" id=\"ooui-php-1\" class=\"noexcerpt ext-phonos-PhonosButton ext-phonos-PhonosButton-emptylabel oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-buttonElement-size-medium oo-ui-iconElement oo-ui-buttonWidget\" data-ooui=\"{&quot;_&quot;:&quot;mw.Phonos.PhonosButton&quot;,&quot;href&quot;:&quot;\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/transcoded\\/2\\/24\\/En-gnu.ogg\\/En-gnu.ogg.mp3&quot;,&quot;rel&quot;:[&quot;nofollow&quot;],&quot;framed&quot;:false,&quot;icon&quot;:&quot;volumeUp&quot;,&quot;data&quot;:{&quot;ipa&quot;:&quot;&quot;,&quot;text&quot;:&quot;&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;wikibase&quot;:&quot;&quot;,&quot;file&quot;:&quot;En-gnu.ogg&quot;},&quot;classes&quot;:[&quot;noexcerpt&quot;,&quot;ext-phonos-PhonosButton&quot;,&quot;ext-phonos-PhonosButton-emptylabel&quot;]}\"><a role=\"button\" tabindex=\"0\" href=\"//upload.wikimedia.org/wikipedia/commons/transcoded/2/24/En-gnu.ogg/En-gnu.ogg.mp3\" rel=\"nofollow\" aria-label=\"Play audio\" title=\"Play audio\" class=\"oo-ui-buttonElement-button\"><span class=\"oo-ui-iconElement-icon oo-ui-icon-volumeUp\"></span><span class=\"oo-ui-labelElement-label\"></span><span class=\"oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator\"></span></a></span><sup class=\"ext-phonos-attribution noexcerpt navigation-not-searchable\"><a href=\"/wiki/File:En-gnu.ogg\" title=\"File:En-gnu.ogg\">ⓘ</a></sup></span></span> <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\"><span style=\"font-size:90%\">GNOO</span></i></a>)<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-rms-zagreb-talk&#95;4-0\" class=\"reference\"><a href=\"#cite_note-rms-zagreb-talk-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> is an extensive collection of <a href=\"/wiki/Free_software\" title=\"Free software\">free software</a> (387 packages as of June&#160;2025<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=GNU&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=GNU&amp;action=edit\">&#91;update&#93;</a></sup>),<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> which can be used as an <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating system</a> or can be used in parts with other operating systems.<sup id=\"cite&#95;ref-handbookonopensource&#95;6-0\" class=\"reference\"><a href=\"#cite_note-handbookonopensource-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> Most of GNU is licensed under the <a href=\"/wiki/GNU_Project\" title=\"GNU Project\">GNU Project</a>'s own General Public License (<a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GPL</a>).\n</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"/wiki/File:Richard_Stallman_-_F%C3%AAte_de_l%27Humanit%C3%A9_2014_-_010.jpg\" class=\"mw-file-description\"><img alt=\"Richard Stallman\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Richard_Stallman_-_F%C3%AAte_de_l%27Humanit%C3%A9_2014_-_010.jpg/250px-Richard_Stallman_-_F%C3%AAte_de_l%27Humanit%C3%A9_2014_-_010.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"190\" height=\"285\" style=\"--mw-file-upright: 0.75\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Richard_Stallman_-_F%C3%AAte_de_l%27Humanit%C3%A9_2014_-_010.jpg/500px-Richard_Stallman_-_F%C3%AAte_de_l%27Humanit%C3%A9_2014_-_010.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"3456\" data-file-height=\"5184\" /></a><figcaption><a href=\"/wiki/Richard_Stallman\" title=\"Richard Stallman\">Richard Stallman</a>, founder of the GNU project</figcaption></figure>\n<p>GNU is also the project within which the <a href=\"/wiki/Free_software\" title=\"Free software\">free software</a> concept originated. <a href=\"/wiki/Richard_Stallman\" title=\"Richard Stallman\">Richard Stallman</a>, the founder of the project, views GNU as a \"technical means to a social end\".<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> Relatedly, <a href=\"/wiki/Lawrence_Lessig\" title=\"Lawrence Lessig\">Lawrence Lessig</a> states in his introduction to the second edition of Stallman's book <i><a href=\"/wiki/Free_Software,_Free_Society\" title=\"Free Software, Free Society\">Free Software, Free Society</a></i> that in it Stallman has written about \"the social aspects of software and how Free Software can create community and social justice\".<sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/licenses/\">\"GNU Licenses\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GNU+Licenses&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Flicenses%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/distros/free-system-distribution-guidelines.html\">\"GNU FSDG\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=GNU+FSDG&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fdistros%2Ffree-system-distribution-guidelines.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/\">\"What is GNU?\"</a>. <i>The GNU Operating System</i>. <a href=\"/wiki/Free_Software_Foundation\" title=\"Free Software Foundation\">Free Software Foundation</a>. September 4, 2009<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 9,</span> 2009</span>. <q>The name 'GNU' is a <a href=\"/wiki/Recursive_acronym\" title=\"Recursive acronym\">recursive acronym</a> for 'GNU's Not Unix'; it is pronounced <i>g-noo</i>, as one syllable with no vowel sound between the <i>g</i> and the <i>n</i>.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+GNU+Operating+System&amp;rft.atitle=What+is+GNU%3F&amp;rft.date=2009-09-04&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-rms-zagreb-talk-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-rms-zagreb-talk_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>rms-zagreb-talk</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStallman\" class=\"citation web cs1\">Stallman, Richard. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/software/software.html\">\"Software – GNU Project\"</a>. <i>GNU Project</i>. Free Software Foundation, Inc<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 9,</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GNU+Project&amp;rft.atitle=Software+%E2%80%93+GNU+Project&amp;rft.aulast=Stallman&amp;rft.aufirst=Richard&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fsoftware%2Fsoftware.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-handbookonopensource-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-handbookonopensource_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>handbookonopensource</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/gnu/manifesto.html\">\"GNU Manifesto\"</a>. <i>GNU project</i>. FSF<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 27,</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GNU+project&amp;rft.atitle=GNU+Manifesto&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fgnu%2Fmanifesto.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRaymond2001\" class=\"citation book cs1\">Raymond, Eric (February 1, 2001). <span class=\"id-lock-registration\" title=\"Free registration required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/cathedralbaz00raym\"><i>The Cathedral &amp; the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary</i></a></span>. O'Reilly Media, Inc. pp.&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/cathedralbaz00raym/page/10\">10</a>–12. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-59600108-7\" title=\"Special:BookSources/978-0-59600108-7\"><bdi>978-0-59600108-7</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Cathedral+%26+the+Bazaar%3A+Musings+on+Linux+and+Open+Source+by+an+Accidental+Revolutionary&amp;rft.pages=10-12&amp;rft.pub=O%27Reilly+Media%2C+Inc.&amp;rft.date=2001-02-01&amp;rft.isbn=978-0-59600108-7&amp;rft.aulast=Raymond&amp;rft.aufirst=Eric&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fcathedralbaz00raym&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStallman1986\" class=\"citation cs2\">Stallman, Richard (1986), <a rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/philosophy/stallman-kth.html\">\"KTH\"</a>, <i>Philosophy</i> (speech), GNU, Stockholm, Sweden: FSF</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=KTH&amp;rft.btitle=Philosophy&amp;rft.place=Stockholm%2C+Sweden&amp;rft.series=GNU&amp;rft.pub=FSF&amp;rft.date=1986&amp;rft.aulast=Stallman&amp;rft.aufirst=Richard&amp;rft&#95;id=https%3A%2F%2Fwww.gnu.org%2Fphilosophy%2Fstallman-kth.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span>.</span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStallmanGay2009\" class=\"citation book cs1\">Stallman, Richard M.; Gay, Joshua (December 2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.openisbn.com/isbn/9781441436856/\"><i>Free Software, Free Society: Selected Essays Of Richard M. Stallman</i></a>. CreateSpace Independent Publishing Platform. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/9781441436856\" title=\"Special:BookSources/9781441436856\"><bdi>9781441436856</bdi></a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 24,</span> 2016</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Free+Software%2C+Free+Society%3A+Selected+Essays+Of+Richard+M.+Stallman&amp;rft.pub=CreateSpace+Independent+Publishing+Platform&amp;rft.date=2009-12&amp;rft.isbn=9781441436856&amp;rft.aulast=Stallman&amp;rft.aufirst=Richard+M.&amp;rft.au=Gay%2C+Joshua&amp;rft&#95;id=https%3A%2F%2Fwww.openisbn.com%2Fisbn%2F9781441436856%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AGNU\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐lbcv9\nCached time: 20260918164157\nCache expiry: 28800\nCache expiry source: Template:As_of (#time)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.220 seconds\nReal time usage: 0.342 seconds\nPreprocessor visited node count: 1776/1000000\nRevision size: 4834/2097152 bytes\nPost‐expand include size: 35136/2097152 bytes\nTemplate argument size: 4726/2097152 bytes\nHighest expansion depth: 22/100\nExpensive parser function count: 10/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 22753/5000000 bytes\nLua time usage: 0.119/10.000 seconds\nLua memory usage: 6817898/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  318.397      1 -total\n 20.10%   63.985      5 Template:Cite_web\n 16.70%   53.158      2 Template:Short_description\n 15.12%   48.152      1 Template:Infobox_OS\n 12.22%   38.900      1 Template:Infobox\n 10.66%   33.941      1 Template:IPAc-en\n  9.04%   28.781      4 Template:Pagetype\n  6.58%   20.946      1 Template:About\n  5.98%   19.054      9 Template:Main_other\n  5.00%   15.932      4 Template:Broken_ref\n-->\n\n<!-- Render ID dcb10829-b37f-11f1-a6f5-2931709516d4 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Wildebeest",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XNU",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ARM architecture family",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AVR32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Assembly language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Blackfin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C6x",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "DEC Alpha",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Debian GNU/Hurd",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ESA/390",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ETRAX CRIS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FR-V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software, Free Society",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free Software Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Affero General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Free Documentation License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Hurd",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Lesser General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "H8/300",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IA-32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imagination META",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Itanium",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kernel (operating system)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lawrence Lessig",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux-libre",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Linux kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "M32R",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "M68k",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIPS architecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MN103",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MicroBlaze",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microkernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Midori (web browser)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monolithic kernel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenRISC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PA-RISC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PowerPC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Qualcomm Hexagon",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "RISC-V",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Recursive acronym",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Richard Stallman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S+core",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SPARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SuperH",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Synopsys ARC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TILE64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unicore32",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "User space and kernel space",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "X86-64",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xfce4",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xtensa",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Z/Architecture",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Free software collection",
+          "page_image_free": "Gnu_hurd_debian_1.png",
+          "wikibase_item": "Q44571"
+        }
+      }
+    }
+  ]
+}

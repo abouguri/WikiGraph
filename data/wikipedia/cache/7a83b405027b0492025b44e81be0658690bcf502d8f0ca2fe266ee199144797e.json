@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Donald Knuth",
+    "url": "https://en.wikipedia.org/wiki/Donald_Knuth",
+    "summary": "American computer scientist and mathematician (born 1938) For other persons named Knuth, see Knuth . Donald Knuth Knuth in 2011 Born Donald Ervin Knuth ( 1938-01-10 ) January 10, 1938 (age 88) Milwaukee, Wisconsin , U.S. Education Case Western Reserve University ( BS , MS ) California Institute of Technology ( PhD ) Known for See list The Art of Computer Programming , TeX , METAFONT , Computer Modern , Knuth's up-arrow notation , Knuth–Morris–Pratt algorithm , Knuth–Bendix completion algorithm , MMIX , Robinson–Schensted–Knuth correspondence , LR parser , Literate programming Spouse Nancy Jill Carter Children 2 Awards See list SIGCSE Outstanding Contribution (1986) Grace Murray Hopper Award (1971) Turing Award (1974) Member of the National Academy of Sciences (1975) National Medal of Science (1979) John von Neumann Medal (1995) Harvey Prize (1995) Kyoto Prize (1996) Foreign Member of the Royal Society (2003) Faraday Medal (2011) BBVA Foundation Frontiers of Knowledge Award (2010) Turing Lecture (2011) Flajolet Lecture (2014) Scientific career Fields Mathematics Computer science Workplaces California Institute of Technology , Stanford University Thesis Finite Semifields and Projective Planes (1963) Doctoral advisor Marshall Hall, Jr. Doctoral students Leonidas J. Guibas Michael Fredman Scott Kim Vaughan Pratt Robert Sedgewick Jeffrey Vitter Andrei Broder Website cs .stanford .edu /~knuth Donald Ervin Knuth ( / k ə ˈ n uː θ / kə- NOOTH ; born January 10, 1938) is an American computer scientist and mathematician. He is a professor emeritus at Stanford University . He is the 1974 recipient of the ACM Turing Award , informally considered the Nobel Prize of computer science. Knuth has been called the \"father of the analysis of algorithms \". Knuth is the author of the multi-volume work The Art of Computer Programming . He contributed to the development of the rigorous analysis of the computational complexity of algorithms and systematized formal mathematical techniques for it. In the process, he also popularized the asymptotic notation . In addition to fundamental contributions in several branches of theoretical computer science , Knuth is the creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces. As a writer and scholar, Knuth created the WEB and CWEB computer programming systems designed to encourage and facilitate literate programming , and designed the MIX / MMIX instruction set architectures . He strongly opposes the granting of software patents , and has expressed his opinion to the United States Patent and Trademark Office and European Patent Organisation . ^ a b Donald Knuth at the Mathematics Genealogy Project ^ \"Professor Donald Knuth ForMemRS\" . London: Royal Society . Archived from the original on November 17, 2015. ^ Cite error: The named reference faq was invoked but never defined (see the help page ). ^ Cite error: The named reference Turing Award was invoked but never defined (see the help page ). ^ Karp, Richard M. (February 1986). \"Combinatorics, Complexity, and Randomness\" . Communications of the ACM . 29 (2): 98– 109. doi : 10.1145/5657.5658 .",
+    "text": "American computer scientist and mathematician (born 1938) For other persons named Knuth, see Knuth . Donald Knuth Knuth in 2011 Born Donald Ervin Knuth ( 1938-01-10 ) January 10, 1938 (age 88) Milwaukee, Wisconsin , U.S. Education Case Western Reserve University ( BS , MS ) California Institute of Technology ( PhD ) Known for See list The Art of Computer Programming , TeX , METAFONT , Computer Modern , Knuth's up-arrow notation , Knuth–Morris–Pratt algorithm , Knuth–Bendix completion algorithm , MMIX , Robinson–Schensted–Knuth correspondence , LR parser , Literate programming Spouse Nancy Jill Carter Children 2 Awards See list SIGCSE Outstanding Contribution (1986) Grace Murray Hopper Award (1971) Turing Award (1974) Member of the National Academy of Sciences (1975) National Medal of Science (1979) John von Neumann Medal (1995) Harvey Prize (1995) Kyoto Prize (1996) Foreign Member of the Royal Society (2003) Faraday Medal (2011) BBVA Foundation Frontiers of Knowledge Award (2010) Turing Lecture (2011) Flajolet Lecture (2014) Scientific career Fields Mathematics Computer science Workplaces California Institute of Technology , Stanford University Thesis Finite Semifields and Projective Planes (1963) Doctoral advisor Marshall Hall, Jr. Doctoral students Leonidas J. Guibas Michael Fredman Scott Kim Vaughan Pratt Robert Sedgewick Jeffrey Vitter Andrei Broder Website cs .stanford .edu /~knuth Donald Ervin Knuth ( / k ə ˈ n uː θ / kə- NOOTH ; born January 10, 1938) is an American computer scientist and mathematician. He is a professor emeritus at Stanford University . He is the 1974 recipient of the ACM Turing Award , informally considered the Nobel Prize of computer science. Knuth has been called the \"father of the analysis of algorithms \". Knuth is the author of the multi-volume work The Art of Computer Programming . He contributed to the development of the rigorous analysis of the computational complexity of algorithms and systematized formal mathematical techniques for it. In the process, he also popularized the asymptotic notation . In addition to fundamental contributions in several branches of theoretical computer science , Knuth is the creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces. As a writer and scholar, Knuth created the WEB and CWEB computer programming systems designed to encourage and facilitate literate programming , and designed the MIX / MMIX instruction set architectures . He strongly opposes the granting of software patents , and has expressed his opinion to the United States Patent and Trademark Office and European Patent Organisation . ^ a b Donald Knuth at the Mathematics Genealogy Project ^ \"Professor Donald Knuth ForMemRS\" . London: Royal Society . Archived from the original on November 17, 2015. ^ Cite error: The named reference faq was invoked but never defined (see the help page ). ^ Cite error: The named reference Turing Award was invoked but never defined (see the help page ). ^ Karp, Richard M. (February 1986). \"Combinatorics, Complexity, and Randomness\" . Communications of the ACM . 29 (2): 98– 109. doi : 10.1145/5657.5658 .",
+    "links": [
+      "Acm Turing award",
+      "Analysis of algorithms",
+      "Andrei Broder",
+      "BBVA Foundation Frontiers of Knowledge Award",
+      "Bachelor of Science",
+      "Big O notation",
+      "CWEB",
+      "California Institute of Technology",
+      "Case Western Reserve University",
+      "Computational complexity",
+      "Computer Modern",
+      "Computer science",
+      "Doctor of Philosophy",
+      "Doctoral advisor",
+      "Doi (identifier)",
+      "European Patent Organisation",
+      "Faraday Medal",
+      "Flajolet Lecture Prize",
+      "Foreign Member of the Royal Society",
+      "Grace Murray Hopper Award",
+      "Harvey Prize",
+      "Instruction set",
+      "Jeffrey Vitter",
+      "John von Neumann Medal",
+      "Knuth",
+      "Knuth's up-arrow notation",
+      "Knuth–Bendix completion algorithm",
+      "Knuth–Morris–Pratt algorithm",
+      "Kyoto Prize",
+      "LR parser",
+      "Leonidas J. Guibas",
+      "Literate programming",
+      "METAFONT",
+      "MIX (abstract machine)",
+      "MMIX",
+      "Marshall Hall (mathematician)",
+      "Master of Science",
+      "Mathematics",
+      "Mathematics Genealogy Project",
+      "Member of the National Academy of Sciences",
+      "Michael Fredman",
+      "Milwaukee",
+      "National Medal of Science",
+      "Nobel Prize",
+      "Outstanding Contribution to Computer Science Education",
+      "Professor emeritus",
+      "Richard M. Karp",
+      "Robert Sedgewick (computer scientist)",
+      "Robinson–Schensted–Knuth correspondence",
+      "Royal Society",
+      "Scott Kim",
+      "Software patent",
+      "Stanford University",
+      "TeX",
+      "The Art of Computer Programming",
+      "Theoretical computer science",
+      "Thesis",
+      "Turing Award",
+      "Turing Lecture",
+      "United States Patent and Trademark Office",
+      "Vaughan Pratt",
+      "WEB"
+    ],
+    "page_id": 8095,
+    "revision_id": 1374283509,
+    "retrieved_at": "2026-09-18T16:41:18.148791+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260911011555|1374283278",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 8095,
+            "ns": 0,
+            "title": "Donald Knuth",
+            "revisions": [
+              {
+                "revid": 1374283509,
+                "parentid": 1374283278
+              }
+            ],
+            "pageprops": {
+              "defaultsort": "Knuth, Donald Ervin",
+              "page_image_free": "Donald_Ervin_Knuth_(cropped).jpg",
+              "wikibase-shortdesc": "American computer scientist and mathematician (born 1938)",
+              "wikibase_item": "Q17457"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Donald Knuth",
+        "pageid": 8095,
+        "revid": 1374283509,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">American computer scientist and mathematician (born 1938)</div>\n<p class=\"mw-empty-elt\">\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other persons named Knuth, see <a href=\"/wiki/Knuth\" title=\"Knuth\">Knuth</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox biography vcard\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\"><div class=\"fn\">Donald Knuth</div></th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Donald_Ervin_Knuth_(cropped).jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Donald_Ervin_Knuth_%28cropped%29.jpg/250px-Donald_Ervin_Knuth_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"375\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Donald_Ervin_Knuth_%28cropped%29.jpg/500px-Donald_Ervin_Knuth_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"797\" data-file-height=\"1197\" /></a></span><div class=\"infobox-caption\">Knuth in 2011</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Born</th><td class=\"infobox-data\"><div style=\"display:inline\" class=\"nickname\">Donald Ervin Knuth</div><br /><span style=\"display:none\"> (<span class=\"bday\">1938-01-10</span>) </span>January 10, 1938<span class=\"noprint ForceAgeToShow\"> (age&#160;88)</span><br /><div style=\"display:inline\" class=\"birthplace\"><a href=\"/wiki/Milwaukee\" title=\"Milwaukee\">Milwaukee, Wisconsin</a>, U.S.</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Education</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Case_Western_Reserve_University\" title=\"Case Western Reserve University\">Case Western Reserve University</a> (<a href=\"/wiki/Bachelor_of_Science\" title=\"Bachelor of Science\">BS</a>, <a href=\"/wiki/Master_of_Science\" title=\"Master of Science\">MS</a>)</li><li><a href=\"/wiki/California_Institute_of_Technology\" title=\"California Institute of Technology\">California Institute of Technology</a> (<a href=\"/wiki/Doctor_of_Philosophy\" title=\"Doctor of Philosophy\">PhD</a>)</li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Known&#160;for</th><td class=\"infobox-data\"><div class=\"collapsible-list mw-collapsible mw-collapsed\" style=\"text-align: left;\">\n<div style=\"line-height: 1.6em; font-weight: bold;\"><div><style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\"><i>See list</i></span></div></div>\n<ul class=\"mw-collapsible-content\" style=\"margin-top: 0; margin-bottom: 0; line-height: inherit; list-style: none; margin-left: 0;\"><li style=\"line-height: inherit; margin: 0\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><i><a href=\"/wiki/The_Art_of_Computer_Programming\" title=\"The Art of Computer Programming\">The Art of Computer Programming</a></i>,</li><li><a href=\"/wiki/TeX\" title=\"TeX\">TeX</a>, <a href=\"/wiki/METAFONT\" class=\"mw-redirect\" title=\"METAFONT\">METAFONT</a>,</li><li><a href=\"/wiki/Computer_Modern\" title=\"Computer Modern\">Computer Modern</a>,</li><li><a href=\"/wiki/Knuth%27s_up-arrow_notation\" title=\"Knuth&#39;s up-arrow notation\">Knuth's up-arrow notation</a>,</li><li><a href=\"/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm\" title=\"Knuth–Morris–Pratt algorithm\">Knuth–Morris–Pratt algorithm</a>,</li><li><a href=\"/wiki/Knuth%E2%80%93Bendix_completion_algorithm\" title=\"Knuth–Bendix completion algorithm\">Knuth–Bendix completion algorithm</a>,</li><li><a href=\"/wiki/MMIX\" title=\"MMIX\">MMIX</a>,</li><li><a href=\"/wiki/Robinson%E2%80%93Schensted%E2%80%93Knuth_correspondence\" title=\"Robinson–Schensted–Knuth correspondence\">Robinson–Schensted–Knuth correspondence</a>, <a href=\"/wiki/LR_parser\" title=\"LR parser\">LR parser</a>,</li><li><a href=\"/wiki/Literate_programming\" title=\"Literate programming\">Literate programming</a></li></ul></div></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Spouse</th><td class=\"infobox-data\">Nancy Jill Carter</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Children</th><td class=\"infobox-data\">2</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Awards</th><td class=\"infobox-data\"><div class=\"collapsible-list mw-collapsible mw-collapsed\" style=\"text-align: left;\">\n<div style=\"line-height: 1.6em; font-weight: bold;\"><div><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r886047488\" /><span class=\"nobold\"><i>See list</i></span></div></div>\n<ul class=\"mw-collapsible-content\" style=\"margin-top: 0; margin-bottom: 0; line-height: inherit; list-style: none; margin-left: 0;\"><li style=\"line-height: inherit; margin: 0\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Outstanding_Contribution_to_Computer_Science_Education\" class=\"mw-redirect\" title=\"Outstanding Contribution to Computer Science Education\">SIGCSE Outstanding Contribution</a> (1986)</li>\n<li><a href=\"/wiki/Grace_Murray_Hopper_Award\" title=\"Grace Murray Hopper Award\">Grace Murray Hopper Award</a> (1971)</li>\n<li><a href=\"/wiki/Turing_Award\" title=\"Turing Award\">Turing Award</a> (1974)</li>\n<li><a href=\"/wiki/Member_of_the_National_Academy_of_Sciences\" title=\"Member of the National Academy of Sciences\">Member of the National Academy of Sciences</a> (1975)</li>\n<li><a href=\"/wiki/National_Medal_of_Science\" title=\"National Medal of Science\">National Medal of Science</a> (1979)</li>\n<li><a href=\"/wiki/John_von_Neumann_Medal\" class=\"mw-redirect\" title=\"John von Neumann Medal\">John von Neumann Medal</a> (1995)</li>\n<li><a href=\"/wiki/Harvey_Prize\" title=\"Harvey Prize\">Harvey Prize</a> (1995)</li>\n<li><a href=\"/wiki/Kyoto_Prize\" title=\"Kyoto Prize\">Kyoto Prize</a> (1996)</li>\n<li><a href=\"/wiki/Foreign_Member_of_the_Royal_Society\" class=\"mw-redirect\" title=\"Foreign Member of the Royal Society\">Foreign Member of the Royal Society</a> (2003)<sup id=\"cite&#95;ref-formemrs&#95;2-0\" class=\"reference\"><a href=\"#cite_note-formemrs-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></li>\n<li><a href=\"/wiki/Faraday_Medal\" class=\"mw-redirect\" title=\"Faraday Medal\">Faraday Medal</a> (2011)</li>\n<li><a href=\"/wiki/BBVA_Foundation_Frontiers_of_Knowledge_Award\" title=\"BBVA Foundation Frontiers of Knowledge Award\">BBVA Foundation Frontiers of Knowledge Award</a> (2010)</li>\n<li><a href=\"/wiki/Turing_Lecture\" class=\"mw-redirect\" title=\"Turing Lecture\">Turing Lecture</a> (2011)</li>\n<li><a href=\"/wiki/Flajolet_Lecture_Prize\" title=\"Flajolet Lecture Prize\">Flajolet Lecture</a> (2014)</li></ul>\n</div></li></ul>\n</div></td></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /><b>Scientific career</b></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Fields</th><td class=\"infobox-data category\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Mathematics\" title=\"Mathematics\">Mathematics</a></li><li><a href=\"/wiki/Computer_science\" title=\"Computer science\">Computer science</a></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Workplaces</th><td class=\"infobox-data\"><a href=\"/wiki/California_Institute_of_Technology\" title=\"California Institute of Technology\">California Institute of Technology</a>, <a href=\"/wiki/Stanford_University\" title=\"Stanford University\">Stanford University</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Thesis\" title=\"Thesis\">Thesis</a></th><td class=\"infobox-data\"><i><a rel=\"nofollow\" class=\"external text\" href=\"https://thesis.library.caltech.edu/2441/1/Knuth_de_1963.pdf\">Finite Semifields and Projective Planes</a></i>&#160;<span style=\"font-size:97%;\">(1963)</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Doctoral_advisor\" title=\"Doctoral advisor\">Doctoral advisor</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Marshall_Hall_(mathematician)\" title=\"Marshall Hall (mathematician)\">Marshall Hall, Jr.</a><sup id=\"cite&#95;ref-mathgene&#95;1-0\" class=\"reference\"><a href=\"#cite_note-mathgene-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Doctoral students</div></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Leonidas_J._Guibas\" title=\"Leonidas J. Guibas\">Leonidas J. Guibas</a></li>\n<li><a href=\"/wiki/Michael_Fredman\" title=\"Michael Fredman\">Michael Fredman</a></li>\n<li><a href=\"/wiki/Scott_Kim\" title=\"Scott Kim\">Scott Kim</a></li>\n<li><a href=\"/wiki/Vaughan_Pratt\" title=\"Vaughan Pratt\">Vaughan Pratt</a></li>\n<li><a href=\"/wiki/Robert_Sedgewick_(computer_scientist)\" title=\"Robert Sedgewick (computer scientist)\">Robert Sedgewick</a></li>\n<li><a href=\"/wiki/Jeffrey_Vitter\" title=\"Jeffrey Vitter\">Jeffrey Vitter</a></li>\n<li><a href=\"/wiki/Andrei_Broder\" title=\"Andrei Broder\">Andrei Broder</a><sup id=\"cite&#95;ref-mathgene&#95;1-1\" class=\"reference\"><a href=\"#cite_note-mathgene-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></li></ul>\n</div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://cs.stanford.edu/~knuth\">cs<wbr />.stanford<wbr />.edu<wbr />/~knuth</a></span></td></tr></tbody></table>\n<p><b>Donald Ervin Knuth</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"/ə/: &#39;a&#39; in &#39;about&#39;\">ə</span><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;n&#39; in &#39;nigh&#39;\">n</span><span title=\"/uː/: &#39;oo&#39; in &#39;goose&#39;\">uː</span><span title=\"/θ/: &#39;th&#39; in &#39;thigh&#39;\">θ</span></span>/</a></span></span> <a href=\"/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><i title=\"English pronunciation respelling\">kə-<span style=\"font-size:90%\">NOOTH</span></i></a>;<sup id=\"cite&#95;ref-faq&#95;3-0\" class=\"reference\"><a href=\"#cite_note-faq-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> born January 10, 1938) is an American computer scientist and mathematician. He is a <a href=\"/wiki/Professor_emeritus\" class=\"mw-redirect\" title=\"Professor emeritus\">professor emeritus</a> at <a href=\"/wiki/Stanford_University\" title=\"Stanford University\">Stanford University</a>. He is the 1974 recipient of the <a href=\"/wiki/Acm_Turing_award\" class=\"mw-redirect\" title=\"Acm Turing award\">ACM Turing Award</a>, informally considered the <a href=\"/wiki/Nobel_Prize\" title=\"Nobel Prize\">Nobel Prize</a> of computer science.<sup id=\"cite&#95;ref-Turing&#95;Award&#95;4-0\" class=\"reference\"><a href=\"#cite_note-Turing_Award-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> Knuth has been called the \"father of the <a href=\"/wiki/Analysis_of_algorithms\" title=\"Analysis of algorithms\">analysis of algorithms</a>\".<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Knuth is the author of the multi-volume work <i><a href=\"/wiki/The_Art_of_Computer_Programming\" title=\"The Art of Computer Programming\">The Art of Computer Programming</a></i>. He contributed to the development of the rigorous analysis of the <a href=\"/wiki/Computational_complexity\" title=\"Computational complexity\">computational complexity</a> of algorithms and systematized formal mathematical techniques for it. In the process, he also popularized the <a href=\"/wiki/Big_O_notation\" title=\"Big O notation\">asymptotic notation</a>. In addition to fundamental contributions in several branches of <a href=\"/wiki/Theoretical_computer_science\" title=\"Theoretical computer science\">theoretical computer science</a>, Knuth is the creator of the <a href=\"/wiki/TeX\" title=\"TeX\">TeX</a> computer typesetting system, the related <a href=\"/wiki/METAFONT\" class=\"mw-redirect\" title=\"METAFONT\">METAFONT</a> font definition language and rendering system, and the <a href=\"/wiki/Computer_Modern\" title=\"Computer Modern\">Computer Modern</a> family of typefaces.\n</p><p>As a writer and scholar, Knuth created the <a href=\"/wiki/WEB\" class=\"mw-redirect\" title=\"WEB\">WEB</a> and <a href=\"/wiki/CWEB\" class=\"mw-redirect\" title=\"CWEB\">CWEB</a> computer programming systems designed to encourage and facilitate <a href=\"/wiki/Literate_programming\" title=\"Literate programming\">literate programming</a>, and designed the <a href=\"/wiki/MIX_(abstract_machine)\" title=\"MIX (abstract machine)\">MIX</a>/<a href=\"/wiki/MMIX\" title=\"MMIX\">MMIX</a> <a href=\"/wiki/Instruction_set\" class=\"mw-redirect\" title=\"Instruction set\">instruction set architectures</a>. He strongly opposes the granting of <a href=\"/wiki/Software_patent\" title=\"Software patent\">software patents</a>, and has expressed <a href=\"#Opinion_on_software_patents\">his opinion</a> to the <a href=\"/wiki/United_States_Patent_and_Trademark_Office\" title=\"United States Patent and Trademark Office\">United States Patent and Trademark Office</a> and <a href=\"/wiki/European_Patent_Organisation\" title=\"European Patent Organisation\">European Patent Organisation</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-mathgene-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-mathgene_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-mathgene_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://mathgenealogy.org/id.php?id=10416\">Donald Knuth</a> at the <a href=\"/wiki/Mathematics_Genealogy_Project\" title=\"Mathematics Genealogy Project\">Mathematics Genealogy Project</a></span>\n</li>\n<li id=\"cite&#95;note-formemrs-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-formemrs_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20151117113154/https://royalsociety.org/people/donald-knuth-11764/\">\"Professor Donald Knuth ForMemRS\"</a>. London: <a href=\"/wiki/Royal_Society\" title=\"Royal Society\">Royal Society</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://royalsociety.org/people/donald-knuth-11764/\">the original</a> on November 17, 2015.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Professor+Donald+Knuth+ForMemRS&amp;rft.place=London&amp;rft.pub=Royal+Society&amp;rft&#95;id=https%3A%2F%2Froyalsociety.org%2Fpeople%2Fdonald-knuth-11764%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADonald+Knuth\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-faq-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-faq_3-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>faq</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Turing&#95;Award-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Turing_Award_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Turing Award</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKarp1986\" class=\"citation journal cs1\"><a href=\"/wiki/Richard_M._Karp\" title=\"Richard M. Karp\">Karp, Richard M.</a> (February 1986). <a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F5657.5658\">\"Combinatorics, Complexity, and Randomness\"</a>. <i>Communications of the ACM</i>. <b>29</b> (2): <span class=\"nowrap\">98–</span>109. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<span class=\"id-lock-free\" title=\"Freely accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1145%2F5657.5658\">10.1145/5657.5658</a></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.atitle=Combinatorics%2C+Complexity%2C+and+Randomness&amp;rft.volume=29&amp;rft.issue=2&amp;rft.pages=98-109&amp;rft.date=1986-02&amp;rft&#95;id=info%3Adoi%2F10.1145%2F5657.5658&amp;rft.aulast=Karp&amp;rft.aufirst=Richard+M.&amp;rft&#95;id=https%3A%2F%2Fdoi.org%2F10.1145%252F5657.5658&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ADonald+Knuth\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐wvqwm\nCached time: 20260918164144\nCache expiry: 28800\nCache expiry source: Module:Age (os.date *t .day)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.246 seconds\nReal time usage: 0.392 seconds\nPreprocessor visited node count: 2635/1000000\nRevision size: 4766/2097152 bytes\nPost‐expand include size: 44113/2097152 bytes\nTemplate argument size: 11355/2097152 bytes\nHighest expansion depth: 12/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 10578/5000000 bytes\nLua time usage: 0.161/10.000 seconds\nLua memory usage: 7411782/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  367.650      1 -total\n 42.10%  154.774      1 Template:Infobox_scientist\n 14.67%   53.921      1 Template:Short_description\n 13.38%   49.179      1 Template:Birth_date_and_age\n 13.21%   48.581      1 Template:Cite_web\n  8.61%   31.672      2 Template:Pagetype\n  6.35%   23.335      1 Template:Infobox\n  5.49%   20.188      1 Template:IPAc-en\n  5.28%   19.397     22 Template:Main_other\n  4.05%   14.883     21 Template:Pluralize_from_text\n-->\n\n<!-- Render ID d4f1589d-b37f-11f1-9ddf-4ddf68220cd7 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Knuth",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Acm Turing award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Analysis of algorithms",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Andrei Broder",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BBVA Foundation Frontiers of Knowledge Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bachelor of Science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Big O notation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CWEB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "California Institute of Technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Case Western Reserve University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational complexity",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer Modern",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctor of Philosophy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doctoral advisor",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "European Patent Organisation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Faraday Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Flajolet Lecture Prize",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Foreign Member of the Royal Society",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Grace Murray Hopper Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Harvey Prize",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Instruction set",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jeffrey Vitter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John von Neumann Medal",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Knuth's up-arrow notation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Knuth–Bendix completion algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Knuth–Morris–Pratt algorithm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kyoto Prize",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LR parser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Leonidas J. Guibas",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Literate programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "METAFONT",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MIX (abstract machine)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MMIX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Marshall Hall (mathematician)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Master of Science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mathematics Genealogy Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Member of the National Academy of Sciences",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Michael Fredman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Milwaukee",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "National Medal of Science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nobel Prize",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outstanding Contribution to Computer Science Education",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Professor emeritus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Richard M. Karp",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robert Sedgewick (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robinson–Schensted–Knuth correspondence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Royal Society",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scott Kim",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software patent",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Stanford University",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TeX",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Art of Computer Programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Theoretical computer science",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Thesis",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing Award",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing Lecture",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "United States Patent and Trademark Office",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vaughan Pratt",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "WEB",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Pronunciation respelling key",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "American computer scientist and mathematician (born 1938)",
+          "page_image_free": "Donald_Ervin_Knuth_(cropped).jpg",
+          "wikibase_item": "Q17457"
+        }
+      }
+    }
+  ]
+}

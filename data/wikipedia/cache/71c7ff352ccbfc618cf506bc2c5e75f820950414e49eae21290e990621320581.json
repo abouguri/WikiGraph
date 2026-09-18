@@ -1,0 +1,801 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Microsoft",
+    "url": "https://en.wikipedia.org/wiki/Microsoft",
+    "summary": "American multinational technology company Microsoft Corporation Microsoft logo used since 2012 Microsoft campus , the company's headquarters, in Redmond, Washington Type Public Traded as Nasdaq : MSFT Nasdaq-100 component DJIA component S&P 100 component S&P 500 component ISIN US5949181045 Industry Information technology Predecessor Traf-O-Data Founded April 4, 1975 ; 51 years ago ( 1975-04-04 ) in Albuquerque, New Mexico , U.S. Founders Bill Gates Paul Allen Headquarters Microsoft campus, Redmond, Washington , U.S. Area served Worldwide Key people Satya Nadella ( chairman and CEO ) Brad Smith ( vice chairman and president ) Bill Gates ( technical adviser ) Amy Hood ( CFO ) Products Software development Computer hardware Artificial intelligence Consumer electronics Social networking service Cloud computing Video games Corporate venture capital Brands Windows Microsoft 365 Teams Visual Studio Azure Xbox Dynamics Surface Services Edge Azure Bing LinkedIn Viva Engage Microsoft 365 OneDrive Dynamics 365 Outlook GitHub Microsoft Store Windows Update Game Pass Xbox network Revenue US$331.8 billion (2026) Operating income US$155.2 billion (2026) Net income US$133.7 billion (2026) Total assets US$758.4 billion (2026) Total equity US$442.4 billion (2026) Number of employees 223,000 (2026) Divisions Xbox Microsoft 365 Microsoft Research Microsoft AI Windows and Devices Group Microsoft Cloud Microsoft Security Microsoft Industry Microsoft Business Applications Microsoft Developer Subsidiaries GitHub LinkedIn ASN 8075 Website microsoft.com Footnotes Financials as of June 30, 2025 [update] This article is part of a series about Bill Gates Personal Awards and honors Philanthropy Political positions Public image Residence Family Companies Traf-O-Data Microsoft history BENlabs Cascade Investment TerraPower Gates Ventures Charitable organizations Gates Foundation Match for Africa The Giving Pledge OER Project Breakthrough Energy Mission Innovation Writings \" An Open Letter to Hobbyists \" The Road Ahead Business @ the Speed of Thought How to Avoid a Climate Disaster How to Prevent the Next Pandemic Source Code: My Beginnings Related Bill Gates' flower fly Codex Leicester Lost on the Grand Banks Paul Allen v t e Microsoft Corporation is an American multinational technology company headquartered in Redmond, Washington . The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing , artificial intelligence , video gaming, and more. A Big Tech company, Microsoft is the largest software company by revenue , one of the most valuable public companies , and one of the most valuable brands globally. Founded in 1975 by Bill Gates and Paul Allen to market BASIC interpreters for the Altair 8800 , Microsoft rose to dominate the PC operating system market with MS-DOS in the mid-1980s, followed by Windows. The company's 1986 initial public offering (IPO) and subsequent rise in its share price created three billionaires and an estimated 12,000 millionaires among Microsoft employees. Since the 1990s, it has increasingly diversified its business. Steve Ballmer replaced Gates as CEO in 2000. He oversaw the then-largest of Microsoft's corporate acquisitions in Skype Technologies in 2011, an increased focus on hardware that led to its first in-house PC line—the Surface —in 2012, and the formation of Microsoft Mobile through Nokia . Since Satya Nadella became CEO in 2014, the company has changed focus towards cloud computing and acquired LinkedIn in 2016. Under his direction, the company has expanded its video gaming business to support the Xbox brand, establishing the Microsoft Gaming division in 2022 and acquiring Activision Blizzard in 2023. Microsoft has been dominant in the IBM PC–compatible operating system and office software suite markets since the 1990s. Its best-known software products are the Windows line of operating systems and the Microsoft Office and Microsoft 365 suite of productivity applications, which most notably include the Word word processor, Excel spreadsheet editor, and PowerPoint presentation program. Its flagship hardware products are the Surface lineup of PCs and the Xbox brand of video game consoles, the latter including the Xbox network . The company also offers online services such as Bing web search, the MSN web portal, the Outlook.com (Hotmail) email service, and the Microsoft Store . In the enterprise and development fields, Microsoft. most notably provides the Azure cloud computing platform, Microsoft SQL Server database software, and Visual Studio . Microsoft became the third publicly traded U.S. company to be valued at over $1 trillion in April 2019. It has been criticized for monopolistic practices , and the company's software received criticism for problems with ease of use , robustness , and security . Microsoft has also been criticized for its role in providing services to Israel during the Gaza war . ^ \"Microsoft Corporation Form 10-K\" . U.S. Securities and Exchange Commission . July 30, 2025. pp. 9, 50, 52.",
+    "text": "American multinational technology company Microsoft Corporation Microsoft logo used since 2012 Microsoft campus , the company's headquarters, in Redmond, Washington Type Public Traded as Nasdaq : MSFT Nasdaq-100 component DJIA component S&P 100 component S&P 500 component ISIN US5949181045 Industry Information technology Predecessor Traf-O-Data Founded April 4, 1975 ; 51 years ago ( 1975-04-04 ) in Albuquerque, New Mexico , U.S. Founders Bill Gates Paul Allen Headquarters Microsoft campus, Redmond, Washington , U.S. Area served Worldwide Key people Satya Nadella ( chairman and CEO ) Brad Smith ( vice chairman and president ) Bill Gates ( technical adviser ) Amy Hood ( CFO ) Products Software development Computer hardware Artificial intelligence Consumer electronics Social networking service Cloud computing Video games Corporate venture capital Brands Windows Microsoft 365 Teams Visual Studio Azure Xbox Dynamics Surface Services Edge Azure Bing LinkedIn Viva Engage Microsoft 365 OneDrive Dynamics 365 Outlook GitHub Microsoft Store Windows Update Game Pass Xbox network Revenue US$331.8 billion (2026) Operating income US$155.2 billion (2026) Net income US$133.7 billion (2026) Total assets US$758.4 billion (2026) Total equity US$442.4 billion (2026) Number of employees 223,000 (2026) Divisions Xbox Microsoft 365 Microsoft Research Microsoft AI Windows and Devices Group Microsoft Cloud Microsoft Security Microsoft Industry Microsoft Business Applications Microsoft Developer Subsidiaries GitHub LinkedIn ASN 8075 Website microsoft.com Footnotes Financials as of June 30, 2025 [update] This article is part of a series about Bill Gates Personal Awards and honors Philanthropy Political positions Public image Residence Family Companies Traf-O-Data Microsoft history BENlabs Cascade Investment TerraPower Gates Ventures Charitable organizations Gates Foundation Match for Africa The Giving Pledge OER Project Breakthrough Energy Mission Innovation Writings \" An Open Letter to Hobbyists \" The Road Ahead Business @ the Speed of Thought How to Avoid a Climate Disaster How to Prevent the Next Pandemic Source Code: My Beginnings Related Bill Gates' flower fly Codex Leicester Lost on the Grand Banks Paul Allen v t e Microsoft Corporation is an American multinational technology company headquartered in Redmond, Washington . The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing , artificial intelligence , video gaming, and more. A Big Tech company, Microsoft is the largest software company by revenue , one of the most valuable public companies , and one of the most valuable brands globally. Founded in 1975 by Bill Gates and Paul Allen to market BASIC interpreters for the Altair 8800 , Microsoft rose to dominate the PC operating system market with MS-DOS in the mid-1980s, followed by Windows. The company's 1986 initial public offering (IPO) and subsequent rise in its share price created three billionaires and an estimated 12,000 millionaires among Microsoft employees. Since the 1990s, it has increasingly diversified its business. Steve Ballmer replaced Gates as CEO in 2000. He oversaw the then-largest of Microsoft's corporate acquisitions in Skype Technologies in 2011, an increased focus on hardware that led to its first in-house PC line—the Surface —in 2012, and the formation of Microsoft Mobile through Nokia . Since Satya Nadella became CEO in 2014, the company has changed focus towards cloud computing and acquired LinkedIn in 2016. Under his direction, the company has expanded its video gaming business to support the Xbox brand, establishing the Microsoft Gaming division in 2022 and acquiring Activision Blizzard in 2023. Microsoft has been dominant in the IBM PC–compatible operating system and office software suite markets since the 1990s. Its best-known software products are the Windows line of operating systems and the Microsoft Office and Microsoft 365 suite of productivity applications, which most notably include the Word word processor, Excel spreadsheet editor, and PowerPoint presentation program. Its flagship hardware products are the Surface lineup of PCs and the Xbox brand of video game consoles, the latter including the Xbox network . The company also offers online services such as Bing web search, the MSN web portal, the Outlook.com (Hotmail) email service, and the Microsoft Store . In the enterprise and development fields, Microsoft. most notably provides the Azure cloud computing platform, Microsoft SQL Server database software, and Visual Studio . Microsoft became the third publicly traded U.S. company to be valued at over $1 trillion in April 2019. It has been criticized for monopolistic practices , and the company's software received criticism for problems with ease of use , robustness , and security . Microsoft has also been criticized for its role in providing services to Israel during the Gaza war . ^ \"Microsoft Corporation Form 10-K\" . U.S. Securities and Exchange Commission . July 30, 2025. pp. 9, 50, 52.",
+    "links": [
+      "Acquisition of Activision Blizzard by Microsoft",
+      "Adviser",
+      "Albuquerque, New Mexico",
+      "Altair 8800",
+      "Amy Hood",
+      "An Open Letter to Hobbyists",
+      "Anti-competitive practices",
+      "Artificial intelligence",
+      "Asset",
+      "Autonomous System Number",
+      "BASIC interpreter",
+      "BENlabs",
+      "Big Tech",
+      "Bill Gates",
+      "Bill Gates' flower fly",
+      "Bill Gates's house",
+      "Brad Smith (American lawyer)",
+      "Breakthrough Energy",
+      "Business @ the Speed of Thought",
+      "Cascade Investment",
+      "Chairman",
+      "Chief executive officer",
+      "Chief financial officer",
+      "Cloud computing",
+      "Codex Leicester",
+      "Computer hardware",
+      "Computer security",
+      "Consumer electronics",
+      "Corporate venture capital",
+      "Criticism of Microsoft",
+      "Division (business)",
+      "Dow Jones Industrial Average",
+      "Dynamics 365",
+      "Earnings before interest and taxes",
+      "Ease of use",
+      "Equity (finance)",
+      "Family of Bill Gates",
+      "Gates Foundation",
+      "Gates Ventures",
+      "Gaza war",
+      "GitHub",
+      "History of Microsoft",
+      "History of personal computers",
+      "How to Avoid a Climate Disaster",
+      "How to Prevent the Next Pandemic",
+      "IBM PC–compatible",
+      "Information technology",
+      "Initial public offering",
+      "International Securities Identification Number",
+      "LinkedIn",
+      "List of Microsoft hardware",
+      "List of Microsoft operating systems",
+      "List of Microsoft software",
+      "List of mergers and acquisitions by Microsoft",
+      "List of most valuable brands",
+      "List of the largest software companies",
+      "Lost on the Grand Banks",
+      "MS-DOS",
+      "MSN",
+      "Match for Africa",
+      "Microsoft 365",
+      "Microsoft AI",
+      "Microsoft Azure",
+      "Microsoft Bing",
+      "Microsoft Dynamics 365",
+      "Microsoft Edge",
+      "Microsoft Excel",
+      "Microsoft Gaming",
+      "Microsoft Mobile",
+      "Microsoft Office",
+      "Microsoft Outlook",
+      "Microsoft PowerPoint",
+      "Microsoft Research",
+      "Microsoft SQL Server",
+      "Microsoft Store",
+      "Microsoft Store (digital)",
+      "Microsoft Surface",
+      "Microsoft Teams",
+      "Microsoft Windows",
+      "Microsoft Word",
+      "Microsoft campus",
+      "Microsoft logo",
+      "Mission Innovation",
+      "Nasdaq",
+      "Nasdaq-100",
+      "Net income",
+      "Nokia",
+      "OER Project",
+      "OneDrive",
+      "Outlook.com",
+      "Paul Allen",
+      "President (corporate title)",
+      "Public company",
+      "Redmond, Washington",
+      "Robustness (computer science)",
+      "S&P 100",
+      "S&P 500",
+      "Satya Nadella",
+      "Skype Technologies",
+      "Social networking service",
+      "Software development",
+      "Source Code (memoir)",
+      "Steve Ballmer",
+      "Subsidiary",
+      "TerraPower",
+      "The Giving Pledge",
+      "The Road Ahead (Gates book)",
+      "Ticker symbol",
+      "Traf-O-Data",
+      "Trillion-dollar company",
+      "U.S. Securities and Exchange Commission",
+      "Vice-Chairman",
+      "Video game industry",
+      "Visual Studio",
+      "Viva Engage",
+      "Windows",
+      "Windows Update",
+      "Xbox",
+      "Xbox (division)",
+      "Xbox Game Pass",
+      "Xbox network"
+    ],
+    "page_id": 19001,
+    "revision_id": 1375562445,
+    "retrieved_at": "2026-09-18T16:32:00.327523+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260917204618|1375446220",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 19001,
+            "ns": 0,
+            "title": "Microsoft",
+            "revisions": [
+              {
+                "revid": 1375562445,
+                "parentid": 1375446220
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Aerial_Microsoft_West_Campus_August_2009.jpg",
+              "wikibase-shortdesc": "American multinational technology company",
+              "wikibase_item": "Q2283"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Microsoft",
+        "pageid": 19001,
+        "revid": 1375562445,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">American multinational technology company</div>\n<p class=\"mw-empty-elt\">\n\n\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><style data-mw-deduplicate=\"TemplateStyles:r1326365004\">.mw-parser-output .ib-company .infobox-label{padding-right:0.5em}.mw-parser-output .ib-company-logo img{background-color:#f8f9fa;color:inherit}.mw-parser-output .ib-company-logo .logo-nobg img{background-color:inherit;color:inherit}.mw-parser-output .ib-company-locality,.mw-parser-output .ib-company-country{display:inline}</style><table class=\"infobox ib-company vcard\"><caption class=\"infobox-title fn org\" style=\"font-size: 125%;\">Microsoft Corporation</caption><tbody><tr><td colspan=\"2\" class=\"infobox-image ib-company-logo logo\"><span class=\"mw-default-size logo-nobg\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Microsoft_logo_(2012).svg\" class=\"mw-file-description\"><img alt=\"Microsoft logo, depicting a square divided into four sub-squares, colored red-orange, green, yellow and blue (clockwise), with the company name appearing to its right\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/250px-Microsoft_logo_%282012%29.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"53\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/500px-Microsoft_logo_%282012%29.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"109\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/Microsoft_logo\" class=\"mw-redirect\" title=\"Microsoft logo\">Microsoft logo</a> used since 2012</div></td></tr><tr><td colspan=\"2\" class=\"infobox-image ib-company-logo logo\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a href=\"/wiki/File:Aerial_Microsoft_West_Campus_August_2009.jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg/250px-Aerial_Microsoft_West_Campus_August_2009.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"167\" style=\"--mw-file-upright: 1\" class=\"mw-file-element mw-file-upright\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg/500px-Aerial_Microsoft_West_Campus_August_2009.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"4752\" data-file-height=\"3168\" /></a></span><div class=\"infobox-caption\"><a href=\"/wiki/Microsoft_campus\" title=\"Microsoft campus\">Microsoft campus</a>, the company's headquarters, in <a href=\"/wiki/Redmond,_Washington\" title=\"Redmond, Washington\">Redmond, Washington</a></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Type</th><td class=\"infobox-data category\"><a href=\"/wiki/Public_company\" title=\"Public company\">Public</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Ticker_symbol\" title=\"Ticker symbol\">Traded as</a></div></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Nasdaq\" title=\"Nasdaq\">Nasdaq</a>:&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.nasdaq.com/market-activity/stocks/msft\">MSFT</a></li><li><a href=\"/wiki/Nasdaq-100\" title=\"Nasdaq-100\">Nasdaq-100</a> component</li><li><a href=\"/wiki/Dow_Jones_Industrial_Average\" title=\"Dow Jones Industrial Average\">DJIA</a> component</li><li><a href=\"/wiki/S%26P_100\" title=\"S&amp;P 100\">S&amp;P 100</a> component</li><li><a href=\"/wiki/S%26P_500\" title=\"S&amp;P 500\">S&amp;P 500</a> component</li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/International_Securities_Identification_Number\" title=\"International Securities Identification Number\">ISIN</a></th><td class=\"infobox-data\"><span class=\"plainlinks\"><a class=\"external text\" href=\"https://isin.toolforge.org/?language=en&amp;isin=US5949181045\">US5949181045</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Industry</th><td class=\"infobox-data category\"><a href=\"/wiki/Information_technology\" title=\"Information technology\">Information technology</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Predecessor</th><td class=\"infobox-data\"><a href=\"/wiki/Traf-O-Data\" title=\"Traf-O-Data\">Traf-O-Data</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Founded</th><td class=\"infobox-data\">April&#160;4, 1975<span class=\"noprint\">&#59;&#32;51 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1975-04-04</span>)</span> in <span class=\"nowrap\"><a href=\"/wiki/Albuquerque,_New_Mexico\" title=\"Albuquerque, New Mexico\">Albuquerque, New Mexico</a>, U.S.</span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Founders</th><td class=\"infobox-data agent\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Bill_Gates\" title=\"Bill Gates\">Bill Gates</a></li><li><a href=\"/wiki/Paul_Allen\" title=\"Paul Allen\">Paul Allen</a></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Headquarters</th><td class=\"infobox-data label\">Microsoft campus, <div class=\"ib-company-locality locality\"> Redmond, Washington</div>, <div class=\"ib-company-country country-name\"> U.S.</div><span style=\"display:none\" data-plural=\"1\"></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Area served</div></th><td class=\"infobox-data\">Worldwide</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Key&#160;people</th><td class=\"infobox-data agent\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Satya_Nadella\" title=\"Satya Nadella\">Satya Nadella</a> (<a href=\"/wiki/Chairman\" class=\"mw-redirect\" title=\"Chairman\">chairman</a> and <a href=\"/wiki/Chief_executive_officer\" title=\"Chief executive officer\">CEO</a>)</li><li><a href=\"/wiki/Brad_Smith_(American_lawyer)\" title=\"Brad Smith (American lawyer)\">Brad Smith</a> (<a href=\"/wiki/Vice-Chairman\" class=\"mw-redirect\" title=\"Vice-Chairman\">vice chairman</a> and <a href=\"/wiki/President_(corporate_title)\" title=\"President (corporate title)\">president</a>)</li><li>Bill Gates (<a href=\"/wiki/Adviser\" title=\"Adviser\">technical adviser</a>)</li></ul></div>\n<a href=\"/wiki/Amy_Hood\" title=\"Amy Hood\">Amy Hood</a> (<a href=\"/wiki/Chief_financial_officer\" title=\"Chief financial officer\">CFO</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Products</th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><a href=\"/wiki/Software_development\" title=\"Software development\">Software development</a></li><li><a href=\"/wiki/Computer_hardware\" title=\"Computer hardware\">Computer hardware</a></li><li><a href=\"/wiki/Artificial_intelligence\" title=\"Artificial intelligence\">Artificial intelligence</a></li><li><a href=\"/wiki/Consumer_electronics\" title=\"Consumer electronics\">Consumer electronics</a></li><li><a href=\"/wiki/Social_networking_service\" title=\"Social networking service\">Social networking service</a></li><li><a href=\"/wiki/Cloud_computing\" title=\"Cloud computing\">Cloud computing</a></li><li><a href=\"/wiki/Video_game_industry\" title=\"Video game industry\">Video games</a></li><li><a href=\"/wiki/Corporate_venture_capital\" title=\"Corporate venture capital\">Corporate venture capital</a></li></ul></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Brands</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft Windows\">Windows</a></li>\n<li><a href=\"/wiki/Microsoft_365\" title=\"Microsoft 365\">Microsoft 365</a></li>\n<li><a href=\"/wiki/Microsoft_Teams\" title=\"Microsoft Teams\">Teams</a></li>\n<li><a href=\"/wiki/Visual_Studio\" title=\"Visual Studio\">Visual Studio</a></li>\n<li><a href=\"/wiki/Microsoft_Azure\" title=\"Microsoft Azure\">Azure</a></li>\n<li><a href=\"/wiki/Xbox\" title=\"Xbox\">Xbox</a></li>\n<li><a href=\"/wiki/Microsoft_Dynamics_365\" title=\"Microsoft Dynamics 365\">Dynamics</a></li>\n<li><a href=\"/wiki/Microsoft_Surface\" title=\"Microsoft Surface\">Surface</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Services</th><td class=\"infobox-data category\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><div class=\"hlist\">\n<ul><li><a href=\"/wiki/Microsoft_Edge\" title=\"Microsoft Edge\">Edge</a></li>\n<li><a href=\"/wiki/Microsoft_Azure\" title=\"Microsoft Azure\">Azure</a></li>\n<li><a href=\"/wiki/Microsoft_Bing\" title=\"Microsoft Bing\">Bing</a></li>\n<li><a href=\"/wiki/LinkedIn\" title=\"LinkedIn\">LinkedIn</a></li>\n<li><a href=\"/wiki/Viva_Engage\" title=\"Viva Engage\">Viva Engage</a></li>\n<li><a href=\"/wiki/Microsoft_365\" title=\"Microsoft 365\">Microsoft 365</a></li>\n<li><a href=\"/wiki/OneDrive\" title=\"OneDrive\">OneDrive</a></li>\n<li><a href=\"/wiki/Dynamics_365\" class=\"mw-redirect\" title=\"Dynamics 365\">Dynamics 365</a></li>\n<li><a href=\"/wiki/Microsoft_Outlook\" title=\"Microsoft Outlook\">Outlook</a></li>\n<li><a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a></li>\n<li><a href=\"/wiki/Microsoft_Store_(digital)\" class=\"mw-redirect\" title=\"Microsoft Store (digital)\">Microsoft Store</a></li>\n<li><a href=\"/wiki/Windows_Update\" title=\"Windows Update\">Windows Update</a></li>\n<li><a href=\"/wiki/Xbox_Game_Pass\" title=\"Xbox Game Pass\">Game Pass</a></li>\n<li><a href=\"/wiki/Xbox_network\" title=\"Xbox network\">Xbox network</a></li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Revenue</th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"11\" height=\"11\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></span></span> <span style=\"white-space: nowrap\">US$331.8</span><span class=\"nowrap\">&#160;</span>billion&#160;(2026)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Earnings_before_interest_and_taxes\" title=\"Earnings before interest and taxes\">Operating income</a></div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"11\" height=\"11\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></span></span> <span style=\"white-space: nowrap\">US$155.2</span><span class=\"nowrap\">&#160;</span>billion&#160;(2026)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\"><a href=\"/wiki/Net_income\" title=\"Net income\">Net income</a></div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"11\" height=\"11\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></span></span> <span style=\"white-space: nowrap\">US$133.7</span><span class=\"nowrap\">&#160;</span>billion&#160;(2026)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><span class=\"nowrap\"><a href=\"/wiki/Asset\" title=\"Asset\">Total assets</a></span></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"11\" height=\"11\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></span></span> <span style=\"white-space: nowrap\">US$758.4</span><span class=\"nowrap\">&#160;</span>billion&#160;(2026)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><span class=\"nowrap\"><a href=\"/wiki/Equity_(finance)\" title=\"Equity (finance)\">Total equity</a></span></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"11\" height=\"11\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></span></span> <span style=\"white-space: nowrap\">US$442.4</span><span class=\"nowrap\">&#160;</span>billion&#160;(2026)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><div style=\"display: inline-block; line-height: 1.2em; padding: .1em 0;\">Number of employees</div></th><td class=\"infobox-data\">223,000&#160;(2026)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Division_(business)\" title=\"Division (business)\">Divisions</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Xbox_(division)\" title=\"Xbox (division)\">Xbox</a></li>\n<li><a href=\"/wiki/Microsoft_365\" title=\"Microsoft 365\">Microsoft 365</a></li>\n<li><a href=\"/wiki/Microsoft_Research\" title=\"Microsoft Research\">Microsoft Research</a></li>\n<li><a href=\"/wiki/Microsoft_AI\" title=\"Microsoft AI\">Microsoft AI</a></li>\n<li>Windows and Devices Group</li>\n<li>Microsoft Cloud</li>\n<li>Microsoft Security</li>\n<li>Microsoft Industry</li>\n<li>Microsoft Business Applications</li>\n<li>Microsoft Developer</li></ul>\n</div></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Subsidiary\" title=\"Subsidiary\">Subsidiaries</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\">\n<ul><li>GitHub</li>\n<li>LinkedIn</li></ul>\n</div></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Autonomous_System_Number\" class=\"mw-redirect\" title=\"Autonomous System Number\">ASN</a></th><td class=\"infobox-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1126788409\" /><div class=\"plainlist\"><ul><li><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><a rel=\"nofollow\" class=\"external text\" href=\"https://bgp.tools/as/8075\">8075</a></li></ul></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.microsoft.com/\">microsoft.com</a></span></td></tr><tr><td colspan=\"2\" class=\"infobox-below\"><b>Footnotes</b><br />Financials as of June&#160;30,&#32;2025<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Microsoft&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Microsoft&amp;action=edit\">&#91;update&#93;</a></sup><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1246091330\">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1157919884\">.mw-parser-output .sidebar-person{border:4px double #d69d36}.mw-parser-output .sidebar-person .sidebar-title{font-size:110%;padding:0;line-height:150%}.mw-parser-output .sidebar-person-title-image{background-color:#002466;vertical-align:middle;padding:5px}.mw-parser-output .sidebar-person-title{background-color:#002466;vertical-align:middle;padding:6px;width:100%}.mw-parser-output .sidebar-person-title>div{font-size:88%;line-height:normal}.mw-parser-output .sidebar-person .sidebar-content{padding:0.3em}.mw-parser-output .sidebar-person .sidebar-navbar{text-align:center}</style><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><style data-mw-deduplicate=\"TemplateStyles:r1214851843\">.mw-parser-output .hidden-begin{box-sizing:border-box;width:100%;padding:5px;border:none;font-size:95%}.mw-parser-output .hidden-title{font-weight:bold;line-height:1.6;text-align:left}.mw-parser-output .hidden-content{text-align:left}@media all and (max-width:500px){.mw-parser-output .hidden-begin{width:auto!important;clear:none!important;float:none!important}}</style><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1214851843\" /><table class=\"sidebar nomobile nowraplinks sidebar-person vcard hlist\" role=\"navigation\"><tbody><tr><th class=\"sidebar-title\"><table><tbody><tr>\n<td class=\"sidebar-person-title-image\" style=\"background-color:lavender;color:inherit;\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Bill_Gates_at_the_European_Commission_-_2025_-_P067383-605791_(cropped).jpg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-605791_%28cropped%29.jpg/120px-Bill_Gates_at_the_European_Commission_-_2025_-_P067383-605791_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"75\" height=\"113\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-605791_%28cropped%29.jpg/250px-Bill_Gates_at_the_European_Commission_-_2025_-_P067383-605791_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"639\" data-file-height=\"961\" /></a></span></td>\n<td class=\"sidebar-person-title\" style=\"background-color:lavender;color: #000000;\"><div><span class=\"tmp-color\" style=\"color: #000000\">This article is part of<br />a series about</span></div><span class=\"vcard fn\"><a href=\"/wiki/Bill_Gates\" title=\"Bill Gates\"><span class=\"tmpl-colored-link\" style=\"color: #000000; text-decoration: inherit;\">Bill Gates</span></a></span></td>\n</tr></tbody></table></th></tr><tr><td class=\"sidebar-content\">\n<hr />\n<div class=\"hidden-begin mw-collapsible mw-collapsed\" style=\"\"><div class=\"hidden-title skin-nightmode-reset-color\" style=\"\">Personal</div><div class=\"hidden-content mw-collapsible-content\" style=\"text-align:center;\">\n<ul><li><a href=\"/wiki/Bill_Gates#Recognition\" title=\"Bill Gates\">Awards and honors</a></li>\n<li><a href=\"/wiki/Bill_Gates#Philanthropy\" title=\"Bill Gates\">Philanthropy</a></li>\n<li><a href=\"/wiki/Bill_Gates#Political_positions\" title=\"Bill Gates\">Political positions</a></li>\n<li><a href=\"/wiki/Bill_Gates#Public_image\" title=\"Bill Gates\">Public image</a></li>\n<li><a href=\"/wiki/Bill_Gates%27s_house\" title=\"Bill Gates&#39;s house\">Residence</a></li>\n<li><a href=\"/wiki/Family_of_Bill_Gates\" title=\"Family of Bill Gates\">Family</a></li></ul>\n</div></div>\n<hr />\n<div class=\"hidden-begin mw-collapsible mw-collapsed\" style=\"\"><div class=\"hidden-title skin-nightmode-reset-color\" style=\"\">Companies</div><div class=\"hidden-content mw-collapsible-content\" style=\"text-align:center;\">\n<ul><li><a href=\"/wiki/Traf-O-Data\" title=\"Traf-O-Data\">Traf-O-Data</a></li>\n<li><a class=\"mw-selflink selflink\">Microsoft</a>\n<ul><li><a href=\"/wiki/History_of_Microsoft\" title=\"History of Microsoft\">history</a></li></ul></li>\n<li><a href=\"/wiki/BENlabs\" title=\"BENlabs\">BENlabs</a></li>\n<li><a href=\"/wiki/Cascade_Investment\" title=\"Cascade Investment\">Cascade Investment</a></li>\n<li><a href=\"/wiki/TerraPower\" title=\"TerraPower\">TerraPower</a></li>\n<li><a href=\"/wiki/Gates_Ventures\" title=\"Gates Ventures\">Gates Ventures</a></li></ul>\n</div></div>\n<hr />\n<div class=\"hidden-begin mw-collapsible mw-collapsed\" style=\"\"><div class=\"hidden-title skin-nightmode-reset-color\" style=\"\">Charitable organizations</div><div class=\"hidden-content mw-collapsible-content\" style=\"text-align:center;\">\n<ul><li><a href=\"/wiki/Gates_Foundation\" title=\"Gates Foundation\">Gates Foundation</a></li>\n<li><a href=\"/wiki/Match_for_Africa\" title=\"Match for Africa\">Match for Africa</a></li>\n<li><a href=\"/wiki/The_Giving_Pledge\" title=\"The Giving Pledge\">The Giving Pledge</a></li>\n<li><a href=\"/wiki/OER_Project\" title=\"OER Project\">OER Project</a></li>\n<li><a href=\"/wiki/Breakthrough_Energy\" title=\"Breakthrough Energy\">Breakthrough Energy</a></li>\n<li><a href=\"/wiki/Mission_Innovation\" title=\"Mission Innovation\">Mission Innovation</a></li></ul>\n</div></div>\n<hr />\n<div class=\"hidden-begin mw-collapsible mw-collapsed\" style=\"\"><div class=\"hidden-title skin-nightmode-reset-color\" style=\"\">Writings</div><div class=\"hidden-content mw-collapsible-content\" style=\"text-align:center;\">\n<ul><li>\"<a href=\"/wiki/An_Open_Letter_to_Hobbyists\" title=\"An Open Letter to Hobbyists\">An Open Letter to Hobbyists</a>\"</li>\n<li><i><a href=\"/wiki/The_Road_Ahead_(Gates_book)\" title=\"The Road Ahead (Gates book)\">The Road Ahead</a></i></li>\n<li><i><a href=\"/wiki/Business_@_the_Speed_of_Thought\" title=\"Business @ the Speed of Thought\">Business @ the Speed of Thought</a></i></li>\n<li><i><a href=\"/wiki/How_to_Avoid_a_Climate_Disaster\" title=\"How to Avoid a Climate Disaster\">How to Avoid a Climate Disaster</a></i></li>\n<li><i><a href=\"/wiki/How_to_Prevent_the_Next_Pandemic\" title=\"How to Prevent the Next Pandemic\">How to Prevent the Next Pandemic</a></i></li>\n<li><i><a href=\"/wiki/Source_Code_(memoir)\" title=\"Source Code (memoir)\">Source Code: My Beginnings</a></i></li></ul>\n</div></div>\n<hr />\n<div class=\"hidden-begin mw-collapsible mw-collapsed\" style=\"\"><div class=\"hidden-title skin-nightmode-reset-color\" style=\"\">Related</div><div class=\"hidden-content mw-collapsible-content\" style=\"text-align:center;\">\n<ul><li><a href=\"/wiki/Bill_Gates%27_flower_fly\" title=\"Bill Gates&#39; flower fly\">Bill Gates' flower fly</a></li>\n<li><a href=\"/wiki/Codex_Leicester\" title=\"Codex Leicester\">Codex Leicester</a></li>\n<li><i><a href=\"/wiki/Lost_on_the_Grand_Banks\" title=\"Lost on the Grand Banks\">Lost on the Grand Banks</a></i></li>\n<li><a href=\"/wiki/Paul_Allen\" title=\"Paul Allen\">Paul Allen</a></li></ul>\n</div></div>\n<hr /></td>\n</tr><tr><td class=\"sidebar-navbar\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1374427404\" /><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Bill_Gates_series\" title=\"Template:Bill Gates series\"><abbr title=\"View this template\">v</abbr></a></li><li class=\"nv-talk\"><a href=\"/wiki/Template_talk:Bill_Gates_series\" title=\"Template talk:Bill Gates series\"><abbr title=\"Discuss this template\">t</abbr></a></li><li class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Bill_Gates_series\" title=\"Special:EditPage/Template:Bill Gates series\"><abbr title=\"Edit this template\">e</abbr></a></li></ul></div></td></tr></tbody></table>\n<p><b>Microsoft Corporation</b> is an American multinational technology company headquartered in <a href=\"/wiki/Redmond,_Washington\" title=\"Redmond, Washington\">Redmond, Washington</a>. The company became influential in the <a href=\"/wiki/History_of_personal_computers#The_early_1980s_and_home_computers\" title=\"History of personal computers\">rise of personal computers</a> through software like <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a> and has since expanded into areas such as Internet services, <a href=\"/wiki/Cloud_computing\" title=\"Cloud computing\">cloud computing</a>, <a href=\"/wiki/Artificial_intelligence\" title=\"Artificial intelligence\">artificial intelligence</a>, video gaming, and more. A <a href=\"/wiki/Big_Tech\" title=\"Big Tech\">Big Tech</a> company, Microsoft is the <a href=\"/wiki/List_of_the_largest_software_companies\" title=\"List of the largest software companies\">largest software company by revenue</a>, one of the <a href=\"/wiki/Trillion-dollar_company\" class=\"mw-redirect\" title=\"Trillion-dollar company\">most valuable public companies</a>, and one of the <a href=\"/wiki/List_of_most_valuable_brands\" title=\"List of most valuable brands\">most valuable brands</a> globally.\n</p><p>Founded in 1975 by <a href=\"/wiki/Bill_Gates\" title=\"Bill Gates\">Bill Gates</a> and <a href=\"/wiki/Paul_Allen\" title=\"Paul Allen\">Paul Allen</a> to market <a href=\"/wiki/BASIC_interpreter\" title=\"BASIC interpreter\">BASIC interpreters</a> for the <a href=\"/wiki/Altair_8800\" title=\"Altair 8800\">Altair 8800</a>, Microsoft rose to dominate the PC operating system market with <a href=\"/wiki/MS-DOS\" title=\"MS-DOS\">MS-DOS</a> in the mid-1980s, followed by Windows. The company's 1986 <a href=\"/wiki/Initial_public_offering\" title=\"Initial public offering\">initial public offering</a> (IPO) and subsequent rise in its share price created three billionaires and an estimated 12,000&#160;millionaires among Microsoft employees. Since the 1990s, it has increasingly diversified its business. <a href=\"/wiki/Steve_Ballmer\" title=\"Steve Ballmer\">Steve Ballmer</a> replaced Gates as CEO in 2000. He oversaw the then-largest of <a href=\"/wiki/List_of_mergers_and_acquisitions_by_Microsoft\" title=\"List of mergers and acquisitions by Microsoft\">Microsoft's corporate acquisitions</a> in <a href=\"/wiki/Skype_Technologies\" title=\"Skype Technologies\">Skype Technologies</a> in 2011, an increased focus on hardware that led to its first in-house PC line—the <a href=\"/wiki/Microsoft_Surface\" title=\"Microsoft Surface\">Surface</a>—in 2012, and the formation of <a href=\"/wiki/Microsoft_Mobile\" title=\"Microsoft Mobile\">Microsoft Mobile</a> through <a href=\"/wiki/Nokia\" title=\"Nokia\">Nokia</a>. Since <a href=\"/wiki/Satya_Nadella\" title=\"Satya Nadella\">Satya Nadella</a> became CEO in 2014, the company has changed focus towards cloud computing and acquired <a href=\"/wiki/LinkedIn\" title=\"LinkedIn\">LinkedIn</a> in 2016. Under his direction, the company has expanded its video gaming business to support the <a href=\"/wiki/Xbox\" title=\"Xbox\">Xbox</a> brand, establishing the <a href=\"/wiki/Microsoft_Gaming\" class=\"mw-redirect\" title=\"Microsoft Gaming\">Microsoft Gaming</a> division in 2022 and <a href=\"/wiki/Acquisition_of_Activision_Blizzard_by_Microsoft\" title=\"Acquisition of Activision Blizzard by Microsoft\">acquiring Activision Blizzard</a> in 2023.\n</p><p>Microsoft has been dominant in the <a href=\"/wiki/IBM_PC%E2%80%93compatible\" class=\"mw-redirect\" title=\"IBM PC–compatible\">IBM PC–compatible</a> operating system and office software suite markets since the 1990s. Its best-known <a href=\"/wiki/List_of_Microsoft_software\" title=\"List of Microsoft software\">software products</a> are the Windows line of <a href=\"/wiki/List_of_Microsoft_operating_systems\" title=\"List of Microsoft operating systems\">operating systems</a> and the <a href=\"/wiki/Microsoft_Office\" title=\"Microsoft Office\">Microsoft Office</a> and <a href=\"/wiki/Microsoft_365\" title=\"Microsoft 365\">Microsoft 365</a> suite of productivity applications, which most notably include the <a href=\"/wiki/Microsoft_Word\" title=\"Microsoft Word\">Word</a> word processor, <a href=\"/wiki/Microsoft_Excel\" title=\"Microsoft Excel\">Excel</a> spreadsheet editor, and <a href=\"/wiki/Microsoft_PowerPoint\" title=\"Microsoft PowerPoint\">PowerPoint</a> presentation program. Its flagship <a href=\"/wiki/List_of_Microsoft_hardware\" class=\"mw-redirect\" title=\"List of Microsoft hardware\">hardware products</a> are the Surface lineup of PCs and the Xbox brand of video game consoles, the latter including the <a href=\"/wiki/Xbox_network\" title=\"Xbox network\">Xbox network</a>. The company also offers online services such as <a href=\"/wiki/Microsoft_Bing\" title=\"Microsoft Bing\">Bing</a> web search, the <a href=\"/wiki/MSN\" title=\"MSN\">MSN</a> web portal, the <a href=\"/wiki/Outlook.com\" title=\"Outlook.com\">Outlook.com</a> (Hotmail) email service, and the <a href=\"/wiki/Microsoft_Store\" title=\"Microsoft Store\">Microsoft Store</a>.  In the enterprise and development fields, Microsoft. most notably provides the <a href=\"/wiki/Microsoft_Azure\" title=\"Microsoft Azure\">Azure</a> cloud computing platform, <a href=\"/wiki/Microsoft_SQL_Server\" title=\"Microsoft SQL Server\">Microsoft SQL Server</a> database software, and <a href=\"/wiki/Visual_Studio\" title=\"Visual Studio\">Visual Studio</a>.\n</p><p>Microsoft became the third publicly traded U.S. company to be <a href=\"/wiki/Trillion-dollar_company\" class=\"mw-redirect\" title=\"Trillion-dollar company\">valued at over $1 trillion</a> in April 2019. <a href=\"/wiki/Criticism_of_Microsoft\" title=\"Criticism of Microsoft\">It has been criticized</a> for <a href=\"/wiki/Anti-competitive_practices\" title=\"Anti-competitive practices\">monopolistic practices</a>, and the company's software received criticism for problems with <a href=\"/wiki/Ease_of_use\" class=\"mw-redirect\" title=\"Ease of use\">ease of use</a>, <a href=\"/wiki/Robustness_(computer_science)\" title=\"Robustness (computer science)\">robustness</a>, and <a href=\"/wiki/Computer_security\" title=\"Computer security\">security</a>. Microsoft has also been criticized for its role in providing services to Israel during the <a href=\"/wiki/Gaza_war\" title=\"Gaza war\">Gaza war</a>.\n</p>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.sec.gov/ix?doc=/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm\">\"Microsoft Corporation Form 10-K\"</a>. <a href=\"/wiki/U.S._Securities_and_Exchange_Commission\" class=\"mw-redirect\" title=\"U.S. Securities and Exchange Commission\">U.S. Securities and Exchange Commission</a>. July 30, 2025. pp.&#160;9, 50, 52.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Microsoft+Corporation+Form+10-K&amp;rft.pages=9%2C+50%2C+52&amp;rft.pub=U.S.+Securities+and+Exchange+Commission&amp;rft.date=2025-07-30&amp;rft&#95;id=https%3A%2F%2Fwww.sec.gov%2Fix%3Fdoc%3D%2FArchives%2Fedgar%2Fdata%2F789019%2F000095017025100235%2Fmsft-20250630.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AMicrosoft\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐qcskn\nCached time: 20260918163226\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.447 seconds\nReal time usage: 0.607 seconds\nPreprocessor visited node count: 3377/1000000\nRevision size: 7536/2097152 bytes\nPost‐expand include size: 60163/2097152 bytes\nTemplate argument size: 13396/2097152 bytes\nHighest expansion depth: 28/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 30345/5000000 bytes\nLua time usage: 0.276/10.000 seconds\nLua memory usage: 8666347/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  566.944      1 -total\n 71.38%  404.658      2 Template:Infobox\n 54.79%  310.601      1 Template:Infobox_company\n 18.56%  105.213      1 Template:Infobox_network_service_provider\n 17.36%   98.402      3 Template:Unbulleted_list\n 14.86%   84.227      7 Template:Ifnumber\n 12.68%   71.911      1 Template:Short_description\n 12.64%   71.676      1 Template:Bill_Gates_series\n 12.20%   69.173      1 Template:Sidebar_person\n  8.93%   50.650      1 Template:Cite_web\n-->\n\n<!-- Render ID 88595921-b37e-11f1-b177-97dead028dff -->\n</div>",
+        "links": [
+          {
+            "ns": 4,
+            "title": "Wikipedia:Protection policy",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Bill Gates series",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Acquisition of Activision Blizzard by Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Adviser",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Albuquerque, New Mexico",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Altair 8800",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Amy Hood",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "An Open Letter to Hobbyists",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Anti-competitive practices",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Asset",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Autonomous System Number",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC interpreter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BENlabs",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Big Tech",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bill Gates",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bill Gates' flower fly",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bill Gates's house",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Brad Smith (American lawyer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Breakthrough Energy",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Business @ the Speed of Thought",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cascade Investment",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chairman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chief executive officer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Chief financial officer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cloud computing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Codex Leicester",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer hardware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer security",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Consumer electronics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Corporate venture capital",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Criticism of Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Division (business)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dow Jones Industrial Average",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamics 365",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Earnings before interest and taxes",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ease of use",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Equity (finance)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Family of Bill Gates",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gates Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gates Ventures",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gaza war",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "History of Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "History of personal computers",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "How to Avoid a Climate Disaster",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "How to Prevent the Next Pandemic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM PC–compatible",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Information technology",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Initial public offering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "International Securities Identification Number",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LinkedIn",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Microsoft hardware",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Microsoft operating systems",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Microsoft software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of mergers and acquisitions by Microsoft",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of most valuable brands",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of the largest software companies",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lost on the Grand Banks",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MS-DOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MSN",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Match for Africa",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft 365",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft AI",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Azure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Bing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Dynamics 365",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Edge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Excel",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Gaming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Mobile",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Office",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Outlook",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft PowerPoint",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Research",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft SQL Server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Store",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Store (digital)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Surface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Teams",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft Word",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft campus",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Microsoft logo",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mission Innovation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nasdaq",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nasdaq-100",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Net income",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Nokia",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OER Project",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OneDrive",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Outlook.com",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Paul Allen",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "President (corporate title)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Public company",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Redmond, Washington",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Robustness (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S&P 100",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S&P 500",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Satya Nadella",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Skype Technologies",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Social networking service",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Source Code (memoir)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Steve Ballmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Subsidiary",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "TerraPower",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Giving Pledge",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Road Ahead (Gates book)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ticker symbol",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Traf-O-Data",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Trillion-dollar company",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "U.S. Securities and Exchange Commission",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Vice-Chairman",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Video game industry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Studio",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Viva Engage",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows Update",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xbox",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xbox (division)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xbox Game Pass",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Xbox network",
+            "exists": true
+          },
+          {
+            "ns": 11,
+            "title": "Template talk:Bill Gates series",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "American multinational technology company",
+          "page_image_free": "Aerial_Microsoft_West_Campus_August_2009.jpg",
+          "wikibase_item": "Q2283"
+        }
+      }
+    }
+  ]
+}

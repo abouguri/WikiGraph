@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Perl",
+    "url": "https://en.wikipedia.org/wiki/Perl",
+    "summary": "Interpreted programming language first released in 1987 For other uses, see Perl (disambiguation) . Not to be confused with PEARL (programming language) . Perl Paradigm Multi-paradigm Designed by Larry Wall Developer Larry Wall First appeared December 18, 1987 ; 38 years ago ( 1987-12-18 ) Stable release 5.44.0 / 15 July 2026 ; 2 months ago ( 2026-07-15 ) Preview release 5.45.1 / 22 July 2026 ; 58 days ago ( 2026-07-22 ) Typing discipline Dynamic Implementation language C OS Cross-platform License Artistic 1.0 or GNU General Public License version 1 or any later version Filename extensions .plx, .pls, .pl, .pm, .xs, .t, .pod, .cgi, .psgi Website perl.org Influenced by AWK , BASIC , C , C++ , Lisp , sed , Unix shell Influenced CoffeeScript , [ citation needed ] Groovy , [ citation needed ] JavaScript , Julia , LPC , PHP , Python , Raku , Ruby , PowerShell Perl Programming at Wikibooks Perl is a high-level , general-purpose , interpreted , dynamic programming language . Though Perl is not officially an acronym, there are various backronyms in use, including \"Practical Extraction and Reporting Language\". Perl was developed by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. Since then, it has undergone many changes and revisions. Perl originally was not capitalized and the name was changed to being capitalized by the time Perl 4 was released. The latest release is Perl 5, first released in 1994. From 2000 to October 2019 a sixth version of Perl was in development; the sixth version's name was changed to Raku . Both languages continue to be developed independently by different development teams which liberally borrow ideas from each other. Perl borrows features from other programming languages including C , sh , AWK , and sed . It provides text processing facilities without the arbitrary data-length limits of many contemporary Unix command line tools . Perl is a highly expressive programming language: source code for a given algorithm can be short and highly compressible. Perl gained widespread popularity in the mid-1990s as a CGI scripting language, in part due to its powerful regular expression and string parsing abilities. In addition to CGI, Perl 5 is used for system administration , network programming , finance, bioinformatics , and other applications, such as for graphical user interfaces (GUIs). It has been nicknamed \"the Swiss Army chainsaw of scripting languages\" because of its flexibility and power. In 1998, it was also referred to as the \" duct tape that holds the Internet together\", in reference to both its ubiquitous use as a glue language and its perceived inelegance. ^ a b Ashton, Elaine (1999). \"The Timeline of Perl and its Culture (v3.0_0505)\" . Archived from the original on January 11, 2013 . Retrieved March 12, 2004 . ^ \"Perl v5.44.0 is now available!\" . www.nntp.perl.org . Retrieved July 23, 2026 . ^ \"Release announcement for perl v5.45.1\" . www.nntp.perl.org . Retrieved July 23, 2026 . ^ Cite error: The named reference artistic-1.0 was invoked but never defined (see the help page ). ^ Cite error: The named reference artistic-1.0-git was invoked but never defined (see the help page ). ^ Cite error: The named reference licensing was invoked but never defined (see the help page ). ^ Wall, Larry (December 12, 2007). \"Programming is Hard, Let's Go Scripting...\" Archived from the original on July 28, 2017 . Retrieved April 14, 2019 . All language designers have their occasional idiosyncracies. I'm just better at it than most. ^ Lapworth, Leo. \"General Questions About Perl\" . Perl FAQ . Perl.org. Archived from the original on May 28, 2013 . Retrieved February 24, 2012 . ^ \"perl(1): Practical Extraction/Report Language - Linux man page\" . Linux.die.net. Archived from the original on June 3, 2013 . Retrieved July 23, 2013 . ^ Sheppard, Doug (October 16, 2000). \"Beginner's Introduction to Perl\" . dev.perl.org. Archived from the original on June 5, 2011 . Retrieved January 8, 2011 . ^ a b \"Larry Wall, the Guru of Perl\" . Linux Journal . Retrieved August 30, 2023 . ^ \"About Perl\" . perl.org. Archived from the original on November 6, 2015 . Retrieved April 20, 2013 . \"Perl\" is a family of languages, \"Perl 6\" is part of the family, but it is a separate language that has its own development team. Its existence has no significant impact on the continuing development of \"Perl 5\". ^ \"Path to Raku\" . GitHub. Archived from the original on November 12, 2020 . Retrieved January 14, 2021 . This document describes the steps to be taken to effectuate a rename of Perl 6 to Raku ^ Wall, Larry ; Christiansen, Tom; Orwant, Jon (July 2000). Programming Perl, Third Edition . O'Reilly Media . ISBN 978-0-596-00027-1 . ^ \"How programs are measured\" . Computer Language Benchmarks Game, Debian.net . Archived from the original on July 12, 2020 . Retrieved October 5, 2020 . ^ \"RSA in 3 lines of perl - Everything2.com\" . everything2.com . November 26, 2000. Archived from the original on October 8, 2020 . Retrieved October 5, 2020 . ^ \"Language Evaluations\" . Archived from the original on March 10, 2015 . Retrieved January 30, 2015 . Perl's strongest point is its extremely powerful built-in facilities for pattern-directed processing of textual, line-oriented data formats; it is unsurpassed at this. ^ \"You Used Perl to Write WHAT?!\" . January 24, 2008. Archived from the original on February 4, 2015 . Retrieved February 4, 2015 . perl has always been the go-to language for any task that involves pattern-matching input ^ \"The Importance of Perl\" . Archived from the original on February 2, 2015 . Retrieved February 4, 2015 . Perl's unparalleled ability to process text... ^ Smith, Roderick W. (June 21, 2002). Advanced Linux Networking . Addison-Wesley Professional. p. 594 . ISBN 978-0-201-77423-8 . ^ Sheppard, Doug (October 16, 2000). \"Beginner's Introduction to Perl\" . O'Reilly Media . Archived from the original on June 4, 2008 . Retrieved July 27, 2008 . ^ Leonard, Andrew. \"The joy of Perl\" . Salon.com . Archived from the original on July 6, 2012 . Retrieved June 5, 2012 .",
+    "text": "Interpreted programming language first released in 1987 For other uses, see Perl (disambiguation) . Not to be confused with PEARL (programming language) . Perl Paradigm Multi-paradigm Designed by Larry Wall Developer Larry Wall First appeared December 18, 1987 ; 38 years ago ( 1987-12-18 ) Stable release 5.44.0 / 15 July 2026 ; 2 months ago ( 2026-07-15 ) Preview release 5.45.1 / 22 July 2026 ; 58 days ago ( 2026-07-22 ) Typing discipline Dynamic Implementation language C OS Cross-platform License Artistic 1.0 or GNU General Public License version 1 or any later version Filename extensions .plx, .pls, .pl, .pm, .xs, .t, .pod, .cgi, .psgi Website perl.org Influenced by AWK , BASIC , C , C++ , Lisp , sed , Unix shell Influenced CoffeeScript , [ citation needed ] Groovy , [ citation needed ] JavaScript , Julia , LPC , PHP , Python , Raku , Ruby , PowerShell Perl Programming at Wikibooks Perl is a high-level , general-purpose , interpreted , dynamic programming language . Though Perl is not officially an acronym, there are various backronyms in use, including \"Practical Extraction and Reporting Language\". Perl was developed by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. Since then, it has undergone many changes and revisions. Perl originally was not capitalized and the name was changed to being capitalized by the time Perl 4 was released. The latest release is Perl 5, first released in 1994. From 2000 to October 2019 a sixth version of Perl was in development; the sixth version's name was changed to Raku . Both languages continue to be developed independently by different development teams which liberally borrow ideas from each other. Perl borrows features from other programming languages including C , sh , AWK , and sed . It provides text processing facilities without the arbitrary data-length limits of many contemporary Unix command line tools . Perl is a highly expressive programming language: source code for a given algorithm can be short and highly compressible. Perl gained widespread popularity in the mid-1990s as a CGI scripting language, in part due to its powerful regular expression and string parsing abilities. In addition to CGI, Perl 5 is used for system administration , network programming , finance, bioinformatics , and other applications, such as for graphical user interfaces (GUIs). It has been nicknamed \"the Swiss Army chainsaw of scripting languages\" because of its flexibility and power. In 1998, it was also referred to as the \" duct tape that holds the Internet together\", in reference to both its ubiquitous use as a glue language and its perceived inelegance. ^ a b Ashton, Elaine (1999). \"The Timeline of Perl and its Culture (v3.0_0505)\" . Archived from the original on January 11, 2013 . Retrieved March 12, 2004 . ^ \"Perl v5.44.0 is now available!\" . www.nntp.perl.org . Retrieved July 23, 2026 . ^ \"Release announcement for perl v5.45.1\" . www.nntp.perl.org . Retrieved July 23, 2026 . ^ Cite error: The named reference artistic-1.0 was invoked but never defined (see the help page ). ^ Cite error: The named reference artistic-1.0-git was invoked but never defined (see the help page ). ^ Cite error: The named reference licensing was invoked but never defined (see the help page ). ^ Wall, Larry (December 12, 2007). \"Programming is Hard, Let's Go Scripting...\" Archived from the original on July 28, 2017 . Retrieved April 14, 2019 . All language designers have their occasional idiosyncracies. I'm just better at it than most. ^ Lapworth, Leo. \"General Questions About Perl\" . Perl FAQ . Perl.org. Archived from the original on May 28, 2013 . Retrieved February 24, 2012 . ^ \"perl(1): Practical Extraction/Report Language - Linux man page\" . Linux.die.net. Archived from the original on June 3, 2013 . Retrieved July 23, 2013 . ^ Sheppard, Doug (October 16, 2000). \"Beginner's Introduction to Perl\" . dev.perl.org. Archived from the original on June 5, 2011 . Retrieved January 8, 2011 . ^ a b \"Larry Wall, the Guru of Perl\" . Linux Journal . Retrieved August 30, 2023 . ^ \"About Perl\" . perl.org. Archived from the original on November 6, 2015 . Retrieved April 20, 2013 . \"Perl\" is a family of languages, \"Perl 6\" is part of the family, but it is a separate language that has its own development team. Its existence has no significant impact on the continuing development of \"Perl 5\". ^ \"Path to Raku\" . GitHub. Archived from the original on November 12, 2020 . Retrieved January 14, 2021 . This document describes the steps to be taken to effectuate a rename of Perl 6 to Raku ^ Wall, Larry ; Christiansen, Tom; Orwant, Jon (July 2000). Programming Perl, Third Edition . O'Reilly Media . ISBN 978-0-596-00027-1 . ^ \"How programs are measured\" . Computer Language Benchmarks Game, Debian.net . Archived from the original on July 12, 2020 . Retrieved October 5, 2020 . ^ \"RSA in 3 lines of perl - Everything2.com\" . everything2.com . November 26, 2000. Archived from the original on October 8, 2020 . Retrieved October 5, 2020 . ^ \"Language Evaluations\" . Archived from the original on March 10, 2015 . Retrieved January 30, 2015 . Perl's strongest point is its extremely powerful built-in facilities for pattern-directed processing of textual, line-oriented data formats; it is unsurpassed at this. ^ \"You Used Perl to Write WHAT?!\" . January 24, 2008. Archived from the original on February 4, 2015 . Retrieved February 4, 2015 . perl has always been the go-to language for any task that involves pattern-matching input ^ \"The Importance of Perl\" . Archived from the original on February 2, 2015 . Retrieved February 4, 2015 . Perl's unparalleled ability to process text... ^ Smith, Roderick W. (June 21, 2002). Advanced Linux Networking . Addison-Wesley Professional. p. 594 . ISBN 978-0-201-77423-8 . ^ Sheppard, Doug (October 16, 2000). \"Beginner's Introduction to Perl\" . O'Reilly Media . Archived from the original on June 4, 2008 . Retrieved July 27, 2008 . ^ Leonard, Andrew. \"The joy of Perl\" . Salon.com . Archived from the original on July 6, 2012 . Retrieved June 5, 2012 .",
+    "links": [
+      "AWK",
+      "Artistic License",
+      "BASIC",
+      "Backronym",
+      "Bioinformatics",
+      "C (programming language)",
+      "C++",
+      "CoffeeScript",
+      "Common Gateway Interface",
+      "Computer network programming",
+      "Cross-platform software",
+      "Duct tape",
+      "Dynamic programming language",
+      "Dynamic typing",
+      "Expressive power (computer science)",
+      "Filename extension",
+      "GNU General Public License",
+      "General-purpose programming language",
+      "Glue language",
+      "Graphical user interface",
+      "Groovy (programming language)",
+      "High-level programming language",
+      "ISBN (identifier)",
+      "Internet",
+      "Interpreter (computing)",
+      "JavaScript",
+      "Julia (programming language)",
+      "LPC (programming language)",
+      "Larry Wall",
+      "Lisp (programming language)",
+      "List of Unix commands",
+      "Multi-paradigm",
+      "O'Reilly Media",
+      "Operating system",
+      "PEARL (programming language)",
+      "PHP",
+      "Parsing",
+      "Perl (disambiguation)",
+      "PowerShell",
+      "Programming paradigm",
+      "Python (programming language)",
+      "Raku (programming language)",
+      "Regular expression",
+      "Ruby (programming language)",
+      "Salon.com",
+      "Scripting language",
+      "Sed",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "String (computing)",
+      "System administrator",
+      "Type system",
+      "Unix",
+      "Unix shell"
+    ],
+    "page_id": 23939,
+    "revision_id": 1375101993,
+    "retrieved_at": "2026-09-18T16:42:15.988549+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260815223054|1369587889",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 23939,
+            "ns": 0,
+            "title": "Perl",
+            "revisions": [
+              {
+                "revid": 1375101993,
+                "parentid": 1369587889
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "Perl-logo.svg",
+              "wikibase-shortdesc": "Interpreted programming language first released in 1987",
+              "wikibase_item": "Q42478"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Perl",
+        "pageid": 23939,
+        "revid": 1375101993,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Interpreted programming language first released in 1987</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other uses, see <a href=\"/wiki/Perl_(disambiguation)\" class=\"mw-disambig\" title=\"Perl (disambiguation)\">Perl (disambiguation)</a>.</div>\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1368532237\" /><div role=\"note\" class=\"hatnote navigation-not-searchable\">Not to be confused with <a href=\"/wiki/PEARL_(programming_language)\" title=\"PEARL (programming language)\">PEARL (programming language)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Perl</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Perl-logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Perl-logo.svg/250px-Perl-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"121\" height=\"121\" class=\"mw-file-element\" data-file-width=\"300\" data-file-height=\"300\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Larry_Wall\" title=\"Larry Wall\">Larry Wall</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\">Larry Wall</td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">December&#160;18, 1987<span class=\"noprint\">&#59;&#32;38 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1987-12-18</span>)</span><sup id=\"cite&#95;ref-perltimeline&#95;1-0\" class=\"reference\"><a href=\"#cite_note-perltimeline-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">5.44.0<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / 15&#160;July 2026<span class=\"noprint\">&#59;&#32;2 months ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-07-15</span>)</span></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">5.45.1<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / 22&#160;July 2026<span class=\"noprint\">&#59;&#32;58 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2026-07-22</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform_software\" title=\"Cross-platform software\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Artistic_License\" title=\"Artistic License\">Artistic</a> 1.0<sup id=\"cite&#95;ref-artistic-1.0&#95;4-0\" class=\"reference\"><a href=\"#cite_note-artistic-1.0-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-artistic-1.0-git&#95;5-0\" class=\"reference\"><a href=\"#cite_note-artistic-1.0-git-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> or <a href=\"/wiki/GNU_General_Public_License\" title=\"GNU General Public License\">GNU General Public License</a> version 1 or any later version<sup id=\"cite&#95;ref-licensing&#95;6-0\" class=\"reference\"><a href=\"#cite_note-licensing-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.plx, .pls, .pl, .pm, .xs, .t, .pod, .cgi, .psgi</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.perl.org/\">perl.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/AWK\" title=\"AWK\">AWK</a>, <a href=\"/wiki/BASIC\" title=\"BASIC\">BASIC</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>, <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>, <a href=\"/wiki/Sed\" title=\"Sed\">sed</a>, <a href=\"/wiki/Unix_shell\" title=\"Unix shell\">Unix shell</a><sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/CoffeeScript\" title=\"CoffeeScript\">CoffeeScript</a>,<sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (January 2016)\">citation needed</span></a></i>&#93;</sup> <a href=\"/wiki/Groovy_(programming_language)\" class=\"mw-redirect\" title=\"Groovy (programming language)\">Groovy</a>,<sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (February 2016)\">citation needed</span></a></i>&#93;</sup> <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>, <a href=\"/wiki/Julia_(programming_language)\" title=\"Julia (programming language)\">Julia</a>, <a href=\"/wiki/LPC_(programming_language)\" class=\"mw-redirect\" title=\"LPC (programming language)\">LPC</a>, <a href=\"/wiki/PHP\" title=\"PHP\">PHP</a>, <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>, <a href=\"/wiki/Raku_(programming_language)\" title=\"Raku (programming language)\">Raku</a>, <a href=\"/wiki/Ruby_(programming_language)\" title=\"Ruby (programming language)\">Ruby</a>, <a href=\"/wiki/PowerShell\" title=\"PowerShell\">PowerShell</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Perl_Programming\" class=\"extiw\" title=\"wikibooks:Perl Programming\">Perl Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>Perl</b> is a <a href=\"/wiki/High-level_programming_language\" title=\"High-level programming language\">high-level</a>, <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a>, <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreted</a>, <a href=\"/wiki/Dynamic_programming_language\" title=\"Dynamic programming language\">dynamic programming language</a>. Though Perl is not officially an acronym,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> there are various <a href=\"/wiki/Backronym\" title=\"Backronym\">backronyms</a> in use, including \"Practical Extraction and Reporting Language\".<sup id=\"cite&#95;ref-9\" class=\"reference\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Perl was developed by <a href=\"/wiki/Larry_Wall\" title=\"Larry Wall\">Larry Wall</a> in 1987 as a general-purpose <a href=\"/wiki/Unix\" title=\"Unix\">Unix</a> <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">scripting language</a> to make report processing easier.<sup id=\"cite&#95;ref-sheppard00&#95;10-0\" class=\"reference\"><a href=\"#cite_note-sheppard00-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-:0&#95;11-0\" class=\"reference\"><a href=\"#cite_note-:0-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> Since then, it has undergone many changes and revisions. Perl originally was not capitalized and the name was changed to being capitalized by the time Perl 4 was released.<sup id=\"cite&#95;ref-:0&#95;11-1\" class=\"reference\"><a href=\"#cite_note-:0-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> The latest release is Perl 5, first released in 1994. From 2000 to October 2019 a sixth version of Perl was in development; the sixth version's name was changed to <a href=\"/wiki/Raku_(programming_language)\" title=\"Raku (programming language)\">Raku</a>.<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> Both languages continue to be developed independently by different development teams which liberally borrow ideas from each other.\n</p><p>Perl borrows features from other programming languages including <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/Unix_shell\" title=\"Unix shell\">sh</a>, <a href=\"/wiki/AWK\" title=\"AWK\">AWK</a>, and <a href=\"/wiki/Sed\" title=\"Sed\">sed</a>.<sup id=\"cite&#95;ref-perltimeline&#95;1-1\" class=\"reference\"><a href=\"#cite_note-perltimeline-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> It provides text processing facilities without the arbitrary data-length limits of many contemporary <a href=\"/wiki/List_of_Unix_commands\" class=\"mw-redirect\" title=\"List of Unix commands\">Unix command line tools</a>.<sup id=\"cite&#95;ref-programmingperl2&#95;14-0\" class=\"reference\"><a href=\"#cite_note-programmingperl2-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> Perl is a highly <a href=\"/wiki/Expressive_power_(computer_science)\" title=\"Expressive power (computer science)\">expressive</a> programming language: source code for a given algorithm can be short and highly compressible.<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Perl gained widespread popularity in the mid-1990s as a <a href=\"/wiki/Common_Gateway_Interface\" title=\"Common Gateway Interface\">CGI scripting</a> language, in part due to its powerful <a href=\"/wiki/Regular_expression\" title=\"Regular expression\">regular expression</a> and <a href=\"/wiki/String_(computing)\" class=\"mw-redirect\" title=\"String (computing)\">string</a> <a href=\"/wiki/Parsing\" title=\"Parsing\">parsing</a> abilities.<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-roderick02&#95;20-0\" class=\"reference\"><a href=\"#cite_note-roderick02-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup> In addition to CGI, Perl 5 is used for <a href=\"/wiki/System_administrator\" title=\"System administrator\">system administration</a>, <a href=\"/wiki/Computer_network_programming\" title=\"Computer network programming\">network programming</a>, finance, <a href=\"/wiki/Bioinformatics\" title=\"Bioinformatics\">bioinformatics</a>, and other applications, such as for <a href=\"/wiki/Graphical_user_interface\" title=\"Graphical user interface\">graphical user interfaces</a> (GUIs). It has been nicknamed \"the Swiss Army chainsaw of scripting languages\" because of its flexibility and power.<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup> In 1998, it was also referred to as the \"<a href=\"/wiki/Duct_tape\" title=\"Duct tape\">duct tape</a> that holds the <a href=\"/wiki/Internet\" title=\"Internet\">Internet</a> together\", in reference to both its ubiquitous use as a <a href=\"/wiki/Glue_language\" class=\"mw-redirect\" title=\"Glue language\">glue language</a> and its perceived inelegance.<sup id=\"cite&#95;ref-leonard98&#95;22-0\" class=\"reference\"><a href=\"#cite_note-leonard98-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-perltimeline-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-perltimeline_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-perltimeline_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFAshton1999\" class=\"citation web cs1\">Ashton, Elaine (1999). <a rel=\"nofollow\" class=\"external text\" href=\"http://history.perl.org/PerlTimeline.html\">\"The Timeline of Perl and its Culture (v3.0_0505)\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20130111100906/http://history.perl.org/PerlTimeline.html\">Archived</a> from the original on January 11, 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">March 12,</span> 2004</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Timeline+of+Perl+and+its+Culture+%28v3.0&#95;0505%29&amp;rft.date=1999&amp;rft.aulast=Ashton&amp;rft.aufirst=Elaine&amp;rft&#95;id=http%3A%2F%2Fhistory.perl.org%2FPerlTimeline.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nntp.perl.org/group/perl.perl5.porters/2026/07/msg271063.html\">\"Perl v5.44.0 is now available!\"</a>. www.nntp.perl.org<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 23,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Perl+v5.44.0+is+now+available%21&amp;rft.pub=www.nntp.perl.org&amp;rft&#95;id=https%3A%2F%2Fwww.nntp.perl.org%2Fgroup%2Fperl.perl5.porters%2F2026%2F07%2Fmsg271063.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nntp.perl.org/group/perl.perl5.porters/2026/07/msg271102.html\">\"Release announcement for perl v5.45.1\"</a>. www.nntp.perl.org<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 23,</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+announcement+for+perl+v5.45.1&amp;rft.pub=www.nntp.perl.org&amp;rft&#95;id=https%3A%2F%2Fwww.nntp.perl.org%2Fgroup%2Fperl.perl5.porters%2F2026%2F07%2Fmsg271102.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-artistic-1.0-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-artistic-1.0_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>artistic-1.0</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-artistic-1.0-git-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-artistic-1.0-git_5-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>artistic-1.0-git</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-licensing-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-licensing_6-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>licensing</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWall2007\" class=\"citation web cs1\"><a href=\"/wiki/Larry_Wall\" title=\"Larry Wall\">Wall, Larry</a> (December 12, 2007). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.perl.com/pub/2007/12/06/soto-11.html/\">\"Programming is Hard, Let's Go Scripting...\"</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170728023959/http://www.perl.com/pub/2007/12/06/soto-11.html\">Archived</a> from the original on July 28, 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">April 14,</span> 2019</span>. <q>All language designers have their occasional idiosyncracies. I'm just better at it than most.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Programming+is+Hard%2C+Let%27s+Go+Scripting...&amp;rft.date=2007-12-12&amp;rft.aulast=Wall&amp;rft.aufirst=Larry&amp;rft&#95;id=https%3A%2F%2Fwww.perl.com%2Fpub%2F2007%2F12%2F06%2Fsoto-11.html%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLapworth\" class=\"citation web cs1\">Lapworth, Leo. <a rel=\"nofollow\" class=\"external text\" href=\"http://learn.perl.org/faq/perlfaq1.html#Whats-the-difference-between-perl-and-Perl\">\"General Questions About Perl\"</a>. <i>Perl FAQ</i>. Perl.org. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20130528001715/http://learn.perl.org/faq/perlfaq1.html#Whats-the-difference-between-perl-and-Perl\">Archived</a> from the original on May 28, 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 24,</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Perl+FAQ&amp;rft.atitle=General+Questions+About+Perl&amp;rft.aulast=Lapworth&amp;rft.aufirst=Leo&amp;rft&#95;id=http%3A%2F%2Flearn.perl.org%2Ffaq%2Fperlfaq1.html%23Whats-the-difference-between-perl-and-Perl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-9\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://linux.die.net/man/1/perl\">\"perl(1): Practical Extraction/Report Language - Linux man page\"</a>. Linux.die.net. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20130603152544/http://linux.die.net/man/1/perl\">Archived</a> from the original on June 3, 2013<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 23,</span> 2013</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=perl%281%29%3A+Practical+Extraction%2FReport+Language+-+Linux+man+page&amp;rft.pub=Linux.die.net&amp;rft&#95;id=http%3A%2F%2Flinux.die.net%2Fman%2F1%2Fperl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-sheppard00-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-sheppard00_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSheppard2000\" class=\"citation web cs1\">Sheppard, Doug (October 16, 2000). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.perl.com/pub/2000/10/begperl1.html\">\"Beginner's Introduction to Perl\"</a>. dev.perl.org. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20110605130400/http://www.perl.com/pub/2000/10/begperl1.html\">Archived</a> from the original on June 5, 2011<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 8,</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Beginner%27s+Introduction+to+Perl&amp;rft.pub=dev.perl.org&amp;rft.date=2000-10-16&amp;rft.aulast=Sheppard&amp;rft.aufirst=Doug&amp;rft&#95;id=http%3A%2F%2Fwww.perl.com%2Fpub%2F2000%2F10%2Fbegperl1.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-:0-11\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-:0_11-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-:0_11-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.linuxjournal.com/article/3394\">\"Larry Wall, the Guru of Perl\"</a>. <i>Linux Journal</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">August 30,</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Linux+Journal&amp;rft.atitle=Larry+Wall%2C+the+Guru+of+Perl&amp;rft&#95;id=https%3A%2F%2Fwww.linuxjournal.com%2Farticle%2F3394&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.perl.org/about.html\">\"About Perl\"</a>. perl.org. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20151106051931/https://www.perl.org/about.html\">Archived</a> from the original on November 6, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">April 20,</span> 2013</span>. <q><span class=\"cs1-kern-left\"></span>\"Perl\" is a family of languages, \"Perl 6\" is part of the family, but it is a separate language that has its own development team. Its existence has no significant impact on the continuing development of \"Perl 5\".</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=About+Perl&amp;rft.pub=perl.org&amp;rft&#95;id=https%3A%2F%2Fwww.perl.org%2Fabout.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/Raku/problem-solving/blob/master/solutions/language/Path-to-Raku.md\">\"Path to Raku\"</a>. GitHub. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201112035821/https://github.com/Raku/problem-solving/blob/master/solutions/language/Path-to-Raku.md\">Archived</a> from the original on November 12, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 14,</span> 2021</span>. <q>This document describes the steps to be taken to effectuate a rename of Perl 6 to Raku</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Path+to+Raku&amp;rft.pub=GitHub&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2FRaku%2Fproblem-solving%2Fblob%2Fmaster%2Fsolutions%2Flanguage%2FPath-to-Raku.md&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-programmingperl2-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-programmingperl2_14-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFWallChristiansenOrwant2000\" class=\"citation book cs1\"><a href=\"/wiki/Larry_Wall\" title=\"Larry Wall\">Wall, Larry</a>; Christiansen, Tom; Orwant, Jon (July 2000). <i>Programming Perl, Third Edition</i>. <a href=\"/wiki/O%27Reilly_Media\" title=\"O&#39;Reilly Media\">O'Reilly Media</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-596-00027-1\" title=\"Special:BookSources/978-0-596-00027-1\"><bdi>978-0-596-00027-1</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Programming+Perl%2C+Third+Edition&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2000-07&amp;rft.isbn=978-0-596-00027-1&amp;rft.aulast=Wall&amp;rft.aufirst=Larry&amp;rft.au=Christiansen%2C+Tom&amp;rft.au=Orwant%2C+Jon&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://benchmarksgame-team.pages.debian.net/benchmarksgame/how-programs-are-measured.html#source-code\">\"How programs are measured\"</a>. <i>Computer Language Benchmarks Game, Debian.net</i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20200712000728/https://benchmarksgame-team.pages.debian.net/benchmarksgame/how-programs-are-measured.html#source-code\">Archived</a> from the original on July 12, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 5,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Computer+Language+Benchmarks+Game%2C+Debian.net&amp;rft.atitle=How+programs+are+measured&amp;rft&#95;id=https%3A%2F%2Fbenchmarksgame-team.pages.debian.net%2Fbenchmarksgame%2Fhow-programs-are-measured.html%23source-code&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://everything2.com/title/RSA+in+3+lines+of+perl\">\"RSA in 3 lines of perl - Everything2.com\"</a>. <i>everything2.com</i>. November 26, 2000. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201008120935/https://everything2.com/title/RSA+in+3+lines+of+perl\">Archived</a> from the original on October 8, 2020<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">October 5,</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=everything2.com&amp;rft.atitle=RSA+in+3+lines+of+perl+-+Everything2.com&amp;rft.date=2000-11-26&amp;rft&#95;id=https%3A%2F%2Feverything2.com%2Ftitle%2FRSA%2Bin%2B3%2Blines%2Bof%2Bperl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.catb.org/esr/writings/taoup/html/ch14s04.html#perl\">\"Language Evaluations\"</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150310123855/http://www.catb.org/esr/writings/taoup/html/ch14s04.html#perl\">Archived</a> from the original on March 10, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">January 30,</span> 2015</span>. <q>Perl's strongest point is its extremely powerful built-in facilities for pattern-directed processing of textual, line-oriented data formats; it is unsurpassed at this.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Language+Evaluations&amp;rft&#95;id=http%3A%2F%2Fwww.catb.org%2Fesr%2Fwritings%2Ftaoup%2Fhtml%2Fch14s04.html%23perl&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.cio.com/article/2437271/developer/you-used-perl-to-write-what--.html\">\"You Used Perl to Write WHAT?!\"</a>. January 24, 2008. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150204175543/http://www.cio.com/article/2437271/developer/you-used-perl-to-write-what--.html\">Archived</a> from the original on February 4, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 4,</span> 2015</span>. <q>perl has always been the go-to language for any task that involves pattern-matching input</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=You+Used+Perl+to+Write+WHAT%3F%21&amp;rft.date=2008-01-24&amp;rft&#95;id=http%3A%2F%2Fwww.cio.com%2Farticle%2F2437271%2Fdeveloper%2Fyou-used-perl-to-write-what--.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-19\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150202010003/http://archive.oreilly.com/pub/a/oreilly/perl/news/importance_0498.html\">\"The Importance of Perl\"</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://archive.oreilly.com/pub/a/oreilly/perl/news/importance_0498.html\">the original</a> on February 2, 2015<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">February 4,</span> 2015</span>. <q>Perl's unparalleled ability to process text...</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Importance+of+Perl&amp;rft&#95;id=http%3A%2F%2Farchive.oreilly.com%2Fpub%2Fa%2Foreilly%2Fperl%2Fnews%2Fimportance&#95;0498.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-roderick02-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-roderick02_20-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSmith2002\" class=\"citation book cs1\">Smith, Roderick W. (June 21, 2002). <span class=\"id-lock-limited\" title=\"Free access subject to limited trial, subscription normally required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/linux00libg_999\"><i>Advanced Linux Networking</i></a></span>. Addison-Wesley Professional. p.&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/linux00libg_999/page/n595\">594</a>. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-201-77423-8\" title=\"Special:BookSources/978-0-201-77423-8\"><bdi>978-0-201-77423-8</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Advanced+Linux+Networking&amp;rft.pages=594&amp;rft.pub=Addison-Wesley+Professional&amp;rft.date=2002-06-21&amp;rft.isbn=978-0-201-77423-8&amp;rft.aulast=Smith&amp;rft.aufirst=Roderick+W.&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Flinux00libg&#95;999&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSheppard2000\" class=\"citation web cs1\">Sheppard, Doug (October 16, 2000). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.perl.com/pub/a/2000/10/begperl1.html\">\"Beginner's Introduction to Perl\"</a>. <a href=\"/wiki/O%27Reilly_Media\" title=\"O&#39;Reilly Media\">O'Reilly Media</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20080604140740/http://www.perl.com/pub/a/2000/10/begperl1.html\">Archived</a> from the original on June 4, 2008<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">July 27,</span> 2008</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Beginner%27s+Introduction+to+Perl&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2000-10-16&amp;rft.aulast=Sheppard&amp;rft.aufirst=Doug&amp;rft&#95;id=http%3A%2F%2Fwww.perl.com%2Fpub%2Fa%2F2000%2F10%2Fbegperl1.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-leonard98-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-leonard98_22-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLeonard\" class=\"citation news cs1\">Leonard, Andrew. <a rel=\"nofollow\" class=\"external text\" href=\"http://www.salon.com/1998/10/13/feature_269/\">\"The joy of Perl\"</a>. <i><a href=\"/wiki/Salon.com\" title=\"Salon.com\">Salon.com</a></i>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120706094345/http://www.salon.com/1998/10/13/feature_269/\">Archived</a> from the original on July 6, 2012<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">June 5,</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Salon.com&amp;rft.atitle=The+joy+of+Perl&amp;rft.aulast=Leonard&amp;rft.aufirst=Andrew&amp;rft&#95;id=http%3A%2F%2Fwww.salon.com%2F1998%2F10%2F13%2Ffeature&#95;269%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APerl\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐pmkjz\nCached time: 20260918164241\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.461 seconds\nReal time usage: 0.617 seconds\nPreprocessor visited node count: 2780/1000000\nRevision size: 10785/2097152 bytes\nPost‐expand include size: 64222/2097152 bytes\nTemplate argument size: 8983/2097152 bytes\nHighest expansion depth: 27/100\nExpensive parser function count: 8/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 52612/5000000 bytes\nLua time usage: 0.256/10.000 seconds\nLua memory usage: 7633249/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  571.854      1 -total\n 35.22%  201.412      2 Template:Infobox\n 30.99%  177.234      1 Template:Infobox_programming_language\n 22.56%  129.009     16 Template:Cite_web\n 13.63%   77.923      1 Template:Short_description\n  7.93%   45.373      2 Template:Pagetype\n  7.20%   41.151      2 Template:Citation_needed\n  6.41%   36.680      2 Template:Fix\n  5.86%   33.520      1 Template:Infobox_software/simple\n  5.43%   31.076      6 Template:Broken_ref\n-->\n\n<!-- Render ID f6eadf8d-b37f-11f1-9cfa-b576dc10a2d6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Perl (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PEARL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "AWK",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artistic License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "BASIC",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Backronym",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bioinformatics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CoffeeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Gateway Interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computer network programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Duct tape",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Expressive power (computer science)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU General Public License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glue language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Graphical user interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Groovy (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "High-level programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Internet",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Julia (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LPC (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Larry Wall",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "List of Unix commands",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "O'Reilly Media",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parsing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PowerShell",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raku (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Regular expression",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ruby (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Salon.com",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scripting language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Sed",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "String (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "System administrator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix shell",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citation needed",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Interpreted programming language first released in 1987",
+          "page_image_free": "Perl-logo.svg",
+          "wikibase_item": "Q42478"
+        }
+      }
+    }
+  ]
+}

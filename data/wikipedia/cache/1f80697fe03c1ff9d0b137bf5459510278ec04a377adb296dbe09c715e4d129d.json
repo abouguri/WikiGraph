@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Prolog",
+    "url": "https://en.wikipedia.org/wiki/Prolog",
+    "summary": "Programming language that uses first order logic This article is about the programming language. For the narrative device, see Prologue . For other uses, see Prologue (disambiguation) . Prolog Paradigm Logic Designed by Alain Colmerauer First appeared 1972 ; 54 years ago ( 1972 ) Stable release Part 1: General core-Edition 1 (June 1995 ; 31 years ago ( 1995-06 ) ) Part 2: Modules-Edition 1 (June 2000 ; 26 years ago ( 2000-06 ) ) Part 3: Definite clause grammar rules (June 2025 ; 1 year ago ( 2025-06 ) ) Typing discipline Untyped (its single data type is \"term\") Filename extensions .pl , .pro , .P Website Part 1: www .iso .org /standard /21413 .html Part 2: www .iso .org /standard /20775 .html Part 3: www .iso .org /standard /83635 .html Major implementations Amzi! Prolog , B-Prolog , Ciao , ECLiPSe , GNU Prolog , LPA Prolog , Poplog , P# , Quintus Prolog , Scryer Prolog , SICStus , Strawberry , SWI-Prolog , Tau Prolog , tuProlog , WIN-PROLOG XSB , YAP . Dialects ISO Prolog , Edinburgh Prolog Influenced by Planner Influenced CHR , Clojure , Datalog , Erlang , Epilog , KL0 , KL1 , Logtalk , Mercury , Oz , Strand , Visual Prolog Prolog at Wikibooks Prolog is a logic programming language that has its origins in artificial intelligence , automated theorem proving , and computational linguistics . Prolog has its roots in first-order logic , a formal logic . Unlike many other programming languages , Prolog is intended primarily as a declarative programming language: the program is a set of facts and rules , which define relations . A computation is initiated by running a query over the program. Prolog was one of the first logic programming languages and remains the most popular such language today, with several free and commercial implementations available. The language has been used for theorem proving , expert systems , term rewriting , type systems , automated planning , and question answering as well as its original intended field of use, natural language processing . Prolog is a Turing-complete , general-purpose programming language, which is well-suited for intelligent knowledge-processing applications. ^ Clocksin, William F.; Mellish, Christopher S. (2003). Programming in Prolog . Berlin; New York: Springer-Verlag. ISBN 978-3-540-00678-7 . ^ Bratko, Ivan (2012). Prolog programming for artificial intelligence (4th ed.). Harlow, England; New York: Addison Wesley. ISBN 978-0-321-41746-6 . ^ Covington, Michael A. (1994). Natural language processing for Prolog programmers . Englewood Cliffs, N.J.: Prentice Hall. ISBN 978-0-13-629213-5 . ^ Cite error: The named reference lloyd84 was invoked but never defined (see the help page ). ^ See Logic programming § History . ^ Stickel, M. E. (1988). \"A prolog technology theorem prover: Implementation by an extended prolog compiler\" . Journal of Automated Reasoning . 4 (4): 353– 380. doi : 10.1007/BF00297245 . S2CID 14621218 . ^ Merritt, Dennis (1989). Building expert systems in Prolog . Berlin: Springer-Verlag. ISBN 978-0-387-97016-5 . ^ Felty, Amy. \"A logic programming approach to implementing higher-order term rewriting.\" Extensions of Logic Programming (1992): 135-161. ^ Kent D. Lee (19 January 2015). Foundations of Programming Languages . Springer. pp. 298–. ISBN 978-3-319-13314-0 . ^ Ute Schmid (21 August 2003). Inductive Synthesis of Functional Programs: Universal Planning, Folding of Finite Programs, and Schema Abstraction by Analogical Reasoning . Springer Science & Business Media. ISBN 978-3-540-40174-2 . ^ a b Adam Lally; Paul Fodor (31 March 2011). \"Natural Language Processing With Prolog in the IBM Watson System\" . Association for Logic Programming. Archived from the original on 3 September 2014 . Retrieved 13 June 2014 . See also Watson (computer) . ^ \"Question answering: from partitions to Prolog\" . ^ \"NLProlog: Reasoning with Weak Unification for Question Answering in Natural Language\" (PDF) . ^ Fernando C. N. Pereira ; Stuart M. Shieber (2005). Prolog and Natural Language Analysis . Microtome.",
+    "text": "Programming language that uses first order logic This article is about the programming language. For the narrative device, see Prologue . For other uses, see Prologue (disambiguation) . Prolog Paradigm Logic Designed by Alain Colmerauer First appeared 1972 ; 54 years ago ( 1972 ) Stable release Part 1: General core-Edition 1 (June 1995 ; 31 years ago ( 1995-06 ) ) Part 2: Modules-Edition 1 (June 2000 ; 26 years ago ( 2000-06 ) ) Part 3: Definite clause grammar rules (June 2025 ; 1 year ago ( 2025-06 ) ) Typing discipline Untyped (its single data type is \"term\") Filename extensions .pl , .pro , .P Website Part 1: www .iso .org /standard /21413 .html Part 2: www .iso .org /standard /20775 .html Part 3: www .iso .org /standard /83635 .html Major implementations Amzi! Prolog , B-Prolog , Ciao , ECLiPSe , GNU Prolog , LPA Prolog , Poplog , P# , Quintus Prolog , Scryer Prolog , SICStus , Strawberry , SWI-Prolog , Tau Prolog , tuProlog , WIN-PROLOG XSB , YAP . Dialects ISO Prolog , Edinburgh Prolog Influenced by Planner Influenced CHR , Clojure , Datalog , Erlang , Epilog , KL0 , KL1 , Logtalk , Mercury , Oz , Strand , Visual Prolog Prolog at Wikibooks Prolog is a logic programming language that has its origins in artificial intelligence , automated theorem proving , and computational linguistics . Prolog has its roots in first-order logic , a formal logic . Unlike many other programming languages , Prolog is intended primarily as a declarative programming language: the program is a set of facts and rules , which define relations . A computation is initiated by running a query over the program. Prolog was one of the first logic programming languages and remains the most popular such language today, with several free and commercial implementations available. The language has been used for theorem proving , expert systems , term rewriting , type systems , automated planning , and question answering as well as its original intended field of use, natural language processing . Prolog is a Turing-complete , general-purpose programming language, which is well-suited for intelligent knowledge-processing applications. ^ Clocksin, William F.; Mellish, Christopher S. (2003). Programming in Prolog . Berlin; New York: Springer-Verlag. ISBN 978-3-540-00678-7 . ^ Bratko, Ivan (2012). Prolog programming for artificial intelligence (4th ed.). Harlow, England; New York: Addison Wesley. ISBN 978-0-321-41746-6 . ^ Covington, Michael A. (1994). Natural language processing for Prolog programmers . Englewood Cliffs, N.J.: Prentice Hall. ISBN 978-0-13-629213-5 . ^ Cite error: The named reference lloyd84 was invoked but never defined (see the help page ). ^ See Logic programming § History . ^ Stickel, M. E. (1988). \"A prolog technology theorem prover: Implementation by an extended prolog compiler\" . Journal of Automated Reasoning . 4 (4): 353– 380. doi : 10.1007/BF00297245 . S2CID 14621218 . ^ Merritt, Dennis (1989). Building expert systems in Prolog . Berlin: Springer-Verlag. ISBN 978-0-387-97016-5 . ^ Felty, Amy. \"A logic programming approach to implementing higher-order term rewriting.\" Extensions of Logic Programming (1992): 135-161. ^ Kent D. Lee (19 January 2015). Foundations of Programming Languages . Springer. pp. 298–. ISBN 978-3-319-13314-0 . ^ Ute Schmid (21 August 2003). Inductive Synthesis of Functional Programs: Universal Planning, Folding of Finite Programs, and Schema Abstraction by Analogical Reasoning . Springer Science & Business Media. ISBN 978-3-540-40174-2 . ^ a b Adam Lally; Paul Fodor (31 March 2011). \"Natural Language Processing With Prolog in the IBM Watson System\" . Association for Logic Programming. Archived from the original on 3 September 2014 . Retrieved 13 June 2014 . See also Watson (computer) . ^ \"Question answering: from partitions to Prolog\" . ^ \"NLProlog: Reasoning with Weak Unification for Question Answering in Natural Language\" (PDF) . ^ Fernando C. N. Pereira ; Stuart M. Shieber (2005). Prolog and Natural Language Analysis . Microtome.",
+    "links": [
+      "Alain Colmerauer",
+      "Artificial intelligence",
+      "Automated planning",
+      "Automated theorem proving",
+      "B-Prolog",
+      "Ciao (programming language)",
+      "Clojure",
+      "Computation",
+      "Computational linguistics",
+      "Constraint Handling Rules",
+      "Datalog",
+      "Declarative programming",
+      "Doi (identifier)",
+      "ECLiPSe",
+      "Erlang (programming language)",
+      "Expert system",
+      "Fernando Pereira",
+      "Filename extension",
+      "Finitary relation",
+      "First-order logic",
+      "Formal logic",
+      "GNU Prolog",
+      "Horn clause",
+      "ISBN (identifier)",
+      "Journal of Automated Reasoning",
+      "KL0",
+      "KL1",
+      "Logic Programming Associates",
+      "Logic programming",
+      "Logtalk",
+      "Mercury (programming language)",
+      "Natural language processing",
+      "Oz (programming language)",
+      "Planner (programming language)",
+      "Poplog",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Prologue",
+      "Prologue (disambiguation)",
+      "Question answering",
+      "Quintus Prolog",
+      "S2CID (identifier)",
+      "SWI-Prolog",
+      "Software design",
+      "Software release life cycle",
+      "Strand (programming language)",
+      "Term rewriting",
+      "Turing completeness",
+      "Type system",
+      "Ute Schmid",
+      "Visual Prolog",
+      "Watson (computer)",
+      "XSB",
+      "YAP (Prolog)"
+    ],
+    "page_id": 23485,
+    "revision_id": 1375083919,
+    "retrieved_at": "2026-09-18T16:42:17.910279+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260913213434|1374741313",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 23485,
+            "ns": 0,
+            "title": "Prolog",
+            "revisions": [
+              {
+                "revid": 1375083919,
+                "parentid": 1374741313
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Programming language that uses first order logic",
+              "wikibase_item": "Q163468"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Prolog",
+        "pageid": 23485,
+        "revid": 1375083919,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Programming language that uses first order logic</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the programming language. For the narrative device, see <a href=\"/wiki/Prologue\" title=\"Prologue\">Prologue</a>. For other uses, see <a href=\"/wiki/Prologue_(disambiguation)\" class=\"mw-disambig\" title=\"Prologue (disambiguation)\">Prologue (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Prolog</th></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Logic_programming\" title=\"Logic programming\">Logic</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Alain_Colmerauer\" title=\"Alain Colmerauer\">Alain Colmerauer</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1972<span class=\"noprint\">&#59;&#32;54&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1972</span>)</span></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Part 1: General core-Edition 1 (June&#160;1995<span class=\"noprint\">&#59;&#32;31&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1995-06</span>)</span>)<br />Part 2: Modules-Edition 1 (June&#160;2000<span class=\"noprint\">&#59;&#32;26&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2000-06</span>)</span>)<br />Part 3: Definite clause grammar rules (June&#160;2025<span class=\"noprint\">&#59;&#32;1&#160;year ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2025-06</span>)</span>)\n   </div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\">Untyped (its single data type is \"term\")</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.pl</code>, <code>.pro</code>, <code>.P</code></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\">Part 1: <span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.iso.org/standard/21413.html\">www<wbr />.iso<wbr />.org<wbr />/standard<wbr />/21413<wbr />.html</a></span><br /> Part 2: <span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.iso.org/standard/20775.html\">www<wbr />.iso<wbr />.org<wbr />/standard<wbr />/20775<wbr />.html</a></span><br /> Part 3: <span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.iso.org/standard/83635.html\">www<wbr />.iso<wbr />.org<wbr />/standard<wbr />/83635<wbr />.html</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.amzi.com/#apls\">Amzi! Prolog</a>, <a href=\"/wiki/B-Prolog\" title=\"B-Prolog\">B-Prolog</a>, <a href=\"/wiki/Ciao_(programming_language)\" title=\"Ciao (programming language)\">Ciao</a>, <a href=\"/wiki/ECLiPSe\" title=\"ECLiPSe\">ECLiPSe</a>, <a href=\"/wiki/GNU_Prolog\" title=\"GNU Prolog\">GNU Prolog</a>,  <a href=\"/wiki/Logic_Programming_Associates\" title=\"Logic Programming Associates\">LPA Prolog</a>, <a href=\"/wiki/Poplog\" title=\"Poplog\">Poplog</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://homepages.inf.ed.ac.uk/stg/research/Psharp/\">P#</a>, <a href=\"/wiki/Quintus_Prolog\" title=\"Quintus Prolog\">Quintus Prolog</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.scryer.pl/\">Scryer Prolog</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://sicstus.sics.se/\">SICStus</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://dobrev.com/\">Strawberry</a>, <a href=\"/wiki/SWI-Prolog\" title=\"SWI-Prolog\">SWI-Prolog</a>,  <a rel=\"nofollow\" class=\"external text\" href=\"http://tau-prolog.org/\">Tau Prolog</a>, <a rel=\"nofollow\" class=\"external text\" href=\"http://tuprolog.unibo.it/\">tuProlog</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.lpai.uk/win.htm\">WIN-PROLOG</a> <a href=\"/wiki/XSB\" title=\"XSB\">XSB</a>, <a href=\"/wiki/YAP_(Prolog)\" title=\"YAP (Prolog)\">YAP</a>.</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"#ISO_Prolog\">ISO Prolog</a>, Edinburgh Prolog</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Planner_(programming_language)\" title=\"Planner (programming language)\">Planner</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Constraint_Handling_Rules\" title=\"Constraint Handling Rules\">CHR</a>, <a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>, <a href=\"/wiki/Datalog\" title=\"Datalog\">Datalog</a>, <a href=\"/wiki/Erlang_(programming_language)\" title=\"Erlang (programming language)\">Erlang</a>, <a rel=\"nofollow\" class=\"external text\" href=\"http://epilog.stanford.edu/\">Epilog</a>, <a href=\"/wiki/KL0\" title=\"KL0\">KL0</a>, <a href=\"/wiki/KL1\" title=\"KL1\">KL1</a>, <a href=\"/wiki/Logtalk\" title=\"Logtalk\">Logtalk</a>, <a href=\"/wiki/Mercury_(programming_language)\" title=\"Mercury (programming language)\">Mercury</a>, <a href=\"/wiki/Oz_(programming_language)\" title=\"Oz (programming language)\">Oz</a>, <a href=\"/wiki/Strand_(programming_language)\" title=\"Strand (programming language)\">Strand</a>, <a href=\"/wiki/Visual_Prolog\" title=\"Visual Prolog\">Visual Prolog</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/Prolog\" class=\"extiw\" title=\"wikibooks:Prolog\">Prolog</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>Prolog</b> is a <a href=\"/wiki/Logic_programming\" title=\"Logic programming\">logic programming</a> language that has its origins in <a href=\"/wiki/Artificial_intelligence\" title=\"Artificial intelligence\">artificial intelligence</a>, <a href=\"/wiki/Automated_theorem_proving\" title=\"Automated theorem proving\">automated theorem proving</a>,  and <a href=\"/wiki/Computational_linguistics\" title=\"Computational linguistics\">computational linguistics</a>.<sup id=\"cite&#95;ref-Clocksin2003&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Clocksin2003-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Bratko2012&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Bratko2012-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Covington1994&#95;3-0\" class=\"reference\"><a href=\"#cite_note-Covington1994-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Prolog has its roots in <a href=\"/wiki/First-order_logic\" title=\"First-order logic\">first-order logic</a>, a <a href=\"/wiki/Formal_logic\" class=\"mw-redirect\" title=\"Formal logic\">formal logic</a>. Unlike many other <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming languages</a>, Prolog is intended primarily as a <a href=\"/wiki/Declarative_programming\" title=\"Declarative programming\">declarative programming</a> language: the program is a set of facts and <a href=\"/wiki/Horn_clause\" title=\"Horn clause\">rules</a>, which define <a href=\"/wiki/Finitary_relation\" title=\"Finitary relation\">relations</a>.  A <a href=\"/wiki/Computation\" title=\"Computation\">computation</a> is initiated by running a <i>query</i> over the program.<sup id=\"cite&#95;ref-lloyd84&#95;4-0\" class=\"reference\"><a href=\"#cite_note-lloyd84-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Prolog was one of the first logic programming languages<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> and remains the most popular such language today, with several free and commercial implementations available. The language has been used for <a href=\"/wiki/Automated_theorem_proving\" title=\"Automated theorem proving\">theorem proving</a>,<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Expert_system\" title=\"Expert system\">expert systems</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Term_rewriting\" class=\"mw-redirect\" title=\"Term rewriting\">term rewriting</a>,<sup id=\"cite&#95;ref-8\" class=\"reference\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Type_system\" title=\"Type system\">type systems</a>,<sup id=\"cite&#95;ref-Lee2015&#95;9-0\" class=\"reference\"><a href=\"#cite_note-Lee2015-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Automated_planning\" class=\"mw-redirect\" title=\"Automated planning\">automated planning</a>,<sup id=\"cite&#95;ref-Schmid2003&#95;10-0\" class=\"reference\"><a href=\"#cite_note-Schmid2003-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup> and <a href=\"/wiki/Question_answering\" title=\"Question answering\">question answering</a><sup id=\"cite&#95;ref-lally&#95;11-0\" class=\"reference\"><a href=\"#cite_note-lally-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-tenCate&#95;12-0\" class=\"reference\"><a href=\"#cite_note-tenCate-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-weber&#95;13-0\" class=\"reference\"><a href=\"#cite_note-weber-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> as well as its original intended field of use, <a href=\"/wiki/Natural_language_processing\" title=\"Natural language processing\">natural language processing</a>.<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-lally&#95;11-1\" class=\"reference\"><a href=\"#cite_note-lally-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Prolog is a <a href=\"/wiki/Turing_completeness\" title=\"Turing completeness\">Turing-complete</a>, general-purpose programming language, which is well-suited for intelligent knowledge-processing applications.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-Clocksin2003-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Clocksin2003_1-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFClocksinMellish2003\" class=\"citation book cs1\">Clocksin, William F.; Mellish, Christopher S. (2003). <i>Programming in Prolog</i>. Berlin; New York: Springer-Verlag. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-540-00678-7\" title=\"Special:BookSources/978-3-540-00678-7\"><bdi>978-3-540-00678-7</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Programming+in+Prolog&amp;rft.place=Berlin%3B+New+York&amp;rft.pub=Springer-Verlag&amp;rft.date=2003&amp;rft.isbn=978-3-540-00678-7&amp;rft.aulast=Clocksin&amp;rft.aufirst=William+F.&amp;rft.au=Mellish%2C+Christopher+S.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Bratko2012-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Bratko2012_2-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFBratko2012\" class=\"citation book cs1\">Bratko, Ivan (2012). <i>Prolog programming for artificial intelligence</i> (4th&#160;ed.). Harlow, England; New York: Addison Wesley. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-321-41746-6\" title=\"Special:BookSources/978-0-321-41746-6\"><bdi>978-0-321-41746-6</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Prolog+programming+for+artificial+intelligence&amp;rft.place=Harlow%2C+England%3B+New+York&amp;rft.edition=4th&amp;rft.pub=Addison+Wesley&amp;rft.date=2012&amp;rft.isbn=978-0-321-41746-6&amp;rft.aulast=Bratko&amp;rft.aufirst=Ivan&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Covington1994-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Covington1994_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFCovington1994\" class=\"citation book cs1\">Covington, Michael A. (1994). <i>Natural language processing for Prolog programmers</i>. Englewood Cliffs, N.J.: Prentice Hall. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-13-629213-5\" title=\"Special:BookSources/978-0-13-629213-5\"><bdi>978-0-13-629213-5</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Natural+language+processing+for+Prolog+programmers&amp;rft.place=Englewood+Cliffs%2C+N.J.&amp;rft.pub=Prentice+Hall&amp;rft.date=1994&amp;rft.isbn=978-0-13-629213-5&amp;rft.aulast=Covington&amp;rft.aufirst=Michael+A.&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-lloyd84-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-lloyd84_4-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>lloyd84</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\">See <a href=\"/wiki/Logic_programming#History\" title=\"Logic programming\">Logic programming §&#160;History</a>.</span>\n</li>\n<li id=\"cite&#95;note-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-6\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStickel1988\" class=\"citation journal cs1\">Stickel, M. E. (1988). <span class=\"id-lock-limited\" title=\"Free access subject to limited trial, subscription normally required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/sim_journal-of-automated-reasoning_1988-12_4_4/page/353\">\"A prolog technology theorem prover: Implementation by an extended prolog compiler\"</a></span>. <i><a href=\"/wiki/Journal_of_Automated_Reasoning\" title=\"Journal of Automated Reasoning\">Journal of Automated Reasoning</a></i>. <b>4</b> (4): <span class=\"nowrap\">353–</span>380. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\" title=\"Doi (identifier)\">doi</a>:<a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.1007%2FBF00297245\">10.1007/BF00297245</a>. <a href=\"/wiki/S2CID_(identifier)\" class=\"mw-redirect\" title=\"S2CID (identifier)\">S2CID</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://api.semanticscholar.org/CorpusID:14621218\">14621218</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Automated+Reasoning&amp;rft.atitle=A+prolog+technology+theorem+prover%3A+Implementation+by+an+extended+prolog+compiler&amp;rft.volume=4&amp;rft.issue=4&amp;rft.pages=353-380&amp;rft.date=1988&amp;rft&#95;id=info%3Adoi%2F10.1007%2FBF00297245&amp;rft&#95;id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A14621218%23id-name%3DS2CID&amp;rft.aulast=Stickel&amp;rft.aufirst=M.+E.&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fsim&#95;journal-of-automated-reasoning&#95;1988-12&#95;4&#95;4%2Fpage%2F353&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMerritt,&#95;Dennis1989\" class=\"citation book cs1\">Merritt, Dennis (1989). <span class=\"id-lock-registration\" title=\"Free registration required\"><a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/buildingexpertsy0000merr\"><i>Building expert systems in Prolog</i></a></span>. Berlin: Springer-Verlag. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-387-97016-5\" title=\"Special:BookSources/978-0-387-97016-5\"><bdi>978-0-387-97016-5</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Building+expert+systems+in+Prolog&amp;rft.place=Berlin&amp;rft.pub=Springer-Verlag&amp;rft.date=1989&amp;rft.isbn=978-0-387-97016-5&amp;rft.au=Merritt%2C+Dennis&amp;rft&#95;id=https%3A%2F%2Farchive.org%2Fdetails%2Fbuildingexpertsy0000merr&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-8\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-8\">^</a></b></span> <span class=\"reference-text\">Felty, Amy. \"A logic programming approach to implementing higher-order term rewriting.\" Extensions of Logic Programming (1992): 135-161.</span>\n</li>\n<li id=\"cite&#95;note-Lee2015-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Lee2015_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKent&#95;D.&#95;Lee2015\" class=\"citation book cs1\">Kent D. Lee (19 January 2015). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=dERFBgAAQBAJ&amp;q=prolog+type+inference&amp;pg=PA298\"><i>Foundations of Programming Languages</i></a>. Springer. pp.&#160;298–. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-319-13314-0\" title=\"Special:BookSources/978-3-319-13314-0\"><bdi>978-3-319-13314-0</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Foundations+of+Programming+Languages&amp;rft.pages=298-&amp;rft.pub=Springer&amp;rft.date=2015-01-19&amp;rft.isbn=978-3-319-13314-0&amp;rft.au=Kent+D.+Lee&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DdERFBgAAQBAJ%26q%3Dprolog%2Btype%2Binference%26pg%3DPA298&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Schmid2003-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Schmid2003_10-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFUte&#95;Schmid2003\" class=\"citation book cs1\"><a href=\"/wiki/Ute_Schmid\" title=\"Ute Schmid\">Ute Schmid</a> (21 August 2003). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=p-Fy25LE4lMC\"><i>Inductive Synthesis of Functional Programs: Universal Planning, Folding of Finite Programs, and Schema Abstraction by Analogical Reasoning</i></a>. Springer Science &amp; Business Media. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-3-540-40174-2\" title=\"Special:BookSources/978-3-540-40174-2\"><bdi>978-3-540-40174-2</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Inductive+Synthesis+of+Functional+Programs%3A+Universal+Planning%2C+Folding+of+Finite+Programs%2C+and+Schema+Abstraction+by+Analogical+Reasoning&amp;rft.pub=Springer+Science+%26+Business+Media&amp;rft.date=2003-08-21&amp;rft.isbn=978-3-540-40174-2&amp;rft.au=Ute+Schmid&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dp-Fy25LE4lMC&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-lally-11\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-lally_11-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-lally_11-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFAdam&#95;LallyPaul&#95;Fodor2011\" class=\"citation web cs1\">Adam Lally; Paul Fodor (31 March 2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140903064037/http://www.cs.nmsu.edu/ALP/2011/03/natural-language-processing-with-prolog-in-the-ibm-watson-system/\">\"Natural Language Processing With Prolog in the IBM Watson System\"</a>. Association for Logic Programming. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cs.nmsu.edu/ALP/2011/03/natural-language-processing-with-prolog-in-the-ibm-watson-system/\">the original</a> on 3 September 2014<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">13 June</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Natural+Language+Processing+With+Prolog+in+the+IBM+Watson+System&amp;rft.pub=Association+for+Logic+Programming&amp;rft.date=2011-03-31&amp;rft.au=Adam+Lally&amp;rft.au=Paul+Fodor&amp;rft&#95;id=http%3A%2F%2Fwww.cs.nmsu.edu%2FALP%2F2011%2F03%2Fnatural-language-processing-with-prolog-in-the-ibm-watson-system%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span> See also <a href=\"/wiki/Watson_(computer)\" class=\"mw-redirect\" title=\"Watson (computer)\">Watson (computer)</a>.</span>\n</li>\n<li id=\"cite&#95;note-tenCate-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-tenCate_12-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://ui.adsabs.harvard.edu/abs/2002cs........9009T/abstract\">\"Question answering: from partitions to Prolog\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Question+answering%3A+from+partitions+to+Prolog&amp;rft&#95;id=https%3A%2F%2Fui.adsabs.harvard.edu%2Fabs%2F2002cs........9009T%2Fabstract&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-weber-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-weber_13-0\">^</a></b></span> <span class=\"reference-text\">\n<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://aclanthology.org/P19-1618.pdf\">\"NLProlog: Reasoning with Weak Unification for Question Answering in Natural Language\"</a> <span class=\"cs1-format\">(PDF)</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NLProlog%3A+Reasoning+with+Weak+Unification+for+Question+Answering+in+Natural+Language&amp;rft&#95;id=https%3A%2F%2Faclanthology.org%2FP19-1618.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFernando&#95;C.&#95;N.&#95;PereiraStuart&#95;M.&#95;Shieber2005\" class=\"citation book cs1\"><a href=\"/wiki/Fernando_Pereira\" title=\"Fernando Pereira\">Fernando C. N. Pereira</a>; Stuart M. Shieber (2005). <a rel=\"nofollow\" class=\"external text\" href=\"http://mtome.com/Publications/PNLA/pnla.html\"><i>Prolog and Natural Language Analysis</i></a>. Microtome.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Prolog+and+Natural+Language+Analysis&amp;rft.pub=Microtome&amp;rft.date=2005&amp;rft.au=Fernando+C.+N.+Pereira&amp;rft.au=Stuart+M.+Shieber&amp;rft&#95;id=http%3A%2F%2Fmtome.com%2FPublications%2FPNLA%2Fpnla.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AProlog\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐zjzcw\nCached time: 20260918164243\nCache expiry: 1063051\nCache expiry source: Template:Years_or_months_ago (currentmonth)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.442 seconds\nReal time usage: 0.552 seconds\nPreprocessor visited node count: 2124/1000000\nRevision size: 6375/2097152 bytes\nPost‐expand include size: 44715/2097152 bytes\nTemplate argument size: 7832/2097152 bytes\nHighest expansion depth: 22/100\nExpensive parser function count: 5/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 33070/5000000 bytes\nLua time usage: 0.271/10.000 seconds\nLua memory usage: 6753223/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  518.284      1 -total\n 35.87%  185.901      2 Template:Infobox\n 30.23%  156.684      1 Template:Infobox_programming_language\n 22.49%  116.565      7 Template:Cite_book\n 21.21%  109.921      1 Template:Short_description\n 14.13%   73.254      2 Template:Pagetype\n 11.23%   58.228      1 Template:Infobox_software/simple\n  6.06%   31.419      4 Template:Start_date_and_age\n  5.91%   30.645      2 Template:Broken_ref\n  5.69%   29.499      1 Template:About\n-->\n\n<!-- Render ID f81c0d12-b37f-11f1-89dd-6d364c2e07c6 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Prologue",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Prologue (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Alain Colmerauer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Artificial intelligence",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automated planning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Automated theorem proving",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "B-Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ciao (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Computational linguistics",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Constraint Handling Rules",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Datalog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Declarative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Doi (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ECLiPSe",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erlang (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Expert system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Fernando Pereira",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Finitary relation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "First-order logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Formal logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GNU Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Horn clause",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Journal of Automated Reasoning",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KL0",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "KL1",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic Programming Associates",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logtalk",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mercury (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Natural language processing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Oz (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Planner (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Poplog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Question answering",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quintus Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "S2CID (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SWI-Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strand (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Term rewriting",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Turing completeness",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ute Schmid",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Prolog",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Watson (computer)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "XSB",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "YAP (Prolog)",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Programming language that uses first order logic",
+          "wikibase_item": "Q163468"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "PHP",
+    "url": "https://en.wikipedia.org/wiki/PHP",
+    "summary": "Scripting language created in 1994 This article is about the scripting language. For other uses, see PHP (disambiguation) . PHP Paradigm Multi-paradigm : imperative , functional , object-oriented , procedural , reflective Designed by Rasmus Lerdorf Developer The PHP Development Team , Zend Technologies , PHP Foundation First appeared 8 June 1995 ; 31 years ago ( 1995-06-08 ) Stable release 8.5.10 / 28 August 2026 ; 21 days ago ( 28 August 2026 ) Typing discipline Dynamic , weak , gradual Implementation language C (primarily; some components in C++ ) OS Unix-like , Windows , macOS , IBM i , OpenVMS , IBM Z License Modified BSD License Filename extensions .php , .phar , .phtml , .pht , .phps , .phpt Website www .php .net Major implementations Zend Engine , HHVM , PeachPie , Quercus , Parrot Influenced by Perl , C , C++ , C# , Java , Kotlin , Tcl , JavaScript , Rust , Swift Influenced Hack , JSP , ASP , React JS PHP Programming at Wikibooks PHP is a general-purpose scripting language geared towards web development . It was created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group. PHP was originally an abbreviation of Personal Home Page , but it now stands for the recursive backronym PHP: Hypertext Preprocessor . PHP code is usually processed on a web server by a PHP interpreter implemented as a module , a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated HTML or binary image data—can form the whole or part of an HTTP response. Various web template systems , web content management systems , and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response. PHP can be used for programming tasks outside the web context, though non-web uses are rare. PHP code can also be directly executed from the command line . The standard PHP interpreter, powered by the Zend Engine , is free software released under the PHP License . PHP has been widely ported and can be deployed on most web servers on a variety of operating systems and platforms. ^ Cite error: The named reference Lerdorf-1995 was invoked but never defined (see the help page ). ^ a b Lerdorf, Rasmus (26 April 2007). \"PHP on Hormones – history of PHP presentation by Rasmus Lerdorf given at the MySQL Conference in Santa Clara, California\" . The Conversations Network. Archived from the original on 29 July 2013. ^ \"Release 8.5.10\" . 28 August 2026 . Retrieved 1 September 2026 . ^ \"PHP: Function arguments – Manual\" . ^ a b c Eberlei, Benjamin; Schröder, Martin (2020-03-09). \"PHP RFC: Attributes v2\" . wiki.php.net . Retrieved 2026-05-11 . ^ a b c Garfield, Larry; Tovilo, Ilija (2020-11-11). \"PHP RFC: Pattern Matching\" . wiki.php.net . Retrieved 2026-05-11 . ^ \"PHP: Preface – Manual\" . ^ a b c Garfield, Larry; Tovilo, Ilija (2020-12-04). \"PHP RFC: Enumerations\" . wiki.php.net . Retrieved 2026-05-11 . ^ Stogov, Dmitry [@dstogov] (4 December 2015). \"It's not a secret that some #PHP7 optimization ideas came from HHVM, LuaJIT and V8. Thank you @HipHopVM @SaraMG. #php7thankyou\" ( Tweet ) – via Twitter . ^ Tovilo, Ilija (2020-05-22). \"PHP RFC: Match expression v2\" . wiki.php.net . Retrieved 2020-11-29 . ^ \"PHP: Hypertext Preprocessor\" . Retrieved 12 February 2020 . ^ Krill, Paul (18 November 2013). \"Believe the hype: PHP founder backs Facebook's HipHop technology\" . InfoWorld . Retrieved 13 October 2022 . ^ \"Announce: Personal Home Page Tools (PHP Tools)\" . Retrieved 3 November 2022 . ^ \"History of PHP and related projects\" . The PHP Group . Retrieved 25 February 2008 . ^ Jon Duckett; Emme Stone; Chris Ullman (2022). PHP & MySQL: server-side web development . Hoboken, New Jersey : John Wiley & Sons, Inc. ISBN 978-1-119-14921-7 . LCCN 2021951353 . Archived from the original on 30 April 2025 . Retrieved 28 April 2026 .",
+    "text": "Scripting language created in 1994 This article is about the scripting language. For other uses, see PHP (disambiguation) . PHP Paradigm Multi-paradigm : imperative , functional , object-oriented , procedural , reflective Designed by Rasmus Lerdorf Developer The PHP Development Team , Zend Technologies , PHP Foundation First appeared 8 June 1995 ; 31 years ago ( 1995-06-08 ) Stable release 8.5.10 / 28 August 2026 ; 21 days ago ( 28 August 2026 ) Typing discipline Dynamic , weak , gradual Implementation language C (primarily; some components in C++ ) OS Unix-like , Windows , macOS , IBM i , OpenVMS , IBM Z License Modified BSD License Filename extensions .php , .phar , .phtml , .pht , .phps , .phpt Website www .php .net Major implementations Zend Engine , HHVM , PeachPie , Quercus , Parrot Influenced by Perl , C , C++ , C# , Java , Kotlin , Tcl , JavaScript , Rust , Swift Influenced Hack , JSP , ASP , React JS PHP Programming at Wikibooks PHP is a general-purpose scripting language geared towards web development . It was created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group. PHP was originally an abbreviation of Personal Home Page , but it now stands for the recursive backronym PHP: Hypertext Preprocessor . PHP code is usually processed on a web server by a PHP interpreter implemented as a module , a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated HTML or binary image data—can form the whole or part of an HTTP response. Various web template systems , web content management systems , and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response. PHP can be used for programming tasks outside the web context, though non-web uses are rare. PHP code can also be directly executed from the command line . The standard PHP interpreter, powered by the Zend Engine , is free software released under the PHP License . PHP has been widely ported and can be deployed on most web servers on a variety of operating systems and platforms. ^ Cite error: The named reference Lerdorf-1995 was invoked but never defined (see the help page ). ^ a b Lerdorf, Rasmus (26 April 2007). \"PHP on Hormones – history of PHP presentation by Rasmus Lerdorf given at the MySQL Conference in Santa Clara, California\" . The Conversations Network. Archived from the original on 29 July 2013. ^ \"Release 8.5.10\" . 28 August 2026 . Retrieved 1 September 2026 . ^ \"PHP: Function arguments – Manual\" . ^ a b c Eberlei, Benjamin; Schröder, Martin (2020-03-09). \"PHP RFC: Attributes v2\" . wiki.php.net . Retrieved 2026-05-11 . ^ a b c Garfield, Larry; Tovilo, Ilija (2020-11-11). \"PHP RFC: Pattern Matching\" . wiki.php.net . Retrieved 2026-05-11 . ^ \"PHP: Preface – Manual\" . ^ a b c Garfield, Larry; Tovilo, Ilija (2020-12-04). \"PHP RFC: Enumerations\" . wiki.php.net . Retrieved 2026-05-11 . ^ Stogov, Dmitry [@dstogov] (4 December 2015). \"It's not a secret that some #PHP7 optimization ideas came from HHVM, LuaJIT and V8. Thank you @HipHopVM @SaraMG. #php7thankyou\" ( Tweet ) – via Twitter . ^ Tovilo, Ilija (2020-05-22). \"PHP RFC: Match expression v2\" . wiki.php.net . Retrieved 2020-11-29 . ^ \"PHP: Hypertext Preprocessor\" . Retrieved 12 February 2020 . ^ Krill, Paul (18 November 2013). \"Believe the hype: PHP founder backs Facebook's HipHop technology\" . InfoWorld . Retrieved 13 October 2022 . ^ \"Announce: Personal Home Page Tools (PHP Tools)\" . Retrieved 3 November 2022 . ^ \"History of PHP and related projects\" . The PHP Group . Retrieved 25 February 2008 . ^ Jon Duckett; Emme Stone; Chris Ullman (2022). PHP & MySQL: server-side web development . Hoboken, New Jersey : John Wiley & Sons, Inc. ISBN 978-1-119-14921-7 . LCCN 2021951353 . Archived from the original on 30 April 2025 . Retrieved 28 April 2026 .",
+    "links": [
+      "Active Server Pages",
+      "Backronym",
+      "Binary number",
+      "C (programming language)",
+      "C Sharp (programming language)",
+      "C++",
+      "Command line",
+      "Common Gateway Interface",
+      "Content management system",
+      "Daemon (computing)",
+      "Danish-Canadian",
+      "Dynamic typing",
+      "Filename extension",
+      "Free software",
+      "Functional programming",
+      "General-purpose programming language",
+      "Gradual typing",
+      "HHVM",
+      "HTML",
+      "HTTP",
+      "Hack (programming language)",
+      "Hoboken, New Jersey",
+      "IBM Z",
+      "IBM i",
+      "ISBN (identifier)",
+      "Imperative programming",
+      "Interpreter (computing)",
+      "Jakarta Server Pages",
+      "Java (programming language)",
+      "JavaScript",
+      "Kotlin",
+      "LCCN (identifier)",
+      "MacOS",
+      "Modified BSD License",
+      "Multi-paradigm",
+      "Object-oriented programming",
+      "OpenVMS",
+      "Operating system",
+      "PHP (disambiguation)",
+      "PHP License",
+      "Parrot virtual machine",
+      "PeachPie",
+      "Perl",
+      "Plug-in (computing)",
+      "Procedural programming",
+      "Programmer",
+      "Programming language implementation",
+      "Programming paradigm",
+      "Quercus (software)",
+      "Rasmus Lerdorf",
+      "React JS",
+      "Recursive acronym",
+      "Reference implementation",
+      "Reflective programming",
+      "Rust (programming language)",
+      "Scripting language",
+      "Software design",
+      "Software developer",
+      "Software license",
+      "Software release life cycle",
+      "Strong and weak typing",
+      "Swift (programming language)",
+      "Tcl (programming language)",
+      "Tweet (social media)",
+      "Twitter",
+      "Type system",
+      "Unix-like",
+      "Web development",
+      "Web framework",
+      "Web server",
+      "Web template system",
+      "Windows",
+      "Zend Engine",
+      "Zend Technologies"
+    ],
+    "page_id": 24131,
+    "revision_id": 1374596342,
+    "retrieved_at": "2026-09-18T16:42:12.279684+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260906045531|1373479720",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 24131,
+            "ns": 0,
+            "title": "PHP",
+            "revisions": [
+              {
+                "revid": 1374596342,
+                "parentid": 1373479720
+              }
+            ],
+            "pageprops": {
+              "page_image_free": "PHP-logo.svg",
+              "wikibase-shortdesc": "Scripting language created in 1994",
+              "wikibase_item": "Q59"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "PHP",
+        "pageid": 24131,
+        "revid": 1374596342,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Scripting language created in 1994</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">This article is about the scripting language. For other uses, see <a href=\"/wiki/PHP_(disambiguation)\" class=\"mw-disambig\" title=\"PHP (disambiguation)\">PHP (disambiguation)</a>.</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1374427404\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">PHP</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:PHP-logo.svg\" class=\"mw-file-description\"><img src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/250px-PHP-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"200\" height=\"108\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/500px-PHP-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"711\" data-file-height=\"384\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Multi-paradigm\" class=\"mw-redirect\" title=\"Multi-paradigm\">Multi-paradigm</a>: <a href=\"/wiki/Imperative_programming\" title=\"Imperative programming\">imperative</a>, <a href=\"/wiki/Functional_programming\" title=\"Functional programming\">functional</a>, <a href=\"/wiki/Object-oriented_programming\" title=\"Object-oriented programming\">object-oriented</a>, <a href=\"/wiki/Procedural_programming\" title=\"Procedural programming\">procedural</a>, <a href=\"/wiki/Reflective_programming\" title=\"Reflective programming\">reflective</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Rasmus_Lerdorf\" title=\"Rasmus Lerdorf\">Rasmus Lerdorf</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_developer\" class=\"mw-redirect\" title=\"Software developer\">Developer</a></th><td class=\"infobox-data organiser\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://php.net/credits/\">The PHP Development Team</a></span>, <a href=\"/wiki/Zend_Technologies\" class=\"mw-redirect\" title=\"Zend Technologies\">Zend Technologies</a>, <span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://thephp.foundation/\">PHP Foundation</a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">8&#160;June 1995<span class=\"noprint\">&#59;&#32;31 years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1995-06-08</span>)</span><sup id=\"cite&#95;ref-Lerdorf-1995&#95;1-0\" class=\"reference\"><a href=\"#cite_note-Lerdorf-1995-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-Lerdorf-2007&#95;2-0\" class=\"reference\"><a href=\"#cite_note-Lerdorf-2007-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">8.5.10<sup id=\"cite&#95;ref-wikidata-73a7d27994e55613af133a5d36dbad5044bfb1bf-v20&#95;3-0\" class=\"reference\"><a href=\"#cite_note-wikidata-73a7d27994e55613af133a5d36dbad5044bfb1bf-v20-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup>&#160;<span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q59?uselang=en#P348\" title=\"Edit this on Wikidata\"><img alt=\"Edit this on Wikidata\" src=\"//thumb.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\" /></a></span>\n   / 28 August 2026<span class=\"noprint\">&#59;&#32;21 days ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">28 August 2026</span>)</span></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Dynamic_typing\" class=\"mw-redirect\" title=\"Dynamic typing\">Dynamic</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">weak</a>, <a href=\"/wiki/Gradual_typing\" title=\"Gradual typing\">gradual</a><sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Implementation language</th><td class=\"infobox-data\"><a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a> (primarily; some components in <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>)</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unix-like\" title=\"Unix-like\">Unix-like</a>, <a href=\"/wiki/Windows\" class=\"mw-redirect\" title=\"Windows\">Windows</a>, <a href=\"/wiki/MacOS\" title=\"MacOS\">macOS</a>, <a href=\"/wiki/IBM_i\" title=\"IBM i\">IBM i</a>, <a href=\"/wiki/OpenVMS\" title=\"OpenVMS\">OpenVMS</a>, <a href=\"/wiki/IBM_Z\" title=\"IBM Z\">IBM Z</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_license\" title=\"Software license\">License</a></th><td class=\"infobox-data\"><a href=\"/wiki/Modified_BSD_License\" class=\"mw-redirect\" title=\"Modified BSD License\">Modified BSD License</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\"><code>.php</code>,<code>.phar</code>,<code>.phtml</code>,<code>.pht</code>,<code>.phps</code>,<code>.phpt</code></td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.php.net\">www<wbr />.php<wbr />.net</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Zend_Engine\" title=\"Zend Engine\">Zend Engine</a>, <a href=\"/wiki/HHVM\" title=\"HHVM\">HHVM</a>, <a href=\"/wiki/PeachPie\" title=\"PeachPie\">PeachPie</a>, <a href=\"/wiki/Quercus_(software)\" class=\"mw-redirect\" title=\"Quercus (software)\">Quercus</a>, <a href=\"/wiki/Parrot_virtual_machine\" title=\"Parrot virtual machine\">Parrot</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Perl\" title=\"Perl\">Perl</a>, <a href=\"/wiki/C_(programming_language)\" title=\"C (programming language)\">C</a>, <a href=\"/wiki/C%2B%2B\" title=\"C++\">C++</a>,<sup id=\"cite&#95;ref-attributes-rfc&#95;5-0\" class=\"reference\"><a href=\"#cite_note-attributes-rfc-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>,<sup id=\"cite&#95;ref-attributes-rfc&#95;5-1\" class=\"reference\"><a href=\"#cite_note-attributes-rfc-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-pattern-matching&#95;6-0\" class=\"reference\"><a href=\"#cite_note-pattern-matching-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Kotlin\" title=\"Kotlin\">Kotlin</a>,<sup id=\"cite&#95;ref-enumerations-rfc&#95;8-0\" class=\"reference\"><a href=\"#cite_note-enumerations-rfc-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Tcl_(programming_language)\" title=\"Tcl (programming language)\">Tcl</a>,<sup id=\"cite&#95;ref-Lerdorf-2007&#95;2-1\" class=\"reference\"><a href=\"#cite_note-Lerdorf-2007-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/JavaScript\" title=\"JavaScript\">JavaScript</a>,<sup id=\"cite&#95;ref-Stogov-2015&#95;9-0\" class=\"reference\"><a href=\"#cite_note-Stogov-2015-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-attributes-rfc&#95;5-2\" class=\"reference\"><a href=\"#cite_note-attributes-rfc-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-enumerations-rfc&#95;8-1\" class=\"reference\"><a href=\"#cite_note-enumerations-rfc-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-pattern-matching&#95;6-1\" class=\"reference\"><a href=\"#cite_note-pattern-matching-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a><sup id=\"cite&#95;ref-enumerations-rfc&#95;8-2\" class=\"reference\"><a href=\"#cite_note-enumerations-rfc-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-pattern-matching&#95;6-2\" class=\"reference\"><a href=\"#cite_note-pattern-matching-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Hack_(programming_language)\" title=\"Hack (programming language)\">Hack</a>, <a href=\"/wiki/Jakarta_Server_Pages\" title=\"Jakarta Server Pages\">JSP</a>, <a href=\"/wiki/Active_Server_Pages\" title=\"Active Server Pages\">ASP</a>, <a href=\"/wiki/React_JS\" class=\"mw-redirect\" title=\"React JS\">React JS</a></td></tr><tr><td colspan=\"2\" class=\"infobox-below hlist\" style=\"border-top: 1px solid #aaa; padding-top: 3px;\">\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r1316373843\">@media screen{html.skin-theme-clientpref-night .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sister-inline-image img[src*=\"Wiktionary-logo-en-v2.svg\"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><span class=\"noviewer sister-inline-image\" typeof=\"mw:File\"><a href=\"/wiki/File:Wikibooks-logo.svg\" class=\"mw-file-description\"><img alt=\"Wikibooks logo\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/20px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"16\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"300\" data-file-height=\"300\" /></a></span> <a href=\"https://en.wikibooks.org/wiki/PHP_Programming\" class=\"extiw\" title=\"wikibooks:PHP Programming\">PHP Programming</a> at Wikibooks</li></ul>\n</td></tr></tbody></table>\n<p><b>PHP</b> is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a> <a href=\"/wiki/Scripting_language\" title=\"Scripting language\">scripting language</a> geared towards <a href=\"/wiki/Web_development\" title=\"Web development\">web development</a>.<sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> It was created by <a href=\"/wiki/Danish-Canadian\" class=\"mw-redirect\" title=\"Danish-Canadian\">Danish-Canadian</a> <a href=\"/wiki/Programmer\" title=\"Programmer\">programmer</a> <a href=\"/wiki/Rasmus_Lerdorf\" title=\"Rasmus Lerdorf\">Rasmus Lerdorf</a> in 1993 and released in 1995.<sup id=\"cite&#95;ref-Krill-2013&#95;12-0\" class=\"reference\"><a href=\"#cite_note-Krill-2013-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> The PHP <a href=\"/wiki/Reference_implementation\" title=\"Reference implementation\">reference implementation</a> is now produced by the PHP Group.<sup id=\"cite&#95;ref-The&#95;PHP&#95;Group&#95;14-0\" class=\"reference\"><a href=\"#cite_note-The_PHP_Group-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> PHP was originally an abbreviation of <i><b>Personal Home Page</b></i>, but it now stands for the <a href=\"/wiki/Recursive_acronym\" title=\"Recursive acronym\">recursive</a> <a href=\"/wiki/Backronym\" title=\"Backronym\">backronym</a> <i><b>PHP: Hypertext Preprocessor</b></i>.<sup id=\"cite&#95;ref-phpandmysqlbook&#95;15-0\" class=\"reference\"><a href=\"#cite_note-phpandmysqlbook-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup><sup class=\"reference nowrap\"><span title=\"Page: 14\">&#58;&#8202;14&#8202;</span></sup>\n</p><p>PHP code is usually processed on a <a href=\"/wiki/Web_server\" title=\"Web server\">web server</a> by a PHP <a href=\"/wiki/Interpreter_(computing)\" title=\"Interpreter (computing)\">interpreter</a> implemented as a <a href=\"/wiki/Plug-in_(computing)\" title=\"Plug-in (computing)\">module</a>, a <a href=\"/wiki/Daemon_(computing)\" title=\"Daemon (computing)\">daemon</a> or a <a href=\"/wiki/Common_Gateway_Interface\" title=\"Common Gateway Interface\">Common Gateway Interface</a> (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated <a href=\"/wiki/HTML\" title=\"HTML\">HTML</a> or <a href=\"/wiki/Binary_number\" title=\"Binary number\">binary</a> image data—can form the whole or part of an <a href=\"/wiki/HTTP\" title=\"HTTP\">HTTP</a> response. Various <a href=\"/wiki/Web_template_system\" title=\"Web template system\">web template systems</a>, web <a href=\"/wiki/Content_management_system\" title=\"Content management system\">content management systems</a>, and <a href=\"/wiki/Web_framework\" title=\"Web framework\">web frameworks</a> exist that can be employed to orchestrate or facilitate the generation of that response. PHP can be used for programming tasks outside the web context, though non-web uses are rare. PHP code can also be directly executed from the <a href=\"/wiki/Command_line\" class=\"mw-redirect\" title=\"Command line\">command line</a>.\n</p><p>The standard PHP interpreter, powered by the <a href=\"/wiki/Zend_Engine\" title=\"Zend Engine\">Zend Engine</a>, is <a href=\"/wiki/Free_software\" title=\"Free software\">free software</a> released under the <a href=\"/wiki/PHP_License\" title=\"PHP License\">PHP License</a>. PHP has been widely ported and can be deployed on most web servers on a variety of <a href=\"/wiki/Operating_system\" title=\"Operating system\">operating systems</a> and platforms.\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-Lerdorf-1995-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Lerdorf-1995_1-0\">^</a></b></span> <span class=\"reference-text\"> <span class=\"error mw-ext-cite-error\" lang=\"en\" dir=\"ltr\">Cite error: The named reference <code>Lerdorf-1995</code> was invoked but never defined (see the <a href=\"/wiki/Help:Cite_errors/Cite_error_references_no_text\" title=\"Help:Cite errors/Cite error references no text\">help page</a>).</span></span>\n</li>\n<li id=\"cite&#95;note-Lerdorf-2007-2\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-Lerdorf-2007_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-Lerdorf-2007_2-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFLerdorf2007\" class=\"citation web cs1\">Lerdorf, Rasmus (26 April 2007). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20130729204354/http://itc.conversationsnetwork.org/shows/detail3298.html\">\"PHP on Hormones&#160;– history of PHP presentation by Rasmus Lerdorf given at the MySQL Conference in Santa Clara, California\"</a>. The Conversations Network. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://itc.conversationsnetwork.org/shows/detail3298.html\">the original</a> on 29 July 2013.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PHP+on+Hormones+%E2%80%93+history+of+PHP+presentation+by+Rasmus+Lerdorf+given+at+the+MySQL+Conference+in+Santa+Clara%2C+California&amp;rft.pub=The+Conversations+Network&amp;rft.date=2007-04-26&amp;rft.aulast=Lerdorf&amp;rft.aufirst=Rasmus&amp;rft&#95;id=http%3A%2F%2Fitc.conversationsnetwork.org%2Fshows%2Fdetail3298.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-wikidata-73a7d27994e55613af133a5d36dbad5044bfb1bf-v20-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-wikidata-73a7d27994e55613af133a5d36dbad5044bfb1bf-v20_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/php/php-src/releases/tag/php-8.5.10\">\"Release 8.5.10\"</a>. 28 August 2026<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">1 September</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Release+8.5.10&amp;rft.date=2026-08-28&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Fphp%2Fphp-src%2Freleases%2Ftag%2Fphp-8.5.10&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-4\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://secure.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict\">\"PHP: Function arguments – Manual\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PHP%3A+Function+arguments+%E2%80%93+Manual&amp;rft&#95;id=https%3A%2F%2Fsecure.php.net%2Fmanual%2Fen%2Ffunctions.arguments.php%23functions.arguments.type-declaration.strict&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-attributes-rfc-5\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-attributes-rfc_5-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-attributes-rfc_5-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-attributes-rfc_5-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFEberleiSchröder2020\" class=\"citation web cs1\">Eberlei, Benjamin; Schröder, Martin (2020-03-09). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/attributes_v2\">\"PHP RFC: Attributes v2\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-05-11</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Attributes+v2&amp;rft.date=2020-03-09&amp;rft.aulast=Eberlei&amp;rft.aufirst=Benjamin&amp;rft.au=Schr%C3%B6der%2C+Martin&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fattributes&#95;v2&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-pattern-matching-6\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-pattern-matching_6-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-pattern-matching_6-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-pattern-matching_6-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGarfieldTovilo2020\" class=\"citation web cs1\">Garfield, Larry; Tovilo, Ilija (2020-11-11). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/pattern-matching\">\"PHP RFC: Pattern Matching\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-05-11</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Pattern+Matching&amp;rft.date=2020-11-11&amp;rft.aulast=Garfield&amp;rft.aufirst=Larry&amp;rft.au=Tovilo%2C+Ilija&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fpattern-matching&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.php.net/manual/en/preface.php\">\"PHP: Preface – Manual\"</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PHP%3A+Preface+%E2%80%93+Manual&amp;rft&#95;id=https%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Fpreface.php&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-enumerations-rfc-8\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-enumerations-rfc_8-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-enumerations-rfc_8-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-enumerations-rfc_8-2\"><sup><i><b>c</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFGarfieldTovilo2020\" class=\"citation web cs1\">Garfield, Larry; Tovilo, Ilija (2020-12-04). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/enumerations\">\"PHP RFC: Enumerations\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2026-05-11</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Enumerations&amp;rft.date=2020-12-04&amp;rft.aulast=Garfield&amp;rft.aufirst=Larry&amp;rft.au=Tovilo%2C+Ilija&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fenumerations&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Stogov-2015-9\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Stogov-2015_9-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStogov2015\" class=\"citation web cs1\">Stogov, Dmitry [@dstogov] (4 December 2015). <a rel=\"nofollow\" class=\"external text\" href=\"https://twitter.com/dstogov/status/672864802474229760\">\"It's not a secret that some #PHP7 optimization ideas came from HHVM, LuaJIT and V8. Thank you @HipHopVM @SaraMG. #php7thankyou\"</a> (<a href=\"/wiki/Tweet_(social_media)\" title=\"Tweet (social media)\">Tweet</a>) &#8211; via <a href=\"/wiki/Twitter\" class=\"mw-redirect\" title=\"Twitter\">Twitter</a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=It%27s+not+a+secret+that+some+%23PHP7+optimization+ideas+came+from+HHVM%2C+LuaJIT+and+V8.+Thank+you+%40HipHopVM+%40SaraMG.+%23php7thankyou&amp;rft.date=2015-12-04&amp;rft.aulast=Stogov&amp;rft.aufirst=Dmitry&amp;rft&#95;id=https%3A%2F%2Ftwitter.com%2Fdstogov%2Fstatus%2F672864802474229760&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFTovilo2020\" class=\"citation web cs1\">Tovilo, Ilija (2020-05-22). <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.php.net/rfc/match_expression_v2\">\"PHP RFC: Match expression v2\"</a>. <i>wiki.php.net</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-11-29</span></span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=wiki.php.net&amp;rft.atitle=PHP+&#82;FC%3A+Match+expression+v2&amp;rft.date=2020-05-22&amp;rft.aulast=Tovilo&amp;rft.aufirst=Ilija&amp;rft&#95;id=https%3A%2F%2Fwiki.php.net%2Frfc%2Fmatch&#95;expression&#95;v2&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.php.net/\">\"PHP: Hypertext Preprocessor\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 February</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PHP%3A+Hypertext+Preprocessor&amp;rft&#95;id=https%3A%2F%2Fwww.php.net%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-Krill-2013-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Krill-2013_12-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKrill2013\" class=\"citation web cs1\">Krill, Paul (18 November 2013). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoworld.com/article/2609877/believe-the-hype--php-founder-backs-facebook-s-hiphop-technology.html\">\"Believe the hype: PHP founder backs Facebook's HipHop technology\"</a>. <i>InfoWorld</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">13 October</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=InfoWorld&amp;rft.atitle=Believe+the+hype%3A+PHP+founder+backs+Facebook%27s+HipHop+technology&amp;rft.date=2013-11-18&amp;rft.aulast=Krill&amp;rft.aufirst=Paul&amp;rft&#95;id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F2609877%2Fbelieve-the-hype--php-founder-backs-facebook-s-hiphop-technology.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://groups.google.com/g/comp.infosystems.www.authoring.cgi/c/PyJ25gZ6z7A/m/M9FkTUVDfcwJ?pli=1\">\"Announce: Personal Home Page Tools (PHP Tools)\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 November</span> 2022</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Announce%3A+Personal+Home+Page+Tools+%28PHP+Tools%29&amp;rft&#95;id=https%3A%2F%2Fgroups.google.com%2Fg%2Fcomp.infosystems.www.authoring.cgi%2Fc%2FPyJ25gZ6z7A%2Fm%2FM9FkTUVDfcwJ%3Fpli%3D1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-The&#95;PHP&#95;Group-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-The_PHP_Group_14-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.php.net/history\">\"History of PHP and related projects\"</a>. The PHP Group<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">25 February</span> 2008</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=History+of+PHP+and+related+projects&amp;rft.pub=The+PHP+Group&amp;rft&#95;id=https%3A%2F%2Fwww.php.net%2Fhistory&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-phpandmysqlbook-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-phpandmysqlbook_15-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFJon&#95;DuckettEmme&#95;StoneChris&#95;Ullman2022\" class=\"citation book cs1\">Jon Duckett; Emme Stone; Chris Ullman (2022). <a rel=\"nofollow\" class=\"external text\" href=\"https://phpandmysql.com/buy/\"><i>PHP &amp; MySQL: server-side web development</i></a>. <a href=\"/wiki/Hoboken,_New_Jersey\" title=\"Hoboken, New Jersey\">Hoboken, New Jersey</a>: John Wiley &amp; Sons, Inc. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-1-119-14921-7\" title=\"Special:BookSources/978-1-119-14921-7\"><bdi>978-1-119-14921-7</bdi></a>. <a href=\"/wiki/LCCN_(identifier)\" class=\"mw-redirect\" title=\"LCCN (identifier)\">LCCN</a>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://lccn.loc.gov/2021951353\">2021951353</a>. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250430043459/https://phpandmysql.com/buy/\">Archived</a> from the original on 30 April 2025<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">28 April</span> 2026</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=PHP+%26+MySQL%3A+server-side+web+development&amp;rft.place=Hoboken%2C+New+Jersey&amp;rft.pub=John+Wiley+%26+Sons%2C+Inc.&amp;rft.date=2022&amp;rft&#95;id=info%3Alccn%2F2021951353&amp;rft.isbn=978-1-119-14921-7&amp;rft.au=Jon+Duckett&amp;rft.au=Emme+Stone&amp;rft.au=Chris+Ullman&amp;rft&#95;id=https%3A%2F%2Fphpandmysql.com%2Fbuy%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3APHP\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐62mwb\nCached time: 20260918164237\nCache expiry: 28800\nCache expiry source: Module:Time_ago (formatDate)\nReduced expiry: true\nComplications: [vary‐revision‐sha1, prevent‐selective‐update]\nCPU time usage: 0.758 seconds\nReal time usage: 0.913 seconds\nPreprocessor visited node count: 1952/1000000\nRevision size: 6877/2097152 bytes\nPost‐expand include size: 45136/2097152 bytes\nTemplate argument size: 5959/2097152 bytes\nHighest expansion depth: 21/100\nExpensive parser function count: 4/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 41227/5000000 bytes\nLua time usage: 0.563/10.000 seconds\nLua memory usage: 17261251/52428800 bytes\nNumber of Wikibase entities loaded: 1/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  862.417      1 -total\n 69.31%  597.719      2 Template:Infobox\n 61.29%  528.574      1 Template:Infobox_programming_language\n 47.08%  406.009      1 Template:Infobox_software/simple\n 42.54%  366.906      2 Template:Wikidata\n 13.76%  118.711      1 Template:Short_description\n  9.75%   84.064      2 Template:Pagetype\n  7.64%   65.846      2 Template:Start_date_and_age\n  6.09%   52.547     11 Template:Cite_web\n  4.20%   36.179      2 Template:Broken_ref\n-->\n\n<!-- Render ID f52116b1-b37f-11f1-9c24-b35ab61af60e -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "PHP (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Active Server Pages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Backronym",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Binary number",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Command line",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Common Gateway Interface",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Content management system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Daemon (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Danish-Canadian",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Dynamic typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Free software",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gradual typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HHVM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "HTTP",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hack (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hoboken, New Jersey",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM Z",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "IBM i",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Imperative programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Interpreter (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Jakarta Server Pages",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "JavaScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kotlin",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LCCN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "MacOS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Modified BSD License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Multi-paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Object-oriented programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "OpenVMS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PHP License",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Parrot virtual machine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PeachPie",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Perl",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Plug-in (computing)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Procedural programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programmer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Quercus (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rasmus Lerdorf",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "React JS",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Recursive acronym",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reference implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Reflective programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scripting language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software developer",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software license",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tcl (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Tweet (social media)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Twitter",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Unix-like",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web development",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web framework",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web server",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Web template system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Windows",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Engine",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Zend Technologies",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:Cite errors/Cite error references no text",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Scripting language created in 1994",
+          "page_image_free": "PHP-logo.svg",
+          "wikibase_item": "Q59"
+        }
+      }
+    }
+  ]
+}

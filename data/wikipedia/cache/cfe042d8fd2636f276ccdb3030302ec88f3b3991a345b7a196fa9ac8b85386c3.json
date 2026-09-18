@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "page": {
+    "title": "Haskell",
+    "url": "https://en.wikipedia.org/wiki/Haskell",
+    "summary": "Functional programming language For other uses, see Haskell (disambiguation) . Haskell Paradigm Purely functional Designed by Lennart Augustsson , Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak , John Hughes , Thomas Johnsson, Mark Jones, Simon Peyton Jones , John Launchbury , Erik Meijer , John Peterson, Alastair Reid, Colin Runciman, Philip Wadler First appeared 1990 ; 36 years ago ( 1990 ) Stable release Haskell 2010 / July 2010 ; 16 years ago ( 2010-07 ) Preview release Haskell 2020 announced Typing discipline Inferred , static , strong OS Cross-platform Filename extensions .hs, .lhs Website haskell .org Major implementations GHC , Hugs , NHC, JHC, Yhc , UHC Dialects Gofer Influenced by Clean , FP , Gofer , Hope and Hope + , Id , ISWIM , KRC , Lisp , Miranda , ML and Standard ML , Orwell , SASL , Scheme , SISAL Influenced Agda , Bluespec , C++11 / Concepts , C# / LINQ , CAL, [ citation needed ] Cayenne , Clean , Clojure , CoffeeScript , Curry , Elm , Epigram , [ citation needed ] Escher , F# , Hack , Idris , Isabelle , Java / Generics , LiveScript , Mercury , Ωmega , PureScript , Python , Raku , Rust , Scala , Swift , Visual Basic 9.0 Haskell ( / ˈ h æ s k əl / ) is a general-purpose , statically typed , purely functional programming language with type inference and lazy evaluation . Haskell pioneered several programming language features including type classes for type-safe operator overloading and monadic input/output (IO). It is named after logician Haskell Curry . Haskell's main implementation is the Glasgow Haskell Compiler (GHC). Haskell's semantics are historically based on those of the Miranda programming language, which served to focus the efforts of the initial Haskell working group. The last formal specification of the language was made in July 2010, while the development of GHC continues to expand Haskell via language extensions. Haskell is used in academia and industry. As of May 2021 [update] , Haskell was the 28th most popular programming language by Google searches for tutorials, and made up less than 1% of active users on the GitHub source code repository. ^ a b Hudak et al. 2007 . ^ Marlow, Simon (24 November 2009). \"Announcing Haskell 2010\" . Haskell (Mailing list) . Retrieved 12 March 2011 . ^ Riedel, Herbert (28 April 2016). \"ANN: Haskell Prime 2020 committee has formed\" . Haskell-prime (Mailing list) . Retrieved 6 May 2017 . ^ a b c d e f g h i j k l m Peyton Jones 2003 , p. xi ^ Norell, Ulf (2008). \"Dependently Typed Programming in Agda\" (PDF) . Gothenburg: Chalmers University . Retrieved 9 February 2012 . ^ Hudak et al. 2007 , pp. 12–38, 43. ^ Stroustrup, Bjarne ; Sutton, Andrew (2011). \"Design of Concept Libraries for C++\" (PDF) . Software Language Engineering . Archived from the original (PDF) on 10 February 2012. ^ a b c d e f g h i j Hudak et al. 2007 , pp. 12, 45, 46. ^ a b Meijer, Erik (2006). \"Confessions of a Used Programming Language Salesman: Getting the Masses Hooked on Haskell\". Oopsla 2007 . ^ Meijer, Erik (1 October 2009). \"C9 Lectures: Dr. Erik Meijer – Functional Programming Fundamentals, Chapter 1 of 13\" . Channel 9 . Microsoft. Archived from the original on 16 June 2012 . Retrieved 9 February 2012 . ^ Drobi, Sadek (4 March 2009). \"Erik Meijer on LINQ\" . InfoQ . QCon SF 2008: C4Media Inc . Retrieved 9 February 2012 . {{ cite news }} : CS1 maint: location ( link ) ^ Hickey, Rich. \"Clojure Bookshelf\" . Listmania! . Archived from the original on 3 October 2017 . Retrieved 3 October 2017 . ^ Heller, Martin (18 October 2011). \"Turn up your nose at Dart and smell the CoffeeScript\" . InfoWorld . Retrieved 15 July 2020 . ^ \"Declarative programming in Escher\" (PDF) . Retrieved 7 October 2015 . ^ Syme, Don ; Granicz, Adam; Cisternino, Antonio (2007). Expert F# . Apress . p. 2. F# also draws from Haskell particularly with regard to two advanced language features called sequence expressions and workflows . ^ \"Facebook Introduces 'Hack,' the Programming Language of the Future\" . WIRED . 20 March 2014. ^ \"Idris, a dependently typed language\" . Retrieved 26 October 2014 . ^ \"LiveScript Inspiration\" . Retrieved 4 February 2014 . ^ Freeman, Phil (2016). \"PureScript by Example\" . Leanpub . Retrieved 23 April 2017 . ^ Kuchling, A. M. \"Functional Programming HOWTO\" . Python v2.7.2 documentation . Python Software Foundation . Retrieved 9 February 2012 . ^ \"Glossary of Terms and Jargon\" . Perl Foundation Perl 6 Wiki . The Perl Foundation . Archived from the original on 21 January 2012 . Retrieved 9 February 2012 . ^ \"Influences - The Rust Reference\" . The Rust Reference . Retrieved 31 December 2023 . ^ Fogus, Michael (6 August 2010). \"MartinOdersky take(5) toList\" . Send More Paramedics . Retrieved 9 February 2012 . ^ Lattner, Chris (3 June 2014). \"Chris Lattner's Homepage\" . Chris Lattner . Retrieved 3 June 2014 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ Chevalier, Tim (28 January 2008). \"anybody can tell me the pronunciation of \"haskell\"?\" . Haskell-cafe (Mailing list) . Retrieved 12 March 2011 . ^ Type inference originally using Hindley-Milner type inference ^ Peyton Jones 2003 . ^ Edward Kmett, Edward Kmett – Type Classes vs. the World ^ Mossberg, Erik (8 June 2020), erkmos/haskell-companies , retrieved 22 June 2020 ^ O'Sullivan, Bryan; Goerzen, John; Stewart, Donald Bruce (15 November 2008). Real World Haskell: Code You Can Believe In . O'Reilly Media, Inc. pp. xxviii– xxxi. ISBN 978-0-596-55430-9 . ^ \"Haskell in Production: Riskbook\" . Serokell Software Development Company . Retrieved 7 September 2021 . ^ \"PYPL PopularitY of Programming Language index\" . pypl.github.io . May 2021. Archived from the original on 7 May 2021 . Retrieved 16 May 2021 . ^ Frederickson, Ben. \"Ranking Programming Languages by GitHub Users\" . benfrederickson.com . Retrieved 6 September 2019 .",
+    "text": "Functional programming language For other uses, see Haskell (disambiguation) . Haskell Paradigm Purely functional Designed by Lennart Augustsson , Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak , John Hughes , Thomas Johnsson, Mark Jones, Simon Peyton Jones , John Launchbury , Erik Meijer , John Peterson, Alastair Reid, Colin Runciman, Philip Wadler First appeared 1990 ; 36 years ago ( 1990 ) Stable release Haskell 2010 / July 2010 ; 16 years ago ( 2010-07 ) Preview release Haskell 2020 announced Typing discipline Inferred , static , strong OS Cross-platform Filename extensions .hs, .lhs Website haskell .org Major implementations GHC , Hugs , NHC, JHC, Yhc , UHC Dialects Gofer Influenced by Clean , FP , Gofer , Hope and Hope + , Id , ISWIM , KRC , Lisp , Miranda , ML and Standard ML , Orwell , SASL , Scheme , SISAL Influenced Agda , Bluespec , C++11 / Concepts , C# / LINQ , CAL, [ citation needed ] Cayenne , Clean , Clojure , CoffeeScript , Curry , Elm , Epigram , [ citation needed ] Escher , F# , Hack , Idris , Isabelle , Java / Generics , LiveScript , Mercury , Ωmega , PureScript , Python , Raku , Rust , Scala , Swift , Visual Basic 9.0 Haskell ( / ˈ h æ s k əl / ) is a general-purpose , statically typed , purely functional programming language with type inference and lazy evaluation . Haskell pioneered several programming language features including type classes for type-safe operator overloading and monadic input/output (IO). It is named after logician Haskell Curry . Haskell's main implementation is the Glasgow Haskell Compiler (GHC). Haskell's semantics are historically based on those of the Miranda programming language, which served to focus the efforts of the initial Haskell working group. The last formal specification of the language was made in July 2010, while the development of GHC continues to expand Haskell via language extensions. Haskell is used in academia and industry. As of May 2021 [update] , Haskell was the 28th most popular programming language by Google searches for tutorials, and made up less than 1% of active users on the GitHub source code repository. ^ a b Hudak et al. 2007 . ^ Marlow, Simon (24 November 2009). \"Announcing Haskell 2010\" . Haskell (Mailing list) . Retrieved 12 March 2011 . ^ Riedel, Herbert (28 April 2016). \"ANN: Haskell Prime 2020 committee has formed\" . Haskell-prime (Mailing list) . Retrieved 6 May 2017 . ^ a b c d e f g h i j k l m Peyton Jones 2003 , p. xi ^ Norell, Ulf (2008). \"Dependently Typed Programming in Agda\" (PDF) . Gothenburg: Chalmers University . Retrieved 9 February 2012 . ^ Hudak et al. 2007 , pp. 12–38, 43. ^ Stroustrup, Bjarne ; Sutton, Andrew (2011). \"Design of Concept Libraries for C++\" (PDF) . Software Language Engineering . Archived from the original (PDF) on 10 February 2012. ^ a b c d e f g h i j Hudak et al. 2007 , pp. 12, 45, 46. ^ a b Meijer, Erik (2006). \"Confessions of a Used Programming Language Salesman: Getting the Masses Hooked on Haskell\". Oopsla 2007 . ^ Meijer, Erik (1 October 2009). \"C9 Lectures: Dr. Erik Meijer – Functional Programming Fundamentals, Chapter 1 of 13\" . Channel 9 . Microsoft. Archived from the original on 16 June 2012 . Retrieved 9 February 2012 . ^ Drobi, Sadek (4 March 2009). \"Erik Meijer on LINQ\" . InfoQ . QCon SF 2008: C4Media Inc . Retrieved 9 February 2012 . {{ cite news }} : CS1 maint: location ( link ) ^ Hickey, Rich. \"Clojure Bookshelf\" . Listmania! . Archived from the original on 3 October 2017 . Retrieved 3 October 2017 . ^ Heller, Martin (18 October 2011). \"Turn up your nose at Dart and smell the CoffeeScript\" . InfoWorld . Retrieved 15 July 2020 . ^ \"Declarative programming in Escher\" (PDF) . Retrieved 7 October 2015 . ^ Syme, Don ; Granicz, Adam; Cisternino, Antonio (2007). Expert F# . Apress . p. 2. F# also draws from Haskell particularly with regard to two advanced language features called sequence expressions and workflows . ^ \"Facebook Introduces 'Hack,' the Programming Language of the Future\" . WIRED . 20 March 2014. ^ \"Idris, a dependently typed language\" . Retrieved 26 October 2014 . ^ \"LiveScript Inspiration\" . Retrieved 4 February 2014 . ^ Freeman, Phil (2016). \"PureScript by Example\" . Leanpub . Retrieved 23 April 2017 . ^ Kuchling, A. M. \"Functional Programming HOWTO\" . Python v2.7.2 documentation . Python Software Foundation . Retrieved 9 February 2012 . ^ \"Glossary of Terms and Jargon\" . Perl Foundation Perl 6 Wiki . The Perl Foundation . Archived from the original on 21 January 2012 . Retrieved 9 February 2012 . ^ \"Influences - The Rust Reference\" . The Rust Reference . Retrieved 31 December 2023 . ^ Fogus, Michael (6 August 2010). \"MartinOdersky take(5) toList\" . Send More Paramedics . Retrieved 9 February 2012 . ^ Lattner, Chris (3 June 2014). \"Chris Lattner's Homepage\" . Chris Lattner . Retrieved 3 June 2014 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. ^ Chevalier, Tim (28 January 2008). \"anybody can tell me the pronunciation of \"haskell\"?\" . Haskell-cafe (Mailing list) . Retrieved 12 March 2011 . ^ Type inference originally using Hindley-Milner type inference ^ Peyton Jones 2003 . ^ Edward Kmett, Edward Kmett – Type Classes vs. the World ^ Mossberg, Erik (8 June 2020), erkmos/haskell-companies , retrieved 22 June 2020 ^ O'Sullivan, Bryan; Goerzen, John; Stewart, Donald Bruce (15 November 2008). Real World Haskell: Code You Can Believe In . O'Reilly Media, Inc. pp. xxviii– xxxi. ISBN 978-0-596-55430-9 . ^ \"Haskell in Production: Riskbook\" . Serokell Software Development Company . Retrieved 7 September 2021 . ^ \"PYPL PopularitY of Programming Language index\" . pypl.github.io . May 2021. Archived from the original on 7 May 2021 . Retrieved 16 May 2021 . ^ Frederickson, Ben. \"Ranking Programming Languages by GitHub Users\" . benfrederickson.com . Retrieved 6 September 2019 .",
+    "links": [
+      "Agda (programming language)",
+      "Apress",
+      "Bjarne Stroustrup",
+      "Bluespec",
+      "C Sharp (programming language)",
+      "C++11",
+      "Cayenne (programming language)",
+      "Channel 9 (discussion forum)",
+      "Clean (programming language)",
+      "Clojure",
+      "CoffeeScript",
+      "Concepts (C++)",
+      "Cross-platform",
+      "Curry (programming language)",
+      "Don Syme",
+      "Elm (programming language)",
+      "Epigram (programming language)",
+      "Erik Meijer (computer scientist)",
+      "Escher (programming language)",
+      "F Sharp (programming language)",
+      "FP (programming language)",
+      "Filename extension",
+      "General-purpose programming language",
+      "Generics in Java",
+      "GitHub",
+      "Glasgow Haskell Compiler",
+      "Gofer (programming language)",
+      "Gofer (software)",
+      "Google search",
+      "Hack (programming language)",
+      "Haskell (disambiguation)",
+      "Haskell Curry",
+      "Hope (programming language)",
+      "Hugs (interpreter)",
+      "ISBN (identifier)",
+      "ISWIM",
+      "Id (programming language)",
+      "Idris (programming language)",
+      "InfoWorld",
+      "Input/output",
+      "Isabelle (proof assistant)",
+      "Java (programming language)",
+      "John Hughes (computer scientist)",
+      "John Launchbury",
+      "Kent Recursive Calculator",
+      "Language Integrated Query",
+      "Lazy evaluation",
+      "Lennart Augustsson",
+      "Lisp (programming language)",
+      "LiveScript (programming language)",
+      "Logic",
+      "ML (programming language)",
+      "Mercury (programming language)",
+      "Miranda (programming language)",
+      "Monad (functional programming)",
+      "Operating system",
+      "Operator overloading",
+      "Orwell (programming language)",
+      "Paul Hudak",
+      "Philip Wadler",
+      "Programming language",
+      "Programming language implementation",
+      "Programming paradigm",
+      "PureScript",
+      "Purely functional programming",
+      "Python (programming language)",
+      "Raku (programming language)",
+      "Rust (programming language)",
+      "SASL (programming language)",
+      "SISAL",
+      "Scala (programming language)",
+      "Scheme (programming language)",
+      "Semantics (programming languages)",
+      "Simon Marlow",
+      "Simon Peyton Jones",
+      "Software design",
+      "Software release life cycle",
+      "Standard ML",
+      "Static typing",
+      "Strong and weak typing",
+      "Swift (programming language)",
+      "The Perl Foundation",
+      "Type class",
+      "Type inference",
+      "Type safety",
+      "Type system",
+      "Visual Basic (.NET)",
+      "Yhc",
+      "Ωmega"
+    ],
+    "page_id": 27404990,
+    "revision_id": 1375260087,
+    "retrieved_at": "2026-09-18T16:41:38.005900+00:00",
+    "aliases": [],
+    "disambiguation": false,
+    "source_kind": "wikipedia"
+  },
+  "raw": [
+    {
+      "continue": {
+        "rvcontinue": "20260916085715|1375187005",
+        "continue": "||pageprops"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 27404990,
+            "ns": 0,
+            "title": "Haskell",
+            "revisions": [
+              {
+                "revid": 1375260087,
+                "parentid": 1375187005
+              }
+            ],
+            "pageprops": {
+              "wikibase-shortdesc": "Functional programming language",
+              "wikibase_item": "Q34010"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "title": "Haskell",
+        "pageid": 27404990,
+        "revid": 1375260087,
+        "text": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">Functional programming language</div>\n<style data-mw-deduplicate=\"TemplateStyles:r1368532237\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+.mw-empty-elt+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">For other uses, see <a href=\"/wiki/Haskell_(disambiguation)\" class=\"mw-disambig\" title=\"Haskell (disambiguation)\">Haskell (disambiguation)</a>.</div>\n<p class=\"mw-empty-elt\">\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1358620234\">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class=\"infobox vevent\"><tbody><tr><th colspan=\"2\" class=\"infobox-above\" style=\"background-color:#e0e0e0; color:inherit;\">Haskell</th></tr><tr><td colspan=\"2\" class=\"infobox-image\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Logo_of_the_Haskell_programming_language.svg\" class=\"mw-file-description\"><img alt=\"Logo of Haskell\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Logo_of_the_Haskell_programming_language.svg/250px-Logo_of_the_Haskell_programming_language.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"39\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Logo_of_the_Haskell_programming_language.svg/500px-Logo_of_the_Haskell_programming_language.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"80\" /></a></span></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Programming_paradigm\" title=\"Programming paradigm\">Paradigm</a></th><td class=\"infobox-data\"><a href=\"/wiki/Purely_functional_programming\" title=\"Purely functional programming\">Purely functional</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Software_design\" title=\"Software design\">Designed&#160;by</a></th><td class=\"infobox-data\"><a href=\"/wiki/Lennart_Augustsson\" title=\"Lennart Augustsson\">Lennart Augustsson</a>, Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, <a href=\"/wiki/Paul_Hudak\" title=\"Paul Hudak\">Paul Hudak</a>, <a href=\"/wiki/John_Hughes_(computer_scientist)\" title=\"John Hughes (computer scientist)\">John Hughes</a>, Thomas Johnsson, Mark Jones, <a href=\"/wiki/Simon_Peyton_Jones\" title=\"Simon Peyton Jones\">Simon Peyton Jones</a>, <a href=\"/wiki/John_Launchbury\" title=\"John Launchbury\">John Launchbury</a>, <a href=\"/wiki/Erik_Meijer_(computer_scientist)\" title=\"Erik Meijer (computer scientist)\">Erik Meijer</a>, John Peterson, Alastair Reid, Colin Runciman, <a href=\"/wiki/Philip_Wadler\" title=\"Philip Wadler\">Philip Wadler</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\">First&#160;appeared</th><td class=\"infobox-data\">1990<span class=\"noprint\">&#59;&#32;36&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">1990</span>)</span><sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler2007&#95;1-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler2007-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr class=\"infobox-hiddenrow\"><td colspan=\"2\" class=\"infobox-full-data\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1358620234\" /></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle\" title=\"Software release life cycle\">Stable release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">Haskell 2010<sup id=\"cite&#95;ref-2010ann&#95;2-0\" class=\"reference\"><a href=\"#cite_note-2010ann-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n   / July&#160;2010<span class=\"noprint\">&#59;&#32;16&#160;years ago</span><span style=\"display:none\">&#160;(<span class=\"bday dtstart published updated\">2010-07</span>)</span></div></td></tr><tr><th scope=\"row\" class=\"infobox-label\" style=\"white-space: nowrap;\"><a href=\"/wiki/Software_release_life_cycle#Beta\" title=\"Software release life cycle\">Preview release</a></th><td class=\"infobox-data\"><div style=\"margin:0px;\">   Haskell 2020 announced<sup id=\"cite&#95;ref-2020committee&#95;3-0\" class=\"reference\"><a href=\"#cite_note-2020committee-3\"><span class=\"cite-bracket\">&#91;</span>3<span class=\"cite-bracket\">&#93;</span></a></sup> \n   </div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Type_system\" title=\"Type system\">Typing discipline</a></th><td class=\"infobox-data\"><a href=\"/wiki/Type_inference\" title=\"Type inference\">Inferred</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">static</a>, <a href=\"/wiki/Strong_and_weak_typing\" class=\"mw-redirect\" title=\"Strong and weak typing\">strong</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Operating_system\" title=\"Operating system\">OS</a></th><td class=\"infobox-data\"><a href=\"/wiki/Cross-platform\" class=\"mw-redirect\" title=\"Cross-platform\">Cross-platform</a></td></tr><tr><th scope=\"row\" class=\"infobox-label\"><a href=\"/wiki/Filename_extension\" title=\"Filename extension\">Filename extensions</a></th><td class=\"infobox-data\">.hs, .lhs</td></tr><tr><th scope=\"row\" class=\"infobox-label\">Website</th><td class=\"infobox-data\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://haskell.org\">haskell<wbr />.org</a></span></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Major <a href=\"/wiki/Programming_language_implementation\" class=\"mw-redirect\" title=\"Programming language implementation\">implementations</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Glasgow_Haskell_Compiler\" title=\"Glasgow Haskell Compiler\">GHC</a>, <a href=\"/wiki/Hugs_(interpreter)\" title=\"Hugs (interpreter)\">Hugs</a>, NHC, JHC, <a href=\"/wiki/Yhc\" title=\"Yhc\">Yhc</a>, UHC</td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\"><a href=\"/wiki/Programming_language#Dialects,_flavors_and_implementations\" title=\"Programming language\">Dialects</a></th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Gofer_(software)\" class=\"mw-redirect\" title=\"Gofer (software)\">Gofer</a></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced by</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Clean_(programming_language)\" title=\"Clean (programming language)\">Clean</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-0\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/FP_(programming_language)\" title=\"FP (programming language)\">FP</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-1\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Gofer_(programming_language)\" title=\"Gofer (programming language)\">Gofer</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-2\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Hope_(programming_language)\" title=\"Hope (programming language)\">Hope</a> and Hope<sup>+</sup>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-3\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Id_(programming_language)\" title=\"Id (programming language)\">Id</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-4\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/ISWIM\" title=\"ISWIM\">ISWIM</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-5\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Kent_Recursive_Calculator\" title=\"Kent Recursive Calculator\">KRC</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-6\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Lisp_(programming_language)\" title=\"Lisp (programming language)\">Lisp</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-7\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/Miranda_(programming_language)\" title=\"Miranda (programming language)\">Miranda</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-8\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/ML_(programming_language)\" title=\"ML (programming language)\">ML</a> and <a href=\"/wiki/Standard_ML\" title=\"Standard ML\">Standard ML</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-9\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Orwell_(programming_language)\" title=\"Orwell (programming language)\">Orwell</a>, <a href=\"/wiki/SASL_(programming_language)\" title=\"SASL (programming language)\">SASL</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-10\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Scheme_(programming_language)\" title=\"Scheme (programming language)\">Scheme</a>,<sup id=\"cite&#95;ref-haskell-report-influences&#95;4-11\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/SISAL\" title=\"SISAL\">SISAL</a><sup id=\"cite&#95;ref-haskell-report-influences&#95;4-12\" class=\"reference\"><a href=\"#cite_note-haskell-report-influences-4\"><span class=\"cite-bracket\">&#91;</span>4<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr><tr><th colspan=\"2\" class=\"infobox-header\" style=\"background-color: #EEEEEE; color:inherit;\">Influenced</th></tr><tr><td colspan=\"2\" class=\"infobox-full-data\"><a href=\"/wiki/Agda_(programming_language)\" title=\"Agda (programming language)\">Agda</a>,<sup id=\"cite&#95;ref-5\" class=\"reference\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">&#91;</span>5<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Bluespec\" title=\"Bluespec\">Bluespec</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712–38,&#95;43&#95;6-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712–38,_43-6\"><span class=\"cite-bracket\">&#91;</span>6<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/C%2B%2B11\" title=\"C++11\">C++11</a>/<a href=\"/wiki/Concepts_(C%2B%2B)\" title=\"Concepts (C++)\">Concepts</a>,<sup id=\"cite&#95;ref-7\" class=\"reference\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">&#91;</span>7<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/C_Sharp_(programming_language)\" title=\"C Sharp (programming language)\">C#</a>/<a href=\"/wiki/Language_Integrated_Query\" title=\"Language Integrated Query\">LINQ</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-meijer2012&#95;9-0\" class=\"reference\"><a href=\"#cite_note-meijer2012-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-10\" class=\"reference\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">&#91;</span>10<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-11\" class=\"reference\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">&#91;</span>11<span class=\"cite-bracket\">&#93;</span></a></sup> CAL,<sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (February 2012)\">citation needed</span></a></i>&#93;</sup> <a href=\"/wiki/Cayenne_(programming_language)\" class=\"mw-redirect\" title=\"Cayenne (programming language)\">Cayenne</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-1\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Clean_(programming_language)\" title=\"Clean (programming language)\">Clean</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-2\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Clojure\" title=\"Clojure\">Clojure</a>,<sup id=\"cite&#95;ref-12\" class=\"reference\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">&#91;</span>12<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/CoffeeScript\" title=\"CoffeeScript\">CoffeeScript</a>,<sup id=\"cite&#95;ref-13\" class=\"reference\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">&#91;</span>13<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Curry_(programming_language)\" title=\"Curry (programming language)\">Curry</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-3\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Elm_(programming_language)\" title=\"Elm (programming language)\">Elm</a>,<br /><a href=\"/wiki/Epigram_(programming_language)\" title=\"Epigram (programming language)\">Epigram</a>,<sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">&#91;<i><a href=\"/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\"><span title=\"This claim needs references to reliable sources. (February 2012)\">citation needed</span></a></i>&#93;</sup> <a href=\"/wiki/Escher_(programming_language)\" title=\"Escher (programming language)\">Escher</a>,<sup id=\"cite&#95;ref-14\" class=\"reference\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">&#91;</span>14<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/F_Sharp_(programming_language)\" title=\"F Sharp (programming language)\">F#</a>,<sup id=\"cite&#95;ref-15\" class=\"reference\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">&#91;</span>15<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Hack_(programming_language)\" title=\"Hack (programming language)\">Hack</a>,<sup id=\"cite&#95;ref-16\" class=\"reference\"><a href=\"#cite_note-16\"><span class=\"cite-bracket\">&#91;</span>16<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Idris_(programming_language)\" title=\"Idris (programming language)\">Idris</a>,<sup id=\"cite&#95;ref-17\" class=\"reference\"><a href=\"#cite_note-17\"><span class=\"cite-bracket\">&#91;</span>17<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/Isabelle_(proof_assistant)\" title=\"Isabelle (proof assistant)\">Isabelle</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-4\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Java_(programming_language)\" title=\"Java (programming language)\">Java</a>/<a href=\"/wiki/Generics_in_Java\" title=\"Generics in Java\">Generics</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-5\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/LiveScript_(programming_language)\" title=\"LiveScript (programming language)\">LiveScript</a>,<sup id=\"cite&#95;ref-18\" class=\"reference\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">&#91;</span>18<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/Mercury_(programming_language)\" title=\"Mercury (programming language)\">Mercury</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-6\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/%CE%A9mega\" class=\"mw-redirect\" title=\"Ωmega\">Ωmega</a>, <a href=\"/wiki/PureScript\" title=\"PureScript\">PureScript</a>,<sup id=\"cite&#95;ref-19\" class=\"reference\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">&#91;</span>19<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Python_(programming_language)\" title=\"Python (programming language)\">Python</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-7\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-20\" class=\"reference\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">&#91;</span>20<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Raku_(programming_language)\" title=\"Raku (programming language)\">Raku</a>,<sup id=\"cite&#95;ref-21\" class=\"reference\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">&#91;</span>21<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/Rust_(programming_language)\" title=\"Rust (programming language)\">Rust</a>,<sup id=\"cite&#95;ref-22\" class=\"reference\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">&#91;</span>22<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Scala_(programming_language)\" title=\"Scala (programming language)\">Scala</a>,<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-8\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-23\" class=\"reference\"><a href=\"#cite_note-23\"><span class=\"cite-bracket\">&#91;</span>23<span class=\"cite-bracket\">&#93;</span></a></sup> <a href=\"/wiki/Swift_(programming_language)\" title=\"Swift (programming language)\">Swift</a>,<sup id=\"cite&#95;ref-lattner2014&#95;24-0\" class=\"reference\"><a href=\"#cite_note-lattner2014-24\"><span class=\"cite-bracket\">&#91;</span>24<span class=\"cite-bracket\">&#93;</span></a></sup><br /><a href=\"/wiki/Visual_Basic_(.NET)\" title=\"Visual Basic (.NET)\">Visual Basic 9.0</a><sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46&#95;8-9\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46-8\"><span class=\"cite-bracket\">&#91;</span>8<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-meijer2012&#95;9-1\" class=\"reference\"><a href=\"#cite_note-meijer2012-9\"><span class=\"cite-bracket\">&#91;</span>9<span class=\"cite-bracket\">&#93;</span></a></sup></td></tr></tbody></table>\n<p><b>Haskell</b> (<span class=\"rt-commentedText nowrap\"><span class=\"IPA nopopups noexcerpt\" lang=\"en-fonipa\"><a href=\"/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"&#39;h&#39; in &#39;hi&#39;\">h</span><span title=\"/æ/: &#39;a&#39; in &#39;bad&#39;\">æ</span><span title=\"&#39;s&#39; in &#39;sigh&#39;\">s</span><span title=\"&#39;k&#39; in &#39;kind&#39;\">k</span><span title=\"/əl/: &#39;le&#39; in &#39;bottle&#39;\">əl</span></span>/</a></span></span><sup id=\"cite&#95;ref-25\" class=\"reference\"><a href=\"#cite_note-25\"><span class=\"cite-bracket\">&#91;</span>25<span class=\"cite-bracket\">&#93;</span></a></sup>) is a <a href=\"/wiki/General-purpose_programming_language\" title=\"General-purpose programming language\">general-purpose</a>, <a href=\"/wiki/Static_typing\" class=\"mw-redirect\" title=\"Static typing\">statically typed</a>, <a href=\"/wiki/Purely_functional_programming\" title=\"Purely functional programming\">purely functional</a> <a href=\"/wiki/Programming_language\" title=\"Programming language\">programming language</a> with <a href=\"/wiki/Type_inference\" title=\"Type inference\">type inference</a> and <a href=\"/wiki/Lazy_evaluation\" title=\"Lazy evaluation\">lazy evaluation</a>.<sup id=\"cite&#95;ref-26\" class=\"reference\"><a href=\"#cite_note-26\"><span class=\"cite-bracket\">&#91;</span>26<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-FOOTNOTEPeyton&#95;Jones2003&#95;27-0\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEPeyton_Jones2003-27\"><span class=\"cite-bracket\">&#91;</span>27<span class=\"cite-bracket\">&#93;</span></a></sup> Haskell pioneered several programming language <a href=\"#Features\">features</a> including <a href=\"/wiki/Type_class\" title=\"Type class\">type classes</a> for <a href=\"/wiki/Type_safety\" title=\"Type safety\">type-safe</a> <a href=\"/wiki/Operator_overloading\" title=\"Operator overloading\">operator overloading</a> and <a href=\"/wiki/Monad_(functional_programming)\" title=\"Monad (functional programming)\">monadic</a> <a href=\"/wiki/Input/output\" title=\"Input/output\">input/output</a> (IO). It is named after <a href=\"/wiki/Logic\" title=\"Logic\">logician</a> <a href=\"/wiki/Haskell_Curry\" title=\"Haskell Curry\">Haskell Curry</a>.<sup id=\"cite&#95;ref-FOOTNOTEHudakHughesPeyton&#95;JonesWadler2007&#95;1-1\" class=\"reference\"><a href=\"#cite_note-FOOTNOTEHudakHughesPeyton_JonesWadler2007-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup> Haskell's main implementation is the <a href=\"/wiki/Glasgow_Haskell_Compiler\" title=\"Glasgow Haskell Compiler\">Glasgow Haskell Compiler</a> (GHC).\n</p><p>Haskell's <a href=\"/wiki/Semantics_(programming_languages)\" title=\"Semantics (programming languages)\">semantics</a> are historically based on those of the <a href=\"/wiki/Miranda_(programming_language)\" title=\"Miranda (programming language)\">Miranda</a> programming language, which served to focus the efforts of the initial Haskell working group.<sup id=\"cite&#95;ref-28\" class=\"reference\"><a href=\"#cite_note-28\"><span class=\"cite-bracket\">&#91;</span>28<span class=\"cite-bracket\">&#93;</span></a></sup> The last formal specification of the language was made in July 2010, while the development of GHC continues to expand Haskell via language extensions.\n</p><p>Haskell is used in academia and industry.<sup id=\"cite&#95;ref-29\" class=\"reference\"><a href=\"#cite_note-29\"><span class=\"cite-bracket\">&#91;</span>29<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-30\" class=\"reference\"><a href=\"#cite_note-30\"><span class=\"cite-bracket\">&#91;</span>30<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-31\" class=\"reference\"><a href=\"#cite_note-31\"><span class=\"cite-bracket\">&#91;</span>31<span class=\"cite-bracket\">&#93;</span></a></sup> As of May&#160;2021<sup class=\"plainlinks noexcerpt noprint asof-tag update\" style=\"display:none;\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Haskell&amp;action=edit\" href=\"https://en.wikipedia.org/w/index.php?title=Haskell&amp;action=edit\">&#91;update&#93;</a></sup>, Haskell was the 28th most popular programming language by <a href=\"/wiki/Google_search\" class=\"mw-redirect\" title=\"Google search\">Google searches</a> for tutorials,<sup id=\"cite&#95;ref-32\" class=\"reference\"><a href=\"#cite_note-32\"><span class=\"cite-bracket\">&#91;</span>32<span class=\"cite-bracket\">&#93;</span></a></sup> and made up less than 1% of active users on the <a href=\"/wiki/GitHub\" title=\"GitHub\">GitHub</a> source code repository.<sup id=\"cite&#95;ref-33\" class=\"reference\"><a href=\"#cite_note-33\"><span class=\"cite-bracket\">&#91;</span>33<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite&#95;note-FOOTNOTEHudakHughesPeyton&#95;JonesWadler2007-1\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler2007_1-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler2007_1-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><a href=\"#CITEREFHudakHughesPeyton_JonesWadler2007\">Hudak et al. 2007</a>.</span>\n</li>\n<li id=\"cite&#95;note-2010ann-2\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2010ann_2-0\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id=\"CITEREFMarlow2009\" class=\"citation mailinglist cs1\"><a href=\"/wiki/Simon_Marlow\" title=\"Simon Marlow\">Marlow, Simon</a> (24 November 2009). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.haskell.org/pipermail/haskell/2009-November/021750.html\">\"Announcing Haskell 2010\"</a>. <i>Haskell</i> (Mailing list)<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 March</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Announcing+Haskell+2010&amp;rft.date=2009-11-24&amp;rft.aulast=Marlow&amp;rft.aufirst=Simon&amp;rft&#95;id=http%3A%2F%2Fwww.haskell.org%2Fpipermail%2Fhaskell%2F2009-November%2F021750.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-2020committee-3\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-2020committee_3-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFRiedel2016\" class=\"citation mailinglist cs1\">Riedel, Herbert (28 April 2016). <a rel=\"nofollow\" class=\"external text\" href=\"https://mail.haskell.org/pipermail/haskell-prime/2016-April/004050.html\">\"ANN: Haskell Prime 2020 committee has formed\"</a>. <i>Haskell-prime</i> (Mailing list)<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 May</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ANN%3A+Haskell+Prime+2020+committee+has+formed&amp;rft.date=2016-04-28&amp;rft.aulast=Riedel&amp;rft.aufirst=Herbert&amp;rft&#95;id=https%3A%2F%2Fmail.haskell.org%2Fpipermail%2Fhaskell-prime%2F2016-April%2F004050.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-haskell-report-influences-4\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-haskell-report-influences_4-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-3\"><sup><i><b>d</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-4\"><sup><i><b>e</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-5\"><sup><i><b>f</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-6\"><sup><i><b>g</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-7\"><sup><i><b>h</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-8\"><sup><i><b>i</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-9\"><sup><i><b>j</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-10\"><sup><i><b>k</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-11\"><sup><i><b>l</b></i></sup></a> <a href=\"#cite_ref-haskell-report-influences_4-12\"><sup><i><b>m</b></i></sup></a></span> <span class=\"reference-text\"><a href=\"#CITEREFPeyton_Jones2003\">Peyton Jones 2003</a>, p.&#160;xi</span>\n</li>\n<li id=\"cite&#95;note-5\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-5\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFNorell2008\" class=\"citation web cs1\">Norell, Ulf (2008). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf\">\"Dependently Typed Programming in Agda\"</a> <span class=\"cs1-format\">(PDF)</span>. Gothenburg: Chalmers University<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Dependently+Typed+Programming+in+Agda&amp;rft.place=Gothenburg&amp;rft.pub=Chalmers+University&amp;rft.date=2008&amp;rft.aulast=Norell&amp;rft.aufirst=Ulf&amp;rft&#95;id=http%3A%2F%2Fwww.cse.chalmers.se%2F~ulfn%2Fpapers%2Fafp08%2Ftutorial.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712–38,&#95;43-6\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712–38,_43_6-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFHudakHughesPeyton_JonesWadler2007\">Hudak et al. 2007</a>, pp.&#160;12–38, 43.</span>\n</li>\n<li id=\"cite&#95;note-7\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-7\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFStroustrupSutton2011\" class=\"citation journal cs1\"><a href=\"/wiki/Bjarne_Stroustrup\" title=\"Bjarne Stroustrup\">Stroustrup, Bjarne</a>; Sutton, Andrew (2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120210041742/http://www2.research.att.com/~bs/sle2011-concepts.pdf\">\"Design of Concept Libraries for C++\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>Software Language Engineering</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www2.research.att.com/~bs/sle2011-concepts.pdf\">the original</a> <span class=\"cs1-format\">(PDF)</span> on 10 February 2012.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Software+Language+Engineering&amp;rft.atitle=Design+of+Concept+Libraries+for+C%2B%2B&amp;rft.date=2011&amp;rft.aulast=Stroustrup&amp;rft.aufirst=Bjarne&amp;rft.au=Sutton%2C+Andrew&amp;rft&#95;id=http%3A%2F%2Fwww2.research.att.com%2F~bs%2Fsle2011-concepts.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEHudakHughesPeyton&#95;JonesWadler200712,&#95;45,&#95;46-8\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-2\"><sup><i><b>c</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-3\"><sup><i><b>d</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-4\"><sup><i><b>e</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-5\"><sup><i><b>f</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-6\"><sup><i><b>g</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-7\"><sup><i><b>h</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-8\"><sup><i><b>i</b></i></sup></a> <a href=\"#cite_ref-FOOTNOTEHudakHughesPeyton_JonesWadler200712,_45,_46_8-9\"><sup><i><b>j</b></i></sup></a></span> <span class=\"reference-text\"><a href=\"#CITEREFHudakHughesPeyton_JonesWadler2007\">Hudak et al. 2007</a>, pp.&#160;12, 45, 46.</span>\n</li>\n<li id=\"cite&#95;note-meijer2012-9\"><span class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-meijer2012_9-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-meijer2012_9-1\"><sup><i><b>b</b></i></sup></a></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMeijer2006\" class=\"citation journal cs1\"><a href=\"/wiki/Erik_Meijer_(computer_scientist)\" title=\"Erik Meijer (computer scientist)\">Meijer, Erik</a> (2006). \"Confessions of a Used Programming Language Salesman: Getting the Masses Hooked on Haskell\". <i>Oopsla 2007</i>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Oopsla+2007&amp;rft.atitle=Confessions+of+a+Used+Programming+Language+Salesman%3A+Getting+the+Masses+Hooked+on+Haskell&amp;rft.date=2006&amp;rft.aulast=Meijer&amp;rft.aufirst=Erik&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-10\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMeijer2009\" class=\"citation web cs1\">Meijer, Erik (1 October 2009). <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120616051226/http://channel9.msdn.com/shows/Going+Deep/Lecture-Series-Erik-Meijer-Functional-Programming-Fundamentals-Chapter-1/\">\"C9 Lectures: Dr. Erik Meijer&#160;– Functional Programming Fundamentals, Chapter 1 of 13\"</a>. <i><a href=\"/wiki/Channel_9_(discussion_forum)\" class=\"mw-redirect\" title=\"Channel 9 (discussion forum)\">Channel 9</a></i>. Microsoft. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://channel9.msdn.com/shows/Going+Deep/Lecture-Series-Erik-Meijer-Functional-Programming-Fundamentals-Chapter-1/\">the original</a> on 16 June 2012<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Channel+9&amp;rft.atitle=C9+Lectures%3A+Dr.+Erik+Meijer+%E2%80%93+Functional+Programming+Fundamentals%2C+Chapter+1+of+13&amp;rft.date=2009-10-01&amp;rft.aulast=Meijer&amp;rft.aufirst=Erik&amp;rft&#95;id=http%3A%2F%2Fchannel9.msdn.com%2Fshows%2FGoing%2BDeep%2FLecture-Series-Erik-Meijer-Functional-Programming-Fundamentals-Chapter-1%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-11\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFDrobi2009\" class=\"citation news cs1\">Drobi, Sadek (4 March 2009). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.infoq.com/interviews/LINQ-Erik-Meijer\">\"Erik Meijer on LINQ\"</a>. <i>InfoQ</i>. QCon SF 2008: C4Media Inc<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=InfoQ&amp;rft.atitle=Erik+Meijer+on+LINQ&amp;rft.date=2009-03-04&amp;rft.aulast=Drobi&amp;rft.aufirst=Sadek&amp;rft&#95;id=http%3A%2F%2Fwww.infoq.com%2Finterviews%2FLINQ-Erik-Meijer&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span><span class=\"cs1-maint citation-comment\"><code class=\"cs1-code\">{{<a href=\"/wiki/Template:Cite_news\" title=\"Template:Cite news\">cite news</a>}}</code>:  CS1 maint: location (<a href=\"/wiki/Category:CS1_maint:_location\" title=\"Category:CS1 maint: location\">link</a>)</span></span>\n</li>\n<li id=\"cite&#95;note-12\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-12\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHickey\" class=\"citation web cs1\">Hickey, Rich. <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20171003001051/https://www.amazon.com/gp/richpub/listmania/fullview/R3LG3ZBZS4GCTH\">\"Clojure Bookshelf\"</a>. <i>Listmania!</i>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.amazon.com/gp/richpub/listmania/fullview/R3LG3ZBZS4GCTH\">the original</a> on 3 October 2017<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 October</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Listmania%21&amp;rft.atitle=Clojure+Bookshelf&amp;rft.aulast=Hickey&amp;rft.aufirst=Rich&amp;rft&#95;id=https%3A%2F%2Fwww.amazon.com%2Fgp%2Frichpub%2Flistmania%2Ffullview%2FR3LG3ZBZS4GCTH&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-13\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-13\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFHeller2011\" class=\"citation news cs1\">Heller, Martin (18 October 2011). <a rel=\"nofollow\" class=\"external text\" href=\"https://www.infoworld.com/article/2078452/turn-up-your-nose-at-dart-and-smell-the-coffeescript.html\">\"Turn up your nose at Dart and smell the CoffeeScript\"</a>. <i><a href=\"/wiki/InfoWorld\" title=\"InfoWorld\">InfoWorld</a></i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">15 July</span> 2020</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=InfoWorld&amp;rft.atitle=Turn+up+your+nose+at+Dart+and+smell+the+CoffeeScript&amp;rft.date=2011-10-18&amp;rft.aulast=Heller&amp;rft.aufirst=Martin&amp;rft&#95;id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F2078452%2Fturn-up-your-nose-at-dart-and-smell-the-coffeescript.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-14\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-14\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.cs.bris.ac.uk/Publications/Papers/1000073.pdf\">\"Declarative programming in Escher\"</a> <span class=\"cs1-format\">(PDF)</span><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">7 October</span> 2015</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Declarative+programming+in+Escher&amp;rft&#95;id=http%3A%2F%2Fwww.cs.bris.ac.uk%2FPublications%2FPapers%2F1000073.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-15\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFSymeGraniczCisternino2007\" class=\"citation book cs1\"><a href=\"/wiki/Don_Syme\" title=\"Don Syme\">Syme, Don</a>; Granicz, Adam; Cisternino, Antonio (2007). <i>Expert F#</i>. <a href=\"/wiki/Apress\" class=\"mw-redirect\" title=\"Apress\">Apress</a>. p.&#160;2. <q>F# also draws from Haskell particularly with regard to two advanced language features called <i>sequence expressions</i> and <i>workflows</i>.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Expert+F%23&amp;rft.pages=2&amp;rft.pub=Apress&amp;rft.date=2007&amp;rft.aulast=Syme&amp;rft.aufirst=Don&amp;rft.au=Granicz%2C+Adam&amp;rft.au=Cisternino%2C+Antonio&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-16\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation magazine cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wired.com/2014/03/facebook-hack/\">\"Facebook Introduces 'Hack,' the Programming Language of the Future\"</a>. <i>WIRED</i>. 20 March 2014.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=WIRED&amp;rft.atitle=Facebook+Introduces+%27Hack%2C%27+the+Programming+Language+of+the+Future&amp;rft.date=2014-03-20&amp;rft&#95;id=https%3A%2F%2Fwww.wired.com%2F2014%2F03%2Ffacebook-hack%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-17\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-17\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.idris-lang.org/\">\"Idris, a dependently typed language\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">26 October</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Idris%2C+a+dependently+typed+language&amp;rft&#95;id=http%3A%2F%2Fwww.idris-lang.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-18\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-18\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://livescript.net/#inspiration\">\"LiveScript Inspiration\"</a><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">4 February</span> 2014</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=LiveScript+Inspiration&amp;rft&#95;id=http%3A%2F%2Flivescript.net%2F%23inspiration&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-19\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFreeman2016\" class=\"citation web cs1\">Freeman, Phil (2016). <a rel=\"nofollow\" class=\"external text\" href=\"https://leanpub.com/purescript/read\">\"PureScript by Example\"</a>. Leanpub<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">23 April</span> 2017</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PureScript+by+Example&amp;rft.pub=Leanpub&amp;rft.date=2016&amp;rft.aulast=Freeman&amp;rft.aufirst=Phil&amp;rft&#95;id=https%3A%2F%2Fleanpub.com%2Fpurescript%2Fread&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-20\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFKuchling\" class=\"citation web cs1\">Kuchling, A. M. <a rel=\"nofollow\" class=\"external text\" href=\"https://docs.python.org/howto/functional.html\">\"Functional Programming HOWTO\"</a>. <i>Python v2.7.2 documentation</i>. Python Software Foundation<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Python+v2.7.2+documentation&amp;rft.atitle=Functional+Programming+HOWTO&amp;rft.aulast=Kuchling&amp;rft.aufirst=A.+M.&amp;rft&#95;id=https%3A%2F%2Fdocs.python.org%2Fhowto%2Ffunctional.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-21\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120121145808/http://www.perlfoundation.org/perl6/index.cgi?glossary_of_terms_and_jargon\">\"Glossary of Terms and Jargon\"</a>. <i>Perl Foundation Perl 6 Wiki</i>. <a href=\"/wiki/The_Perl_Foundation\" class=\"mw-redirect\" title=\"The Perl Foundation\">The Perl Foundation</a>. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.perlfoundation.org/perl6/index.cgi?glossary_of_terms_and_jargon\">the original</a> on 21 January 2012<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Perl+Foundation+Perl+6+Wiki&amp;rft.atitle=Glossary+of+Terms+and+Jargon&amp;rft&#95;id=http%3A%2F%2Fwww.perlfoundation.org%2Fperl6%2Findex.cgi%3Fglossary&#95;of&#95;terms&#95;and&#95;jargon&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-22\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-22\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doc.rust-lang.org/reference/influences.html\">\"Influences - The Rust Reference\"</a>. <i>The Rust Reference</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">31 December</span> 2023</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Rust+Reference&amp;rft.atitle=Influences+-+The+Rust+Reference&amp;rft&#95;id=https%3A%2F%2Fdoc.rust-lang.org%2Freference%2Finfluences.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-23\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-23\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFogus2010\" class=\"citation web cs1\">Fogus, Michael (6 August 2010). <a rel=\"nofollow\" class=\"external text\" href=\"http://blog.fogus.me/2010/08/06/martinodersky-take5-tolist/\">\"MartinOdersky take(5) toList\"</a>. <i>Send More Paramedics</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">9 February</span> 2012</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Send+More+Paramedics&amp;rft.atitle=MartinOdersky+take%285%29+toList&amp;rft.date=2010-08-06&amp;rft.aulast=Fogus&amp;rft.aufirst=Michael&amp;rft&#95;id=http%3A%2F%2Fblog.fogus.me%2F2010%2F08%2F06%2Fmartinodersky-take5-tolist%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-lattner2014-24\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-lattner2014_24-0\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFLattner2014\" class=\"citation web cs1\">Lattner, Chris (3 June 2014). <a rel=\"nofollow\" class=\"external text\" href=\"http://nondot.org/sabre/\">\"Chris Lattner's Homepage\"</a>. Chris Lattner<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 June</span> 2014</span>. <q>The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.</q></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Chris+Lattner%27s+Homepage&amp;rft.pub=Chris+Lattner&amp;rft.date=2014-06-03&amp;rft.aulast=Lattner&amp;rft.aufirst=Chris&amp;rft&#95;id=http%3A%2F%2Fnondot.org%2Fsabre%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-25\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-25\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFChevalier2008\" class=\"citation mailinglist cs1\">Chevalier, Tim (28 January 2008). <a rel=\"nofollow\" class=\"external text\" href=\"http://www.haskell.org/pipermail/haskell-cafe/2008-January/038756.html\">\"anybody can tell me the pronunciation of \"haskell\"?\"</a>. <i>Haskell-cafe</i> (Mailing list)<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">12 March</span> 2011</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=anybody+can+tell+me+the+pronunciation+of+%22haskell%22%3F&amp;rft.date=2008-01-28&amp;rft.aulast=Chevalier&amp;rft.aufirst=Tim&amp;rft&#95;id=http%3A%2F%2Fwww.haskell.org%2Fpipermail%2Fhaskell-cafe%2F2008-January%2F038756.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-26\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-26\">^</a></b></span> <span class=\"reference-text\">Type inference originally using <a href=\"/wiki/Type_inference#Hindley–Milner_type_inference_algorithm\" title=\"Type inference\">Hindley-Milner type inference</a></span>\n</li>\n<li id=\"cite&#95;note-FOOTNOTEPeyton&#95;Jones2003-27\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-FOOTNOTEPeyton_Jones2003_27-0\">^</a></b></span> <span class=\"reference-text\"><a href=\"#CITEREFPeyton_Jones2003\">Peyton Jones 2003</a>.</span>\n</li>\n<li id=\"cite&#95;note-28\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-28\">^</a></b></span> <span class=\"reference-text\">Edward Kmett, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=hIZxTQP1ifo\">Edward Kmett – Type Classes vs. the World</a></span>\n</li>\n<li id=\"cite&#95;note-29\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-29\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFMossberg2020\" class=\"citation cs2\">Mossberg, Erik (8 June 2020), <a rel=\"nofollow\" class=\"external text\" href=\"https://github.com/erkmos/haskell-companies\"><i>erkmos/haskell-companies</i></a><span class=\"reference-accessdate\">, retrieved <span class=\"nowrap\">22 June</span> 2020</span></cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=erkmos%2Fhaskell-companies&amp;rft.date=2020-06-08&amp;rft.aulast=Mossberg&amp;rft.aufirst=Erik&amp;rft&#95;id=https%3A%2F%2Fgithub.com%2Ferkmos%2Fhaskell-companies&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-30\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-30\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFO&#39;SullivanGoerzenStewart2008\" class=\"citation book cs1\">O'Sullivan, Bryan; Goerzen, John; Stewart, Donald Bruce (15 November 2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=nh0okI1a1sQC\"><i>Real World Haskell: Code You Can Believe In</i></a>. O'Reilly Media, Inc. pp.&#160;<span class=\"nowrap\">xxviii–</span>xxxi. <a href=\"/wiki/ISBN_(identifier)\" class=\"mw-redirect\" title=\"ISBN (identifier)\">ISBN</a>&#160;<a href=\"/wiki/Special:BookSources/978-0-596-55430-9\" title=\"Special:BookSources/978-0-596-55430-9\"><bdi>978-0-596-55430-9</bdi></a>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Real+World+Haskell%3A+Code+You+Can+Believe+In&amp;rft.pages=xxviii-xxxi&amp;rft.pub=O%27Reilly+Media%2C+Inc.&amp;rft.date=2008-11-15&amp;rft.isbn=978-0-596-55430-9&amp;rft.aulast=O%27Sullivan&amp;rft.aufirst=Bryan&amp;rft.au=Goerzen%2C+John&amp;rft.au=Stewart%2C+Donald+Bruce&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dnh0okI1a1sQC&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-31\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-31\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://serokell.io/blog/haskell-in-industry-riskbook\">\"Haskell in Production: Riskbook\"</a>. <i>Serokell Software Development Company</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">7 September</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Serokell+Software+Development+Company&amp;rft.atitle=Haskell+in+Production%3A+Riskbook&amp;rft&#95;id=https%3A%2F%2Fserokell.io%2Fblog%2Fhaskell-in-industry-riskbook&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-32\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-32\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20210507222106/https://pypl.github.io/PYPL.html\">\"PYPL PopularitY of Programming Language index\"</a>. <i>pypl.github.io</i>. May 2021. Archived from <a rel=\"nofollow\" class=\"external text\" href=\"http://pypl.github.io/PYPL.html\">the original</a> on 7 May 2021<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">16 May</span> 2021</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=pypl.github.io&amp;rft.atitle=PYPL+PopularitY+of+Programming+Language+index&amp;rft.date=2021-05&amp;rft&#95;id=http%3A%2F%2Fpypl.github.io%2FPYPL.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite&#95;note-33\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-33\">^</a></b></span> <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" /><cite id=\"CITEREFFrederickson\" class=\"citation web cs1\">Frederickson, Ben. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.benfrederickson.com/ranking-programming-languages-by-github-users/\">\"Ranking Programming Languages by GitHub Users\"</a>. <i>benfrederickson.com</i><span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 September</span> 2019</span>.</cite><span title=\"ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=benfrederickson.com&amp;rft.atitle=Ranking+Programming+Languages+by+GitHub+Users&amp;rft.aulast=Frederickson&amp;rft.aufirst=Ben&amp;rft&#95;id=https%3A%2F%2Fwww.benfrederickson.com%2Franking-programming-languages-by-github-users%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AHaskell\" class=\"Z3988\"></span></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nParsed by mw‐api‐ext.eqiad.main‐77d9d4c448‐d49pn\nCached time: 20260918164203\nCache expiry: 28800\nCache expiry source: Template:As_of (#time)\nReduced expiry: true\nComplications: [vary‐revision‐sha1]\nCPU time usage: 0.560 seconds\nReal time usage: 0.769 seconds\nPreprocessor visited node count: 3486/1000000\nRevision size: 13080/2097152 bytes\nPost‐expand include size: 78080/2097152 bytes\nTemplate argument size: 12941/2097152 bytes\nHighest expansion depth: 26/100\nExpensive parser function count: 7/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 71854/5000000 bytes\nLua time usage: 0.361/10.000 seconds\nLua memory usage: 9001330/52428800 bytes\nNumber of Wikibase entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  707.011      1 -total\n 41.61%  294.196      2 Template:Infobox\n 36.43%  257.553      1 Template:Infobox_programming_language\n 16.08%  113.660      1 Template:Short_description\n 14.48%  102.379     14 Template:Sfn\n 12.85%   90.821      3 Template:Cite_mailing_list\n 11.65%   82.394     15 Template:Cite_web\n  9.09%   64.281      2 Template:Pagetype\n  7.61%   53.788      2 Template:Citation_needed\n  7.01%   49.590      1 Template:Infobox_software/simple\n-->\n\n<!-- Render ID e0448670-b37f-11f1-b8e6-b549b1ec7a80 -->\n</div>",
+        "links": [
+          {
+            "ns": 0,
+            "title": "Haskell (disambiguation)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Agda (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Apress",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bjarne Stroustrup",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Bluespec",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C++11",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "C Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cayenne (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Channel 9 (discussion forum)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clean (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Clojure",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "CoffeeScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Concepts (C++)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Cross-platform",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Curry (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Don Syme",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Elm (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Epigram (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Erik Meijer (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Escher (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "FP (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "F Sharp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Filename extension",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "General-purpose programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Generics in Java",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "GitHub",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Glasgow Haskell Compiler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gofer (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Gofer (software)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Google search",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hack (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Haskell Curry",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hope (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Hugs (interpreter)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISBN (identifier)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ISWIM",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Id (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Idris (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "InfoWorld",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Input/output",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Isabelle (proof assistant)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Java (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John Hughes (computer scientist)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "John Launchbury",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Kent Recursive Calculator",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Language Integrated Query",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lazy evaluation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lennart Augustsson",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Lisp (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "LiveScript (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Logic",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "ML (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Mercury (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Miranda (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Monad (functional programming)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operating system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Operator overloading",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Orwell (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Paul Hudak",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Philip Wadler",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming language implementation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Programming paradigm",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "PureScript",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Purely functional programming",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Python (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Raku (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Rust (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SASL (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "SISAL",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scala (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Scheme (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Semantics (programming languages)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simon Marlow",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Simon Peyton Jones",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software design",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Software release life cycle",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Standard ML",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Static typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Strong and weak typing",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Swift (programming language)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "The Perl Foundation",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type class",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type inference",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type safety",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Type system",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Visual Basic (.NET)",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Yhc",
+            "exists": true
+          },
+          {
+            "ns": 0,
+            "title": "Ωmega",
+            "exists": true
+          },
+          {
+            "ns": 10,
+            "title": "Template:Cite news",
+            "exists": true
+          },
+          {
+            "ns": 4,
+            "title": "Wikipedia:Citation needed",
+            "exists": true
+          },
+          {
+            "ns": 12,
+            "title": "Help:IPA/English",
+            "exists": true
+          },
+          {
+            "ns": 14,
+            "title": "Category:CS1 maint: location",
+            "exists": true
+          }
+        ],
+        "properties": {
+          "wikibase-shortdesc": "Functional programming language",
+          "wikibase_item": "Q34010"
+        }
+      }
+    }
+  ]
+}

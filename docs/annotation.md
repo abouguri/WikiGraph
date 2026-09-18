@@ -35,3 +35,11 @@ Current rules require an explicit page title/alias as subject and a single exact
 linked title as object. They intentionally miss pronouns, conjunctions, passive
 variants, infobox claims, and complex syntax. `linksTo` is excluded from factual
 metrics. Baseline ablation emits no facts, matching the original link-only system.
+
+`wikipedia-review.jsonl` now contains 200 real revision-linked candidates awaiting
+review, selected deterministically from the computing corpus. Its `expected: []`
+values are placeholders, not negative labels. The evaluator rejects Wikipedia
+records unless `reviewed` is true. Do not set that flag until actual annotation
+and adjudication are complete. Candidate selection favors extraction vocabulary;
+report that sampling bias when evaluating. The corpus was inspected while tuning
+rules-v2, so a future untouched corpus is required for a strict held-out claim.
