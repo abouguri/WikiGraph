@@ -54,6 +54,7 @@ export function renderEntity(
   originCount: number,
   saved: boolean,
 ) {
+  panel.dataset.view = "entity";
   panel.replaceChildren();
   panel.append(
     element("span", node.is_origin ? "Map origin" : "Selected entity", "badge"),
@@ -161,6 +162,7 @@ export function renderEvidence(
   a: Assertion,
   label: (id: string) => string,
 ) {
+  panel.dataset.view = "evidence";
   panel.replaceChildren();
   panel.append(
     element(

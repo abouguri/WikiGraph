@@ -1,3 +1,4 @@
+import { setupTheme } from "./theme";
 import { state, subscribe } from "./store";
 import { renderLegend } from "./panels/legend";
 import { renderTimeline } from "./panels/timeline";
@@ -31,6 +32,7 @@ import {
   back,
   returnToMap,
 } from "./controller";
+setupTheme(() => graph.refreshTheme());
 let brushed: string[] = [];
 graph.onBrush = (ids) => {
   brushed = ids;

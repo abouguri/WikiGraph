@@ -19,10 +19,11 @@ const bundle = await build({
   format: "iife",
   target: "es2022",
 });
-const css = readFileSync(
-  path.join(root, "src/wikigraph/static/style.css"),
-  "utf8",
-);
+const css = ["tokens.css", "style.css"]
+  .map((name) =>
+    readFileSync(path.join(root, "src/wikigraph/static", name), "utf8"),
+  )
+  .join("\n");
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage({
   viewport: { width: 1440, height: 900 },

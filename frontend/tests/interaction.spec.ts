@@ -12,7 +12,9 @@ const bundle = buildSync({
   write: false,
   format: "iife",
 }).outputFiles[0].text;
-const css = readFileSync("../src/wikigraph/static/style.css", "utf8");
+const css = ["tokens.css", "style.css"]
+  .map((name) => readFileSync(`../src/wikigraph/static/${name}`, "utf8"))
+  .join("\n");
 test.beforeEach(async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.emulateMedia({ reducedMotion: "reduce" });
@@ -135,4 +137,30 @@ test("returning from a path restores positions and stops animating", async ({
   const frames = await page.locator("#graph").getAttribute("data-frames");
   await page.waitForTimeout(150);
   expect(await page.locator("#graph").getAttribute("data-frames")).toBe(frames);
+});
+test("changing theme repaints cached node colors while preserving pins and camera", async ({
+  page,
+}) => {
+  const snapshot = () =>
+    page.evaluate(() => ({
+      pins: (window as any).graph.getPins(),
+      camera: { ...(window as any).graph.camera },
+      pixel: Array.from(
+        document
+          .querySelector("canvas")!
+          .getContext("2d")!
+          .getImageData(620, 450, 1, 1).data,
+      ),
+    }));
+  const before = await snapshot();
+  await page.evaluate(() => {
+    document.documentElement.dataset.theme = "light";
+    (window as any).graph.refreshTheme();
+  });
+  await expect
+    .poll(async () => (await snapshot()).pixel)
+    .not.toEqual(before.pixel);
+  const after = await snapshot();
+  expect(after.pins).toEqual(before.pins);
+  expect(after.camera).toEqual(before.camera);
 });

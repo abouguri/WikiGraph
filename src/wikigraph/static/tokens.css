@@ -1,0 +1,56 @@
+/* Semantic colors are shared by CSS surfaces and the Canvas renderer. */
+:root {
+  color-scheme: dark;
+  --surface-shadow: 0 10px 30px #0002;
+  --canvas: #0c1017;
+  --panel: rgba(18, 24, 34, 0.96);
+  --panel-solid: #121822;
+  --hairline: #283140;
+  --control-border: #63738a;
+  --text: #e0e5ed;
+  --muted: #9aa8bb;
+  --accent: #89aadd;
+  --pattern-ink: #829cc1;
+  --fact: #c2a36d;
+  --language: #7499d0;
+  --person: #b799ce;
+  --concept: #80b9aa;
+  --organization: #70b2c5;
+  --work: #a4a5d5;
+  --other: #91a3bd;
+  --year-start: #64758e;
+  --year-end: #d4e3f9;
+  --hover: #263347;
+  --reference-opacity: 0.28;
+  --glow-opacity: 0.22;
+  --ink: var(--text);
+  --line: var(--hairline);
+  --accent-tint: color-mix(in srgb, var(--accent) 8%, transparent);
+  --accent-border: color-mix(in srgb, var(--accent) 38%, var(--hairline));
+  --evidence-tint: color-mix(in srgb, var(--fact) 5%, transparent);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --surface-shadow: 0 6px 24px #20324b0a;
+  --canvas: #f1f4f8;
+  --panel: rgba(255, 255, 255, 0.96);
+  --panel-solid: #ffffff;
+  --hairline: #d5dce5;
+  --control-border: #79889b;
+  --text: #202c3c;
+  --muted: #58677b;
+  --accent: #426ea9;
+  --pattern-ink: #536e91;
+  --fact: #88682f;
+  --language: #426ea9;
+  --person: #855b9f;
+  --concept: #387e6b;
+  --organization: #357e91;
+  --work: #6966a6;
+  --other: #586f8e;
+  --year-start: #8494aa;
+  --year-end: #294c7e;
+  --hover: #e7edf5;
+  --reference-opacity: 0.36;
+  --glow-opacity: 0.12;
+}

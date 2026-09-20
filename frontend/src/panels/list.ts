@@ -13,6 +13,7 @@ export function renderList(
   },
   hidden: Set<string>,
 ) {
+  panel.dataset.view = tab;
   panel.replaceChildren();
   if (tab === "connections") {
     const edges = [...state.edges.values()].sort((a, b) =>

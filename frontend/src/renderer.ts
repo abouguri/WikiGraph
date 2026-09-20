@@ -73,6 +73,13 @@ export class GraphView {
   protected dragNode = "";
   protected brush: Point | undefined;
   private tooltip: HTMLDivElement;
+  refreshTheme() {
+    this.palette = readPalette();
+    this.sprites.clear();
+    this.sceneKey = "";
+    this.requestDraw();
+  }
+
   constructor(
     protected canvas: HTMLCanvasElement,
     protected select: (id: string) => void,
@@ -763,7 +770,9 @@ export class GraphView {
             const points = geometry.get(e.id)!;
             trace(points);
           }
-          c.globalAlpha = (fact ? 0.85 : 0.18) * (faded ? 0.12 : 1);
+          c.globalAlpha =
+            (fact ? 0.85 : Number(this.palette["reference-opacity"]) || 0.28) *
+            (faded ? 0.12 : 1);
           c.stroke();
         }
       c.setLineDash([]);
@@ -818,7 +827,7 @@ export class GraphView {
         Math.min(...dated),
         Math.max(...dated),
       ];
-      c.globalCompositeOperation = "lighter";
+      c.globalCompositeOperation = "source-over";
       for (const m of this.marks) {
         const n = byNode.get(m.id)!,
           color = nodeColor(n, this.colorBy, this.palette, yearRange);
@@ -827,7 +836,7 @@ export class GraphView {
           : this.selected && !connected.has(m.id)
             ? 0.25
             : 1;
-        c.globalAlpha = dim * 0.45;
+        c.globalAlpha = dim * (Number(this.palette["glow-opacity"]) || 0.22);
         c.drawImage(
           this.sprite(color),
           m.x - m.r * 3,
@@ -978,7 +987,7 @@ export class GraphView {
       }
       if (!r) continue;
       rects.push(r);
-      c.globalAlpha = important ? 1 : 0.85;
+      c.globalAlpha = 1;
       c.lineJoin = "round";
       c.lineWidth = 4;
       c.strokeStyle = this.palette.canvas;
