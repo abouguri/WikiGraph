@@ -1,21 +1,21 @@
-// Capture actual browser states and export a captioned screenshot walkthrough.
-import { chromium } from "@playwright/test";
+// Reproducible captures of the actual UI; no fabricated graph data.
+import { chromium } from "playwright";
 import { spawn } from "node:child_process";
 import { mkdir, mkdtemp, writeFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const output = path.join(root, "docs/media");
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."),
+  output = path.join(root, "docs/media");
 await mkdir(output, { recursive: true });
-const frames = await mkdtemp(path.join(tmpdir(), "wikigraph-demo-"));
+const frames = await mkdtemp(path.join(tmpdir(), "wikigraph-cosmos-"));
 const server = spawn(
   path.join(root, ".venv/bin/uvicorn"),
   [
     "wikigraph.api:create_app",
     "--factory",
     "--port",
-    "8877",
+    "8879",
     "--log-level",
     "warning",
   ],
@@ -24,263 +24,201 @@ const server = spawn(
     env: {
       ...process.env,
       WIKIGRAPH_GRAPH: path.join(root, "data/wikipedia/graph.ttl"),
+      WIKIGRAPH_RATE_LIMIT: "10000",
     },
     stdio: "ignore",
   },
 );
-const base = "http://127.0.0.1:8877";
-let browser, context;
-const started = Date.now(),
-  chapters = [];
+const base = "http://127.0.0.1:8879";
+let browser;
+const chapters = [],
+  checks = [];
+let duration = 0;
 try {
   let ready = false;
-  for (let i = 0; i < 120; i++) {
+  for (let i = 0; i < 80; i++) {
     try {
-      const r = await fetch(base + "/health");
-      if (r.ok) {
+      if ((await fetch(base + "/health")).ok) {
         ready = true;
         break;
       }
     } catch {}
-    await new Promise((resolve) => setTimeout(resolve, 500));
+    await new Promise((r) => setTimeout(r, 500));
   }
-  if (!ready) throw new Error("Demo server did not become ready");
+  if (!ready) throw Error("Local demo server did not start");
   browser = await chromium.launch();
-  context = await browser.newContext({
-    viewport: { width: 1440, height: 1000 },
-    permissions: ["clipboard-write"],
+  const page = await browser.newPage({
+    viewport: { width: 1440, height: 900 },
+    reducedMotion: "reduce",
   });
-  const page = await context.newPage();
   const errors = [];
-  page.on("pageerror", (error) => errors.push(error.message));
-  let duration = 0;
-  const clips = [];
-  async function caption(text, seconds) {
-    chapters.push({ seconds: duration, text });
-    duration += seconds;
+  page.on("pageerror", (e) => errors.push(e.message));
+  const capture = async (name, caption, seconds = 10) => {
+    await page.screenshot({ path: path.join(output, name + ".png") });
     await page.evaluate((text) => {
-      let el = document.getElementById("demo-caption");
-      if (!el) {
-        el = document.createElement("div");
-        el.id = "demo-caption";
-        document.body.append(el);
+      let caption = document.getElementById("recording-caption");
+      if (!caption) {
+        caption = document.createElement("div");
+        caption.id = "recording-caption";
+        document.body.append(caption);
       }
-      Object.assign(el.style, {
+      caption.textContent = text;
+      Object.assign(caption.style, {
         position: "fixed",
-        left: "20px",
-        right: "20px",
-        bottom: "15px",
-        zIndex: "9999",
-        background: "#182333",
-        color: "#fff",
-        padding: "18px 25px",
+        bottom: "12px",
+        left: "12px",
+        right: "12px",
+        zIndex: "100",
+        padding: "14px 22px",
+        background: "#131a2e",
+        color: "#e4e9f7",
+        border: "1px solid #62718f",
         borderRadius: "10px",
-        font: "16px/1.5 system-ui",
-        boxShadow: "0 3px 20px #0003",
+        font: "15px system-ui",
       });
-      el.textContent = text;
-    }, text);
-    console.log(text);
-    const frame = path.join(frames, `${chapters.length}.png`);
-    await page.screenshot({ path: frame });
-    clips.push(`file '${frame}'\nduration ${seconds}`);
-  }
-  await page.goto(base + "/?mode=api");
+    }, caption);
+    const filename = path.join(frames, String(chapters.length) + ".png");
+    await page.screenshot({ path: filename });
+    chapters.push({
+      seconds: duration,
+      caption,
+      file: filename,
+      duration: seconds,
+    });
+    duration += seconds;
+    await page.evaluate(() =>
+      document.getElementById("recording-caption")?.remove(),
+    );
+  };
+  await page.goto(base);
+  await page.locator("#suggestions button").first().waitFor();
+  await capture(
+    "cosmos-landing",
+    "Start with one to three origins. This is the real 300-page Wikipedia corpus.",
+  );
+  const search = async (text) => {
+    await page.getByLabel("Search entities").fill(text);
+    await page.getByRole("button", { name: "Search", exact: true }).click();
+    await page.locator("#results button").first().click();
+    await page.waitForFunction(() =>
+      document.querySelector("#status").textContent.includes("Map ready"),
+    );
+  };
+  await search("Python (programming language)");
+  await capture(
+    "dense-graph",
+    "Nearby entities share structural connections. Dashed lines remain page references.",
+  );
+  await page.locator("#entity-list .entity-row").nth(1).click();
+  await page.getByRole("button", { name: "Why is this related?" }).click();
   await page.waitForFunction(() =>
-    document.querySelector("#status")?.textContent?.includes("connections"),
+    document
+      .querySelector("#why")
+      .textContent.includes("similarity to this origin"),
   );
-  await page.locator(".workspace").scrollIntoViewIfNeeded();
-  await caption(
-    "WikiGraph: explore a real 300-page Wikipedia corpus. Each connection retains its source revision.",
-    14,
+  await capture(
+    "cosmos-explanation",
+    "Inspect weighted shared neighbors. Similarity is not a factual confidence score.",
   );
-  await page.getByRole("tab", { name: "Connections", exact: true }).click();
+  await page.getByRole("button", { name: "Close evidence" }).click();
+  await search("Java (programming language)");
+  await page.getByText("Appearance & filters", { exact: true }).click();
   await page
-    .locator("#connections button")
-    .filter({ hasText: "Inspect evidence" })
-    .first()
-    .click();
-  await page.locator("#evidence blockquote").waitFor();
-  await caption(
-    "A page link records a reference. It is deliberately separate from a factual relationship.",
-    14,
-  );
-  await page.locator("#query").fill("Java");
-  await page.locator("#search-form").evaluate((form) => form.requestSubmit());
-  await page
-    .locator("#results")
-    .getByRole("button", { name: "Java (programming language)", exact: true })
-    .click();
-  await page.waitForFunction(
-    () =>
-      document.querySelector("#selection")?.textContent ===
-      "Java (programming language)",
-  );
-  await page.waitForFunction(
-    () =>
-      !document.querySelector("#status")?.textContent?.startsWith("Loading"),
-  );
-  await page.locator("#predicate").selectOption("designedBy");
-  await page.waitForFunction(() =>
-    document.querySelector("#status")?.textContent?.startsWith("1 connections"),
-  );
-  await page.getByRole("tab", { name: "Connections", exact: true }).click();
-  await page
-    .locator("#connections button")
-    .filter({ hasText: "Inspect evidence" })
-    .first()
-    .click();
-  await page.waitForFunction(() =>
-    document.querySelector("#evidence")?.textContent?.includes("James Gosling"),
-  );
-  await page.getByRole("tab", { name: "Graph", exact: true }).click();
-  await page.evaluate(() => {
-    document.getElementById("demo-caption")?.remove();
-    window.scrollTo(0, 0);
-  });
-  await page.screenshot({
-    path: path.join(output, "real-evidence.png"),
-    fullPage: true,
-  });
-  await page.locator(".workspace").scrollIntoViewIfNeeded();
-  await caption(
-    "Java → designed by → James Gosling. The panel shows the actual sentence, source revision, and extraction method.",
-    18,
-  );
-  await page.locator(".evidence-details summary").click();
-  await caption(
-    "Factual evidence uses exact offsets into a stored snapshot. Open source revision links back to Wikipedia.",
-    14,
-  );
-  await page.locator(".evidence-details summary").click();
-  await page.locator("#predicate").selectOption("all");
-  await page.locator("#direction").selectOption("out");
-  await page.getByRole("button", { name: "Find a path", exact: true }).click();
-  await page.locator("#target").selectOption("enwiki-51792");
-  await page.locator("#find-path").click();
-  await page.waitForFunction(() =>
-    document.querySelector("#status")?.textContent?.includes("Shortest path"),
-  );
-  await caption(
-    "Choose a destination and direction. Path search has explicit hop, node, and time limits.",
-    16,
-  );
-  await page.locator("#share").click();
-  const shared = page.url();
-  await page.goto(shared);
-  await page.waitForFunction(() =>
-    document.querySelector("#status")?.textContent?.includes("connections"),
-  );
-  await page.locator(".workspace").scrollIntoViewIfNeeded();
-  await caption(
-    "Selections, relationship filters, direction, and destination survive in a shareable URL.",
-    14,
-  );
-  await page.locator("#mode").selectOption("offline");
-  await page.waitForFunction(() =>
-    document.querySelector("#dataset-note")?.textContent?.includes("Authored"),
-  );
-  await page.waitForFunction(
-    () =>
-      !document.querySelector("#status")?.textContent?.startsWith("Loading"),
-  );
-  await page.locator("#predicate").selectOption("designedBy");
-  await page.waitForFunction(() =>
-    document.querySelector("#status")?.textContent?.startsWith("1 connections"),
-  );
-  await page.getByRole("tab", { name: "Connections", exact: true }).click();
-  await page
-    .locator("#connections button")
-    .filter({ hasText: "Inspect evidence" })
-    .first()
-    .click();
-  await caption(
-    "Offline teaching examples are synthetic and clearly labeled. They are never presented as Wikipedia evidence.",
-    16,
-  );
-  await page.keyboard.press("Escape");
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.getByRole("tab", { name: "Connections", exact: true }).click();
+    .getByLabel("Relationship", { exact: true })
+    .selectOption("designedBy");
+  await page.locator("[data-tab=connections]").click();
   await page
     .getByRole("button", { name: "Inspect evidence", exact: true })
     .first()
     .click();
-  await page.evaluate(() => document.getElementById("demo-caption")?.remove());
-  await page.screenshot({
-    path: path.join(output, "mobile.png"),
-    fullPage: true,
+  await page.locator("#evidence blockquote").waitFor();
+  checks.push({
+    evidence: await page.locator("#evidence h2").textContent(),
+    source: await page.locator("#evidence a").getAttribute("href"),
   });
-  await caption(
-    "The connection list provides keyboard actions. The same exploration works on a narrow screen.",
-    16,
+  await capture(
+    "real-evidence",
+    "Gold connections have extractable source evidence. Open the pinned Wikipedia revision.",
   );
-  await page.keyboard.press("Escape");
-  await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.getByRole("tab", { name: "Graph", exact: true }).click();
-  await page.locator(".workspace").scrollIntoViewIfNeeded();
-  await caption(
-    "Verified engineering: byte-identical rebuilds, bounded queries, typed APIs, and measured latency. Real extraction coverage and independent annotation remain open.",
-    18,
+  await page.getByRole("button", { name: "Close evidence" }).click();
+  await page.getByRole("combobox", { name: "Dataset" }).selectOption("offline");
+  await page.locator("#suggestions button").first().waitFor();
+  await search("Python");
+  await page.locator("[data-tab=map]").click();
+  await page.getByLabel("Relationship", { exact: true }).selectOption("all");
+  await capture(
+    "cosmos-teaching",
+    "The offline teaching sample uses the same map workflow, with synthetic evidence clearly labeled.",
   );
-  if (errors.length) throw new Error(errors.join("\n"));
-  await context.close();
-  context = undefined;
-  const sequence = path.join(frames, "sequence.txt");
-  await writeFile(
-    sequence,
-    clips.join("\n") +
-      `\nfile '${path.join(frames, `${chapters.length}.png`)}'\n`,
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.screenshot({ path: path.join(output, "mobile.png") });
+  await page.getByRole("button", { name: "Toggle map list" }).click();
+  await page.locator("#entity-list .entity-row").first().click();
+  await page.screenshot({ path: path.join(output, "mobile-details.png") });
+  await page.getByRole("button", { name: "Save entity", exact: true }).click();
+  await page.getByRole("button", { name: "Close evidence" }).click();
+  await page.locator("[data-tab=saved]").click();
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await capture(
+    "cosmos-saved",
+    "Save discoveries from the detail panel, then export your saved list as JSON, CSV or Markdown.",
   );
+  if (errors.length) throw Error(errors.join("\n"));
+  const concat =
+    chapters.map((c) => `file '${c.file}'\nduration ${c.duration}`).join("\n") +
+    `\nfile '${chapters.at(-1).file}'\n`;
+  const list = path.join(frames, "frames.txt");
+  await writeFile(list, concat);
   await new Promise((resolve, reject) => {
-    const encoder = spawn(
+    const ffmpeg = spawn(
       "ffmpeg",
       [
         "-y",
-        "-loglevel",
+        "-v",
         "error",
         "-f",
         "concat",
         "-safe",
         "0",
         "-i",
-        sequence,
+        list,
         "-vf",
-        "scale=1440:1000:force_original_aspect_ratio=decrease,pad=1440:1000:0:0:color=white,fps=5",
-        "-t",
-        String(duration),
+        "fps=12,format=yuv420p",
         "-c:v",
         "libvpx-vp9",
-        "-crf",
-        "35",
         "-b:v",
         "0",
+        "-crf",
+        "36",
         path.join(output, "demo.webm"),
       ],
       { stdio: "inherit" },
     );
-    encoder.on("error", reject);
-    encoder.on("exit", (code) =>
-      code === 0 ? resolve() : reject(new Error(`ffmpeg exited ${code}`)),
+    ffmpeg.on("error", reject);
+    ffmpeg.on("exit", (code) =>
+      code ? reject(Error("ffmpeg failed")) : resolve(),
     );
   });
   await writeFile(
-    path.join(output, "chapters.json"),
+    path.join(root, "reports/cosmos-demo.json"),
     JSON.stringify(
       {
         duration_seconds: duration,
-        captions: chapters,
-        kind: "Captioned screenshots captured from the running application; no audio",
+        chapters: chapters.map(({ file, ...rest }) => rest),
+        checks,
+        browser_errors: errors,
       },
       null,
       2,
     ) + "\n",
   );
   console.log(
-    `Demo recorded in ${Math.round((Date.now() - started) / 1000)} seconds`,
+    "Captured six chapters, desktop and mobile screenshots; " +
+      duration +
+      " seconds.",
   );
 } finally {
-  if (context) await context.close();
-  if (browser) await browser.close();
+  await browser?.close();
   server.kill("SIGTERM");
   await rm(frames, { recursive: true, force: true });
 }

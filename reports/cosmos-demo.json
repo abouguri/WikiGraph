@@ -1,0 +1,42 @@
+{
+  "duration_seconds": 60,
+  "chapters": [
+    {
+      "seconds": 0,
+      "caption": "Start with one to three origins. This is the real 300-page Wikipedia corpus.",
+      "duration": 10
+    },
+    {
+      "seconds": 10,
+      "caption": "Nearby entities share structural connections. Dashed lines remain page references.",
+      "duration": 10
+    },
+    {
+      "seconds": 20,
+      "caption": "Inspect weighted shared neighbors. Similarity is not a factual confidence score.",
+      "duration": 10
+    },
+    {
+      "seconds": 30,
+      "caption": "Gold connections have extractable source evidence. Open the pinned Wikipedia revision.",
+      "duration": 10
+    },
+    {
+      "seconds": 40,
+      "caption": "The offline teaching sample uses the same map workflow, with synthetic evidence clearly labeled.",
+      "duration": 10
+    },
+    {
+      "seconds": 50,
+      "caption": "Save discoveries from the detail panel, then export your saved list as JSON, CSV or Markdown.",
+      "duration": 10
+    }
+  ],
+  "checks": [
+    {
+      "evidence": "Java (programming language) was designed by James Gosling",
+      "source": "https://en.wikipedia.org/w/index.php?oldid=1375186425"
+    }
+  ],
+  "browser_errors": []
+}

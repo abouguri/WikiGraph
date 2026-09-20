@@ -1,0 +1,44 @@
+{
+  "backend_tests": 53,
+  "browser_tests": 28,
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      900,
+      900
+    ],
+    [
+      390,
+      900
+    ]
+  ],
+  "datasets": [
+    "synthetic API",
+    "offline teaching",
+    "Wikipedia corpus screenshots and API audit"
+  ],
+  "contrast_against_solid_panel": {
+    "text": 14.24,
+    "muted_text": 6.8,
+    "control_border": 3.52,
+    "focus_accent": 6.63
+  },
+  "verified_shared_neighbors": {
+    "origins": [
+      "Python (programming language)",
+      "Ruby (programming language)"
+    ],
+    "outgoing": [
+      "Duck typing",
+      "Reflective programming"
+    ]
+  },
+  "limitations": [
+    "No physical mobile-device usability study",
+    "Corpus has no meaningful entity types or dates",
+    "Production deployment of the redesign branch is not verified"
+  ]
+}

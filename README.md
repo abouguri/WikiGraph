@@ -6,7 +6,7 @@ queries through a typed API, and provides an interactive graph and accessible li
 
 ![WikiGraph showing Java's real source evidence for James Gosling](docs/media/real-evidence.png)
 
-[Watch the 2:20 walkthrough](docs/media/demo.webm) · [Technical case study](docs/case-study.md) ·
+[Watch the one-minute walkthrough](docs/media/demo.webm) · [Technical case study](docs/case-study.md) ·
 [Release notes](docs/release-notes.md) · [Visual verification](docs/visual-verification.md)
 
 ## Try it
@@ -33,7 +33,7 @@ To serve the real checked-in corpus:
 WIKIGRAPH_GRAPH=data/wikipedia/graph.ttl uvicorn wikigraph.api:create_app --factory
 ```
 
-Choose **Server dataset** in the explorer. API docs are at `/docs`.
+Choose **Wikipedia corpus** in the explorer. API docs are at `/docs`.
 Alternatively, run `docker compose up --build -d`.
 
 ## What is implemented
@@ -46,11 +46,39 @@ Alternatively, run `docker compose up --build -d`.
   from factual predicates.
 - Typed search, paginated neighbors, bounded shortest paths, evidence lookup,
   request IDs, metrics, and a per-process request quota.
-- Compact TypeScript/SVG workspace with stable graph layout, collision-aware
-  labels, progressive expansion, directional edges, zoom/pan, ranked search,
-  accessible evidence sheets, shareable selections and an offline sample.
+- Dark Canvas 2D workspace with glowing, data-sized nodes, cooling force simulation,
+  pinning, collision-aware labels, pan/pinch/zoom and an accessible entity list.
+- One-to-three-origin similarity maps with weighted shared-neighbor explanations,
+  Foundations / Builds on this lists, and independently inspectable source evidence.
+- Stable expansion, filter fading, conditional year brushing, saved-list exports,
+  mobile detail sheets, reduced motion and shareable map state. The offline teaching
+  sample uses the same scoring rules as the API.
 - Python CI and Chromium browser checks, reproducible exports, evaluation tooling,
   and a measured local HTTP benchmark.
+
+## Explore the map
+
+Choose a suggested origin or search for one. Select a node to read its details;
+**Add as origin** compares up to three starting points. **Why is this related?**
+shows shared neighbors and direct evidence. Similarity describes graph structure,
+not factual confidence. Dashed references and gold factual relations remain distinct.
+
+Drag a node to pin it; double-click to release. Scroll or pinch to zoom, **Fit** to
+frame the map, and **Re-arrange** to release settled positions while keeping pins.
+Use **Pause motion** or your system's reduced-motion setting to stop animation.
+Keyboard: `/` focuses search, arrow keys on the canvas select connected entities,
+Enter expands, `f` fits, and Escape closes details. The lists provide equivalent actions.
+
+Appearance controls change type/cluster coloring and node size. Filters fade items
+without rearranging the map. Shift-drag selects a group. Save entities from Details,
+then export JSON, CSV or Markdown from the Saved tab. Saved entries stay in your browser.
+**Share map** preserves origins, selection, additions, expansion, removals, filters,
+encodings, camera, pins and inspected evidence. Mobile panels collapse to make room.
+
+The normal view is bounded to **150 entities / 500 connections**, with 12 assertions
+per expansion and factual edges prioritized at the cap. A map recommends 5–80 related
+entities plus its origins. No meaningful types or years are supplied by the current
+corpora: types display as Other and the timeline/year coloring stay hidden.
 
 ## Evidence and limits
 
@@ -68,6 +96,12 @@ A local five-client HTTP benchmark measured p95 latency of 20.97 ms for search,
 300-page results; the specified local latency gate passed, but this is not an internet SLA.
 See [measured results](docs/benchmark.md) and [raw report](reports/benchmark.json).
 
+The Cosmos renderer measured about 60 FPS in a headless Chromium camera-pan test
+at 300 nodes / 900 edges, with zero idle redraws. Real-corpus one-, two- and three-origin
+map requests took 18–32 ms locally; RDF startup was measured separately at 7.27 seconds.
+These are local measurements, not a device or hosting SLA. See the
+[implementation log](docs/redesign-log.md) and [renderer report](reports/cosmos-renderer.json).
+
 ## Reproduce and develop
 
 ```sh
@@ -84,6 +118,7 @@ npm ci
 npm run build
 npx playwright install chromium
 npm test
+node verify-renderer.mjs
 ```
 
 The real corpus rebuild was verified byte-for-byte without network access.
@@ -99,7 +134,7 @@ or test the frontend.
 [Explorer](docs/explorer.md) · [Deployment](docs/deployment.md)
 
 Pending: independent annotation of the frozen real evaluation split,
-independent reproduction, three-person usability review and public hosting. The optional
+independent reproduction, three-person usability review and verification of the production deployment. The optional
 [Neo4j projection](docs/neo4j.md) has verified batched imports and RDF round-trip
 fidelity; the public API continues to use RDFLib.
 

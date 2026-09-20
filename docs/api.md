@@ -33,3 +33,19 @@ server restart. Keep ingestion separate from this read-only service.
 
 `WIKIGRAPH_RATE_LIMIT` overrides the per-process request quota (positive integer).
 Keep the default for normal use; benchmark runs explicitly record their override.
+
+## Structural similarity
+
+- `GET /graph/map?origins=id[,id,id]&limit=40`: one to three distinct valid origins;
+  limit clamps to 5–80 recommendations, plus the origins. Returns enriched nodes,
+  original assertion edges, invisible layout springs, clusters and side lists.
+- `GET /similarity/explain?a=id&b=id`: weighted shared incoming/outgoing neighbors
+  and direct factual/reference assertions for an entity pair.
+- `GET /entities/top?limit=6`: highest incoming-page-link-degree starting points.
+
+Similarity is symmetric weighted cosine (incoming and outgoing components weighted
+0.5 each), plus 0.15 for a direct page reference and 0.35 for a direct fact, clamped
+to one. Neighbor weights are `1 / ln(2 + incoming_degree + outgoing_degree)`.
+Multi-origin scores use a geometric mean with a 0.02 floor per origin. This score
+is structural proximity, not a calibrated probability or a new factual relationship.
+All existing search, neighbor, path and assertion response shapes remain unchanged.

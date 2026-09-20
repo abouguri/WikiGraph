@@ -21,6 +21,7 @@ from rdflib import RDF, Graph
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from .graph_builder import WG
+from .similarity import SimilarityIndex
 from .validation import validate_graph
 
 Predicate = Choice["all", "linksTo", "designedBy", "developedBy", "influencedBy"]
@@ -121,6 +122,37 @@ class QueryStore:
             self.adjacency[item.subject].append(edge)
             if item.object != item.subject:
                 self.adjacency[item.object].append(edge)
+
+        metadata: dict[str, dict[str, Any]] = {}
+        for uri in graph.subjects(RDF.type, WG.Entity):
+            id = public_id(uri)
+            snapshot = next(iter(sorted(graph.subjects(WG.page, uri), key=str)), None)
+            text = str(graph.value(snapshot, WG.text) or "") if snapshot else ""
+            year_value = graph.value(uri, WG.year)
+            year = None
+            if year_value is not None:
+                try:
+                    year = int(str(year_value))
+                except ValueError:
+                    pass
+            kinds = sorted(
+                str(t).removeprefix(str(WG)) for t in graph.objects(uri, RDF.type) if t != WG.Entity
+            )
+            metadata[id] = {
+                **self.entities[id].model_dump(),
+                "type": kinds[0] if kinds else "Other",
+                "year": year,
+                "summary": text.split("\n\n")[0][:600],
+                "source_url": str(graph.value(uri, WG.url) or ""),
+                "source_kind": str(graph.value(snapshot, WG.sourceKind) or "") if snapshot else "",
+            }
+        self.similarity = SimilarityIndex(
+            metadata,
+            [
+                {key: getattr(a, key) for key in EdgeView.model_fields}
+                for a in self.assertions.values()
+            ],
+        )
 
     def entity(self, id: str) -> EntityView:
         if id not in self.entities:
@@ -296,6 +328,27 @@ def create_app(graph_path: Path | None = None, *, rate_limit: int | None = None)
         return EntityResults(
             items=matches[offset : offset + limit], total=len(matches), offset=offset, limit=limit
         )
+
+    @app.get("/entities/top")
+    def top_entities(limit: int = Query(6, ge=1, le=20)) -> dict[str, Any]:
+        return {"items": store.similarity.top(limit)}
+
+    @app.get("/graph/map")
+    def similarity_map(origins: str = Query(max_length=250), limit: int = 40) -> dict[str, Any]:
+        ids = origins.split(",")
+        if not 1 <= len(ids) <= 3 or any(not id for id in ids) or len(set(ids)) != len(ids):
+            raise HTTPException(422, "Choose one to three distinct origins")
+        for id in ids:
+            store.entity(id)
+        return store.similarity.map(ids, limit)
+
+    @app.get("/similarity/explain")
+    def similarity_explain(
+        a: str = Query(max_length=80), b: str = Query(max_length=80)
+    ) -> dict[str, Any]:
+        store.entity(a)
+        store.entity(b)
+        return store.similarity.explain(a, b)
 
     @app.get("/entities/{id}/neighbors", response_model=NeighborResults)
     def neighbors(
