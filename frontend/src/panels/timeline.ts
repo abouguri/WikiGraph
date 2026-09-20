@@ -1,3 +1,98 @@
-import type {GraphNode} from '../encode';
-import {element,button} from './detail';
-export function renderTimeline(container:HTMLElement,nodes:GraphNode[],range:[number,number]|null,change:(range:[number,number]|null)=>void){const years=nodes.flatMap(n=>n.year===null||n.year===undefined?[]:[n.year]);container.hidden=!years.length;if(!years.length)return;const min=Math.min(...years),max=Math.max(...years);container.replaceChildren();const title=element('div',range?`${range[0]}–${range[1]}`:`${min}–${max}`,'timeline-title');const histogram=element('div','','histogram');histogram.setAttribute('role','img');histogram.setAttribute('aria-label',`Year distribution from ${min} to ${max}; ${years.length} dated entities`);const counts=Array.from({length:20},()=>0);for(const y of years)counts[Math.min(19,Math.floor((y-min)/Math.max(1,max-min)*20))]++;for(const count of counts){const bar=element('i');bar.style.height=`${Math.max(2,count/Math.max(...counts)*32)}px`;histogram.append(bar)}const controls=element('div','','timeline-controls');const inputs=([['From year',range?.[0]??min],['To year',range?.[1]??max]]as const).map(([name,value])=>{const label=element('label',name);const input=element('input');input.type='range';input.min=String(min);input.max=String(max);input.value=String(value);input.setAttribute('aria-label',name);label.append(input);controls.append(label);return input});const commit=()=>change([Math.min(Number(inputs[0].value),Number(inputs[1].value)),Math.max(Number(inputs[0].value),Number(inputs[1].value))]);inputs.forEach(i=>i.onchange=commit);let start:number|undefined;const yearAt=(e:PointerEvent)=>Math.round(min+Math.max(0,Math.min(1,(e.clientX-histogram.getBoundingClientRect().left)/histogram.clientWidth))*(max-min));histogram.onpointerdown=e=>{start=yearAt(e);histogram.setPointerCapture(e.pointerId)};histogram.onpointerup=e=>{if(start!==undefined){const end=yearAt(e);change([Math.min(start,end),Math.max(start,end)]);start=undefined}};container.append(title,histogram,controls,button('Clear years',()=>change(null)))}
+import type { GraphNode } from "../encode";
+import { element, button } from "./detail";
+export function renderTimeline(
+  container: HTMLElement,
+  nodes: GraphNode[],
+  range: [number, number] | null,
+  change: (range: [number, number] | null) => void,
+) {
+  const years = nodes.flatMap((n) =>
+    n.year === null || n.year === undefined ? [] : [n.year],
+  );
+  container.hidden = !years.length;
+  if (!years.length) return;
+  const min = Math.min(...years),
+    max = Math.max(...years);
+  const focused = document.activeElement?.getAttribute("aria-label");
+  container.replaceChildren();
+  const title = element(
+    "div",
+    range ? `${range[0]}–${range[1]}` : `${min}–${max}`,
+    "timeline-title",
+  );
+  const histogram = element("div", "", "histogram");
+  histogram.setAttribute("role", "img");
+  histogram.setAttribute(
+    "aria-label",
+    `Year distribution from ${min} to ${max}; ${years.length} dated entities`,
+  );
+  const counts = Array.from({ length: 20 }, () => 0);
+  for (const y of years)
+    counts[
+      Math.min(19, Math.floor(((y - min) / Math.max(1, max - min)) * 20))
+    ]++;
+  for (const count of counts) {
+    const bar = element("i");
+    bar.style.height = `${Math.max(2, (count / Math.max(...counts)) * 32)}px`;
+    histogram.append(bar);
+  }
+  const controls = element("div", "", "timeline-controls");
+  const inputs = (
+    [
+      ["From year", range?.[0] ?? min],
+      ["To year", range?.[1] ?? max],
+    ] as const
+  ).map(([name, value]) => {
+    const label = element("label", name);
+    const input = element("input");
+    input.type = "range";
+    input.min = String(min);
+    input.max = String(max);
+    input.value = String(value);
+    input.setAttribute("aria-label", name);
+    label.append(input);
+    controls.append(label);
+    return input;
+  });
+  const commit = () =>
+    change([
+      Math.min(Number(inputs[0].value), Number(inputs[1].value)),
+      Math.max(Number(inputs[0].value), Number(inputs[1].value)),
+    ]);
+  inputs.forEach((i) => (i.onchange = commit));
+  let start: number | undefined;
+  const yearAt = (e: PointerEvent) =>
+    Math.round(
+      min +
+        Math.max(
+          0,
+          Math.min(
+            1,
+            (e.clientX - histogram.getBoundingClientRect().left) /
+              histogram.clientWidth,
+          ),
+        ) *
+          (max - min),
+    );
+  histogram.onpointerdown = (e) => {
+    start = yearAt(e);
+    histogram.setPointerCapture(e.pointerId);
+  };
+  histogram.onpointerup = (e) => {
+    if (start !== undefined) {
+      const end = yearAt(e);
+      change([Math.min(start, end), Math.max(start, end)]);
+      start = undefined;
+    }
+  };
+  container.append(
+    title,
+    histogram,
+    controls,
+    button("Clear years", () => change(null)),
+  );
+  if (focused === "From year" || focused === "To year")
+    container
+      .querySelector<HTMLInputElement>(`[aria-label="${focused}"]`)
+      ?.focus({ preventScroll: true });
+}

@@ -49,3 +49,17 @@ Offline scoring is implemented without a new dependency and checked against Pyth
 Added type toggles, combined relationship/direction fading, a conditional year histogram with pointer brushing and keyboard-operable range controls, Shift-drag group actions, and saved-list JSON/CSV/Markdown downloads. Filtering preserves positions and graph membership while disabling hit targets for hidden items. The list and count use the same filter conditions. Saved entries persist per dataset in browser storage, including source metadata; exports accept only HTTPS Wikipedia source links and clearly label synthetic entries.
 
 Six browser/parity/export tests pass. Timeline behavior is exercised using an explicitly dated test fixture; neither shipped dataset is assigned invented dates. Production typecheck/build passes.
+
+## Phase 7 — final polish and verification
+
+Completed keyboard selection/expansion, touch pinch and long-press actions, mobile focus restoration, and a graph-first phone layout with an optional bottom sheet. Added separate curved targets for parallel edges and loops, panel-aware labels and framing, pin/evidence URL restoration, and a 240 ms path-return transition that is disabled under reduced motion. Main now contains wiring; request/state coordination lives in controller.ts. Removed obsolete SVG/list CSS and formatted the source for review.
+
+The first 300-node/900-edge stress measurement missed the target (about 37 FPS). Batching glows improved it, and caching the settled mark layer while keeping labels and hit geometry live resolved the bottleneck. Final camera-pan measurement: **60.00 FPS**, **5.5 ms p95 draw time**, **zero idle frames**, DPR 1 in headless Chromium. The repeatable script and raw report are committed; these results are not a guarantee for all devices.
+
+Validation: TypeScript and production build pass; Ruff and mypy pass; **53 backend tests** and **28 browser/module/interaction tests** pass across the full suite and final targeted rechecks. The browser tests exercise both the synthetic server and offline sample, desktop/tablet/phone sizes, stale requests, failure/retry, shared state, path/evidence flows, filters/exports, pointer hit targets, pinning, group selection, touch gestures, and reduced-motion/idle behavior. Real Wikipedia captures and API measurements are separate from the teaching fixtures. Two explanation results were checked against the RDF neighbor sets: Python and Ruby both link to Duck typing and Reflective programming.
+
+Text, muted text, control borders and focus accent have contrast ratios of 14.24, 6.80, 3.52 and 6.63 against the solid panel background. This is a token-level check, not an independent accessibility certification. Physical-device and human usability reviews remain follow-ups.
+
+Refreshed README, API/explorer/verification documentation, screenshots and the one-minute walkthrough. Both datasets still lack meaningful types and years; the timeline stays hidden and no metadata was invented. The existing RDF startup cost remains separate from fast map requests.
+
+All eight implementation phases are committed separately on `redesign/cosmos`. The working plan remains local and untracked, and the user's `.gitignore` change remains unstaged. This branch has not been merged into main; production deployment of the redesign is not claimed.

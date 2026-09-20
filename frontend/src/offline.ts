@@ -1,14 +1,238 @@
-import type {Dataset,MapData,Explanation} from './model';
-const compare=(a:string,b:string)=>a<b?-1:a>b?1:0;
+import type { Dataset, MapData, Explanation } from "./model";
+const compare = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
 /** Same bounded algorithm as similarity.py; parity is checked against the API. */
-export class OfflineIndex{
- out=new Map<string,Set<string>>();inc=new Map<string,Set<string>>();adj=new Map<string,Set<string>>();weights=new Map<string,number>();
- constructor(public data:Dataset){for(const n of data.entities){this.out.set(n.id,new Set());this.inc.set(n.id,new Set());this.adj.set(n.id,new Set())}for(const e of data.assertions){this.adj.get(e.subject)!.add(e.object);this.adj.get(e.object)!.add(e.subject);if(e.predicate==='linksTo'){this.out.get(e.subject)!.add(e.object);this.inc.get(e.object)!.add(e.subject)}}for(const n of data.entities)this.weights.set(n.id,1/Math.log(2+this.out.get(n.id)!.size+this.inc.get(n.id)!.size))}
- shared(a:Set<string>,b:Set<string>){return [...a].filter(id=>b.has(id)).sort()}
- score(a:string,b:string){if(a===b)return 1;let score=0;for(const index of [this.out,this.inc]){const x=index.get(a)!,y=index.get(b)!;const mass=(ids:Iterable<string>)=>[...ids].sort().reduce((sum,id)=>sum+this.weights.get(id)!,0);const den=Math.sqrt(mass(x)*mass(y));if(den)score+=.5*mass(this.shared(x,y))/den;}if(this.out.get(a)!.has(b)||this.out.get(b)!.has(a))score+=.15;if(this.data.assertions.some(e=>e.predicate!=='linksTo'&&((e.subject===a&&e.object===b)||(e.subject===b&&e.object===a))))score+=.35;return Math.min(1,score)}
- node(id:string){return {...this.data.entities.find(n=>n.id===id)!,in_links:this.inc.get(id)!.size,out_links:this.out.get(id)!.size}}
- top(){return this.data.entities.map(n=>this.node(n.id)).sort((a,b)=>b.in_links-a.in_links||compare(a.id,b.id)).slice(0,6)}
- clusters(ids:string[]){const order=[...ids].sort(),labels=new Map(order.map(id=>[id,id]));for(let pass=0;pass<20;pass++){let changed=false;for(const a of order){const totals=new Map<string,number>();for(const b of order){const w=this.score(a,b);if(a===b||w<.15)continue;const label=labels.get(b)!;totals.set(label,(totals.get(label)||0)+w)}const current=labels.get(a);const best=[...totals.keys()].sort((x,y)=>totals.get(y)!-totals.get(x)!||Number(x!==current)-Number(y!==current)||compare(x,y))[0];if(best&&best!==labels.get(a)){labels.set(a,best);changed=true}}if(!changed)break}const sizes=new Map<string,number>();for(const l of labels.values())sizes.set(l,(sizes.get(l)||0)+1);const numbers=[...sizes.keys()].sort((a,b)=>sizes.get(b)!-sizes.get(a)!||compare(a,b));return new Map(order.map(id=>[id,numbers.indexOf(labels.get(id)!)]))}
- map(origins:string[],limit=40):MapData{const candidates=new Set<string>();for(const o of origins){for(const n of this.adj.get(o)!){candidates.add(n);for(const m of this.adj.get(n)!)candidates.add(m)}}for(const o of origins)candidates.delete(o);const score=(id:string)=>{const scores=origins.map(o=>this.score(id,o));return scores.some(Boolean)?scores.length===1?scores[0]:Math.exp(scores.reduce((sum,v)=>sum+Math.log(Math.max(.02,v)),0)/scores.length):0};const chosen=[...candidates].filter(id=>score(id)>0).sort((a,b)=>score(b)-score(a)||compare(a,b)).slice(0,Math.max(5,Math.min(80,limit))),ids=[...origins,...chosen],clusters=this.clusters(ids),present=new Set(ids);const nodes=ids.map(id=>({...this.node(id),similarity:score(id),similarity_by_origin:Object.fromEntries(origins.map(o=>[o,this.score(id,o)])),cluster:clusters.get(id),is_origin:origins.includes(id)}));const edges=this.data.assertions.filter(e=>present.has(e.subject)&&present.has(e.object)).map(e=>({id:e.id,subject:e.subject,object:e.object,predicate:e.predicate,assertion_id:e.id,kind:e.predicate==='linksTo'?'reference':'fact'}));const pairs=new Set(edges.map(e=>[e.subject,e.object].sort().join('|'))),springs=new Map<string,{source:string;target:string;weight:number}>();for(const a of ids){for(const b of ids.filter(b=>b!==a&&!pairs.has([a,b].sort().join('|'))&&this.score(a,b)>=.15).sort((x,y)=>this.score(a,y)-this.score(a,x)||compare(x,y)).slice(0,3)){const [source,target]=[a,b].sort();springs.set(source+'|'+target,{source,target,weight:this.score(a,b)})}}const list=(index:Map<string,Set<string>>)=>this.data.entities.map(n=>({...this.node(n.id),linked_by:[...index.get(n.id)!].filter(id=>present.has(id)).length,in_map:present.has(n.id)})).filter(n=>n.linked_by>=3&&index.get(n.id)!.size<=this.data.entities.length*.25).sort((a,b)=>b.linked_by-a.linked_by||(b.year||0)-(a.year||0)||compare(a.id,b.id));return{origins,nodes,edges,layout_links:[...springs.values()],lists:{foundations:list(this.inc),builds_on_this:list(this.out)},stats:{candidates:candidates.size,returned:nodes.length}}}
- explain(a:string,b:string):Explanation{const shared=new Set([...this.shared(this.out.get(a)!,this.out.get(b)!),...this.shared(this.inc.get(a)!,this.inc.get(b)!)]),direct=this.data.assertions.filter(e=>(e.subject===a&&e.object===b)||(e.subject===b&&e.object===a));return{score:this.score(a,b),shared:[...shared].sort((a,b)=>this.weights.get(b)!-this.weights.get(a)!||compare(a,b)).slice(0,8).map(id=>({id,label:this.node(id).label,weight:this.weights.get(id)!,directions:[...(this.out.get(a)!.has(id)&&this.out.get(b)!.has(id)?['out']:[]),...(this.inc.get(a)!.has(id)&&this.inc.get(b)!.has(id)?['in']:[])]})),direct:{page_links:direct.filter(e=>e.predicate==='linksTo'),facts:direct.filter(e=>e.predicate!=='linksTo')}}}
+export class OfflineIndex {
+  out = new Map<string, Set<string>>();
+  inc = new Map<string, Set<string>>();
+  adj = new Map<string, Set<string>>();
+  weights = new Map<string, number>();
+  constructor(public data: Dataset) {
+    for (const n of data.entities) {
+      this.out.set(n.id, new Set());
+      this.inc.set(n.id, new Set());
+      this.adj.set(n.id, new Set());
+    }
+    for (const e of data.assertions) {
+      this.adj.get(e.subject)!.add(e.object);
+      this.adj.get(e.object)!.add(e.subject);
+      if (e.predicate === "linksTo") {
+        this.out.get(e.subject)!.add(e.object);
+        this.inc.get(e.object)!.add(e.subject);
+      }
+    }
+    for (const n of data.entities)
+      this.weights.set(
+        n.id,
+        1 / Math.log(2 + this.out.get(n.id)!.size + this.inc.get(n.id)!.size),
+      );
+  }
+  shared(a: Set<string>, b: Set<string>) {
+    return [...a].filter((id) => b.has(id)).sort();
+  }
+  score(a: string, b: string) {
+    if (a === b) return 1;
+    let score = 0;
+    for (const index of [this.out, this.inc]) {
+      const x = index.get(a)!,
+        y = index.get(b)!;
+      const mass = (ids: Iterable<string>) =>
+        [...ids].sort().reduce((sum, id) => sum + this.weights.get(id)!, 0);
+      const den = Math.sqrt(mass(x) * mass(y));
+      if (den) score += (0.5 * mass(this.shared(x, y))) / den;
+    }
+    if (this.out.get(a)!.has(b) || this.out.get(b)!.has(a)) score += 0.15;
+    if (
+      this.data.assertions.some(
+        (e) =>
+          e.predicate !== "linksTo" &&
+          ((e.subject === a && e.object === b) ||
+            (e.subject === b && e.object === a)),
+      )
+    )
+      score += 0.35;
+    return Math.min(1, score);
+  }
+  node(id: string) {
+    return {
+      ...this.data.entities.find((n) => n.id === id)!,
+      in_links: this.inc.get(id)!.size,
+      out_links: this.out.get(id)!.size,
+    };
+  }
+  top() {
+    return this.data.entities
+      .map((n) => this.node(n.id))
+      .sort((a, b) => b.in_links - a.in_links || compare(a.id, b.id))
+      .slice(0, 6);
+  }
+  clusters(ids: string[]) {
+    const order = [...ids].sort(),
+      labels = new Map(order.map((id) => [id, id]));
+    for (let pass = 0; pass < 20; pass++) {
+      let changed = false;
+      for (const a of order) {
+        const totals = new Map<string, number>();
+        for (const b of order) {
+          const w = this.score(a, b);
+          if (a === b || w < 0.15) continue;
+          const label = labels.get(b)!;
+          totals.set(label, (totals.get(label) || 0) + w);
+        }
+        const current = labels.get(a);
+        const best = [...totals.keys()].sort(
+          (x, y) =>
+            totals.get(y)! - totals.get(x)! ||
+            Number(x !== current) - Number(y !== current) ||
+            compare(x, y),
+        )[0];
+        if (best && best !== labels.get(a)) {
+          labels.set(a, best);
+          changed = true;
+        }
+      }
+      if (!changed) break;
+    }
+    const sizes = new Map<string, number>();
+    for (const l of labels.values()) sizes.set(l, (sizes.get(l) || 0) + 1);
+    const numbers = [...sizes.keys()].sort(
+      (a, b) => sizes.get(b)! - sizes.get(a)! || compare(a, b),
+    );
+    return new Map(order.map((id) => [id, numbers.indexOf(labels.get(id)!)]));
+  }
+  map(origins: string[], limit = 40): MapData {
+    const candidates = new Set<string>();
+    for (const o of origins) {
+      for (const n of this.adj.get(o)!) {
+        candidates.add(n);
+        for (const m of this.adj.get(n)!) candidates.add(m);
+      }
+    }
+    for (const o of origins) candidates.delete(o);
+    const score = (id: string) => {
+      const scores = origins.map((o) => this.score(id, o));
+      return scores.some(Boolean)
+        ? scores.length === 1
+          ? scores[0]
+          : Math.exp(
+              scores.reduce((sum, v) => sum + Math.log(Math.max(0.02, v)), 0) /
+                scores.length,
+            )
+        : 0;
+    };
+    const chosen = [...candidates]
+        .filter((id) => score(id) > 0)
+        .sort((a, b) => score(b) - score(a) || compare(a, b))
+        .slice(0, Math.max(5, Math.min(80, limit))),
+      ids = [...origins, ...chosen],
+      clusters = this.clusters(ids),
+      present = new Set(ids);
+    const nodes = ids.map((id) => ({
+      ...this.node(id),
+      similarity: score(id),
+      similarity_by_origin: Object.fromEntries(
+        origins.map((o) => [o, this.score(id, o)]),
+      ),
+      cluster: clusters.get(id),
+      is_origin: origins.includes(id),
+    }));
+    const edges = this.data.assertions
+      .filter((e) => present.has(e.subject) && present.has(e.object))
+      .map((e) => ({
+        id: e.id,
+        subject: e.subject,
+        object: e.object,
+        predicate: e.predicate,
+        assertion_id: e.id,
+        kind: e.predicate === "linksTo" ? "reference" : "fact",
+      }));
+    const pairs = new Set(
+        edges.map((e) => [e.subject, e.object].sort().join("|")),
+      ),
+      springs = new Map<
+        string,
+        { source: string; target: string; weight: number }
+      >();
+    for (const a of ids) {
+      for (const b of ids
+        .filter(
+          (b) =>
+            b !== a &&
+            !pairs.has([a, b].sort().join("|")) &&
+            this.score(a, b) >= 0.15,
+        )
+        .sort((x, y) => this.score(a, y) - this.score(a, x) || compare(x, y))
+        .slice(0, 3)) {
+        const [source, target] = [a, b].sort();
+        springs.set(source + "|" + target, {
+          source,
+          target,
+          weight: this.score(a, b),
+        });
+      }
+    }
+    const list = (index: Map<string, Set<string>>) =>
+      this.data.entities
+        .map((n) => ({
+          ...this.node(n.id),
+          linked_by: [...index.get(n.id)!].filter((id) => present.has(id))
+            .length,
+          in_map: present.has(n.id),
+        }))
+        .filter(
+          (n) =>
+            n.linked_by >= 3 &&
+            index.get(n.id)!.size <= this.data.entities.length * 0.25,
+        )
+        .sort(
+          (a, b) =>
+            b.linked_by - a.linked_by ||
+            (b.year || 0) - (a.year || 0) ||
+            compare(a.id, b.id),
+        );
+    return {
+      origins,
+      nodes,
+      edges,
+      layout_links: [...springs.values()],
+      lists: { foundations: list(this.inc), builds_on_this: list(this.out) },
+      stats: { candidates: candidates.size, returned: nodes.length },
+    };
+  }
+  explain(a: string, b: string): Explanation {
+    const shared = new Set([
+        ...this.shared(this.out.get(a)!, this.out.get(b)!),
+        ...this.shared(this.inc.get(a)!, this.inc.get(b)!),
+      ]),
+      direct = this.data.assertions.filter(
+        (e) =>
+          (e.subject === a && e.object === b) ||
+          (e.subject === b && e.object === a),
+      );
+    return {
+      score: this.score(a, b),
+      shared: [...shared]
+        .sort(
+          (a, b) =>
+            this.weights.get(b)! - this.weights.get(a)! || compare(a, b),
+        )
+        .slice(0, 8)
+        .map((id) => ({
+          id,
+          label: this.node(id).label,
+          weight: this.weights.get(id)!,
+          directions: [
+            ...(this.out.get(a)!.has(id) && this.out.get(b)!.has(id)
+              ? ["out"]
+              : []),
+            ...(this.inc.get(a)!.has(id) && this.inc.get(b)!.has(id)
+              ? ["in"]
+              : []),
+          ],
+        })),
+      direct: {
+        page_links: direct.filter((e) => e.predicate === "linksTo"),
+        facts: direct.filter((e) => e.predicate !== "linksTo"),
+      },
+    };
+  }
 }

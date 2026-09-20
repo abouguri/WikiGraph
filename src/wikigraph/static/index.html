@@ -1,10 +1,293 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c1222"><title>WikiGraph — A cosmos of connections</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
-<body>
-<header class="appbar" id="app-header"><a class="brand" href="/" aria-label="WikiGraph home"><span class="brand-mark" aria-hidden="true">W</span>WikiGraph<span class="brand-slash">/</span></a><div class="search-wrap"><form id="search-form" role="search"><label class="sr-only" for="query">Search entities</label><span class="search-icon" aria-hidden="true">⌕</span><input id="query" placeholder="Start with a person, language or idea…" autocomplete="off" aria-controls="results"><button type="submit">Search</button></form><ul id="results" class="results" aria-label="Search results" hidden></ul></div><label class="dataset-label"><span class="sr-only">Dataset</span><select id="mode"><option value="api">Wikipedia corpus</option><option value="offline">Teaching sample</option></select></label><button id="share" class="secondary">Share map ↗</button></header>
-<main><section id="context" class="contextbar"><div class="context-title"><span class="eyebrow">YOUR EXPLORATION</span><h1 id="selection">A cosmos of connections</h1></div><div class="context-meta"><span id="dataset-note">Loading dataset…</span><details class="help"><summary>About</summary><div class="help-content"><h2>Every connection has a source.</h2><p>Start with up to three origins. Nearby entities share structural connections; proximity is not a factual claim.</p><p>Dashed lines are page references. Gold lines are extracted facts, each attached to its evidence.</p><p>The Wikipedia corpus has 300 pages and two extracted factual relations. The teaching sample is authored and uses fictional revisions. Types and years appear only when supplied by the dataset.</p><p><a href="/docs">API documentation ↗</a> · <a href="/attribution.html">Sources & attribution</a></p></div></details></div><div id="origins" aria-label="Map origins"></div></section>
-<section id="graph-panel" class="graph-panel" aria-label="Graph explorer"><div id="graph-view"><canvas id="graph"></canvas><div class="canvas-top"><div class="legend"><span><i class="fact-line"></i>Extracted fact</span><span><i class="reference-line"></i>Page reference</span></div><span id="counts" class="count"></span></div><div id="landing"><span class="eyebrow">FOLLOW YOUR CURIOSITY</span><h2>Ideas don’t exist<br>in isolation.</h2><p>Start with an entity. Discover what connects it.<br>Follow the evidence behind every line.</p><span class="eyebrow">A FEW PLACES TO BEGIN</span><div id="suggestions"></div></div><div class="canvas-bottom"><span id="graph-hint">Drag to pin · Double-click to release · Scroll to explore</span><div class="zoom-controls" aria-label="Graph controls"><button id="zoom-out" aria-label="Zoom out">−</button><button id="fit">Fit</button><button id="zoom-in" aria-label="Zoom in">+</button></div></div></div><div class="panel-controls"><button id="toggle-list" aria-label="Toggle map list">☷ Map list</button><button id="show-inspector" hidden>Show details</button></div><div class="statusbar"><button id="back" disabled>Back</button><button id="return-view" hidden>Back to map</button><p id="status" role="status" aria-live="polite">Loading dataset…</p><button id="retry" hidden>Retry</button><button id="reset">Rebuild map</button></div></section>
-<aside id="left-panel" class="map-panel" aria-label="Map lists and filters"><div class="map-tabs" role="tablist" aria-label="Exploration lists"><button data-tab="map" role="tab" aria-selected="true" aria-controls="entity-list">Map</button><button data-tab="foundations" role="tab" aria-selected="false" tabindex="-1" aria-controls="entity-list">Foundations</button><button data-tab="builds" role="tab" aria-selected="false" tabindex="-1" aria-controls="entity-list">Builds on this</button><button data-tab="connections" role="tab" aria-selected="false" tabindex="-1" aria-controls="entity-list">Connections</button><button data-tab="saved" role="tab" aria-selected="false" tabindex="-1" aria-controls="entity-list">Saved</button></div><div class="map-options"><label>Sort<select id="list-sort"><option value="similarity">Similarity</option><option value="links">Incoming links</option><option value="name">Name A–Z</option><option value="year" hidden>Year</option></select></label><label>Map size<input id="map-size" type="number" min="5" max="80" value="40"></label></div><div id="saved-export" hidden><span>Download saved entities</span><button id="export-json">JSON</button><button id="export-csv">CSV</button><button id="export-md">Markdown</button></div><ul id="entity-list" class="entity-list" aria-label="Map entities and connections"></ul><details class="map-settings"><summary>Appearance & filters</summary><div class="map-options"><label>Color<select id="color-by"><option value="type">Type</option><option value="cluster">Cluster</option><option value="year" hidden>Year</option></select></label><label>Size<select id="size-by"><option value="links">Incoming links</option><option value="degree">Visible degree</option><option value="uniform">Uniform</option></select></label></div><div id="type-legend"></div><div class="filters"><label><span class="sr-only">Relationship</span><select id="predicate" aria-label="Relationship"><option value="all">All connections</option><option value="linksTo">Page links</option><option value="designedBy">Designed by</option><option value="developedBy">Developed by</option><option value="influencedBy">Influenced by</option></select></label><label><span class="sr-only">Direction</span><select id="direction" aria-label="Direction"><option value="both">Both directions</option><option value="out">Outgoing</option><option value="in">Incoming</option></select></label></div><p class="hint">Direction is relative to the map origins. Missing types appear as Other.</p></details><div class="map-footer"><button id="path-toggle" aria-expanded="false" aria-controls="path-controls">Find a path</button><button id="export-toggle" hidden>Export saved</button></div></aside>
-<div id="path-controls" class="path-controls" hidden><label for="destination-query">Search destinations</label><input id="destination-query" placeholder="Filter destinations…"><label for="target">Destination</label><select id="target"><option value="">Choose an entity</option></select><button id="find-path">Find shortest path</button><p class="hint">From your first origin, up to four hops, using the relationship and direction filters.</p></div>
-<div id="inspector-backdrop" hidden></div><aside id="inspector" class="evidence-panel collapsed" aria-label="Evidence panel" tabindex="-1"><div class="inspector-heading"><span class="eyebrow">THE DETAILS</span><button id="close-inspector" aria-label="Close evidence">×</button></div><div id="evidence"><h2>Every connection has a source.</h2><p class="muted">Select an entity or a connection to inspect it.</p></div><div class="inspector-foot"><span class="source-dot"></span>Similarity suggests. Evidence supports.</div></aside><div id="brush-actions" hidden><span id="brush-count"></span><button id="save-group">Save group</button><button id="origins-group">Use as origins</button><button id="clear-group" aria-label="Clear group selection">×</button></div><div id="timeline" hidden aria-label="Filter by year"></div></main>
-</body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0c1222" />
+    <title>WikiGraph — A cosmos of connections</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="appbar" id="app-header">
+      <a class="brand" href="/" aria-label="WikiGraph home"
+        ><span class="brand-mark" aria-hidden="true">W</span>WikiGraph<span
+          class="brand-slash"
+          >/</span
+        ></a
+      >
+      <div class="search-wrap">
+        <form id="search-form" role="search">
+          <label class="sr-only" for="query">Search entities</label
+          ><span class="search-icon" aria-hidden="true">⌕</span
+          ><input
+            id="query"
+            placeholder="Start with a person, language or idea…"
+            autocomplete="off"
+            aria-controls="results"
+          /><button type="submit">Search</button>
+        </form>
+        <ul
+          id="results"
+          class="results"
+          aria-label="Search results"
+          hidden
+        ></ul>
+      </div>
+      <label class="dataset-label"
+        ><span class="sr-only">Dataset</span
+        ><select id="mode">
+          <option value="api">Wikipedia corpus</option>
+          <option value="offline">Teaching sample</option>
+        </select></label
+      ><button id="share" class="secondary">Share map ↗</button>
+    </header>
+    <main>
+      <section id="context" class="contextbar">
+        <div class="context-title">
+          <span class="eyebrow">YOUR EXPLORATION</span>
+          <h1 id="selection">A cosmos of connections</h1>
+        </div>
+        <div class="context-meta">
+          <span id="dataset-note">Loading dataset…</span>
+          <details class="help">
+            <summary>About</summary>
+            <div class="help-content">
+              <h2>Every connection has a source.</h2>
+              <p>
+                Start with up to three origins. Nearby entities share structural
+                connections; proximity is not a factual claim.
+              </p>
+              <p>
+                Dashed lines are page references. Gold lines are extracted
+                facts, each attached to its evidence.
+              </p>
+              <p>
+                The Wikipedia corpus has 300 pages and two extracted factual
+                relations. The teaching sample is authored and uses fictional
+                revisions. Types and years appear only when supplied by the
+                dataset.
+              </p>
+              <p>
+                <a href="/docs">API documentation ↗</a> ·
+                <a href="/attribution.html">Sources & attribution</a>
+              </p>
+            </div>
+          </details>
+        </div>
+        <div id="origins" aria-label="Map origins"></div>
+      </section>
+      <section id="graph-panel" class="graph-panel" aria-label="Graph explorer">
+        <div id="graph-view">
+          <canvas id="graph"></canvas>
+          <div class="canvas-top">
+            <div class="legend">
+              <span><i class="fact-line"></i>Extracted fact</span
+              ><span><i class="reference-line"></i>Page reference</span>
+            </div>
+            <span id="counts" class="count"></span>
+          </div>
+          <div id="landing">
+            <span class="eyebrow">FOLLOW YOUR CURIOSITY</span>
+            <h2>Ideas don’t exist<br />in isolation.</h2>
+            <p>
+              Start with an entity. Discover what connects it.<br />Follow the
+              evidence behind every line.
+            </p>
+            <span class="eyebrow">A FEW PLACES TO BEGIN</span>
+            <div id="suggestions"></div>
+          </div>
+          <div class="canvas-bottom">
+            <span id="graph-hint"
+              >Drag to pin · Double-click to release · Scroll to explore</span
+            >
+            <div class="zoom-controls" aria-label="Graph controls">
+              <button id="zoom-out" aria-label="Zoom out">−</button
+              ><button id="fit">Fit</button
+              ><button id="zoom-in" aria-label="Zoom in">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="panel-controls">
+          <button id="toggle-list" aria-label="Toggle map list">
+            ☷ Map list</button
+          ><button id="show-inspector" hidden>Show details</button>
+        </div>
+        <div class="statusbar">
+          <button id="back" disabled>Back</button
+          ><button id="return-view" hidden>Back to map</button>
+          <p id="status" role="status" aria-live="polite">Loading dataset…</p>
+          <button id="retry" hidden>Retry</button
+          ><button id="reset">Rebuild map</button>
+        </div>
+      </section>
+      <aside
+        id="left-panel"
+        class="map-panel"
+        aria-label="Map lists and filters"
+      >
+        <div class="map-tabs" role="tablist" aria-label="Exploration lists">
+          <button
+            data-tab="map"
+            role="tab"
+            aria-selected="true"
+            aria-controls="entity-list"
+          >
+            Map</button
+          ><button
+            data-tab="foundations"
+            role="tab"
+            aria-selected="false"
+            tabindex="-1"
+            aria-controls="entity-list"
+          >
+            Foundations</button
+          ><button
+            data-tab="builds"
+            role="tab"
+            aria-selected="false"
+            tabindex="-1"
+            aria-controls="entity-list"
+          >
+            Builds on this</button
+          ><button
+            data-tab="connections"
+            role="tab"
+            aria-selected="false"
+            tabindex="-1"
+            aria-controls="entity-list"
+          >
+            Connections</button
+          ><button
+            data-tab="saved"
+            role="tab"
+            aria-selected="false"
+            tabindex="-1"
+            aria-controls="entity-list"
+          >
+            Saved
+          </button>
+        </div>
+        <div class="map-options">
+          <label
+            >Sort<select id="list-sort">
+              <option value="similarity">Similarity</option>
+              <option value="links">Incoming links</option>
+              <option value="name">Name A–Z</option>
+              <option value="year" hidden>Year</option>
+            </select></label
+          ><label
+            >Map size<input
+              id="map-size"
+              type="number"
+              min="5"
+              max="80"
+              value="40"
+          /></label>
+        </div>
+        <div id="saved-export" hidden>
+          <span>Download saved entities</span
+          ><button id="export-json">JSON</button
+          ><button id="export-csv">CSV</button
+          ><button id="export-md">Markdown</button>
+        </div>
+        <ul
+          id="entity-list"
+          class="entity-list"
+          aria-label="Map entities and connections"
+        ></ul>
+        <details class="map-settings">
+          <summary>Appearance & filters</summary>
+          <div class="map-options">
+            <label
+              >Color<select id="color-by">
+                <option value="type">Type</option>
+                <option value="cluster">Cluster</option>
+                <option value="year" hidden>Year</option>
+              </select></label
+            ><label
+              >Size<select id="size-by">
+                <option value="links">Incoming links</option>
+                <option value="degree">Visible degree</option>
+                <option value="uniform">Uniform</option>
+              </select></label
+            >
+          </div>
+          <div id="type-legend"></div>
+          <div class="filters">
+            <label
+              ><span class="sr-only">Relationship</span
+              ><select id="predicate" aria-label="Relationship">
+                <option value="all">All connections</option>
+                <option value="linksTo">Page links</option>
+                <option value="designedBy">Designed by</option>
+                <option value="developedBy">Developed by</option>
+                <option value="influencedBy">Influenced by</option>
+              </select></label
+            ><label
+              ><span class="sr-only">Direction</span
+              ><select id="direction" aria-label="Direction">
+                <option value="both">Both directions</option>
+                <option value="out">Outgoing</option>
+                <option value="in">Incoming</option>
+              </select></label
+            >
+          </div>
+          <p class="hint">
+            Direction is relative to the map origins. Missing types appear as
+            Other.
+          </p>
+        </details>
+        <div class="map-footer">
+          <button
+            id="path-toggle"
+            aria-expanded="false"
+            aria-controls="path-controls"
+          >
+            Find a path</button
+          ><button id="export-toggle" hidden>Export saved</button>
+        </div>
+      </aside>
+      <div id="path-controls" class="path-controls" hidden>
+        <label for="destination-query">Search destinations</label
+        ><input
+          id="destination-query"
+          placeholder="Filter destinations…"
+        /><label for="target">Destination</label
+        ><select id="target">
+          <option value="">Choose an entity</option></select
+        ><button id="find-path">Find shortest path</button>
+        <p class="hint">
+          From your first origin, up to four hops, using the relationship and
+          direction filters.
+        </p>
+      </div>
+      <div id="inspector-backdrop" hidden></div>
+      <aside
+        id="inspector"
+        class="evidence-panel collapsed"
+        aria-label="Evidence panel"
+        tabindex="-1"
+      >
+        <div class="inspector-heading">
+          <span class="eyebrow">THE DETAILS</span
+          ><button id="close-inspector" aria-label="Close evidence">×</button>
+        </div>
+        <div id="evidence">
+          <h2>Every connection has a source.</h2>
+          <p class="muted">Select an entity or a connection to inspect it.</p>
+        </div>
+        <div class="inspector-foot">
+          <span class="source-dot"></span>Similarity suggests. Evidence
+          supports.
+        </div>
+      </aside>
+      <div id="brush-actions" hidden>
+        <span id="brush-count"></span><button id="save-group">Save group</button
+        ><button id="origins-group">Use as origins</button
+        ><button id="clear-group" aria-label="Clear group selection">×</button>
+      </div>
+      <div id="timeline" hidden aria-label="Filter by year"></div>
+    </main>
+  </body>
+</html>

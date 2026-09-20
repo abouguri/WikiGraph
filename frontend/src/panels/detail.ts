@@ -1,9 +1,215 @@
-import type {GraphNode,GraphEdge} from '../encode';
-import type {Assertion,Explanation} from '../model';
-export const relations:Record<string,string>={linksTo:'links to',designedBy:'was designed by',developedBy:'was developed by',influencedBy:'was influenced by'};
-export function element<K extends keyof HTMLElementTagNameMap>(tag:K,text='',className=''){const e=document.createElement(tag);e.textContent=text;e.className=className;return e}
-export function button(text:string,action:()=>void,className=''){const b=element('button',text,className);b.type='button';b.onclick=action;return b}
-export function sourceLink(url:string,text='Read on Wikipedia ↗'){try{const u=new URL(url);if(u.protocol!=='https:'||u.hostname!=='en.wikipedia.org')return null;const a=element('a',text,'source-link');a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';return a}catch{return null}}
-export function renderEntity(panel:HTMLElement,node:GraphNode,edges:GraphEdge[],label:(id:string)=>string,actions:{origin:()=>void;addOrigin:()=>void;expand:()=>void;save:()=>void;remove:()=>void;path:()=>void;why:()=>void;inspect:(id:string)=>void},originCount:number,saved:boolean){panel.replaceChildren();panel.append(element('span',node.is_origin?'Map origin':'Selected entity','badge'),element('h2',node.label),element('p',`${node.type||'Other'}${node.year?` · ${node.year}`:''} · ${node.in_links??0} incoming page links`,'muted'));if(node.summary)panel.append(element('p',node.summary,'entity-summary'));const source=sourceLink(node.source_url||'');if(source)panel.append(source);else if(node.id.startsWith('fixture-'))panel.append(element('p','Authored teaching entity · synthetic source','hint'));if(node.similarity!==undefined)panel.append(element('p',`${Math.round(node.similarity*100)}% structural similarity · not a confidence score`,'hint'));panel.append(button('Why is this related?',actions.why,'why-button'));const why=element('div');why.id='why';panel.append(why);const controls=element('div','','entity-actions');const add=button('Add as origin',actions.addOrigin);add.disabled=originCount>=3||!!node.is_origin;controls.append(button('Make origin',actions.origin),add,button('Expand 12 connections',actions.expand),button(saved?'Remove from saved':'Save entity',actions.save),button('Find path from origin',actions.path));if(!node.is_origin)controls.append(button('Remove from map',actions.remove));panel.append(controls,element('h3','Direct connections'));const list=element('ul','','detail-connections');for(const e of edges.filter(e=>e.subject===node.id||e.object===node.id).slice(0,30)){const li=element('li');li.append(button(`${label(e.subject)} ${relations[e.predicate]||e.predicate} ${label(e.object)}`,()=>actions.inspect(e.id)));list.append(li)}if(!list.childElementCount)list.append(element('li','No direct connections in this map. Similarity can come from shared neighbors.','muted'));panel.append(list)}
-export function renderExplanation(panel:HTMLElement,explanation:Explanation,inspect:(id:string)=>void){panel.replaceChildren(element('p',`${Math.round(explanation.score*100)}% similarity to this origin. Shared neighbors are weighted down when they are widely linked hubs.`,'hint'));if(!explanation.shared.length)panel.append(element('p','No shared neighbors. Any similarity here comes from a direct connection.','hint'));const ul=element('ul');for(const n of explanation.shared)ul.append(element('li',`${n.label} · ${n.directions.join('/')} · weight ${n.weight.toFixed(2)}`));panel.append(ul);for(const e of [...explanation.direct.facts,...explanation.direct.page_links])panel.append(button(`${relations[e.predicate]} · inspect source`,()=>inspect(e.id)))}
-export function renderEvidence(panel:HTMLElement,a:Assertion,label:(id:string)=>string){panel.replaceChildren();panel.append(element('span',a.source_kind==='synthetic'?'Synthetic teaching example':a.predicate==='linksTo'?'Wikipedia · Page reference':'Wikipedia · Extracted relation','badge'),element('h2',`${label(a.subject)} ${relations[a.predicate]||a.predicate} ${label(a.object)}`),element('p',a.predicate==='linksTo'?'This page references another topic. A page link does not establish a factual relationship.':'This sentence supports the extracted relationship. Read the source in context.','muted'),element('blockquote',a.evidence));const link=a.source_kind==='wikipedia'?sourceLink(a.source_url,'Open source revision ↗'):null;if(link)panel.append(link);else panel.append(element('p','Authored example, not Wikipedia evidence. Fictional revision ID.','hint'));const details=element('details','','evidence-details');details.append(element('summary','Extraction details'));const dl=element('dl');for(const [k,v]of [['Method',a.method],['Revision',String(a.revision_id)],['Extractor',a.extractor_version],['Confidence',a.confidence],['Text offsets',a.start===null?'Link target':`${a.start}–${a.end}`]]){dl.append(element('dt',k),element('dd',v))}details.append(dl);panel.append(details)}
+import type { GraphNode, GraphEdge } from "../encode";
+import type { Assertion, Explanation } from "../model";
+export const relations: Record<string, string> = {
+  linksTo: "links to",
+  designedBy: "was designed by",
+  developedBy: "was developed by",
+  influencedBy: "was influenced by",
+};
+export function element<K extends keyof HTMLElementTagNameMap>(
+  tag: K,
+  text = "",
+  className = "",
+) {
+  const e = document.createElement(tag);
+  e.textContent = text;
+  e.className = className;
+  return e;
+}
+export function button(text: string, action: () => void, className = "") {
+  const b = element("button", text, className);
+  b.type = "button";
+  b.onclick = action;
+  return b;
+}
+export function sourceLink(url: string, text = "Read on Wikipedia ↗") {
+  try {
+    const u = new URL(url);
+    if (u.protocol !== "https:" || u.hostname !== "en.wikipedia.org")
+      return null;
+    const a = element("a", text, "source-link");
+    a.href = u.href;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    return a;
+  } catch {
+    return null;
+  }
+}
+export function renderEntity(
+  panel: HTMLElement,
+  node: GraphNode,
+  edges: GraphEdge[],
+  label: (id: string) => string,
+  actions: {
+    origin: () => void;
+    addOrigin: () => void;
+    expand: () => void;
+    save: () => void;
+    remove: () => void;
+    path: () => void;
+    why: () => void;
+    inspect: (id: string) => void;
+  },
+  originCount: number,
+  saved: boolean,
+) {
+  panel.replaceChildren();
+  panel.append(
+    element("span", node.is_origin ? "Map origin" : "Selected entity", "badge"),
+    element("h2", node.label),
+    element(
+      "p",
+      `${node.type || "Other"}${node.year ? ` · ${node.year}` : ""} · ${node.in_links ?? 0} incoming page links`,
+      "muted",
+    ),
+  );
+  if (node.summary) panel.append(element("p", node.summary, "entity-summary"));
+  const source = sourceLink(node.source_url || "");
+  if (source) panel.append(source);
+  else if (node.id.startsWith("fixture-"))
+    panel.append(
+      element("p", "Authored teaching entity · synthetic source", "hint"),
+    );
+  if (node.similarity !== undefined)
+    panel.append(
+      element(
+        "p",
+        `${Math.round(node.similarity * 100)}% structural similarity · not a confidence score`,
+        "hint",
+      ),
+    );
+  panel.append(button("Why is this related?", actions.why, "why-button"));
+  const why = element("div");
+  why.id = "why";
+  panel.append(why);
+  const controls = element("div", "", "entity-actions");
+  const add = button("Add as origin", actions.addOrigin);
+  add.disabled = originCount >= 3 || !!node.is_origin;
+  controls.append(
+    button("Make origin", actions.origin),
+    add,
+    button("Expand 12 connections", actions.expand),
+    button(saved ? "Remove from saved" : "Save entity", actions.save),
+    button("Find path from origin", actions.path),
+  );
+  if (!node.is_origin)
+    controls.append(button("Remove from map", actions.remove));
+  panel.append(controls, element("h3", "Direct connections"));
+  const list = element("ul", "", "detail-connections");
+  for (const e of edges
+    .filter((e) => e.subject === node.id || e.object === node.id)
+    .slice(0, 30)) {
+    const li = element("li");
+    li.append(
+      button(
+        `${label(e.subject)} ${relations[e.predicate] || e.predicate} ${label(e.object)}`,
+        () => actions.inspect(e.id),
+      ),
+    );
+    list.append(li);
+  }
+  if (!list.childElementCount)
+    list.append(
+      element(
+        "li",
+        "No direct connections in this map. Similarity can come from shared neighbors.",
+        "muted",
+      ),
+    );
+  panel.append(list);
+}
+export function renderExplanation(
+  panel: HTMLElement,
+  explanation: Explanation,
+  inspect: (id: string) => void,
+) {
+  panel.replaceChildren(
+    element(
+      "p",
+      `${Math.round(explanation.score * 100)}% similarity to this origin. Shared neighbors are weighted down when they are widely linked hubs.`,
+      "hint",
+    ),
+  );
+  if (!explanation.shared.length)
+    panel.append(
+      element(
+        "p",
+        "No shared neighbors. Any similarity here comes from a direct connection.",
+        "hint",
+      ),
+    );
+  const ul = element("ul");
+  for (const n of explanation.shared)
+    ul.append(
+      element(
+        "li",
+        `${n.label} · ${n.directions.join("/")} · weight ${n.weight.toFixed(2)}`,
+      ),
+    );
+  panel.append(ul);
+  for (const e of [
+    ...explanation.direct.facts,
+    ...explanation.direct.page_links,
+  ])
+    panel.append(
+      button(`${relations[e.predicate]} · inspect source`, () => inspect(e.id)),
+    );
+}
+export function renderEvidence(
+  panel: HTMLElement,
+  a: Assertion,
+  label: (id: string) => string,
+) {
+  panel.replaceChildren();
+  panel.append(
+    element(
+      "span",
+      a.source_kind === "synthetic"
+        ? "Synthetic teaching example"
+        : a.predicate === "linksTo"
+          ? "Wikipedia · Page reference"
+          : "Wikipedia · Extracted relation",
+      "badge",
+    ),
+    element(
+      "h2",
+      `${label(a.subject)} ${relations[a.predicate] || a.predicate} ${label(a.object)}`,
+    ),
+    element(
+      "p",
+      a.predicate === "linksTo"
+        ? "This page references another topic. A page link does not establish a factual relationship."
+        : "This sentence supports the extracted relationship. Read the source in context.",
+      "muted",
+    ),
+    element("blockquote", a.evidence),
+  );
+  const link =
+    a.source_kind === "wikipedia"
+      ? sourceLink(a.source_url, "Open source revision ↗")
+      : null;
+  if (link) panel.append(link);
+  else
+    panel.append(
+      element(
+        "p",
+        "Authored example, not Wikipedia evidence. Fictional revision ID.",
+        "hint",
+      ),
+    );
+  const details = element("details", "", "evidence-details");
+  details.append(element("summary", "Extraction details"));
+  const dl = element("dl");
+  for (const [k, v] of [
+    ["Method", a.method],
+    ["Revision", String(a.revision_id)],
+    ["Extractor", a.extractor_version],
+    ["Confidence", a.confidence],
+    ["Text offsets", a.start === null ? "Link target" : `${a.start}–${a.end}`],
+  ]) {
+    dl.append(element("dt", k), element("dd", v));
+  }
+  details.append(dl);
+  panel.append(details);
+}

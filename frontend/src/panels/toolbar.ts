@@ -1,1 +1,22 @@
-export function simulationToolbar(container:HTMLElement,pause:(paused:boolean)=>void,rearrange:()=>void){let paused=false;const toggle=document.createElement('button');toggle.id='simulation-toggle';toggle.textContent='Pause motion';toggle.setAttribute('aria-pressed','false');toggle.onclick=()=>{paused=!paused;pause(paused);toggle.textContent=paused?'Resume motion':'Pause motion';toggle.setAttribute('aria-pressed',String(paused))};const reset=document.createElement('button');reset.id='rearrange';reset.textContent='Re-arrange';reset.onclick=rearrange;container.append(toggle,reset)}
+export function simulationToolbar(
+  container: HTMLElement,
+  pause: (paused: boolean) => void,
+  rearrange: () => void,
+) {
+  let paused = false;
+  const toggle = document.createElement("button");
+  toggle.id = "simulation-toggle";
+  toggle.textContent = "Pause motion";
+  toggle.setAttribute("aria-pressed", "false");
+  toggle.onclick = () => {
+    paused = !paused;
+    pause(paused);
+    toggle.textContent = paused ? "Resume motion" : "Pause motion";
+    toggle.setAttribute("aria-pressed", String(paused));
+  };
+  const reset = document.createElement("button");
+  reset.id = "rearrange";
+  reset.textContent = "Re-arrange";
+  reset.onclick = rearrange;
+  container.append(toggle, reset);
+}
