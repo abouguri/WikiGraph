@@ -201,9 +201,9 @@ export class GraphView {
     this.svg.replaceChildren();
     const defs = el("defs");
     for (const [name, color] of [
-      ["reference", "#64748b"],
-      ["fact", "#08766b"],
-      ["active", "#2856d8"],
+      ["reference", "#8b94ad"],
+      ["fact", "#ffd27a"],
+      ["active", "#7c9cff"],
     ]) {
       const marker = el("marker", {
         id: `arrow-${name}`,
@@ -271,10 +271,10 @@ export class GraphView {
         fill: "none",
         stroke:
           kind === "active"
-            ? "#2856d8"
+            ? "#7c9cff"
             : kind === "fact"
-              ? "#08766b"
-              : "#64748b",
+              ? "#ffd27a"
+              : "#8b94ad",
         "stroke-width": isActive ? 2.8 : kind === "fact" ? 2 : 1.2,
         "marker-end": `url(#arrow-${kind})`,
         opacity:
@@ -339,7 +339,7 @@ export class GraphView {
             el("rect", {
               ...rect,
               rx: 5,
-              fill: isActive ? "#edf2ff" : "#e5f3ee",
+              fill: isActive ? "#253356" : "#332d24",
             }),
           );
           const text = el("text", {
@@ -348,7 +348,7 @@ export class GraphView {
             "text-anchor": "middle",
           });
           text.style.fontSize = "12px";
-          text.style.fill = isActive ? "#2856d8" : "#07685d";
+          text.style.fill = isActive ? "#7c9cff" : "#ffd27a";
           text.textContent = name;
           label.append(text);
           this.svg.append(label);
@@ -388,8 +388,8 @@ export class GraphView {
             cx: p.x,
             cy: p.y,
             r: 25,
-            fill: "#edf2ff",
-            stroke: "#2856d8",
+            fill: "#253356",
+            stroke: "#7c9cff",
             "stroke-width": 1.5,
           }),
         );
@@ -398,8 +398,8 @@ export class GraphView {
           cx: p.x,
           cy: p.y,
           r: selected ? 17 : 11,
-          fill: selected ? "#2856d8" : "#fff",
-          stroke: selected ? "#2856d8" : "#64748b",
+          fill: selected ? "#7c9cff" : "#8b94ad",
+          stroke: selected ? "#7c9cff" : "#8b94ad",
           "stroke-width": 2,
         }),
       );
@@ -457,7 +457,7 @@ export class GraphView {
         this.svg.append(
           el("path", {
             d: `M${p.x} ${p.y} L${rect.x + rect.width / 2} ${rect.y + rect.height}`,
-            stroke: "#2856d8",
+            stroke: "#7c9cff",
             "stroke-width": 1,
             "stroke-dasharray": "3 4",
             fill: "none",
@@ -472,7 +472,7 @@ export class GraphView {
         "pointer-events": "none",
       });
       label.append(
-        el("rect", { ...rect, rx: 5, fill: "#fafbfd", opacity: 0.96 }),
+        el("rect", { ...rect, rx: 5, fill: "#131a2e", opacity: 0.96 }),
       );
       lines.forEach((line, i) => {
         const text = el("text", {

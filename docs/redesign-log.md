@@ -17,3 +17,7 @@ The working plan stays local. Work is committed phase by phase on `redesign/cosm
 Validation: TypeScript check and production bundle pass.
 
 Baseline headless Chromium wheel interaction: real 40 nodes/60 edges 60.0 FPS; teaching default neighborhood 5 nodes/7 edges 60.2 FPS. This is a wheel-event baseline, not evidence for the future 300/900 target.
+
+## Phase 1 — dark visual foundation
+
+Replaced the light page with a viewport-sized canvas, floating glass controls and evidence panel. Added the specified palette, solid fallbacks, visible focus rings, and a bottom sheet below 900px. Control borders use a stronger separate token than decorative hairlines for contrast. SVG remains functional with dark-compatible colors while Canvas is developed. Verified load, evidence inspection and no horizontal overflow at 1440, 900 and 390px. Typecheck and bundle pass.

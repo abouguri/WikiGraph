@@ -82,7 +82,7 @@ function safeRun(action: () => Promise<void>) {
 function openInspector(trigger = document.activeElement as HTMLElement) {
   if (!$("inspector").classList.contains("is-open")) returnFocus = trigger;
   $("inspector").classList.add("is-open");
-  if (matchMedia("(max-width: 1199px)").matches) {
+  if (matchMedia("(max-width: 899px)").matches) {
     document.body.classList.add("inspector-open");
     for (const e of document.querySelectorAll<HTMLElement>(
       ".appbar,.contextbar,.graph-panel,footer",
@@ -631,7 +631,7 @@ $("path-toggle").onclick = () => {
 $("close-inspector").onclick = closeInspector;
 $("inspector-backdrop").onclick = closeInspector;
 window.addEventListener("resize", () => {
-  const compact = matchMedia("(max-width: 1199px)").matches;
+  const compact = matchMedia("(max-width: 899px)").matches;
   if (!compact && $("inspector").hasAttribute("aria-modal")) closeInspector();
   else if (
     compact &&
@@ -731,7 +731,7 @@ for (const name of ["graph", "list"]) {
   };
 }
 $("inspector").onkeydown = (event) => {
-  if (event.key !== "Tab" || !matchMedia("(max-width: 1199px)").matches) return;
+  if (event.key !== "Tab" || !matchMedia("(max-width: 899px)").matches) return;
   const focusable = [
     ...$("inspector").querySelectorAll<HTMLElement>(
       "button:not(:disabled),a[href],summary,[tabindex='0']",
