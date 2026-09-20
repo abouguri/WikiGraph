@@ -1,0 +1,4 @@
+import {test,expect} from '@playwright/test';
+import {HitGrid,distanceToSegment} from '../src/hit';
+test('hit grid chooses nearest node and segment distance clamps endpoints',()=>{const grid=new HitGrid();grid.reset([{id:'a',x:39,y:40,r:8},{id:'b',x:50,y:40,r:8}]);expect(grid.find({x:42,y:40})?.id).toBe('a');expect(grid.find({x:200,y:40})).toBeUndefined();expect(distanceToSegment({x:15,y:4},{x:0,y:0},{x:10,y:0})).toBeCloseTo(Math.sqrt(41));});
+test('canvas renders and becomes idle after interaction',async({page})=>{await page.goto('/?mode=offline');await expect(page.locator('#graph')).toHaveAttribute('data-nodes',/[1-9]/);await page.locator('#graph-tab').click();await page.locator('#zoom-in').click();await page.locator('#fit').click();await page.waitForTimeout(550);const frames=await page.locator('#graph').getAttribute('data-frames');await page.waitForTimeout(200);expect(await page.locator('#graph').getAttribute('data-frames')).toBe(frames);});

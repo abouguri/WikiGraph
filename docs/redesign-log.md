@@ -21,3 +21,7 @@ Baseline headless Chromium wheel interaction: real 40 nodes/60 edges 60.0 FPS; t
 ## Phase 1 — dark visual foundation
 
 Replaced the light page with a viewport-sized canvas, floating glass controls and evidence panel. Added the specified palette, solid fallbacks, visible focus rings, and a bottom sheet below 900px. Control borders use a stronger separate token than decorative hairlines for contrast. SVG remains functional with dark-compatible colors while Canvas is developed. Verified load, evidence inspection and no horizontal overflow at 1440, 900 and 390px. Typecheck and bundle pass.
+
+## Phase 2 — Canvas renderer
+
+Replaced SVG rendering with DPR-aware Canvas 2D. Added cached radial glow sprites, incoming-degree sizing, prioritized measured labels, fact arrows/evidence dots, node spatial hashing, edge hit testing, cursor-centered wheel zoom, pan/pinch, and panel-aware animated fit. Rendering is event-driven and stops when idle. The existing expansion, search, path and evidence logic continues through the same GraphView interface. Real and teaching smoke checks pass; two new hit-testing/idle-rendering tests pass. Existing SVG DOM-specific tests will be migrated with the new map workflow. Dense performance and multi-edge refinements remain in the final verification phase.

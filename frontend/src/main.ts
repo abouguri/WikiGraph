@@ -1,5 +1,5 @@
 import { LIMITS } from "./config";
-import { GraphView } from "./graph";
+import { GraphView } from "./renderer";
 import { rankEntities } from "./search";
 type Entity = { id: string; label: string; aliases: string[] };
 type Edge = { id: string; subject: string; predicate: string; object: string };
@@ -47,10 +47,11 @@ let activeAssertion = "",
   pathView = false;
 const pages = new Map<string, { offset: number; total: number }>();
 const graphView = new GraphView(
-  document.getElementById("graph") as unknown as SVGSVGElement,
+  document.getElementById("graph") as HTMLCanvasElement,
   selectNode,
   (id) => safeRun(() => inspect(id)),
 );
+graphView.onExpand = (id) => safeRun(() => expand(id));
 const labels: Record<string, string> = {
   linksTo: "links to",
   designedBy: "was designed by",
