@@ -1,3 +1,4 @@
+import { LIMITS } from "./config";
 import { GraphView } from "./graph";
 import { rankEntities } from "./search";
 type Entity = { id: string; label: string; aliases: string[] };
@@ -141,18 +142,18 @@ function saveURL() {
 async function neighbors(id: string, offset = 0): Promise<Neighbors> {
   if (mode.value === "api")
     return get(
-      `/entities/${encodeURIComponent(id)}/neighbors?${new URLSearchParams({ predicate: predicate.value, direction: direction.value, limit: "12", offset: String(offset) })}`,
+      `/entities/${encodeURIComponent(id)}/neighbors?${new URLSearchParams({ predicate: predicate.value, direction: direction.value, limit: String(LIMITS.expansion), offset: String(offset) })}`,
     );
   const all = sample.assertions.filter(
     (e) => (e.subject === id || e.object === id) && matching(e, id),
   );
-  const slice = all.slice(offset, offset + 12);
+  const slice = all.slice(offset, offset + LIMITS.expansion);
   const ids = new Set([id, ...slice.flatMap((e) => [e.subject, e.object])]);
   return {
     nodes: sample.entities.filter((n) => ids.has(n.id)),
     edges: slice,
     total: all.length,
-    truncated: offset + 12 < all.length,
+    truncated: offset + LIMITS.expansion < all.length,
   };
 }
 async function expand(id: string, reset = false) {
@@ -167,7 +168,7 @@ async function expand(id: string, reset = false) {
     edges.clear();
     pages.clear();
   }
-  if (!nodes.has(id) && nodes.size >= 40) {
+  if (!nodes.has(id) && nodes.size >= LIMITS.nodes) {
     message(
       "The view already has 40 entities. Collapse to the selection before expanding another entity.",
     );
@@ -182,19 +183,19 @@ async function expand(id: string, reset = false) {
   const center = data.nodes.find((node) => node.id === id);
   if (center) nodes.set(id, center);
   for (const n of data.nodes)
-    if (nodes.size < 40 || nodes.has(n.id)) nodes.set(n.id, n);
+    if (nodes.size < LIMITS.nodes || nodes.has(n.id)) nodes.set(n.id, n);
   for (const e of data.edges)
     if (
       nodes.has(e.subject) &&
       nodes.has(e.object) &&
-      (edges.size < 120 || edges.has(e.id))
+      (edges.size < LIMITS.edges || edges.has(e.id))
     )
       edges.set(e.id, e);
   render(reset);
   showEntity();
   saveURL();
   message(
-    `${data.total} connections around ${nodeLabel(id)}. ${edges.size} visible in this view · ${offset + data.edges.length} fetched of ${data.total}.${nodes.size >= 40 || edges.size >= 120 ? " View limit reached; focus here to explore another neighborhood." : ""}`,
+    `${data.total} connections around ${nodeLabel(id)}. ${edges.size} visible in this view · ${offset + data.edges.length} fetched of ${data.total}.${nodes.size >= LIMITS.nodes || edges.size >= LIMITS.edges ? " View limit reached; focus here to explore another neighborhood." : ""}`,
   );
 }
 function selectNode(id: string) {
@@ -229,7 +230,7 @@ function showEntity(open = false) {
     page?.offset ? "Show more connections" : "Expand connections",
     () => safeRun(() => expand(selected)),
   );
-  more.disabled = (!!page && page.offset >= page.total) || edges.size >= 120;
+  more.disabled = (!!page && page.offset >= page.total) || edges.size >= LIMITS.edges;
   const focus = button("Focus here", () =>
     safeRun(() => expand(selected, true)),
   );
