@@ -26,6 +26,8 @@ export function readPalette(): Palette {
   const css = getComputedStyle(document.documentElement);
   return Object.fromEntries(
     [
+      "reference-opacity",
+      "glow-opacity",
       "canvas",
       "text",
       "muted",

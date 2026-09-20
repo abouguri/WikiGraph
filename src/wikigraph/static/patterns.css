@@ -1,0 +1,170 @@
+/* One seamless, noninteractive texture per context; semantic content stays above it. */
+#graph-view,
+.results,
+#inspector,
+#left-panel,
+#why,
+.evidence-details {
+  isolation: isolate;
+}
+#why,
+.evidence-details {
+  position: relative;
+}
+#graph-view::before,
+.results::before,
+#inspector::before,
+#left-panel:has([data-view="saved"])::before,
+#left-panel:has(.empty-list)::before,
+#why:not(:empty)::before,
+.evidence-details::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: inherit;
+  background: var(--pattern-ink);
+  opacity: var(--pattern-opacity, 0.08);
+  mask-image: var(--pattern);
+  mask-repeat: repeat;
+}
+#graph-view {
+  --pattern: url("/pattern-field.svg");
+  --pattern-opacity: 0.05;
+}
+.graph-panel:has(#landing:not([hidden])) #graph-view {
+  --pattern: url("/pattern-rings.svg");
+}
+.results {
+  --pattern: url("/pattern-rings.svg");
+  --pattern-opacity: 0.1;
+}
+#inspector {
+  --pattern: url("/pattern-lens.svg");
+}
+#inspector:has([data-view="evidence"]) {
+  --pattern: url("/pattern-strata.svg");
+  --pattern-ink: var(--fact);
+  --pattern-opacity: 0.06;
+}
+#left-panel:has([data-view="saved"]) {
+  --pattern: url("/pattern-strata.svg");
+}
+#left-panel:has(.empty-list) {
+  --pattern: url("/pattern-rings.svg");
+}
+#why {
+  --pattern: url("/pattern-branches.svg");
+  --pattern-opacity: 0.1;
+}
+.evidence-details {
+  --pattern: url("/pattern-currents.svg");
+  --pattern-ink: var(--fact);
+  --pattern-opacity: 0.09;
+}
+/* A connected W: the same node/edge geometry at every brand size. */
+.brand-mark {
+  display: block;
+  width: 34px;
+  height: 28px;
+  border: 0;
+  border-radius: 0;
+  flex: none;
+}
+.brand {
+  font-weight: 650;
+  letter-spacing: -0.05em;
+}
+.eyebrow {
+  font-family: ui-monospace, monospace;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+}
+h1,
+h2,
+h3 {
+  letter-spacing: -0.03em;
+  font-weight: 550;
+}
+#landing h2 {
+  font-weight: 450;
+  letter-spacing: -0.055em;
+}
+#theme-toggle {
+  width: 38px;
+  padding: 6px;
+  flex: none;
+}
+#theme-toggle svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+[data-view="evidence"] .badge,
+[data-view="evidence"] .source-link {
+  color: var(--fact);
+}
+.source-dot {
+  background: var(--fact);
+}
+#why:not(:empty) {
+  padding: 16px 0;
+  border-block: 1px solid var(--hairline);
+  margin-top: 16px;
+}
+.empty-list {
+  padding: 28px 12px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.evidence-details {
+  padding-block: 18px;
+}
+.evidence-details summary {
+  color: var(--fact);
+}
+@media (max-width: 899px) {
+  .appbar {
+    gap: 6px;
+  }
+  .appbar .brand {
+    font-size: 16px;
+    gap: 5px;
+  }
+  .brand-mark {
+    display: block;
+    width: 25px;
+    height: 24px;
+  }
+  .dataset-label select {
+    max-width: 125px;
+    padding-inline: 5px;
+  }
+  #theme-toggle,
+  #share {
+    width: 32px;
+    min-width: 32px;
+  }
+}
+@media (max-width: 370px) {
+  .appbar .brand {
+    font-size: 0;
+    gap: 0;
+  }
+  .brand-mark {
+    width: 30px;
+  }
+}
+@media (forced-colors: active) {
+  #graph-view::before,
+  .results::before,
+  #inspector::before,
+  #left-panel:has([data-view="saved"])::before,
+  #left-panel:has(.empty-list)::before,
+  #why::before,
+  .evidence-details::before {
+    display: none;
+  }
+}

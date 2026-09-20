@@ -46,7 +46,8 @@ Alternatively, run `docker compose up --build -d`.
   from factual predicates.
 - Typed search, paginated neighbors, bounded shortest paths, evidence lookup,
   request IDs, metrics, and a per-process request quota.
-- Dark Canvas 2D workspace with glowing, data-sized nodes, cooling force simulation,
+- Dark/light Canvas 2D workspace with subtle patterns, a connected-W identity,
+  data-sized nodes, cooling force simulation,
   pinning, collision-aware labels, pan/pinch/zoom and an accessible entity list.
 - One-to-three-origin similarity maps with weighted shared-neighbor explanations,
   Foundations / Builds on this lists, and independently inspectable source evidence.
@@ -55,6 +56,9 @@ Alternatively, run `docker compose up --build -d`.
   sample uses the same scoring rules as the API.
 - Python CI and Chromium browser checks, reproducible exports, evaluation tooling,
   and a measured local HTTP benchmark.
+
+The [visual system](docs/design-system.md) documents theme tokens, surface patterns,
+and responsive verification. The header theme switch remembers your preference.
 
 ## Explore the map
 

@@ -1,8 +1,8 @@
 {
   "nodes": 300,
   "edges": 900,
-  "fps": 60.00400026668444,
-  "draw_p95_ms": 5.5,
+  "fps": 60.00200006666889,
+  "draw_p95_ms": 6.100000023841858,
   "idle_frames": 0,
   "method": "DPR 1, headless Chromium, requestAnimationFrame camera pan after reduced-motion settling",
   "visible_labels": 34
