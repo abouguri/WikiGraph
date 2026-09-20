@@ -29,3 +29,11 @@ Replaced SVG rendering with DPR-aware Canvas 2D. Added cached radial glow sprite
 ## Phase 3 — live simulation
 
 Added bounded pairwise repulsion, weighted springs, gravity, collision padding and cooling. Existing positions stay held when adding neighbors; new nodes settle over approximately 12 animation frames. Dragging pins a node; double-click releases it. Pause and Re-arrange controls are wired. Path mode stops simulation and preserves neighborhood positions. Reduced motion computes the final arrangement synchronously, with no visible settling animation. Simulation stops scheduling frames when cool or paused. Three targeted tests pass, covering stable expansion, pin/unpin, termination and reduced-motion idle rendering. Build passes.
+
+## Phase 4 — similarity API
+
+Added weighted incoming/outgoing cosine similarity, direct-reference/fact bonuses, geometric multi-origin ranking, bounded two-hop candidates, invisible similarity springs, deterministic clusters, hub-filtered side lists, explanations and suggested origins. Endpoints are additive; existing response models remain unchanged. Metadata comes from RDF snapshots only. Teaching JSON now carries the same descriptive metadata for offline parity.
+
+Decisions: degree is unique incoming plus unique outgoing page neighbors; candidates may traverse factual edges as well as page references. Zero-similarity candidates are omitted. `limit` counts non-origin recommendations, with origins added separately; it clamps to 5–80. Unknown origins return 404; empty/duplicate/more than three origins return 422. Lists exclude degree strictly above 25% of the corpus.
+
+Validation: 53 backend tests pass; Ruff and mypy pass. Real-corpus request times for one/two/three origins: 18.36 / 31.87 / 30.21 ms with 41 / 42 / 43 nodes. Startup, including RDF parsing and validation, took 7.27 seconds separately; this is not included in warm map latency. Returned assertion identifiers resolve to stored evidence. The existing cold-start cost remains a deployment constraint.

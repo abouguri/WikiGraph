@@ -13,7 +13,7 @@ store = QueryStore(build_dataset(pages))
 (root / "src/wikigraph/static/sample.json").write_text(
     json.dumps(
         {
-            "entities": [e.model_dump() for e in store.entities.values()],
+            "entities": [store.similarity.node(id) for id in sorted(store.entities)],
             "assertions": [a.model_dump() for a in store.assertions.values()],
         },
         indent=2,

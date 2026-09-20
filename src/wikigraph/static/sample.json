@@ -3,127 +3,302 @@
     {
       "id": "fixture-1",
       "label": "Python (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "Python (programming language) was designed by Guido van Rossum. Python (programming language) was influenced by ABC (programming language).",
+      "source_url": "https://example.org/wikigraph/demo/1",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 3
     },
     {
       "id": "fixture-10",
       "label": "Java (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "Java (programming language) was designed by James Gosling.",
+      "source_url": "https://example.org/wikigraph/demo/10",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 2
     },
     {
       "id": "fixture-11",
       "label": "James Gosling",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/11",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-12",
       "label": "Rust (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "Rust (programming language) was designed by Graydon Hoare. Rust (programming language) was developed by Mozilla.",
+      "source_url": "https://example.org/wikigraph/demo/12",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 3
     },
     {
       "id": "fixture-13",
       "label": "Graydon Hoare",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/13",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-14",
       "label": "Mozilla",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/14",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-15",
       "label": "C++",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "C++ was designed by Bjarne Stroustrup. C++ was influenced by C (programming language).",
+      "source_url": "https://example.org/wikigraph/demo/15",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 3
     },
     {
       "id": "fixture-16",
       "label": "Bjarne Stroustrup",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/16",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-17",
       "label": "TypeScript",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "TypeScript was developed by Microsoft. TypeScript was influenced by JavaScript.",
+      "source_url": "https://example.org/wikigraph/demo/17",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 3
     },
     {
       "id": "fixture-18",
       "label": "Microsoft",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/18",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-19",
       "label": "Ruby (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "Ruby (programming language) was designed by Yukihiro Matsumoto. Ruby (programming language) was influenced by Python (programming language).",
+      "source_url": "https://example.org/wikigraph/demo/19",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 3
     },
     {
       "id": "fixture-2",
       "label": "Guido van Rossum",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/2",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-20",
       "label": "Yukihiro Matsumoto",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/20",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-21",
       "label": "Swift (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "Swift (programming language) was developed by Apple Inc..",
+      "source_url": "https://example.org/wikigraph/demo/21",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 2
     },
     {
       "id": "fixture-22",
       "label": "Apple Inc.",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/22",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-23",
       "label": "Kotlin (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "Kotlin (programming language) was developed by JetBrains.",
+      "source_url": "https://example.org/wikigraph/demo/23",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 2
     },
     {
       "id": "fixture-24",
       "label": "JetBrains",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/24",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-25",
       "label": "Programming language",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/25",
+      "source_kind": "synthetic",
+      "in_links": 24,
+      "out_links": 0
     },
     {
       "id": "fixture-3",
       "label": "ABC (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/3",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-4",
       "label": "JavaScript",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "JavaScript was designed by Brendan Eich. JavaScript was influenced by C (programming language).",
+      "source_url": "https://example.org/wikigraph/demo/4",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 3
     },
     {
       "id": "fixture-5",
       "label": "Brendan Eich",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/5",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-6",
       "label": "C (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "C (programming language) was designed by Dennis Ritchie.",
+      "source_url": "https://example.org/wikigraph/demo/6",
+      "source_kind": "synthetic",
+      "in_links": 2,
+      "out_links": 2
     },
     {
       "id": "fixture-7",
       "label": "Dennis Ritchie",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/7",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     },
     {
       "id": "fixture-8",
       "label": "Go (programming language)",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "Go (programming language) was developed by Google.",
+      "source_url": "https://example.org/wikigraph/demo/8",
+      "source_kind": "synthetic",
+      "in_links": 0,
+      "out_links": 2
     },
     {
       "id": "fixture-9",
       "label": "Google",
-      "aliases": []
+      "aliases": [],
+      "type": "Other",
+      "year": null,
+      "summary": "",
+      "source_url": "https://example.org/wikigraph/demo/9",
+      "source_kind": "synthetic",
+      "in_links": 1,
+      "out_links": 1
     }
   ],
   "assertions": [
