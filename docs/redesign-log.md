@@ -43,3 +43,9 @@ Validation: 53 backend tests pass; Ruff and mypy pass. Real-corpus request times
 Added a central store, hash serialization, offline similarity implementation, list/detail modules, suggested origins and a map landing state. Users can create up to three origins, inspect shared-neighbor explanations, use Foundations/Builds on this, add/remove/expand entities, switch encodings, inspect assertions and find paths. Drawing caps are now 150 entities and 500 connections, with factual edges prioritized when trimming. The hash preserves origins, map size, selection, encodings, expansions, additions/removals, saved IDs, filters and camera; legacy entity query links still load. Missing shared origins produce a notice.
 
 Offline scoring is implemented without a new dependency and checked against Python for one, two and three origins, including ranked nodes, clusters, lists and spring weights. Three parity/workflow browser tests pass. Real Wikipedia maps were checked at 1440, 900 and 390px with no horizontal overflow or browser errors. Build passes. Final polish will consolidate panel positioning and migrate the old SVG-specific suite.
+
+## Phase 6 — filters and saved discoveries
+
+Added type toggles, combined relationship/direction fading, a conditional year histogram with pointer brushing and keyboard-operable range controls, Shift-drag group actions, and saved-list JSON/CSV/Markdown downloads. Filtering preserves positions and graph membership while disabling hit targets for hidden items. The list and count use the same filter conditions. Saved entries persist per dataset in browser storage, including source metadata; exports accept only HTTPS Wikipedia source links and clearly label synthetic entries.
+
+Six browser/parity/export tests pass. Timeline behavior is exercised using an explicitly dated test fixture; neither shipped dataset is assigned invented dates. Production typecheck/build passes.
