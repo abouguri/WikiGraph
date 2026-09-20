@@ -1,4 +1,5 @@
-import { layout, type Point } from "./layout";
+import { Simulation, type Point, type LayoutLink } from "./sim";
+import { simulationToolbar } from "./panels/toolbar";
 import { readPalette, nodeRadius, nodeColor, type GraphNode, type GraphEdge } from "./encode";
 import { HitGrid, distanceToSegment, type Mark } from "./hit";
 export type { GraphNode, GraphEdge } from "./encode";
@@ -7,6 +8,11 @@ type Rect = {x:number;y:number;width:number;height:number};
 const overlaps=(a:Rect,b:Rect)=>a.x<b.x+b.width+5&&a.x+a.width+5>b.x&&a.y<b.y+b.height+4&&a.y+a.height+4>b.y;
 export class GraphView {
   positions=new Map<string,Point>();
+  private sim=new Simulation();
+  private simFrame=0;
+  private fastSettle=false;
+  private layoutLinks:LayoutLink[]=[];
+  private savedPositions=new Map<string,Point>();
   protected nodes:GraphNode[]=[];
   protected edges:GraphEdge[]=[];
   protected selected="";
@@ -39,6 +45,7 @@ export class GraphView {
   private tooltip:HTMLDivElement;
   constructor(protected canvas:HTMLCanvasElement,protected select:(id:string)=>void,protected inspect:(id:string)=>void){
     this.ctx=canvas.getContext('2d')!;
+    const toolbar=document.querySelector<HTMLElement>('.zoom-controls');if(toolbar)simulationToolbar(toolbar,p=>{this.sim.paused=p;if(!p)this.runSimulation()},()=>{this.sim.rearrange();this.runSimulation()});
     this.tooltip=document.createElement('div');this.tooltip.className='graph-tooltip';this.tooltip.hidden=true;canvas.parentElement!.append(this.tooltip);
     canvas.tabIndex=0;canvas.setAttribute('role','application');canvas.setAttribute('aria-label','Knowledge map. Arrow keys select connected entities; Enter expands. Use the Map and Connections lists for equivalent actions.');
     new ResizeObserver(()=>{if(!canvas.clientWidth||!canvas.clientHeight)return;this.width=canvas.clientWidth;this.height=canvas.clientHeight;const dpr=Math.min(devicePixelRatio||1,3);canvas.width=Math.round(this.width*dpr);canvas.height=Math.round(this.height*dpr);this.ctx.setTransform(dpr,0,0,dpr,0,0);this.fit(false)}).observe(canvas);
@@ -52,8 +59,10 @@ export class GraphView {
     canvas.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();const ids=[...new Set(this.edges.filter(x=>x.subject===this.selected||x.object===this.selected).flatMap(x=>[x.subject,x.object]))].filter(id=>id!==this.selected&&!this.hidden.has(id));const choices=ids.length?ids:this.nodes.filter(n=>!this.hidden.has(n.id)).map(n=>n.id);const current=this.positions.get(this.selected);if(current&&ids.length){const direction=e.key==='ArrowLeft'?[-1,0]:e.key==='ArrowRight'?[1,0]:e.key==='ArrowUp'?[0,-1]:[0,1];choices.sort((a,b)=>{const score=(id:string)=>{const p=this.positions.get(id)!;const d=Math.hypot(p.x-current.x,p.y-current.y)||1;return((p.x-current.x)*direction[0]+(p.y-current.y)*direction[1])/d};return score(b)-score(a)||a.localeCompare(b)});}if(choices[0])this.select(choices[0]);}if(e.key==='Enter'&&this.selected){e.preventDefault();this.onExpand(this.selected)}if(e.key==='f'){e.preventDefault();this.fit()}if(e.key==='Escape')this.onClear();if(e.key==='+'||e.key==='=')this.zoom(1.2);if(e.key==='-')this.zoom(1/1.2)});
     for(const [id,action]of [['zoom-in',()=>this.zoom(1.2)],['zoom-out',()=>this.zoom(1/1.2)],['fit',()=>this.fit()]]as const){const c=document.getElementById(id)as HTMLButtonElement;if(c){c.disabled=false;c.onclick=action}}
   }
-  protected moveNode(id:string,p:Point){this.positions.set(id,p);}
-  protected unpin(_id:string){}
+  protected moveNode(id:string,p:Point){this.sim.pin(id,p);this.positions.set(id,p);this.runSimulation()}
+  protected unpin(id:string){this.sim.unpin(id);this.runSimulation()}
+  setLayoutLinks(links:LayoutLink[]){this.layoutLinks=links}
+  private runSimulation(){if(this.pathMode||this.sim.paused)return;if(matchMedia("(prefers-reduced-motion: reduce)").matches){this.sim.settle();this.positions=this.sim.positions();this.requestDraw();return}if(this.simFrame)return;const tick=()=>{this.simFrame=0;if(this.pathMode||this.sim.paused)return;let running=this.sim.tick();if(this.fastSettle)for(let i=0;i<19&&running;i++)running=this.sim.tick();this.positions=this.sim.positions();this.requestDraw();if(running)this.simFrame=requestAnimationFrame(tick)};this.simFrame=requestAnimationFrame(tick)}
   private release(id:number){this.pointers.delete(id);if(!this.pointers.size){this.dragNode='';this.brush=undefined;this.requestDraw()}}
   private local(e:{clientX:number;clientY:number}){const r=this.canvas.getBoundingClientRect();return{x:e.clientX-r.left,y:e.clientY-r.top}}
   protected world(p:Point):Point{return{x:(p.x-this.width/2)/this.camera.scale+this.camera.x,y:(p.y-this.height/2)/this.camera.scale+this.camera.y}}
@@ -61,10 +70,20 @@ export class GraphView {
   private hover(p:Point){const mark=this.grid.find(p),id=mark?.id||'';this.tooltip.hidden=!mark;if(mark){const n=this.nodes.find(n=>n.id===id)!;this.tooltip.textContent=`${n.label} · ${n.type||'Other'}${n.year?` · ${n.year}`:''}${n.similarity!==undefined?` · ${Math.round(n.similarity*100)}% similarity`:''}`;this.tooltip.style.left=`${Math.min(this.width-270,Math.max(12,p.x+16))}px`;this.tooltip.style.top=`${Math.max(80,p.y-40)}px`;}if(id!==this.hovered){this.hovered=id;this.onHover(id);this.requestDraw()}this.canvas.style.cursor=mark?'grab':this.edgeAt(p)?'pointer':'default'}
   private edgeAt(p:Point){return [...this.edgeMarks].sort((a,b)=>Number(a.edge.predicate==='linksTo')-Number(b.edge.predicate==='linksTo')).find(m=>!this.hidden.has(m.edge.subject)&&!this.hidden.has(m.edge.object)&&distanceToSegment(p,m.a,m.b)<=6)?.edge}
   update(nodes:GraphNode[],edges:GraphEdge[],selected:string,active:string,reset=false,pathMode=false){
-    const started=performance.now();if(reset)this.positions.clear();const changed=nodes.length!==this.positions.size||nodes.some(n=>!this.positions.has(n.id));this.nodes=nodes;this.edges=edges;this.selected=selected;this.active=active;this.pathMode=pathMode;
-    if(changed){this.positions=pathMode?new Map(nodes.map((n,i)=>[n.id,{x:i*200,y:0}])):layout(nodes.map(n=>n.id),edges,this.positions,selected);this.canvas.dataset.layoutMs=String(performance.now()-started);}
-    if(reset)this.fit(false);else this.requestDraw();
+    const started=performance.now(),wasPath=this.pathMode;
+    const changed=reset||nodes.length!==this.nodes.length||nodes.some(n=>!this.positions.has(n.id));
+    if(pathMode&&!wasPath)this.savedPositions=new Map(this.positions);
+    this.nodes=nodes;this.edges=edges;this.selected=selected;this.active=active;this.pathMode=pathMode;
+    if(pathMode){cancelAnimationFrame(this.simFrame);this.simFrame=0;this.positions=new Map(nodes.map((n,i)=>[n.id,{x:i*200,y:0}]));}
+    else if(changed||wasPath){this.sim.update(nodes.map(n=>n.id),edges,this.layoutLinks,selected,reset&&!wasPath);if(wasPath){for(const [id,p]of this.savedPositions){const body=this.sim.bodies.get(id);if(body)Object.assign(body,p)}}
+      // Start from a legible arrangement, then visibly settle without a burst at the origin.
+      if(reset&&!wasPath)for(let i=0;i<40;i++)this.sim.tick();
+      this.fastSettle=!reset;this.positions=this.sim.positions();this.runSimulation();
+      this.canvas.dataset.layoutMs=String(performance.now()-started);
+    }
+    if(reset||wasPath)this.fit(false);else this.requestDraw();
   }
+
   setEncoding(color:string,size:string){this.colorBy=color;this.sizeBy=size;this.requestDraw()}
   setHidden(ids:Set<string>){this.hidden=ids;this.requestDraw()}
   setHover(id:string){this.hovered=id;this.requestDraw()}
