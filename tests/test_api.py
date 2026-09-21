@@ -60,7 +60,11 @@ def test_search_neighbors_evidence_and_paths(graph_path):
         ]
         assert client.get("/health").json()["entities"] == 3
         assert client.get("/openapi.json").status_code == 200
-        assert "Every connection" in client.get("/").text
+        homepage = client.get("/")
+        assert homepage.status_code == 200
+        assert homepage.headers["content-type"].startswith("text/html")
+        assert '<canvas id="graph"' in homepage.text
+        assert 'src="/app.js"' in homepage.text
         assert client.get("/sample.json").status_code == 200
 
 
