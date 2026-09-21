@@ -18,8 +18,8 @@ The API resolves the title, then `action=parse&oldid=REVISION` fetches content a
 links from that revision. Unlike `query&prop=links`, this does not require link
 continuation and is not truncated to 20 links. Introduction mode requests section
 0; `--full-text` includes all sections. Parsed template content can depend on
-current templates, so the stored raw response and normalized text—not a later
-re-parse—are the reproducibility boundary. The snapshot retains retrieval time.
+current templates. Reproducibility therefore relies on the stored raw response
+and normalized text rather than a later re-parse. The snapshot retains retrieval time.
 
 Exports include sorted Turtle-compatible triples, a SHA-256 manifest, and page
 snapshots. A run with failed pages still exports its successful pages and exits

@@ -1,4 +1,4 @@
-# Wikipedia contributors — source revisions
+# Wikipedia contributors: source revisions
 Content and WikiGraph text adaptations: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - .NET: [revision 1375118505](https://en.wikipedia.org/w/index.php?oldid=1375118505) · [contributors](https://en.wikipedia.org/w/index.php?curid=45400268&action=history)
 - ABC (programming language): [revision 1325980803](https://en.wikipedia.org/w/index.php?oldid=1325980803) · [contributors](https://en.wikipedia.org/w/index.php?curid=147585&action=history)

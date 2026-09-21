@@ -32,7 +32,7 @@ export function exportSaved(nodes: GraphNode[], format: "json" | "csv" | "md") {
           rows
             .map(
               (n) =>
-                `- ${n.url ? `[${markdown(n.label)}](${n.url})` : markdown(n.label) + (n.id.startsWith("fixture-") ? " (synthetic teaching entity)" : " (source unavailable)")} — ${n.id}`,
+                `- ${n.url ? `[${markdown(n.label)}](${n.url})` : markdown(n.label) + (n.id.startsWith("fixture-") ? " (synthetic teaching entity)" : " (source unavailable)")}: ${n.id}`,
             )
             .join("\n");
   return {
