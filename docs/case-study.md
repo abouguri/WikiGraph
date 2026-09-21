@@ -74,7 +74,7 @@ generally. See the [comparison and limitations](neo4j.md).
 | Neighbors p95 | 9.94 ms | Same benchmark configuration |
 | Path p95 | 35.59 ms | One fixed bounded path workload |
 | Server peak RSS | 288,940 KiB | Benchmark process |
-| Automated checks | 49 Python tests, 15 Chromium tests | Local release verification |
+| Automated checks | 53 Python tests, 37 Chromium tests | Local verification |
 
 Hardware, cold-query values, distributions, and exact dataset hash are in the
 [benchmark report](../reports/benchmark.json). The
@@ -87,8 +87,3 @@ usability gate remain open. Public hosting requires account access. The expanded
 corpus is selected partly by link overlap and is not wholly hand-curated.
 Per-process quotas need a shared reverse-proxy policy for multiple workers.
 The prepared deployment has no public availability claim.
-
-A defensible portfolio description is: “Built a revision-backed graph explorer
-for 300 Wikipedia pages with deterministic offline rebuilds, bounded typed APIs,
-and a measured 20.97 ms local search p95 at five concurrent clients.” Add a real
-accuracy number only after independent labels support it.

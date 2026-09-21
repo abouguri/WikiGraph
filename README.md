@@ -1,112 +1,71 @@
 # WikiGraph
 
-Explore connections between computing topics and inspect the source behind each
-edge. WikiGraph builds a revision-backed RDF graph from Wikipedia, serves bounded
-queries through a typed API, and provides an interactive graph and accessible list.
+Explore how computing topics connect, then inspect the Wikipedia revision behind each relationship. WikiGraph combines a reproducible RDF dataset, a FastAPI query service, and an interactive Canvas explorer.
 
-![WikiGraph showing Java's real source evidence for James Gosling](docs/media/real-evidence.png)
+![WikiGraph exploring Java and related computing topics](docs/media/patterns-light-workspace.png)
 
-[Watch the one-minute walkthrough](docs/media/demo.webm) · [Technical case study](docs/case-study.md) ·
-[Release notes](docs/release-notes.md) · [Visual verification](docs/visual-verification.md)
+[Dark theme](docs/media/patterns-dark-workspace.png) · [Mobile view](docs/media/patterns-light-mobile.png) · [API reference](docs/api.md) · [Architecture](docs/case-study.md)
 
-## Try it
+## Explore
 
-Python 3.11+ is supported; the locked environment was verified with Python 3.13.
+- Search for a person, language, or concept and build a map from up to three starting points.
+- Inspect shared neighbors to understand structural similarity. Proximity is not a factual claim.
+- Follow dashed page links or gold factual relationships to their evidence and source revision.
+- Find shortest paths, expand neighborhoods, pin nodes, and filter connections.
+- Save entities in your browser, export JSON/CSV/Markdown, or share the current map through its URL.
+- Switch between light and dark themes. Keyboard navigation, reduced motion, and mobile detail sheets are supported.
+
+The interface uses TypeScript and Canvas 2D without a runtime graph library. Space Grotesk and Newsreader are self-hosted; their font licenses are bundled with the app.
+
+## Run locally
+
+Requires Python 3.11 or newer. Run these commands from the repository root:
 
 ```sh
 python -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.lock
 pip install -e . --no-deps
+WIKIGRAPH_GRAPH=data/wikipedia/graph.ttl \
+  uvicorn wikigraph.api:create_app --factory --host 127.0.0.1 --port 8000
+```
+
+Open [localhost:8000](http://localhost:8000). This serves the checked-in Wikipedia corpus without fetching new articles. Interactive API documentation is at [localhost:8000/docs](http://localhost:8000/docs).
+
+Choose **Teaching sample** to explore authored examples using the browser's bundled dataset. These examples have synthetic evidence and fictional revisions. To serve the teaching dataset through the API instead:
+
+```sh
 wikigraph demo
 uvicorn wikigraph.api:create_app --factory --host 127.0.0.1 --port 8000
 ```
 
-Open http://localhost:8000. The explorer opens the API dataset by default.
-The `wikigraph demo` command above builds an **authored synthetic teaching
-sample**, with clearly labeled fictional revisions. Select the offline mode
-(or use `?mode=offline`) to run the bundled browser sample without the API.
-
-To serve the real checked-in corpus:
+The compiled frontend is included, so Node.js is only needed for frontend development. Docker is another way to run the full app:
 
 ```sh
-WIKIGRAPH_GRAPH=data/wikipedia/graph.ttl uvicorn wikigraph.api:create_app --factory
+docker compose up --build -d
 ```
 
-Choose **Wikipedia corpus** in the explorer. API docs are at `/docs`.
-Alternatively, run `docker compose up --build -d`.
+## How it works
 
-## What is implemented
+1. **Ingest:** fetch revision-pinned Wikipedia pages with retry limits, raw response caching, and resumable jobs.
+2. **Build:** resolve canonical identities and aliases, extract conservative factual relationships, and attach evidence to individual assertions.
+3. **Validate:** check the RDF graph with SHACL and evidence-integrity rules, then export a deterministic snapshot and manifest.
+4. **Query:** serve indexed search, neighbors, similarity maps, explanations, bounded paths, and evidence through FastAPI.
+5. **Explore:** render the graph with a cooling force simulation, measured labels, and equivalent list-based interactions.
 
-- Revision-pinned fetching, bounded retries and request budgets, durable raw
-  snapshots, offline replay, and resumable SQLite ingestion jobs.
-- Canonical page identities, alias resolution, distinct unresolved mentions,
-  addressable assertions, and SHACL plus evidence-integrity validation.
-- Conservative factual extraction with sentence offsets; `linksTo` stays separate
-  from factual predicates.
-- Typed search, paginated neighbors, bounded shortest paths, evidence lookup,
-  request IDs, metrics, and a per-process request quota.
-- Dark/light Canvas 2D workspace with subtle patterns, a connected-W identity,
-  data-sized nodes, cooling force simulation,
-  pinning, collision-aware labels, pan/pinch/zoom and an accessible entity list.
-- One-to-three-origin similarity maps with weighted shared-neighbor explanations,
-  Foundations / Builds on this lists, and independently inspectable source evidence.
-- Stable expansion, filter fading, conditional year brushing, saved-list exports,
-  mobile detail sheets, reduced motion and shareable map state. The offline teaching
-  sample uses the same scoring rules as the API.
-- Python CI and Chromium browser checks, reproducible exports, evaluation tooling,
-  and a measured local HTTP benchmark.
+RDFLib holds the canonical graph. Neo4j is an optional, rebuildable projection; it is not required to run the API or explorer.
 
-The [visual system](docs/design-system.md) documents theme tokens, surface patterns,
-and responsive verification. The header theme switch remembers your preference.
+## Data and limitations
 
-## Explore the map
+The included corpus contains **300 entities and 5,113 assertions**: 5,111 page links and two extracted factual relationships. A page link records a reference, not a factual relationship. Extraction coverage is limited, and the real evaluation candidates have not yet been independently annotated.
 
-Choose a suggested origin or search for one. Select a node to read its details;
-**Add as origin** compares up to three starting points. **Why is this related?**
-shows shared neighbors and direct evidence. Similarity describes graph structure,
-not factual confidence. Dashed references and gold factual relations remain distinct.
+The normal graph view is capped at **150 entities and 500 connections**, with factual edges prioritized. Each expansion adds up to 12 assertions. The current datasets do not provide meaningful entity types or years, so unavailable year controls remain hidden.
 
-Drag a node to pin it; double-click to release. Scroll or pinch to zoom, **Fit** to
-frame the map, and **Re-arrange** to release settled positions while keeping pins.
-Use **Pause motion** or your system's reduced-motion setting to stop animation.
-Keyboard: `/` focuses search, arrow keys on the canvas select connected entities,
-Enter expands, `f` fits, and Escape closes details. The lists provide equivalent actions.
+The API loads the graph into memory at startup. Query benchmarks are local measurements, not hosting guarantees; see the [benchmark method and results](docs/benchmark.md). Request quotas are per process. The [evaluation protocol](docs/annotation.md) explains how real accuracy should be assessed separately from synthetic regression tests.
 
-Appearance controls change type/cluster coloring and node size. Filters fade items
-without rearranging the map. Shift-drag selects a group. Save entities from Details,
-then export JSON, CSV or Markdown from the Saved tab. Saved entries stay in your browser.
-**Share map** preserves origins, selection, additions, expansion, removals, filters,
-encodings, camera, pins and inspected evidence. Mobile panels collapse to make room.
+## Develop and verify
 
-The normal view is bounded to **150 entities / 500 connections**, with 12 assertions
-per expansion and factual edges prioritized at the cap. A map recommends 5–80 related
-entities plus its origins. No meaningful types or years are supplied by the current
-corpora: types display as Other and the timeline/year coloring stay hidden.
-
-## Evidence and limits
-
-The real corpus contains **300 entities, 5,113 assertions, and 105,268 triples**.
-Of those assertions, 5,111 are page links and two are factual relations. Extraction
-coverage is deliberately limited; no real-corpus precision claim has been made.
-
-The synthetic regression split produced 30 true positives, zero false positives,
-and ten false negatives. Those known templates do **not** establish Wikipedia
-accuracy. The 199 frozen real annotation candidates remain unreviewed, and evaluation
-refuses to score them until review is recorded.
-
-A local five-client HTTP benchmark measured p95 latency of 20.97 ms for search,
-9.94 ms for neighbors, and 35.59 ms for the tested path query. These are one-run,
-300-page results; the specified local latency gate passed, but this is not an internet SLA.
-See [measured results](docs/benchmark.md) and [raw report](reports/benchmark.json).
-
-The Cosmos renderer measured about 60 FPS in a headless Chromium camera-pan test
-at 300 nodes / 900 edges, with zero idle redraws. Real-corpus one-, two- and three-origin
-map requests took 18–32 ms locally; RDF startup was measured separately at 7.27 seconds.
-These are local measurements, not a device or hosting SLA. See the
-[implementation log](docs/redesign-log.md) and [renderer report](reports/cosmos-renderer.json).
-
-## Reproduce and develop
+Install the development dependencies in the activated environment:
 
 ```sh
 pip install -r requirements-dev.lock
@@ -114,39 +73,36 @@ pip install -e . --no-deps
 ruff check src tests scripts
 mypy src/wikigraph
 pytest -q
-python scripts/rebuild_corpus.py --output /tmp/wiki-rebuild/graph.ttl
-cmp data/wikipedia/graph.ttl /tmp/wiki-rebuild/graph.ttl
-wikigraph evaluate
+```
+
+For the frontend, use Node.js 22 or newer:
+
+```sh
 cd frontend
 npm ci
 npm run build
 npx playwright install chromium
 npm test
-node verify-renderer.mjs
 ```
 
-The real corpus rebuild was verified byte-for-byte without network access.
-Frontend assets are bundled in the Python package; Node is needed only to change
-or test the frontend.
+The build updates `src/wikigraph/static/app.js`, which is committed for Python-only deployments. GitHub Actions runs Python checks on 3.11 and 3.13 and runs the Chromium browser suite. Browser tests cover search, paths, evidence, shared state, exports, touch and keyboard interaction, both themes, and responsive layouts.
 
-## Design and next release gates
+Rebuild the corpus from its public cached snapshots without network access:
 
-[Product scope](docs/product-scope.md) · [Progress](docs/progress.md) ·
-[Ingestion](docs/ingestion.md) · [Identity and provenance](docs/decisions/001-identity-and-provenance.md) ·
-[Extraction tradeoffs](docs/decisions/002-extraction-and-real-corpus.md) ·
-[Annotation protocol](docs/annotation.md) · [API](docs/api.md) ·
-[Explorer](docs/explorer.md) · [Deployment](docs/deployment.md)
+```sh
+python scripts/rebuild_corpus.py --output /tmp/wiki-rebuild/graph.ttl
+cmp data/wikipedia/graph.ttl /tmp/wiki-rebuild/graph.ttl
+wikigraph evaluate
+```
 
-Pending: independent annotation of the frozen real evaluation split,
-independent reproduction, three-person usability review and verification of the production deployment. The optional
-[Neo4j projection](docs/neo4j.md) has verified batched imports and RDF round-trip
-fidelity; the public API continues to use RDFLib.
+## Documentation and deployment
 
-The [review handoff](docs/review-handoff.md) provides concrete tasks for reviewers.
-The [dependency review](docs/dependencies.md) records audit results, license
-metadata, and their scope. [Demo instructions](docs/demo.md) reproduce the video.
+- [Explorer controls](docs/explorer.md) and [visual system](docs/design-system.md)
+- [Ingestion](docs/ingestion.md), [identity and provenance](docs/decisions/001-identity-and-provenance.md), and [extraction tradeoffs](docs/decisions/002-extraction-and-real-corpus.md)
+- [API contracts](docs/api.md) and [optional Neo4j projection](docs/neo4j.md)
+- [Deployment](docs/deployment.md) for the repository's Vercel, Docker, and Render configurations
+- [Dependency inventory and audit scope](docs/dependencies.md)
 
-Wikipedia text and derived text datasets retain their source licensing and
-attribution; see [corpus terms](data/wikipedia/README.md) and
-[per-page sources](data/wikipedia/SOURCES.md). Synthetic examples are labeled
-separately and are not presented as Wikipedia evidence.
+For Vercel, the repository-root `app.py` exports the FastAPI application; `pyproject.toml` selects `app:app`. The deployment serves the prebuilt corpus and compiled frontend. Verify the deployed service's health and evidence flow using the deployment guide.
+
+Wikipedia text and derived datasets retain their source licensing and attribution. See the [corpus terms](data/wikipedia/README.md) and [per-page source revisions](data/wikipedia/SOURCES.md). Synthetic examples are labeled separately.

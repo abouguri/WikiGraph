@@ -1,6 +1,6 @@
 # WikiGraph visual system
 
-The production app adapts the supplied pattern atlas into a restrained knowledge-exploration workspace. The reference HTML remains local; its mock records and customization gallery are not shipped.
+WikiGraph uses quiet geometric backgrounds, semantic colors, and responsive panels to keep graph content and source evidence readable.
 
 ## Minimalist refinement
 
