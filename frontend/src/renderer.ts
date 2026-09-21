@@ -902,7 +902,7 @@ export class GraphView {
         const r = e.getBoundingClientRect();
         return { x: r.x, y: r.y, width: r.width, height: r.height };
       });
-    c.font = "500 12px system-ui";
+    c.font = `500 12px ${this.palette["font-ui"] || "system-ui"}`;
     c.textBaseline = "middle";
     const order = [...this.marks].sort((a, b) => {
       const priority = (m: Mark) =>

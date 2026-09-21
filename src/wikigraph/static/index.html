@@ -4,7 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#0c1017" />
-    <title>WikiGraph — A cosmos of connections</title>
+    <title>WikiGraph — Explore connections</title>
+    <link
+      rel="preload"
+      href="/space-grotesk.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
     <script src="/theme.js"></script>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/tokens.css" />
@@ -40,7 +47,7 @@
           ><span class="search-icon" aria-hidden="true">⌕</span
           ><input
             id="query"
-            placeholder="Start with a person, language or idea…"
+            placeholder="Search people, languages, ideas…"
             autocomplete="off"
             aria-controls="results"
           /><button type="submit">Search</button>
@@ -74,20 +81,19 @@
           <circle cx="12" cy="12" r="8" />
           <path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor" />
         </svg></button
-      ><button id="share" class="secondary">Share map ↗</button>
+      ><button id="share" class="secondary">Share ↗</button>
     </header>
     <main>
       <section id="context" class="contextbar">
         <div class="context-title">
-          <span class="eyebrow">YOUR EXPLORATION</span>
-          <h1 id="selection">A cosmos of connections</h1>
+          <h1 id="selection">Explore connections</h1>
         </div>
         <div class="context-meta">
           <span id="dataset-note">Loading dataset…</span>
           <details class="help">
-            <summary>About</summary>
+            <summary>Help</summary>
             <div class="help-content">
-              <h2>Every connection has a source.</h2>
+              <h2>Explore the map</h2>
               <p>
                 Start with up to three origins. Nearby entities share structural
                 connections; proximity is not a factual claim.
@@ -101,6 +107,11 @@
                 relations. The teaching sample is authored and uses fictional
                 revisions. Types and years appear only when supplied by the
                 dataset.
+              </p>
+              <p id="graph-hint">
+                Drag a node to pin it; double-click to release. Scroll or pinch
+                to zoom. Use arrow keys to select, Enter to expand, and F to fit
+                the map.
               </p>
               <p>
                 <a href="/docs">API documentation ↗</a> ·
@@ -116,25 +127,17 @@
           <canvas id="graph"></canvas>
           <div class="canvas-top">
             <div class="legend">
-              <span><i class="fact-line"></i>Extracted fact</span
-              ><span><i class="reference-line"></i>Page reference</span>
+              <span><i class="fact-line"></i>Facts</span
+              ><span><i class="reference-line"></i>Page links</span>
             </div>
             <span id="counts" class="count"></span>
           </div>
           <div id="landing">
-            <span class="eyebrow">FOLLOW YOUR CURIOSITY</span>
-            <h2>Ideas don’t exist<br />in isolation.</h2>
-            <p>
-              Start with an entity. Discover what connects it.<br />Follow the
-              evidence behind every line.
-            </p>
-            <span class="eyebrow">A FEW PLACES TO BEGIN</span>
+            <h2>Follow an idea.<br /><em>See where it leads.</em></h2>
+            <p>Explore connections. Inspect the evidence.</p>
             <div id="suggestions"></div>
           </div>
           <div class="canvas-bottom">
-            <span id="graph-hint"
-              >Drag to pin · Double-click to release · Scroll to explore</span
-            >
             <div class="zoom-controls" aria-label="Graph controls">
               <button id="zoom-out" aria-label="Zoom out">−</button
               ><button id="fit">Fit</button
@@ -152,7 +155,7 @@
           ><button id="return-view" hidden>Back to map</button>
           <p id="status" role="status" aria-live="polite">Loading dataset…</p>
           <button id="retry" hidden>Retry</button
-          ><button id="reset">Rebuild map</button>
+          ><button id="reset">Reset map</button>
         </div>
       </section>
       <aside
@@ -304,16 +307,10 @@
         tabindex="-1"
       >
         <div class="inspector-heading">
-          <span class="eyebrow">THE DETAILS</span
-          ><button id="close-inspector" aria-label="Close evidence">×</button>
+          <button id="close-inspector" aria-label="Close evidence">×</button>
         </div>
         <div id="evidence">
-          <h2>Every connection has a source.</h2>
-          <p class="muted">Select an entity or a connection to inspect it.</p>
-        </div>
-        <div class="inspector-foot">
-          <span class="source-dot"></span>Similarity suggests. Evidence
-          supports.
+          <p class="muted">Select a node or connection.</p>
         </div>
       </aside>
       <div id="brush-actions" hidden>

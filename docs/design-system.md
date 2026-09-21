@@ -2,6 +2,14 @@
 
 The production app adapts the supplied pattern atlas into a restrained knowledge-exploration workspace. The reference HTML remains local; its mock records and customization gallery are not shipped.
 
+## Minimalist refinement
+
+The header, context, legend, map rail, and graph controls now use open surfaces rather than individual framed cards. Borders are reserved for active tabs, input baselines, overlays, and the evidence drawer divider. The opening screen hides empty map tools and replaces repeated slogans with one headline and a short prompt. Graph gestures live in Help; evidence semantics and source metadata remain available.
+
+Self-hosted **Space Grotesk** serves the interface and Canvas labels; **Newsreader** gives the opening headline a more expressive editorial shape. Both variable fonts ship with their SIL Open Font License files. Canvas label measurements refresh after fonts load, without changing node positions.
+
+![Minimal landing](media/minimal-landing.png)
+
 ## Ownership
 
 - `src/wikigraph/static/tokens.css`: semantic dark/light colors shared with Canvas, control borders, surface shadows, and graph emphasis.
@@ -34,12 +42,12 @@ The existing desktop panels become mobile sheets, with focus trapping and focus 
 - Theme coverage includes 1440px, 390px, and 320px; existing responsive checks also cover 900px. Both system preference and persisted choice work, including unavailable storage.
 - Canvas pixel checks confirm theme repaint while camera and pins remain unchanged. Semantic text colors meet 4.5:1 contrast on both base surfaces in both themes.
 - Ruff, mypy, and all 53 Python tests passed (two existing dependency deprecation warnings).
-- Renderer stress: 300 nodes / 900 edges, approximately 60 FPS, 6.1ms p95 draw time, zero idle frames, headless Chromium at DPR 1.
+- Before the typography refinement, renderer stress: 300 nodes / 900 edges, approximately 60 FPS, 6.1ms p95 draw time, zero idle frames, headless Chromium at DPR 1.
 - Real Wikipedia Java graph, explanations, factual and page-reference evidence, revision details, saved entities, and search inspected in both themes. Screenshots below use application data.
 
 ![Light workspace](media/patterns-light-workspace.png)
 ![Dark workspace](media/patterns-dark-workspace.png)
-![Light mobile evidence](media/patterns-light-mobile.png)
-![Dark mobile evidence](media/patterns-dark-mobile.png)
+![Light mobile details](media/patterns-light-mobile.png)
+![Dark mobile details](media/patterns-dark-mobile.png)
 
-Browser validation used Chromium; Safari/Firefox and physical mobile devices were not tested. Existing corpus coverage and dense-graph label limits are unchanged. These changes do not deploy or merge the redesign branch into production.
+Browser validation used Chromium; Safari/Firefox and physical mobile devices were not tested. Existing corpus coverage and dense-graph label limits are unchanged. Deployment status is tracked separately from this local visual validation.

@@ -33,6 +33,8 @@ import {
   returnToMap,
 } from "./controller";
 setupTheme(() => graph.refreshTheme());
+// Font loading changes measured label widths; refresh once without moving nodes.
+void document.fonts.ready.then(() => graph.refreshTheme());
 let brushed: string[] = [];
 graph.onBrush = (ids) => {
   brushed = ids;

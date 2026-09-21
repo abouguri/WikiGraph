@@ -72,7 +72,7 @@ export function renderEntity(
     panel.append(
       element("p", "Authored teaching entity · synthetic source", "hint"),
     );
-  if (node.similarity !== undefined)
+  if (node.similarity !== undefined && !node.is_origin)
     panel.append(
       element(
         "p",

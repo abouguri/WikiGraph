@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/space-grotesk.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Newsreader";
+  src: url("/newsreader.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
 /* Semantic colors are shared by CSS surfaces and the Canvas renderer. */
 :root {
+  --font-ui: "Space Grotesk", system-ui, sans-serif;
+  --font-display: "Newsreader", Georgia, serif;
   color-scheme: dark;
   --surface-shadow: 0 10px 30px #0002;
   --canvas: #0c1017;

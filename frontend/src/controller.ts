@@ -157,14 +157,14 @@ function render(reset = false) {
   const hidden = hiddenNodes();
   $("selection").textContent = state.origins.length
     ? state.origins.map(label).join(" + ")
-    : "A cosmos of connections";
+    : "Explore connections";
   $("counts").textContent =
-    `${state.nodes.size - hidden.size} / ${state.nodes.size} entities · ${visibleEdges().filter((e) => !hidden.has(e.subject) && !hidden.has(e.object)).length} connections`;
+    `${hidden.size ? `${state.nodes.size - hidden.size} / ` : ""}${state.nodes.size} entities · ${visibleEdges().filter((e) => !hidden.has(e.subject) && !hidden.has(e.object)).length} connections`;
   $("landing").hidden = state.origins.length > 0;
   $("origins").replaceChildren();
   for (const id of state.origins) {
     const chip = button(
-      `${label(id)} ×`,
+      state.origins.length === 1 ? "Remove origin ×" : `${label(id)} ×`,
       () => safe(() => buildMap(state.origins.filter((o) => o !== id))),
       "origin-chip",
     );
@@ -322,7 +322,7 @@ async function buildMap(origins: string[], remember = true) {
     state.expanded = [];
     render(true);
     syncURL();
-    message("Choose an origin to build a map.");
+    message("");
     return;
   }
   message("Building the map…");
@@ -340,7 +340,7 @@ async function buildMap(origins: string[], remember = true) {
     message(
       data.nodes.length <= ids.length
         ? "No similar entities found. Try another origin or expand its connections."
-        : `Map ready · ${state.nodes.size} entities. Similarity is structural, not a factual claim.${data.edges.length > LIMITS.edges ? " Showing the first 500 connections, with facts prioritized." : ""}`,
+        : `Map ready${data.edges.length > LIMITS.edges ? " · Showing 500 connections; facts first." : ""}`,
     );
   } finally {
     if (current === operation) $("graph-panel").removeAttribute("aria-busy");
@@ -790,7 +790,7 @@ async function load(restore = false) {
     }
   } else {
     render(true);
-    message("Choose an origin to build a map.");
+    message("");
   }
   syncURL();
 }
